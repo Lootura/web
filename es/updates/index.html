@@ -1,0 +1,712 @@
+<!DOCTYPE html><html lang="es" data-astro-cid-sckkx6r4> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0a0a0a"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Lootura"><meta name="generator" content="Astro v6.1.8"><title>Lo nuevo | Lootura</title><link rel="canonical" href="https://lootura.com/es/updates/"><link rel="alternate" hreflang="es-ES" href="https://lootura.com/es/updates/"><link rel="alternate" hreflang="en-US" href="https://lootura.com/us/updates/"><link rel="alternate" hreflang="en-ZA" href="https://lootura.com/za/updates/"><link rel="alternate" hreflang="es-MX" href="https://lootura.com/mx/updates/"><link rel="alternate" hreflang="es-AR" href="https://lootura.com/ar/updates/"><link rel="alternate" hreflang="ja-JP" href="https://lootura.com/jp/updates/"><link rel="alternate" hreflang="x-default" href="https://lootura.com/"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://lootura.com/#organization","name":"Lootura","url":"https://lootura.com","logo":"https://lootura.com/favicon.svg"},{"@type":"WebSite","@id":"https://lootura.com/#website","name":"Lootura","url":"https://lootura.com","description":"Lootura is a quiet news and signal reader that turns live headlines from real sources into finite regional covers and evidence-backed signals.","publisher":{"@id":"https://lootura.com/#organization"},"inLanguage":["es","en","ja"]},{"@type":"WebApplication","@id":"https://lootura.com/#app","name":"Lootura","url":"https://lootura.com","description":"Lootura is a quiet news and signal reader that turns live headlines from real sources into finite regional covers and evidence-backed signals.","applicationCategory":"NewsApplication","operatingSystem":"Any","isAccessibleForFree":true,"publisher":{"@id":"https://lootura.com/#organization"}}]}</script><style>
+			html,
+			body {
+				margin: 0;
+				width: 100%;
+				min-height: 100%;
+				background: #0a0a0a;
+				color-scheme: light;
+			}
+		</style> <meta name="description" content="Historial de cambios de Lootura: Signal, portada de noticias, ediciones, Labs y PWA."> <meta property="og:type" content="website"> <meta property="og:site_name" content="Lootura"> <meta property="og:title" content="Lo nuevo | Lootura"> <meta property="og:description" content="Historial de cambios de Lootura: Signal, portada de noticias, ediciones, Labs y PWA."> <meta property="og:url" content="https://lootura.com/es/updates/"> <meta name="twitter:card" content="summary"> <script>(function(){const supportedLocales = ["es","us","za","mx","ar","jp"];
+const editionAliases = {"es":"es","spain":"es","us":"us","usa":"us","united-states":"us","za":"za","south-africa":"za","south_africa":"za","south africa":"za","mx":"mx","mexico":"mx","méxico":"mx","ar":"ar","argentina":"ar","jp":"jp","japan":"jp","japon":"jp","japón":"jp","nihon":"jp","nippon":"jp"};
+
+			(() => {
+				const cleanupVersionKey = 'lootura:storage-cleanup-version';
+				const cleanupVersion = '2026-05-18-editions-config';
+				const maxSeenNewsItems = 600;
+				const seenNewsLifetimeMs = 30 * 24 * 60 * 60 * 1000;
+				const editionPattern = supportedLocales.map((edition) => edition.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+				const allowedEditionIds = new Set(supportedLocales);
+				const booleanKeys = new Set([
+					'lootura:browser-intro-seen',
+					'lootura:editions-promo-seen',
+					'lootura:install-accepted',
+					'lootura:signal:intro-any-seen',
+					'lootura:signal:install-nudge-dismissed:v1',
+					'lootura:signal:install-nudge-ready:v1',
+					'lootura:swipe-hint-seen',
+				]);
+				const numberKeys = new Set([
+					'lootura:signal:browser-open-count:v1',
+					'lootura:signal:install-nudge-dismiss-count:v1',
+				]);
+				const dateKeys = new Set([
+					'lootura:install-gate-action-at',
+					'lootura:install-gate-seen-at',
+					'lootura:last-active-at',
+				]);
+				const allowedExactKeys = new Set([
+					cleanupVersionKey,
+					'lootura.preferences.v1',
+					'lootura:editorial',
+					'lootura:app-release:last-seen-build',
+					'lootura:app-release:last-seen-version',
+					'lootura:app-release:snoozed-until',
+					'lootura:refresh-at-launch',
+					'lootura:seen-news:v1',
+					'lootura:updates:last-seen-version',
+					...booleanKeys,
+					...numberKeys,
+					...dateKeys,
+				]);
+				const allowedPatternKeys = [
+					new RegExp(`^lootura:calm-mode:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:saved-stories:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:signal:intro:v1:(${editionPattern}|global)$`),
+					new RegExp(`^lootura:signal:seen:v1:(${editionPattern}|global)$`),
+				];
+
+				const isValidDate = (value) => Number.isFinite(new Date(value || '').getTime());
+				const removeItem = (key) => localStorage.removeItem(key);
+				const writeJson = (key, value) => localStorage.setItem(key, JSON.stringify(value));
+				const isAllowedLooturaKey = (key) =>
+					allowedExactKeys.has(key) || allowedPatternKeys.some((pattern) => pattern.test(key));
+
+				const compactSeenNews = (key) => {
+					const value = localStorage.getItem(key);
+					const seen = JSON.parse(value || '{}');
+					const now = Date.now();
+					const entries = Array.isArray(seen)
+						? seen.map((id) => [id, now])
+						: Object.entries(seen || {});
+					const compactSeen = Object.fromEntries(
+						entries
+							.map(([id, firstSeenAt]) => [String(id || ''), Number(firstSeenAt)])
+							.filter(
+								([id, firstSeenAt]) =>
+									id &&
+									Number.isFinite(Number(firstSeenAt)) &&
+									now - Number(firstSeenAt) < seenNewsLifetimeMs,
+							)
+							.sort(([, firstSeenAt], [, secondSeenAt]) => Number(secondSeenAt) - Number(firstSeenAt))
+							.slice(0, maxSeenNewsItems),
+					);
+					writeJson(key, compactSeen);
+				};
+
+				try {
+					if (localStorage.getItem(cleanupVersionKey) === cleanupVersion) return;
+
+					for (const key of Object.keys(localStorage)) {
+						if (!key.startsWith('lootura:')) continue;
+
+						try {
+							const value = localStorage.getItem(key) || '';
+							if (!isAllowedLooturaKey(key)) {
+								removeItem(key);
+							} else if (key === 'lootura:editorial' && !allowedEditionIds.has(value)) {
+								removeItem(key);
+							} else if (key === 'lootura:seen-news:v1') {
+								compactSeenNews(key);
+							} else if (booleanKeys.has(key) && value !== 'true') {
+								removeItem(key);
+							} else if (numberKeys.has(key) && !Number.isFinite(Number(value))) {
+								removeItem(key);
+							} else if (dateKeys.has(key) && !isValidDate(value)) {
+								removeItem(key);
+							}
+						} catch {
+							removeItem(key);
+						}
+					}
+
+					localStorage.setItem(cleanupVersionKey, cleanupVersion);
+				} catch {
+					// Storage can be unavailable in restrictive browser modes.
+				}
+			})();
+		})();</script><script type="module">(()=>{const e=window.matchMedia("(display-mode: standalone)").matches||window.matchMedia("(display-mode: fullscreen)").matches||window.matchMedia("(display-mode: minimal-ui)").matches||window.navigator.standalone||document.referrer.startsWith("android-app://")||sessionStorage.getItem("lootura:pwa-dev-override")==="true";document.documentElement.classList.toggle("pwa-runtime",!!e)})();</script><script type="module">document.documentElement.style.colorScheme="light";</script><script defer src="https://cloud.umami.is/script.js" data-website-id="1e408cbd-a16c-43ee-b404-35aa97b38c93"></script><link rel="stylesheet" href="/_astro/Layout.BgXvolpK.css"></head> <body data-astro-cid-sckkx6r4>   <div data-desktop-landing class="desktop-gate:block hidden relative min-h-svh overflow-hidden bg-neutral-950 text-white opacity-0 transition-opacity duration-300" data-desktop-cover-count="1"> <div class="absolute inset-0"> <div data-desktop-cover-backdrop class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.16),_transparent_38%),linear-gradient(180deg,_rgba(5,5,6,0.08)_0%,_rgba(5,5,6,0.48)_42%,_rgba(5,5,6,0.88)_100%)]"></div> <div data-desktop-cover-card class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.14),transparent_30%),radial-gradient(circle_at_80%_30%,rgba(255,255,255,0.1),transparent_26%),linear-gradient(135deg,#171717_0%,#050505_56%,#101114_100%)]"></div> <div class="absolute inset-0 bg-black/34"></div> <div class="absolute inset-0 bg-gradient-to-b from-black/8 via-black/22 to-black/78"></div> </div> <header class="absolute inset-x-0 top-0 z-20 border-b border-white/10 bg-black/12 backdrop-blur-xl"> <div class="mx-auto flex h-16 w-full items-center gap-4 px-4 sm:px-6 lg:px-8"> <a href="/" class="inline-flex items-center gap-3 text-sm font-semibold uppercase tracking-[0.34em] text-white/92" aria-label="Lootura home"> <span class="h-2.5 w-2.5 rounded-full bg-lime-300 shadow-[0_0_18px_rgba(163,230,53,0.78)]"></span> <span>Lootura</span> </a> <div class="flex-1"></div> <a href="https://atlas.lootura.com" class="inline-flex items-center gap-2 rounded-full border border-white/14 bg-white/8 px-3 py-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.28em] text-white/84 transition hover:border-white/24 hover:bg-white/12 focus:outline-none focus:ring-2 focus:ring-white/30" aria-label="Try Atlas in English" data-desktop-atlas-link>
+Try Atlas
+</a> </div> </header> <main class="relative z-10 flex min-h-svh items-center pb-28 sm:pb-32 lg:pb-36"> <div class="mx-auto w-full max-w-6xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28"> <div class="mx-auto max-w-2xl text-center"> <h1 data-desktop-cover-title class="mx-auto max-w-3xl text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">Noticias reales, reunidas en una sola portada</h1> <p data-desktop-cover-summary class="mx-auto mt-3 max-w-xl text-sm leading-6 text-white/68 sm:text-base sm:leading-7"> Lootura convierte la actualidad en una lectura tranquila, finita y enfocada para entender qué está pasando sin ruido. </p> </div> </div> </main> <div data-desktop-mobile-banner class="absolute inset-x-0 bottom-5 z-20 px-4 text-center sm:bottom-6 sm:px-6 lg:bottom-8 lg:px-8"> <p class="mx-auto max-w-4xl text-xs font-medium tracking-[0.18em] text-white/55 sm:text-sm lg:text-base"> Abre esta portada en tu móvil </p> </div> </div> <script>(function(){const renderedCovers = [{"id":"lootura-es-fallback","title":"Lootura","summary":"Portada en directo","image":""}];
+
+	const root = document.querySelector('[data-desktop-landing]');
+	if (!root) {
+		return;
+	}
+
+	const cards = Array.from(root.querySelectorAll('[data-desktop-cover-card]'));
+	const backdrop = root.querySelector('[data-desktop-cover-backdrop]');
+	const lastCoverIndexKey = 'lootura:desktop:last-cover-index';
+
+	const applyCover = (index) => {
+		const safeIndex = Number.isFinite(index) && index >= 0 && index < renderedCovers.length ? index : 0;
+		const cover = renderedCovers[safeIndex] || renderedCovers[0];
+
+		cards.forEach((card, cardIndex) => {
+			card.hidden = cardIndex !== safeIndex;
+		});
+
+		if (backdrop) {
+			backdrop.dataset.desktopCoverImage = cover?.image || '';
+		}
+
+		try {
+			sessionStorage.setItem(lastCoverIndexKey, String(safeIndex));
+		} catch {}
+	};
+
+	const pickRandomCoverIndex = () => {
+		if (cards.length <= 1) return 0;
+
+		let lastIndex = -1;
+		try {
+			lastIndex = Number.parseInt(sessionStorage.getItem(lastCoverIndexKey) || '', 10);
+		} catch {}
+
+		const candidates = cards.map((_, index) => index).filter((index) => index !== lastIndex);
+		const pool = candidates.length > 0 ? candidates : cards.map((_, index) => index);
+		const randomValue = window.crypto?.getRandomValues ? window.crypto.getRandomValues(new Uint32Array(1))[0] : Math.floor(Math.random() * Number.MAX_SAFE_INTEGER);
+		return pool[randomValue % pool.length];
+	};
+
+	applyCover(pickRandomCoverIndex());
+
+	root.classList.add('opacity-100');
+})();</script> <main class="min-h-svh bg-white text-neutral-950 desktop-gate:hidden dark:bg-neutral-950 dark:text-white"> <header class="safe-top-header sticky top-0 z-50 border-b border-neutral-950/10 bg-white/78 px-4 backdrop-blur-md sm:px-6 dark:border-white/10 dark:bg-neutral-950/78"> <div class="mx-auto flex h-16 w-full items-center gap-4 max-w-3xl"> <a class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-neutral-950 transition hover:bg-neutral-950/6 focus:outline-none focus:ring-2 focus:ring-neutral-950 dark:text-white dark:hover:bg-white/10 dark:focus:ring-white" href="/es/?menu=1" aria-label="Volver al menú" data-updates-menu-back> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-arrow-left"> <path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path>  </svg> </a> <p class="min-w-0 flex-1 truncate text-center text-sm font-medium uppercase tracking-normal text-neutral-500 dark:text-white/48" data-page-topbar-title>Lo nuevo</p> <div class="flex items-center gap-2"> <span class="h-10 w-10 shrink-0" aria-hidden="true"></span> <a class="inline-flex min-h-9 items-center gap-2 rounded-full border border-neutral-950/10 bg-white px-3.5 text-xs font-semibold uppercase tracking-[0.24em] text-neutral-900 shadow-[0_8px_20px_rgba(10,10,10,0.08)] transition hover:border-neutral-950/20 hover:bg-neutral-50 focus:outline-none focus:ring-2 focus:ring-neutral-900/20 dark:border-white/10 dark:bg-neutral-950 dark:text-white dark:hover:border-white/20 dark:hover:bg-neutral-900" href="https://atlas.lootura.com" aria-label="Try Atlas in English" data-atlas-link>
+Try Atlas
+</a> </div> </div> </header> <div class="mx-auto w-full max-w-3xl px-6 pb-16 pt-12 sm:px-8 lg:px-10"> <section class="relative"> <article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.14.1" data-update-title="Signal dentro de Atlas"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 -top-32 h-[calc(100%+8rem)]"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-07-10"> 2026-07-10 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.14.1</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Signal dentro de Atlas</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Atlas incorpora una vista interna y no indexable de Signal con un ranking de movimientos, coberturas de apoyo y entidades enlazadas.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.14.0" data-update-title="Atlas conectado con Signal"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-07-10"> 2026-07-10 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.14.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Atlas conectado con Signal</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Atlas ahora utiliza los eventos agrupados y contrastados por varias fuentes en Signal para descubrir entidades y conectar coberturas relacionadas, manteniendo sus controles de calidad antes de publicar.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.13.2" data-update-title="Publicación técnica del atlas"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-07-08"> 2026-07-08 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.13.2</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Publicación técnica del atlas</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Se confirma el despliegue en formato completo: cada ejecución de publicación reconstruye y publica todo el `dist`, aunque solo cambien archivos de señales o atlas.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.13.1" data-update-title="Atlas de señales más estable"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-07-08"> 2026-07-08 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.13.1</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Atlas de señales más estable</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Hemos mejorado la persistencia de entidades de Radar para que no se pierdan con cambios de titulares, y añadimos un histórico compacto de su actividad.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.13.0" data-update-title="Imágenes más resistentes"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-07-04"> 2026-07-04 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.13.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Imágenes más resistentes</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura mejora cómo extrae, valida y recupera imágenes para que una fuente con metadatos incompletos no deje tarjetas rotas.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.12.0" data-update-title="Brief compacto y señales más limpias"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-07-04"> 2026-07-04 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.12.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Brief compacto y señales más limpias</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura añade una lectura compacta de señales por edición dentro de la app, reutiliza la misma lógica en la extensión de Chrome y pule cómo se muestran titulares, imágenes y portada de Signal.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.11.0" data-update-title="Lab de señales entre ediciones"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-05-23"> 2026-05-23 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.11.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Lab de señales entre ediciones</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura estrena un lab para ver qué señales de una edición también están siendo tratadas por medios de otras ediciones.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.10.0" data-update-title="Señales con mejor criterio"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-05-20"> 2026-05-20 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.10.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Señales con mejor criterio</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura cambia cómo agrupa titulares para detectar mejor cuándo varias fuentes hablan de la misma historia y cuándo solo comparten una palabra.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.9.0" data-update-title="Ediciones y Labs más limpios"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-05-18"> 2026-05-18 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.9.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Ediciones y Labs más limpios</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura ordena la expansión de ediciones, añade Japón como edición propia y reduce Labs a los experimentos que más aportan.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.8.0" data-update-title="Tres ediciones nuevas"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-05-18"> 2026-05-18 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.8.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Tres ediciones nuevas</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura añade South Africa, México y Argentina como ediciones reales, con feeds, Signal, Labs y procesos operativos propios.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.7.0" data-update-title="Original más claro"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-05-17"> 2026-05-17 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.7.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Original más claro</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura simplifica la lectura de cada tarjeta y mantiene el artículo original como destino principal.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.6.0" data-update-title="Firmas en movimiento"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-05-16"> 2026-05-16 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.6.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Firmas en movimiento</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura empieza a leer la actividad editorial por autores: quién firma más piezas recientes y cuándo una firma aporta una señal útil.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.5.0" data-update-title="Labs, pistas y arranque PWA"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-05-16"> 2026-05-16 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.5.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Labs, pistas y arranque PWA</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura estrena Labs como zona de experimentos funcionales, conecta algunas pistas con el feed y mejora el arranque de la app instalada.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.4.0" data-update-title="Portada de noticias y Signal separado"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-05-14"> 2026-05-14 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.4.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Portada de noticias y Signal separado</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura recupera la portada de titulares navegables y mueve Signal a su propia sección, con palabras seguidas en una pantalla aparte.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.3.0" data-update-title="Titulares navegables en portada"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-05-10"> 2026-05-10 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.3.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Titulares navegables en portada</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">La señal principal de portada permite recorrer sus titulares relacionados para leer mejor cómo se está contando el mismo movimiento.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.2.0" data-update-title="Señales que aguantan"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-05-10"> 2026-05-10 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.2.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Señales que aguantan</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura añade una lectura para las señales que siguen vivas después de 24 horas, sin mezclarla con la portada principal.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.1.0" data-update-title="IA Signal por lotes"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-05-02"> 2026-05-02 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.1.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">IA Signal por lotes</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura añade un enriquecimiento opcional para mejorar titulares y señales sin llamadas en runtime.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="1.0.0" data-update-title="Lootura pasa a portadas de señales"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-05-01"> 2026-05-01 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v1.0.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Lootura pasa a portadas de señales</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura queda centrada en tres portadas vivas para entender qué está pasando, qué está subiendo y qué está bajando.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.23.0" data-update-title="Radar con control de gasto"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-30"> 2026-04-30 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.23.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Radar con control de gasto</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura prepara una mejora opcional para que Radar nombre mejor los temas importantes sin perder control: se puede probar sin coste, limitar el gasto y ver el consumo desde Operación.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.22.0" data-update-title="Radar sigue tus señales"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-28"> 2026-04-28 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.22.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Radar sigue tus señales</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Radar gana una pestaña exclusiva de la PWA para las palabras que sigues: busca coincidencias en noticias recientes, las ordena con lo último arriba y las deja caer como máximo a los siete días.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.21.0" data-update-title="Ediciones como superficie de control"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-28"> 2026-04-28 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.21.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Ediciones como superficie de control</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Ediciones deja de ser solo un selector: en la PWA ahora sirve para elegir la señal base, decidir qué categorías entran y seguir palabras que deben destacar.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.20.1" data-update-title="Compartir desde el feed"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-28"> 2026-04-28 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.20.1</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Compartir desde el feed</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Las noticias ya se pueden compartir directamente desde el feed. Lootura genera un enlace preservado para que la historia abra aunque el directo cambie despues.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.20.0" data-update-title="Compartir sin depender del directo"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-27"> 2026-04-27 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.20.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Compartir sin depender del directo</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura estrena enlaces compartidos por snapshot: cada noticia o cluster Radar viaja con los datos mínimos dentro de la URL, así el enlace sigue abriendo aunque el directo haya cambiado.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.19.0" data-update-title="Mi Lootura en pestañas"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-27"> 2026-04-27 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.19.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Mi Lootura en pestañas</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Mi Lootura se organiza en pestañas para separar guardadas, silencios y afinidades. La papelera ahora pide confirmación antes de vaciar las noticias guardadas.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.18.0" data-update-title="Fetch más resistente"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-27"> 2026-04-27 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.18.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Fetch más resistente</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">El pipeline de fuentes es más prudente cuando un RSS falla: guarda caché útil, aplica cooldowns por estado HTTP y enseña en Quality si una fuente está en baja salida o bloqueada con errores como HTTP 403.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.17.0" data-update-title="Reddit en Radar US"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-27"> 2026-04-27 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.17.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Reddit en Radar US</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Radar en la edición US suma hilos de Reddit relacionados dentro de los temas ya detectados por medios, sin contar como fuente ni alterar los umbrales editoriales.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.16.0" data-update-title="Stackroom"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-27"> 2026-04-27 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.16.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Stackroom</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lo nuevo gana una puerta técnica a Stackroom: una sección interna para entender cómo está montado Lootura por detrás, desde los feeds y el pipeline hasta Radar, PWA, calidad y publicación.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.15.0" data-update-title="Modo calma desde el menú"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-27"> 2026-04-27 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.15.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Modo calma desde el menú</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Modo calma pasa a ser un ajuste rápido del menú, al mismo nivel que el modo oscuro. Filtra ruido de última hora, directos y política repetitiva sin cambiar de edición.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.14.0" data-update-title="Mi Lootura"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-27"> 2026-04-27 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.14.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Mi Lootura</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Guardadas evoluciona a Mi Lootura: una pantalla local para revisar noticias guardadas, fuentes silenciadas y señales de interés que el usuario puede quitar cuando quiera.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.13.0" data-update-title="Gestos para ajustar el feed"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-27"> 2026-04-27 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.13.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Gestos para ajustar el feed</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">La PWA gana gestos laterales: deslizar a la izquierda enseña a Lootura que quieres más noticias parecidas, y deslizar a la derecha silencia la fuente durante 24 horas.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.12.0" data-update-title="Onboarding de gestos en PWA"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-27"> 2026-04-27 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.12.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Onboarding de gestos en PWA</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">La PWA explica los gestos laterales con una sheet ligera tipo aviso local. Aparece una sola vez y no ocupa una tarjeta grande dentro del feed.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.11.0" data-update-title="Qué cambió desde la última vez"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-27"> 2026-04-27 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.11.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Qué cambió desde la última vez</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">La PWA muestra un resumen de vuelta cuando el usuario regresa tras un tiempo: noticias nuevas, cambios en Radar y alertas fuertes, con opción de continuar, verlo la próxima vez o desactivarlo.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.10.0" data-update-title="Lectura de confianza"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-27"> 2026-04-27 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.10.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Lectura de confianza</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Las noticias muestran una etiqueta discreta de salud de fuente justo encima de la línea de autor, medio y tiempo. Usa el estado del feed para diferenciar fuentes estables e intermitentes.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.9.0" data-update-title="Guardadas con caducidad"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-26"> 2026-04-26 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.9.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Guardadas con caducidad</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">La pantalla de guardadas adopta la misma estructura visual que About, Radar y Updates. Las noticias guardadas ahora duran 15 días y se limpian automáticamente para mantener la lista fresca.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.8.0" data-update-title="Status con revisión de calidad"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-26"> 2026-04-26 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.8.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Status con revisión de calidad</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Status gana una pestaña de calidad para revisar Radar, fuentes débiles y términos ruido sin salir de la pantalla interna. También se añade validación de datos y checks al pipeline.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.7.0" data-update-title="Efeméride global"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-26"> 2026-04-26 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.7.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Efeméride global</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura puede insertar una sola efeméride mundial cuando la fecha lo merece. La selección combina overrides editoriales con Wikipedia y se salta el día si no hay una señal histórica suficientemente fuerte.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.6.0" data-update-title="Alerta Radar"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-26"> 2026-04-26 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.6.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Alerta Radar</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Radar ahora destaca las noticias que concentran muchas fuentes en poco tiempo. Cuando una historia se acelera de verdad, aparece como una señal especial dentro del radar de editoriales.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.5.0" data-update-title="Modo oscuro en toda la app"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-25"> 2026-04-25 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.5.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Modo oscuro en toda la app</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lootura ahora respeta el modo del dispositivo y permite cambiarlo desde el menú. Radar, About, Updates y Status se han ajustado para que el contraste funcione mejor en oscuro.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.4.0" data-update-title="Radar más estricto y más útil"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-25"> 2026-04-25 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.4.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Radar más estricto y más útil</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Radar ahora separa mejor mercados, exige señales más consistentes y evita enseñar agrupaciones flojas. Menos ruido, más sensación de que varios medios están hablando realmente de lo mismo.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.3.0" data-update-title="Radar encendido"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-23"> 2026-04-23 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.3.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Radar encendido</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Ahora Lootura mira el ruido de fondo y agrupa las señales que más se repiten. Menos titulares sueltos, más sensación de qué está pasando.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.2.0" data-update-title="Más mundo en el feed"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-23"> 2026-04-23 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.2.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Más mundo en el feed</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">El feed se abre a nuevas fuentes, mezcla mejor las noticias y suma pequeñas cápsulas editoriales para cada visita.</p> </article><article class="relative pb-12 pl-6 last:pb-0" data-update-item data-update-version="0.1.0" data-update-title="Primer prototipo del feed"> <span class="absolute -left-px w-px bg-neutral-200 dark:bg-white/12 top-1 h-full"></span> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <div class="flex flex-wrap items-center gap-x-3 gap-y-1"> <time class="text-sm text-neutral-500 dark:text-white/48" datetime="2026-04-22"> 2026-04-22 </time> <span class="text-sm font-semibold text-neutral-950 dark:text-white">v0.1.0</span> </div> <h2 class="mt-3 text-xl font-semibold leading-tight text-neutral-950 dark:text-white">Primer prototipo del feed</h2> <p class="mt-3 max-w-xl text-base leading-7 text-neutral-600 dark:text-white/64">Lanzamos la primera prueba del feed vertical con noticias a pantalla completa, navegacion por swipe y datos cargados desde un JSON local.</p> </article> <article class="relative pl-6"> <span class="absolute -left-[5px] top-1 h-2.5 w-2.5 rounded-full bg-neutral-950 dark:bg-white"></span> <p class="text-sm leading-5 text-neutral-500 dark:text-white/48"> Un viaje de mil millas empieza con un paso. </p> </article> </section> </div> </main>  <section class="fixed inset-x-4 bottom-[calc(env(safe-area-inset-bottom,0px)+1rem)] z-[60] mx-auto max-w-sm border border-neutral-200 bg-white p-4 text-neutral-950 shadow-[0_18px_55px_rgba(10,10,10,0.16)] sm:inset-x-auto sm:right-6 sm:max-w-md" data-release-notice hidden role="status" aria-live="polite" aria-hidden="true" data-astro-cid-sckkx6r4> <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-neutral-500" data-release-eyebrow data-astro-cid-sckkx6r4> Nueva versión </p> <h2 class="mt-2 text-xl font-semibold leading-tight text-neutral-950" data-release-title data-astro-cid-sckkx6r4> Hay algo nuevo en Lootura </h2> <p class="mt-2 text-sm leading-6 text-neutral-600" data-release-body data-astro-cid-sckkx6r4> La app se ha actualizado. Puedes seguir leyendo o ver los cambios. </p> <div class="mt-4 flex flex-wrap items-center gap-3" data-astro-cid-sckkx6r4> <button class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" type="button" data-release-refresh hidden data-astro-cid-sckkx6r4> Actualizar </button> <a class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" href="/updates" data-release-updates data-astro-cid-sckkx6r4> Ver novedades </a> <button class="inline-flex min-h-11 items-center justify-center border border-neutral-200 bg-white px-4 text-sm font-semibold text-neutral-700" type="button" data-release-dismiss data-astro-cid-sckkx6r4> Ahora no </button> </div> </section>  <script>(function(){const baseUrl = "/";
+const isProduction = true;
+const currentAppBuild = {"version":"1.13.0","build":895001};
+
+	const pwaDevOverrideKey = 'lootura:pwa-dev-override';
+	const getIsPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+	const applyPwaRuntime = () => {
+		const isPwaRuntime = Boolean(getIsPwaRuntime());
+		document.documentElement.classList.toggle('pwa-runtime', isPwaRuntime);
+		window.dispatchEvent(new CustomEvent('lootura:pwa-runtime-changed', { detail: { isPwaRuntime } }));
+		return isPwaRuntime;
+	};
+
+	if (!isProduction) {
+		const params = new URLSearchParams(window.location.search);
+		const pwaOverride = params.get('pwa');
+		if (pwaOverride === '1' || pwaOverride === '0') {
+			if (pwaOverride === '1') {
+				sessionStorage.setItem(pwaDevOverrideKey, 'true');
+			} else {
+				sessionStorage.removeItem(pwaDevOverrideKey);
+			}
+			const cleanUrl = new URL(window.location.href);
+			cleanUrl.searchParams.delete('pwa');
+			window.history.replaceState({}, '', cleanUrl);
+		}
+	}
+	applyPwaRuntime();
+
+	if (!isProduction) {
+		const devModeOptions = Array.from(document.querySelectorAll('[data-dev-pwa-mode-option]'));
+		const syncDevModeOptions = () => {
+			const mode = sessionStorage.getItem(pwaDevOverrideKey) === 'true' ? 'pwa' : 'page';
+			devModeOptions.forEach((option) => {
+				option.checked = option.value === mode;
+			});
+		};
+		devModeOptions.forEach((option) => {
+			option.addEventListener('change', () => {
+				if (option.value === 'pwa') {
+					sessionStorage.setItem(pwaDevOverrideKey, 'true');
+				} else {
+					sessionStorage.removeItem(pwaDevOverrideKey);
+				}
+				applyPwaRuntime();
+				syncDevModeOptions();
+			});
+		});
+		syncDevModeOptions();
+	}
+
+	document.documentElement.classList.remove('dark');
+	document.documentElement.style.colorScheme = 'light';
+
+	const getAbsoluteImageUrl = (value) => {
+		try {
+			return new URL(value || '', document.baseURI).href;
+		} catch {
+			return '';
+		}
+	};
+
+	const getImageFallbackCandidates = (image) => [
+		image.dataset.fallbackImage || image.dataset.fallbackBackground || '',
+		image.dataset.finalFallbackImage || '',
+	].filter(Boolean);
+
+	const revealAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		if (!image.matches('[data-app-image], [data-news-image]')) return;
+		image.dataset.loaded = 'true';
+		image.dataset.imageError = 'false';
+	};
+
+	const recoverAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		const candidates = getImageFallbackCandidates(image);
+		const currentUrl = image.currentSrc || image.src || '';
+		const nextFallback = candidates.find((candidate) => {
+			const fallbackUrl = getAbsoluteImageUrl(candidate);
+			return fallbackUrl && fallbackUrl !== currentUrl;
+		});
+
+		if (nextFallback) {
+			image.dataset.imageRecovered = 'true';
+			image.dataset.loaded = 'false';
+			image.src = nextFallback;
+			return;
+		}
+
+		if (image.hasAttribute('data-remove-on-error')) {
+			image.remove();
+			return;
+		}
+
+		image.dataset.imageError = 'true';
+	};
+
+	document.addEventListener('load', (event) => revealAppImage(event.target), true);
+	document.addEventListener('error', (event) => recoverAppImage(event.target), true);
+	for (const image of document.querySelectorAll('img[data-app-image], img[data-news-image]')) {
+		if (!(image instanceof HTMLImageElement) || !image.complete) continue;
+		if (image.naturalWidth > 0) {
+			revealAppImage(image);
+		} else {
+			recoverAppImage(image);
+		}
+	}
+
+	const isLooturaPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+
+	const releaseSeenBuildKey = 'lootura:app-release:last-seen-build';
+	const releaseSeenVersionKey = 'lootura:app-release:last-seen-version';
+	const releaseSnoozedUntilKey = 'lootura:app-release:snoozed-until';
+	const updatesSeenVersionKey = 'lootura:updates:last-seen-version';
+	const releasePendingKey = 'lootura:release-notice:pending';
+	const refreshAtLaunchKey = 'lootura:refresh-at-launch';
+	const releaseNotice = document.querySelector('[data-release-notice]');
+	const releaseEyebrow = releaseNotice?.querySelector('[data-release-eyebrow]');
+	const releaseTitle = releaseNotice?.querySelector('[data-release-title]');
+	const releaseBody = releaseNotice?.querySelector('[data-release-body]');
+	const releaseRefreshButton = releaseNotice?.querySelector('[data-release-refresh]');
+	const releaseUpdatesLink = releaseNotice?.querySelector('[data-release-updates]');
+	const releaseDismissButton = releaseNotice?.querySelector('[data-release-dismiss]');
+	let releaseNoticeTimer = 0;
+	let lastPublishedBuild = null;
+	let isReloadingForUpdate = false;
+
+	const getBuildId = (build) => {
+		const version = String(build?.version || '').trim();
+		const number = Number(build?.build || 0);
+		return version && Number.isFinite(number) && number > 0 ? `${version}:${number}` : '';
+	};
+	const currentBuildId = getBuildId(currentAppBuild);
+	const currentVersion = String(currentAppBuild?.version || '').trim();
+
+	const getLastSeenReleaseVersion = () => {
+		try {
+			const releaseSeenVersion = localStorage.getItem(releaseSeenVersionKey) || '';
+			const updatesSeenVersion = localStorage.getItem(updatesSeenVersionKey) || '';
+			const legacySeenBuild = localStorage.getItem(releaseSeenBuildKey) || '';
+			const legacySeenVersion = legacySeenBuild.includes(':') ? legacySeenBuild.split(':')[0] : '';
+			return releaseSeenVersion || updatesSeenVersion || legacySeenVersion;
+		} catch {
+			return '';
+		}
+	};
+
+	const markReleaseVersionSeen = () => {
+		if (!currentVersion) return;
+		try {
+			localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			localStorage.setItem(updatesSeenVersionKey, currentVersion);
+			localStorage.removeItem(releaseSnoozedUntilKey);
+			sessionStorage.removeItem(releasePendingKey);
+		} catch {}
+	};
+
+	const getNextLocalDayIso = () => {
+		const now = new Date();
+		return new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).toISOString();
+	};
+
+	const snoozeReleaseNoticeUntilTomorrow = () => {
+		try {
+			localStorage.setItem(releaseSnoozedUntilKey, getNextLocalDayIso());
+		} catch {}
+	};
+
+	const isReleaseNoticeSnoozed = () => {
+		try {
+			const snoozedUntil = new Date(localStorage.getItem(releaseSnoozedUntilKey) || '').getTime();
+			return Number.isFinite(snoozedUntil) && snoozedUntil > Date.now();
+		} catch {
+			return false;
+		}
+	};
+
+	const getLocalizedUpdatesPath = () => {
+		const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+		const pathWithoutBase = window.location.pathname.startsWith(normalizedBaseUrl)
+			? window.location.pathname.slice(normalizedBaseUrl.length)
+			: window.location.pathname.replace(/^\//, '');
+		const firstSegment = pathWithoutBase.split('/').filter(Boolean)[0];
+		const locale = firstSegment === 'us' ? 'us' : 'es';
+		return `${normalizedBaseUrl}${locale}/updates`;
+	};
+
+	const rememberPendingRelease = (publishedBuild) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		try {
+			sessionStorage.setItem(
+				releasePendingKey,
+				JSON.stringify({
+					id: publishedBuildId,
+					version: String(publishedBuild?.version || ''),
+					build: Number(publishedBuild?.build || 0),
+				}),
+			);
+		} catch {}
+	};
+
+	const getPendingRelease = () => {
+		try {
+			const pendingRelease = JSON.parse(sessionStorage.getItem(releasePendingKey) || 'null');
+			return pendingRelease?.id === currentBuildId ? pendingRelease : null;
+		} catch {
+			return null;
+		}
+	};
+
+	const isReleaseNoticeBlocked = () =>
+		sessionStorage.getItem(refreshAtLaunchKey) === 'true' ||
+		Boolean(document.querySelector('[data-feed-refresh-overlay][data-visible]')) ||
+		Boolean(document.querySelector('[data-while-you-were-away-card][data-open="true"]')) ||
+		Boolean(document.querySelector('[data-signal-install-nudge]:not([hidden])')) ||
+		Boolean(document.querySelector('[role="dialog"][aria-modal="true"]:not([hidden]):not(.hidden):not([aria-hidden="true"])'));
+
+	const clearServiceWorkerCaches = async () => {
+		if (!window.caches?.keys) return;
+		const keys = await window.caches.keys();
+		await Promise.all(keys.filter((key) => key.startsWith('lootura-')).map((key) => window.caches.delete(key)));
+	};
+
+	const reloadForPublishedBuild = async () => {
+		if (isReloadingForUpdate) return;
+		isReloadingForUpdate = true;
+		try {
+			await clearServiceWorkerCaches();
+		} catch {}
+		window.location.reload();
+	};
+
+	const setReleaseNoticeMode = (mode) => {
+		const isSpanish = document.documentElement.lang?.startsWith('es');
+		const copy = mode === 'update'
+			? {
+					eyebrow: isSpanish ? 'Nueva versión disponible' : 'New version available',
+					title: isSpanish ? 'Actualiza Lootura' : 'Update Lootura',
+					body: isSpanish
+						? 'Hay una versión nueva lista. Actualiza la PWA para cargarla antes de ver las novedades.'
+						: 'A new version is ready. Update the PWA to load it before reading what changed.',
+				}
+			: {
+					eyebrow: isSpanish ? 'Nueva versión' : 'New version',
+					title: isSpanish ? 'Hay algo nuevo en Lootura' : 'Lootura has something new',
+					body: isSpanish
+						? 'La app se ha actualizado. Puedes seguir leyendo o ver los cambios.'
+						: 'The app was updated. Keep reading or see what changed.',
+				};
+
+		if (releaseEyebrow) releaseEyebrow.textContent = copy.eyebrow;
+		if (releaseTitle) releaseTitle.textContent = copy.title;
+		if (releaseBody) releaseBody.textContent = copy.body;
+		if (releaseRefreshButton) releaseRefreshButton.hidden = mode !== 'update';
+		if (releaseUpdatesLink) releaseUpdatesLink.hidden = mode === 'update';
+		if (releaseNotice) releaseNotice.dataset.mode = mode;
+	};
+
+	const hideReleaseNotice = () => {
+		window.clearTimeout(releaseNoticeTimer);
+		if (!releaseNotice) return;
+		releaseNotice.hidden = true;
+		releaseNotice.dataset.visible = 'false';
+		releaseNotice.setAttribute('aria-hidden', 'true');
+	};
+
+	const showReleaseNotice = (mode = 'notes') => {
+		if (!releaseNotice || !currentBuildId || !currentVersion || releaseNotice.dataset.visible === 'true') return;
+
+		if (mode === 'notes') {
+			try {
+				sessionStorage.removeItem(releasePendingKey);
+			} catch {}
+		}
+
+		setReleaseNoticeMode(mode);
+		releaseUpdatesLink?.setAttribute('href', getLocalizedUpdatesPath());
+		releaseNotice.hidden = false;
+		releaseNotice.dataset.visible = 'true';
+		releaseNotice.setAttribute('aria-hidden', 'false');
+		window.umami?.track?.('Show PWA release notice', { version: currentVersion, build: currentBuildId, mode });
+	};
+
+	const maybeShowReleaseNotice = (attempt = 0) => {
+		if (!isProduction || !currentBuildId || !currentVersion) return;
+
+		let lastSeenVersion = '';
+		try {
+			lastSeenVersion = getLastSeenReleaseVersion();
+		} catch {}
+
+		const pendingRelease = getPendingRelease();
+		const hasUnseenVersion = Boolean(lastSeenVersion && lastSeenVersion !== currentVersion);
+		const cameFromPendingRelease = Boolean(pendingRelease && pendingRelease.version === currentVersion);
+		const shouldShowReleaseNotice = cameFromPendingRelease || (hasUnseenVersion && (!pendingRelease || pendingRelease.version === currentVersion));
+
+		if (!lastSeenVersion && !pendingRelease) {
+			try {
+				localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			} catch {}
+			return;
+		}
+
+		if (!shouldShowReleaseNotice) return;
+		if (isReleaseNoticeSnoozed()) return;
+
+		if (!isLooturaPwaRuntime()) {
+			return;
+		}
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseNotice(attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice();
+	};
+
+	const maybeShowReleaseUpdateNotice = (publishedBuild, attempt = 0) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!isProduction || !publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		lastPublishedBuild = publishedBuild;
+		rememberPendingRelease(publishedBuild);
+
+		if (isReleaseNoticeSnoozed()) return;
+		if (!isLooturaPwaRuntime()) return;
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseUpdateNotice(publishedBuild, attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice('update');
+	};
+
+	releaseDismissButton?.addEventListener('click', () => {
+		snoozeReleaseNoticeUntilTomorrow();
+		hideReleaseNotice();
+	});
+	releaseRefreshButton?.addEventListener('click', () => {
+		const publishedBuild = lastPublishedBuild || getPendingRelease();
+		if (publishedBuild) rememberPendingRelease(publishedBuild);
+		reloadForPublishedBuild();
+	});
+	releaseUpdatesLink?.addEventListener('click', () => {
+		markReleaseVersionSeen();
+		hideReleaseNotice();
+	});
+	window.addEventListener('lootura:queue-refreshed', () => {
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+	window.addEventListener('lootura:pwa-runtime-changed', () => maybeShowReleaseNotice());
+	window.addEventListener('pageshow', () => maybeShowReleaseNotice());
+	document.addEventListener('visibilitychange', () => {
+		if (document.visibilityState === 'visible') maybeShowReleaseNotice();
+	});
+
+	const syncLooturaPwaRuntime = () => {
+		document.documentElement.classList.toggle('pwa-runtime', Boolean(isLooturaPwaRuntime()));
+	};
+
+	syncLooturaPwaRuntime();
+	window.addEventListener('appinstalled', syncLooturaPwaRuntime);
+	window.addEventListener('pageshow', syncLooturaPwaRuntime);
+	window.addEventListener('focus', syncLooturaPwaRuntime);
+
+	const detectLooturaClient = () => {
+		const userAgent = navigator.userAgent;
+		const isStandalone = isLooturaPwaRuntime();
+		const userAgentDataPlatform = navigator.userAgentData?.platform || '';
+		const legacyPlatform = navigator.platform || '';
+		const maxTouchPoints = navigator.maxTouchPoints || 0;
+		const platform = (() => {
+			if (/Android/i.test(userAgentDataPlatform) || /Android/i.test(userAgent)) return 'android';
+			if (/iPad|iPhone|iPod/i.test(userAgent) || /iPad|iPhone|iPod/i.test(legacyPlatform)) return 'ios';
+			if (/Mac/i.test(userAgentDataPlatform || legacyPlatform) && maxTouchPoints > 1) return 'ios';
+			return 'desktop';
+		})();
+		const browser = (() => {
+			if (/CriOS/i.test(userAgent)) return 'Chrome iOS';
+			if (/FxiOS/i.test(userAgent)) return 'Firefox iOS';
+			if (/EdgiOS/i.test(userAgent)) return 'Edge iOS';
+			if (/Edg/i.test(userAgent)) return 'Edge';
+			if (/OPR|Opera/i.test(userAgent)) return 'Opera';
+			if (/Chrome|Chromium|CriOS/i.test(userAgent)) return 'Chrome';
+			if (/Safari/i.test(userAgent)) return 'Safari';
+			if (/Firefox/i.test(userAgent)) return 'Firefox';
+			return 'Other';
+		})();
+
+		return {
+			appMode: isStandalone ? 'pwa' : 'browser',
+			platform,
+			browser,
+		};
+	};
+
+	const trackLooturaContext = (attempt = 0) => {
+		if (!window.umami) {
+			if (attempt < 20) window.setTimeout(() => trackLooturaContext(attempt + 1), 250);
+			return;
+		}
+
+		const context = detectLooturaClient();
+		window.looturaClient = context;
+		window.umami.identify?.(context);
+
+		const sessionKey = `lootura:context-tracked:${context.appMode}:${context.platform}:${context.browser}`;
+		if (!sessionStorage.getItem(sessionKey)) {
+			sessionStorage.setItem(sessionKey, 'true');
+			window.umami.track?.('App context', context);
+		}
+	};
+
+	const lockPortraitOrientation = async () => {
+		const orientationApi = screen.orientation;
+		if (!isLooturaPwaRuntime() || !orientationApi?.lock) return;
+
+		try {
+			await orientationApi.lock('portrait-primary');
+		} catch {
+			// iOS Safari and some browsers ignore orientation lock for web apps.
+		}
+	};
+
+	const enforcePortraitOrientation = () => {
+		lockPortraitOrientation();
+
+		window.addEventListener('focus', lockPortraitOrientation);
+		window.addEventListener('pageshow', lockPortraitOrientation);
+		window.addEventListener('orientationchange', lockPortraitOrientation);
+		screen.orientation?.addEventListener?.('change', lockPortraitOrientation);
+		document.addEventListener('visibilitychange', () => {
+			if (document.visibilityState === 'visible') lockPortraitOrientation();
+		});
+	};
+
+	if (!isProduction && 'serviceWorker' in navigator) {
+		navigator.serviceWorker.getRegistrations?.().then((registrations) => {
+			registrations.forEach((registration) => registration.unregister());
+		});
+	}
+
+	if (isProduction && 'serviceWorker' in navigator) {
+		window.addEventListener('load', () => {
+			const reloadForUpdate = () => {
+				if (isReloadingForUpdate) return;
+				isReloadingForUpdate = true;
+				window.location.reload();
+			};
+			const checkPublishedBuild = async () => {
+				try {
+					const response = await fetch(`${baseUrl}app-build.json?ts=${Date.now()}`, {
+						cache: 'no-store',
+						headers: { accept: 'application/json' },
+					});
+					if (!response.ok) return;
+					const publishedBuild = await response.json();
+					const publishedBuildId = getBuildId(publishedBuild);
+					if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+					maybeShowReleaseUpdateNotice(publishedBuild);
+				} catch {
+					// Update checks should never block normal reading.
+				}
+			};
+
+			navigator.serviceWorker.addEventListener('controllerchange', reloadForUpdate);
+
+			navigator.serviceWorker
+				.register(`${baseUrl}sw.js`, { updateViaCache: 'none' })
+				.then((registration) => {
+					const checkForUpdates = () => registration.update().catch(() => {});
+
+					checkForUpdates();
+					checkPublishedBuild();
+					window.setInterval(checkForUpdates, 60_000);
+					window.setInterval(checkPublishedBuild, 60_000);
+					window.addEventListener('focus', checkForUpdates);
+					window.addEventListener('focus', checkPublishedBuild);
+					document.addEventListener('visibilitychange', () => {
+						if (document.visibilityState === 'visible') {
+							checkForUpdates();
+							checkPublishedBuild();
+						}
+					});
+				})
+				.catch(() => {});
+		});
+	}
+
+	window.addEventListener('load', () => {
+		trackLooturaContext();
+		enforcePortraitOrientation();
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+})();</script></body></html> <script>(function(){const latestVersion = "1.14.1";
+
+	try {
+		if (latestVersion) localStorage.setItem('lootura:updates:last-seen-version', latestVersion);
+	} catch {}
+
+	const trackedUpdates = new Set();
+	const trackUpdate = (item) => {
+		const version = item.getAttribute('data-update-version') || '';
+		if (!version || trackedUpdates.has(version)) return;
+
+		trackedUpdates.add(version);
+		window.umami?.track?.('View update', {
+			version,
+			title: item.getAttribute('data-update-title') || '',
+		});
+	};
+
+	if ('IntersectionObserver' in window) {
+		const updateObserver = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) trackUpdate(entry.target);
+				});
+			},
+			{ threshold: 0.65 },
+		);
+
+		document.querySelectorAll('[data-update-item]').forEach((item) => updateObserver.observe(item));
+	} else {
+		document.querySelectorAll('[data-update-item]').forEach(trackUpdate);
+	}
+})();</script>

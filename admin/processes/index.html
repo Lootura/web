@@ -1,0 +1,662 @@
+<!DOCTYPE html><html lang="es" data-astro-cid-sckkx6r4> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0a0a0a"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Lootura"><meta name="generator" content="Astro v6.1.8"><meta name="robots" content="noindex,nofollow,noarchive"><title>Lootura Processes</title><style>
+			html,
+			body {
+				margin: 0;
+				width: 100%;
+				min-height: 100%;
+				background: #0a0a0a;
+				color-scheme: light;
+			}
+		</style><script>(function(){const supportedLocales = ["es","us","za","mx","ar","jp"];
+const editionAliases = {"es":"es","spain":"es","us":"us","usa":"us","united-states":"us","za":"za","south-africa":"za","south_africa":"za","south africa":"za","mx":"mx","mexico":"mx","méxico":"mx","ar":"ar","argentina":"ar","jp":"jp","japan":"jp","japon":"jp","japón":"jp","nihon":"jp","nippon":"jp"};
+
+			(() => {
+				const cleanupVersionKey = 'lootura:storage-cleanup-version';
+				const cleanupVersion = '2026-05-18-editions-config';
+				const maxSeenNewsItems = 600;
+				const seenNewsLifetimeMs = 30 * 24 * 60 * 60 * 1000;
+				const editionPattern = supportedLocales.map((edition) => edition.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+				const allowedEditionIds = new Set(supportedLocales);
+				const booleanKeys = new Set([
+					'lootura:browser-intro-seen',
+					'lootura:editions-promo-seen',
+					'lootura:install-accepted',
+					'lootura:signal:intro-any-seen',
+					'lootura:signal:install-nudge-dismissed:v1',
+					'lootura:signal:install-nudge-ready:v1',
+					'lootura:swipe-hint-seen',
+				]);
+				const numberKeys = new Set([
+					'lootura:signal:browser-open-count:v1',
+					'lootura:signal:install-nudge-dismiss-count:v1',
+				]);
+				const dateKeys = new Set([
+					'lootura:install-gate-action-at',
+					'lootura:install-gate-seen-at',
+					'lootura:last-active-at',
+				]);
+				const allowedExactKeys = new Set([
+					cleanupVersionKey,
+					'lootura.preferences.v1',
+					'lootura:editorial',
+					'lootura:app-release:last-seen-build',
+					'lootura:app-release:last-seen-version',
+					'lootura:app-release:snoozed-until',
+					'lootura:refresh-at-launch',
+					'lootura:seen-news:v1',
+					'lootura:updates:last-seen-version',
+					...booleanKeys,
+					...numberKeys,
+					...dateKeys,
+				]);
+				const allowedPatternKeys = [
+					new RegExp(`^lootura:calm-mode:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:saved-stories:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:signal:intro:v1:(${editionPattern}|global)$`),
+					new RegExp(`^lootura:signal:seen:v1:(${editionPattern}|global)$`),
+				];
+
+				const isValidDate = (value) => Number.isFinite(new Date(value || '').getTime());
+				const removeItem = (key) => localStorage.removeItem(key);
+				const writeJson = (key, value) => localStorage.setItem(key, JSON.stringify(value));
+				const isAllowedLooturaKey = (key) =>
+					allowedExactKeys.has(key) || allowedPatternKeys.some((pattern) => pattern.test(key));
+
+				const compactSeenNews = (key) => {
+					const value = localStorage.getItem(key);
+					const seen = JSON.parse(value || '{}');
+					const now = Date.now();
+					const entries = Array.isArray(seen)
+						? seen.map((id) => [id, now])
+						: Object.entries(seen || {});
+					const compactSeen = Object.fromEntries(
+						entries
+							.map(([id, firstSeenAt]) => [String(id || ''), Number(firstSeenAt)])
+							.filter(
+								([id, firstSeenAt]) =>
+									id &&
+									Number.isFinite(Number(firstSeenAt)) &&
+									now - Number(firstSeenAt) < seenNewsLifetimeMs,
+							)
+							.sort(([, firstSeenAt], [, secondSeenAt]) => Number(secondSeenAt) - Number(firstSeenAt))
+							.slice(0, maxSeenNewsItems),
+					);
+					writeJson(key, compactSeen);
+				};
+
+				try {
+					if (localStorage.getItem(cleanupVersionKey) === cleanupVersion) return;
+
+					for (const key of Object.keys(localStorage)) {
+						if (!key.startsWith('lootura:')) continue;
+
+						try {
+							const value = localStorage.getItem(key) || '';
+							if (!isAllowedLooturaKey(key)) {
+								removeItem(key);
+							} else if (key === 'lootura:editorial' && !allowedEditionIds.has(value)) {
+								removeItem(key);
+							} else if (key === 'lootura:seen-news:v1') {
+								compactSeenNews(key);
+							} else if (booleanKeys.has(key) && value !== 'true') {
+								removeItem(key);
+							} else if (numberKeys.has(key) && !Number.isFinite(Number(value))) {
+								removeItem(key);
+							} else if (dateKeys.has(key) && !isValidDate(value)) {
+								removeItem(key);
+							}
+						} catch {
+							removeItem(key);
+						}
+					}
+
+					localStorage.setItem(cleanupVersionKey, cleanupVersion);
+				} catch {
+					// Storage can be unavailable in restrictive browser modes.
+				}
+			})();
+		})();</script><script type="module">(()=>{const e=window.matchMedia("(display-mode: standalone)").matches||window.matchMedia("(display-mode: fullscreen)").matches||window.matchMedia("(display-mode: minimal-ui)").matches||window.navigator.standalone||document.referrer.startsWith("android-app://")||sessionStorage.getItem("lootura:pwa-dev-override")==="true";document.documentElement.classList.toggle("pwa-runtime",!!e)})();</script><script type="module">document.documentElement.style.colorScheme="light";</script><link rel="stylesheet" href="/_astro/Layout.BgXvolpK.css"></head> <body data-astro-cid-sckkx6r4>  <main class="min-h-svh bg-white text-neutral-950 dark:bg-neutral-950 dark:text-white"> <section class="mx-auto flex w-full max-w-6xl flex-col gap-6 px-4 py-6 sm:px-6 lg:px-8" data-processes-simple> <header class="flex flex-col gap-4 border-b border-neutral-950/10 pb-5 dark:border-white/10 md:flex-row md:items-end md:justify-between"> <div> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">Lootura backoffice</p> <h1 class="mt-2 text-3xl font-semibold leading-tight">Processes</h1> <p class="mt-2 max-w-2xl text-sm leading-6 text-neutral-600 dark:text-white/62">
+Una pantalla para decidir si el pipeline está bien o si hay algo que tocar.
+</p> </div> <div class="flex flex-wrap items-center gap-2"> <button class="inline-flex h-10 w-10 items-center justify-center border border-neutral-950/12 bg-white text-neutral-800 transition hover:bg-neutral-950/5 dark:border-white/12 dark:bg-neutral-950 dark:text-white dark:hover:bg-white/8" data-copy-diagnostics data-diagnostics="Estado: Falla
+Resumen: 958 of 2000 included Actions minutes used.
+Ultima ejecucion: 2 min · completed
+Proximo update: 2h 0 min · 7/9/2026, 0:00:00
+Output: 563 noticias · 30 señales
+Dedupe: 730 descartes
+Fuentes: 112 monitorizadas · 1 fallos · 0 cache
+Sugerencias: 40 · Cache
+Actions: 958 / 2000 min
+IA Signal: Desactivada · IA Signal esta desactivada por configuración.
+1. Uso de GitHub Actions a vigilar: 958 of 2000 included Actions minutes used. Arreglo: Revisa Billing en GitHub o reduce frecuencia/duplicacion de workflows si el consumo sube demasiado.
+2. IA Signal requiere revisión: IA Signal esta desactivada por configuración. Arreglo: Si esta en dry-run es normal. Si esta activo, revisa AI_SIGNAL_* y el ultimo error del batch." aria-label="Copiar diagnóstico" title="Copiar diagnóstico"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-copy"> <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>  </svg> </button> <button class="inline-flex h-10 w-10 items-center justify-center border border-neutral-950/12 bg-white text-neutral-800 transition hover:bg-neutral-950/5 dark:border-white/12 dark:bg-neutral-950 dark:text-white dark:hover:bg-white/8" data-refresh-dashboard aria-label="Refrescar" title="Refrescar"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-refresh-cw"> <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path><path d="M8 16H3v5"></path>  </svg> </button> </div> </header> <nav class="flex gap-2 overflow-x-auto border-b border-neutral-950/10 pb-2 dark:border-white/10" aria-label="Processes sections" data-process-tabs> <button class="inline-flex h-10 shrink-0 items-center border border-neutral-950 bg-neutral-950 px-4 text-sm font-semibold text-white dark:border-white dark:bg-white dark:text-neutral-950" type="button" data-process-tab="dashboard" aria-selected="true">
+Panel de mando
+</button> <button class="inline-flex h-10 shrink-0 items-center border border-neutral-950/10 bg-white px-4 text-sm font-semibold text-neutral-700 hover:bg-neutral-950/5 dark:border-white/10 dark:bg-neutral-950 dark:text-white/72 dark:hover:bg-white/8" type="button" data-process-tab="candidates" aria-selected="false">
+Fuentes candidatas
+</button> <button class="inline-flex h-10 shrink-0 items-center border border-neutral-950/10 bg-white px-4 text-sm font-semibold text-neutral-700 hover:bg-neutral-950/5 dark:border-white/10 dark:bg-neutral-950 dark:text-white/72 dark:hover:bg-white/8" type="button" data-process-tab="suggestions" aria-selected="false">
+Sugerencias
+</button> </nav> <section class="grid gap-6" data-process-tab-panel="dashboard"> <section class="border p-5 border-rose-400/34 bg-rose-50 text-rose-950 dark:border-rose-300/28 dark:bg-rose-300/10 dark:text-rose-50" data-operational-summary> <div class="grid gap-5 lg:grid-cols-[minmax(0,1fr)_18rem] lg:items-start"> <div class="flex items-start gap-3"> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-circle-x mt-0.5 shrink-0"> <circle cx="12" cy="12" r="10"></circle><path d="m15 9-6 6"></path><path d="m9 9 6 6"></path>  </svg> <div> <p class="text-xs font-semibold uppercase opacity-70">Estado general</p> <h2 class="mt-1 text-2xl font-semibold leading-tight">958 of 2000 included Actions minutes used.</h2> <p class="mt-2 text-sm leading-6 opacity-80">
+Última ejecución: 2 min · próximo update 2h 0 min.
+</p> </div> </div> <div class="grid gap-2 text-sm"> <span class="inline-flex w-fit items-center gap-2 border px-2.5 py-1 text-xs font-semibold uppercase border-rose-400/34 bg-rose-100 text-rose-900 dark:border-rose-300/28 dark:bg-rose-300/14 dark:text-rose-50"> <span class="h-2 w-2 rounded-full bg-rose-500"></span> Falla </span> <p class="text-neutral-600 dark:text-white/62">Build 895001 · v1.13.0</p> <p class="text-neutral-500 dark:text-white/48">Generado 6/9/2026, 21:59:44</p> </div> </div> </section> <section class="border border-neutral-950/10 p-5 dark:border-white/10" data-next-actions> <div class="flex items-center justify-between gap-3"> <h2 class="text-base font-semibold">Qué hacer ahora</h2> <span class="border px-2 py-1 text-xs font-semibold uppercase border-rose-400/34 bg-rose-100 text-rose-900 dark:border-rose-300/28 dark:bg-rose-300/14 dark:text-rose-50"> 2 avisos </span> </div> <div class="mt-4 grid gap-3"> <article class="border p-4 border-rose-400/34 bg-rose-50 text-rose-950 dark:border-rose-300/28 dark:bg-rose-300/10 dark:text-rose-50"> <p class="text-xs font-semibold uppercase opacity-70">Falla · news</p> <h3 class="mt-1 text-base font-semibold">Uso de GitHub Actions a vigilar</h3> <p class="mt-2 text-sm leading-6 opacity-85">958 of 2000 included Actions minutes used.</p> <p class="mt-2 text-sm leading-6 opacity-85">Revisa Billing en GitHub o reduce frecuencia/duplicacion de workflows si el consumo sube demasiado.</p> <code class="mt-3 inline-block border border-current/20 px-2 py-1 font-mono text-xs">npm run github:actions-usage</code> </article><article class="border p-4 border-rose-400/34 bg-rose-50 text-rose-950 dark:border-rose-300/28 dark:bg-rose-300/10 dark:text-rose-50"> <p class="text-xs font-semibold uppercase opacity-70">Falla · ai-signal</p> <h3 class="mt-1 text-base font-semibold">IA Signal requiere revisión</h3> <p class="mt-2 text-sm leading-6 opacity-85">IA Signal esta desactivada por configuración.</p> <p class="mt-2 text-sm leading-6 opacity-85">Si esta en dry-run es normal. Si esta activo, revisa AI_SIGNAL_* y el ultimo error del batch.</p> <code class="mt-3 inline-block border border-current/20 px-2 py-1 font-mono text-xs">npm run news:update</code> </article> </div> </section> <section class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3"> <div class="border border-neutral-950/10 p-4 dark:border-white/10"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">Última ejecución</p> <p class="mt-2 text-3xl font-semibold leading-none">2 min</p> <p class="mt-2 text-sm text-neutral-500 dark:text-white/48">completed</p> </div><div class="border border-neutral-950/10 p-4 dark:border-white/10"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">Próximo update</p> <p class="mt-2 text-3xl font-semibold leading-none">2h 0 min</p> <p class="mt-2 text-sm text-neutral-500 dark:text-white/48">7/9/2026, 0:00:00</p> </div><div class="border border-neutral-950/10 p-4 dark:border-white/10"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">Output</p> <p class="mt-2 text-3xl font-semibold leading-none">563</p> <p class="mt-2 text-sm text-neutral-500 dark:text-white/48">30 señales</p> </div><div class="border border-neutral-950/10 p-4 dark:border-white/10"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">Enlaces escaneados</p> <p class="mt-2 text-3xl font-semibold leading-none">1568</p> <p class="mt-2 text-sm text-neutral-500 dark:text-white/48">563 publicados</p> </div><div class="border border-neutral-950/10 p-4 dark:border-white/10"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">Dedupe</p> <p class="mt-2 text-3xl font-semibold leading-none">730</p> <p class="mt-2 text-sm text-neutral-500 dark:text-white/48">489 expirados</p> </div><div class="border border-neutral-950/10 p-4 dark:border-white/10"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">Fuentes</p> <p class="mt-2 text-3xl font-semibold leading-none">112</p> <p class="mt-2 text-sm text-neutral-500 dark:text-white/48">1 fallos · 0 cache</p> </div> </section> <section class="grid gap-4 lg:grid-cols-3"> <section class="border border-neutral-950/10 p-5 dark:border-white/10" data-process-pipeline> <div class="flex items-center justify-between gap-3"> <h2 class="text-base font-semibold">Pipeline</h2> <span class="inline-flex items-center gap-2 border px-2 py-1 text-xs font-semibold uppercase border-emerald-500/24 bg-emerald-100 text-emerald-900 dark:border-emerald-300/24 dark:bg-emerald-300/14 dark:text-emerald-50"> <span class="h-2 w-2 rounded-full bg-emerald-500"></span> OK </span> </div> <div class="mt-4 grid gap-3 text-sm"> <p class="text-neutral-600 dark:text-white/62">Ultima ejecucion publicada 2 min. Estado: completed.</p> <div class="grid grid-cols-2 gap-2"> <div class="border border-neutral-950/10 p-3 dark:border-white/10"> <p class="text-xs uppercase text-neutral-500 dark:text-white/48">Procesadas</p> <p class="mt-1 text-xl font-semibold">57</p> </div> <div class="border border-neutral-950/10 p-3 dark:border-white/10"> <p class="text-xs uppercase text-neutral-500 dark:text-white/48">Publicadas</p> <p class="mt-1 text-xl font-semibold">563</p> </div> </div> <p class="text-xs leading-5 text-neutral-500 dark:text-white/48">Dedupe: 197 URLs · 44 títulos · 489 expiradas.</p> </div> </section> <section class="border border-neutral-950/10 p-5 dark:border-white/10" data-process-signal> <div class="flex items-center justify-between gap-3"> <h2 class="text-base font-semibold">Signal</h2> <span class="inline-flex items-center gap-2 border px-2 py-1 text-xs font-semibold uppercase border-emerald-500/24 bg-emerald-100 text-emerald-900 dark:border-emerald-300/24 dark:bg-emerald-300/14 dark:text-emerald-50"> <span class="h-2 w-2 rounded-full bg-emerald-500"></span> 30 señales
+</span> </div> <div class="mt-4 grid gap-3"> <div class="border border-neutral-950/10 p-3 dark:border-white/10"> <div class="flex items-center justify-between gap-3"> <p class="font-semibold uppercase">es</p> <p class="text-sm text-neutral-500 dark:text-white/48">2 min ago</p> </div> <p class="mt-2 text-2xl font-semibold">11 señales</p> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="border border-neutral-950/10 px-2 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">AHORA: 4</span><span class="border border-neutral-950/10 px-2 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">SUBIENDO: 4</span><span class="border border-neutral-950/10 px-2 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">BAJANDO: 3</span> </div> </div><div class="border border-neutral-950/10 p-3 dark:border-white/10"> <div class="flex items-center justify-between gap-3"> <p class="font-semibold uppercase">us</p> <p class="text-sm text-neutral-500 dark:text-white/48">2 min ago</p> </div> <p class="mt-2 text-2xl font-semibold">4 señales</p> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="border border-neutral-950/10 px-2 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">NOW: 4</span> </div> </div><div class="border border-neutral-950/10 p-3 dark:border-white/10"> <div class="flex items-center justify-between gap-3"> <p class="font-semibold uppercase">za</p> <p class="text-sm text-neutral-500 dark:text-white/48">2 min ago</p> </div> <p class="mt-2 text-2xl font-semibold">3 señales</p> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="border border-neutral-950/10 px-2 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">NOW: 3</span> </div> </div><div class="border border-neutral-950/10 p-3 dark:border-white/10"> <div class="flex items-center justify-between gap-3"> <p class="font-semibold uppercase">mx</p> <p class="text-sm text-neutral-500 dark:text-white/48">2 min ago</p> </div> <p class="mt-2 text-2xl font-semibold">0 señales</p> <div class="mt-3 flex flex-wrap gap-1.5">  </div> </div><div class="border border-neutral-950/10 p-3 dark:border-white/10"> <div class="flex items-center justify-between gap-3"> <p class="font-semibold uppercase">ar</p> <p class="text-sm text-neutral-500 dark:text-white/48">2 min ago</p> </div> <p class="mt-2 text-2xl font-semibold">9 señales</p> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="border border-neutral-950/10 px-2 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">AHORA: 4</span><span class="border border-neutral-950/10 px-2 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">SUBIENDO: 4</span><span class="border border-neutral-950/10 px-2 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">BAJANDO: 1</span> </div> </div><div class="border border-neutral-950/10 p-3 dark:border-white/10"> <div class="flex items-center justify-between gap-3"> <p class="font-semibold uppercase">jp</p> <p class="text-sm text-neutral-500 dark:text-white/48">2 min ago</p> </div> <p class="mt-2 text-2xl font-semibold">3 señales</p> <div class="mt-3 flex flex-wrap gap-1.5"> <span class="border border-neutral-950/10 px-2 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">今: 3</span> </div> </div> </div> </section> <section class="border border-neutral-950/10 p-5 dark:border-white/10" data-process-sources> <div class="flex items-center justify-between gap-3"> <h2 class="text-base font-semibold">Fuentes</h2> <span class="inline-flex items-center gap-2 border px-2 py-1 text-xs font-semibold uppercase border-amber-400/34 bg-amber-100 text-amber-900 dark:border-amber-300/28 dark:bg-amber-300/14 dark:text-amber-50"> <span class="h-2 w-2 rounded-full bg-amber-500"></span> Revisar </span> </div> <p class="mt-4 text-sm leading-6 text-neutral-600 dark:text-white/62"> 112 fuentes monitorizadas. 1 fallan y 0 están tirando de cache.
+</p> <div class="mt-4 grid gap-2"> <div class="border border-neutral-950/10 p-3 text-sm dark:border-white/10"> <div class="flex items-center justify-between gap-3"> <p class="truncate font-medium">Quartz</p> <span class="shrink-0 border px-2 py-0.5 text-[11px] font-semibold uppercase border-rose-400/34 bg-rose-100 text-rose-900 dark:border-rose-300/28 dark:bg-rose-300/14 dark:text-rose-50">us · Falla</span> </div> <p class="mt-1 line-clamp-2 text-xs leading-5 text-neutral-500 dark:text-white/48">HTTP 200 but feed contains no RSS/Atom items</p> </div><div class="border border-neutral-950/10 p-3 text-sm dark:border-white/10"> <div class="flex items-center justify-between gap-3"> <p class="truncate font-medium">Quartz</p> <span class="shrink-0 border px-2 py-0.5 text-[11px] font-semibold uppercase border-amber-400/34 bg-amber-100 text-amber-900 dark:border-amber-300/28 dark:bg-amber-300/14 dark:text-amber-50">us · Bloqueada</span> </div> <p class="mt-1 line-clamp-2 text-xs leading-5 text-neutral-500 dark:text-white/48">Vuelve en 58 min</p> </div> </div> </section> </section> <details class="border border-neutral-950/10 dark:border-white/10" data-technical-details> <summary class="cursor-pointer px-5 py-4 text-sm font-semibold">Detalles técnicos</summary> <div class="grid gap-4 border-t border-neutral-950/10 p-5 dark:border-white/10 lg:grid-cols-3"> <section class="border p-4 border-rose-400/34 bg-rose-50 text-rose-950 dark:border-rose-300/28 dark:bg-rose-300/10 dark:text-rose-50"> <p class="text-xs font-semibold uppercase opacity-70">Costes Actions</p> <h2 class="mt-2 text-2xl font-semibold">958 / 2000 min</h2> <p class="mt-2 text-sm leading-6 opacity-80">1042 min restantes</p> </section> <section class="border p-4 border-rose-400/34 bg-rose-50 text-rose-950 dark:border-rose-300/28 dark:bg-rose-300/10 dark:text-rose-50"> <p class="text-xs font-semibold uppercase opacity-70">IA Signal</p> <h2 class="mt-2 text-2xl font-semibold">Desactivada</h2> <p class="mt-2 text-sm leading-6 opacity-80">IA Signal esta desactivada por configuración.</p> </section> <section class="border p-4 border-emerald-500/24 bg-emerald-50 text-emerald-950 dark:border-emerald-300/24 dark:bg-emerald-300/10 dark:text-emerald-50"> <p class="text-xs font-semibold uppercase opacity-70">Scouting</p> <h2 class="mt-2 text-2xl font-semibold">11 para revisar</h2> <p class="mt-2 text-sm leading-6 opacity-80">68 fuentes analizadas, 11 candidatas revisables, 14 sin feed.</p> </section> <section class="border p-4 border-amber-400/34 bg-amber-50 text-amber-950 dark:border-amber-300/28 dark:bg-amber-300/10 dark:text-amber-50"> <p class="text-xs font-semibold uppercase opacity-70">Sugerencias</p> <h2 class="mt-2 text-2xl font-semibold">Antiguo</h2> <p class="mt-2 text-sm leading-6 opacity-80">40 sugerencias guardadas. El proveedor externo no respondio bien en el ultimo intento; 6 avisos.</p> </section> <section class="border border-neutral-950/10 p-4 dark:border-white/10 lg:col-span-2"> <h2 class="text-sm font-semibold">Diagnóstico completo</h2> <div class="mt-4 grid gap-3"> <article class="border p-3 border-rose-400/34 bg-rose-50 text-rose-950 dark:border-rose-300/28 dark:bg-rose-300/10 dark:text-rose-50"> <p class="text-xs font-semibold uppercase opacity-70">Falla · news</p> <h3 class="mt-1 font-semibold">Uso de GitHub Actions a vigilar</h3> <p class="mt-1 text-sm leading-6 opacity-80">958 of 2000 included Actions minutes used.</p> </article><article class="border p-3 border-rose-400/34 bg-rose-50 text-rose-950 dark:border-rose-300/28 dark:bg-rose-300/10 dark:text-rose-50"> <p class="text-xs font-semibold uppercase opacity-70">Falla · ai-signal</p> <h3 class="mt-1 font-semibold">IA Signal requiere revisión</h3> <p class="mt-1 text-sm leading-6 opacity-80">IA Signal esta desactivada por configuración.</p> </article><article class="border p-3 border-amber-400/34 bg-amber-50 text-amber-950 dark:border-amber-300/28 dark:bg-amber-300/10 dark:text-amber-50"> <p class="text-xs font-semibold uppercase opacity-70">Revisar · feeds</p> <h3 class="mt-1 font-semibold">US: 1 fuente con fallos</h3> <p class="mt-1 text-sm leading-6 opacity-80">Hay fuentes RSS que estan devolviendo error o acumulando fallos. Esta en cooldown hasta 6/9/2026, 22:57:21 (58 min).</p> </article><article class="border p-3 border-amber-400/34 bg-amber-50 text-amber-950 dark:border-amber-300/28 dark:bg-amber-300/10 dark:text-amber-50"> <p class="text-xs font-semibold uppercase opacity-70">Revisar · signals</p> <h3 class="mt-1 font-semibold">MX: portada sin señal clara</h3> <p class="mt-1 text-sm leading-6 opacity-80">Hay noticias, pero ninguna agrupación merece portada ahora mismo.</p> </article> </div> </section> <section class="border border-neutral-950/10 p-4 dark:border-white/10"> <h2 class="text-sm font-semibold">Runs recientes</h2> <div class="mt-4 grid gap-2"> <div class="border border-neutral-950/10 p-3 text-sm dark:border-white/10"> <p class="font-semibold">completed</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">2 min · 26s</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">57 procesadas · 90 noticias</p> </div><div class="border border-neutral-950/10 p-3 text-sm dark:border-white/10"> <p class="font-semibold">completed</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">2 min · 8s</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">71 procesadas · 120 noticias</p> </div><div class="border border-neutral-950/10 p-3 text-sm dark:border-white/10"> <p class="font-semibold">completed</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">2 min · 1s</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">10 procesadas · 39 noticias</p> </div><div class="border border-neutral-950/10 p-3 text-sm dark:border-white/10"> <p class="font-semibold">completed</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">2 min · 3s</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">50 procesadas · 74 noticias</p> </div><div class="border border-neutral-950/10 p-3 text-sm dark:border-white/10"> <p class="font-semibold">completed</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">2 min · 9s</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">491 procesadas · 120 noticias</p> </div><div class="border border-neutral-950/10 p-3 text-sm dark:border-white/10"> <p class="font-semibold">completed</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">3 min · 18s</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">342 procesadas · 120 noticias</p> </div><div class="border border-neutral-950/10 p-3 text-sm dark:border-white/10"> <p class="font-semibold">completed</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">3h 59 min · 26s</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">59 procesadas · 85 noticias</p> </div><div class="border border-neutral-950/10 p-3 text-sm dark:border-white/10"> <p class="font-semibold">completed</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">3h 59 min · 7s</p> <p class="mt-1 text-xs text-neutral-500 dark:text-white/48">71 procesadas · 120 noticias</p> </div> </div> </section> </div> </details> </section> <section class="hidden" data-process-tab-panel="candidates" data-source-candidates-panel> <section class="border border-neutral-950/10 p-5 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">Scouting</p> <h2 class="mt-1 text-2xl font-semibold leading-tight">Fuentes candidatas</h2> <p class="mt-2 max-w-2xl text-sm leading-6 text-neutral-600 dark:text-white/62"> 68 fuentes analizadas, 11 candidatas revisables, 14 sin feed. </p> </div> <div class="flex shrink-0 flex-wrap items-center gap-2"> <span class="inline-flex items-center gap-2 border px-2.5 py-1 text-xs font-semibold uppercase border-emerald-500/24 bg-emerald-100 text-emerald-900 dark:border-emerald-300/24 dark:bg-emerald-300/14 dark:text-emerald-50"> <span class="h-2 w-2 rounded-full bg-emerald-500"></span> 11 para revisar </span> <a class="inline-flex h-10 items-center gap-2 border border-neutral-950 bg-neutral-950 px-3 text-sm font-semibold text-white hover:bg-neutral-800 dark:border-white dark:bg-white dark:text-neutral-950 dark:hover:bg-white/86" href="/admin/sources"> <span>Abrir revisión completa</span> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-external-link"> <path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>  </svg> </a> </div> </div> <div class="mt-5 grid gap-3 md:grid-cols-3"> <div class="border border-neutral-950/10 p-4 dark:border-white/10"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">Pendientes</p> <p class="mt-2 text-3xl font-semibold leading-none">11</p> </div> <div class="border border-neutral-950/10 p-4 dark:border-white/10"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">Estado</p> <p class="mt-2 text-3xl font-semibold leading-none">healthy</p> </div> <div class="border border-neutral-950/10 p-4 dark:border-white/10"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">Último scouting</p> <p class="mt-2 text-lg font-semibold leading-tight">6/9/2026, 9:28:36</p> </div> </div> <div class="mt-5 grid gap-3" data-source-candidates> <article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">us · analysis · peso 2</p> <h3 class="mt-1 text-lg font-semibold leading-tight">The Atlantic</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://www.theatlantic.com/feed/all/</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62"> add_to_us </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 25 items detectados. Usable feed found; ready for editorial review. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">us · business · peso 2</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Fortune</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://fortune.com/feed/</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62"> add_to_us </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 10 items detectados. Usable feed found; ready for editorial review. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">us · climate · peso 2</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Inside Climate News</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://insideclimatenews.org/feed/</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62"> add_to_us </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 10 items detectados. Usable feed found; ready for editorial review. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">es · science · peso 2</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Agencia SINC</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://www.agenciasinc.es/feed/Ciencia</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62"> add_to_es </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 150 items detectados. Usable feed found; ready for editorial review. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">za · public-interest · peso 3</p> <h3 class="mt-1 text-lg font-semibold leading-tight">GroundUp</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://www.groundup.org.za/sitenews/rss/</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62"> add_to_za </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 15 items detectados. Usable feed found; ready for editorial review. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">mx · business · peso 4</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Expansión México</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://expansion.mx/rss</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62"> add_to_mx </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 41 items detectados. Usable feed found; ready for editorial review. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">mx · politics · peso 4</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Proceso</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://www.proceso.com.mx/feeds/rss</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62"> add_to_mx </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 30 items detectados. Usable feed found; ready for editorial review. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">mx · tech · peso 2</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Xataka México</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://www.xataka.com.mx/index.xml</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62"> add_to_mx </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 20 items detectados. Usable feed found; ready for editorial review. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">mx · general · peso 2</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Reforma</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://www.reforma.com/rss/portada.xml</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62"> add_to_mx </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 10 items detectados. Usable feed found; ready for editorial review. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">mx · business · peso 2</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Líder Empresarial</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://www.liderempresarial.com/feed/</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62"> add_to_mx </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 10 items detectados. Usable feed found; ready for editorial review. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">jp · general · peso 4</p> <h3 class="mt-1 text-lg font-semibold leading-tight">朝日新聞</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://www.asahi.com/rss/asahi/newsheadlines.rdf</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62"> add_to_jp </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 40 items detectados. Usable feed found; ready for editorial review. </p> </article> </div> </section> </section> <section class="hidden" data-process-tab-panel="suggestions" data-source-suggestions> <section class="border border-neutral-950/10 p-5 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">Descubrimiento automático</p> <h2 class="mt-1 text-2xl font-semibold leading-tight">Medios sugeridos para investigar</h2> <p class="mt-2 max-w-2xl text-sm leading-6 text-neutral-600 dark:text-white/62"> 40 sugerencias guardadas. El proveedor externo no respondio bien en el ultimo intento; 6 avisos. </p> </div> <span class="inline-flex w-fit items-center gap-2 border px-2.5 py-1 text-xs font-semibold uppercase border-amber-400/34 bg-amber-100 text-amber-900 dark:border-amber-300/28 dark:bg-amber-300/14 dark:text-amber-50"> <span class="h-2 w-2 rounded-full bg-amber-500"></span> Cache </span> </div> <div class="mt-5 grid gap-3" data-source-suggestions-list> <article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">us · general · usa</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Naslovi</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://naslovi.net</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">
+score 52 </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 13 artículos recientes detectados por GDELT fuera de feeds activos y seeds. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">us · general · usa</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Tanjug Rs</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://tanjug.rs</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">
+score 20 </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 5 artículos recientes detectados por GDELT fuera de feeds activos y seeds. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">us · general · usa</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Politika Rs</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://politika.rs</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">
+score 16 </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 4 artículos recientes detectados por GDELT fuera de feeds activos y seeds. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">us · general · usa</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Com Cn</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://com.cn</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">
+score 16 </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 4 artículos recientes detectados por GDELT fuera de feeds activos y seeds. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">us · general · usa</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Danas Rs</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://danas.rs</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">
+score 12 </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 3 artículos recientes detectados por GDELT fuera de feeds activos y seeds. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">us · tech · usa</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Observador Pt</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://observador.pt</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">
+score 12 </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 3 artículos recientes detectados por GDELT fuera de feeds activos y seeds. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">us · general · usa</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Novosti Rs</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://novosti.rs</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">
+score 8 </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 2 artículos recientes detectados por GDELT fuera de feeds activos y seeds. </p> </article><article class="border border-neutral-950/10 p-4 dark:border-white/10"> <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"> <div class="min-w-0"> <p class="text-xs font-semibold uppercase text-neutral-500 dark:text-white/48">us · politics · usa</p> <h3 class="mt-1 text-lg font-semibold leading-tight">Deccanchronicle</h3> <p class="mt-2 break-all text-sm leading-6 text-neutral-600 dark:text-white/62">https://deccanchronicle.com</p> </div> <span class="w-fit shrink-0 border border-neutral-950/10 px-2.5 py-1 text-xs font-semibold uppercase text-neutral-600 dark:border-white/10 dark:text-white/62">
+score 8 </span> </div> <p class="mt-3 text-sm leading-6 text-neutral-500 dark:text-white/48"> 2 artículos recientes detectados por GDELT fuera de feeds activos y seeds. </p> </article> </div> </section> </section> </section> </main>  <section class="fixed inset-x-4 bottom-[calc(env(safe-area-inset-bottom,0px)+1rem)] z-[60] mx-auto max-w-sm border border-neutral-200 bg-white p-4 text-neutral-950 shadow-[0_18px_55px_rgba(10,10,10,0.16)] sm:inset-x-auto sm:right-6 sm:max-w-md" data-release-notice hidden role="status" aria-live="polite" aria-hidden="true" data-astro-cid-sckkx6r4> <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-neutral-500" data-release-eyebrow data-astro-cid-sckkx6r4> Nueva versión </p> <h2 class="mt-2 text-xl font-semibold leading-tight text-neutral-950" data-release-title data-astro-cid-sckkx6r4> Hay algo nuevo en Lootura </h2> <p class="mt-2 text-sm leading-6 text-neutral-600" data-release-body data-astro-cid-sckkx6r4> La app se ha actualizado. Puedes seguir leyendo o ver los cambios. </p> <div class="mt-4 flex flex-wrap items-center gap-3" data-astro-cid-sckkx6r4> <button class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" type="button" data-release-refresh hidden data-astro-cid-sckkx6r4> Actualizar </button> <a class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" href="/updates" data-release-updates data-astro-cid-sckkx6r4> Ver novedades </a> <button class="inline-flex min-h-11 items-center justify-center border border-neutral-200 bg-white px-4 text-sm font-semibold text-neutral-700" type="button" data-release-dismiss data-astro-cid-sckkx6r4> Ahora no </button> </div> </section>  <script>(function(){const baseUrl = "/";
+const isProduction = true;
+const currentAppBuild = {"version":"1.13.0","build":895001};
+
+	const pwaDevOverrideKey = 'lootura:pwa-dev-override';
+	const getIsPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+	const applyPwaRuntime = () => {
+		const isPwaRuntime = Boolean(getIsPwaRuntime());
+		document.documentElement.classList.toggle('pwa-runtime', isPwaRuntime);
+		window.dispatchEvent(new CustomEvent('lootura:pwa-runtime-changed', { detail: { isPwaRuntime } }));
+		return isPwaRuntime;
+	};
+
+	if (!isProduction) {
+		const params = new URLSearchParams(window.location.search);
+		const pwaOverride = params.get('pwa');
+		if (pwaOverride === '1' || pwaOverride === '0') {
+			if (pwaOverride === '1') {
+				sessionStorage.setItem(pwaDevOverrideKey, 'true');
+			} else {
+				sessionStorage.removeItem(pwaDevOverrideKey);
+			}
+			const cleanUrl = new URL(window.location.href);
+			cleanUrl.searchParams.delete('pwa');
+			window.history.replaceState({}, '', cleanUrl);
+		}
+	}
+	applyPwaRuntime();
+
+	if (!isProduction) {
+		const devModeOptions = Array.from(document.querySelectorAll('[data-dev-pwa-mode-option]'));
+		const syncDevModeOptions = () => {
+			const mode = sessionStorage.getItem(pwaDevOverrideKey) === 'true' ? 'pwa' : 'page';
+			devModeOptions.forEach((option) => {
+				option.checked = option.value === mode;
+			});
+		};
+		devModeOptions.forEach((option) => {
+			option.addEventListener('change', () => {
+				if (option.value === 'pwa') {
+					sessionStorage.setItem(pwaDevOverrideKey, 'true');
+				} else {
+					sessionStorage.removeItem(pwaDevOverrideKey);
+				}
+				applyPwaRuntime();
+				syncDevModeOptions();
+			});
+		});
+		syncDevModeOptions();
+	}
+
+	document.documentElement.classList.remove('dark');
+	document.documentElement.style.colorScheme = 'light';
+
+	const getAbsoluteImageUrl = (value) => {
+		try {
+			return new URL(value || '', document.baseURI).href;
+		} catch {
+			return '';
+		}
+	};
+
+	const getImageFallbackCandidates = (image) => [
+		image.dataset.fallbackImage || image.dataset.fallbackBackground || '',
+		image.dataset.finalFallbackImage || '',
+	].filter(Boolean);
+
+	const revealAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		if (!image.matches('[data-app-image], [data-news-image]')) return;
+		image.dataset.loaded = 'true';
+		image.dataset.imageError = 'false';
+	};
+
+	const recoverAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		const candidates = getImageFallbackCandidates(image);
+		const currentUrl = image.currentSrc || image.src || '';
+		const nextFallback = candidates.find((candidate) => {
+			const fallbackUrl = getAbsoluteImageUrl(candidate);
+			return fallbackUrl && fallbackUrl !== currentUrl;
+		});
+
+		if (nextFallback) {
+			image.dataset.imageRecovered = 'true';
+			image.dataset.loaded = 'false';
+			image.src = nextFallback;
+			return;
+		}
+
+		if (image.hasAttribute('data-remove-on-error')) {
+			image.remove();
+			return;
+		}
+
+		image.dataset.imageError = 'true';
+	};
+
+	document.addEventListener('load', (event) => revealAppImage(event.target), true);
+	document.addEventListener('error', (event) => recoverAppImage(event.target), true);
+	for (const image of document.querySelectorAll('img[data-app-image], img[data-news-image]')) {
+		if (!(image instanceof HTMLImageElement) || !image.complete) continue;
+		if (image.naturalWidth > 0) {
+			revealAppImage(image);
+		} else {
+			recoverAppImage(image);
+		}
+	}
+
+	const isLooturaPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+
+	const releaseSeenBuildKey = 'lootura:app-release:last-seen-build';
+	const releaseSeenVersionKey = 'lootura:app-release:last-seen-version';
+	const releaseSnoozedUntilKey = 'lootura:app-release:snoozed-until';
+	const updatesSeenVersionKey = 'lootura:updates:last-seen-version';
+	const releasePendingKey = 'lootura:release-notice:pending';
+	const refreshAtLaunchKey = 'lootura:refresh-at-launch';
+	const releaseNotice = document.querySelector('[data-release-notice]');
+	const releaseEyebrow = releaseNotice?.querySelector('[data-release-eyebrow]');
+	const releaseTitle = releaseNotice?.querySelector('[data-release-title]');
+	const releaseBody = releaseNotice?.querySelector('[data-release-body]');
+	const releaseRefreshButton = releaseNotice?.querySelector('[data-release-refresh]');
+	const releaseUpdatesLink = releaseNotice?.querySelector('[data-release-updates]');
+	const releaseDismissButton = releaseNotice?.querySelector('[data-release-dismiss]');
+	let releaseNoticeTimer = 0;
+	let lastPublishedBuild = null;
+	let isReloadingForUpdate = false;
+
+	const getBuildId = (build) => {
+		const version = String(build?.version || '').trim();
+		const number = Number(build?.build || 0);
+		return version && Number.isFinite(number) && number > 0 ? `${version}:${number}` : '';
+	};
+	const currentBuildId = getBuildId(currentAppBuild);
+	const currentVersion = String(currentAppBuild?.version || '').trim();
+
+	const getLastSeenReleaseVersion = () => {
+		try {
+			const releaseSeenVersion = localStorage.getItem(releaseSeenVersionKey) || '';
+			const updatesSeenVersion = localStorage.getItem(updatesSeenVersionKey) || '';
+			const legacySeenBuild = localStorage.getItem(releaseSeenBuildKey) || '';
+			const legacySeenVersion = legacySeenBuild.includes(':') ? legacySeenBuild.split(':')[0] : '';
+			return releaseSeenVersion || updatesSeenVersion || legacySeenVersion;
+		} catch {
+			return '';
+		}
+	};
+
+	const markReleaseVersionSeen = () => {
+		if (!currentVersion) return;
+		try {
+			localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			localStorage.setItem(updatesSeenVersionKey, currentVersion);
+			localStorage.removeItem(releaseSnoozedUntilKey);
+			sessionStorage.removeItem(releasePendingKey);
+		} catch {}
+	};
+
+	const getNextLocalDayIso = () => {
+		const now = new Date();
+		return new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).toISOString();
+	};
+
+	const snoozeReleaseNoticeUntilTomorrow = () => {
+		try {
+			localStorage.setItem(releaseSnoozedUntilKey, getNextLocalDayIso());
+		} catch {}
+	};
+
+	const isReleaseNoticeSnoozed = () => {
+		try {
+			const snoozedUntil = new Date(localStorage.getItem(releaseSnoozedUntilKey) || '').getTime();
+			return Number.isFinite(snoozedUntil) && snoozedUntil > Date.now();
+		} catch {
+			return false;
+		}
+	};
+
+	const getLocalizedUpdatesPath = () => {
+		const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+		const pathWithoutBase = window.location.pathname.startsWith(normalizedBaseUrl)
+			? window.location.pathname.slice(normalizedBaseUrl.length)
+			: window.location.pathname.replace(/^\//, '');
+		const firstSegment = pathWithoutBase.split('/').filter(Boolean)[0];
+		const locale = firstSegment === 'us' ? 'us' : 'es';
+		return `${normalizedBaseUrl}${locale}/updates`;
+	};
+
+	const rememberPendingRelease = (publishedBuild) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		try {
+			sessionStorage.setItem(
+				releasePendingKey,
+				JSON.stringify({
+					id: publishedBuildId,
+					version: String(publishedBuild?.version || ''),
+					build: Number(publishedBuild?.build || 0),
+				}),
+			);
+		} catch {}
+	};
+
+	const getPendingRelease = () => {
+		try {
+			const pendingRelease = JSON.parse(sessionStorage.getItem(releasePendingKey) || 'null');
+			return pendingRelease?.id === currentBuildId ? pendingRelease : null;
+		} catch {
+			return null;
+		}
+	};
+
+	const isReleaseNoticeBlocked = () =>
+		sessionStorage.getItem(refreshAtLaunchKey) === 'true' ||
+		Boolean(document.querySelector('[data-feed-refresh-overlay][data-visible]')) ||
+		Boolean(document.querySelector('[data-while-you-were-away-card][data-open="true"]')) ||
+		Boolean(document.querySelector('[data-signal-install-nudge]:not([hidden])')) ||
+		Boolean(document.querySelector('[role="dialog"][aria-modal="true"]:not([hidden]):not(.hidden):not([aria-hidden="true"])'));
+
+	const clearServiceWorkerCaches = async () => {
+		if (!window.caches?.keys) return;
+		const keys = await window.caches.keys();
+		await Promise.all(keys.filter((key) => key.startsWith('lootura-')).map((key) => window.caches.delete(key)));
+	};
+
+	const reloadForPublishedBuild = async () => {
+		if (isReloadingForUpdate) return;
+		isReloadingForUpdate = true;
+		try {
+			await clearServiceWorkerCaches();
+		} catch {}
+		window.location.reload();
+	};
+
+	const setReleaseNoticeMode = (mode) => {
+		const isSpanish = document.documentElement.lang?.startsWith('es');
+		const copy = mode === 'update'
+			? {
+					eyebrow: isSpanish ? 'Nueva versión disponible' : 'New version available',
+					title: isSpanish ? 'Actualiza Lootura' : 'Update Lootura',
+					body: isSpanish
+						? 'Hay una versión nueva lista. Actualiza la PWA para cargarla antes de ver las novedades.'
+						: 'A new version is ready. Update the PWA to load it before reading what changed.',
+				}
+			: {
+					eyebrow: isSpanish ? 'Nueva versión' : 'New version',
+					title: isSpanish ? 'Hay algo nuevo en Lootura' : 'Lootura has something new',
+					body: isSpanish
+						? 'La app se ha actualizado. Puedes seguir leyendo o ver los cambios.'
+						: 'The app was updated. Keep reading or see what changed.',
+				};
+
+		if (releaseEyebrow) releaseEyebrow.textContent = copy.eyebrow;
+		if (releaseTitle) releaseTitle.textContent = copy.title;
+		if (releaseBody) releaseBody.textContent = copy.body;
+		if (releaseRefreshButton) releaseRefreshButton.hidden = mode !== 'update';
+		if (releaseUpdatesLink) releaseUpdatesLink.hidden = mode === 'update';
+		if (releaseNotice) releaseNotice.dataset.mode = mode;
+	};
+
+	const hideReleaseNotice = () => {
+		window.clearTimeout(releaseNoticeTimer);
+		if (!releaseNotice) return;
+		releaseNotice.hidden = true;
+		releaseNotice.dataset.visible = 'false';
+		releaseNotice.setAttribute('aria-hidden', 'true');
+	};
+
+	const showReleaseNotice = (mode = 'notes') => {
+		if (!releaseNotice || !currentBuildId || !currentVersion || releaseNotice.dataset.visible === 'true') return;
+
+		if (mode === 'notes') {
+			try {
+				sessionStorage.removeItem(releasePendingKey);
+			} catch {}
+		}
+
+		setReleaseNoticeMode(mode);
+		releaseUpdatesLink?.setAttribute('href', getLocalizedUpdatesPath());
+		releaseNotice.hidden = false;
+		releaseNotice.dataset.visible = 'true';
+		releaseNotice.setAttribute('aria-hidden', 'false');
+		window.umami?.track?.('Show PWA release notice', { version: currentVersion, build: currentBuildId, mode });
+	};
+
+	const maybeShowReleaseNotice = (attempt = 0) => {
+		if (!isProduction || !currentBuildId || !currentVersion) return;
+
+		let lastSeenVersion = '';
+		try {
+			lastSeenVersion = getLastSeenReleaseVersion();
+		} catch {}
+
+		const pendingRelease = getPendingRelease();
+		const hasUnseenVersion = Boolean(lastSeenVersion && lastSeenVersion !== currentVersion);
+		const cameFromPendingRelease = Boolean(pendingRelease && pendingRelease.version === currentVersion);
+		const shouldShowReleaseNotice = cameFromPendingRelease || (hasUnseenVersion && (!pendingRelease || pendingRelease.version === currentVersion));
+
+		if (!lastSeenVersion && !pendingRelease) {
+			try {
+				localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			} catch {}
+			return;
+		}
+
+		if (!shouldShowReleaseNotice) return;
+		if (isReleaseNoticeSnoozed()) return;
+
+		if (!isLooturaPwaRuntime()) {
+			return;
+		}
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseNotice(attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice();
+	};
+
+	const maybeShowReleaseUpdateNotice = (publishedBuild, attempt = 0) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!isProduction || !publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		lastPublishedBuild = publishedBuild;
+		rememberPendingRelease(publishedBuild);
+
+		if (isReleaseNoticeSnoozed()) return;
+		if (!isLooturaPwaRuntime()) return;
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseUpdateNotice(publishedBuild, attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice('update');
+	};
+
+	releaseDismissButton?.addEventListener('click', () => {
+		snoozeReleaseNoticeUntilTomorrow();
+		hideReleaseNotice();
+	});
+	releaseRefreshButton?.addEventListener('click', () => {
+		const publishedBuild = lastPublishedBuild || getPendingRelease();
+		if (publishedBuild) rememberPendingRelease(publishedBuild);
+		reloadForPublishedBuild();
+	});
+	releaseUpdatesLink?.addEventListener('click', () => {
+		markReleaseVersionSeen();
+		hideReleaseNotice();
+	});
+	window.addEventListener('lootura:queue-refreshed', () => {
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+	window.addEventListener('lootura:pwa-runtime-changed', () => maybeShowReleaseNotice());
+	window.addEventListener('pageshow', () => maybeShowReleaseNotice());
+	document.addEventListener('visibilitychange', () => {
+		if (document.visibilityState === 'visible') maybeShowReleaseNotice();
+	});
+
+	const syncLooturaPwaRuntime = () => {
+		document.documentElement.classList.toggle('pwa-runtime', Boolean(isLooturaPwaRuntime()));
+	};
+
+	syncLooturaPwaRuntime();
+	window.addEventListener('appinstalled', syncLooturaPwaRuntime);
+	window.addEventListener('pageshow', syncLooturaPwaRuntime);
+	window.addEventListener('focus', syncLooturaPwaRuntime);
+
+	const detectLooturaClient = () => {
+		const userAgent = navigator.userAgent;
+		const isStandalone = isLooturaPwaRuntime();
+		const userAgentDataPlatform = navigator.userAgentData?.platform || '';
+		const legacyPlatform = navigator.platform || '';
+		const maxTouchPoints = navigator.maxTouchPoints || 0;
+		const platform = (() => {
+			if (/Android/i.test(userAgentDataPlatform) || /Android/i.test(userAgent)) return 'android';
+			if (/iPad|iPhone|iPod/i.test(userAgent) || /iPad|iPhone|iPod/i.test(legacyPlatform)) return 'ios';
+			if (/Mac/i.test(userAgentDataPlatform || legacyPlatform) && maxTouchPoints > 1) return 'ios';
+			return 'desktop';
+		})();
+		const browser = (() => {
+			if (/CriOS/i.test(userAgent)) return 'Chrome iOS';
+			if (/FxiOS/i.test(userAgent)) return 'Firefox iOS';
+			if (/EdgiOS/i.test(userAgent)) return 'Edge iOS';
+			if (/Edg/i.test(userAgent)) return 'Edge';
+			if (/OPR|Opera/i.test(userAgent)) return 'Opera';
+			if (/Chrome|Chromium|CriOS/i.test(userAgent)) return 'Chrome';
+			if (/Safari/i.test(userAgent)) return 'Safari';
+			if (/Firefox/i.test(userAgent)) return 'Firefox';
+			return 'Other';
+		})();
+
+		return {
+			appMode: isStandalone ? 'pwa' : 'browser',
+			platform,
+			browser,
+		};
+	};
+
+	const trackLooturaContext = (attempt = 0) => {
+		if (!window.umami) {
+			if (attempt < 20) window.setTimeout(() => trackLooturaContext(attempt + 1), 250);
+			return;
+		}
+
+		const context = detectLooturaClient();
+		window.looturaClient = context;
+		window.umami.identify?.(context);
+
+		const sessionKey = `lootura:context-tracked:${context.appMode}:${context.platform}:${context.browser}`;
+		if (!sessionStorage.getItem(sessionKey)) {
+			sessionStorage.setItem(sessionKey, 'true');
+			window.umami.track?.('App context', context);
+		}
+	};
+
+	const lockPortraitOrientation = async () => {
+		const orientationApi = screen.orientation;
+		if (!isLooturaPwaRuntime() || !orientationApi?.lock) return;
+
+		try {
+			await orientationApi.lock('portrait-primary');
+		} catch {
+			// iOS Safari and some browsers ignore orientation lock for web apps.
+		}
+	};
+
+	const enforcePortraitOrientation = () => {
+		lockPortraitOrientation();
+
+		window.addEventListener('focus', lockPortraitOrientation);
+		window.addEventListener('pageshow', lockPortraitOrientation);
+		window.addEventListener('orientationchange', lockPortraitOrientation);
+		screen.orientation?.addEventListener?.('change', lockPortraitOrientation);
+		document.addEventListener('visibilitychange', () => {
+			if (document.visibilityState === 'visible') lockPortraitOrientation();
+		});
+	};
+
+	if (!isProduction && 'serviceWorker' in navigator) {
+		navigator.serviceWorker.getRegistrations?.().then((registrations) => {
+			registrations.forEach((registration) => registration.unregister());
+		});
+	}
+
+	if (isProduction && 'serviceWorker' in navigator) {
+		window.addEventListener('load', () => {
+			const reloadForUpdate = () => {
+				if (isReloadingForUpdate) return;
+				isReloadingForUpdate = true;
+				window.location.reload();
+			};
+			const checkPublishedBuild = async () => {
+				try {
+					const response = await fetch(`${baseUrl}app-build.json?ts=${Date.now()}`, {
+						cache: 'no-store',
+						headers: { accept: 'application/json' },
+					});
+					if (!response.ok) return;
+					const publishedBuild = await response.json();
+					const publishedBuildId = getBuildId(publishedBuild);
+					if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+					maybeShowReleaseUpdateNotice(publishedBuild);
+				} catch {
+					// Update checks should never block normal reading.
+				}
+			};
+
+			navigator.serviceWorker.addEventListener('controllerchange', reloadForUpdate);
+
+			navigator.serviceWorker
+				.register(`${baseUrl}sw.js`, { updateViaCache: 'none' })
+				.then((registration) => {
+					const checkForUpdates = () => registration.update().catch(() => {});
+
+					checkForUpdates();
+					checkPublishedBuild();
+					window.setInterval(checkForUpdates, 60_000);
+					window.setInterval(checkPublishedBuild, 60_000);
+					window.addEventListener('focus', checkForUpdates);
+					window.addEventListener('focus', checkPublishedBuild);
+					document.addEventListener('visibilitychange', () => {
+						if (document.visibilityState === 'visible') {
+							checkForUpdates();
+							checkPublishedBuild();
+						}
+					});
+				})
+				.catch(() => {});
+		});
+	}
+
+	window.addEventListener('load', () => {
+		trackLooturaContext();
+		enforcePortraitOrientation();
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+})();</script></body></html> <script type="module">const a=document.querySelector("[data-refresh-dashboard]"),r=document.querySelector("[data-copy-diagnostics]"),o=Array.from(document.querySelectorAll("[data-process-tab]")),i=Array.from(document.querySelectorAll("[data-process-tab-panel]"));a?.addEventListener("click",()=>window.location.reload());const c=s=>{o.forEach(t=>{const e=t.getAttribute("data-process-tab")===s;t.setAttribute("aria-selected",String(e)),t.classList.toggle("border-neutral-950",e),t.classList.toggle("bg-neutral-950",e),t.classList.toggle("text-white",e),t.classList.toggle("dark:border-white",e),t.classList.toggle("dark:bg-white",e),t.classList.toggle("dark:text-neutral-950",e),t.classList.toggle("border-neutral-950/10",!e),t.classList.toggle("bg-white",!e),t.classList.toggle("text-neutral-700",!e),t.classList.toggle("hover:bg-neutral-950/5",!e),t.classList.toggle("dark:border-white/10",!e),t.classList.toggle("dark:bg-neutral-950",!e),t.classList.toggle("dark:text-white/72",!e),t.classList.toggle("dark:hover:bg-white/8",!e)}),i.forEach(t=>{t.classList.toggle("hidden",t.getAttribute("data-process-tab-panel")!==s)})};o.forEach(s=>{s.addEventListener("click",()=>c(s.getAttribute("data-process-tab")||"dashboard"))});r?.addEventListener("click",async()=>{const s=r.getAttribute("data-diagnostics")||"";await navigator.clipboard.writeText(s),r.setAttribute("title","Copiado"),window.setTimeout(()=>r.setAttribute("title","Copiar diagnóstico"),1200)});</script>

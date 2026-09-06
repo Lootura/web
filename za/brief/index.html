@@ -1,0 +1,680 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-sckkx6r4> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0a0a0a"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Lootura"><meta name="generator" content="Astro v6.1.8"><title>Lootura | Signal brief</title><link rel="canonical" href="https://lootura.com/za/brief/"><link rel="alternate" hreflang="es-ES" href="https://lootura.com/es/brief/"><link rel="alternate" hreflang="en-US" href="https://lootura.com/us/brief/"><link rel="alternate" hreflang="en-ZA" href="https://lootura.com/za/brief/"><link rel="alternate" hreflang="es-MX" href="https://lootura.com/mx/brief/"><link rel="alternate" hreflang="es-AR" href="https://lootura.com/ar/brief/"><link rel="alternate" hreflang="ja-JP" href="https://lootura.com/jp/brief/"><link rel="alternate" hreflang="x-default" href="https://lootura.com/"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://lootura.com/#organization","name":"Lootura","url":"https://lootura.com","logo":"https://lootura.com/favicon.svg"},{"@type":"WebSite","@id":"https://lootura.com/#website","name":"Lootura","url":"https://lootura.com","description":"Lootura is a quiet news and signal reader that turns live headlines from real sources into finite regional covers and evidence-backed signals.","publisher":{"@id":"https://lootura.com/#organization"},"inLanguage":["es","en","ja"]},{"@type":"WebApplication","@id":"https://lootura.com/#app","name":"Lootura","url":"https://lootura.com","description":"Lootura is a quiet news and signal reader that turns live headlines from real sources into finite regional covers and evidence-backed signals.","applicationCategory":"NewsApplication","operatingSystem":"Any","isAccessibleForFree":true,"publisher":{"@id":"https://lootura.com/#organization"}}]}</script><style>
+			html,
+			body {
+				margin: 0;
+				width: 100%;
+				min-height: 100%;
+				background: #0a0a0a;
+				color-scheme: light;
+			}
+		</style> <meta name="description" content="A compact snapshot of the strongest current Lootura Signals across editions."> <meta property="og:type" content="website"> <meta property="og:site_name" content="Lootura"> <meta property="og:title" content="Lootura | Signal brief"> <meta property="og:description" content="A compact snapshot of the strongest current Lootura Signals across editions."> <meta property="og:url" content="https://lootura.com/za/brief/"> <meta name="twitter:card" content="summary"> <script>(function(){const supportedLocales = ["es","us","za","mx","ar","jp"];
+const editionAliases = {"es":"es","spain":"es","us":"us","usa":"us","united-states":"us","za":"za","south-africa":"za","south_africa":"za","south africa":"za","mx":"mx","mexico":"mx","méxico":"mx","ar":"ar","argentina":"ar","jp":"jp","japan":"jp","japon":"jp","japón":"jp","nihon":"jp","nippon":"jp"};
+
+			(() => {
+				const cleanupVersionKey = 'lootura:storage-cleanup-version';
+				const cleanupVersion = '2026-05-18-editions-config';
+				const maxSeenNewsItems = 600;
+				const seenNewsLifetimeMs = 30 * 24 * 60 * 60 * 1000;
+				const editionPattern = supportedLocales.map((edition) => edition.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+				const allowedEditionIds = new Set(supportedLocales);
+				const booleanKeys = new Set([
+					'lootura:browser-intro-seen',
+					'lootura:editions-promo-seen',
+					'lootura:install-accepted',
+					'lootura:signal:intro-any-seen',
+					'lootura:signal:install-nudge-dismissed:v1',
+					'lootura:signal:install-nudge-ready:v1',
+					'lootura:swipe-hint-seen',
+				]);
+				const numberKeys = new Set([
+					'lootura:signal:browser-open-count:v1',
+					'lootura:signal:install-nudge-dismiss-count:v1',
+				]);
+				const dateKeys = new Set([
+					'lootura:install-gate-action-at',
+					'lootura:install-gate-seen-at',
+					'lootura:last-active-at',
+				]);
+				const allowedExactKeys = new Set([
+					cleanupVersionKey,
+					'lootura.preferences.v1',
+					'lootura:editorial',
+					'lootura:app-release:last-seen-build',
+					'lootura:app-release:last-seen-version',
+					'lootura:app-release:snoozed-until',
+					'lootura:refresh-at-launch',
+					'lootura:seen-news:v1',
+					'lootura:updates:last-seen-version',
+					...booleanKeys,
+					...numberKeys,
+					...dateKeys,
+				]);
+				const allowedPatternKeys = [
+					new RegExp(`^lootura:calm-mode:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:saved-stories:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:signal:intro:v1:(${editionPattern}|global)$`),
+					new RegExp(`^lootura:signal:seen:v1:(${editionPattern}|global)$`),
+				];
+
+				const isValidDate = (value) => Number.isFinite(new Date(value || '').getTime());
+				const removeItem = (key) => localStorage.removeItem(key);
+				const writeJson = (key, value) => localStorage.setItem(key, JSON.stringify(value));
+				const isAllowedLooturaKey = (key) =>
+					allowedExactKeys.has(key) || allowedPatternKeys.some((pattern) => pattern.test(key));
+
+				const compactSeenNews = (key) => {
+					const value = localStorage.getItem(key);
+					const seen = JSON.parse(value || '{}');
+					const now = Date.now();
+					const entries = Array.isArray(seen)
+						? seen.map((id) => [id, now])
+						: Object.entries(seen || {});
+					const compactSeen = Object.fromEntries(
+						entries
+							.map(([id, firstSeenAt]) => [String(id || ''), Number(firstSeenAt)])
+							.filter(
+								([id, firstSeenAt]) =>
+									id &&
+									Number.isFinite(Number(firstSeenAt)) &&
+									now - Number(firstSeenAt) < seenNewsLifetimeMs,
+							)
+							.sort(([, firstSeenAt], [, secondSeenAt]) => Number(secondSeenAt) - Number(firstSeenAt))
+							.slice(0, maxSeenNewsItems),
+					);
+					writeJson(key, compactSeen);
+				};
+
+				try {
+					if (localStorage.getItem(cleanupVersionKey) === cleanupVersion) return;
+
+					for (const key of Object.keys(localStorage)) {
+						if (!key.startsWith('lootura:')) continue;
+
+						try {
+							const value = localStorage.getItem(key) || '';
+							if (!isAllowedLooturaKey(key)) {
+								removeItem(key);
+							} else if (key === 'lootura:editorial' && !allowedEditionIds.has(value)) {
+								removeItem(key);
+							} else if (key === 'lootura:seen-news:v1') {
+								compactSeenNews(key);
+							} else if (booleanKeys.has(key) && value !== 'true') {
+								removeItem(key);
+							} else if (numberKeys.has(key) && !Number.isFinite(Number(value))) {
+								removeItem(key);
+							} else if (dateKeys.has(key) && !isValidDate(value)) {
+								removeItem(key);
+							}
+						} catch {
+							removeItem(key);
+						}
+					}
+
+					localStorage.setItem(cleanupVersionKey, cleanupVersion);
+				} catch {
+					// Storage can be unavailable in restrictive browser modes.
+				}
+			})();
+		})();</script><script type="module">(()=>{const e=window.matchMedia("(display-mode: standalone)").matches||window.matchMedia("(display-mode: fullscreen)").matches||window.matchMedia("(display-mode: minimal-ui)").matches||window.navigator.standalone||document.referrer.startsWith("android-app://")||sessionStorage.getItem("lootura:pwa-dev-override")==="true";document.documentElement.classList.toggle("pwa-runtime",!!e)})();</script><script type="module">document.documentElement.style.colorScheme="light";</script><script defer src="https://cloud.umami.is/script.js" data-website-id="1e408cbd-a16c-43ee-b404-35aa97b38c93"></script><link rel="stylesheet" href="/_astro/Layout.BgXvolpK.css"></head> <body data-astro-cid-sckkx6r4>   <div data-desktop-landing class="desktop-gate:block hidden relative min-h-svh overflow-hidden bg-neutral-950 text-white opacity-0 transition-opacity duration-300" data-desktop-cover-count="1"> <div class="absolute inset-0"> <div data-desktop-cover-backdrop class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.16),_transparent_38%),linear-gradient(180deg,_rgba(5,5,6,0.08)_0%,_rgba(5,5,6,0.48)_42%,_rgba(5,5,6,0.88)_100%)]"></div> <div data-desktop-cover-card class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.14),transparent_30%),radial-gradient(circle_at_80%_30%,rgba(255,255,255,0.1),transparent_26%),linear-gradient(135deg,#171717_0%,#050505_56%,#101114_100%)]"></div> <div class="absolute inset-0 bg-black/34"></div> <div class="absolute inset-0 bg-gradient-to-b from-black/8 via-black/22 to-black/78"></div> </div> <header class="absolute inset-x-0 top-0 z-20 border-b border-white/10 bg-black/12 backdrop-blur-xl"> <div class="mx-auto flex h-16 w-full items-center gap-4 px-4 sm:px-6 lg:px-8"> <a href="/" class="inline-flex items-center gap-3 text-sm font-semibold uppercase tracking-[0.34em] text-white/92" aria-label="Lootura home"> <span class="h-2.5 w-2.5 rounded-full bg-lime-300 shadow-[0_0_18px_rgba(163,230,53,0.78)]"></span> <span>Lootura</span> </a> <div class="flex-1"></div> <a href="https://atlas.lootura.com" class="inline-flex items-center gap-2 rounded-full border border-white/14 bg-white/8 px-3 py-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.28em] text-white/84 transition hover:border-white/24 hover:bg-white/12 focus:outline-none focus:ring-2 focus:ring-white/30" aria-label="Try Atlas in English" data-desktop-atlas-link>
+Try Atlas
+</a> </div> </header> <main class="relative z-10 flex min-h-svh items-center pb-28 sm:pb-32 lg:pb-36"> <div class="mx-auto w-full max-w-6xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28"> <div class="mx-auto max-w-2xl text-center"> <h1 data-desktop-cover-title class="mx-auto max-w-3xl text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">Real news, gathered into one live cover</h1> <p data-desktop-cover-summary class="mx-auto mt-3 max-w-xl text-sm leading-6 text-white/68 sm:text-base sm:leading-7"> Lootura turns live stories into a quiet, finite read so you can see what is moving without extra noise. </p> </div> </div> </main> <div data-desktop-mobile-banner class="absolute inset-x-0 bottom-5 z-20 px-4 text-center sm:bottom-6 sm:px-6 lg:bottom-8 lg:px-8"> <p class="mx-auto max-w-4xl text-xs font-medium tracking-[0.18em] text-white/55 sm:text-sm lg:text-base"> Open this cover on mobile </p> </div> </div> <script>(function(){const renderedCovers = [{"id":"lootura-za-fallback","title":"Lootura","summary":"Live cover","image":""}];
+
+	const root = document.querySelector('[data-desktop-landing]');
+	if (!root) {
+		return;
+	}
+
+	const cards = Array.from(root.querySelectorAll('[data-desktop-cover-card]'));
+	const backdrop = root.querySelector('[data-desktop-cover-backdrop]');
+	const lastCoverIndexKey = 'lootura:desktop:last-cover-index';
+
+	const applyCover = (index) => {
+		const safeIndex = Number.isFinite(index) && index >= 0 && index < renderedCovers.length ? index : 0;
+		const cover = renderedCovers[safeIndex] || renderedCovers[0];
+
+		cards.forEach((card, cardIndex) => {
+			card.hidden = cardIndex !== safeIndex;
+		});
+
+		if (backdrop) {
+			backdrop.dataset.desktopCoverImage = cover?.image || '';
+		}
+
+		try {
+			sessionStorage.setItem(lastCoverIndexKey, String(safeIndex));
+		} catch {}
+	};
+
+	const pickRandomCoverIndex = () => {
+		if (cards.length <= 1) return 0;
+
+		let lastIndex = -1;
+		try {
+			lastIndex = Number.parseInt(sessionStorage.getItem(lastCoverIndexKey) || '', 10);
+		} catch {}
+
+		const candidates = cards.map((_, index) => index).filter((index) => index !== lastIndex);
+		const pool = candidates.length > 0 ? candidates : cards.map((_, index) => index);
+		const randomValue = window.crypto?.getRandomValues ? window.crypto.getRandomValues(new Uint32Array(1))[0] : Math.floor(Math.random() * Number.MAX_SAFE_INTEGER);
+		return pool[randomValue % pool.length];
+	};
+
+	applyCover(pickRandomCoverIndex());
+
+	root.classList.add('opacity-100');
+})();</script> <main class="min-h-svh bg-white text-neutral-950 desktop-gate:hidden" data-signal-brief> <header class="safe-top-header sticky top-0 z-50 border-b border-neutral-950/10 bg-white/78 px-4 backdrop-blur-md sm:px-6 dark:border-white/10 dark:bg-neutral-950/78"> <div class="mx-auto flex h-16 w-full items-center gap-4 max-w-3xl"> <a class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-neutral-950 transition hover:bg-neutral-950/10 focus:outline-none focus:ring-2 focus:ring-neutral-950" href="/za/?menu=1" aria-label="Back to menu"> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-arrow-left"> <path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path>  </svg> </a> <p class="min-w-0 flex-1 truncate text-center text-sm font-medium uppercase tracking-normal text-neutral-500 dark:text-white/48" data-page-topbar-title>Signal brief</p> <div class="flex items-center gap-2"> <span class="h-10 w-10 shrink-0" aria-hidden="true"></span> <a class="inline-flex min-h-9 items-center gap-2 rounded-full border border-neutral-950/10 bg-white px-3.5 text-xs font-semibold uppercase tracking-[0.24em] text-neutral-900 shadow-[0_8px_20px_rgba(10,10,10,0.08)] transition hover:border-neutral-950/20 hover:bg-neutral-50 focus:outline-none focus:ring-2 focus:ring-neutral-900/20 dark:border-white/10 dark:bg-neutral-950 dark:text-white dark:hover:border-white/20 dark:hover:bg-neutral-900" href="https://atlas.lootura.com" aria-label="Try Atlas in English" data-atlas-link>
+Try Atlas
+</a> </div> </div> </header> <section class="mx-auto w-full max-w-3xl px-5 pb-16 pt-6 sm:px-8"> <header class="border-b border-neutral-200 pb-5"> <p class="text-xs font-bold uppercase tracking-[0.16em] text-teal-600/82">Lootura</p> <h1 class="mt-3 text-4xl font-semibold leading-none tracking-normal text-neutral-950 sm:text-5xl">Signal brief</h1> <p class="mt-4 max-w-xl text-base font-medium leading-7 text-neutral-600">A compact read of the strongest movement across editions.</p> </header> <nav class="-mx-5 flex gap-2 overflow-x-auto border-b border-neutral-200 px-5 py-4 sm:-mx-8 sm:px-8" aria-label="Editions"> <button class="inline-flex h-10 min-w-14 shrink-0 items-center justify-center rounded-full border border-neutral-300 bg-neutral-100 px-4 text-sm font-bold text-neutral-950 transition aria-[current=true]:border-neutral-950 aria-[current=true]:bg-neutral-950 aria-[current=true]:text-white" type="button" aria-current="true" data-brief-tab="za"> ZA </button><button class="inline-flex h-10 min-w-14 shrink-0 items-center justify-center rounded-full border border-neutral-300 bg-neutral-100 px-4 text-sm font-bold text-neutral-950 transition aria-[current=true]:border-neutral-950 aria-[current=true]:bg-neutral-950 aria-[current=true]:text-white" type="button" aria-current="false" data-brief-tab="es"> ES </button><button class="inline-flex h-10 min-w-14 shrink-0 items-center justify-center rounded-full border border-neutral-300 bg-neutral-100 px-4 text-sm font-bold text-neutral-950 transition aria-[current=true]:border-neutral-950 aria-[current=true]:bg-neutral-950 aria-[current=true]:text-white" type="button" aria-current="false" data-brief-tab="us"> US </button><button class="inline-flex h-10 min-w-14 shrink-0 items-center justify-center rounded-full border border-neutral-300 bg-neutral-100 px-4 text-sm font-bold text-neutral-950 transition aria-[current=true]:border-neutral-950 aria-[current=true]:bg-neutral-950 aria-[current=true]:text-white" type="button" aria-current="false" data-brief-tab="mx"> MX </button><button class="inline-flex h-10 min-w-14 shrink-0 items-center justify-center rounded-full border border-neutral-300 bg-neutral-100 px-4 text-sm font-bold text-neutral-950 transition aria-[current=true]:border-neutral-950 aria-[current=true]:bg-neutral-950 aria-[current=true]:text-white" type="button" aria-current="false" data-brief-tab="ar"> AR </button><button class="inline-flex h-10 min-w-14 shrink-0 items-center justify-center rounded-full border border-neutral-300 bg-neutral-100 px-4 text-sm font-bold text-neutral-950 transition aria-[current=true]:border-neutral-950 aria-[current=true]:bg-neutral-950 aria-[current=true]:text-white" type="button" aria-current="false" data-brief-tab="jp"> JP </button> </nav> <div class="pt-5"> <section class="space-y-4" data-brief-panel="za"> <div class="flex flex-col gap-4 border-b border-neutral-200 pb-5 sm:flex-row sm:items-end sm:justify-between"> <div> <h2 class="text-2xl font-semibold leading-tight text-neutral-950">South Africa</h2> <p class="mt-2 text-sm leading-6 text-neutral-500"> Last analysis · 2 minutes ago · 249 links scanned in 24h </p> </div> <a class="inline-flex min-h-11 w-fit items-center gap-2 rounded-full border border-neutral-300 bg-neutral-100 px-4 text-sm font-bold text-neutral-950 transition hover:bg-neutral-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-neutral-950" href="/za/signal/"> <span>Read full signal</span> <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-external-link"> <path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>  </svg> </a> </div> <div class="grid gap-3">  <article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/za/signal/union-talks-denosa-urges-gauteng-health-department-to-address-mounting-system-fa"> UNION TALKS: Denosa urges Gauteng health department to address mounting system failures </a> <small class="text-sm leading-5 text-neutral-500"> NOW · fresh now </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.dailymaverick.co.za/article/2026-09-06-denosa-urges-gauteng-health-department-to-address-mounting-system-failures/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: UNION TALKS: Denosa urges Gauteng health department to address mounting system failures"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">Daily Maverick</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.sabcnews.com/sabcnews/denosa-gives-gauteng-health-one-month-to-address-critical-shortages/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: DENOSA gives Gauteng Health one month to address critical shortages"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">SABC News</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/za/signal/local-elections-2026-bosa-s-joburg-mayoral-candidate-details-plan-to-revive-crum"> LOCAL ELECTIONS 2026: Bosa’s Joburg mayoral candidate details plan to revive crumbling city </a> <small class="text-sm leading-5 text-neutral-500"> NOW · fresh now </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.dailymaverick.co.za/article/2026-09-06-bosas-joburg-mayoral-candidate-details-plan-to-revive-crumbling-city/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: LOCAL ELECTIONS 2026: Bosa’s Joburg mayoral candidate details plan to revive crumbling city"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">Daily Maverick</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.sabcnews.com/sabcnews/yongama-zigebe-named-udms-mayoral-hopeful-for-joburg/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Yongama Zigebe named UDM’s mayoral hopeful for Joburg"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">SABC News</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Active </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/za/signal/ramaphosa-characterises-police-killings-as-assault-on-state-itself"> Ramaphosa characterises police killings as assault on State itself </a> <small class="text-sm leading-5 text-neutral-500"> NOW · 8h </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.sabcnews.com/sabcnews/1158624-2/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Ramaphosa characterises police killings as assault on State itself"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">SABC News</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.enca.com/news-top-stories/police-killers-will-face-full-might-law-ramaphosa?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: ‘Police killers will face full might of the law’"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">eNCA</span> </a> </li> </ul> </article> </div> </section><section class="space-y-4" data-brief-panel="es" hidden> <div class="flex flex-col gap-4 border-b border-neutral-200 pb-5 sm:flex-row sm:items-end sm:justify-between"> <div> <h2 class="text-2xl font-semibold leading-tight text-neutral-950">España</h2> <p class="mt-2 text-sm leading-6 text-neutral-500"> Último análisis · hace 3 minutos · 1.714 enlaces escaneados en 24h </p> </div> <a class="inline-flex min-h-11 w-fit items-center gap-2 rounded-full border border-neutral-300 bg-neutral-100 px-4 text-sm font-bold text-neutral-950 transition hover:bg-neutral-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-neutral-950" href="/es/signal/"> <span>Read full signal</span> <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-external-link"> <path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>  </svg> </a> </div> <div class="grid gap-3">  <article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/es/signal/afd-arrasa-en-las-elecciones-de-sajonia-y-roza-la-mayoria-absoluta-tenemos-un-cl"> AfD arrasa en las elecciones de Sajonia y roza la mayoría absoluta: «Tenemos un claro mandato para gobernar» </a> <small class="text-sm leading-5 text-neutral-500"> AHORA · fresh now </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://elpais.com/internacional/2026-09-06/la-participacion-se-dispara-en-las-elecciones-regionales-alemanas-donde-la-extrema-derecha-aspira-a-gobernar.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: La extrema derecha arrasa en Sajonia-Anhalt y opta a gobernar por primera vez en un Estado alemán"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">El País</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.elmundo.es/internacional/2026/09/06/6a9d8f63fc6c8334508b456d.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: La AfD arrasa en Sajonia-Anhalt con el 44%, según las proyecciones, y queda a las puertas de la mayoría absoluta"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">El Mundo</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://okdiario.com/internacional/afd-arrasa-elecciones-sajonia-roza-mayoria-absoluta-tenemos-claro-mandato-gobernar-20238593?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: AfD arrasa en las elecciones de Sajonia y roza la mayoría absoluta: «Tenemos un claro mandato para gobernar»"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">OK Diario</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/es/signal/alcaraz-despeja-todas-las-dudas-arrolla-a-paul-en-una-exhibicion-y-ya-esta-en-cu"> Alcaraz despeja todas las dudas, arrolla a Paul en una exhibición y ya está en cuartos del US Open </a> <small class="text-sm leading-5 text-neutral-500"> AHORA · fresh now </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.elmundo.es/deportes/tenis/us-open/2026/09/06/6a9dcb58fdddff0c2f8b456f.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Alcaraz despeja todas las dudas, arrolla a Paul en una exhibición y ya está en cuartos del US Open"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">El Mundo</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://elpais.com/deportes/tenis/2026-09-06/alcaraz-se-desmelena-atras-quedo-el-rodaje-diversion-y-rumbo-a-cuartos-del-us-open.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Alcaraz se desmelena, atrás quedó el rodaje: diversión y rumbo a cuartos del US Open"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">El País</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.abc.es/deportes/tenis/cronica-paulalcaraz-20260906153939-nt.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Alcaraz acaba con Paul y con las dudas: se planta en cuartos como favorito"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">ABC</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/es/signal/el-barca-de-lamine-arrolla-al-valencia-en-un-ensordecedor-mestalla-que-llega-a-s"> El Barça de Lamine arrolla al Valencia en un ensordecedor Mestalla que llega a su límite </a> <small class="text-sm leading-5 text-neutral-500"> SUBIENDO · 2h </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://theobjective.com/actualidad/2026-09-06/goleada-barcelona-mestalla-valencia-altura/?amp=&#38;utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Goleada del Barcelona en Mestalla ante un Valencia que no estuvo a la altura"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">The Objective</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://elpais.com/deportes/futbol/2026-09-06/el-barca-disfruta-en-mestalla-a-costa-de-un-pobre-valencia.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: El Barça disfruta en Mestalla a costa de un pobre Valencia"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">El País</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.abc.es/deportes/futbol/barca-brillante-destroza-valencia-20260906183047-nt.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Un Barça brillante destroza al Valencia"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">ABC</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/es/signal/al-menos-cinco-muertos-tras-salirse-de-pista-un-avion-de-carga-en-el-aeropuerto"> Al menos cinco muertos tras salirse de pista un avión de carga en el aeropuerto de Miami </a> <small class="text-sm leading-5 text-neutral-500"> AHORA · fresh now </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://okdiario.com/internacional/avion-carga-amazon-estrella-incendia-aeropuerto-miami-20238991/amp?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Un avión de carga de Amazon se estrella y se incendia en el Aeropuerto de Miami"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">OK Diario</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.abc.es/internacional/avion-carga-incendia-tras-salirse-pista-aterrizaje-20260906215206-nt_amp.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Al menos cinco muertos tras salirse de pista un avión de carga en el aeropuerto de Miami"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">ABC</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/es/signal/la-armonica-rebelion-de-morante-en-la-goyesca-del-motin-de-aranjuez"> La armónica rebelión de Morante en la goyesca del Motín de Aranjuez </a> <small class="text-sm leading-5 text-neutral-500"> AHORA · fresh now </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://theobjective.com/cultura/2026-09-06/morante-goyesco-amotina-aranjuez/?amp=&#38;utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: El Morante más goyesco 'se amotina' en Aranjuez"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">The Objective</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.abc.es/cultura/toros/domingo-toros-aranjuez-20260906221659-nt.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: La armónica rebelión de Morante en la goyesca del Motín de Aranjuez"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">ABC</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Active </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/es/signal/susan-sarandon-regresa-tras-ser-vetada-por-apoyar-a-palestina-la-gente-ha-descub"> Susan Sarandon regresa tras ser vetada por apoyar a Palestina: “La gente ha descubierto los lazos de EEUU con el sionismo” </a> <small class="text-sm leading-5 text-neutral-500"> SUBIENDO · 4h </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.elmundo.es/cultura/cine/2026/09/06/6a9d75dae4d4d867128b4577.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Susan Sarandon: &#34;La narrativa con Palestina está cambiando en Estados Unidos. Nadie entiende por qué damos tanto dinero a Israel&#34;"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">El Mundo</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.eldiario.es/cultura/cine/susan-sarandon-regresa-veto-apoyar-palestina-gente-descubierto-lazos-eeuu-sionismo_1_13490790.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Susan Sarandon regresa tras ser vetada por apoyar a Palestina: “La gente ha descubierto los lazos de EEUU con el sionismo”"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">elDiario.es</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Active </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/es/signal/flick-presume-tras-la-goleada-del-barcelona-mis-jugadores-tienen-hambre-de-ganar"> Flick presume tras la goleada del Barcelona: «Mis jugadores tienen hambre de ganar todo» </a> <small class="text-sm leading-5 text-neutral-500"> SUBIENDO · 5h </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://okdiario.com/deportes/flick-presume-goleada-del-barcelona-mis-jugadores-tienen-hambre-ganar-todo-20238225?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Flick presume tras la goleada del Barcelona: «Mis jugadores tienen hambre de ganar todo»"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">OK Diario</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.lavanguardia.com/deportes/fc-barcelona/20260906/11628587/flick-veo-hambre-mis-jugadores-siempre-quieren-mas.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: “Flick: “Veo el hambre en mis jugadores, siempre quieren más”"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">La Vanguardia</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Cooling </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/es/signal/devueltos-a-marruecos-21-inmigrantes-por-lanzar-piedras-a-militares-y-guardias-c"> Devueltos a Marruecos 21 inmigrantes por lanzar piedras a militares y guardias civiles en Ceuta </a> <small class="text-sm leading-5 text-neutral-500"> BAJANDO · 5h </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.abc.es/espana/veintena-inmigrantes-detenidos-ceuta-lanzar-piedras-militares-20260906135011-nt.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Devueltos a Marruecos 21 inmigrantes por lanzar piedras a militares y guardias civiles en Ceuta"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">ABC</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.elmundo.es/espana/2026/09/06/6a9d4864fdddff8d4c8b458b.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: 21 detenidos tras un nuevo ataque con piedras a militares en Ceuta"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">El Mundo</span> </a> </li> </ul> </article> </div> </section><section class="space-y-4" data-brief-panel="us" hidden> <div class="flex flex-col gap-4 border-b border-neutral-200 pb-5 sm:flex-row sm:items-end sm:justify-between"> <div> <h2 class="text-2xl font-semibold leading-tight text-neutral-950">United States</h2> <p class="mt-2 text-sm leading-6 text-neutral-500"> Last analysis · 3 minutes ago · 2,462 links scanned in 24h </p> </div> <a class="inline-flex min-h-11 w-fit items-center gap-2 rounded-full border border-neutral-300 bg-neutral-100 px-4 text-sm font-bold text-neutral-950 transition hover:bg-neutral-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-neutral-950" href="/us/signal/"> <span>Read full signal</span> <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-external-link"> <path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>  </svg> </a> </div> <div class="grid gap-3">  <article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/us/signal/gop-sen-john-kennedy-says-the-u-s-must-choke-putin-to-death-as-trump-admin-meets"> GOP Sen. John Kennedy says the U.S. must ‘choke [Putin] to death’ as Trump admin meets with him </a> <small class="text-sm leading-5 text-neutral-500"> NOW · fresh now </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.npr.org/2026/09/06/nx-s1-5959728/u-s-envoys-visit-kyiv-for-first-time-after-meeting-putin-in-moscow?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: U.S. envoys visit Kyiv for first time after meeting Putin in Moscow"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">NPR World</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.nytimes.com/2026/09/06/world/europe/ukraine-zelensky-witkoff-kushner-russia-putin.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: U.S. Envoys Witkoff and Kushner Arrive in Kyiv After Talks With Putin"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">The New York Times World</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.cbsnews.com/news/ukraine-russia-us-talks-peace-war-witkoff-kushner/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Trump envoys say Ukraine talks were &#34;very meaningful&#34; after Moscow visit"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">CBS News</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/us/signal/at-least-5-dead-5-injured-after-amazon-cargo-plane-overruns-runway-near-miami-in"> At least 5 dead, 5 injured after Amazon cargo plane overruns runway near Miami International Airport, officials say </a> <small class="text-sm leading-5 text-neutral-500"> NOW · fresh now </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.cbsnews.com/miami/news/miami-airport-plane-disabled-9-6-2026/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: At least 5 dead, 5 injured after Amazon cargo plane overruns runway near Miami International Airport, officials say"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">CBS News</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.theguardian.com/us-news/2026/sep/06/amazon-cargo-plane-crashes-miami-airport?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Amazon cargo plane crashes at Miami airport and hits several vehicles"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">The Guardian US</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.nbcnews.com/now/video/amazon-plane-crashes-after-overrunning-runway-in-miami-269415493738?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Amazon plane crashes after overrunning runway in Miami"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">NBC News</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/us/signal/trump-again-asks-supreme-court-to-restrict-mail-in-voting-as-midterms-loom"> Trump again asks supreme court to restrict mail-in voting as midterms loom </a> <small class="text-sm leading-5 text-neutral-500"> NOW · 4h </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.nytimes.com/2026/09/06/us/politics/trump-mail-in-voting-supreme-court.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Trump Administration Again Asks Supreme Court to Allow Mail Voting Restrictions"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">The New York Times Politics</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.theguardian.com/us-news/2026/sep/06/trump-administration-supreme-court-mail-in-voting?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Trump again asks supreme court to restrict mail-in voting as midterms loom"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">The Guardian US</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.pbs.org/newshour/politics/trump-administration-makes-another-appeal-to-supreme-court-to-allow-mail-ballot-restrictions?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Trump administration makes another appeal to Supreme Court to allow mail ballot restrictions"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">PBS NewsHour</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Active </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/us/signal/german-far-right-party-set-for-regional-election-triumph-but-uncertain-of-govern"> German far-right party set for regional election triumph but uncertain of governing </a> <small class="text-sm leading-5 text-neutral-500"> NOW · 4h </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.pbs.org/newshour/world/german-far-right-party-set-for-strong-win-in-regional-election-but-uncertain-of-governing?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: German far-right party set for regional election triumph but uncertain of governing"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">PBS NewsHour</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.npr.org/2026/09/06/nx-s1-5955677/german-exit-polls-suggest-far-right-party-big-lead-in-regional-election?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: German exit polls suggest far-right party has big lead in regional election"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">NPR World</span> </a> </li> </ul> </article> </div> </section><section class="space-y-4" data-brief-panel="mx" hidden> <div class="flex flex-col gap-4 border-b border-neutral-200 pb-5 sm:flex-row sm:items-end sm:justify-between"> <div> <h2 class="text-2xl font-semibold leading-tight text-neutral-950">México</h2> <p class="mt-2 text-sm leading-6 text-neutral-500"> Último análisis · hace 2 minutos · 50 enlaces escaneados en 24h </p> </div> <a class="inline-flex min-h-11 w-fit items-center gap-2 rounded-full border border-neutral-300 bg-neutral-100 px-4 text-sm font-bold text-neutral-950 transition hover:bg-neutral-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-neutral-950" href="/mx/signal/"> <span>Read full signal</span> <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-external-link"> <path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>  </svg> </a> </div> <div class="grid gap-3"> <p class="rounded-lg border border-neutral-300 bg-neutral-100 px-4 py-5 text-sm leading-6 text-neutral-600">No packaged signals for this edition yet.</p>  </div> </section><section class="space-y-4" data-brief-panel="ar" hidden> <div class="flex flex-col gap-4 border-b border-neutral-200 pb-5 sm:flex-row sm:items-end sm:justify-between"> <div> <h2 class="text-2xl font-semibold leading-tight text-neutral-950">Argentina</h2> <p class="mt-2 text-sm leading-6 text-neutral-500"> Último análisis · hace 2 minutos · 352 enlaces escaneados en 24h </p> </div> <a class="inline-flex min-h-11 w-fit items-center gap-2 rounded-full border border-neutral-300 bg-neutral-100 px-4 text-sm font-bold text-neutral-950 transition hover:bg-neutral-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-neutral-950" href="/ar/signal/"> <span>Read full signal</span> <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-external-link"> <path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>  </svg> </a> </div> <div class="grid gap-3">  <article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/ar/signal/el-gobierno-busca-estirar-la-causa-malvinas-para-cambiar-el-clima-esta-semana-ma"> El Gobierno busca estirar la &quot;causa Malvinas&quot; para cambiar el clima: esta semana manda el proyecto para endurecer sanciones y negocia con la oposición </a> <small class="text-sm leading-5 text-neutral-500"> SUBIENDO · 1h </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.clarin.com/politica/gobierno-busca-estirar-causa-malvinas-cambiar-clima-semana-manda-proyecto-endurecer-sanciones-negocia-oposicion_0_NFCoj2pAku.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: El Gobierno busca estirar la &#34;causa Malvinas&#34; para cambiar el clima: esta semana manda el proyecto para endurecer sanciones y negocia con la oposición"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">Clarín</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.ambito.com/informacion-general/malvinas-cuales-son-las-45-empresas-y-personas-que-quedaron-la-mira-del-gobierno-la-explotacion-petroleo-n6319092?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Malvinas: cuáles son las 45 empresas y personas que quedaron bajo la mira del Gobierno por la explotación de petróleo"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">Ámbito</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.lanacion.com.ar/politica/un-informe-de-inteligencia-timing-trumpista-y-lobby-petrolero-avanza-el-operativo-malvinas-del-nid06092026/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Un informe de inteligencia, timing trumpista y lobby petrolero: avanza el operativo Malvinas del Gobierno"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">La Nación</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/ar/signal/malvinas-y-petroleo-la-apuesta-de-milei-con-trump-que-choca-con-londres-y-dispar"> Malvinas y petróleo: la apuesta de Milei con Trump que choca con Londres y dispara alertas en China y Brasil </a> <small class="text-sm leading-5 text-neutral-500"> SUBIENDO · 1h </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.perfil.com/noticias/amp/politica/encuesta-sobre-malvinas-la-mayoria-cree-que-el-cambio-de-postura-de-milei-es-por-conveniencia-politica.phtml?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Encuesta sobre Malvinas: la mayoría cree que el cambio de postura de Milei es por conveniencia política"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">Perfil</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.cronista.com/economia-politica/malvinas-y-petroleo-la-apuesta-de-milei-con-trump-que-choca-con-londres-y-dispara-alertas-en-china-y-brasil/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Malvinas y petróleo: la apuesta de Milei con Trump que choca con Londres y dispara alertas en China y Brasil"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">El Cronista</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.eldiarioar.com/politica/milei-gira-malvinas-prepara-batalla-arrinconar-oposicion_1_13488932.amp.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Milei gira sobre Malvinas y prepara una batalla para arrinconar a la oposición"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">elDiarioAR</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/ar/signal/lanus-vs-defensa-en-vivo-por-la-liga-profesional-minuto-a-minuto-y-que-canal-pas"> Lanús vs Defensa, en vivo, por la Liga Profesional: minuto a minuto y qué canal pasa el partido por TV </a> <small class="text-sm leading-5 text-neutral-500"> AHORA · fresh now </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://tn.com.ar/deportes/futbol/2026/09/06/lanus-vs-defensa-en-vivo-por-la-fase-de-grupos-de-la-liga-profesional-hora-donde-ver-y-formaciones/?outputType=amp&#38;utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Lanús vs Defensa, en vivo, por la Liga Profesional: minuto a minuto y qué canal pasa el partido por TV"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">TN</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.lanacion.com.ar/deportes/futbol/rosario-central-vs-newells-en-vivo-nid06092026/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Rosario Central vs. Newell’s, en vivo por el torneo Clausura: minuto a minuto del partido"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">La Nación</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Active </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/ar/signal/asi-fue-el-duro-accidente-de-charles-leclerc-en-el-gran-premio-de-italia-despist"> Así fue el duro accidente de Charles Leclerc en el Gran Premio de Italia: despiste, susto para el piloto de Ferrari y bandera roja en Monza </a> <small class="text-sm leading-5 text-neutral-500"> SUBIENDO · 4h </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.lanacion.com.ar/deportes/automovilismo/el-espectacular-doble-adelantamiento-de-colapinto-tras-el-despiste-en-el-gran-premio-de-monza-nid06092026/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: El espectacular doble adelantamiento de Colapinto tras el despiste en el Gran Premio de Monza"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">La Nación</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.ambito.com/deportes/entre-lagrimas-franco-colapinto-se-quebro-el-gran-premio-italia-fue-muy-frustrante-desaproveche-una-gran-oportunidad-n6319077?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Entre lágrimas, Franco Colapinto se quebró tras el Gran Premio de Italia: &#34;Fue muy frustrante, desaproveché una gran oportunidad&#34;"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">Ámbito</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://tn.com.ar/deportes/formula-1/2026/09/06/franco-colapinto-largara-7-en-el-gp-de-italia-y-alpine-buscara-aprovechar-una-clasificacion-historica/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Gran remontada de Colapinto en el GP de Italia de la F1: se ubica noveno tras un despiste que lo había relegado en la carrera"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">TN</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/ar/signal/un-avion-de-carga-se-estrello-en-el-aeropuerto-de-miami-se-suspendieron-los-vuel"> Un avión de carga se estrelló en el aeropuerto de Miami: se suspendieron los vuelos y hay cinco muertos </a> <small class="text-sm leading-5 text-neutral-500"> AHORA · fresh now </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.lanacion.com.ar/estados-unidos/un-avion-de-carga-de-amazon-se-despisto-en-el-aeropuerto-de-miami-demoras-y-vuelos-suspendidos-nid06092026/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Un avión de carga de Amazon se despistó en el aeropuerto de Miami: impactó autos y hay heridos"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">La Nación</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://tn.com.ar/internacional/2026/09/06/un-avion-de-carga-se-estrello-en-el-aeropuerto-de-miami-se-suspendieron-los-vuelos-y-hay-heridos/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Un avión de carga se estrelló en el aeropuerto de Miami: se suspendieron los vuelos y hay cinco muertos"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">TN</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/ar/signal/encontraron-el-cuerpo-de-gian-el-nino-de-cuatro-anos-desaparecido-tras-la-caida"> Encontraron el cuerpo de Gian, el niño de cuatro años desaparecido tras la caída de un auto a un canal en Río Negro </a> <small class="text-sm leading-5 text-neutral-500"> AHORA · fresh now </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.lanacion.com.ar/sociedad/encontraron-el-cuerpo-de-gian-el-nene-de-cuatro-anos-desaparecido-tras-la-caida-de-un-auto-a-un-nid06092026/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Encontraron el cuerpo de Gian, el niño de cuatro años desaparecido tras la caída de un auto a un canal en Río Negro"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">La Nación</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://tn.com.ar/policiales/2026/09/06/encontraron-muerto-al-nene-que-habia-desaparecido-cuando-el-auto-de-su-familia-cayo-a-un-canal-de-riego-en-rio-negro/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Encontraron muerto al nene que había desaparecido cuando el auto de su familia cayó a un canal de riego en Río Negro"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">TN</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/ar/signal/cuba-a-los-95-anos-reaparecio-en-publico-raul-castro-y-disipo-rumores-sobre-su-e"> Cuba: a los 95 años, reapareció en público Raúl Castro y disipó rumores sobre su estado de salud </a> <small class="text-sm leading-5 text-neutral-500"> AHORA · fresh now </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.clarin.com/estados-unidos/raul-castro-aparece-en-la-television-cubana_0_fCDR5hEmU2.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Raúl Castro aparece en la televisión cubana"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">Clarín</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://tn.com.ar/internacional/2026/09/06/cuba-a-los-95-anos-reaparecio-en-publico-raul-castro-y-disipo-rumores-sobre-su-estado-de-salud/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Cuba: a los 95 años, reapareció en público Raúl Castro y disipó rumores sobre su estado de salud"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">TN</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/ar/signal/enviados-de-eeuu-witkoff-y-kushner-se-reunen-con-zelenskyy-en-ucrania-tras-encue"> Enviados de EEUU Witkoff y Kushner se reúnen con Zelenskyy en Ucrania tras encuentro con Putin </a> <small class="text-sm leading-5 text-neutral-500"> SUBIENDO · fresh now </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.clarin.com/estados-unidos/enviados-de-eeuu-witkoff-y-kushner-se-reunen-con-zelenskyy-en-ucrania-tras-encuentro-con-putin_0_VTJIGY03j9.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Enviados de EEUU Witkoff y Kushner se reúnen con Zelenskyy en Ucrania tras encuentro con Putin"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">Clarín</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.lanacion.com.ar/el-mundo/witkoff-y-kushner-buscan-acercar-a-kiev-y-moscu-pero-persisten-los-principales-obstaculos-para-la-nid06092026/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: Witkoff y Kushner buscan acercar a Kiev y Moscú, pero persisten los principales obstáculos para la paz"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">La Nación</span> </a> </li> </ul> </article> </div> </section><section class="space-y-4" data-brief-panel="jp" hidden> <div class="flex flex-col gap-4 border-b border-neutral-200 pb-5 sm:flex-row sm:items-end sm:justify-between"> <div> <h2 class="text-2xl font-semibold leading-tight text-neutral-950">日本</h2> <p class="mt-2 text-sm leading-6 text-neutral-500"> 最新分析 · 2 分前 · 24時間で290件のリンクをスキャン </p> </div> <a class="inline-flex min-h-11 w-fit items-center gap-2 rounded-full border border-neutral-300 bg-neutral-100 px-4 text-sm font-bold text-neutral-950 transition hover:bg-neutral-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-neutral-950" href="/jp/signal/"> <span>Read full signal</span> <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-external-link"> <path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>  </svg> </a> </div> <div class="grid gap-3">  <article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/jp/signal/atochi-10"> 「津田沼パルコ」跡地が駅前広場に 「ATOCHI」10月オープン </a> <small class="text-sm leading-5 text-neutral-500"> 今 · fresh now </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.watch.impress.co.jp/docs/news/2138391.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: 「津田沼パルコ」跡地が駅前広場に 「ATOCHI」10月オープン"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">インプレス</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://mainichi.jp/articles/20260906/k00/00m/050/057000c?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: 大坂なおみが4回戦に進出 テニス全米オープン女子シングルス | 毎日新聞"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">毎日新聞</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Rising </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/jp/signal/jr-7"> JR東日本 あす（7日） 千葉県内の在来線・特急列車で運転見合わせ 大雨の影響で </a> <small class="text-sm leading-5 text-neutral-500"> 今 · fresh now </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.watch.impress.co.jp/docs/news/2138449.html?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: 新宿駅で「移動式ごみ箱」ロボットの自動走行実験 JR東日本"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">インプレス</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://newsdig.tbs.co.jp/articles/-/2924336?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: JR東日本 あす（7日） 千葉県内の在来線・特急列車で運転見合わせ 大雨の影響で"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">TBSニュース</span> </a> </li> </ul> </article><article class="group grid gap-2 rounded-lg border border-neutral-300 bg-neutral-50 p-4 text-neutral-950 transition hover:border-neutral-400 hover:bg-neutral-100"> <span class="inline-flex w-fit rounded-full bg-teal-100 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.04em] text-teal-700"> Cooling </span> <a class="text-base font-semibold leading-snug text-neutral-950 no-underline focus:outline-none focus:ring-2 focus:ring-neutral-950/70" href="/jp/signal/ai-1-herdr"> 複数のAIエージェントを1つのターミナルから統括できる「Herdr」 </a> <small class="text-sm leading-5 text-neutral-500"> 今 · 13h </small> <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0 pt-1"> <li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://gigazine.net/news/20260906-herdr/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: 複数のAIエージェントを1つのターミナルから統括できる「Herdr」"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">ギガジン</span> </a> </li><li> <a class="inline-flex min-h-7 max-w-full items-center gap-1 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-extrabold leading-none text-amber-900 no-underline transition hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600/40" href="https://www.itmedia.co.jp/news/article/2609/06/2000001202/?utm_source=lootura.com" target="_blank" rel="noopener" aria-label="Open original source: OpenAI、休眠サイトへの自社AIエージェント書き込みを認め、非公表の理由を説明"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-zap"> <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>  </svg> <span class="truncate">アイティメディア</span> </a> </li> </ul> </article> </div> </section> </div> </section> </main>  <section class="fixed inset-x-4 bottom-[calc(env(safe-area-inset-bottom,0px)+1rem)] z-[60] mx-auto max-w-sm border border-neutral-200 bg-white p-4 text-neutral-950 shadow-[0_18px_55px_rgba(10,10,10,0.16)] sm:inset-x-auto sm:right-6 sm:max-w-md" data-release-notice hidden role="status" aria-live="polite" aria-hidden="true" data-astro-cid-sckkx6r4> <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-neutral-500" data-release-eyebrow data-astro-cid-sckkx6r4> New version </p> <h2 class="mt-2 text-xl font-semibold leading-tight text-neutral-950" data-release-title data-astro-cid-sckkx6r4> Lootura has something new </h2> <p class="mt-2 text-sm leading-6 text-neutral-600" data-release-body data-astro-cid-sckkx6r4> The app was updated. Keep reading or see what changed. </p> <div class="mt-4 flex flex-wrap items-center gap-3" data-astro-cid-sckkx6r4> <button class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" type="button" data-release-refresh hidden data-astro-cid-sckkx6r4> Update </button> <a class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" href="/updates" data-release-updates data-astro-cid-sckkx6r4> What&#39;s new </a> <button class="inline-flex min-h-11 items-center justify-center border border-neutral-200 bg-white px-4 text-sm font-semibold text-neutral-700" type="button" data-release-dismiss data-astro-cid-sckkx6r4> Not now </button> </div> </section>  <script>(function(){const baseUrl = "/";
+const isProduction = true;
+const currentAppBuild = {"version":"1.13.0","build":895001};
+
+	const pwaDevOverrideKey = 'lootura:pwa-dev-override';
+	const getIsPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+	const applyPwaRuntime = () => {
+		const isPwaRuntime = Boolean(getIsPwaRuntime());
+		document.documentElement.classList.toggle('pwa-runtime', isPwaRuntime);
+		window.dispatchEvent(new CustomEvent('lootura:pwa-runtime-changed', { detail: { isPwaRuntime } }));
+		return isPwaRuntime;
+	};
+
+	if (!isProduction) {
+		const params = new URLSearchParams(window.location.search);
+		const pwaOverride = params.get('pwa');
+		if (pwaOverride === '1' || pwaOverride === '0') {
+			if (pwaOverride === '1') {
+				sessionStorage.setItem(pwaDevOverrideKey, 'true');
+			} else {
+				sessionStorage.removeItem(pwaDevOverrideKey);
+			}
+			const cleanUrl = new URL(window.location.href);
+			cleanUrl.searchParams.delete('pwa');
+			window.history.replaceState({}, '', cleanUrl);
+		}
+	}
+	applyPwaRuntime();
+
+	if (!isProduction) {
+		const devModeOptions = Array.from(document.querySelectorAll('[data-dev-pwa-mode-option]'));
+		const syncDevModeOptions = () => {
+			const mode = sessionStorage.getItem(pwaDevOverrideKey) === 'true' ? 'pwa' : 'page';
+			devModeOptions.forEach((option) => {
+				option.checked = option.value === mode;
+			});
+		};
+		devModeOptions.forEach((option) => {
+			option.addEventListener('change', () => {
+				if (option.value === 'pwa') {
+					sessionStorage.setItem(pwaDevOverrideKey, 'true');
+				} else {
+					sessionStorage.removeItem(pwaDevOverrideKey);
+				}
+				applyPwaRuntime();
+				syncDevModeOptions();
+			});
+		});
+		syncDevModeOptions();
+	}
+
+	document.documentElement.classList.remove('dark');
+	document.documentElement.style.colorScheme = 'light';
+
+	const getAbsoluteImageUrl = (value) => {
+		try {
+			return new URL(value || '', document.baseURI).href;
+		} catch {
+			return '';
+		}
+	};
+
+	const getImageFallbackCandidates = (image) => [
+		image.dataset.fallbackImage || image.dataset.fallbackBackground || '',
+		image.dataset.finalFallbackImage || '',
+	].filter(Boolean);
+
+	const revealAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		if (!image.matches('[data-app-image], [data-news-image]')) return;
+		image.dataset.loaded = 'true';
+		image.dataset.imageError = 'false';
+	};
+
+	const recoverAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		const candidates = getImageFallbackCandidates(image);
+		const currentUrl = image.currentSrc || image.src || '';
+		const nextFallback = candidates.find((candidate) => {
+			const fallbackUrl = getAbsoluteImageUrl(candidate);
+			return fallbackUrl && fallbackUrl !== currentUrl;
+		});
+
+		if (nextFallback) {
+			image.dataset.imageRecovered = 'true';
+			image.dataset.loaded = 'false';
+			image.src = nextFallback;
+			return;
+		}
+
+		if (image.hasAttribute('data-remove-on-error')) {
+			image.remove();
+			return;
+		}
+
+		image.dataset.imageError = 'true';
+	};
+
+	document.addEventListener('load', (event) => revealAppImage(event.target), true);
+	document.addEventListener('error', (event) => recoverAppImage(event.target), true);
+	for (const image of document.querySelectorAll('img[data-app-image], img[data-news-image]')) {
+		if (!(image instanceof HTMLImageElement) || !image.complete) continue;
+		if (image.naturalWidth > 0) {
+			revealAppImage(image);
+		} else {
+			recoverAppImage(image);
+		}
+	}
+
+	const isLooturaPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+
+	const releaseSeenBuildKey = 'lootura:app-release:last-seen-build';
+	const releaseSeenVersionKey = 'lootura:app-release:last-seen-version';
+	const releaseSnoozedUntilKey = 'lootura:app-release:snoozed-until';
+	const updatesSeenVersionKey = 'lootura:updates:last-seen-version';
+	const releasePendingKey = 'lootura:release-notice:pending';
+	const refreshAtLaunchKey = 'lootura:refresh-at-launch';
+	const releaseNotice = document.querySelector('[data-release-notice]');
+	const releaseEyebrow = releaseNotice?.querySelector('[data-release-eyebrow]');
+	const releaseTitle = releaseNotice?.querySelector('[data-release-title]');
+	const releaseBody = releaseNotice?.querySelector('[data-release-body]');
+	const releaseRefreshButton = releaseNotice?.querySelector('[data-release-refresh]');
+	const releaseUpdatesLink = releaseNotice?.querySelector('[data-release-updates]');
+	const releaseDismissButton = releaseNotice?.querySelector('[data-release-dismiss]');
+	let releaseNoticeTimer = 0;
+	let lastPublishedBuild = null;
+	let isReloadingForUpdate = false;
+
+	const getBuildId = (build) => {
+		const version = String(build?.version || '').trim();
+		const number = Number(build?.build || 0);
+		return version && Number.isFinite(number) && number > 0 ? `${version}:${number}` : '';
+	};
+	const currentBuildId = getBuildId(currentAppBuild);
+	const currentVersion = String(currentAppBuild?.version || '').trim();
+
+	const getLastSeenReleaseVersion = () => {
+		try {
+			const releaseSeenVersion = localStorage.getItem(releaseSeenVersionKey) || '';
+			const updatesSeenVersion = localStorage.getItem(updatesSeenVersionKey) || '';
+			const legacySeenBuild = localStorage.getItem(releaseSeenBuildKey) || '';
+			const legacySeenVersion = legacySeenBuild.includes(':') ? legacySeenBuild.split(':')[0] : '';
+			return releaseSeenVersion || updatesSeenVersion || legacySeenVersion;
+		} catch {
+			return '';
+		}
+	};
+
+	const markReleaseVersionSeen = () => {
+		if (!currentVersion) return;
+		try {
+			localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			localStorage.setItem(updatesSeenVersionKey, currentVersion);
+			localStorage.removeItem(releaseSnoozedUntilKey);
+			sessionStorage.removeItem(releasePendingKey);
+		} catch {}
+	};
+
+	const getNextLocalDayIso = () => {
+		const now = new Date();
+		return new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).toISOString();
+	};
+
+	const snoozeReleaseNoticeUntilTomorrow = () => {
+		try {
+			localStorage.setItem(releaseSnoozedUntilKey, getNextLocalDayIso());
+		} catch {}
+	};
+
+	const isReleaseNoticeSnoozed = () => {
+		try {
+			const snoozedUntil = new Date(localStorage.getItem(releaseSnoozedUntilKey) || '').getTime();
+			return Number.isFinite(snoozedUntil) && snoozedUntil > Date.now();
+		} catch {
+			return false;
+		}
+	};
+
+	const getLocalizedUpdatesPath = () => {
+		const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+		const pathWithoutBase = window.location.pathname.startsWith(normalizedBaseUrl)
+			? window.location.pathname.slice(normalizedBaseUrl.length)
+			: window.location.pathname.replace(/^\//, '');
+		const firstSegment = pathWithoutBase.split('/').filter(Boolean)[0];
+		const locale = firstSegment === 'us' ? 'us' : 'es';
+		return `${normalizedBaseUrl}${locale}/updates`;
+	};
+
+	const rememberPendingRelease = (publishedBuild) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		try {
+			sessionStorage.setItem(
+				releasePendingKey,
+				JSON.stringify({
+					id: publishedBuildId,
+					version: String(publishedBuild?.version || ''),
+					build: Number(publishedBuild?.build || 0),
+				}),
+			);
+		} catch {}
+	};
+
+	const getPendingRelease = () => {
+		try {
+			const pendingRelease = JSON.parse(sessionStorage.getItem(releasePendingKey) || 'null');
+			return pendingRelease?.id === currentBuildId ? pendingRelease : null;
+		} catch {
+			return null;
+		}
+	};
+
+	const isReleaseNoticeBlocked = () =>
+		sessionStorage.getItem(refreshAtLaunchKey) === 'true' ||
+		Boolean(document.querySelector('[data-feed-refresh-overlay][data-visible]')) ||
+		Boolean(document.querySelector('[data-while-you-were-away-card][data-open="true"]')) ||
+		Boolean(document.querySelector('[data-signal-install-nudge]:not([hidden])')) ||
+		Boolean(document.querySelector('[role="dialog"][aria-modal="true"]:not([hidden]):not(.hidden):not([aria-hidden="true"])'));
+
+	const clearServiceWorkerCaches = async () => {
+		if (!window.caches?.keys) return;
+		const keys = await window.caches.keys();
+		await Promise.all(keys.filter((key) => key.startsWith('lootura-')).map((key) => window.caches.delete(key)));
+	};
+
+	const reloadForPublishedBuild = async () => {
+		if (isReloadingForUpdate) return;
+		isReloadingForUpdate = true;
+		try {
+			await clearServiceWorkerCaches();
+		} catch {}
+		window.location.reload();
+	};
+
+	const setReleaseNoticeMode = (mode) => {
+		const isSpanish = document.documentElement.lang?.startsWith('es');
+		const copy = mode === 'update'
+			? {
+					eyebrow: isSpanish ? 'Nueva versión disponible' : 'New version available',
+					title: isSpanish ? 'Actualiza Lootura' : 'Update Lootura',
+					body: isSpanish
+						? 'Hay una versión nueva lista. Actualiza la PWA para cargarla antes de ver las novedades.'
+						: 'A new version is ready. Update the PWA to load it before reading what changed.',
+				}
+			: {
+					eyebrow: isSpanish ? 'Nueva versión' : 'New version',
+					title: isSpanish ? 'Hay algo nuevo en Lootura' : 'Lootura has something new',
+					body: isSpanish
+						? 'La app se ha actualizado. Puedes seguir leyendo o ver los cambios.'
+						: 'The app was updated. Keep reading or see what changed.',
+				};
+
+		if (releaseEyebrow) releaseEyebrow.textContent = copy.eyebrow;
+		if (releaseTitle) releaseTitle.textContent = copy.title;
+		if (releaseBody) releaseBody.textContent = copy.body;
+		if (releaseRefreshButton) releaseRefreshButton.hidden = mode !== 'update';
+		if (releaseUpdatesLink) releaseUpdatesLink.hidden = mode === 'update';
+		if (releaseNotice) releaseNotice.dataset.mode = mode;
+	};
+
+	const hideReleaseNotice = () => {
+		window.clearTimeout(releaseNoticeTimer);
+		if (!releaseNotice) return;
+		releaseNotice.hidden = true;
+		releaseNotice.dataset.visible = 'false';
+		releaseNotice.setAttribute('aria-hidden', 'true');
+	};
+
+	const showReleaseNotice = (mode = 'notes') => {
+		if (!releaseNotice || !currentBuildId || !currentVersion || releaseNotice.dataset.visible === 'true') return;
+
+		if (mode === 'notes') {
+			try {
+				sessionStorage.removeItem(releasePendingKey);
+			} catch {}
+		}
+
+		setReleaseNoticeMode(mode);
+		releaseUpdatesLink?.setAttribute('href', getLocalizedUpdatesPath());
+		releaseNotice.hidden = false;
+		releaseNotice.dataset.visible = 'true';
+		releaseNotice.setAttribute('aria-hidden', 'false');
+		window.umami?.track?.('Show PWA release notice', { version: currentVersion, build: currentBuildId, mode });
+	};
+
+	const maybeShowReleaseNotice = (attempt = 0) => {
+		if (!isProduction || !currentBuildId || !currentVersion) return;
+
+		let lastSeenVersion = '';
+		try {
+			lastSeenVersion = getLastSeenReleaseVersion();
+		} catch {}
+
+		const pendingRelease = getPendingRelease();
+		const hasUnseenVersion = Boolean(lastSeenVersion && lastSeenVersion !== currentVersion);
+		const cameFromPendingRelease = Boolean(pendingRelease && pendingRelease.version === currentVersion);
+		const shouldShowReleaseNotice = cameFromPendingRelease || (hasUnseenVersion && (!pendingRelease || pendingRelease.version === currentVersion));
+
+		if (!lastSeenVersion && !pendingRelease) {
+			try {
+				localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			} catch {}
+			return;
+		}
+
+		if (!shouldShowReleaseNotice) return;
+		if (isReleaseNoticeSnoozed()) return;
+
+		if (!isLooturaPwaRuntime()) {
+			return;
+		}
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseNotice(attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice();
+	};
+
+	const maybeShowReleaseUpdateNotice = (publishedBuild, attempt = 0) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!isProduction || !publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		lastPublishedBuild = publishedBuild;
+		rememberPendingRelease(publishedBuild);
+
+		if (isReleaseNoticeSnoozed()) return;
+		if (!isLooturaPwaRuntime()) return;
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseUpdateNotice(publishedBuild, attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice('update');
+	};
+
+	releaseDismissButton?.addEventListener('click', () => {
+		snoozeReleaseNoticeUntilTomorrow();
+		hideReleaseNotice();
+	});
+	releaseRefreshButton?.addEventListener('click', () => {
+		const publishedBuild = lastPublishedBuild || getPendingRelease();
+		if (publishedBuild) rememberPendingRelease(publishedBuild);
+		reloadForPublishedBuild();
+	});
+	releaseUpdatesLink?.addEventListener('click', () => {
+		markReleaseVersionSeen();
+		hideReleaseNotice();
+	});
+	window.addEventListener('lootura:queue-refreshed', () => {
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+	window.addEventListener('lootura:pwa-runtime-changed', () => maybeShowReleaseNotice());
+	window.addEventListener('pageshow', () => maybeShowReleaseNotice());
+	document.addEventListener('visibilitychange', () => {
+		if (document.visibilityState === 'visible') maybeShowReleaseNotice();
+	});
+
+	const syncLooturaPwaRuntime = () => {
+		document.documentElement.classList.toggle('pwa-runtime', Boolean(isLooturaPwaRuntime()));
+	};
+
+	syncLooturaPwaRuntime();
+	window.addEventListener('appinstalled', syncLooturaPwaRuntime);
+	window.addEventListener('pageshow', syncLooturaPwaRuntime);
+	window.addEventListener('focus', syncLooturaPwaRuntime);
+
+	const detectLooturaClient = () => {
+		const userAgent = navigator.userAgent;
+		const isStandalone = isLooturaPwaRuntime();
+		const userAgentDataPlatform = navigator.userAgentData?.platform || '';
+		const legacyPlatform = navigator.platform || '';
+		const maxTouchPoints = navigator.maxTouchPoints || 0;
+		const platform = (() => {
+			if (/Android/i.test(userAgentDataPlatform) || /Android/i.test(userAgent)) return 'android';
+			if (/iPad|iPhone|iPod/i.test(userAgent) || /iPad|iPhone|iPod/i.test(legacyPlatform)) return 'ios';
+			if (/Mac/i.test(userAgentDataPlatform || legacyPlatform) && maxTouchPoints > 1) return 'ios';
+			return 'desktop';
+		})();
+		const browser = (() => {
+			if (/CriOS/i.test(userAgent)) return 'Chrome iOS';
+			if (/FxiOS/i.test(userAgent)) return 'Firefox iOS';
+			if (/EdgiOS/i.test(userAgent)) return 'Edge iOS';
+			if (/Edg/i.test(userAgent)) return 'Edge';
+			if (/OPR|Opera/i.test(userAgent)) return 'Opera';
+			if (/Chrome|Chromium|CriOS/i.test(userAgent)) return 'Chrome';
+			if (/Safari/i.test(userAgent)) return 'Safari';
+			if (/Firefox/i.test(userAgent)) return 'Firefox';
+			return 'Other';
+		})();
+
+		return {
+			appMode: isStandalone ? 'pwa' : 'browser',
+			platform,
+			browser,
+		};
+	};
+
+	const trackLooturaContext = (attempt = 0) => {
+		if (!window.umami) {
+			if (attempt < 20) window.setTimeout(() => trackLooturaContext(attempt + 1), 250);
+			return;
+		}
+
+		const context = detectLooturaClient();
+		window.looturaClient = context;
+		window.umami.identify?.(context);
+
+		const sessionKey = `lootura:context-tracked:${context.appMode}:${context.platform}:${context.browser}`;
+		if (!sessionStorage.getItem(sessionKey)) {
+			sessionStorage.setItem(sessionKey, 'true');
+			window.umami.track?.('App context', context);
+		}
+	};
+
+	const lockPortraitOrientation = async () => {
+		const orientationApi = screen.orientation;
+		if (!isLooturaPwaRuntime() || !orientationApi?.lock) return;
+
+		try {
+			await orientationApi.lock('portrait-primary');
+		} catch {
+			// iOS Safari and some browsers ignore orientation lock for web apps.
+		}
+	};
+
+	const enforcePortraitOrientation = () => {
+		lockPortraitOrientation();
+
+		window.addEventListener('focus', lockPortraitOrientation);
+		window.addEventListener('pageshow', lockPortraitOrientation);
+		window.addEventListener('orientationchange', lockPortraitOrientation);
+		screen.orientation?.addEventListener?.('change', lockPortraitOrientation);
+		document.addEventListener('visibilitychange', () => {
+			if (document.visibilityState === 'visible') lockPortraitOrientation();
+		});
+	};
+
+	if (!isProduction && 'serviceWorker' in navigator) {
+		navigator.serviceWorker.getRegistrations?.().then((registrations) => {
+			registrations.forEach((registration) => registration.unregister());
+		});
+	}
+
+	if (isProduction && 'serviceWorker' in navigator) {
+		window.addEventListener('load', () => {
+			const reloadForUpdate = () => {
+				if (isReloadingForUpdate) return;
+				isReloadingForUpdate = true;
+				window.location.reload();
+			};
+			const checkPublishedBuild = async () => {
+				try {
+					const response = await fetch(`${baseUrl}app-build.json?ts=${Date.now()}`, {
+						cache: 'no-store',
+						headers: { accept: 'application/json' },
+					});
+					if (!response.ok) return;
+					const publishedBuild = await response.json();
+					const publishedBuildId = getBuildId(publishedBuild);
+					if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+					maybeShowReleaseUpdateNotice(publishedBuild);
+				} catch {
+					// Update checks should never block normal reading.
+				}
+			};
+
+			navigator.serviceWorker.addEventListener('controllerchange', reloadForUpdate);
+
+			navigator.serviceWorker
+				.register(`${baseUrl}sw.js`, { updateViaCache: 'none' })
+				.then((registration) => {
+					const checkForUpdates = () => registration.update().catch(() => {});
+
+					checkForUpdates();
+					checkPublishedBuild();
+					window.setInterval(checkForUpdates, 60_000);
+					window.setInterval(checkPublishedBuild, 60_000);
+					window.addEventListener('focus', checkForUpdates);
+					window.addEventListener('focus', checkPublishedBuild);
+					document.addEventListener('visibilitychange', () => {
+						if (document.visibilityState === 'visible') {
+							checkForUpdates();
+							checkPublishedBuild();
+						}
+					});
+				})
+				.catch(() => {});
+		});
+	}
+
+	window.addEventListener('load', () => {
+		trackLooturaContext();
+		enforcePortraitOrientation();
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+})();</script></body></html> <script type="module">const a=document.querySelector("[data-signal-brief]"),r=[...a?.querySelectorAll("[data-brief-tab]")||[]],o=[...a?.querySelectorAll("[data-brief-panel]")||[]],i=t=>{for(const e of r)e.setAttribute("aria-current",String(e.getAttribute("data-brief-tab")===t));for(const e of o)e.toggleAttribute("hidden",e.getAttribute("data-brief-panel")!==t)};for(const t of r)t.addEventListener("click",()=>i(t.getAttribute("data-brief-tab")||""));</script>

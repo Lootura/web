@@ -1,0 +1,827 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-sckkx6r4> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0a0a0a"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Lootura"><meta name="generator" content="Astro v6.1.8"><meta name="robots" content="noindex,nofollow"><title>Saved | Lootura</title><style>
+			html,
+			body {
+				margin: 0;
+				width: 100%;
+				min-height: 100%;
+				background: #0a0a0a;
+				color-scheme: light;
+			}
+		</style><script>(function(){const supportedLocales = ["es","us","za","mx","ar","jp"];
+const editionAliases = {"es":"es","spain":"es","us":"us","usa":"us","united-states":"us","za":"za","south-africa":"za","south_africa":"za","south africa":"za","mx":"mx","mexico":"mx","méxico":"mx","ar":"ar","argentina":"ar","jp":"jp","japan":"jp","japon":"jp","japón":"jp","nihon":"jp","nippon":"jp"};
+
+			(() => {
+				const cleanupVersionKey = 'lootura:storage-cleanup-version';
+				const cleanupVersion = '2026-05-18-editions-config';
+				const maxSeenNewsItems = 600;
+				const seenNewsLifetimeMs = 30 * 24 * 60 * 60 * 1000;
+				const editionPattern = supportedLocales.map((edition) => edition.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+				const allowedEditionIds = new Set(supportedLocales);
+				const booleanKeys = new Set([
+					'lootura:browser-intro-seen',
+					'lootura:editions-promo-seen',
+					'lootura:install-accepted',
+					'lootura:signal:intro-any-seen',
+					'lootura:signal:install-nudge-dismissed:v1',
+					'lootura:signal:install-nudge-ready:v1',
+					'lootura:swipe-hint-seen',
+				]);
+				const numberKeys = new Set([
+					'lootura:signal:browser-open-count:v1',
+					'lootura:signal:install-nudge-dismiss-count:v1',
+				]);
+				const dateKeys = new Set([
+					'lootura:install-gate-action-at',
+					'lootura:install-gate-seen-at',
+					'lootura:last-active-at',
+				]);
+				const allowedExactKeys = new Set([
+					cleanupVersionKey,
+					'lootura.preferences.v1',
+					'lootura:editorial',
+					'lootura:app-release:last-seen-build',
+					'lootura:app-release:last-seen-version',
+					'lootura:app-release:snoozed-until',
+					'lootura:refresh-at-launch',
+					'lootura:seen-news:v1',
+					'lootura:updates:last-seen-version',
+					...booleanKeys,
+					...numberKeys,
+					...dateKeys,
+				]);
+				const allowedPatternKeys = [
+					new RegExp(`^lootura:calm-mode:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:saved-stories:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:signal:intro:v1:(${editionPattern}|global)$`),
+					new RegExp(`^lootura:signal:seen:v1:(${editionPattern}|global)$`),
+				];
+
+				const isValidDate = (value) => Number.isFinite(new Date(value || '').getTime());
+				const removeItem = (key) => localStorage.removeItem(key);
+				const writeJson = (key, value) => localStorage.setItem(key, JSON.stringify(value));
+				const isAllowedLooturaKey = (key) =>
+					allowedExactKeys.has(key) || allowedPatternKeys.some((pattern) => pattern.test(key));
+
+				const compactSeenNews = (key) => {
+					const value = localStorage.getItem(key);
+					const seen = JSON.parse(value || '{}');
+					const now = Date.now();
+					const entries = Array.isArray(seen)
+						? seen.map((id) => [id, now])
+						: Object.entries(seen || {});
+					const compactSeen = Object.fromEntries(
+						entries
+							.map(([id, firstSeenAt]) => [String(id || ''), Number(firstSeenAt)])
+							.filter(
+								([id, firstSeenAt]) =>
+									id &&
+									Number.isFinite(Number(firstSeenAt)) &&
+									now - Number(firstSeenAt) < seenNewsLifetimeMs,
+							)
+							.sort(([, firstSeenAt], [, secondSeenAt]) => Number(secondSeenAt) - Number(firstSeenAt))
+							.slice(0, maxSeenNewsItems),
+					);
+					writeJson(key, compactSeen);
+				};
+
+				try {
+					if (localStorage.getItem(cleanupVersionKey) === cleanupVersion) return;
+
+					for (const key of Object.keys(localStorage)) {
+						if (!key.startsWith('lootura:')) continue;
+
+						try {
+							const value = localStorage.getItem(key) || '';
+							if (!isAllowedLooturaKey(key)) {
+								removeItem(key);
+							} else if (key === 'lootura:editorial' && !allowedEditionIds.has(value)) {
+								removeItem(key);
+							} else if (key === 'lootura:seen-news:v1') {
+								compactSeenNews(key);
+							} else if (booleanKeys.has(key) && value !== 'true') {
+								removeItem(key);
+							} else if (numberKeys.has(key) && !Number.isFinite(Number(value))) {
+								removeItem(key);
+							} else if (dateKeys.has(key) && !isValidDate(value)) {
+								removeItem(key);
+							}
+						} catch {
+							removeItem(key);
+						}
+					}
+
+					localStorage.setItem(cleanupVersionKey, cleanupVersion);
+				} catch {
+					// Storage can be unavailable in restrictive browser modes.
+				}
+			})();
+		})();</script><script type="module">(()=>{const e=window.matchMedia("(display-mode: standalone)").matches||window.matchMedia("(display-mode: fullscreen)").matches||window.matchMedia("(display-mode: minimal-ui)").matches||window.navigator.standalone||document.referrer.startsWith("android-app://")||sessionStorage.getItem("lootura:pwa-dev-override")==="true";document.documentElement.classList.toggle("pwa-runtime",!!e)})();</script><script type="module">document.documentElement.style.colorScheme="light";</script><script defer src="https://cloud.umami.is/script.js" data-website-id="1e408cbd-a16c-43ee-b404-35aa97b38c93"></script><link rel="stylesheet" href="/_astro/Layout.BgXvolpK.css"></head> <body data-astro-cid-sckkx6r4>  <main class="min-h-svh bg-white text-neutral-950 dark:bg-neutral-950 dark:text-white" data-saved-page data-locale="za"> <header class="safe-top-header sticky top-0 z-50 border-b border-neutral-950/10 bg-white/78 px-4 backdrop-blur-md sm:px-6 dark:border-white/10 dark:bg-neutral-950/78"> <div class="mx-auto flex h-16 w-full items-center gap-4 max-w-3xl"> <a class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-neutral-950 transition hover:bg-neutral-950/6 focus:outline-none focus:ring-2 focus:ring-neutral-950 dark:text-white dark:hover:bg-white/10 dark:focus:ring-white" href="/za/?menu=1" aria-label="Back to menu"> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-arrow-left"> <path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path>  </svg> </a> <p class="min-w-0 flex-1 truncate text-center text-sm font-medium uppercase tracking-normal text-neutral-500 dark:text-white/48" data-page-topbar-title>Saved</p> <div class="flex items-center gap-2"> <span class="inline-flex h-10 min-w-10 shrink-0 items-center justify-center rounded-full bg-neutral-950/[0.05] px-3 text-sm font-semibold text-neutral-600 dark:bg-white/10 dark:text-white/64" data-saved-count-badge>0</span> <a class="inline-flex min-h-9 items-center gap-2 rounded-full border border-neutral-950/10 bg-white px-3.5 text-xs font-semibold uppercase tracking-[0.24em] text-neutral-900 shadow-[0_8px_20px_rgba(10,10,10,0.08)] transition hover:border-neutral-950/20 hover:bg-neutral-50 focus:outline-none focus:ring-2 focus:ring-neutral-900/20 dark:border-white/10 dark:bg-neutral-950 dark:text-white dark:hover:border-white/20 dark:hover:bg-neutral-900" href="https://atlas.lootura.com" aria-label="Try Atlas in English" data-atlas-link>
+Try Atlas
+</a> </div> </div> </header> <section class="mx-auto w-full max-w-3xl px-6 pb-16 pt-12 sm:px-8 lg:px-10"> <div class="max-w-2xl"> <p class="text-sm font-medium uppercase tracking-normal text-neutral-500 dark:text-white/48">Local library</p> <h1 class="mt-3 text-4xl font-semibold leading-tight text-neutral-950 dark:text-white sm:text-5xl">Saved links.</h1> <p class="mt-4 max-w-xl text-lg leading-8 text-neutral-600 dark:text-white/62">Stories saved from any edition on this device.</p> </div> <div class="mt-8 flex gap-2 overflow-x-auto pb-1" aria-label="Saved filters"> <button class="inline-flex min-h-10 shrink-0 items-center gap-2 rounded-full border border-neutral-950/10 px-4 text-sm font-semibold text-neutral-600 transition data-[active=true]:border-neutral-950 data-[active=true]:bg-neutral-950 data-[active=true]:text-white dark:border-white/12 dark:text-white/62 dark:data-[active=true]:border-white dark:data-[active=true]:bg-white dark:data-[active=true]:text-neutral-950" type="button" data-saved-filter="all" data-active="true"> <span>All</span> <span class="text-xs opacity-60" data-saved-filter-count="all">0</span> </button> <button class="inline-flex min-h-10 shrink-0 items-center gap-2 rounded-full border border-neutral-950/10 px-4 text-sm font-semibold text-neutral-600 transition data-[active=true]:border-neutral-950 data-[active=true]:bg-neutral-950 data-[active=true]:text-white dark:border-white/12 dark:text-white/62 dark:data-[active=true]:border-white dark:data-[active=true]:bg-white dark:data-[active=true]:text-neutral-950" type="button" data-saved-filter="es"> <span>ES</span> <span class="text-xs opacity-60" data-saved-filter-count="es">0</span> </button><button class="inline-flex min-h-10 shrink-0 items-center gap-2 rounded-full border border-neutral-950/10 px-4 text-sm font-semibold text-neutral-600 transition data-[active=true]:border-neutral-950 data-[active=true]:bg-neutral-950 data-[active=true]:text-white dark:border-white/12 dark:text-white/62 dark:data-[active=true]:border-white dark:data-[active=true]:bg-white dark:data-[active=true]:text-neutral-950" type="button" data-saved-filter="us"> <span>US</span> <span class="text-xs opacity-60" data-saved-filter-count="us">0</span> </button><button class="inline-flex min-h-10 shrink-0 items-center gap-2 rounded-full border border-neutral-950/10 px-4 text-sm font-semibold text-neutral-600 transition data-[active=true]:border-neutral-950 data-[active=true]:bg-neutral-950 data-[active=true]:text-white dark:border-white/12 dark:text-white/62 dark:data-[active=true]:border-white dark:data-[active=true]:bg-white dark:data-[active=true]:text-neutral-950" type="button" data-saved-filter="za"> <span>SA</span> <span class="text-xs opacity-60" data-saved-filter-count="za">0</span> </button><button class="inline-flex min-h-10 shrink-0 items-center gap-2 rounded-full border border-neutral-950/10 px-4 text-sm font-semibold text-neutral-600 transition data-[active=true]:border-neutral-950 data-[active=true]:bg-neutral-950 data-[active=true]:text-white dark:border-white/12 dark:text-white/62 dark:data-[active=true]:border-white dark:data-[active=true]:bg-white dark:data-[active=true]:text-neutral-950" type="button" data-saved-filter="mx"> <span>MX</span> <span class="text-xs opacity-60" data-saved-filter-count="mx">0</span> </button><button class="inline-flex min-h-10 shrink-0 items-center gap-2 rounded-full border border-neutral-950/10 px-4 text-sm font-semibold text-neutral-600 transition data-[active=true]:border-neutral-950 data-[active=true]:bg-neutral-950 data-[active=true]:text-white dark:border-white/12 dark:text-white/62 dark:data-[active=true]:border-white dark:data-[active=true]:bg-white dark:data-[active=true]:text-neutral-950" type="button" data-saved-filter="ar"> <span>AR</span> <span class="text-xs opacity-60" data-saved-filter-count="ar">0</span> </button><button class="inline-flex min-h-10 shrink-0 items-center gap-2 rounded-full border border-neutral-950/10 px-4 text-sm font-semibold text-neutral-600 transition data-[active=true]:border-neutral-950 data-[active=true]:bg-neutral-950 data-[active=true]:text-white dark:border-white/12 dark:text-white/62 dark:data-[active=true]:border-white dark:data-[active=true]:bg-white dark:data-[active=true]:text-neutral-950" type="button" data-saved-filter="jp"> <span>日本</span> <span class="text-xs opacity-60" data-saved-filter-count="jp">0</span> </button> </div> <div class="mt-8 grid gap-4" data-saved-list></div> <div class="mt-12 hidden rounded-md border border-neutral-950/10 bg-neutral-950/[0.03] px-5 py-8 text-center dark:border-white/10 dark:bg-white/[0.06]" data-saved-empty> <p class="text-xl font-semibold text-neutral-950 dark:text-white">No saved links yet.</p> <p class="mx-auto mt-3 max-w-sm text-sm leading-6 text-neutral-500 dark:text-white/52"> Use Save on any headline and it will appear here. </p> </div> </section> </main>  <section class="fixed inset-x-4 bottom-[calc(env(safe-area-inset-bottom,0px)+1rem)] z-[60] mx-auto max-w-sm border border-neutral-200 bg-white p-4 text-neutral-950 shadow-[0_18px_55px_rgba(10,10,10,0.16)] sm:inset-x-auto sm:right-6 sm:max-w-md" data-release-notice hidden role="status" aria-live="polite" aria-hidden="true" data-astro-cid-sckkx6r4> <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-neutral-500" data-release-eyebrow data-astro-cid-sckkx6r4> New version </p> <h2 class="mt-2 text-xl font-semibold leading-tight text-neutral-950" data-release-title data-astro-cid-sckkx6r4> Lootura has something new </h2> <p class="mt-2 text-sm leading-6 text-neutral-600" data-release-body data-astro-cid-sckkx6r4> The app was updated. Keep reading or see what changed. </p> <div class="mt-4 flex flex-wrap items-center gap-3" data-astro-cid-sckkx6r4> <button class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" type="button" data-release-refresh hidden data-astro-cid-sckkx6r4> Update </button> <a class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" href="/updates" data-release-updates data-astro-cid-sckkx6r4> What&#39;s new </a> <button class="inline-flex min-h-11 items-center justify-center border border-neutral-200 bg-white px-4 text-sm font-semibold text-neutral-700" type="button" data-release-dismiss data-astro-cid-sckkx6r4> Not now </button> </div> </section>  <script>(function(){const baseUrl = "/";
+const isProduction = true;
+const currentAppBuild = {"version":"1.13.0","build":895001};
+
+	const pwaDevOverrideKey = 'lootura:pwa-dev-override';
+	const getIsPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+	const applyPwaRuntime = () => {
+		const isPwaRuntime = Boolean(getIsPwaRuntime());
+		document.documentElement.classList.toggle('pwa-runtime', isPwaRuntime);
+		window.dispatchEvent(new CustomEvent('lootura:pwa-runtime-changed', { detail: { isPwaRuntime } }));
+		return isPwaRuntime;
+	};
+
+	if (!isProduction) {
+		const params = new URLSearchParams(window.location.search);
+		const pwaOverride = params.get('pwa');
+		if (pwaOverride === '1' || pwaOverride === '0') {
+			if (pwaOverride === '1') {
+				sessionStorage.setItem(pwaDevOverrideKey, 'true');
+			} else {
+				sessionStorage.removeItem(pwaDevOverrideKey);
+			}
+			const cleanUrl = new URL(window.location.href);
+			cleanUrl.searchParams.delete('pwa');
+			window.history.replaceState({}, '', cleanUrl);
+		}
+	}
+	applyPwaRuntime();
+
+	if (!isProduction) {
+		const devModeOptions = Array.from(document.querySelectorAll('[data-dev-pwa-mode-option]'));
+		const syncDevModeOptions = () => {
+			const mode = sessionStorage.getItem(pwaDevOverrideKey) === 'true' ? 'pwa' : 'page';
+			devModeOptions.forEach((option) => {
+				option.checked = option.value === mode;
+			});
+		};
+		devModeOptions.forEach((option) => {
+			option.addEventListener('change', () => {
+				if (option.value === 'pwa') {
+					sessionStorage.setItem(pwaDevOverrideKey, 'true');
+				} else {
+					sessionStorage.removeItem(pwaDevOverrideKey);
+				}
+				applyPwaRuntime();
+				syncDevModeOptions();
+			});
+		});
+		syncDevModeOptions();
+	}
+
+	document.documentElement.classList.remove('dark');
+	document.documentElement.style.colorScheme = 'light';
+
+	const getAbsoluteImageUrl = (value) => {
+		try {
+			return new URL(value || '', document.baseURI).href;
+		} catch {
+			return '';
+		}
+	};
+
+	const getImageFallbackCandidates = (image) => [
+		image.dataset.fallbackImage || image.dataset.fallbackBackground || '',
+		image.dataset.finalFallbackImage || '',
+	].filter(Boolean);
+
+	const revealAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		if (!image.matches('[data-app-image], [data-news-image]')) return;
+		image.dataset.loaded = 'true';
+		image.dataset.imageError = 'false';
+	};
+
+	const recoverAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		const candidates = getImageFallbackCandidates(image);
+		const currentUrl = image.currentSrc || image.src || '';
+		const nextFallback = candidates.find((candidate) => {
+			const fallbackUrl = getAbsoluteImageUrl(candidate);
+			return fallbackUrl && fallbackUrl !== currentUrl;
+		});
+
+		if (nextFallback) {
+			image.dataset.imageRecovered = 'true';
+			image.dataset.loaded = 'false';
+			image.src = nextFallback;
+			return;
+		}
+
+		if (image.hasAttribute('data-remove-on-error')) {
+			image.remove();
+			return;
+		}
+
+		image.dataset.imageError = 'true';
+	};
+
+	document.addEventListener('load', (event) => revealAppImage(event.target), true);
+	document.addEventListener('error', (event) => recoverAppImage(event.target), true);
+	for (const image of document.querySelectorAll('img[data-app-image], img[data-news-image]')) {
+		if (!(image instanceof HTMLImageElement) || !image.complete) continue;
+		if (image.naturalWidth > 0) {
+			revealAppImage(image);
+		} else {
+			recoverAppImage(image);
+		}
+	}
+
+	const isLooturaPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+
+	const releaseSeenBuildKey = 'lootura:app-release:last-seen-build';
+	const releaseSeenVersionKey = 'lootura:app-release:last-seen-version';
+	const releaseSnoozedUntilKey = 'lootura:app-release:snoozed-until';
+	const updatesSeenVersionKey = 'lootura:updates:last-seen-version';
+	const releasePendingKey = 'lootura:release-notice:pending';
+	const refreshAtLaunchKey = 'lootura:refresh-at-launch';
+	const releaseNotice = document.querySelector('[data-release-notice]');
+	const releaseEyebrow = releaseNotice?.querySelector('[data-release-eyebrow]');
+	const releaseTitle = releaseNotice?.querySelector('[data-release-title]');
+	const releaseBody = releaseNotice?.querySelector('[data-release-body]');
+	const releaseRefreshButton = releaseNotice?.querySelector('[data-release-refresh]');
+	const releaseUpdatesLink = releaseNotice?.querySelector('[data-release-updates]');
+	const releaseDismissButton = releaseNotice?.querySelector('[data-release-dismiss]');
+	let releaseNoticeTimer = 0;
+	let lastPublishedBuild = null;
+	let isReloadingForUpdate = false;
+
+	const getBuildId = (build) => {
+		const version = String(build?.version || '').trim();
+		const number = Number(build?.build || 0);
+		return version && Number.isFinite(number) && number > 0 ? `${version}:${number}` : '';
+	};
+	const currentBuildId = getBuildId(currentAppBuild);
+	const currentVersion = String(currentAppBuild?.version || '').trim();
+
+	const getLastSeenReleaseVersion = () => {
+		try {
+			const releaseSeenVersion = localStorage.getItem(releaseSeenVersionKey) || '';
+			const updatesSeenVersion = localStorage.getItem(updatesSeenVersionKey) || '';
+			const legacySeenBuild = localStorage.getItem(releaseSeenBuildKey) || '';
+			const legacySeenVersion = legacySeenBuild.includes(':') ? legacySeenBuild.split(':')[0] : '';
+			return releaseSeenVersion || updatesSeenVersion || legacySeenVersion;
+		} catch {
+			return '';
+		}
+	};
+
+	const markReleaseVersionSeen = () => {
+		if (!currentVersion) return;
+		try {
+			localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			localStorage.setItem(updatesSeenVersionKey, currentVersion);
+			localStorage.removeItem(releaseSnoozedUntilKey);
+			sessionStorage.removeItem(releasePendingKey);
+		} catch {}
+	};
+
+	const getNextLocalDayIso = () => {
+		const now = new Date();
+		return new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).toISOString();
+	};
+
+	const snoozeReleaseNoticeUntilTomorrow = () => {
+		try {
+			localStorage.setItem(releaseSnoozedUntilKey, getNextLocalDayIso());
+		} catch {}
+	};
+
+	const isReleaseNoticeSnoozed = () => {
+		try {
+			const snoozedUntil = new Date(localStorage.getItem(releaseSnoozedUntilKey) || '').getTime();
+			return Number.isFinite(snoozedUntil) && snoozedUntil > Date.now();
+		} catch {
+			return false;
+		}
+	};
+
+	const getLocalizedUpdatesPath = () => {
+		const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+		const pathWithoutBase = window.location.pathname.startsWith(normalizedBaseUrl)
+			? window.location.pathname.slice(normalizedBaseUrl.length)
+			: window.location.pathname.replace(/^\//, '');
+		const firstSegment = pathWithoutBase.split('/').filter(Boolean)[0];
+		const locale = firstSegment === 'us' ? 'us' : 'es';
+		return `${normalizedBaseUrl}${locale}/updates`;
+	};
+
+	const rememberPendingRelease = (publishedBuild) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		try {
+			sessionStorage.setItem(
+				releasePendingKey,
+				JSON.stringify({
+					id: publishedBuildId,
+					version: String(publishedBuild?.version || ''),
+					build: Number(publishedBuild?.build || 0),
+				}),
+			);
+		} catch {}
+	};
+
+	const getPendingRelease = () => {
+		try {
+			const pendingRelease = JSON.parse(sessionStorage.getItem(releasePendingKey) || 'null');
+			return pendingRelease?.id === currentBuildId ? pendingRelease : null;
+		} catch {
+			return null;
+		}
+	};
+
+	const isReleaseNoticeBlocked = () =>
+		sessionStorage.getItem(refreshAtLaunchKey) === 'true' ||
+		Boolean(document.querySelector('[data-feed-refresh-overlay][data-visible]')) ||
+		Boolean(document.querySelector('[data-while-you-were-away-card][data-open="true"]')) ||
+		Boolean(document.querySelector('[data-signal-install-nudge]:not([hidden])')) ||
+		Boolean(document.querySelector('[role="dialog"][aria-modal="true"]:not([hidden]):not(.hidden):not([aria-hidden="true"])'));
+
+	const clearServiceWorkerCaches = async () => {
+		if (!window.caches?.keys) return;
+		const keys = await window.caches.keys();
+		await Promise.all(keys.filter((key) => key.startsWith('lootura-')).map((key) => window.caches.delete(key)));
+	};
+
+	const reloadForPublishedBuild = async () => {
+		if (isReloadingForUpdate) return;
+		isReloadingForUpdate = true;
+		try {
+			await clearServiceWorkerCaches();
+		} catch {}
+		window.location.reload();
+	};
+
+	const setReleaseNoticeMode = (mode) => {
+		const isSpanish = document.documentElement.lang?.startsWith('es');
+		const copy = mode === 'update'
+			? {
+					eyebrow: isSpanish ? 'Nueva versión disponible' : 'New version available',
+					title: isSpanish ? 'Actualiza Lootura' : 'Update Lootura',
+					body: isSpanish
+						? 'Hay una versión nueva lista. Actualiza la PWA para cargarla antes de ver las novedades.'
+						: 'A new version is ready. Update the PWA to load it before reading what changed.',
+				}
+			: {
+					eyebrow: isSpanish ? 'Nueva versión' : 'New version',
+					title: isSpanish ? 'Hay algo nuevo en Lootura' : 'Lootura has something new',
+					body: isSpanish
+						? 'La app se ha actualizado. Puedes seguir leyendo o ver los cambios.'
+						: 'The app was updated. Keep reading or see what changed.',
+				};
+
+		if (releaseEyebrow) releaseEyebrow.textContent = copy.eyebrow;
+		if (releaseTitle) releaseTitle.textContent = copy.title;
+		if (releaseBody) releaseBody.textContent = copy.body;
+		if (releaseRefreshButton) releaseRefreshButton.hidden = mode !== 'update';
+		if (releaseUpdatesLink) releaseUpdatesLink.hidden = mode === 'update';
+		if (releaseNotice) releaseNotice.dataset.mode = mode;
+	};
+
+	const hideReleaseNotice = () => {
+		window.clearTimeout(releaseNoticeTimer);
+		if (!releaseNotice) return;
+		releaseNotice.hidden = true;
+		releaseNotice.dataset.visible = 'false';
+		releaseNotice.setAttribute('aria-hidden', 'true');
+	};
+
+	const showReleaseNotice = (mode = 'notes') => {
+		if (!releaseNotice || !currentBuildId || !currentVersion || releaseNotice.dataset.visible === 'true') return;
+
+		if (mode === 'notes') {
+			try {
+				sessionStorage.removeItem(releasePendingKey);
+			} catch {}
+		}
+
+		setReleaseNoticeMode(mode);
+		releaseUpdatesLink?.setAttribute('href', getLocalizedUpdatesPath());
+		releaseNotice.hidden = false;
+		releaseNotice.dataset.visible = 'true';
+		releaseNotice.setAttribute('aria-hidden', 'false');
+		window.umami?.track?.('Show PWA release notice', { version: currentVersion, build: currentBuildId, mode });
+	};
+
+	const maybeShowReleaseNotice = (attempt = 0) => {
+		if (!isProduction || !currentBuildId || !currentVersion) return;
+
+		let lastSeenVersion = '';
+		try {
+			lastSeenVersion = getLastSeenReleaseVersion();
+		} catch {}
+
+		const pendingRelease = getPendingRelease();
+		const hasUnseenVersion = Boolean(lastSeenVersion && lastSeenVersion !== currentVersion);
+		const cameFromPendingRelease = Boolean(pendingRelease && pendingRelease.version === currentVersion);
+		const shouldShowReleaseNotice = cameFromPendingRelease || (hasUnseenVersion && (!pendingRelease || pendingRelease.version === currentVersion));
+
+		if (!lastSeenVersion && !pendingRelease) {
+			try {
+				localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			} catch {}
+			return;
+		}
+
+		if (!shouldShowReleaseNotice) return;
+		if (isReleaseNoticeSnoozed()) return;
+
+		if (!isLooturaPwaRuntime()) {
+			return;
+		}
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseNotice(attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice();
+	};
+
+	const maybeShowReleaseUpdateNotice = (publishedBuild, attempt = 0) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!isProduction || !publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		lastPublishedBuild = publishedBuild;
+		rememberPendingRelease(publishedBuild);
+
+		if (isReleaseNoticeSnoozed()) return;
+		if (!isLooturaPwaRuntime()) return;
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseUpdateNotice(publishedBuild, attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice('update');
+	};
+
+	releaseDismissButton?.addEventListener('click', () => {
+		snoozeReleaseNoticeUntilTomorrow();
+		hideReleaseNotice();
+	});
+	releaseRefreshButton?.addEventListener('click', () => {
+		const publishedBuild = lastPublishedBuild || getPendingRelease();
+		if (publishedBuild) rememberPendingRelease(publishedBuild);
+		reloadForPublishedBuild();
+	});
+	releaseUpdatesLink?.addEventListener('click', () => {
+		markReleaseVersionSeen();
+		hideReleaseNotice();
+	});
+	window.addEventListener('lootura:queue-refreshed', () => {
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+	window.addEventListener('lootura:pwa-runtime-changed', () => maybeShowReleaseNotice());
+	window.addEventListener('pageshow', () => maybeShowReleaseNotice());
+	document.addEventListener('visibilitychange', () => {
+		if (document.visibilityState === 'visible') maybeShowReleaseNotice();
+	});
+
+	const syncLooturaPwaRuntime = () => {
+		document.documentElement.classList.toggle('pwa-runtime', Boolean(isLooturaPwaRuntime()));
+	};
+
+	syncLooturaPwaRuntime();
+	window.addEventListener('appinstalled', syncLooturaPwaRuntime);
+	window.addEventListener('pageshow', syncLooturaPwaRuntime);
+	window.addEventListener('focus', syncLooturaPwaRuntime);
+
+	const detectLooturaClient = () => {
+		const userAgent = navigator.userAgent;
+		const isStandalone = isLooturaPwaRuntime();
+		const userAgentDataPlatform = navigator.userAgentData?.platform || '';
+		const legacyPlatform = navigator.platform || '';
+		const maxTouchPoints = navigator.maxTouchPoints || 0;
+		const platform = (() => {
+			if (/Android/i.test(userAgentDataPlatform) || /Android/i.test(userAgent)) return 'android';
+			if (/iPad|iPhone|iPod/i.test(userAgent) || /iPad|iPhone|iPod/i.test(legacyPlatform)) return 'ios';
+			if (/Mac/i.test(userAgentDataPlatform || legacyPlatform) && maxTouchPoints > 1) return 'ios';
+			return 'desktop';
+		})();
+		const browser = (() => {
+			if (/CriOS/i.test(userAgent)) return 'Chrome iOS';
+			if (/FxiOS/i.test(userAgent)) return 'Firefox iOS';
+			if (/EdgiOS/i.test(userAgent)) return 'Edge iOS';
+			if (/Edg/i.test(userAgent)) return 'Edge';
+			if (/OPR|Opera/i.test(userAgent)) return 'Opera';
+			if (/Chrome|Chromium|CriOS/i.test(userAgent)) return 'Chrome';
+			if (/Safari/i.test(userAgent)) return 'Safari';
+			if (/Firefox/i.test(userAgent)) return 'Firefox';
+			return 'Other';
+		})();
+
+		return {
+			appMode: isStandalone ? 'pwa' : 'browser',
+			platform,
+			browser,
+		};
+	};
+
+	const trackLooturaContext = (attempt = 0) => {
+		if (!window.umami) {
+			if (attempt < 20) window.setTimeout(() => trackLooturaContext(attempt + 1), 250);
+			return;
+		}
+
+		const context = detectLooturaClient();
+		window.looturaClient = context;
+		window.umami.identify?.(context);
+
+		const sessionKey = `lootura:context-tracked:${context.appMode}:${context.platform}:${context.browser}`;
+		if (!sessionStorage.getItem(sessionKey)) {
+			sessionStorage.setItem(sessionKey, 'true');
+			window.umami.track?.('App context', context);
+		}
+	};
+
+	const lockPortraitOrientation = async () => {
+		const orientationApi = screen.orientation;
+		if (!isLooturaPwaRuntime() || !orientationApi?.lock) return;
+
+		try {
+			await orientationApi.lock('portrait-primary');
+		} catch {
+			// iOS Safari and some browsers ignore orientation lock for web apps.
+		}
+	};
+
+	const enforcePortraitOrientation = () => {
+		lockPortraitOrientation();
+
+		window.addEventListener('focus', lockPortraitOrientation);
+		window.addEventListener('pageshow', lockPortraitOrientation);
+		window.addEventListener('orientationchange', lockPortraitOrientation);
+		screen.orientation?.addEventListener?.('change', lockPortraitOrientation);
+		document.addEventListener('visibilitychange', () => {
+			if (document.visibilityState === 'visible') lockPortraitOrientation();
+		});
+	};
+
+	if (!isProduction && 'serviceWorker' in navigator) {
+		navigator.serviceWorker.getRegistrations?.().then((registrations) => {
+			registrations.forEach((registration) => registration.unregister());
+		});
+	}
+
+	if (isProduction && 'serviceWorker' in navigator) {
+		window.addEventListener('load', () => {
+			const reloadForUpdate = () => {
+				if (isReloadingForUpdate) return;
+				isReloadingForUpdate = true;
+				window.location.reload();
+			};
+			const checkPublishedBuild = async () => {
+				try {
+					const response = await fetch(`${baseUrl}app-build.json?ts=${Date.now()}`, {
+						cache: 'no-store',
+						headers: { accept: 'application/json' },
+					});
+					if (!response.ok) return;
+					const publishedBuild = await response.json();
+					const publishedBuildId = getBuildId(publishedBuild);
+					if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+					maybeShowReleaseUpdateNotice(publishedBuild);
+				} catch {
+					// Update checks should never block normal reading.
+				}
+			};
+
+			navigator.serviceWorker.addEventListener('controllerchange', reloadForUpdate);
+
+			navigator.serviceWorker
+				.register(`${baseUrl}sw.js`, { updateViaCache: 'none' })
+				.then((registration) => {
+					const checkForUpdates = () => registration.update().catch(() => {});
+
+					checkForUpdates();
+					checkPublishedBuild();
+					window.setInterval(checkForUpdates, 60_000);
+					window.setInterval(checkPublishedBuild, 60_000);
+					window.addEventListener('focus', checkForUpdates);
+					window.addEventListener('focus', checkPublishedBuild);
+					document.addEventListener('visibilitychange', () => {
+						if (document.visibilityState === 'visible') {
+							checkForUpdates();
+							checkPublishedBuild();
+						}
+					});
+				})
+				.catch(() => {});
+		});
+	}
+
+	window.addEventListener('load', () => {
+		trackLooturaContext();
+		enforcePortraitOrientation();
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+})();</script></body></html> <script>(function(){const savedProfiles = [{"id":"es","label":"ES"},{"id":"us","label":"US"},{"id":"za","label":"SA"},{"id":"mx","label":"MX"},{"id":"ar","label":"AR"},{"id":"jp","label":"日本"}];
+const isEnglish = true;
+const isJapanese = false;
+const dateLocale = "en-ZA";
+const fallbackImage = "/news-fallback.svg";
+
+	const page = document.querySelector('[data-saved-page]');
+	const locale = page?.getAttribute('data-locale') || 'es';
+	const isEnglishPage = isEnglish;
+	const isJapanesePage = isJapanese;
+	const maxSavedStories = 200;
+	const savedStoryLifetimeMs = 15 * 24 * 60 * 60 * 1000;
+	const profiles = savedProfiles;
+	let activeFilter = 'all';
+
+	const savedKey = (profile) => `lootura:saved-stories:${profile}:v1`;
+	const formatDate = (value) => {
+		const date = new Date(value || '');
+		if (!Number.isFinite(date.getTime())) return '';
+		return new Intl.DateTimeFormat(dateLocale, { day: 'numeric', month: 'short' }).format(date);
+	};
+	const normalizeStory = (story, profile) => ({
+		id: String(story?.id || ''),
+		source: String(story?.source || ''),
+		title: String(story?.title || ''),
+		summary: String(story?.summary || ''),
+		sourceUrl: String(story?.sourceUrl || ''),
+		image: String(story?.image || ''),
+		publishedAt: String(story?.publishedAt || ''),
+		savedAt: String(story?.savedAt || ''),
+		locale: String(story?.locale || profile),
+	});
+	const appendLooturaUtm = (value = '') => {
+		if (!value) return '';
+
+		try {
+			const url = new URL(String(value), document.baseURI);
+			url.searchParams.set('utm_source', 'lootura.com');
+			return url.toString();
+		} catch {
+			return String(value);
+		}
+	};
+	const readStoriesForProfile = (profile) => {
+		try {
+			const raw = JSON.parse(localStorage.getItem(savedKey(profile)) || '[]');
+			if (!Array.isArray(raw)) return [];
+			const now = Date.now();
+			const activeStories = raw
+				.map((story) => normalizeStory(story, profile))
+				.filter((story) => {
+					if (!story.id || !story.title) return false;
+					const savedAtMs = new Date(story.savedAt || '').getTime();
+					const referenceMs = Number.isFinite(savedAtMs) ? savedAtMs : now;
+					return now - referenceMs < savedStoryLifetimeMs;
+				})
+				.slice(0, maxSavedStories);
+			if (activeStories.length !== raw.length) {
+				localStorage.setItem(savedKey(profile), JSON.stringify(activeStories));
+			}
+			return activeStories.map((story) => ({ ...story, profile }));
+		} catch {
+			return [];
+		}
+	};
+	const readAllStories = () =>
+		profiles
+			.flatMap((profile) => readStoriesForProfile(profile.id))
+			.sort((first, second) => new Date(second.savedAt || '').getTime() - new Date(first.savedAt || '').getTime());
+	const writeStoriesForProfile = (profile, stories) => {
+		localStorage.setItem(savedKey(profile), JSON.stringify(stories.slice(0, maxSavedStories)));
+	};
+	const removeStory = (story) => {
+		const nextStories = readStoriesForProfile(story.profile).filter((item) => item.id !== story.id);
+		writeStoriesForProfile(story.profile, nextStories);
+		window.umami?.track?.('Remove saved story', { newsId: story.id, source: story.source, edition: story.profile });
+		renderSavedStories();
+	};
+	const setText = (node, value) => {
+		node.textContent = value || '';
+		return node;
+	};
+	const createStoryCard = (story) => {
+		const profile = profiles.find((item) => item.id === story.profile);
+		const article = document.createElement('article');
+		article.className = 'grid grid-cols-[5.25rem_1fr] gap-4 rounded-md border border-neutral-950/10 bg-neutral-950/[0.03] p-3 dark:border-white/10 dark:bg-white/[0.06] sm:grid-cols-[7rem_1fr] sm:gap-5 sm:p-4';
+
+		const media = document.createElement(story.sourceUrl ? 'a' : 'div');
+		media.className = 'block aspect-[4/5] overflow-hidden rounded bg-neutral-950/[0.06] dark:bg-white/10';
+		if (story.sourceUrl && media instanceof HTMLAnchorElement) {
+			media.href = appendLooturaUtm(story.sourceUrl);
+			media.target = '_blank';
+			media.rel = 'noopener';
+			media.setAttribute('aria-label', story.title);
+		}
+		if (story.image) {
+			const image = document.createElement('img');
+			image.className = 'h-full w-full object-cover';
+			image.src = story.image;
+			image.alt = '';
+			image.loading = 'lazy';
+			image.dataset.appImage = '';
+			image.dataset.fallbackImage = fallbackImage;
+			media.append(image);
+		} else {
+			const fallback = document.createElement('div');
+			fallback.className = 'flex h-full w-full items-center justify-center text-2xl font-semibold text-neutral-300 dark:text-white/24';
+			fallback.textContent = 'L';
+			media.append(fallback);
+		}
+
+		const body = document.createElement('div');
+		body.className = 'min-w-0';
+
+		const meta = document.createElement('div');
+		meta.className = 'flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-normal text-neutral-500 dark:text-white/44';
+		setText(meta.appendChild(document.createElement('span')), story.source || (isJapanesePage ? '情報源' : isEnglishPage ? 'Source' : 'Fuente'));
+		const edition = setText(document.createElement('span'), profile?.label || story.profile.toUpperCase());
+		edition.className = 'rounded-full border border-neutral-950/10 px-2 py-0.5 text-[10px] dark:border-white/12';
+		meta.append(edition);
+		const savedAt = formatDate(story.savedAt);
+		if (savedAt) setText(meta.appendChild(document.createElement('span')), savedAt);
+
+		const title = document.createElement(story.sourceUrl ? 'a' : 'h2');
+		title.className = 'mt-2 block text-xl font-semibold leading-tight text-neutral-950 transition hover:text-neutral-600 dark:text-white dark:hover:text-white/76';
+		setText(title, story.title);
+		if (story.sourceUrl && title instanceof HTMLAnchorElement) {
+			title.href = appendLooturaUtm(story.sourceUrl);
+			title.target = '_blank';
+			title.rel = 'noopener';
+		}
+
+		const summary = setText(document.createElement('p'), story.summary);
+		summary.className = 'mt-2 line-clamp-2 text-sm leading-6 text-neutral-600 dark:text-white/58';
+
+		const actions = document.createElement('div');
+		actions.className = 'mt-4 flex flex-wrap gap-2';
+		if (story.sourceUrl) {
+			const open = setText(document.createElement('a'), isJapanesePage ? '開く' : isEnglishPage ? 'Open' : 'Abrir');
+			open.className = 'inline-flex min-h-10 items-center justify-center rounded-full bg-neutral-950 px-4 text-sm font-semibold text-white transition hover:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-neutral-950 dark:bg-white dark:text-neutral-950 dark:hover:bg-white/86 dark:focus:ring-white';
+			open.href = appendLooturaUtm(story.sourceUrl);
+			open.target = '_blank';
+			open.rel = 'noopener';
+			actions.append(open);
+		}
+		const remove = setText(document.createElement('button'), isJapanesePage ? '削除' : isEnglishPage ? 'Remove' : 'Quitar');
+		remove.className = 'inline-flex min-h-10 items-center justify-center rounded-full border border-neutral-950/10 px-4 text-sm font-semibold text-neutral-600 transition hover:border-neutral-950/24 hover:text-neutral-950 focus:outline-none focus:ring-2 focus:ring-neutral-950 dark:border-white/12 dark:text-white/58 dark:hover:border-white/24 dark:hover:text-white dark:focus:ring-white';
+		remove.type = 'button';
+		remove.addEventListener('click', () => removeStory(story));
+		actions.append(remove);
+
+		body.append(meta, title);
+		if (story.summary) body.append(summary);
+		body.append(actions);
+		article.append(media, body);
+		return article;
+	};
+	const syncFilters = (stories) => {
+		const counts = Object.fromEntries([
+			['all', stories.length],
+			...profiles.map((profile) => [profile.id, stories.filter((story) => story.profile === profile.id).length]),
+		]);
+		for (const [filter, count] of Object.entries(counts)) {
+			const countNode = document.querySelector(`[data-saved-filter-count="${filter}"]`);
+			if (countNode) countNode.textContent = String(count);
+		}
+		document.querySelectorAll('[data-saved-filter]').forEach((button) => {
+			button.setAttribute('data-active', button.getAttribute('data-saved-filter') === activeFilter ? 'true' : 'false');
+		});
+	};
+	function renderSavedStories() {
+		const list = document.querySelector('[data-saved-list]');
+		const empty = document.querySelector('[data-saved-empty]');
+		const badge = document.querySelector('[data-saved-count-badge]');
+		if (!(list instanceof HTMLElement) || !(empty instanceof HTMLElement)) return;
+
+		const stories = readAllStories();
+		const visibleStories = activeFilter === 'all' ? stories : stories.filter((story) => story.profile === activeFilter);
+		syncFilters(stories);
+		if (badge) badge.textContent = String(stories.length);
+		list.replaceChildren(...visibleStories.map(createStoryCard));
+		empty.classList.toggle('hidden', visibleStories.length > 0);
+	}
+
+	document.querySelectorAll('[data-saved-filter]').forEach((button) => {
+		button.addEventListener('click', () => {
+			activeFilter = button.getAttribute('data-saved-filter') || 'all';
+			renderSavedStories();
+		});
+	});
+	window.addEventListener('storage', (event) => {
+		if (event.key?.startsWith('lootura:saved-stories:')) renderSavedStories();
+	});
+	renderSavedStories();
+})();</script>
