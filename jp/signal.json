@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 2,
+  "edition": "jp",
+  "language": "ja",
+  "updatedAt": "2026-09-17T22:40:02.508Z",
+  "pulseLabel": "最新分析 · 2 分前",
+  "ambientPulseLabel": "32,078件のリンクを解析",
+  "dayScanLabel": "24時間で234件のリンクをスキャン",
+  "empty": {
+    "title": "新しい傾向はありません",
+    "body": "最新の分析は完了しました。今は表紙に出すべきものはありません。",
+    "images": [
+      "/empty-signal-radar.svg",
+      "/empty-signal-scan.svg",
+      "/empty-signal-grid.svg",
+      "/empty-signal-quiet.svg"
+    ]
+  },
+  "topAlert": null,
+  "signals": [
+    {
+      "id": "now-cluster-日本-ai + 影響",
+      "title": "Google Playのアプリ審査が長期化、12年以上続くアプリも1週間待ちで「AI製アプリの大量投稿が影響」との指摘",
+      "brief": "Google Playのアプリ審査が長期化、12年以上続くアプリも1週間待ちで「AI製アプリの大量投稿が影響」との指摘.",
+      "whyItMatters": "",
+      "verdict": "次のrunで繰り返されれば、重みが増します。",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "上昇",
+      "strength": 21,
+      "sourceCount": 2,
+      "itemCount": 10,
+      "freshness": "今新しい",
+      "alertLevel": "contained",
+      "alertLabel": "抑制",
+      "alertScore": 99,
+      "alertTriggers": [
+        "複数の情報源に広がる",
+        "急速に増えている",
+        "まだ動いている"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "アイティメディア",
+        "ギガジン"
+      ],
+      "images": [
+        "https://i.gzn.jp/img/2026/09/17/openai-sponsored-agents/00.png"
+      ],
+      "evidence": [
+        {
+          "title": "英チャールズ国王、AI大手トップらに「実存的な危険」を警告 NVIDIAやOpenAI、Anthropicが参加",
+          "source": "アイティメディア",
+          "publishedAt": "2026-09-17T22:23:23.000Z",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/18/2000001600/?utm_source=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "NVIDIA、Google、Emerald AIがAIデータセンターの電力消費調整を目指すアライアンス設立 Anthropicも参加",
+          "source": "アイティメディア",
+          "publishedAt": "2026-09-17T21:46:04.000Z",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/18/2000001599/?utm_source=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "OpenAIのHugging Face攻撃事件などで調査を担当しているAI監査組織「METR」とは何なのか？",
+          "source": "ギガジン",
+          "publishedAt": "2026-09-17T13:45:00.000Z",
+          "sourceUrl": "https://gigazine.net/news/20260917-model-evaluation-and-threat-research/?utm_source=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "デジタル相に古川俊治氏 AI戦略やサイバー安保も担当 外科医で弁護士、MBAも取得",
+          "source": "アイティメディア",
+          "publishedAt": "2026-09-17T10:36:13.000Z",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/17/2000001594/?utm_source=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "AppleはNVIDIAのNVLink Fusionを介して接続されたM8 Ultraチップを使用したAIサーバーを開発しており外部に販売することも計画中",
+          "source": "ギガジン",
+          "publishedAt": "2026-09-17T06:49:00.000Z",
+          "sourceUrl": "https://gigazine.net/news/20260917-apple-nvidia-nvlink-fusion-m8-based-baltra-servers/?utm_source=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/jp/signal/google-play-12-1-ai"
+    },
+    {
+      "id": "moving-cluster-日本-sbi + ライブドア",
+      "title": "SBI、ライブドアを75億円で買収 「ネオメディア」強化",
+      "brief": "SBI、ライブドアを75億円で買収 「ネオメディア」強化.",
+      "whyItMatters": "",
+      "verdict": "次のrunで繰り返されれば、重みが増します。",
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "冷却中",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "14時間以内",
+      "alertLevel": "contained",
+      "alertLabel": "抑制",
+      "alertScore": 59,
+      "alertTriggers": [
+        "複数の情報源に広がる",
+        "まだ動いている"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "インプレス",
+        "アイティメディア"
+      ],
+      "images": [
+        "https://www.watch.impress.co.jp/img/ipw/list/2141/895/sbilive1.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "SBI、ライブドアを75億円で買収 「ネオメディア」強化",
+          "source": "インプレス",
+          "publishedAt": "2026-09-17T08:55:50.000Z",
+          "sourceUrl": "https://www.watch.impress.co.jp/docs/news/2141895.html?utm_source=lootura.com",
+          "image": "https://www.watch.impress.co.jp/img/ipw/list/2141/895/sbilive1.jpg"
+        },
+        {
+          "title": "SBIがライブドアを買収か 親会社のミンカブ「概ね報道の通り」",
+          "source": "アイティメディア",
+          "publishedAt": "2026-09-17T05:54:41.000Z",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/17/2000001582/?utm_source=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/jp/signal/sbi-75"
+    },
+    {
+      "id": "moving-cluster-日本-iphone + rcs",
+      "title": "日本で「RCS」対応拡大 3キャリアでiPhone/Androidをまたいで使える",
+      "brief": "日本で「RCS」対応拡大 3キャリアでiPhone/Androidをまたいで使える.",
+      "whyItMatters": "",
+      "verdict": "次のrunで繰り返されれば、重みが増します。",
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "冷却中",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "19時間以内",
+      "alertLevel": "contained",
+      "alertLabel": "抑制",
+      "alertScore": 59,
+      "alertTriggers": [
+        "複数の情報源に広がる",
+        "まだ動いている"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "インプレス",
+        "アイティメディア"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "日本で「RCS」対応拡大 3キャリアでiPhone/Androidをまたいで使える",
+          "source": "インプレス",
+          "publishedAt": "2026-09-17T03:24:06.591Z",
+          "sourceUrl": "https://www.watch.impress.co.jp/docs/news/2141526.html?utm_source=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "ドコモのiPhoneもRCSに対応 楽天モバイル除く大手3社でAndroidと相互メッセージ可能に",
+          "source": "アイティメディア",
+          "publishedAt": "2026-09-17T03:22:23.000Z",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/17/2000001577/?utm_source=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/jp/signal/rcs-3-iphone-android"
+    },
+    {
+      "id": "moving-cluster-日本-チャット + claude",
+      "title": "Anthropic、Claudeの「チャット」と「Cowork」を統合 資料作成の「Docs」「Slides」も",
+      "brief": "Anthropic、Claudeの「チャット」と「Cowork」を統合 資料作成の「Docs」「Slides」も.",
+      "whyItMatters": "",
+      "verdict": "次のrunで繰り返されれば、重みが増します。",
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "冷却中",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "19時間以内",
+      "alertLevel": "contained",
+      "alertLabel": "抑制",
+      "alertScore": 59,
+      "alertTriggers": [
+        "複数の情報源に広がる",
+        "まだ動いている"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "インプレス",
+        "アイティメディア"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Claude、チャットとCoworkを統合 新機能Claude Docs/Slidesも",
+          "source": "インプレス",
+          "publishedAt": "2026-09-17T03:24:06.591Z",
+          "sourceUrl": "https://www.watch.impress.co.jp/docs/news/2141615.html?utm_source=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Anthropic、Claudeの「チャット」と「Cowork」を統合 資料作成の「Docs」「Slides」も",
+          "source": "アイティメディア",
+          "publishedAt": "2026-09-16T23:05:35.000Z",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/17/2000001565/?utm_source=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/jp/signal/anthropic-claude-cowork-docs-slides"
+    },
+    {
+      "id": "now-cluster-日本-ゲーム + 最大級",
+      "title": "世界最大級のゲームの展示会「東京ゲームショウ」開幕 異業種も次々参入 出展者も過去最多に",
+      "brief": "世界最大級のゲームの展示会「東京ゲームショウ」開幕 異業種も次々参入 出展者も過去最多に.",
+      "whyItMatters": "",
+      "verdict": "次のrunで繰り返されれば、重みが増します。",
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "稼働中",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "7時間以内",
+      "alertLevel": "contained",
+      "alertLabel": "抑制",
+      "alertScore": 54,
+      "alertTriggers": [
+        "複数の情報源に広がる",
+        "まだ動いている"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "TBSニュース",
+        "アイティメディア"
+      ],
+      "images": [
+        "https://newsdig.ismcdn.jp/mwimgs/e/c/1200xm/img_ec7118be2021feddb0f92344e4c4508d451839.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "世界最大級のゲームの展示会「東京ゲームショウ」開幕 異業種も次々参入 出展者も過去最多に",
+          "source": "TBSニュース",
+          "publishedAt": "2026-09-17T15:58:06.000Z",
+          "sourceUrl": "https://newsdig.tbs.co.jp/articles/-/2954470?utm_source=lootura.com",
+          "image": "https://newsdig.ismcdn.jp/mwimgs/e/c/1200xm/img_ec7118be2021feddb0f92344e4c4508d451839.jpg"
+        },
+        {
+          "title": "「東京ゲームショウ」開幕、史上最長5日間 30万人の来場見込む",
+          "source": "アイティメディア",
+          "publishedAt": "2026-09-17T01:38:23.000Z",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/17/2000001571/?utm_source=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/jp/signal/now-cluster"
+    },
+    {
+      "id": "now-cluster-日本-ai + iphone",
+      "title": "iPhoneで撮影した写真がAI生成されていない「本物」だと証明する「Apple Reference Image」はどういう仕組みなのか？",
+      "brief": "iPhoneで撮影した写真がAI生成されていない「本物」だと証明する「Apple Reference Image」はどういう仕組みなのか？.",
+      "whyItMatters": "",
+      "verdict": "次のrunで繰り返されれば、重みが増します。",
+      "mode": "now",
+      "state": "cooling",
+      "stateLabel": "冷却中",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "13時間以内",
+      "alertLevel": "contained",
+      "alertLabel": "抑制",
+      "alertScore": 41,
+      "alertTriggers": [
+        "複数の情報源に広がる"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "ギガジン",
+        "インプレス"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "iPhoneで撮影した写真がAI生成されていない「本物」だと証明する「Apple Reference Image」はどういう仕組みなのか？",
+          "source": "ギガジン",
+          "publishedAt": "2026-09-17T10:00:00.000Z",
+          "sourceUrl": "https://gigazine.net/news/20260917-apple-reference-image/?utm_source=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "ローソン、生成AI発案のデザート・ベーカリー",
+          "source": "インプレス",
+          "publishedAt": "2026-09-17T03:24:06.591Z",
+          "sourceUrl": "https://www.watch.impress.co.jp/docs/news/2141684.html?utm_source=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/jp/signal/iphone-ai-apple-reference-image"
+    },
+    {
+      "id": "now-cluster-日本-frb + ウォーシュ",
+      "title": "FRB利上げ、トランプ氏反発もウォーシュ氏への信頼「揺るがず」 | 毎日新聞",
+      "brief": "FRB利上げ、トランプ氏反発もウォーシュ氏への信頼「揺るがず」 | 毎日新聞.",
+      "whyItMatters": "",
+      "verdict": "次のrunで繰り返されれば、重みが増します。",
+      "mode": "now",
+      "state": "cooling",
+      "stateLabel": "冷却中",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "14時間以内",
+      "alertLevel": "contained",
+      "alertLabel": "抑制",
+      "alertScore": 41,
+      "alertTriggers": [
+        "複数の情報源に広がる"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "毎日新聞",
+        "TBSニュース"
+      ],
+      "images": [
+        "https://cdn.mainichi.jp/vol1/2026/09/17/20260917k0000m030058000p/0c10.jpg?1",
+        "https://newsdig.ismcdn.jp/mwimgs/b/6/1200xm/img_b6156f639572ec7af5f17ab04bae04b73916126.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "FRB利上げ、トランプ氏反発もウォーシュ氏への信頼「揺るがず」 | 毎日新聞",
+          "source": "毎日新聞",
+          "publishedAt": "2026-09-17T09:05:37.000Z",
+          "sourceUrl": "https://mainichi.jp/articles/20260917/k00/00m/020/263000c?utm_source=lootura.com",
+          "image": "https://cdn.mainichi.jp/vol1/2026/09/17/20260917k0000m030058000p/0c10.jpg?1"
+        },
+        {
+          "title": "米FRBウォーシュ議長「インフレは高すぎる」9月FOMCのタカ派利上げは、長期のリスクを抑制するための結果",
+          "source": "TBSニュース",
+          "publishedAt": "2026-09-17T03:16:32.000Z",
+          "sourceUrl": "https://newsdig.tbs.co.jp/articles/withbloomberg/2951653?utm_source=lootura.com",
+          "image": "https://newsdig.ismcdn.jp/mwimgs/b/6/1200xm/img_b6156f639572ec7af5f17ab04bae04b73916126.jpg"
+        }
+      ],
+      "path": "/jp/signal/frb"
+    }
+  ]
+}

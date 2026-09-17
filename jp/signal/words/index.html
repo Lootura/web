@@ -1,0 +1,875 @@
+<!DOCTYPE html><html lang="ja" data-astro-cid-sckkx6r4> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0a0a0a"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Lootura"><meta name="generator" content="Astro v6.1.8"><meta name="robots" content="noindex,nofollow,noarchive"><title>Lootura | フォロー中の言葉</title><style>
+			html,
+			body {
+				margin: 0;
+				width: 100%;
+				min-height: 100%;
+				background: #0a0a0a;
+				color-scheme: light;
+			}
+		</style><script>(function(){const supportedLocales = ["es","us","za","mx","ar","jp"];
+const editionAliases = {"es":"es","spain":"es","us":"us","usa":"us","united-states":"us","za":"za","south-africa":"za","south_africa":"za","south africa":"za","mx":"mx","mexico":"mx","méxico":"mx","ar":"ar","argentina":"ar","jp":"jp","japan":"jp","japon":"jp","japón":"jp","nihon":"jp","nippon":"jp"};
+
+			(() => {
+				const cleanupVersionKey = 'lootura:storage-cleanup-version';
+				const cleanupVersion = '2026-05-18-editions-config';
+				const maxSeenNewsItems = 600;
+				const seenNewsLifetimeMs = 30 * 24 * 60 * 60 * 1000;
+				const editionPattern = supportedLocales.map((edition) => edition.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+				const allowedEditionIds = new Set(supportedLocales);
+				const booleanKeys = new Set([
+					'lootura:browser-intro-seen',
+					'lootura:editions-promo-seen',
+					'lootura:install-accepted',
+					'lootura:signal:intro-any-seen',
+					'lootura:signal:install-nudge-dismissed:v1',
+					'lootura:signal:install-nudge-ready:v1',
+					'lootura:swipe-hint-seen',
+				]);
+				const numberKeys = new Set([
+					'lootura:signal:browser-open-count:v1',
+					'lootura:signal:install-nudge-dismiss-count:v1',
+				]);
+				const dateKeys = new Set([
+					'lootura:install-gate-action-at',
+					'lootura:install-gate-seen-at',
+					'lootura:last-active-at',
+				]);
+				const allowedExactKeys = new Set([
+					cleanupVersionKey,
+					'lootura.preferences.v1',
+					'lootura:editorial',
+					'lootura:app-release:last-seen-build',
+					'lootura:app-release:last-seen-version',
+					'lootura:app-release:snoozed-until',
+					'lootura:refresh-at-launch',
+					'lootura:seen-news:v1',
+					'lootura:updates:last-seen-version',
+					...booleanKeys,
+					...numberKeys,
+					...dateKeys,
+				]);
+				const allowedPatternKeys = [
+					new RegExp(`^lootura:calm-mode:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:saved-stories:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:signal:intro:v1:(${editionPattern}|global)$`),
+					new RegExp(`^lootura:signal:seen:v1:(${editionPattern}|global)$`),
+				];
+
+				const isValidDate = (value) => Number.isFinite(new Date(value || '').getTime());
+				const removeItem = (key) => localStorage.removeItem(key);
+				const writeJson = (key, value) => localStorage.setItem(key, JSON.stringify(value));
+				const isAllowedLooturaKey = (key) =>
+					allowedExactKeys.has(key) || allowedPatternKeys.some((pattern) => pattern.test(key));
+
+				const compactSeenNews = (key) => {
+					const value = localStorage.getItem(key);
+					const seen = JSON.parse(value || '{}');
+					const now = Date.now();
+					const entries = Array.isArray(seen)
+						? seen.map((id) => [id, now])
+						: Object.entries(seen || {});
+					const compactSeen = Object.fromEntries(
+						entries
+							.map(([id, firstSeenAt]) => [String(id || ''), Number(firstSeenAt)])
+							.filter(
+								([id, firstSeenAt]) =>
+									id &&
+									Number.isFinite(Number(firstSeenAt)) &&
+									now - Number(firstSeenAt) < seenNewsLifetimeMs,
+							)
+							.sort(([, firstSeenAt], [, secondSeenAt]) => Number(secondSeenAt) - Number(firstSeenAt))
+							.slice(0, maxSeenNewsItems),
+					);
+					writeJson(key, compactSeen);
+				};
+
+				try {
+					if (localStorage.getItem(cleanupVersionKey) === cleanupVersion) return;
+
+					for (const key of Object.keys(localStorage)) {
+						if (!key.startsWith('lootura:')) continue;
+
+						try {
+							const value = localStorage.getItem(key) || '';
+							if (!isAllowedLooturaKey(key)) {
+								removeItem(key);
+							} else if (key === 'lootura:editorial' && !allowedEditionIds.has(value)) {
+								removeItem(key);
+							} else if (key === 'lootura:seen-news:v1') {
+								compactSeenNews(key);
+							} else if (booleanKeys.has(key) && value !== 'true') {
+								removeItem(key);
+							} else if (numberKeys.has(key) && !Number.isFinite(Number(value))) {
+								removeItem(key);
+							} else if (dateKeys.has(key) && !isValidDate(value)) {
+								removeItem(key);
+							}
+						} catch {
+							removeItem(key);
+						}
+					}
+
+					localStorage.setItem(cleanupVersionKey, cleanupVersion);
+				} catch {
+					// Storage can be unavailable in restrictive browser modes.
+				}
+			})();
+		})();</script><script type="module">(()=>{const e=window.matchMedia("(display-mode: standalone)").matches||window.matchMedia("(display-mode: fullscreen)").matches||window.matchMedia("(display-mode: minimal-ui)").matches||window.navigator.standalone||document.referrer.startsWith("android-app://")||sessionStorage.getItem("lootura:pwa-dev-override")==="true";document.documentElement.classList.toggle("pwa-runtime",!!e)})();</script><script type="module">document.documentElement.style.colorScheme="light";</script><script defer src="https://cloud.umami.is/script.js" data-website-id="1e408cbd-a16c-43ee-b404-35aa97b38c93"></script><link rel="stylesheet" href="/_astro/Layout.vVu4WIeI.css"></head> <body data-astro-cid-sckkx6r4>  <div data-desktop-landing class="desktop-gate:block hidden relative min-h-svh overflow-hidden bg-neutral-950 text-white opacity-0 transition-opacity duration-300" data-desktop-cover-count="1"> <div class="absolute inset-0"> <div data-desktop-cover-backdrop class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.16),_transparent_38%),linear-gradient(180deg,_rgba(5,5,6,0.08)_0%,_rgba(5,5,6,0.48)_42%,_rgba(5,5,6,0.88)_100%)]"></div> <div data-desktop-cover-card class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.14),transparent_30%),radial-gradient(circle_at_80%_30%,rgba(255,255,255,0.1),transparent_26%),linear-gradient(135deg,#171717_0%,#050505_56%,#101114_100%)]"></div> <div class="absolute inset-0 bg-black/34"></div> <div class="absolute inset-0 bg-gradient-to-b from-black/8 via-black/22 to-black/78"></div> </div> <header class="absolute inset-x-0 top-0 z-20 border-b border-white/10 bg-black/12 backdrop-blur-xl"> <div class="mx-auto flex h-16 w-full items-center gap-4 px-4 sm:px-6 lg:px-8"> <a href="/" class="inline-flex items-center gap-3 text-sm font-semibold uppercase tracking-[0.34em] text-white/92" aria-label="Lootura home"> <span class="h-2.5 w-2.5 rounded-full bg-lime-300 shadow-[0_0_18px_rgba(163,230,53,0.78)]"></span> <span>Lootura</span> </a> <div class="flex-1"></div> <a href="https://atlas.lootura.com" class="inline-flex items-center gap-2 rounded-full border border-white/14 bg-white/8 px-3 py-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.28em] text-white/84 transition hover:border-white/24 hover:bg-white/12 focus:outline-none focus:ring-2 focus:ring-white/30" aria-label="Try Atlas in English" data-desktop-atlas-link>
+Try Atlas
+</a> </div> </header> <main class="relative z-10 flex min-h-svh items-center pb-28 sm:pb-32 lg:pb-36"> <div class="mx-auto w-full max-w-6xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28"> <div class="mx-auto max-w-2xl text-center"> <h1 data-desktop-cover-title class="mx-auto max-w-3xl text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">実際のニュースを、ひとつの表紙に</h1> <p data-desktop-cover-summary class="mx-auto mt-3 max-w-xl text-sm leading-6 text-white/68 sm:text-base sm:leading-7"> Looturaは、変化している出来事を静かで有限な読み方にまとめ、いま何が動いているかを見やすくします。 </p> </div> </div> </main> <div data-desktop-mobile-banner class="absolute inset-x-0 bottom-5 z-20 px-4 text-center sm:bottom-6 sm:px-6 lg:bottom-8 lg:px-8"> <p class="mx-auto max-w-4xl text-xs font-medium tracking-[0.18em] text-white/55 sm:text-sm lg:text-base"> このURLはモバイルで開いてください </p> </div> </div> <script>(function(){const renderedCovers = [{"id":"lootura-jp-fallback","title":"Lootura","summary":"ライブカバー","image":""}];
+
+	const root = document.querySelector('[data-desktop-landing]');
+	if (!root) {
+		return;
+	}
+
+	const cards = Array.from(root.querySelectorAll('[data-desktop-cover-card]'));
+	const backdrop = root.querySelector('[data-desktop-cover-backdrop]');
+	const lastCoverIndexKey = 'lootura:desktop:last-cover-index';
+
+	const applyCover = (index) => {
+		const safeIndex = Number.isFinite(index) && index >= 0 && index < renderedCovers.length ? index : 0;
+		const cover = renderedCovers[safeIndex] || renderedCovers[0];
+
+		cards.forEach((card, cardIndex) => {
+			card.hidden = cardIndex !== safeIndex;
+		});
+
+		if (backdrop) {
+			backdrop.dataset.desktopCoverImage = cover?.image || '';
+		}
+
+		try {
+			sessionStorage.setItem(lastCoverIndexKey, String(safeIndex));
+		} catch {}
+	};
+
+	const pickRandomCoverIndex = () => {
+		if (cards.length <= 1) return 0;
+
+		let lastIndex = -1;
+		try {
+			lastIndex = Number.parseInt(sessionStorage.getItem(lastCoverIndexKey) || '', 10);
+		} catch {}
+
+		const candidates = cards.map((_, index) => index).filter((index) => index !== lastIndex);
+		const pool = candidates.length > 0 ? candidates : cards.map((_, index) => index);
+		const randomValue = window.crypto?.getRandomValues ? window.crypto.getRandomValues(new Uint32Array(1))[0] : Math.floor(Math.random() * Number.MAX_SAFE_INTEGER);
+		return pool[randomValue % pool.length];
+	};
+
+	applyCover(pickRandomCoverIndex());
+
+	root.classList.add('opacity-100');
+})();</script> <main class="min-h-svh bg-white text-neutral-950 desktop-gate:hidden" data-signal-words-page data-signal-words-locale="jp"> <header class="safe-top-header sticky top-0 z-50 border-b border-neutral-950/10 bg-white/78 px-4 backdrop-blur-md sm:px-6 dark:border-white/10 dark:bg-neutral-950/78"> <div class="mx-auto flex h-16 w-full items-center gap-4 max-w-3xl"> <a class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-neutral-950 transition hover:bg-neutral-950/6 focus:outline-none focus:ring-2 focus:ring-neutral-950" href="/jp/signal/" aria-label="Signalに戻る" data-signal-words-back> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-arrow-left"> <path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path>  </svg> </a> <p class="min-w-0 flex-1 truncate text-center text-sm font-medium uppercase tracking-normal text-neutral-500 dark:text-white/48" data-page-topbar-title>フォロー中の言葉</p> <div class="flex items-center gap-2"> <span class="h-10 w-10 shrink-0" aria-hidden="true"></span>  </div> </div> </header> <section class="mx-auto w-full max-w-3xl px-6 pb-16 sm:px-8 lg:px-10"> <header class="sticky top-[calc(env(safe-area-inset-top,0px)+4rem)] z-20 -mx-6 border-b border-neutral-950/10 bg-white/92 px-6 pb-5 pt-7 backdrop-blur-md sm:-mx-8 sm:px-8 lg:-mx-10 lg:px-10" data-signal-words-headline> <div class="max-w-2xl"> <p class="text-sm font-medium uppercase tracking-normal text-neutral-500">ウォッチ中</p> <h1 class="mt-3 text-3xl font-semibold leading-tight text-neutral-950 sm:text-4xl">リンクを呼ぶ言葉。</h1> <p class="mt-3 text-base font-semibold leading-7 text-neutral-800 sm:text-lg"> トピックを追加すると、現在のフィードから一致する見出しを出します。 </p> </div> </header> <form class="mt-8 grid grid-cols-[1fr_auto] gap-2" data-signal-words-form> <input class="min-h-12 min-w-0 rounded-full border border-neutral-950/12 bg-neutral-950/[0.03] px-4 text-base font-medium text-neutral-950 outline-none placeholder:text-neutral-400 focus:border-neutral-950/36 focus:ring-2 focus:ring-neutral-950/12" type="text" name="term" autocomplete="off" placeholder="言葉またはトピック" data-signal-words-input> <button class="inline-flex min-h-12 items-center justify-center rounded-full bg-neutral-950 px-5 text-sm font-bold text-white transition hover:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-neutral-950" type="submit"> 追加 </button> </form> <div class="mt-6 flex flex-wrap gap-2" data-signal-words-terms></div> <section class="mt-8 border-t border-neutral-950/10 pt-6" data-signal-words-results></section> </section> </main> <script>(function(){const locale = "jp";
+const stories = [{"title":"演劇でコミュ力アップ 小学生が劇団員とワークショップ 高知 | 毎日新聞","summary":"演劇の手法を用いてコミュニケーション能力を高めてもらおうと、日本劇団協議会（東京都）が16日、高知県四万十市の市立蕨岡小学校でワークショップを開いた。主催する同協議会と四万十市教委が共催する地域文化プロジェクト「演劇でつながるまち四万十」の一環。この日は劇団「扉座」の団員3人が講師を務めた。","source":"毎日新聞","author":"","category":"general","url":"https://mainichi.jp/articles/20260917/k00/00m/310/130000c?utm_source=lootura.com","publishedAt":"2026-09-17T22:15:09.000Z"},{"title":"今日の断片を開く","summary":"今日という日が過去に何を残したかを一つだけ見る。ニュースではなく、文脈の小さな窓。","source":"Lootura日誌","author":"","category":"history","url":"https://ja.wikipedia.org/wiki/9%E6%9C%8818%E6%97%A5?utm_source=lootura.com","publishedAt":"2026-09-18T04:00:00.000Z"},{"title":"フーシ派とサウジ、緊張続く 中国はイラン側に自制要請か | 毎日新聞","summary":"イエメンの親イラン武装組織フーシ派とサウジアラビアの間で、軍事的緊張が続いている。サウジメディアは17日、サウジ西部のタイフ上空で迎撃したドローンの破片が落下し、イエメン人住民1人が死亡したと報じた。今月に入ってフーシ派との交戦が激化して以来、国内で初の死者という。イエメンでも17日、サウジ側によ","source":"毎日新聞","author":"","category":"general","url":"https://mainichi.jp/articles/20260918/k00/00m/030/003000c?utm_source=lootura.com","publishedAt":"2026-09-17T22:14:12.000Z"},{"title":"英チャールズ国王、AI大手トップらに「実存的な危険」を警告 NVIDIAやOpenAI、Anthropicが参加","summary":"英国王室は、チャールズ国王主催のAIサミットを開催した。NVIDIAのフアンCEOやGoogle DeepMindのハサビス会長ら業界幹部が参加。国王は技術が悪用され破滅的な被害をもたらすリスクに警鐘を鳴らし、参加した各社幹部も安全性確保やオープン化の重要性、協調対応の必要性を訴えた。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/18/2000001600/?utm_source=lootura.com","publishedAt":"2026-09-17T22:23:23.000Z"},{"title":"台湾、熊本地震復興へ義援金 14億円超を日本側へ贈呈 | 毎日新聞","summary":"台湾外交部（外務省）は17日、熊本地震の復興支援のための義援金を日本側に手渡す贈呈式を台北で開いた。個人や企業・団体から3億台湾ドル（約14億6400万円）超が集まった。林佳竜外交部長（外相）は「台湾と日本の間には家族のような友情がある」と述べた。","source":"毎日新聞","author":"","category":"general","url":"https://mainichi.jp/articles/20260917/k00/00m/030/401000c?utm_source=lootura.com","publishedAt":"2026-09-17T13:53:16.000Z"},{"title":"経営「AIでラクして早く帰って」→社員「帰らない」 工数最大9割減のDeNAも悩むAI効率化の壁","summary":"働く側は仕事が増えたと訴え、経営側は人が浮いてこないと嘆く。AIは確かに時間を生んでいる。しかし、その時間はどこへ消えているのか。（1/3 ページ）","source":"アイティメディア","author":"斎藤健二","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/18/2000001484/?utm_source=lootura.com","publishedAt":"2026-09-17T22:00:00.000Z"},{"title":"美浜原発3号機、水漏れで原子炉を手動停止 5月にもトラブル | 毎日新聞","summary":"関西電力は17日、調整運転中だった美浜原発3号機（福井県美浜町）の配管から水が漏れ、原子炉を手動停止したと発表した。放射能漏れやけが人はない。3号機では5月にも蒸気漏れのトラブルが起きて手動停止し、今月12日に再起動したばかりだった。","source":"毎日新聞","author":"","category":"general","url":"https://mainichi.jp/articles/20260917/k00/00m/040/400000c?utm_source=lootura.com","publishedAt":"2026-09-17T13:51:51.000Z"},{"title":"NVIDIA、Google、Emerald AIがAIデータセンターの電力消費調整を目指すアライアンス設立 Anthropicも参加","summary":"NVIDIAとGoogleは新興企業Emerald AIとともに、電力網の状況に応じて消費電力を動的に制御する「柔軟なデータセンター」の普及を目指す新団体「AEMA」を設立した。送電網の容量不足や住民の電気料金高騰懸念がAIインフラ拡充の壁となる中、計算処理の分散や専用ソフトを活用し、既存電力網の効率運用と接続期間の短縮を図る。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/18/2000001599/?utm_source=lootura.com","publishedAt":"2026-09-17T21:46:04.000Z"},{"title":"「住宅が燃えている」東京・江戸川区で住宅火災 1人死亡 住人の80代男性と連絡取れず","summary":"17日夜、東京・江戸川区の住宅で火事があり、1人が死亡しました。この家に住む80代の男性と連絡が取れておらず、警視庁が遺体の身元の確認を急いでいます。 17日午後11時10分ごろ、江戸川区本一色で「住宅が燃えている」と近くを通りかかった男性から119番通報がありました。 東京消防庁のポンプ車など20台が出動し、火はおよそ1時間15分後に消し止められましたが、木造3階建て住宅の2階と3階部分、あわせて60平方メートルなどが焼けました。 この住宅から1人が全身にやけどを負った状態で見つかりましたが、現場で死亡が確認されました。 この家に1人で住む80代の男性と連絡が取れていないということで、警視庁は遺体の身元確認を急ぐとともに、火事の原因を調べています。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954581?utm_source=lootura.com","publishedAt":"2026-09-17T22:25:36.000Z"},{"title":"5年半養育→「引き渡さないと誘拐」と通告 里親の賠償請求棄却 | 毎日新聞","summary":"児童相談所から委託された女児を生後2カ月から約5年半にわたって養育したにもかかわらず、正当な理由なく委託解除されたのは違法だとして、那覇市の里親夫婦が沖縄県を相手に300万円の損害賠償を求めた訴訟の判決で、那覇地裁（片瀬亮裁判長）は17日、里親の請求を棄却した。","source":"毎日新聞","author":"","category":"general","url":"https://mainichi.jp/articles/20260917/k00/00m/040/262000c?utm_source=lootura.com","publishedAt":"2026-09-17T09:05:49.000Z"},{"title":"Nature Lock、子どもの帰宅を見守る新機能 解錠がないと親に通知","summary":"Natureは、スマートロック「Nature Lock」の新機能「帰宅みまもり通知」を9月16日から提供開始した。設定した時刻までに、子どもが持つ「Nature Key」で解錠されなかった場合、保護者のスマートフォンに通知する。","source":"インプレス","author":"清宮信志","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141764.html?utm_source=lootura.com","publishedAt":"2026-09-17T22:40:05.160Z"},{"title":"【台風情報】20日(日)にも東京首都圏含む“関東直撃のおそれ”25号(ドゥージェン) シルバーウィークの天気は？ 予想進路・雨と風のシミュレーションを見る（気象庁）","summary":"大型の台風25号（ドゥージェン）は、20日（日）にも東京首都圏含む関東を直撃する予想進路となっています。（18日午前3時45分、気象庁発表） ■18日(金)午前3時の実況 種別 台風 大きさ 大型 強さ - 存在地域 小笠原近海 中心位置 北緯24度40分 (24.7度)東経146度35分 (146.6度) 進行方向、速さ 北西 40 km/h (22 kt) 中心気圧 980 hPa 中心付近の最大風速 30 m/s (55 kt) 最大瞬間風速 40 m/s (80 kt) 25m/s以上の暴風域 全域 95 km (50 NM) 15m/s以上の強風域 北東側 750 km (400 NM)南西側 440 km (240 NM) ■18日(金)午後3時の予報 種別 台風 強さ - 存在地域 父島の南南東約180km 予報円の中心 北緯25度35分 (25.6度)東経142度55分 (142.9度) 進行方向、速さ 西北西 30 km/h (17 kt) 中心気圧 980 hPa 中心付近の最大風速 25 m/s (50 kt) 最大瞬間風速 35 m/s (70 kt) 予報円の半径 75 km (40 NM) ■19日(土)午前3時の予報 種別 台風 強さ - 存在地域 父島の南西約190km 予報円の中心 北緯25度40分 (25.7度)東経141度05分 (141.1度) 進行方向、速さ 西 15 km/h (8 kt) 中心気圧 980 hPa 中心付近の最大風速 25 m/s (50 kt) 最大瞬間風速 35 m/s (70 kt) 予報円の半径 105 km (57 NM) ■20日(日)午前3時の予報 種別 台風 強さ - 存在地域 鳥島の南西約240km 予報円の中心 北緯29度00分 (29.0度)東経138度30分 (138.5度) 進行方向、速さ 北北西 20 km/h (10 kt) 中心気圧 980 hPa 中心付近の最大風速 25 m/s (50 kt) 最大瞬間風速 35 m/s (70 kt) 予報円の半径 185 km (100 NM) ■21日(月)午前3時の予報 種別 台風 強さ - 存在地域 伊豆諸島近海 予報円の中心 北緯33度25分 (33.4度)東経139度40分 (139.7度) 進行方向、速さ 北 20 km/h (11 kt) 中心気圧 980 hPa 中心付近の最大風速 25 m/s (50 kt) 最大瞬間風速 35 m/s (70 kt) 予報円の半径 260 km (140 NM) ■22日(火)午前3時の予報 種別 台風 強さ - 存在地域 日本の東 予報円の中心 北緯39度50分 (39.8度)東経148度40分 (148.7度) 進行方向、速さ 北東 45 km/h (24 kt) 中心気圧 980 hPa 中心付近の最大風速 25 m/s (50 kt) 最大瞬間風速 35 m/s (70 kt) 予報円の半径 320 km (175 NM) ■23日(水)午前3時の予報 種別 温帯低気圧 強さ - 存在地域 千島の東 予報円の中心 北緯46度30分 (46.5度)東経162度25分 (162.4度) 進行方向、速さ 北東 55 km/h (30 kt) 中心気圧 980 hPa 最大風速 25 m/s (50 kt) 最大瞬間風速 35 m/s (70 kt) 予報円の半径 460 km (250 NM) 18日(金)の雨と風のシミュレーション（全国） 19日(土)の雨と風のシミュレーション（全国） 20日(日)の雨と風のシミュレーション（全国） 21日(月)の雨と風のシミュレーション（全国） 22日(火)の雨と風のシミュレーション（全国）","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954577?utm_source=lootura.com","publishedAt":"2026-09-17T22:24:21.000Z"},{"title":"FRB利上げ、トランプ氏反発もウォーシュ氏への信頼「揺るがず」 | 毎日新聞","summary":"米連邦準備制度理事会（FRB）は16日の連邦公開市場委員会（FOMC）で、政策金利を0・25％引き上げ、3・75～4・0％とすることを全会一致で決定した。FRBの利上げは2023年7月以来3年2カ月ぶり。中東情勢の混乱が長期化し原油価格が高止まりする中、物価上昇（インフレ）の抑制のため金融引き締め","source":"毎日新聞","author":"","category":"general","url":"https://mainichi.jp/articles/20260917/k00/00m/020/263000c?utm_source=lootura.com","publishedAt":"2026-09-17T09:05:37.000Z"},{"title":"クラファン6億突破のwena X、第3期募集 スポーツ・睡眠バンドも","summary":"「wena」を承継し開発しているaugment AIは、スマートウォッチの最新モデル「wena X」(ウェナ クロス)について、GREEN FUNDINGでクラウドファンディング第3期の募集を9月18日から開始する。新たなリターンとして、運動に適した「wena X sports band」と、睡眠に適した「wena X sleep band」が追加される。wena Xの本体を含む支援プランは51,880円～。","source":"インプレス","author":"太田 亮三","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141877.html?utm_source=lootura.com","publishedAt":"2026-09-17T22:40:05.160Z"},{"title":"【台風情報】大型の「台風25号」 シルバーウィークに関東地方接近か 20日~21日「警報級大雨」のおそれ【気象庁・全般気象解説情報・雨風の予想シミュレーション】","summary":"台風25号は、20日から21日にかけて東日本太平洋側に接近する可能性があります。 気象庁によりますと、18日6日時点で大型の台風25号は小笠原近海にあり、1時間に45キロメートルの速度で北西に進んでいます。 中心気圧は980ヘクトパスカル、最大風速は30メートル、最大瞬間風速は40メートルとなっています。 台風25号は、18日から19日にかけて小笠原諸島に接近する見込みです。 台風はその後も非常に強い風を伴う勢力を保って北上し、20日には伊豆諸島に接近するおそれがあります。 また、20日から21日頃にかけては進路を北から北東に変えながら進み、東日本の太平洋側に接近する可能性があります。 ［雨の予想］ 台風の接近に伴い、小笠原諸島と伊豆諸島では雷を伴って激しい雨が降り大雨となる所があるでしょう。また、20日から21日ごろにかけては、関東地方を中心に大雨となる所がある見込みです。 18日6時から19日6時までに予想される24時間降水量は多い所で、 小笠原諸島 150ミリ その後、19日6時から20日6時までに予想される24時間降水量は多い所で、 小笠原諸島 100ミリ 関東地方 80ミリ 伊豆諸島 120ミリ その後、20日6時から21日6時までに予想される24時間降水量は多い所で、 関東地方 200ミリ 伊豆諸島 200ミリ 東海地方から東北太平洋側では20日から21日頃には、台風の進路等によっては警報級となる大雨、うねりを伴う高波や暴風の可能性がありますので、注意・警戒してください。また、落雷、突風や降ひょうにも注意してください。 今後発表する防災気象情報に留意してください。 ▼▼▼ 台風25号(ドゥージェン) ▼▼▼ ▼18日06時の実況 種別：台風 大きさ：大型 存在地域：小笠原近海 進行方向、速さ：北西 45 km/h 中心気圧：980 hPa 中心付近の最大風速：30 m/s 最大瞬間風速：40 m/s 25m/s以上の暴風域：全域 95 km (50 NM) ▼18日18時の予報 種別：台風 存在地域：父島の南約200km 進行方向、速さ：西 30 km/h 中心気圧：980 hPa 中心付近の最大風速：25 m/s 最大瞬間風速：35 m/s ▼19日06時の予報 種別：台風 存在地域：父島の南西約190km 進行方向、速さ：西北西 15 km/h 中心気圧：980 hPa 中心付近の最大風速：25 m/s 最大瞬間風速：35 m/s ▼20日03時の予報 種別：台風 存在地域：鳥島の南西約240km 進行方向、速さ：北北西 20 km/h 中心気圧：980 hPa 中心付近の最大風速：25 m/s 最大瞬間風速：35 m/s ▼21日03時の予報 種別：台風 存在地域：伊豆諸島近海 進行方向、速さ：北 20 km/h 中心気圧：980 hPa 中心付近の最大風速：25 m/s 最大瞬間風速：35 m/s ▼22日03時の予報 種別：台風 存在地域：日本の東 進行方向、速さ：北東 45 km/h 中心気圧：980 hPa 中心付近の最大風速：25 m/s 最大瞬間風速：35 m/s ▼23日03時の予報 種別：温帯低気圧 存在地域：千島の東 進行方向、速さ：北東 55 km/h 中心気圧：980 hPa 最大風速：25 m/s 最大瞬間風速：35 m/s","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954563?utm_source=lootura.com","publishedAt":"2026-09-17T22:17:13.000Z"},{"title":"Visa、「本物」音楽新体験に向けユニバーサルミュージックと協業","summary":"ビザ・ワールドワイド・ジャパン(Visa)は17日、音楽を通じたファンとアーティストの新たな体験創出を目的とし、音楽分野における協働に向けた検討について、ユニバーサルミュージック合同会社と基本合意書を締結したと発表した。","source":"インプレス","author":"臼田勤哉","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141858.html?utm_source=lootura.com","publishedAt":"2026-09-17T22:40:05.160Z"},{"title":"【台風情報】台風25号（ドゥージェン）20日（日）には伊豆諸島 20日～21日（月・祝）頃に関東・甲信に接近か シルバーウィークの天気は","summary":"気象庁によりますと、大型の台風２５号は、１８日夕方から１９日未明にかけて小笠原諸島に最も接近する見込みです。そのため小笠原諸島では１８日昼前から２０日にかけて、伊豆諸島では２０日から２１日頃にかけてうねりを伴った高波に警戒し、強風や土砂災害、低い土地の浸水、河川の増水に注意・警戒が必要です。関東地方と甲信地方では、２０日から２１日頃にかけて土砂災害、低い土地の浸水、河川の増水、強風やうねりを伴った高波に注意・警戒してください。 台風25号 今後の進路は 大型の台風第２５号は、１８日３時には小笠原近海にあって、１時間におよそ４０キロの速さで北西へ進んでいます。中心の気圧は９８０ヘクトパスカル、中心付近の最大風速は３０メートル、最大瞬間風速は４０メートルとなっています。 台風は１８日夕方から１９日未明にかけて小笠原諸島に最も接近する見込みです。 台風は、その後も勢力を保って北上し、２０日には伊豆諸島に接近するおそれがあります。また、２０日から２１日頃にかけては関東地方や甲信地方に接近する可能性があります。 ［波の予想］ 小笠原諸島では、１８日昼前から２０日にかけて、伊豆諸島では、２０日から２１日頃にかけてうねりを伴い大しけとなるでしょう。関東地方の海上でも、１９日から２１日頃にかけて、うねりを伴いしけとなる見込みです。台風の進路や発達の程度によっては、警報級の高波となる可能性があります。 ・１８日に予想される波の高さ 伊豆諸島 ４メートル うねりを伴う 小笠原諸島 ７メートル うねりを伴う ・１９日に予想される波の高さ 伊豆諸島 ５メートル うねりを伴う 小笠原諸島 ７メートル うねりを伴う 関東地方 ４メートル うねりを伴う ・２０日に予想される波の高さ 伊豆諸島 ７メートル うねりを伴う 小笠原諸島 ６メートル うねりを伴う 関東地方 ５メートル うねりを伴う ［雨の予想］ 小笠原諸島では、１８日昼過ぎから１９日夕方にかけて、雷を伴った激しい雨の降る所があるでしょう。小笠原諸島では１８日昼過ぎから１９日夜遅くにかけて、関東甲信地方では２０日から２１日頃にかけて、台風の進路や発達の程度によっては、警報級の大雨となる可能性があります。 ・１８日１時間予想降水量（多い所） 小笠原諸島 ４０ミリ ・１９日１時間予想降水量（多い所） 小笠原諸島 ４０ミリ 関東地方南部 ３０ミリ 伊豆諸島 ３０ミリ ・１９日６時までの２４時間予想降水量（多い所） 小笠原諸島 １５０ミリ ・２０日６時までの２４時間予想降水量（多い所） 小笠原諸島 １００ミリ 伊豆諸島 １２０ミリ ・２１日６時まで２４時間予想降水量 伊豆諸島 ２００ミリ 関東地方南部 ２００ミリ ［風の予想］ 小笠原諸島では１９日夕方にかけて、伊豆諸島では２０日から２１日頃にかけて、非常に強い風が吹くでしょう。台風の進路や発達の程度によっては、暴風となる可能性があります。 １８日に予想される最大風速（最大瞬間風速） 関東地方の海上 １５メートル（２５メートル） 伊豆諸島 １７メートル（３０メートル） 小笠原諸島 ２３メートル（３５メートル） １９日に予想される最大風速（最大瞬間風速） 伊豆諸島 １５メートル（２５メートル） 小笠原諸島 ２３メートル（３５メートル） ２０日に予想される最大風速（最大瞬間風速） 関東地方の海上 １７メートル（３０メートル） 伊豆諸島 ２５メートル（３５メートル） 小笠原諸島 １７メートル（３０メートル） 小笠原諸島では、１８日昼前から２０日にかけてうねりを伴った高波に警戒し、１９日にかけて強風や土砂災害、低い土地の浸水、河川の増水に注意・警戒してください。 伊豆諸島では、２０日から２１日頃にかけてうねりを伴った高波に警戒し、強風や土砂災害、低い土地の浸水、河川の増水に注意・警戒してください。 関東地方と甲信地方では、２０日から２１日頃にかけて土砂災害や低い土地の浸水、河川の増水、強風やうねりを伴った高波に注意・警戒してください。 また、落雷や突風にも注意してください。 ■台風予報情報 9月18日 午前6時45分気象庁 【9月18日 18時】 中心位置 ：父島の南 約200km 移 動 ：西へ30km/h 中心気圧 ：980hPa 最大風速 ：25m/s 最大瞬間風速：35m/s 暴風警戒域 ：なし 【9月19日 06時】 中心位置 ：父島の南西 約190km 移 動 ：西北西へ15km/h 中心気圧 ：980hPa 最大風速 ：25m/s 最大瞬間風速：35m/s 暴風警戒域 ：なし 【9月20日 03時】 中心位置 ：鳥島の南西 約240km 移 動 ：北北西へ20km/h 中心気圧 ：980hPa 最大風速 ：25m/s 最大瞬間風速：35m/s 暴風警戒域 ：なし 【9月21日 03時】 中心位置 ：伊豆諸島近海 移 動 ：北へ20km/h 中心気圧 ：980hPa 最大風速 ：25m/s 最大瞬間風速：35m/s 暴風警戒域 ：なし 【9月22日 03時】 中心位置 ：日本の東 移 動 ：北東へ45km/h 中心気圧 ：980hPa 最大風速 ：25m/s 最大瞬間風速：35m/s 暴風警戒域 ：なし 【9月23日 03時】 中心位置 ：千島の東 移 動 ：北東へ55km/h 中心気圧 ：980hPa 最大風速 ：25m/s 最大瞬間風速：35m/s 暴風警戒域 ：なし","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954580?utm_source=lootura.com","publishedAt":"2026-09-17T22:12:24.000Z"},{"title":"ドクターイエロー、7号車を江田島で保存展示 27年9月から","summary":"JR西日本は、2027年1月に検測運転を終了して引退する「ドクターイエロー」T5編成について、先頭車にあたる7号車を保存展示すると発表した。展示開始は2027年9月を予定する。","source":"インプレス","author":"清宮信志","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141800.html?utm_source=lootura.com","publishedAt":"2026-09-17T22:40:05.160Z"},{"title":"【台風情報】21日(月・祝)に関東最接近へ シルバーウィーク交通に影響おそれ…最大瞬間風速35 m/s・中心気圧980 hPa 台風25号接近前から大雨に注意","summary":"大型の台風25号（ドゥージェン）は、小笠原近海で一時的に勢力を強め、現在「暴風域」を伴いながら北西へ進んでいます。その後はやや勢力を落とし、シルバーウィーク後半の21日（月・祝）にかけて、伊豆諸島近海から東日本の太平洋側へ接近する見込みです。 台風25号の現在地は？発達し暴風域が発生 ▶ 雨風シミュレーションを見る...21日(月・祝)最接近へ 気象庁の最新の観測によると、台風25号は中心付近の最大風速が30m/sに発達し、新たに暴風域を伴っています。現在、小笠原近海を時速40キロで北西へ進んでいます。 18日（金）午前3時現在の実況 存在地域：小笠原近海 中心気圧：980hPa 中心付近の最大風速：30m/s（最大瞬間風速40m/s） 進行方向・速さ：北西へ 40km/h 最接近はいつ？今後の進路予想 台風はこのあと小笠原諸島周辺を通過し、20日（日）ごろから進路を北寄りに変える見込みです。21日（月・祝）には伊豆諸島近海へ進み、関東など東日本に最も接近する予想となっています。その後は日本の東を北東へ進み、23日（水）には千島の東で温帯低気圧に変わる見通しです。 20日（日）午前3時予想： 中心気圧980hPa、最大風速25m/s（鳥島の南西約240km） 21日（月・祝）午前3時予想： 中心気圧980hPa、最大風速25m/s（伊豆諸島近海）※最接近へ 22日（火・休）午前3時予想： 中心気圧980hPa、最大風速25m/s（日本の東） ▶ 雨風シミュレーションを見る...20日(日)から雨風強まるか、21日(月・祝)最接近へ シルバーウィーク後半の天気に警戒を 20日（日）から21日（月・祝）にかけて、台風の接近に伴い伊豆諸島や関東など東日本の太平洋側を中心に風雨が強まるおそれがあります。また、沿岸部ではうねりを伴い波が高くなるため、海のレジャーは控えるなど注意が必要です。 連休後半にUターンや外出を予定されている方は、こまめに最新の気象情報や交通機関の運行状況を確認してください。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954579?utm_source=lootura.com","publishedAt":"2026-09-17T22:11:43.000Z"},{"title":"iPhoneのシェア、半年で3ポイント以上下落","summary":"MMDLaboは、MMD研究所がまとめているスマートフォンOSシェア調査について、2026年8月の調査結果を発表した。調査期間は2026年8月1日～6日で、対象は18～79歳の男女40,000人。","source":"インプレス","author":"太田 亮三","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141787.html?utm_source=lootura.com","publishedAt":"2026-09-17T22:40:05.160Z"},{"title":"西日本中心に雨の範囲広がる 九州を中心に激しい雨 台風25号は小笠原諸島接近へ 関東も日曜日から大荒れに","summary":"きょうは秋雨前線の影響で、西から雨の範囲が広がるでしょう。九州では激しく降る所もありそうです。台風25号の影響で、小笠原諸島はうねりを伴った高波に警戒が必要です。関東や伊豆諸島も日曜日から雨や風が強まりそうです。 【九州では激しい雨の所も】 秋雨前線が九州から本州の南に停滞し、前線に近い九州を中心に大気の状態が不安定となりそうです。九州や四国は朝から雨が降りやすく、九州南部を中心に激しく降る所もあるでしょう。昼ごろには中国地方にも雨雲が広がり、夕方以降は近畿でも雨の降り出す所がある見込みです。北陸や東海は晴れ間の出る所もありますが、東日本も雲が広がりやすく、夕方以降はにわか雨の所がありそうです。東北の太平洋側も、ところどころで雨が降るでしょう。東北の日本海側や北海道は晴れる所が多い予想です。 【関東などは秋風涼しく】 日中の気温は東海、北陸から九州にかけて30℃前後となるでしょう。関東や北日本はきのうより低く、東京で24℃、仙台で22℃と、平年を下回りそうです。札幌は26℃で、カラッとした陽気になるでしょう。 きょうの各地の予想最高気温です。 札幌 ：26℃ 釧路：22℃ 青森 ：24℃ 盛岡：23℃ 仙台 ：22℃ 新潟：29℃ 長野 ：29℃ 金沢：31℃ 名古屋：30℃ 東京：24℃ 大阪 ：30℃ 岡山：29℃ 広島 ：28℃ 松江：27℃ 高知 ：29℃ 福岡：27℃ 鹿児島：30℃ 那覇：32℃ 【台風25号 交通機関への影響に注意】 大型の台風25号は、あすにかけて小笠原諸島に接近する見込みです。小笠原諸島ではうねりを伴った高波や、強風、大雨による土砂災害に警戒が必要です。台風はさらに北上し、日曜日から月曜日にかけて伊豆諸島や関東に接近する見通しです。日曜日は、伊豆諸島や関東に台風の北側に広がる活発な雨雲がかかるでしょう。関東は日曜日の夜から雨や風のピークとなり、月曜日の朝にかけて台風の接近に伴って大荒れとなりそうです。交通機関への影響にも注意が必要です。月曜日は東北の太平洋側でも雨や風が強まるでしょう。雨風の強まる場所やタイミングは変わる可能性があるため、最新の情報をご確認ください。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954578?utm_source=lootura.com","publishedAt":"2026-09-17T21:56:27.000Z"},{"title":"メルカリ、写真撮影だけで相場確認できる「持ち物査定」","summary":"メルカリは17日、フリマアプリ「メルカリ」で、写真から商品の相場価格の目安を確認できる「持ち物査定」を提供開始した。アプリの利用者を対象に段階的に提供する。","source":"インプレス","author":"佐々木 翼","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141779.html?utm_source=lootura.com","publishedAt":"2026-09-17T22:40:05.160Z"},{"title":"【台風情報】台風25号「関東で警報級の大雨おそれ」 気象庁進路予想 シルバーウィークの連休を直撃【全国週間天気予報】","summary":"大型の台風25号は、18日から19日にかけて小笠原諸島へ接近する見込みです。その後も勢力を保ったまま北上し、20日には伊豆諸島に接近し、20日から21日にかけて関東地方など東日本の太平洋側に接近するおそれがあります。 台風の接近に伴い、小笠原諸島と伊豆諸島では雷を伴って大雨となる所があるでしょう。また、２０日から２１日頃にかけては、関東地方を中心に大雨となる所がある見込みです。 大型台風25号が北上 20日以降は東日本太平洋側へ接近も 大型の台風25号は、18日午前3時には小笠原近海にあって、1時間に約40キロの速さで北西へ進んでいます。中心の気圧は980ヘクトパスカル、最大瞬間風速は40メートルです。 ▼【 画像で見る】全国週間天気予報25日（金） まで 台風は18日から19日にかけて小笠原諸島に接近し、その後も勢力を維持したまま北上して20日には伊豆諸島へ接近する見込みです。21日にかけては進路を東寄りに変えながら、関東など東日本の太平洋側に接近する可能性があります。 小笠原や伊豆諸島は大しけ 最大瞬間風速35mの強い風に警戒 台風の接近に伴い、小笠原諸島と伊豆諸島ではうねりを伴った大しけとなる見込みです。予想される波の高さは、小笠原諸島で18日・19日ともに7メートル、伊豆諸島で20日に7メートルとなっています。 ▼【 画像で見る】全国週間天気予報25日（金） まで また、風も強まり、小笠原諸島では18日と19日にかけて、伊豆諸島では20日にかけて、最大瞬間風速35メートルの非常強い風が予想されています。暴風や高波に警戒が必要です。 20日〜21日は関東など本州でも「警報級の大雨」のおそれ 台風周辺の暖かく湿った空気の影響で、小笠原諸島や伊豆諸島では雷を伴った激しい雨が降る見込みです。また、20日から21日頃にかけては本州の太平洋側にも影響が及び、関東地方を中心に大雨となるおそれがあります。 24時間降水量は、20日朝までに▼伊豆諸島で120ミリ、▼小笠原諸島で100ミリ、▼関東地方で80ミリが予想されています。 さらに21日朝にかけては▼関東地方で200ミリ、▼伊豆諸島で200ミリの大雨が予想されています。 土砂災害や低い土地の浸水、河川の増水に注意・警戒してください。大雨で冠水、浸水した道路を通るのは危険です。また、大雨が降ってからの避難はかえって危険な場合があります。周囲の状況を注意し、早め早めの避難を心がけてください。 週間天気予報（25日・金まで） 画像で掲載している25日（金）までの全国週間天気予報 では、シルバーウィークの連休前半、20日から21日ごろにかけて東京、千葉、埼玉では一部で雷雨や強風が予想されています。そのほかの地域でも、前半は雨マークがついているところがあります。 気象庁から発表される最新の台風情報、気象情報や、自治体から発表される防災情報に注意してください。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954569?utm_source=lootura.com","publishedAt":"2026-09-17T21:49:28.000Z"},{"title":"経産省、循環型消費を促す「CEアクションWeek」 メルカリなど10社","summary":"経済産業省は、10月1日～7日に「サーキュラーエコノミー(CE)アクションWeek」を開催する。生活者に「買う・使う・分ける・まわす」の4つの循環型消費行動を呼びかけ、賛同企業10社とキャンペーンや体験企画を展開する。","source":"インプレス","author":"佐々木 翼","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141924.html?utm_source=lootura.com","publishedAt":"2026-09-17T22:40:05.160Z"},{"title":"世界最大級のゲームの展示会「東京ゲームショウ」開幕 異業種も次々参入 出展者も過去最多に","summary":"世界最大級のゲームの展示会「東京ゲームショウ」が開幕しました。巨大な市場を狙い、異業種の参入も相次いでいます。 今年、初開催から30周年を迎えた東京ゲームショウ。出展者の数は過去最多にのぼり、人気ゲームの最新作などが披露されました。 国内だけで5600万人ものユーザーを抱える巨大市場を狙い、異業種も次々参入。 ハローキティでお馴染みの『サンリオ』は、長年培った人気キャラクターのIP＝知的財産をいかし、新たな層の開拓を狙います。 半導体大手のキオクシアは、初出展し、半導体技術をアピールします。 世界のゲーム市場の規模はいまや32兆円。日本政府はゲームを主要な「成長分野」と位置づけていて、海外の売り上げ20兆円に向けた取り組みを加速するとしています。 東京ゲームショウは、19日（土曜日）から一般公開です。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954470?utm_source=lootura.com","publishedAt":"2026-09-17T15:58:06.000Z"},{"title":"ソフトバンク、HAPSで「3次元ネットワーク」へ スマホ直接通信で下り36Mbps","summary":"ソフトバンクは、8月に実施した成層圏通信プラットフォーム「HAPS(High Altitude Platform Station)」の飛行・通信試験に関する説明会を開催した。試験は日本上空で行なわれ、スマートフォン向け通信やドローン通信、エッジコンピューティングなどを検証。2027年からHAPSの商用運用開始を目指す。","source":"インプレス","author":"清宮信志","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141933.html?utm_source=lootura.com","publishedAt":"2026-09-17T22:40:05.160Z"},{"title":"江別の共同住宅でごみ箱が焼ける 不審火として警察が捜査","summary":"18日午後、江別の共同住宅で廊下に置かれていたプラスチック製のごみ箱が焼けました。 警察は不審火とみて調べています。 18日午後4時ごろ、江別市文京台東町の共同住宅で「1階のゴミ箱近くのものが燃えている」と目撃した人から消防に通報がありました。 消防が駆けつけ、火は、すぐに消し止め止められましたが、この火事で高さ1メートルほどのプラスチック製のごみ箱が焼けました。 けが人はいませんでした。 現場に火の気がないことから、警察は不審火とみて火が出た原因を調べています。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954461?utm_source=lootura.com","publishedAt":"2026-09-17T15:41:39.000Z"},{"title":"自閉症の人には「他の自閉症の人の気持ちが分かる」という強みがあるかもしれない","summary":"自閉症の人は他人の気持ちを理解するのが苦手だと考えられがちですが、従来の研究では主に自閉症ではない人の感情を読み取る力が調べられてきました。イスラエルのヘブライ大学やイギリスのケンブリッジ大学などの研究チームは、自閉症の人の感情も読み取る対象に加え、自閉症の人と自閉症ではない人とで読み取りの正確さを比較しました。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260918-autism-emotion-reading/?utm_source=lootura.com","publishedAt":"2026-09-17T22:00:00.000Z"},{"title":"新千歳空港で飛行機の事故を想定した大規模訓練","summary":"新千歳空港で飛行機の事故を想定した訓練が行われ、警察や消防などが連携を確認しました。 訓練は、飛行機がオーバーランして停止し、火災が発生した想定で行われました。 2年に1度の大規模訓練で警察や消防、医療機関など、およそ100の団体から280人が参加。 実際に飛行機やヘリコプターを使い、消火や病院への搬送の手順を確認しました。 新千歳空港を運営する北海道エアポートは利用者が安心して過ごせる空港を目指したいとしています。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954464?utm_source=lootura.com","publishedAt":"2026-09-17T15:40:43.000Z"},{"title":"CUDA対応のWindowsアプリをAMD製GPU上で実行できる「CUDA for AMD on Windows」","summary":"「CUDA for AMD on Windows」は名前の通り、AMD製GPU上でCUDA対応のWindowsアプリケーションを実行することを目的としたプロジェクトです。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260918-cuda-for-amd-windows/?utm_source=lootura.com","publishedAt":"2026-09-17T21:00:00.000Z"},{"title":"道路を横断していた64歳男性 軽乗用車にはねられ重体","summary":"17日夜、福岡県飯塚市の国道で道路を横断していた64歳の男性が軽乗用車にはねられ、意識不明の重体となっています。 17日午後7時ごろ、飯塚市伊川の国道で道路を横断していた石川武さん（64）が軽乗用車にはねられました。 近くにいた人が消防に通報し、石川さんは駆けつけた救急隊によって病院に運ばれましたが、意識不明の重体となっています。 軽乗用車を運転していた60代の男性にけがはありませんでした。 現場は見通しのいい片側1車線の直線道路で、警察は軽乗用車を運転していた男性から話を聞くなどして事故の原因を詳しく調べています。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954469?utm_source=lootura.com","publishedAt":"2026-09-17T15:36:03.000Z"},{"title":"デジタル相に古川俊治氏 AI戦略やサイバー安保も担当 外科医で弁護士、MBAも取得","summary":"木原稔官房長官は9月17日の記者会見で、第2次高市改造内閣の閣僚名簿を公表し、デジタル大臣に自民党の古川俊治参院議員（63）を起用すると明らかにした。古川氏は初入閣で、AI・デジタル改革推進やサイバー安全保障、人工知能戦略なども担当する。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001594/?utm_source=lootura.com","publishedAt":"2026-09-17T10:36:13.000Z"},{"title":"GM、ロッキードにパトリオットミサイル部品を初納入－提携から22日で","summary":"（ブルームバーグ）： ゼネラル・モーターズ（GM）は、ロッキード・マーチンに地対空ミサイル「パトリオット」の部品を初めて納入した。両社の提携からわずか22日での納入となった。GMは米国の弾薬在庫の迅速な補充に向け、防衛産業への支援を急いでいる。 GMが納入したのは、地対空誘導弾パトリオットミサイル（PAC-3）の外殻となる鋳造部品。ロッキードが17日に発表した。 トランプ米大統領は、防衛請負企業など米企業にミサイルや弾薬の増産を迫っている。ロシアとウクライナの紛争やイランとの戦争を背景に、ミサイルや弾薬の在庫が減少している。 GMとロッキードの協業は、自動車工場を兵器生産に活用する動きの第一歩となる。第2次世界大戦中、デトロイトの自動車メーカーは「民主主義の武器庫」と呼ばれた。工場では戦車や軍用トラック、爆撃機などが生産された。 今回の協業は当時よりはるかに小規模だが、ロッキードはミサイル生産を迅速化できる。他の防衛企業にも同様の動きが広がる可能性があり、世界各地の紛争で米軍を支えることにつながる。 GMにとっては、立ち上げたばかりの防衛部門を拡大する機会にもなる。同部門は主に、米陸軍が兵員輸送に使うピックアップトラックを販売している。 ロッキードは1月、パトリオットミサイルの生産を3倍に増やす契約を米国防総省と結んだ。GMとの契約では、GMが鋳造部品などを生産し、大量生産のノウハウも提供する。 事情に詳しい関係者が6月に明らかにしたところによると、GMはRTXやL3ハリス・テクノロジーズなど他の防衛大手とも同様の協業について協議している。 原題：GM Defense Delivers First Patriot Missile Parts to Lockheed（抜粋） もっと読むにはこちら bloomberg.com/jp ©2026 Bloomberg L.P.","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/withbloomberg/2954468?utm_source=lootura.com","publishedAt":"2026-09-17T15:31:06.000Z"},{"title":"渋川市議会、税滞納受け証明書任意提出へ 「出したくない」の声も | 毎日新聞","summary":"群馬県の渋川市議が県税や市税を滞納して議員報酬や賞与を差し押さえられていた問題で、市議会（定数18）は11日に議員全員協議会を開き、無処分証明書、市税などの滞納の有無の任意提出を決めた。しかし、一部の市議から「出したくない」などと異論が上がり、採決の際に8市議が退席した。","source":"毎日新聞","author":"","category":"general","url":"https://mainichi.jp/articles/20260917/k00/00m/310/063000c?utm_source=lootura.com","publishedAt":"2026-09-17T02:45:09.000Z"},{"title":"ドローン攻撃を受けたAWS中東データセンター、半年の復旧作業の末に「一部データは回復不能」","summary":"米Amazon Web Services（AWS）は9月15日（太平洋夏時間）、3月の軍事衝突に伴うドローン攻撃で被害を受けた中東のデータセンターについて、バーレーンリージョンとアラブ首長国連邦（UAE）リージョンの一部に保存されていたデータやリソースへのアクセスを復旧できないと発表した。両リージョンでは物理的な被害が発生し、AWSが約半年にわたり復旧作業を進めていた。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001590/?utm_source=lootura.com","publishedAt":"2026-09-17T08:53:31.000Z"},{"title":"【台風情報】大型の台風25号（ドゥージェン）シルバーウイークはどうなる？ 最新の風雨予想は","summary":"気象庁が、17日午後9時45分に発表した台風情報によりますと、大型の台風25号（ドゥージェン）は、南鳥島近海にあり、中心気圧は985hPa、中心付近の最大風速は25ｍ/ｓとなっています。 【雨風シミュレーションをみる（18日（金）～22日（火）】 台風25号（ドゥージェン）の詳細は 台風25号（ドゥージェン） 2026年09月17日午後9時45分発表 9月17日午後9時の実況 種別 台風 大きさ 大型 強さ - 存在地域 南鳥島近海 中心位置 北緯23度25分 (23.4度) 東経148度40分 (148.7度) 進行方向、速さ 北北西 40 km/h (21 kt) 中心気圧 985 hPa 中心付近の最大風速 25 m/s (50 kt) 最大瞬間風速 35 m/s (70 kt) 15m/s以上の強風域 北側 950 km (500 NM) 南側 440 km (240 NM) 9月18日午前9時の予報 種別 台風 強さ - 存在地域 父島の南東約290km 予報円の中心 北緯25度25分 (25.4度) 東経144度25分 (144.4度) 進行方向、速さ 西北西 40 km/h (22 kt) 中心気圧 980 hPa 中心付近の最大風速 30 m/s (55 kt) 最大瞬間風速 40 m/s (80 kt) 予報円の半径 75 km (40 NM) 暴風警戒域 北東側 185 km (100 NM) 南西側 130 km (70 NM) 9月18日午後9時の予報 種別 台風 強さ - 存在地域 父島の南約160km 予報円の中心 北緯25度40分 (25.7度) 東経141度50分 (141.8度) 進行方向、速さ 西 20 km/h (12 kt) 中心気圧 980 hPa 中心付近の最大風速 25 m/s (50 kt) 最大瞬間風速 35 m/s (70 kt) 予報円の半径 105 km (57 NM) 9月19日午後9時の予報 種別 台風 強さ - 存在地域 鳥島の南南西約290km 予報円の中心 北緯28度10分 (28.2度) 東経138度55分 (138.9度) 進行方向、速さ 北西 15 km/h (9 kt) 中心気圧 980 hPa 中心付近の最大風速 25 m/s (50 kt) 最大瞬間風速 35 m/s (70 kt) 予報円の半径 185 km (100 NM) 9月20日午後9時の予報 種別 台風 強さ - 存在地域 伊豆諸島近海 予報円の中心 北緯32度40分 (32.7度) 東経139度10分 (139.2度) 進行方向、速さ 北 20 km/h (11 kt) 中心気圧 980 hPa 中心付近の最大風速 25 m/s (50 kt) 最大瞬間風速 35 m/s (70 kt) 予報円の半径 260 km (140 NM) 9月21日午後9時の予報 種別 台風 強さ - 存在地域 日本の東 予報円の中心 北緯39度00分 (39.0度) 東経146度35分 (146.6度) 進行方向、速さ 北東 40 km/h (22 kt) 中心気圧 980 hPa 中心付近の最大風速 25 m/s (50 kt) 最大瞬間風速 35 m/s (70 kt) 予報円の半径 370 km (200 NM) 9月22日午後9時の予報 種別 温帯低気圧 強さ - 存在地域 千島の東 予報円の中心 北緯46度00分 (46.0度) 東経160度35分 (160.6度) 進行方向、速さ 北東 55 km/h (31 kt) 中心気圧 980 hPa 最大風速 25 m/s (50 kt) 最大瞬間風速 35 m/s (70 kt) 予報円の半径 460 km (250 NM) 【雨風シミュレーションをみる（18日（金）～22日（火）】 ※この記事に掲載している雨風シミュレーションは、気象庁のGSMモデルの計算結果を出力したものです。台風の進路予想を算出しているモデルとは異なることや、日付が先になるにつれ誤差が大きくなること、あくまでも予想の一例であることに留意してください。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954454?utm_source=lootura.com","publishedAt":"2026-09-17T15:28:25.000Z"},{"title":"福岡県が第三者委を設置 パー券購入、高額海外活動問題を調査へ | 毎日新聞","summary":"福岡県は17日、県の幹部職員でつくる互助組織「部課長会」の会費の一部が、県議会の正副議長の就任パーティー券の購入補助に充てられていた問題と、高額と批判される海外活動の妥当性などを調査する二つの第三者委員会を設置したと発表した。設置費用の見込み額は計約1億1000万円。","source":"毎日新聞","author":"","category":"general","url":"https://mainichi.jp/articles/20260917/k00/00m/010/071000c?utm_source=lootura.com","publishedAt":"2026-09-17T02:32:19.000Z"},{"title":"「POPOPO」サービス終了 開始から約半年","summary":"川上量生氏が全額出資するPOPOPOは9月17日、コミュニケーションサービス「POPOPO」の提供を終了した。3月のサービス開始から約半年での終了となる。","source":"アイティメディア","author":"[ITmedia]","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001591/?utm_source=lootura.com","publishedAt":"2026-09-17T08:46:33.000Z"},{"title":"“詐欺拠点”家賃は月420万円 タイで日本人4人含む計14人を拘束 日本語の“詐欺マニュアル”や偽の警察官制服を押収","summary":"タイの警察は16日、首都バンコクで特殊詐欺の拠点とみられる高級住宅を家宅捜索し、日本人4人を含む14人を拘束しました。 拘束された日本人 「（Q.日本人か）……。（Q.詐欺に関与したか）……」 警察は、日本語で書かれた詐欺のマニュアルとみられる文書や、偽の警察官の制服などを押収しました。 タイ当局は、中国人らがグループを主導し、日本人4人は「かけ子」として日本を標的とした特殊詐欺に関与していた疑いがあるとみて捜査しています。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954462?utm_source=lootura.com","publishedAt":"2026-09-17T15:17:59.000Z"},{"title":"「ファイナルファンタジーXIV」、手作り・無償に限り二次創作グッズを解禁 AI生成物や3Dプリンタの使用は不可","summary":"スクウェア・エニックスは9月16日、オンラインゲーム「ファイナルファンタジーXIV」（FF14）の著作物利用条件を改定し、二次創作グッズなど「有体物」の制作を一定の条件で認めると発表した。これまでは、法律で認められた範囲を超える有体物の制作を許可していなかったが、条件付きで規制を緩和する。一方、AIで生成した二次創作を使ったグッズや、3Dプリンタを用いた制作は禁止する。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001583/?utm_source=lootura.com","publishedAt":"2026-09-17T06:19:15.000Z"},{"title":"木原官房長官 沖縄基地負担軽減めぐり「目に見える形で実現できるよう全力を尽くしていきたい」","summary":"沖縄基地負担軽減担当大臣を兼務する木原官房長官は、「負担軽減を目に見える形で実現できるよう、新知事からの意見も伺いながら関係大臣と協力して全力を尽くしていきたい」と強調しました。 木原官房長官はきょう（17日）おこなわれた内閣改造で、改めて沖縄基地負担軽減担当大臣に任命されました。 木原稔 官房長官 「負担軽減において重要なことは、一つ一つを着実に結果を出していくことであります。引き続き、沖縄の基地負担軽減を目に見える形で実現できるよう、新しくなる知事からのご意見も伺いながらですね、関係大臣と協力して全力を尽くしていきたいと考えております」 第2次高市改造内閣発足後初めての会見で、木原長官は「沖縄県には戦後80年以上を経た今もなお、多くの米軍施設あるいは区域が集中しており、沖縄の皆様には大きな基地負担を担っていただいている。その事実を重く受け止めている」と強調しました。 そのうえで、「職務を全うするためには、沖縄の方々のお気持ちに沿って取り組みを進めていくことが重要」との考えを示しました。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954458?utm_source=lootura.com","publishedAt":"2026-09-17T15:08:23.000Z"},{"title":"カクテルをテキパキ作るロボットAIが話題 人間の動きだけで学習、早送りなしの映像に「過去最速では」の声","summary":"人間の動作だけから学習したというロボットAIの映像が、Xで注目を集めている。開発した米Reward AIは「人間レベルに近い器用さと効率」をうたい、映像はいずれも早送りなしの1倍速だと説明。Xでは「これが1倍速？」「これまでで最速のロボット操作モデル」と、その動作速度や滑らかさに驚く声が上がっている。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001581/?utm_source=lootura.com","publishedAt":"2026-09-17T06:15:36.000Z"},{"title":"男子生徒がクマスプレー噴射し現行犯逮捕 傷害の疑い 生徒11人が病院搬送 岩手・北上市","summary":"中学校で男子生徒がクマスプレーを噴射。その場にいた生徒11人が病院に搬送されました。 17日午後1時半ごろ、岩手県北上市の市立江釣子中学校の校庭で、男子生徒がクマスプレーを噴射しました。生徒11人が病院に運ばれ、警察は男子生徒を傷害の疑いで現行犯逮捕しました。 市の教育委員会によりますと、スプレーは前日に副校長が敷地内にクマがいないか巡回した際に置き忘れたものだったということです。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954459?utm_source=lootura.com","publishedAt":"2026-09-17T15:05:58.000Z"},{"title":"SBIがライブドアを買収か 親会社のミンカブ「概ね報道の通り」","summary":"SBIホールディングスがライブドアを買収するという一部報道に対し、ライブドアの親会社であるミンカブ・ジ・インフォノイドは「概ね報道のとおり」と認めた。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001582/?utm_source=lootura.com","publishedAt":"2026-09-17T05:54:41.000Z"},{"title":"「葛藤・不安・怒りが混ざった気持ち」拒絶されたため危害を… 水戸ネイリスト殺害事件 被告人質問で交際解消から事件までの心情語る","summary":"去年の大晦日に水戸市で、元交際相手の小松本遥さんを殺害した罪などに問われている大内拓実被告（29）。きょう行われた被告人質問で、交際解消から事件が起きるまでの心情について語りました。 大内被告 「やり直せればという気持ちがあった」 また、事件のおよそ1年前、別れを切り出されたときのことについては… 大内被告 「納得はしていなかった」 別れた後、大内被告は“会話する”目的で小松本さんに連絡を取っていたといいますが、拒絶されたため危害を加えることを決めたといいます。 大内被告 「葛藤と不安と怒りが混ざったような気持ち。被害者の存在を消して出会う前に戻って、リセットしようと思った」 そして、事件当日、小松本さんをハンマーで殴り、包丁で刺したといいます。 次回の裁判は来週24日に開かれる予定です。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954457?utm_source=lootura.com","publishedAt":"2026-09-17T15:00:05.000Z"},{"title":"「NTT」名乗る電話、転送先は“警察”――巧妙化するニセ警察詐欺、約4割が「本物だと思った」","summary":"トビラシステムズ（愛知県名古屋市）は9月15日、「ニセ警察詐欺」に関する調査結果と実際の通話音声を公開した。被害者の9割超が手口を認識していたにもかかわらず、実際には警戒心が揺らいでいた。公開音声では、「NTTカスタマーセンター」を名乗る人物が携帯電話の不正契約を告げ、警察官を名乗る人物へ電話を転送する手口も確認された。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/16/2000001559/?utm_source=lootura.com","publishedAt":"2026-09-17T05:20:26.000Z"},{"title":"向こう1か月 全国的に気温高め 東日本太平洋側は雨多めの状態続く見込み 気象庁が1か月予報発表【雨と風のシミュレーション】","summary":"向こう1か月、日本付近は暖かい空気に覆われやすく、北日本と東日本、西日本では気温が平年より高くなる見込みです。西日本と沖縄・奄美は、高気圧に覆われやすいため、雨が少なく晴れる日が多くなりそうです。 気象庁によりますと、9月19日から10月18日までの1か月間、北日本と東日本、西日本では気温が平年より高くなる見込みです。 沖縄・奄美は、平年並みか高くなるでしょう。 一方、東日本の太平洋側を中心に、9月上旬から日照時間が少なく、雨の多い状態が続いています。 期間のはじめは、秋雨前線や湿った空気の影響を受けやすいため、雨が多く日照時間の少ない天気が続く見込みです。 このため、東日本太平洋側の1か月の降水量は、平年並みか多くなりそうです。 西日本と沖縄・奄美は、大陸から張り出す高気圧に覆われやすいため、1か月の降水量は少なく、日照時間は多くなる見込みです。 気温は全国的高い見込み 天気の変化を見ますと、北日本と東日本は数日の周期で変わるでしょう。 西日本と沖縄・奄美も数日の周期で変わりますが、平年に比べて晴れる日が多くなりそうです。 9月19日から25日は、北日本と東日本の太平洋側で秋雨前線や湿った空気の影響を受けやすく、平年に比べ晴れる日が少なくなる見込みです。 西日本と沖縄・奄美は高気圧に覆われ、晴れる日が多くなるでしょう。 この期間の気温は全国的に高くなる見込みです。 続く9月26日から10月2日は、北日本と東日本、それに西日本の日本海側で天気が数日の周期で変わり、西日本太平洋側と沖縄・奄美は平年と同様に晴れる日が多くなる見込みです。 気温は引き続き、全国的に高くなりそうです。 10月3日から16日にかけては、北日本と東日本で天気が数日の周期で変わる一方、西日本と沖縄・奄美は高気圧の影響で、平年に比べ晴れる日が多くなりそうです。 気温は北日本と東日本、西日本で高くなる見込みで、沖縄・奄美はほぼ平年並みとなりそうです。 直近1週間は日照時間が平年下回る なお、最近1週間、9月10日から16日の天候です。北日本を移動性高気圧が通過し、北海道地方は晴れの日が多く、雨は平年より少なく、日照時間は平年を上回りました。 一方、本州の南岸に停滞していた秋雨前線が14日に日本海側まで北上したため、東北地方から西日本にかけて曇りや雨の日が多くなり、日照時間は平年を下回りました。 九州を除いて、雨の量は平年を上回ったところが多くなっています。 沖縄・奄美では、湿った空気の影響で大雨となったところもありましたが、全体としては高気圧に覆われやすく、日照時間は平年を上回り、雨は平年より少なくなりました。 気温は、秋雨前線や暖かい空気が流れ込んだ影響で、平年を上回った所が多くなりましたが、東北地方と東日本の太平洋側では、天気がぐずついたことや冷涼な東寄りの風の影響で、平年を下回りました。 18日（金）雨と風のシミュレーション 19日（土）雨と風のシミュレーション 20日（日）雨と風のシミュレーション 21日（祝・月）雨と風のシミュレーション","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954396?utm_source=lootura.com","publishedAt":"2026-09-17T14:04:42.000Z"},{"title":"アットコスメ、ユーザー1万人超のメアド漏えいの可能性 ファイル転送サービスの設定ミスで","summary":"従業員が、個人情報を含むファイルを外部のファイル転送サービスで受け渡した際、公開設定に不備があり、約20分間にわたり、ダウンロード用URLを知っていれば誰でもアクセスできる状態になっていたという。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001572/?utm_source=lootura.com","publishedAt":"2026-09-17T05:06:26.000Z"},{"title":"【 堀ちえみ 】〝腹筋貯金〟腰が痛まないうちに 足腰の動きは〝腹筋で支える〟 検診巡りで決意新た「ファイティン！諦めてはいけないな」","summary":"17日、歌手の堀ちえみさんが自身のブログで「うん、順調、このままでいたい」と題し、検診の様子を投稿しました。 堀ちえみさん 自身のブログ投稿より 堀さんは「午前中は口腔外科の検診」「術後の口の開け具合も、毎日のリハビリで元に戻ってきた」とのこと。そして「術後の何ヶ月かは開けられなかった」「口を普通に開けることが、こんなにも難しいことなんて」と振り返り、現在は「MAX約4.3センチ開口」と明かしています。 堀ちえみさん 自身のブログ投稿より 続いて整形外科も受診。腰の痛みに悩まされてきた堀さんは「お薬はグンと減り、一錠に」と手応えを感じつつも「滑り症や狭窄症が決して治った訳ではない」「だから、痛みはいつ急に出てもおかしくない」と自戒。 堀ちえみさん 自身のブログ投稿より そして「痛まない今のうちに、えっさえっさと腹筋をつけて、腹筋貯金をお腹に」「インナーマッスルを鍛える」「足腰の動きはお腹の筋肉で支えながら行う」と、腰痛防止のために自分に課している運動を明かしました。 堀さんは「ファイティン！諦めてはいけないな、何ごとも」と決意を新たにしています。 【担当：芸能情報ステーション】","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2954304?utm_source=lootura.com","publishedAt":"2026-09-17T11:29:38.000Z"},{"title":"旅客機並みの巨大通信衛星「スターリンクV3」がもたらすもの","summary":"米国時間の16日、イーロン・マスク氏はXに「スターリンクV3衛星群の展開が今月から開始されます」とポストしました。これは宇宙を舞台とする通信事業が新たなフェーズに入ることを意味します。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001579/?utm_source=lootura.com","publishedAt":"2026-09-17T05:02:14.000Z"},{"title":"「ショッカー男の強盗未遂事件」指示役で主犯格と見られる男2人を逮捕 新潟","summary":"『闇バイト』に応募した男が2024年に新潟市中央区の買い取り専門店で起こした強盗未遂事件で、警察は、指示役とみられる男2人を逮捕しました。 強盗未遂の疑いで逮捕されたのは宇都宮市の解体業 熊倉淳士 容疑者 34歳と埼玉県鶴ヶ島市の会社員 林泰雅 容疑者 28歳です。 この事件は2024年6月、新潟市中央区の買い取り専門店で「ショッカー」のような衣装を着た男が店長を刃物で脅し、現金を奪おうとしたものです。 実行役の男は、生活費などの工面に困り「闇バイト」に応募して犯行に及んでいたことが明らかになっていました。 その後の捜査で、熊倉 容疑者らが男に指示を出していた疑いが強まり、17日までに逮捕しました。警察は主犯格と」見ています。 警察は、捜査に支障があるとして2人の認否を明らかにしていません。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2953173?utm_source=lootura.com","publishedAt":"2026-09-17T09:11:52.000Z"},{"title":"AIコーディングエージェントにとってハーネスはどれほど重要なのか？","summary":"AIコーディングエージェントは同じAIモデルを使っていても、モデルを動かすハーネスによって費用や性能が変わる可能性があります。カリフォルニア大学バークレー校とAIランキングサイト「Arena」の共同研究チームは、7つのモデルと3つのハーネスを組み合わせた21通りを2種類のベンチマークで比較しました。その結果、タスクの成功率は大きく変わらない一方、費用には最大5倍の差が生じ、モデル本来の提供元とは異なるハーネスが最適な場合もあることがわかりました。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-harnesstax-ai-coding-agents/?utm_source=lootura.com","publishedAt":"2026-09-17T14:00:00.000Z"},{"title":"新潟市長選に経営コンサル男性出馬へ 現職・中原氏は出馬の意向 共産党も候補者擁立の予定 立候補予定者説明会に3陣営 10月25日投開票","summary":"10月に投開票が行われる新潟市長選に、経営コンサルタント会社を経営する男性が立候補する意向を固めました。 9月17日に開催された立候補予定者説明会には、男性を含む3陣営が出席しています。 新潟市役所で開かれた市長選の立候補予定者説明会。 姿を現したのは、新潟市中央区の早武 淳さん・60歳です。 【早武 淳氏】 「いろいろな人に『市長選に出てほしい』という依頼というか、声が非常に大きくなった」 「自らが市長として舵取りをするべき」 早武さんは、新潟市出身。早稲田大学を卒業後、広告代理店・電通に入社し、関連会社役員などを歴任したということです。 現在は地元の新潟市に戻り、経営コンサルタント会社を経営しています。 早武さんは、全国20の政令指定都市の都市構造や市政を比較・研究した結果、自らが市長として舵取りをするべきという考えに至ったと話しました。 【早武 淳氏】 「新潟市は決定的に欠落しているところがあります。いろいろな事業の優先順位がつけられていない。それから、いったん進めた事業についての評価基準が存在しない。この2点が大きな欠陥です」 最優先課題として、能登半島地震で問題となった液状化対策を挙げていて、今のところ政党の支援は受けず、無所属で出馬する方針です。 共産党も候補者擁立を予定 一方、立候補予定者説明会には共産党の関係者も出席しました。 共産党県委員会も候補者擁立を予定しています。 【日本共産党県委員会 町田明広常任委員】 「どんな形であれ、市長選挙には立候補する。できれば最後までその共闘で立てられるような努力をしながら、駄目な場合でも党で出すということで調整していると聞いています」 中原市長も出馬 3人の選挙戦か 9月1日には、現職の中原八一さん・67歳が3選を目指して出馬する意向を表明していて、少なくとも3人による選挙戦が予想されます。 新潟市長選は10月11日告示、25日投開票です。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2953414?utm_source=lootura.com","publishedAt":"2026-09-17T09:11:37.000Z"},{"title":"OpenAIのHugging Face攻撃事件などで調査を担当しているAI監査組織「METR」とは何なのか？","summary":"OpenAIのテストモデルによるHugging Faceへの攻撃事件では、OpenAIが対応の一環としてAI監査組織「METR(Model Evaluation and Threat Research：モデルの評価と脅威の調査)」に監査を依頼しています。また、AnthropicもAIの安全性強化のためにMETRと提携したことを発表しています。このMETRが一体どんな組織なのかについて、代表を務めるクリス・ペインター氏が自ら解説しています。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-model-evaluation-and-threat-research/?utm_source=lootura.com","publishedAt":"2026-09-17T13:45:00.000Z"},{"title":"中西祐介氏が官房副長官に就任、尾﨑正直氏も留任…高知県関係2人が官房副長官に","summary":"第2次高市改造内閣が9月17日に発足し、新たに、徳島・高知選挙区選出の中西祐介参議院議員が官房副長官に就任しました。高知2区選出の衆議院議員・尾﨑正直官房副長官も留任し、高知県関係の2人の国会議員が政府の要職を担います。 木原稔 官房長官 「新たに就任する内閣官房副長官をご紹介いたします。中西祐介副長官です。なお、尾﨑副長官、および露木副長官は留任となります」 17日に発足した第2次高市改造内閣では、尾﨑正直官房副長官が留任となったほか、新たに徳島・高知選挙区選出の中西祐介参議院議員が、官房副長官に就任しました。 中西氏は徳島県阿南市出身の47歳で、2010年の参院選で初当選し、2015年には第3次安倍改造内閣で財務大臣政務官を、2021年からの第1次・第2次岸田内閣では総務副大臣を務めています。 今回の改造内閣発足で、内閣の重要政策の企画立案・総合調整などを担う官房副長官を、高知県関係の2人の国会議員が務めることになります。 改造内閣発足を受け、高知県の濵田省司知事は 「衆参で県関係議員が官房副長官を務めることは大変心強い。新内閣には諸課題に真正面から向き合い、地方の声にも真摯に耳を傾けながら、議論を尽くして解決への道筋を示してほしい」 などとコメントしています。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2953857?utm_source=lootura.com","publishedAt":"2026-09-17T09:11:21.000Z"},{"title":"ドコモのiPhoneもRCSに対応 楽天モバイル除く大手3社でAndroidと相互メッセージ可能に","summary":"KDDI、ソフトバンクは既に対応しており、国内主要3キャリアでAndoidとiPhone間のRCS送受信が可能になった。楽天モバイルは未対応だ。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001577/?utm_source=lootura.com","publishedAt":"2026-09-17T03:22:23.000Z"},{"title":"立憲系新党「民主改革の会」が設立届け出提出 小川淳也氏が代表、階猛氏が幹事長に","summary":"中道改革連合を離党した立憲民主党出身議員からなる新党「民主改革の会」が、総務省に設立の届け出を提出しました。 民主改革の会・階猛幹事長 「目指してきた中道政治の実現という意味では変わりはありません。すなわち、分断と対立ではなくて協調、あるいは包摂、寛容の政治を目指す」 新党「民主改革の会」の設立の届け出は、きょう（17日）、東京都選挙管理委員会を通じて総務省に提出されました。 小川淳也氏が代表、階猛氏が幹事長を務めます。 階氏によりますと、小川氏、階氏のほか、重徳和彦衆院議員、長妻昭衆院議員、落合貴之衆院議員を設立のメンバーとしているということです。 階氏は、今後、立憲民主党出身議員20人全員の入党を目指す考えを示し、「中道政治の実現ということで、勢力を拡大していくということにまずは専念していきたい」と話しました。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2953860?utm_source=lootura.com","publishedAt":"2026-09-17T09:10:42.000Z"},{"title":"“ほったらかしAI動画編集”を「DaVinci Resolve」で試す これが今のベストチョイスかも","summary":"「人がしゃべっていない部分を消して」と頼むと、AIは自ら文字起こし機能を呼び出し、音声のない区間を割り出して削った――。9月8日公開の「DaVinci Resolve Studio 21.1」は外部のAIエージェントから操作可能に。無音カットからBGM選び、Vimeoへのアップロードまで任せると、先行ツールとの差が見えてきた。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/16/2000001551/?utm_source=lootura.com","publishedAt":"2026-09-17T03:00:43.000Z"},{"title":"「笑顔や夢も守れる消防士に」51人の新人消防士誕生！仲間とともに厳しい訓練に励み、入学から誰一人欠けず卒業を迎える（山形）","summary":"新人消防士たちがきょう（17日）卒業の日を迎え、およそ半年をかけ消防学校で学んだことをいかし、地域の安全安心を守る決意を新たにしていました。 山形県三川町の県消防学校では、今年4月に入学した初任科の新人消防士たちが卒業の時を迎えました。 新人消防士たちは、きょうまでおよそ半年間、仲間と共に様々な火災への対処方法や災害時の救助方法などの厳しい訓練に励んできました。 入学した51人は1人も欠けることなく、きょう卒業証書を受け取ります。 ■「地域住民からの信頼を得て...」校長から激励の言葉 式では高橋耕平校長が、卒業する新人消防士に「高い倫理観、強靭な肉体や体力、強い団結力を持ち、地域住民からの信頼を得て、消防学校での学びを生かしこれからの職務に精励して欲しい」と激励の言葉を送りました。 卒業生たちは、これまでの学校生活での思い出を振り返ると共に、これから始まる消防士としての仕事に気持ちを新たにしていました。 ■大切な暮らし、その先の笑顔や夢も守りたい 第71期初任科 総代 黒木陽菜子さん 「毎日カウントダウンをしていて、気が付いたら卒業の日を迎えていました。（辛いときは）家族や友人にいろいろ話して乗り越えた。地域の皆さんの大切な暮らしや、その先にある笑顔とか夢とか、そういったものまで守れるような消防士になりたい」 第71期初任科 副総代 加藤雅士さん 「教官から厳しい言葉もたくさんいただいたが、それは愛のあるムチだったなと思っている。みんなと訓練を頑張ったのが一番の思い出です。私は酒田市の中で配属されるので、みなさんの身体生命財産を守れるように、素敵な消防士になりたい」 51人の新人消防士は、これから県内各地の消防本部で地域の安全を守ります。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2953167?utm_source=lootura.com","publishedAt":"2026-09-17T09:10:40.000Z"},{"title":"貨物船やタンカーの推進システムとして「風力」が見直されており円筒形や硬質の帆の設置が進んでいる","summary":"かつて商業輸送や漁業のための船はほとんどが風力を利用する帆船でしたが、19～20世紀の蒸気船や化石燃料の台頭によって徐々に衰退していきました。ところが近年、環境対策や燃料費の高騰、技術の発達などの影響を受けて、かつて商業輸送の現場から消え去った風力推進が見直されていると、海事・海運関連メディアのgCaptainが報じています。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-return-sail-power-cargo-ships/?utm_source=lootura.com","publishedAt":"2026-09-17T13:00:00.000Z"},{"title":"「知事が仰せの『県民利益の最大化』が果たして正当なのか、深く強く疑念」 県の保全抗告を受け、富士急行が批判 山梨県の県有地問題","summary":"山梨県が富士急行に貸している山中湖村の県有地をめぐり、混迷が続いています。 県が東京高裁に保全抗告を申し立てたことを受け、富士急行は県の対応を改めて強く批判しました。 資料 県有地 山梨・山中湖村 山中湖村の県有地をめぐり、県は富士急行が進める別荘の増改築や転売などに「承諾料」の支払いを求めて、2024年から申請の承認を保留しています。 これに対し甲府地裁は「権利の濫用」などとして、県に申請を承認するよう命じる仮処分を決定。 県は異議を申し立てましたが、今月2日に退けられたため、16日に東京高裁に「保全抗告」を申し立てました。 富士急行の会見 17日 甲府市内 これを受け、富士急行は契約関係や運用実態を踏まえて裁判所が判断したものだとし、県の対応を「極めて遺憾」としました。 富士急行 野田博喜専務： 「長崎知事の一連の対応は異常ともいえるものであります。富士急行も山梨県民でありますが、長崎知事が仰せの『県民利益の最大化』が果たして正当なのか、深く強く疑念を感じております」 また別荘の増改築などで今年2月以降新たに38件の申請が承認されていないとしてこれらについても仮処分を申し立てているということです。 長崎幸太郎知事 なお、県は「無償での承認を続ければ契約上の承諾制度の意義が失われるおそれがある」などと主張しています。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2953852?utm_source=lootura.com","publishedAt":"2026-09-17T09:10:35.000Z"},{"title":"Salesforceで大規模障害 「夕方以降に落ちるなんて」阿鼻叫喚 PayPayのフォームにも影響【復旧】","summary":"日本でも多数の企業で影響が出ており、Xでは「夕方以降に落ちるなんて」「業務あきらめた」などの声が出ている。","source":"アイティメディア","author":"岡田有花","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/16/2000001562/?utm_source=lootura.com","publishedAt":"2026-09-17T02:51:25.000Z"},{"title":"石川・小松市の木場潟で県絶滅危惧種に指定の「ミズアオイ」可憐な青紫色の花咲き誇る","summary":"石川県・小松市の木場潟公園で県の絶滅危惧種に指定されているミズオアイが見頃を迎えています。 小松市にある木場潟公園南園地の花菖蒲園では8月下旬からミズオアイが咲き始め、可憐な青紫色の花が咲き誇っています。 ミズオアイは木場潟で生態系の保全や水質の浄化に取り組む市民グループ「木場潟再生プロジェクト」が2013年から栽培していて、2026年はおよそ250株が花を咲かせました。 17日朝は時折、風が強まりましたが、ミズアオイの花が揺れる光景は少しずつ深まりゆく秋を感じさせていました。 ミズオアイは9月末まで楽しめるということです。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2953291?utm_source=lootura.com","publishedAt":"2026-09-17T09:09:05.000Z"},{"title":"Google DeepMind、AGIの影響を議論する「DeepMind Institute」設立 「AGIに近づいている」","summary":"Google DeepMindは、AGIが社会にもたらす恩恵やリスクを分野横断で議論するプラットフォーム「DeepMind Institute」を立ち上げた。デミス・ハサビス会長らが主導し、社内外の研究者によるエッセイを公開。政策や安全性、透明性などを巡り、社会全体での建設的な議論を促す場を目指す。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001573/?utm_source=lootura.com","publishedAt":"2026-09-17T02:38:20.000Z"},{"title":"北朝鮮 金正恩総書記の妹、金与正氏がIAEA総会の指摘に「雑音に過ぎない」と非難","summary":"北朝鮮の金正恩総書記の妹・与正氏はIAEA=国際原子力機関の年次総会で北朝鮮の核開発に指摘があったことについて、「雑音に過ぎない」などと一蹴し、核保有の立場を改めて強調しました。 14日にオーストリアで始まったIAEAの年次総会では、北朝鮮に対し国連安全保障理事会の決議に違反しているとの指摘が出たほか、非核化を求める声明が出されました。 これについて、金総書記の妹・与正氏は17日、北朝鮮の国営メディア「朝鮮中央通信」を通じて談話を発表し、「毎年この時期になると耳にする雑音に過ぎない」と非難しました。 そのうえで「北朝鮮の核保有国としての地位はいかなるものによっても覆すことができない絶対的なものだ」と強調し、核保有を正当化しました。 アメリカのトランプ大統領が年内にも金総書記との会談に意欲を見せる中、北朝鮮は非核化に応じない姿勢を改めて示した形です。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2953856?utm_source=lootura.com","publishedAt":"2026-09-17T09:08:24.000Z"},{"title":"手のひらサイズに、ファインダーもダイヤルも。富士フイルムの小さなデジカメ","summary":"手のひらサイズのデジカメ「instax Pal 2」の魅力をご紹介。画素数やストレージが大幅向上し、レトロで可愛いデザインや新機能のコマ送りアニメまで詳しく解説します。","source":"ギズモード・ジャパン","author":"高橋真紀","category":"technology","url":"https://www.gizmodo.jp/article/2609-instax-pal-2/?utm_source=lootura.com","publishedAt":"2026-09-17T22:00:00.000Z"},{"title":"【住宅火災】電気ストーブ付近が火元か 83歳女性宅「ストーブとベッドが燃えている」と通報 3人救急搬送","summary":"17日午前、富山市の中心部で住宅火災があり、3人が救急搬送されました。消防と警察の実況見分で、1階にあった電気ストーブ付近が火元とみられています。 17日午前9時46分頃、富山市日之出町の無職、吉田都さん（83）の住宅から火が出て30分後に消し止められました。 この家に住む人から「2階建て住宅の1階から火が出ている。ベッドとストーブが燃えている」と消防の通報がありました。 消防と警察が実況見分を実施した結果、火元は1階にあった電気ストーブ付近とみられ、引き続き詳しい出火原因を調べています。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2953601?utm_source=lootura.com","publishedAt":"2026-09-17T09:06:34.000Z"},{"title":"アメリカの戦略石油備蓄を支える「驚くほど洗練されていてシンプル」な工学的解決策とは？","summary":"2026年2月、アメリカがイスラエルとともに起こしたイランへの攻撃によりホルムズ海峡が封鎖され、世界中の原油輸送が大幅に滞りました。これによる燃料価格の急騰を抑制するため、アメリカは戦略石油備蓄(Strategic Petroleum Reserve：SPR)を放出して事態の収拾を図っています。そんなアメリカの戦略石油備蓄を支える「工学的解決策」について、Stripeの初期エンジニアであり起業家でもあるジョン・ワン氏が解説しました。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-engineering-behind-us-strategic-petroleum-reserve/?utm_source=lootura.com","publishedAt":"2026-09-17T12:00:00.000Z"},{"title":"「宝石箱のようなホテルに」天然温泉やレストランも！山形駅前で新たなホテルの建設始まる 山形の活性化に期待 2028年開業予定（山形市）","summary":"山形駅前に新たなホテルが建設されることになり、起工式が行われました。 建設の背景には、冬のインバウンドによる宿泊需要などがあるようです。 山形駅前に建設されるのはアパホテルで、東根市に本社を置くNOBホールディングスが建物を貸し出し、東京に本社を置くTKPがアパホテルとフランチャイズ契約を結びました。 きょう（17日）は建設予定地で起工式が行われ、関係者およそ50人が工事の安全を祈願しました。 建設されるのは14階建ての都市型ホテルで客室数は237部屋。 ファミリーやグループ旅行の他、インバウンド客の需要の取り込みを狙っているということです。 ■天然温泉露天風呂やレストランも併設！ NOBホールディングス 佐藤信勝 代表取締役 「インバウンドの方々が、特に冬季間は泊まる宿泊施設が足りないと感じておりました。アパホテルさんに本当に期待していますし、ぜひ山形を活性していただきたいと願っている」 TKP 河野貴輝 代表取締役社長 「山形のファンになってもらうためには、ただホテルに泊まって夜ご飯を食べて、飲んで部屋で寝るだけで帰るのはもったいないので、山形を堪能して帰ってもらいたい。そういった宝石箱のようなホテルにしていきたい」 ホテルには天然温泉の露天風呂やレストランが併設される予定で、開業は2028年3月を予定しています。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2953260?utm_source=lootura.com","publishedAt":"2026-09-17T09:06:22.000Z"},{"title":"道案内がうまい人と方向音痴な人がいるのは何の能力が違うのか？","summary":"目的の場所まで行こうとするとき、地図を一度見ただけでたどり着ける人や、何度も地図を見直してもなお迷い続ける人などがいて、空間認識能力には違いがあることが日常生活においてよく分かります。何がこの差を生んでいるのかについて、教育コンテンツを作成するTED-Edが解説しました。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-map-sense-difference/?utm_source=lootura.com","publishedAt":"2026-09-17T11:40:00.000Z"},{"title":"まるで真っ赤な絨毯…サルビア約6万本が咲き誇る 涼しげな青紫色のブルーサルビアも「きれいで最高」 兵庫県立公園「あわじ花さじき」","summary":"兵庫県淡路市では、「サルビア」が見ごろを迎えています。 まるで真っ赤な絨毯を敷き詰めたかのように一面に咲き誇る「サルビア」。兵庫県立公園「あわじ花さじき」では、約6万本が見ごろを迎えています。 サルビアと言えば赤色の花ですが、「あわじ花さじき」では、涼しげな青紫色の「ブルーサルビア」も約3万本植えられています。 訪れた人たちは、色鮮やかに咲いた「サルビア」に見入っていました。 「ブルーサルビアが咲いていると聞いたので来たのですが、いいですね。きれいで最高です」 「この花を見るとすごく自然豊かで来てよかったなと思います。心癒されました」 サルビアは10月末まで楽しめるということです。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2951782?utm_source=lootura.com","publishedAt":"2026-09-17T03:23:58.000Z"},{"title":"「東京ゲームショウ」開幕、史上最長5日間 30万人の来場見込む","summary":"カプコンが「モンスターハンターワイルズ」の大型拡張コンテンツ「アセンダンス」を世界で初めて試遊出展。スクエニはFFVIIリメイク3部作の完結編「FINAL FANTASY VII REVELATION」の試遊などを実施する。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001571/?utm_source=lootura.com","publishedAt":"2026-09-17T01:38:23.000Z"},{"title":"事件前から2人でホテル転々と生活か…高齢の母親殺害、逮捕された息子の首の傷は自ら切りつけた？警察は無理心中も視野に捜査","summary":"88歳の母親を殺害したとして57歳の息子が逮捕された事件で、親子は事件前から複数のホテルを転々として生活していたことがわかりました。 殺人の疑いで9月17日に送検されたのは、住居不定・職業不詳の廣順司容疑者（57）です。 警察によりますと、廣容疑者は9月6日から7日にかけて、大阪市中央区のホテルの一室で、和歌山市に住む母親の昌子さん（88）の首を絞め、殺害した疑いがもたれています。廣容疑者は警察の調べに対し、「殺意なんかない」などと容疑を否認しています。 2人はこのホテルに9月2日から連泊していて、捜査関係者によりますと、この事件の前から他の複数のホテルを転々として生活していたということです。事件後ホテルの部屋は血だらけで、廣容疑者の首には自ら切り付けたとみられる傷があったということで、警察は無理心中を図った可能性も視野に捜査しています。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2951780?utm_source=lootura.com","publishedAt":"2026-09-17T03:23:53.000Z"},{"title":"ChatGPTが「マネーフォワード ME」データと連携 相談可能に","summary":"マネーフォワードホームは、アプリ「マネーフォワード ME」のデータが、OpenAIの「Apps in ChatGPT」に対応したと発表した。","source":"インプレス","author":"株式会社インプレス","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141941.html?utm_source=lootura.com","publishedAt":"2026-09-17T11:30:00.000Z"},{"title":"【ミシュランガイド】大阪・奈良などに続き「神戸・淡路島」が追加！神戸牛や新鮮魚介を世界へ発信 選定の飲食店は来年2月発表へ","summary":"「ミシュランガイド」の掲載対象に「神戸・淡路島」が加わることが発表されました。 飲食店などを格付けする世界的なガイドブック「ミシュランガイド」では、掲載対象の店はこれまで日本国内では東京・京都・大阪・奈良の4つの都府県のみでした。 16日、ミシュランは新たに『神戸・淡路島エリア』が調査対象に加わったことを発表しました。 追加された理由は、世界的に知られる神戸牛や、瀬戸内海の新鮮な魚介、淡路島の農畜産物などがあり、生産者と料理人の距離が近く、食材の魅力を最大限に引き出せることが魅力だったためだといいます。 選定された飲食店などは来年2月に発表される予定です。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2951777?utm_source=lootura.com","publishedAt":"2026-09-17T03:22:44.000Z"},{"title":"OpenAI、モデルの「ミスアライメント」報告の新フレームワーク公開 データ捏造など6件の事例も公表","summary":"OpenAIは、AIモデルの開発過程などで確認されたミスアライメント事例を追跡・公表するための新枠組みを発表した。実害の有無を問わず迅速に情報共有する方針で、APIキーの無断探索やデータ捏造、不正な指示の書き込みなど、未公開モデルや「GPT-5.6 Sol」の訓練中に観測された6件の事例報告書も公開した。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001570/?utm_source=lootura.com","publishedAt":"2026-09-17T01:23:50.000Z"},{"title":"ひき逃げ事件で男性死亡 路上には男性が乗っていたとみられる自転車 後輪が大きく破損 埼玉・新座市","summary":"けさ早く、埼玉県新座市の路上で、男性が倒れているのが見つかり、その後、死亡しました。現場の状況から警察は、男性が車にひかれたとみて、死亡ひき逃げ事件として捜査しています。 きょう午前5時15分ごろ、新座市東の市道で、「大きな物音がして外に出たら、男性と自転車が倒れていた」と、近くに住む男性から119番通報がありました。 男性は頭を強く打っていて、意識がない状態で病院に運ばれましたが、その後、死亡が確認されました。 警察によりますと、現場には男性が乗っていたとみられる自転車が倒れていて、自転車の後輪が大きく破損していることなどから、車が自転車に乗っていた男性をはねて、そのまま逃走したとみられています。 亡くなった男性は成人とみられていて、警察は、身元を調べるとともに死亡ひき逃げ事件として捜査しています。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2951784?utm_source=lootura.com","publishedAt":"2026-09-17T03:22:32.000Z"},{"title":"Salesforce、7時間半の大規模障害から復旧 よりによって「Dreamforce」2日目に発生","summary":"米サンフランシスコで開いている年次カンファレンス「Dreamforce」最中の大規模障害に、SNSでは皮肉や嘆きの声が相次いだ。","source":"アイティメディア","author":"岡田有花","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001569/?utm_source=lootura.com","publishedAt":"2026-09-17T01:02:52.000Z"},{"title":"【 梅沢富美男 】 「この頃は髪の毛が多かったなぁ」40年前の宣材写真にファン歓喜 「調子に乗って第2弾」写真集の“ダンディショット”も一挙公開","summary":"俳優の梅沢富美男さん（75）が、9月15日と16日の2日にわたって公式X（旧Twitter）を更新。約40年前の宣材写真や写真集の蔵出しショットを連続投稿し、話題を集めています。 梅沢富美男さん(75) 最初の投稿は9月15日。「事務所のデスクを片付けていたら40年前の宣材写真がでて来ました。この頃は髪の毛が多かったなぁ。今も、こうしてこの世界で生きてられるのはありがたいなぁ。皆さんに感謝です」と添えられていました。 梅沢富美男さん 40年前の宣材写真（当時35歳） 公開された写真には、丸眼鏡に白い長袖シャツ姿で、穏やかな笑顔を浮かべる35歳の梅沢さんが写っています。 翌9月16日には「若い時の宣材写真（アメリカの卒業写真みたいなやつ）アップしたら、みんなに褒めてもらったので調子に乗って第２弾行きます！また褒めてもらったら第３弾アップしちゃうかも」と投稿。フォロワーからの反響を受けて急遽第2弾の公開に踏み切ったことがわかります。 梅沢富美男さん（撮影当時35歳） 第2弾の写真では、黒いタキシードに白いフリルカラー、サングラスを合わせたフォーマルかつスタイリッシュな写真集から、35歳当時の秘蔵カットを公開。 さらに37歳ごろに撮影された黒い上着を肩にかけサングラスをつけたモード感あふれる1枚も披露されました。梅沢さんのお茶目な連続投稿に、ファンからは大きな反響が寄せられています。 梅沢富美男さん（撮影当時37歳頃） この投稿に「カッコいい やっぱりクチ唇がめちゃ色っぺー」「ブンブンいわせてた時代ですね！」「なんと、かっこいい！おかわりないです」「ダンディ〜」「ギャングみたいで素敵です」などの声が寄せられています。 【担当：芸能情報ステーション】","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2951774?utm_source=lootura.com","publishedAt":"2026-09-17T03:20:47.000Z"},{"title":"2026年9月17日のヘッドラインニュース","summary":"松屋の新メニューとして「ほうれん草とカッテージチーズのカレー」が2026年9月22日10時に登場します。まろやかでクリーミーな味わいとスパイシーなソースが絶妙に調和した本格インドカレーに仕上がっているとのこと。価格は税込780円です。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-headline/?utm_source=lootura.com","publishedAt":"2026-09-17T10:11:00.000Z"},{"title":"会話中いきなりズボンを下ろし…80代女性店員に下半身を露出、60歳男を逮捕「下半身は露出したが…」容疑を一部否認","summary":"商店で、店員の80代女性に対し下半身を露出したとして、60歳の男が逮捕されました。男は、面識のない女性店員との会話中に、突然ズボンを下ろしたということです。 ▶ 記事の画像を見る ▶ 記事を最初から読む 逮捕されたのは、高知市西秦泉寺の無職の男（60）です。 高知南警察署の調べによりますと、男は2日午後0時20分ごろ、高知市内の商店で、店員の80代女性に対し下半身を露出した疑いが持たれています。 （高知県公衆に著しく迷惑をかける暴力的不良行為等の防止に関する条例違反の疑い） ▶ 記事の画像を見る ▶ 記事を最初から読む 男と店員の女性に面識はなく、事件当時、現場の商店には女性店員と男の2人しかいない状況でした。 そして男は、女性店員との会話中に、いきなりズボンを下ろして下半身を露出したということです。 事件後、被害に遭った女性の娘が「60歳ぐらいの男性が、店内で下半身を露出したようだ」と通報し、警察が事件を把握しました。 ▶ 記事の画像を見る ▶ 記事を最初から読む 通報を受け、警察官が現場に駆け付けましたが、男はすでに立ち去っていたということです。 このため警察は、店内の防犯カメラ映像を捜査するなどして男の犯行を特定し、男を逮捕しました。 調べに対し男は「下半身は露出したが、見せつけてはいない」と、容疑を一部否認しているということです。 警察は事件の詳しい経緯を調べています。","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2950887?utm_source=lootura.com","publishedAt":"2026-09-17T03:19:38.000Z"},{"title":"iPhoneで撮影した写真がAI生成されていない「本物」だと証明する「Apple Reference Image」はどういう仕組みなのか？","summary":"生成AIによって写実的な画像を作成できるようになり、写真の見た目だけで実際に撮影されたものかどうかを判断することは難しくなっています。Appleは2026年9月10日に開催された新製品発表イベント「Surprise and shine.」で、iPhone 18 Pro／Pro Maxと共に、iPhoneで撮影された写真が実際のカメラセンサーの記録に基づくことを示す新技術「Apple Reference Image」を発表しました。このApple Reference Imageについて、Appleのセキュリティエンジニアリング＆アーキテクチャチームとカメラ・写真チームが詳しく解説しています。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-apple-reference-image/?utm_source=lootura.com","publishedAt":"2026-09-17T10:00:00.000Z"},{"title":"米FRBウォーシュ議長「インフレは高すぎる」9月FOMCのタカ派利上げは、長期のリスクを抑制するための結果","summary":"FRBはタカ派スタンスを選択、「規律」を優先したFOMC FRBは9月15-16日のFOMCでFF金利の誘導目標を0.25%引き上げ、3.75-4.00%とすることを全会一致で決定した。利上げは2023年7月以来、3年2ヵ月ぶりである。 市場の注目を集めたのは、今回の利上げそのもの以上に、FRBのスタンスがタカ派的だったことである。公表されたドットチャートでは2026年内にさらに0.25%の利上げが1回実施されることが基本シナリオとして想定された（中央値ベース）。声明文では「インフレ率は依然として高い水準にある」（筆者訳。以下同）とされた。 ウォーシュ議長は「インフレは高すぎる。そして高すぎる状態が長く続きすぎている」と述べるなど、全体としてタカ派的な発言を繰り返した。また、「この夏のインフレ指標を見ても、基調的なインフレ動向が意味のある形で改善したとは私には思えない」「私はジャクソンホールで、商品価格全般にも注意を払う必要があると述べた。そしてその後の期間において、多くの主要な原材料価格が上昇した」と述べ、足元の物価動向に対する警戒感を隠さなかった。 利上げの背景は判断変更ではなく「規律」の維持 一方、ウォーシュ議長は今回の利上げを新たな判断や方針転換として説明しなかった。同議長は「先月ジャクソンホールでは、私は『特定の政策判断』ではなく、『金融政策の規律』にコミットすると述べた。私は行動基準を次のように定義した。基調インフレが明確に、かつ十分なスピードで目標に向かっていると確信できなければならない。本日FOMCは、その基準はまだ満たされていないと判断した」と説明した。 この発言を額面通りに受け取るならば、今回の利上げは景気認識や物価認識が大きく変化した結果ではなく、あらかじめ示していた政策運営のルールに従った対応ということになる。今回の利上げはインフレ期待の再加速を防ぐための信認維持策と考えられる。 実際、ウォーシュ議長は「我々の責務は、相対価格の変動が経済全体に広がり、二次的・三次的なインフレ効果を生まないようにすること。それが我々に課された任務であり、我々はその任務を果たす」とも述べている。エネルギーや商品市況の上昇が広範な価格上昇へと波及するリスクを強く意識していることがうかがえる。 今後の政策パスについては流動的である。ウォーシュ議長は「驚かれないと思うが、私はフォワードガイダンスを行うつもりはない」と述べ、将来の利上げ・利下げを約束する姿勢を明確に否定した。その一方で、「私はこれまで、金融環境を引き締め的と表現するのは難しいと言ってきた」「今回我々は緩和度合いを一段引き下げた」とも述べている。フリーハンドは維持されていると判断できる。後述するように、仮に「悪い金利上昇」が続けば、景気の先行き懸念が広がり、結果的に追加的な利上げが回避される可能性もある。 財政リスクへの沈黙が示唆するもの 今回の記者会見で特に興味深かったのは、長期金利上昇の要因について問われた際の説明である。ウォーシュ議長は第一に「経済の強さ」、第二に「資金需要の増加」、第三に「地政学」を挙げた。 現在の市場環境を考えると、政府部門の財政リスクに全く言及しなかったことはむしろ不自然である。「もちろん他にも要因はある」と付け加えたことも、財政リスクについて直接的な言及を避けたいという意図の表れとも受け取れる。 ウォーシュ議長が財政リスクについて「沈黙」したことこそが、重要なシグナルではないかと考えることができる。財政リスクを無視できない状況にある一方で、それを公然と問題視することも難しい。その結果として、FRBは金融政策面でより厳格な姿勢を示す必要に迫られたのではないだろうか。現在のマクロ経済・市場環境では、財政政策と金融政策の組み合わせが金融市場の方向性を大きく決定すると考えられる。具体的には、以下の4つのシナリオに分類できる。 ≪財政政策・金融政策と長期金利・株価の関係のイメージ≫ 財政 金融 金利(短) 金利(長) 株価(短) 株価(長) 1 拡張的 タカ派 &uarr;&uarr;&uarr; &uarr;&uarr; &darr;&darr; &darr;&darr; 2 拡張的 ハト派 &uarr;&uarr; &uarr;&uarr;&uarr; &darr; &darr;&darr;&darr; 3 緊縮的 タカ派 &uarr; &darr;&darr; &darr;&darr;&darr; &darr;&darr; 4 緊縮的 ハト派 &darr; &darr; &darr; &darr; （注）金利は長期金利で、（短）は向こう数週間の短期想定、（長）は向こう数ヵ月の長期想定。矢印は筆者が考える相場の方向性。 上記の筆者の整理では、最も米経済・市場の安定にとって望ましい（最も市場変動が抑制されると考えられる）のは「財政緊縮＋金融緩和」というシナリオ4である。政府が財政健全化を進めることで長期金利上昇圧力を抑え、その過程で金融政策が景気を下支えする形である。 しかし、今回のFRBのタカ派スタンスや、ウォーシュ議長が財政リスクに言及しなかったことを踏まえると、FRBはその前提を共有していないように見える。ベッセント財務長官は8月20日には財政健全化について言及していたが、具体的な内容が示されないまま今日に至る。FRBとしても、財政当局が緊縮方向へ向かう確信が持てないため、シナリオ3やシナリオ4を前提とした金融政策運営は難しいと判断されたのだろう。 FRBが選んだのは「短期の痛み」と引き換えのリスク回避 そう考えると、今回のFOMCはシナリオ1とシナリオ2の比較衡量だったと理解できる。 シナリオ2、すなわち財政悪化が続く中で金融政策をハト派化させる選択肢は、短期的には市場に優しい。金利上昇を抑制し、株価下落圧力も和らげることが可能だろう。しかし、その代償としてインフレ懸念が強まり、やがて中央銀行への信認が損なわれる可能性がある。その場合、長期金利はむしろ大幅に上昇し、「悪い金利上昇」が加速する危険性がある。その結果として、株価の調整幅が大きくなるリスクが高まる。 一方、今回FRBが選択したと考えられるシナリオ1は、財政拡張が続く中で金融政策をタカ派化する構図である。短期的には金融引き締め懸念によって長期金利が上昇し、株価への下押し圧力を強め、景気減速リスクも高める。実際に、FOMCの結果が公表された後、ウォーシュ議長の会見中も含めて長期金利は上昇し、株価は下落した。とはいえ、FRBの信認が守られることで、長期的なリスクは軽減したのではないだろうか。 したがって、今回のFRBを単純に「タカ派化した」と理解するのは適切ではないだろう。むしろ、「悪い金利上昇」が意識される環境下において、中長期的なリスクの増大を避けるための選択を行ったと評価すべきである。 FRBと同様に、市場参加者もリスクの最小化を意識すべきか ただし、その判断は同時に別のメッセージも含んでいる。すなわち、ベッセント財務長官を中心に米政府が財政リスクを抑制し、景気減速をある程度受け入れながらも長期金利上昇圧力を和らげるというシナリオ4の実現可能性が低下したということである。 すなわち、長期金利上昇を止める要因として最も現実的なのは、株価調整とそれに伴う景気先行き懸念の強まりだろう。言い換えれば、金融市場自体が冷やされることで初めて長期金利上昇が止まる構図である。もちろん、債務問題を背景とする「悪い金利上昇」が発生してしまった以上、最終的には景気減速や金融市場の調整は避けがたいのかもしれない。しかし、今回のFOMCはその着地点までのプロセスがより厳しいものになっていることを明らかにした。ソフトランディングではなく、ハードランディングへと向かうリスクがやや高まった点には、今後も注意を払う必要があるだろう。 (※情報提供、記事執筆：大和証券 チーフエコノミスト 末廣徹)","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/withbloomberg/2951653?utm_source=lootura.com","publishedAt":"2026-09-17T03:16:32.000Z"},{"title":"ムラウチドットコムから顧客情報約771万件の漏えい 氏名や住所、電話番号など","summary":"漏えいしたのは、顧客の氏名、住所の他、電話番号、メールアドレス、生年月日、性別。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001567/?utm_source=lootura.com","publishedAt":"2026-09-16T23:33:03.000Z"},{"title":"【なにわ男子・道枝駿佑】「いよいよこの日が来た」アンバサダー就任にワクワク「デビューして初めて買ったブランド」","summary":"なにわ男子の道枝駿佑さんが、ラグジュアリーファッションブランド「メゾン ヴァレンティノ アンバサダー就任 マスコミ発表会」に登壇しました。 道枝駿佑さん ヴァレンティノのアイテムに身を包んで現れた道枝さんは、〝デビューして初めて買ったブランド。ローファーを買わせていただいて、今でも履かせていただいている。すごく思い出に残っています〟と、ブランドへの思い入れを告白。〝そのブランドのアンバサダーに就任ということで、いよいよこの日が来たなとワクワクしています〟と、目を輝かせていました。 普段のファッションのこだわりを聞かれると、〝割とシンプルな服を着ることが多い。色味も落ち着いた黒や白のモノトーン系。その中でも、スタイルの良く見えるパンツを履いてみたりとかカーディガンを羽織ってみたり、気分に合わせて選んでいます〟と、日々のコーデを紹介。 これから訪れる秋に向けて、〝革ジャンとか羽織ってもいいんじゃないかな〟と、挑戦したいファッションを語っていました。 道枝駿佑さん また、アーティストや俳優などマルチに活躍する道枝さん。オンオフの切り替えについては〝あんまりお風呂が得意ではないんですけど、湯船につかるのは日課にしています。そこで漫画を読んでみたりとか〟と、明かしていました。 そんな道枝さんが、今後新しくチャレンジしたいことはバイクの免許。〝ツーリングしてみたいです。車とは感覚が違うと思うので〟と、夢を膨らませていました。 道枝駿佑さん 【担当：芸能情報ステーション】","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2951766?utm_source=lootura.com","publishedAt":"2026-09-17T03:16:32.000Z"},{"title":"三井住友カード、韓国利用で最大20%Vポイント還元","summary":"三井住友カードは17日、Visaブランドの対象カード会員向けに「韓国まるトクプラン」を提供開始した。韓国国内でのカード利用を対象に、Vポイントを最大20%還元する。対象特約店では、割引やギフトなどの特典も用意する。","source":"インプレス","author":"佐々木 翼","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141756.html?utm_source=lootura.com","publishedAt":"2026-09-17T09:13:03.003Z"},{"title":"「折れた心が復活した」2年連続ナシ大量盗難の農家が再起へ 絶望から救ったのは温かい支援、そして被災地へ繋ぐ”恩返し”","summary":"2年連続であわせて1万個以上のナシを盗まれ、一時は廃業まで考えていた福岡県うきは市のナシ農家が、もう一度ナシ作りに挑む決意をしました。 再起を後押ししたのは全国から寄せられた温かい支援です。 「命のナシ」2年で1万2000個超の被害 三功園 佐々木浩喜さん 「今年は本当暑かったから、玉太りがちょっとあまり良くないけど、糖度は測ってみたら15度ぐらいあったんで、内容的には大丈夫なんですけど、やっぱり感極まるものがある」 9月に収穫を迎えるナシ「新興」の出来を嬉しそうに話すのは、福岡県うきは市のナシ農家・佐々木浩喜さん（55）です。 15日、妻の絵利子さんと一緒に1年かけて育て上げたナシ、約100個を収穫しました。 妻・絵利子さん 「楽しい。めちゃくちゃ取り放題なんで楽しいです。『今年は何コンテナぐらい取れたね』とか『大きいね』『綺麗だね』とかっていうやり取りができるのがこの時期だけなんで」 喜びを分かち合うように、丁寧に収穫を進める佐々木さん夫婦。 そこにはある理由がありました。 RKB 金子壮太 記者 「こちらの農園では、去年もナシを盗まれる被害にあっています」 三功園では2026年7月、収穫直前のナシ「幸水」を盗まれました。 しかも、盗難被害にあったのは2年連続です。 2025年は約7500個、さらに2026年7月は約5000個。 父・国義さんとともに大切に育ててきたナシが、2年であわせて1万2000個あまり盗まれたのです。 父・国義さん 「命と一緒やけんね、果物も。命のナシを盗まれたということはね、窃盗した泥棒さんも、考えようがない。どうしてこういう所のナシをちぎったのか」 三功園 佐々木浩喜さん 「またかやんね、またやられたっていう悔しさと、もう自分が歯がゆいよね」 広がる支援の輪再起に向け防犯対策を強化 2年連続の被害に、「ナシ作りはもうやめよう」と考えていた佐々木さん。 そんな時に寄せられたのが、全国からの多くの励ましの声、そして支援でした。 三功園 佐々木浩喜さん 「タレントのダレノガレ明美さんからの募金の支援と、あと手紙だとか（うきは市の飲食店の）福鶏さんの募金箱設置とか支援をしていただいた。あとメッセージとかもたくさんあります」 支援の輪が思いがけず広がっていく中、佐々木さんの気持ちも救われていきました。 三功園 佐々木浩喜さん 「もう全く180度変わってしまって、こんだけの支援いただいて、続けないわけにもいけないし、なんとか皆さんのおかげで折れた心も復活しましたので、必ず来年もお届けできるように頑張ります」 再起をかけてまず手がけたのは、防犯対策の強化です。 三功園 佐々木浩喜さん 「まずバリケードを作るのと、来年に向けてここに防犯カメラを高い所から設置してもらおうと思って。随時監視できるようにと。絶対に防ぎます。守ります」 受けた支援を被災地へ繋ぐ そして、佐々木さんは多くの人から寄せられた厚意に、ナシ農家を続けること以外でも応えていこうと、新たに動き出しました。 向かった先は、今回の熊本地震で震度7を観測した、熊本県宇城市です。 Qどれくらい持ってきた？ 三功園 佐々木浩喜さん 「きょう100ケース」「全部集まったもの」 支援物資の拠点を運営 土谷玲穂さん 「やっぱり（水は）まだ濁ってる。砂交じりっていうのも聞くので。飲み水はすごく助かります」 被災者を支援するため、毎週のように熊本へ足を運んでいます。 8月には愛知県のスーパーと連携して、佐々木さんのナシを使ったフルーツサンドを被災地に届けました。 小学生 「めっちゃおいしい。地震後にフルーツなどはあまり食べられていなかったからうれしい」 被災地で出会った農家の人たちからの支援を通して、逆に元気づけられることもあるといいます。 三功園 佐々木浩喜さん 「こっちは命がかかってるので、ちょっと僕とは比べものにならないんですけど、やっぱり僕も頑張んなくちゃいけないなと思う」 同級生の支援で実現した特別販売「必ず再建する」 三功園 佐々木浩喜さん 「うきは市からナシを持ってきています！取れたてのナシです。どうぞ～」 そして16日、佐々木さんが収穫したナシは久留米市の百貨店の店頭に並びました。 オープンと同時に、佐々木さんのナシの販売会を聞きつけたお客さんの姿がー ナシを購入した人 「佐賀から来ました。三功園さんを応援したいじゃないですか。この品種が一番大好きだっていう風におっしゃったので、食べるのを楽しみにしています」 ナシを購入した人 「（ナシは）おいしいです。ものすごくジューシーで。いろいろ今年はありましたので大変だとは思いますけど、応援の気持ちもあり頑張ってくださいと」 三功園 佐々木浩喜さん 「百貨店ということもあってこんなうれしいことはない。初めてです」 盗難被害を知った同級生の店長の計らいで、販売できることになったのです。 同級生 岩田屋久留米店 今村隆史店長 「年間通して作られている方の気持ちになると心が痛む。地域の生産者さんを助けたいという気持ちで今後も続けていきたい」 2年連続の盗難被害を乗り越え、迎えた収穫。支えてくれた人への感謝を胸に、今度は自分が誰かを支える側へ。 佐々木さんのナシづくりは続きます。 三功園 佐々木浩喜さん 「お客様の笑顔とかお声掛けしていただけることで、（被害に）あったことがゼロになるわけではないけど、今後の励みにすごくなってますので必ず再建して継続していきます」","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2951473?utm_source=lootura.com","publishedAt":"2026-09-17T03:16:05.000Z"},{"title":"ビックカメラ内に中古レコード店「BIC RECORDS」 秋葉原に1号店","summary":"ビックカメラは、ビックカメラAKIBAに中古レコード専門店「BIC RECORDS AKIBA by Face Records」を9月19日にオープンする。BIC RECORDSの第1号店で、約5,000～6,000枚の中古レコードを取り扱う。","source":"インプレス","author":"浅井 淳志","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141721.html?utm_source=lootura.com","publishedAt":"2026-09-17T09:13:03.003Z"},{"title":"【中川翔子】父・中川勝彦さんの命日「忘れないでずっと想っていてくれるひとが今もたくさんいるよ 双子の孫がスクスク育っているよ ちゃんと血が繋がっているよ」","summary":"歌手・タレントの中川翔子さんが9月17日、自身の公式インスタグラムを更新。父・中川勝彦さんの命日に思いを綴りました。 中川翔子さん 公式インスタグラムより 中川さんは、父と母の若かりし頃の写真を添えて「9月17日は 父 中川勝彦の命日です」と投稿。 中川翔子さん 公式インスタグラムより 1994年に32歳の若さで亡くなった父へ「忘れないでずっと想っていてくれるひとが 今もたくさんいるよ 双子の孫がスクスク育っているよ ちゃんと血が繋がっているよ」と、メッセージを綴りました。 中川翔子さん 公式インスタグラムより また「ちょうど去年の今日、双子がお腹にいて お腹大きくなりすぎてむくみも危険で、入院になったのでした」と、去年の父の命日に起きた出来事を回顧。「父の命日に、だったから ああちゃんと双子の命を守ってくれてるのかなと去年思ったのを思い出した」と振り返りました。 中川翔子さん 公式インスタグラムより さらに「自分の中で、悲しかったりさみしかったり9月はずっとあまり好きじゃなかったけど かわいい双子が生まれた月で初めてあたたかい嬉しい思い出が増えた9月になりました」と記しています。 中川翔子さん 公式インスタグラムより そして、まもなく1歳の誕生日を迎える双子の画像を添えて「不二家ポコちゃんそっくりお兄ちゃん まことちゃんそっくりなった弟くん 一歳になったら谷中にお墓参り行こうね」と綴りました。 中川翔子さん 公式インスタグラムより この投稿を見た人たちからは「お父様お母様ステキすぎる」「お父様のファンでした とても素敵な方でした」「美をしっかり受け継いでるんだね」「キット見守られていると思います」といった反響が寄せられています。 中川翔子さん 公式インスタグラムより 【担当：芸能情報ステーション】","source":"TBSニュース","author":"","category":"general","url":"https://newsdig.tbs.co.jp/articles/-/2951740?utm_source=lootura.com","publishedAt":"2026-09-17T03:15:43.000Z"},{"title":"ニトリ、カレーやイワタニのコンロなど “マケプレ”本格展開","summary":"ニトリは、ネット通販の「ニトリネット」内で展開しているマーケットプレイス「ニトリネットマーケットプレイス」の取扱商品を拡大した。新たに「食品」「アウトドア」「生花・観葉植物」の3カテゴリーを追加している。","source":"インプレス","author":"太田 亮三","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141723.html?utm_source=lootura.com","publishedAt":"2026-09-17T09:13:03.003Z"},{"title":"レベルファイブ、AI疑惑に回答 新「妖怪ウォッチ」の“不自然な電線”は手描き、一部は人的ミス……修正版公開へ","summary":"「現状、ヒューマンエラーに関しても、AIの使用と誤解される状況となっており、多くの方々が不安を感じられている状況」","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001564/?utm_source=lootura.com","publishedAt":"2026-09-16T23:11:09.000Z"},{"title":"SBI、ライブドアを75億円で買収 「ネオメディア」強化","summary":"SBIホールディングス(SBI HD)は17日、ミンカブ・ジ・インフォノイドの子会社であるライブドアの全株式を取得することで合意したと発表した。","source":"インプレス","author":"株式会社インプレス","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141895.html?utm_source=lootura.com","publishedAt":"2026-09-17T08:55:50.000Z"},{"title":"日本経済新聞、広告冊子の部数水増し 2社に数千万円過大請求","summary":"日経新聞朝刊に折り込んで配布する広告冊子「THE NIKKEI MAGAZINE」の広告主2社に対して発行部数を実際より多く提示し、広告料金を過大請求していた。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001566/?utm_source=lootura.com","publishedAt":"2026-09-16T23:08:27.000Z"},{"title":"9歳の息子がYouTubeで1800万円超の広告を出稿","summary":"9歳の少年が自身のYouTubeチャンネルを宣伝するため、父親の会社用クレジットカードを使って約3週間で11万8000ドル(約1840万円)もの広告費を使ったと父親が明かしました。父親が少年に20ドル(約3100円)程度の動画広告の出稿方法を教えたところ、少年は自分で次々と広告キャンペーンを作成していたとのことです。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-son-spent-money-youtube-campaign/?utm_source=lootura.com","publishedAt":"2026-09-17T08:15:00.000Z"},{"title":"Anthropic、Claudeの「チャット」と「Cowork」を統合 資料作成の「Docs」「Slides」も","summary":"AnthropicがAIアシスタント「Claude」のチャットと作業環境「Claude Cowork」を統合した。簡単な対話から複数手順の複雑な作業までを1つの会話内で完結でき、文書作成「Claude Docs」やスライド作成機能も追加。ProやMax向けから段階的に展開する。","source":"アイティメディア","author":"","category":"technology","url":"https://www.itmedia.co.jp/news/article/2609/17/2000001565/?utm_source=lootura.com","publishedAt":"2026-09-16T23:05:35.000Z"},{"title":"カップ麺の「ちいかわラーメン」を食べてみた、「知ってる？チャリメラ」「チャル……」のチャルメラ公式カップ麺","summary":"明星食品が「明星 チャルメラ ちいかわラーメン とんこつ味」を2026年9月14日に発売しました。パッケージには冬毛バージョンのハチワレ・うさぎ・ちいかわがプリントされているほか、具材として「ちいかわなると」も入っているとのこと。ドラッグストアで「明星 チャルメラ ちいかわラーメン とんこつ味」と以前から登場していた「明星 チャルメラ ちいかわラーメン しょうゆ味」を見つけたので買ってみました。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-chiikawa-charumera/?utm_source=lootura.com","publishedAt":"2026-09-17T08:00:00.000Z"},{"title":"ユニクロの靴が「ほぼニューバランスの履き心地」になりました","summary":"2026年4月10日の記事を編集して再掲載しています。見た目は好きで買ったのに、なぜか履かなくなる靴ってありませんか？ 私の場合、それがユニクロのブーツでした。デザインは好き。値段も手頃。服にも合わせやすい。でも、長時間歩くとなんだか足が疲…","source":"ギズモード・ジャパン","author":"佐々倉男子","category":"technology","url":"https://www.gizmodo.jp/article/newbalance_higt-grade-rebounting-insole-dfe-rqg/?utm_source=lootura.com","publishedAt":"2026-09-17T14:00:00.000Z"},{"title":"海賊版IPTVサービスがテロ組織による映像コンテンツを身近なものにしているという指摘","summary":"テレビ番組や映画、有料スポーツ中継などの映像コンテンツを違法に配信する「海賊版IPTVサービス」が、著作権や放映権を侵害しているだけではなく、禁止されているテロ組織関連のテレビ局を発信する場になっていると非営利団体のレポートが報告しました。同団体は、安全のためにサイト遮断を政府に要求しています。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-pirate-iptv-terrorist/?utm_source=lootura.com","publishedAt":"2026-09-17T07:45:00.000Z"},{"title":"日本で「RCS」対応拡大 3キャリアでiPhone/Androidをまたいで使える","summary":"日本国内の「RCS」によるメッセージが、通信キャリアやOSの壁を越えて利用できるようになった。Googleは16日、「AndroidとiPhoneの間のRCS送受信がより便利になった」と発表した。","source":"インプレス","author":"臼田勤哉","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141526.html?utm_source=lootura.com","publishedAt":"2026-09-17T03:24:06.591Z"},{"title":"ハッカー集団がFlockカメラの暗号化キーを抽出しデータ復号に成功、ナンバープレートや車両だけでなく人物も識別していることが明らかに","summary":"防犯総合ソリューション企業の「Flock Safety(Flock)」がアメリカ全土のおよそ6000の地域に設置している、自動ナンバープレート読み取り機能(ALPR)を備えたカメラから、ハッカーが暗号化キーの抽出とデータの復号に成功したことが明らかにしました。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-hackers-flocks-camera/?utm_source=lootura.com","publishedAt":"2026-09-17T07:40:00.000Z"},{"title":"福島県最大級「イオンモール伊達」 11月27日オープン","summary":"イオンは、福島県伊達市の商業施設「イオンモール伊達」を11月27日にグランドオープンする。福島県最大級を謳うグルメゾーンのほか、屋外テラス「ROOFTOP TERRACE」を中心としたエンターテインメントゾーン、地域とつながるコミュニティゾーン「だてのわ」などを展開する。","source":"インプレス","author":"清宮信志","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141491.html?utm_source=lootura.com","publishedAt":"2026-09-17T03:24:06.591Z"},{"title":"消費者は食品の内容量を減らす「シュリンクフレーション」より品質を低下させる「スキンプフレーション」を嫌う","summary":"スーパーやコンビニで食料品を購入した際、「前は同じ値段で4個入りだったのに3個入りに減ってる」「リニューアルしておいしくなくなった」といった変化に気付くことがあります。コスト上昇に対応する企業の戦略と消費者の反応について調べた実験で、消費者は価格据え置きの場合に「内容量が減る」よりも、「品質が低下する」のを嫌う傾向があることがわかりました。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-shoppers-hate-skimpflation-than-shrinkflation/?utm_source=lootura.com","publishedAt":"2026-09-17T06:55:00.000Z"},{"title":"ユニクロ、カスタムオーダースーツのダイレクト配送 最短5日でお届け","summary":"ユニクロは17日、「カスタムオーダースーツ」で、工場から利用者へ商品を直接届けるダイレクト配送を開始した。全国約700の対象店舗で採寸・注文でき、注文から最短5日で届ける。ストレッチウールジャケットとパンツの上下価格は27,890円。","source":"インプレス","author":"佐々木 翼","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141703.html?utm_source=lootura.com","publishedAt":"2026-09-17T03:24:06.591Z"},{"title":"AppleはNVIDIAのNVLink Fusionを介して接続されたM8 Ultraチップを使用したAIサーバーを開発しており外部に販売することも計画中","summary":"AppleがNVIDIAのNVLink Fusionを用いて接続したM8 Ultraを搭載したAIサーバーを開発していると、The Informationが報じています。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-apple-nvidia-nvlink-fusion-m8-based-baltra-servers/?utm_source=lootura.com","publishedAt":"2026-09-17T06:49:00.000Z"},{"title":"ローソン、生成AI発案のデザート・ベーカリー","summary":"ローソンは、生成AIが発案した商品コンセプトをもとに開発したスイーツ、ベーカリー、サラダを、9月29日に関東・甲信越のローソンで発売する。価格は181円から475円。ローソンが生成AIを活用した商品を本格的に発売するのは初となる。","source":"インプレス","author":"加藤綾","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141684.html?utm_source=lootura.com","publishedAt":"2026-09-17T03:24:06.591Z"},{"title":"Google Playのアプリ審査が長期化、12年以上続くアプリも1週間待ちで「AI製アプリの大量投稿が影響」との指摘","summary":"Google Playでアプリやアップデートを公開する際に必要な審査について、1週間以上待たされるケースがAndroidアプリ開発者から相次いで報告されています。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-google-play-review-time/?utm_source=lootura.com","publishedAt":"2026-09-17T06:30:00.000Z"},{"title":"Claude、チャットとCoworkを統合 新機能Claude Docs/Slidesも","summary":"Anthropicは16日(米国時間)、「Claude Cowork」と「チャット」を1つの「Claude」に統合すると発表した。Coworkは大規模な作業のために選択するスペースとなっていたが、今後はユーザーがチャットとCoworkのモードを選ぶ必要がなく、通常の会話からClaude自身が必要なツールを判断し、既存の文脈やスキル、コネクタなどを活かしてどの会話からでも利用可能になる。","source":"インプレス","author":"臼田勤哉","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141615.html?utm_source=lootura.com","publishedAt":"2026-09-17T03:24:06.591Z"},{"title":"中国のハッカー企業ZRONは盗んだ外国の政府情報をAIシステムを使ってより理解しやすいものにして販売している","summary":"中国に拠点を置く「ZRON」と呼ばれるサイバーセキュリティ企業が、外国政府から盗み出した機密データを中国の治安機関に提供していることが内部資料から明らかになりました。さらに、ZRONはAIなどの技術を駆使することで、データの統合・分類・分析をして理解しやすくするダッシュボードも開発しています。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-chinese-hacking-firm/?utm_source=lootura.com","publishedAt":"2026-09-17T05:36:00.000Z"},{"title":"カシオ・オシアナス、ワールドタイムにフォーカスした「カシャロ」","summary":"カシオ計算機は、腕時計ブランド「OCEANUS」(オシアナス)の「CACHALOT」(カシャロ)の新製品として、世界各都市の時刻を一望できるという新たなワールドタイム機能を備えた「OCW-P3000」シリーズ3機種を10月16日に発売する。Bluetooth電波ソーラーの腕時計で、価格はブルー「OCW-P3000-2AJF」とグリーン「OCW-P3000-3AJF」が220,000円、ブラック「OCW-P3000B-1AJF」が253,000円。","source":"インプレス","author":"太田 亮三","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141544.html?utm_source=lootura.com","publishedAt":"2026-09-17T03:24:06.591Z"},{"title":"GPT-6 Astraが141時間にわたって「マインクラフト」をプレイ、クリーパーに全財産を吹き飛ばされて「緑色の物体」がトラウマになりジャガイモ農家に","summary":"AIモデルの性能評価を手がけるVals AIが、OpenAIの「GPT-6 Astra」にゲーム「マインクラフト」を自律操作させるテストを実施しました。テスト時間は合計141時間におよびましたが、GPT-6 Astraは最終的にクリーパーの爆発で重要なアイテムを失い、その後は数時間にわたってジャガイモ栽培のみを続けるという行動を見せたとのことです。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-gpt-6-astra-plays-minecraft/?utm_source=lootura.com","publishedAt":"2026-09-17T05:00:00.000Z"},{"title":"Threadsに利用時間や上限設定など 日本でペアレンタルコントロール強化","summary":"Metaは16日、ソーシャルメディア「Threads」(スレッズ)におけるペアレンタルコントロールの提供を拡大し、日本でも順次導入すると発表した。アプリ利用時間の確認、1日の利用時間の上限やスリープモードの設定、一部のプライバシーやコンテンツ設定の管理などに対応する。","source":"インプレス","author":"臼田勤哉","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141593.html?utm_source=lootura.com","publishedAt":"2026-09-17T03:24:06.591Z"},{"title":"歯茎からの出血が多い人はアルツハイマー病リスクが61％高いとの研究結果","summary":"近年は良好な口腔(こうこう)環境の維持が健康と密接に関わっていることがわかっており、健康な歯の本数が良好な健康状態や死亡リスクの低下と関連しているとの研究結果や、歯が少ない人は認知機能の低下リスクが高いとの研究結果が報告されています。新たに九州大学の研究チームが発表した研究では、60歳以上の高齢者を10年間追跡して歯周病と認知症との関連性を調査しています。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-bleeding-gums-higher-alzheimers-risk/?utm_source=lootura.com","publishedAt":"2026-09-17T03:20:00.000Z"},{"title":"【お金の教室】キオクシア株価「一時61倍」の衝撃 日本株インデックス4指数の違いを比較する","summary":"半導体メーカーのキオクシアホールディングスは、2024年12月の上場から一時、株価が60倍を超える水準まで上昇し、時価総額でトヨタ自動車を抜いて国内首位となる場面がありました。個別株を持っていなくても、日本株インデックス投資をしていた人はこの成長の恩恵を受けています。","source":"インプレス","author":"塚本 俊太郎","category":"technology","url":"https://www.watch.impress.co.jp/docs/series/tsukamoto/2139212.html?utm_source=lootura.com","publishedAt":"2026-09-17T03:24:06.591Z"},{"title":"【祝・27万再生突破】サッカーのポルトガル代表MFは「箱根駅伝」を一人で走りきれるのか：WOWOWしらべるTV","summary":"ヴィティーニャ、いったいどれだけ走るのか？ギズモードが制作するショート動画企画「WOWOWしらべるTV」。WOWOWサッカー officialのYouTubeチャンネルで公開中の「ヴィティーニャ編」は、ついに27万再生を突破しました。数字を…","source":"ギズモード・ジャパン","author":"尾田和実","category":"technology","url":"https://www.gizmodo.jp/article/vitinha-hakone-ekiden-running-distance/?utm_source=lootura.com","publishedAt":"2026-09-17T13:10:00.000Z"},{"title":"AIが乗客を検知しワンマン運転支援 パナと東急電鉄","summary":"東急電鉄とパナソニック コネクトは、AI画像解析技術を活用して、ワンマン運転を行なう運転士のドア閉扉判断を支援する「乗務員支援ホーム監視AIシステム」を、9月17日から東急東横線の各駅に順次導入する。対象は渋谷駅を除く代官山駅～横浜駅の20駅で、綱島駅から導入を開始する。","source":"インプレス","author":"清宮信志","category":"technology","url":"https://www.watch.impress.co.jp/docs/news/2141529.html?utm_source=lootura.com","publishedAt":"2026-09-17T03:24:06.591Z"},{"title":"OpenAIが広告スポンサードAIエージェントのテストを開始、企業がスポンサーとなるAIとチャットできる仕組み","summary":"スポンサーとなる企業の製品を積極的に宣伝するAI機能「Sponsored Agents」の提供が始まりました。","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-openai-sponsored-agents/?utm_source=lootura.com","publishedAt":"2026-09-17T03:10:00.000Z"},{"title":"キーボードはゲームのために作られていない…だから作った。手型の左手デバイスを #TGS2026","summary":"東京ゲームショウ2026で見つけた、ラトビア発の尖った左手デバイス「Azeron」を現地レポート。キーボードのWASD操作に不満を感じるゲーマー必見の革新的なサイボーグ型デバイスの魅力をお届けします。","source":"ギズモード・ジャパン","author":"ヤマダユウス型","category":"technology","url":"https://www.gizmodo.jp/article/azeron_cyborg2_keyzen_tgs2026/?utm_source=lootura.com","publishedAt":"2026-09-17T12:30:00.000Z"},{"title":"SK hynixがアメリカでのメモリ生産についてIntelと協議中との報道、SK hynixは「決定事項はない」と否定","summary":"韓国に本拠を置く半導体大手・SK hynixが、アメリカでの製品生産に向けてIntelと設備貸借の協議を行っていると、ロイターが関係者情報として報じました。なお、SK hynixは「報道されたような内容は一切確定していない」という声明を発表しています。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-sk-hynix-intel-on-memory-chip-production/?utm_source=lootura.com","publishedAt":"2026-09-17T03:05:00.000Z"},{"title":"焼きたてパンの詰め合わせに見えてきた。触り心地が気になる、美味しそうなキーキャップ #TGS2026","summary":"Akkoの「Bun Wonderland キーキャップセット」をはじめ、焼きたてパンやおまんじゅうのように見えるユニークなゲーミングデバイスを紹介。見ているだけでお腹が空きそうな可愛らしいデザインの魅力を伝えます。","source":"ギズモード・ジャパン","author":"武者良太","category":"technology","url":"https://www.gizmodo.jp/article/akko_bun-wonderland-key-cap_tgs2026/?utm_source=lootura.com","publishedAt":"2026-09-17T12:00:00.000Z"},{"title":"「10代のAI利用実態」をGoogleが分析して公開","summary":"AIアシスタントのGeminiなど多数のAIを開発するGoogleが、「10代の若者のAIに対する見解で知っておくべき5つのこと」を公式ブログで公開しました。 続きを読む...","source":"ギガジン","author":"","category":"technology","url":"https://gigazine.net/news/20260917-5-facts-teens-ai-google-study/?utm_source=lootura.com","publishedAt":"2026-09-17T02:57:00.000Z"}];
+const isEnglish = false;
+const isJapanese = true;
+const editionIds = ["es","us","za","mx","ar","jp"];
+
+		const root = document.querySelector('[data-signal-words-page]');
+		const form = document.querySelector('[data-signal-words-form]');
+		const input = document.querySelector('[data-signal-words-input]');
+		const termsRoot = document.querySelector('[data-signal-words-terms]');
+		const resultsRoot = document.querySelector('[data-signal-words-results]');
+		const preferencesKey = 'lootura.preferences.v1';
+		const maxWatchingTerms = 20;
+		const isEnglishPage = isEnglish;
+		const isJapanesePage = isJapanese;
+		const defaultCategories = ['politics', 'economy', 'sports', 'ai', 'culture'];
+
+		const escapeHtml = (value) =>
+			String(value || '')
+				.replaceAll('&', '&amp;')
+				.replaceAll('<', '&lt;')
+				.replaceAll('>', '&gt;')
+				.replaceAll('"', '&quot;')
+				.replaceAll("'", '&#039;');
+
+		const normalizeText = (value) =>
+			String(value || '')
+				.normalize('NFD')
+				.replace(/[\u0300-\u036f]/g, '')
+				.toLowerCase();
+
+		const getSearchTokens = (value) =>
+			normalizeText(value).match(/[\p{L}\p{N}]+/gu) || [];
+
+		const doesTextMatchTerm = (text, term) => {
+			const termTokens = getSearchTokens(term);
+			if (!termTokens.length) return false;
+			const textTokens = getSearchTokens(text);
+			return textTokens.some((token, index) =>
+				token === termTokens[0] && termTokens.every((termToken, offset) => textTokens[index + offset] === termToken)
+			);
+		};
+
+		const normalizeTerm = (term) => {
+			const normalizedTerm = String(term || '').replace(/\s+/g, ' ').trim();
+			return normalizedTerm.length >= 2 && normalizedTerm.length <= 40 ? normalizedTerm : '';
+		};
+
+		const readPreferences = () => {
+			try {
+				const value = JSON.parse(localStorage.getItem(preferencesKey) || 'null');
+				if (value && typeof value === 'object' && !Array.isArray(value)) return value;
+			} catch {}
+			return {};
+		};
+
+		const normalizePreferences = (preferences) => {
+			const categoriesByEdition = {};
+			const watchingByEdition = {};
+			for (const edition of editionIds) {
+				categoriesByEdition[edition] = Array.isArray(preferences.categoriesByEdition?.[edition])
+					? preferences.categoriesByEdition[edition]
+					: defaultCategories;
+				watchingByEdition[edition] = Array.isArray(preferences.watchingByEdition?.[edition])
+					? preferences.watchingByEdition[edition]
+					: [];
+			}
+			return {
+				selectedEdition: preferences.selectedEdition || locale,
+				categoriesByEdition,
+				watchingByEdition,
+			};
+		};
+
+		const getWatchingTerms = () => {
+			const preferences = normalizePreferences(readPreferences());
+			const seen = new Set();
+			return (preferences.watchingByEdition[locale] || [])
+				.map(normalizeTerm)
+				.filter((term) => {
+					const key = term.toLowerCase();
+					if (!term || seen.has(key)) return false;
+					seen.add(key);
+					return true;
+				})
+				.slice(0, maxWatchingTerms);
+		};
+
+		const writeWatchingTerms = (terms) => {
+			const preferences = normalizePreferences(readPreferences());
+			preferences.selectedEdition = locale;
+			preferences.watchingByEdition[locale] = terms.slice(0, maxWatchingTerms);
+			localStorage.setItem(preferencesKey, JSON.stringify(preferences));
+			window.dispatchEvent(new CustomEvent('lootura:preferences-updated', { detail: preferences }));
+		};
+
+		const getStorySearchText = (story) =>
+			normalizeText([
+				story.title,
+				story.summary,
+				story.source,
+				story.author,
+				story.category,
+			].join(' '));
+
+		const getMatchesByTerm = (terms) =>
+			terms.map((term) => {
+				const matches = stories
+					.filter((story) => doesTextMatchTerm(getStorySearchText(story), term))
+					.slice(0, 12);
+				return { term, matches };
+			});
+
+		const formatRelative = (value) => {
+			const time = new Date(value || '').getTime();
+			if (!Number.isFinite(time)) return '';
+			const minutes = Math.max(1, Math.round((Date.now() - time) / 60000));
+			if (isJapanesePage) {
+				if (minutes < 60) return `${minutes}分前`;
+				const hours = Math.round(minutes / 60);
+				if (hours < 48) return `${hours}時間前`;
+				const days = Math.round(hours / 24);
+				return `${days}日前`;
+			}
+			if (minutes < 60) return isEnglishPage ? `${minutes}m ago` : `hace ${minutes}min`;
+			const hours = Math.round(minutes / 60);
+			if (hours < 48) return isEnglishPage ? `${hours}h ago` : `hace ${hours}h`;
+			const days = Math.round(hours / 24);
+			return isEnglishPage ? `${days}d ago` : `hace ${days}d`;
+		};
+
+		const render = () => {
+			const terms = getWatchingTerms();
+			const matchesByTerm = getMatchesByTerm(terms);
+			const matchCount = matchesByTerm.reduce((total, group) => total + group.matches.length, 0);
+
+			if (termsRoot instanceof HTMLElement) {
+				termsRoot.innerHTML = terms.length
+					? terms.map((term) => `
+						<button class="inline-flex min-h-10 items-center gap-2 rounded-full border border-neutral-950/10 bg-neutral-950/[0.035] px-3 text-sm font-bold text-neutral-700 transition hover:bg-neutral-950/[0.06] focus:outline-none focus:ring-2 focus:ring-neutral-950/20" type="button" data-signal-word-remove="${escapeHtml(term)}">
+							<span>${escapeHtml(term)}</span>
+							<span aria-hidden="true"><svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></span>
+						</button>
+					`).join('')
+					: `<p class="text-sm font-medium leading-6 text-neutral-500">${isJapanesePage ? 'フォロー中の言葉はまだありません。' : isEnglishPage ? 'No followed words yet.' : 'Aún no sigues palabras.'}</p>`;
+			}
+
+			if (!(resultsRoot instanceof HTMLElement)) return;
+			root?.setAttribute('data-signal-words-match-count', String(matchCount));
+			if (terms.length === 0) {
+				resultsRoot.innerHTML = `<p class="text-sm font-medium leading-6 text-neutral-500">${isJapanesePage ? '言葉を追加すると、一致するリンクがここに出ます。' : isEnglishPage ? 'Add a word to see matching links here.' : 'Añade una palabra para ver enlaces aquí.'}</p>`;
+				return;
+			}
+			if (matchCount === 0) {
+				resultsRoot.innerHTML = `<p class="text-sm font-medium leading-6 text-neutral-500">${isJapanesePage ? '現在のリンクに一致するものはありません。' : isEnglishPage ? 'No current links match your words.' : 'No hay enlaces actuales con tus palabras.'}</p>`;
+				return;
+			}
+			resultsRoot.innerHTML = matchesByTerm
+				.filter((group) => group.matches.length > 0)
+				.map((group) => `
+					<section class="mb-8">
+						<p class="text-sm font-medium uppercase tracking-normal text-neutral-500">${escapeHtml(group.term)}</p>
+						<div class="mt-3 grid border-t border-neutral-950/10">
+							${group.matches.map((match) => `
+								<a class="grid gap-1 border-b border-neutral-950/10 py-4 text-neutral-950 no-underline transition hover:bg-neutral-950/[0.025] focus:outline-none focus:ring-2 focus:ring-neutral-950/20" href="${escapeHtml(match.url)}" target="_blank" rel="noopener noreferrer">
+									<span class="text-[11px] font-bold uppercase tracking-normal text-neutral-400">${escapeHtml([match.source, formatRelative(match.publishedAt)].filter(Boolean).join(' · '))}</span>
+									<strong class="text-lg font-semibold leading-snug text-neutral-950">${escapeHtml(match.title)}</strong>
+								</a>
+							`).join('')}
+						</div>
+					</section>
+				`).join('');
+		};
+
+		form?.addEventListener('submit', (event) => {
+			event.preventDefault();
+			if (!(input instanceof HTMLInputElement)) return;
+			const term = normalizeTerm(input.value);
+			if (!term) return;
+			const terms = getWatchingTerms();
+			const exists = terms.some((existingTerm) => existingTerm.toLowerCase() === term.toLowerCase());
+			if (!exists) writeWatchingTerms([term, ...terms]);
+			input.value = '';
+			render();
+		});
+
+		termsRoot?.addEventListener('click', (event) => {
+			const button = event.target instanceof Element ? event.target.closest('[data-signal-word-remove]') : null;
+			if (!(button instanceof HTMLElement)) return;
+			const term = button.getAttribute('data-signal-word-remove') || '';
+			writeWatchingTerms(getWatchingTerms().filter((item) => item !== term));
+			render();
+		});
+
+		window.addEventListener('storage', render);
+		window.addEventListener('pageshow', render);
+		render();
+	})();</script>  <section class="fixed inset-x-4 bottom-[calc(env(safe-area-inset-bottom,0px)+1rem)] z-[60] mx-auto max-w-sm border border-neutral-200 bg-white p-4 text-neutral-950 shadow-[0_18px_55px_rgba(10,10,10,0.16)] sm:inset-x-auto sm:right-6 sm:max-w-md" data-release-notice hidden role="status" aria-live="polite" aria-hidden="true" data-astro-cid-sckkx6r4> <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-neutral-500" data-release-eyebrow data-astro-cid-sckkx6r4> New version </p> <h2 class="mt-2 text-xl font-semibold leading-tight text-neutral-950" data-release-title data-astro-cid-sckkx6r4> Lootura has something new </h2> <p class="mt-2 text-sm leading-6 text-neutral-600" data-release-body data-astro-cid-sckkx6r4> The app was updated. Keep reading or see what changed. </p> <div class="mt-4 flex flex-wrap items-center gap-3" data-astro-cid-sckkx6r4> <button class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" type="button" data-release-refresh hidden data-astro-cid-sckkx6r4> Update </button> <a class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" href="/updates" data-release-updates data-astro-cid-sckkx6r4> What&#39;s new </a> <button class="inline-flex min-h-11 items-center justify-center border border-neutral-200 bg-white px-4 text-sm font-semibold text-neutral-700" type="button" data-release-dismiss data-astro-cid-sckkx6r4> Not now </button> </div> </section>  <script>(function(){const baseUrl = "/";
+const isProduction = true;
+const currentAppBuild = {"version":"1.13.0","build":945001};
+
+	const pwaDevOverrideKey = 'lootura:pwa-dev-override';
+	const getIsPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+	const applyPwaRuntime = () => {
+		const isPwaRuntime = Boolean(getIsPwaRuntime());
+		document.documentElement.classList.toggle('pwa-runtime', isPwaRuntime);
+		window.dispatchEvent(new CustomEvent('lootura:pwa-runtime-changed', { detail: { isPwaRuntime } }));
+		return isPwaRuntime;
+	};
+
+	if (!isProduction) {
+		const params = new URLSearchParams(window.location.search);
+		const pwaOverride = params.get('pwa');
+		if (pwaOverride === '1' || pwaOverride === '0') {
+			if (pwaOverride === '1') {
+				sessionStorage.setItem(pwaDevOverrideKey, 'true');
+			} else {
+				sessionStorage.removeItem(pwaDevOverrideKey);
+			}
+			const cleanUrl = new URL(window.location.href);
+			cleanUrl.searchParams.delete('pwa');
+			window.history.replaceState({}, '', cleanUrl);
+		}
+	}
+	applyPwaRuntime();
+
+	if (!isProduction) {
+		const devModeOptions = Array.from(document.querySelectorAll('[data-dev-pwa-mode-option]'));
+		const syncDevModeOptions = () => {
+			const mode = sessionStorage.getItem(pwaDevOverrideKey) === 'true' ? 'pwa' : 'page';
+			devModeOptions.forEach((option) => {
+				option.checked = option.value === mode;
+			});
+		};
+		devModeOptions.forEach((option) => {
+			option.addEventListener('change', () => {
+				if (option.value === 'pwa') {
+					sessionStorage.setItem(pwaDevOverrideKey, 'true');
+				} else {
+					sessionStorage.removeItem(pwaDevOverrideKey);
+				}
+				applyPwaRuntime();
+				syncDevModeOptions();
+			});
+		});
+		syncDevModeOptions();
+	}
+
+	document.documentElement.classList.remove('dark');
+	document.documentElement.style.colorScheme = 'light';
+
+	const getAbsoluteImageUrl = (value) => {
+		try {
+			return new URL(value || '', document.baseURI).href;
+		} catch {
+			return '';
+		}
+	};
+
+	const getImageFallbackCandidates = (image) => [
+		image.dataset.fallbackImage || image.dataset.fallbackBackground || '',
+		image.dataset.finalFallbackImage || '',
+	].filter(Boolean);
+
+	const revealAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		if (!image.matches('[data-app-image], [data-news-image]')) return;
+		image.dataset.loaded = 'true';
+		image.dataset.imageError = 'false';
+	};
+
+	const recoverAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		const candidates = getImageFallbackCandidates(image);
+		const currentUrl = image.currentSrc || image.src || '';
+		const nextFallback = candidates.find((candidate) => {
+			const fallbackUrl = getAbsoluteImageUrl(candidate);
+			return fallbackUrl && fallbackUrl !== currentUrl;
+		});
+
+		if (nextFallback) {
+			image.dataset.imageRecovered = 'true';
+			image.dataset.loaded = 'false';
+			image.src = nextFallback;
+			return;
+		}
+
+		if (image.hasAttribute('data-remove-on-error')) {
+			image.remove();
+			return;
+		}
+
+		image.dataset.imageError = 'true';
+	};
+
+	document.addEventListener('load', (event) => revealAppImage(event.target), true);
+	document.addEventListener('error', (event) => recoverAppImage(event.target), true);
+	for (const image of document.querySelectorAll('img[data-app-image], img[data-news-image]')) {
+		if (!(image instanceof HTMLImageElement) || !image.complete) continue;
+		if (image.naturalWidth > 0) {
+			revealAppImage(image);
+		} else {
+			recoverAppImage(image);
+		}
+	}
+
+	const isLooturaPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+
+	const releaseSeenBuildKey = 'lootura:app-release:last-seen-build';
+	const releaseSeenVersionKey = 'lootura:app-release:last-seen-version';
+	const releaseSnoozedUntilKey = 'lootura:app-release:snoozed-until';
+	const updatesSeenVersionKey = 'lootura:updates:last-seen-version';
+	const releasePendingKey = 'lootura:release-notice:pending';
+	const refreshAtLaunchKey = 'lootura:refresh-at-launch';
+	const releaseNotice = document.querySelector('[data-release-notice]');
+	const releaseEyebrow = releaseNotice?.querySelector('[data-release-eyebrow]');
+	const releaseTitle = releaseNotice?.querySelector('[data-release-title]');
+	const releaseBody = releaseNotice?.querySelector('[data-release-body]');
+	const releaseRefreshButton = releaseNotice?.querySelector('[data-release-refresh]');
+	const releaseUpdatesLink = releaseNotice?.querySelector('[data-release-updates]');
+	const releaseDismissButton = releaseNotice?.querySelector('[data-release-dismiss]');
+	let releaseNoticeTimer = 0;
+	let lastPublishedBuild = null;
+	let isReloadingForUpdate = false;
+
+	const getBuildId = (build) => {
+		const version = String(build?.version || '').trim();
+		const number = Number(build?.build || 0);
+		return version && Number.isFinite(number) && number > 0 ? `${version}:${number}` : '';
+	};
+	const currentBuildId = getBuildId(currentAppBuild);
+	const currentVersion = String(currentAppBuild?.version || '').trim();
+
+	const getLastSeenReleaseVersion = () => {
+		try {
+			const releaseSeenVersion = localStorage.getItem(releaseSeenVersionKey) || '';
+			const updatesSeenVersion = localStorage.getItem(updatesSeenVersionKey) || '';
+			const legacySeenBuild = localStorage.getItem(releaseSeenBuildKey) || '';
+			const legacySeenVersion = legacySeenBuild.includes(':') ? legacySeenBuild.split(':')[0] : '';
+			return releaseSeenVersion || updatesSeenVersion || legacySeenVersion;
+		} catch {
+			return '';
+		}
+	};
+
+	const markReleaseVersionSeen = () => {
+		if (!currentVersion) return;
+		try {
+			localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			localStorage.setItem(updatesSeenVersionKey, currentVersion);
+			localStorage.removeItem(releaseSnoozedUntilKey);
+			sessionStorage.removeItem(releasePendingKey);
+		} catch {}
+	};
+
+	const getNextLocalDayIso = () => {
+		const now = new Date();
+		return new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).toISOString();
+	};
+
+	const snoozeReleaseNoticeUntilTomorrow = () => {
+		try {
+			localStorage.setItem(releaseSnoozedUntilKey, getNextLocalDayIso());
+		} catch {}
+	};
+
+	const isReleaseNoticeSnoozed = () => {
+		try {
+			const snoozedUntil = new Date(localStorage.getItem(releaseSnoozedUntilKey) || '').getTime();
+			return Number.isFinite(snoozedUntil) && snoozedUntil > Date.now();
+		} catch {
+			return false;
+		}
+	};
+
+	const getLocalizedUpdatesPath = () => {
+		const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+		const pathWithoutBase = window.location.pathname.startsWith(normalizedBaseUrl)
+			? window.location.pathname.slice(normalizedBaseUrl.length)
+			: window.location.pathname.replace(/^\//, '');
+		const firstSegment = pathWithoutBase.split('/').filter(Boolean)[0];
+		const locale = firstSegment === 'us' ? 'us' : 'es';
+		return `${normalizedBaseUrl}${locale}/updates`;
+	};
+
+	const rememberPendingRelease = (publishedBuild) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		try {
+			sessionStorage.setItem(
+				releasePendingKey,
+				JSON.stringify({
+					id: publishedBuildId,
+					version: String(publishedBuild?.version || ''),
+					build: Number(publishedBuild?.build || 0),
+				}),
+			);
+		} catch {}
+	};
+
+	const getPendingRelease = () => {
+		try {
+			const pendingRelease = JSON.parse(sessionStorage.getItem(releasePendingKey) || 'null');
+			return pendingRelease?.id === currentBuildId ? pendingRelease : null;
+		} catch {
+			return null;
+		}
+	};
+
+	const isReleaseNoticeBlocked = () =>
+		sessionStorage.getItem(refreshAtLaunchKey) === 'true' ||
+		Boolean(document.querySelector('[data-feed-refresh-overlay][data-visible]')) ||
+		Boolean(document.querySelector('[data-while-you-were-away-card][data-open="true"]')) ||
+		Boolean(document.querySelector('[data-signal-install-nudge]:not([hidden])')) ||
+		Boolean(document.querySelector('[role="dialog"][aria-modal="true"]:not([hidden]):not(.hidden):not([aria-hidden="true"])'));
+
+	const clearServiceWorkerCaches = async () => {
+		if (!window.caches?.keys) return;
+		const keys = await window.caches.keys();
+		await Promise.all(keys.filter((key) => key.startsWith('lootura-')).map((key) => window.caches.delete(key)));
+	};
+
+	const reloadForPublishedBuild = async () => {
+		if (isReloadingForUpdate) return;
+		isReloadingForUpdate = true;
+		try {
+			await clearServiceWorkerCaches();
+		} catch {}
+		window.location.reload();
+	};
+
+	const setReleaseNoticeMode = (mode) => {
+		const isSpanish = document.documentElement.lang?.startsWith('es');
+		const copy = mode === 'update'
+			? {
+					eyebrow: isSpanish ? 'Nueva versión disponible' : 'New version available',
+					title: isSpanish ? 'Actualiza Lootura' : 'Update Lootura',
+					body: isSpanish
+						? 'Hay una versión nueva lista. Actualiza la PWA para cargarla antes de ver las novedades.'
+						: 'A new version is ready. Update the PWA to load it before reading what changed.',
+				}
+			: {
+					eyebrow: isSpanish ? 'Nueva versión' : 'New version',
+					title: isSpanish ? 'Hay algo nuevo en Lootura' : 'Lootura has something new',
+					body: isSpanish
+						? 'La app se ha actualizado. Puedes seguir leyendo o ver los cambios.'
+						: 'The app was updated. Keep reading or see what changed.',
+				};
+
+		if (releaseEyebrow) releaseEyebrow.textContent = copy.eyebrow;
+		if (releaseTitle) releaseTitle.textContent = copy.title;
+		if (releaseBody) releaseBody.textContent = copy.body;
+		if (releaseRefreshButton) releaseRefreshButton.hidden = mode !== 'update';
+		if (releaseUpdatesLink) releaseUpdatesLink.hidden = mode === 'update';
+		if (releaseNotice) releaseNotice.dataset.mode = mode;
+	};
+
+	const hideReleaseNotice = () => {
+		window.clearTimeout(releaseNoticeTimer);
+		if (!releaseNotice) return;
+		releaseNotice.hidden = true;
+		releaseNotice.dataset.visible = 'false';
+		releaseNotice.setAttribute('aria-hidden', 'true');
+	};
+
+	const showReleaseNotice = (mode = 'notes') => {
+		if (!releaseNotice || !currentBuildId || !currentVersion || releaseNotice.dataset.visible === 'true') return;
+
+		if (mode === 'notes') {
+			try {
+				sessionStorage.removeItem(releasePendingKey);
+			} catch {}
+		}
+
+		setReleaseNoticeMode(mode);
+		releaseUpdatesLink?.setAttribute('href', getLocalizedUpdatesPath());
+		releaseNotice.hidden = false;
+		releaseNotice.dataset.visible = 'true';
+		releaseNotice.setAttribute('aria-hidden', 'false');
+		window.umami?.track?.('Show PWA release notice', { version: currentVersion, build: currentBuildId, mode });
+	};
+
+	const maybeShowReleaseNotice = (attempt = 0) => {
+		if (!isProduction || !currentBuildId || !currentVersion) return;
+
+		let lastSeenVersion = '';
+		try {
+			lastSeenVersion = getLastSeenReleaseVersion();
+		} catch {}
+
+		const pendingRelease = getPendingRelease();
+		const hasUnseenVersion = Boolean(lastSeenVersion && lastSeenVersion !== currentVersion);
+		const cameFromPendingRelease = Boolean(pendingRelease && pendingRelease.version === currentVersion);
+		const shouldShowReleaseNotice = cameFromPendingRelease || (hasUnseenVersion && (!pendingRelease || pendingRelease.version === currentVersion));
+
+		if (!lastSeenVersion && !pendingRelease) {
+			try {
+				localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			} catch {}
+			return;
+		}
+
+		if (!shouldShowReleaseNotice) return;
+		if (isReleaseNoticeSnoozed()) return;
+
+		if (!isLooturaPwaRuntime()) {
+			return;
+		}
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseNotice(attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice();
+	};
+
+	const maybeShowReleaseUpdateNotice = (publishedBuild, attempt = 0) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!isProduction || !publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		lastPublishedBuild = publishedBuild;
+		rememberPendingRelease(publishedBuild);
+
+		if (isReleaseNoticeSnoozed()) return;
+		if (!isLooturaPwaRuntime()) return;
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseUpdateNotice(publishedBuild, attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice('update');
+	};
+
+	releaseDismissButton?.addEventListener('click', () => {
+		snoozeReleaseNoticeUntilTomorrow();
+		hideReleaseNotice();
+	});
+	releaseRefreshButton?.addEventListener('click', () => {
+		const publishedBuild = lastPublishedBuild || getPendingRelease();
+		if (publishedBuild) rememberPendingRelease(publishedBuild);
+		reloadForPublishedBuild();
+	});
+	releaseUpdatesLink?.addEventListener('click', () => {
+		markReleaseVersionSeen();
+		hideReleaseNotice();
+	});
+	window.addEventListener('lootura:queue-refreshed', () => {
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+	window.addEventListener('lootura:pwa-runtime-changed', () => maybeShowReleaseNotice());
+	window.addEventListener('pageshow', () => maybeShowReleaseNotice());
+	document.addEventListener('visibilitychange', () => {
+		if (document.visibilityState === 'visible') maybeShowReleaseNotice();
+	});
+
+	const syncLooturaPwaRuntime = () => {
+		document.documentElement.classList.toggle('pwa-runtime', Boolean(isLooturaPwaRuntime()));
+	};
+
+	syncLooturaPwaRuntime();
+	window.addEventListener('appinstalled', syncLooturaPwaRuntime);
+	window.addEventListener('pageshow', syncLooturaPwaRuntime);
+	window.addEventListener('focus', syncLooturaPwaRuntime);
+
+	const detectLooturaClient = () => {
+		const userAgent = navigator.userAgent;
+		const isStandalone = isLooturaPwaRuntime();
+		const userAgentDataPlatform = navigator.userAgentData?.platform || '';
+		const legacyPlatform = navigator.platform || '';
+		const maxTouchPoints = navigator.maxTouchPoints || 0;
+		const platform = (() => {
+			if (/Android/i.test(userAgentDataPlatform) || /Android/i.test(userAgent)) return 'android';
+			if (/iPad|iPhone|iPod/i.test(userAgent) || /iPad|iPhone|iPod/i.test(legacyPlatform)) return 'ios';
+			if (/Mac/i.test(userAgentDataPlatform || legacyPlatform) && maxTouchPoints > 1) return 'ios';
+			return 'desktop';
+		})();
+		const browser = (() => {
+			if (/CriOS/i.test(userAgent)) return 'Chrome iOS';
+			if (/FxiOS/i.test(userAgent)) return 'Firefox iOS';
+			if (/EdgiOS/i.test(userAgent)) return 'Edge iOS';
+			if (/Edg/i.test(userAgent)) return 'Edge';
+			if (/OPR|Opera/i.test(userAgent)) return 'Opera';
+			if (/Chrome|Chromium|CriOS/i.test(userAgent)) return 'Chrome';
+			if (/Safari/i.test(userAgent)) return 'Safari';
+			if (/Firefox/i.test(userAgent)) return 'Firefox';
+			return 'Other';
+		})();
+
+		return {
+			appMode: isStandalone ? 'pwa' : 'browser',
+			platform,
+			browser,
+		};
+	};
+
+	const trackLooturaContext = (attempt = 0) => {
+		if (!window.umami) {
+			if (attempt < 20) window.setTimeout(() => trackLooturaContext(attempt + 1), 250);
+			return;
+		}
+
+		const context = detectLooturaClient();
+		window.looturaClient = context;
+		window.umami.identify?.(context);
+
+		const sessionKey = `lootura:context-tracked:${context.appMode}:${context.platform}:${context.browser}`;
+		if (!sessionStorage.getItem(sessionKey)) {
+			sessionStorage.setItem(sessionKey, 'true');
+			window.umami.track?.('App context', context);
+		}
+	};
+
+	const lockPortraitOrientation = async () => {
+		const orientationApi = screen.orientation;
+		if (!isLooturaPwaRuntime() || !orientationApi?.lock) return;
+
+		try {
+			await orientationApi.lock('portrait-primary');
+		} catch {
+			// iOS Safari and some browsers ignore orientation lock for web apps.
+		}
+	};
+
+	const enforcePortraitOrientation = () => {
+		lockPortraitOrientation();
+
+		window.addEventListener('focus', lockPortraitOrientation);
+		window.addEventListener('pageshow', lockPortraitOrientation);
+		window.addEventListener('orientationchange', lockPortraitOrientation);
+		screen.orientation?.addEventListener?.('change', lockPortraitOrientation);
+		document.addEventListener('visibilitychange', () => {
+			if (document.visibilityState === 'visible') lockPortraitOrientation();
+		});
+	};
+
+	if (!isProduction && 'serviceWorker' in navigator) {
+		navigator.serviceWorker.getRegistrations?.().then((registrations) => {
+			registrations.forEach((registration) => registration.unregister());
+		});
+	}
+
+	if (isProduction && 'serviceWorker' in navigator) {
+		window.addEventListener('load', () => {
+			const reloadForUpdate = () => {
+				if (isReloadingForUpdate) return;
+				isReloadingForUpdate = true;
+				window.location.reload();
+			};
+			const checkPublishedBuild = async () => {
+				try {
+					const response = await fetch(`${baseUrl}app-build.json?ts=${Date.now()}`, {
+						cache: 'no-store',
+						headers: { accept: 'application/json' },
+					});
+					if (!response.ok) return;
+					const publishedBuild = await response.json();
+					const publishedBuildId = getBuildId(publishedBuild);
+					if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+					maybeShowReleaseUpdateNotice(publishedBuild);
+				} catch {
+					// Update checks should never block normal reading.
+				}
+			};
+
+			navigator.serviceWorker.addEventListener('controllerchange', reloadForUpdate);
+
+			navigator.serviceWorker
+				.register(`${baseUrl}sw.js`, { updateViaCache: 'none' })
+				.then((registration) => {
+					const checkForUpdates = () => registration.update().catch(() => {});
+
+					checkForUpdates();
+					checkPublishedBuild();
+					window.setInterval(checkForUpdates, 60_000);
+					window.setInterval(checkPublishedBuild, 60_000);
+					window.addEventListener('focus', checkForUpdates);
+					window.addEventListener('focus', checkPublishedBuild);
+					document.addEventListener('visibilitychange', () => {
+						if (document.visibilityState === 'visible') {
+							checkForUpdates();
+							checkPublishedBuild();
+						}
+					});
+				})
+				.catch(() => {});
+		});
+	}
+
+	window.addEventListener('load', () => {
+		trackLooturaContext();
+		enforcePortraitOrientation();
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+})();</script></body></html>
