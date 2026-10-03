@@ -1,0 +1,713 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-sckkx6r4> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0a0a0a"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Lootura"><meta name="generator" content="Astro v6.1.8"><title>Lootura | Signal</title><link rel="canonical" href="https://lootura.com/za/signal/"><link rel="alternate" hreflang="es-ES" href="https://lootura.com/es/signal/"><link rel="alternate" hreflang="en-US" href="https://lootura.com/us/signal/"><link rel="alternate" hreflang="en-ZA" href="https://lootura.com/za/signal/"><link rel="alternate" hreflang="es-MX" href="https://lootura.com/mx/signal/"><link rel="alternate" hreflang="es-AR" href="https://lootura.com/ar/signal/"><link rel="alternate" hreflang="ja-JP" href="https://lootura.com/jp/signal/"><link rel="alternate" hreflang="x-default" href="https://lootura.com/"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://lootura.com/#organization","name":"Lootura","url":"https://lootura.com","logo":"https://lootura.com/favicon.svg"},{"@type":"WebSite","@id":"https://lootura.com/#website","name":"Lootura","url":"https://lootura.com","description":"Lootura is a quiet news and signal reader that turns live headlines from real sources into finite regional covers and evidence-backed signals.","publisher":{"@id":"https://lootura.com/#organization"},"inLanguage":["es","en","ja"]},{"@type":"WebApplication","@id":"https://lootura.com/#app","name":"Lootura","url":"https://lootura.com","description":"Lootura is a quiet news and signal reader that turns live headlines from real sources into finite regional covers and evidence-backed signals.","applicationCategory":"NewsApplication","operatingSystem":"Any","isAccessibleForFree":true,"publisher":{"@id":"https://lootura.com/#organization"}}]}</script><style>
+			html,
+			body {
+				margin: 0;
+				width: 100%;
+				min-height: 100%;
+				background: #0a0a0a;
+				color-scheme: light;
+			}
+		</style> <meta name="description" content="Lootura Signal groups news movements that are gaining weight across multiple sources."> <meta property="og:type" content="website"> <meta property="og:site_name" content="Lootura"> <meta property="og:title" content="Lootura | Signal"> <meta property="og:description" content="Lootura Signal groups news movements that are gaining weight across multiple sources."> <meta property="og:url" content="https://lootura.com/za/signal/"> <meta name="twitter:card" content="summary"> <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","@id":"https://lootura.com/za/signal/#collection","name":"Lootura | Signal","description":"Lootura Signal groups news movements that are gaining weight across multiple sources.","url":"https://lootura.com/za/signal/","inLanguage":"en","isPartOf":{"@id":"https://lootura.com/#website"},"publisher":{"@id":"https://lootura.com/#organization"}}</script> <script>(function(){const supportedLocales = ["es","us","za","mx","ar","jp"];
+const editionAliases = {"es":"es","spain":"es","us":"us","usa":"us","united-states":"us","za":"za","south-africa":"za","south_africa":"za","south africa":"za","mx":"mx","mexico":"mx","méxico":"mx","ar":"ar","argentina":"ar","jp":"jp","japan":"jp","japon":"jp","japón":"jp","nihon":"jp","nippon":"jp"};
+
+			(() => {
+				const cleanupVersionKey = 'lootura:storage-cleanup-version';
+				const cleanupVersion = '2026-05-18-editions-config';
+				const maxSeenNewsItems = 600;
+				const seenNewsLifetimeMs = 30 * 24 * 60 * 60 * 1000;
+				const editionPattern = supportedLocales.map((edition) => edition.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+				const allowedEditionIds = new Set(supportedLocales);
+				const booleanKeys = new Set([
+					'lootura:browser-intro-seen',
+					'lootura:editions-promo-seen',
+					'lootura:install-accepted',
+					'lootura:signal:intro-any-seen',
+					'lootura:signal:install-nudge-dismissed:v1',
+					'lootura:signal:install-nudge-ready:v1',
+					'lootura:swipe-hint-seen',
+				]);
+				const numberKeys = new Set([
+					'lootura:signal:browser-open-count:v1',
+					'lootura:signal:install-nudge-dismiss-count:v1',
+				]);
+				const dateKeys = new Set([
+					'lootura:install-gate-action-at',
+					'lootura:install-gate-seen-at',
+					'lootura:last-active-at',
+				]);
+				const allowedExactKeys = new Set([
+					cleanupVersionKey,
+					'lootura.preferences.v1',
+					'lootura:editorial',
+					'lootura:app-release:last-seen-build',
+					'lootura:app-release:last-seen-version',
+					'lootura:app-release:snoozed-until',
+					'lootura:refresh-at-launch',
+					'lootura:seen-news:v1',
+					'lootura:updates:last-seen-version',
+					...booleanKeys,
+					...numberKeys,
+					...dateKeys,
+				]);
+				const allowedPatternKeys = [
+					new RegExp(`^lootura:calm-mode:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:saved-stories:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:signal:intro:v1:(${editionPattern}|global)$`),
+					new RegExp(`^lootura:signal:seen:v1:(${editionPattern}|global)$`),
+				];
+
+				const isValidDate = (value) => Number.isFinite(new Date(value || '').getTime());
+				const removeItem = (key) => localStorage.removeItem(key);
+				const writeJson = (key, value) => localStorage.setItem(key, JSON.stringify(value));
+				const isAllowedLooturaKey = (key) =>
+					allowedExactKeys.has(key) || allowedPatternKeys.some((pattern) => pattern.test(key));
+
+				const compactSeenNews = (key) => {
+					const value = localStorage.getItem(key);
+					const seen = JSON.parse(value || '{}');
+					const now = Date.now();
+					const entries = Array.isArray(seen)
+						? seen.map((id) => [id, now])
+						: Object.entries(seen || {});
+					const compactSeen = Object.fromEntries(
+						entries
+							.map(([id, firstSeenAt]) => [String(id || ''), Number(firstSeenAt)])
+							.filter(
+								([id, firstSeenAt]) =>
+									id &&
+									Number.isFinite(Number(firstSeenAt)) &&
+									now - Number(firstSeenAt) < seenNewsLifetimeMs,
+							)
+							.sort(([, firstSeenAt], [, secondSeenAt]) => Number(secondSeenAt) - Number(firstSeenAt))
+							.slice(0, maxSeenNewsItems),
+					);
+					writeJson(key, compactSeen);
+				};
+
+				try {
+					if (localStorage.getItem(cleanupVersionKey) === cleanupVersion) return;
+
+					for (const key of Object.keys(localStorage)) {
+						if (!key.startsWith('lootura:')) continue;
+
+						try {
+							const value = localStorage.getItem(key) || '';
+							if (!isAllowedLooturaKey(key)) {
+								removeItem(key);
+							} else if (key === 'lootura:editorial' && !allowedEditionIds.has(value)) {
+								removeItem(key);
+							} else if (key === 'lootura:seen-news:v1') {
+								compactSeenNews(key);
+							} else if (booleanKeys.has(key) && value !== 'true') {
+								removeItem(key);
+							} else if (numberKeys.has(key) && !Number.isFinite(Number(value))) {
+								removeItem(key);
+							} else if (dateKeys.has(key) && !isValidDate(value)) {
+								removeItem(key);
+							}
+						} catch {
+							removeItem(key);
+						}
+					}
+
+					localStorage.setItem(cleanupVersionKey, cleanupVersion);
+				} catch {
+					// Storage can be unavailable in restrictive browser modes.
+				}
+			})();
+		})();</script><script type="module">(()=>{const e=window.matchMedia("(display-mode: standalone)").matches||window.matchMedia("(display-mode: fullscreen)").matches||window.matchMedia("(display-mode: minimal-ui)").matches||window.navigator.standalone||document.referrer.startsWith("android-app://")||sessionStorage.getItem("lootura:pwa-dev-override")==="true";document.documentElement.classList.toggle("pwa-runtime",!!e)})();</script><script type="module">document.documentElement.style.colorScheme="light";</script><script defer src="https://cloud.umami.is/script.js" data-website-id="1e408cbd-a16c-43ee-b404-35aa97b38c93"></script><link rel="stylesheet" href="/_astro/Layout.DiDmPC-X.css">
+<link rel="stylesheet" href="/_astro/index@_@astro.C7wUpJNn.css"></head> <body data-astro-cid-sckkx6r4>   <main class="relative min-h-svh bg-neutral-950 text-white" data-signal-route data-astro-cid-6mwaqle5> <a class="safe-top-fab fixed left-4 z-50 inline-flex h-12 w-12 items-center justify-center rounded-full bg-black/18 text-white shadow-[0_10px_28px_rgba(0,0,0,0.34)] backdrop-blur-[2px] transition hover:scale-105 hover:bg-black/24 focus:outline-none focus:ring-2 focus:ring-white/70 active:bg-black/28 sm:left-6" href="/za/" aria-label="Back to news" data-signal-home-link data-astro-cid-6mwaqle5> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.35" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-6mwaqle5="true" class="lucide lucide-x"> <path d="M18 6 6 18"></path><path d="m6 6 12 12"></path>  </svg> </a> <p class="safe-top-fab pointer-events-none fixed left-1/2 z-50 flex h-12 -translate-x-1/2 items-center justify-center text-[13px] font-semibold uppercase tracking-normal text-white/82" data-signal-header-title data-astro-cid-6mwaqle5> Signals </p> <a class="safe-top-fab fixed right-4 z-50 inline-flex h-12 min-w-24 items-center gap-2 rounded-full border border-white/10 bg-black/14 px-4 text-white shadow-[0_10px_28px_rgba(0,0,0,0.26)] backdrop-blur-[2px] transition hover:bg-black/22 focus:outline-none focus:ring-2 focus:ring-white/70 active:bg-black/26 sm:right-6 desktop-gate:hidden" href="/za/signal/words/" aria-label="Open followed words" data-signal-words-entry data-signal-words-locale="za"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-tags"> <path d="M13.172 2a2 2 0 0 1 1.414.586l6.71 6.71a2.4 2.4 0 0 1 0 3.408l-4.592 4.592a2.4 2.4 0 0 1-3.408 0l-6.71-6.71A2 2 0 0 1 6 9.172V3a1 1 0 0 1 1-1z"></path><path d="M2 7v6.172a2 2 0 0 0 .586 1.414l6.71 6.71a2.4 2.4 0 0 0 3.191.193"></path><circle cx="10.5" cy="6.5" r=".5" fill="currentColor"></circle>  </svg> <span class="text-[13px] font-semibold tracking-normal">Words</span> <span class="hidden min-w-5 rounded-full bg-teal-300 px-1.5 py-0.5 text-center text-[10px] font-black leading-none text-neutral-950 shadow-[0_0_18px_rgba(20,241,201,0.72)]" data-signal-words-count></span> </a> <script>(function(){const locale = "za";
+const stories = [{"title":"Daily fragment: Ajka alumina plant accident","summary":"The Ajka plant accident in Hungary releases a million cubic metres of liquid alumina sludge, killing nine, injuring 122, and severely contaminating two major rivers.","source":"Lootura Daily","author":"","category":"history"},{"title":"HISTORY AND HERITAGE: Joburg: a city that leapt to life and still clings on","summary":"From a dusty mining camp thrown together after the discovery of gold in 1886, Johannesburg grew at breakneck speed into SA’s economic powerhouse. As the city turns 140, Daily Maverick looks back at its extraordinary beginnings, the city it has become and the people trying to breathe some new life into it.","source":"Daily Maverick","author":"Anna Cox","category":"analysis"},{"title":"Mosimane expected to make wholesale changes for Egypt clash","summary":"Bafana Bafana Coach, Pitso Mosimane is expected to make wholesale changes to his team when they face Egypt in an international friendly at the Cairo International Stadium on Sunday evening. Mosimane is looking for his third win in a row with Bafana Bafana after winning his two opening qualifying matches of the 2027 Africa Cup of Nations against Guinea and Eritrea within a space of four days. The international friendly against Egypt will be the last of the extended three-match camp. Mosimane says it has always been his intention to give a run to all the members of the team at some stage. Mosimane has pleaded for patience and support from the fans for the new young players as he builds a team for the 2030 FIFA World Cup. Puso Dithejane, Yanela Mbuthuma, Cassius Mailula, and Shandre Campbell are some of the players likely to get a run against Egypt on Sunday. Related video| Pitso Mosimane’s tenure off to a winning start:","source":"SABC News","author":"Buhle Sibanyoni","category":"general"},{"title":"Gauteng targeting safer, smarter transport to support future growth","summary":"Transport is the lifeblood of Gauteng’s economy and a fundamental enabler of opportunity, inclusion and development.","source":"Daily Maverick","author":"Kedibone Diale-Tlabela","category":"analysis"},{"title":"MK Party supporters disappointed as Zuma skips uMhlathuze rally","summary":"MK Party supporters in UMhlathuze have been left disappointed after party president Jacob Zuma failed to attend Saturday’s rally. Zuma’s face appeared on posters promoting the rally, but he was a no-show. Before the party’s KZN leader, Willie Mchunu, took to the podium, several speakers were repeatedly interrupted by supporters demanding to know, “Ukuphi uZuma?” Where is Zuma? The mood grew increasingly tense, with some supporters visibly angry and others voicing their frustration despite attempts to control the crowd. Mchunu later apologized to supporters on Zuma’s behalf and addressed the crowd in an attempt to calm tensions, saying that Zuma will not always be able to attend all party activities. “I had an opportunity to speak with the office of the president, and they explained why and how he was not able to come to this planned engagement. I understood that explanation, and that explanation made us take another decision as provisional leadership, that we will need to meet with the leadership of this region and explain to them why the president couldn’t come.” MK Party supporters from uMhlathuze and other parts of the King Cetshwayo District have gathered at Esikhawini College Sports Grounds, where they are singing and dancing ahead of Jacob Zuma’s arrival. The party is campaigning to take control of uMhlathuze Municipality in the… pic.twitter.com/9GZ1l4EJEr — SABC News (@SABCNews) October 3, 2026 The MK Party has strengthened its campaign as it seeks to take control of uMhlathuze Municipality in the upcoming local government elections. The party’s Secretary General, Sibonelo Nomvalo, has urged the locals to go out in their numbers to vote on the 4th of November. “Come the 5th of November, we will start here in KwaZulu-Natal and take a lot of municipalities because the people we trusted to lead us and free us from poverty have forgotten about us, the voters. They only remember themselves and their families.” MK Party supporters have gathered at Esikhawini College Sports Grounds in uMhlathuze for a mini rally led by the party’s KZN provincial leader, Willis Mchunu. Supporters from across the King Cetshwayo District say they will take control of uMhlathuze Municipality #sabcnews pic.twitter.com/gLEK91i3hr — Gcinokuhle Malinga (@Logic_Malinga) October 3, 2026 Zuma to address MK Party mini rally in uMhlathuze Reporting: Gcinokuhle Malinga","source":"SABC News","author":"Wendy Mothata","category":"general"},{"title":"SA’s ransomware problem is hiding a much bigger issue","summary":"Cartrack, RelyComply, ATNS. The recent cyber incidents mostly look like crime. That is where the question starts, not where it ends.","source":"Daily Maverick","author":"Nathan-Ross Adams","category":"analysis"},{"title":"‘Social media restrictions needed to protect children’","summary":"North West University Speech Language Therapist, Linique Hanekom, says social media restrictions are needed to protect children from harmful content and screen time limitations could also be considered. She says she agrees with the South African government that banning social media for children under the age of 16 is not the answer. Communications Minister, Solly Malatsi, is reported to have said earlier last month that the government did not have plans to introduce such a ban. Australia was the first country in the world to introduce the ban. Hanekom says alternative methods might work better. “Children have only a limited amount of time in a day. So, if an hour, let’s say, has been (spent on) scrolling on social media, that is an hour that they aren’t necessarily spending talking to a parent or playing outside or engaging in imaginative play or reading a book or even interacting with another child. And we know that development actually happens in those experiences,” says Hanekom. Related video| More countries considering a ban on under-16s using social media: ;","source":"SABC News","author":"Buhle Sibanyoni","category":"general"},{"title":"POLITICALLY AWEH: What happened in SA — Afrikaner ‘refugees’ return, tearjerker onion prices and more","summary":"It’s been a difficult week for Afrikaner ‘refugees’ and fans of onions. This week’s Politically Aweh episode covers a ‘genocide’ so unconvincing its own refugees came home for the healthcare, plus a murder count in Ekurhuleni that keeps climbing.","source":"Daily Maverick","author":"Politically Aweh","category":"analysis"},{"title":"Malema calls for lower electricity prices in SA","summary":"Economic Freedom Fighters (EFF) leader Julius Malema says South Africa’s electricity prices are exorbitant and need to be reduced. He made the comments at the party’s provincial manifesto event at Motherwell in Gqeberha in the Eastern Cape. President @Julius_S_Malema and SG @DlaminiMarshall at Ekuphumleni old age home in Gqeberha. This is after the President addressed the provincial rallies in KZN and Eastern Cape. The EFF cleared a R3.5 million debt the old age home owed to the municipality. #VoteEFF2026 … pic.twitter.com/sLrxXWTShX — Economic Freedom Fighters (@EFFSouthAfrica) October 3, 2026 Malema told hundreds of supporters that should they win the November 4th local government elections in the metro, they would focus on reducing electricity prices to benefit disadvantaged communities. “I don’t understand why electricity is so expensive because our baseline to produce electricity here in South Africa is coal, and coal is produced here in South Africa. Therefore, electricity must be affordable because it is produced here. Instead, we sell electricity to Eskom using the value of dollars, not the rand.” LGE 2026 | Malema launches election manifesto in Nelson Mandela Bay:","source":"SABC News","author":"Wendy Mothata","category":"general"},{"title":"‘Control yourself’ - Pastor Mboro calls on men in fight against GBV","summary":"‘Control yourself’ - Pastor Mboro calls on men in fight against GBV Siya Tsewu Sat, 10/03/2026 - 16:20 JOHANNESBURG - Pastor Paseka Motsoeneng warns that gender-based violence and femicide have reached a crisis. Speaking during a GBVF march in Kempton Park, he urged the government to act and called for stronger community safety measures. “They (Men) should stop being easily provoked. And you need God and the fruits of the spirit. “No matter how they dress. I saw another woman was wearing shorts. Even if the thighs can shine like that, even if they go naked, control yourself. We don’t even have to put rules about what they must wear and what they must do. If they take their breasts out, no problem. Let’s protect women and fight this thing,” he said. Motsoeneng said the number of women killed in Ekurhuleni is less than the reality of women dying every day in South Africa. “These are just the numbers that are discovered in the media. Every week women are dying and some they wake up; their parts are gone. There is also a spiritual thing in this thing. There are human sacrifices, the blood of the women, their cry and the children. Every time they do this, it extends their power. Religious leaders in Ekurhuleni joined the growing call to end South Africa’s gender-based violence crisis. Demonstrators, including civil society and faith groups, gathered at the Kempton Park Civic Centre to demand greater police accountability and action. The demonstration follows the discovery of at least 11 women’s bodies in Ekurhuleni since July, three of whom remain unidentified.","source":"eNCA","author":"Siya Tsewu","category":"general"},{"title":"SA U23 hope to continue good run against Algeria","summary":"South Africa’s Under-23 side will face Algeria in their second international friendly in Bloemfontein on Sunday, as preparations continue for the Olympic qualifying campaign. The first meeting ended in a 3-1 victory for South Africa on Thursday, but the technical team says the match also exposed areas that still need attention. The first Algeria friendly gave the South African technical team an early look at how the players are responding to international football. With the squad made up of players from different clubs, building an understanding at the back has been one of the areas identified for improvement. SAU-23 Assistant coach, Karabo Mogodu, says, “It’s international football. A mistake can win games, and what we need to do is obviously ensure that we (take) these chances. And I think a couple of things at the back, like, you know, just chemistry between the guys, you know, them getting used to each other, being able to communicate properly. I think because this is one of the first camps that we have with a friendly game, it exposed a couple of things that at the back, we will just need to train and basically improve.” The Algeria fixtures are also giving the players time to build combinations, something that is difficult to achieve when they spend most of the season with their respective clubs. SA U-23 player, Dhakier Lee, says the time together has already started to make a difference. “Obviously, (we) know that we’re all from different teams, and in order to click, we need to be together for a period of time. And I think these friendlies help us do so. And, of course, getting the 3-1 victory in the first game is a huge boost for us. So, yeah,” says player Dhakier Lee. The second meeting with Algeria gives the team another opportunity to work on those combinations, while the technical team continues to assess the players available to them. With the Olympic qualifiers still ahead, the emphasis is on building understanding and eliminating mistakes before the competitive matches begin.","source":"SABC News","author":"Sipho Kekana","category":"general"},{"title":"Gameday | 3 October 2026","summary":"Gameday | 3 October 2026 Nadia.Romanos Sat, 10/03/2026 - 15:45","source":"eNCA","author":"Nadia.Romanos","category":"general"},{"title":"Trump pledges dividend if Republicans retain control of Congress","summary":"US President Donald Trump is again promising 5,000 dollars to every American adult if Republicans retain control of both chambers of Congress in next month’s midterm elections. Trump is describing the proposed payment as a dividend, but that would require congressional approval and potentially cost more than a trillion dollars. The pledge comes as Republicans fight to hold their majorities, with the economy and cost of living being central issues ahead of the vote. This has given Democrats an advantage. Americans go to the polls on November third. President Trump has put cash at the centre of his midterm pitch — promising a 5,000 dollar payment to every adult American citizen if Republicans keep control of both the House of Representatives and the Senate. He began floating the idea at the Republican midterm convention in September, but it remains unclear under what authority or programme these payments could be made. With roughly 270 million American adults, the proposal could cost around $1.3 trillion and Congress would likely have a role as it retains the power of the purse. -Reporting by Sherwin Bryce-Pease","source":"SABC News","author":"Buhle Sibanyoni","category":"general"},{"title":"Zille launches controversial M1 bridge campaign","summary":"Zille launches controversial M1 bridge campaign Siya Tsewu Sat, 10/03/2026 - 15:31 JOHANNESBURG - DA Johannesburg mayoral candidate Helen Zille has sparked controversy with a campaign spotlighting the city’s crumbling bridges. She staged her warning on a dilapidated stretch of the M1, calling it a potential safety hazard for motorists. “You can see behind me a bridge that is crumbling and in fact the bridge on the off-ramp is even in worse condition. Now the city has done an audit of bridges about eight years ago in which the audit warned them that the bridges would have to be seen to very quickly because they were rapidly becoming unsafe because of lack of maintenance. “This is one of them, but there are many others around Joburg. Some are in an even worse condition. In fact, the city's own statistics say that 78 percent of bridges are in need of urgent maintenance and repair. They're either bad or very bad in their condition and this is serious for motorists because they and pedestrians often don't realise the state of the bridges that they drive over and under and that creates a potential hazard. Johannesburg Metro Police spokesperson Xolani Fihla said the DA would be fined for placing posters on bridges, which is not permitted. He added JMPD would consult the IEC to explore further action. “Political parties need to adhere to municipal bylaws. “We will remove those posters on the bridge. This will definitely be taken forward,” Fihla said. Zille conceded that the DA did not seek official approval for the event but insisted it’s vital to alert drivers to the risk posed by Johannesburg’s neglected bridges. “Pointing out to the public that bridges are dangerous is certainly not a gimmick, it's a public service. This is an event organized by the national DA in concert with the provincial DA. We didn't specifically seek permission, but we are warning motorists that this is a very dangerous bridge and that they need to know it.","source":"eNCA","author":"Siya Tsewu","category":"general"},{"title":"Turkish fugitive arrested in Durban over rape, kidnapping charges","summary":"A 40-year-old fugitive wanted by Turkish authorities has been arrested in Isipingo, south of Durban. The man was arrested by the Interpol South Africa Fugitive Investigation Team, in collaboration with Crime Intelligence members of the Isipingo Police Station and private security. The South African Police Service says the man is wanted in Turkey on various charges, including rape, sexual assault, kidnapping, and assault with intent to cause grievous bodily harm, among others. He appeared in the Umlazi Magistrate’s Court, where the Turkish government is seeking his extradition. Police Spokesperson Amanda van Wyk says, “According to the information received from Turkish authorities, the suspect allegedly kidnapped his then-fiancée in 2010 and raped her over several days. He also allegedly assaulted the victim by repeatedly striking her head against a wall, resulting in permanent physical and psychological impairment. The victim was 22 years old at the time of the alleged offences. Following the conclusion of the investigation, the suspect allegedly fled Türkiye, his country of origin. He was subsequently traced to Isipingo in KwaZulu-Natal, South Africa.” #sapsHQ [INTERPOL SA ARRESTS TWO TURKISH FUGITIVES IN KZN AND CAPE TOWN WANTED IN TÜRKIYE FOR SEPARATE GBV-RELATED OFFENCES] INTERPOL South Africa’s Fugitive Investigation Team, supported by Crime Intelligence, members from the Isipingo Police Station and private security, has… pic.twitter.com/cVxQ0PI9R3 — SA Police Service (@SAPoliceService) October 3, 2026 Van Wyk says this is the second Turkish fugitive to be arrested by Interpol South Africa in the country. She says another fugitive, who is wanted by Turkish authorities on charges including rape and kidnapping, was arrested in Cape Town last month. “This arrest follows another successful operation by Interpol South Africa last month, in which a Turkish fugitive, a former primary school principal, was arrested in Cape Town in connection with charges of sexual assault, kidnapping, and intimidation involving a nine-year-old victim. The former principal was arrested on Monday, 21 September 2026, and has since appeared before the Cape Town Magistrates’ Court.” Reporting by: Samke Mtshali","source":"SABC News","author":"Wendy Mothata","category":"general"},{"title":"‘Andile Lungisa not entitled to public office’ - ANC","summary":"‘Andile Lungisa not entitled to public office’ - ANC Siya Tsewu Sat, 10/03/2026 - 14:26 JOHANNESBURG - The ANC said Andile Lungisa, who hopes to become Mayor of Gqeberha, isn’t entitled to public office. This follows Lungisa’s urgent court bid after the party dropped him from its list of potential councillors. The High Court in Johannesburg heard the case this week. In a statement, the ANC called the legal fight \"sorrowful”. The party pointed to Lungisa’s criminal record as the key issue. In 2018, he was sentenced to two years in prison for assaulting DA councillor Rayno Kayser with a jug. The ANC said this record rules him out of public office. Judgment has been reserved in the matter.","source":"eNCA","author":"Siya Tsewu","category":"general"},{"title":"Yvonne Ridley and George Galloway call for support for Palestinians","summary":"A large crowd has braved windy conditions at Cape Town’s Sea Point Promenade for a pro-Palestine rally. British journalist and political activist Yvonne Ridley called for continued support for Palestinians. She attended alongside former British MP George Galloway as part of their South African People Power Tour. Ridley says international attitudes towards the conflict are shifting and believes that momentum is growing in support of the Palestinian cause. “To all our dear beloved Palestinian people around the world, the brother before me mentioned October the 7 th , and people say to me, ‘What does October the 7th mean to you?’ Well, it takes me right back to 25 years ago, when I was first captured by the Taliban, and I was told it was the most brutal regime in the world then. October the 7 th , 2026, was the day that I was in custody in Israel,” says Ridley. Galloway has also called for continued support for Palestinians during a rally in Cape Town. The pair are visiting South Africa as part of their People Power Tour, which includes a series of events focused on the conflict in Gaza and support for Palestinians. Speaking to the crowd, Galloway drew comparisons between South Africa’s struggle against apartheid and the Palestinian cause. “The bagpipes and drums that led us today, we saw everything in the illumination of the lighthouse; we saw everything through Nelson Mandela’s spectacles; we saw Robben Island, the most infamous dastardly prison in the world, except Gaza, except Jerusalem, except Palestine, which is an even more evil prison (for the past eight decades),” he said. Palestine Solidarity Campaign take to the streets in solidarity with Palestine:","source":"SABC News","author":"Sipho Kekana","category":"general"},{"title":"Young Men Movement calls for everyday action against GBV","summary":"Young Men Movement calls for everyday action against GBV Siya Tsewu Sat, 10/03/2026 - 13:48 JOHANNESBURG - Young Men Movement founder Kabelo Chabalala has said that inconsistent leadership can undermine the fight against gender-based violence. He stressed the need for sustained plans and commitments that outlast political changes, urging a year-round focus on GBV. “I think the biggest challenge in this country is also how we are structuring approaches. A lot of these issues continue to manifest in the different parts of our country also because of the problematic discontinuation of who is in leadership from a political perspective. “We are heading towards 16 days of activism. We're going to see some talks and a little bit of promises around action, and then we're going to move on into December. We forget that women are being killed every day in this country. “It's not a Kempton Park problem. It's not a September, October problem. It's an everyday problem that requires us to work around it and around the clock every day without having to pause even for a moment.”","source":"eNCA","author":"Siya Tsewu","category":"general"},{"title":"Government condemns murder of 14-year-old twins in Mamelodi","summary":"The government says every child lost to violence is a loss to the future of this country. The comments follow the murder of 14-year-old twins Bothlale and Bonolo Makena, who were found with multiple stab wounds by their mother inside a bedroom in their home in Mamelodi West, outside Pretoria. The circumstances surrounding the incident are unknown at this stage. Police say there are no indications of any forced entry at the house. Deputy Government Spokesperson William Baloyi has urged the public to share any information with the police and not to spread unverified information on social media. “Government calls on residents of Mamelodi and surrounding communities to assist law enforcement authorities with any information that could help identify and apprehend the perpetrators. Anyone who may have seen, heard, or noticed anything unusual before, during, or after the incident is urged to come forward and provide this information directly to the South African police service or at the nearest police station,” says Baloyi. Police follow leads after 14-year-old twin stabbing in Mamelodi:","source":"SABC News","author":"Wendy Mothata","category":"general"},{"title":"Gauteng e-panic safety under scrutiny","summary":"Gauteng e-panic safety under scrutiny Siya Tsewu Sat, 10/03/2026 - 12:19 JOHANNESBURG - The Gauteng e-panic button data breach matter will soon be escalated to the Premier's office. A security flaw that exposes sensitive personal information has caused panic among users. It seems the app has exposed victims' reports, names, and locations. The Gauteng Legislature e ‑ Government Committee said the app is not safe to use. Committee chairperson Mbali Hlophe said the breach was serious. “It's very alarming and I must indicate that for us, we are more sensitive because of all the stuff that's taking place on the string of women that have been lost and killed and so forth. So, I mean, you can imagine what this then means, because it means the victims and the perpetrators of them would have access to this. “We want to have a report on the access logs, so they must be able to indicate from 2024 when this was first launched to date. Two years later, how many people have had access to this? Are there any foreign people that have had access to it? If this student was able to log in, who else could have? “There could be criminal syndicates who have been viewing all this information throughout. We just need that surety. And it's certainly what society would also want. But in addition to that, because this information has now been exposed, they do need to report it to the information regulator and also to inform the individuals that have utilized this app, especially those whose information has been compromised in line with the POPIA Act, they do need to inform them.","source":"eNCA","author":"Siya Tsewu","category":"general"},{"title":"Parly wants a say in whether Treasury can withhold municipal funds","summary":"The Chairperson of the Parliament’s Portfolio Committee on Co-operative Governance and Traditional Affairs, Zweli Mkhize, says Parliament is developing regulations to allow it to have a say in whether National Treasury can withhold funds to municipalities. Earlier this year, National Treasury withheld equitable shares to 69 municipalities due to alleged financial mismanagement and non-compliance with the Municipal Finance Management Act. Dr Mkhize says residents who are supposed to get service delivery cannot suffer for the sins of officials. “The only issue that we’re busy with now is a process of internal regulations that needs to be developed in Parliament so that next time the Treasury wants to implement the same withholding, then the processes of hearing in Parliament need to be fulfilled so that Treasury cannot do it alone. But Parliament must agree or disagree with it. So, we’re building, we’re developing those regulations,” says Mkhize.","source":"SABC News","author":"Sipho Kekana","category":"general"},{"title":"Love triangle murder ends in life sentence","summary":"Love triangle murder ends in life sentence Siya Tsewu Sat, 10/03/2026 - 11:58 KU GOMPO CITY – The East London Regional Court has sentenced a 30-year-old man to life imprisonment for the murder of a man he believed his girlfriend was cheating with. Sibusiso Dolongo murdered Siphenathi Gqonono because he thought he was sleeping with his girlfriend. The court heard that three days before the murder, Dolongo’s girlfriend spent the night at Gqonono’s home after a night out at a local tavern. When she returned home the following morning, Dolongo told her he had heard at the taxi rank that she had slept with Gqonono. For the next three days, he interrogated and assaulted her. Although she denied the allegation, Dolongo armed himself with an unknown weapon and instructed her to take him to Gqonono’s home, as he did not know where he lived. When they arrived, Dolongo told her to knock on the door and call Gqonono’s name. Gqonono came outside and, without saying a word, Dolongo stabbed him eight times before fleeing the scene. Gqonono’s sister found him outside their home, bleeding profusely. Before he died, he told her that he had opened the door for Dolongo’s girlfriend before he was attacked. Eastern Cape NPA spokesperson Luxolo Tyali said police investigations led them to the girlfriend and subsequently to Dolongo’s arrest. “During the trial, Regional Court Prosecutor Thokozani Ndzama presented evidence from the girlfriend, her sister and Gqonono’s sister. Court Preparation Officer (CPO) Maki Mengi supported the witnesses. Dolongo raised an alibi defence and called his other girlfriend as a witness. “During cross-examination by the State, however, she changed her version, saying she had been coerced and threatened by Dolongo. She told the court that she had not been with him on the night of the murder. The court accepted the material aspects of the State’s case and rejected Dolongo’s alibi. For sentencing, the State submitted a Victim Impact Statement from Gqonono’s sister, prepared by the CPO, outlining the effect of his death on his family. “The court agreed with the State that the manner in which the offence was committed demonstrated premeditation and that there were no compelling and substantial circumstances to justify departing from the prescribed minimum sentence.” The Director of Public Prosecutions in the Eastern Cape, Advocate Samkelo Mtwana, welcomed the sentence and commended all role players whose dedication helped ensure that the perpetrator was held accountable. “This sentence sends a clear message that those who commit violent crimes and show complete disregard for human life will face the full might of the law,” Mtwana said.","source":"eNCA","author":"Siya Tsewu","category":"general"},{"title":"Lions secure second straight URC win","summary":"The Lions have won their second straight game in the United Rugby Championship (URC). After defeating defending champions Leinster last week, the hosts produced a comprehensive victory over the Ospreys in their clash at the Ellis Park Stadium in Johannesburg. The homeside ran in six tries to three to record a bonus point 35-19 win. 𝗙𝗨𝗟𝗟 𝗧𝗜𝗠𝗘 |10bet Lions 35 – 19 Ospreys @Vodacom #URC | #ForOurCity | #LIOvsOSP #LionsPride pic.twitter.com/VnZicgTzTc — Lions (@LionsRugbyCo) October 3, 2026","source":"SABC News","author":"Wendy Mothata","category":"general"},{"title":"Eight life terms plus 46 years for Eastern Cape serial rapist","summary":"Eight life terms plus 46 years for Eastern Cape serial rapist Siya Tsewu Sat, 10/03/2026 - 11:16 MTHATHA - Thabile “Bhino” Nyakiso (32) has been sentenced to eight life terms for a series of rapes committed in Tsolo between 2016 and 2017. The Mthatha High Court sentenced him to 15 years’ imprisonment for each of the counts of robbery with aggravating circumstances and 12 months’ imprisonment for common robbery. Acting Judge Fikile Ntayiya recommended that Nyakiso not be considered for parole until he has served 30 years of his sentences. Evidence presented in court showed that Nyakiso and another unidentified person committed rapes and robberies around Tsolo, targeting women walking at New Homes and Crossbow townships. Eastern Cape NPA spokesperson Luxolo Tyali said during some of the attacks, Nyakiso robbed victims of money, bank cards and cellphones. “The victims did not know him. Forensic DNA profiling linked him to swabs collected from them. He had been arrested in connection with a separate rape case in Butterworth, more than 150 kilometres from Tsolo. “During the trial, Nyakiso pleaded guilty but questioned the DNA evidence's accuracy. State Advocate Avumile Bikitsha called a witness from the National Forensic Laboratory as part of the State’s 45 witnesses,” he said. The court heard the first victim was a 16-year-old girl who was attacked on 19 June 2016. On 22 July 2016, Nyakiso attacked a 22-year-old woman near the Tsolo Circuit office. On 18 November 2016, he raped another 16-year-old victim multiple times near New Homes township. “While giving evidence, she told the court that during the ordeal she asked Nyakiso how he would feel if someone did the same to his sister. This did not stop him from continuing the attack.” On 27 May 2017, a 26-year-old woman was raped in her rented room at Kobi Flats in Tsolo. On 1 August 2017, Nyakiso raped two victims, aged 29 and 39, on separate occasions. He then attacked an 18-year-old woman near Crossbow Township on 12 August 2017, a 24-year-old woman in the same township on 21 September 2017, and another victim on 6 November 2017, where the 27-year-old was raped in her house in New Homes Township. “For sentencing, the court agreed with the state’s submission that society did not deserve people like Nyakiso in its midst. The judge noted that Nyakiso, who has another rape case pending before the same court, was inhumane and had shown no remorse for his offences.” The Director of Public Prosecutions in the Eastern Cape, Advocate Samkelo Mtwana, said the sentence reaffirmed the prosecution’s firm stance against violent crime. He commended the prosecutor and investigating officer for their meticulous collection and presentation of evidence.","source":"eNCA","author":"Siya Tsewu","category":"general"},{"title":"ACT manifesto targets practical solutions for communities","summary":"The African Congress for Transformation (ACT) says its Local Government Elections (LGE) Manifesto will focus on practical solutions to challenges facing communities. ACT President-General, Ace Magashule, says the party has identified key priorities including education, unemployment, poverty, infrastructure, water and electricity provision, potholes and drug abuse. Magashule was speaking at the launch of the party’s election Manifesto in Welkom, in the Free State. He says the party wants to restore hope and public confidence in local government. ACT, he says, will also consult communities in municipalities where it wins elections before deciding on mayoral leadership. “I hear people saying load shedding is done, but you can see that these things are not done. These things are still there. Potholes, everything, hopelessness, unemployment, drugs. This is what we are actually addressing in our manifesto. And we don’t promise people that in 100 days we will do something. In those 100 days, we should be consulting them and saying, this is what we find in this municipality. And that’s why we don’t even have mayoral candidates because we still want to go to communities where we win and say, ‘who do you want as a mayor candidate?’ So that we listen to our people,” says Magashule. Moreover, the party says the lack of a matric certificate should not automatically prevent someone from serving as a municipal councillor. Magashule says the party wants to open opportunities for people with experience and knowledge of their communities to serve in local government. Magashule says ACT’s approach forms part of its call for greater power to be given to communities, as the party campaigns under the theme: “Fix the Municipality, Restore the Community, Reclaim Our Future.” Ace Magashule’s ACT party launches elections manifesto: Meanwhile, the Voice for Change movement says it attended the ACT’s manifesto launch because the two organisations share similar views on a number of political issues. VFC Chairperson, Tabile Masunyane, says the movement accepted ACT’s invitation to show its support, describing the party as one of several formations with which it shares similar ideas and approaches to political struggles. Masunyane says VFC is aligning itself with parties that hold similar views, while leaving open the possibility of cooperation with ACT and other like-minded organisations. “We are here today because we had to honour an invite from ACT, whereby they are actually introducing their manifesto today, but because on most points, we are sharing the same sentiments.” [IN PICTURES] Members of the African Congress for Transformation (ACT) are in high spirits as the party president Ace Magashule is set to launch the party’s manifesto at the Indoor Sports Centre in Thabong, Welkom. pic.twitter.com/7EZx5d0Og3 — SABC News (@SABCNews) October 3, 2026 By Lebohang Motshweneng","source":"SABC News","author":"Buhle Sibanyoni","category":"general"},{"title":"Motsoaledi backs news health DG","summary":"Motsoaledi backs news health DG Siya Tsewu Sat, 10/03/2026 - 10:42 JOHANNESBURG - Health Minister, Dr Aaron Motsoaledi has praised the credentials of the department's new director-general, Thembisile Xulu. She takes the reins from Professor Nicholas Crisp. Motsoaledi said she has her work cut out for her as the implementation of the National Health Insurance gains momentum. “We are very excited that we have got the DG, firstly, who is a female, but who is also medically trained as a doctor, but who also worked in several areas, the most recent of which was the CEO of South African National AIDS Council, which, as you know, consists of 18 sectors. \"She's bringing a wealth of experience to the department. Her work is cut out, but generally the most important thing we want her to do is to strengthen the healthcare system, strengthen its infrastructure, make sure that all the posts that are essential and filled up, then it will give us power to move forward on other programs and initiatives.\"","source":"eNCA","author":"Siya Tsewu","category":"general"},{"title":"Man arrested for murder of woman in Free State","summary":"A 35-year-old man has been arrested in connection with the murder of a 33-year-old woman in Mariasdal Trust, Thaba-Nchu in the Free State. Police say the woman was sleeping when the suspect allegedly forced his way into her home late on Friday night. She was found with multiple stab wounds and a severe neck injury. Police Spokesperson Thabo Covane says an eyewitness, who was at the house, managed to flee and call for assistance. Covane says the suspect was traced and arrested following an investigation by Selosesha detectives. He is expected to appear in the Thaba-Nchu Magistrates’ Court on a murder charge. “Upon returning to the house with help, the witness found the door closed. After forcing entry, they discovered the victim lying on the bedroom floor with multiple stab wounds and a severe injury to her neck. The suspect had already fled the scene through a bedroom window. Emergency Medical Services (EMS) were summoned to the scene, but tragically, the victim was declared deceased. Following an intensive investigation by Selosesha detectives, the suspect was successfully traced and arrested today,” says Covane.","source":"SABC News","author":"Wendy Mothata","category":"general"},{"title":"Joburg inner-city power outages leave thousands without water","summary":"Joburg inner-city power outages leave thousands without water Siya Tsewu Sat, 10/03/2026 - 10:34 JOHANNESBURG - The Johannesburg Property Owners and Managers Association is calling on the City of Joburg and City Power to address repeated power outages in the inner city. The association alongside the Joburg Crisis Alliance is warning that the issue doesn't just affect homes, but businesses, workers, informal traders, property owners and livelihoods. Regular fires at the Central Substation are largely responsible for extended outages. Johannesburg Property Owners and Managers Association’s Angela Rivers said more needs to be done. “So this is the third fire actually at central substation in the last couple of months and at the moment we are experiencing more days without electricity than with electricity and what a lot of people don't understand especially in the inner city is a lot of high-rise buildings need electricity in order to even get water into the building. “The water pressure is very low in the inner city so we need electricity to pump the water to the roof so a lot of our tenants and I can say from my what's been reported to me is over 6,000 residential units are without electricity and therefore a lot of them are without water as well.\"","source":"eNCA","author":"Siya Tsewu","category":"general"},{"title":"Bikers join the march against GBVF in Ekurhuleni","summary":"Scores of bikers have added their voices to the call for action against the killing of women. They rode to the Kempton Park Police Station where they handed over a memorandum. This comes amid the discovery of 12 women’s bodies in Ekurhuleni on Gauteng’s East Rand since July this year. Biker, Sandile Nkonqa says, as bikers, they too wanted to say that enough is enough. “It is very painful knowing that some family out there is mourning because there is someone who’s going around killing women. It is painful to us. We don’t want that to happen to any of our families. You know, we are all touched by this crime. If it can happen to you, it can happen to me. And if I do not speak out when it happens to you, who is going to cry with me when it happens to me. The only way that I can prevent it from happening to me is to ensure that I speak out and I hold the government accountable,” says Nkonqa. Organizers of the march against Gender-Based Violence and Femicide in Ekurhuleni on Gauteng’s East Rand have called on communities to continue holding government and police accountable until people feel safe where they live. Mass protests around SA against GBVF:","source":"SABC News","author":"Sipho Kekana","category":"general"},{"title":"Teen twins stabbed in Mamelodi","summary":"Teen twins stabbed in Mamelodi Siya Tsewu Sat, 10/03/2026 - 09:55 File: Police tape File: Police tape MAMELODI - Gauteng police are investigating two counts of murder following the stabbing of 14-year-old twins in Mamelodi West in Tshwane. The mother of the two boys found their bodies inside a bedroom. They had multiple stab wounds on Friday afternoon. The motive is unclear at this stage. No arrests have been made. This is a developing story.","source":"eNCA","author":"Siya Tsewu","category":"general"},{"title":"Portugal prosecutors probe legality of US use of Lajes base","summary":"Portuguese prosecutors said on Saturday they had opened a probe into the legality of the Centre-right government’s authorisation of the United States’ use of the Lajes Air Base in the Azores during the Iran conflict, following a complaint by an opposition party. A longstanding agreement with the US allows Washington to use the base without prior authorisation during peacetime but requires Portugal to give approval once hostilities begin. Portugal, unlike neighbouring Spain, authorised several US transit flights through the Lajes air base , a decision that drew criticism from left-wing opposition parties and triggered a political debate over Lisbon’s role in operations linked to the conflict with Iran. In a statement, the Prosecutor General’s Office said, “the probe was opened following a complaint filed by members of the Left Bloc party,” without providing further details. Portugal’s Foreign Ministry declined to comment. The Left Bloc asked prosecutors in April to investigate the US use of the Lajes base, arguing it amounted to a “gross violation of international law.” However, Foreign Minister Paulo Rangel has said Portugal was not involved in the conflict and that the use of the Lajes base complied with international law, having been authorised only after assurances from Washington that any operation would be defensive, necessary and proportionate, and limited to military targets. Portugal’s prosecutors are bound by the principle of legality, requiring them to investigate alleged wrongdoing when there are sufficient grounds to do so, unlike in some jurisdictions where prosecutors have broader discretion to decide whether a case should proceed. The Lajes base, located in Portugal’s Atlantic Azores archipelago, is a strategic transit hub for US forces under a bilateral defence treaty dating back to 1951 and hosts the 65th Air Base Wing of the US Air Force, providing support for US, NATO and allied operations.","source":"SABC News","author":"Buhle Sibanyoni","category":"general"},{"title":"Weather forecast | Saturday, 3 October 2026","summary":"Weather forecast | Saturday, 3 October 2026 Nadia.Romanos Sat, 10/03/2026 - 08:50","source":"eNCA","author":"Nadia.Romanos","category":"general"},{"title":"GOOD Party laments poor state of municipal social space","summary":"The GOOD Party has lamented the state of social spaces in some municipalities across the country. The party believes communities need a safe, conducive environment where public parks and facilities are well maintained. The country heads to the polls on November 4th in local government elections. The Good Party’s Secretary General, Brett Herron, says, “Children’s play equipment is rusting in stagnant sewer water. Sports grounds and football fields have been left to communities to take care of, and clubhouses are gutted by fire and being left unrepaired. Every sphere of government has given up on the harder work, and fallen back on the easily populist response, which is simply more boots on the ground.”","source":"SABC News","author":"Buhle Sibanyoni","category":"general"},{"title":"Africa’s mineral strength is wasted if countries don’t work together – new report","summary":"Research examined whether they are processing and refining these minerals or making components for green technologies that use them.","source":"Moneyweb","author":"Gideon Ndubuisi, Elvis Korku Avenyo, Solomon Owusu","category":"business"},{"title":"EFF pledges to revive Nelson Mandela Bay infrastructure","summary":"The Economic Freedom Fighters (EFF) mayoral candidate in the Nelson Mandela Bay in the Eastern Cape, Sinawo Thambo, says the party will focus on reviving the city’s infrastructure should they win the November 4th local government elections in the metro. Thambo says the city’s infrastructure needs major rehabilitation. The EFF has held an election campaign rally at Motherwell in Gqeberha in the Eastern Cape. Thambo says they will also professionalise the administration. “Look, the foremost plan of the EFF in Mandela Bay is a massive infrastructure rehabilitation programme because the fixing of our infrastructure in a piecemeal fashion, where you fix one streetlight after the other or one portole after the other … it’s a non-sustainable model. Secondly, we need to rehabilitate recreational facilities such as sporting grounds, art centres, and studios so that we can rescue the youth of this city from drug abuse and alcohol abuse. Thirdly, we need to professionalise administration and fill vacancies, which exist because that is what feeds corruption and tendering. The lack of professionals and the lack of executive directors has led to the collapse of Nelson Mandela Bay.” EFF Mayoral Candidate for Nelson Mandela Bay Metro, Commissar @Sinawo_Thambo in conversation with SABC this morning. Commissar says people of NMB must give us an explicit mandate so that we can fix the root problems that exist in the Metro. #VoteEFF2026 #VictoryOrDeath pic.twitter.com/8OMvPahc6H — Economic Freedom Fighters (@EFFSouthAfrica) October 3, 2026 2026 Municipal Polls | EFF targets service delivery concerns in Nelson Mandela Bay","source":"SABC News","author":"Wendy Mothata","category":"general"},{"title":"Super El Niño is set to turn sugar glut to deficit this season","summary":"El Niño is disrupting sugar production in key growing regions, pushing prices higher and offering a warning of broader risks to crops and global food inflation.","source":"Moneyweb","author":"Mumbi Gitau, Cole Martin, Ana Mano and Pratik Parija, Bloomberg","category":"business"},{"title":"Mafosi ‘Try By Force’ Chauke remembered as talented artist at funeral","summary":"Xitsonga musician, Thomas Chauke has paid tribute to the late SABC ‘s Munghana Lonene FM presenter and producer, Mafosi “Try By Force” Chauke. Dr Chauke, popularly known as Shinyori, says the late presenter and producer was a talented and dedicated artist. The late radio personality also collaborated with various music artists. He died in a collision on the N1 at Bandelierkop outside Polokwane on Saturday last weekend. He has been laid to rest at Njhakanjhaka village cemetery outside Louis Trichardt. Dr Chauke says the radio personality offered him some advice regarding music production. “What surprises me is how we were so close, but he never spoke bad about other artists to me. Our relationship ended between the two of us. Indeed, good people die early. He once visited me at my house and asked me that, ‘Since you are busy with your 37th album, please record one song using the modern musical instruments’.” Related video| Memorial service held for the late Foster Chauke","source":"SABC News","author":"Buhle Sibanyoni","category":"general"},{"title":"Elections 2026: This municipality is pouring sewage into the Vaal River","summary":"Streams that feed the river are being contaminated by failing wastewater treatment in Matlosana municipality.","source":"Moneyweb","author":"Seth Thorne, GroundUp","category":"business"},{"title":"Verstappen claims first pole of season at Bahrain GP in Malaysia","summary":"Red Bull’s Max ​Verstappen claimed his first pole position of the season at the Formula One Bahrain Grand Prix in Malaysia ‌on Saturday, proving he remains the master of Sepang’s challenging circuit nine years after his last victory there. Verstappen clocked 1 minute 35.130 seconds to edge out Ferrari’s Lewis Hamilton, who snatched second place in the dying moments of qualifying despite struggling with tyre degradation in the brutal Malaysian heat. Verstappen’s ​teammate Isack Hadjar was third fastest but will start eighth due to a five-place grid penalty, with championship leader Kimi ​Antonelli moved up to third for Mercedes alongside Ferrari’s Charles Leclerc. Verstappen was the last driver to win a ⁠Grand Prix in Malaysia in 2017, in what was his second career victory, before the race was taken off the calendar ​after the government said it could not justify the costs. Nine years and four championships later, the Dutchman became the first driver this ​season to put a car without a Mercedes engine on pole. “It’s fantastic, we’ve been trying for many Grands Prix to get more, sometimes a bit closer to the others,” said Verstappen as he eyes his first win of the season. “But to finally get it from where we started the ​season, pretty incredible.” Hamilton, who also has one victory in Sepang, struggled with tyre degradation in practice sessions but ​the veteran Briton said they had now found the right setup. “It’s so hot here, I keep saying it. But that’s made it a massive challenge ‌for ⁠the tyres, for the car, for the mechanics in the garage,” Hamilton said. “We made so many changes through all these practice sessions because the cars are sliding, these tyres are overheating. It was really, really hard to find a good balance. “We made one last change going into qualifying and I think we hit the sweet spot.” Hadjar sounded frustrated on the team radio despite finishing ​third fastest and later said he ​expected to go second ⁠quickest to limit the grid penalty as much as possible. “It’s a bit unfortunate we take the penalty on a track that fast,” Hadjar said. “But you know, from P8, I’m confident we can ​go through the field and come back for a good result.”","source":"SABC News","author":"Wendy Mothata","category":"general"},{"title":"International tourist arrivals surpass 7.5m in South Africa","summary":"US visitors lead overseas markets as arrivals continue rising.","source":"Moneyweb","author":"Phenyo Selinda","category":"business"},{"title":"Crackdown on illegal weight-loss drugs leaves patients stranded","summary":"Recent regulatory and legal action against pharmacies illegally compounding GLP-1 weight-loss medicines has affected up to 300 000 South Africans. Health management company, Obiflex, says with the compounded route now closed, affected patients face a tough choice; to seek out other unregulated and potentially unsafe sources, or turn to a registered, doctor-prescribed alternative that many say they cannot afford. “There are hundreds of thousands of South Africans, wanting to go on this weight-loss journey but they just simply can’t afford the R4000 to R6000. One of the things that can happen when you buy these illicit medicines, is you literally get poisoned and end up in hospital,” says CEO of Obiflex, Shaun Barns. The South African Health Products Regulatory Authority (SAHPRA) has urged consumers to be cautious when purchasing weightloss medicine online and only buy from accredited pharmacies. https://t.co/L9CK5SlVPO — SABC News (@SABCNews) November 17, 2025 He says the second issue is the dosages on the labels of the medicines. “The dosages can be off by up to 40% so you can sometimes be taking a dose of a medicine, and when you’re using it it’s actually completely different dose, which obviously isn’t good when it comes to scheduled medicines,” he adds. RELATED VIDEO | Crackdown on illegal weight loss injectable products","source":"SABC News","author":"Nomcebo Miya","category":"general"},{"title":"More land, better life?","summary":"South African farming study asks if that’s the road to rural development.","source":"Moneyweb","author":"Neo Mathinya and Linus Franke","category":"business"},{"title":"Communities must hold authorities accountable: GBVF marchers","summary":"The organisers of a march against Gender Based Violence and Femicide (GBVF) in Ekurhuleni have called on communities to continue holding the government and the police accountable until people feel safe where they live. The protesters handed over a memorandum at the Kempton Park Police Station after marching from the Civic Centre. The protest follows the discovery of 12 women’s bodies dumped in various locations across Gauteng since July this year. One of the march organisers, Keamogetswe Masike says, “Just like how the people of South Africa stood firmly against illegal immigration, that the illegal foreigners, in particular those that are undocumented, must vacate our space.” “We are calling for the same intervention as well from the people of South Africa that let us not let this battle subside, and we want to make noise whenever a body gets to be discovered.” Masike adds, “Let this be our daily struggle, let this be a battle of the people of South Africa, that on a daily basis, we are on the streets. We are holding police station police stations accountable.” POLICE VISIBILITY Residents have also called for increased police visibility during a march. Among the marchers was Incredible Happenings Ministries leader Pastor Paseka “Mboro” Motsoeneng. He says structures such as Community Policing Forums, Street committees and patrollers must be strengthened. Motsoeneng has also called on police and communities to work together to tackle crime, especially GBV. He says, “CPF (Community Police Forum) police is now are above the community. Once we abolish all that, we go back to those patrollers, street committees and special numbers, toll free numbers where people call, free numbers can call and a new unit can be dispatched to look into this…. They can put their state of emergency, it’s not going to work, let them increase the police, increase the payment for the police.” VIDEO | Ekurhuleni residents demand action against GBVF:","source":"SABC News","author":"Lebo Tshangela","category":"general"},{"title":"AI faces $6trn test to justify data centres, Bain says","summary":"AI infrastructure spending faces a $4.2trn annual revenue gap by 2031, highlighting the scale of growth needed to make the industry’s investment sustainable.","source":"Moneyweb","author":"Saritha Rai, Bloomberg","category":"business"},{"title":"Co-pilot attacked pilot with axe, attempted ‘terrorist attack’: UAE","summary":"The co-pilot of flydubai flight FZ1073 , which was bound for Israel, attempted to carry out a “terrorist attack” during the flight, the United Arab Emirates prosecutor general said on Saturday, according to the state news agency WAM. The co-pilot was identified as Hammam al-Hammami, an Omani national, a source with direct knowledge of the matter told Reuters. A second source briefed on the investigation confirmed the co-pilot’s name. UAE authorities did not immediately respond to a request for confirmation of his identity. While Emirati authorities have not publicly identified the co-pilot, Israeli officials have previously said he is an Omani national. Oman has not commented on the incident. “Investigations into the incident involving flydubai flight FZ1073 found that the co-pilot had attempted to carry out a terrorist attack,” WAM quoted UAE Attorney General Hamad Saif Al Shamsi as saying. The co-pilot attacked the pilot inside the cockpit with a crash axe and attempted to take control of the aircraft, the prosecutor general said. A crash axe is typically kept in the cockpit for use during emergencies such as crashes. Investigations are ongoing to determine the circumstances of the incident, the motives and any related connections, as well as to examine physical and digital evidence, he added. The UAE is leading the investigation. The airline is owned by Dubai’s government. The UAE prosecutor general’s comments were the first by Emirati authorities to describe the incident as an attempted terrorist attack. Disaster was averted on Wednesday after passengers and crew subdued the co-pilot, who had attacked the captain in what Israeli officials said was an apparent attempt to crash the plane carrying more than 170 passengers and crew. A reserve flydubai pilot travelling on the flight took control of the aircraft and landed it at Tabuk airport in northwestern Saudi Arabia, where the co-pilot was detained by Saudi authorities. The captain and co-pilot left Saudi Arabia for Abu Dhabi on Thursday morning after receiving medical clearance, the Saudi Interior Ministry said. Flydubai said the circumstances surrounding the incident were still under investigation and that it was not in a position to comment further, a spokesperson said. A source briefed on the investigation told Reuters on Friday that Israeli officials were expected to question the co-pilot in the UAE. The source declined to say which Israeli agency or authority would take part. An Israeli government official told Reuters that Israeli investigators would take part alongside Emirati authorities in the UAE-led investigation, seeking to determine what happened and examine the suspect’s motives and background. Israeli Prime Minister Benjamin Netanyahu said on Friday that Israel was looking into whether the co-pilot had acted under anyone’s direction, warning that anyone involved would pay a “heavy price”. Netanyahu said on Thursday that the co-pilot had undergone radical Islamist indoctrination, without providing details, and appeared suicidal, though he said a motive had not yet been established. Most of the passengers on board were Israeli nationals. The aircraft dropped about 16 625 feet in just over 30 seconds while flying over Saudi Arabia on its journey from the UAE to Israel, according to flight-tracking data from Flightradar24. The route is popular among Israeli travellers.","source":"SABC News","author":"Raymond Akamby","category":"general"},{"title":"Five healthcare decisions South Africans should make before year-end","summary":"As the year draws to a close, South Africans are encouraged to make time for health decisions that are often postponed, such as booking a routine check-up, completing relevant screenings, reviewing their healthcare cover and understanding the benefits available to them.","source":"Moneyweb","author":"Damian McHugh","category":"business"},{"title":"UFH honours retired Justice Madlanga with an honorary Doctorate","summary":"The University of Fort Hare (UFH) in the Eastern Cape has honoured retired Constitutional Court Justice Mbuyiseli Madlanga with an honorary Doctor of Laws, Honoris Causa. The honorary degree recognises Madlanga’s outstanding contribution to constitutionalism, human rights and the law, both in South Africa and internationally. The honour comes just weeks after UFH launched an international moot court competition bearing his name, bringing him back to an institution long intertwined with his journey. This is retired Madlanga’s third honorary doctorate from the country’s universities. The university believes that Madlanga’s contribution to its Faculty of Law as a guest professor in 2018 played a pivotal role in shaping the institution’s legal output. Madlanga says he does not take this recognition lightly. He says, “Honorary degrees are not gifts…they are a way of honouring the recipient for tangible days that they have done and the benefits, the benefit that they have been to society in general. I’m not saying that is how I see myself, but that is how Fort Hare has seen me, that is how Walter Sisulu University, that is how Rhodes university also saw me.” VIDEO | Madlanga awarded honorary doctorate by Fort Hare:","source":"SABC News","author":"Lebo Tshangela","category":"general"},{"title":"AI may force 11m workers into new jobs, McKinsey says","summary":"The larger challenge could be helping millions of people move into new jobs, according to a study by consulting firm McKinsey & Co.","source":"Moneyweb","author":"Jo Constantz, Bloomberg","category":"business"},{"title":"Police follow lead after 14-year-old twin stabbing in Mamelodi","summary":"Police say they are following up on a lead in the murder of 14-year-old twin brothers inside their home in Mamelodi West in Tshwane. They were stabbed multiple times. Their bodies were discovered by their mother when she returned from work, on Friday. Gauteng police spokesperson Dimakatso Nevhuhulwi says there were no forced entry indications, but there is some information that the police are following up on . “Unfortunately, I cannot dwell much into the investigation, lest I jeopardise it. We hope the information will lead us somewhere, and it will also assist us in correcting and unravelling the circumstances that led to this gruesome incident,” she says. VIDEO | Mamelodi Twins | Police probe shocking deaths of two siblings Shock and disbelief Meanwhile, the community of Mamelodi West has reacted with shock and disbelief. The circumstances surrounding the incident are unknown at this stage and no one has been arrested. Community member Mpho Mohlala says as a community they are scared and live in fear. “We have never experienced this. We don’t know how safe we are if this kind of thing happens here. Kids play on the street. Even neighbours next door did not hear anything. They were there. As a community we are shocked. We don’t know if this thing will happen again and who are the people who did this to 14-year-olds are and why,” adds Mohlala. RELATED VIDEO | Mamelodi Twins | Mom speaks after finding her twin boys dead at home","source":"SABC News","author":"Nomcebo Miya","category":"general"},{"title":"R1bn to fix North West’s failed housing projects","summary":"The province is sitting with roughly 25 400 unfinished homes.","source":"Moneyweb","author":"Seth Thorne, GroundUp","category":"business"},{"title":"China to complete global geologic map of Mars by 2028","summary":"China is planning to finish a geologic map of Mars by the end of 2028 as its space rivalry with the United States heats up. It’s an important part of preparations for the Tianwen-3 mission, which is China’s next mission to Mars. China’s chief scientist of its next Mars mission, known as Tianwen-3, says the map would cover the entire surface of Mars, and incorporate findings from China’s first rover sent to the red planet. China’s Ju-rong rover touched down on Mars in May 2021, making China the second country after the United States to land a rover on Mars. The findings indicated the existence of an ancient ocean roughly 3 and a half to 4 billion years ago, a time when Mars, which is now cold and desolate, possessed a thicker atmosphere and warmer climate. State media says the map project will use artificial intelligence to interpret data from previous missions. -Reporting by Laura Westrook from Hong Kong","source":"SABC News","author":"Nomcebo Miya","category":"general"},{"title":"How not to fix a corrupt and incompetent government","summary":"The Gauteng Department of Social Development is a masterclass in how not to deal with mismanagement and corruption.","source":"Moneyweb","author":"Daniel Steyn, Raymond Joseph and Joseph Bracken, GroundUp","category":"business"},{"title":"Pro-government forces say they retake airport in Tigray region","summary":"A militia group allied to Ethiopia’s federal government said they had recaptured the main airport in the capital of the northern Tigray region, an opposition stronghold. “We have taken full control of Mekelle Alula Aba Nega Airport. We are currently clearing the city of Mekelle,” the pro-government Tigray Peace Forces militia posted on X late on Friday. Reuters could not immediately verify the assertion. The Prime Minister’s Office did not respond immediately to a request for comment. The taking of Mekelle by pro-government forces would be a major setback for an opposition alliance led by the region’s ruling party, the Tigray People’s Liberation Front, which launched a big offensive last week against the Ethiopian military. The TPLF could not immediately be reached for comment. Ethiopian federal forces and allied fighters have made a quick counterattack into Tigray , but analysts say the fighting — the worst escalation since a 2020-2022 civil war — threatens to widen into a wider regional conflict.","source":"SABC News","author":"Raymond Akamby","category":"general"},{"title":"Ekurhuleni communities to march against GBVF after 12 women killed","summary":"Communities in Ekurhuleni will take to the streets again, on Saturday, to voice their anger and call for increased action against incidents of Gender Based Violence and Femicide (GBVF) . This follows the murder of 12 women in Ekurhuleni since July this year. Their bodies were found dumped at various locations across the city. Community members including churches, Non-Governmental Organisations (NGO) and students are expected to gather, at the Kempton Park Civic centre, before marching to the Kempton Park police station. RELATED VIDEO | GBVF Crisis | Chapter 9 watchdogs team up for national inquiry The murders sent shockwaves across South Africa and beyond, especially given the violent manner in which some of the women were killed. Some of the bodies were found with their throats slit, while others were in an advanced state of decomposition. EKURHULENI KILLINGS | Gauteng Police Commissioner Lt Gen Tommy Mthombeni says police are leaving no stone unturned in investigating the murders of women in the province. He adds that it is still too early to confirm whether the killings are linked to a serial killer. pic.twitter.com/kqsoAnt3g2 — SABC News (@SABCNews) September 21, 2026 President Cyril Ramaphosa announced a four-point plan of government to deal with GBVF. GBVF CRISIS | President Cyril Ramaphosa says the violence being perpetrated against women in the country is inhumane and cannot be allowed to continue. pic.twitter.com/xv3Kk755Hv — SABC News (@SABCNews) September 29, 2026 Communities are expected to call for more protection for women and for police to provide progress with regards to their investigations into the murdered women. GBVF | Bua Monna, the Royal Cathedral Family, Social Development and the Red Cross Free State have marched in remembrance of women killed in recent GBVF incidents in Gauteng. The groups are also donating food parcels, blankets and sanitary towels to affected families. pic.twitter.com/jPywVPWOS7 — SABC News (@SABCNews) September 27, 2026 RELATED VIDEO | KwaThema residents set to march against the killing of women and children -Reporting by Sphiwe Mkhize","source":"SABC News","author":"Nomcebo Miya","category":"general"},{"title":"Antonelli finds his rhythm to top final Sepang practice","summary":"Championship leader Kimi Antonelli topped the final practice session for the Formula One Bahrain Grand Prix in Malaysia on Saturday after the Mercedes driver finally found his rhythm at the Sepang International Circuit. The 20-year-old was only eighth fastest in Friday’s FP2 but improved to clock 1 minute 36.302 seconds on soft tyres. Red Bull’s four-times champion Max Verstappen, the last driver to win at Sepang in 2017, was second fastest, while his team mate Isack Hadjar was third, a little over half a second slower than Antonelli. Mercedes driver George Russell, who trails his teammate by 66 points in the standings, was fourth fastest, over six-tenths of a second slower, but ahead of the two Ferraris of Charles Leclerc and Lewis Hamilton. “It felt like a pretty decent lap considering the tyres were not great,” Hamilton said over the team radio. McLaren’s reigning world champion Lando Norris, the only driver in the top 10 on medium tyres, was seventh fastest followed by his team mate Oscar Piastri. Alpine’s Franco Colapinto and Racing Bulls’ Arvid Lindblad completed the top 10. The session was briefly red-flagged midway through to remove debris from the circuit after it got tangled in Haas driver Oliver Bearman’s front-right tyre, with the Briton asking his team on the radio if they knew what it was. Malaysia is hosting the Bahrain race due to the conflict in the Middle East.","source":"SABC News","author":"Lebo Tshangela","category":"general"},{"title":"FF Plus says fixing poor service delivery is key to its campaign","summary":"The Freedom Front Plus (FF Plus) says addressing poor service delivery at local government level is central to its campaign ahead of the upcoming elections . Party leader Corné Mulder says communities across South Africa are tired of what he describes as inadequate services, corruption and incompetence. Speaking in Bloemfontein, Dr Mulder said the party is presenting itself as an alternative and is calling on residents who want change to support its programme. “It’s a strong movement of people where they spontaneously come forward and say they want to be part of what we are doing, as the leader I was at some point under pressure but now you’ve got to change the direction of the party. I’m not going to do that because political parties don’t join individuals, individual people join a party for what the party stands and believes.”","source":"SABC News","author":"Sibusiso Maphumulo","category":"general"},{"title":"Tavern owner killed at his premises in Mamaolo village, Limpopo","summary":"A tavern owner has been killed at his premises at Mamaolo village, outside Lebowakgomo in Limpopo. Police Spokesperson Hlulani Mashaba says the deceased was struck on the head with a sharp object. Mashaba says the unknown attackers fled the scene with the victim’s bakkie and an undisclosed amount of money. He says, ” The police in Lebowakgomo have launched an intensive manhunt following a business robbery and murder of a 53-year-old tavern owner at Ga-Mphahlele, Maribeng Section in Mamaolo village.” Mashaba adds, “The sister of the deceased went to check on her brother at his business premises, when she arrive the double garage doors of the business were wide open inside and the back office. She found him lying face down in a pool of blood after being struck with a sharp object cash and white Isuzu bakkie were stolen.” #sapsLIM [LEBOWAKGOMO POLICE LAUNCH MANHUNT AFTER 53-YEAR-OLD TAVERN OWNER FOUND MURDERED AND ROBBED OF CASH AND WHITE ISUZU BAKKIE IN MAMAOLO VILLAGE] #SAPS Lebowakgomo has launched an intensive manhunt following a business robbery and murder of a 53yr-old tavern owner at… pic.twitter.com/DjtA7BBm9H — SA Police Service (@SAPoliceService) October 3, 2026","source":"SABC News","author":"Lebo Tshangela","category":"general"},{"title":"Bridge across Dnipro river in Kyiv hit during Russian attack","summary":"The Northern Bridge across the Dnipro river in Kyiv was hit during a Russian air attack on Saturday, Mayor Vitali Klitschko said, amid an escalation in strikes on infrastructure in the Ukrainian capital. Emergency services were deployed to the scene, the mayor said, and traffic across the bridge from the east to the westbank was suspended following damage to the road surface and the overhead trolleybus cables. There were no casualties reported. In the past two days, the Southern Bridge has been struck several times by Russian drones, forcing the temporary suspension of traffic across it and two other bridges across the vast Dnipro river. Over a third of the capital’s 3 million residents lived on the east, or “left”, bank of the Dnipro before Russia’s 2022 invasion, but the vast majority work on the western, or “right”, bank where most government institutions and companies are. Memories of last winter, the worst of the war, are prominent in residents’ minds after Russia launched last week what was seen in Ukraine as the first salvo of an expected winter bombing campaign against power facilities supplying the capital. Moscow has previously denied systematically targeting civilians as part of its bombing campaigns.","source":"SABC News","author":"Lebo Tshangela","category":"general"}];
+
+	const preferencesKey = 'lootura.preferences.v1';
+	const button = document.querySelector('[data-signal-words-entry]');
+	const countNode = document.querySelector('[data-signal-words-count]');
+
+	const normalizeText = (value) =>
+		String(value || '')
+			.normalize('NFD')
+			.replace(/[\u0300-\u036f]/g, '')
+			.toLowerCase();
+
+	const getSearchTokens = (value) =>
+		normalizeText(value).match(/[\p{L}\p{N}]+/gu) || [];
+
+	const doesTextMatchTerm = (text, term) => {
+		const termTokens = getSearchTokens(term);
+		if (!termTokens.length) return false;
+		const textTokens = getSearchTokens(text);
+		return textTokens.some((token, index) =>
+			token === termTokens[0] && termTokens.every((termToken, offset) => textTokens[index + offset] === termToken)
+		);
+	};
+
+	const normalizeTerm = (term) => {
+		const normalizedTerm = String(term || '').replace(/\s+/g, ' ').trim();
+		return normalizedTerm.length >= 2 && normalizedTerm.length <= 40 ? normalizedTerm : '';
+	};
+
+	const readPreferences = () => {
+		try {
+			const value = JSON.parse(localStorage.getItem(preferencesKey) || 'null');
+			if (value && typeof value === 'object' && !Array.isArray(value)) return value;
+		} catch {}
+		return {};
+	};
+
+	const getWatchingTerms = () => {
+		const preferences = readPreferences();
+		const terms = Array.isArray(preferences?.watchingByEdition?.[locale])
+			? preferences.watchingByEdition[locale]
+			: [];
+		const seen = new Set();
+		return terms
+			.map(normalizeTerm)
+			.filter((term) => {
+				const key = term.toLowerCase();
+				if (!term || seen.has(key)) return false;
+				seen.add(key);
+				return true;
+			});
+	};
+
+	const getMatchCount = () => {
+		const terms = getWatchingTerms();
+		if (!terms.length) return 0;
+		return stories.reduce((total, story) => {
+			const text = normalizeText([
+				story.title,
+				story.summary,
+				story.source,
+				story.author,
+				story.category,
+			].join(' '));
+			return total + (terms.some((term) => doesTextMatchTerm(text, term)) ? 1 : 0);
+		}, 0);
+	};
+
+	const syncCount = () => {
+		if (!(countNode instanceof HTMLElement)) return;
+		const count = getMatchCount();
+		countNode.textContent = String(count);
+		countNode.classList.toggle('hidden', count === 0);
+		button?.setAttribute('data-signal-words-match-count', String(count));
+	};
+
+	window.addEventListener('storage', syncCount);
+	window.addEventListener('pageshow', syncCount);
+	window.addEventListener('lootura:preferences-updated', syncCount);
+	syncCount();
+})();</script> <section class="lootura-signal" data-lootura-signal data-signal-edition="za" data-signal-data="{&#34;edition&#34;:&#34;za&#34;,&#34;language&#34;:&#34;en&#34;,&#34;dateLocale&#34;:&#34;en-ZA&#34;,&#34;copy&#34;:{&#34;signalUnitSingular&#34;:&#34;signal&#34;,&#34;signalUnitPlural&#34;:&#34;signals&#34;,&#34;detailMode&#34;:&#34;Signal preview&#34;,&#34;whatHappened&#34;:&#34;What happened&#34;,&#34;whatWeFound&#34;:&#34;Links&#34;,&#34;proofLabel&#34;:&#34;Proof&#34;,&#34;sourcesLabel&#34;:&#34;sources&#34;,&#34;itemsLabel&#34;:&#34;articles&#34;,&#34;firstSeenLabel&#34;:&#34;first signal&#34;,&#34;timelineMinuteLabel&#34;:&#34;minute&#34;,&#34;timelineResultLabel&#34;:&#34;result&#34;,&#34;emptyTitle&#34;:&#34;No new trends&#34;,&#34;emptyBody&#34;:&#34;Last analysis complete. Nothing deserves the cover right now.&#34;,&#34;coverIntroLabel&#34;:&#34;Signals curated from several sources.&#34;,&#34;close&#34;:&#34;Close&#34;,&#34;closeAria&#34;:&#34;Close signal detail&#34;},&#34;pulseLabel&#34;:&#34;Last analysis · 2 minutes ago&#34;,&#34;ambientPulseLabel&#34;:&#34;34,499 links analyzed&#34;,&#34;dayScanLabel&#34;:&#34;250 links scanned in 24h&#34;,&#34;emptyImages&#34;:[&#34;/empty-signal-radar.svg&#34;,&#34;/empty-signal-scan.svg&#34;,&#34;/empty-signal-grid.svg&#34;,&#34;/empty-signal-quiet.svg&#34;],&#34;updatedAt&#34;:&#34;2026-10-03T22:40:14.710Z&#34;,&#34;modes&#34;:[{&#34;id&#34;:&#34;now&#34;,&#34;label&#34;:&#34;NOW&#34;,&#34;title&#34;:&#34;What's happening&#34;,&#34;signals&#34;:[{&#34;id&#34;:&#34;now-cluster-south africa-life + joburg&#34;,&#34;enrichmentKey&#34;:&#34;cluster-south-africa-life-joburg-life-joburg&#34;,&#34;title&#34;:&#34;HISTORY AND HERITAGE: Joburg: a city that leapt to life and still clings on&#34;,&#34;strength&#34;:16,&#34;brief&#34;:&#34;HISTORY AND HERITAGE: Joburg: a city that leapt to life and still clings on.&#34;,&#34;findings&#34;:[&#34;Signal is visible but narrow&#34;,&#34;Volume is still thin&#34;,&#34;Fresh activity is present&#34;],&#34;verdict&#34;:&#34;If it repeats in the next run, it gains weight.&#34;,&#34;nextRead&#34;:&#34;Confirm whether it repeats.&#34;,&#34;contextLines&#34;:[&#34;2 sources are pushing it: Daily Maverick and eNCA.&#34;,&#34;2 related articles and latest activity less than an hour ago.&#34;,&#34;There is still noise; read it as a weak signal.&#34;],&#34;timeline&#34;:[{&#34;time&#34;:&#34;START&#34;,&#34;result&#34;:&#34;Joburg inner-city power outages leave thousands without water&#34;},{&#34;time&#34;:&#34;+16 HR&#34;,&#34;result&#34;:&#34;HISTORY AND HERITAGE: Joburg: a city that leapt to life and still clings on&#34;}],&#34;score&#34;:{&#34;total&#34;:16,&#34;confidence&#34;:60,&#34;freshnessScore&#34;:100,&#34;sourceBoost&#34;:3.6,&#34;volumeBoost&#34;:1.4,&#34;recencyBoost&#34;:6,&#34;qualityBoost&#34;:0,&#34;hotBoost&#34;:5},&#34;state&#34;:{&#34;productState&#34;:&#34;rising&#34;,&#34;mode&#34;:&#34;now&#34;,&#34;momentum&#34;:&#34;rising&#34;,&#34;noiseLevel&#34;:&#34;high&#34;,&#34;confidence&#34;:60,&#34;freshnessScore&#34;:100,&#34;freshnessHours&#34;:0,&#34;sourceDiversity&#34;:2,&#34;itemVolume&#34;:2},&#34;proof&#34;:{&#34;sourceCount&#34;:2,&#34;itemCount&#34;:2,&#34;firstSeen&#34;:&#34;2026-10-03T08:34:08.000Z&#34;,&#34;latestSeen&#34;:&#34;2026-10-04T00:18:05.000Z&#34;,&#34;momentum&#34;:&#34;rising&#34;,&#34;noiseLevel&#34;:&#34;high&#34;},&#34;model&#34;:{&#34;version&#34;:&#34;news-cluster-v1&#34;,&#34;kind&#34;:&#34;cluster&#34;,&#34;mode&#34;:&#34;now&#34;,&#34;region&#34;:&#34;South Africa&#34;,&#34;terms&#34;:[&#34;life&#34;,&#34;joburg&#34;],&#34;score&#34;:4,&#34;startedAt&#34;:&#34;2026-10-03T08:34:08.000Z&#34;,&#34;latestAt&#34;:&#34;2026-10-04T00:18:05.000Z&#34;,&#34;sourceCount&#34;:2,&#34;itemCount&#34;:2},&#34;evidence&#34;:[{&#34;id&#34;:&#34;daily-maverick-2026-10-04-0ed4cb5bb6&#34;,&#34;title&#34;:&#34;HISTORY AND HERITAGE: Joburg: a city that leapt to life and still clings on&#34;,&#34;author&#34;:&#34;Anna Cox&#34;,&#34;source&#34;:&#34;Daily Maverick&#34;,&#34;publishedAt&#34;:&#34;2026-10-04T00:18:05.000Z&#34;,&#34;sourceUrl&#34;:&#34;https://www.dailymaverick.co.za/article/2026-10-04-joburg-a-city-that-leapt-to-life-and-still-clings-on/?utm_source=lootura.com&#34;,&#34;image&#34;:&#34;https://cdn.dailymaverick.co.za/i/fjc-PPfXA6s8iUEPxn6PgsXAUTw=/800x0/smart/filters:strip_exif()/file/attachments/2998/34Joburg-City-Centre-1896_938241.jpg&#34;},{&#34;id&#34;:&#34;enca-2026-10-03-cbe2f0d686&#34;,&#34;title&#34;:&#34;Joburg inner-city power outages leave thousands without water&#34;,&#34;author&#34;:&#34;Siya Tsewu&#34;,&#34;source&#34;:&#34;eNCA&#34;,&#34;publishedAt&#34;:&#34;2026-10-03T08:34:08.000Z&#34;,&#34;sourceUrl&#34;:&#34;https://www.enca.com/news-top-stories/joburg-inner-city-power-outages-leave-thousands-without-water?utm_source=lootura.com&#34;,&#34;image&#34;:&#34;&#34;}],&#34;sources&#34;:[&#34;Daily Maverick&#34;,&#34;eNCA&#34;],&#34;images&#34;:[&#34;https://cdn.dailymaverick.co.za/i/fjc-PPfXA6s8iUEPxn6PgsXAUTw=/800x0/smart/filters:strip_exif()/file/attachments/2998/34Joburg-City-Centre-1896_938241.jpg&#34;]},{&#34;id&#34;:&#34;now-cluster-south africa-government + murder&#34;,&#34;enrichmentKey&#34;:&#34;cluster-south-africa-government-murder-government-murder&#34;,&#34;title&#34;:&#34;Government condemns murder of 14-year-old twins in Mamelodi&#34;,&#34;strength&#34;:8,&#34;brief&#34;:&#34;Government condemns murder of 14-year-old twins in Mamelodi.&#34;,&#34;findings&#34;:[&#34;Signal is visible but narrow&#34;,&#34;Volume is still thin&#34;,&#34;Fresh activity is present&#34;],&#34;verdict&#34;:&#34;If it repeats in the next run, it gains weight.&#34;,&#34;nextRead&#34;:&#34;Confirm whether it repeats.&#34;,&#34;contextLines&#34;:[&#34;2 sources are pushing it: SABC News and eNCA.&#34;,&#34;3 related articles and latest activity 6 hours ago.&#34;,&#34;There is still noise; read it as a weak signal.&#34;],&#34;timeline&#34;:[{&#34;time&#34;:&#34;START&#34;,&#34;result&#34;:&#34;Teen twins stabbed in Mamelodi&#34;},{&#34;time&#34;:&#34;+35 MIN&#34;,&#34;result&#34;:&#34;Police follow lead after 14-year-old twin stabbing in Mamelodi&#34;},{&#34;time&#34;:&#34;+9 HR&#34;,&#34;result&#34;:&#34;Government condemns murder of 14-year-old twins in Mamelodi&#34;}],&#34;score&#34;:{&#34;total&#34;:8.18,&#34;confidence&#34;:67,&#34;freshnessScore&#34;:61,&#34;sourceBoost&#34;:3.6,&#34;volumeBoost&#34;:2.1,&#34;recencyBoost&#34;:2.48,&#34;qualityBoost&#34;:0,&#34;hotBoost&#34;:0},&#34;state&#34;:{&#34;productState&#34;:&#34;active&#34;,&#34;mode&#34;:&#34;now&#34;,&#34;momentum&#34;:&#34;stable&#34;,&#34;noiseLevel&#34;:&#34;high&#34;,&#34;confidence&#34;:67,&#34;freshnessScore&#34;:61,&#34;freshnessHours&#34;:5.87,&#34;sourceDiversity&#34;:2,&#34;itemVolume&#34;:3},&#34;proof&#34;:{&#34;sourceCount&#34;:2,&#34;itemCount&#34;:3,&#34;firstSeen&#34;:&#34;2026-10-03T07:55:20.000Z&#34;,&#34;latestSeen&#34;:&#34;2026-10-03T16:48:17.000Z&#34;,&#34;momentum&#34;:&#34;stable&#34;,&#34;noiseLevel&#34;:&#34;high&#34;},&#34;model&#34;:{&#34;version&#34;:&#34;news-cluster-v1&#34;,&#34;kind&#34;:&#34;cluster&#34;,&#34;mode&#34;:&#34;now&#34;,&#34;region&#34;:&#34;South Africa&#34;,&#34;terms&#34;:[&#34;government&#34;,&#34;murder&#34;],&#34;score&#34;:6,&#34;startedAt&#34;:&#34;2026-10-03T07:55:20.000Z&#34;,&#34;latestAt&#34;:&#34;2026-10-03T16:48:17.000Z&#34;,&#34;sourceCount&#34;:2,&#34;itemCount&#34;:3},&#34;evidence&#34;:[{&#34;id&#34;:&#34;sabc-news-2026-10-03-bccf34e5ba&#34;,&#34;title&#34;:&#34;Government condemns murder of 14-year-old twins in Mamelodi&#34;,&#34;author&#34;:&#34;Wendy Mothata&#34;,&#34;source&#34;:&#34;SABC News&#34;,&#34;publishedAt&#34;:&#34;2026-10-03T16:48:17.000Z&#34;,&#34;sourceUrl&#34;:&#34;https://www.sabcnews.com/sabcnews/government-condemns-murder-of-14-year-old-twins-in-mamelodi/?utm_source=lootura.com&#34;,&#34;image&#34;:&#34;&#34;},{&#34;id&#34;:&#34;sabc-news-2026-10-03-857d7f086c&#34;,&#34;title&#34;:&#34;Police follow lead after 14-year-old twin stabbing in Mamelodi&#34;,&#34;author&#34;:&#34;Nomcebo Miya&#34;,&#34;source&#34;:&#34;SABC News&#34;,&#34;publishedAt&#34;:&#34;2026-10-03T08:30:23.000Z&#34;,&#34;sourceUrl&#34;:&#34;https://www.sabcnews.com/sabcnews/police-follow-lead-after-14-year-old-twin-stabbing-in-mamelodi/?utm_source=lootura.com&#34;,&#34;image&#34;:&#34;&#34;},{&#34;id&#34;:&#34;enca-2026-10-03-67d3826081&#34;,&#34;title&#34;:&#34;Teen twins stabbed in Mamelodi&#34;,&#34;author&#34;:&#34;Siya Tsewu&#34;,&#34;source&#34;:&#34;eNCA&#34;,&#34;publishedAt&#34;:&#34;2026-10-03T07:55:20.000Z&#34;,&#34;sourceUrl&#34;:&#34;https://www.enca.com/news-top-stories/teen-twins-stabbed-mamelodi?utm_source=lootura.com&#34;,&#34;image&#34;:&#34;&#34;}],&#34;sources&#34;:[&#34;SABC News&#34;,&#34;eNCA&#34;],&#34;images&#34;:[]}],&#34;images&#34;:[&#34;https://cdn.dailymaverick.co.za/i/fjc-PPfXA6s8iUEPxn6PgsXAUTw=/800x0/smart/filters:strip_exif()/file/attachments/2998/34Joburg-City-Centre-1896_938241.jpg&#34;,&#34;https://s.w.org/images/core/emoji/15.0.3/72x72/1f1ff-1f1e6.png&#34;,&#34;https://s.w.org/images/core/emoji/15.0.3/72x72/1f981.png&#34;,&#34;https://cdn.dailymaverick.co.za/i/-t54RFgFBS1MJwBHQXBr6OYLzo8=/800x0/smart/filters:strip_exif()/file/attachments/2998/PoliticallyAwehThumbnail_626905.jpg&#34;]}]}" data-signal-updated-at="2026-10-03T22:40:14.710Z" data-signal-fallback-image="/news-fallback.svg" data-refresh-idle="Pull to refresh" data-refresh-ready="Release to update" data-refresh-loading="Refreshing cover" data-astro-cid-2tuoo5xh> <div class="lootura-signal__intro" data-signal-intro hidden data-astro-cid-2tuoo5xh> <div class="lootura-signal__intro-panel" role="dialog" aria-modal="true" aria-labelledby="signal-intro-title-za" data-astro-cid-2tuoo5xh> <h1 id="signal-intro-title-za" data-astro-cid-2tuoo5xh>One read.</h1> <p data-astro-cid-2tuoo5xh> Lootura reads processed links and turns them into one fast cover: what matters now, what is gaining weight, and what is fading. </p> <div class="lootura-signal__intro-steps" data-astro-cid-2tuoo5xh> <p data-astro-cid-2tuoo5xh> <strong data-astro-cid-2tuoo5xh>Read the cover</strong> <span data-astro-cid-2tuoo5xh>from strongest signal to weaker movement.</span> </p> <p data-astro-cid-2tuoo5xh> <strong data-astro-cid-2tuoo5xh>Tap a signal</strong> <span data-astro-cid-2tuoo5xh>to see the proof in one screen.</span> </p> <p data-astro-cid-2tuoo5xh> <strong data-astro-cid-2tuoo5xh>If there is no signal</strong> <span data-astro-cid-2tuoo5xh>Lootura stays quiet.</span> </p> </div> <button type="button" data-signal-intro-close data-astro-cid-2tuoo5xh>Start</button> </div> </div> <div class="lootura-signal__install-nudge" data-signal-install-nudge hidden data-astro-cid-2tuoo5xh> <div class="lootura-signal__install-card" role="dialog" aria-modal="false" aria-labelledby="signal-install-title-za" data-signal-install-card data-astro-cid-2tuoo5xh> <p data-signal-install-kicker data-astro-cid-2tuoo5xh>Next time</p> <h2 id="signal-install-title-za" data-astro-cid-2tuoo5xh>Keep Lootura as an app.</h2> <span data-signal-install-copy data-astro-cid-2tuoo5xh> Open straight into the full-screen signal read, without browser chrome. </span> <div class="lootura-signal__install-actions" data-astro-cid-2tuoo5xh> <button type="button" data-signal-install-action data-astro-cid-2tuoo5xh>Install app</button> <button type="button" data-signal-install-close data-astro-cid-2tuoo5xh>Not now</button> </div> <small data-signal-install-help hidden data-astro-cid-2tuoo5xh> Use the browser menu and choose Add to Home Screen / Install app. </small> </div> </div> <div class="lootura-signal__refresh" data-signal-refresh hidden aria-hidden="true" data-astro-cid-2tuoo5xh> <div class="lootura-signal__refresh-card" data-astro-cid-2tuoo5xh> <div class="lootura-signal__refresh-core" data-astro-cid-2tuoo5xh> <span data-astro-cid-2tuoo5xh></span> </div> <div class="lootura-signal__refresh-copy" data-astro-cid-2tuoo5xh> <p data-signal-refresh-label data-astro-cid-2tuoo5xh>Pull to refresh</p> <div class="lootura-signal__refresh-track" aria-hidden="true" data-astro-cid-2tuoo5xh><span data-astro-cid-2tuoo5xh></span></div> </div> </div> </div>   <div class="lootura-signal__overview" data-signal-overview data-signal-refresh-surface aria-live="polite" data-astro-cid-2tuoo5xh> <div class="lootura-signal__overview-content" data-astro-cid-2tuoo5xh> <div class="lootura-signal__cover" data-astro-cid-2tuoo5xh> <div class="lootura-signal__overview-visual" data-astro-cid-2tuoo5xh> <div class="lootura-signal__media lootura-signal__overview-media lootura-signal__editorial-image-flow has-image" data-editorial-image-flow aria-hidden="true" data-astro-cid-2tuoo5xh> <img src="https://cdn.dailymaverick.co.za/i/fjc-PPfXA6s8iUEPxn6PgsXAUTw=/800x0/smart/filters:strip_exif()/file/attachments/2998/34Joburg-City-Centre-1896_938241.jpg" alt="" loading="eager" data-app-image data-fallback-image="/news-fallback.svg" data-astro-cid-2tuoo5xh> </div> <div class="lootura-signal__shade lootura-signal__overview-shade" data-astro-cid-2tuoo5xh></div> </div> <div class="lootura-signal__cover-body" data-astro-cid-2tuoo5xh> <p class="lootura-signal__cover-pulse lootura-signal__cover-pulse--top" data-astro-cid-2tuoo5xh>Last analysis · 2 minutes ago</p> <p class="lootura-signal__cover-intro" data-astro-cid-2tuoo5xh>Signals curated from several sources.</p> <div class="mt-3 flex flex-wrap items-center gap-2" data-astro-cid-2tuoo5xh> <span class="inline-flex items-center rounded-full border border-white/10 bg-white/8 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-white/68" data-astro-cid-2tuoo5xh> Last update 2 minutes ago </span> </div> <div class="lootura-signal__editorial" data-editorial-carousel data-astro-cid-2tuoo5xh> <div class="lootura-signal__editorial-track" data-editorial-track data-astro-cid-2tuoo5xh> <button type="button" class="lootura-signal__cover-lead lootura-signal__editorial-slide is-active" data-editorial-slide data-editorial-index="0" data-signal-card data-signal-state="rising" data-signal-score="16" data-signal-open="now-cluster-south africa-life + joburg" data-signal-updated-at="2026-10-04T00:18:05.000Z" data-signal-url="/za/signal/history-and-heritage-joburg-a-city-that-leapt-to-life-and-still-clings-on" data-astro-cid-2tuoo5xh> <h1 data-astro-cid-2tuoo5xh>HISTORY AND HERITAGE: Joburg: a city that leapt to life and still clings on</h1> <small data-astro-cid-2tuoo5xh><span class="lootura-signal__visit-label" data-signal-visit-label data-astro-cid-2tuoo5xh></span>2 sources · fresh now</small> </button><button type="button" class="lootura-signal__cover-lead lootura-signal__editorial-slide" data-editorial-slide data-editorial-index="1" data-signal-card data-signal-state="rising" data-signal-score="16" data-signal-open="now-cluster-south africa-life + joburg" data-signal-updated-at="2026-10-04T00:18:05.000Z" data-signal-url="/za/signal/history-and-heritage-joburg-a-city-that-leapt-to-life-and-still-clings-on" data-astro-cid-2tuoo5xh> <h1 data-astro-cid-2tuoo5xh>Joburg inner-city power outages leave thousands without water</h1> <small data-astro-cid-2tuoo5xh><span class="lootura-signal__visit-label" data-signal-visit-label data-astro-cid-2tuoo5xh></span>2 sources · fresh now</small> </button> </div> <div class="lootura-signal__editorial-dots" aria-label="Editorial signals" data-astro-cid-2tuoo5xh> <button type="button" class="is-active" data-editorial-dot data-editorial-index="0" aria-label="Show headline 1: HISTORY AND HERITAGE: Joburg: a city that leapt to life and still clings on" aria-current="true" data-astro-cid-2tuoo5xh></button><button type="button" class data-editorial-dot data-editorial-index="1" aria-label="Show headline 2: Joburg inner-city power outages leave thousands without water" aria-current="false" data-astro-cid-2tuoo5xh></button> </div> </div> <div class="lootura-signal__signal-map" data-astro-cid-2tuoo5xh> <button type="button" class="lootura-signal__map-row" data-signal-card data-signal-state="active" data-signal-score="8.18" data-signal-open="now-cluster-south africa-government + murder" data-signal-updated-at="2026-10-03T16:48:17.000Z" data-signal-url="/za/signal/government-condemns-murder-of-14-year-old-twins-in-mamelodi" data-astro-cid-2tuoo5xh> <span data-astro-cid-2tuoo5xh>02</span> <strong data-astro-cid-2tuoo5xh>Government condemns murder of 14-year-old twins in Mamelodi</strong> <small data-astro-cid-2tuoo5xh><span class="lootura-signal__visit-label" data-signal-visit-label data-astro-cid-2tuoo5xh></span>Active · 2 sources · 6h fresh</small> </button> </div>  </div> </div> </div> </div> <div class="lootura-signal__day-panel" data-signal-24h hidden data-astro-cid-2tuoo5xh> <div class="lootura-signal__day-topbar" data-astro-cid-2tuoo5xh> <button type="button" class="lootura-signal__day-close" data-signal-24h-close aria-label="Close 24 hour signals" data-astro-cid-2tuoo5xh>×</button> <p data-astro-cid-2tuoo5xh>Last 24h</p> </div> <div class="lootura-signal__day-content" data-astro-cid-2tuoo5xh> <header class="lootura-signal__day-header" data-astro-cid-2tuoo5xh> <p data-astro-cid-2tuoo5xh>24 hour movement</p> <h2 data-astro-cid-2tuoo5xh>Rising and fading.</h2> </header> <div class="lootura-signal__day-list" data-astro-cid-2tuoo5xh>  </div> <p class="lootura-signal__day-scan-count" data-signal-day-scan-count data-astro-cid-2tuoo5xh>250 links scanned in 24h</p> </div> </div> <div class="lootura-signal__detail" data-signal-detail hidden data-astro-cid-2tuoo5xh> <div class="lootura-signal__detail-topbar" data-astro-cid-2tuoo5xh> <button type="button" class="lootura-signal__detail-close" data-signal-detail-close aria-label="Back to signals" data-astro-cid-2tuoo5xh> <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-2tuoo5xh="true" class="lucide lucide-arrow-left"> <path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path>  </svg> </button> <p data-detail-top-title data-astro-cid-2tuoo5xh></p> </div> <div class="lootura-signal__detail-panel" data-astro-cid-2tuoo5xh> <section class="lootura-signal__detail-hero" data-detail-hero data-astro-cid-2tuoo5xh> <div class="lootura-signal__detail-hero-media" data-detail-media aria-hidden="true" data-astro-cid-2tuoo5xh></div> <div class="lootura-signal__detail-hero-copy" data-astro-cid-2tuoo5xh> <h2 data-detail-title data-astro-cid-2tuoo5xh></h2> </div> </section> <section class="lootura-signal__detail-proof" data-astro-cid-2tuoo5xh> <div class="lootura-signal__proof-strip" data-detail-proof aria-label="Proof" data-astro-cid-2tuoo5xh></div> </section> <section class="lootura-signal__brief" data-astro-cid-2tuoo5xh> <p class="lootura-signal__section-label" data-astro-cid-2tuoo5xh>What happened</p> <p data-detail-brief data-astro-cid-2tuoo5xh></p> </section> <section class="lootura-signal__articles" data-detail-articles-section data-astro-cid-2tuoo5xh> <p class="lootura-signal__section-label" data-astro-cid-2tuoo5xh>Links</p> <div class="lootura-signal__article-list" data-detail-articles data-astro-cid-2tuoo5xh></div> </section> <section class="lootura-signal__sources" data-detail-sources-section data-astro-cid-2tuoo5xh> <p class="lootura-signal__section-label" data-astro-cid-2tuoo5xh>Detected in</p> <div class="lootura-signal__source-list" data-detail-sources data-astro-cid-2tuoo5xh></div> </section> <section class="lootura-signal__context" data-detail-context-section data-astro-cid-2tuoo5xh> <p class="lootura-signal__section-label" data-astro-cid-2tuoo5xh>Why it appears</p> <div class="lootura-signal__context-lines" data-detail-context data-astro-cid-2tuoo5xh></div> </section> <section class="lootura-signal__detail-actions" data-astro-cid-2tuoo5xh> <a href="/za/signal/" data-detail-share data-astro-cid-2tuoo5xh>Share signal</a> </section> </div> </div>  </section> <script type="module" src="/_astro/SignalExperience.astro_astro_type_script_index_0_lang.m4weCwG0.js"></script> </main>  <section class="fixed inset-x-4 bottom-[calc(env(safe-area-inset-bottom,0px)+1rem)] z-[60] mx-auto max-w-sm border border-neutral-200 bg-white p-4 text-neutral-950 shadow-[0_18px_55px_rgba(10,10,10,0.16)] sm:inset-x-auto sm:right-6 sm:max-w-md" data-release-notice hidden role="status" aria-live="polite" aria-hidden="true" data-astro-cid-sckkx6r4> <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-neutral-500" data-release-eyebrow data-astro-cid-sckkx6r4> New version </p> <h2 class="mt-2 text-xl font-semibold leading-tight text-neutral-950" data-release-title data-astro-cid-sckkx6r4> Lootura has something new </h2> <p class="mt-2 text-sm leading-6 text-neutral-600" data-release-body data-astro-cid-sckkx6r4> The app was updated. Keep reading or see what changed. </p> <div class="mt-4 flex flex-wrap items-center gap-3" data-astro-cid-sckkx6r4> <button class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" type="button" data-release-refresh hidden data-astro-cid-sckkx6r4> Update </button> <a class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" href="/updates" data-release-updates data-astro-cid-sckkx6r4> What&#39;s new </a> <button class="inline-flex min-h-11 items-center justify-center border border-neutral-200 bg-white px-4 text-sm font-semibold text-neutral-700" type="button" data-release-dismiss data-astro-cid-sckkx6r4> Not now </button> </div> </section>  <script>(function(){const baseUrl = "/";
+const isProduction = true;
+const currentAppBuild = {"version":"1.13.0","build":1011001};
+
+	const pwaDevOverrideKey = 'lootura:pwa-dev-override';
+	const getIsPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+	const applyPwaRuntime = () => {
+		const isPwaRuntime = Boolean(getIsPwaRuntime());
+		document.documentElement.classList.toggle('pwa-runtime', isPwaRuntime);
+		window.dispatchEvent(new CustomEvent('lootura:pwa-runtime-changed', { detail: { isPwaRuntime } }));
+		return isPwaRuntime;
+	};
+
+	if (!isProduction) {
+		const params = new URLSearchParams(window.location.search);
+		const pwaOverride = params.get('pwa');
+		if (pwaOverride === '1' || pwaOverride === '0') {
+			if (pwaOverride === '1') {
+				sessionStorage.setItem(pwaDevOverrideKey, 'true');
+			} else {
+				sessionStorage.removeItem(pwaDevOverrideKey);
+			}
+			const cleanUrl = new URL(window.location.href);
+			cleanUrl.searchParams.delete('pwa');
+			window.history.replaceState({}, '', cleanUrl);
+		}
+	}
+	applyPwaRuntime();
+
+	if (!isProduction) {
+		const devModeOptions = Array.from(document.querySelectorAll('[data-dev-pwa-mode-option]'));
+		const syncDevModeOptions = () => {
+			const mode = sessionStorage.getItem(pwaDevOverrideKey) === 'true' ? 'pwa' : 'page';
+			devModeOptions.forEach((option) => {
+				option.checked = option.value === mode;
+			});
+		};
+		devModeOptions.forEach((option) => {
+			option.addEventListener('change', () => {
+				if (option.value === 'pwa') {
+					sessionStorage.setItem(pwaDevOverrideKey, 'true');
+				} else {
+					sessionStorage.removeItem(pwaDevOverrideKey);
+				}
+				applyPwaRuntime();
+				syncDevModeOptions();
+			});
+		});
+		syncDevModeOptions();
+	}
+
+	document.documentElement.classList.remove('dark');
+	document.documentElement.style.colorScheme = 'light';
+
+	const getAbsoluteImageUrl = (value) => {
+		try {
+			return new URL(value || '', document.baseURI).href;
+		} catch {
+			return '';
+		}
+	};
+
+	const getImageFallbackCandidates = (image) => [
+		image.dataset.fallbackImage || image.dataset.fallbackBackground || '',
+		image.dataset.finalFallbackImage || '',
+	].filter(Boolean);
+
+	const revealAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		if (!image.matches('[data-app-image], [data-news-image]')) return;
+		image.dataset.loaded = 'true';
+		image.dataset.imageError = 'false';
+	};
+
+	const recoverAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		const candidates = getImageFallbackCandidates(image);
+		const currentUrl = image.currentSrc || image.src || '';
+		const nextFallback = candidates.find((candidate) => {
+			const fallbackUrl = getAbsoluteImageUrl(candidate);
+			return fallbackUrl && fallbackUrl !== currentUrl;
+		});
+
+		if (nextFallback) {
+			image.dataset.imageRecovered = 'true';
+			image.dataset.loaded = 'false';
+			image.src = nextFallback;
+			return;
+		}
+
+		if (image.hasAttribute('data-remove-on-error')) {
+			image.remove();
+			return;
+		}
+
+		image.dataset.imageError = 'true';
+	};
+
+	document.addEventListener('load', (event) => revealAppImage(event.target), true);
+	document.addEventListener('error', (event) => recoverAppImage(event.target), true);
+	for (const image of document.querySelectorAll('img[data-app-image], img[data-news-image]')) {
+		if (!(image instanceof HTMLImageElement) || !image.complete) continue;
+		if (image.naturalWidth > 0) {
+			revealAppImage(image);
+		} else {
+			recoverAppImage(image);
+		}
+	}
+
+	const isLooturaPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+
+	const releaseSeenBuildKey = 'lootura:app-release:last-seen-build';
+	const releaseSeenVersionKey = 'lootura:app-release:last-seen-version';
+	const releaseSnoozedUntilKey = 'lootura:app-release:snoozed-until';
+	const updatesSeenVersionKey = 'lootura:updates:last-seen-version';
+	const releasePendingKey = 'lootura:release-notice:pending';
+	const refreshAtLaunchKey = 'lootura:refresh-at-launch';
+	const releaseNotice = document.querySelector('[data-release-notice]');
+	const releaseEyebrow = releaseNotice?.querySelector('[data-release-eyebrow]');
+	const releaseTitle = releaseNotice?.querySelector('[data-release-title]');
+	const releaseBody = releaseNotice?.querySelector('[data-release-body]');
+	const releaseRefreshButton = releaseNotice?.querySelector('[data-release-refresh]');
+	const releaseUpdatesLink = releaseNotice?.querySelector('[data-release-updates]');
+	const releaseDismissButton = releaseNotice?.querySelector('[data-release-dismiss]');
+	let releaseNoticeTimer = 0;
+	let lastPublishedBuild = null;
+	let isReloadingForUpdate = false;
+
+	const getBuildId = (build) => {
+		const version = String(build?.version || '').trim();
+		const number = Number(build?.build || 0);
+		return version && Number.isFinite(number) && number > 0 ? `${version}:${number}` : '';
+	};
+	const currentBuildId = getBuildId(currentAppBuild);
+	const currentVersion = String(currentAppBuild?.version || '').trim();
+
+	const getLastSeenReleaseVersion = () => {
+		try {
+			const releaseSeenVersion = localStorage.getItem(releaseSeenVersionKey) || '';
+			const updatesSeenVersion = localStorage.getItem(updatesSeenVersionKey) || '';
+			const legacySeenBuild = localStorage.getItem(releaseSeenBuildKey) || '';
+			const legacySeenVersion = legacySeenBuild.includes(':') ? legacySeenBuild.split(':')[0] : '';
+			return releaseSeenVersion || updatesSeenVersion || legacySeenVersion;
+		} catch {
+			return '';
+		}
+	};
+
+	const markReleaseVersionSeen = () => {
+		if (!currentVersion) return;
+		try {
+			localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			localStorage.setItem(updatesSeenVersionKey, currentVersion);
+			localStorage.removeItem(releaseSnoozedUntilKey);
+			sessionStorage.removeItem(releasePendingKey);
+		} catch {}
+	};
+
+	const getNextLocalDayIso = () => {
+		const now = new Date();
+		return new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).toISOString();
+	};
+
+	const snoozeReleaseNoticeUntilTomorrow = () => {
+		try {
+			localStorage.setItem(releaseSnoozedUntilKey, getNextLocalDayIso());
+		} catch {}
+	};
+
+	const isReleaseNoticeSnoozed = () => {
+		try {
+			const snoozedUntil = new Date(localStorage.getItem(releaseSnoozedUntilKey) || '').getTime();
+			return Number.isFinite(snoozedUntil) && snoozedUntil > Date.now();
+		} catch {
+			return false;
+		}
+	};
+
+	const getLocalizedUpdatesPath = () => {
+		const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+		const pathWithoutBase = window.location.pathname.startsWith(normalizedBaseUrl)
+			? window.location.pathname.slice(normalizedBaseUrl.length)
+			: window.location.pathname.replace(/^\//, '');
+		const firstSegment = pathWithoutBase.split('/').filter(Boolean)[0];
+		const locale = firstSegment === 'us' ? 'us' : 'es';
+		return `${normalizedBaseUrl}${locale}/updates`;
+	};
+
+	const rememberPendingRelease = (publishedBuild) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		try {
+			sessionStorage.setItem(
+				releasePendingKey,
+				JSON.stringify({
+					id: publishedBuildId,
+					version: String(publishedBuild?.version || ''),
+					build: Number(publishedBuild?.build || 0),
+				}),
+			);
+		} catch {}
+	};
+
+	const getPendingRelease = () => {
+		try {
+			const pendingRelease = JSON.parse(sessionStorage.getItem(releasePendingKey) || 'null');
+			return pendingRelease?.id === currentBuildId ? pendingRelease : null;
+		} catch {
+			return null;
+		}
+	};
+
+	const isReleaseNoticeBlocked = () =>
+		sessionStorage.getItem(refreshAtLaunchKey) === 'true' ||
+		Boolean(document.querySelector('[data-feed-refresh-overlay][data-visible]')) ||
+		Boolean(document.querySelector('[data-while-you-were-away-card][data-open="true"]')) ||
+		Boolean(document.querySelector('[data-signal-install-nudge]:not([hidden])')) ||
+		Boolean(document.querySelector('[role="dialog"][aria-modal="true"]:not([hidden]):not(.hidden):not([aria-hidden="true"])'));
+
+	const clearServiceWorkerCaches = async () => {
+		if (!window.caches?.keys) return;
+		const keys = await window.caches.keys();
+		await Promise.all(keys.filter((key) => key.startsWith('lootura-')).map((key) => window.caches.delete(key)));
+	};
+
+	const reloadForPublishedBuild = async () => {
+		if (isReloadingForUpdate) return;
+		isReloadingForUpdate = true;
+		try {
+			await clearServiceWorkerCaches();
+		} catch {}
+		window.location.reload();
+	};
+
+	const setReleaseNoticeMode = (mode) => {
+		const isSpanish = document.documentElement.lang?.startsWith('es');
+		const copy = mode === 'update'
+			? {
+					eyebrow: isSpanish ? 'Nueva versión disponible' : 'New version available',
+					title: isSpanish ? 'Actualiza Lootura' : 'Update Lootura',
+					body: isSpanish
+						? 'Hay una versión nueva lista. Actualiza la PWA para cargarla antes de ver las novedades.'
+						: 'A new version is ready. Update the PWA to load it before reading what changed.',
+				}
+			: {
+					eyebrow: isSpanish ? 'Nueva versión' : 'New version',
+					title: isSpanish ? 'Hay algo nuevo en Lootura' : 'Lootura has something new',
+					body: isSpanish
+						? 'La app se ha actualizado. Puedes seguir leyendo o ver los cambios.'
+						: 'The app was updated. Keep reading or see what changed.',
+				};
+
+		if (releaseEyebrow) releaseEyebrow.textContent = copy.eyebrow;
+		if (releaseTitle) releaseTitle.textContent = copy.title;
+		if (releaseBody) releaseBody.textContent = copy.body;
+		if (releaseRefreshButton) releaseRefreshButton.hidden = mode !== 'update';
+		if (releaseUpdatesLink) releaseUpdatesLink.hidden = mode === 'update';
+		if (releaseNotice) releaseNotice.dataset.mode = mode;
+	};
+
+	const hideReleaseNotice = () => {
+		window.clearTimeout(releaseNoticeTimer);
+		if (!releaseNotice) return;
+		releaseNotice.hidden = true;
+		releaseNotice.dataset.visible = 'false';
+		releaseNotice.setAttribute('aria-hidden', 'true');
+	};
+
+	const showReleaseNotice = (mode = 'notes') => {
+		if (!releaseNotice || !currentBuildId || !currentVersion || releaseNotice.dataset.visible === 'true') return;
+
+		if (mode === 'notes') {
+			try {
+				sessionStorage.removeItem(releasePendingKey);
+			} catch {}
+		}
+
+		setReleaseNoticeMode(mode);
+		releaseUpdatesLink?.setAttribute('href', getLocalizedUpdatesPath());
+		releaseNotice.hidden = false;
+		releaseNotice.dataset.visible = 'true';
+		releaseNotice.setAttribute('aria-hidden', 'false');
+		window.umami?.track?.('Show PWA release notice', { version: currentVersion, build: currentBuildId, mode });
+	};
+
+	const maybeShowReleaseNotice = (attempt = 0) => {
+		if (!isProduction || !currentBuildId || !currentVersion) return;
+
+		let lastSeenVersion = '';
+		try {
+			lastSeenVersion = getLastSeenReleaseVersion();
+		} catch {}
+
+		const pendingRelease = getPendingRelease();
+		const hasUnseenVersion = Boolean(lastSeenVersion && lastSeenVersion !== currentVersion);
+		const cameFromPendingRelease = Boolean(pendingRelease && pendingRelease.version === currentVersion);
+		const shouldShowReleaseNotice = cameFromPendingRelease || (hasUnseenVersion && (!pendingRelease || pendingRelease.version === currentVersion));
+
+		if (!lastSeenVersion && !pendingRelease) {
+			try {
+				localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			} catch {}
+			return;
+		}
+
+		if (!shouldShowReleaseNotice) return;
+		if (isReleaseNoticeSnoozed()) return;
+
+		if (!isLooturaPwaRuntime()) {
+			return;
+		}
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseNotice(attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice();
+	};
+
+	const maybeShowReleaseUpdateNotice = (publishedBuild, attempt = 0) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!isProduction || !publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		lastPublishedBuild = publishedBuild;
+		rememberPendingRelease(publishedBuild);
+
+		if (isReleaseNoticeSnoozed()) return;
+		if (!isLooturaPwaRuntime()) return;
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseUpdateNotice(publishedBuild, attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice('update');
+	};
+
+	releaseDismissButton?.addEventListener('click', () => {
+		snoozeReleaseNoticeUntilTomorrow();
+		hideReleaseNotice();
+	});
+	releaseRefreshButton?.addEventListener('click', () => {
+		const publishedBuild = lastPublishedBuild || getPendingRelease();
+		if (publishedBuild) rememberPendingRelease(publishedBuild);
+		reloadForPublishedBuild();
+	});
+	releaseUpdatesLink?.addEventListener('click', () => {
+		markReleaseVersionSeen();
+		hideReleaseNotice();
+	});
+	window.addEventListener('lootura:queue-refreshed', () => {
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+	window.addEventListener('lootura:pwa-runtime-changed', () => maybeShowReleaseNotice());
+	window.addEventListener('pageshow', () => maybeShowReleaseNotice());
+	document.addEventListener('visibilitychange', () => {
+		if (document.visibilityState === 'visible') maybeShowReleaseNotice();
+	});
+
+	const syncLooturaPwaRuntime = () => {
+		document.documentElement.classList.toggle('pwa-runtime', Boolean(isLooturaPwaRuntime()));
+	};
+
+	syncLooturaPwaRuntime();
+	window.addEventListener('appinstalled', syncLooturaPwaRuntime);
+	window.addEventListener('pageshow', syncLooturaPwaRuntime);
+	window.addEventListener('focus', syncLooturaPwaRuntime);
+
+	const detectLooturaClient = () => {
+		const userAgent = navigator.userAgent;
+		const isStandalone = isLooturaPwaRuntime();
+		const userAgentDataPlatform = navigator.userAgentData?.platform || '';
+		const legacyPlatform = navigator.platform || '';
+		const maxTouchPoints = navigator.maxTouchPoints || 0;
+		const platform = (() => {
+			if (/Android/i.test(userAgentDataPlatform) || /Android/i.test(userAgent)) return 'android';
+			if (/iPad|iPhone|iPod/i.test(userAgent) || /iPad|iPhone|iPod/i.test(legacyPlatform)) return 'ios';
+			if (/Mac/i.test(userAgentDataPlatform || legacyPlatform) && maxTouchPoints > 1) return 'ios';
+			return 'desktop';
+		})();
+		const browser = (() => {
+			if (/CriOS/i.test(userAgent)) return 'Chrome iOS';
+			if (/FxiOS/i.test(userAgent)) return 'Firefox iOS';
+			if (/EdgiOS/i.test(userAgent)) return 'Edge iOS';
+			if (/Edg/i.test(userAgent)) return 'Edge';
+			if (/OPR|Opera/i.test(userAgent)) return 'Opera';
+			if (/Chrome|Chromium|CriOS/i.test(userAgent)) return 'Chrome';
+			if (/Safari/i.test(userAgent)) return 'Safari';
+			if (/Firefox/i.test(userAgent)) return 'Firefox';
+			return 'Other';
+		})();
+
+		return {
+			appMode: isStandalone ? 'pwa' : 'browser',
+			platform,
+			browser,
+		};
+	};
+
+	const trackLooturaContext = (attempt = 0) => {
+		if (!window.umami) {
+			if (attempt < 20) window.setTimeout(() => trackLooturaContext(attempt + 1), 250);
+			return;
+		}
+
+		const context = detectLooturaClient();
+		window.looturaClient = context;
+		window.umami.identify?.(context);
+
+		const sessionKey = `lootura:context-tracked:${context.appMode}:${context.platform}:${context.browser}`;
+		if (!sessionStorage.getItem(sessionKey)) {
+			sessionStorage.setItem(sessionKey, 'true');
+			window.umami.track?.('App context', context);
+		}
+	};
+
+	const lockPortraitOrientation = async () => {
+		const orientationApi = screen.orientation;
+		if (!isLooturaPwaRuntime() || !orientationApi?.lock) return;
+
+		try {
+			await orientationApi.lock('portrait-primary');
+		} catch {
+			// iOS Safari and some browsers ignore orientation lock for web apps.
+		}
+	};
+
+	const enforcePortraitOrientation = () => {
+		lockPortraitOrientation();
+
+		window.addEventListener('focus', lockPortraitOrientation);
+		window.addEventListener('pageshow', lockPortraitOrientation);
+		window.addEventListener('orientationchange', lockPortraitOrientation);
+		screen.orientation?.addEventListener?.('change', lockPortraitOrientation);
+		document.addEventListener('visibilitychange', () => {
+			if (document.visibilityState === 'visible') lockPortraitOrientation();
+		});
+	};
+
+	if (!isProduction && 'serviceWorker' in navigator) {
+		navigator.serviceWorker.getRegistrations?.().then((registrations) => {
+			registrations.forEach((registration) => registration.unregister());
+		});
+	}
+
+	if (isProduction && 'serviceWorker' in navigator) {
+		window.addEventListener('load', () => {
+			const reloadForUpdate = () => {
+				if (isReloadingForUpdate) return;
+				isReloadingForUpdate = true;
+				window.location.reload();
+			};
+			const checkPublishedBuild = async () => {
+				try {
+					const response = await fetch(`${baseUrl}app-build.json?ts=${Date.now()}`, {
+						cache: 'no-store',
+						headers: { accept: 'application/json' },
+					});
+					if (!response.ok) return;
+					const publishedBuild = await response.json();
+					const publishedBuildId = getBuildId(publishedBuild);
+					if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+					maybeShowReleaseUpdateNotice(publishedBuild);
+				} catch {
+					// Update checks should never block normal reading.
+				}
+			};
+
+			navigator.serviceWorker.addEventListener('controllerchange', reloadForUpdate);
+
+			navigator.serviceWorker
+				.register(`${baseUrl}sw.js`, { updateViaCache: 'none' })
+				.then((registration) => {
+					const checkForUpdates = () => registration.update().catch(() => {});
+
+					checkForUpdates();
+					checkPublishedBuild();
+					window.setInterval(checkForUpdates, 60_000);
+					window.setInterval(checkPublishedBuild, 60_000);
+					window.addEventListener('focus', checkForUpdates);
+					window.addEventListener('focus', checkPublishedBuild);
+					document.addEventListener('visibilitychange', () => {
+						if (document.visibilityState === 'visible') {
+							checkForUpdates();
+							checkPublishedBuild();
+						}
+					});
+				})
+				.catch(() => {});
+		});
+	}
+
+	window.addEventListener('load', () => {
+		trackLooturaContext();
+		enforcePortraitOrientation();
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+})();</script></body></html>
