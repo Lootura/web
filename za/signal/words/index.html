@@ -1,0 +1,875 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-sckkx6r4> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0a0a0a"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Lootura"><meta name="generator" content="Astro v6.1.8"><meta name="robots" content="noindex,nofollow,noarchive"><title>Lootura | Followed words</title><style>
+			html,
+			body {
+				margin: 0;
+				width: 100%;
+				min-height: 100%;
+				background: #0a0a0a;
+				color-scheme: light;
+			}
+		</style><script>(function(){const supportedLocales = ["es","us","za","mx","ar","jp"];
+const editionAliases = {"es":"es","spain":"es","us":"us","usa":"us","united-states":"us","za":"za","south-africa":"za","south_africa":"za","south africa":"za","mx":"mx","mexico":"mx","méxico":"mx","ar":"ar","argentina":"ar","jp":"jp","japan":"jp","japon":"jp","japón":"jp","nihon":"jp","nippon":"jp"};
+
+			(() => {
+				const cleanupVersionKey = 'lootura:storage-cleanup-version';
+				const cleanupVersion = '2026-05-18-editions-config';
+				const maxSeenNewsItems = 600;
+				const seenNewsLifetimeMs = 30 * 24 * 60 * 60 * 1000;
+				const editionPattern = supportedLocales.map((edition) => edition.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+				const allowedEditionIds = new Set(supportedLocales);
+				const booleanKeys = new Set([
+					'lootura:browser-intro-seen',
+					'lootura:editions-promo-seen',
+					'lootura:install-accepted',
+					'lootura:signal:intro-any-seen',
+					'lootura:signal:install-nudge-dismissed:v1',
+					'lootura:signal:install-nudge-ready:v1',
+					'lootura:swipe-hint-seen',
+				]);
+				const numberKeys = new Set([
+					'lootura:signal:browser-open-count:v1',
+					'lootura:signal:install-nudge-dismiss-count:v1',
+				]);
+				const dateKeys = new Set([
+					'lootura:install-gate-action-at',
+					'lootura:install-gate-seen-at',
+					'lootura:last-active-at',
+				]);
+				const allowedExactKeys = new Set([
+					cleanupVersionKey,
+					'lootura.preferences.v1',
+					'lootura:editorial',
+					'lootura:app-release:last-seen-build',
+					'lootura:app-release:last-seen-version',
+					'lootura:app-release:snoozed-until',
+					'lootura:refresh-at-launch',
+					'lootura:seen-news:v1',
+					'lootura:updates:last-seen-version',
+					...booleanKeys,
+					...numberKeys,
+					...dateKeys,
+				]);
+				const allowedPatternKeys = [
+					new RegExp(`^lootura:calm-mode:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:saved-stories:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:signal:intro:v1:(${editionPattern}|global)$`),
+					new RegExp(`^lootura:signal:seen:v1:(${editionPattern}|global)$`),
+				];
+
+				const isValidDate = (value) => Number.isFinite(new Date(value || '').getTime());
+				const removeItem = (key) => localStorage.removeItem(key);
+				const writeJson = (key, value) => localStorage.setItem(key, JSON.stringify(value));
+				const isAllowedLooturaKey = (key) =>
+					allowedExactKeys.has(key) || allowedPatternKeys.some((pattern) => pattern.test(key));
+
+				const compactSeenNews = (key) => {
+					const value = localStorage.getItem(key);
+					const seen = JSON.parse(value || '{}');
+					const now = Date.now();
+					const entries = Array.isArray(seen)
+						? seen.map((id) => [id, now])
+						: Object.entries(seen || {});
+					const compactSeen = Object.fromEntries(
+						entries
+							.map(([id, firstSeenAt]) => [String(id || ''), Number(firstSeenAt)])
+							.filter(
+								([id, firstSeenAt]) =>
+									id &&
+									Number.isFinite(Number(firstSeenAt)) &&
+									now - Number(firstSeenAt) < seenNewsLifetimeMs,
+							)
+							.sort(([, firstSeenAt], [, secondSeenAt]) => Number(secondSeenAt) - Number(firstSeenAt))
+							.slice(0, maxSeenNewsItems),
+					);
+					writeJson(key, compactSeen);
+				};
+
+				try {
+					if (localStorage.getItem(cleanupVersionKey) === cleanupVersion) return;
+
+					for (const key of Object.keys(localStorage)) {
+						if (!key.startsWith('lootura:')) continue;
+
+						try {
+							const value = localStorage.getItem(key) || '';
+							if (!isAllowedLooturaKey(key)) {
+								removeItem(key);
+							} else if (key === 'lootura:editorial' && !allowedEditionIds.has(value)) {
+								removeItem(key);
+							} else if (key === 'lootura:seen-news:v1') {
+								compactSeenNews(key);
+							} else if (booleanKeys.has(key) && value !== 'true') {
+								removeItem(key);
+							} else if (numberKeys.has(key) && !Number.isFinite(Number(value))) {
+								removeItem(key);
+							} else if (dateKeys.has(key) && !isValidDate(value)) {
+								removeItem(key);
+							}
+						} catch {
+							removeItem(key);
+						}
+					}
+
+					localStorage.setItem(cleanupVersionKey, cleanupVersion);
+				} catch {
+					// Storage can be unavailable in restrictive browser modes.
+				}
+			})();
+		})();</script><script type="module">(()=>{const e=window.matchMedia("(display-mode: standalone)").matches||window.matchMedia("(display-mode: fullscreen)").matches||window.matchMedia("(display-mode: minimal-ui)").matches||window.navigator.standalone||document.referrer.startsWith("android-app://")||sessionStorage.getItem("lootura:pwa-dev-override")==="true";document.documentElement.classList.toggle("pwa-runtime",!!e)})();</script><script type="module">document.documentElement.style.colorScheme="light";</script><script defer src="https://cloud.umami.is/script.js" data-website-id="1e408cbd-a16c-43ee-b404-35aa97b38c93"></script><link rel="stylesheet" href="/_astro/Layout.bquU7F8r.css"></head> <body data-astro-cid-sckkx6r4>  <div data-desktop-landing class="desktop-gate:block hidden relative min-h-svh overflow-hidden bg-neutral-950 text-white opacity-0 transition-opacity duration-300" data-desktop-cover-count="1"> <div class="absolute inset-0"> <div data-desktop-cover-backdrop class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.16),_transparent_38%),linear-gradient(180deg,_rgba(5,5,6,0.08)_0%,_rgba(5,5,6,0.48)_42%,_rgba(5,5,6,0.88)_100%)]"></div> <div data-desktop-cover-card class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.14),transparent_30%),radial-gradient(circle_at_80%_30%,rgba(255,255,255,0.1),transparent_26%),linear-gradient(135deg,#171717_0%,#050505_56%,#101114_100%)]"></div> <div class="absolute inset-0 bg-black/34"></div> <div class="absolute inset-0 bg-gradient-to-b from-black/8 via-black/22 to-black/78"></div> </div> <header class="absolute inset-x-0 top-0 z-20 border-b border-white/10 bg-black/12 backdrop-blur-xl"> <div class="mx-auto flex h-16 w-full items-center gap-4 px-4 sm:px-6 lg:px-8"> <a href="/" class="inline-flex items-center gap-3 text-sm font-semibold uppercase tracking-[0.34em] text-white/92" aria-label="Lootura home"> <span class="h-2.5 w-2.5 rounded-full bg-lime-300 shadow-[0_0_18px_rgba(163,230,53,0.78)]"></span> <span>Lootura</span> </a> <div class="flex-1"></div> <a href="https://atlas.lootura.com" class="inline-flex items-center gap-2 rounded-full border border-white/14 bg-white/8 px-3 py-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.28em] text-white/84 transition hover:border-white/24 hover:bg-white/12 focus:outline-none focus:ring-2 focus:ring-white/30" aria-label="Try Atlas in English" data-desktop-atlas-link>
+Try Atlas
+</a> </div> </header> <main class="relative z-10 flex min-h-svh items-center pb-28 sm:pb-32 lg:pb-36"> <div class="mx-auto w-full max-w-6xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28"> <div class="mx-auto max-w-2xl text-center"> <h1 data-desktop-cover-title class="mx-auto max-w-3xl text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">Real news, gathered into one live cover</h1> <p data-desktop-cover-summary class="mx-auto mt-3 max-w-xl text-sm leading-6 text-white/68 sm:text-base sm:leading-7"> Lootura turns live stories into a quiet, finite read so you can see what is moving without extra noise. </p> </div> </div> </main> <div data-desktop-mobile-banner class="absolute inset-x-0 bottom-5 z-20 px-4 text-center sm:bottom-6 sm:px-6 lg:bottom-8 lg:px-8"> <p class="mx-auto max-w-4xl text-xs font-medium tracking-[0.18em] text-white/55 sm:text-sm lg:text-base"> Open this cover on mobile </p> </div> </div> <script>(function(){const renderedCovers = [{"id":"lootura-za-fallback","title":"Lootura","summary":"Live cover","image":""}];
+
+	const root = document.querySelector('[data-desktop-landing]');
+	if (!root) {
+		return;
+	}
+
+	const cards = Array.from(root.querySelectorAll('[data-desktop-cover-card]'));
+	const backdrop = root.querySelector('[data-desktop-cover-backdrop]');
+	const lastCoverIndexKey = 'lootura:desktop:last-cover-index';
+
+	const applyCover = (index) => {
+		const safeIndex = Number.isFinite(index) && index >= 0 && index < renderedCovers.length ? index : 0;
+		const cover = renderedCovers[safeIndex] || renderedCovers[0];
+
+		cards.forEach((card, cardIndex) => {
+			card.hidden = cardIndex !== safeIndex;
+		});
+
+		if (backdrop) {
+			backdrop.dataset.desktopCoverImage = cover?.image || '';
+		}
+
+		try {
+			sessionStorage.setItem(lastCoverIndexKey, String(safeIndex));
+		} catch {}
+	};
+
+	const pickRandomCoverIndex = () => {
+		if (cards.length <= 1) return 0;
+
+		let lastIndex = -1;
+		try {
+			lastIndex = Number.parseInt(sessionStorage.getItem(lastCoverIndexKey) || '', 10);
+		} catch {}
+
+		const candidates = cards.map((_, index) => index).filter((index) => index !== lastIndex);
+		const pool = candidates.length > 0 ? candidates : cards.map((_, index) => index);
+		const randomValue = window.crypto?.getRandomValues ? window.crypto.getRandomValues(new Uint32Array(1))[0] : Math.floor(Math.random() * Number.MAX_SAFE_INTEGER);
+		return pool[randomValue % pool.length];
+	};
+
+	applyCover(pickRandomCoverIndex());
+
+	root.classList.add('opacity-100');
+})();</script> <main class="min-h-svh bg-white text-neutral-950 desktop-gate:hidden" data-signal-words-page data-signal-words-locale="za"> <header class="safe-top-header sticky top-0 z-50 border-b border-neutral-950/10 bg-white/78 px-4 backdrop-blur-md sm:px-6 dark:border-white/10 dark:bg-neutral-950/78"> <div class="mx-auto flex h-16 w-full items-center gap-4 max-w-3xl"> <a class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-neutral-950 transition hover:bg-neutral-950/6 focus:outline-none focus:ring-2 focus:ring-neutral-950" href="/za/signal/" aria-label="Back to Signal" data-signal-words-back> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-arrow-left"> <path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path>  </svg> </a> <p class="min-w-0 flex-1 truncate text-center text-sm font-medium uppercase tracking-normal text-neutral-500 dark:text-white/48" data-page-topbar-title>Followed words</p> <div class="flex items-center gap-2"> <span class="h-10 w-10 shrink-0" aria-hidden="true"></span>  </div> </div> </header> <section class="mx-auto w-full max-w-3xl px-6 pb-16 sm:px-8 lg:px-10"> <header class="sticky top-[calc(env(safe-area-inset-top,0px)+4rem)] z-20 -mx-6 border-b border-neutral-950/10 bg-white/92 px-6 pb-5 pt-7 backdrop-blur-md sm:-mx-8 sm:px-8 lg:-mx-10 lg:px-10" data-signal-words-headline> <div class="max-w-2xl"> <p class="text-sm font-medium uppercase tracking-normal text-neutral-500">Watching</p> <h1 class="mt-3 text-3xl font-semibold leading-tight text-neutral-950 sm:text-4xl">Words with links.</h1> <p class="mt-3 text-base font-semibold leading-7 text-neutral-800 sm:text-lg"> Add topics and Lootura will surface matching headlines from the current cover feed. </p> </div> </header> <form class="mt-8 grid grid-cols-[1fr_auto] gap-2" data-signal-words-form> <input class="min-h-12 min-w-0 rounded-full border border-neutral-950/12 bg-neutral-950/[0.03] px-4 text-base font-medium text-neutral-950 outline-none placeholder:text-neutral-400 focus:border-neutral-950/36 focus:ring-2 focus:ring-neutral-950/12" type="text" name="term" autocomplete="off" placeholder="Word or topic" data-signal-words-input> <button class="inline-flex min-h-12 items-center justify-center rounded-full bg-neutral-950 px-5 text-sm font-bold text-white transition hover:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-neutral-950" type="submit"> Add </button> </form> <div class="mt-6 flex flex-wrap gap-2" data-signal-words-terms></div> <section class="mt-8 border-t border-neutral-950/10 pt-6" data-signal-words-results></section> </section> </main> <script>(function(){const locale = "za";
+const stories = [{"title":"Daily fragment: Partial Nuclear Test Ban Treaty","summary":"The Partial Nuclear Test Ban Treaty, which prohibits all test detonations of nuclear weapons except for those conducted underground, went into effect.","source":"Lootura Daily","author":"","category":"history","url":"https://en.wikipedia.org/wiki/Partial_Nuclear_Test_Ban_Treaty?utm_source=lootura.com","publishedAt":"2026-10-10T04:00:00.000Z"},{"title":"Four killed in KwaMsane tavern","summary":"Four killed in KwaMsane tavern Siya Tsewu Sat, 10/10/2026 - 15:58 Photo by Salvatore Laporta/KONTROLAB /LightRocket via Getty Images Photo by Salvatore Laporta/KONTROLAB /LightRocket via Getty Images ESHOWE – A police constable allegedly shot and killed three women and injured a man before turning the gun on himself at a tavern in KwaMsane, KwaZulu-Natal. Police spokesperson Robert Netshiunda said police responded to reports of a shooting at a liquor establishment at Nkodibe area in KwaMsane, and when they arrived they found four bodies with gunshot wounds, and one victim with a gunshot wound who was taken to hospital. “It was reported that the off-duty police constable also disarmed another man of his firearm during the incident. Both firearms were found at the scene. The cause of the shooting is unknown at this stage.” In a separate incident, police in Eshowe are tracing a suspect who allegedly shot and killed three people at a grocery chain store in Eshowe on Saturday. “Reports indicate that the suspect, who is former employee of the store, had gone to the store for his internal disciplinary hearing. The suspect allegedly produced a firearm and shot three people who were declared dead at the scene. A manhunt for the suspect is underway.”","source":"eNCA","author":"Siya Tsewu","category":"general","url":"https://www.enca.com/news-top-stories/four-killed-kwamsane-tavern?utm_source=lootura.com","publishedAt":"2026-10-10T13:58:20.000Z"},{"title":"Sold-out MTN8 Final draws thousands to Moses Mabhida Stadium","summary":"Football fever is building up in Durban, where thousands of fans are descending on Moses Mabhida Stadium for tonight’s sold-out MTN8 final. Orlando Pirates and Mamelodi Sundowns kick off at 6:00 pm, with the Buccaneers chasing a historic fifth consecutive MTN8 crown, while Sundowns are looking to reclaim the trophy they last won in 2021. Orlando Pirates midfielder Thalente Mbatha has shared his recovery journey ahead of the MTN8 Final against Mamelodi Sundowns in Durban. 17:00 SABC 1 Stream on https://t.co/afggCu7f58 #SABCSportFootball #MTN8 https://t.co/2yyNvt3zEa — SABC Sport (@SABC_Sport) October 10, 2026 Supporters are arriving early, with calm returning to the CBD ahead of one of the biggest showdowns on the South African football calendar. “We are here so early because we need to buy tickets and find our seats so we don’t have trouble in traffic when many people are coming into the stadium. We arrived today at 4 am, but we left Mpumalanga last night. I would have felt very sad if protests disrupted the game today because it’s my first ever coming to watch my favourite team play”, says one supporter.","source":"SABC News","author":"Sibonelo Zwane","category":"general","url":"https://www.sabcnews.com/sabcnews/sold-out-mtn8-final-draws-thousands-to-moses-mabhida-stadium/?utm_source=lootura.com","publishedAt":"2026-10-10T11:55:00.000Z"},{"title":"SANDF arrives in Durban","summary":"SANDF arrives in Durban Siya Tsewu Sat, 10/10/2026 - 15:38 DURBAN - The army has been spotted in Durban, KwaZulu-Natal, amid tensions over asylum applications and illegal immigration. Protests erupted after the Constitutional Court ruling that everyone must be given a fair chance to apply for asylum, regardless of documentation. Violent unrest led to looting and the torching of vehicles. Government has called for calm as tensions simmer.","source":"eNCA","author":"Siya Tsewu","category":"general","url":"https://www.enca.com/news/sandf-arrives-durban?utm_source=lootura.com","publishedAt":"2026-10-10T13:38:44.000Z"},{"title":"ActionSA focuses on drug abuse in Mpumalanga election campaign","summary":"With just 25 days to go before the 2026 local government elections, ActionSA in Mpumalanga has focused its campaign on addressing drug abuse in Emalahleni. The party’s eNkangala District mayoral candidate, Mary Phadi, Ekurhuleni mayoral candidate Xolani Khumalo and Johannesburg MMC candidate Zandile Dabula are leading a peaceful walk to raise awareness about drug abuse. IN PICTURES | ActionSA has embarked on a peaceful walk against drug abuse in Emalahleni as part of its election campaign for the 2026 Local Government Elections. The party says drugs are destroying communities and calls for more police on the streets and more rehabilitation centres for addicts. For more, visit https://t.co/LM0zXWIybT Credit: Nhlamulo Mabasa — SABC News (@SABCNews) October 10, 2026 Khumalo says there is a need to reclaim and expropriate hijacked buildings in order to reduce high crime rates. “You see the things that are happening in Jericho; those hijacked buildings are resulting in high crime numbers. They contribute a lot to issues that have to do with prostitution. Therefore, we need law enforcement to do their job; we need law enforcement that works for the district and municipality, not only focusing on by-laws, but also preventing crime; that’s what government needs to do. We know that when ActionSA takes administration, those are the things that will be prioritised. The high rate of unemployment is also a major concern. Our people don’t work; they don’t have job opportunities, and there is no political will to create opportunities for people to find employment. People from Emalahleni don’t work here either; the contractors who supply the mine also need attention.” Meanwhile, Phadi says they hope the walk will have a meaningful impact. “We are saying, let us fix it. We are sending a message to say today we are having a walk, and tomorrow we will not be negotiating with you because our children are drowning in drugs; our children cannot be able to recover for themselves. So, now we are sending a message to those who are illegally selling those drugs. To those who are killing our children, we say now it is time, and you need to move away because when we come as a municipality, you are not going to stand for us.” IN PICTURES | ActionSA has embarked on a peaceful walk against drug abuse in Emalahleni as part of its election campaign for the 2026 Local Government Elections. The party says drugs are destroying communities and calls for more police on the streets and more rehabilitation centres for addicts. For more, visit https://t.co/LM0zXWIybT Credit: Nhlamulo Mabasa — SABC News (@SABCNews) October 10, 2026","source":"SABC News","author":"Sibonelo Zwane","category":"general","url":"https://www.sabcnews.com/sabcnews/actionsa-focuses-on-drug-abuse-in-mpumalanga-election-campaign/?utm_source=lootura.com","publishedAt":"2026-10-10T11:51:01.000Z"},{"title":"Gameday | 10 October 2026","summary":"Gameday | 10 October 2026 Nadia.Romanos Sat, 10/10/2026 - 15:29","source":"eNCA","author":"Nadia.Romanos","category":"general","url":"https://www.enca.com/sport/gameday-10-october-2026?utm_source=lootura.com","publishedAt":"2026-10-10T13:29:53.000Z"},{"title":"KZN police hunt triple murder suspect in Eshowe supermarket shooting","summary":"KwaZulu-Natal police are hunting down a suspect who allegedly shot and killed three people at a grocery chain store in Eshowe, North of the province, on Saturday. Reports indicate that the suspect is a former employee of the store. Police say he had gone for an internal disciplinary hearing. He allegedly produced a firearm and shot three people in the room. Police spokesperson Robert Netshiunda says they were declared dead at the scene. VISUALS | Reports say at least four have been shot and killed at a Boxer Superstore in Eshowe, KwaZulu-Natal. At the moment, the motive for the killings is unknown. It is reported that the crime scene is still active. Credit: Supplied https://t.co/YKPN1E6xX9 — SABC News (@SABCNews) October 10, 2026","source":"SABC News","author":"Glorious Sefako-Musi","category":"general","url":"https://www.sabcnews.com/sabcnews/1167607-2/?utm_source=lootura.com","publishedAt":"2026-10-10T11:42:59.000Z"},{"title":"Joburg Water warns of possible outages","summary":"Joburg Water warns of possible outages Siya Tsewu Sat, 10/10/2026 - 15:10 JOHANNESBURG - A power outage at the Zuikerbosch Water Treatment Plant has crippled pumping at the Palmiet Booster Station. Johannesburg Water warns that parts of Sandton, Diepsloot, Rabie Ridge, and surrounding areas could face low water pressure or total outages. The utility said it is monitoring the system and taking steps to stabilise supply. Residents are urged to use water sparingly.","source":"eNCA","author":"Siya Tsewu","category":"general","url":"https://www.enca.com/news-top-stories/joburg-water-warns-possible-outages?utm_source=lootura.com","publishedAt":"2026-10-10T13:10:36.000Z"},{"title":"All Blacks retain Bledisloe Cup with 54-test unbeaten","summary":"New Zealand have retained the Bledisloe Cup and have stretched their unbeaten run in tests at Eden Park in Auckland to 54 matches. The All Blacks beat Australia in the first of two tests 50-19, outscoring the Wallabies by seven tries to three. The hosts held a slender 17-14 lead at halftime, but took control of the match in the second half, denying the Wallabies possession and forcing defensive errors. It was also the All Blacks’ 12th consecutive victory over their Trans-Tasman rivals. The second test of the series will be played in Sydney next weekend.","source":"SABC News","author":"Sibonelo Zwane","category":"general","url":"https://www.sabcnews.com/sabcnews/all-blacks-retain-bledisloe-cup-with-54-test-unbeaten/?utm_source=lootura.com","publishedAt":"2026-10-10T11:01:50.000Z"},{"title":"‘Captured’ casts spotlight on prison life","summary":"‘Captured’ casts spotlight on prison life Siya Tsewu Sat, 10/10/2026 - 14:47 CAPE TOWN - Ex-Pollsmoor Correctional Centre inmates are using visual art to depict the realities of life behind bars. This they say helps them deal with past trauma, their reintegration into society, and also to make a living. Dubbed \"Captured\", the visual storytelling project, is set to eventually become a coffee table book. Life behind bars is often reduced to statistics, without the human factor. Enrico Samuels, an artist, served sixteen years behind bars for armed robbery said art connected him with people helping him to navigate life now as a free man. \"I want to become a successful artist, doctor is helping me to get there with the projects...lovely projects and I enjoy myself in the projects and from there I see a brighter future from doc's side, because she is taking me that way, so I can see the sun on the other side already,” said Samuels. Michael Sauls said art serves as a conduit in helping them deal with their past and educate the public. “People have no an idea of what prison is like, they think that everything is happy go-lucky or it's like a journey to another paradise, it's not worth it being there...you see it's easy to commit a crime, but it's not easy serving the time.\" Dr Suzette Leal, the founder of Words Set Free, said the art tells the stories of the people behind it. \"If you say the work is beautiful, that's a complement to our artists and their ability, but the story is not beautiful. It's real and true and painful and traumatic. So, I think if anything I hope it discourages someone from getting involved in crime, but I think we don't reduce crime by making prison sentences longer or by making the conditions within them worse. We reduce crime by creating opportunities for people to create a livelihood outside of crime.” Another artist, Kleinbooi Hendricks said: \"I said to myself, although the parole board gave me a date to go out of prison, I'm not going. I will either complete my entire sentence but I'm not going out if I haven't worked on myself being a changed man or a different person. I did that because I said I'd either eat out of a dustbin outside, but I'm not going to commit crime again.\"","source":"eNCA","author":"Siya Tsewu","category":"general","url":"https://www.enca.com/lifestyle/captured-casts-spotlight-prison-life?utm_source=lootura.com","publishedAt":"2026-10-10T12:47:01.000Z"},{"title":"AU, De Bruyn Foundation congratulate Navi Pillay on Nobel Peace Prize","summary":"The African Union (AU) has congratulated South African jurist Navi Pillay on winning the 2026 Nobel Peace Prize, recognising her contributions to international justice, human rights and peace through international law. Pillay oversaw a United Nations report which concluded that Israel has committed genocide in Gaza. African Union Commission Chairperson, Mahmoud Ali Youssouf, says Pillay’s career is an enduring legacy for Africa and the world. Pillay fought against apartheid and later served at the International Criminal Tribunal for Rwanda, the International Criminal Court and the United Nations. Youssouf says her achievement is a source of pride for African women and girls, and an inspiration to future generations. Similarly, the De Bruyn Foundation has also congratulated Pillay on receiving the Nobel Peace Prize. It joins those celebrating her achievements and her commitment to advancing justice and equality. Related video| SA’s Navi Pillay wins 2026 Nobel Peace Prize: Sherwin Bryce-Pease reports","source":"SABC News","author":"Buhle Sibanyoni","category":"general","url":"https://www.sabcnews.com/sabcnews/au-de-bruyn-foundation-congratulate-navi-pillay-on-nobel-peace-prize/?utm_source=lootura.com","publishedAt":"2026-10-10T10:52:57.000Z"},{"title":"Change living conditions – Ndlozi","summary":"Change living conditions – Ndlozi Siya Tsewu Sat, 10/10/2026 - 13:42 JOHANNESBURG - Real change begins with communities taking responsibility for their own development. Those are the views of Dr Mbuyiseni Ndlozi, Founder of the Batho Pele Convention. The initiative calls on South Africans to take the lead in improving their own living conditions. “We are here to say you are the solution you are looking for. We are here to say you are the saviour, the developer, the healer and the builder you are looking for. We are here to vote for you to do it on your own. “We are here to say you are the saviours you are looking for. We are not a corporate think tank. Long have we interpreted our misery from broadcast to podcast, think shops to talk shops. “The point is to change our living conditions, one pothole at a time, one classroom at a time and one production hub at a time,” Ndlozi said.","source":"eNCA","author":"Siya Tsewu","category":"general","url":"https://www.enca.com/lifestyle/change-living-conditions-ndlozi?utm_source=lootura.com","publishedAt":"2026-10-10T11:42:44.000Z"},{"title":"Nobel Peace Prize: Trump denounces committee after Navi Pillay win","summary":"United States President Donald Trump has reiterated his complaints about not receiving the Nobel Peace Prize. His reaction comes hours after the Nobel Peace Committee awarded the Prize to South African Jurist, Navi Pillay, a former International Criminal Court judge. Pillay oversaw a United Nations report which concluded that Israel has committed genocide in Gaza. Trump has expressed disappointment at not winning the prize. “We will not forget, Norway, that you didn’t give this prize to the country with the greatest record in history, not 8 wars. We should have had 8 Nobel Prizes for each war, but you didn’t give the Nobel Prize for Peace to the United States of America; it is just another sign of how Norway and all these others are ripping off our country,” he said. Related video | Navi Pillay describes her Nobel Peace Prize win as “unexpected honour”","source":"SABC News","author":"Glorious Sefako-Musi","category":"general","url":"https://www.sabcnews.com/sabcnews/1167594-2/?utm_source=lootura.com","publishedAt":"2026-10-10T10:47:02.000Z"},{"title":"Repairs delay Joburg's pool reopenings","summary":"Repairs delay Joburg's pool reopenings Siya Tsewu Sat, 10/10/2026 - 12:53 JOHANNESBURG - Johannesburg's public pools are missing out on the summer rush. And most are still closed despite the rising temperatures. Community leader Dulton Adams said poor planning, lack of proper budgeting and no clear management plans, are leaving residents without these facilities. The city has 57 public pools , but only 13 are open so far. Ten more are expected to open on Monday. \"Every season there's just no budget. There's just no management plan. There's no vision to make sure that the children come off the streets and you look at the pool. This is not the only pool. \"Remember spring day, pools must open first. Then the City Council asked for 1 October, pools would be open. That was missed and then now the 7th,\" Adams said.","source":"eNCA","author":"Siya Tsewu","category":"general","url":"https://www.enca.com/news/repairs-delay-joburgs-pool-reopenings?utm_source=lootura.com","publishedAt":"2026-10-10T10:53:59.000Z"},{"title":"19 arrested in Durban anti-undocumented immigration protests","summary":"More than 19 people have been arrested for public violence and malicious damage to property following violent anti-undocumented immigration protests which erupted in Durban over the past two days. Police and security companies are currently patrolling the streets in the CBD after violence and looting on Friday. IMMIGRATION PROTESTS | A South African businesswoman in Durban CBD, who owns a salon and laundry business and employs about 22 people, says she is devastated after her businesses were broken into, looted and set alight. She says several televisions were stolen as tensions continue to escalate in the city centre. — SABC News (@SABCNews) October 9, 2026 A march against undocumented migrants descended into violence after some residents in the Point area threw stones at the marchers. Provincial police spokesperson Robert Netshiunda says they have made several arrests, but it is still early days and they are collecting stats as to how many they’ve arrested. “Because we’ve arrested in different parts of the province, different parts of Durban as well. So at least more than 19 of them, mostly are students, no surprise because saw the numbers on the ground they were young people, most of them. They are arrested for public violence and malicious property damage. We are going to see if there are additional charges for those.” VIDEO | Immigration Crisis | Chaos erupts in Durban","source":"SABC News","author":"Sibonelo Zwane","category":"general","url":"https://www.sabcnews.com/sabcnews/19-arrested-in-durban-anti-undocumented-immigration-protests/?utm_source=lootura.com","publishedAt":"2026-10-10T09:27:05.000Z"},{"title":"‘ANC could be the biggest loser’ - political strategist","summary":"‘ANC could be the biggest loser’ - political strategist Siya Tsewu Sat, 10/10/2026 - 11:22 JOHANNESBURG - The ANC could emerge as the biggest loser in this year's municipal elections. This is the view is political strategist Brutus Malada. He said the party’s declining support could leave it with less influence across key metros and this could push it into a weakened position ahead of the 2029 elections. “ANC will be the big loser in this. The trend is clear. It's clear that they are losing at a margin of 10 to 12 percent and that will actually mean the end of the ANC and it will become lame duck for this period in between the two elections. “That it will sit, it will be a national government President Ramaphosa sitting in Tshwane. The Union Buildings which is led by another party and in Cape Town which is the legislative arm of the state which is led by the DA. “So here is a political party that is running the country as the head of the State but it has no control of the economy hub, it has no control of administrative hub, it has no control of legislative hub,” Malada said.","source":"eNCA","author":"Siya Tsewu","category":"general","url":"https://www.enca.com/news/anc-could-be-biggest-loser-political-strategist?utm_source=lootura.com","publishedAt":"2026-10-10T09:22:43.000Z"},{"title":"New Zealand’s O’Rourke ruled out of India series","summary":"New Zealand fast-bowler Will O’Rourke will miss the series against India as he continues his rehabilitation from injuries to his left hamstring and calf, the country’s cricket board said on Saturday. O’Rourke suffered a hamstring tear during New Zealand’s test series win over England in June, before hurting his calf in training in late August. The 25-year-old will aim to return to full fitness ahead of a four-test tour of neighbours Australia beginning on December 9. “It’s obviously disappointing for Will to have to miss such a marquee tour at home against India,” New Zealand coach Rob Walter said in a statement. “He was set to feature in both the ODI and test series, but following subsequent discussions, we all agreed it was best for him to take some more time to rehabilitate both injuries and safely build up his bowling loads. “Our pace bowling resources will be critical over the next few months so we’re taking a conservative approach to Will’s return to ensure he’s fully fit before he takes the field again.” New Zealand host India in five Twenty20 internationals, five one-day internationals and two tests, with the opening T20 in Christ church on October 22.","source":"SABC News","author":"Buhle Sibanyoni","category":"general","url":"https://www.sabcnews.com/sabcnews/new-zealands-orourke-ruled-out-of-india-series/?utm_source=lootura.com","publishedAt":"2026-10-10T08:30:55.000Z"},{"title":"Murdered teen twins buried in Mamelodi","summary":"Murdered teen twins buried in Mamelodi Siya Tsewu Sat, 10/10/2026 - 11:15 Mamelodi – The family and friends of the slain 14-year-old twins have gathered in Mamelodi West to bid farewell to the boys. Bonolo and Botlhale Makena were found dead in their home a week ago. They had multiple stab wounds. The boys' mother made the gruesome discovery at home, when she returned from work. As police investigate, residents are demanding that this case does not become another unresolved killing. Neighobour Padi Matlala said the Mamelodi West community is demanding justice. “The community has been here before. The community is saying, ‘please justice system, don't take us there.’ We were there in 1982. Two members of the community were brutally murdered. 44 years later, nobody has been held responsible. “The community is saying justice system never, never again should you go through this. The pressure that you put on the government throughout the week, the outrage you showed must bear fruit. Somebody or some people must be held responsible for this. We are better than this,” Matlala said.","source":"eNCA","author":"Siya Tsewu","category":"general","url":"https://www.enca.com/news-top-stories/murdered-teen-twins-buried-mamelodi?utm_source=lootura.com","publishedAt":"2026-10-10T09:15:10.000Z"},{"title":"Wheelchair-bound man dies in shack fire in Katlehong","summary":"A 38-year-old man who was wheelchair bound, has died in a shack fire in Zonkizizwe Extension Six in Katlehong in Ekurhuleni. Firefighters responded to the blaze on Friday night, but the man was found deceased beneath the collapsed corrugated iron sheets after the fire was extinguished. Ekurhuleni Disaster and Emergency Management Service (EMS) spokesperson William Ntladi says investigations are underway to determine the cause of the fire. “On arrival, members of the community were found busy with a bucket brigade system, desperately extinguishing the blaze. Firefighters used attack lines from the fire engine and successfully managed to bring the blaze under control, desperately striving to rescue a wheelchair-bound man who was reported to be still trapped inside the shack. During the search, rescue and recovery after the blaze was extinguished, the man’s burnt body was found under the corrugated metal sheets. Paramedics attended to him, and he was declared dead on scene. The scene was officially handed over to the South African Police Service officers.”","source":"SABC News","author":"Sibonelo Zwane","category":"general","url":"https://www.sabcnews.com/sabcnews/wheelchair-bound-man-dies-in-shack-fire-in-katlehong/?utm_source=lootura.com","publishedAt":"2026-10-10T08:20:21.000Z"},{"title":"Students arrested at Durban protest","summary":"Students arrested at Durban protest Siya Tsewu Sat, 10/10/2026 - 10:28 DURBAN - Over 19 people have been arrested during violent protests in Durban last night. The city has been on fire this week, with shops looted, vehicles torched and property destroyed. KZN Premier Thami Ntuli wants army deployment to quell the ant-illegal migrant protests, against the processing of asylum seekers. Demonstrations continued last night despite government's withdrawal of the directive. KZN Police Spokesperson Robert Netshiunda confirmed the arrests. “We can tell you that over 19 people were arrested and most of them are students. They have been charged with public violence,” Netshiunda said.","source":"eNCA","author":"Siya Tsewu","category":"general","url":"https://www.enca.com/news/students-arrested-durban-protest?utm_source=lootura.com","publishedAt":"2026-10-10T08:28:30.000Z"},{"title":"Risks of further fuel price increases on the cards","summary":"Early data from the Central Energy Fund (CEF) signals a further rise of up to close to five rand a litre for petrol next month. This comes as South Africans are coming to terms with the fuel price increase that took effect this week. [COMING UP] The Automobile Association of South Africa (AA) condemns the fuel price increase that took effect on 7 October, which pushed petrol and diesel to the highest prices South Africans have ever paid. #sabcnews #TheWeekendView https://t.co/Ty3n5D0dC6 — SABC News Radio (@SABCNews_Radio) October 10, 2026 The Automobile Association of South Africa (AA) ‘s CEO, Bobby Ramagwede, has condemned it, saying it is disappointing to see that the petrol price is increasing as rapidly as it has, in addition to the forecast presenting another threat of R5 to the petrol price. “The AA is further disappointed by the fact that the govt has not really done much to shelter both motorists and general consumers from these shocks. We’ve done the math, and there’s a good R7/R8 of taxes that are baked into the fuel price that are unrelated to the fuel commodity that the govt can actually afford to set aside until at least a point where the conflict has left the global oil price in a more stable condition.”","source":"SABC News","author":"Sibonelo Zwane","category":"general","url":"https://www.sabcnews.com/sabcnews/risks-of-further-fuel-price-increases-on-the-cards/?utm_source=lootura.com","publishedAt":"2026-10-10T08:17:04.000Z"},{"title":"EXPLAINER: What to know about the refugee ruling that sparked riots in Durban and Soweto","summary":"Violent protests erupted in Durban and Johannesburg this week following widespread misinformation about a Home Affairs directive on how asylum seekers should be processed. Here’s what you need to know.","source":"Daily Maverick","author":"Reitumetse Pilane","category":"analysis","url":"https://www.dailymaverick.co.za/article/2026-10-09-what-to-know-about-the-refugee-ruling-that-sparked-riots-in-durban-and-soweto/?utm_source=lootura.com","publishedAt":"2026-10-09T19:02:35.000Z"},{"title":"Some Durban protesters say unaware of withdrawn asylum directive","summary":"Some protesters in Durban say they were unaware that the Department of Home Affairs had withdrawn a directive expanding access to asylum application processes following a Constitutional Court ruling. The ruling has become a subject of debate as tensions escalate, with anti-immigration protesters engaging in violent demonstrations across the city. Several buildings have been damaged, shops looted and vehicles set alight as protesters demand that the government address their concerns about immigration. Police have increased their presence in an effort to contain the violence, as unrest continues to spread across Durban. Immigration Crisis | Chaos erupts in Durban: These protesters share their views about the Home Affairs stance. “I was not aware that Home Affairs had decided to withdraw. I’ve been here at this march since very early this morning, so I have not been checking any updates on social media or on the news. However, as much as I am happy with this move by Home Affairs, I still think we need to continue with this march; we have had enough,” says a protester. “I was also not aware. I think we can continue protesting, but, however, it needs to be done in a peaceful manner. No one must be harmed; property must not be destroyed,” says another protester. Immigration Crisis | Numerous stores damaged, attempts to loot:","source":"SABC News","author":"Wendy Mothata","category":"general","url":"https://www.sabcnews.com/sabcnews/1167515-2/?utm_source=lootura.com","publishedAt":"2026-10-09T19:20:02.000Z"},{"title":"GROUNDUP: Anti-immigrant mob threatens to burn women and children in Pretoria","summary":"Home Affairs has backtracked on reopening the asylum system after violent clashes in various cities. In Pretoria, anti-foreigner groups made violent threats before they were dispersed.","source":"Daily Maverick","author":"Seth Thorne, Joseph Bracken, Tsoanelo Sefoloko and Joseph Chirume","category":"analysis","url":"https://www.dailymaverick.co.za/article/2026-10-09-anti-immigrant-mob-threatens-to-burn-women-and-children-in-pretoria/?utm_source=lootura.com","publishedAt":"2026-10-09T18:39:09.000Z"},{"title":"eNCA News Bite | Home Affairs withdraws asylum directive; Navi Pillay wins nobel peace prize | 9 October 2026","summary":"eNCA News Bite | Home Affairs withdraws asylum directive; Navi Pillay wins nobel peace prize | 9 October 2026 Vusi.Bafetane Fri, 10/09/2026 - 20:42 Stay informed in just a few minutes with ⁠ News Bite ⁠ , your fast, reliable update on South Africa's top stories. ⁠ Home Affairs ⁠ has withdrawn its ⁠ asylum-seeker directive ⁠ following the Constitutional Court’s Scalabrini Centre judgment. It denies political interference. Protests have left Durban and Soweto tense; Gauteng Premier Panyaza Lesufi seeks dialogue as police remain deployed in KwaZulu-Natal. ⁠ Navi Pillay ⁠ has won the ⁠ 2026 Nobel Peace Prize ⁠ for advancing peace and international law. The former UN human rights chief dedicated it to survivors of international crimes. The Nobel Committee warned of pressure on legal institutions. A ⁠ pastor’s wife ⁠ accused in connection with the ⁠ death of a four-month-old baby ⁠ remains in custody after her ⁠ Atteridgeville ⁠ court case was postponed to Monday. Police seek her husband over alleged rape and murder. ⁠ Randburg residents ⁠ fear health risks after nearly two weeks without refuse collection. ⁠ Pikitup ⁠ blames reduced capacity and says it is working to restore services. The ⁠ MK Party ⁠ says ⁠ Jacob Zuma ⁠ is in good spirits after a reported routine medical check-up. His hospitalisation raises questions about election preparations. The Johannesburg High Court has ordered the ANC to reinstate ⁠ Andile Lungisa ⁠ to its Nelson Mandela Bay candidate list, ruling his removal unlawful. ⁠ Manchester City ⁠ face Liverpool after a commission found more than 100 ⁠ Premier League financial-rule breaches ⁠ . City denies wrongdoing and has appealed. Manager Enzo Maresca backs the club. ⁠ Orlando Pirates ⁠ meet ⁠ Mamelodi Sundowns ⁠ in Saturday’s ⁠ MTN8 final ⁠ in Durban. In cricket, Australia ended day one of the Durban Test on 187 for six after bad light stopped play. Watch ⁠ News Bite ⁠ for these stories and more on ⁠ eNCA.com ⁠ and DStv channel 403.","source":"eNCA","author":"Vusi.Bafetane","category":"general","url":"https://www.enca.com/news/enca-news-bite-home-affairs-withdraws-asylum-directive-navi-pillay-wins-nobel-peace-prize-9?utm_source=lootura.com","publishedAt":"2026-10-09T18:42:05.000Z"},{"title":"STRANGE TIMING: US imposes sanctions on ICC hours after South African judge wins Nobel Peace Prize","summary":"Hours after South Africa’s Navi Pillay, a former judge of the International Criminal Court, was named as this year’s recipient of the Nobel Peace Prize, the US slapped sanctions on the court.","source":"Daily Maverick","author":"Reuters","category":"analysis","url":"https://www.dailymaverick.co.za/article/2026-10-09-us-imposes-sanctions-on-icc-hours-after-former-judge-wins-nobel-peace-prize/?utm_source=lootura.com","publishedAt":"2026-10-09T18:10:36.000Z"},{"title":"Three civilians injured as suspected CIT robbers crash on N12","summary":"Three civilians injured as suspected CIT robbers crash on N12 Zandile.Khumalo Fri, 10/09/2026 - 20:11 JOHANNESBURG – Three civilians were injured following a high-speed chase between police and suspected cash-in-transit robbers on Friday. Gauteng police spokesperson Dimakatso Nevhuhulwi said the civilians were travelling along the N12 road in the afternoon when a white vehicle carrying three suspected robbers lost control during an exchange of gunfire with police and collided with two civilian vehicles. READ | Three suspected CIT robbers shot dead in Johannesburg Previous Next The three suspects were certified dead at the scene, while two AK-47 rifles, multiple rounds of ammunition and magazines were found inside their vehicle. “The injured victims were transported to hospital for medical attention,” she said. According to Nevhuhulwi, the shootout followed a crime intelligence operation in which law enforcement officers received information about a group using two vehicles allegedly planning to commit a robbery in Roodepoort. READ | Alleged CIT robbers killed in shootout with KZN police She said the white vehicle involved in a high-speed chase with police was spotted on Kliprivier Road. Meanwhile, said the second vehicle, also white, was traced to the Johannesburg CBD, where two suspects were arrested, she added.","source":"eNCA","author":"Zandile.Khumalo","category":"general","url":"https://www.enca.com/news-top-stories/three-civilians-injured-suspected-cit-robbers-crash-n12?utm_source=lootura.com","publishedAt":"2026-10-09T18:11:37.000Z"},{"title":"Former ‘crown prince of the Kruger’ Park found guilty of rhino poaching","summary":"A decade-long trial has ended in the conviction of two former Kruger National Park employees for the killing and dehorning of a white rhino in 2016.","source":"Daily Maverick","author":"Fred Kockott","category":"analysis","url":"https://www.dailymaverick.co.za/article/2026-10-09-kruger-national-park/?utm_source=lootura.com","publishedAt":"2026-10-09T18:00:16.000Z"},{"title":"KZN Premier requests SANDF deployment amid violence in Durban","summary":"KwaZulu-Natal Premier Thami Ntuli says he has requested the deployment of the South African National Defence Force (SANDF) to help quell widespread violence in Durban. Unrest has also broken out in Umlazi and Merebank south of the city. This while protestors are still roaming the streets of the CBD. This comes as protesters opposed to undocumented immigration continue to loot small businesses, damage property and set buildings and vehicles alight. It is the second consecutive day of violence in the Durban city centre. Ntuli says law enforcement agencies have been reinforced but with the violence intensifying, he believes the deployment of the army is necessary to restore law and order. “In fact, I have already spoken to the Police Minister to say the situation one runs that the army is deployed in the province of KwaZulu-Natal. I think they are processing my request because I have already requested for the army to be deployed,” says Ntuli. Ntuli says they also engage protest leaders. “Well, we will engage the leaders that are involved, but at the same time, more police are being deployed in the province. Some are arriving from outside to assist. That is what we have underground, and we are activating. Even yesterday, they were part of those who were forced multipliers to ensure that we calmed the situation,” says Ntuli. Immigration Crisis | KZN Premier requests SANDF deployment: Ntuli has also raised concerns over investor confidence following violent protests in the Durban CBD for the last two days. Ntuli warned that continuous protest action signal instability, threatening crucial foreign investment and job creation across the province. “We are having a conference in KwaZulu-Natal on the 15 th , and I’m worried that when this is happening, the confidence of investors is affected adversely. Hence, I’m calling for the people of KwaZulu-Natal to join hands with us and say no one must destroy, no one must loot in the name of the people who are having genuine concerns,” adds Ntuli. Immigration Crisis | Protesters head to Durban’s Dr Pixley KaSeme Street:","source":"SABC News","author":"Sipho Kekana","category":"general","url":"https://www.sabcnews.com/sabcnews/kzn-premier-requests-sandf-deployment-amid-violence-in-durban/?utm_source=lootura.com","publishedAt":"2026-10-09T17:58:14.000Z"},{"title":"Cricket: Anrich Nortje’s impressive Test cricket return hands Proteas narrow advantage over Aussies","summary":"After a three-year absence, Anrich Nortje’s pace helped reduce the visitors to 124-6, but Pat Cummins and Matt Renshaw fought back with an unbeaten 63-run stand in first innings of first Test before bad light stopped play. South Africa will be hoping to pick off the rest of the Aussie batting line-up when play resumes on Saturday. At close of play, Australia, who elected to bat first, were 187-6 (Matt Renshaw 46*, Pat Cummins 33*, Wiaan Mulder 2-31, Anrich Nortje 2-40).","source":"Daily Maverick","author":"Yanga Sibembe","category":"analysis","url":"https://www.dailymaverick.co.za/article/2026-10-09-anrich-nortjes-impressive-test-cricket-return-hands-proteas-narrow-advantage-over-aussies/?utm_source=lootura.com","publishedAt":"2026-10-09T17:13:24.000Z"},{"title":"FCC chief defers to Pentagon on airing US execution on TV networks","summary":"The chair of the Federal Communications Commission (FCC) said on Friday that he would defer to the Pentagon on whether US networks could air a planned December 3 military execution , which would be an unprecedented broadcast . US Defense Secretary Pete Hegseth said on Thursday that the execution by firing squad of Nidal Hasan, a former Army psychiatrist convicted of killing 13 people and wounding 32 others at the Fort Hood military base in Texas in 2009, would be livestreamed. Carr told CNBC it was his understanding this would not air on broadcast TV. But asked if he would allow it to be aired, he said: “Ultimately we’re going to defer to Secretary Hegseth and you know his decisions on how to move forward with this.” A n FCC spokesperson did not immediately respond to a request for comment. ABC, NBC, CBS and Fox did not immediately respond to requests for comment on whether they are considering airing the execution. Andrew Jay Schwartzman, a senior counselor at the Benton Institute for Broadband & Society and expert on FCC issues, said there is no legal basis for the commission to intervene in a broadcaster’s decision on whether to air a live execution. “There is absolutely no justification in the Communications Act or the Constitution that would allow the FCC to tell broadcasters to carry or not carry an actual event,” he said, adding, “there is no basis for the FCC to dictate content or to prohibit content short of obscenity.” A 2007 report from the FCC on violence on television said the agency did not have the authority to regulate violent content. The report said “violent speech and depictions of violence have been found by the courts to be protected by the First Amendment.”","source":"SABC News","author":"Preggie Moodley","category":"general","url":"https://www.sabcnews.com/sabcnews/fcc-chief-defers-to-pentagon-on-airing-us-execution-on-tv-networks/?utm_source=lootura.com","publishedAt":"2026-10-09T17:45:11.000Z"},{"title":"OUTLAW OCEAN PROJECT: SA helps feed China’s huge desert fish-farming boom","summary":"As China turns desert groundwater into fish farms in Xinjiang, South Africa’s sardines and anchovies are contributing to this ‘Blue Miracle’ – revealing how modern aquaculture shifts its costs across oceans, ecosystems and people.","source":"Daily Maverick","author":"Ian Urbina","category":"analysis","url":"https://www.dailymaverick.co.za/article/2026-10-09-sa-helps-feed-chinas-huge-desert-fish-farming-boom/?utm_source=lootura.com","publishedAt":"2026-10-09T17:06:27.000Z"},{"title":"Donnelly hat-trick seals Banyana’s 4-0 win over Madagascar","summary":"A Ronnel Donnelly hat-trick handed South Africa a 4-0 win over Madagascar in the first leg of their second round CAF Women’s Olympic qualifying tie in Bloemfontein this Friday afternoon. The fourth goal was an own goal from a Malagasy defender. Banyana Banyana received a bye for the first round. The second leg is also set to be played in Bloemfontein on Tuesday. Only two African teams will be among the 16 competing in the Olympic women’s soccer tournament at Los Angeles 2028. – Reporting by: Vincent Sitsula","source":"SABC News","author":"Wendy Mothata","category":"general","url":"https://www.sabcnews.com/sabcnews/donnelly-hat-trick-seals-banyanas-4-0-win-over-madagascar/?utm_source=lootura.com","publishedAt":"2026-10-09T17:17:07.000Z"},{"title":"OUTLAW OCEAN PROJECT: The price paid beyond the plate — the huge costs of farmed seafood","summary":"Much of the fishmeal and fish oil that support imported farmed salmon and other seafood consumed in South Africa comes from global supply chains linked to pollution, labour abuses, overfishing and food insecurity in poorer countries.","source":"Daily Maverick","author":"Ian Urbina","category":"analysis","url":"https://www.dailymaverick.co.za/article/2026-10-09-the-price-paid-beyond-the-plate-the-huge-costs-of-farmed-seafood/?utm_source=lootura.com","publishedAt":"2026-10-09T17:05:38.000Z"},{"title":"Same stink, new excuse as rubbish piles up in Joburg","summary":"Same stink, new excuse as rubbish piles up in Joburg Vusi.Bafetane Fri, 10/09/2026 - 19:11 JOHANNESBURG - Johannesburg’s rubbish problems are piling up again. Just weeks after emerging from a prolonged waste collection crisis, Pikitup has once again failed to collect refuse in several parts of the city. This time, contractual disputes and grounded trucks are being blamed. While Pikitup insists the problems have been resolved, residents have said they’re tired of paying for a service they aren’t receiving. Pikitup said the backlog will be cleared by the end of the weekend. But residents have heard these promises before and until Johannesburg finds a lasting solution to its waste collection woes, this is one crisis that simply refuses to be binned. eNCA’s Nabeelah Shaikh reports in the video above.","source":"eNCA","author":"Vusi.Bafetane","category":"general","url":"https://www.enca.com/news/same-stink-new-excuse-rubbish-piles-joburg?utm_source=lootura.com","publishedAt":"2026-10-09T17:11:34.000Z"},{"title":"LOCAL ELECTIONS 2026: High court orders ANC to reinstate Andile Lungisa after unlawful removal","summary":"With elections less than a month away, the high court has ruled that the ANC’s removal of Andile Lungisa from its Nelson Mandela Bay candidate list is unlawful, ordering the party to reinstate his name and pay his legal costs.","source":"Daily Maverick","author":"Nonkululeko Njilo","category":"analysis","url":"https://www.dailymaverick.co.za/article/2026-10-09-high-court-orders-anc-to-reinstate-andile-lungisa-after-unlawful-removal/?utm_source=lootura.com","publishedAt":"2026-10-09T14:45:05.000Z"},{"title":"UN condemns newly announced US sanctions against ICC","summary":"UN Secretary-General António Guterres has condemned newly announced United States sanctions against the International Criminal Court (ICC) as an institution, warning they threaten its ability to deliver justice for victims of international crimes. He called the decision a serious blow to international criminal justice. His statement follows Nobel Peace Prize laureate Navi Pillay ‘s warning to SABC News that independent courts were under attack. The SG’s Spokesperson Stephane Dujarric said Guterres was calling upon all states to uphold their commitments under international law, and to support efforts aimed at ensuring accountability for the most serious crimes of concern to the international community. UN human rights chief Volker Turk on Friday called for immediate measures to protect the International Criminal Court (ICC) after the United States imposed “unacceptable” sanctions upon it. “These sanctions – the latest in a series of retaliatory steps against the ICC and its personnel for the work they do every day to advance accountability for the very worst violations of human rights – are unacceptable,” Turk said. EU countries including host country the Netherlands will take measures to keep the ICC functioning after the United States impose sanctions on it, Dutch Prime Minister Rob Jetten and EU Council President Antonio Costa said at a joint press conference on Friday. Jetten said it was “crucial” that there is still time to continue talks with the US during the six-month period before the sanctions take effect. – additional report by Reuters","source":"SABC News","author":"Sipho Kekana","category":"general","url":"https://www.sabcnews.com/sabcnews/un-condemns-newly-announced-us-sanctions-against-icc/?utm_source=lootura.com","publishedAt":"2026-10-09T17:10:54.000Z"},{"title":"Manufacturing production takes hit in August","summary":"Manufacturing production takes hit in August Zandile.Khumalo Fri, 10/09/2026 - 18:52 JOHANNESBURG - The latest manufacturing data is much weaker than expected. Production from factories decreased by 4.3% in August compared to the same month last year. READ | Steenhuisen lists ways to improve manufacturing industry Manufacturing production saw the sharpest month on month decline since 2024. The biggest drops were in the production of petroleum and chemical products, motor vehicles and parts, and paper, publishing and printing materials. However, the data did not impact on the rand after its release.","source":"eNCA","author":"Zandile.Khumalo","category":"general","url":"https://www.enca.com/business/manufacturing-production-takes-hit-august?utm_source=lootura.com","publishedAt":"2026-10-09T16:52:57.000Z"},{"title":"Floods, storms create €500bn opportunity for industrials","summary":"Europe's push to adapt infrastructure to extreme weather is creating a new growth opportunity for industrial companies, with billions in spending expected on resilient buildings, grids and energy systems.","source":"Moneyweb","author":"Sofia Gerace and Chloé Meley, Bloomberg","category":"business","url":"https://www.moneyweb.co.za/news/international/floods-storms-create-e500bn-opportunity-for-industrials/?utm_source=lootura.com","publishedAt":"2026-10-10T02:00:39.000Z"},{"title":"Postbank ready to grow","summary":"Postbank ready to grow Zandile.Khumalo Fri, 10/09/2026 - 18:38 JOHANNESBURG - Postbank has said its reported loss is not the full story. The state-owned bank made a loss of R5.2-million in the year that ended in March. But it said that it would have made a R42-million profit before tax if it were not for a significant interest charge from SARS. Postbank has submitted a request for a R2.4-billion bailout from Treasury to help it transition to a fully licensed commercial bank. READ | Postbank cleared as FSCA financial service provider Currently it takes deposits and is tasked with processing social grants for millions of recipients. But it wants to expand these services. Government has long said that Postbank is its tool to offer simple, affordable services to customers in underserved communities.","source":"eNCA","author":"Zandile.Khumalo","category":"general","url":"https://www.enca.com/news/postbank-ready-grow?utm_source=lootura.com","publishedAt":"2026-10-09T16:38:50.000Z"},{"title":"Australia fight back in a first test before bad light ends play","summary":"Australia’s captain Pat Cummins and Matt Renshaw led an afternoon fightback to see the tourists to 187-6 before bad light brought a premature halt to play on the opening day of the first test against South Africa on Friday. The pair put on an unbeaten 63 for the seventh wicket with Renshaw four runs short of a fifty and Cummins 33 not out. The umpires took the players off one hour before the scheduled close as windy and gloomy conditions coincided with South Africa bringing back the pacy Anrich Nortje into the attack and when he sent a bouncer over Renshaw’s head, play was immediately halted after the light meters were consulted. The umpires waited out in the middle for another 45 minutes before calling off the day’s proceedings. Nortje was returning after almost four years away from first-class cricket, and took two wickets in the space of three balls before tea to give the hosts the upper hand. The 32-year-old had not played since March 2023 as persistent injury and a focus on the T20 format kept him away from red-ball cricket but he justified his recall with a fiery spell after lunch that left the tourists teetering. Nortje brings x-factor South Africa captain Temba Bavuma predicted Nortje could provide X-factor, and he did as much in having Alex Carey caught at second slip off a fuller delivery that clocked in at 143 kph and then, two balls later, snagging Beau Webster caught behind to see Australia fall to 124-6. “To be honest I thought I wasn’t going to get a wicket for the next few weeks the way the ball was passing the bat but then it was good to take the wickets and get the blood flowing again,” Nortje said at the post-match press conference. The fortunes of Nortje, who finished the day with 2-40 off 13.2 overs, contrasted with those of Australian cancer survivor Nic Maddinson, also making a comeback, who failed to get a run. The 34-year-old, a surprise choice to open after Australia won the toss and chose to bat, survived 33 balls without scoring before Marco Jansen bowled him to end a remarkable return following his battle with cancer last year. His duck was the longest by an Australian opener in test history and the third-longest by any test opener. It was Maddinson’s first test appearance in almost a decade, having not played first-class cricket for 18 months as he fought testicular cancer that had spread to his lungs. He was only named in the team half an hour before play started Australia counter-attacked after Travis Head (9) and Maddinson went early, with Marnus Labuschagne and Steve Smith putting together a 60-run partnership for the third wicket before Wiaan Mulder (2-31) trapped Labuschagne lbw for 37 with the last ball before lunch. Smith’s first test in South Africa after sandpapergate Smith scored 25 on his first test appearance in South Africa since the 2018 tour that led to his one-year ban for his role in the ball-tampering scandal known as “Sandpapergate”. Smith walked to the crease without any noticeable heckling from the sparse crowd and quickly set about speeding up the scoring, with two sixes when spinner Keshav Maharaj was introduced to the home attack. However, Smith was dismissed in the first over after lunch, getting a thick edge to gully to earn Jansen (2-35) a second wicket. Renshaw said South Africa had bowled tight and there were many challenges for the visiting batsmen to face. “Some pace, some bounces, some nibble, some spin, but I think there were moments in the game where I felt like we were getting close to having the foot on their throat.”","source":"SABC News","author":"Thabiso Malesele","category":"general","url":"https://www.sabcnews.com/sabcnews/australia-fight-back-in-a-first-test-before-bad-light-ends-play/?utm_source=lootura.com","publishedAt":"2026-10-09T16:20:21.000Z"},{"title":"SA sugar industry calls for sugar tax to be scrapped by next budget speech","summary":"SA Canegrowers urges Godongwana to end the Health Promotion Levy in the upcoming MTBPS.","source":"Moneyweb","author":"Phenyo Selinda","category":"business","url":"https://www.moneyweb.co.za/news/companies-and-deals/sa-sugar-industry-calls-for-sugar-tax-to-be-scrapped-by-next-mtbps/?utm_source=lootura.com","publishedAt":"2026-10-10T02:00:36.000Z"},{"title":"'Asylum seekers won't be allowed to abuse the process' - Cachalia","summary":"'Asylum seekers won't be allowed to abuse the process' - Cachalia Zandile.Khumalo Fri, 10/09/2026 - 18:30 Cars are set alight after clashes erupt between protesters and foreign nationals in Durban on October 8, 2026. DURBAN - Acting Police Minister Firoz Cachalia wants asylum status checks expedited, as he worries about people who might abuse the system. He was speaking in Durban before protests broke out on Friday. ''We should not allow a situation where the asylum seeker process can be abused by people who are in the country illegally. So we need an expedited process. “Nothing that the court has said interferes with our right to enforce our laws against illegal immigration. And that's what we are determined to do,\" Cachalia said. The Department of Home Affairs has withdrawn a directive issued on 28 September concerning the intake of asylum seeker applications. The directive followed a Constitutional Court judgment delivered on 7 July in the Scalabrini Centre of Cape Town matter. The decision sparked violent protests in Durban and Soweto, with more than 20 cars torched.","source":"eNCA","author":"Zandile.Khumalo","category":"general","url":"https://www.enca.com/news/asylum-seekers-wont-be-allowed-abuse-process-cachalia?utm_source=lootura.com","publishedAt":"2026-10-09T16:30:22.000Z"},{"title":"Learners urged to build sustainable careers in creative sectors","summary":"The Minister of Higher Education and Training, Buti Manamela, is urging the learners to consider building sustainable careers in the creative and cultural sectors. Manamela led the fourth annual Heritage Careers Expo at Capricorn TVET College’s Seshego Campus, outside Polokwane in Limpopo. Learners from various high schools explored non-traditional career paths in fashion, music, visual arts, hospitality, and hairdressing. The Minister of Higher Education and Training, Mr @ButiManamela , is at Capricorn TVET College to participate in the 4th Annual Heritage Careers Expo 2026, engaging with learners, exhibitors and industry stakeholders. #HeritageCareersExpo2026 #HeritageToWealth @Cathsseta1 https://t.co/AGJd5xm19u — HigherEducationZA (@HigherEduGovZA) October 9, 2026 Manamela says learners should explore more careers outside traditional career options. “The idea is to teach these young people through careers that are referred to as passions: music, dance, fashion, beauty, you know, in the creatives, performing, and visual arts. You do not just have to rely on the talent and passion that you have. You can actually pursue these careers in our universities of technology and in our TVET colleges. But also these are careers that, you know, enhance not just individual talent, but also have the potential for someone to get into entrepreneurship and to employ other people.” The Minister of Higher Education and Training, Mr @ButiManamela, is engaging with members of the media on the sidelines of the 4th Annual Heritage Careers Expo 2026 at Capricorn TVET College, Seshego Campus, Limpopo. #HeritageCareersExpo2026 #HeritageToWealth @Cathsseta1 https://t.co/wlRzhWEdTk — HigherEducationZA (@HigherEduGovZA) October 9, 2026 Reporting: Nsuku Shiluvana","source":"SABC News","author":"Wendy Mothata","category":"general","url":"https://www.sabcnews.com/sabcnews/learners-urged-to-build-sustainable-careers-in-creative-sectors/?utm_source=lootura.com","publishedAt":"2026-10-09T16:10:26.000Z"},{"title":"Super El Niño – how it could affect South Africa’s maize prices","summary":"Importing maize can push up costs through shipping and other expenses, with increases potentially passed on to consumers through higher maize meal prices.","source":"Moneyweb","author":"Anmar Pretorius and Mariëtte Geyser","category":"business","url":"https://www.moneyweb.co.za/news/south-africa/super-el-nino-how-it-could-affect-south-africas-maize-prices/?utm_source=lootura.com","publishedAt":"2026-10-10T02:00:35.000Z"},{"title":"Matric exam countdown begins","summary":"Matric exam countdown begins Vusi.Bafetane Fri, 10/09/2026 - 18:17 CAPE TOWN - The final countdown is officially on for the 2026 National Senior Certificate exams, with close to a million candidates across the country prepping for next week's launch. The exams kick off on Tuesday with Computer Applications Technology (CAT) and end on 25 November, packing 123 papers into the schedule. Basic Education Minister Siviwe Gwarube is expected to deliver a readiness briefing on Sunday. She is already on the ground checking logistics and visited Fezeka Secondary School in Gugulethu, Cape Town, to hand down a zero-tolerance warning against cheating. The minister challenged pupils to bring their A-game while ensuring a strong support network is in place to help them over their last schooling hurdle, but she also warned about the consequences of cheating during the matric exams, adding that there are no shortcuts to success. Gwarube said tighter security measures are in place to safeguard the integrity of the 2026 NSC exams. eNCA's Ayesha Ismail reports in the video above.","source":"eNCA","author":"Vusi.Bafetane","category":"general","url":"https://www.enca.com/news/matric-exam-countdown-begins?utm_source=lootura.com","publishedAt":"2026-10-09T16:17:39.000Z"},{"title":"Calm restored in Johannesburg CBD after violent protest","summary":"The Johannesburg Metro Police Department (JMPD) says the situation in the City’s CBD is now calm. This comes after a vehicle was set alight by protestors at the Constitutional Hill Human Rights Precinct in Braamfontein. Hundreds of protestors took to the streets on Thursday and Friday over a July ruling by the Constitutional Court , which said that asylum seekers cannot be denied access to the country’s asylum system solely for procedural reasons such as having entered the country illegally. JMPD spokesperson Xolani Fihla says, “Earlier, we monitored the group that marched from Kwa Mai Mai to Constitutional Hill, and unfortunately we did record an isolated act of lawlessness where a vehicle was set alight and the SAPS will thoroughly investigate the incident to ensure that those who are responsible are caught and brought to book. The group then subsequently moved to the Home Affairs office in Harrison Street before heading back to Kwa Mai Mai and I can confirm that the situation in the Johannesburg inner city is calm as well as in Soweto, following yesterday’s violent incidents.” Migration Crisis | Police monitor situation in Johannesburg CBD:","source":"SABC News","author":"Wendy Mothata","category":"general","url":"https://www.sabcnews.com/sabcnews/1167481-2/?utm_source=lootura.com","publishedAt":"2026-10-09T15:45:11.000Z"},{"title":"Triple blow: R30.25 petrol, interest rates and medical aid hikes hit SA","summary":"The cost-of-living shock employers cannot ignore in 2027.","source":"Moneyweb","author":"Tanya Tosen","category":"business","url":"https://www.moneyweb.co.za/moneyweb-opinion/soapbox/r30-25-petrol-higher-interest-rates-8-7-medical-aid-hike/?utm_source=lootura.com","publishedAt":"2026-10-10T02:00:31.000Z"},{"title":"'You will be found out' - Gwarube warns pupils against cheating","summary":"'You will be found out' - Gwarube warns pupils against cheating Zandile.Khumalo Fri, 10/09/2026 - 17:50 A pupil preparing for the exams. GettyImages/epicurean CAPE TOWN - The Department of Basic Education is tightening its security around the National Senior Certificate exams. Minister Siviwe Gwarube said officials are reviewing everything from surveillance cameras to who has access to exam papers and whether staff have been properly vetted. “There are [about] a million candidates that are going to be sitting for this exam. I say to them, don't cheat. You will be found out. And when you are, it is a massive disruption in your career. So rather write this exam with integrity; prepare and prepare well,\" the minister urged. Gwarube led a pledge-signing ceremony at Fezeka Secondary School in Gugulethu, Cape Town on Friday. The event forms part of preparations for the 2026 National Senior Certificate exams. “The pledge was really about learners pledging that they will be taking these exams with honesty and with integrity and without cheating,\" she said. Matric final examinations will commence on Tuesday 13 October 2026 and conclude on Thursday 26 November 2026. During a media briefing on the state of readiness in Pretoria on Thursday, Umalusi Chief Executive Officer Mafu Rakometsi confirmed that approximately 1.08 million candidates are registered to sit for the year end exams at 9183 centres.","source":"eNCA","author":"Zandile.Khumalo","category":"general","url":"https://www.enca.com/news/you-will-be-found-out-gwarube-warns-pupils-against-cheating?utm_source=lootura.com","publishedAt":"2026-10-09T15:50:54.000Z"},{"title":"Koeberg hosts media tour for the first time in 40-years","summary":"As South Africa continues to strengthen its electricity security, attention is turning to the safety, reliability and long-term sustainability of Koeberg Nuclear Power Station. The facility has hosted a media tour described as the first of its kind in its 40-year history, creating an opportunity to engage officials on its operations and recent challenges. This comes as investigations continue into a turbine trip at Unit One and seawater intake challenges linked to a sardine influx. Chief Nuclear Officer, Velaphi Ntuli, “So Unit 2 is currently in a planned outage, so we did our maintenance and it is one of the major maintenance that we do after replacing our steam generators which we did in the last outage. So, we at the end back of that outage soon we will be loading fuel and starting up that unit, so that is where we are it’s in the maintenance outage. We expect the maintenance outage to finish somewhere in November, Unit 1 that is why you could not go it’s running that will be in outage somewhere in May next year.”","source":"SABC News","author":"Preggie Moodley","category":"general","url":"https://www.sabcnews.com/sabcnews/1167484-2/?utm_source=lootura.com","publishedAt":"2026-10-09T15:37:05.000Z"},{"title":"Ebola spreads ‘like wildfire’ as health workers battle exhaustion","summary":"Ebola has spread to seven provinces in Congo, straining an already weakened response and raising the risk of cross-border transmission.","source":"Moneyweb","author":"Jason Gale, Ashleigh Furlong and Julia Janicki, Bloomberg","category":"business","url":"https://www.moneyweb.co.za/news/africa/ebola-spreads-like-wildfire-as-health-workers-battle-exhaustion/?utm_source=lootura.com","publishedAt":"2026-10-10T02:00:19.000Z"},{"title":"PowerBall and PowerBall Xtra Results | 9 October 2026","summary":"PowerBall and PowerBall Xtra Results | 9 October 2026 Ntandoyenkosi… Fri, 10/09/2026 - 17:28 National Lottery National Lottery JOHANNESBURG - Here are the PowerBall and PowerBall Xtra results for Friday, 9 October 2026. Powerball numbers: 03 | 14 | 17 | 19 | 37 | Powerball: 16 Powerball numbers Xtra: 02 | 38 | 40 | 44 | 46 | Powerball: 15","source":"eNCA","author":"Ntandoyenkosi.Kubheka","category":"general","url":"https://www.enca.com/lifestyle/powerball-and-powerball-xtra-results-9-october-2026?utm_source=lootura.com","publishedAt":"2026-10-09T15:28:20.000Z"},{"title":"Buildings being destroyed in Durban as protests escalate","summary":"Tensions have once again escalated in Durban, where hundreds of protesters have begun destroying buildings and property. The demonstrators are marching against the Constitutional Court’s ruling on asylum seekers. They have vowed to continue protesting until immigration laws are addressed. Police are attempting to restore law and order, using stun grenades and rubber bullets to disperse the crowd. The march is expected to end along Mahatma Gandhi Road in South Beach. These protesters share their concerns. “We are being taken advantage of as South Africans we feel we are being sidelined by our own government. If the government is not for its people, then why do we have a government? We are not happy. We are very disgruntled.” “We are not getting jobs. And you can see that the situation is getting worse. We are struggling financially. We are unemployed. The situation is bad. We are tired of negotiating.” Video: Migration Crisis | Businesses in Durban CBD forced to close due to attacks","source":"SABC News","author":"Thabiso Malesele","category":"general","url":"https://www.sabcnews.com/sabcnews/buildings-being-destroyed-in-durban-as-protests-escalate/?utm_source=lootura.com","publishedAt":"2026-10-09T15:16:01.000Z"},{"title":"Sapoa at 60: Championing commercial property and protecting SA’s future","summary":"The property body says coordinated advocacy is vital as rising municipal charges and weak service delivery put pressure on investment.","source":"Moneyweb","author":"Neil Gopal","category":"business","url":"https://www.moneyweb.co.za/moneyweb-opinion/soapbox/sapoa-at-60-championing-commercial-property-protecting-sas-future/?utm_source=lootura.com","publishedAt":"2026-10-10T02:00:19.000Z"},{"title":"Three suspected CIT robbers shot dead in Johannesburg","summary":"Three suspected CIT robbers shot dead in Johannesburg Zandile.Khumalo Fri, 10/09/2026 - 17:17 JOHANNESBURG - Three suspected Cash-In-Transit robbers were shot and killed on Friday. Police exchanged fire with the suspected robbers at N12 road near Kliprivier off ramp resulting in three fatalities. According to police spokesperson Dimakatso Nevhuhulwi, authorities recovered firearms at the scene. Gauteng Police Commissioner, Lieutenant General Tommy Mthombeni will address the media on the crime scene. This is a developing story.","source":"eNCA","author":"Zandile.Khumalo","category":"general","url":"https://www.enca.com/news-top-stories/three-suspected-cit-robbers-shot-dead-johannesburg?utm_source=lootura.com","publishedAt":"2026-10-09T15:17:13.000Z"},{"title":"Youth urged to vote in 4 November LGE","summary":"The Electoral Commission of South Africa (IEC) and the South African Broadcasting Corporation (SABC) hosted a mock voting station at the SABC on Friday to demonstrate the voting process ahead of the 4 November 2026 Local Government Elections. The demonstration took participants through the voting process, from joining the queue to casting their ballots. Depending on where they live, voters will receive different ballot papers. These include: • Ward ballot: Voters choose a candidate to represent their ward. • Proportional Representation (PR) ballot: Voters choose a political party, with council seats allocated according to each party’s share of the vote. • District council ballot: Voters choose a political party to represent them on the district council. Voters in metropolitan municipalities receive two ballot papers: a ward ballot and a PR ballot. Voters in local municipalities outside metropolitan areas receive three, including a district council ballot. IEC regional outreach officer Diana Mola said the commission runs educational programmes to encourage young people to participate in elections, from primary school through to tertiary education. “When we go to high schools, secondary schools, that’s where we get the people who are qualified to register. In our laws, to register, you need to be 16 years,” she said. Mola encouraged young people to consider standing for leadership positions, saying they could participate in elections as candidates as well as voters. “You don’t only engage with the voting by becoming a voter. You can even become a candidate, as long as you are a South African citizen and you are a registered voter,” she said. According to the IEC, 42.1% of people aged between 18 and 35 are registered to vote, while about 22.65% of candidates contesting the elections fall within the same age group. Meanwhile, SABC specialist researcher Velemseni Mthiyane encouraged young people to exercise their democratic right and participate in the elections. “The youth must remember that their voice will always make a difference, whether or not they are able to see the tangible results,” he said. Youth urged to learn how to vote ahead of 4 November elections","source":"SABC News","author":"Preggie Moodley","category":"general","url":"https://www.sabcnews.com/sabcnews/youth-urged-to-learn-how-to-vote-ahead-of-4-november-elections/?utm_source=lootura.com","publishedAt":"2026-10-09T14:30:05.000Z"},{"title":"Putin is spending a record $200bn on the war this year","summary":"The latest signal that Putin is prepared for the war with Ukraine to continue escalating.","source":"Moneyweb","author":"Bloomberg News, Bloomberg","category":"business","url":"https://www.moneyweb.co.za/news/international/putin-is-spending-a-record-200-billion-on-the-war-this-year/?utm_source=lootura.com","publishedAt":"2026-10-10T02:00:18.000Z"},{"title":"Behind Zara billionaire’s modest lifestyle is a growing fortune","summary":"The reluctant billionaire shuns the trappings of wealth as Inditex continues to grow her fortune.","source":"Moneyweb","author":"Clara Hernanz Lizarraga, Bloomberg","category":"business","url":"https://www.moneyweb.co.za/news/international/behind-zara-billionaires-modest-lifestyle-is-a-growing-fortune/?utm_source=lootura.com","publishedAt":"2026-10-10T02:00:04.000Z"},{"title":"RSG Geldsake met Moneyweb – Vrydag 9 Oktober 2026","summary":"Tinus de Jager – Moneyweb.","source":"Moneyweb","author":"Tinus de Jager","category":"business","url":"https://www.moneyweb.co.za/moneyweb-radio/rsg-geldsake/rsg-geldsake-met-moneyweb-vrydag-9-oktober-2026/?utm_source=lootura.com","publishedAt":"2026-10-09T17:35:32.000Z"},{"title":"Kenners antwoord luisteraarsvrae","summary":"Nerina Visser van ETFsa en Elke Brink van PSG Wealth R21 beantwoord luisteraars se vrae oor persoonlike finansies.","source":"Moneyweb","author":"Tinus de Jager","category":"business","url":"https://www.moneyweb.co.za/moneyweb-radio/rsg-geldsake/kenners-antwoord-luisteraarsvrae-153/?utm_source=lootura.com","publishedAt":"2026-10-09T17:30:30.000Z"},{"title":"Okosa se nuwe datareëls word uitgestel ná MTN en Vodacom hof toe gaan","summary":"Jan Vermeulen, redakteur van MyBroadband, gesels oor Okosa se nuwe datareëls.","source":"Moneyweb","author":"Tinus de Jager","category":"business","url":"https://www.moneyweb.co.za/moneyweb-radio/rsg-geldsake/okosa-se-nuwe-datareels-word-uitgestel-na-mtn-en-vodacom-hof-toe-gaan/?utm_source=lootura.com","publishedAt":"2026-10-09T17:20:14.000Z"},{"title":"Die hof stel regssektorbemagtigingskode tersyde","summary":"Prof. Hugo Pienaar, direkteur by Thomson Wilks, gesels oor die hof se besluit om die bemagtigingskode vir die regsektor tersyde te stel.","source":"Moneyweb","author":"Tinus de Jager","category":"business","url":"https://www.moneyweb.co.za/moneyweb-radio/rsg-geldsake/die-hof-stel-regssektorbemagtigingskode-tersyde/?utm_source=lootura.com","publishedAt":"2026-10-09T17:19:57.000Z"},{"title":"Die JSE styg aan die einde van die week en die goudprys hou aan met styg","summary":"Nerina Visser, beursverhandeldefondsstrateeg by ETFsa, deel haar mening oor die markbewegings.","source":"Moneyweb","author":"Tinus de Jager","category":"business","url":"https://www.moneyweb.co.za/moneyweb-radio/rsg-geldsake/die-jse-styg-aan-die-einde-van-die-week-en-die-goudprys-hou-aan-met-styg/?utm_source=lootura.com","publishedAt":"2026-10-09T17:12:41.000Z"}];
+const isEnglish = true;
+const isJapanese = false;
+const editionIds = ["es","us","za","mx","ar","jp"];
+
+		const root = document.querySelector('[data-signal-words-page]');
+		const form = document.querySelector('[data-signal-words-form]');
+		const input = document.querySelector('[data-signal-words-input]');
+		const termsRoot = document.querySelector('[data-signal-words-terms]');
+		const resultsRoot = document.querySelector('[data-signal-words-results]');
+		const preferencesKey = 'lootura.preferences.v1';
+		const maxWatchingTerms = 20;
+		const isEnglishPage = isEnglish;
+		const isJapanesePage = isJapanese;
+		const defaultCategories = ['politics', 'economy', 'sports', 'ai', 'culture'];
+
+		const escapeHtml = (value) =>
+			String(value || '')
+				.replaceAll('&', '&amp;')
+				.replaceAll('<', '&lt;')
+				.replaceAll('>', '&gt;')
+				.replaceAll('"', '&quot;')
+				.replaceAll("'", '&#039;');
+
+		const normalizeText = (value) =>
+			String(value || '')
+				.normalize('NFD')
+				.replace(/[\u0300-\u036f]/g, '')
+				.toLowerCase();
+
+		const getSearchTokens = (value) =>
+			normalizeText(value).match(/[\p{L}\p{N}]+/gu) || [];
+
+		const doesTextMatchTerm = (text, term) => {
+			const termTokens = getSearchTokens(term);
+			if (!termTokens.length) return false;
+			const textTokens = getSearchTokens(text);
+			return textTokens.some((token, index) =>
+				token === termTokens[0] && termTokens.every((termToken, offset) => textTokens[index + offset] === termToken)
+			);
+		};
+
+		const normalizeTerm = (term) => {
+			const normalizedTerm = String(term || '').replace(/\s+/g, ' ').trim();
+			return normalizedTerm.length >= 2 && normalizedTerm.length <= 40 ? normalizedTerm : '';
+		};
+
+		const readPreferences = () => {
+			try {
+				const value = JSON.parse(localStorage.getItem(preferencesKey) || 'null');
+				if (value && typeof value === 'object' && !Array.isArray(value)) return value;
+			} catch {}
+			return {};
+		};
+
+		const normalizePreferences = (preferences) => {
+			const categoriesByEdition = {};
+			const watchingByEdition = {};
+			for (const edition of editionIds) {
+				categoriesByEdition[edition] = Array.isArray(preferences.categoriesByEdition?.[edition])
+					? preferences.categoriesByEdition[edition]
+					: defaultCategories;
+				watchingByEdition[edition] = Array.isArray(preferences.watchingByEdition?.[edition])
+					? preferences.watchingByEdition[edition]
+					: [];
+			}
+			return {
+				selectedEdition: preferences.selectedEdition || locale,
+				categoriesByEdition,
+				watchingByEdition,
+			};
+		};
+
+		const getWatchingTerms = () => {
+			const preferences = normalizePreferences(readPreferences());
+			const seen = new Set();
+			return (preferences.watchingByEdition[locale] || [])
+				.map(normalizeTerm)
+				.filter((term) => {
+					const key = term.toLowerCase();
+					if (!term || seen.has(key)) return false;
+					seen.add(key);
+					return true;
+				})
+				.slice(0, maxWatchingTerms);
+		};
+
+		const writeWatchingTerms = (terms) => {
+			const preferences = normalizePreferences(readPreferences());
+			preferences.selectedEdition = locale;
+			preferences.watchingByEdition[locale] = terms.slice(0, maxWatchingTerms);
+			localStorage.setItem(preferencesKey, JSON.stringify(preferences));
+			window.dispatchEvent(new CustomEvent('lootura:preferences-updated', { detail: preferences }));
+		};
+
+		const getStorySearchText = (story) =>
+			normalizeText([
+				story.title,
+				story.summary,
+				story.source,
+				story.author,
+				story.category,
+			].join(' '));
+
+		const getMatchesByTerm = (terms) =>
+			terms.map((term) => {
+				const matches = stories
+					.filter((story) => doesTextMatchTerm(getStorySearchText(story), term))
+					.slice(0, 12);
+				return { term, matches };
+			});
+
+		const formatRelative = (value) => {
+			const time = new Date(value || '').getTime();
+			if (!Number.isFinite(time)) return '';
+			const minutes = Math.max(1, Math.round((Date.now() - time) / 60000));
+			if (isJapanesePage) {
+				if (minutes < 60) return `${minutes}分前`;
+				const hours = Math.round(minutes / 60);
+				if (hours < 48) return `${hours}時間前`;
+				const days = Math.round(hours / 24);
+				return `${days}日前`;
+			}
+			if (minutes < 60) return isEnglishPage ? `${minutes}m ago` : `hace ${minutes}min`;
+			const hours = Math.round(minutes / 60);
+			if (hours < 48) return isEnglishPage ? `${hours}h ago` : `hace ${hours}h`;
+			const days = Math.round(hours / 24);
+			return isEnglishPage ? `${days}d ago` : `hace ${days}d`;
+		};
+
+		const render = () => {
+			const terms = getWatchingTerms();
+			const matchesByTerm = getMatchesByTerm(terms);
+			const matchCount = matchesByTerm.reduce((total, group) => total + group.matches.length, 0);
+
+			if (termsRoot instanceof HTMLElement) {
+				termsRoot.innerHTML = terms.length
+					? terms.map((term) => `
+						<button class="inline-flex min-h-10 items-center gap-2 rounded-full border border-neutral-950/10 bg-neutral-950/[0.035] px-3 text-sm font-bold text-neutral-700 transition hover:bg-neutral-950/[0.06] focus:outline-none focus:ring-2 focus:ring-neutral-950/20" type="button" data-signal-word-remove="${escapeHtml(term)}">
+							<span>${escapeHtml(term)}</span>
+							<span aria-hidden="true"><svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></span>
+						</button>
+					`).join('')
+					: `<p class="text-sm font-medium leading-6 text-neutral-500">${isJapanesePage ? 'フォロー中の言葉はまだありません。' : isEnglishPage ? 'No followed words yet.' : 'Aún no sigues palabras.'}</p>`;
+			}
+
+			if (!(resultsRoot instanceof HTMLElement)) return;
+			root?.setAttribute('data-signal-words-match-count', String(matchCount));
+			if (terms.length === 0) {
+				resultsRoot.innerHTML = `<p class="text-sm font-medium leading-6 text-neutral-500">${isJapanesePage ? '言葉を追加すると、一致するリンクがここに出ます。' : isEnglishPage ? 'Add a word to see matching links here.' : 'Añade una palabra para ver enlaces aquí.'}</p>`;
+				return;
+			}
+			if (matchCount === 0) {
+				resultsRoot.innerHTML = `<p class="text-sm font-medium leading-6 text-neutral-500">${isJapanesePage ? '現在のリンクに一致するものはありません。' : isEnglishPage ? 'No current links match your words.' : 'No hay enlaces actuales con tus palabras.'}</p>`;
+				return;
+			}
+			resultsRoot.innerHTML = matchesByTerm
+				.filter((group) => group.matches.length > 0)
+				.map((group) => `
+					<section class="mb-8">
+						<p class="text-sm font-medium uppercase tracking-normal text-neutral-500">${escapeHtml(group.term)}</p>
+						<div class="mt-3 grid border-t border-neutral-950/10">
+							${group.matches.map((match) => `
+								<a class="grid gap-1 border-b border-neutral-950/10 py-4 text-neutral-950 no-underline transition hover:bg-neutral-950/[0.025] focus:outline-none focus:ring-2 focus:ring-neutral-950/20" href="${escapeHtml(match.url)}" target="_blank" rel="noopener noreferrer">
+									<span class="text-[11px] font-bold uppercase tracking-normal text-neutral-400">${escapeHtml([match.source, formatRelative(match.publishedAt)].filter(Boolean).join(' · '))}</span>
+									<strong class="text-lg font-semibold leading-snug text-neutral-950">${escapeHtml(match.title)}</strong>
+								</a>
+							`).join('')}
+						</div>
+					</section>
+				`).join('');
+		};
+
+		form?.addEventListener('submit', (event) => {
+			event.preventDefault();
+			if (!(input instanceof HTMLInputElement)) return;
+			const term = normalizeTerm(input.value);
+			if (!term) return;
+			const terms = getWatchingTerms();
+			const exists = terms.some((existingTerm) => existingTerm.toLowerCase() === term.toLowerCase());
+			if (!exists) writeWatchingTerms([term, ...terms]);
+			input.value = '';
+			render();
+		});
+
+		termsRoot?.addEventListener('click', (event) => {
+			const button = event.target instanceof Element ? event.target.closest('[data-signal-word-remove]') : null;
+			if (!(button instanceof HTMLElement)) return;
+			const term = button.getAttribute('data-signal-word-remove') || '';
+			writeWatchingTerms(getWatchingTerms().filter((item) => item !== term));
+			render();
+		});
+
+		window.addEventListener('storage', render);
+		window.addEventListener('pageshow', render);
+		render();
+	})();</script>  <section class="fixed inset-x-4 bottom-[calc(env(safe-area-inset-bottom,0px)+1rem)] z-[60] mx-auto max-w-sm border border-neutral-200 bg-white p-4 text-neutral-950 shadow-[0_18px_55px_rgba(10,10,10,0.16)] sm:inset-x-auto sm:right-6 sm:max-w-md" data-release-notice hidden role="status" aria-live="polite" aria-hidden="true" data-astro-cid-sckkx6r4> <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-neutral-500" data-release-eyebrow data-astro-cid-sckkx6r4> New version </p> <h2 class="mt-2 text-xl font-semibold leading-tight text-neutral-950" data-release-title data-astro-cid-sckkx6r4> Lootura has something new </h2> <p class="mt-2 text-sm leading-6 text-neutral-600" data-release-body data-astro-cid-sckkx6r4> The app was updated. Keep reading or see what changed. </p> <div class="mt-4 flex flex-wrap items-center gap-3" data-astro-cid-sckkx6r4> <button class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" type="button" data-release-refresh hidden data-astro-cid-sckkx6r4> Update </button> <a class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" href="/updates" data-release-updates data-astro-cid-sckkx6r4> What&#39;s new </a> <button class="inline-flex min-h-11 items-center justify-center border border-neutral-200 bg-white px-4 text-sm font-semibold text-neutral-700" type="button" data-release-dismiss data-astro-cid-sckkx6r4> Not now </button> </div> </section>  <script>(function(){const baseUrl = "/";
+const isProduction = true;
+const currentAppBuild = {"version":"1.13.0","build":1032001};
+
+	const pwaDevOverrideKey = 'lootura:pwa-dev-override';
+	const getIsPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+	const applyPwaRuntime = () => {
+		const isPwaRuntime = Boolean(getIsPwaRuntime());
+		document.documentElement.classList.toggle('pwa-runtime', isPwaRuntime);
+		window.dispatchEvent(new CustomEvent('lootura:pwa-runtime-changed', { detail: { isPwaRuntime } }));
+		return isPwaRuntime;
+	};
+
+	if (!isProduction) {
+		const params = new URLSearchParams(window.location.search);
+		const pwaOverride = params.get('pwa');
+		if (pwaOverride === '1' || pwaOverride === '0') {
+			if (pwaOverride === '1') {
+				sessionStorage.setItem(pwaDevOverrideKey, 'true');
+			} else {
+				sessionStorage.removeItem(pwaDevOverrideKey);
+			}
+			const cleanUrl = new URL(window.location.href);
+			cleanUrl.searchParams.delete('pwa');
+			window.history.replaceState({}, '', cleanUrl);
+		}
+	}
+	applyPwaRuntime();
+
+	if (!isProduction) {
+		const devModeOptions = Array.from(document.querySelectorAll('[data-dev-pwa-mode-option]'));
+		const syncDevModeOptions = () => {
+			const mode = sessionStorage.getItem(pwaDevOverrideKey) === 'true' ? 'pwa' : 'page';
+			devModeOptions.forEach((option) => {
+				option.checked = option.value === mode;
+			});
+		};
+		devModeOptions.forEach((option) => {
+			option.addEventListener('change', () => {
+				if (option.value === 'pwa') {
+					sessionStorage.setItem(pwaDevOverrideKey, 'true');
+				} else {
+					sessionStorage.removeItem(pwaDevOverrideKey);
+				}
+				applyPwaRuntime();
+				syncDevModeOptions();
+			});
+		});
+		syncDevModeOptions();
+	}
+
+	document.documentElement.classList.remove('dark');
+	document.documentElement.style.colorScheme = 'light';
+
+	const getAbsoluteImageUrl = (value) => {
+		try {
+			return new URL(value || '', document.baseURI).href;
+		} catch {
+			return '';
+		}
+	};
+
+	const getImageFallbackCandidates = (image) => [
+		image.dataset.fallbackImage || image.dataset.fallbackBackground || '',
+		image.dataset.finalFallbackImage || '',
+	].filter(Boolean);
+
+	const revealAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		if (!image.matches('[data-app-image], [data-news-image]')) return;
+		image.dataset.loaded = 'true';
+		image.dataset.imageError = 'false';
+	};
+
+	const recoverAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		const candidates = getImageFallbackCandidates(image);
+		const currentUrl = image.currentSrc || image.src || '';
+		const nextFallback = candidates.find((candidate) => {
+			const fallbackUrl = getAbsoluteImageUrl(candidate);
+			return fallbackUrl && fallbackUrl !== currentUrl;
+		});
+
+		if (nextFallback) {
+			image.dataset.imageRecovered = 'true';
+			image.dataset.loaded = 'false';
+			image.src = nextFallback;
+			return;
+		}
+
+		if (image.hasAttribute('data-remove-on-error')) {
+			image.remove();
+			return;
+		}
+
+		image.dataset.imageError = 'true';
+	};
+
+	document.addEventListener('load', (event) => revealAppImage(event.target), true);
+	document.addEventListener('error', (event) => recoverAppImage(event.target), true);
+	for (const image of document.querySelectorAll('img[data-app-image], img[data-news-image]')) {
+		if (!(image instanceof HTMLImageElement) || !image.complete) continue;
+		if (image.naturalWidth > 0) {
+			revealAppImage(image);
+		} else {
+			recoverAppImage(image);
+		}
+	}
+
+	const isLooturaPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+
+	const releaseSeenBuildKey = 'lootura:app-release:last-seen-build';
+	const releaseSeenVersionKey = 'lootura:app-release:last-seen-version';
+	const releaseSnoozedUntilKey = 'lootura:app-release:snoozed-until';
+	const updatesSeenVersionKey = 'lootura:updates:last-seen-version';
+	const releasePendingKey = 'lootura:release-notice:pending';
+	const refreshAtLaunchKey = 'lootura:refresh-at-launch';
+	const releaseNotice = document.querySelector('[data-release-notice]');
+	const releaseEyebrow = releaseNotice?.querySelector('[data-release-eyebrow]');
+	const releaseTitle = releaseNotice?.querySelector('[data-release-title]');
+	const releaseBody = releaseNotice?.querySelector('[data-release-body]');
+	const releaseRefreshButton = releaseNotice?.querySelector('[data-release-refresh]');
+	const releaseUpdatesLink = releaseNotice?.querySelector('[data-release-updates]');
+	const releaseDismissButton = releaseNotice?.querySelector('[data-release-dismiss]');
+	let releaseNoticeTimer = 0;
+	let lastPublishedBuild = null;
+	let isReloadingForUpdate = false;
+
+	const getBuildId = (build) => {
+		const version = String(build?.version || '').trim();
+		const number = Number(build?.build || 0);
+		return version && Number.isFinite(number) && number > 0 ? `${version}:${number}` : '';
+	};
+	const currentBuildId = getBuildId(currentAppBuild);
+	const currentVersion = String(currentAppBuild?.version || '').trim();
+
+	const getLastSeenReleaseVersion = () => {
+		try {
+			const releaseSeenVersion = localStorage.getItem(releaseSeenVersionKey) || '';
+			const updatesSeenVersion = localStorage.getItem(updatesSeenVersionKey) || '';
+			const legacySeenBuild = localStorage.getItem(releaseSeenBuildKey) || '';
+			const legacySeenVersion = legacySeenBuild.includes(':') ? legacySeenBuild.split(':')[0] : '';
+			return releaseSeenVersion || updatesSeenVersion || legacySeenVersion;
+		} catch {
+			return '';
+		}
+	};
+
+	const markReleaseVersionSeen = () => {
+		if (!currentVersion) return;
+		try {
+			localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			localStorage.setItem(updatesSeenVersionKey, currentVersion);
+			localStorage.removeItem(releaseSnoozedUntilKey);
+			sessionStorage.removeItem(releasePendingKey);
+		} catch {}
+	};
+
+	const getNextLocalDayIso = () => {
+		const now = new Date();
+		return new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).toISOString();
+	};
+
+	const snoozeReleaseNoticeUntilTomorrow = () => {
+		try {
+			localStorage.setItem(releaseSnoozedUntilKey, getNextLocalDayIso());
+		} catch {}
+	};
+
+	const isReleaseNoticeSnoozed = () => {
+		try {
+			const snoozedUntil = new Date(localStorage.getItem(releaseSnoozedUntilKey) || '').getTime();
+			return Number.isFinite(snoozedUntil) && snoozedUntil > Date.now();
+		} catch {
+			return false;
+		}
+	};
+
+	const getLocalizedUpdatesPath = () => {
+		const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+		const pathWithoutBase = window.location.pathname.startsWith(normalizedBaseUrl)
+			? window.location.pathname.slice(normalizedBaseUrl.length)
+			: window.location.pathname.replace(/^\//, '');
+		const firstSegment = pathWithoutBase.split('/').filter(Boolean)[0];
+		const locale = firstSegment === 'us' ? 'us' : 'es';
+		return `${normalizedBaseUrl}${locale}/updates`;
+	};
+
+	const rememberPendingRelease = (publishedBuild) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		try {
+			sessionStorage.setItem(
+				releasePendingKey,
+				JSON.stringify({
+					id: publishedBuildId,
+					version: String(publishedBuild?.version || ''),
+					build: Number(publishedBuild?.build || 0),
+				}),
+			);
+		} catch {}
+	};
+
+	const getPendingRelease = () => {
+		try {
+			const pendingRelease = JSON.parse(sessionStorage.getItem(releasePendingKey) || 'null');
+			return pendingRelease?.id === currentBuildId ? pendingRelease : null;
+		} catch {
+			return null;
+		}
+	};
+
+	const isReleaseNoticeBlocked = () =>
+		sessionStorage.getItem(refreshAtLaunchKey) === 'true' ||
+		Boolean(document.querySelector('[data-feed-refresh-overlay][data-visible]')) ||
+		Boolean(document.querySelector('[data-while-you-were-away-card][data-open="true"]')) ||
+		Boolean(document.querySelector('[data-signal-install-nudge]:not([hidden])')) ||
+		Boolean(document.querySelector('[role="dialog"][aria-modal="true"]:not([hidden]):not(.hidden):not([aria-hidden="true"])'));
+
+	const clearServiceWorkerCaches = async () => {
+		if (!window.caches?.keys) return;
+		const keys = await window.caches.keys();
+		await Promise.all(keys.filter((key) => key.startsWith('lootura-')).map((key) => window.caches.delete(key)));
+	};
+
+	const reloadForPublishedBuild = async () => {
+		if (isReloadingForUpdate) return;
+		isReloadingForUpdate = true;
+		try {
+			await clearServiceWorkerCaches();
+		} catch {}
+		window.location.reload();
+	};
+
+	const setReleaseNoticeMode = (mode) => {
+		const isSpanish = document.documentElement.lang?.startsWith('es');
+		const copy = mode === 'update'
+			? {
+					eyebrow: isSpanish ? 'Nueva versión disponible' : 'New version available',
+					title: isSpanish ? 'Actualiza Lootura' : 'Update Lootura',
+					body: isSpanish
+						? 'Hay una versión nueva lista. Actualiza la PWA para cargarla antes de ver las novedades.'
+						: 'A new version is ready. Update the PWA to load it before reading what changed.',
+				}
+			: {
+					eyebrow: isSpanish ? 'Nueva versión' : 'New version',
+					title: isSpanish ? 'Hay algo nuevo en Lootura' : 'Lootura has something new',
+					body: isSpanish
+						? 'La app se ha actualizado. Puedes seguir leyendo o ver los cambios.'
+						: 'The app was updated. Keep reading or see what changed.',
+				};
+
+		if (releaseEyebrow) releaseEyebrow.textContent = copy.eyebrow;
+		if (releaseTitle) releaseTitle.textContent = copy.title;
+		if (releaseBody) releaseBody.textContent = copy.body;
+		if (releaseRefreshButton) releaseRefreshButton.hidden = mode !== 'update';
+		if (releaseUpdatesLink) releaseUpdatesLink.hidden = mode === 'update';
+		if (releaseNotice) releaseNotice.dataset.mode = mode;
+	};
+
+	const hideReleaseNotice = () => {
+		window.clearTimeout(releaseNoticeTimer);
+		if (!releaseNotice) return;
+		releaseNotice.hidden = true;
+		releaseNotice.dataset.visible = 'false';
+		releaseNotice.setAttribute('aria-hidden', 'true');
+	};
+
+	const showReleaseNotice = (mode = 'notes') => {
+		if (!releaseNotice || !currentBuildId || !currentVersion || releaseNotice.dataset.visible === 'true') return;
+
+		if (mode === 'notes') {
+			try {
+				sessionStorage.removeItem(releasePendingKey);
+			} catch {}
+		}
+
+		setReleaseNoticeMode(mode);
+		releaseUpdatesLink?.setAttribute('href', getLocalizedUpdatesPath());
+		releaseNotice.hidden = false;
+		releaseNotice.dataset.visible = 'true';
+		releaseNotice.setAttribute('aria-hidden', 'false');
+		window.umami?.track?.('Show PWA release notice', { version: currentVersion, build: currentBuildId, mode });
+	};
+
+	const maybeShowReleaseNotice = (attempt = 0) => {
+		if (!isProduction || !currentBuildId || !currentVersion) return;
+
+		let lastSeenVersion = '';
+		try {
+			lastSeenVersion = getLastSeenReleaseVersion();
+		} catch {}
+
+		const pendingRelease = getPendingRelease();
+		const hasUnseenVersion = Boolean(lastSeenVersion && lastSeenVersion !== currentVersion);
+		const cameFromPendingRelease = Boolean(pendingRelease && pendingRelease.version === currentVersion);
+		const shouldShowReleaseNotice = cameFromPendingRelease || (hasUnseenVersion && (!pendingRelease || pendingRelease.version === currentVersion));
+
+		if (!lastSeenVersion && !pendingRelease) {
+			try {
+				localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			} catch {}
+			return;
+		}
+
+		if (!shouldShowReleaseNotice) return;
+		if (isReleaseNoticeSnoozed()) return;
+
+		if (!isLooturaPwaRuntime()) {
+			return;
+		}
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseNotice(attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice();
+	};
+
+	const maybeShowReleaseUpdateNotice = (publishedBuild, attempt = 0) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!isProduction || !publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		lastPublishedBuild = publishedBuild;
+		rememberPendingRelease(publishedBuild);
+
+		if (isReleaseNoticeSnoozed()) return;
+		if (!isLooturaPwaRuntime()) return;
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseUpdateNotice(publishedBuild, attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice('update');
+	};
+
+	releaseDismissButton?.addEventListener('click', () => {
+		snoozeReleaseNoticeUntilTomorrow();
+		hideReleaseNotice();
+	});
+	releaseRefreshButton?.addEventListener('click', () => {
+		const publishedBuild = lastPublishedBuild || getPendingRelease();
+		if (publishedBuild) rememberPendingRelease(publishedBuild);
+		reloadForPublishedBuild();
+	});
+	releaseUpdatesLink?.addEventListener('click', () => {
+		markReleaseVersionSeen();
+		hideReleaseNotice();
+	});
+	window.addEventListener('lootura:queue-refreshed', () => {
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+	window.addEventListener('lootura:pwa-runtime-changed', () => maybeShowReleaseNotice());
+	window.addEventListener('pageshow', () => maybeShowReleaseNotice());
+	document.addEventListener('visibilitychange', () => {
+		if (document.visibilityState === 'visible') maybeShowReleaseNotice();
+	});
+
+	const syncLooturaPwaRuntime = () => {
+		document.documentElement.classList.toggle('pwa-runtime', Boolean(isLooturaPwaRuntime()));
+	};
+
+	syncLooturaPwaRuntime();
+	window.addEventListener('appinstalled', syncLooturaPwaRuntime);
+	window.addEventListener('pageshow', syncLooturaPwaRuntime);
+	window.addEventListener('focus', syncLooturaPwaRuntime);
+
+	const detectLooturaClient = () => {
+		const userAgent = navigator.userAgent;
+		const isStandalone = isLooturaPwaRuntime();
+		const userAgentDataPlatform = navigator.userAgentData?.platform || '';
+		const legacyPlatform = navigator.platform || '';
+		const maxTouchPoints = navigator.maxTouchPoints || 0;
+		const platform = (() => {
+			if (/Android/i.test(userAgentDataPlatform) || /Android/i.test(userAgent)) return 'android';
+			if (/iPad|iPhone|iPod/i.test(userAgent) || /iPad|iPhone|iPod/i.test(legacyPlatform)) return 'ios';
+			if (/Mac/i.test(userAgentDataPlatform || legacyPlatform) && maxTouchPoints > 1) return 'ios';
+			return 'desktop';
+		})();
+		const browser = (() => {
+			if (/CriOS/i.test(userAgent)) return 'Chrome iOS';
+			if (/FxiOS/i.test(userAgent)) return 'Firefox iOS';
+			if (/EdgiOS/i.test(userAgent)) return 'Edge iOS';
+			if (/Edg/i.test(userAgent)) return 'Edge';
+			if (/OPR|Opera/i.test(userAgent)) return 'Opera';
+			if (/Chrome|Chromium|CriOS/i.test(userAgent)) return 'Chrome';
+			if (/Safari/i.test(userAgent)) return 'Safari';
+			if (/Firefox/i.test(userAgent)) return 'Firefox';
+			return 'Other';
+		})();
+
+		return {
+			appMode: isStandalone ? 'pwa' : 'browser',
+			platform,
+			browser,
+		};
+	};
+
+	const trackLooturaContext = (attempt = 0) => {
+		if (!window.umami) {
+			if (attempt < 20) window.setTimeout(() => trackLooturaContext(attempt + 1), 250);
+			return;
+		}
+
+		const context = detectLooturaClient();
+		window.looturaClient = context;
+		window.umami.identify?.(context);
+
+		const sessionKey = `lootura:context-tracked:${context.appMode}:${context.platform}:${context.browser}`;
+		if (!sessionStorage.getItem(sessionKey)) {
+			sessionStorage.setItem(sessionKey, 'true');
+			window.umami.track?.('App context', context);
+		}
+	};
+
+	const lockPortraitOrientation = async () => {
+		const orientationApi = screen.orientation;
+		if (!isLooturaPwaRuntime() || !orientationApi?.lock) return;
+
+		try {
+			await orientationApi.lock('portrait-primary');
+		} catch {
+			// iOS Safari and some browsers ignore orientation lock for web apps.
+		}
+	};
+
+	const enforcePortraitOrientation = () => {
+		lockPortraitOrientation();
+
+		window.addEventListener('focus', lockPortraitOrientation);
+		window.addEventListener('pageshow', lockPortraitOrientation);
+		window.addEventListener('orientationchange', lockPortraitOrientation);
+		screen.orientation?.addEventListener?.('change', lockPortraitOrientation);
+		document.addEventListener('visibilitychange', () => {
+			if (document.visibilityState === 'visible') lockPortraitOrientation();
+		});
+	};
+
+	if (!isProduction && 'serviceWorker' in navigator) {
+		navigator.serviceWorker.getRegistrations?.().then((registrations) => {
+			registrations.forEach((registration) => registration.unregister());
+		});
+	}
+
+	if (isProduction && 'serviceWorker' in navigator) {
+		window.addEventListener('load', () => {
+			const reloadForUpdate = () => {
+				if (isReloadingForUpdate) return;
+				isReloadingForUpdate = true;
+				window.location.reload();
+			};
+			const checkPublishedBuild = async () => {
+				try {
+					const response = await fetch(`${baseUrl}app-build.json?ts=${Date.now()}`, {
+						cache: 'no-store',
+						headers: { accept: 'application/json' },
+					});
+					if (!response.ok) return;
+					const publishedBuild = await response.json();
+					const publishedBuildId = getBuildId(publishedBuild);
+					if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+					maybeShowReleaseUpdateNotice(publishedBuild);
+				} catch {
+					// Update checks should never block normal reading.
+				}
+			};
+
+			navigator.serviceWorker.addEventListener('controllerchange', reloadForUpdate);
+
+			navigator.serviceWorker
+				.register(`${baseUrl}sw.js`, { updateViaCache: 'none' })
+				.then((registration) => {
+					const checkForUpdates = () => registration.update().catch(() => {});
+
+					checkForUpdates();
+					checkPublishedBuild();
+					window.setInterval(checkForUpdates, 60_000);
+					window.setInterval(checkPublishedBuild, 60_000);
+					window.addEventListener('focus', checkForUpdates);
+					window.addEventListener('focus', checkPublishedBuild);
+					document.addEventListener('visibilitychange', () => {
+						if (document.visibilityState === 'visible') {
+							checkForUpdates();
+							checkPublishedBuild();
+						}
+					});
+				})
+				.catch(() => {});
+		});
+	}
+
+	window.addEventListener('load', () => {
+		trackLooturaContext();
+		enforcePortraitOrientation();
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+})();</script></body></html>

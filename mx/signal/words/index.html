@@ -1,0 +1,875 @@
+<!DOCTYPE html><html lang="es" data-astro-cid-sckkx6r4> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0a0a0a"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Lootura"><meta name="generator" content="Astro v6.1.8"><meta name="robots" content="noindex,nofollow,noarchive"><title>Lootura | Palabras seguidas</title><style>
+			html,
+			body {
+				margin: 0;
+				width: 100%;
+				min-height: 100%;
+				background: #0a0a0a;
+				color-scheme: light;
+			}
+		</style><script>(function(){const supportedLocales = ["es","us","za","mx","ar","jp"];
+const editionAliases = {"es":"es","spain":"es","us":"us","usa":"us","united-states":"us","za":"za","south-africa":"za","south_africa":"za","south africa":"za","mx":"mx","mexico":"mx","méxico":"mx","ar":"ar","argentina":"ar","jp":"jp","japan":"jp","japon":"jp","japón":"jp","nihon":"jp","nippon":"jp"};
+
+			(() => {
+				const cleanupVersionKey = 'lootura:storage-cleanup-version';
+				const cleanupVersion = '2026-05-18-editions-config';
+				const maxSeenNewsItems = 600;
+				const seenNewsLifetimeMs = 30 * 24 * 60 * 60 * 1000;
+				const editionPattern = supportedLocales.map((edition) => edition.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+				const allowedEditionIds = new Set(supportedLocales);
+				const booleanKeys = new Set([
+					'lootura:browser-intro-seen',
+					'lootura:editions-promo-seen',
+					'lootura:install-accepted',
+					'lootura:signal:intro-any-seen',
+					'lootura:signal:install-nudge-dismissed:v1',
+					'lootura:signal:install-nudge-ready:v1',
+					'lootura:swipe-hint-seen',
+				]);
+				const numberKeys = new Set([
+					'lootura:signal:browser-open-count:v1',
+					'lootura:signal:install-nudge-dismiss-count:v1',
+				]);
+				const dateKeys = new Set([
+					'lootura:install-gate-action-at',
+					'lootura:install-gate-seen-at',
+					'lootura:last-active-at',
+				]);
+				const allowedExactKeys = new Set([
+					cleanupVersionKey,
+					'lootura.preferences.v1',
+					'lootura:editorial',
+					'lootura:app-release:last-seen-build',
+					'lootura:app-release:last-seen-version',
+					'lootura:app-release:snoozed-until',
+					'lootura:refresh-at-launch',
+					'lootura:seen-news:v1',
+					'lootura:updates:last-seen-version',
+					...booleanKeys,
+					...numberKeys,
+					...dateKeys,
+				]);
+				const allowedPatternKeys = [
+					new RegExp(`^lootura:calm-mode:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:saved-stories:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:signal:intro:v1:(${editionPattern}|global)$`),
+					new RegExp(`^lootura:signal:seen:v1:(${editionPattern}|global)$`),
+				];
+
+				const isValidDate = (value) => Number.isFinite(new Date(value || '').getTime());
+				const removeItem = (key) => localStorage.removeItem(key);
+				const writeJson = (key, value) => localStorage.setItem(key, JSON.stringify(value));
+				const isAllowedLooturaKey = (key) =>
+					allowedExactKeys.has(key) || allowedPatternKeys.some((pattern) => pattern.test(key));
+
+				const compactSeenNews = (key) => {
+					const value = localStorage.getItem(key);
+					const seen = JSON.parse(value || '{}');
+					const now = Date.now();
+					const entries = Array.isArray(seen)
+						? seen.map((id) => [id, now])
+						: Object.entries(seen || {});
+					const compactSeen = Object.fromEntries(
+						entries
+							.map(([id, firstSeenAt]) => [String(id || ''), Number(firstSeenAt)])
+							.filter(
+								([id, firstSeenAt]) =>
+									id &&
+									Number.isFinite(Number(firstSeenAt)) &&
+									now - Number(firstSeenAt) < seenNewsLifetimeMs,
+							)
+							.sort(([, firstSeenAt], [, secondSeenAt]) => Number(secondSeenAt) - Number(firstSeenAt))
+							.slice(0, maxSeenNewsItems),
+					);
+					writeJson(key, compactSeen);
+				};
+
+				try {
+					if (localStorage.getItem(cleanupVersionKey) === cleanupVersion) return;
+
+					for (const key of Object.keys(localStorage)) {
+						if (!key.startsWith('lootura:')) continue;
+
+						try {
+							const value = localStorage.getItem(key) || '';
+							if (!isAllowedLooturaKey(key)) {
+								removeItem(key);
+							} else if (key === 'lootura:editorial' && !allowedEditionIds.has(value)) {
+								removeItem(key);
+							} else if (key === 'lootura:seen-news:v1') {
+								compactSeenNews(key);
+							} else if (booleanKeys.has(key) && value !== 'true') {
+								removeItem(key);
+							} else if (numberKeys.has(key) && !Number.isFinite(Number(value))) {
+								removeItem(key);
+							} else if (dateKeys.has(key) && !isValidDate(value)) {
+								removeItem(key);
+							}
+						} catch {
+							removeItem(key);
+						}
+					}
+
+					localStorage.setItem(cleanupVersionKey, cleanupVersion);
+				} catch {
+					// Storage can be unavailable in restrictive browser modes.
+				}
+			})();
+		})();</script><script type="module">(()=>{const e=window.matchMedia("(display-mode: standalone)").matches||window.matchMedia("(display-mode: fullscreen)").matches||window.matchMedia("(display-mode: minimal-ui)").matches||window.navigator.standalone||document.referrer.startsWith("android-app://")||sessionStorage.getItem("lootura:pwa-dev-override")==="true";document.documentElement.classList.toggle("pwa-runtime",!!e)})();</script><script type="module">document.documentElement.style.colorScheme="light";</script><script defer src="https://cloud.umami.is/script.js" data-website-id="1e408cbd-a16c-43ee-b404-35aa97b38c93"></script><link rel="stylesheet" href="/_astro/Layout.bquU7F8r.css"></head> <body data-astro-cid-sckkx6r4>  <div data-desktop-landing class="desktop-gate:block hidden relative min-h-svh overflow-hidden bg-neutral-950 text-white opacity-0 transition-opacity duration-300" data-desktop-cover-count="1"> <div class="absolute inset-0"> <div data-desktop-cover-backdrop class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.16),_transparent_38%),linear-gradient(180deg,_rgba(5,5,6,0.08)_0%,_rgba(5,5,6,0.48)_42%,_rgba(5,5,6,0.88)_100%)]"></div> <div data-desktop-cover-card class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.14),transparent_30%),radial-gradient(circle_at_80%_30%,rgba(255,255,255,0.1),transparent_26%),linear-gradient(135deg,#171717_0%,#050505_56%,#101114_100%)]"></div> <div class="absolute inset-0 bg-black/34"></div> <div class="absolute inset-0 bg-gradient-to-b from-black/8 via-black/22 to-black/78"></div> </div> <header class="absolute inset-x-0 top-0 z-20 border-b border-white/10 bg-black/12 backdrop-blur-xl"> <div class="mx-auto flex h-16 w-full items-center gap-4 px-4 sm:px-6 lg:px-8"> <a href="/" class="inline-flex items-center gap-3 text-sm font-semibold uppercase tracking-[0.34em] text-white/92" aria-label="Lootura home"> <span class="h-2.5 w-2.5 rounded-full bg-lime-300 shadow-[0_0_18px_rgba(163,230,53,0.78)]"></span> <span>Lootura</span> </a> <div class="flex-1"></div> <a href="https://atlas.lootura.com" class="inline-flex items-center gap-2 rounded-full border border-white/14 bg-white/8 px-3 py-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.28em] text-white/84 transition hover:border-white/24 hover:bg-white/12 focus:outline-none focus:ring-2 focus:ring-white/30" aria-label="Try Atlas in English" data-desktop-atlas-link>
+Try Atlas
+</a> </div> </header> <main class="relative z-10 flex min-h-svh items-center pb-28 sm:pb-32 lg:pb-36"> <div class="mx-auto w-full max-w-6xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28"> <div class="mx-auto max-w-2xl text-center"> <h1 data-desktop-cover-title class="mx-auto max-w-3xl text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">Noticias reales, reunidas en una sola portada</h1> <p data-desktop-cover-summary class="mx-auto mt-3 max-w-xl text-sm leading-6 text-white/68 sm:text-base sm:leading-7"> Lootura convierte la actualidad en una lectura tranquila, finita y enfocada para entender qué está pasando sin ruido. </p> </div> </div> </main> <div data-desktop-mobile-banner class="absolute inset-x-0 bottom-5 z-20 px-4 text-center sm:bottom-6 sm:px-6 lg:bottom-8 lg:px-8"> <p class="mx-auto max-w-4xl text-xs font-medium tracking-[0.18em] text-white/55 sm:text-sm lg:text-base"> Abre esta portada en tu móvil </p> </div> </div> <script>(function(){const renderedCovers = [{"id":"lootura-mx-fallback","title":"Lootura","summary":"Portada en directo","image":""}];
+
+	const root = document.querySelector('[data-desktop-landing]');
+	if (!root) {
+		return;
+	}
+
+	const cards = Array.from(root.querySelectorAll('[data-desktop-cover-card]'));
+	const backdrop = root.querySelector('[data-desktop-cover-backdrop]');
+	const lastCoverIndexKey = 'lootura:desktop:last-cover-index';
+
+	const applyCover = (index) => {
+		const safeIndex = Number.isFinite(index) && index >= 0 && index < renderedCovers.length ? index : 0;
+		const cover = renderedCovers[safeIndex] || renderedCovers[0];
+
+		cards.forEach((card, cardIndex) => {
+			card.hidden = cardIndex !== safeIndex;
+		});
+
+		if (backdrop) {
+			backdrop.dataset.desktopCoverImage = cover?.image || '';
+		}
+
+		try {
+			sessionStorage.setItem(lastCoverIndexKey, String(safeIndex));
+		} catch {}
+	};
+
+	const pickRandomCoverIndex = () => {
+		if (cards.length <= 1) return 0;
+
+		let lastIndex = -1;
+		try {
+			lastIndex = Number.parseInt(sessionStorage.getItem(lastCoverIndexKey) || '', 10);
+		} catch {}
+
+		const candidates = cards.map((_, index) => index).filter((index) => index !== lastIndex);
+		const pool = candidates.length > 0 ? candidates : cards.map((_, index) => index);
+		const randomValue = window.crypto?.getRandomValues ? window.crypto.getRandomValues(new Uint32Array(1))[0] : Math.floor(Math.random() * Number.MAX_SAFE_INTEGER);
+		return pool[randomValue % pool.length];
+	};
+
+	applyCover(pickRandomCoverIndex());
+
+	root.classList.add('opacity-100');
+})();</script> <main class="min-h-svh bg-white text-neutral-950 desktop-gate:hidden" data-signal-words-page data-signal-words-locale="mx"> <header class="safe-top-header sticky top-0 z-50 border-b border-neutral-950/10 bg-white/78 px-4 backdrop-blur-md sm:px-6 dark:border-white/10 dark:bg-neutral-950/78"> <div class="mx-auto flex h-16 w-full items-center gap-4 max-w-3xl"> <a class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-neutral-950 transition hover:bg-neutral-950/6 focus:outline-none focus:ring-2 focus:ring-neutral-950" href="/mx/signal/" aria-label="Volver a Signal" data-signal-words-back> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-arrow-left"> <path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path>  </svg> </a> <p class="min-w-0 flex-1 truncate text-center text-sm font-medium uppercase tracking-normal text-neutral-500 dark:text-white/48" data-page-topbar-title>Palabras seguidas</p> <div class="flex items-center gap-2"> <span class="h-10 w-10 shrink-0" aria-hidden="true"></span>  </div> </div> </header> <section class="mx-auto w-full max-w-3xl px-6 pb-16 sm:px-8 lg:px-10"> <header class="sticky top-[calc(env(safe-area-inset-top,0px)+4rem)] z-20 -mx-6 border-b border-neutral-950/10 bg-white/92 px-6 pb-5 pt-7 backdrop-blur-md sm:-mx-8 sm:px-8 lg:-mx-10 lg:px-10" data-signal-words-headline> <div class="max-w-2xl"> <p class="text-sm font-medium uppercase tracking-normal text-neutral-500">Seguimiento</p> <h1 class="mt-3 text-3xl font-semibold leading-tight text-neutral-950 sm:text-4xl">Palabras con enlaces.</h1> <p class="mt-3 text-base font-semibold leading-7 text-neutral-800 sm:text-lg"> Añade temas y Lootura sacará titulares coincidentes de la portada actual. </p> </div> </header> <form class="mt-8 grid grid-cols-[1fr_auto] gap-2" data-signal-words-form> <input class="min-h-12 min-w-0 rounded-full border border-neutral-950/12 bg-neutral-950/[0.03] px-4 text-base font-medium text-neutral-950 outline-none placeholder:text-neutral-400 focus:border-neutral-950/36 focus:ring-2 focus:ring-neutral-950/12" type="text" name="term" autocomplete="off" placeholder="Palabra o tema" data-signal-words-input> <button class="inline-flex min-h-12 items-center justify-center rounded-full bg-neutral-950 px-5 text-sm font-bold text-white transition hover:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-neutral-950" type="submit"> Añadir </button> </form> <div class="mt-6 flex flex-wrap gap-2" data-signal-words-terms></div> <section class="mt-8 border-t border-neutral-950/10 pt-6" data-signal-words-results></section> </section> </main> <script>(function(){const locale = "mx";
+const stories = [{"title":"Fragmento del día: Ankara","summary":"en Ankara (Turquía) se produce un atentado en el que dos bombas estallan, matando a 109 personas e hiriendo a más de 500.","source":"Lootura Diario","author":"","category":"history","url":"https://es.wikipedia.org/wiki/Ankara?utm_source=lootura.com","publishedAt":"2026-10-10T04:00:00.000Z"},{"title":"Atlas vs. Chivas HOY: ¿A qué hora y dónde ver EN VIVO el Clásico Tapatío de Liga MX?","summary":"La Liga MX vuelve tras la derrota de México ante Chile con uno de los partidos más pasionales del calendario. Atlas y Chivas se encaran en el Clásico Tapatío , un duelo que enfrenta a los dos equipos más populares de de Guadalajara Los Zorros buscan aprovechar su buen momento para imponerse a su máximo rival tras anunciar el nuevo estadio del Atlas , en tanto que el Guadalajara tiene la oportunidad de pelear la parte alta tras un Clásico Nacional amistoso . ¿A qué hora y dónde ver Atlas vs. Chivas EN VIVO hoy? El partido Atlas vs. Chivas corresponde a la Jornada 11 del Apertura 2026 de la Liga MX . El encuentro se disputa este sábado 10 de octubre y forma parte de la actividad sabatina del campeonato mexicano. La transmisión oficial va por televisión abierta y de paga en TUDN; además de streaming de pago y las plataformas Miguel Layún mediante Layvtime. Partido: Atlas vs. Chivas, Clásico Tapatío Fecha: sábado 10 de octubre de 2026 Hora: 19:00 horas, tiempo del centro de México Torneo: Apertura 2026, Jornada 11 Transmisión: TUDN, Canal 5, ViX Premium, Layvtime (YouTube, Twitch, TikTok y Facebook) View this post on Instagram ¿Cómo llegan Atlas y Chivas al Clásico Tapatío? El Atlas llega al encuentro después de conseguir una victoria por 3-2 ante Tijuana en la Jornada 10. Los rojinegros remontaron el marcador en su visita a los Xolos, con anotaciones de Ryan Mmaee, Luis Esteves y Florián Monzón. El resultado permitió al equipo mantener su presencia en la parte alta de la clasificación. Antes de la undécima fecha, los Zorros aparecían en el sexto puesto, con 17 puntos, la misma cantidad que León y Querétaro, aunque con diferencias en los criterios de desempate que lo mantienen por debajo. View this post on Instagram Chivas viene de perder 0-2 ante Querétaro en el Estadio Akron. Los Gallos Blancos sorprendieron al Guadalajara con goles de Alí Ávila y Matías Coronel, resultado que frenó a un equipo que se había mantenido entre los protagonistas del torneo. Pese al tropiezo, el Rebaño Sagrado ocupaba el tercer lugar de la tabla después de diez jornadas y pelea en la parte alta. Durante la Fecha FIFA , le ganaron a las Águilas del América en un Clásico amistoso que les ayudó a recobrar la confianza. De acuerdo con TUDN , Chivas tendrá las bajas para este partido de Luis Romo y Bryan ‘Cotorro’ González por lesión, además de Omar Govea por suspensión tras ser expulsado en el último juego oficial del Rebaño Sagrado. View this post on Instagram Atlas vs. Chivas: ¿Cuáles son las posibles alineaciones para el Clásico Tapatío de la Liga MX? Este es el posible XI de Hernán Crespo para el Clásico Tapatío: 12 Camilo Vargas 3 Jorge Sánchez 19 Adonis Frias 44 Juanjo Purata 28 Manuel Capasso 10 Luis Esteves 11 Duk 18 Elias Montiel 15 Paulo Ramirez 23 Sergio Hernandez 9 Florian Monzon Con varias bajas importantes, así es como saldría el equipo de Gabriel Milito: 1 R. Rangel 3 Diego Campillo Del Campo 23 Daniel Aguirre 16 Luis Rey 37 Richard Ledezma 28 ‘Oso’ González 19 Kevin Castañeda 14 Hugo Camberos 25 Roberto ‘Piojo’ Alvarado 30 Santiago Sandoval 17 Ricardo Marin","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/deportes/2026/10/10/atlas-vs-chivas-en-vivo-resultado-del-clasico-tapatio-de-liga-mx/?utm_source=lootura.com","publishedAt":"2026-10-10T14:00:00.000Z"},{"title":"‘Estás en el mercado negro’: Mujeres narran intentos de secuestro como en ‘Búsqueda implacable’","summary":"Luego de varios intentos de escapar de seis hombres y dos mujeres que la seguían desde hacía horas por calles de París, Djanaya recibió una alerta máxima en su celular de uno de sus amigos: “Estás en el mercado negro de Europa . Sal de ahí”. Djanaya es una de varias mujeres que han sido víctimas de intento de secuestro en la Torre Eiffel, en París , Francia, una de las 10 ciudades más visitadas por turistas al año. Según lo narrado por Djanaya y otras mujeres, las bandas de secuestradores en Francia tienen un ‘modus operandi’ similar al que se muestra en la película ‘Búsqueda implacable’ , saga protagonizada por Liam Neeson . En la cinta, dos amigas viajan a París y, a su llegada, se topan con un desconocido. El hombre, quien pertenece a una red criminal, las acompaña al lugar donde se alojarán durante dos semanas e incluso las invita a una fiesta. Horas después, el hombre y un grupo de criminales van al departamento para secuestrar a las jóvenes. Antes de ser privada de su libertad, Kim llama a su papá Bryan Mills (Liam Neeson) para decirle que está en peligro. A partir de ese momento, Mills, un exagente de la CIA, comienza una “búsqueda implacable” para rescatar a su hija. Durante toda su aventura, el protagonista desmantela una red de trata de personas. ¿Cómo son los intentos de secuestro en la Torre Eiffel, en París, según las víctimas? Las víctimas cuentan escenas similares cuando narran sus intentos de secuestro en París . Un desconocido actúa como si fuera un turista y aprovecha que las mujeres están solas para acercarse y pedirles ayuda para tomarse fotos. El hombre les hace la plática. Pregunta si están de viaje solas y, luego de unos minutos, toma una actitud ‘mandona’, puesto que les dice que las acompañará por la ciudad. Cuando las mujeres buscan alejarse, el hombre se vuelve más insistente. No importa si ellas realizan llamadas de emergencia o entran a cafés o restaurantes en busca de ayuda. El desconocido las acompaña y actúa como si fueran conocidos. Australiana cuenta su intento de secuestro en Francia El video de Djanaya se publicó en mayo de 2025; sin embargo, el algoritmo de Tiktok volvió a darle relevancia en semanas recientes. La joven viajó a París para celebrar su cumpleaños y visitó la Torre Eiffel, declarada como patrimonio de la humanidad por la Unesco . una vez que llegó al lugar, un par de hombre se le acercaron y le preguntaron si viajaba sola. Ella mintió y respondió que sus amigos estaban en el hotel. Uno de los hombre la invitó a una fiesta y, aunque ella se negó, el sujeto la levantó del piso y empezó a tomar fotografías de ambos. Luego de una llamada a una amiga, Djanaya se fue al metro y pensó que se había salvado; sin embargo, instantes después los dos hombres reaparecieron, acompañados de 4 mujeres, quienes rodearon a la joven. Arriba del tren, la mujer pidió ayuda a otro pasajero, quien dijo ser guardia de seguridad y auxilió a Djanaya. “Tuviste mucha suerte de salir porque mucha gente no lo logra”, le habría dicho el guardia de seguridad, según su relato. Cuando salió del metro, la joven pidió a un Uber que la llevara a su hotel y, ante el temor de vivir una situación similar, pidió que la dejaran unas calles antes para que no vieran dónde se hospedaba. Al publicar el video, la joven recibió comentarios de otros usuarios quienes indicaban que la película de ‘Búsqueda implacable’ es un manual de cómo operan las bandas de secuestradores en París . @dj79400 May 2025 *** #humantraffickingawareness #paris #solotravleradvice #bewarned #becarful ♬ ONLYINSTRUMENTINDIEFOLK5 - Orange Pide un Uber y corre porque te están secuestrando: Otra mujer narra una mala experiencia en París Tras la difusión masiva del video de Djanaya, Monse, una turista chilena que vivía en Madrid publicó una experiencia similar en su perfil de Tiktok. En el Blog de Monse , la mujer cuenta el intento de secuestro que sufrió en 2023 en los alrededores de la Torre Eiffel. Monse llegó al sitio turístico y solo vio a un hombre “guapo, moreno, como de 1.85 metros, pero me puse nerviosa porque su presencia era fuerte (…) y a los tres minutos, se me acerca y me dice: ‘¿Me puedes sacar una foto?’ y aprovechó y le pido que me saque fotos también”. Durante la plática mientras tomaban las fotos, el sujeto le preguntó cuál era su plan y Monse le dijo que visitaría el Museo Louvre, a lo que él respondió: “‘Una mujer como tú no puede andar sola’ y empezó a ponerse muy, muy dominante”. La mujer puso pretextos para zafarse del hombre, pero él la siguió a un restaurante, hasta que “me agarra la mano y me dice: ‘Tú ya no vas a volver a Madrid’”. Le pidió su pasaporte y le advirtió que viajarían a Bélgica al día siguiente. @elblogdemonse Nunca conté esta historia antes porque no quería que mi familia se preocupara, pero después de ver el caso de la chica australiana en TikTok y saber que siguen pasando estas situaciones, considero que es importante compartir estas experiencias para que las que viajemos solas tengamos ciertas preocupaciones y sepamos cómo actuar en caso de que nos pase. #paris #torreeiffel #tratadepersonas #mujeres #mujeresviajeras ♬ sonido original - elblogdemonse Para no levantar sospechas, la mujer le dijo que no tenía su pasaporte consigo le pidió ir a un café porque hacía mucho frío Ya dentro del restaurante, el hombre le pidió su cuenta de Instagram y ella no pudo negarse; sin embargo, cuando revisó el perfil de sujeto notó un patrón extraño: “Tenía como tres meses seguidos, sacándose fotos todos los días en la Torre Eiffel”. Tras unos minutos, la mujer entró al baño del lugar y habló con su compañero de piso en Madrid, quien es francés. Después de explicarle la situación a su ‘roomie’, él le respondió; “Esos hombres están ahí para robar personas (…) Huye lo más pronto posible”. Monse pidió un Uber y llamó al chofer para explicar la situación. El conductor respondió que la apoyaría. “Salgo corriendo del baño, el hombre estaba al frente con una cara de toro enojado e intenta agarrarme, yo me pongo a gritar como loca, me suelta, me subo al taxi, cierro la puerta y él intenta abrirla y nosotros ya nos fuimos. El taxista me dijo que eso pasa muy seguido en la Torre Eiffel (…) Esa fue mi historia y tengan mucho cuidado si van a la Torre Eiffel solas”, aseguró. Así es la trata de personas en Francia según el Departamento de Estado de EU El informe sobre la Trata de Personas del Departamento de Estado de EU de 2025 establece que las autoridades de Francia cumplen con las normas mínimas para la eliminación de este delito; sin embargo, el documento contiene datos alarmantes. “El gobierno estima que la mayoría de las 40.000 a 50.000 personas que ejercen la prostitución en Francia, de las cuales aproximadamente el 90% son extranjeras, probablemente sean víctimas de trata de personas ”, señala. Agrega que los líderes de las redes de trata de personas en Francia suelen vivir fuera de ese país, situación que también se muestra en la película de ‘Búsqueda implacable’, “dejando solo a los conductores o agentes de cobro dentro de las fronteras francesas”. Las redes de trata sexual, controladas por traficantes búlgaros, chinos, franceses, húngaros, nigerianos, rumanos y sudamericanos, explotan a mujeres mediante la servidumbre por deudas, la fuerza física y la coacción psicológica, incluyendo la invocación del vudú y la drogadicción, concluye el documento.","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/mundo/2026/10/10/estas-en-el-mercado-negro-mujeres-narran-intentos-de-secuestro-como-en-busqueda-implacable/?utm_source=lootura.com","publishedAt":"2026-10-10T13:45:00.000Z"},{"title":"Tiffany’s, casinos y 12 propiedades: Así operaba ‘Capitán Sol’, el marino que gastó como millonario","summary":"Miguel Ángel ‘N’, alias ‘Capitán Sol’ , iba por la vida con bandera de asalariado, pero llevaba una vida de millonario, con lujos e inmuebles pagados al contado. Un día llegó a una de las nueve joyerías Tiffany & Co en México . Recorrió sus vitrinas llenas de joyería de oro de 18 quilates, con incrustaciones de diamantes y gemas preciosas, y eligió una. Pagó 428 mil 500 pesos. Así lo documentó la Fiscalía General de la República (FGR) en una investigación, integrada en el expediente FED/FEMDO/FEIORPIFAMFCDMX/0000568/2024, que presentó ante la jueza Mariana Vieyra Valdez y en la que detalla los gastos del ‘Capitán Sol’ . Según la FGR, la investigación de la ruta del dinero que gastó el ‘Capitán Sol’ durante 13 años, entre 2012 y 2025, permitió identificar su participación en una red de lavado de dinero . La FGR, que encabeza Ernestina Godoy , considera que el ‘ Capitán Sol ’ es pieza clave en la red de huachicol fiscal que operaba dentro de la Secretarìa de Marina y que era liderada por los hermanos Manuel y Fernando Farías Laguna , sobrinos del extitular de la dependencia, Rafael Ojeda . Derivado de esa investigación, la FGR obtuvo, en agosto de 2025, órdenes de aprehensión contra 13 personas, entre ellas los hermanos Farías Lagunas y el ‘Capitán Sol’, quien fue detenido el 2 de octubre pasado, a los 48 años. En la audiencia de imputación, la FGR presentó su investigación contra este sujeto, en la que revela sus gastos en joyería, millonarios pagos con tarjetas de crédito y en casinos. “Además de la identificación de las cuentas que presentan depósitos considerables y, toda vez que no se señala la actividad que da origen a su riqueza, no es congruente que, como jubilado, pueda llevar una vida con gastos superiores a 60 millones de pesos , siendo evidente que rebasan sus percepciones”, asegura la FGR. Así era la vida de lujos del ‘Capitán Sol’ antes de ser detenido La investigación de la FGR incluye datos de prueba en los que identifica que el ‘Capitán Sol’ manejaba 11 cuentas bancarias y tenía a su nombre 10 líneas telefónicas. Además, entre 2012 y 2025, hizo al menos 30 viajes internacionales y decenas o cientos de viajes nacionales. También se le detectaron 12 propiedades —seis en Veracruz, cuatro en la Ciudad de México y dos más en Sinaloa—, así como pagos por más de un millón de pesos, vía transferencia electrónica, para la compra de un penthouse en Tulum Quintana Roo. Según la investigación, de los 12 inmuebles a su nombre, ocho los adquirió en un periodo de 10 años (2013 a 2023). En total, el ‘ Capitán Sol ’ pagó 13 millones 125 mil 863 pesos, de los cuales 2 millones 994 mil 184 pesos fueron cubiertos mediante créditos y 10 millones 131 mil 678 pesos fueron cubiertos de contado o en efectivo. ¿Cuáles son los inmuebles más caros que compró el ‘Capitán Sol’? La investigación de la FGR contra el huachicol fiscal identifica cuatro inmuebles, comprados entre 2020 y 2023, por los cuales ‘Capitán Sol’ pagó más de 9 millones de pesos, según las operaciones investigadas. La indagatoria permite detectar que pagó 800 mil pesos en efectivo y otros 2 millones con cheque de caja. En el oficio FGR/AIC/CFIC/UINTAI/0078608/2025, la FGR reporta que el ‘Capitán Sol’, jubilado desde 2018 al 100 por ciento de la Secretaría de Marina, no tenía otra fuente de ingresos lícita. Los inexplicables ingresos y gastos del ‘Capitán Sol’: Derrochó más de 6 mdp en tarjetas de crédito La FGR también señala que entre 2018 y 2025, el presunto integrante de la red de huachicol fiscal gastó más de 6 millones de pesos en tarjetas de crédito. Sin embargo, no todo eran gastos, las autoridades detectaron que tuvo ingresos a través de cheques de caja por más de cinco millones de pesos en los años 2020, 2021 y 2022. Ese tipo de gastos e ingresos le ocasionaron avisos por operaciones sospechosas. Algunas de ellas fueron por la compra de tarjetas a la empresa Toka Internacional por más de 2 millones de pesos. También destaca que el ‘Capitán Sol’ habría lavado dinero a través de casinos , puesto que se le detectaron gastos por 52 millones 128 mil 239 pesos en apuestas, entre 2015 y 2023. La mayoría de esas operaciones (el 99.3 por ciento) se realizaron en efectivo. “El esquema anterior podría identificarse como un método que se utiliza en el proceso de lavado de dinero respecto de operaciones con casinos; que consiste en ingresar altas cantidades de recursos ilícitos en efectivo para la compra de fichas de juego, se realiza un juego mínimo y posteriormente se solicita el reembolso mediante una transferencia o un cheque girado por la agencia de juegos de apuestas, obteniendo los recursos ya transformados y limpios”, dice la investigación de la FGR. Según el expediente de la FGR, entre el 1 octubre de 2018 y el 3 de marzo de 2019, el ‘Capitán Sol’ recibió 10 depósitos por un millón 220 mil 920 pesos. Las empresas, creadas entre mayo y junio de 2017, que realizaron las transferencias son: Herzap Transportes S.A. de C.V., Operadora Saenmar, S.A. de C.V., y Comercializadora Industrial Comp, S.A. de C.V. “Una vez recibido los recursos Miguel Ángel ‘N’ utilizó su tarjeta de débito en Telest D Odcte Pe, Perisur Yak Md, Perisur Yak Ye y Big Bola Santa Fe, los cuales son casinos y/o centros de apuestas ubicados en la Ciudad de México”, señala el documento de la FGR. Testigos protegidos detallan el ‘modus operandi’ del ‘Capitán Sol’ Parte de la investigación de la Fiscalía General de la República se basa en testimonios de marinos que estuvieron bajo las órdenes del ‘Capitán Sol’, a quien se le identificaba como ‘Mike’ o ‘NK’, uno de los líderes de la red de huachicol fiscal. Gracias a los testimonios y a una red de vínculos se supo de la cercanía del ‘Capitán Sol’ y los hermanos Farías Laguna. Según la FGR, los Farías Laguna estaban arriba de Miguel Ángel ‘N’ en la red criminal, mientras que Climaco Aldape Utrera era su mano derecha. Un testigo protegido de la FGR, identificado como ‘Santo’, relató la forma de operar de la red criminal. Todo consistía, dijo, en permitir que buques cargados con hidrocarburos (gasolina y diesel) ingresaran a los puertos mexicanos. La carga se registraba como aceite para evitar el pago de impuestos y así obtener ilícitamente ingresos millonarios en perjuicio del erario. ‘Santo’ agregó que tan sólo él, como encargado de la aduana de Tampico, Tamaulipas , permitió el ingreso de 14 buques y recibió un millón 750 mil pesos por cada descarga. En total, ‘Santo’ recibió 24.5 millones de pesos y una parte de esa cantidad se repartió entre la gente de la aduana. Otro testigo señaló que el ‘Capitán Sol’ pagaba a Climaco Aldape Utrera 500 mil pesos semanales “por los apoyos brindados” y una parte de ese dinero era para los altos mandos. Mientras que el contralmirante Fernando Rubén Guerrero Alcantar , un testigo ya fallecido, dijo a la FGR que el ‘Capitán Sol’ le entregaba, en persona o a través de terceros, 200 mil pesos mensuales “como bono por la buena administración y control de la aduana de Manzanillo y Pantaco ”. El retiro de Miguel Ángel ‘N’ no implicó afectaciones para sus operaciones ilícitas. Los testigos refieren que el ‘Capitán Sol’ ejercía como jefe en las aduanas, que era amigo de los hermanos Farías Laguna, y que decía tener contacto directo con el exsecretario de Marina, Rafael Ojeda , además de que decía hablar a nombre de ‘Andy’, en supuesta referencia a López Beltrán, hijo del expresidente Andrés Manuel López Obrador. ¿Qué sigue para el ‘Capitán Sol’ tras su detención? Hace un par de días, el ‘Capitán Sol’ fue vinculado a proceso por los delitos de delincuencia organizada y en materia de hidrocarburos. Durante la audiencia, la jueza Vieyra Valdez fijó un plazo de seis meses para la investigación complementaria y ratificó la prisión preventiva oficiosa. Por esa razón, el ‘Capitán Sol’ permanecerá internado en el penal federal de máxima seguridad El Altiplano, en Almoloya de Juárez, Estado de México.","source":"El Financiero","author":"David Saúl Vela","category":"business","url":"https://www.elfinanciero.com.mx/nacional/2026/10/10/tiffanys-casinos-y-12-propiedades-asi-operaba-capitan-sol-el-marino-que-gasto-como-millonario/?utm_source=lootura.com","publishedAt":"2026-10-10T13:00:00.000Z"},{"title":"F1 EN VIVO Qualy del GP de Singapur 2026: ¿Dónde y a qué hora ver la clasificación de ‘Checo’ HOY?","summary":"En Marina Bay, donde los muros acompañan a los pilotos durante buena parte del recorrido, encontrar el límite sin cometer errores es parte del desafío. Este sábado, la clasificación del Gran Premio de Singapur 2026 pondrá a prueba la precisión de los 22 competidores y definirá desde qué posición afrontarán la carrera principal. Para Sergio ‘Checo’ Pérez , la sesión tiene un ingrediente adicional: necesita encontrar mejores sensaciones con el Cadillac después de una clasificación sprint complicada. El mexicano perdió el control de su monoplaza en la curva 4, golpeó el muro y dañó el alerón delantero. La reparación condicionó su sesión y terminó relegándolo al vigésimo puesto para la carrera corta. El tapatío reconoció que el incidente comprometió sus posibilidades, aunque también explicó que logró completar una vuelta después de regresar a los pits. “ No estamos demasiado lejos de donde debiéramos , así que nos centraremos en entender mejor el coche”, señaló. Ahora, el reto es diferente: preparar una vuelta competitiva que le permita mejorar su posición de salida para el Gran Premio. En una pista como Marina Bay, una clasificación limpia puede ser especialmente valiosa para Cadillac, que continúa trabajando en el desarrollo de su monoplaza durante su primera temporada en la categoría. Qualy del GP de Singapur 2026: ¿A qué hora es la clasificación? La clasificación del Gran Premio de Singapur se celebra este sábado 10 de octubre. Los aficionados mexicanos tendrán que madrugar para seguir una sesión en la que cada sector del circuito puede marcar diferencias entre los pilotos. Fecha: sábado 10 de octubre de 2026. Hora: 07:00 horas, tiempo del centro de México. Circuito: Marina Bay, Singapur. Los equipos deberán aprovechar cada intento para encontrar el equilibrio entre velocidad y control, especialmente en los sectores donde las curvas enlazadas dificultan corregir una trayectoria. ¿Dónde ver la F1 EN VIVO? Transmisión de la qualy del GP de Singapur 2026 La clasificación del GP de Singapur 2026 se podrá seguir en México mediante las opciones de televisión de paga y streaming disponibles para la temporada. Estas son las siguientes: F1 TV Izzi Sky Además, en El Financiero Deportes encontrarás las actualizaciones de la clasificación, los resultados de los pilotos y la posición que consiga Sergio ‘Checo’ Pérez. ¿Cómo es el Circuito Urbano Marina Bay? Marina Bay exige una combinación de precisión, concentración y resistencia física. El trazado de Singapur se incorporó al calendario de la Fórmula 1 en 2008 y es conocido por albergar una carrera nocturna en las calles de la ciudad. El circuito mide 4.927 kilómetros y tiene 19 curvas , siete de ellas a la derecha. Para completar el Gran Premio del domingo, los pilotos deberán recorrer 62 vueltas, hasta alcanzar una distancia total de 305.337 kilómetros. La configuración urbana condiciona la manera en que los equipos preparan sus monoplazas. Las curvas lentas requieren buena tracción al acelerar, mientras que las secuencias de giros obligan a cambiar de dirección con precisión. La puesta a punto debe permitir que el auto responda bien en estos sectores sin sacrificar demasiado tiempo en las zonas más rápidas. Otro factor determinante es la proximidad de los muros. Los pilotos necesitan calcular con cuidado los puntos de frenada y la entrada a cada curva, pues un error puede terminar en un contacto que dañe el coche y comprometa la sesión. La humedad y el calor también elevan la exigencia física . Mantener la concentración durante una vuelta rápida requiere precisión en las frenadas, control de la dirección y una buena gestión de los neumáticos. Para los ingenieros, conseguir que el monoplaza responda de manera consistente resulta fundamental para que el piloto pueda repetir sus mejores tiempos. George drifting out of the garage 😮‍💨 #F1Sprint #SingaporeGP @MercedesAMGF1 pic.twitter.com/PwZwp3EI0b - Formula 1 (@F1) October 9, 2026 GP de Singapur 2026: ¿Cuándo y a qué hora ver desde México EN VIVO? Los pilotos volverán a Marina Bay el domingo para disputar el Gran Premio de Singapur. La carrera está programada para completar 62 vueltas, en una prueba donde la precisión al volante y las decisiones estratégicas pueden tener un papel determinante. Fecha: domingo 11 de octubre de 2026. Hora: 06:00 horas, tiempo del centro de México. Circuito: Marina Bay, Singapur. Dónde ver: F1 TV, Izzi y Sky, según la disponibilidad de cada servicio. Para ‘Checo’ Pérez , la carrera será una nueva oportunidad de buscar un resultado con Cadillac. La posición que obtenga en la clasificación condicionará su punto de partida, por lo que la sesión del sábado será clave para conocer las posibilidades del mexicano en el trazado. La atención también estará puesta en la pelea por el campeonato. Andrea Kimi Antonelli llega como líder con 320 puntos, una ventaja de 84 unidades sobre George Russell, su compañero en Mercedes, que suma 236. Lewis Hamilton ocupa el tercer lugar con 214 puntos. Con el Gran Premio todavía por disputarse, Antonelli puede ampliar su ventaja y acercarse a la conquista del Mundial. El italiano, de 20 años, mantiene la posibilidad de convertirse en el campeón más joven de la historia de la Fórmula 1 .","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/deportes/2026/10/10/f1-qualy-del-gp-de-singapur-2026-en-vivo-como-le-fue-a-checo-perez-y-parrilla-de-salida/?utm_source=lootura.com","publishedAt":"2026-10-10T06:00:00.000Z"},{"title":"EN VIVO: Huracán ‘Simón’ se fortalece a categoría 3: ¿Dónde y cuándo tocará tierra en México?","summary":"Horas antes de tocar tierra entre Jalisco y Colima , el huracán ‘Simón’ se intensificó a categoría 3 y su ‘ojo’ está a 245 kilómetros de Manzanillo y a 415 kilómetros de Cabo Corrientes. ‘Simón’ registra vientos máximos sostenidos de 195 kilómetros por hora (km/h), rachas de 240 km/h y desplazamiento hacia el norte a 11 km/h. Ante la cercanía del huracán ‘Simón’ , se prevén lluvias torrenciales en Guerrero y Michoacán , intensas en Colima y muy fuertes en Jalisco . Trayectoria y efectos del huracán ‘Simón’ en México Además de las lluvias fuertes, el fenómeno provocará vientos sostenidos de 40 a 50 km/h con rachas de 60 a 80 km/h en costas de Michoacán y Guerrero, de 30 a 40 km/h con rachas de 50 a 60 km/h en costas de Colima, de 10 a 20 km/h con rachas de 30 a 50 km/h en costas de Jalisco. Otro de los riesgos asociados al paso del huracán ‘Simón’ por México es el alto oleaje . Las autoridades de Protección Civil prevén olas de entre 3.5 y 4.5 metros de altura en costas de Michoacán y Guerrero, de 2.5 a 3.5 metros en Colima, y de 1.5 a 2.5 m en costas de Jalisco. ⚠️ Actualización de la posición, trayectoria y #Vientos que genera el #Huracán #Simon , de categoría 3, en el océano #Pacífico ⬇️ pic.twitter.com/5HOtx25vxf - CONAGUA Clima (@conagua_clima) October 10, 2026 ¿Qué estados están en alerta por el huracán ‘Simón’? La Comisión Nacional del Agua (Conagua) y el Centro Nacional de Huracanes de Estados Unidos implementaron una zona de vigilancia desde Punta Mita hasta El Roblito , en Nayarit , incluyendo las Islas Marías . Otra zona de prevención por efectos de vientos de huracán va desde Punta San Telmo, Michoacán, hasta Punta Mita, Nayarit, y una zona de vigilancia por efectos de vientos de tormenta tropical desde Punta San Telmo hasta Lázaro Cárdenas, Michoacán . “Las precipitaciones generadas por el sistema podrían originar deslaves, incremento en niveles de ríos y arroyos, así como desbordamientos e inundaciones en zonas bajas de los estados mencionados, por lo que se exhorta a la población a permanecer atenta a los avisos del SMN y seguir las recomendaciones de Protección Civil”, señala la alerta meteorológica. Sheinbaum alerta por el huracán ‘Simón’ A través de un mensaje publicado en su perfil de redes sociales, la presidenta Claudia Sheinbaum alertó a la población por los efectos del huracán ‘Simón’ . “Me informa la Coordinación Nacional de Protección Civil que el huracán Simón se ha intensificado a categoría 3, de acuerdo con el Servicio Meteorológico Nacional”, indicó la mandataria mexicana. Sheinbaum detalló que el Plan DN-III-E está activo y en coordinación con brigadas de la CFE, la SICT, Conagua y Pemex. Esto permitirá atender los daños ocasionados por el paso del ‘Simón’ en México. “Es importante resguardarse y, en caso de zonas vulnerables, evacuar hacia los refugios temporales habilitados”, aseguró. Me informa la Coordinación Nacional de Protección Civil que el huracán Simón se ha intensificado a categoría 3, de acuerdo con el Servicio Meteorológico Nacional. Habrá lluvias fuertes a torrenciales en el occidente y sur del país, particularmente en Guerrero, Michoacán, Colima,… - Claudia Sheinbaum Pardo (@Claudiashein) October 10, 2026 ¿Dónde está la tormenta tropical ‘Rachel’? El centro de la tormenta tropical ‘Rachel’ está a 940 km al oeste-suroeste de Punta Eugenia, Baja California Sur , con vientos máximos sostenidos de 75 km/h, rachas de 95 km/h y desplazamiento hacia el noreste a 15 km/h. “Aunque actualmente se encuentra lejos de costas nacionales, se pronostica que en los próximos días se desplace hacia la península de Baja California”.","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/nacional/2026/10/09/en-vivo-huracan-simon-se-fortalece-a-categoria-3-donde-y-cuando-tocara-tierra-en-mexico/?utm_source=lootura.com","publishedAt":"2026-10-10T04:42:40.000Z"},{"title":"Hombre armado toma como rehenes a 13 niños en escuela de Brasil; policía los rescata y abate al agresor","summary":"La Policía brasileña rescató este viernes a los 13 niños que fueron mantenidos como rehenes durante cerca de tres horas en una escuela en la ciudad de Curitiba , en el sur de Brasil , informaron las autoridades locales. El secuestrador fue abatido a tiros por los policías, según afirmó la teniente Letícia Donatello, portavoz de la Policía, en declaraciones a periodistas a puertas de la escuela. Escasos minutos antes del tiroteo, la portavoz informó que las autoridades estaban negociando con el secuestrador, cuya identidad no fue divulgada . Toma de rehenes en escuela de Brasil duró tres horas El hombre armado con un cuchillo permaneció unas tres horas en el interior del Centro Municipal de Educación Infantil del barrio São Braz. El sujeto se encerró dentro de una sala con alrededor de trece niños, afirmó el capitán João Roberto Galeto en declaraciones citadas por medios locales. “La prioridad absoluta en este momento es la preservación de la vida y de la integridad de todos los involucrados”, aseguró en su momento. La Policía acordonó la zona y movilizó a integrantes del batallón de operaciones especiales y a negociadores para atender el incidente, según un comunicado. La Secretaría Municipal de Educación dijo en un comunicado que siguió la situación desde el principio y que desplazó a funcionarios para atender a los niños y a las familias. Tiroteo en escuela de Cambé dejó dos alumnos muertos El estado de Paraná , cuya capital es Curitiba, ha vivido otros episodios de violencia en escuelas recientemente. En 2023, un hombre armado con una pistola entró en una escuela de la ciudad de Cambé y durante el tiroteo que se desató murieron dos alumnos.","source":"El Financiero","author":"EFE","category":"business","url":"https://www.elfinanciero.com.mx/mundo/2026/10/09/hombre-armado-toma-como-rehenes-a-13-ninos-en-escuela-de-brasil-policia-los-rescata-y-abate-al-agresor/?utm_source=lootura.com","publishedAt":"2026-10-10T04:13:15.000Z"},{"title":"EU dice que exportó 600 mil barriles de crudo a México; Pemex no tiene ‘ni idea’ dónde están","summary":"Estados Unidos exportó 597 mil 27 barriles de petróleo crudo a México con un valor comercial de 69.67 millones de dólares durante junio de 2026, de acuerdo con registros de la Oficina del Censo de Estados Unidos. No obstante, El Financiero consultó a Petróleos Mexicanos (Pemex) sobre el tema, pero contestó que en lo que va del año, no ha realizado importaciones de petróleo crudo. “Asimismo, a la fecha no se tiene registro de un permiso vigente para llevar a cabo este tipo de operaciones”, detalló la petrolera. La Secretaría de Energía también fue consultada, pero no respondió a la solicitud de información. Sin embargo, se pudo corroborar que hasta el momento, la dependencia no ha dado permisos de importación de petróleo crudo a empresas privadas ni a Pemex . ¿Qué sabemos del petróleo que EU exportó a México? La información de la Oficina del Censo señala que el cargamento fue registrado a través del distrito aduanero de Nueva Orleans, Luisiana , y correspondió a petróleo crudo clasificado con una gravedad de 25 grados API o superior. El volumen exportado a México durante junio equivale a un promedio de 19 mil 901 barriles diarios , aunque los registros comerciales consultados no permiten identificar a la empresa mexicana que adquirió el hidrocarburo ni el destino final del cargamento . En mayo se reportó la importación de 980 barriles de crudo de EU con un valor de 41.4 mil dólares, aunque su origen fue registrado desde Laredo, Texas. Esta es la primera vez en los últimos ocho años que la Oficina del Censo reportó exportaciones de petróleo crudo a México. Los últimos registros datan de octubre y noviembre de 2018, cuando el país importó un promedio de 11 y 23 mil barriles diarios, respectivamente. México es tradicionalmente un país exportador de petróleo crudo, principalmente hacia Estados Unidos, mientras que sus importaciones de hidrocarburos se concentran en productos refinados, como gasolinas, diésel y gas licuado de petróleo . La importación de petróleo crudo estadounidense sería una decisión técnicamente razonable, debido a que las refinerías de Pemex requieren procesar mezclas de hidrocarburos con características específicas para mejorar su eficiencia operativa, explicó Fluvio Ruiz Alarcón, especialista del sector energético. Detalló que la importación de crudo es una práctica habitual en la industria petrolera internacional, ya que permite alimentar las refinerías con mezclas más cercanas a las características para las cuales fueron diseñadas y, de esta manera, incrementar la producción de combustibles de mayor valor comercial, como gasolinas y diésel . Sin embargo, el especialista agregó que históricamente han existido resistencias políticas a reconocer la necesidad de importar crudo. Ruiz Alarcón recordó que incluso la refinería de Deer Park , propiedad de Pemex en Texas, utiliza una mezcla de petróleos de diferentes procedencias. Procesa alrededor de 70 mil barriles diarios de crudo Maya, de un total de 340 mil barriles, mientras que el resto de su alimentación proviene de otros tipos de petróleo. El experto destacó que una adecuada selección de crudos permitiría elevar el rendimiento de las refinerías mexicanas. “Si las siete refinerías del país operaran conforme a sus parámetros de diseño, seríamos superavitarios en diésel ”.","source":"El Financiero","author":"Héctor Usla","category":"business","url":"https://www.elfinanciero.com.mx/economia/2026/10/09/eu-dice-que-exporto-600-mil-barriles-de-crudo-a-mexico-pemex-no-tiene-ni-idea-donde-estan/?utm_source=lootura.com","publishedAt":"2026-10-10T04:03:57.000Z"},{"title":"El fantasma de Harfuch recorre el país. ‘Velasco le pegó un garrotazo al avispero’","summary":"La política es movimiento y búsqueda permanente de espacios políticos, así como ejercicio cotidiano del poder. Sus tiempos son variables y están en función del diario acontecer. Aquellos días del tapado , al ser destapado, en ese instante se empezaban a manejar los nombres de los posibles sucesores. Hoy, el país está inmerso en problemas muy delicados: la seguridad y el narco, los dos flagelos que laceran a la república. Sin embargo, hay tiempo para jugar al futurismo político. Es más, está en todas partes. Se habla con pelos y señales de los posibles destapados: Clara Brugada, Marcelo Ebrard y Omar García Harfuch. Manuel Velasco, con mucha ascendencia y poder en el Partido Verde, destapó a Omar García Harfuch como candidato a la Presidencia de la República. La noticia fue motivo de comentarios en varios medios de comunicación. Reforma , El Universal y varios columnistas le dieron vuelo, al igual que algunos medios internacionales como El País y The New York Times . Es el inicio formal de la carrera presidencial y le dará color, sabor y tono al evento de 2027. El Verde y el PT son aliados estratégicos de Morena. Cada vez tendrán más fuerza y Morena estará obligada a corresponder ese apoyo. Omar trabaja para Morena y es la figura política relevante. Omar es el Batman o el Pedro Infante del momento. Está en todas partes. Tiene copadas las redes. Es el principal apoyo de la presidenta, su hombre de confianza y el más importante funcionario federal. Tiene bajo su responsabilidad el problema más delicado del país. Ha manejado bien ese asunto tan complejo y escabroso. No ha sido fácil. La guerra sigue en muchas partes de la república, pero se siente la acción de gobierno: balazos en lugar de abrazos, desmantelamiento de laboratorios clandestinos, cientos de aprehendidos y muchos capos en las cárceles. El gobierno del vecino, a pesar de su doble discurso, ha reconocido la labor de Omar y lo ha expresado en varias ocasiones. Sin embargo, los duros de su partido, que son muchos, y su líder político no estarán de acuerdo con ese destape del Partido Verde. Omar es un perfil muy atractivo para los votantes. Ya lo demostró en su candidatura para jefe de Gobierno de la Ciudad de México. La gente reacciona por emoción y le resulta simpático y convincente. Seguramente, las encuestas lo tienen muy arriba en relación con sus posibles contrincantes. La jugada del Verde es de tres bandas: presenta a su candidato, militante de Morena, y les pone una marca muy alta a los contendientes de Morena. Van a ganar la partida Omar, el Verde y el PT porque su alianza será indispensable para 2030. Es seguro que Clara Brugada y Marcelo Ebrard acompañarán a Omar en la caminata como contendientes en esta batalla. Los partidos aliados de Morena, el Verde y el PT, serán estratégicos e indispensables y todo dependerá de que los tomen en serio y les reconozcan su valía. Al PT, fundamentalmente. Mucha agua correrá bajo el puente y veremos muchas cosas. El recorrido apenas inicia. El camino es escabroso y tiene muchos atajos.","source":"El Financiero","author":"Roberto Albores Guillén","category":"business","url":"https://www.elfinanciero.com.mx/opinion/colaborador-invitado/2026/10/09/el-fantasma-de-harfuch-recorre-el-pais-velasco-le-pego-un-garrotazo-al-avispero/?utm_source=lootura.com","publishedAt":"2026-10-10T04:00:00.000Z"},{"title":"Banxico desafía críticas a nuevos recortes de tasas","summary":"Tal parece que la discusión principal en la Junta de Gobierno del Banco de México (Banxico) es si hay condiciones para hacer un recorte más en la tasa de referencia en alguna de las dos decisiones de política monetaria que faltan del año. El banco central mexicano mantiene una pausa en el ciclo de bajas y, de acuerdo con la Encuesta Citi de Expectativas, la previsión del consenso de analistas es que la tasa se mantenga sin cambios en su nivel actual de 6.50 por ciento en lo que resta de 2026 e incluso en 2027. Sin embargo, la balanza entre los cinco miembros de la Junta se inclina a que no haya una pausa prolongada y que, más bien , se evalúe la posibilidad de hacer un recorte en la tasa de interés, en lugar de considerar un endurecimiento monetario. En la decisión de política monetaria anunciada el pasado 24 de septiembre , Banxico enfatizó en su comunicado dos mensajes principales : “Dado que las condiciones macroeconómicas en México son distintas a las de Estados Unidos, la política monetaria no tendría que reaccionar de manera mecánica ante los ajustes previstos a la tasa de fondos federales”. Su desacoplamiento de la Reserva Federal (Fed) estadounidense fue uno de los cambios más importantes en la guía prospectiva dentro del comunicado de Banxico. El otro es el mensaje de que la Junta “ tomará sus decisiones considerando la continuación del proceso desinflacionario y el comportamiento esperado de sus determinantes, incluyendo el traspaso del tipo de cambio a los precios del consumidor, las condiciones de holgura y las expectativas de inflación”. Lo anterior, a la luz de la depreciación del peso mexicano frente al dólar, que sumó 9 por ciento entre el pasado 4 de septiembre y este viernes 9 de octubre. Dicho cambio eliminó la frase de que, hacia adelante, “la Junta de Gobierno considera que será apropiado mantener la tasa de referencia en su nivel actual”, contenida en los comunicados de las tres decisiones anteriores a la de septiembre. Al hacerlo, dejó la puerta abierta a futuros recortes , que no parecían inminentes o cercanos ante la decisión de la Fed de subir su tasa de interés en un cuarto de punto el mes pasado, en su primera alza desde 2023. La sorpresa es que en la minuta de la decisión de política monetaria anunciada el pasado 24 de septiembre , en la que Banxico decidió por unanimidad mantener la tasa de referencia en 6.50 por ciento por tercera ocasión consecutiva, tres integrantes (“palomas”) de la Junta plantearon ampliar el desacople de la Fed con un recorte más este año . Según la minuta de la decisión de septiembre, publicada el jueves pasado, un miembro de la Junta “estimó que, dada la evolución reciente de la inflación, y en la medida en que sus determinantes continúen apoyando el proceso desinflacionario, en las siguientes decisiones se podrá evaluar una disminución puntual en la tasa de referencia”. Un integrante más “opinó que la Junta de Gobierno podría llegar a valorar la posibilidad de una disminución en la tasa de referencia si las condiciones lo permiten”. Otro consideró que “existen elementos para discutir la conveniencia de realizar un ajuste fino a la baja de la tasa de referencia”. Precisó que “esto no representa una decisión anticipada, sino una discusión que se debe mantener abierta”. Sin embargo, dos integrantes (“halcones”) de la Junta de Gobierno descartaron la posibilidad de un recorte . Un miembro “estimó adecuado mantener la tasa de referencia sin cambio , al considerarlo pertinente para enfrentar los riesgos para la inflación”, que en su medición general previsiblemente se volverá a acercar al 4 por ciento anual en los próximos meses. Manifestó también que, “dada la incertidumbre prevaleciente, hacia delante resultará importante evaluar con cuidado toda la información disponible, mantener un enfoque de cautela y vigilar que las expectativas de inflación permanezcan firmemente ancladas”. Más determinante, otro integrante “subrayó que la postura monetaria debe mantenerse en los niveles actuales por un tiempo prolongado ”. El problema es que, al plantearse en Banxico una posible baja en la tasa de referencia mientras la Fed adopta una postura más restrictiva, la moneda nacional amplió su depreciación frente al dólar e incrementó el riesgo de un traspaso del tipo de cambio a los precios .","source":"El Financiero","author":"Víctor Piz","category":"business","url":"https://www.elfinanciero.com.mx/opinion/victor-piz/2026/10/09/banxico-desafia-criticas-a-nuevos-recortes-de-tasas/?utm_source=lootura.com","publishedAt":"2026-10-10T03:55:00.000Z"},{"title":"Asesinan a Hamuraby S. M., director del portal ‘Pinotepa Comunica’, dentro de su vivienda en Oaxaca","summary":"Hamuraby S.M. , director del portal de noticias Pinotepa Comunica , fue asesinado durante un ataque armado registrado la tarde de este viernes en su domicilio, ubicado en Santiago Pinotepa Nacional , en la región de la Costa de Oaxaca . Una mujer resultó herida y fue trasladada a un hospital, donde permanece delicada de salud. Los hechos ocurrieron antes de las 16:00 horas, cuando corporaciones de seguridad recibieron reportes sobre detonaciones de arma de fuego en una vivienda situada en el cruce de la calle Novena Poniente y Décima Quinta Sur , en el barrio La Planta . Tras recibir el aviso, elementos policiales se trasladaron al lugar y confirmaron que un hombre había perdido la vida por impactos de bala . En un primer momento, la víctima fue identificada como un trabajador del volante; posteriormente se informó que también se desempeñaba como director del medio digital Pinotepa Comunica. De acuerdo con los reportes disponibles, hombres armados ingresaron al inmueble y dispararon contra las personas que se encontraban en el sitio. Durante la agresión, una mujer resultó lesionada, por lo que paramédicos le brindaron los primeros auxilios y la llevaron de emergencia a un hospital para recibir atención especializada. La zona fue acordonada por las autoridades para preservar los indicios, mientras personal de la Fiscalía General del Estado de Oaxaca (FGEO) inició las diligencias correspondientes para esclarecer lo ocurrido y establecer las circunstancias del homicidio. Ataque armado en Pinotepa Nacional deja tres muertos En información relacionada con hechos violentos en la región, se reportó también una agresión directa en la que estuvieron involucrados un hombre identificado por las iniciales D. A. S. A., alias ‘El Darío’ , un taxista de iniciales H. S. H. y una tercera persona identificada como O. F. M. M. Según la información difundida sobre este segundo reporte, el taxista esperaba a su cliente para proporcionarle un servicio de transporte cuando ocurrió el ataque dirigido contra ‘El Darío’. Durante la agresión, el conductor fue alcanzado por los disparos y murió en el lugar, al igual que la tercera víctima. El hombre identificado como ‘El Darío’ resultó inicialmente herido y fue trasladado de urgencia a un hospital regional. Sin embargo, horas después falleció a consecuencia de las lesiones sufridas. La Fiscalía informó que, desde que tuvo conocimiento de las detonaciones, desplegó personal multidisciplinario mediante la Vicefiscalía Regional de la Costa para intervenir en las investigaciones. Hasta el momento, la información proporcionada no permite establecer si este segundo ataque corresponde al mismo hecho ocurrido en la vivienda de Hamuraby S. M . o a un incidente distinto, por lo que ambos reportes requieren confirmación oficial antes de establecer una relación entre las víctimas. Piden esclarecer asesinato del director de Pinotepa Comunica Tras conocerse el asesinato del director de Pinotepa Comunica , medios de comunicación locales difundieron mensajes de condolencias dirigidos a sus familiares, amistades y compañeros de trabajo. Asimismo, expresaron la necesidad de que las autoridades investiguen el caso y esclarezcan las circunstancias en las que ocurrió la agresión, además de determinar quiénes participaron y cuál fue el móvil del crimen. Las diligencias ministeriales deberán establecer la mecánica de los hechos y reunir los elementos necesarios para avanzar en la investigación. Hasta contar con información oficial, no se puede atribuir responsabilidad por el homicidio a personas específicas ni confirmar un posible móvil. El asesinato de Hamuraby S. M. generó preocupación en el ámbito periodístico de la Costa oaxaqueña, mientras se espera que la Fiscalía proporcione información confirmada sobre los avances de las indagatorias.","source":"El Financiero","author":"Óscar García / Corresponsal","category":"business","url":"https://www.elfinanciero.com.mx/estados/2026/10/09/asesinan-a-hamuraby-s-m-director-del-portal-pinotepa-comunica-dentro-de-su-vivienda-en-oaxaca/?utm_source=lootura.com","publishedAt":"2026-10-10T03:48:17.000Z"},{"title":"(VIDEO) Estudiantes del ITESO encaran a Pablo Lemus por agua contaminada en Guadalajara","summary":"El gobernador de Jalisco, Pablo Lemus , fue confrontado por estudiantes del Instituto Tecnológico y de Estudios Superiores de Occidente (ITESO) , quienes le exigieron respuestas por la mala calidad del agua que llega a los hogares de la Zona Metropolitana de Guadalajara (ZMG) . El encuentro ocurrió el jueves 8 de octubre, cuando el mandatario acudió a la universidad jesuita para participar en una entrevista con el periodista Salvador Camarena para Radio ITESO. Al terminar, un grupo de jóvenes se acercó para reclamarle por la crisis del agua ; posteriormente, otro grupo de alumnos se sumó a los cuestionamientos y el intercambio terminó entre gritos y abucheos. “¿Por qué tienes a la gente de Guadalajara tragando agua con mierda, bañándose con mierda? ¿Cuál es la solución? Dínoslo”, cuestionó uno de los estudiantes, de acuerdo con NTR Guadalajara . Los jóvenes también preguntaron al gobernador si su administración pretendía privatizar el servicio de agua potable y le reprocharon las respuestas que ha dado ante la emergencia. Asimismo, exigieron garantías para las manifestaciones convocadas por habitantes y expresaron su inconformidad por el uso de policías antimotines durante protestas relacionadas con el suministro de agua. Estudiantes del ITESO corrieron a Pablo Lemus del campus entre reclamos por la crisis del agua en Guadalajara. Los jóvenes le exigieron respuestas ante el suministro contaminado que llega a cientos de colonias, en una ciudad donde el propio gobernador ya reconoció una crisis de… pic.twitter.com/7HP0v2LzD5 - Valentina Media (@ValeMediaMx) October 9, 2026 “Es nuestra obligación dar la cara”: Lemus promete diálogo con funcionarios Ante los reclamos, Lemus ofreció regresar al ITESO acompañado por el director del Sistema Intermunicipal de los Servicios de Agua Potable y Alcantarillado (SIAPA) y otros funcionarios para explicar públicamente las medidas que se están tomando y responder las preguntas de la comunidad estudiantil. “Me pongo de acuerdo para la próxima semana, aquí en el ITESO, y me traigo a mi director del SIAPA, me traigo a todos los funcionarios y hacemos una exposición pública”, respondió el gobernador. Después del encuentro, el gobernador publicó un mensaje en su cuenta de X en el que aseguró que escuchó los reclamos. “Les dije que entiendo su molestia y que estamos trabajando para resolver el problema de fondo. También quedamos en abrir una mesa de diálogo con los funcionarios involucrados en el tema”, escribió. Sin embargo, Lemus señaló que el diálogo terminó cuando llegó otro grupo de jóvenes que comenzó a gritar. En el mismo mensaje, defendió el derecho de los estudiantes a cuestionar a sus autoridades. “Le tengo mucho cariño al ITESO y respeto profundamente el derecho que tienen los jóvenes a cuestionar a sus autoridades. Sé que es nuestra obligación dar la cara, explicar y dialogar tantas veces como sea necesario ”, publicó. Acudí esta tarde al @ITESO para tener una entrevista con Salvador Camarena ( @SalCamarena ) sobre el tema del agua, que será transmitida esta noche en Radio ITESO. Al salir, un grupo de estudiantes se acercó a cuestionarme y a exigir información sobre lo que está pasando con el… pic.twitter.com/0CCHP8EEHK - Pablo Lemus Navarro (@PabloLemusN) October 9, 2026 La confrontación ocurre en medio de una crisis de agua potable en Guadalajara y municipios aledaños, donde habitantes han denunciado que el líquido llega turbio, con coloración negra o amarillenta y olor a drenaje. Como medida inmediata, el gobierno estatal anunció que dejaría de utilizar el sistema antiguo de Chapala que conduce agua hasta la presa Las Pintas , decisión que reducirá el suministro disponible para la ciudad. De acuerdo con el anuncio de Lemus, suspender el uso de esa fuente permitirá mejorar la calidad del agua que llega a la planta potabilizadora número uno, en Miravalle. No obstante, la medida también implicará una reducción de aproximadamente 30 por ciento en el volumen de agua disponible , por lo que el gobierno prevé implementar un esquema de rotación del servicio, con posibles cortes de hasta dos o tres días por semana. ¿Qué es el Acueducto Sustituto Chapala-Guadalajara que promete mejorar la calidad del agua? Como parte de las soluciones a mediano y largo plazo, el gobernador Pablo Lemus informó que envió al Congreso de Jalisco una iniciativa para construir un nuevo acueducto que sustituya al sistema actual de conducción de agua desde el lago de Chapala hacia la Zona Metropolitana de Guadalajara. Según explicó en un video, el proyecto busca mejorar la calidad del líquido que llega a los hogares sin extraer más agua del lago. La propuesta forma parte de un paquete de obras hidráulicas que, de acuerdo con el mandatario, representará una inversión estatal de 18 mil millones de pesos , sujeta a la aprobación de las y los diputados locales. El proyecto plantea utilizar un esquema financiero denominado CMRO, siglas de Construcción, Mantenimiento, Rehabilitación y Operación. Lemus aseguró que este mecanismo no implicará contratar deuda, privatizar el servicio ni otorgar una concesión, y sostuvo que el Estado conservará el control del servicio de agua potable. También afirmó que no habrá incrementos en las tarifas como consecuencia de la obra, pues los pagos por su construcción y operación correrán a cargo del Gobierno de Jalisco, a través de la Comisión Estatal del Agua . Quiero informarles que hace unos momentos enviamos al Congreso de Jalisco ( @LegislativoJal ) la iniciativa para construir el Acueducto Sustituto Chapala-Guadalajara, una obra para resolver de fondo el problema de la calidad del líquido que llega a nuestra ciudad, sin sacarle más… pic.twitter.com/Mzkj7P5UMA - Pablo Lemus Navarro (@PabloLemusN) October 8, 2026 El acueducto sustituiría la infraestructura que actualmente transporta agua desde Chapala y complementaría otras acciones para mejorar el abastecimiento de la ciudad. De acuerdo con el gobernador, el sistema del lago aporta alrededor de 65 por ciento del agua potable de la Zona Metropolitana de Guadalajara . Las obras pendientes para aprovechar la presa El Zapotillo Además del nuevo acueducto, Lemus pidió al Gobierno federal y a la Cámara de Diputados aprobar recursos por 8 mil 500 millones de pesos para completar las obras necesarias para aprovechar la presa El Zapotillo , que, según sus cifras, opera actualmente a 45 por ciento de su capacidad. Entre los trabajos pendientes mencionó la electrificación necesaria para bombear el agua, la construcción de un segundo acueducto desde la presa Calderón , la edificación de la planta potabilizadora número 3 en San Gaspar y la ampliación y modernización de esta instalación. El mandatario sostuvo que, si se concretan estas obras, Guadalajara podría disponer de 2.5 metros cúbicos adicionales de agua por segundo. Mientras tanto, pidió a la Comisión Nacional del Agua (Conagua) avanzar en el saneamiento de la cuenca del río Lerma-Santiago , que alimenta al lago de Chapala, mediante plantas de tratamiento y la clausura de descargas irregulares.","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/estados/2026/10/09/estudiantes-del-iteso-encaran-a-pablo-lemus-por-agua-contaminada-en-guadalajara-cual-es-la-solucion/?utm_source=lootura.com","publishedAt":"2026-10-10T03:39:34.000Z"},{"title":"Aquí sí van juntos: Morena y PVEM concretan alianza estratégica en Querétaro rumbo al 2027","summary":"Las dirigencias de Morena y del Partido Verde Ecologista de México (PVEM) concretaron formalmente el acuerdo de alianza entre ambas fuerzas políticas con miras al proceso electoral de 2027 en Querétaro . Santiago Nieto y Ricardo Astudillo impulsarán el segundo piso de la Cuarta Transformación en unidad mediante coalición o candidatura común. La reunión institucional se realizó este viernes 9 de octubre y estuvo encabezado por Citlalli Hernández, presidenta de la Comisión Nacional de Elecciones de Morena , Santiago Nieto Castillo , Coordinador Estatal de la Defensa de la Transformación en Querétaro y la participación de la dirigencia nacional y local del PVEM, representada por Karen Quiroga, Arturo Escobar y Ricardo Astudillo. Durante la sesión, desarrollada en un clima de cercanía y colaboración, se estableció que ambas fuerzas políticas competirán unidas en la entidad bajo las figuras jurídicas de coalición o candidatura común , según lo determinen oportunamente las dirigencias partidistas. Al respecto, Santiago Nieto enfatizó que la suma de esfuerzos responde a la prioridad de construir el segundo piso de la Cuarta Transformación en Querétaro y brindar un respaldo sólido al proyecto nacional que encabeza la presidenta Claudia Sheinbaum Pardo. Reunión de coordinación con el Partido Verde Ecologista de Mexico y Morena. Vamos en unidad para seguir construyendo el segundo piso de la cuarta transformación en Querétaro. Nuestro respaldo siempre a nuestra presidenta Claudia Sheinbaum. #La4TAvanza pic.twitter.com/Ng99rPINC8 - Santiago Nieto (@SNietoCastillo) October 9, 2026 Morena y PVEM alistan agenda conjunta en Querétaro Asimismo, Nieto subrayó la relevancia estratégica de consolidar la unidad con el PVEM y el Partido del Trabajo (PT) , recordando que la falta de alianzas en la contienda de 2024 derivó en la pérdida de los comicios que pudieron haberse ganado en bloque. Conforme a los resultados del proceso inmediato anterior en 2024, el PVEM aportó un 5 por ciento de la votación en la elección para el Senado y un 6.3 por ciento en las diputaciones federales en el estado, votos determinantes que se sumarán a la fuerza electoral de Morena. Como primer acuerdo operativo, Santiago Nieto y Ricardo Astudillo acordaron desplegar una agenda de trabajo conjunta a partir de la próxima semana, la cual iniciará con encuentros con el sector empresarial de Querétaro. Con este paso, las dirigencias sellaron un compromiso de unidad para afianzar la transformación política en la entidad queretana. “Vamos en unidad para seguir construyendo el segundo piso de la cuarta transformación en Querétaro”, publicó Santiago Nieto en su cuenta de Facebook tras concluir la reunión con los liderazgos del Partido Verde Ecologista de México . Querétaro es uno de los 17 estados del país que renovará la gubernatura en 2027 .","source":"El Financiero","author":"Luciano Vázquez","category":"business","url":"https://www.elfinanciero.com.mx/estados/2026/10/09/elecciones-2027-morena-y-pvem-formalizan-su-alianza-rumbo-a-la-gubernatura-de-queretaro/?utm_source=lootura.com","publishedAt":"2026-10-10T03:21:07.000Z"},{"title":"Eduin Caz, de Grupo Firme, reclama cobros de 100 mil pesos de agua y 12 mil de luz: ‘No estoy entendiendo’","summary":"A cualquiera se le saldrían los ojos de las órbitas al recibir semejantes cobros por los servicios de su casa. Eduin Caz, vocalista de Grupo Firme , expresó su sorpresa e inconformidad tras recibir recibos de luz y agua por un total de 112 mil pesos, especialmente porque su vivienda cuenta con paneles solares y aseguró que pasó buena parte del tiempo fuera de casa. A través de un video que compartió en sus redes sociales, el intérprete de Ya supérame relató que primero recibió un cobro de agua por 100 mil pesos, cuyo origen todavía investiga. Aunque aclaró que está dispuesto a pagar si la cantidad es correcta, cuestionó las circunstancias de la facturación. “Estoy sorprendido. Hace un par de días me quejé de que me habían llegado 100 mil pesos de agua. Estamos todavía investigando y si tengo que pagarlos, se van a pagar, ¿verdad? Eso no hay detalle. El problema no es el dinero, el problema son las acciones”, expresó. Sin embargo, la sorpresa no terminó ahí. Eduin Caz recibió posteriormente un recibo de electricidad por 12 mil pesos, pese a que su vivienda cuenta con paneles solares. El vocalista de Grupo Firme también cuestionó el elevado cobro porque pasó parte del tiempo fuera de su domicilio debido a sus compromisos musicales . “Hoy me llegó el recibo de la luz. Yo tengo tapizada mi casa de paneles solares. Acostumbrado me llegan 800, a lo mucho mil 200 pesos de luz, ¿no? 12 mil pesos me llegaron. Ni estaba, estaba en España, la pasé en CDMX, o sea, de gira”, relató. Finalmente, el cantante manifestó su molestia por los cobros y cuestionó el destino de los recursos que se recaudan por los servicios públicos , aunque no presentó pruebas sobre las irregularidades que insinuó. “No estoy entendiendo qué está pasando, pero ojalá el dinero lo usaran para arreglar el problema, pero lo peor del caso es que se lo van a robar otra vez. Qué tristeza”, concluyó. ¿Quién es Eduin Caz, vocalista de Grupo Firme? Eduin Oswaldo Parra Cazares, conocido artísticamente como Eduin Caz, es un cantante mexicano de 32 años, originario de Culiacán, Sinaloa . Aunque creció en Tijuana, Baja California, ciudad donde comenzó su trayectoria musical . Antes de alcanzar la fama, el intérprete cantaba en el transporte público para obtener ingresos y participó en distintas agrupaciones. En 2014 fundó Grupo Firme, una banda de regional mexicano que consiguió reconocimiento internacional con canciones como Ya supérame , El tóxico , En tu perra vida y Cada quien . Entre los principales logros de Grupo Firme destaca el Latin Grammy que ganó en 2021 por Nos Divertimos Logrando lo Imposible, reconocido como el mejor álbum de música de banda. Además, el 25 de septiembre de 2022 ofreció un concierto en el Zócalo de la CDMX , donde reunió a aproximadamente 280 mil personas.","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/espectaculos/2026/10/09/eduin-caz-vocalista-de-grupo-firme-reclama-cobros-de-100-mil-pesos-de-agua-y-12-mil-de-luz/?utm_source=lootura.com","publishedAt":"2026-10-10T03:09:37.000Z"},{"title":"Cuando ya no sabes con quién hablar","summary":"Si se lo cuentas a tu esposa, podría preocuparse. Tus hijos quizá no entiendan lo que está en juego. Tu jefe puede interpretar tus dudas como falta de seguridad. Tus colaboradores podrían ponerse nerviosos. Así que decides guardar silencio y sigues pensando en el problema una y otra vez. Quien ocupa una posición directiva pasa buena parte del día comunicando y está rodeado de personas; sin embargo, puede carecer de alguien con quien hablar en forma confidencial y con toda sinceridad. Esa es una soledad particular del liderazgo. La dificultad aparece porque cada interlocutor tiene una relación particular con el asunto y tiene su propia agenda. La familia escucha con afecto y teme las consecuencias personales. El jefe piensa en resultados. Los socios observan sus intereses. Los colaboradores buscan señales sobre su futuro. Incluso un amigo podría aconsejar desde su experiencia, aunque conozca poco el contexto en el que debes decidir. Escribir tus inquietudes es muy útil, pero no te da retroalimentación. Por su parte, dialogar con una herramienta de inteligencia artificial te puede ayudar a ordenar las ideas, identificar alternativas o revisar escenarios. Aun así, trabaja con lo que decides contarle y dentro del marco que tú mismo definiste. Si dejaste fuera un temor, una contradicción o un interés personal, difícilmente podrá tenerlos en cuenta. Más aún, cuando menos hasta ahora, no puede leer tu lenguaje corporal o tu tono de voz. Además, hay problemas que requieren algo más que información. Tal vez sabes cuáles son las opciones y aun así permaneces inmóvil. Conoces los riesgos, pero sigues sintiendo que falta una pieza. La dificultad podría estar en aceptar una consecuencia, reconocer lo que realmente quieres o admitir que ninguna alternativa será satisfactoria. Entre quienes tienen responsabilidades importantes existe con frecuencia la creencia equivocada de que deberían resolver solos sus dudas. Para ellos, pedir ayuda podría revelar debilidad o falta de capacidad. Esa idea lleva a muchos ejecutivos a sostener durante meses conversaciones internas que repiten argumentos y llegan a conclusiones parecidas. Un coach ejecutivo puede abrir un espacio distinto de reflexión. A través de preguntas y conversación, puede acompañarte a separar hechos de interpretaciones, reconocer intereses y explorar rutas que no habías considerado. Su función no consiste en imponerte una respuesta, sino en ayudarte a mirar el problema desde otro lugar. El coach tampoco te dirá qué hacer y el resultado no será siempre una solución inmediata. Algunas conversaciones conducen a una decisión; otras permiten aceptar una realidad fuera de tu control, preparar una conversación difícil o descubrir una posibilidad entre preocupaciones y supuestos. Puede ser momento de buscar ese espacio. A veces, ordenar el problema ya representa un avance. Al liderar también necesitas un lugar donde puedas dudar, cambiar de opinión y reconocer que todavía no sabes qué hacer. Pensar en voz alta con alguien puede ser una forma muy efectiva de empezar. ¿Has trabajado con algún coach ejecutivo? Coméntame en LinkedIn.","source":"El Financiero","author":"Alberto Tovar","category":"business","url":"https://www.elfinanciero.com.mx/opinion/alberto-tovar/2026/10/09/cuando-ya-no-sabes-con-quien-hablar/?utm_source=lootura.com","publishedAt":"2026-10-10T03:00:00.000Z"},{"title":"Alerta en Jalisco y Colima: ‘Simón’ tocará tierra como huracán categoría 3 o 4 el fin de semana","summary":"En la conferencia matutina de la presidenta Claudia Sheinbaum , la Coordinación Nacional de Protección Civil informó que el huracán ‘Simón’ podría evolucionar a categoría 3 o 4 en Jalisco y Colima, por lo que hay alerta debido a las fuertes lluvias que habrá. ‘Simón’ es un huracán categoría 2 que mostró un cambio en su trayectoria, informaron las autoridades, que pidieron a la población tomar precaciones en estos municipios: Puerto Vallarta. Cabo Corrientes. Tomatlán. La Huerta. Cihuatlán Villa Purificación. Manzanillo. Armería. Tecomán. Las autoridades también recomiendan preparar un kit de emergencia, identificar el refugio temporal más cercano y seguir las instrucciones de las autoridades de Protección Civil. Protección Civil informó que debido a ‘Simón’ hay vientos máximos de 20 a 50 kilómetros por hora en Guerrero, Jalisco y Michoacán. El huracán podría tocar tierra este fin de semana por Colima o Jalisco , agregaron. La zona de impacto puede ser entre Tomatlán, Puerto Vallarta y Cabo Corrientes. Se instalarán tres centros de mando ubicados en los municipios. Activaron también el Plan Marina y Plan DNIIIE . Además, en el golfo de México se encuentra el huracán ‘Isaías’ , que alcanzó la categoría 3 y continúa alejándose de territorio nacional, por lo que sus efectos en las costas mexicanas disminuirán de forma progresiva. 🌀 En la #MañaneraDelPueblo de la presidenta @Claudiashein , la titular de la #CNPC de @SSPCMexico , @laualzua , informó que el huracán #Simon , categoría 1, presenta un cambio de trayectoria y podría intensificarse a categoría 3 o 4 al aproximarse a las costas de #Jalisco y #Colima … pic.twitter.com/2Ul8WG5Xbs - Coordinación Nacional de Protección Civil (@CNPC_MX) October 9, 2026 ¿En qué estados lloverá por el paso del huracán ‘Simón’? Guerrero y Michoacán: Se pronostican lluvias torrenciales en las regiones costeras y del oeste de Guerrero, así como en la costa y el este de Michoacán. Colima: Se prevén lluvias intensas y oleaje de 2.5 a 3.5 metros. Jalisco: Se esperan lluvias muy fuertes en el este y sur del estado, además de oleaje de 1.5 a 2.5 metros. En este contexto, se mantienen zonas de vigilancia desde Punta San Telmo, Michoacán, hasta Punta Mita, Nayarit , por efectos de vientos de huracán. ¿Qué es el Plan DNIIIE? Según la Secretaría de la Defensa Nacional ( Sedena ), el Plan DNIIIE es un instrumento operativo militar para el Ejército y Fuerza Aérea Mexicanos. RealizaN actividades de auxilio a la población afectada por desastres de origen natural o humano, con el objetivo de optimizar el empleo de los recursos humanos y materiales para su atención oportuna, eficaz y eficiente. Se aplicó tras el sismo de 1985 y fue un precedente para la creación del Sistema Nacional de Protección Civil (SINAPROC), tomando como experiencia que el auxilio a la población requiere, además, la participación de todos los organismos de la Administración Pública Federal, así como, de los sectores privado y social.","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/estados/2026/10/09/alerta-en-jalisco-y-colima-simon-tocara-tierra-como-huracan-categoria-3-o-4-el-fin-de-semana/?utm_source=lootura.com","publishedAt":"2026-10-09T20:28:21.000Z"},{"title":"Keegan Allen, actor de ‘Pretty Little Liars’, es golpeado durante un asalto: ‘Amenazaron con matarme’","summary":"Keegan Allen, actor estadounidense conocido por interpretar a Toby Cavanaugh en la serie Pretty Little Liars , fue víctima de un violento asalto a mano armada la noche del pasado jueves 8 de octubre, cuando 2 hombres lo interceptaron en West Hollywood , California, y lo amenazaron de muerte. El ataque ocurrió aproximadamente a las 21:05 horas, afuera del establecimiento Laurel Supply, ubicado sobre Santa Monica Boulevard . De acuerdo con el actor, los delincuentes llevaban el rostro cubierto y lo amenazaron con una pistola y un cuchillo antes de robarle su reloj . Durante el asalto, uno de los delincuentes golpeó a Keegan Allen en la cabeza con una pistola y le provocó una fuerte herida. “Acaban de robarme el reloj afuera de Laurel Supply. ¿Puedes llamar a la policía? Por cierto, 2 tipos me golpearon en la cabeza y me apuntaron con una pistola y un cuchillo”, expresó el actor. Poco después, Allen compartió un video en Instagram en el que apareció con el rostro y el cuello ensangrentados. Además de compartir las imágenes, Keegan Allen denunció que los asaltantes amenazaron con quitarle la vida y aseguró que estuvo en peligro de morir. El actor también cuestionó la seguridad de West Hollywood y la eficacia de las cámaras de vigilancia instaladas en la zona. En su publicación mencionó a la alcaldesa de Los Ángeles, Karen Bass , y al gobernador de California, Gavin Newsom , al expresar su deseo de que las grabaciones permitieran identificar a los responsables: “West Hollywood ya no es seguro”, comentó. ¿Cuál es el estado de salud de Keegan Allen tras el asalto? Después del ataque, Keegan Allen recibió atención de los servicios de emergencia del condado de Los Ángeles , que acudieron al lugar tras recibir el reporte del asalto. Las autoridades informaron que el actor sufrió una lesión en la frente y que los paramédicos lo revisaron, pero no lo trasladaron a un hospital en ese momento. Más tarde, Allen reveló, en respuesta a un comentario en Instagram, que se encontraba en un hospital y que sufrió una conmoción cerebral. El Departamento del Sheriff del Condado de Los Ángeles abrió una investigación para identificar a los 2 hombres que participaron en el robo. La División de Delitos Mayores también intervino en las diligencias para esclarecer lo ocurrido. Hasta el viernes 9 de octubre, las autoridades locales no habían anunciado detenciones relacionadas con el asalto y las agresiones contra Keegan Allen. View this post on Instagram ¿Quién es Keegan Allen, actor de la serie Pretty Little Liars? Keegan Allen es un actor, fotógrafo y escritor estadounidense de 37 años, originario de California. Alcanzó reconocimiento internacional por interpretar a Toby Cavanaugh en Pretty Little Liars , serie juvenil de misterio que se transmitió entre 2010 y 2017. A lo largo de las 7 temporadas de la producción, su personaje mantuvo una relación sentimental con Spencer Hastings , interpretada por Troian Bellisario , una de las protagonistas de la historia. Su participación lo convirtió en uno de los rostros más reconocidos del elenco. Tras el final de Pretty Little Liars , Allen continuó su carrera en televisión y cine. Entre sus participaciones más destacadas se encuentra Walker (2021-2024), serie en la que interpretó a Liam Walker, hermano de Cordell Walker, el protagonista al que dio vida Jared Padalecki. Además de su trabajo frente a las cámaras, el actor desarrolló una carrera como fotógrafo y publicó los libros life.love.beauty (2015) y Hollywood: Photos and Stories from Foreverland (2018), en los que reunió fotografías, experiencias personales y relatos relacionados con su trayectoria artística.","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/espectaculos/2026/10/09/keegan-allen-actor-de-pretty-little-liars-es-golpeado-durante-un-asalto/?utm_source=lootura.com","publishedAt":"2026-10-09T20:13:55.000Z"},{"title":"‘Berrinche’ de Trump por Premio Nobel de la Paz: CPI rechaza sanción y alerta de ataque al orden jurídico","summary":"La Corte Penal Internacional (CPI) rechazó “firmemente” este viernes las sanciones impuestas por Estados Unidos contra el tribunal como “institución” y advirtió de que la medida supone “un ataque al Estado de derecho” que busca “perturbar” su funcionamiento e “intimidar” a quienes trabajan en la CPI. “Es un intento de obstaculizar el curso de la justicia y de impedir que la Corte haga aquello para lo que fue creada”, denunció la CPI, que recordó que el tribunal fue establecido mediante un tratado internacional y cuenta con 125 países miembros. La Corte advirtió de que “nadie debería ser castigado por servir a la causa de la justicia” e instó a sus miembros a adoptar “medidas concretas” para garantizar que el tribunal pueda continuar operando, y vaticinó que “la historia juzgará este momento”. La CPI dice que EEUU busca «intimidar» La institución considera que la decisión estadounidense busca «perturbar» su funcionamiento e «intimidar» tanto a quienes trabajan para ella como a quienes cooperan con sus investigaciones. «Las generaciones futuras y, sobre todo, las víctimas de atrocidades masivas preguntarán cómo respondimos cuando una institución creada para protegerlas fue atacada», concluyó. Washington incluyó a la propia CPI en su régimen de sanciones , lo que se suma a las medidas impuestas hasta ahora contra 17 personas vinculadas a la institución, entre ellas jueces y fiscales. ¿Qué hace la CPI? La Corte investiga y juzga a individuos por genocidio , crímenes de lesa humanidad, de guerra y de agresión cuando tiene la jurisdicción que le otorga su tratado fundacional, el Estatuto de Roma. «La Corte seguirá cumpliendo plenamente su mandato, con independencia e imparcialidad, actuando únicamente sobre la base del derecho y de las pruebas, por el bien de las innumerables víctimas de crímenes graves», aseguró su presidenta, la jueza japonesa Tomoko Akane, una de las funcionarias de la CPI sancionadas por Trump . Las medidas anunciadas por Washington implican, en principio, el bloqueo de bienes e intereses de la CPI en Estados Unidos o bajo control de ciudadanos y empresas estadounidenses, así como restricciones a las transacciones con la institución.","source":"El Financiero","author":"EFE","category":"business","url":"https://www.elfinanciero.com.mx/mundo/2026/10/09/berrinche-de-trump-por-premio-nobel-de-la-paz-cpi-rechaza-sancion-y-alerta-de-ataque-al-orden-juridico/?utm_source=lootura.com","publishedAt":"2026-10-09T20:09:14.000Z"},{"title":"EU, ‘aterrado’ por el huracán ‘Isaías’ de categoría 3: Georgia, Florida y Alabama declaran emergencia","summary":"El estado de Georgia se sumó a las emergencias que han declarado Florida y Alabama por el esperado impacto en el sur de Estados Unidos del huracán ‘Isaías’ , que este viernes alcanzó la categoría 3 con vientos máximos sostenidos de 120 millas por hora (193 kilómetros por hora). El gobernador de Georgia, Brian Kemp, decretó la emergencia para desplegar recursos y movilizar equipos de respuesta antes del impacto de Isaías , que tocaría tierra entre Alabama y Florida la noche del viernes o madrugada del sábado, según el Centro Nacional de Huracanes de Estados Unidos (NHC, en inglés). El mandatario estatal, del partido Republicano, exhortó en un pronunciamiento a los habitantes “a tomarse esta tormenta en serio y a prepararse desde ahora, abasteciéndose de alimentos, baterías, linternas, agua y otros artículos de primera necesidad”, al prever posibles afectaciones el fin de semana. “Como siempre hacemos ante eventos meteorológicos, esperamos lo mejor pero nos preparamos para lo peor”, apuntó Kemp. ‘Isaías’, el primer huracán de 2026 que podría tocar tierra en Estados Unidos Isaías, el primer huracán de la temporada del Atlántico y el primero que podría tocar tierra en Estados Unidos continental en dos años, alcanzó este viernes la categoría 3, con lo que se considera un ciclón mayor, informó el NHC. En el último informe del centro meteorológico, a las 13:00 horas del este de Estados Unidos, el ciclón estaba a 160 millas (255 kilómetros) al sur de Pensacola, en Florida, y a 130 millas (210 kilómetros) al sureste de la boca del río Misisipi. El huracán traerá una “marejada ciclónica que amenaza la vida y vientos devastadores” en las zonas costeras del noroeste de Florida y el sur de Alabama, según el reporte, pero el NHC también prevé afectaciones en Misisipi, Georgia y Carolina del Sur y del Norte , incluyendo posibles inundaciones. En total, más de 20 millones de personas residen en áreas amenazadas por el impacto de Isaías . El gobernador de Florida, Ron DeSantis , informó en una conferencia de prensa por la mañana del despliegue de más de 16 mil electricistas de Florida y 5 mil efectivos de la Guardia Nacional, además de avisar que son las “últimas horas” para evacuar las zonas afectadas en el Panhandle, región del noroeste del estado.","source":"El Financiero","author":"EFE","category":"business","url":"https://www.elfinanciero.com.mx/mundo/2026/10/09/eu-aterrado-por-el-huracan-isaias-de-categoria-3-georgia-florida-y-alabama-declaran-emergencia/?utm_source=lootura.com","publishedAt":"2026-10-09T20:02:31.000Z"},{"title":"Maru Campos anuncia cambios en Seguridad Pública y la Fiscalía de Chihuahua","summary":"La gobernadora de Chihuahua , Maru Campos , anunció este viernes cambios en su Gabinete de Seguridad y Justicia: designó a Gilberto Loya Chávez como encargado del despacho de la Fiscalía General del Estado (FGE) y a Luis Ángel Aguirre Rodríguez como nuevo titular de la Secretaría de Seguridad Pública estatal. Durante un mensaje en el Salón Gobernadores del Palacio de Gobierno, la mandataria estatal explicó que los nombramientos buscan fortalecer la procuración de justicia y mantener la exigencia de resultados en materia de seguridad. “Lo hago para seguir poniendo orden en casa y dar a la procuración de justicia la misma exigencia de resultados que hoy tiene la seguridad en el estado de Chihuahua ”, afirmó. Campos señaló que la designación de Loya como encargado del despacho no representa el nombramiento definitivo del fiscal general, pues este deberá seguir el procedimiento establecido en la Constitución estatal y el Congreso de Chihuahua. “La designación definitiva del fiscal general seguirá el proceso que marcan la Constitución y el Congreso del Estado. Mientras tanto, la Fiscalía no se detiene un solo día”, sostuvo. Gilberto Loya deja Seguridad Pública La gobernadora destacó el trabajo de Gilberto Loya al frente de la Secretaría de Seguridad Pública, donde, dijo, construyó un modelo de eficiencia, inteligencia y resultados, con la Plataforma Centinela como uno de sus principales ejemplos. “Lo que Gilberto construyó en la Secretaría de Seguridad Pública, un modelo de eficiencia, inteligencia y resultados, con la Plataforma Centinela como su mejor ejemplo, es justo lo que la procuración de justicia necesita hoy: resultados, resultados y resultados”, expresó. Campos agregó que su expectativa es que la Fiscalía trabaje con orden, disciplina y coordinación, además de mantener cercanía con las víctimas. “Los chihuahuenses no esperan pretextos, están cansados de ellos. Esperan justicia y eso es lo que debemos entregar”, enfatizó. La mandataria también agradeció a Francisco Sáenz Soto por el trabajo realizado durante los últimos meses al frente del despacho de la Fiscalía y señaló que le pidió continuar dentro de la institución. Luis Ángel Aguirre releva a Gilberto Loya en Seguridad Pública Para ocupar la titularidad de la Secretaría de Seguridad Pública estatal, Maru Campos designó a Luis Ángel Aguirre Rodríguez , quien se desempeñaba como subsecretario de Estado Mayor de esa dependencia. La gobernadora afirmó que su experiencia dentro de la Secretaría permitirá dar continuidad a la estrategia de seguridad y al trabajo cotidiano de la institución. “Conoce también la estrategia y garantiza continuidad en el trabajo diario por la seguridad de las familias chihuahuenses”, señaló. Campos indicó que ambos funcionarios tendrán la encomienda de servir a la población y entregar resultados, y les reiteró que contarán con su respaldo y exigencia. “Vamos a trabajar cerca de las víctimas, con profesionalismo y con exigencia”, afirmó. Finalmente, la gobernadora sostuvo que su administración continuará tomando las decisiones que considere necesarias para el estado, con firmeza y sin simulación.","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/estados/2026/10/09/maru-campos-anuncia-cambios-en-seguridad-publica-y-la-fiscalia-de-chihuahua/?utm_source=lootura.com","publishedAt":"2026-10-09T19:56:21.000Z"},{"title":"Navi Pillay bromea con hacer un ‘Corina Machado’: ‘Si me aplauden más, le regalo el Nobel a Trump’","summary":"La jurista sudafricana Navanethem “Navi” Pillay, ganadora del Premio Nobel de la Paz 2026, bromeó con entregar también ella su galardón al presidente estadounidense Donald Trump , en alusión al polémico gesto de la laureada del año pasado, la líder opositora venezolana María Corina Machado . “Muchas gracias, si aplaudís un poco más, puede que comparta este premio con Trump ”, dijo al llegar a una rueda de prensa en Núremberg, en un vídeo difundido en las redes sociales por la secretaria general de Amnistía Internacional (AI), Agnés Callamard. Pillay estaba en esa ciudad germana en el momento en el que se le concedió el galardón, en la Academia Internacional de los Principios de Núremberg, de la que es miembro, y dio la rueda de prensa en la sala histórica en la que se celebraron los juicios contra los criminales de guerra nazis . La jurista sudafricana, que ha ejercido como jueza del Tribunal Superior de Sudáfrica, del Tribunal Penal Internacional para Ruanda y de la Corte Penal Internacional (CPI), y fue alta comisionada de las Naciones Unidas para los Derechos Humanos, fue galardonada “por su labor en favor de la paz y el derecho internacional”. La vez que María Corina Machado le entregó su medalla del Nobel a Trump La líder opositora venezolana María Corina Machado recibió el año pasado el Nobel de la Paz y protagonizó una turbulenta huida de su país para recoger el galardón en Oslo, aunque finalmente no llegó a tiempo para la ceremonia. Posteriormente, le regaló el premio físico a Trump , que había expresado repetidas veces su descontento por no ser él el galardonado, en un polémico gesto que llevó al Instituto Noruego del Nobel a aclarar que la distinción es personal e intransferible. Pese a sus intentos por congraciarse con la administración Trump , esta ha preferido por el momento apoyar la presidencia de Delcy Rodríguez tras la captura del líder venezolano Nicolás Maduro , y Machado no ha podido todavía regresar a su país .","source":"El Financiero","author":"EFE","category":"business","url":"https://www.elfinanciero.com.mx/mundo/2026/10/09/navi-pillay-bromea-con-hacer-un-corina-machado-si-me-aplauden-mas-le-regalo-el-nobel-a-trump/?utm_source=lootura.com","publishedAt":"2026-10-09T19:45:13.000Z"},{"title":"Protestan en Guadalajara por crisis de agua contaminada; piden que se declare una alerta sanitaria","summary":"Cientos de personas se manifestaron frente al Ayuntamiento de Guadalajara para exigir que el Gobierno municipal solicite la declaratoria de una alerta sanitaria por la crisis de agua contaminada en distintas colonias tapatías. La protesta fue encabezada por el regidor y coordinador de Morena en el Cabildo, Chema Martínez, quien acusó que el problema dejó de ser una falla en la prestación del servicio para convertirse en un riesgo para la salud de las familias . Con pancartas y consignas de “¡Agua limpia!” y “¡Alerta sanitaria ya!”, vecinos, comerciantes e integrantes de colectivos ciudadanos demandaron a la presidenta municipal, Verónica Delgadillo, asumir responsabilidad y dar respuesta inmediata. Martínez afirmó que habitantes de distintas zonas han reportado agua con malos olores, coloración irregular y residuos , además de padecimientos como diarreas, ronchas en la piel, infecciones en los ojos e infecciones vaginales. “¿Qué espera el gobierno de Movimiento Ciudadano para liberar ya una alerta sanitaria?”, cuestionó. El morenista sostuvo que la declaratoria permitiría conocer la magnitud real del problema, informar a la población sobre los riesgos y activar mecanismos de diagnóstico, prevención y atención médica. Recordó que desde 2022 ha denunciado públicamente la problemática del agua contaminada en Guadalajara , sin que, dijo, las autoridades hayan ofrecido una solución definitiva. “He venido denunciando desde el año 2022 el agua puerca que está enfermando a la gente de Guadalajara y ni una sola acción, no nos han hecho caso”, reclamó. Durante la movilización, Martínez también señaló el impacto económico para las familias, especialmente madres y adultos mayores que deben destinar parte de sus ingresos a comprar garrafones o agua embotellada. Entre los reclamos, asistentes pidieron al regidor volver a competir por la presidencia municipal de Guadalajara. Al grito de “¡Presidente, presidente!”, le solicitaron representar nuevamente a Morena en la contienda por la alcaldía. Martínez advirtió que la movilización continuará en barrios y colonias hasta obtener una respuesta de las autoridades municipales y estatales. “Queremos vivir tranquilos, queremos vivir sin miedo, abrir la llave de nuestra casa y tener agua limpia”, expresó. Entre gritos de “¡Agua limpia!” y “¡Alerta sanitaria ya!”, los manifestantes reiteraron su exigencia de una atención inmediata a la crisis del agua contaminada.","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/estados/2026/10/09/protestan-en-guadalajara-por-crisis-de-agua-contaminada-piden-que-se-declare-una-alerta-sanitaria/?utm_source=lootura.com","publishedAt":"2026-10-09T19:28:24.000Z"},{"title":"Aseguran en CDMX 266 máquinas tragamonedas en las alcaldías Cuauhtémoc e Iztapalapa","summary":"Resultado de trabajos de inteligencia e investigación relacionados con el funcionamiento de máquinas tragamonedas sin licencia , elementos de la Secretaría de Seguridad y Protección Ciudadana (SSPC), Fiscalía General de la República (FGR), Secretaría de Marina (Marina), Guardia Nacional (GN), en coordinación con personal de la Secretaría de Seguridad Ciudadana (SSC) de la Ciudad de México, de la Secretaría de Administración y Finanzas (SAF) y la Fiscalía General de Justicia (FGJ), ejecutaron cinco órdenes de cateo y ocho verificaciones administrativas en las alcaldías Cuauhtémoc e Iztapalapa . Como resultado de trabajos de investigación, se identificaron establecimientos en los que operaban máquinas de juego sin los permisos correspondientes. Con base en los datos de prueba recabados, se solicitaron y obtuvieron de un juez las órdenes de cateo, las cuales fueron ejecutadas bajo la conducción del Ministerio Público Federal, con sede en la Ciudad de México. Para cumplimentar los mandamientos judiciales, se desplegó un operativo simultáneo, en apego a los protocolos de actuación policial, uso de la fuerza y pleno respeto a los derechos humanos. En las dos primeras intervenciones, realizadas en establecimientos ubicados en la calle López, colonia Centro, alcaldía Cuauhtémoc, se aseguraron 24 unidades de procesamiento central (CPU), 22 monitores, dos dispositivos de grabación de videovigilancia, máquinas para extraer peluches tipo garra y 20 máquinas tragamonedas tipo pinball. En otro establecimiento de la misma calle, los elementos aseguraron 17 máquinas tipo pinball, 10 equipos de cómputo con sus respectivos monitores y CPU, ocho máquinas pequeñas para extraer peluches, cinco máquinas tragamonedas y dos máquinas adicionales para extraer peluches. De manera simultánea, en la alcaldía Iztapalapa , se intervino un inmueble ubicado en la calle Santa María la Purísima, colonia San José Aculco, donde se aseguraron 26 equipos con juegos integrados, 13 muebles de escritorio, siete máquinas tipo pinball, cuatro máquinas barredoras, dos pantallas y dinero en efectivo. En otra intervención, realizada en un establecimiento localizado en la calle Cosmógrafos, en la misma colonia, se aseguraron 20 CPU y nueve máquinas tragamonedas. Adicionalmente, con apoyo de la Coordinación Ejecutiva de Verificación de Comercio Exterior de la Secretaría de Administración y Finanzas de la Ciudad de México , se realizaron ocho acciones de verificación en inmuebles ubicados en Arcos de Belén, Glorieta de los Insurgentes, Plaza San Rafael, Corregidora, General Anaya San Cosme, Rosario, Manzanares, en la alcaldía Cuauhtémoc. Durante estas inspecciones se solicitó la documentación que acreditara la legal procedencia de las máquinas tragamonedas . Al no presentarse dicha documentación, fueron aseguradas 103 máquinas. En total, durante la ejecución de las cinco órdenes de cateo se aseguraron 163 máquinas tragamonedas , mientras que en las acciones de verificación administrativa se aseguraron otras 103, para un total de 266 máquinas. Además, se aseguraron equipos de cómputo, monitores, dispositivos de videovigilancia, máquinas para extraer peluches, mobiliario y dinero en efectivo. Los objetos y equipos asegurados fueron trasladados a instalaciones de resguardo, donde permanecerán mientras continúan las investigaciones y los procedimientos correspondientes por parte de las autoridades competentes. Con estas acciones que forman parte de la coordinación Metropolitana, las autoridades de la Ciudad de México y del Gobierno de México fortalecen el trabajo interinstitucional para combatir actividades ilícitas, impedir la operación de establecimientos irregulares, contribuir a la seguridad y reducir factores de riesgo frente al delito en las juventudes del país.","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/cdmx/2026/10/09/aseguran-en-cdmx-266-maquinas-tragamonedas-en-las-alcaldias-cuauhtemoc-e-iztapalapa/?utm_source=lootura.com","publishedAt":"2026-10-09T19:27:34.000Z"},{"title":"‘Trump es Hitler a la décima potencia’: Gustavo Petro lanza dura crítica durante gira en México","summary":"“ Donald Trump es como Hitler a la décima potencia”, dijo Gustavo Petro , expresidente de Colombia, durante la 30.ª edición del Seminario Internacional organizado por el Partido del Trabajo . El exmandatario colombiano inauguró el foro y aprovechó para criticar la gestión y las expresiones de Donald Trump sobre “liquidar a una civilización” en medio de su conflicto con Irán. “Cree Trump que puede hacerlo con la civilización persa, y cree que puede liquidarla; así se expresa en las Naciones Unidas : liquidar una civilización es un megaholocausto, ni a Hitler se le ocurrió decir esto (...) Tiempos de hoy y algo está pasando en la humanidad para que se nos diga de frente que es Hitler a la décima potencia , a quizá más, y quiere recibir aplausos, quiere ser obedecido en silencio”, dijo Petro en el primer día del Seminario Internacional. En el lugar se encontraban figuras como Mario Delgado , secretario de Educación Pública; Gerardo Fernández Noroña , senador por Morena; Alberto Anaya, dirigente nacional del PT , entre otras figuras públicas invitadas al foro. En su intervención, que duró cerca de dos horas, Petro también se refirió al genocidio de Gaza. Criticó que existe una forma de segregación política contra las figuras que solicitan un juicio contra el primer ministro de Israel , Benjamin Netanyahu , por los crímenes contra la población palestina. Concluyó al señalar que el modelo neoliberal está agotado e hizo un llamado para que los países progresistas modifiquen sus estrategias económicas y transicionen a fuentes de energía alternativas, para dejar atrás el carbón y el petróleo. Petro y Trump, una montaña rusa La relación entre Donald Trump y Gustavo Petro fue un estira y afloja por las diferencias evidentes entre ambos gobernantes. El presidente de Estados Unidos llegó a referirse a su par como narcotraficante e incluso su gobierno tomó medidas diplomáticas luego de que Petro participara en una manifestación propalestina en Nueva York en septiembre de 2025. Cuando era presidente de Colombia, Petro lanzó críticas a la gestión de Donald Trump y, pese a sus intentos por mejorar la relación, incluso durante su visita a la Casa Blanca , el vínculo no siguió un buen camino en comparación con otros gobiernos conservadores. La relación entre ambos países terminó por fracturarse ante el apoyo que demostró el gobierno de Donald Trump al candidato presidencial y actual mandatario, Abelardo de la Espriella , así como por las constantes críticas y ataques contra el gobierno progresista, que habrían mermado las posibilidades para su permanencia.","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/mundo/2026/10/09/trump-es-hitler-a-la-decima-potencia-gustavo-petro-lanza-dura-critica-durante-gira-en-mexico/?utm_source=lootura.com","publishedAt":"2026-10-09T19:26:16.000Z"},{"title":"‘Rachel’ toma segundo aire en el Pacífico: Entrará como tormenta a Baja California y se irá a EU","summary":"La tormenta tropical ‘Rachel’ , que se intensificó el pasado miércoles a huracán y luego se fue debilitando, continúa su trayectoria por el Pacífico y se acerca a las costas de Baja California, donde se prevé que agarre su ‘segundo aire’ y toque tierra este fin de semana. A través de un video, el Servicio Meteorológico (SMN) informó que ‘Rachel’ impactaría como una tormenta tropical muy cerca de Ensenada y Tijuana, por lo que se prevén lluvias fuertes, viento y oleaje en estos municipios. Actualmente, la tormenta tropical ‘Rachel’ se localiza a 1,505 kilómetros al oeste de Cabo San Lucas; además, presenta vientos máximos sostenidos de 85 km/h, rachas de 100 km/h y desplazamiento hacia el noreste a 7 km/h. ¿Cuál es la trayectoria de la tormenta ‘Rachel’? El SMN informó que, debido a la trayectoria de ‘Rachel’ , se estableció una zona de vigilancia por efectos de tormenta tropical en la costa oeste de Baja California, desde San José de las Palomas hasta la frontera México-Estados Unidos . Además, se mantiene vigilancia en la costa este de Baja California desde la Isla San Luis hasta Puerto Peñasco. 8AM PDT: Tropical Storm watches issued for Southern California and Baja California. For the latest on #Rachel visit https://t.co/NyUGSIGajW pic.twitter.com/zlD5qmBiIh - NHC Pacific (@NHC_Pacific) October 9, 2026 Se prevé que, luego de que impacte sobre territorio mexicano, la tormenta ‘Rachel’ se desplace hacia California, Estados Unidos, donde llegará el lunes por la mañana y también ocasionará lluvias. Por la tarde del lunes, ‘Rachel’ podría llegar a los límites de Nevada y Utah. Evolución de la tormenta tropical ‘Rachel’ en el Pacífico ‘ Rachel ’ evolucionó a huracán de categoría 1 el pasado miércoles de septiembre en aguas del océano Pacífico, apenas un día después de que ‘Polo’ tocara tierra en dos ocasiones en el noroeste de México . El ciclón alcanzó la categoría 2 durante la madrugada, casi un día después de convertirse en huracán categoría 1. Un día después, ‘Rachel’ alcanzó la categoría 3 , tras intensificarse “rápidamente” en su avance frente a las costas del Pacífico mexicano, según informó el Servicio Meteorológico Nacional (SMN). La #TormentaTropical #Rachel se localiza esta mañana mil 505 km al oeste de Cabo San Lucas, #BajaCaliforniaSur . Por le momento no genera efectos en #México , pero se prevé que se desplace con dirección a la #PenínsulaDeBajaCalifornia . Los detalles, en la imagen pic.twitter.com/PcCWawdksw - CONAGUA Clima (@conagua_clima) October 9, 2026 Para el sábado, se debilitó y volvió a ser un huracán de categoría 1; sin embargo, sí llegó a provocar lluvias muy fuertes, fuertes rachas de viento y oleaje elevado en Baja California Sur. ¿Cómo el huracán ‘Simón’? Mientras ‘Rachel ’ avanza, ya como una tormenta tropical en el Pacífico, un poco más lejos, ‘Simón’ se intensificó a huracán y amenaza las costas de Jalisco y Nayarit. ‘ Simón’ se intensificó este viernes a huracán categoría 2 frente a las costas del Pacífico mexicano, mientras mantiene su avance hacia el occidente del país. Se prevé que impacte como huracán de categoría 4 cerca de Puerto Vallarta y continúe su avance por Nayarit.","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/estados/2026/10/09/rachel-toma-segundo-aire-en-el-pacifico-entrara-como-tormenta-a-baja-california-y-se-ira-a-eu/?utm_source=lootura.com","publishedAt":"2026-10-09T19:18:40.000Z"},{"title":"México o Estados Unidos: la pregunta equivocada","summary":"Durante años hemos discutido México y Estados Unidos como si fueran dos decisiones distintas. ¿Dónde invertir? ¿Dónde crecer? ¿De qué lado están las mejores oportunidades? Cada vez parece una pregunta peor planteada. No porque los mercados sean iguales, no lo son, sino porque las oportunidades más interesantes están apareciendo justo en la relación entre los dos. Quien opera en ambos países lo nota: lo que pasa en Estados Unidos ayuda a anticipar movimientos en México, y buena parte de lo que ocurre en México responde a necesidades que se están generando del otro lado de la frontera. La infraestructura industrial ofrece un buen ejemplo. El crecimiento de industrias vinculadas con tecnología e inteligencia artificial está aumentando la demanda de infraestructura especializada: energía, servidores, sistemas de enfriamiento y espacios capaces de soportar operaciones más exigentes. En Tijuana, una operación que se anunció hace unos días con Daikin Applied Americas comprende más de 705 mil pies cuadrados de infraestructura industrial y cerca de 800 mil pies cuadrados adicionales de terreno. Y aquí lo interesante no es el tamaño, es lo que revela. El crecimiento de la inteligencia artificial suele discutirse como un fenómeno digital, pero detrás hay necesidades muy físicas. Las empresas ya no buscan únicamente metros cuadrados; necesitan espacios hechos a la medida de lo que operan. En Estados Unidos pueden encontrarse oportunidades bajo una lógica distinta. En Florida, la adquisición reciente de un multifamily de 156 unidades en Aventura parte de una tesis casi opuesta: no desarrollar, sino transformar un activo que ya existe, mejorarlo operativamente y generar valor en el largo plazo. Son dos operaciones que no se parecen en nada. Y ése es exactamente el punto. Ser cross-border no significa replicar una fórmula de un país en otro. Significa entender qué permite cada mercado, dónde está la demanda real y qué tipo de ejecución exige cada oportunidad. Por eso preguntar si hoy conviene más invertir en México o en Estados Unidos se queda corto. Depende del activo, del sector, del momento y, sobre todo, de la capacidad de ejecutar. Una buena oportunidad en papel no necesariamente es un buen negocio. El capital ayuda, pero no sustituye el conocimiento del mercado, los socios correctos, equipos capaces de ejecutar ni la paciencia para esperar. Todavía se habla de “empresarios mexicanos que se van a Estados Unidos” como si fuera una renuncia, y de “capital americano que llega a México” como si fuera un favor. Las dos lecturas parten de la misma pregunta equivocada. Los próximos veinte años en Norteamérica no van a ser de los operadores mexicanos ni de los operadores americanos. Van a ser de los cross-border. Operar los dos lados da un pulso que ninguno de los dos ofrece por separado, y eso es más útil que seguir preguntándonos de qué lado de la frontera está la oportunidad.","source":"El Financiero","author":"Iser Rabinovitz","category":"business","url":"https://www.elfinanciero.com.mx/opinion/colaborador-invitado/2026/10/09/mexico-o-estados-unidos-la-pregunta-equivocada/?utm_source=lootura.com","publishedAt":"2026-10-09T14:39:33.000Z"},{"title":"¡Verstappen despierta y gana la pole! ‘Checo’ sobrevive: Parrilla de salida Sprint del GP de Singapur","summary":"La temporada 2026 de Fórmula 1 se acerca a su recta final y Max Verstappen vuelve a dar señales de recuperación. El neerlandés conquistó la pole position para la carrera sprint del Gran Premio de Singapur , con lo que reafirma la buena racha que comenzó la semana pasada, cuando ganó el GP de Baréin disputado en Malasia . El resultado contrasta Andrea Kimi Antonelli, líder del campeonato de pilotos , no encontró la velocidad necesaria para pelear por los primeros puestos y arrancará desde la séptima posición. George Russell, su compañero y segundo en el Mundial, partirá desde el segundo lugar. Para Sergio ‘Checo’ Pérez, la clasificación tuvo un momento complicado. El mexicano perdió el control de su Cadillac en la curva 4, impactó contra las barreras y provocó la única bandera roja de la sesión . Aunque el equipo cambió su alerón delantero y pudo regresar a la pista, el piloto quedó eliminado en la primera ronda y largará desde la vigésima posición. Parrilla de salida Sprint del GP de Singapur: ¿Cómo le fue a ‘Checo’ Pérez? ‘Checo’ Pérez protagonizó uno de los incidentes de la clasificación sprint en Marina Bay . El piloto mexicano no logró completar el paso por la curva 4 y su Cadillac terminó contra las barreras de seguridad. El impacto dañó el alerón delantero y obligó a detener la sesión con bandera roja. Tras las reparaciones, el mexicano volvió al circuito, pero no consiguió mejorar lo suficiente para avanzar a la siguiente ronda. Terminó en el vigésimo puesto, por lo que deberá remontar desde el fondo en una carrera corta en la que solo los ocho primeros suman puntos. Mientras Cadillac trabajaba en el monoplaza de Pérez, la lucha por la pole fue cambiando de manos. En la segunda ronda, Charles Leclerc colocó a Ferrari en la cima, por delante de Lewis Hamilton. Ya en la fase definitiva, Lando Norris y Oscar Piastri marcaron el ritmo inicial para McLaren, pero el monegasco volvió a tomar la primera posición con una vuelta de 1:31.568. Verstappen guardó su mejor intento para el cierre. Con neumáticos blandos, el piloto de Red Bull registró 1:31.156 , suficiente para quedarse con la pole de la Sprint . Russell terminó segundo, a 120 milésimas, mientras Leclerc completó los tres primeros lugares. Max Verstappen (Red Bull)* George Russell (Mercedes) Charles Leclerc (Ferrari) Oscar Piastri (McLaren) Lando Norris (McLaren) Lewis Hamilton (Ferrari) Kimi Antonelli (Mercedes) Liam Lawson (RB) Isack Hadjar (Red Bull) Pierre Gasly (Alpine) Franco Colapinto (Alpine) Nico Hülkenberg (Sauber) Oliver Bearman (Haas) Gabriel Bortoleto (Sauber) Fernando Alonso (Aston Martin) Esteban Ocon (Haas) Arvid Lindblad (Racing Bulls) Lance Stroll (Aston Martin) Alexander Albon (Williams) Sergio Pérez (Cadillac) Valtteri Bottas (Cadillac) Carlos Sainz (Williams) *Max Verstappen se encuentra bajo investigación por una presunta infracción cuando había banderas amarillas, por lo que su posición podría cambiar* View this post on Instagram Sprint del GP de Singapur: ¿Cuándo y a qué hora ver desde México? La carrera sprint se celebrará el sábado 10 de octubre y tendrá una distancia de 21 vueltas. Esta prueba reparte puntos entre los ocho primeros lugares y al igual que la qualy, se podrá ver durante la madrugada. Fecha: sábado 10 de octubre de 2026. Hora: 3:00 horas, tiempo del centro de México. Transmisión en México: F1 TV, Izzi y Sky. La sprint será una de las primeras oportunidades del fin de semana para modificar la tabla del campeonato. A ntonelli suma 320 puntos , frente a los 236 de Russell y los 214 de Hamilton. El italiano tiene, por tanto, 84 unidades de ventaja sobre su compañero de Mercedes y 106 respecto al británico de Ferrari. Después de la sprint, los pilotos volverán a la pista el sábado para disputar la clasificación para la carrera del domingo, programada a las 7:00 horas de México. La carrera principal se celebrará el domingo 11 de octubre a las 6:00 horas y tendrá 62 vueltas. ¿Cómo es el Circuito Urbano Marina Bay? El circuito de Marina Bay exige precisión durante toda la vuelta. El trazado tiene una longitud de 4.927 kilómetros y cuenta con 19 curvas, siete de ellas a la derecha. Su configuración urbana deja poco margen para corregir errores, una característica que vuelve especialmente importante mantener el control del monoplaza en cada sector. A diferencia de los circuitos con amplias zonas de escape, en Singapur los pilotos encuentran menos espacio para recuperarse de una mala maniobra. La cercanía de las barreras y las dificultades para adelantar pueden complicar las carreras cuando un competidor queda atrapado detrás de otro coche. Las condiciones meteorológicas también pueden influir en el desarrollo del fin de semana. Existe la posibilidad de lluvia y tormentas eléctricas, por lo que los equipos deberán considerar los cambios en el clima al preparar sus estrategias. En una pista donde el margen de error es reducido, el estado del asfalto puede modificar el comportamiento de los neumáticos y las decisiones durante la carrera. Marina Bay también tiene antecedentes importantes para los pilotos hispanohablantes. Fernando Alonso ganó el Gran Premio de Singapur en 2008 y 2010; Carlos Sainz lo hizo en 2023, y Sergio ‘Checo’ Pérez consiguió la victoria en 2022 . En esta temporada, el mexicano compite con Cadillac y todavía busca sumar sus primeros puntos con la escudería. Welcome to Singapore! 🇸🇬 It's Media Day at the Marina Bay Street Circuit 🎙️ #F1 #SingaporeGP pic.twitter.com/D6R4gHcEFA - Formula 1 (@F1) October 8, 2026 Con información de EFE.","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/deportes/2026/10/09/f1-qualy-sprint-del-gp-de-de-singapur-2026-en-vivo-como-le-fue-a-checo-perez-y-parrilla-de-salida/?utm_source=lootura.com","publishedAt":"2026-10-09T14:37:48.000Z"},{"title":"Huracán ‘Isaías’ se aleja, mientras ‘Simón’ podría alcanzar categoría 4: ¿Dónde impactará en México?","summary":"El rápido fortalecimiento del huracán ‘Simón’ en el océano Pacífico mantiene en alerta a las autoridades y a la población de varios estados, ya que podría alcanzar la categoría 4 conforme se acerca a las zonas costeras. En contraste, el huracán ‘Isaías’ , que alcanzó la categoría 3 en el golfo de México, continúa alejándose de territorio nacional , por lo que sus efectos en las costas mexicanas disminuirán de forma progresiva. Los efectos de los ciclones ‘Simón’ e ‘Isaías’ se mantendrán durante las próximas horas en gran parte del territorio nacional. ‘Simón’ podría tocar tierra entre Jalisco y Colima A las 06:00 horas (tiempo del centro de México), el huracán ‘Simón’ alcanzaba la categoría 1 en la escala Saffir-Simpson, pero las proyecciones sugieren que impactará entre Jalisco y Colima este fin de semana . Se localizó aproximadamente a 345 kilómetros al sur de Manzanillo, Colima , y a 515 kilómetros al sur-sureste de Cabo Corrientes, Jalisco , con vientos máximos sostenidos de 150 km/h, rachas de hasta 185 km/h y un desplazamiento hacia el noroeste a 7 km/h. #Lluvias fuertes, #Oleaje elevado y fuertes #Rachas de #Viento se presentarán en el occidente, sur y sureste del territorio nacional. Mas información ⬇️ pic.twitter.com/qL3VcKlBmp - CONAGUA Clima (@conagua_clima) October 9, 2026 De acuerdo con el Servicio Meteorológico Nacional (SMN) de la Conagua, el ciclón mantendrá una rápida intensificación durante las próximas horas hasta convertirse en un huracán mayor durante su aproximación al país, con una posible categoría 4 . “Estaremos dando seguimiento a este huracán que seguramente podrá ingresar al territorio nacional en las inmediaciones de Jalisco y Colima , llegando a ser un huracán de categoría mayor. Todavía no se puede determinar si el ingreso a nuestras costas pueda ser de categoría tres o cuatro”, dijo Laura Velázquez, coordinadora nacional de Protección Civil. La circulación de ‘Simón’ provocará condiciones meteorológicas adversas en diversos estados del Pacífico mexicano. ¿En qué estados lloverá por el paso de ‘Simón’? Guerrero y Michoacán: Se pronostican lluvias torrenciales en las regiones costeras y del oeste de Guerrero, así como en la costa y el este de Michoacán. Colima: Se prevén lluvias intensas y oleaje de 2.5 a 3.5 metros. Jalisco: Se esperan lluvias muy fuertes en el este y sur del estado, además de oleaje de 1.5 a 2.5 metros. En este contexto, se mantienen zonas de vigilancia desde Punta San Telmo, Michoacán, hasta Punta Mita, Nayarit, por efectos de vientos de huracán. Mientras que desde Punta San Telmo hasta Lázaro Cárdenas, Michoacán, se mantiene vigilancia por efectos de vientos de tormenta tropical. ‘Isaías’ alcanza categoría 3, pero lejos de México En el golfo de México, el huracán ‘Isaías’ se intensificó a categoría 3 a las 06:20 horas. Sin embargo, la trayectoria del sistema muestra un desplazamiento constante fuera del país , por lo que de forma paulatina dejará de generar afectaciones en las costas nacionales. Se exhorta a la ciudadanía de los estados con pronóstico de lluvias y oleaje a extremar precauciones y dar seguimiento a los avisos oficiales emitidos por las autoridades.","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/estados/2026/10/09/huracan-simon-e-isaias-en-vivo-donde-estan-y-cual-es-su-trayectoria-hoy-9-de-octubre/?utm_source=lootura.com","publishedAt":"2026-10-09T14:37:17.000Z"},{"title":"Sheinbaum ‘lee la cartilla’ a empresas de redes sociales: Este es el plan contra contenidos violentos","summary":"La presidenta Claudia Sheinbaum encabeza su conferencia ‘mañanera’ de este viernes 9 de octubre desde Palacio Nacional, donde se prevé que la mandataria sea cuestionada sobre las nuevas declaraciones de Sara Carter, zar antidrogas de EU, quien reiteró que van contra los cárteles de la droga . Carter advirtió que la Administración de Donald Trump también se asegurará de que los ‘ cómplices’ de los cárteles de la droga paguen las consecuencias. “El presidente Trump ha sido muy claro. Si ayudan o son cómplices de los cárteles, si colaboran con organizaciones terroristas , no nos importa si son el gobernador o si son la persona que trabaja en la plaza, en una pequeña tienda. Los encontraremos, iremos por ustedes y nos aseguraremos de que paguen las consecuencias”, advirtió en una entrevista. Sheinbaum presenta plan para prohibir contenidos violentos en redes sociales Luisa María Alcalde, consejera jurídica de la Presidencia, presentó el plan para prohibir los contenidos violentos en redes sociales y entornos digitales. Las plataformas digitales tendrán prohibido mostrar a niñas, niños y adolescentes los siguientes contenidos: Discursos de odio, extremismo. Abuso, explotación o violencia sexual. Violencia en el entorno escolar. Acoso y ciberacoso. Ciberbullying. Conductas ilícitas. Material sexual explícito. Por eso, la principal obligación de las plataformas digitales será garantizar desde su diseño la seguridad y protección de niñas, niños y adolescentes a través de las siguientes acciones: Identificar y retirar cuentas o contenidos que promuevan violencia. Clasificar contenidos por edad . Herramientas de supervisión. Mecanismos para reportar a usuarios o contenidos violentos . Privacidad y seguridad activas de manera predeterminada. Para lograr dicho plan habrá colaboración con instancias de seguridad y procuración de justicia. Además de contar con un punto de contacto. El apoyo a menores será también a través de la línea de la vida al brindar orientación y apoyo psicológico desde el número telefónico 800 911 2000. La presidenta Sheinbaum aseguró que hablará con las empresas de plataformas de redes sociales para publicar el decreto la próxima semana en el Diario Oficial de la Federación (DOF). ‘Reforzarán sistema penitenciario de Sinaloa’: Sheinbaum tras riña en penal de Mazatlán Luego de la riña en un penal de Mazatlán , la presidenta Sheinbaum aseguró que están en contacto con la gobernadora de Sinaloa, Graciela Domínguez, para reforzar el sistema penitenciario en el estado. El enfrentamiento en el penal derivó en disparos de arma de fuego , con saldo de 10 personas muertas, entre ellas un menor de edad. Protección Civil pide a población de Jalisco resguardarse ante el impacto de ‘Simón’ Laura Velázquez, titular de la Coordinación Nacional de Protección Civil (CNPC), llamó a la población de Jalisco a resguardarse ante el impacto del huracán Simón . Protección Civil detalló que la zona del posible impacto del ciclón será el fin de semana en los siguientes municipios de Jalisco: Cihuatlán. La Huerta. Villa Purificación. Tomatlán. Cabo Corrientes. Puerto Vallarta. El huracán Simón podría aproximarse a dichas zonas con una intensidad de categoría 3 o 4. Sheinbaum también llamó a la población de Jalisco y Colima a ir a los refugios ante el paso del ciclón, así como a mantenerse pendientes de los avisos. Evelyn Salgado reporta saldo blanco pese a daños por ‘Simón’ en Acapulco Evelyn Salgado, gobernadora de Guerrero, reportó que hay saldo blanco, pero con daños por la presencia del huracán Simón frente a las costas de Acapulco, Guerrero. La mandataria estatal aseguró que se reducen las inundaciones en el puerto tras las fuertes lluvias que anegaron viviendas, locales y vehículos. Por las tormentas también hubo afectaciones en el transporte público y se suspendieron clases en Acapulco, la Costa Grande y la Costa Chica. Salgado hizo un llamado a la población de Acapulco a mantenerse pendientes debido a que se prevén lluvias fuertes a torrenciales en las próximas horas.","source":"El Financiero","author":"Cristina Hernández","category":"business","url":"https://www.elfinanciero.com.mx/nacional/2026/10/09/claudia-sheinbaum-mananera-temas-hoy-9-de-octubre-de-2026-en-vivo/?utm_source=lootura.com","publishedAt":"2026-10-09T14:33:52.000Z"},{"title":"Habrá sanciones. La pregunta es cuántos y cuándo","summary":"Es cuestión de tiempo. En los siguientes seis meses se incrementará dramáticamente el número de funcionarios, exfuncionarios, empresas, directores ejecutivos y familiares que serán sancionados por el gobierno de Estados Unidos por supuestos vínculos con organizaciones criminales que los vecinos consideran terroristas. Las personas y empresas vinculadas con Morena serán prioridad para el gobierno estadounidense. ¿Esta estrategia forma parte de la injerencia política promovida desde la Casa Blanca para debilitar a uno de los pocos gobiernos de izquierda en el hemisferio? Indudablemente, ya que habría que imaginar que la relación bilateral sería diferente si México fuera gobernado por un presidente mexicano partidario de MAGA. Pero el Talón de Aquiles de la Presidenta y del movimiento de la Cuarta Transformación es la estrategia de “abrazos, no balazos” de Andrés Manuel López Obrador. Esta estrategia de seguridad, promovida por el expresidente de México, facilitó que aumentara aún más el control territorial de peligrosas organizaciones criminales, pero si permitió afianzar el control político de Morena. Inicialmente hubo un debate sobre si los cárteles debían clasificarse como terroristas, pero nadie puede cuestionar la peligrosidad que representan estas organizaciones para la democracia y la integridad física de los mexicanos. Estas organizaciones criminales prosperan y conviven con la clase política y empresarial en México, al punto de que los estadounidenses las consideran una amenaza para su seguridad nacional. El gobierno de México podrá cuestionar a los vecinos por no asumir su corresponsabilidad en el consumo de estupefacientes y el tráfico de armas que fortalecen a los “terroristas” mexicanos. Pero la realidad es que, si el día de mañana se legalizara el consumo de drogas o se redujera dramáticamente el tráfico de armas, no se resolvería la crisis de violencia, extorsiones y desapariciones en México. El problema fundamental para la Presidenta Claudia Sheinbaum es el control territorial de las organizaciones criminales y su vínculo con la clase política a nivel local, estatal y, en algunos casos, con el gobierno federal. En este momento no hay una estrategia clara sobre cómo el gobierno mexicano piensa romper, a largo plazo, este vínculo criminal con gobiernos y empresas. En cambio, el gobierno de Trump tiene una estrategia con impacto a corto plazo: un esquema de sanciones mediante el cual el gobierno de Estados Unidos retira visas, congela cuentas bancarias en Estados Unidos y México, y corta el acceso al sistema financiero. Hasta hace poco, funcionarios y empresarios se sentían intocables bajo el paraguas de protección de Morena y AMLO. El resto de la clase empresarial asumía que no caería en la lista negra porque no cotizaba ni exportaba al país vecino. Estas consideraciones son completamente erróneas y peligrosas. La estrategia cambió dramáticamente: las sanciones de los departamentos del Tesoro, de Justicia y de Estado no se aplican en función del impacto que una empresa o un gobernante corrupto tenga en los intereses estratégicos. Las decisiones sobre quiénes serán sancionados ahora se definen por el apoyo, directo o indirecto, que recibieron o proporcionaron y que fortaleció las capacidades de las organizaciones terroristas en México. Todo indica que el gobierno de México, la clase política y las empresas no entienden lo peligroso y pernicioso que es este esquema de sanciones ante el control que ejercen estas organizaciones criminales. Esta misma semana, la zarina antidrogas aseguró en una entrevista: “El Presidente Trump ha sido muy claro. Si ayudan o son cómplices de los cárteles, si colaboran con organizaciones terroristas, no nos importa si son el gobernador o si son la persona que trabaja en la plaza, en una pequeña tienda. Los encontraremos, iremos por ustedes y nos aseguraremos de que paguen las consecuencias”. También esta semana, la Presidenta continuó respondiendo en la mañanera pregunta sobre investigaciones y sanciones contra empresarios cercanos a familiares del expresidente López Obrador, así como sobre empresas y personas de Baja California incluidas en la lista de sancionados que publicó el Departamento del Tesoro por presuntos vínculos con el Cártel de Sinaloa. Sheinbaum llegó a asegurar que no tenía evidencia de que la empresa de seguridad sancionada, “Inteliproof Efficiente”, hubiera comprometido la seguridad de la Fiscalía General del Estado (FGE). Rumbo a 2027, crecerán las listas de personas, empresas y organizaciones sancionadas por el gobierno de Estados Unidos. Se aproxima la hora de definiciones: ¿Por cuánto tiempo debe la Presidencia continuar “defendiendo”, “justificando” o “exigiendo” pruebas al gobierno estadounidense y asumiendo el desgaste político? O llegó la hora de que cada individuo, empresa o Morena debe dar explicaciones, aclaraciones y asumir su propia defensa ante los medios de comunicación y las autoridades. La Presidenta tiene cosas más importantes que hacer.","source":"El Financiero","author":"Ana María Salazar","category":"business","url":"https://www.elfinanciero.com.mx/opinion/ana-maria-salazar/2026/10/09/habra-sanciones-la-pregunta-es-cuantos-y-cuando/?utm_source=lootura.com","publishedAt":"2026-10-09T14:33:52.000Z"},{"title":"‘El Tanque’, líder regional del CJNG, se queda recluido en El Altiplano: Le dictan prisión preventiva","summary":"Un juez federal dictó prisión preventiva oficiosa contra Iván Cazarín ‘N’, alias ‘El Tanque’ , señalado como presunto operador del Cártel Jalisco Nueva Generación (CJNG), luego de que la Fiscalía General de la República (FGR) le imputara su probable participación en delitos de delincuencia organizada, contra la salud, portación de arma de fuego y posesión de cartuchos de uso exclusivo de las Fuerzas Armadas. Durante la audiencia inicial, el juez de control calificó como legal la detención del presunto integrante del grupo criminal y concedió la medida cautelar solicitada por el Ministerio Público de la Fiscalía Especializada en materia de Delincuencia Organizada (FEMDO) . La defensa de Iván Cazarín ‘N’ solicitó la duplicidad del término constitucional, con el objetivo de contar con más tiempo para preparar sus argumentos y definir su estrategia legal. Por ello, la audiencia continuará el próximo 13 de octubre , fecha en la que se determinará su situación jurídica. Mientras se resuelve su caso, ‘El Tanque’ permanecerá recluido en el Centro Federal de Readaptación Social (Cefereso) número 1, conocido como el Altiplano, en el Estado de México. ¿Quién es ‘El Tanque’, presunto operador del CJNG? Iván Cazarín ‘N’ fue detenido el pasado 6 de octubre en Zapopan, Jalisco , durante un operativo coordinado en el que participaron elementos de la Secretaría de Seguridad y Protección Ciudadana (SSPC), la Secretaría de la Defensa Nacional (Defensa), la Guardia Nacional (GN), el Centro Nacional de Inteligencia (CNI) y la Agencia de Investigación Criminal (AIC). De acuerdo con reportes de inteligencia, ‘El Tanque’ es identificado como un presunto operador del CJNG con influencia en Veracruz, Tabasco, Oaxaca y Puebla. También se le relaciona, de manera presunta, con actividades delictivas como homicidio, extorsión, secuestro , robo de hidrocarburos, lavado de dinero y tráfico de drogas. El caso de Cazarín ‘N’ se suma a su historial de procesos y señalamientos judiciales, en los que ha recurrido a mecanismos legales para combatir las acusaciones en su contra. Incluso, ha sido señalado por presuntos delitos electorales. Con la prisión preventiva oficiosa, el imputado deberá permanecer en reclusión mientras avanza el proceso judicial y se define su situación jurídica, sin que esta medida represente por sí misma una declaración de culpabilidad. Con información de Juan Carlos Huerta y Quadratín","source":"El Financiero","author":"Redacción","category":"business","url":"https://www.elfinanciero.com.mx/estados/2026/10/09/el-tanque-lider-regional-del-cjng-se-queda-recluido-en-el-altiplano-le-dictan-prision-preventiva/?utm_source=lootura.com","publishedAt":"2026-10-09T14:33:16.000Z"},{"title":"Demanda e infraestructura: dos relojes asíncrónicos","summary":"Hay algo que suele pasar inadvertido cuando hablamos de infraestructura, los problemas no siempre aparecen porque falten recursos o porque desconozcamos qué necesitamos construir, sino que a veces surgen porque aquello que necesitamos llega demasiado tarde. Hoy enfrentamos un desafío de esa naturaleza. La demanda y la infraestructura avanzan a velocidades diferentes. Una empresa puede decidir ampliar su planta en cuestión de meses. Un parque industrial puede atraer nuevos inversionistas. Una ciudad puede extender sus zonas habitacionales y comerciales con rapidez. Los centros de datos, la electrificación del transporte y la creciente necesidad de climatización también están impulsando el consumo de electricidad. Sin embargo, construir una línea de transmisión, ampliar una subestación o desarrollar infraestructura de distribución puede requerir años de planeación, autorizaciones, inversión y ejecución. Son dos relojes que no marcan la misma hora. La Agencia Internacional de Energía ha advertido sobre esta brecha temporal. Mientras algunos proyectos de generación y grandes consumidores pueden desarrollarse en periodos relativamente cortos, construir nueva infraestructura de red puede tomar entre cinco y quince años. Además, alrededor del mundo se acumulan proyectos de generación, almacenamiento y grandes cargas que esperan conectarse al sistema eléctrico. El problema, por tanto, no consiste únicamente en producir más electricidad. También necesitamos disponer de la capacidad para transportarla y distribuirla hasta donde se requiere, en el momento oportuno. Esta diferencia de tiempos tiene consecuencias económicas concretas. Una industria puede encontrar trabajadores, financiamiento, terrenos y clientes, pero descubrir que la capacidad eléctrica disponible no permite poner en marcha su proyecto conforme al calendario previsto. Una inversión que se retrasa puede perder competitividad, encarecerse o terminar en otra región. Y las consecuencias no se limitan a las grandes empresas. También alcanzan a los desarrollos habitacionales, los comercios y las ciudades que necesitan ampliar sus servicios para acompañar su crecimiento. La infraestructura eléctrica no es un complemento que pueda incorporarse indefinidamente después, sino que forma parte de las condiciones que hacen posible el desarrollo. Quienes nos dedicamos a la construcción conocemos bien esta lógica. No basta con terminar una obra; es necesario que los sistemas que la hacen funcionar estén disponibles cuando se necesitan. Un edificio puede estar listo, pero sin servicios esenciales no cumple plenamente su propósito. Por eso, la planeación energética debe mirar hacia adelante. No podemos diseñar las redes únicamente para atender la demanda que ya existe; necesitamos anticipar dónde crecerá, qué nuevas actividades económicas aparecerán y cuánta capacidad requerirán. También debemos aprovechar mejor la infraestructura disponible. El almacenamiento con baterías, la gestión inteligente de la demanda y las tecnologías que permiten utilizar con mayor eficiencia las redes existentes pueden ayudar a liberar capacidad y reducir algunas presiones mientras se construyen nuevas instalaciones. Estas soluciones no sustituyen la inversión en redes, pero sí pueden complementarla. La transición energética exige, por tanto, algo más que nuevas fuentes de generación. Requiere coordinación entre la planeación territorial, las decisiones de inversión, el desarrollo industrial y la expansión de la infraestructura. El desafío no es solamente construir más, sino construir a tiempo y en el lugar correcto. Porque cuando la electricidad llega después de que llegó la oportunidad, el costo no es únicamente energético, también es económico y social. En infraestructura, anticiparse no significa construir de más. Significa comprender el futuro antes de que nos alcance.","source":"El Financiero","author":"Raúl Asís Monforte González","category":"business","url":"https://www.elfinanciero.com.mx/opinion/raul-asis-monforte-gonzalez/2026/10/09/demanda-e-infraestructura-dos-relojes-asincronicos/?utm_source=lootura.com","publishedAt":"2026-10-09T14:26:39.000Z"}];
+const isEnglish = false;
+const isJapanese = false;
+const editionIds = ["es","us","za","mx","ar","jp"];
+
+		const root = document.querySelector('[data-signal-words-page]');
+		const form = document.querySelector('[data-signal-words-form]');
+		const input = document.querySelector('[data-signal-words-input]');
+		const termsRoot = document.querySelector('[data-signal-words-terms]');
+		const resultsRoot = document.querySelector('[data-signal-words-results]');
+		const preferencesKey = 'lootura.preferences.v1';
+		const maxWatchingTerms = 20;
+		const isEnglishPage = isEnglish;
+		const isJapanesePage = isJapanese;
+		const defaultCategories = ['politics', 'economy', 'sports', 'ai', 'culture'];
+
+		const escapeHtml = (value) =>
+			String(value || '')
+				.replaceAll('&', '&amp;')
+				.replaceAll('<', '&lt;')
+				.replaceAll('>', '&gt;')
+				.replaceAll('"', '&quot;')
+				.replaceAll("'", '&#039;');
+
+		const normalizeText = (value) =>
+			String(value || '')
+				.normalize('NFD')
+				.replace(/[\u0300-\u036f]/g, '')
+				.toLowerCase();
+
+		const getSearchTokens = (value) =>
+			normalizeText(value).match(/[\p{L}\p{N}]+/gu) || [];
+
+		const doesTextMatchTerm = (text, term) => {
+			const termTokens = getSearchTokens(term);
+			if (!termTokens.length) return false;
+			const textTokens = getSearchTokens(text);
+			return textTokens.some((token, index) =>
+				token === termTokens[0] && termTokens.every((termToken, offset) => textTokens[index + offset] === termToken)
+			);
+		};
+
+		const normalizeTerm = (term) => {
+			const normalizedTerm = String(term || '').replace(/\s+/g, ' ').trim();
+			return normalizedTerm.length >= 2 && normalizedTerm.length <= 40 ? normalizedTerm : '';
+		};
+
+		const readPreferences = () => {
+			try {
+				const value = JSON.parse(localStorage.getItem(preferencesKey) || 'null');
+				if (value && typeof value === 'object' && !Array.isArray(value)) return value;
+			} catch {}
+			return {};
+		};
+
+		const normalizePreferences = (preferences) => {
+			const categoriesByEdition = {};
+			const watchingByEdition = {};
+			for (const edition of editionIds) {
+				categoriesByEdition[edition] = Array.isArray(preferences.categoriesByEdition?.[edition])
+					? preferences.categoriesByEdition[edition]
+					: defaultCategories;
+				watchingByEdition[edition] = Array.isArray(preferences.watchingByEdition?.[edition])
+					? preferences.watchingByEdition[edition]
+					: [];
+			}
+			return {
+				selectedEdition: preferences.selectedEdition || locale,
+				categoriesByEdition,
+				watchingByEdition,
+			};
+		};
+
+		const getWatchingTerms = () => {
+			const preferences = normalizePreferences(readPreferences());
+			const seen = new Set();
+			return (preferences.watchingByEdition[locale] || [])
+				.map(normalizeTerm)
+				.filter((term) => {
+					const key = term.toLowerCase();
+					if (!term || seen.has(key)) return false;
+					seen.add(key);
+					return true;
+				})
+				.slice(0, maxWatchingTerms);
+		};
+
+		const writeWatchingTerms = (terms) => {
+			const preferences = normalizePreferences(readPreferences());
+			preferences.selectedEdition = locale;
+			preferences.watchingByEdition[locale] = terms.slice(0, maxWatchingTerms);
+			localStorage.setItem(preferencesKey, JSON.stringify(preferences));
+			window.dispatchEvent(new CustomEvent('lootura:preferences-updated', { detail: preferences }));
+		};
+
+		const getStorySearchText = (story) =>
+			normalizeText([
+				story.title,
+				story.summary,
+				story.source,
+				story.author,
+				story.category,
+			].join(' '));
+
+		const getMatchesByTerm = (terms) =>
+			terms.map((term) => {
+				const matches = stories
+					.filter((story) => doesTextMatchTerm(getStorySearchText(story), term))
+					.slice(0, 12);
+				return { term, matches };
+			});
+
+		const formatRelative = (value) => {
+			const time = new Date(value || '').getTime();
+			if (!Number.isFinite(time)) return '';
+			const minutes = Math.max(1, Math.round((Date.now() - time) / 60000));
+			if (isJapanesePage) {
+				if (minutes < 60) return `${minutes}分前`;
+				const hours = Math.round(minutes / 60);
+				if (hours < 48) return `${hours}時間前`;
+				const days = Math.round(hours / 24);
+				return `${days}日前`;
+			}
+			if (minutes < 60) return isEnglishPage ? `${minutes}m ago` : `hace ${minutes}min`;
+			const hours = Math.round(minutes / 60);
+			if (hours < 48) return isEnglishPage ? `${hours}h ago` : `hace ${hours}h`;
+			const days = Math.round(hours / 24);
+			return isEnglishPage ? `${days}d ago` : `hace ${days}d`;
+		};
+
+		const render = () => {
+			const terms = getWatchingTerms();
+			const matchesByTerm = getMatchesByTerm(terms);
+			const matchCount = matchesByTerm.reduce((total, group) => total + group.matches.length, 0);
+
+			if (termsRoot instanceof HTMLElement) {
+				termsRoot.innerHTML = terms.length
+					? terms.map((term) => `
+						<button class="inline-flex min-h-10 items-center gap-2 rounded-full border border-neutral-950/10 bg-neutral-950/[0.035] px-3 text-sm font-bold text-neutral-700 transition hover:bg-neutral-950/[0.06] focus:outline-none focus:ring-2 focus:ring-neutral-950/20" type="button" data-signal-word-remove="${escapeHtml(term)}">
+							<span>${escapeHtml(term)}</span>
+							<span aria-hidden="true"><svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></span>
+						</button>
+					`).join('')
+					: `<p class="text-sm font-medium leading-6 text-neutral-500">${isJapanesePage ? 'フォロー中の言葉はまだありません。' : isEnglishPage ? 'No followed words yet.' : 'Aún no sigues palabras.'}</p>`;
+			}
+
+			if (!(resultsRoot instanceof HTMLElement)) return;
+			root?.setAttribute('data-signal-words-match-count', String(matchCount));
+			if (terms.length === 0) {
+				resultsRoot.innerHTML = `<p class="text-sm font-medium leading-6 text-neutral-500">${isJapanesePage ? '言葉を追加すると、一致するリンクがここに出ます。' : isEnglishPage ? 'Add a word to see matching links here.' : 'Añade una palabra para ver enlaces aquí.'}</p>`;
+				return;
+			}
+			if (matchCount === 0) {
+				resultsRoot.innerHTML = `<p class="text-sm font-medium leading-6 text-neutral-500">${isJapanesePage ? '現在のリンクに一致するものはありません。' : isEnglishPage ? 'No current links match your words.' : 'No hay enlaces actuales con tus palabras.'}</p>`;
+				return;
+			}
+			resultsRoot.innerHTML = matchesByTerm
+				.filter((group) => group.matches.length > 0)
+				.map((group) => `
+					<section class="mb-8">
+						<p class="text-sm font-medium uppercase tracking-normal text-neutral-500">${escapeHtml(group.term)}</p>
+						<div class="mt-3 grid border-t border-neutral-950/10">
+							${group.matches.map((match) => `
+								<a class="grid gap-1 border-b border-neutral-950/10 py-4 text-neutral-950 no-underline transition hover:bg-neutral-950/[0.025] focus:outline-none focus:ring-2 focus:ring-neutral-950/20" href="${escapeHtml(match.url)}" target="_blank" rel="noopener noreferrer">
+									<span class="text-[11px] font-bold uppercase tracking-normal text-neutral-400">${escapeHtml([match.source, formatRelative(match.publishedAt)].filter(Boolean).join(' · '))}</span>
+									<strong class="text-lg font-semibold leading-snug text-neutral-950">${escapeHtml(match.title)}</strong>
+								</a>
+							`).join('')}
+						</div>
+					</section>
+				`).join('');
+		};
+
+		form?.addEventListener('submit', (event) => {
+			event.preventDefault();
+			if (!(input instanceof HTMLInputElement)) return;
+			const term = normalizeTerm(input.value);
+			if (!term) return;
+			const terms = getWatchingTerms();
+			const exists = terms.some((existingTerm) => existingTerm.toLowerCase() === term.toLowerCase());
+			if (!exists) writeWatchingTerms([term, ...terms]);
+			input.value = '';
+			render();
+		});
+
+		termsRoot?.addEventListener('click', (event) => {
+			const button = event.target instanceof Element ? event.target.closest('[data-signal-word-remove]') : null;
+			if (!(button instanceof HTMLElement)) return;
+			const term = button.getAttribute('data-signal-word-remove') || '';
+			writeWatchingTerms(getWatchingTerms().filter((item) => item !== term));
+			render();
+		});
+
+		window.addEventListener('storage', render);
+		window.addEventListener('pageshow', render);
+		render();
+	})();</script>  <section class="fixed inset-x-4 bottom-[calc(env(safe-area-inset-bottom,0px)+1rem)] z-[60] mx-auto max-w-sm border border-neutral-200 bg-white p-4 text-neutral-950 shadow-[0_18px_55px_rgba(10,10,10,0.16)] sm:inset-x-auto sm:right-6 sm:max-w-md" data-release-notice hidden role="status" aria-live="polite" aria-hidden="true" data-astro-cid-sckkx6r4> <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-neutral-500" data-release-eyebrow data-astro-cid-sckkx6r4> Nueva versión </p> <h2 class="mt-2 text-xl font-semibold leading-tight text-neutral-950" data-release-title data-astro-cid-sckkx6r4> Hay algo nuevo en Lootura </h2> <p class="mt-2 text-sm leading-6 text-neutral-600" data-release-body data-astro-cid-sckkx6r4> La app se ha actualizado. Puedes seguir leyendo o ver los cambios. </p> <div class="mt-4 flex flex-wrap items-center gap-3" data-astro-cid-sckkx6r4> <button class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" type="button" data-release-refresh hidden data-astro-cid-sckkx6r4> Actualizar </button> <a class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" href="/updates" data-release-updates data-astro-cid-sckkx6r4> Ver novedades </a> <button class="inline-flex min-h-11 items-center justify-center border border-neutral-200 bg-white px-4 text-sm font-semibold text-neutral-700" type="button" data-release-dismiss data-astro-cid-sckkx6r4> Ahora no </button> </div> </section>  <script>(function(){const baseUrl = "/";
+const isProduction = true;
+const currentAppBuild = {"version":"1.13.0","build":1032001};
+
+	const pwaDevOverrideKey = 'lootura:pwa-dev-override';
+	const getIsPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+	const applyPwaRuntime = () => {
+		const isPwaRuntime = Boolean(getIsPwaRuntime());
+		document.documentElement.classList.toggle('pwa-runtime', isPwaRuntime);
+		window.dispatchEvent(new CustomEvent('lootura:pwa-runtime-changed', { detail: { isPwaRuntime } }));
+		return isPwaRuntime;
+	};
+
+	if (!isProduction) {
+		const params = new URLSearchParams(window.location.search);
+		const pwaOverride = params.get('pwa');
+		if (pwaOverride === '1' || pwaOverride === '0') {
+			if (pwaOverride === '1') {
+				sessionStorage.setItem(pwaDevOverrideKey, 'true');
+			} else {
+				sessionStorage.removeItem(pwaDevOverrideKey);
+			}
+			const cleanUrl = new URL(window.location.href);
+			cleanUrl.searchParams.delete('pwa');
+			window.history.replaceState({}, '', cleanUrl);
+		}
+	}
+	applyPwaRuntime();
+
+	if (!isProduction) {
+		const devModeOptions = Array.from(document.querySelectorAll('[data-dev-pwa-mode-option]'));
+		const syncDevModeOptions = () => {
+			const mode = sessionStorage.getItem(pwaDevOverrideKey) === 'true' ? 'pwa' : 'page';
+			devModeOptions.forEach((option) => {
+				option.checked = option.value === mode;
+			});
+		};
+		devModeOptions.forEach((option) => {
+			option.addEventListener('change', () => {
+				if (option.value === 'pwa') {
+					sessionStorage.setItem(pwaDevOverrideKey, 'true');
+				} else {
+					sessionStorage.removeItem(pwaDevOverrideKey);
+				}
+				applyPwaRuntime();
+				syncDevModeOptions();
+			});
+		});
+		syncDevModeOptions();
+	}
+
+	document.documentElement.classList.remove('dark');
+	document.documentElement.style.colorScheme = 'light';
+
+	const getAbsoluteImageUrl = (value) => {
+		try {
+			return new URL(value || '', document.baseURI).href;
+		} catch {
+			return '';
+		}
+	};
+
+	const getImageFallbackCandidates = (image) => [
+		image.dataset.fallbackImage || image.dataset.fallbackBackground || '',
+		image.dataset.finalFallbackImage || '',
+	].filter(Boolean);
+
+	const revealAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		if (!image.matches('[data-app-image], [data-news-image]')) return;
+		image.dataset.loaded = 'true';
+		image.dataset.imageError = 'false';
+	};
+
+	const recoverAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		const candidates = getImageFallbackCandidates(image);
+		const currentUrl = image.currentSrc || image.src || '';
+		const nextFallback = candidates.find((candidate) => {
+			const fallbackUrl = getAbsoluteImageUrl(candidate);
+			return fallbackUrl && fallbackUrl !== currentUrl;
+		});
+
+		if (nextFallback) {
+			image.dataset.imageRecovered = 'true';
+			image.dataset.loaded = 'false';
+			image.src = nextFallback;
+			return;
+		}
+
+		if (image.hasAttribute('data-remove-on-error')) {
+			image.remove();
+			return;
+		}
+
+		image.dataset.imageError = 'true';
+	};
+
+	document.addEventListener('load', (event) => revealAppImage(event.target), true);
+	document.addEventListener('error', (event) => recoverAppImage(event.target), true);
+	for (const image of document.querySelectorAll('img[data-app-image], img[data-news-image]')) {
+		if (!(image instanceof HTMLImageElement) || !image.complete) continue;
+		if (image.naturalWidth > 0) {
+			revealAppImage(image);
+		} else {
+			recoverAppImage(image);
+		}
+	}
+
+	const isLooturaPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+
+	const releaseSeenBuildKey = 'lootura:app-release:last-seen-build';
+	const releaseSeenVersionKey = 'lootura:app-release:last-seen-version';
+	const releaseSnoozedUntilKey = 'lootura:app-release:snoozed-until';
+	const updatesSeenVersionKey = 'lootura:updates:last-seen-version';
+	const releasePendingKey = 'lootura:release-notice:pending';
+	const refreshAtLaunchKey = 'lootura:refresh-at-launch';
+	const releaseNotice = document.querySelector('[data-release-notice]');
+	const releaseEyebrow = releaseNotice?.querySelector('[data-release-eyebrow]');
+	const releaseTitle = releaseNotice?.querySelector('[data-release-title]');
+	const releaseBody = releaseNotice?.querySelector('[data-release-body]');
+	const releaseRefreshButton = releaseNotice?.querySelector('[data-release-refresh]');
+	const releaseUpdatesLink = releaseNotice?.querySelector('[data-release-updates]');
+	const releaseDismissButton = releaseNotice?.querySelector('[data-release-dismiss]');
+	let releaseNoticeTimer = 0;
+	let lastPublishedBuild = null;
+	let isReloadingForUpdate = false;
+
+	const getBuildId = (build) => {
+		const version = String(build?.version || '').trim();
+		const number = Number(build?.build || 0);
+		return version && Number.isFinite(number) && number > 0 ? `${version}:${number}` : '';
+	};
+	const currentBuildId = getBuildId(currentAppBuild);
+	const currentVersion = String(currentAppBuild?.version || '').trim();
+
+	const getLastSeenReleaseVersion = () => {
+		try {
+			const releaseSeenVersion = localStorage.getItem(releaseSeenVersionKey) || '';
+			const updatesSeenVersion = localStorage.getItem(updatesSeenVersionKey) || '';
+			const legacySeenBuild = localStorage.getItem(releaseSeenBuildKey) || '';
+			const legacySeenVersion = legacySeenBuild.includes(':') ? legacySeenBuild.split(':')[0] : '';
+			return releaseSeenVersion || updatesSeenVersion || legacySeenVersion;
+		} catch {
+			return '';
+		}
+	};
+
+	const markReleaseVersionSeen = () => {
+		if (!currentVersion) return;
+		try {
+			localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			localStorage.setItem(updatesSeenVersionKey, currentVersion);
+			localStorage.removeItem(releaseSnoozedUntilKey);
+			sessionStorage.removeItem(releasePendingKey);
+		} catch {}
+	};
+
+	const getNextLocalDayIso = () => {
+		const now = new Date();
+		return new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).toISOString();
+	};
+
+	const snoozeReleaseNoticeUntilTomorrow = () => {
+		try {
+			localStorage.setItem(releaseSnoozedUntilKey, getNextLocalDayIso());
+		} catch {}
+	};
+
+	const isReleaseNoticeSnoozed = () => {
+		try {
+			const snoozedUntil = new Date(localStorage.getItem(releaseSnoozedUntilKey) || '').getTime();
+			return Number.isFinite(snoozedUntil) && snoozedUntil > Date.now();
+		} catch {
+			return false;
+		}
+	};
+
+	const getLocalizedUpdatesPath = () => {
+		const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+		const pathWithoutBase = window.location.pathname.startsWith(normalizedBaseUrl)
+			? window.location.pathname.slice(normalizedBaseUrl.length)
+			: window.location.pathname.replace(/^\//, '');
+		const firstSegment = pathWithoutBase.split('/').filter(Boolean)[0];
+		const locale = firstSegment === 'us' ? 'us' : 'es';
+		return `${normalizedBaseUrl}${locale}/updates`;
+	};
+
+	const rememberPendingRelease = (publishedBuild) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		try {
+			sessionStorage.setItem(
+				releasePendingKey,
+				JSON.stringify({
+					id: publishedBuildId,
+					version: String(publishedBuild?.version || ''),
+					build: Number(publishedBuild?.build || 0),
+				}),
+			);
+		} catch {}
+	};
+
+	const getPendingRelease = () => {
+		try {
+			const pendingRelease = JSON.parse(sessionStorage.getItem(releasePendingKey) || 'null');
+			return pendingRelease?.id === currentBuildId ? pendingRelease : null;
+		} catch {
+			return null;
+		}
+	};
+
+	const isReleaseNoticeBlocked = () =>
+		sessionStorage.getItem(refreshAtLaunchKey) === 'true' ||
+		Boolean(document.querySelector('[data-feed-refresh-overlay][data-visible]')) ||
+		Boolean(document.querySelector('[data-while-you-were-away-card][data-open="true"]')) ||
+		Boolean(document.querySelector('[data-signal-install-nudge]:not([hidden])')) ||
+		Boolean(document.querySelector('[role="dialog"][aria-modal="true"]:not([hidden]):not(.hidden):not([aria-hidden="true"])'));
+
+	const clearServiceWorkerCaches = async () => {
+		if (!window.caches?.keys) return;
+		const keys = await window.caches.keys();
+		await Promise.all(keys.filter((key) => key.startsWith('lootura-')).map((key) => window.caches.delete(key)));
+	};
+
+	const reloadForPublishedBuild = async () => {
+		if (isReloadingForUpdate) return;
+		isReloadingForUpdate = true;
+		try {
+			await clearServiceWorkerCaches();
+		} catch {}
+		window.location.reload();
+	};
+
+	const setReleaseNoticeMode = (mode) => {
+		const isSpanish = document.documentElement.lang?.startsWith('es');
+		const copy = mode === 'update'
+			? {
+					eyebrow: isSpanish ? 'Nueva versión disponible' : 'New version available',
+					title: isSpanish ? 'Actualiza Lootura' : 'Update Lootura',
+					body: isSpanish
+						? 'Hay una versión nueva lista. Actualiza la PWA para cargarla antes de ver las novedades.'
+						: 'A new version is ready. Update the PWA to load it before reading what changed.',
+				}
+			: {
+					eyebrow: isSpanish ? 'Nueva versión' : 'New version',
+					title: isSpanish ? 'Hay algo nuevo en Lootura' : 'Lootura has something new',
+					body: isSpanish
+						? 'La app se ha actualizado. Puedes seguir leyendo o ver los cambios.'
+						: 'The app was updated. Keep reading or see what changed.',
+				};
+
+		if (releaseEyebrow) releaseEyebrow.textContent = copy.eyebrow;
+		if (releaseTitle) releaseTitle.textContent = copy.title;
+		if (releaseBody) releaseBody.textContent = copy.body;
+		if (releaseRefreshButton) releaseRefreshButton.hidden = mode !== 'update';
+		if (releaseUpdatesLink) releaseUpdatesLink.hidden = mode === 'update';
+		if (releaseNotice) releaseNotice.dataset.mode = mode;
+	};
+
+	const hideReleaseNotice = () => {
+		window.clearTimeout(releaseNoticeTimer);
+		if (!releaseNotice) return;
+		releaseNotice.hidden = true;
+		releaseNotice.dataset.visible = 'false';
+		releaseNotice.setAttribute('aria-hidden', 'true');
+	};
+
+	const showReleaseNotice = (mode = 'notes') => {
+		if (!releaseNotice || !currentBuildId || !currentVersion || releaseNotice.dataset.visible === 'true') return;
+
+		if (mode === 'notes') {
+			try {
+				sessionStorage.removeItem(releasePendingKey);
+			} catch {}
+		}
+
+		setReleaseNoticeMode(mode);
+		releaseUpdatesLink?.setAttribute('href', getLocalizedUpdatesPath());
+		releaseNotice.hidden = false;
+		releaseNotice.dataset.visible = 'true';
+		releaseNotice.setAttribute('aria-hidden', 'false');
+		window.umami?.track?.('Show PWA release notice', { version: currentVersion, build: currentBuildId, mode });
+	};
+
+	const maybeShowReleaseNotice = (attempt = 0) => {
+		if (!isProduction || !currentBuildId || !currentVersion) return;
+
+		let lastSeenVersion = '';
+		try {
+			lastSeenVersion = getLastSeenReleaseVersion();
+		} catch {}
+
+		const pendingRelease = getPendingRelease();
+		const hasUnseenVersion = Boolean(lastSeenVersion && lastSeenVersion !== currentVersion);
+		const cameFromPendingRelease = Boolean(pendingRelease && pendingRelease.version === currentVersion);
+		const shouldShowReleaseNotice = cameFromPendingRelease || (hasUnseenVersion && (!pendingRelease || pendingRelease.version === currentVersion));
+
+		if (!lastSeenVersion && !pendingRelease) {
+			try {
+				localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			} catch {}
+			return;
+		}
+
+		if (!shouldShowReleaseNotice) return;
+		if (isReleaseNoticeSnoozed()) return;
+
+		if (!isLooturaPwaRuntime()) {
+			return;
+		}
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseNotice(attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice();
+	};
+
+	const maybeShowReleaseUpdateNotice = (publishedBuild, attempt = 0) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!isProduction || !publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		lastPublishedBuild = publishedBuild;
+		rememberPendingRelease(publishedBuild);
+
+		if (isReleaseNoticeSnoozed()) return;
+		if (!isLooturaPwaRuntime()) return;
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseUpdateNotice(publishedBuild, attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice('update');
+	};
+
+	releaseDismissButton?.addEventListener('click', () => {
+		snoozeReleaseNoticeUntilTomorrow();
+		hideReleaseNotice();
+	});
+	releaseRefreshButton?.addEventListener('click', () => {
+		const publishedBuild = lastPublishedBuild || getPendingRelease();
+		if (publishedBuild) rememberPendingRelease(publishedBuild);
+		reloadForPublishedBuild();
+	});
+	releaseUpdatesLink?.addEventListener('click', () => {
+		markReleaseVersionSeen();
+		hideReleaseNotice();
+	});
+	window.addEventListener('lootura:queue-refreshed', () => {
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+	window.addEventListener('lootura:pwa-runtime-changed', () => maybeShowReleaseNotice());
+	window.addEventListener('pageshow', () => maybeShowReleaseNotice());
+	document.addEventListener('visibilitychange', () => {
+		if (document.visibilityState === 'visible') maybeShowReleaseNotice();
+	});
+
+	const syncLooturaPwaRuntime = () => {
+		document.documentElement.classList.toggle('pwa-runtime', Boolean(isLooturaPwaRuntime()));
+	};
+
+	syncLooturaPwaRuntime();
+	window.addEventListener('appinstalled', syncLooturaPwaRuntime);
+	window.addEventListener('pageshow', syncLooturaPwaRuntime);
+	window.addEventListener('focus', syncLooturaPwaRuntime);
+
+	const detectLooturaClient = () => {
+		const userAgent = navigator.userAgent;
+		const isStandalone = isLooturaPwaRuntime();
+		const userAgentDataPlatform = navigator.userAgentData?.platform || '';
+		const legacyPlatform = navigator.platform || '';
+		const maxTouchPoints = navigator.maxTouchPoints || 0;
+		const platform = (() => {
+			if (/Android/i.test(userAgentDataPlatform) || /Android/i.test(userAgent)) return 'android';
+			if (/iPad|iPhone|iPod/i.test(userAgent) || /iPad|iPhone|iPod/i.test(legacyPlatform)) return 'ios';
+			if (/Mac/i.test(userAgentDataPlatform || legacyPlatform) && maxTouchPoints > 1) return 'ios';
+			return 'desktop';
+		})();
+		const browser = (() => {
+			if (/CriOS/i.test(userAgent)) return 'Chrome iOS';
+			if (/FxiOS/i.test(userAgent)) return 'Firefox iOS';
+			if (/EdgiOS/i.test(userAgent)) return 'Edge iOS';
+			if (/Edg/i.test(userAgent)) return 'Edge';
+			if (/OPR|Opera/i.test(userAgent)) return 'Opera';
+			if (/Chrome|Chromium|CriOS/i.test(userAgent)) return 'Chrome';
+			if (/Safari/i.test(userAgent)) return 'Safari';
+			if (/Firefox/i.test(userAgent)) return 'Firefox';
+			return 'Other';
+		})();
+
+		return {
+			appMode: isStandalone ? 'pwa' : 'browser',
+			platform,
+			browser,
+		};
+	};
+
+	const trackLooturaContext = (attempt = 0) => {
+		if (!window.umami) {
+			if (attempt < 20) window.setTimeout(() => trackLooturaContext(attempt + 1), 250);
+			return;
+		}
+
+		const context = detectLooturaClient();
+		window.looturaClient = context;
+		window.umami.identify?.(context);
+
+		const sessionKey = `lootura:context-tracked:${context.appMode}:${context.platform}:${context.browser}`;
+		if (!sessionStorage.getItem(sessionKey)) {
+			sessionStorage.setItem(sessionKey, 'true');
+			window.umami.track?.('App context', context);
+		}
+	};
+
+	const lockPortraitOrientation = async () => {
+		const orientationApi = screen.orientation;
+		if (!isLooturaPwaRuntime() || !orientationApi?.lock) return;
+
+		try {
+			await orientationApi.lock('portrait-primary');
+		} catch {
+			// iOS Safari and some browsers ignore orientation lock for web apps.
+		}
+	};
+
+	const enforcePortraitOrientation = () => {
+		lockPortraitOrientation();
+
+		window.addEventListener('focus', lockPortraitOrientation);
+		window.addEventListener('pageshow', lockPortraitOrientation);
+		window.addEventListener('orientationchange', lockPortraitOrientation);
+		screen.orientation?.addEventListener?.('change', lockPortraitOrientation);
+		document.addEventListener('visibilitychange', () => {
+			if (document.visibilityState === 'visible') lockPortraitOrientation();
+		});
+	};
+
+	if (!isProduction && 'serviceWorker' in navigator) {
+		navigator.serviceWorker.getRegistrations?.().then((registrations) => {
+			registrations.forEach((registration) => registration.unregister());
+		});
+	}
+
+	if (isProduction && 'serviceWorker' in navigator) {
+		window.addEventListener('load', () => {
+			const reloadForUpdate = () => {
+				if (isReloadingForUpdate) return;
+				isReloadingForUpdate = true;
+				window.location.reload();
+			};
+			const checkPublishedBuild = async () => {
+				try {
+					const response = await fetch(`${baseUrl}app-build.json?ts=${Date.now()}`, {
+						cache: 'no-store',
+						headers: { accept: 'application/json' },
+					});
+					if (!response.ok) return;
+					const publishedBuild = await response.json();
+					const publishedBuildId = getBuildId(publishedBuild);
+					if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+					maybeShowReleaseUpdateNotice(publishedBuild);
+				} catch {
+					// Update checks should never block normal reading.
+				}
+			};
+
+			navigator.serviceWorker.addEventListener('controllerchange', reloadForUpdate);
+
+			navigator.serviceWorker
+				.register(`${baseUrl}sw.js`, { updateViaCache: 'none' })
+				.then((registration) => {
+					const checkForUpdates = () => registration.update().catch(() => {});
+
+					checkForUpdates();
+					checkPublishedBuild();
+					window.setInterval(checkForUpdates, 60_000);
+					window.setInterval(checkPublishedBuild, 60_000);
+					window.addEventListener('focus', checkForUpdates);
+					window.addEventListener('focus', checkPublishedBuild);
+					document.addEventListener('visibilitychange', () => {
+						if (document.visibilityState === 'visible') {
+							checkForUpdates();
+							checkPublishedBuild();
+						}
+					});
+				})
+				.catch(() => {});
+		});
+	}
+
+	window.addEventListener('load', () => {
+		trackLooturaContext();
+		enforcePortraitOrientation();
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+})();</script></body></html>
