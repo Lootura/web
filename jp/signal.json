@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 2,
+  "edition": "jp",
+  "language": "ja",
+  "updatedAt": "2026-10-20T03:22:39.810Z",
+  "pulseLabel": "最新分析 · 2 分前",
+  "ambientPulseLabel": "36,163件のリンクを解析",
+  "dayScanLabel": "24時間で234件のリンクをスキャン",
+  "empty": {
+    "title": "新しい傾向はありません",
+    "body": "最新の分析は完了しました。今は表紙に出すべきものはありません。",
+    "images": [
+      "/empty-signal-radar.svg",
+      "/empty-signal-scan.svg",
+      "/empty-signal-grid.svg",
+      "/empty-signal-quiet.svg"
+    ]
+  },
+  "topAlert": null,
+  "signals": [
+    {
+      "id": "now-cluster-日本-アクセス + 不正アクセス",
+      "title": "「実践的訓練」でサイバー攻撃へ備え 「ふるさとチョイス」「ニフティ」「阪急阪神百貨店」19日も相次ぐサイバー攻撃【news23】",
+      "brief": "「実践的訓練」でサイバー攻撃へ備え 「ふるさとチョイス」「ニフティ」「阪急阪神百貨店」19日も相次ぐサイバー攻撃【news23】.",
+      "whyItMatters": "",
+      "verdict": "次のrunで繰り返されれば、重みが増します。",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "上昇",
+      "strength": 31,
+      "sourceCount": 3,
+      "itemCount": 13,
+      "freshness": "今新しい",
+      "alertLevel": "contained",
+      "alertLabel": "抑制",
+      "alertScore": 99,
+      "alertTriggers": [
+        "複数の情報源に広がる",
+        "急速に増えている",
+        "まだ動いている"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "インプレス",
+        "アイティメディア",
+        "TBSニュース"
+      ],
+      "images": [
+        "https://newsdig.ismcdn.jp/mwimgs/5/5/1200xm/img_559e09944627a66a1edeac32d6a3b0d7217833.jpg",
+        "https://newsdig.ismcdn.jp/mwimgs/1/6/1200xm/img_16553f3569b179ced4a0f80946e1bd58309736.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "「My Softbank」に不正アクセスの試み Webを一時停止",
+          "source": "インプレス",
+          "publishedAt": "2026-10-20T03:22:42.293Z",
+          "sourceUrl": "https://www.watch.impress.co.jp/docs/news/2149441.html?utm_source=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "「ふるさとチョイス」がサービス一時停止 不正アクセスの疑いを検知",
+          "source": "インプレス",
+          "publishedAt": "2026-10-20T03:22:42.293Z",
+          "sourceUrl": "https://www.watch.impress.co.jp/docs/news/2149387.html?utm_source=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "メドレー、不正アクセスで停止中のサービスを作り直して再開へ 従来システムは再稼働させず",
+          "source": "アイティメディア",
+          "publishedAt": "2026-10-20T02:23:28.000Z",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2610/20/2000002413/?utm_source=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "「My SoftBank」サイト停止中 不正アクセスの試み検知 「My Y!mobile」も",
+          "source": "アイティメディア",
+          "publishedAt": "2026-10-20T00:16:09.000Z",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2610/20/2000002410/?utm_source=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "メール配信のユミルリンクに不正アクセス メアドなど約900万件漏えいか",
+          "source": "アイティメディア",
+          "publishedAt": "2026-10-19T23:59:17.000Z",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2610/20/2000002409/?utm_source=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/jp/signal/19-news23"
+    },
+    {
+      "id": "now-cluster-日本-流出 + マスク",
+      "title": "日本郵政「ゆうID」不正ログイン、他社で流出したパスワード使うリスト攻撃か……2段階認証必須に",
+      "brief": "日本郵政「ゆうID」不正ログイン、他社で流出したパスワード使うリスト攻撃か……2段階認証必須に.",
+      "whyItMatters": "",
+      "verdict": "次のrunで繰り返されれば、重みが増します。",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "上昇",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "2時間以内",
+      "alertLevel": "contained",
+      "alertLabel": "抑制",
+      "alertScore": 79,
+      "alertTriggers": [
+        "複数の情報源に広がる",
+        "急速に増えている",
+        "まだ動いている"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "アイティメディア",
+        "ギガジン"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "日本郵政「ゆうID」不正ログイン、他社で流出したパスワード使うリスト攻撃か……2段階認証必須に",
+          "source": "アイティメディア",
+          "publishedAt": "2026-10-20T01:19:34.000Z",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2610/20/2000002412/?utm_source=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "スクエニアカウントに不正ログイン、他社で流出の情報使用か 全アカウントのパスワード強制リセットも視野に",
+          "source": "アイティメディア",
+          "publishedAt": "2026-10-19T09:58:47.000Z",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2610/19/2000002397/?utm_source=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "TikTokがイーロン・マスクのドキュメンタリー映画公式アカウントに対し広告出稿制限をしていたことが判明",
+          "source": "ギガジン",
+          "publishedAt": "2026-10-19T09:56:00.000Z",
+          "sourceUrl": "https://gigazine.net/news/20261019-tiktok-bans-musk-documentary-film-account/?utm_source=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/jp/signal/id-2"
+    },
+    {
+      "id": "now-cluster-日本-ai + 人間",
+      "title": "AIが若手の採用を減らし、ボトルネックは「人間の注意」に アンソロピックで起きた変化",
+      "brief": "AIが若手の採用を減らし、ボトルネックは「人間の注意」に アンソロピックで起きた変化.",
+      "whyItMatters": "",
+      "verdict": "次のrunで繰り返されれば、重みが増します。",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "上昇",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "今新しい",
+      "alertLevel": "contained",
+      "alertLabel": "抑制",
+      "alertScore": 76,
+      "alertTriggers": [
+        "複数の情報源に広がる",
+        "まだ動いている"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "インプレス",
+        "ギガジン"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "AIが若手の採用を減らし、ボトルネックは「人間の注意」に アンソロピックで起きた変化",
+          "source": "インプレス",
+          "publishedAt": "2026-10-20T03:22:42.293Z",
+          "sourceUrl": "https://www.watch.impress.co.jp/docs/news/2149442.html?utm_source=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "AIのベンチマークテストは人間の仕事の1割しかカバーできていない",
+          "source": "ギガジン",
+          "publishedAt": "2026-10-19T11:00:00.000Z",
+          "sourceUrl": "https://gigazine.net/news/20261019-ai-benchmark-mapping/?utm_source=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/jp/signal/ai"
+    },
+    {
+      "id": "now-cluster-日本-トラック + 人死亡",
+      "title": "新名神6人死亡事故 元トラック運転手に拘禁刑7年の判決 津地裁 | 毎日新聞",
+      "brief": "新名神6人死亡事故 元トラック運転手に拘禁刑7年の判決 津地裁 | 毎日新聞.",
+      "whyItMatters": "",
+      "verdict": "次のrunで繰り返されれば、重みが増します。",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "上昇",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "今新しい",
+      "alertLevel": "contained",
+      "alertLabel": "抑制",
+      "alertScore": 76,
+      "alertTriggers": [
+        "複数の情報源に広がる",
+        "まだ動いている"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "毎日新聞",
+        "TBSニュース"
+      ],
+      "images": [
+        "https://cdn.mainichi.jp/vol1/2026/04/10/20260410ddlk24040280000p/0c10.jpg?2",
+        "https://newsdig.ismcdn.jp/mwimgs/2/8/1200xm/img_28d90bff239a3d91faa34855cfc0d1f0539556.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "新名神6人死亡事故 元トラック運転手に拘禁刑7年の判決 津地裁 | 毎日新聞",
+          "source": "毎日新聞",
+          "publishedAt": "2026-10-20T02:55:03.000Z",
+          "sourceUrl": "https://mainichi.jp/articles/20261019/k00/00m/040/260000c?utm_source=lootura.com",
+          "image": "https://cdn.mainichi.jp/vol1/2026/04/10/20260410ddlk24040280000p/0c10.jpg?2"
+        },
+        {
+          "title": "姫路 大型トラック衝突し電柱が折れ信号消える",
+          "source": "TBSニュース",
+          "publishedAt": "2026-10-19T23:03:41.000Z",
+          "sourceUrl": "https://newsdig.tbs.co.jp/articles/-/3023343?utm_source=lootura.com",
+          "image": "https://newsdig.ismcdn.jp/mwimgs/2/8/1200xm/img_28d90bff239a3d91faa34855cfc0d1f0539556.jpg"
+        }
+      ],
+      "path": "/jp/signal/6-7"
+    },
+    {
+      "id": "moving-cluster-日本-pro + apple",
+      "title": "Apple、10月28日にイベント開催へ タッチスクリーン「MacBook Pro」など発表か",
+      "brief": "Apple、10月28日にイベント開催へ タッチスクリーン「MacBook Pro」など発表か.",
+      "whyItMatters": "",
+      "verdict": "次のrunで繰り返されれば、重みが増します。",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "稼働中",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "6時間以内",
+      "alertLevel": "contained",
+      "alertLabel": "抑制",
+      "alertScore": 70,
+      "alertTriggers": [
+        "複数の情報源に広がる",
+        "まだ動いている"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "アイティメディア",
+        "ギズモード・ジャパン"
+      ],
+      "images": [
+        "https://media.loom-app.com/loom/2026/10/19/5815d221-f630-4a03-ac1e-874359ce25d9/original.png?w=1200"
+      ],
+      "evidence": [
+        {
+          "title": "Apple、10月28日にイベント開催へ タッチスクリーン「MacBook Pro」など発表か",
+          "source": "アイティメディア",
+          "publishedAt": "2026-10-19T21:32:03.000Z",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2610/20/2000002404/?utm_source=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "“究極のMacBook Pro”降臨か。Appleが新製品発表イベントを10月29日に開催",
+          "source": "ギズモード・ジャパン",
+          "publishedAt": "2026-10-19T20:45:00.000Z",
+          "sourceUrl": "https://www.gizmodo.jp/article/2610-oled-macbook-pro-apple-event-2026/?utm_source=lootura.com",
+          "image": "https://media.loom-app.com/loom/2026/10/19/5815d221-f630-4a03-ac1e-874359ce25d9/original.png?w=1200"
+        }
+      ],
+      "path": "/jp/signal/apple-10-28-macbook-pro"
+    }
+  ]
+}

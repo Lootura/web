@@ -1,0 +1,875 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-sckkx6r4> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0a0a0a"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Lootura"><meta name="generator" content="Astro v6.1.8"><meta name="robots" content="noindex,nofollow,noarchive"><title>Lootura | Followed words</title><style>
+			html,
+			body {
+				margin: 0;
+				width: 100%;
+				min-height: 100%;
+				background: #0a0a0a;
+				color-scheme: light;
+			}
+		</style><script>(function(){const supportedLocales = ["es","us","za","mx","ar","jp"];
+const editionAliases = {"es":"es","spain":"es","us":"us","usa":"us","united-states":"us","za":"za","south-africa":"za","south_africa":"za","south africa":"za","mx":"mx","mexico":"mx","méxico":"mx","ar":"ar","argentina":"ar","jp":"jp","japan":"jp","japon":"jp","japón":"jp","nihon":"jp","nippon":"jp"};
+
+			(() => {
+				const cleanupVersionKey = 'lootura:storage-cleanup-version';
+				const cleanupVersion = '2026-05-18-editions-config';
+				const maxSeenNewsItems = 600;
+				const seenNewsLifetimeMs = 30 * 24 * 60 * 60 * 1000;
+				const editionPattern = supportedLocales.map((edition) => edition.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+				const allowedEditionIds = new Set(supportedLocales);
+				const booleanKeys = new Set([
+					'lootura:browser-intro-seen',
+					'lootura:editions-promo-seen',
+					'lootura:install-accepted',
+					'lootura:signal:intro-any-seen',
+					'lootura:signal:install-nudge-dismissed:v1',
+					'lootura:signal:install-nudge-ready:v1',
+					'lootura:swipe-hint-seen',
+				]);
+				const numberKeys = new Set([
+					'lootura:signal:browser-open-count:v1',
+					'lootura:signal:install-nudge-dismiss-count:v1',
+				]);
+				const dateKeys = new Set([
+					'lootura:install-gate-action-at',
+					'lootura:install-gate-seen-at',
+					'lootura:last-active-at',
+				]);
+				const allowedExactKeys = new Set([
+					cleanupVersionKey,
+					'lootura.preferences.v1',
+					'lootura:editorial',
+					'lootura:app-release:last-seen-build',
+					'lootura:app-release:last-seen-version',
+					'lootura:app-release:snoozed-until',
+					'lootura:refresh-at-launch',
+					'lootura:seen-news:v1',
+					'lootura:updates:last-seen-version',
+					...booleanKeys,
+					...numberKeys,
+					...dateKeys,
+				]);
+				const allowedPatternKeys = [
+					new RegExp(`^lootura:calm-mode:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:saved-stories:(${editionPattern}):v1$`),
+					new RegExp(`^lootura:signal:intro:v1:(${editionPattern}|global)$`),
+					new RegExp(`^lootura:signal:seen:v1:(${editionPattern}|global)$`),
+				];
+
+				const isValidDate = (value) => Number.isFinite(new Date(value || '').getTime());
+				const removeItem = (key) => localStorage.removeItem(key);
+				const writeJson = (key, value) => localStorage.setItem(key, JSON.stringify(value));
+				const isAllowedLooturaKey = (key) =>
+					allowedExactKeys.has(key) || allowedPatternKeys.some((pattern) => pattern.test(key));
+
+				const compactSeenNews = (key) => {
+					const value = localStorage.getItem(key);
+					const seen = JSON.parse(value || '{}');
+					const now = Date.now();
+					const entries = Array.isArray(seen)
+						? seen.map((id) => [id, now])
+						: Object.entries(seen || {});
+					const compactSeen = Object.fromEntries(
+						entries
+							.map(([id, firstSeenAt]) => [String(id || ''), Number(firstSeenAt)])
+							.filter(
+								([id, firstSeenAt]) =>
+									id &&
+									Number.isFinite(Number(firstSeenAt)) &&
+									now - Number(firstSeenAt) < seenNewsLifetimeMs,
+							)
+							.sort(([, firstSeenAt], [, secondSeenAt]) => Number(secondSeenAt) - Number(firstSeenAt))
+							.slice(0, maxSeenNewsItems),
+					);
+					writeJson(key, compactSeen);
+				};
+
+				try {
+					if (localStorage.getItem(cleanupVersionKey) === cleanupVersion) return;
+
+					for (const key of Object.keys(localStorage)) {
+						if (!key.startsWith('lootura:')) continue;
+
+						try {
+							const value = localStorage.getItem(key) || '';
+							if (!isAllowedLooturaKey(key)) {
+								removeItem(key);
+							} else if (key === 'lootura:editorial' && !allowedEditionIds.has(value)) {
+								removeItem(key);
+							} else if (key === 'lootura:seen-news:v1') {
+								compactSeenNews(key);
+							} else if (booleanKeys.has(key) && value !== 'true') {
+								removeItem(key);
+							} else if (numberKeys.has(key) && !Number.isFinite(Number(value))) {
+								removeItem(key);
+							} else if (dateKeys.has(key) && !isValidDate(value)) {
+								removeItem(key);
+							}
+						} catch {
+							removeItem(key);
+						}
+					}
+
+					localStorage.setItem(cleanupVersionKey, cleanupVersion);
+				} catch {
+					// Storage can be unavailable in restrictive browser modes.
+				}
+			})();
+		})();</script><script type="module">(()=>{const e=window.matchMedia("(display-mode: standalone)").matches||window.matchMedia("(display-mode: fullscreen)").matches||window.matchMedia("(display-mode: minimal-ui)").matches||window.navigator.standalone||document.referrer.startsWith("android-app://")||sessionStorage.getItem("lootura:pwa-dev-override")==="true";document.documentElement.classList.toggle("pwa-runtime",!!e)})();</script><script type="module">document.documentElement.style.colorScheme="light";</script><script defer src="https://cloud.umami.is/script.js" data-website-id="1e408cbd-a16c-43ee-b404-35aa97b38c93"></script><link rel="stylesheet" href="/_astro/Layout.pLW_A2u0.css"></head> <body data-astro-cid-sckkx6r4>  <div data-desktop-landing class="desktop-gate:block hidden relative min-h-svh overflow-hidden bg-neutral-950 text-white opacity-0 transition-opacity duration-300" data-desktop-cover-count="1"> <div class="absolute inset-0"> <div data-desktop-cover-backdrop class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.16),_transparent_38%),linear-gradient(180deg,_rgba(5,5,6,0.08)_0%,_rgba(5,5,6,0.48)_42%,_rgba(5,5,6,0.88)_100%)]"></div> <div data-desktop-cover-card class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.14),transparent_30%),radial-gradient(circle_at_80%_30%,rgba(255,255,255,0.1),transparent_26%),linear-gradient(135deg,#171717_0%,#050505_56%,#101114_100%)]"></div> <div class="absolute inset-0 bg-black/34"></div> <div class="absolute inset-0 bg-gradient-to-b from-black/8 via-black/22 to-black/78"></div> </div> <header class="absolute inset-x-0 top-0 z-20 border-b border-white/10 bg-black/12 backdrop-blur-xl"> <div class="mx-auto flex h-16 w-full items-center gap-4 px-4 sm:px-6 lg:px-8"> <a href="/" class="inline-flex items-center gap-3 text-sm font-semibold uppercase tracking-[0.34em] text-white/92" aria-label="Lootura home"> <span class="h-2.5 w-2.5 rounded-full bg-lime-300 shadow-[0_0_18px_rgba(163,230,53,0.78)]"></span> <span>Lootura</span> </a> <div class="flex-1"></div> <a href="https://atlas.lootura.com" class="inline-flex items-center gap-2 rounded-full border border-white/14 bg-white/8 px-3 py-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.28em] text-white/84 transition hover:border-white/24 hover:bg-white/12 focus:outline-none focus:ring-2 focus:ring-white/30" aria-label="Try Atlas in English" data-desktop-atlas-link>
+Try Atlas
+</a> </div> </header> <main class="relative z-10 flex min-h-svh items-center pb-28 sm:pb-32 lg:pb-36"> <div class="mx-auto w-full max-w-6xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28"> <div class="mx-auto max-w-2xl text-center"> <h1 data-desktop-cover-title class="mx-auto max-w-3xl text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">Real news, gathered into one live cover</h1> <p data-desktop-cover-summary class="mx-auto mt-3 max-w-xl text-sm leading-6 text-white/68 sm:text-base sm:leading-7"> Lootura turns live stories into a quiet, finite read so you can see what is moving without extra noise. </p> </div> </div> </main> <div data-desktop-mobile-banner class="absolute inset-x-0 bottom-5 z-20 px-4 text-center sm:bottom-6 sm:px-6 lg:bottom-8 lg:px-8"> <p class="mx-auto max-w-4xl text-xs font-medium tracking-[0.18em] text-white/55 sm:text-sm lg:text-base"> Open this cover on mobile </p> </div> </div> <script>(function(){const renderedCovers = [{"id":"lootura-us-fallback","title":"Lootura","summary":"Live cover","image":""}];
+
+	const root = document.querySelector('[data-desktop-landing]');
+	if (!root) {
+		return;
+	}
+
+	const cards = Array.from(root.querySelectorAll('[data-desktop-cover-card]'));
+	const backdrop = root.querySelector('[data-desktop-cover-backdrop]');
+	const lastCoverIndexKey = 'lootura:desktop:last-cover-index';
+
+	const applyCover = (index) => {
+		const safeIndex = Number.isFinite(index) && index >= 0 && index < renderedCovers.length ? index : 0;
+		const cover = renderedCovers[safeIndex] || renderedCovers[0];
+
+		cards.forEach((card, cardIndex) => {
+			card.hidden = cardIndex !== safeIndex;
+		});
+
+		if (backdrop) {
+			backdrop.dataset.desktopCoverImage = cover?.image || '';
+		}
+
+		try {
+			sessionStorage.setItem(lastCoverIndexKey, String(safeIndex));
+		} catch {}
+	};
+
+	const pickRandomCoverIndex = () => {
+		if (cards.length <= 1) return 0;
+
+		let lastIndex = -1;
+		try {
+			lastIndex = Number.parseInt(sessionStorage.getItem(lastCoverIndexKey) || '', 10);
+		} catch {}
+
+		const candidates = cards.map((_, index) => index).filter((index) => index !== lastIndex);
+		const pool = candidates.length > 0 ? candidates : cards.map((_, index) => index);
+		const randomValue = window.crypto?.getRandomValues ? window.crypto.getRandomValues(new Uint32Array(1))[0] : Math.floor(Math.random() * Number.MAX_SAFE_INTEGER);
+		return pool[randomValue % pool.length];
+	};
+
+	applyCover(pickRandomCoverIndex());
+
+	root.classList.add('opacity-100');
+})();</script> <main class="min-h-svh bg-white text-neutral-950 desktop-gate:hidden" data-signal-words-page data-signal-words-locale="us"> <header class="safe-top-header sticky top-0 z-50 border-b border-neutral-950/10 bg-white/78 px-4 backdrop-blur-md sm:px-6 dark:border-white/10 dark:bg-neutral-950/78"> <div class="mx-auto flex h-16 w-full items-center gap-4 max-w-3xl"> <a class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-neutral-950 transition hover:bg-neutral-950/6 focus:outline-none focus:ring-2 focus:ring-neutral-950" href="/us/signal/" aria-label="Back to Signal" data-signal-words-back> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="lucide lucide-arrow-left"> <path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path>  </svg> </a> <p class="min-w-0 flex-1 truncate text-center text-sm font-medium uppercase tracking-normal text-neutral-500 dark:text-white/48" data-page-topbar-title>Followed words</p> <div class="flex items-center gap-2"> <span class="h-10 w-10 shrink-0" aria-hidden="true"></span>  </div> </div> </header> <section class="mx-auto w-full max-w-3xl px-6 pb-16 sm:px-8 lg:px-10"> <header class="sticky top-[calc(env(safe-area-inset-top,0px)+4rem)] z-20 -mx-6 border-b border-neutral-950/10 bg-white/92 px-6 pb-5 pt-7 backdrop-blur-md sm:-mx-8 sm:px-8 lg:-mx-10 lg:px-10" data-signal-words-headline> <div class="max-w-2xl"> <p class="text-sm font-medium uppercase tracking-normal text-neutral-500">Watching</p> <h1 class="mt-3 text-3xl font-semibold leading-tight text-neutral-950 sm:text-4xl">Words with links.</h1> <p class="mt-3 text-base font-semibold leading-7 text-neutral-800 sm:text-lg"> Add topics and Lootura will surface matching headlines from the current cover feed. </p> </div> </header> <form class="mt-8 grid grid-cols-[1fr_auto] gap-2" data-signal-words-form> <input class="min-h-12 min-w-0 rounded-full border border-neutral-950/12 bg-neutral-950/[0.03] px-4 text-base font-medium text-neutral-950 outline-none placeholder:text-neutral-400 focus:border-neutral-950/36 focus:ring-2 focus:ring-neutral-950/12" type="text" name="term" autocomplete="off" placeholder="Word or topic" data-signal-words-input> <button class="inline-flex min-h-12 items-center justify-center rounded-full bg-neutral-950 px-5 text-sm font-bold text-white transition hover:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-neutral-950" type="submit"> Add </button> </form> <div class="mt-6 flex flex-wrap gap-2" data-signal-words-terms></div> <section class="mt-8 border-t border-neutral-950/10 pt-6" data-signal-words-results></section> </section> </main> <script>(function(){const locale = "us";
+const stories = [{"title":"Daily fragment: UNESCO","summary":"The general conference of the United Nations Educational, Scientific and Cultural Organization (UNESCO) passes the Convention on the Protection and Promotion of the Diversity of Cultural Expressions.","source":"Lootura Daily","author":"","category":"history","url":"https://en.wikipedia.org/wiki/UNESCO?utm_source=lootura.com","publishedAt":"2026-10-20T04:00:00.000Z"},{"title":"Trump Golf Course Dispute Sparks Clash Between Judge and DOJ","summary":"Government attorneys sparred with Judge Ana C. Reyes over testimony by several government witnesses about the chain of decisions surrounding East Potomac Golf Links.","source":"The New York Times","author":"Zach Montague","category":"general","url":"https://www.nytimes.com/2026/10/19/us/politics/trump-washington-golf-course.html?utm_source=lootura.com","publishedAt":"2026-10-19T23:24:54.000Z"},{"title":"Schools struggle to measure how much AI experiments are helping","summary":"Schools are experimenting with AI, and a lot of them are encountering the same problem: It's hard to measure whether the technology is good or bad for students.","source":"NPR","author":"Lee V. Gaines","category":"general","url":"https://www.npr.org/2026/10/19/nx-s1-5991881/schools-struggle-to-measure-how-much-ai-experiments-are-helping?utm_source=lootura.com","publishedAt":"2026-10-19T20:59:57.000Z"},{"title":"Trump Rallies Red States Amid Fears About G.O.P. Voter Enthusiasm as Midterms Near","summary":"The president’s swing is taking him to states including South Carolina and Kansas that were not seen as competitive just a few months ago.","source":"The New York Times Politics","author":"Emily Davies and Jonathan Swan","category":"politics","url":"https://www.nytimes.com/2026/10/19/us/politics/trump-midterm-rally-red-states.html?utm_source=lootura.com","publishedAt":"2026-10-20T02:37:48.000Z"},{"title":"Why Are There Protests in France?","summary":"France imposed scattered curfews on Monday after weekend protests over living costs and poor school conditions devolved into riots.","source":"The New York Times","author":"Amelia Nierenberg and Catherine Porter","category":"general","url":"https://www.nytimes.com/article/france-student-protests-why.html?utm_source=lootura.com","publishedAt":"2026-10-19T18:59:37.000Z"},{"title":"Melania Trump Announces White House Women’s Health Initiative","summary":"The effort comes as Republicans are struggling to win over female voters two weeks before the midterm elections.","source":"The New York Times Politics","author":"Sheryl Gay Stolberg and Roni Caryn Rabin","category":"politics","url":"https://www.nytimes.com/2026/10/19/us/politics/melania-trump-women-health.html?utm_source=lootura.com","publishedAt":"2026-10-20T01:10:09.000Z"},{"title":"U.S. Citizen Hospitalized After Being Detained by ICE, His Family Says","summary":"The police in Long Beach, Calif., said they were called by ICE for backup and found a man who was bleeding and handcuffed.","source":"The New York Times","author":"Madison Malone Kircher","category":"general","url":"https://www.nytimes.com/2026/10/19/us/ice-hospitalization-us-citizen.html?utm_source=lootura.com","publishedAt":"2026-10-19T18:40:00.000Z"},{"title":"Trump’s Push for Deals With Russia Powers His Frustration With Ukraine","summary":"The series of recent steps by the president that seem to favor Vladimir Putin reflect his intensifying desire to normalize the relationship with Moscow even if it means further undercutting Ukraine.","source":"The New York Times Politics","author":"David E. Sanger","category":"politics","url":"https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html?utm_source=lootura.com","publishedAt":"2026-10-20T01:00:18.000Z"},{"title":"Zelenskyy says Russia hit Ukraine again with no \"warning from partners,\" U.S. delaying \"vital supplies\"","summary":"Ukraine's leader rejects Trump's accusations, says Putin is refusing peace, not him, and the U.S. military is delaying \"vital supplies.\"","source":"CBS News","author":"Mariia Kashchenko","category":"general","url":"https://www.cbsnews.com/news/russia-ukraine-war-zelenskyy-trump-putin-strikes-no-intelligence/?utm_source=lootura.com","publishedAt":"2026-10-20T03:16:23.000Z"},{"title":"U.N.C. Strikes Trump Deal to Keep Federal Funding","summary":"The University of North Carolina at Chapel Hill will not pay any financial penalties but agreed to abide by the Trump administration’s views on diversity and other matters.","source":"The New York Times Politics","author":"Alan Blinder","category":"politics","url":"https://www.nytimes.com/2026/10/19/us/politics/unc-trump-deal.html?utm_source=lootura.com","publishedAt":"2026-10-19T23:59:20.000Z"},{"title":"France’s Far Right Shifts Into Campaign Mode as Student Riots Erupt Into Violence","summary":"The National Rally, already ahead in the polls, presented itself as the party best placed to restore law and order.","source":"The New York Times","author":"Catherine Porter","category":"general","url":"https://www.nytimes.com/2026/10/19/france-far-right-protests-riots.html?utm_source=lootura.com","publishedAt":"2026-10-19T17:10:34.000Z"},{"title":"Tampa Bay Rays advance to World Series, will face Milwaukee Brewers","summary":"The Tampa Bay Rays will play the Milwaukee Brewers in the 2026 World Series after the Rays defeated the Cleveland Guardians to win the American League Championship Series.","source":"NBC News","author":"Andrew Greif","category":"general","url":"https://www.nbcnews.com/sports/mlb/tampa-bay-rays-world-series-milwaukee-brewers-result-guardians-rcna604268?utm_source=lootura.com","publishedAt":"2026-10-20T03:07:13.000Z"},{"title":"Supreme Court Will Not Revive Plea Deal for Khalid Shaikh Mohammed and 9/11 Defendants","summary":"The justices rejected a request from Khalid Shaikh Mohammed and two others accused of plotting the Sept. 11 attacks, clearing the way for a potential death penalty trial.","source":"The New York Times Politics","author":"Abbie VanSickle","category":"politics","url":"https://www.nytimes.com/2026/10/19/us/politics/supreme-court-plea-deal-sept-11.html?utm_source=lootura.com","publishedAt":"2026-10-19T22:24:08.000Z"},{"title":"California billionaire tax could leave state with less revenue, Stanford study cautions","summary":"A new analysis from Stanford economists cautions that enacting a billionaire tax could have unintended consequences.","source":"CBS News","author":"Aimee Picchi","category":"general","url":"https://www.cbsnews.com/news/california-billionaire-tax-stanford-study/?utm_source=lootura.com","publishedAt":"2026-10-20T02:55:14.000Z"},{"title":"Trump uses antisemitic slur in defending Sen. Roger Marshall at rally in Kansas","summary":"Trump had used the term during a speech last year, leading to backlash. He said at the time that he wasn’t aware of the word’s antisemitic connotations.","source":"NBC News","author":"Raquel Coronell Uribe","category":"general","url":"https://www.nbcnews.com/politics/donald-trump/president-uses-antisemitic-slur-defending-roger-marshall-kansas-rally-rcna604497?utm_source=lootura.com","publishedAt":"2026-10-20T02:08:17.000Z"},{"title":"DOJ charges 28 in California with voting crimes as election tensions escalate","summary":"The DOJ also filed an emergency request in federal court to stop California from processing ballots returned by people on the voter rolls the federal government says are \"likely noncitizens.\" (Image credit: Frederic J. Brown)","source":"NPR Politics","author":"Miles Parks","category":"politics","url":"https://www.npr.org/2026/10/19/nx-s1-6007908/election-tensions-escalate-in-california-as-doj-charges-28-people-with-voting-crimes?utm_source=lootura.com","publishedAt":"2026-10-19T22:10:06.000Z"},{"title":"France vows to crack down after protests spiral out of control","summary":"French officials implemented local curfews Monday and said an \"ultra-left movement\" was behind widespread violence and vandalism amid anti-government protests.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/news/france-riots-protests-macron-vows-order-pm-urges-curfews/?utm_source=lootura.com","publishedAt":"2026-10-20T01:39:50.000Z"},{"title":"Nearly $1M in sports, Pokémon cards stolen from FedEx truck in California","summary":"Thieves made off with nearly $1 million in sports, Pokémon and other trading cards swiped from a FedEx truck in Southern California last week, police said Monday.","source":"NBC News","author":"Austin Mullen","category":"general","url":"https://www.nbcnews.com/news/us-news/sports-pokemon-cards-stolen-fedex-truck-california-rcna604482?utm_source=lootura.com","publishedAt":"2026-10-20T01:36:41.000Z"},{"title":"Judge chastises Trump administration plan to push ahead overhaul of DC golf course","summary":"The Trump administration wants to turn a historic public golf course into championship links. Despite a judge's order, hundreds of trees were cut down to make way for the renovation. (Image credit: Tasos Katopodis)","source":"NPR Politics","author":"Rachel Treisman","category":"politics","url":"https://www.npr.org/2026/10/19/nx-s1-6007746/golf-course-potomac-white-house-tree-removal?utm_source=lootura.com","publishedAt":"2026-10-19T21:56:37.000Z"},{"title":"Vegas tourist who took Peachy the flamingo from hotel exhibit is found guilty of animal cruelty","summary":"Mitchell Fairbarn took the bird from the Flamingo Las Vegas Hotel and Casino and carried it to his room. His lawyer said he was intoxicated and meant no harm.","source":"NBC News","author":"The Associated Press","category":"general","url":"https://www.nbcnews.com/news/animal-news/vegas-tourist-took-peachy-flamingo-hotel-exhibit-found-guilty-animal-c-rcna604494?utm_source=lootura.com","publishedAt":"2026-10-20T00:57:14.000Z"},{"title":"DOJ Charges 28 California Residents With Voting-Related Crimes Amid Trump’s Voter Fraud Push","summary":"The effort by the Trump administration comes as it wages a broader fight with California officials over voter rolls.","source":"The New York Times Politics","author":"Devlin Barrett","category":"politics","url":"https://www.nytimes.com/2026/10/19/us/politics/doj-california-voting-crimes-trump-midterms.html?utm_source=lootura.com","publishedAt":"2026-10-19T21:49:41.000Z"},{"title":"Questions abound as Jalen Hurts likely to miss rest of season due to blood clots, sources say","summary":"League sources tell CBS Philadelphia that Eagles quarterback Jalen Hurts is being sidelined, likely for the rest of the season, after testing revealed deep vein thrombosis and blood clots in his lungs.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/eagles-qb-jalen-hurts-likely-out-for-rest-of-season-due-to-blood-clots-in-lungs/?utm_source=lootura.com","publishedAt":"2026-10-20T00:41:49.000Z"},{"title":"Christiane Amanpour Says She Is Leaving CNN After 43 Years","summary":"The chief international anchor, one of the most famous names in broadcast news, started as an assistant at the network in 1983.","source":"The New York Times Politics","author":"Michael M. Grynbaum","category":"politics","url":"https://www.nytimes.com/2026/10/19/business/media/cnn-christiane-amanpour.html?utm_source=lootura.com","publishedAt":"2026-10-19T21:31:55.000Z"},{"title":"LSU student describes alleged rape by football player, questions university's response","summary":"A criminal investigation is underway a year after a 19-year-old student at Louisiana State University says she was raped by a football player. CBS News' Jericka Duncan reports.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/lsu-student-describes-alleged-rape-on-campus-questions-universitys-response/?utm_source=lootura.com","publishedAt":"2026-10-20T00:26:09.000Z"},{"title":"Republicans Barely Mention Trump in Political Ads Ahead of the Midterms","summary":"Only a small fraction of recent G.O.P. broadcast and streaming ads mention the president, according to a Times analysis of ad data.","source":"The New York Times Politics","author":"Bayliss Wagner","category":"politics","url":"https://www.nytimes.com/2026/10/19/us/politics/trump-midterms-republican-political-ads.html?utm_source=lootura.com","publishedAt":"2026-10-19T20:35:14.000Z"},{"title":"Starshield vs. Starlink: How Ukraine's military use both","summary":"Starshield has become essential for Ukrainian military operations. Jericka Duncan explains what it is and how it's related to Starlink.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/starshield-vs-starlink-how-ukraines-military-use-both/?utm_source=lootura.com","publishedAt":"2026-10-20T00:15:38.000Z"},{"title":"Mahmoud Khalil Appeals to Supreme Court to Halt Deportation","summary":"Mr. Khalil had recently graduated from Columbia when he was arrested by ICE agents and became the face of the Trump administration’s crackdown on pro-Palestinian demonstrations.","source":"The New York Times Politics","author":"Ann E. Marimow","category":"politics","url":"https://www.nytimes.com/2026/10/19/us/politics/supreme-court-mahmoud-khalil-deportation.html?utm_source=lootura.com","publishedAt":"2026-10-19T20:31:52.000Z"},{"title":"Former Amb. William Taylor says Trump needs to put pressure on Putin, not Ukraine","summary":"Ukrainian President Volodymyr Zelenskyy has accused President Trump of not supporting Ukraine, but rather, pressuring them to capitulate to Russia. Former U.S. Ambassador to Ukraine William Taylor joins CBS News to discuss.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/former-amb-william-taylor-says-trump-needs-to-put-pressure-on-putin-not-ukraine/?utm_source=lootura.com","publishedAt":"2026-10-20T00:06:52.000Z"},{"title":"How Did Life Arise? Three Turning Points in Early Evolution","summary":"Where did it start? How did it grow complex? Why did it get big? Three moments in Earth’s early history when evolution suddenly, inexplicably turned up the dial.","source":"The New York Times","author":"William J. Broad, Kenneth Chang and Carl Zimmer","category":"general","url":"https://www.nytimes.com/2026/10/19/science/evolution-life-earth.html?utm_source=lootura.com","publishedAt":"2026-10-19T12:56:26.000Z"},{"title":"Supreme Court to Hear New Case on Race and School Admissions","summary":"The court’s decision to review an admissions policy for selective middle school programs in Maryland follows its rejection of affirmative action in higher education.","source":"The New York Times Politics","author":"Ann E. Marimow and Abbie VanSickle","category":"politics","url":"https://www.nytimes.com/2026/10/19/us/politics/supreme-court-race-school-admissions.html?utm_source=lootura.com","publishedAt":"2026-10-19T18:00:33.000Z"},{"title":"Air Force member dies in rappelling incident at UT San Antonio football game","summary":"A service member was injured and later died after falling while rappelling from the ceiling of the University of Texas at San Antonio football stadium on Saturday.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/news/us-air-force-member-dies-injury-ut-san-antonio-football-stadium/?utm_source=lootura.com","publishedAt":"2026-10-19T23:56:53.000Z"},{"title":"Trump escalates clash with Zelenskyy as Russia continues deadly attacks on Ukraine","summary":"The war of words between President Trump and Ukraine's Volodymyr Zelenskyy reached another fever pitch on Monday. Trump again excoriated the embattled Ukrainian leader, putting more pressure on Zelenskyy than on the man in Moscow who started this war, Vladimir Putin. The president's comments come after the U.S. has limited a key technology that Ukraine relies on. Nick Schifrin reports.","source":"PBS NewsHour","author":"Nick Schifrin","category":"general","url":"https://www.pbs.org/newshour/show/trump-escalates-clash-with-zelenskyy-as-russia-continues-deadly-attacks-on-ukraine?utm_source=lootura.com","publishedAt":"2026-10-19T22:55:00.000Z"},{"title":"Light and mirrors move large quantum computers closer to reality","summary":"Nature, Published online: 19 October 2026; doi:10.1038/d41586-026-03237-2 Scientists improve photon-collecting device that could be used to connect multiple quantum-computing arrays.","source":"Nature","author":"","category":"science","url":"https://www.nature.com/articles/d41586-026-03237-2?utm_source=lootura.com","publishedAt":"2026-10-20T03:22:22.546Z"},{"title":"U.S. airman identified after death in rappelling incident before college football game","summary":"A ceremony ahead of a football game at the University of Texas at San Antonio went horribly wrong over the weekend when a U.S. airman was killed. CBS News correspondent Cristian Benavides has the latest.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/us-airman-identified-after-death-in-rappelling-incident-before-college-football-game/?utm_source=lootura.com","publishedAt":"2026-10-19T23:55:30.000Z"},{"title":"U.S. must put pressure on Russia so Putin ends the war, Ukrainian official says","summary":"As Ukraine and Russia trade attacks, President Trump has exempted Russia from sanctions, widening his rift with Ukrainian President Zelenskyy. To discuss the latest developments, Geoff Bennett spoke with Denys Sienik, Ukraine's Deputy Ambassador to the U.S.","source":"PBS NewsHour","author":"Geoff Bennett","category":"general","url":"https://www.pbs.org/newshour/show/u-s-must-put-pressure-on-russia-so-putin-ends-the-war-ukrainian-official-says?utm_source=lootura.com","publishedAt":"2026-10-19T22:50:35.000Z"},{"title":"Toxic chemicals in fentanyl revealed by speedy technique","summary":"Nature, Published online: 19 October 2026; doi:10.1038/d41586-026-03317-3 Chemical fingerprinting charts the rises and declines of specific adulterants in illicit supplies of the drug.","source":"Nature","author":"","category":"science","url":"https://www.nature.com/articles/d41586-026-03317-3?utm_source=lootura.com","publishedAt":"2026-10-20T03:22:22.546Z"},{"title":"Zelenskyy says Trump is on wrong side of history after dealings with Russia","summary":"Ukrainian President Volodymyr Zelenskyy says he received no warnings ahead of Russia's overnight missile and drone strikes. Zelenskyy has accused the U.S. of limiting intelligence. CBS News' Charlie D'Agata has more.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/zelenskyy-says-trump-is-on-wrong-side-of-history-after-dealings-with-russia/?utm_source=lootura.com","publishedAt":"2026-10-19T23:06:03.000Z"},{"title":"French authorities impose curfews after weekend rioting","summary":"Curfews are in effect in parts of Paris and other French cities as authorities try to restore order following widespread rioting this weekend. Government officials have acknowledged \"failures\" in their handling of the unrest and say an investigation is underway to track down those responsible. Special correspondent Ross Cullen reports from Paris.","source":"PBS NewsHour","author":"Ross Cullen","category":"general","url":"https://www.pbs.org/newshour/show/french-authorities-impose-curfews-after-weekend-rioting?utm_source=lootura.com","publishedAt":"2026-10-19T22:45:22.000Z"},{"title":"Audio long read: How to stay smart in the age of AI — the science of critical thinking","summary":"Nature, Published online: 19 October 2026; doi:10.1038/d41586-026-03228-3 Although worries are growing about AI's potential to blunt reasoning skills, research has uncovered ways to keep the brain sharp.","source":"Nature","author":"Helen Pearson","category":"science","url":"https://www.nature.com/articles/d41586-026-03228-3?utm_source=lootura.com","publishedAt":"2026-10-20T03:22:22.546Z"},{"title":"Early voting begins in Texas as Trump campaigns in Kansas amid tight Senate race","summary":"President Trump is traveling to Kansas Monday to campaign for Republican Roger Hamilton. Hamilton is locked in a close Senate race with Democrat Adam Hamilton. CBS News' Katrina Kaufman reports.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/early-voting-begins-in-texas-as-trump-campaigns-in-kansas-where-senate-race/?utm_source=lootura.com","publishedAt":"2026-10-19T22:46:07.000Z"},{"title":"News Wrap: Federal judge clashes with DOJ over D.C. golf course","summary":"In our news wrap Monday, a federal judge clashed with Justice Department lawyers in the latest legal standoff over the fate of a Washington, D.C. golf course, the Supreme Court will review a Reconstruction-era ban on home distilleries and Israeli authorities say they've arrested at least ten people in connection with recent settler attacks in the occupied West Bank.","source":"PBS NewsHour","author":"","category":"general","url":"https://www.pbs.org/newshour/show/news-wrap-federal-judge-clashes-with-doj-over-d-c-golf-course?utm_source=lootura.com","publishedAt":"2026-10-19T22:40:37.000Z"},{"title":"US government probe into postdoc visas worries scientists","summary":"Nature, Published online: 19 October 2026; doi:10.1038/d41586-026-03345-z The administration says that the universities being investigated are using the visas to undercut wages for US nationals, but researchers say that restricting international applications could harm science.","source":"Nature","author":"Nicola Jones","category":"science","url":"https://www.nature.com/articles/d41586-026-03345-z?utm_source=lootura.com","publishedAt":"2026-10-20T03:22:22.546Z"},{"title":"Transcript: Rep. Mike Turner on \"Face the Nation with Margaret Brennan,\" Oct. 18, 2026","summary":"The following is the transcript of the interview with Rep. Mike Turner, Republican of Ohio, that aired on \"Face the Nation with Margaret Brennan\" on Oct. 18, 2026.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/news/mike-turner-ohio-republican-face-the-nation-transcript-10-18-2026/?utm_source=lootura.com","publishedAt":"2026-10-19T22:39:02.000Z"},{"title":"Ohio becomes midterm battleground after years of Republican wins","summary":"In recent presidential elections, Ohio has become a reliably Republican state. But in this year's midterms, it's once again a battleground. The races for governor and U.S. Senate are both seen as toss-ups by The Cook Political Report, and there are a handful of competitive House districts. Liz Landers reports on how national issues are affecting Ohio voters as they prepare to head to the polls.","source":"PBS NewsHour","author":"Liz Landers","category":"general","url":"https://www.pbs.org/newshour/show/ohio-becomes-midterm-battleground-after-years-of-republican-wins?utm_source=lootura.com","publishedAt":"2026-10-19T22:35:56.000Z"},{"title":"Microdosing LSD shows some cognitive benefits — but only for women","summary":"Nature, Published online: 19 October 2026; doi:10.1038/d41586-026-03265-y Different effects of low-dose psychedelics on sustained attention in women and men deserve further investigation.","source":"Nature","author":"Gemma Conroy","category":"science","url":"https://www.nature.com/articles/d41586-026-03265-y?utm_source=lootura.com","publishedAt":"2026-10-20T03:22:22.546Z"},{"title":"Richard Riehle, character actor best known for ‘Office Space,’ dies at 78","summary":"He racked up more than 400 film and television credits in a screen career spanning more than 40 years.","source":"NBC News","author":"Daniel Arkin","category":"general","url":"https://www.nbcnews.com/pop-culture/pop-culture-news/richard-riehle-office-space-dies-78-rcna604412?utm_source=lootura.com","publishedAt":"2026-10-19T22:31:55.000Z"},{"title":"Dana Bash on the elections that reverberate through time","summary":"\"The Elections That Changed the World,\" a new book by CNN's Dana Bash and writer David Fischer, examines some of the most influential elections throughout history. Bash joins \"The Takeout\" to discuss.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/dana-bash-elections-reverberate-through-time/?utm_source=lootura.com","publishedAt":"2026-10-19T22:31:19.000Z"},{"title":"How pregnancy reshapes the brain throughout life","summary":"Nature, Published online: 19 October 2026; doi:10.1038/d41586-026-03312-8 Neuroscience is mapping changes in the brain during pregnancy. What they mean for future health is yet to be pinned down.","source":"Nature","author":"Liisa Galea","category":"science","url":"https://www.nature.com/articles/d41586-026-03312-8?utm_source=lootura.com","publishedAt":"2026-10-20T03:22:22.546Z"},{"title":"Tamara Keith and Carrie Dann on Trump's approval rating hitting a record low","summary":"NPR's Tamara Keith and Carrie Dann of the Cook Political Report with Amy Walter join Geoff Bennett to discuss the latest political news, including a new poll putting President Trump's approval rating at a record low, the amount of money being spent on Senate races, Trump escalating his feud with Ukraine's president and Trump's attempts to remake Washington.","source":"PBS NewsHour","author":"Geoff Bennett","category":"general","url":"https://www.pbs.org/newshour/show/tamara-keith-and-carrie-dann-on-trumps-approval-rating-hitting-a-record-low?utm_source=lootura.com","publishedAt":"2026-10-19T22:30:45.000Z"},{"title":"Sen. Raphael Warnock calls on Democrats to focus on the South","summary":"Georgia Democratic Sen. Rafael Warnock says his party can win throughout the South, but only with sustained investment in the region. New York Times reporter Ken Vogel and Washington Sun senior editor Dave Levinthal join \"The Takeout\" to discuss.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/raphael-warnock-calls-on-democrats-focus-on-south/?utm_source=lootura.com","publishedAt":"2026-10-19T22:30:16.000Z"},{"title":"Climate scientists face deluge of public-records requests about fossil-fuel studies","summary":"Nature, Published online: 19 October 2026; doi:10.1038/d41586-026-03275-w A Nature investigation identified more than 30 requests since 2024 to US universities in a campaign questioning climate attribution science.","source":"Nature","author":"James Dinneen","category":"science","url":"https://www.nature.com/articles/d41586-026-03275-w?utm_source=lootura.com","publishedAt":"2026-10-20T03:22:22.546Z"},{"title":"Electric aviation takes off as companies seek new era of flight","summary":"Electric aviation is still in the very early stages of its development. But a number of companies are moving forward with more ambitious plans. In contrast to its approach with other forms of electric transportation, the Trump administration seems willing to embrace a bigger rollout. Aviation correspondent Miles O'Brien reports on the promise and the challenges of the budding industry.","source":"PBS NewsHour","author":"Miles O'Brien","category":"general","url":"https://www.pbs.org/newshour/show/electric-aviation-takes-off-as-companies-seek-new-era-of-flight?utm_source=lootura.com","publishedAt":"2026-10-19T22:25:57.000Z"},{"title":"What to know about election security 15 days out from midterms","summary":"With early voting underway, some experts are worried President Trump could attempt to undermine the outcome of the midterm elections. CBS News election law expert and contributor David Becker joins to run through possible scenarios.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/what-to-know-election-security-15-days-midterms/?utm_source=lootura.com","publishedAt":"2026-10-19T22:22:45.000Z"},{"title":"‘Fiercely stubborn’: the US scientists continuing their research amid funding cuts","summary":"Nature, Published online: 19 October 2026; doi:10.1038/d41586-026-03315-5 Researchers working on climate change, diversity, transgender health and international aid have turned to lawsuits, private donors and alternative topics to keep their projects going.","source":"Nature","author":"Virginia Gewin","category":"science","url":"https://www.nature.com/articles/d41586-026-03315-5?utm_source=lootura.com","publishedAt":"2026-10-20T03:22:22.546Z"},{"title":"Ex-OpenAI worker who allegedly planted bug contacted Saudi royal","summary":"The wife and infant son of the ex-OpenAI engineer left the U.S. for Saudi Arabia in October with business-class tickets purchased by a Saudi military official, prosecutors allege.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/news/ex-openai-engineer-recording-device-saudi-royal-family/?utm_source=lootura.com","publishedAt":"2026-10-19T22:21:23.000Z"},{"title":"Arthur Jafa explores complexities of Black American life in new exhibition","summary":"As cultural institutions across the country face growing pressure to avoid issues of race, a major new exhibition is confronting them head-on. The work of artist Arthur Jafa spans two floors of New York's New Museum in his largest exhibition to date. Senior arts correspondent Jeffrey Brown met with Jafa for our arts and culture series, CANVAS.","source":"PBS NewsHour","author":"Jeffrey Brown","category":"general","url":"https://www.pbs.org/newshour/show/arthur-jafa-explores-complexities-of-black-american-life-in-new-exhibition?utm_source=lootura.com","publishedAt":"2026-10-19T22:20:52.000Z"},{"title":"Experienced researchers ‘disrupt’ less than rookie scientists — but their ideas last","summary":"Nature, Published online: 19 October 2026; doi:10.1038/d41586-026-03339-x Researchers have found a link between a scientist’s experience and and whether their ideas have a lasting influence.","source":"Nature","author":"Xiaoying You","category":"science","url":"https://www.nature.com/articles/d41586-026-03339-x?utm_source=lootura.com","publishedAt":"2026-10-20T03:22:22.546Z"},{"title":"France imposes curfews amid violent protests","summary":"France imposed widespread curfews Monday night after anti-government protests descended into riots over the weekend, with extensive damage reported and thousands of arrests. CBS News international reporter Aidan Stretch has the details.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/france-curfews-violent-protests/?utm_source=lootura.com","publishedAt":"2026-10-19T22:20:39.000Z"},{"title":"Remembering Ann Hornaday, film critic and News Hour regular","summary":"Film critic Ann Hornaday has died. As chief film critic for The Washington Post, she was a respected and passionate voice in the world of cinema. She was also a longtime regular on the News Hour, sharing her love of film with our viewers. Senior arts correspondent Jeffrey Brown has our remembrance.","source":"PBS NewsHour","author":"Jeffrey Brown","category":"general","url":"https://www.pbs.org/newshour/show/remembering-ann-hornaday-film-critic-and-news-hour-regular?utm_source=lootura.com","publishedAt":"2026-10-19T22:20:31.000Z"},{"title":"Three reasons why AI is not conscious and perhaps never will be","summary":"Nature, Published online: 19 October 2026; doi:10.1038/d41586-026-03313-7 Large language models can mimic thought and feeling with uncanny skill. But evidence from neuroscience suggests that intelligence alone is not enough for subjective experience.","source":"Nature","author":"Anil K. Seth","category":"science","url":"https://www.nature.com/articles/d41586-026-03313-7?utm_source=lootura.com","publishedAt":"2026-10-20T03:22:22.546Z"},{"title":"Minnesota teen accused of plotting terror attack at Mall of America to remain jailed","summary":"Authorities have said the attack was thwarted by FBI agents after they monitored the 18-year-old for nearly two years and ultimately supplied him with the AK-47 he planned to use.","source":"PBS NewsHour","author":"Ellen Schmidt, Associated Press","category":"general","url":"https://www.pbs.org/newshour/nation/minnesota-teen-accused-of-plotting-terror-attack-at-mall-of-america-to-remain-jailed?utm_source=lootura.com","publishedAt":"2026-10-19T22:18:06.000Z"},{"title":"Expert says Trump is aligning with Russia against Ukraine: \"Evidence is getting pretty overwhelming\"","summary":"Ukrainian President Volodymyr Zelenskyy says he once again received no warnings ahead of Russia's overnight missile and drone strikes. Before those attacks, Zelenskyy accused the U.S. of limiting intelligence sharing. CBS News national security analyst Aaron MacLean joins to discuss.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/expert-trump-aligning-russia-against-ukraine-evidence-pretty-overwhelming/?utm_source=lootura.com","publishedAt":"2026-10-19T22:17:59.000Z"},{"title":"Margins of Error","summary":"Look closely at almost anything and you'll find data—lots of it. But what are those numbers really saying about who we are and what we believe? Harry Enten is on a mission to find out.","source":"CNN Politics","author":"","category":"politics","url":"https://www.cnn.com/audio/podcasts/margins-of-error?utm_source=lootura.com","publishedAt":"2026-10-20T03:22:20.723Z"},{"title":"Mississippi attorney general says officer's force was justified in death of 1-year-old Kohen Wiley","summary":"Mississippi's attorney general says a Senatobia officer was justified in using force when he responded to a shoplifting call and fired at a moving vehicle that investigators said was driving toward police, killing a boy who was in the car.","source":"PBS NewsHour","author":"Sophie Bates, Associated Press","category":"general","url":"https://www.pbs.org/newshour/nation/mississippi-attorney-general-says-officers-force-was-justified-in-death-of-1-year-old-kohen-wiley?utm_source=lootura.com","publishedAt":"2026-10-19T22:10:32.000Z"},{"title":"1 person killed in shooting near Columbus, Ohio, mosque","summary":"A fatal shooting outside a mosque in Columbus, Ohio, was not an attack on the building, police said.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/news/shooting-mosque-columbus-ohio/?utm_source=lootura.com","publishedAt":"2026-10-19T22:03:00.000Z"},{"title":"The Axe Files with David Axelrod","summary":"Go beyond the soundbites and get to know some of the most interesting players in politics.","source":"CNN Politics","author":"","category":"politics","url":"https://www.cnn.com/audio/podcasts/axe-files?utm_source=lootura.com","publishedAt":"2026-10-20T03:22:20.723Z"},{"title":"Texas Democratic candidate for governor sues to review emails between Elon Musk and Greg Abbott","summary":"State Rep. Gina Hinojosa alleged in her lawsuit that Gov. Greg Abbott is “unlawfully withholding communications” between his office and tech CEO Elon Musk.","source":"NBC News","author":"Joe Kottke","category":"general","url":"https://www.nbcnews.com/politics/2026-election/texas-democrat-gina-hinojosa-sues-review-emails-elon-musk-greg-abbott-rcna604443?utm_source=lootura.com","publishedAt":"2026-10-19T21:30:20.000Z"},{"title":"To Find Criminals and Child Exploitation in Gold Mines, We Just Had to Look","summary":"Layers of people certify that gold is free from rights abuses and criminality. Nobody makes them leave their desks.","source":"The New York Times","author":"Justin Scheck","category":"general","url":"https://www.nytimes.com/2026/10/19/world/africa/gold-mines-investigation-takeaways.html?utm_source=lootura.com","publishedAt":"2026-10-19T10:59:55.000Z"},{"title":"CNN Political Briefing","summary":"The political news you need to know, in 10 minutes or less. Hosted by David Chalian.","source":"CNN Politics","author":"","category":"politics","url":"https://www.cnn.com/audio/podcasts/political-briefing?utm_source=lootura.com","publishedAt":"2026-10-20T03:22:20.723Z"},{"title":"A Kelvin wave raised sea levels on the West Coast. More are coming","summary":"A large underwater wave moved up the West Coast, raising sea levels. Scientists say it's driven by El Niño and it's going to happen again. (Image credit: Dillon J. Amaya)","source":"NPR","author":"Ava Berger","category":"general","url":"https://www.npr.org/2026/10/19/nx-s1-6001744/el-nino-kelvin-wave-west-coast?utm_source=lootura.com","publishedAt":"2026-10-19T09:00:00.000Z"},{"title":"Vance declines to endorse Netanyahu after Trump offers full support for re-election","summary":"Vance, who campaigned for ousted Hungarian Prime Minister Viktor Orbán this spring, said he endorses American candidates.","source":"NBC News Politics","author":"Raquel Coronell Uribe","category":"politics","url":"https://www.nbcnews.com/politics/white-house/jd-vance-declines-endorse-israel-prime-minister-netanyahu-trump-rcna604509?utm_source=lootura.com","publishedAt":"2026-10-20T03:12:55.000Z"},{"title":"Morning news brief","summary":"Ukraine and Russia exchange strikes as relations between U.S. and Ukraine deteriorate, the midterms are on track to be the most expensive on record, French president denounces violent protests.","source":"NPR","author":"Michel Martin","category":"general","url":"https://www.npr.org/2026/10/19/nx-s1-6003499/morning-news-brief?utm_source=lootura.com","publishedAt":"2026-10-19T08:46:44.000Z"},{"title":"NZ's climate in 'uncharted territory,' with more extreme weather events ahead","summary":"Much is being made of a record-strength El Niño event that could well spell a drier, windier summer for the north and east of New Zealand. But, as a major new assessment shows, it is forming against a backdrop of warming that's pushed the country's climate into \"uncharted territory.\"","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-nz-climate-uncharted-territory-extreme.html?utm_source=lootura.com","publishedAt":"2026-10-20T03:00:01.000Z"},{"title":"Iowa is testing whether Democrats can win rural voters","summary":"Economic concerns such as tariffs and rising gas prices may give Democrats an opening in November's midterms. But rural voters remain skeptical of large-scale support for Democrats.","source":"PBS NewsHour","author":"Steven Sloan, Associated Press","category":"general","url":"https://www.pbs.org/newshour/politics/iowa-is-testing-whether-democrats-can-win-rural-voters?utm_source=lootura.com","publishedAt":"2026-10-19T18:12:04.000Z"},{"title":"Midterm Elections: Who Is Winning the Race for Congress?","summary":"It’s Oct. 19 — 15 days from the midterms. Here’s the state of play.","source":"The New York Times Politics","author":"Jess Bidgood","category":"politics","url":"https://www.nytimes.com/2026/10/19/us/politics/midterms-elections-senate-house-congress.html?utm_source=lootura.com","publishedAt":"2026-10-19T16:29:53.000Z"},{"title":"Breaking down political turmoil in France as violent protests rage on","summary":"Protests continue to rage across France despite President Emmanuel Macron's attempts to mitigate the chaos. CBS News' Trevor Phillips has more.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/breaking-down-political-turmoil-in-france-as-violent-protests-rage-on/?utm_source=lootura.com","publishedAt":"2026-10-19T18:04:24.000Z"},{"title":"Juvenile striped bass maintaining average abundance in Virginia waters in 2026","summary":"Preliminary results from an ongoing long-term survey conducted by William & Mary's Virginia Institute of Marine Science (VIMS) suggest that an average year class of young-of-year striped bass was produced in the Virginia tributaries of the Chesapeake Bay in 2026. Striped bass are an important top predator in the Chesapeake Bay ecosystem and a valuable resource for commercial and recreational anglers. The 2026 year class, representing fish hatched this spring, will reach fishable sizes in three to four years.","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-juvenile-striped-bass-average-abundance.html?utm_source=lootura.com","publishedAt":"2026-10-20T02:20:01.000Z"},{"title":"Carney fights to keep Canada united as Albertans consider path to independence","summary":"Voters in Canada's oil-rich Alberta province will decide Monday whether to begin a process that could lead to independence.","source":"PBS NewsHour","author":"Rob Gillies, Associated Press","category":"general","url":"https://www.pbs.org/newshour/world/carney-fights-to-keep-canada-united-as-albertans-consider-path-to-independence?utm_source=lootura.com","publishedAt":"2026-10-19T18:01:14.000Z"},{"title":"Q&A: How does technology help track foodborne pathogens and outbreaks?","summary":"After a cyclospora outbreak and recalls of imported beef over the summer, a recent Gallup poll found that Americans' confidence in food safety has fallen to a record low, and consumers may be wondering how foodborne illness outbreaks can be tracked and mitigated.","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-qa-technology-track-foodborne-pathogens.html?utm_source=lootura.com","publishedAt":"2026-10-20T01:40:01.000Z"},{"title":"Putin proposes summit with Trump and China's Xi to discuss Ukraine, Wall Street Journal reports","summary":"Russian President Vladimir Putin is proposing a summit with President Trump and China's Xi Jinping to discuss a potential end to the war in Ukraine, according to a report from the Wall Street Journal. Ukrainian President Volodymyr Zelenskyy has not been invited. Lingling Wei, chief China correspondent for the Wall Street Journal, joins to talk about her reporting and CBS News' Nancy Cordes has more from the White House.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/putin-proposes-summit-with-trump-and-chinas-xi-to-discuss-ukraine-wsj-reports/?utm_source=lootura.com","publishedAt":"2026-10-19T17:58:56.000Z"},{"title":"Nanoscale tech tracks proteins inside living neurons to guide Alzheimer's and Parkinson's drug discovery","summary":"A technology developed at The University of Queensland allowing scientists to observe how disease-related proteins behave inside living neurons will be used to advance early drug discovery for neurodegenerative diseases. The NASTIC (Nanoscale Spatiotemporal Indexing Clustering) platform, spun out into Brisbane-based startup Accretion Bio, enables researchers to study real-time biological processes in living cells across space and time at the single-molecule level for the first time.","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-nanoscale-tech-tracks-proteins-neurons.html?utm_source=lootura.com","publishedAt":"2026-10-20T01:00:02.000Z"},{"title":"Haitian gangs target foreign troops in biggest attack since force began operations","summary":"Gangs in Haiti opened fire on an armored vehicle over the weekend, leaving four soldiers from El Salvador unaccounted for in the first major attack since an international gang suppression force began operations in the violence-wracked Caribbean country.","source":"PBS NewsHour","author":"Dánica Coto, Associated Press","category":"general","url":"https://www.pbs.org/newshour/world/haitian-gangs-target-foreign-troops-in-biggest-attack-since-force-began-operations?utm_source=lootura.com","publishedAt":"2026-10-19T17:45:11.000Z"},{"title":"Students take up to 88 standardized tests before high school, but more testing doesn't improve learning","summary":"The public K-12 school system in the United States has become pervasively shaped by standardized testing.","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-students-standardized-high-school-doesnt.html?utm_source=lootura.com","publishedAt":"2026-10-20T00:20:01.000Z"},{"title":"On campaign trail, Jeffries says Republicans are 'divorced from reality'","summary":"Jeffries, who is in line to become House speaker if Democrats seize the majority, has traveled to some 50 cities campaigning for Democratic candidates.","source":"PBS NewsHour","author":"Lisa Mascaro, Associated Press","category":"general","url":"https://www.pbs.org/newshour/politics/on-campaign-trail-jeffries-says-republicans-are-divorced-from-reality?utm_source=lootura.com","publishedAt":"2026-10-19T17:24:38.000Z"},{"title":"Republicans Are Vastly Outspending Democrats on Senate Races","summary":"With Republicans seen as less likely to hold their majority in the House, the party is focusing more on the battle for the Senate, where it is vastly outspending Democrats on ads.","source":"The New York Times Politics","author":"Shane Goldmacher","category":"politics","url":"https://www.nytimes.com/2026/10/19/us/politics/midterms-republican-spending-edge.html?utm_source=lootura.com","publishedAt":"2026-10-19T14:00:59.000Z"},{"title":"What happens when you miss a debt payment — and how to recover fast","summary":"A missed debt payment can have lasting consequences, but how quickly you respond could make a big difference.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/news/what-happens-when-you-miss-debt-payment-how-to-recover-fast/?utm_source=lootura.com","publishedAt":"2026-10-19T17:23:38.000Z"},{"title":"‘A warning sign for polling’: Why one GOP pollster thinks a blue wave may fall short","summary":"Democrats are salivating over, and Republicans are bracing for, a potentially massive blue wave. One GOP pollster is urging everyone to calm down. Patrick Ruffini, a founding partner at Echelon Insights, has been loudly throwing cold water on Democrats’ hopes of sweeping the red state Senate seats that have become battlegrounds in a worsening national environment for Republicans. “The polls are, I think, intentionally inflating the size of the battleground,” Ruffini told POLITICO. Democrats are pushing to flip Senate seats in Iowa, Texas, Ohio and Alaska — all states that President Donald Trump won by at least 11 points in 2024 — with dreams of going even deeper into the map Kansas, South Carolina and even Mississippi. Sensing a potential disaster, Republicans have significantly curtailed their investments in North Carolina and Georgia to direct resources elsewhere. Ruffini, who isn’t polling for candidates or party committees in any federal races, said he’s skeptical of Democrats flipping some of those seats, particularly in the Midwest, and gives the GOP a coin flip’s chance at keeping control of the Senate. If a blue wave were to come, he said it would defy the ingrained partisanship in deep-red states that has mirrored growing political polarization around the country. “I think it would be somewhat of a historic shift if that were to happen,” he said. Here’s more from POLITICO’s chat with Ruffini, edited for length and clarity. A more condensed version of this interview ran in POLITICO’s Morning Score campaign newsletter. You've been pretty publicly skeptical of polling that indicates a big tsunami for Democrats in November. Why is that? I think we can read the environment right, but the map wrong. The pretty large shift towards Democrats that we're seeing on the generic ballot and in a lot of individual races, I'm not saying that's not going to materialize. What I am more skeptical of is… the ability of any major party in this polarized era that we're in to rack up significant gains in states that went double digits for the other side. I’m not ruling out — I think there will be some [examples]. I think Alaska is one where it's both an idiosyncratic state, and [Democratic nominee Mary] Peltola has shown some specific candidate-centered strength. Nor would it shock me if [Democrat] James Talarico wins, despite the history in Texas. That would not surprise me, just given the candidate quality disparity, particularly on the Ken Paxton side. Where I get more skeptical is when you move into the Midwest, where there has historically been pretty large polling errors [overstating Democrats’ chances] in states like Iowa, Ohio. And I think you can extend that to the Democratic enthusiasm around Kansas. Is your skepticism coming more from the quality of the individual polls that you’re seeing that are showing massive Democratic surges in the Midwest, or is it the history of these states that you’re betting will ultimately win out? I think fundamentals are going to play an important role, particularly in states where there was a solid Trump advantage. We're not talking about a state like North Carolina or Georgia that’s only for Trump narrowly, where Democrats, at least in the Senate races, are clearly favored. Historically the presumption is that states tend to converge on their base partisanship in the closing days of an election, but especially that's been the pattern in the Midwest. Specifically as it relates to the polls this year, I think any pollster you would talk to, including myself, is experiencing significant non-response bias favoring Democrats. When you're seeing high-propensity Democrats [responding to polls] at twice the rate of high-propensity Republicans, when we know that the turnout on both sides would be roughly evenly paired, that's a warning sign for polling in this cycle. It seems like there’s some GOP internal polling saying that Republicans are worried about these states, because they are moving money around to triage certain races . I’m curious if you feel like they’re wrong to be making those decisions? Absolutely not. They're not wrong. You do have to take the polls somewhat seriously in the sense of, if you do get a poll that's within the margin of error, I think you're duty-bound to spend money in those places and not to ignore what could be a potential signal. I think that control of the Senate comes down to Texas, so they're right to be spending money there. If you just look at the amount of money being spent in Texas versus Kansas, obviously it's a much, much bigger state, and you need to spend much more money. But it's not something along the lines of ‘the battleground has shifted. It's a foregone conclusion. Democrats are going to win the Senate,’ and then the battleground entirely shifts to a state like Kansas or to Iowa, right? I don't think we're seeing that. It sounds like the issue you have is how the broader public is interpreting these polls rather than the polls themselves? The polls are, I think, intentionally inflating the size of the battleground. And to some extent it's happening both ways. The polls showing a margin-of- error race in Minnesota is possible, right? I'm not as concerned about a polling error in Minnesota as I am in Kansas. But because of the number of Democratic internals and because of the incentive of Democratic internals to show close races across the battleground, what you generally tend to see is more of an inflated sense of how big the battleground actually is. A lot of these races just break a certain way. We've reported that Republicans are privately conceding that the House is lost. Is that your reading of the data too? That's the best reading of the data. That said, if there's a three-point polling error or something, then I think it gets very, very tight and anything can happen. But I think that's the most likely outcome. What is your prediction for the number of Senate seats Republicans will have? My prediction for both the probability and the seat count is 50-50. There's a 50-50 chance Republicans hold the Senate. I think if they do, it's with 50 seats, probably. But obviously, that can tilt very easily. Which of these states do you think are going to flip for Democrats? Alaska is clearly favored. I mean, I don't know if it's clearly favored, but I think it's at least still Democrat. I think Texas is going to be very, very close. I just think the partisanship of the state is — people forget it's a little bit more Republican than it was back in 2018. I think Republicans are probably being underestimated in Ohio because of the past Midwestern polling error. At the same time, I would say it's still uphill in Maine and Michigan to some degree. I think Susan Collins has really been the lone bright spot, at least in terms of the conventional wisdom, the narrative in the Senate for Republicans. I think she has a fighting chance, but I think Republicans are still probably under a 50% chance in both Michigan and Maine, just due to the nature of their partisan lean. If at the end of all of this it is a real blue wave in the Senate, what will have happened to have made you wrong? If that happens, we will have seen a level of depolarization in the electorate that we haven't seen since around 2012. You really have to go back in history for a state like Kansas to flip.That would be pretty unique historically, where it's a flip where you have an incumbent losing. That's the kind of thing that used to happen in Senate races a lot, and then things, starting with Trump, got a lot more polarized. So what that would mean is, maybe this is the start of a new political era. But I think it would be somewhat of a historic shift if that were to happen.","source":"Politico","author":"Aaron Pellish","category":"politics","url":"https://www.politico.com/news/2026/10/19/republican-pollster-skeptical-democratic-wave-01124942?utm_source=lootura.com","publishedAt":"2026-10-19T14:00:00.000Z"},{"title":"Kansas voters stress affordability as key issue in competitive Senate race","summary":"President Donald Trump is headed to Kansas in support of incumbent GOP Sen. Roger Marshall, who is in a tight race against his Democratic challenger, Adam Hamilton. NBC News' Stephanie Gosk spoke with voters who emphasized affordability as a key issue in the race.","source":"NBC News","author":"","category":"general","url":"https://www.nbcnews.com/now/video/kansas-voters-stress-affordability-as-key-issue-in-competitive-senate-race-271824453567?utm_source=lootura.com","publishedAt":"2026-10-19T17:19:16.000Z"},{"title":"Republicans in Ohio Are Worried About Turnout. Here’s What They’re Doing About It.","summary":"To boost Senator Jon Husted, who is in a tight race to keep his seat, some Republicans who were making a jobs pitch have pivoted to focus on socialism.","source":"The New York Times Politics","author":"Emily Davies","category":"politics","url":"https://www.nytimes.com/2026/10/19/us/politics/republicans-ohio-turnout-election.html?utm_source=lootura.com","publishedAt":"2026-10-19T13:46:34.000Z"},{"title":"Massachusetts GOP lieutenant governor candidate suspends campaign after arrest in suspected drunk driving crash","summary":"Police say Oliver was arrested after a car crash late Saturday on suspicion of operating under the influence of alcohol.","source":"PBS NewsHour","author":"Associated Press","category":"general","url":"https://www.pbs.org/newshour/politics/massachusetts-gop-lieutenant-governor-candidate-suspends-campaign-after-arrest-in-suspected-drunk-driving-crash?utm_source=lootura.com","publishedAt":"2026-10-19T17:08:45.000Z"},{"title":"New 4D biofabrication technology holds promise for tissue engineering, wound healing","summary":"If you've ever created a snowflake by folding, cutting and unfolding a piece of paper, you've practiced the art of kirigami. Like origami, kirigami has inspired innovations far beyond the elementary school classroom, with applications ranging from deployable structures for spacecraft to semiconductors.","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-4d-biofabrication-technology-tissue-wound.html?utm_source=lootura.com","publishedAt":"2026-10-19T23:40:12.000Z"},{"title":"Trump launches women's health division within NIH alongside Melania Trump","summary":"President Trump is launching a new initiative alongside first lady Melania Trump to create a women's health division within the National Institutes of Health. CBS News' Natalie Brand has more.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/trump-launches-womens-health-division-within-nih/?utm_source=lootura.com","publishedAt":"2026-10-19T16:58:44.000Z"},{"title":"Molecular switch controls how cells load cargo for recycling","summary":"Cells constantly recycle proteins and other cellular components. But how do they ensure that the right cargo ends up in the right recycling vesicle—one of the cell's transport carriers? A team at the University of Basel has identified a molecular switch that controls this process. The small protein ARF-1 ensures that recyclable cargo is efficiently loaded into transport vesicles and returned to the cell's surface.","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-molecular-cells-cargo-recycling.html?utm_source=lootura.com","publishedAt":"2026-10-19T23:40:08.000Z"},{"title":"Nathan Fielder speaks out about Elizabeth Holmes documentary","summary":"Katie Drummond, the global editorial director for Wired, joined CBS News with more on her interview with Nathan Fielder about his new documentary on Elizabeth Holmes, \"You Can See Everything.\"","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/nathan-fielder-speaks-out-on-elizabeth-holmes-documentary/?utm_source=lootura.com","publishedAt":"2026-10-19T16:58:34.000Z"},{"title":"Justice Department charges more than 2 dozen foreign nationals in California sweep targeting noncitizen voters","summary":"Last week, the Justice Department sued the state and later warned that local election workers who knowingly process or tabulate ballots submitted by noncitizen voters are at risk of potential prosecution.","source":"PBS NewsHour","author":"Safiyah Riddle, Associated Press","category":"general","url":"https://www.pbs.org/newshour/politics/justice-department-charges-more-than-2-dozen-foreign-nationals-in-california-sweep-targeting-noncitizen-voters?utm_source=lootura.com","publishedAt":"2026-10-19T16:53:36.000Z"},{"title":"13% of Earth's land identified as biodiversity conservation hotspots","summary":"As governments prepare to gather in Yerevan, Armenia, this week for the U.N. Biodiversity Conference (COP17), new research identifies 13% of Earth's land area as hotspots for biodiversity conservation, highlighting where conservation efforts are most urgently needed.","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-earth-biodiversity-hotspots.html?utm_source=lootura.com","publishedAt":"2026-10-19T23:20:12.000Z"},{"title":"Trump heads to Kansas to rally Republicans; Vance's stunning response about Iran attack","summary":"President Trump is headed to Kansas to rally Republican voters ahead of the midterms. This comes as Vice President JD Vance also seeks GOP momentum for the November elections. Vance joined CBS News for a town hall. CBS News' Aaron Navarro reports.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/video/trump-heads-to-kansas-to-rally-republicans-vances-stunning-response-about-iran-attack/?utm_source=lootura.com","publishedAt":"2026-10-19T16:44:00.000Z"},{"title":"How much of a basin's drainage network should flood models capture?","summary":"As climate change is expected to increase the risks associated with extreme rainfall and flooding, managing floods requires approaches beyond conventional infrastructure such as dams and reservoirs.","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-basin-drainage-network-capture.html?utm_source=lootura.com","publishedAt":"2026-10-19T23:20:02.000Z"},{"title":"Europe's surging populist right reshapes establishment politics","summary":"A wave of anti-immigration populism is bringing new parties to the fore in many European nations, at the expense of the entrenched center-right.","source":"CBS News","author":"","category":"general","url":"https://www.cbsnews.com/news/how-europes-surging-populist-right-is-reshaping-the-political-establishment/?utm_source=lootura.com","publishedAt":"2026-10-19T16:26:26.000Z"},{"title":"Forgotten particle could answer mystery of why we exist, say physicists","summary":"Scientists have unveiled a new theory on the birth of the cosmos, suggesting the early universe was shaped by an ancient particle that has been overlooked for decades.","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-forgotten-particle-mystery-physicists.html?utm_source=lootura.com","publishedAt":"2026-10-19T23:10:02.000Z"},{"title":"Trump's new pitch for Republican candidates? They're really good looking","summary":"Aesthetics have long been part of the president's measuring stick, either as a source of praise or target for ridicule.","source":"PBS NewsHour","author":"Jesse Bedayn, Associated Press","category":"general","url":"https://www.pbs.org/newshour/politics/trumps-new-pitch-for-republican-candidates-theyre-really-good-looking?utm_source=lootura.com","publishedAt":"2026-10-19T16:01:16.000Z"},{"title":"Criminal justice researchers use statistical modeling to examine wrongful-conviction risk","summary":"A University of Mississippi study is adding nuance to a debate over how often police interrogation tactics can produce false confessions leading to wrongful convictions. In a recent simulation study published in the Journal of Criminal Justice, Ole Miss criminal justice and legal studies professors Mary Catlin and Thomas Bryan Smith found that the predicted likelihood of a false confession grows with the length of a police interrogation.","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-criminal-justice-statistical-wrongful-conviction.html?utm_source=lootura.com","publishedAt":"2026-10-19T23:00:01.000Z"},{"title":"Trump Campaigns for Republicans as Turmoil Mounts in Washington","summary":"Our White House correspondent Tyler Pager traveled with President Trump as he campaigned across the country ahead of the midterms. As the president touted his record, political drama mounted in Washington.","source":"The New York Times","author":"Tyler Pager, Nour Idriss and Pierre Kattar","category":"general","url":"https://www.nytimes.com/video/us/100000011219687/trump-campaigns-for-republicans-as-turmoil-mounts-in-washington.html?utm_source=lootura.com","publishedAt":"2026-10-19T05:29:44.000Z"},{"title":"Man arrested for threatening to kill Trump","summary":"The Secret Service arrested a man for allegedly threatening to kill President Trump in Kansas, where the president is rallying Republican voters. NBC News’ Garrett Haake reports.","source":"NBC News Politics","author":"","category":"politics","url":"https://www.nbcnews.com/nightly-news/video/man-arrested-for-threatening-to-kill-trump-271844933995?utm_source=lootura.com","publishedAt":"2026-10-19T22:51:32.000Z"},{"title":"Iran-backed Houthi rebels strike Yemen's government forces with ballistic missiles, killing at least 53","summary":"The escalating fighting shattered a 2022 ceasefire deal that largely stopped fighting in Yemen's civil war.","source":"PBS NewsHour","author":"Samy Magdy, Associated Press","category":"general","url":"https://www.pbs.org/newshour/world/iran-backed-houthi-rebels-strike-yemens-government-forces-with-ballistic-missiles-killing-at-least-53?utm_source=lootura.com","publishedAt":"2026-10-19T15:29:43.000Z"},{"title":"Planetary 'twins' Uranus and Neptune may have different origin stories","summary":"By indirectly probing the depths of Uranus and Neptune's atmospheres, an international team of scientists has revealed a significant contrast in their chemical composition. Neptune appears to be more enriched in oxygen than Uranus. These results suggest that the two ice giants may have formed in different regions of the primitive solar system before reaching their current orbits, calling into question the idea of a common origin for these two planets, often considered twins.","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-planetary-twins-uranus-neptune-stories.html?utm_source=lootura.com","publishedAt":"2026-10-19T22:40:06.000Z"},{"title":"CNN’s Christiane Amanpour to depart network after 43 years","summary":"“I’m very sorry to see her go, but I’ve come to accept that this is the right time for her, both personally and professionally,” CNN chief executive Mark Thompson said.","source":"NBC News","author":"Daniel Arkin","category":"general","url":"https://www.nbcnews.com/business/media/cnns-christiane-amanpour-depart-network-43-years-rcna604365?utm_source=lootura.com","publishedAt":"2026-10-19T15:25:52.000Z"},{"title":"Researchers unlock new way to map molecular structure on surfaces","summary":"Scientists at NPL, with the University of Surrey, University of Oxford, the Francis Crick Institute and IONTOF GmbH, have developed a technique to distinguish and map molecules that share the same chemical formula and mass but have different structures and functions. The research is published today (Oct. 19) in Nature Communications.","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-molecular-surfaces.html?utm_source=lootura.com","publishedAt":"2026-10-19T22:40:01.000Z"},{"title":"Eagles quarterback Jalen Hurts likely out for season after blood clots found in lungs and leg","summary":"The Super Bowl MVP will be sidelined indefinitely as he receives treatment for deep vein thrombosis in his calf and bilateral pulmonary emboli.","source":"NBC News","author":"David K. Li","category":"general","url":"https://www.nbcnews.com/sports/nfl/eagles-quarterback-jalen-hurts-likely-season-blood-clots-found-lungs-l-rcna604355?utm_source=lootura.com","publishedAt":"2026-10-19T14:56:33.000Z"},{"title":"Elon Musk’s proposed SpaceX stock giveaway would go into ‘Trump Accounts’","summary":"President Donald Trump announced this afternoon that Elon Musk's SpaceX shares for children will be given through Trump Accounts. Musk said earlier today that he would give one of his SpaceX shares to \"every kid in America\" sometime next year. Musk had thanked Trump Account booster Brad Gerstner for \"helping enable this,\" and Trump appeared to confirm the plan in a post on Truth Social . Given the value of SpaceX's stock on Friday, 72 million shares would be worth approximately $10.5 billion, according to CNBC . \"This will be the first of many,\" Musk said. Michael and Susan Dell, Ray and Barbara Dalio, Gerstner, and SpaceX president Gwynne … Read the full story at The Verge.","source":"The Verge","author":"Jay Peters","category":"tech","url":"https://www.theverge.com/tech/1014115/elon-musk-spacex-trump-account?utm_source=lootura.com","publishedAt":"2026-10-19T22:30:42.000Z"},{"title":"Israeli police arrest 10 following weekend attacks by West Bank settlers on journalist and diplomats","summary":"Israeli police did not identify the suspects or specify their roles in the attacks, which came during a spike in settler violence during the annual Palestinian olive harvest season.","source":"PBS NewsHour","author":"Koral Saeed, Associated Press","category":"general","url":"https://www.pbs.org/newshour/world/israeli-police-arrest-10-following-weekend-attacks-by-west-bank-settlers-on-journalist-and-diplomats?utm_source=lootura.com","publishedAt":"2026-10-19T14:39:39.000Z"},{"title":"Alberta voters decide whether to take a step toward separating from Canada","summary":"In Canada, the oil-rich province of Alberta votes in a referendum that could set it on a path toward separation, as Prime Minister Mark Carney warns of threats to Canadian unity.","source":"NPR World","author":"Sheena Rossiter","category":"world","url":"https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada?utm_source=lootura.com","publishedAt":"2026-10-19T22:29:57.000Z"},{"title":"Dramatic images show violent unrest sweeping across France","summary":"France unrest protest photos over the weekend Macron election buildup","source":"NBC News","author":"Max Butterworth","category":"general","url":"https://www.nbcnews.com/world/france/france-unrest-photos-looting-violence-macron-rcna604299?utm_source=lootura.com","publishedAt":"2026-10-19T13:23:57.048Z"},{"title":"The French Teen Maimed During School Unrest by Tear Gas Grenade","summary":"The police’s treatment of the student last month sheds light on how a wave of school unrest evolved into national protests that spilled into widespread riots on Saturday.","source":"The New York Times World","author":"Ségolène Le Stradic","category":"world","url":"https://www.nytimes.com/2026/10/19/world/europe/france-protests-violence-police-response.html?utm_source=lootura.com","publishedAt":"2026-10-19T22:20:21.000Z"},{"title":"Ukraine claims world’s first drone evacuation of wounded soldier","summary":"The “historic” mission comes as Kyiv faces a dire turn in its relationship with Washington over the withdrawal of support in its fight against Russia.","source":"NBC News","author":"Yuliya Talmazan","category":"general","url":"https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310?utm_source=lootura.com","publishedAt":"2026-10-19T13:21:02.000Z"},{"title":"Who speaks for Mars? Scientists call for ethical debate before terraforming begins","summary":"Transforming Mars into a more Earth-like world could irreversibly destroy scientific evidence about the planet's history and the possibility of extraterrestrial life. In an opinion article published in Eos, a team of Dutch, French and U.S. planetary scientists and ethicists warns that humanity risks destroying Mars' scientific record before it has been fully explored.","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-mars-scientists-ethical-debate-terraforming.html?utm_source=lootura.com","publishedAt":"2026-10-19T22:20:07.000Z"},{"title":"DOJ tells judge that golf course won't close, despite Trumps's insistence after trees cut down","summary":"The judge presiding over a court fight involving President Trump’s plans to redo a federal golf course said she plans to extend her order blocking the administration from chopping down more trees at the site, while the president called for the renovation to begin “immediately.” NBC News' Gary Grumbach reports on the judge's reaction to the government's argument.","source":"NBC News Politics","author":"","category":"politics","url":"https://www.nbcnews.com/video/doj-tells-judge-that-golf-course-won-t-close-despite-trumps-s-insistence-after-trees-cut-down-271844933684?utm_source=lootura.com","publishedAt":"2026-10-19T22:19:06.000Z"},{"title":"Synthetic molecules self-assemble into triple helices with new control method","summary":"Researchers at the University of Jyväskylä, Finland, have developed a new strategy for programming synthetic molecules to self-assemble into precisely defined three-dimensional structures. The study brings scientists a step closer to achieving the sophisticated molecular organization found in nature and could eventually open new possibilities for the development of advanced functional materials.","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-synthetic-molecules-triple-helices-method.html?utm_source=lootura.com","publishedAt":"2026-10-19T22:20:01.000Z"},{"title":"Cult Leader Convicted of Mass Murder by Court in Kenya","summary":"Paul Nthenge Mackenzie told his doomsday followers in a remote forest to fast for salvation. He faced trial after hundreds of bodies were exhumed.","source":"The New York Times World","author":"Matthew Mpoke Bigg and Brian O. Otieno","category":"world","url":"https://www.nytimes.com/2026/10/19/world/africa/kenya-cult-deaths-paul-mackenzie-court-ruling.html?utm_source=lootura.com","publishedAt":"2026-10-19T21:57:02.000Z"},{"title":"Beehives act as 'living immune systems' with layered antimicrobial defenses","summary":"Researchers have discovered honey beehives act as \"living immune systems\" that help protect the bee colony, its offspring and food supplies from disease. The finding underlines the need to protect bee habitat to ensure their health.","source":"Phys.org","author":"","category":"science","url":"https://phys.org/news/2026-10-beehives-immune-layered-antimicrobial-defenses.html?utm_source=lootura.com","publishedAt":"2026-10-19T22:00:11.000Z"}];
+const isEnglish = true;
+const isJapanese = false;
+const editionIds = ["es","us","za","mx","ar","jp"];
+
+		const root = document.querySelector('[data-signal-words-page]');
+		const form = document.querySelector('[data-signal-words-form]');
+		const input = document.querySelector('[data-signal-words-input]');
+		const termsRoot = document.querySelector('[data-signal-words-terms]');
+		const resultsRoot = document.querySelector('[data-signal-words-results]');
+		const preferencesKey = 'lootura.preferences.v1';
+		const maxWatchingTerms = 20;
+		const isEnglishPage = isEnglish;
+		const isJapanesePage = isJapanese;
+		const defaultCategories = ['politics', 'economy', 'sports', 'ai', 'culture'];
+
+		const escapeHtml = (value) =>
+			String(value || '')
+				.replaceAll('&', '&amp;')
+				.replaceAll('<', '&lt;')
+				.replaceAll('>', '&gt;')
+				.replaceAll('"', '&quot;')
+				.replaceAll("'", '&#039;');
+
+		const normalizeText = (value) =>
+			String(value || '')
+				.normalize('NFD')
+				.replace(/[\u0300-\u036f]/g, '')
+				.toLowerCase();
+
+		const getSearchTokens = (value) =>
+			normalizeText(value).match(/[\p{L}\p{N}]+/gu) || [];
+
+		const doesTextMatchTerm = (text, term) => {
+			const termTokens = getSearchTokens(term);
+			if (!termTokens.length) return false;
+			const textTokens = getSearchTokens(text);
+			return textTokens.some((token, index) =>
+				token === termTokens[0] && termTokens.every((termToken, offset) => textTokens[index + offset] === termToken)
+			);
+		};
+
+		const normalizeTerm = (term) => {
+			const normalizedTerm = String(term || '').replace(/\s+/g, ' ').trim();
+			return normalizedTerm.length >= 2 && normalizedTerm.length <= 40 ? normalizedTerm : '';
+		};
+
+		const readPreferences = () => {
+			try {
+				const value = JSON.parse(localStorage.getItem(preferencesKey) || 'null');
+				if (value && typeof value === 'object' && !Array.isArray(value)) return value;
+			} catch {}
+			return {};
+		};
+
+		const normalizePreferences = (preferences) => {
+			const categoriesByEdition = {};
+			const watchingByEdition = {};
+			for (const edition of editionIds) {
+				categoriesByEdition[edition] = Array.isArray(preferences.categoriesByEdition?.[edition])
+					? preferences.categoriesByEdition[edition]
+					: defaultCategories;
+				watchingByEdition[edition] = Array.isArray(preferences.watchingByEdition?.[edition])
+					? preferences.watchingByEdition[edition]
+					: [];
+			}
+			return {
+				selectedEdition: preferences.selectedEdition || locale,
+				categoriesByEdition,
+				watchingByEdition,
+			};
+		};
+
+		const getWatchingTerms = () => {
+			const preferences = normalizePreferences(readPreferences());
+			const seen = new Set();
+			return (preferences.watchingByEdition[locale] || [])
+				.map(normalizeTerm)
+				.filter((term) => {
+					const key = term.toLowerCase();
+					if (!term || seen.has(key)) return false;
+					seen.add(key);
+					return true;
+				})
+				.slice(0, maxWatchingTerms);
+		};
+
+		const writeWatchingTerms = (terms) => {
+			const preferences = normalizePreferences(readPreferences());
+			preferences.selectedEdition = locale;
+			preferences.watchingByEdition[locale] = terms.slice(0, maxWatchingTerms);
+			localStorage.setItem(preferencesKey, JSON.stringify(preferences));
+			window.dispatchEvent(new CustomEvent('lootura:preferences-updated', { detail: preferences }));
+		};
+
+		const getStorySearchText = (story) =>
+			normalizeText([
+				story.title,
+				story.summary,
+				story.source,
+				story.author,
+				story.category,
+			].join(' '));
+
+		const getMatchesByTerm = (terms) =>
+			terms.map((term) => {
+				const matches = stories
+					.filter((story) => doesTextMatchTerm(getStorySearchText(story), term))
+					.slice(0, 12);
+				return { term, matches };
+			});
+
+		const formatRelative = (value) => {
+			const time = new Date(value || '').getTime();
+			if (!Number.isFinite(time)) return '';
+			const minutes = Math.max(1, Math.round((Date.now() - time) / 60000));
+			if (isJapanesePage) {
+				if (minutes < 60) return `${minutes}分前`;
+				const hours = Math.round(minutes / 60);
+				if (hours < 48) return `${hours}時間前`;
+				const days = Math.round(hours / 24);
+				return `${days}日前`;
+			}
+			if (minutes < 60) return isEnglishPage ? `${minutes}m ago` : `hace ${minutes}min`;
+			const hours = Math.round(minutes / 60);
+			if (hours < 48) return isEnglishPage ? `${hours}h ago` : `hace ${hours}h`;
+			const days = Math.round(hours / 24);
+			return isEnglishPage ? `${days}d ago` : `hace ${days}d`;
+		};
+
+		const render = () => {
+			const terms = getWatchingTerms();
+			const matchesByTerm = getMatchesByTerm(terms);
+			const matchCount = matchesByTerm.reduce((total, group) => total + group.matches.length, 0);
+
+			if (termsRoot instanceof HTMLElement) {
+				termsRoot.innerHTML = terms.length
+					? terms.map((term) => `
+						<button class="inline-flex min-h-10 items-center gap-2 rounded-full border border-neutral-950/10 bg-neutral-950/[0.035] px-3 text-sm font-bold text-neutral-700 transition hover:bg-neutral-950/[0.06] focus:outline-none focus:ring-2 focus:ring-neutral-950/20" type="button" data-signal-word-remove="${escapeHtml(term)}">
+							<span>${escapeHtml(term)}</span>
+							<span aria-hidden="true"><svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></span>
+						</button>
+					`).join('')
+					: `<p class="text-sm font-medium leading-6 text-neutral-500">${isJapanesePage ? 'フォロー中の言葉はまだありません。' : isEnglishPage ? 'No followed words yet.' : 'Aún no sigues palabras.'}</p>`;
+			}
+
+			if (!(resultsRoot instanceof HTMLElement)) return;
+			root?.setAttribute('data-signal-words-match-count', String(matchCount));
+			if (terms.length === 0) {
+				resultsRoot.innerHTML = `<p class="text-sm font-medium leading-6 text-neutral-500">${isJapanesePage ? '言葉を追加すると、一致するリンクがここに出ます。' : isEnglishPage ? 'Add a word to see matching links here.' : 'Añade una palabra para ver enlaces aquí.'}</p>`;
+				return;
+			}
+			if (matchCount === 0) {
+				resultsRoot.innerHTML = `<p class="text-sm font-medium leading-6 text-neutral-500">${isJapanesePage ? '現在のリンクに一致するものはありません。' : isEnglishPage ? 'No current links match your words.' : 'No hay enlaces actuales con tus palabras.'}</p>`;
+				return;
+			}
+			resultsRoot.innerHTML = matchesByTerm
+				.filter((group) => group.matches.length > 0)
+				.map((group) => `
+					<section class="mb-8">
+						<p class="text-sm font-medium uppercase tracking-normal text-neutral-500">${escapeHtml(group.term)}</p>
+						<div class="mt-3 grid border-t border-neutral-950/10">
+							${group.matches.map((match) => `
+								<a class="grid gap-1 border-b border-neutral-950/10 py-4 text-neutral-950 no-underline transition hover:bg-neutral-950/[0.025] focus:outline-none focus:ring-2 focus:ring-neutral-950/20" href="${escapeHtml(match.url)}" target="_blank" rel="noopener noreferrer">
+									<span class="text-[11px] font-bold uppercase tracking-normal text-neutral-400">${escapeHtml([match.source, formatRelative(match.publishedAt)].filter(Boolean).join(' · '))}</span>
+									<strong class="text-lg font-semibold leading-snug text-neutral-950">${escapeHtml(match.title)}</strong>
+								</a>
+							`).join('')}
+						</div>
+					</section>
+				`).join('');
+		};
+
+		form?.addEventListener('submit', (event) => {
+			event.preventDefault();
+			if (!(input instanceof HTMLInputElement)) return;
+			const term = normalizeTerm(input.value);
+			if (!term) return;
+			const terms = getWatchingTerms();
+			const exists = terms.some((existingTerm) => existingTerm.toLowerCase() === term.toLowerCase());
+			if (!exists) writeWatchingTerms([term, ...terms]);
+			input.value = '';
+			render();
+		});
+
+		termsRoot?.addEventListener('click', (event) => {
+			const button = event.target instanceof Element ? event.target.closest('[data-signal-word-remove]') : null;
+			if (!(button instanceof HTMLElement)) return;
+			const term = button.getAttribute('data-signal-word-remove') || '';
+			writeWatchingTerms(getWatchingTerms().filter((item) => item !== term));
+			render();
+		});
+
+		window.addEventListener('storage', render);
+		window.addEventListener('pageshow', render);
+		render();
+	})();</script>  <section class="fixed inset-x-4 bottom-[calc(env(safe-area-inset-bottom,0px)+1rem)] z-[60] mx-auto max-w-sm border border-neutral-200 bg-white p-4 text-neutral-950 shadow-[0_18px_55px_rgba(10,10,10,0.16)] sm:inset-x-auto sm:right-6 sm:max-w-md" data-release-notice hidden role="status" aria-live="polite" aria-hidden="true" data-astro-cid-sckkx6r4> <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-neutral-500" data-release-eyebrow data-astro-cid-sckkx6r4> New version </p> <h2 class="mt-2 text-xl font-semibold leading-tight text-neutral-950" data-release-title data-astro-cid-sckkx6r4> Lootura has something new </h2> <p class="mt-2 text-sm leading-6 text-neutral-600" data-release-body data-astro-cid-sckkx6r4> The app was updated. Keep reading or see what changed. </p> <div class="mt-4 flex flex-wrap items-center gap-3" data-astro-cid-sckkx6r4> <button class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" type="button" data-release-refresh hidden data-astro-cid-sckkx6r4> Update </button> <a class="inline-flex min-h-11 items-center justify-center bg-neutral-950 px-4 text-sm font-semibold text-white" href="/updates" data-release-updates data-astro-cid-sckkx6r4> What&#39;s new </a> <button class="inline-flex min-h-11 items-center justify-center border border-neutral-200 bg-white px-4 text-sm font-semibold text-neutral-700" type="button" data-release-dismiss data-astro-cid-sckkx6r4> Not now </button> </div> </section>  <script>(function(){const baseUrl = "/";
+const isProduction = true;
+const currentAppBuild = {"version":"1.13.0","build":1071001};
+
+	const pwaDevOverrideKey = 'lootura:pwa-dev-override';
+	const getIsPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+	const applyPwaRuntime = () => {
+		const isPwaRuntime = Boolean(getIsPwaRuntime());
+		document.documentElement.classList.toggle('pwa-runtime', isPwaRuntime);
+		window.dispatchEvent(new CustomEvent('lootura:pwa-runtime-changed', { detail: { isPwaRuntime } }));
+		return isPwaRuntime;
+	};
+
+	if (!isProduction) {
+		const params = new URLSearchParams(window.location.search);
+		const pwaOverride = params.get('pwa');
+		if (pwaOverride === '1' || pwaOverride === '0') {
+			if (pwaOverride === '1') {
+				sessionStorage.setItem(pwaDevOverrideKey, 'true');
+			} else {
+				sessionStorage.removeItem(pwaDevOverrideKey);
+			}
+			const cleanUrl = new URL(window.location.href);
+			cleanUrl.searchParams.delete('pwa');
+			window.history.replaceState({}, '', cleanUrl);
+		}
+	}
+	applyPwaRuntime();
+
+	if (!isProduction) {
+		const devModeOptions = Array.from(document.querySelectorAll('[data-dev-pwa-mode-option]'));
+		const syncDevModeOptions = () => {
+			const mode = sessionStorage.getItem(pwaDevOverrideKey) === 'true' ? 'pwa' : 'page';
+			devModeOptions.forEach((option) => {
+				option.checked = option.value === mode;
+			});
+		};
+		devModeOptions.forEach((option) => {
+			option.addEventListener('change', () => {
+				if (option.value === 'pwa') {
+					sessionStorage.setItem(pwaDevOverrideKey, 'true');
+				} else {
+					sessionStorage.removeItem(pwaDevOverrideKey);
+				}
+				applyPwaRuntime();
+				syncDevModeOptions();
+			});
+		});
+		syncDevModeOptions();
+	}
+
+	document.documentElement.classList.remove('dark');
+	document.documentElement.style.colorScheme = 'light';
+
+	const getAbsoluteImageUrl = (value) => {
+		try {
+			return new URL(value || '', document.baseURI).href;
+		} catch {
+			return '';
+		}
+	};
+
+	const getImageFallbackCandidates = (image) => [
+		image.dataset.fallbackImage || image.dataset.fallbackBackground || '',
+		image.dataset.finalFallbackImage || '',
+	].filter(Boolean);
+
+	const revealAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		if (!image.matches('[data-app-image], [data-news-image]')) return;
+		image.dataset.loaded = 'true';
+		image.dataset.imageError = 'false';
+	};
+
+	const recoverAppImage = (image) => {
+		if (!(image instanceof HTMLImageElement)) return;
+		const candidates = getImageFallbackCandidates(image);
+		const currentUrl = image.currentSrc || image.src || '';
+		const nextFallback = candidates.find((candidate) => {
+			const fallbackUrl = getAbsoluteImageUrl(candidate);
+			return fallbackUrl && fallbackUrl !== currentUrl;
+		});
+
+		if (nextFallback) {
+			image.dataset.imageRecovered = 'true';
+			image.dataset.loaded = 'false';
+			image.src = nextFallback;
+			return;
+		}
+
+		if (image.hasAttribute('data-remove-on-error')) {
+			image.remove();
+			return;
+		}
+
+		image.dataset.imageError = 'true';
+	};
+
+	document.addEventListener('load', (event) => revealAppImage(event.target), true);
+	document.addEventListener('error', (event) => recoverAppImage(event.target), true);
+	for (const image of document.querySelectorAll('img[data-app-image], img[data-news-image]')) {
+		if (!(image instanceof HTMLImageElement) || !image.complete) continue;
+		if (image.naturalWidth > 0) {
+			revealAppImage(image);
+		} else {
+			recoverAppImage(image);
+		}
+	}
+
+	const isLooturaPwaRuntime = () =>
+		window.matchMedia('(display-mode: standalone)').matches ||
+		window.matchMedia('(display-mode: fullscreen)').matches ||
+		window.matchMedia('(display-mode: minimal-ui)').matches ||
+		window.navigator.standalone ||
+		document.referrer.startsWith('android-app://') ||
+		sessionStorage.getItem(pwaDevOverrideKey) === 'true';
+
+	const releaseSeenBuildKey = 'lootura:app-release:last-seen-build';
+	const releaseSeenVersionKey = 'lootura:app-release:last-seen-version';
+	const releaseSnoozedUntilKey = 'lootura:app-release:snoozed-until';
+	const updatesSeenVersionKey = 'lootura:updates:last-seen-version';
+	const releasePendingKey = 'lootura:release-notice:pending';
+	const refreshAtLaunchKey = 'lootura:refresh-at-launch';
+	const releaseNotice = document.querySelector('[data-release-notice]');
+	const releaseEyebrow = releaseNotice?.querySelector('[data-release-eyebrow]');
+	const releaseTitle = releaseNotice?.querySelector('[data-release-title]');
+	const releaseBody = releaseNotice?.querySelector('[data-release-body]');
+	const releaseRefreshButton = releaseNotice?.querySelector('[data-release-refresh]');
+	const releaseUpdatesLink = releaseNotice?.querySelector('[data-release-updates]');
+	const releaseDismissButton = releaseNotice?.querySelector('[data-release-dismiss]');
+	let releaseNoticeTimer = 0;
+	let lastPublishedBuild = null;
+	let isReloadingForUpdate = false;
+
+	const getBuildId = (build) => {
+		const version = String(build?.version || '').trim();
+		const number = Number(build?.build || 0);
+		return version && Number.isFinite(number) && number > 0 ? `${version}:${number}` : '';
+	};
+	const currentBuildId = getBuildId(currentAppBuild);
+	const currentVersion = String(currentAppBuild?.version || '').trim();
+
+	const getLastSeenReleaseVersion = () => {
+		try {
+			const releaseSeenVersion = localStorage.getItem(releaseSeenVersionKey) || '';
+			const updatesSeenVersion = localStorage.getItem(updatesSeenVersionKey) || '';
+			const legacySeenBuild = localStorage.getItem(releaseSeenBuildKey) || '';
+			const legacySeenVersion = legacySeenBuild.includes(':') ? legacySeenBuild.split(':')[0] : '';
+			return releaseSeenVersion || updatesSeenVersion || legacySeenVersion;
+		} catch {
+			return '';
+		}
+	};
+
+	const markReleaseVersionSeen = () => {
+		if (!currentVersion) return;
+		try {
+			localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			localStorage.setItem(updatesSeenVersionKey, currentVersion);
+			localStorage.removeItem(releaseSnoozedUntilKey);
+			sessionStorage.removeItem(releasePendingKey);
+		} catch {}
+	};
+
+	const getNextLocalDayIso = () => {
+		const now = new Date();
+		return new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).toISOString();
+	};
+
+	const snoozeReleaseNoticeUntilTomorrow = () => {
+		try {
+			localStorage.setItem(releaseSnoozedUntilKey, getNextLocalDayIso());
+		} catch {}
+	};
+
+	const isReleaseNoticeSnoozed = () => {
+		try {
+			const snoozedUntil = new Date(localStorage.getItem(releaseSnoozedUntilKey) || '').getTime();
+			return Number.isFinite(snoozedUntil) && snoozedUntil > Date.now();
+		} catch {
+			return false;
+		}
+	};
+
+	const getLocalizedUpdatesPath = () => {
+		const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+		const pathWithoutBase = window.location.pathname.startsWith(normalizedBaseUrl)
+			? window.location.pathname.slice(normalizedBaseUrl.length)
+			: window.location.pathname.replace(/^\//, '');
+		const firstSegment = pathWithoutBase.split('/').filter(Boolean)[0];
+		const locale = firstSegment === 'us' ? 'us' : 'es';
+		return `${normalizedBaseUrl}${locale}/updates`;
+	};
+
+	const rememberPendingRelease = (publishedBuild) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		try {
+			sessionStorage.setItem(
+				releasePendingKey,
+				JSON.stringify({
+					id: publishedBuildId,
+					version: String(publishedBuild?.version || ''),
+					build: Number(publishedBuild?.build || 0),
+				}),
+			);
+		} catch {}
+	};
+
+	const getPendingRelease = () => {
+		try {
+			const pendingRelease = JSON.parse(sessionStorage.getItem(releasePendingKey) || 'null');
+			return pendingRelease?.id === currentBuildId ? pendingRelease : null;
+		} catch {
+			return null;
+		}
+	};
+
+	const isReleaseNoticeBlocked = () =>
+		sessionStorage.getItem(refreshAtLaunchKey) === 'true' ||
+		Boolean(document.querySelector('[data-feed-refresh-overlay][data-visible]')) ||
+		Boolean(document.querySelector('[data-while-you-were-away-card][data-open="true"]')) ||
+		Boolean(document.querySelector('[data-signal-install-nudge]:not([hidden])')) ||
+		Boolean(document.querySelector('[role="dialog"][aria-modal="true"]:not([hidden]):not(.hidden):not([aria-hidden="true"])'));
+
+	const clearServiceWorkerCaches = async () => {
+		if (!window.caches?.keys) return;
+		const keys = await window.caches.keys();
+		await Promise.all(keys.filter((key) => key.startsWith('lootura-')).map((key) => window.caches.delete(key)));
+	};
+
+	const reloadForPublishedBuild = async () => {
+		if (isReloadingForUpdate) return;
+		isReloadingForUpdate = true;
+		try {
+			await clearServiceWorkerCaches();
+		} catch {}
+		window.location.reload();
+	};
+
+	const setReleaseNoticeMode = (mode) => {
+		const isSpanish = document.documentElement.lang?.startsWith('es');
+		const copy = mode === 'update'
+			? {
+					eyebrow: isSpanish ? 'Nueva versión disponible' : 'New version available',
+					title: isSpanish ? 'Actualiza Lootura' : 'Update Lootura',
+					body: isSpanish
+						? 'Hay una versión nueva lista. Actualiza la PWA para cargarla antes de ver las novedades.'
+						: 'A new version is ready. Update the PWA to load it before reading what changed.',
+				}
+			: {
+					eyebrow: isSpanish ? 'Nueva versión' : 'New version',
+					title: isSpanish ? 'Hay algo nuevo en Lootura' : 'Lootura has something new',
+					body: isSpanish
+						? 'La app se ha actualizado. Puedes seguir leyendo o ver los cambios.'
+						: 'The app was updated. Keep reading or see what changed.',
+				};
+
+		if (releaseEyebrow) releaseEyebrow.textContent = copy.eyebrow;
+		if (releaseTitle) releaseTitle.textContent = copy.title;
+		if (releaseBody) releaseBody.textContent = copy.body;
+		if (releaseRefreshButton) releaseRefreshButton.hidden = mode !== 'update';
+		if (releaseUpdatesLink) releaseUpdatesLink.hidden = mode === 'update';
+		if (releaseNotice) releaseNotice.dataset.mode = mode;
+	};
+
+	const hideReleaseNotice = () => {
+		window.clearTimeout(releaseNoticeTimer);
+		if (!releaseNotice) return;
+		releaseNotice.hidden = true;
+		releaseNotice.dataset.visible = 'false';
+		releaseNotice.setAttribute('aria-hidden', 'true');
+	};
+
+	const showReleaseNotice = (mode = 'notes') => {
+		if (!releaseNotice || !currentBuildId || !currentVersion || releaseNotice.dataset.visible === 'true') return;
+
+		if (mode === 'notes') {
+			try {
+				sessionStorage.removeItem(releasePendingKey);
+			} catch {}
+		}
+
+		setReleaseNoticeMode(mode);
+		releaseUpdatesLink?.setAttribute('href', getLocalizedUpdatesPath());
+		releaseNotice.hidden = false;
+		releaseNotice.dataset.visible = 'true';
+		releaseNotice.setAttribute('aria-hidden', 'false');
+		window.umami?.track?.('Show PWA release notice', { version: currentVersion, build: currentBuildId, mode });
+	};
+
+	const maybeShowReleaseNotice = (attempt = 0) => {
+		if (!isProduction || !currentBuildId || !currentVersion) return;
+
+		let lastSeenVersion = '';
+		try {
+			lastSeenVersion = getLastSeenReleaseVersion();
+		} catch {}
+
+		const pendingRelease = getPendingRelease();
+		const hasUnseenVersion = Boolean(lastSeenVersion && lastSeenVersion !== currentVersion);
+		const cameFromPendingRelease = Boolean(pendingRelease && pendingRelease.version === currentVersion);
+		const shouldShowReleaseNotice = cameFromPendingRelease || (hasUnseenVersion && (!pendingRelease || pendingRelease.version === currentVersion));
+
+		if (!lastSeenVersion && !pendingRelease) {
+			try {
+				localStorage.setItem(releaseSeenVersionKey, currentVersion);
+			} catch {}
+			return;
+		}
+
+		if (!shouldShowReleaseNotice) return;
+		if (isReleaseNoticeSnoozed()) return;
+
+		if (!isLooturaPwaRuntime()) {
+			return;
+		}
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseNotice(attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice();
+	};
+
+	const maybeShowReleaseUpdateNotice = (publishedBuild, attempt = 0) => {
+		const publishedBuildId = getBuildId(publishedBuild);
+		if (!isProduction || !publishedBuildId || publishedBuildId === currentBuildId) return;
+
+		lastPublishedBuild = publishedBuild;
+		rememberPendingRelease(publishedBuild);
+
+		if (isReleaseNoticeSnoozed()) return;
+		if (!isLooturaPwaRuntime()) return;
+
+		if (isReleaseNoticeBlocked() && attempt < 40) {
+			window.clearTimeout(releaseNoticeTimer);
+			releaseNoticeTimer = window.setTimeout(() => maybeShowReleaseUpdateNotice(publishedBuild, attempt + 1), 250);
+			return;
+		}
+
+		showReleaseNotice('update');
+	};
+
+	releaseDismissButton?.addEventListener('click', () => {
+		snoozeReleaseNoticeUntilTomorrow();
+		hideReleaseNotice();
+	});
+	releaseRefreshButton?.addEventListener('click', () => {
+		const publishedBuild = lastPublishedBuild || getPendingRelease();
+		if (publishedBuild) rememberPendingRelease(publishedBuild);
+		reloadForPublishedBuild();
+	});
+	releaseUpdatesLink?.addEventListener('click', () => {
+		markReleaseVersionSeen();
+		hideReleaseNotice();
+	});
+	window.addEventListener('lootura:queue-refreshed', () => {
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+	window.addEventListener('lootura:pwa-runtime-changed', () => maybeShowReleaseNotice());
+	window.addEventListener('pageshow', () => maybeShowReleaseNotice());
+	document.addEventListener('visibilitychange', () => {
+		if (document.visibilityState === 'visible') maybeShowReleaseNotice();
+	});
+
+	const syncLooturaPwaRuntime = () => {
+		document.documentElement.classList.toggle('pwa-runtime', Boolean(isLooturaPwaRuntime()));
+	};
+
+	syncLooturaPwaRuntime();
+	window.addEventListener('appinstalled', syncLooturaPwaRuntime);
+	window.addEventListener('pageshow', syncLooturaPwaRuntime);
+	window.addEventListener('focus', syncLooturaPwaRuntime);
+
+	const detectLooturaClient = () => {
+		const userAgent = navigator.userAgent;
+		const isStandalone = isLooturaPwaRuntime();
+		const userAgentDataPlatform = navigator.userAgentData?.platform || '';
+		const legacyPlatform = navigator.platform || '';
+		const maxTouchPoints = navigator.maxTouchPoints || 0;
+		const platform = (() => {
+			if (/Android/i.test(userAgentDataPlatform) || /Android/i.test(userAgent)) return 'android';
+			if (/iPad|iPhone|iPod/i.test(userAgent) || /iPad|iPhone|iPod/i.test(legacyPlatform)) return 'ios';
+			if (/Mac/i.test(userAgentDataPlatform || legacyPlatform) && maxTouchPoints > 1) return 'ios';
+			return 'desktop';
+		})();
+		const browser = (() => {
+			if (/CriOS/i.test(userAgent)) return 'Chrome iOS';
+			if (/FxiOS/i.test(userAgent)) return 'Firefox iOS';
+			if (/EdgiOS/i.test(userAgent)) return 'Edge iOS';
+			if (/Edg/i.test(userAgent)) return 'Edge';
+			if (/OPR|Opera/i.test(userAgent)) return 'Opera';
+			if (/Chrome|Chromium|CriOS/i.test(userAgent)) return 'Chrome';
+			if (/Safari/i.test(userAgent)) return 'Safari';
+			if (/Firefox/i.test(userAgent)) return 'Firefox';
+			return 'Other';
+		})();
+
+		return {
+			appMode: isStandalone ? 'pwa' : 'browser',
+			platform,
+			browser,
+		};
+	};
+
+	const trackLooturaContext = (attempt = 0) => {
+		if (!window.umami) {
+			if (attempt < 20) window.setTimeout(() => trackLooturaContext(attempt + 1), 250);
+			return;
+		}
+
+		const context = detectLooturaClient();
+		window.looturaClient = context;
+		window.umami.identify?.(context);
+
+		const sessionKey = `lootura:context-tracked:${context.appMode}:${context.platform}:${context.browser}`;
+		if (!sessionStorage.getItem(sessionKey)) {
+			sessionStorage.setItem(sessionKey, 'true');
+			window.umami.track?.('App context', context);
+		}
+	};
+
+	const lockPortraitOrientation = async () => {
+		const orientationApi = screen.orientation;
+		if (!isLooturaPwaRuntime() || !orientationApi?.lock) return;
+
+		try {
+			await orientationApi.lock('portrait-primary');
+		} catch {
+			// iOS Safari and some browsers ignore orientation lock for web apps.
+		}
+	};
+
+	const enforcePortraitOrientation = () => {
+		lockPortraitOrientation();
+
+		window.addEventListener('focus', lockPortraitOrientation);
+		window.addEventListener('pageshow', lockPortraitOrientation);
+		window.addEventListener('orientationchange', lockPortraitOrientation);
+		screen.orientation?.addEventListener?.('change', lockPortraitOrientation);
+		document.addEventListener('visibilitychange', () => {
+			if (document.visibilityState === 'visible') lockPortraitOrientation();
+		});
+	};
+
+	if (!isProduction && 'serviceWorker' in navigator) {
+		navigator.serviceWorker.getRegistrations?.().then((registrations) => {
+			registrations.forEach((registration) => registration.unregister());
+		});
+	}
+
+	if (isProduction && 'serviceWorker' in navigator) {
+		window.addEventListener('load', () => {
+			const reloadForUpdate = () => {
+				if (isReloadingForUpdate) return;
+				isReloadingForUpdate = true;
+				window.location.reload();
+			};
+			const checkPublishedBuild = async () => {
+				try {
+					const response = await fetch(`${baseUrl}app-build.json?ts=${Date.now()}`, {
+						cache: 'no-store',
+						headers: { accept: 'application/json' },
+					});
+					if (!response.ok) return;
+					const publishedBuild = await response.json();
+					const publishedBuildId = getBuildId(publishedBuild);
+					if (!publishedBuildId || publishedBuildId === currentBuildId) return;
+					maybeShowReleaseUpdateNotice(publishedBuild);
+				} catch {
+					// Update checks should never block normal reading.
+				}
+			};
+
+			navigator.serviceWorker.addEventListener('controllerchange', reloadForUpdate);
+
+			navigator.serviceWorker
+				.register(`${baseUrl}sw.js`, { updateViaCache: 'none' })
+				.then((registration) => {
+					const checkForUpdates = () => registration.update().catch(() => {});
+
+					checkForUpdates();
+					checkPublishedBuild();
+					window.setInterval(checkForUpdates, 60_000);
+					window.setInterval(checkPublishedBuild, 60_000);
+					window.addEventListener('focus', checkForUpdates);
+					window.addEventListener('focus', checkPublishedBuild);
+					document.addEventListener('visibilitychange', () => {
+						if (document.visibilityState === 'visible') {
+							checkForUpdates();
+							checkPublishedBuild();
+						}
+					});
+				})
+				.catch(() => {});
+		});
+	}
+
+	window.addEventListener('load', () => {
+		trackLooturaContext();
+		enforcePortraitOrientation();
+		window.setTimeout(() => maybeShowReleaseNotice(), 250);
+	});
+})();</script></body></html>
