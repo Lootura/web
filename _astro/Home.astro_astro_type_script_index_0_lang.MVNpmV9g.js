@@ -1,0 +1,1 @@
+import{i as e,r as t,t as n}from"./preferences.DPgvHeSS.js";var r=document.querySelector(`[data-lootura-home]`);if(r){let i=r.dataset.edition||`es`,a=r.dataset.base||`/`;if(r.dataset.detectEdition===`true`){let r=t(n(),navigator.languages?.length?navigator.languages:[navigator.language]);r!==i&&location.replace(e(r,a))}}
