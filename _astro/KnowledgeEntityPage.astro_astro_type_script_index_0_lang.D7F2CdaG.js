@@ -1,0 +1,1 @@
+import{t as e}from"./entity-topic-graph.bDNsL3dZ.js";var t=document.querySelector(`[data-lootura-knowledge-entity]`),n=t?.querySelector(`#main-content`);n&&e(n),t&&t.querySelector(`[data-entity-chatgpt-trigger]`)?.addEventListener(`click`,async e=>{try{let t=e.currentTarget;await navigator.clipboard?.writeText(t.dataset.chatgptPrompt||``)}catch{}});
