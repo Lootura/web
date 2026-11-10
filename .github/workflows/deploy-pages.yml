@@ -1,0 +1,81 @@
+name: Deploy verified website
+run-name: Website publication · ${{ github.event.client_payload.publication_id || github.event_name }}
+
+on:
+  repository_dispatch:
+    types: [publication-ready]
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Redeploy the current payload even if already live
+        type: boolean
+        default: false
+  schedule:
+    - cron: "7,17,27,37,47,57 * * * *"
+
+permissions:
+  actions: read
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-publication
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: https://lootura.com/
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Check whether publication is needed
+        id: check
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          FORCE_PUBLICATION: ${{ inputs.force || 'false' }}
+        run: node scripts/pages/check.mjs
+      - name: Checkout the exact website payload
+        if: steps.check.outputs.deploy == 'true'
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ steps.check.outputs.commit }}
+          path: payload
+      - name: Upload website artifact
+        if: steps.check.outputs.deploy == 'true'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: payload
+      - name: Deploy website
+        if: steps.check.outputs.deploy == 'true'
+        id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v5
+        with:
+          timeout: 600000
+      - name: Allow the canceled deployment to settle
+        if: steps.check.outputs.deploy == 'true' && steps.deployment.outcome == 'failure'
+        run: sleep 20
+      - name: Retry interrupted Pages delivery
+        if: steps.check.outputs.deploy == 'true' && steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v5
+        with:
+          timeout: 600000
+      - name: Verify the live revision and both editions
+        if: steps.check.outputs.deploy == 'true'
+        run: node scripts/pages/verify.mjs
+      - name: Confirm public scan completion
+        if: steps.check.outputs.deploy == 'true'
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/pages/complete.mjs
