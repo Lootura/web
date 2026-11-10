@@ -20,7 +20,11 @@ export async function githubRequest(path,{token,method='GET',body,raw=false,allo
   body:body?JSON.stringify(body):undefined,signal:AbortSignal.timeout(15_000),
  });
  if(response.status===404&&allow404)return null;
- if(!response.ok)throw new Error(`GitHub ${method} ${path} returned HTTP ${response.status}`);
+ if(!response.ok){
+  const error=new Error(`GitHub ${method} ${path} returned HTTP ${response.status}`);
+  error.status=response.status;
+  throw error;
+ }
  const content=await response.text();
  return content?JSON.parse(content):null;
 }
@@ -95,7 +99,11 @@ export async function clearPreviousPagesDeliveries({runSha,token,
   const previous=await request(`pages/deployments/${sha}`,{allow404:true});
   if(!previous)continue;
   // Pages can report a cached success while still holding an in-progress lock for the same SHA.
-  await request(`pages/deployments/${sha}/cancel`,{method:'POST',allow404:true});
+  try{await request(`pages/deployments/${sha}/cancel`,{method:'POST',allow404:true});}
+  catch(error){
+   const terminal=['succeed','succeeded','failure','failed','errored','cancelled','canceled'].includes(previous.status);
+   if(!terminal||![400,409].includes(error.status))throw error;
+  }
  }
 }
 
