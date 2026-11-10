@@ -91,10 +91,11 @@ export async function ensurePayloadRevision(payloadCommit,{runSha,publicationId,
  return {ready:false};
 }
 
-export async function clearPreviousPagesDeliveries({runSha,token,
+export async function clearPreviousPagesDeliveries({runSha,token,includeCurrent=false,
  request=(path,options={})=>githubRequest(path,{token,...options})}={}){
  const deployments=await request('deployments?environment=github-pages&per_page=20');
- const revisions=[...new Set([runSha,...deployments.map(item=>item.sha)])].filter(sha=>/^[a-f0-9]{40}$/.test(sha)).slice(0,6);
+ const revisions=[...new Set(deployments.map(item=>item.sha))]
+  .filter(sha=>/^[a-f0-9]{40}$/.test(sha)&&(includeCurrent||sha!==runSha)).slice(0,6);
  for(const sha of revisions){
   const previous=await request(`pages/deployments/${sha}`,{allow404:true});
   if(!previous)continue;
