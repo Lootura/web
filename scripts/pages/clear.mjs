@@ -1,5 +1,5 @@
 import {clearPreviousPagesDeliveries} from '../lib/publication.mjs';
 
-await clearPreviousPagesDeliveries({runSha:process.env.GITHUB_SHA,token:process.env.GITHUB_TOKEN,
- includeCurrent:process.argv.includes('--include-current')});
-console.log('Cleared prior Pages delivery locks before publishing the selected payload.');
+const warnings=await clearPreviousPagesDeliveries({runSha:process.env.GITHUB_SHA,token:process.env.GITHUB_TOKEN});
+for(const warning of warnings)console.warn(warning);
+console.log('Requested prior delivery cleanup; live verification remains required.');

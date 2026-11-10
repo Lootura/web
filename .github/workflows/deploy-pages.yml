@@ -73,7 +73,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
-          node scripts/pages/clear.mjs --include-current
+          node scripts/pages/clear.mjs
           sleep 20
       - name: Retry interrupted Pages delivery
         if: steps.check.outputs.deploy == 'true' && steps.deployment.outcome == 'failure'

@@ -91,21 +91,23 @@ export async function ensurePayloadRevision(payloadCommit,{runSha,publicationId,
  return {ready:false};
 }
 
-export async function clearPreviousPagesDeliveries({runSha,token,includeCurrent=false,
+export async function clearPreviousPagesDeliveries({runSha,token,
  request=(path,options={})=>githubRequest(path,{token,...options})}={}){
  const deployments=await request('deployments?environment=github-pages&per_page=20');
  const revisions=[...new Set(deployments.map(item=>item.sha))]
-  .filter(sha=>/^[a-f0-9]{40}$/.test(sha)&&(includeCurrent||sha!==runSha)).slice(0,6);
+  .filter(sha=>/^[a-f0-9]{40}$/.test(sha)&&sha!==runSha).slice(0,6);
+ const warnings=[];
  for(const sha of revisions){
   const previous=await request(`pages/deployments/${sha}`,{allow404:true});
   if(!previous)continue;
   // Pages can report a cached success while still holding an in-progress lock for the same SHA.
   try{await request(`pages/deployments/${sha}/cancel`,{method:'POST',allow404:true});}
   catch(error){
-   const terminal=['succeed','succeeded','failure','failed','errored','cancelled','canceled'].includes(previous.status);
-   if(!terminal||![400,409].includes(error.status))throw error;
+   if(![400,409].includes(error.status))throw error;
+   warnings.push(`Pages refused cleanup of prior revision ${sha} (HTTP ${error.status}); deployment and live verification will decide whether delivery is possible.`);
   }
  }
+ return warnings;
 }
 
 export function completePublishedScan(value,publication,at=new Date().toISOString()){
