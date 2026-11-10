@@ -1,5 +1,5 @@
 import {appendFile} from 'node:fs/promises';
-import {safePublication,githubRequest,readLivePublication,deploymentNeedsRetry} from '../lib/publication.mjs';
+import {safePublication,githubRequest,readLivePublication,deploymentNeedsRetry,ensurePayloadRevision} from '../lib/publication.mjs';
 
 const token=process.env.GITHUB_TOKEN;
 if(!token)throw new Error('GITHUB_TOKEN is required');
@@ -15,6 +15,11 @@ if(expected){
  const recent=await api('actions/workflows/deploy-pages.yml/runs?branch=main&per_page=10');
  decision=deploymentNeedsRetry(expected,live,recent.workflow_runs,Date.now(),process.env.GITHUB_RUN_ID);
  if(process.env.FORCE_PUBLICATION==='true')decision={deploy:true,reason:'manual_repair'};
+ if(decision.deploy){
+  const revision=await ensurePayloadRevision(commit,{runSha:process.env.GITHUB_SHA,publicationId:expected.id,token,
+   force:process.env.FORCE_PUBLICATION==='true'});
+  if(!revision.ready)decision={deploy:false,reason:'queued_unique_payload_revision'};
+ }
 }
 console.log(`Pages ${decision.deploy?'deployment':'skip'}: ${decision.reason}; payload ${commit}`);
 await appendFile(process.env.GITHUB_OUTPUT,`deploy=${decision.deploy}\ncommit=${commit}\n`);

@@ -68,6 +68,24 @@ export function deploymentNeedsRetry(expected,live,recentRuns,now=Date.now(),cur
  return recentFailure?{deploy:false,reason:'retry_cooldown'}:{deploy:true,reason:'publication_missing'};
 }
 
+export async function ensurePayloadRevision(payloadCommit,{runSha,publicationId,token,force=false,
+ request=(path,options={})=>githubRequest(path,{token,...options})}={}){
+ if(!/^[a-f0-9]{40}$/.test(payloadCommit)||!/^[a-f0-9]{40}$/.test(runSha))throw new Error('Invalid Pages revision');
+ const path='contents/deployment-target.json';
+ const current=await request(`${path}?ref=${runSha}`,{raw:true,allow404:true});
+ if(current?.payloadCommit===payloadCommit)return {ready:true};
+ const latest=await request(`${path}?ref=main`,{allow404:true});
+ const target=latest?JSON.parse(Buffer.from(latest.content,'base64').toString('utf8')):null;
+ if(target?.payloadCommit!==payloadCommit){
+  await request(path,{method:'PUT',body:{branch:'main',...(latest?{sha:latest.sha}:{}),
+   message:`Select website payload ${payloadCommit.slice(0,12)}`,
+   content:Buffer.from(JSON.stringify({payloadCommit,publicationId})+'\n').toString('base64')}});
+ }
+ // A new main revision makes Pages' pages_build_version unique for these bytes.
+ await request('actions/workflows/deploy-pages.yml/dispatches',{method:'POST',body:{ref:'main',inputs:{force:String(force)}}});
+ return {ready:false};
+}
+
 export function completePublishedScan(value,publication,at=new Date().toISOString()){
  const snapshot=publicScanSnapshot(value,{now:Date.parse(at)});
  if(!snapshot)return null;

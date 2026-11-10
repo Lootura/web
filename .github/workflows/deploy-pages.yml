@@ -14,7 +14,7 @@ on:
     - cron: "7,17,27,37,47,57 * * * *"
 
 permissions:
-  actions: read
+  actions: write
   contents: write
   pages: write
   id-token: write
