@@ -21,7 +21,8 @@ export async function githubRequest(path,{token,method='GET',body,raw=false,allo
  });
  if(response.status===404&&allow404)return null;
  if(!response.ok)throw new Error(`GitHub ${method} ${path} returned HTTP ${response.status}`);
- return response.status===204?null:response.json();
+ const content=await response.text();
+ return content?JSON.parse(content):null;
 }
 
 export async function readLivePublication(expected,{fetchImpl=fetch,now=Date.now}={}){
@@ -84,6 +85,18 @@ export async function ensurePayloadRevision(payloadCommit,{runSha,publicationId,
  // A new main revision makes Pages' pages_build_version unique for these bytes.
  await request('actions/workflows/deploy-pages.yml/dispatches',{method:'POST',body:{ref:'main',inputs:{force:String(force)}}});
  return {ready:false};
+}
+
+export async function clearPreviousPagesDeliveries({runSha,token,
+ request=(path,options={})=>githubRequest(path,{token,...options})}={}){
+ const deployments=await request('deployments?environment=github-pages&per_page=20');
+ const revisions=[...new Set([runSha,...deployments.map(item=>item.sha)])].filter(sha=>/^[a-f0-9]{40}$/.test(sha)).slice(0,6);
+ for(const sha of revisions){
+  const previous=await request(`pages/deployments/${sha}`,{allow404:true});
+  if(!previous)continue;
+  // Pages can report a cached success while still holding an in-progress lock for the same SHA.
+  await request(`pages/deployments/${sha}/cancel`,{method:'POST',allow404:true});
+ }
 }
 
 export function completePublishedScan(value,publication,at=new Date().toISOString()){

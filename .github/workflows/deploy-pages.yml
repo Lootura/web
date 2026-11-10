@@ -15,6 +15,7 @@ on:
 
 permissions:
   actions: write
+  deployments: read
   contents: write
   pages: write
   id-token: write
@@ -50,6 +51,11 @@ jobs:
         with:
           ref: ${{ steps.check.outputs.commit }}
           path: payload
+      - name: Clear prior delivery locks
+        if: steps.check.outputs.deploy == 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/pages/clear.mjs
       - name: Upload website artifact
         if: steps.check.outputs.deploy == 'true'
         uses: actions/upload-pages-artifact@v4
@@ -64,7 +70,11 @@ jobs:
           timeout: 600000
       - name: Allow the canceled deployment to settle
         if: steps.check.outputs.deploy == 'true' && steps.deployment.outcome == 'failure'
-        run: sleep 20
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          node scripts/pages/clear.mjs
+          sleep 20
       - name: Retry interrupted Pages delivery
         if: steps.check.outputs.deploy == 'true' && steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v5
