@@ -1,10 +1,16 @@
 {
-	"updatedAt": "2026-11-12T21:00:48.034Z",
+	"updatedAt": "2026-11-12T22:00:48.193Z",
 	"feedProfile": "es",
 	"retentionDays": 90,
 	"totalAuthors": 80,
-	"totalBylinedItems": 411,
+	"totalBylinedItems": 412,
 	"runs": [
+		{
+			"at": "2026-11-12T22:00:48.193Z",
+			"itemCount": 120,
+			"bylinedItemCount": 59,
+			"authorCount": 80
+		},
 		{
 			"at": "2026-11-12T21:00:48.034Z",
 			"itemCount": 120,
@@ -177,12 +183,6 @@
 			"at": "2026-11-09T01:19:45.981Z",
 			"itemCount": 120,
 			"bylinedItemCount": 54,
-			"authorCount": 80
-		},
-		{
-			"at": "2026-11-08T21:29:34.540Z",
-			"itemCount": 120,
-			"bylinedItemCount": 50,
 			"authorCount": 80
 		}
 	],
@@ -1408,7 +1408,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 216,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-10-29T13:26:39.000Z",
 			"latestAt": "2026-11-12T20:50:51.000Z",
 			"daysActive": 15,
@@ -2647,7 +2647,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 158,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-02T17:15:09.000Z",
 			"latestAt": "2026-11-12T20:52:58.000Z",
 			"daysActive": 11,
@@ -3094,7 +3094,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 149,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-07T14:52:00.000Z",
 			"latestAt": "2026-11-12T19:30:51.000Z",
 			"daysActive": 6,
@@ -3715,7 +3715,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 130,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-05-20T03:30:01.000Z",
 			"latestAt": "2026-11-12T20:44:45.000Z",
 			"daysActive": 177,
@@ -3886,6 +3886,93 @@
 					"publishedAt": "2026-11-02T00:14:50.000Z",
 					"category": "general",
 					"weight": 3
+				}
+			]
+		},
+		{
+			"id": "https://www.elcorreo.com/autor/marina-leon-6788.html",
+			"name": "Marina León",
+			"source": "El Correo",
+			"profileUrl": "https://www.elcorreo.com/autor/marina-leon-6788.html",
+			"itemCount": 4,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 122,
+			"confidence": "high",
+			"firstSeenAt": "2026-10-29T06:58:34.000Z",
+			"latestAt": "2026-11-12T21:29:41.000Z",
+			"daysActive": 15,
+			"categories": [
+				"local"
+			],
+			"sources": [
+				"El Correo"
+			],
+			"examples": [
+				{
+					"key": "https://www.elcorreo.com/gente-estilo/actor-eduard-fernandez-recuerda-padre-venia-familia-20261112222941-nt.html?ref=lootura.com",
+					"title": "El actor Eduard Fernández recuerda a su padre: «Venía de una familia de carteristas, pero a él se le daba fatal»",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/gente-estilo/actor-eduard-fernandez-recuerda-padre-venia-familia-20261112222941-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T21:29:41.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/gente-estilo/broncano-aclara-polemico-cambio-eleccion-publico-entrevista-20261109223624-nt.html?ref=lootura.com",
+					"title": "Broncano aclara el polémico cambio en la elección del público para la entrevista de Abascal",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/gente-estilo/broncano-aclara-polemico-cambio-eleccion-publico-entrevista-20261109223624-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T21:36:24.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/gente-estilo/almudena-ariza-sobre-posible-visita-abascal-revuelta-20261104074522-nt.html?ref=lootura.com",
+					"title": "Almudena Ariza sobre la posible visita de Abascal a 'La Revuelta': «Le preguntaría qué planes tiene para esta casa»",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/gente-estilo/almudena-ariza-sobre-posible-visita-abascal-revuelta-20261104074522-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-04T06:45:22.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.elcorreo.com/gente-estilo/actor-eduard-fernandez-recuerda-padre-venia-familia-20261112222941-nt.html?ref=lootura.com",
+					"title": "El actor Eduard Fernández recuerda a su padre: «Venía de una familia de carteristas, pero a él se le daba fatal»",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/gente-estilo/actor-eduard-fernandez-recuerda-padre-venia-familia-20261112222941-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T21:29:41.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/gente-estilo/broncano-aclara-polemico-cambio-eleccion-publico-entrevista-20261109223624-nt.html?ref=lootura.com",
+					"title": "Broncano aclara el polémico cambio en la elección del público para la entrevista de Abascal",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/gente-estilo/broncano-aclara-polemico-cambio-eleccion-publico-entrevista-20261109223624-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T21:36:24.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/gente-estilo/almudena-ariza-sobre-posible-visita-abascal-revuelta-20261104074522-nt.html?ref=lootura.com",
+					"title": "Almudena Ariza sobre la posible visita de Abascal a 'La Revuelta': «Le preguntaría qué planes tiene para esta casa»",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/gente-estilo/almudena-ariza-sobre-posible-visita-abascal-revuelta-20261104074522-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-04T06:45:22.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/sociedad/guardia-civil-inspector-hacienda-fallecidos-tras-accidente-20261029075834-nt_amp.html",
+					"title": "Los rostros de la tragedia: la madre que iba a una boda desaparecida, un guardia civil, una podóloga, entre los fallecidos",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/sociedad/guardia-civil-inspector-hacienda-fallecidos-tras-accidente-20261029075834-nt_amp.html?utm_source=lootura.com",
+					"publishedAt": "2026-10-29T06:58:34.000Z",
+					"category": "local",
+					"weight": 4
 				}
 			]
 		},
@@ -4888,84 +4975,6 @@
 					"publishedAt": "2026-11-04T07:00:00.000Z",
 					"category": "analysis",
 					"weight": 2
-				}
-			]
-		},
-		{
-			"id": "https://www.elcorreo.com/autor/marina-leon-6788.html",
-			"name": "Marina León",
-			"source": "El Correo",
-			"profileUrl": "https://www.elcorreo.com/autor/marina-leon-6788.html",
-			"itemCount": 3,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 101,
-			"confidence": "high",
-			"firstSeenAt": "2026-10-29T06:58:34.000Z",
-			"latestAt": "2026-11-09T21:36:24.000Z",
-			"daysActive": 12,
-			"categories": [
-				"local"
-			],
-			"sources": [
-				"El Correo"
-			],
-			"examples": [
-				{
-					"key": "https://www.elcorreo.com/gente-estilo/broncano-aclara-polemico-cambio-eleccion-publico-entrevista-20261109223624-nt.html?ref=lootura.com",
-					"title": "Broncano aclara el polémico cambio en la elección del público para la entrevista de Abascal",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/gente-estilo/broncano-aclara-polemico-cambio-eleccion-publico-entrevista-20261109223624-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T21:36:24.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.elcorreo.com/gente-estilo/almudena-ariza-sobre-posible-visita-abascal-revuelta-20261104074522-nt.html?ref=lootura.com",
-					"title": "Almudena Ariza sobre la posible visita de Abascal a 'La Revuelta': «Le preguntaría qué planes tiene para esta casa»",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/gente-estilo/almudena-ariza-sobre-posible-visita-abascal-revuelta-20261104074522-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-04T06:45:22.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.elcorreo.com/sociedad/guardia-civil-inspector-hacienda-fallecidos-tras-accidente-20261029075834-nt_amp.html",
-					"title": "Los rostros de la tragedia: la madre que iba a una boda desaparecida, un guardia civil, una podóloga, entre los fallecidos",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/sociedad/guardia-civil-inspector-hacienda-fallecidos-tras-accidente-20261029075834-nt_amp.html?utm_source=lootura.com",
-					"publishedAt": "2026-10-29T06:58:34.000Z",
-					"category": "local",
-					"weight": 4
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.elcorreo.com/gente-estilo/broncano-aclara-polemico-cambio-eleccion-publico-entrevista-20261109223624-nt.html?ref=lootura.com",
-					"title": "Broncano aclara el polémico cambio en la elección del público para la entrevista de Abascal",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/gente-estilo/broncano-aclara-polemico-cambio-eleccion-publico-entrevista-20261109223624-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T21:36:24.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.elcorreo.com/gente-estilo/almudena-ariza-sobre-posible-visita-abascal-revuelta-20261104074522-nt.html?ref=lootura.com",
-					"title": "Almudena Ariza sobre la posible visita de Abascal a 'La Revuelta': «Le preguntaría qué planes tiene para esta casa»",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/gente-estilo/almudena-ariza-sobre-posible-visita-abascal-revuelta-20261104074522-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-04T06:45:22.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.elcorreo.com/sociedad/guardia-civil-inspector-hacienda-fallecidos-tras-accidente-20261029075834-nt_amp.html",
-					"title": "Los rostros de la tragedia: la madre que iba a una boda desaparecida, un guardia civil, una podóloga, entre los fallecidos",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/sociedad/guardia-civil-inspector-hacienda-fallecidos-tras-accidente-20261029075834-nt_amp.html?utm_source=lootura.com",
-					"publishedAt": "2026-10-29T06:58:34.000Z",
-					"category": "local",
-					"weight": 4
 				}
 			]
 		},
@@ -6463,7 +6472,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 85,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-10T14:48:14.000Z",
 			"latestAt": "2026-11-12T20:55:04.000Z",
 			"daysActive": 3,
