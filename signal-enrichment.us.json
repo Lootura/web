@@ -2,45 +2,119 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-12T15:47:37.262Z",
+	"updatedAt": "2026-11-12T17:19:54.483Z",
 	"entries": {
+		"cluster-usa-nvidia-trump-nvidia-trump": {
+			"candidateId": "cluster-usa-nvidia + trump",
+			"label": "nvidia + trump",
+			"latestAt": "2026-11-12T17:06:46.000Z",
+			"startedAt": "2026-11-12T01:57:34.000Z",
+			"itemCount": 17,
+			"sourceCount": 7,
+			"terms": [
+				"nvidia",
+				"trump"
+			],
+			"sources": [
+				"CBS News",
+				"The Guardian US",
+				"The New York Times",
+				"NBC News",
+				"TIME",
+				"NPR",
+				"PBS NewsHour"
+			],
+			"titles": [
+				"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+				"Jensen Huang resigns as Nvidia CEO after alleged affairs",
+				"Trump reacts after Nvidia CEO Jensen Huang resigns",
+				"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+				"Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
+				"Trump Wants Apple's Tim Cook to Replace Jensen Huang as NVIDIA CEO",
+				"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
+				"Nvidia stock falls after Huang resigns, weighing on broader market",
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
+				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+				"Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
+				"Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
+				"Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
+				"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+				"Nvidia Board Meets to Discuss CEO Jensen Huang’s Future",
+				"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
+				"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
+			"entityLastCandidateAt": "2026-11-12T17:06:46.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-12T17:06:46.000Z",
+					"itemCount": 17,
+					"sourceCount": 7,
+					"headlines": [
+						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+						"Jensen Huang resigns as Nvidia CEO after alleged affairs",
+						"Trump reacts after Nvidia CEO Jensen Huang resigns"
+					],
+					"sources": [
+						"CBS News",
+						"The Guardian US",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-12T17:06:46.000Z|17|Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
+		},
 		"cluster-usa-nvidia-huang-nvidia-huang": {
 			"candidateId": "cluster-usa-nvidia + huang",
 			"label": "nvidia + huang",
-			"latestAt": "2026-11-12T15:30:04.000Z",
-			"startedAt": "2026-11-12T13:53:16.000Z",
-			"itemCount": 11,
-			"sourceCount": 8,
+			"latestAt": "2026-11-12T16:51:22.000Z",
+			"startedAt": "2026-11-12T10:41:57.000Z",
+			"itemCount": 7,
+			"sourceCount": 4,
 			"terms": [
 				"nvidia",
 				"huang"
 			],
 			"sources": [
 				"The New York Times",
+				"PBS NewsHour",
 				"CBS News",
-				"The Verge",
-				"NBC News",
-				"ABC News",
-				"NBC News Politics",
-				"NPR",
-				"PBS NewsHour"
+				"NBC News"
 			],
 			"titles": [
-				"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
-				"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-				"Nvidia CEO Jensen Huang has resigned. What happens next?",
-				"Nvidia stock falls after Huang resigns, weighing on broader market",
-				"Nvidia CEO Jensen Huang resigns amid alleged affair with suspected spy",
-				"Nvidia’s Jensen Huang Steps Down as CEO Amid Scandal",
-				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
-				"Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
-				"Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
-				"Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
-				"Nvidia CEO Jensen Huang resigns amid spy, affair scandals"
+				"What to Know About the Deadly Building Collapse in Brooklyn",
+				"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
+				"NYC building collapse: Death toll rises",
+				"Building Collapse in Brooklyn Leaves at Least 5 Dead",
+				"Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
+				"Singapore Says US Not Helpful on Investigation Into Alice Huang and Megaspeed",
+				"Megaspeed, chip firm at center of Nvidia scandal, pledges to cooperate with U.S. investigation"
 			],
 			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-12T15:30:04.000Z",
+			"entityLastCandidateAt": "2026-11-12T16:51:22.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T16:51:22.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
+						"NYC building collapse: Death toll rises"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
 				{
 					"observedAt": "2026-11-12T15:47:37.262Z",
 					"label": "nvidia + huang",
@@ -97,145 +171,101 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
-		"cluster-usa-huang-nvidia-huang-nvidia": {
-			"candidateId": "cluster-usa-huang + nvidia",
-			"label": "huang + nvidia",
-			"latestAt": "2026-11-12T15:32:30.000Z",
-			"startedAt": "2026-11-12T01:57:34.000Z",
-			"itemCount": 9,
+		"cluster-usa-states-united-states-united": {
+			"candidateId": "cluster-usa-states + united",
+			"label": "states + united",
+			"latestAt": "2026-11-12T16:20:04.000Z",
+			"startedAt": "2026-11-12T03:10:32.000Z",
+			"itemCount": 5,
 			"sourceCount": 3,
 			"terms": [
-				"huang",
-				"nvidia"
+				"states",
+				"united"
 			],
 			"sources": [
-				"NBC News",
-				"The New York Times",
-				"CBS News"
+				"NPR",
+				"CBS News",
+				"The New York Times"
 			],
 			"titles": [
-				"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
-				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
-				"Nvidia Board Meets to Discuss CEO Jensen Huang’s Future",
-				"Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
-				"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
-				"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
-				"Singapore Says US Not Helpful on Investigation Into Alice Huang and Megaspeed",
-				"Megaspeed, chip firm at center of Nvidia scandal, pledges to cooperate with U.S. investigation"
+				"The SS United States takes its final voyage to the bottom of the Gulf of Mexico",
+				"SS United States is sunk off the Florida coast to become largest artificial reef",
+				"Recalling the S.S. United States as It Becomes a Florida Reef",
+				"World's fastest ocean liner is sunk to break another record: largest artificial reef",
+				"The S.S. United States, a Historic Supership, Sinks to the Ocean Floor"
 			],
-			"entityFirstSeenAt": "2026-11-10T19:04:31.604Z",
-			"entityLastCandidateAt": "2026-11-12T15:32:30.000Z",
+			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
+			"entityLastCandidateAt": "2026-11-12T16:20:04.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-12T15:32:30.000Z",
-					"itemCount": 9,
-					"sourceCount": 3,
-					"headlines": [
-						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-						"Nvidia's board preparing to oust CEO Jensen Huang, sources say"
-					],
-					"sources": [
-						"NBC News",
-						"The New York Times",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-12T15:32:30.000Z|9|Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says"
-				},
-				{
-					"observedAt": "2026-11-10T21:26:40.157Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-10T21:12:38.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
-						"Nvidia hires former acting U.S. attorney to probe Jensen Huang affair",
-						"Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia’s Jensen Huang"
-					],
-					"sources": [
-						"The New York Times",
-						"NBC News",
-						"The New York Times Politics"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-10T21:12:38.000Z|7|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
-				},
-				{
-					"observedAt": "2026-11-10T19:04:31.604Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-10T19:01:56.000Z",
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "states + united",
+					"latestAt": "2026-11-12T16:20:04.000Z",
 					"itemCount": 5,
 					"sourceCount": 3,
 					"headlines": [
-						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
-						"Nvidia and Huang face lawsuit alleging investors were misled about spy affair",
-						"Nvidia’s Board Has a History of Letting Jensen Huang Get His Way"
+						"The SS United States takes its final voyage to the bottom of the Gulf of Mexico",
+						"SS United States is sunk off the Florida coast to become largest artificial reef",
+						"Recalling the S.S. United States as It Becomes a Florida Reef"
 					],
 					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"CBS News"
+						"NPR",
+						"CBS News",
+						"The New York Times"
 					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-10T19:01:56.000Z|5|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
+					"eventId": "cluster-usa-states + united|2026-11-12T16:20:04.000Z|5|The SS United States takes its final voyage to the bottom of the Gulf of Mexico"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
-		"cluster-usa-building-collapse-building-collapse": {
-			"candidateId": "cluster-usa-building + collapse",
-			"label": "building + collapse",
-			"latestAt": "2026-11-12T15:32:54.000Z",
-			"startedAt": "2026-11-12T12:26:34.000Z",
-			"itemCount": 6,
-			"sourceCount": 4,
+		"cluster-usa-prostate-cancer-prostate-cancer": {
+			"candidateId": "cluster-usa-prostate + cancer",
+			"label": "prostate + cancer",
+			"latestAt": "2026-11-12T15:30:29.000Z",
+			"startedAt": "2026-11-12T12:00:05.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
 			"terms": [
-				"building",
-				"collapse"
+				"prostate",
+				"cancer"
 			],
 			"sources": [
 				"CBS News",
-				"The Guardian US",
-				"The New York Times",
-				"NBC News"
+				"NBC News",
+				"The New York Times"
 			],
 			"titles": [
-				"NYC building collapse: Death toll rises",
-				"Greta Thunberg and a collapsed building in Brooklyn: photos of the day – Thursday",
-				"Brooklyn building collapse kills at least eight and injures 17 as search continues",
-				"Excavation Was Taking Place Next to Building in Brooklyn That Collapsed",
-				"What to Know About the Deadly Building Collapse in Brooklyn",
-				"Building Collapse in Brooklyn Leaves at Least 5 Dead"
+				"How men can guard against prostate cancer",
+				"New prostate cancer screening guidelines include regular PSA testing for most older men",
+				"What to Know About New Prostate Cancer Screening Recommendations"
 			],
 			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T15:32:54.000Z",
+			"entityLastCandidateAt": "2026-11-12T15:30:29.000Z",
 			"entityTimeline": [
 				{
 					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-12T15:32:54.000Z",
-					"itemCount": 6,
-					"sourceCount": 4,
+					"label": "prostate + cancer",
+					"latestAt": "2026-11-12T15:30:29.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
 					"headlines": [
-						"NYC building collapse: Death toll rises",
-						"Greta Thunberg and a collapsed building in Brooklyn: photos of the day – Thursday",
-						"Brooklyn building collapse kills at least eight and injures 17 as search continues"
+						"How men can guard against prostate cancer",
+						"New prostate cancer screening guidelines include regular PSA testing for most older men",
+						"What to Know About New Prostate Cancer Screening Recommendations"
 					],
 					"sources": [
 						"CBS News",
-						"The Guardian US",
+						"NBC News",
 						"The New York Times"
 					],
-					"eventId": "cluster-usa-building + collapse|2026-11-12T15:32:54.000Z|6|NYC building collapse: Death toll rises"
+					"eventId": "cluster-usa-prostate + cancer|2026-11-12T15:30:29.000Z|3|How men can guard against prostate cancer"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
 		"cluster-usa-nvidia-affair-nvidia-affair": {
 			"candidateId": "cluster-usa-nvidia + affair",
@@ -282,78 +312,88 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
-		"cluster-usa-prostate-cancer-prostate-cancer": {
-			"candidateId": "cluster-usa-prostate + cancer",
-			"label": "prostate + cancer",
-			"latestAt": "2026-11-12T15:30:29.000Z",
-			"startedAt": "2026-11-12T12:00:05.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
+		"cluster-usa-shooting-logan-shooting-logan": {
+			"candidateId": "cluster-usa-shooting + logan",
+			"label": "shooting + logan",
+			"latestAt": "2026-11-12T17:15:35.000Z",
+			"startedAt": "2026-11-12T13:48:00.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
 			"terms": [
-				"prostate",
-				"cancer"
+				"shooting",
+				"logan"
 			],
 			"sources": [
-				"CBS News",
-				"NBC News",
-				"The New York Times"
+				"The New York Times",
+				"CBS News"
 			],
 			"titles": [
-				"How men can guard against prostate cancer",
-				"New prostate cancer screening guidelines include regular PSA testing for most older men",
-				"What to Know About New Prostate Cancer Screening Recommendations"
+				"5 Shot in Washington D.C.’s Logan Circle Neighborhood",
+				"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say"
 			],
-			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T15:30:29.000Z",
+			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
+			"entityLastCandidateAt": "2026-11-12T17:15:35.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "prostate + cancer",
-					"latestAt": "2026-11-12T15:30:29.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "shooting + logan",
+					"latestAt": "2026-11-12T17:15:35.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
 					"headlines": [
-						"How men can guard against prostate cancer",
-						"New prostate cancer screening guidelines include regular PSA testing for most older men",
-						"What to Know About New Prostate Cancer Screening Recommendations"
+						"5 Shot in Washington D.C.’s Logan Circle Neighborhood",
+						"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say"
 					],
 					"sources": [
-						"CBS News",
-						"NBC News",
-						"The New York Times"
+						"The New York Times",
+						"CBS News"
 					],
-					"eventId": "cluster-usa-prostate + cancer|2026-11-12T15:30:29.000Z|3|How men can guard against prostate cancer"
+					"eventId": "cluster-usa-shooting + logan|2026-11-12T17:15:35.000Z|2|5 Shot in Washington D.C.’s Logan Circle Neighborhood"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
 		"cluster-usa-hospital-least-hospital-least": {
 			"candidateId": "cluster-usa-hospital + least",
 			"label": "hospital + least",
 			"latestAt": "2026-11-12T15:26:36.000Z",
 			"startedAt": "2026-11-12T09:26:44.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
+			"itemCount": 2,
+			"sourceCount": 2,
 			"terms": [
 				"hospital",
 				"least"
 			],
 			"sources": [
 				"CBS News",
-				"The New York Times World",
 				"NBC News"
 			],
 			"titles": [
 				"Israeli strike on Gaza hospital kills 6, health authorities say",
-				"Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Say",
 				"Israeli strike on Gaza hospital kills at least six people, officials say"
 			],
 			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
 			"entityLastCandidateAt": "2026-11-12T15:26:36.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "hospital + least",
+					"latestAt": "2026-11-12T15:26:36.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Israeli strike on Gaza hospital kills 6, health authorities say",
+						"Israeli strike on Gaza hospital kills at least six people, officials say"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-hospital + least|2026-11-12T15:26:36.000Z|2|Israeli strike on Gaza hospital kills 6, health authorities say"
+				},
 				{
 					"observedAt": "2026-11-12T15:47:37.262Z",
 					"label": "hospital + least",
@@ -374,145 +414,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
-		},
-		"cluster-usa-trump-talks-trump-talks": {
-			"candidateId": "cluster-usa-trump + talks",
-			"label": "trump + talks",
-			"latestAt": "2026-11-12T15:26:34.000Z",
-			"startedAt": "2026-11-12T14:22:12.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"trump",
-				"talks"
-			],
-			"sources": [
-				"NPR World",
-				"TIME",
-				"The New York Times Politics"
-			],
-			"titles": [
-				"U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi",
-				"Trump Envoys Witkoff and Kushner Meet With Putin in Moscow for Ukraine Talks",
-				"Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign"
-			],
-			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T15:26:34.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "trump + talks",
-					"latestAt": "2026-11-12T15:26:34.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi",
-						"Trump Envoys Witkoff and Kushner Meet With Putin in Moscow for Ukraine Talks",
-						"Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign"
-					],
-					"sources": [
-						"NPR World",
-						"TIME",
-						"The New York Times Politics"
-					],
-					"eventId": "cluster-usa-trump + talks|2026-11-12T15:26:34.000Z|3|U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
-		},
-		"cluster-usa-states-reef-states-reef": {
-			"candidateId": "cluster-usa-states + reef",
-			"label": "states + reef",
-			"latestAt": "2026-11-12T15:23:36.000Z",
-			"startedAt": "2026-11-12T03:10:32.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"states",
-				"reef"
-			],
-			"sources": [
-				"CBS News",
-				"The New York Times",
-				"NPR"
-			],
-			"titles": [
-				"SS United States is sunk off the Florida coast to become largest artificial reef",
-				"Recalling the S.S. United States as It Becomes a Florida Reef",
-				"World's fastest ocean liner is sunk to break another record: largest artificial reef"
-			],
-			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T15:23:36.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "states + reef",
-					"latestAt": "2026-11-12T15:23:36.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"SS United States is sunk off the Florida coast to become largest artificial reef",
-						"Recalling the S.S. United States as It Becomes a Florida Reef",
-						"World's fastest ocean liner is sunk to break another record: largest artificial reef"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NPR"
-					],
-					"eventId": "cluster-usa-states + reef|2026-11-12T15:23:36.000Z|3|SS United States is sunk off the Florida coast to become largest artificial reef"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
-		},
-		"cluster-usa-shooting-shot-shooting-shot": {
-			"candidateId": "cluster-usa-shooting + shot",
-			"label": "shooting + shot",
-			"latestAt": "2026-11-12T15:18:44.000Z",
-			"startedAt": "2026-11-12T13:48:00.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"shooting",
-				"shot"
-			],
-			"sources": [
-				"The New York Times",
-				"CBS News",
-				"ABC News"
-			],
-			"titles": [
-				"5 Shot in Washington D.C.’s Logan Circle Neighborhood",
-				"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say",
-				"4 shot in Washington, DC, as police respond to active shooting: Sources"
-			],
-			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T15:18:44.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "shooting + shot",
-					"latestAt": "2026-11-12T15:18:44.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"5 Shot in Washington D.C.’s Logan Circle Neighborhood",
-						"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say",
-						"4 shot in Washington, DC, as police respond to active shooting: Sources"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"ABC News"
-					],
-					"eventId": "cluster-usa-shooting + shot|2026-11-12T15:18:44.000Z|3|5 Shot in Washington D.C.’s Logan Circle Neighborhood"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
 		"cluster-usa-mississippi-senate-mississippi-senate": {
 			"candidateId": "cluster-usa-mississippi + senate",
@@ -572,7 +474,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
 		"cluster-usa-trump-future-trump-future": {
 			"candidateId": "cluster-usa-trump + future",
@@ -617,7 +519,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -1200,84 +1102,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T08:25:56.119Z"
 		},
-		"cluster-spain-menos-muertos-menos-muertos": {
-			"candidateId": "cluster-spain-menos + muertos",
-			"label": "menos + muertos",
-			"latestAt": "2026-11-08T15:58:36.000Z",
-			"startedAt": "2026-11-08T15:30:45.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"menos",
-				"muertos"
-			],
-			"sources": [
-				"El Correo",
-				"El País"
-			],
-			"titles": [
-				"Al menos 4 muertos y 88 heridos en una colisión entre dos trenes en Egipto",
-				"Al menos cuatro muertos y 88 heridos por la colisión de dos trenes en la provincia egipcia de Giza"
-			],
-			"entityFirstSeenAt": "2026-11-07T17:10:34.646Z",
-			"entityLastCandidateAt": "2026-11-08T15:58:36.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:29:34.540Z",
-					"label": "menos + muertos",
-					"latestAt": "2026-11-08T15:58:36.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Al menos 4 muertos y 88 heridos en una colisión entre dos trenes en Egipto",
-						"Al menos cuatro muertos y 88 heridos por la colisión de dos trenes en la provincia egipcia de Giza"
-					],
-					"sources": [
-						"El Correo",
-						"El País"
-					],
-					"eventId": "cluster-spain-menos + muertos|2026-11-08T15:58:36.000Z|2|Al menos 4 muertos y 88 heridos en una colisión entre dos trenes en Egipto"
-				},
-				{
-					"observedAt": "2026-11-08T16:27:40.053Z",
-					"label": "menos + muertos",
-					"latestAt": "2026-11-08T16:21:30.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Al menos cuatro muertos y 88 heridos por la colisión de dos trenes en la provincia egipcia de Giza",
-						"Al menos cuatro muertos y 88 heridos tras descarrilar un tren en Guiza (Egipto)",
-						"Al menos 4 muertos y 88 heridos en una colisión entre dos trenes en Egipto"
-					],
-					"sources": [
-						"La Razón",
-						"The Objective",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-menos + muertos|2026-11-08T16:21:30.000Z|4|Al menos cuatro muertos y 88 heridos por la colisión de dos trenes en la provincia egipcia de Giza"
-				},
-				{
-					"observedAt": "2026-11-07T17:10:34.646Z",
-					"label": "menos + muertos",
-					"latestAt": "2026-11-07T16:44:53.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Al menos seis muertos y una quincena de heridos en un atentado en la plaza mayor de Cracovia",
-						"Al menos cinco muertos en un tiroteo en el centro de Cracovia",
-						"Al menos cinco muertos y una decena de heridos tras un tiroteo en Cracovia"
-					],
-					"sources": [
-						"El País",
-						"El Correo",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-menos + muertos|2026-11-07T16:44:53.000Z|3|Al menos seis muertos y una quincena de heridos en un atentado en la plaza mayor de Cracovia"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T21:29:34.540Z"
-		},
 		"cluster-usa-trump-miller-trump-miller": {
 			"candidateId": "cluster-usa-trump + miller",
 			"label": "trump + miller",
@@ -1472,105 +1296,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T08:25:56.119Z"
 		},
-		"cluster-spain-contra-alcaraz-contra-alcaraz": {
-			"candidateId": "cluster-spain-contra + alcaraz",
-			"label": "contra + alcaraz",
-			"latestAt": "2026-11-08T16:20:53.000Z",
-			"startedAt": "2026-11-08T14:03:41.000Z",
-			"itemCount": 6,
-			"sourceCount": 5,
-			"terms": [
-				"contra",
-				"alcaraz"
-			],
-			"sources": [
-				"OK Diario",
-				"El Mundo",
-				"El Debate",
-				"The Objective",
-				"El Correo"
-			],
-			"titles": [
-				"Cómo va Alcaraz – Ben Shelton, en directo: resultado en tiempo real de la final del partido del Masters 1000 de París",
-				"Alcaraz se venga de Shelton para levantar en París su primer Masters 1000 bajo techo",
-				"Alcaraz logra su revancha contra Shelton y conquista por primera vez el Masters 1000 de París",
-				"Alcaraz consuma su revancha ante Shelton y reina en París",
-				"Alcaraz tumba a Shelton y logra por primera vez el Masters 1000 de París",
-				"Alcaraz reina en París y conquista su quinto título del año"
-			],
-			"entityFirstSeenAt": "2026-11-08T16:27:40.053Z",
-			"entityLastCandidateAt": "2026-11-08T16:20:53.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T16:27:40.053Z",
-					"label": "contra + alcaraz",
-					"latestAt": "2026-11-08T16:20:53.000Z",
-					"itemCount": 6,
-					"sourceCount": 5,
-					"headlines": [
-						"Cómo va Alcaraz – Ben Shelton, en directo: resultado en tiempo real de la final del partido del Masters 1000 de París",
-						"Alcaraz se venga de Shelton para levantar en París su primer Masters 1000 bajo techo",
-						"Alcaraz logra su revancha contra Shelton y conquista por primera vez el Masters 1000 de París"
-					],
-					"sources": [
-						"OK Diario",
-						"El Mundo",
-						"El Debate"
-					],
-					"eventId": "cluster-spain-contra + alcaraz|2026-11-08T16:20:53.000Z|6|Cómo va Alcaraz – Ben Shelton, en directo: resultado en tiempo real de la final del partido del Masters 1000 de París"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T16:27:40.053Z"
-		},
-		"cluster-spain-partido-eisenkot-partido-eisenkot": {
-			"candidateId": "cluster-spain-partido + eisenkot",
-			"label": "partido + eisenkot",
-			"latestAt": "2026-11-08T16:20:08.000Z",
-			"startedAt": "2026-11-08T16:04:27.000Z",
-			"itemCount": 4,
-			"sourceCount": 4,
-			"terms": [
-				"partido",
-				"eisenkot"
-			],
-			"sources": [
-				"La Razón",
-				"El País",
-				"elDiario.es",
-				"El Mundo"
-			],
-			"titles": [
-				"Eisenkot acepta el encargo de Herzog y reclama un «Gobierno de emergencia nacional» en Israel",
-				"Eisenkot apela a un Gobierno de “emergencia nacional” ante la “necesidad urgente de un nuevo liderazgo” en Israel",
-				"Eisenkot insiste en pedir un gobierno de \"emergencia nacional\" en Israel tras ser designado para liderar el nuevo Ejecutivo",
-				"Eisenkot invita al partido de Netanyahu a formar una coalición de Gobierno"
-			],
-			"entityFirstSeenAt": "2026-11-08T16:27:40.053Z",
-			"entityLastCandidateAt": "2026-11-08T16:20:08.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T16:27:40.053Z",
-					"label": "partido + eisenkot",
-					"latestAt": "2026-11-08T16:20:08.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Eisenkot acepta el encargo de Herzog y reclama un «Gobierno de emergencia nacional» en Israel",
-						"Eisenkot apela a un Gobierno de “emergencia nacional” ante la “necesidad urgente de un nuevo liderazgo” en Israel",
-						"Eisenkot insiste en pedir un gobierno de \"emergencia nacional\" en Israel tras ser designado para liderar el nuevo Ejecutivo"
-					],
-					"sources": [
-						"La Razón",
-						"El País",
-						"elDiario.es"
-					],
-					"eventId": "cluster-spain-partido + eisenkot|2026-11-08T16:20:08.000Z|4|Eisenkot acepta el encargo de Herzog y reclama un «Gobierno de emergencia nacional» en Israel"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T16:27:40.053Z"
-		},
 		"cluster-spain-contra-ataque-contra-ataque": {
 			"candidateId": "cluster-spain-contra + ataque",
 			"label": "contra + ataque",
@@ -1630,90 +1355,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T01:19:45.981Z"
-		},
-		"cluster-usa-trump-america-trump-america": {
-			"candidateId": "cluster-usa-trump + america",
-			"label": "trump + america",
-			"latestAt": "2026-11-08T16:25:45.000Z",
-			"startedAt": "2026-11-08T02:09:25.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"trump",
-				"america"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"The New York Times"
-			],
-			"titles": [
-				"For Trump and America, a Clear Election Verdict but a Murky Future",
-				"How Trump Is Dismantling America’s Scientific Research Machine"
-			],
-			"entityFirstSeenAt": "2026-11-08T16:28:13.151Z",
-			"entityLastCandidateAt": "2026-11-08T16:25:45.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T16:28:13.151Z",
-					"label": "trump + america",
-					"latestAt": "2026-11-08T16:25:45.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"For Trump and America, a Clear Election Verdict but a Murky Future",
-						"How Trump Is Dismantling America’s Scientific Research Machine"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-trump + america|2026-11-08T16:25:45.000Z|2|For Trump and America, a Clear Election Verdict but a Murky Future"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T01:20:23.182Z"
-		},
-		"cluster-usa-house-hakeem-house-hakeem": {
-			"candidateId": "cluster-usa-house + hakeem",
-			"label": "house + hakeem",
-			"latestAt": "2026-11-08T16:12:12.000Z",
-			"startedAt": "2026-11-08T14:57:58.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"house",
-				"hakeem"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"ABC News"
-			],
-			"titles": [
-				"Hakeem Jeffries, in Line to Become House Speaker, Promises Bold Agenda",
-				"'I'm a hard yes': Hakeem Jeffries announces support for Hegseth impeachment"
-			],
-			"entityFirstSeenAt": "2026-11-08T16:28:13.151Z",
-			"entityLastCandidateAt": "2026-11-08T16:12:12.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T16:28:13.151Z",
-					"label": "house + hakeem",
-					"latestAt": "2026-11-08T16:12:12.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Hakeem Jeffries, in Line to Become House Speaker, Promises Bold Agenda",
-						"'I'm a hard yes': Hakeem Jeffries announces support for Hegseth impeachment"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"ABC News"
-					],
-					"eventId": "cluster-usa-house + hakeem|2026-11-08T16:12:12.000Z|2|Hakeem Jeffries, in Line to Become House Speaker, Promises Bold Agenda"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T16:28:13.151Z"
 		},
 		"cluster-spain-nvidia-abre-nvidia-abre": {
 			"candidateId": "cluster-spain-nvidia + abre",
@@ -2155,48 +1796,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T01:19:45.981Z"
 		},
-		"cluster-spain-bajo-titulo-bajo-titulo": {
-			"candidateId": "cluster-spain-bajo + titulo",
-			"label": "bajo + titulo",
-			"latestAt": "2026-11-08T17:19:28.000Z",
-			"startedAt": "2026-11-08T14:03:41.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"bajo",
-				"titulo"
-			],
-			"sources": [
-				"El Mundo",
-				"El Correo"
-			],
-			"titles": [
-				"Alcaraz se venga de Shelton para levantar en París su primer Masters 1000 bajo techo",
-				"Alcaraz reina en París y conquista su quinto título del año"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:29:34.540Z",
-			"entityLastCandidateAt": "2026-11-08T17:19:28.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:29:34.540Z",
-					"label": "bajo + titulo",
-					"latestAt": "2026-11-08T17:19:28.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Alcaraz se venga de Shelton para levantar en París su primer Masters 1000 bajo techo",
-						"Alcaraz reina en París y conquista su quinto título del año"
-					],
-					"sources": [
-						"El Mundo",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-bajo + titulo|2026-11-08T17:19:28.000Z|2|Alcaraz se venga de Shelton para levantar en París su primer Masters 1000 bajo techo"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T21:29:34.540Z"
-		},
 		"cluster-usa-nvidia-investigation-nvidia-investigation": {
 			"candidateId": "cluster-usa-nvidia + investigation",
 			"label": "nvidia + investigation",
@@ -2498,48 +2097,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-08T21:30:11.158Z"
 		},
-		"cluster-usa-eisenkot-president-eisenkot-president": {
-			"candidateId": "cluster-usa-eisenkot + president",
-			"label": "eisenkot + president",
-			"latestAt": "2026-11-08T16:32:35.000Z",
-			"startedAt": "2026-11-08T14:26:14.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"eisenkot",
-				"president"
-			],
-			"sources": [
-				"PBS NewsHour",
-				"The Guardian US"
-			],
-			"titles": [
-				"Israel's president formally gives Eisenkot the first chance to form the next government",
-				"Israel’s president picks Yashar leader Gadi Eisenkot to form government"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:30:11.158Z",
-			"entityLastCandidateAt": "2026-11-08T16:32:35.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:30:11.158Z",
-					"label": "eisenkot + president",
-					"latestAt": "2026-11-08T16:32:35.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Israel's president formally gives Eisenkot the first chance to form the next government",
-						"Israel’s president picks Yashar leader Gadi Eisenkot to form government"
-					],
-					"sources": [
-						"PBS NewsHour",
-						"The Guardian US"
-					],
-					"eventId": "cluster-usa-eisenkot + president|2026-11-08T16:32:35.000Z|2|Israel's president formally gives Eisenkot the first chance to form the next government"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T21:30:11.158Z"
-		},
 		"cluster-spain-milei-vivo-milei-vivo": {
 			"candidateId": "cluster-spain-milei + vivo",
 			"label": "milei + vivo",
@@ -2755,90 +2312,6 @@
 						"El Mundo"
 					],
 					"eventId": "cluster-spain-gobierno + golf|2026-11-09T00:18:12.000Z|2|El Gobierno vasco pagará 21 millones por el suelo del plan fallido para levantar un campo de golf y 546 chalés en Derio"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T01:19:45.981Z"
-		},
-		"cluster-spain-titulo-bajo-titulo-bajo": {
-			"candidateId": "cluster-spain-titulo + bajo",
-			"label": "titulo + bajo",
-			"latestAt": "2026-11-08T17:19:28.000Z",
-			"startedAt": "2026-11-08T14:03:41.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"titulo",
-				"bajo"
-			],
-			"sources": [
-				"El Mundo",
-				"El Correo"
-			],
-			"titles": [
-				"Alcaraz se venga de Shelton para levantar en París su primer Masters 1000 bajo techo",
-				"Alcaraz reina en París y conquista su quinto título del año"
-			],
-			"entityFirstSeenAt": "2026-11-09T01:19:45.981Z",
-			"entityLastCandidateAt": "2026-11-08T17:19:28.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T01:19:45.981Z",
-					"label": "titulo + bajo",
-					"latestAt": "2026-11-08T17:19:28.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Alcaraz se venga de Shelton para levantar en París su primer Masters 1000 bajo techo",
-						"Alcaraz reina en París y conquista su quinto título del año"
-					],
-					"sources": [
-						"El Mundo",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-titulo + bajo|2026-11-08T17:19:28.000Z|2|Alcaraz se venga de Shelton para levantar en París su primer Masters 1000 bajo techo"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T01:19:45.981Z"
-		},
-		"cluster-spain-muertos-menos-muertos-menos": {
-			"candidateId": "cluster-spain-muertos + menos",
-			"label": "muertos + menos",
-			"latestAt": "2026-11-08T15:58:36.000Z",
-			"startedAt": "2026-11-08T15:30:45.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"muertos",
-				"menos"
-			],
-			"sources": [
-				"El Correo",
-				"El País"
-			],
-			"titles": [
-				"Al menos 4 muertos y 88 heridos en una colisión entre dos trenes en Egipto",
-				"Al menos cuatro muertos y 88 heridos por la colisión de dos trenes en la provincia egipcia de Giza"
-			],
-			"entityFirstSeenAt": "2026-11-09T01:19:45.981Z",
-			"entityLastCandidateAt": "2026-11-08T15:58:36.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T01:19:45.981Z",
-					"label": "muertos + menos",
-					"latestAt": "2026-11-08T15:58:36.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Al menos 4 muertos y 88 heridos en una colisión entre dos trenes en Egipto",
-						"Al menos cuatro muertos y 88 heridos por la colisión de dos trenes en la provincia egipcia de Giza"
-					],
-					"sources": [
-						"El Correo",
-						"El País"
-					],
-					"eventId": "cluster-spain-muertos + menos|2026-11-08T15:58:36.000Z|2|Al menos 4 muertos y 88 heridos en una colisión entre dos trenes en Egipto"
 				}
 			],
 			"entityState": "active",
@@ -8408,6 +7881,94 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-10T19:03:55.994Z"
 		},
+		"cluster-usa-huang-nvidia-huang-nvidia": {
+			"candidateId": "cluster-usa-huang + nvidia",
+			"label": "huang + nvidia",
+			"latestAt": "2026-11-12T15:32:30.000Z",
+			"startedAt": "2026-11-12T01:57:34.000Z",
+			"itemCount": 9,
+			"sourceCount": 3,
+			"terms": [
+				"huang",
+				"nvidia"
+			],
+			"sources": [
+				"NBC News",
+				"The New York Times",
+				"CBS News"
+			],
+			"titles": [
+				"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
+				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+				"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+				"Nvidia Board Meets to Discuss CEO Jensen Huang’s Future",
+				"Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
+				"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
+				"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
+				"Singapore Says US Not Helpful on Investigation Into Alice Huang and Megaspeed",
+				"Megaspeed, chip firm at center of Nvidia scandal, pledges to cooperate with U.S. investigation"
+			],
+			"entityFirstSeenAt": "2026-11-10T19:04:31.604Z",
+			"entityLastCandidateAt": "2026-11-12T15:32:30.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-12T15:32:30.000Z",
+					"itemCount": 9,
+					"sourceCount": 3,
+					"headlines": [
+						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+						"Nvidia's board preparing to oust CEO Jensen Huang, sources say"
+					],
+					"sources": [
+						"NBC News",
+						"The New York Times",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-12T15:32:30.000Z|9|Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says"
+				},
+				{
+					"observedAt": "2026-11-10T21:26:40.157Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-10T21:12:38.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
+						"Nvidia hires former acting U.S. attorney to probe Jensen Huang affair",
+						"Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia’s Jensen Huang"
+					],
+					"sources": [
+						"The New York Times",
+						"NBC News",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-10T21:12:38.000Z|7|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
+				},
+				{
+					"observedAt": "2026-11-10T19:04:31.604Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-10T19:01:56.000Z",
+					"itemCount": 5,
+					"sourceCount": 3,
+					"headlines": [
+						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
+						"Nvidia and Huang face lawsuit alleging investors were misled about spy affair",
+						"Nvidia’s Board Has a History of Letting Jensen Huang Get His Way"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-10T19:01:56.000Z|5|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+		},
 		"cluster-usa-hegseth-against-hegseth-against": {
 			"candidateId": "cluster-usa-hegseth + against",
 			"label": "hegseth + against",
@@ -13831,7 +13392,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:00.508Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
 		},
 		"cluster-spain-general-bizkaia-general-bizkaia": {
 			"candidateId": "cluster-spain-general + bizkaia",
@@ -13874,19 +13435,529 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T15:47:00.508Z"
+		},
+		"cluster-usa-building-collapse-building-collapse": {
+			"candidateId": "cluster-usa-building + collapse",
+			"label": "building + collapse",
+			"latestAt": "2026-11-12T15:32:54.000Z",
+			"startedAt": "2026-11-12T12:26:34.000Z",
+			"itemCount": 6,
+			"sourceCount": 4,
+			"terms": [
+				"building",
+				"collapse"
+			],
+			"sources": [
+				"CBS News",
+				"The Guardian US",
+				"The New York Times",
+				"NBC News"
+			],
+			"titles": [
+				"NYC building collapse: Death toll rises",
+				"Greta Thunberg and a collapsed building in Brooklyn: photos of the day – Thursday",
+				"Brooklyn building collapse kills at least eight and injures 17 as search continues",
+				"Excavation Was Taking Place Next to Building in Brooklyn That Collapsed",
+				"What to Know About the Deadly Building Collapse in Brooklyn",
+				"Building Collapse in Brooklyn Leaves at Least 5 Dead"
+			],
+			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
+			"entityLastCandidateAt": "2026-11-12T15:32:54.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T15:32:54.000Z",
+					"itemCount": 6,
+					"sourceCount": 4,
+					"headlines": [
+						"NYC building collapse: Death toll rises",
+						"Greta Thunberg and a collapsed building in Brooklyn: photos of the day – Thursday",
+						"Brooklyn building collapse kills at least eight and injures 17 as search continues"
+					],
+					"sources": [
+						"CBS News",
+						"The Guardian US",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T15:32:54.000Z|6|NYC building collapse: Death toll rises"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+		},
+		"cluster-usa-trump-talks-trump-talks": {
+			"candidateId": "cluster-usa-trump + talks",
+			"label": "trump + talks",
+			"latestAt": "2026-11-12T15:26:34.000Z",
+			"startedAt": "2026-11-12T14:22:12.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"trump",
+				"talks"
+			],
+			"sources": [
+				"NPR World",
+				"TIME",
+				"The New York Times Politics"
+			],
+			"titles": [
+				"U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi",
+				"Trump Envoys Witkoff and Kushner Meet With Putin in Moscow for Ukraine Talks",
+				"Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign"
+			],
+			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
+			"entityLastCandidateAt": "2026-11-12T15:26:34.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "trump + talks",
+					"latestAt": "2026-11-12T15:26:34.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi",
+						"Trump Envoys Witkoff and Kushner Meet With Putin in Moscow for Ukraine Talks",
+						"Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign"
+					],
+					"sources": [
+						"NPR World",
+						"TIME",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-trump + talks|2026-11-12T15:26:34.000Z|3|U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+		},
+		"cluster-usa-states-reef-states-reef": {
+			"candidateId": "cluster-usa-states + reef",
+			"label": "states + reef",
+			"latestAt": "2026-11-12T15:23:36.000Z",
+			"startedAt": "2026-11-12T03:10:32.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"states",
+				"reef"
+			],
+			"sources": [
+				"CBS News",
+				"The New York Times",
+				"NPR"
+			],
+			"titles": [
+				"SS United States is sunk off the Florida coast to become largest artificial reef",
+				"Recalling the S.S. United States as It Becomes a Florida Reef",
+				"World's fastest ocean liner is sunk to break another record: largest artificial reef"
+			],
+			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
+			"entityLastCandidateAt": "2026-11-12T15:23:36.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "states + reef",
+					"latestAt": "2026-11-12T15:23:36.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"SS United States is sunk off the Florida coast to become largest artificial reef",
+						"Recalling the S.S. United States as It Becomes a Florida Reef",
+						"World's fastest ocean liner is sunk to break another record: largest artificial reef"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NPR"
+					],
+					"eventId": "cluster-usa-states + reef|2026-11-12T15:23:36.000Z|3|SS United States is sunk off the Florida coast to become largest artificial reef"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+		},
+		"cluster-usa-shooting-shot-shooting-shot": {
+			"candidateId": "cluster-usa-shooting + shot",
+			"label": "shooting + shot",
+			"latestAt": "2026-11-12T15:18:44.000Z",
+			"startedAt": "2026-11-12T13:48:00.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"shooting",
+				"shot"
+			],
+			"sources": [
+				"The New York Times",
+				"CBS News",
+				"ABC News"
+			],
+			"titles": [
+				"5 Shot in Washington D.C.’s Logan Circle Neighborhood",
+				"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say",
+				"4 shot in Washington, DC, as police respond to active shooting: Sources"
+			],
+			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
+			"entityLastCandidateAt": "2026-11-12T15:18:44.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "shooting + shot",
+					"latestAt": "2026-11-12T15:18:44.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"5 Shot in Washington D.C.’s Logan Circle Neighborhood",
+						"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say",
+						"4 shot in Washington, DC, as police respond to active shooting: Sources"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"ABC News"
+					],
+					"eventId": "cluster-usa-shooting + shot|2026-11-12T15:18:44.000Z|3|5 Shot in Washington D.C.’s Logan Circle Neighborhood"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+		},
+		"cluster-spain-sanchez-detenido-sanchez-detenido": {
+			"candidateId": "cluster-spain-sanchez + detenido",
+			"label": "sanchez + detenido",
+			"latestAt": "2026-11-12T17:13:34.000Z",
+			"startedAt": "2026-11-12T16:09:30.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"sanchez",
+				"detenido"
+			],
+			"sources": [
+				"The Objective",
+				"El Debate",
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Corvillo mantuvo una reunión de «35 minutos» con Sánchez en Córdoba que fue «de lujo»",
+				"La UCO constata una reunión en 2023 de Sánchez y su exchófer aunque el presidente dijo que no tenían «nada que ver»",
+				"La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
+				"Quién es Cristinini, la streamer condecorada por Pedro Sánchez con la Gran Cruz de la Orden del Mérito Civil"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
+			"entityLastCandidateAt": "2026-11-12T17:13:34.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:08.947Z",
+					"label": "sanchez + detenido",
+					"latestAt": "2026-11-12T17:13:34.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Corvillo mantuvo una reunión de «35 minutos» con Sánchez en Córdoba que fue «de lujo»",
+						"La UCO constata una reunión en 2023 de Sánchez y su exchófer aunque el presidente dijo que no tenían «nada que ver»",
+						"La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer"
+					],
+					"sources": [
+						"The Objective",
+						"El Debate",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-sanchez + detenido|2026-11-12T17:13:34.000Z|4|Corvillo mantuvo una reunión de «35 minutos» con Sánchez en Córdoba que fue «de lujo»"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+		},
+		"cluster-spain-imputa-gobierno-imputa-gobierno": {
+			"candidateId": "cluster-spain-imputa + gobierno",
+			"label": "imputa + gobierno",
+			"latestAt": "2026-11-12T17:03:12.000Z",
+			"startedAt": "2026-11-12T12:30:09.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"imputa",
+				"gobierno"
+			],
+			"sources": [
+				"Heraldo de Aragón",
+				"El Mundo",
+				"El País",
+				"El Correo"
+			],
+			"titles": [
+				"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva de migrantes",
+				"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
+				"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva",
+				"La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
+			"entityLastCandidateAt": "2026-11-12T17:03:12.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:08.947Z",
+					"label": "imputa + gobierno",
+					"latestAt": "2026-11-12T17:03:12.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva de migrantes",
+						"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
+						"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva"
+					],
+					"sources": [
+						"Heraldo de Aragón",
+						"El Mundo",
+						"El País"
+					],
+					"eventId": "cluster-spain-imputa + gobierno|2026-11-12T17:03:12.000Z|4|La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva de migrantes"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+		},
+		"cluster-spain-cuatro-australia-cuatro-australia": {
+			"candidateId": "cluster-spain-cuatro + australia",
+			"label": "cuatro + australia",
+			"latestAt": "2026-11-12T14:49:36.000Z",
+			"startedAt": "2026-11-12T11:55:50.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"cuatro",
+				"australia"
+			],
+			"sources": [
+				"El País",
+				"El Correo",
+				"El Diario Vasco",
+				"El Mundo"
+			],
+			"titles": [
+				"La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia",
+				"Hallan a un joven tras 6 días perdido sin comida y aguantando temperaturas de tres grados en un bosque de Australia",
+				"Elsa Pataky oyó ladrar a sus perros de madrugada y volvió a dormirse: las cámaras grabaron a cuatro encapuchados robando en su finca",
+				"Hallan con vida a un adolescente tras seis días perdido en una zona boscosa de Australia"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
+			"entityLastCandidateAt": "2026-11-12T14:49:36.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:08.947Z",
+					"label": "cuatro + australia",
+					"latestAt": "2026-11-12T14:49:36.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia",
+						"Hallan a un joven tras 6 días perdido sin comida y aguantando temperaturas de tres grados en un bosque de Australia",
+						"Elsa Pataky oyó ladrar a sus perros de madrugada y volvió a dormirse: las cámaras grabaron a cuatro encapuchados robando en su finca"
+					],
+					"sources": [
+						"El País",
+						"El Correo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-cuatro + australia|2026-11-12T14:49:36.000Z|4|La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+		},
+		"cluster-spain-detenido-gijon-detenido-gijon": {
+			"candidateId": "cluster-spain-detenido + gijon",
+			"label": "detenido + gijon",
+			"latestAt": "2026-11-12T17:04:15.000Z",
+			"startedAt": "2026-11-12T16:49:30.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"detenido",
+				"gijon"
+			],
+			"sources": [
+				"elDiario.es",
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Asesinada una mujer en Gijón y detenido su expareja como presunto autor de su muerte",
+				"Detenido un hombre en Gijón por matar a su expareja",
+				"Detenido un hombre en Gijón por matar a su ex pareja"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
+			"entityLastCandidateAt": "2026-11-12T17:04:15.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:08.947Z",
+					"label": "detenido + gijon",
+					"latestAt": "2026-11-12T17:04:15.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Asesinada una mujer en Gijón y detenido su expareja como presunto autor de su muerte",
+						"Detenido un hombre en Gijón por matar a su expareja",
+						"Detenido un hombre en Gijón por matar a su ex pareja"
+					],
+					"sources": [
+						"elDiario.es",
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-detenido + gijon|2026-11-12T17:04:15.000Z|3|Asesinada una mujer en Gijón y detenido su expareja como presunto autor de su muerte"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+		},
+		"cluster-spain-cuatro-menos-cuatro-menos": {
+			"candidateId": "cluster-spain-cuatro + menos",
+			"label": "cuatro + menos",
+			"latestAt": "2026-11-12T16:34:00.000Z",
+			"startedAt": "2026-11-12T13:59:33.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"cuatro",
+				"menos"
+			],
+			"sources": [
+				"El País",
+				"El Correo",
+				"El Mundo"
+			],
+			"titles": [
+				"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos",
+				"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
+				"Un muerto y cuatro heridos por los disparos de un tirador, hallado después sin vida, en un barrio próximo a la Casa Blanca"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
+			"entityLastCandidateAt": "2026-11-12T16:34:00.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:08.947Z",
+					"label": "cuatro + menos",
+					"latestAt": "2026-11-12T16:34:00.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos",
+						"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
+						"Un muerto y cuatro heridos por los disparos de un tirador, hallado después sin vida, en un barrio próximo a la Casa Blanca"
+					],
+					"sources": [
+						"El País",
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-cuatro + menos|2026-11-12T16:34:00.000Z|3|Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+		},
+		"cluster-spain-sanchez-electoral-sanchez-electoral": {
+			"candidateId": "cluster-spain-sanchez + electoral",
+			"label": "sanchez + electoral",
+			"latestAt": "2026-11-12T17:02:52.000Z",
+			"startedAt": "2026-11-12T16:07:57.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"sanchez",
+				"electoral"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
+				"Lula viaja a España para apoyar a Sánchez en su campaña electoral"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
+			"entityLastCandidateAt": "2026-11-12T17:02:52.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:08.947Z",
+					"label": "sanchez + electoral",
+					"latestAt": "2026-11-12T17:02:52.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
+						"Lula viaja a España para apoyar a Sánchez en su campaña electoral"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-sanchez + electoral|2026-11-12T17:02:52.000Z|2|Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+		},
+		"cluster-spain-delegado-nvidia-delegado-nvidia": {
+			"candidateId": "cluster-spain-delegado + nvidia",
+			"label": "delegado + nvidia",
+			"latestAt": "2026-11-12T13:59:35.000Z",
+			"startedAt": "2026-11-12T00:34:26.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"delegado",
+				"nvidia"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa",
+				"Quién es Kimberly Powell, la alta ejecutiva de Nvidia señalada como segunda amante de Jensen Huang",
+				"Una segunda infidelidad aboca a la destitución al CEO de Nvidia"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
+			"entityLastCandidateAt": "2026-11-12T13:59:35.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:08.947Z",
+					"label": "delegado + nvidia",
+					"latestAt": "2026-11-12T13:59:35.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa",
+						"Quién es Kimberly Powell, la alta ejecutiva de Nvidia señalada como segunda amante de Jensen Huang",
+						"Una segunda infidelidad aboca a la destitución al CEO de Nvidia"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-delegado + nvidia|2026-11-12T13:59:35.000Z|3|Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
 		}
 	},
 	"latestRun": {
-		"id": "43251389193-us",
+		"id": "43268012941-us",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-12T15:47:37.262Z",
-		"finishedAt": "2026-11-12T15:48:04.531Z",
-		"signalsCandidate": 11,
-		"signalsSelected": 11,
+		"startedAt": "2026-11-12T17:19:54.483Z",
+		"finishedAt": "2026-11-12T17:20:29.611Z",
+		"signalsCandidate": 9,
+		"signalsSelected": 9,
 		"signalsProcessed": 0,
-		"cacheHits": 3,
-		"skippedByConfig": 11,
+		"cacheHits": 6,
+		"skippedByConfig": 9,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -13896,12 +13967,12 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 3,
+			"cacheHits": 6,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 270,
-			"retainedByTtl": 259,
-			"retiredByTtl": 0
+			"retained": 271,
+			"retainedByTtl": 262,
+			"retiredByTtl": 2
 		},
 		"costUsd": 0
 	}
