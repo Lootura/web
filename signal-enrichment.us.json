@@ -2,720 +2,189 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-12T17:19:54.483Z",
+	"updatedAt": "2026-11-12T19:03:55.334Z",
 	"entries": {
-		"cluster-usa-nvidia-trump-nvidia-trump": {
-			"candidateId": "cluster-usa-nvidia + trump",
-			"label": "nvidia + trump",
-			"latestAt": "2026-11-12T17:06:46.000Z",
+		"cluster-usa-huang-jensen-huang-jensen": {
+			"candidateId": "cluster-usa-huang + jensen",
+			"label": "huang + jensen",
+			"latestAt": "2026-11-12T19:04:13.000Z",
 			"startedAt": "2026-11-12T01:57:34.000Z",
-			"itemCount": 17,
-			"sourceCount": 7,
+			"itemCount": 20,
+			"sourceCount": 6,
 			"terms": [
-				"nvidia",
-				"trump"
+				"huang",
+				"jensen"
 			],
 			"sources": [
 				"CBS News",
-				"The Guardian US",
 				"The New York Times",
 				"NBC News",
-				"TIME",
+				"PBS NewsHour",
 				"NPR",
-				"PBS NewsHour"
+				"The Verge"
 			],
 			"titles": [
-				"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-				"Jensen Huang resigns as Nvidia CEO after alleged affairs",
-				"Trump reacts after Nvidia CEO Jensen Huang resigns",
+				"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+				"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
 				"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+				"Trump reacts after Nvidia CEO Jensen Huang resigns",
 				"Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
-				"Trump Wants Apple's Tim Cook to Replace Jensen Huang as NVIDIA CEO",
+				"Sharp swings for Nvidia and oil prices weigh on Wall Street",
 				"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
 				"Nvidia stock falls after Huang resigns, weighing on broader market",
+				"Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
 				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
-				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
 				"Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
 				"Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
-				"Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
+				"Nvidia CEO Jensen Huang resigns in wake of affair with woman suspected of spying for China",
 				"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
 				"Nvidia Board Meets to Discuss CEO Jensen Huang’s Future",
+				"Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
 				"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
-				"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
+				"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
+				"The Jensen Huang scandal is hardly over"
 			],
-			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
-			"entityLastCandidateAt": "2026-11-12T17:06:46.000Z",
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T19:04:13.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "nvidia + trump",
-					"latestAt": "2026-11-12T17:06:46.000Z",
-					"itemCount": 17,
-					"sourceCount": 7,
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-12T19:04:13.000Z",
+					"itemCount": 20,
+					"sourceCount": 6,
 					"headlines": [
-						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-						"Jensen Huang resigns as Nvidia CEO after alleged affairs",
-						"Trump reacts after Nvidia CEO Jensen Huang resigns"
+						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-12T19:04:13.000Z|20|Here's how Jensen Huang's abrupt resignation unfolded at Nvidia"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-building-collapse-building-collapse": {
+			"candidateId": "cluster-usa-building + collapse",
+			"label": "building + collapse",
+			"latestAt": "2026-11-12T18:31:16.000Z",
+			"startedAt": "2026-11-12T12:26:34.000Z",
+			"itemCount": 7,
+			"sourceCount": 5,
+			"terms": [
+				"building",
+				"collapse"
+			],
+			"sources": [
+				"The New York Times",
+				"NPR",
+				"PBS NewsHour",
+				"NBC News",
+				"CBS News"
+			],
+			"titles": [
+				"What to Know About the Deadly Building Collapse in Brooklyn",
+				"Casualties continue to rise after Brooklyn building collapses",
+				"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says",
+				"Building Collapse in Brooklyn Leaves at Least 5 Dead",
+				"Mamdani says eight people ‘senselessly’ died in NYC building collapse",
+				"NYC building collapse: Death toll rises",
+				"2 children among the 8 dead in New York City building collapse, officials say"
+			],
+			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
+			"entityLastCandidateAt": "2026-11-12T18:31:16.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T18:31:16.000Z",
+					"itemCount": 7,
+					"sourceCount": 5,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Casualties continue to rise after Brooklyn building collapses",
+						"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T18:31:16.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T15:32:54.000Z",
+					"itemCount": 6,
+					"sourceCount": 4,
+					"headlines": [
+						"NYC building collapse: Death toll rises",
+						"Greta Thunberg and a collapsed building in Brooklyn: photos of the day – Thursday",
+						"Brooklyn building collapse kills at least eight and injures 17 as search continues"
 					],
 					"sources": [
 						"CBS News",
 						"The Guardian US",
 						"The New York Times"
 					],
-					"eventId": "cluster-usa-nvidia + trump|2026-11-12T17:06:46.000Z|17|Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal"
+					"eventId": "cluster-usa-building + collapse|2026-11-12T15:32:54.000Z|6|NYC building collapse: Death toll rises"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
-		},
-		"cluster-usa-nvidia-huang-nvidia-huang": {
-			"candidateId": "cluster-usa-nvidia + huang",
-			"label": "nvidia + huang",
-			"latestAt": "2026-11-12T16:51:22.000Z",
-			"startedAt": "2026-11-12T10:41:57.000Z",
-			"itemCount": 7,
-			"sourceCount": 4,
-			"terms": [
-				"nvidia",
-				"huang"
-			],
-			"sources": [
-				"The New York Times",
-				"PBS NewsHour",
-				"CBS News",
-				"NBC News"
-			],
-			"titles": [
-				"What to Know About the Deadly Building Collapse in Brooklyn",
-				"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
-				"NYC building collapse: Death toll rises",
-				"Building Collapse in Brooklyn Leaves at Least 5 Dead",
-				"Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
-				"Singapore Says US Not Helpful on Investigation Into Alice Huang and Megaspeed",
-				"Megaspeed, chip firm at center of Nvidia scandal, pledges to cooperate with U.S. investigation"
-			],
-			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-12T16:51:22.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T16:51:22.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
-						"NYC building collapse: Death toll rises"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
-				},
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T15:30:04.000Z",
-					"itemCount": 11,
-					"sourceCount": 8,
-					"headlines": [
-						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
-						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-						"Nvidia CEO Jensen Huang has resigned. What happens next?"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"The Verge"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
-				},
-				{
-					"observedAt": "2026-11-12T03:38:47.147Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T02:52:00.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
-						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
-						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
-				},
-				{
-					"observedAt": "2026-11-09T18:21:05.029Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-09T17:58:28.000Z",
-					"itemCount": 11,
-					"sourceCount": 6,
-					"headlines": [
-						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
-						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
-						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
-		},
-		"cluster-usa-states-united-states-united": {
-			"candidateId": "cluster-usa-states + united",
-			"label": "states + united",
-			"latestAt": "2026-11-12T16:20:04.000Z",
-			"startedAt": "2026-11-12T03:10:32.000Z",
-			"itemCount": 5,
-			"sourceCount": 3,
-			"terms": [
-				"states",
-				"united"
-			],
-			"sources": [
-				"NPR",
-				"CBS News",
-				"The New York Times"
-			],
-			"titles": [
-				"The SS United States takes its final voyage to the bottom of the Gulf of Mexico",
-				"SS United States is sunk off the Florida coast to become largest artificial reef",
-				"Recalling the S.S. United States as It Becomes a Florida Reef",
-				"World's fastest ocean liner is sunk to break another record: largest artificial reef",
-				"The S.S. United States, a Historic Supership, Sinks to the Ocean Floor"
-			],
-			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
-			"entityLastCandidateAt": "2026-11-12T16:20:04.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "states + united",
-					"latestAt": "2026-11-12T16:20:04.000Z",
-					"itemCount": 5,
-					"sourceCount": 3,
-					"headlines": [
-						"The SS United States takes its final voyage to the bottom of the Gulf of Mexico",
-						"SS United States is sunk off the Florida coast to become largest artificial reef",
-						"Recalling the S.S. United States as It Becomes a Florida Reef"
-					],
-					"sources": [
-						"NPR",
-						"CBS News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-states + united|2026-11-12T16:20:04.000Z|5|The SS United States takes its final voyage to the bottom of the Gulf of Mexico"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
-		},
-		"cluster-usa-prostate-cancer-prostate-cancer": {
-			"candidateId": "cluster-usa-prostate + cancer",
-			"label": "prostate + cancer",
-			"latestAt": "2026-11-12T15:30:29.000Z",
-			"startedAt": "2026-11-12T12:00:05.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"prostate",
-				"cancer"
-			],
-			"sources": [
-				"CBS News",
-				"NBC News",
-				"The New York Times"
-			],
-			"titles": [
-				"How men can guard against prostate cancer",
-				"New prostate cancer screening guidelines include regular PSA testing for most older men",
-				"What to Know About New Prostate Cancer Screening Recommendations"
-			],
-			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T15:30:29.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "prostate + cancer",
-					"latestAt": "2026-11-12T15:30:29.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"How men can guard against prostate cancer",
-						"New prostate cancer screening guidelines include regular PSA testing for most older men",
-						"What to Know About New Prostate Cancer Screening Recommendations"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-prostate + cancer|2026-11-12T15:30:29.000Z|3|How men can guard against prostate cancer"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
-		},
-		"cluster-usa-nvidia-affair-nvidia-affair": {
-			"candidateId": "cluster-usa-nvidia + affair",
-			"label": "nvidia + affair",
-			"latestAt": "2026-11-12T14:14:44.000Z",
-			"startedAt": "2026-11-12T09:32:33.000Z",
-			"itemCount": 4,
-			"sourceCount": 3,
-			"terms": [
-				"nvidia",
-				"affair"
-			],
-			"sources": [
-				"The New York Times",
-				"CBS News",
-				"NPR Politics"
-			],
-			"titles": [
-				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
-				"Democrat Scott Colom wins Mississippi Senate race in upset",
-				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset",
-				"Democrat Scott Colom wins Mississippi Senate race"
-			],
-			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T14:14:44.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "nvidia + affair",
-					"latestAt": "2026-11-12T14:14:44.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
-						"Democrat Scott Colom wins Mississippi Senate race in upset",
-						"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-nvidia + affair|2026-11-12T14:14:44.000Z|4|In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
-		},
-		"cluster-usa-shooting-logan-shooting-logan": {
-			"candidateId": "cluster-usa-shooting + logan",
-			"label": "shooting + logan",
-			"latestAt": "2026-11-12T17:15:35.000Z",
-			"startedAt": "2026-11-12T13:48:00.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"shooting",
-				"logan"
-			],
-			"sources": [
-				"The New York Times",
-				"CBS News"
-			],
-			"titles": [
-				"5 Shot in Washington D.C.’s Logan Circle Neighborhood",
-				"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say"
-			],
-			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
-			"entityLastCandidateAt": "2026-11-12T17:15:35.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "shooting + logan",
-					"latestAt": "2026-11-12T17:15:35.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"5 Shot in Washington D.C.’s Logan Circle Neighborhood",
-						"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-shooting + logan|2026-11-12T17:15:35.000Z|2|5 Shot in Washington D.C.’s Logan Circle Neighborhood"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
-		},
-		"cluster-usa-hospital-least-hospital-least": {
-			"candidateId": "cluster-usa-hospital + least",
-			"label": "hospital + least",
-			"latestAt": "2026-11-12T15:26:36.000Z",
-			"startedAt": "2026-11-12T09:26:44.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"hospital",
-				"least"
-			],
-			"sources": [
-				"CBS News",
-				"NBC News"
-			],
-			"titles": [
-				"Israeli strike on Gaza hospital kills 6, health authorities say",
-				"Israeli strike on Gaza hospital kills at least six people, officials say"
-			],
-			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T15:26:36.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "hospital + least",
-					"latestAt": "2026-11-12T15:26:36.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Israeli strike on Gaza hospital kills 6, health authorities say",
-						"Israeli strike on Gaza hospital kills at least six people, officials say"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-hospital + least|2026-11-12T15:26:36.000Z|2|Israeli strike on Gaza hospital kills 6, health authorities say"
-				},
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "hospital + least",
-					"latestAt": "2026-11-12T15:26:36.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Israeli strike on Gaza hospital kills 6, health authorities say",
-						"Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Say",
-						"Israeli strike on Gaza hospital kills at least six people, officials say"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times World",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-hospital + least|2026-11-12T15:26:36.000Z|3|Israeli strike on Gaza hospital kills 6, health authorities say"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
-		},
-		"cluster-usa-mississippi-senate-mississippi-senate": {
-			"candidateId": "cluster-usa-mississippi + senate",
-			"label": "mississippi + senate",
-			"latestAt": "2026-11-12T15:19:22.000Z",
-			"startedAt": "2026-11-12T09:34:45.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"mississippi",
-				"senate"
-			],
-			"sources": [
-				"CBS News",
-				"NPR Politics"
-			],
-			"titles": [
-				"Mississippi goes blue after highly contested Senate battle",
-				"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
-			],
-			"entityFirstSeenAt": "2026-11-12T13:50:33.057Z",
-			"entityLastCandidateAt": "2026-11-12T15:19:22.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "mississippi + senate",
-					"latestAt": "2026-11-12T15:19:22.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Mississippi goes blue after highly contested Senate battle",
-						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
-					],
-					"sources": [
-						"CBS News",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-mississippi + senate|2026-11-12T15:19:22.000Z|2|Mississippi goes blue after highly contested Senate battle"
-				},
-				{
-					"observedAt": "2026-11-12T13:50:33.057Z",
-					"label": "mississippi + senate",
-					"latestAt": "2026-11-12T12:20:32.000Z",
-					"itemCount": 10,
-					"sourceCount": 6,
-					"headlines": [
-						"Democrat Scott Colom wins Mississippi Senate race in upset",
-						"Colom wins Mississippi Senate race. And, White House warns Dems over future probes",
-						"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
-					],
-					"sources": [
-						"CBS News",
-						"NPR World",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-mississippi + senate|2026-11-12T12:20:32.000Z|10|Democrat Scott Colom wins Mississippi Senate race in upset"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
-		},
-		"cluster-usa-trump-future-trump-future": {
-			"candidateId": "cluster-usa-trump + future",
-			"label": "trump + future",
-			"latestAt": "2026-11-12T12:45:53.000Z",
-			"startedAt": "2026-11-12T09:18:04.000Z",
-			"itemCount": 4,
-			"sourceCount": 2,
-			"terms": [
-				"trump",
-				"future"
-			],
-			"sources": [
-				"CBS News",
-				"NPR Politics"
-			],
-			"titles": [
-				"What's the future of Trump's immigration policy after Stephen Miller's promotion?",
-				"Incoming House Oversight Committee chair Robert Garcia reacts to White House warning",
-				"White House warns Trump probes could be criminal. Rep. Robert Garcia won't back down",
-				"White House warns Democrats over future probes, citing possible 'criminality'"
-			],
-			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T12:45:53.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "trump + future",
-					"latestAt": "2026-11-12T12:45:53.000Z",
-					"itemCount": 4,
-					"sourceCount": 2,
-					"headlines": [
-						"What's the future of Trump's immigration policy after Stephen Miller's promotion?",
-						"Incoming House Oversight Committee chair Robert Garcia reacts to White House warning",
-						"White House warns Trump probes could be criminal. Rep. Robert Garcia won't back down"
-					],
-					"sources": [
-						"CBS News",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-trump + future|2026-11-12T12:45:53.000Z|4|What's the future of Trump's immigration policy after Stephen Miller's promotion?"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
-		},
-		"cluster-usa-trump-midterm-trump-midterm": {
-			"candidateId": "cluster-usa-trump + midterm",
-			"label": "trump + midterm",
-			"latestAt": "2026-11-09T16:33:17.000Z",
-			"startedAt": "2026-11-09T11:45:25.000Z",
-			"itemCount": 4,
-			"sourceCount": 4,
-			"terms": [
-				"trump",
-				"midterm"
-			],
-			"sources": [
-				"The New York Times",
-				"PBS NewsHour",
-				"CBS News",
-				"NPR Politics"
-			],
-			"titles": [
-				"Trump Veers Back Into Claims of Rigged Election, Questioning Midterm Results",
-				"Trump says his deportation policy 'might have been too tough' for midterm voters",
-				"Eye Opener: Trump reckons with midterm results",
-				"After midterm losses, Trump makes changes to his inner circle"
-			],
-			"entityFirstSeenAt": "2026-11-01T14:44:06.647Z",
-			"entityLastCandidateAt": "2026-11-09T16:33:17.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T18:21:05.029Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-09T16:33:17.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Trump Veers Back Into Claims of Rigged Election, Questioning Midterm Results",
-						"Trump says his deportation policy 'might have been too tough' for midterm voters",
-						"Eye Opener: Trump reckons with midterm results"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-09T16:33:17.000Z|4|Trump Veers Back Into Claims of Rigged Election, Questioning Midterm Results"
-				},
-				{
-					"observedAt": "2026-11-09T13:36:54.802Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-09T12:15:13.000Z",
-					"itemCount": 3,
-					"sourceCount": 2,
-					"headlines": [
-						"Trump Blames Midterm Losses on Immigration: 'It Was Too Tough'",
-						"After midterm losses, Trump makes changes to his inner circle",
-						"Trump staffing changes post-midterms signal he's battle ready"
-					],
-					"sources": [
-						"NBC News Politics",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-09T12:15:13.000Z|3|Trump Blames Midterm Losses on Immigration: 'It Was Too Tough'"
-				},
-				{
-					"observedAt": "2026-11-06T01:55:40.131Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-05T22:28:50.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"How Democrats plan to investigate the Trump administration after their midterm wins",
-						"Trump administration held talks with Iran on deporting Iranians during the war, court documents show",
-						"How Trump Is Reacting to the Midterm Results"
-					],
-					"sources": [
-						"NPR Politics",
-						"PBS NewsHour",
-						"The New York Times Politics"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-05T22:28:50.000Z|4|How Democrats plan to investigate the Trump administration after their midterm wins"
-				},
-				{
-					"observedAt": "2026-11-05T20:54:57.765Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-05T13:20:22.000Z",
-					"itemCount": 4,
-					"sourceCount": 2,
-					"headlines": [
-						"How Trump Is Reacting to the Midterm Results",
-						"Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections",
-						"Vance, in Break With Trump, Blames Iran War for Republicans’ 2026 Midterm Losses"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-05T13:20:22.000Z|4|How Trump Is Reacting to the Midterm Results"
-				},
-				{
-					"observedAt": "2026-11-05T13:43:50.499Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-05T13:20:22.000Z",
-					"itemCount": 8,
-					"sourceCount": 4,
-					"headlines": [
-						"How Trump Is Reacting to the Midterm Results",
-						"Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections",
-						"Vance, in Break With Trump, Blames Iran War for Republicans’ 2026 Midterm Losses"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"The New York Times World"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-05T13:20:22.000Z|8|How Trump Is Reacting to the Midterm Results"
-				},
-				{
-					"observedAt": "2026-11-05T04:15:42.487Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-05T04:11:05.000Z",
-					"itemCount": 12,
-					"sourceCount": 5,
-					"headlines": [
-						"Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections",
-						"Vance blames Iran war for midterm losses, Trump agrees but says Iran couldn't have nuke",
-						"Vance, in Break With Trump, Blames Iran War for Republicans’ 2026 Midterm Losses"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-05T04:11:05.000Z|12|Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections"
-				},
-				{
-					"observedAt": "2026-11-04T23:00:23.472Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-04T22:26:37.000Z",
-					"itemCount": 16,
-					"sourceCount": 7,
-					"headlines": [
-						"Trump and Republicans Begin Pointing Fingers After Sweeping Midterms Losses",
-						"Vance blames Iran war for GOP's midterms defeat. Trump says he would 'do it again'",
-						"Trump touts White House ballroom after GOP midterm losses"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"ABC News",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-04T22:26:37.000Z|16|Trump and Republicans Begin Pointing Fingers After Sweeping Midterms Losses"
-				},
-				{
-					"observedAt": "2026-11-01T14:44:06.647Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-01T14:00:40.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Poll: Voters demand change and a check on Trump, fueling a steep Democratic midterm advantage",
-						"What a midterm race in Kentucky says about how Democrats may do in Trump strongholds"
-					],
-					"sources": [
-						"NBC News Politics",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-01T14:00:40.000Z|2|Poll: Voters demand change and a check on Trump, fueling a steep Democratic midterm advantage"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T18:21:05.029Z"
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
 			"label": "trump + democrats",
-			"latestAt": "2026-11-09T23:48:34.000Z",
-			"startedAt": "2026-11-09T11:45:25.000Z",
-			"itemCount": 4,
+			"latestAt": "2026-11-12T18:34:46.000Z",
+			"startedAt": "2026-11-12T09:18:04.000Z",
+			"itemCount": 6,
 			"sourceCount": 3,
 			"terms": [
 				"trump",
 				"democrats"
 			],
 			"sources": [
-				"The New York Times Politics",
-				"PBS NewsHour",
-				"NPR Politics"
+				"CBS News",
+				"NPR Politics",
+				"The New York Times Politics"
 			],
 			"titles": [
-				"Democrats Demand Answers on Trump’s A.I. Policy Amid Spy Plot",
-				"Trump says his deportation policy 'might have been too tough' for midterm voters",
-				"After midterm losses, Trump makes changes to his inner circle",
-				"Democrats’ Fight With Trump Is Just Getting Started"
+				"Democrats respond to warning over planned Trump probes: \"We're not going to be threatened\"",
+				"Democrats want to stop Trump's arch, golf course and more. What are their options?",
+				"Democrats Put Targets on Notice as Trump Oversight Takes Shape",
+				"Incoming House Oversight Committee chair Robert Garcia reacts to White House warning",
+				"White House warns Trump probes could be criminal. Rep. Robert Garcia won't back down",
+				"White House warns Democrats over future probes, citing possible 'criminality'"
 			],
 			"entityFirstSeenAt": "2026-11-04T23:00:23.472Z",
-			"entityLastCandidateAt": "2026-11-09T23:48:34.000Z",
+			"entityLastCandidateAt": "2026-11-12T18:34:46.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "trump + democrats",
+					"latestAt": "2026-11-12T18:34:46.000Z",
+					"itemCount": 6,
+					"sourceCount": 3,
+					"headlines": [
+						"Democrats respond to warning over planned Trump probes: \"We're not going to be threatened\"",
+						"Democrats want to stop Trump's arch, golf course and more. What are their options?",
+						"Democrats Put Targets on Notice as Trump Oversight Takes Shape"
+					],
+					"sources": [
+						"CBS News",
+						"NPR Politics",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-trump + democrats|2026-11-12T18:34:46.000Z|6|Democrats respond to warning over planned Trump probes: \"We're not going to be threatened\""
+				},
 				{
 					"observedAt": "2026-11-10T01:48:34.517Z",
 					"label": "trump + democrats",
@@ -896,7 +365,566 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T01:55:22.461Z"
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-states-united-states-united": {
+			"candidateId": "cluster-usa-states + united",
+			"label": "states + united",
+			"latestAt": "2026-11-12T16:20:04.000Z",
+			"startedAt": "2026-11-12T03:10:32.000Z",
+			"itemCount": 5,
+			"sourceCount": 3,
+			"terms": [
+				"states",
+				"united"
+			],
+			"sources": [
+				"NPR",
+				"CBS News",
+				"The New York Times"
+			],
+			"titles": [
+				"The SS United States takes its final voyage to the bottom of the Gulf of Mexico",
+				"SS United States is sunk off the Florida coast to become largest artificial reef",
+				"Recalling the S.S. United States as It Becomes a Florida Reef",
+				"World's fastest ocean liner is sunk to break another record: largest artificial reef",
+				"The S.S. United States, a Historic Supership, Sinks to the Ocean Floor"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
+			"entityLastCandidateAt": "2026-11-12T16:20:04.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "states + united",
+					"latestAt": "2026-11-12T16:20:04.000Z",
+					"itemCount": 5,
+					"sourceCount": 3,
+					"headlines": [
+						"The SS United States takes its final voyage to the bottom of the Gulf of Mexico",
+						"SS United States is sunk off the Florida coast to become largest artificial reef",
+						"Recalling the S.S. United States as It Becomes a Florida Reef"
+					],
+					"sources": [
+						"NPR",
+						"CBS News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-states + united|2026-11-12T16:20:04.000Z|5|The SS United States takes its final voyage to the bottom of the Gulf of Mexico"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-mississippi-senate-mississippi-senate": {
+			"candidateId": "cluster-usa-mississippi + senate",
+			"label": "mississippi + senate",
+			"latestAt": "2026-11-12T18:16:50.000Z",
+			"startedAt": "2026-11-12T09:34:45.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"mississippi",
+				"senate"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"CBS News",
+				"NPR Politics"
+			],
+			"titles": [
+				"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
+				"Mississippi goes blue after highly contested Senate battle",
+				"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
+			],
+			"entityFirstSeenAt": "2026-11-12T13:50:33.057Z",
+			"entityLastCandidateAt": "2026-11-12T18:16:50.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "mississippi + senate",
+					"latestAt": "2026-11-12T18:16:50.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
+						"Mississippi goes blue after highly contested Senate battle",
+						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-mississippi + senate|2026-11-12T18:16:50.000Z|3|How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "mississippi + senate",
+					"latestAt": "2026-11-12T15:19:22.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Mississippi goes blue after highly contested Senate battle",
+						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
+					],
+					"sources": [
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-mississippi + senate|2026-11-12T15:19:22.000Z|2|Mississippi goes blue after highly contested Senate battle"
+				},
+				{
+					"observedAt": "2026-11-12T13:50:33.057Z",
+					"label": "mississippi + senate",
+					"latestAt": "2026-11-12T12:20:32.000Z",
+					"itemCount": 10,
+					"sourceCount": 6,
+					"headlines": [
+						"Democrat Scott Colom wins Mississippi Senate race in upset",
+						"Colom wins Mississippi Senate race. And, White House warns Dems over future probes",
+						"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
+					],
+					"sources": [
+						"CBS News",
+						"NPR World",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-mississippi + senate|2026-11-12T12:20:32.000Z|10|Democrat Scott Colom wins Mississippi Senate race in upset"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-nvidia-mississippi-nvidia-mississippi": {
+			"candidateId": "cluster-usa-nvidia + mississippi",
+			"label": "nvidia + mississippi",
+			"latestAt": "2026-11-12T14:14:44.000Z",
+			"startedAt": "2026-11-12T09:32:33.000Z",
+			"itemCount": 4,
+			"sourceCount": 3,
+			"terms": [
+				"nvidia",
+				"mississippi"
+			],
+			"sources": [
+				"The New York Times",
+				"CBS News",
+				"NPR Politics"
+			],
+			"titles": [
+				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
+				"Democrat Scott Colom wins Mississippi Senate race in upset",
+				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset",
+				"Democrat Scott Colom wins Mississippi Senate race"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T14:14:44.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "nvidia + mississippi",
+					"latestAt": "2026-11-12T14:14:44.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
+						"Democrat Scott Colom wins Mississippi Senate race in upset",
+						"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-nvidia + mississippi|2026-11-12T14:14:44.000Z|4|In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-prostate-cancer-prostate-cancer": {
+			"candidateId": "cluster-usa-prostate + cancer",
+			"label": "prostate + cancer",
+			"latestAt": "2026-11-12T15:30:29.000Z",
+			"startedAt": "2026-11-12T12:00:05.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"prostate",
+				"cancer"
+			],
+			"sources": [
+				"CBS News",
+				"NBC News",
+				"The New York Times"
+			],
+			"titles": [
+				"How men can guard against prostate cancer",
+				"New prostate cancer screening guidelines include regular PSA testing for most older men",
+				"What to Know About New Prostate Cancer Screening Recommendations"
+			],
+			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
+			"entityLastCandidateAt": "2026-11-12T15:30:29.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "prostate + cancer",
+					"latestAt": "2026-11-12T15:30:29.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"How men can guard against prostate cancer",
+						"New prostate cancer screening guidelines include regular PSA testing for most older men",
+						"What to Know About New Prostate Cancer Screening Recommendations"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-prostate + cancer|2026-11-12T15:30:29.000Z|3|How men can guard against prostate cancer"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-hegseth-soldier-hegseth-soldier": {
+			"candidateId": "cluster-usa-hegseth + soldier",
+			"label": "hegseth + soldier",
+			"latestAt": "2026-11-12T18:49:29.000Z",
+			"startedAt": "2026-11-12T18:35:44.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"hegseth",
+				"soldier"
+			],
+			"sources": [
+				"CBS News",
+				"PBS NewsHour"
+			],
+			"titles": [
+				"Hegseth awards medal to soldier who reprimanded his party at Arlington's scared tomb",
+				"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:49:29.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "hegseth + soldier",
+					"latestAt": "2026-11-12T18:49:29.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Hegseth awards medal to soldier who reprimanded his party at Arlington's scared tomb",
+						"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
+					],
+					"sources": [
+						"CBS News",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-hegseth + soldier|2026-11-12T18:49:29.000Z|2|Hegseth awards medal to soldier who reprimanded his party at Arlington's scared tomb"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-shooting-here-shooting-here": {
+			"candidateId": "cluster-usa-shooting + here",
+			"label": "shooting + here",
+			"latestAt": "2026-11-12T18:36:02.000Z",
+			"startedAt": "2026-11-12T16:36:49.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"shooting",
+				"here"
+			],
+			"sources": [
+				"CBS News",
+				"NBC News"
+			],
+			"titles": [
+				"Witness describes deadly D.C. shooting: \"Alright, let's get out of here\"",
+				"'There was no way of getting out': Witness describes gym shooting scene"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:36:02.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "shooting + here",
+					"latestAt": "2026-11-12T18:36:02.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Witness describes deadly D.C. shooting: \"Alright, let's get out of here\"",
+						"'There was no way of getting out': Witness describes gym shooting scene"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-shooting + here|2026-11-12T18:36:02.000Z|2|Witness describes deadly D.C. shooting: \"Alright, let's get out of here\""
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-hospital-israeli-hospital-israeli": {
+			"candidateId": "cluster-usa-hospital + israeli",
+			"label": "hospital + israeli",
+			"latestAt": "2026-11-12T17:38:27.000Z",
+			"startedAt": "2026-11-12T15:26:36.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"hospital",
+				"israeli"
+			],
+			"sources": [
+				"The New York Times World",
+				"CBS News"
+			],
+			"titles": [
+				"Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Say",
+				"Israeli strike on Gaza hospital kills 6, health authorities say"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T17:38:27.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "hospital + israeli",
+					"latestAt": "2026-11-12T17:38:27.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Say",
+						"Israeli strike on Gaza hospital kills 6, health authorities say"
+					],
+					"sources": [
+						"The New York Times World",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-hospital + israeli|2026-11-12T17:38:27.000Z|2|Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Say"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-shooting-leaves-shooting-leaves": {
+			"candidateId": "cluster-usa-shooting + leaves",
+			"label": "shooting + leaves",
+			"latestAt": "2026-11-12T16:12:53.000Z",
+			"startedAt": "2026-11-12T13:48:00.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"shooting",
+				"leaves"
+			],
+			"sources": [
+				"NPR Politics",
+				"CBS News"
+			],
+			"titles": [
+				"D.C. shooting leaves 1 person killed, 4 injured. Gunman dead",
+				"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T16:12:53.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "shooting + leaves",
+					"latestAt": "2026-11-12T16:12:53.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"D.C. shooting leaves 1 person killed, 4 injured. Gunman dead",
+						"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say"
+					],
+					"sources": [
+						"NPR Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-shooting + leaves|2026-11-12T16:12:53.000Z|2|D.C. shooting leaves 1 person killed, 4 injured. Gunman dead"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-trump-midterm-trump-midterm": {
+			"candidateId": "cluster-usa-trump + midterm",
+			"label": "trump + midterm",
+			"latestAt": "2026-11-09T16:33:17.000Z",
+			"startedAt": "2026-11-09T11:45:25.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"trump",
+				"midterm"
+			],
+			"sources": [
+				"The New York Times",
+				"PBS NewsHour",
+				"CBS News",
+				"NPR Politics"
+			],
+			"titles": [
+				"Trump Veers Back Into Claims of Rigged Election, Questioning Midterm Results",
+				"Trump says his deportation policy 'might have been too tough' for midterm voters",
+				"Eye Opener: Trump reckons with midterm results",
+				"After midterm losses, Trump makes changes to his inner circle"
+			],
+			"entityFirstSeenAt": "2026-11-01T14:44:06.647Z",
+			"entityLastCandidateAt": "2026-11-09T16:33:17.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-09T18:21:05.029Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-09T16:33:17.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Trump Veers Back Into Claims of Rigged Election, Questioning Midterm Results",
+						"Trump says his deportation policy 'might have been too tough' for midterm voters",
+						"Eye Opener: Trump reckons with midterm results"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-09T16:33:17.000Z|4|Trump Veers Back Into Claims of Rigged Election, Questioning Midterm Results"
+				},
+				{
+					"observedAt": "2026-11-09T13:36:54.802Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-09T12:15:13.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Trump Blames Midterm Losses on Immigration: 'It Was Too Tough'",
+						"After midterm losses, Trump makes changes to his inner circle",
+						"Trump staffing changes post-midterms signal he's battle ready"
+					],
+					"sources": [
+						"NBC News Politics",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-09T12:15:13.000Z|3|Trump Blames Midterm Losses on Immigration: 'It Was Too Tough'"
+				},
+				{
+					"observedAt": "2026-11-06T01:55:40.131Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-05T22:28:50.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"How Democrats plan to investigate the Trump administration after their midterm wins",
+						"Trump administration held talks with Iran on deporting Iranians during the war, court documents show",
+						"How Trump Is Reacting to the Midterm Results"
+					],
+					"sources": [
+						"NPR Politics",
+						"PBS NewsHour",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-05T22:28:50.000Z|4|How Democrats plan to investigate the Trump administration after their midterm wins"
+				},
+				{
+					"observedAt": "2026-11-05T20:54:57.765Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-05T13:20:22.000Z",
+					"itemCount": 4,
+					"sourceCount": 2,
+					"headlines": [
+						"How Trump Is Reacting to the Midterm Results",
+						"Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections",
+						"Vance, in Break With Trump, Blames Iran War for Republicans’ 2026 Midterm Losses"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-05T13:20:22.000Z|4|How Trump Is Reacting to the Midterm Results"
+				},
+				{
+					"observedAt": "2026-11-05T13:43:50.499Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-05T13:20:22.000Z",
+					"itemCount": 8,
+					"sourceCount": 4,
+					"headlines": [
+						"How Trump Is Reacting to the Midterm Results",
+						"Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections",
+						"Vance, in Break With Trump, Blames Iran War for Republicans’ 2026 Midterm Losses"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"The New York Times World"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-05T13:20:22.000Z|8|How Trump Is Reacting to the Midterm Results"
+				},
+				{
+					"observedAt": "2026-11-05T04:15:42.487Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-05T04:11:05.000Z",
+					"itemCount": 12,
+					"sourceCount": 5,
+					"headlines": [
+						"Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections",
+						"Vance blames Iran war for midterm losses, Trump agrees but says Iran couldn't have nuke",
+						"Vance, in Break With Trump, Blames Iran War for Republicans’ 2026 Midterm Losses"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-05T04:11:05.000Z|12|Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections"
+				},
+				{
+					"observedAt": "2026-11-04T23:00:23.472Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-04T22:26:37.000Z",
+					"itemCount": 16,
+					"sourceCount": 7,
+					"headlines": [
+						"Trump and Republicans Begin Pointing Fingers After Sweeping Midterms Losses",
+						"Vance blames Iran war for GOP's midterms defeat. Trump says he would 'do it again'",
+						"Trump touts White House ballroom after GOP midterm losses"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"ABC News",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-04T22:26:37.000Z|16|Trump and Republicans Begin Pointing Fingers After Sweeping Midterms Losses"
+				},
+				{
+					"observedAt": "2026-11-01T14:44:06.647Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-01T14:00:40.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Poll: Voters demand change and a check on Trump, fueling a steep Democratic midterm advantage",
+						"What a midterm race in Kentucky says about how Democrats may do in Trump strongholds"
+					],
+					"sources": [
+						"NBC News Politics",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-01T14:00:40.000Z|2|Poll: Voters demand change and a check on Trump, fueling a steep Democratic midterm advantage"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-09T18:21:05.029Z"
 		},
 		"cluster-usa-trump-house-trump-house": {
 			"candidateId": "cluster-usa-trump + house",
@@ -3128,48 +3156,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T08:25:56.119Z"
 		},
-		"cluster-usa-more-killing-more-killing": {
-			"candidateId": "cluster-usa-more + killing",
-			"label": "more + killing",
-			"latestAt": "2026-11-08T19:00:36.000Z",
-			"startedAt": "2026-11-08T17:40:25.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"more",
-				"killing"
-			],
-			"sources": [
-				"CBS News",
-				"PBS NewsHour"
-			],
-			"titles": [
-				"Trains collide in Egypt, killing at least 7 and injuring more than 100",
-				"Collision between 2 trains in Egypt kills 7 and injures at least 125"
-			],
-			"entityFirstSeenAt": "2026-11-09T08:25:56.119Z",
-			"entityLastCandidateAt": "2026-11-08T19:00:36.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T08:25:56.119Z",
-					"label": "more + killing",
-					"latestAt": "2026-11-08T19:00:36.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Trains collide in Egypt, killing at least 7 and injuring more than 100",
-						"Collision between 2 trains in Egypt kills 7 and injures at least 125"
-					],
-					"sources": [
-						"CBS News",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-more + killing|2026-11-08T19:00:36.000Z|2|Trains collide in Egypt, killing at least 7 and injuring more than 100"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T08:25:56.119Z"
-		},
 		"cluster-spain-gobierno-tiktok-gobierno-tiktok": {
 			"candidateId": "cluster-spain-gobierno + tiktok",
 			"label": "gobierno + tiktok",
@@ -4550,6 +4536,111 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T18:20:36.924Z"
+		},
+		"cluster-usa-nvidia-huang-nvidia-huang": {
+			"candidateId": "cluster-usa-nvidia + huang",
+			"label": "nvidia + huang",
+			"latestAt": "2026-11-12T16:51:22.000Z",
+			"startedAt": "2026-11-12T10:41:57.000Z",
+			"itemCount": 7,
+			"sourceCount": 4,
+			"terms": [
+				"nvidia",
+				"huang"
+			],
+			"sources": [
+				"The New York Times",
+				"PBS NewsHour",
+				"CBS News",
+				"NBC News"
+			],
+			"titles": [
+				"What to Know About the Deadly Building Collapse in Brooklyn",
+				"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
+				"NYC building collapse: Death toll rises",
+				"Building Collapse in Brooklyn Leaves at Least 5 Dead",
+				"Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
+				"Singapore Says US Not Helpful on Investigation Into Alice Huang and Megaspeed",
+				"Megaspeed, chip firm at center of Nvidia scandal, pledges to cooperate with U.S. investigation"
+			],
+			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
+			"entityLastCandidateAt": "2026-11-12T16:51:22.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T16:51:22.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
+						"NYC building collapse: Death toll rises"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T15:30:04.000Z",
+					"itemCount": 11,
+					"sourceCount": 8,
+					"headlines": [
+						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+						"Nvidia CEO Jensen Huang has resigned. What happens next?"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"The Verge"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
+				},
+				{
+					"observedAt": "2026-11-12T03:38:47.147Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T02:52:00.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
+						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
+				},
+				{
+					"observedAt": "2026-11-09T18:21:05.029Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-09T17:58:28.000Z",
+					"itemCount": 11,
+					"sourceCount": 6,
+					"headlines": [
+						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
+						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
+						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
 		"cluster-usa-russell-brand-russell-brand": {
 			"candidateId": "cluster-usa-russell + brand",
@@ -13436,55 +13527,112 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T15:47:00.508Z"
 		},
-		"cluster-usa-building-collapse-building-collapse": {
-			"candidateId": "cluster-usa-building + collapse",
-			"label": "building + collapse",
-			"latestAt": "2026-11-12T15:32:54.000Z",
-			"startedAt": "2026-11-12T12:26:34.000Z",
-			"itemCount": 6,
-			"sourceCount": 4,
+		"cluster-usa-nvidia-affair-nvidia-affair": {
+			"candidateId": "cluster-usa-nvidia + affair",
+			"label": "nvidia + affair",
+			"latestAt": "2026-11-12T14:14:44.000Z",
+			"startedAt": "2026-11-12T09:32:33.000Z",
+			"itemCount": 4,
+			"sourceCount": 3,
 			"terms": [
-				"building",
-				"collapse"
+				"nvidia",
+				"affair"
 			],
 			"sources": [
-				"CBS News",
-				"The Guardian US",
 				"The New York Times",
-				"NBC News"
+				"CBS News",
+				"NPR Politics"
 			],
 			"titles": [
-				"NYC building collapse: Death toll rises",
-				"Greta Thunberg and a collapsed building in Brooklyn: photos of the day – Thursday",
-				"Brooklyn building collapse kills at least eight and injures 17 as search continues",
-				"Excavation Was Taking Place Next to Building in Brooklyn That Collapsed",
-				"What to Know About the Deadly Building Collapse in Brooklyn",
-				"Building Collapse in Brooklyn Leaves at Least 5 Dead"
+				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
+				"Democrat Scott Colom wins Mississippi Senate race in upset",
+				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset",
+				"Democrat Scott Colom wins Mississippi Senate race"
 			],
 			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T15:32:54.000Z",
+			"entityLastCandidateAt": "2026-11-12T14:14:44.000Z",
 			"entityTimeline": [
 				{
 					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-12T15:32:54.000Z",
-					"itemCount": 6,
-					"sourceCount": 4,
+					"label": "nvidia + affair",
+					"latestAt": "2026-11-12T14:14:44.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
 					"headlines": [
-						"NYC building collapse: Death toll rises",
-						"Greta Thunberg and a collapsed building in Brooklyn: photos of the day – Thursday",
-						"Brooklyn building collapse kills at least eight and injures 17 as search continues"
+						"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
+						"Democrat Scott Colom wins Mississippi Senate race in upset",
+						"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
 					],
 					"sources": [
+						"The New York Times",
 						"CBS News",
-						"The Guardian US",
-						"The New York Times"
+						"NPR Politics"
 					],
-					"eventId": "cluster-usa-building + collapse|2026-11-12T15:32:54.000Z|6|NYC building collapse: Death toll rises"
+					"eventId": "cluster-usa-nvidia + affair|2026-11-12T14:14:44.000Z|4|In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
+		},
+		"cluster-usa-hospital-least-hospital-least": {
+			"candidateId": "cluster-usa-hospital + least",
+			"label": "hospital + least",
+			"latestAt": "2026-11-12T15:26:36.000Z",
+			"startedAt": "2026-11-12T09:26:44.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"hospital",
+				"least"
+			],
+			"sources": [
+				"CBS News",
+				"NBC News"
+			],
+			"titles": [
+				"Israeli strike on Gaza hospital kills 6, health authorities say",
+				"Israeli strike on Gaza hospital kills at least six people, officials say"
+			],
+			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
+			"entityLastCandidateAt": "2026-11-12T15:26:36.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "hospital + least",
+					"latestAt": "2026-11-12T15:26:36.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Israeli strike on Gaza hospital kills 6, health authorities say",
+						"Israeli strike on Gaza hospital kills at least six people, officials say"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-hospital + least|2026-11-12T15:26:36.000Z|2|Israeli strike on Gaza hospital kills 6, health authorities say"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "hospital + least",
+					"latestAt": "2026-11-12T15:26:36.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Israeli strike on Gaza hospital kills 6, health authorities say",
+						"Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Say",
+						"Israeli strike on Gaza hospital kills at least six people, officials say"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times World",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-hospital + least|2026-11-12T15:26:36.000Z|3|Israeli strike on Gaza hospital kills 6, health authorities say"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
 		"cluster-usa-trump-talks-trump-talks": {
 			"candidateId": "cluster-usa-trump + talks",
@@ -13623,6 +13771,51 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+		},
+		"cluster-usa-trump-future-trump-future": {
+			"candidateId": "cluster-usa-trump + future",
+			"label": "trump + future",
+			"latestAt": "2026-11-12T12:45:53.000Z",
+			"startedAt": "2026-11-12T09:18:04.000Z",
+			"itemCount": 4,
+			"sourceCount": 2,
+			"terms": [
+				"trump",
+				"future"
+			],
+			"sources": [
+				"CBS News",
+				"NPR Politics"
+			],
+			"titles": [
+				"What's the future of Trump's immigration policy after Stephen Miller's promotion?",
+				"Incoming House Oversight Committee chair Robert Garcia reacts to White House warning",
+				"White House warns Trump probes could be criminal. Rep. Robert Garcia won't back down",
+				"White House warns Democrats over future probes, citing possible 'criminality'"
+			],
+			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
+			"entityLastCandidateAt": "2026-11-12T12:45:53.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "trump + future",
+					"latestAt": "2026-11-12T12:45:53.000Z",
+					"itemCount": 4,
+					"sourceCount": 2,
+					"headlines": [
+						"What's the future of Trump's immigration policy after Stephen Miller's promotion?",
+						"Incoming House Oversight Committee chair Robert Garcia reacts to White House warning",
+						"White House warns Trump probes could be criminal. Rep. Robert Garcia won't back down"
+					],
+					"sources": [
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-trump + future|2026-11-12T12:45:53.000Z|4|What's the future of Trump's immigration policy after Stephen Miller's promotion?"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
 		"cluster-spain-sanchez-detenido-sanchez-detenido": {
 			"candidateId": "cluster-spain-sanchez + detenido",
@@ -13900,7 +14093,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
 		"cluster-spain-delegado-nvidia-delegado-nvidia": {
 			"candidateId": "cluster-spain-delegado + nvidia",
@@ -13944,20 +14137,522 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-nvidia-trump-nvidia-trump": {
+			"candidateId": "cluster-usa-nvidia + trump",
+			"label": "nvidia + trump",
+			"latestAt": "2026-11-12T17:06:46.000Z",
+			"startedAt": "2026-11-12T01:57:34.000Z",
+			"itemCount": 17,
+			"sourceCount": 7,
+			"terms": [
+				"nvidia",
+				"trump"
+			],
+			"sources": [
+				"CBS News",
+				"The Guardian US",
+				"The New York Times",
+				"NBC News",
+				"TIME",
+				"NPR",
+				"PBS NewsHour"
+			],
+			"titles": [
+				"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+				"Jensen Huang resigns as Nvidia CEO after alleged affairs",
+				"Trump reacts after Nvidia CEO Jensen Huang resigns",
+				"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+				"Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
+				"Trump Wants Apple's Tim Cook to Replace Jensen Huang as NVIDIA CEO",
+				"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
+				"Nvidia stock falls after Huang resigns, weighing on broader market",
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
+				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+				"Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
+				"Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
+				"Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
+				"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+				"Nvidia Board Meets to Discuss CEO Jensen Huang’s Future",
+				"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
+				"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
+			"entityLastCandidateAt": "2026-11-12T17:06:46.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-12T17:06:46.000Z",
+					"itemCount": 17,
+					"sourceCount": 7,
+					"headlines": [
+						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+						"Jensen Huang resigns as Nvidia CEO after alleged affairs",
+						"Trump reacts after Nvidia CEO Jensen Huang resigns"
+					],
+					"sources": [
+						"CBS News",
+						"The Guardian US",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-12T17:06:46.000Z|17|Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
+		},
+		"cluster-usa-shooting-logan-shooting-logan": {
+			"candidateId": "cluster-usa-shooting + logan",
+			"label": "shooting + logan",
+			"latestAt": "2026-11-12T17:15:35.000Z",
+			"startedAt": "2026-11-12T13:48:00.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"shooting",
+				"logan"
+			],
+			"sources": [
+				"The New York Times",
+				"CBS News"
+			],
+			"titles": [
+				"5 Shot in Washington D.C.’s Logan Circle Neighborhood",
+				"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
+			"entityLastCandidateAt": "2026-11-12T17:15:35.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "shooting + logan",
+					"latestAt": "2026-11-12T17:15:35.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"5 Shot in Washington D.C.’s Logan Circle Neighborhood",
+						"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-shooting + logan|2026-11-12T17:15:35.000Z|2|5 Shot in Washington D.C.’s Logan Circle Neighborhood"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
+		},
+		"cluster-spain-cuatro-heridos-cuatro-heridos": {
+			"candidateId": "cluster-spain-cuatro + heridos",
+			"label": "cuatro + heridos",
+			"latestAt": "2026-11-12T18:22:05.000Z",
+			"startedAt": "2026-11-12T13:59:33.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"cuatro",
+				"heridos"
+			],
+			"sources": [
+				"El Correo",
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
+				"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos",
+				"Un muerto y cuatro heridos por los disparos de un tirador, hallado después sin vida, en un barrio próximo a la Casa Blanca"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:22:05.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "cuatro + heridos",
+					"latestAt": "2026-11-12T18:22:05.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
+						"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos",
+						"Un muerto y cuatro heridos por los disparos de un tirador, hallado después sin vida, en un barrio próximo a la Casa Blanca"
+					],
+					"sources": [
+						"El Correo",
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-cuatro + heridos|2026-11-12T18:22:05.000Z|3|Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-spain-nacional-ordena-nacional-ordena": {
+			"candidateId": "cluster-spain-nacional + ordena",
+			"label": "nacional + ordena",
+			"latestAt": "2026-11-12T17:27:42.000Z",
+			"startedAt": "2026-11-12T16:53:10.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"nacional",
+				"ordena"
+			],
+			"sources": [
+				"El Correo",
+				"El Mundo",
+				"El País"
+			],
+			"titles": [
+				"La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes",
+				"La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales",
+				"La portavoz de Núcleo Nacional guardaba en su casa 13 armas largas y quería “ir a pegar tiros a París”"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T17:27:42.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "nacional + ordena",
+					"latestAt": "2026-11-12T17:27:42.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes",
+						"La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales",
+						"La portavoz de Núcleo Nacional guardaba en su casa 13 armas largas y quería “ir a pegar tiros a París”"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo",
+						"El País"
+					],
+					"eventId": "cluster-spain-nacional + ordena|2026-11-12T17:27:42.000Z|3|La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-spain-cuatro-tres-cuatro-tres": {
+			"candidateId": "cluster-spain-cuatro + tres",
+			"label": "cuatro + tres",
+			"latestAt": "2026-11-12T14:49:36.000Z",
+			"startedAt": "2026-11-12T14:30:45.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"cuatro",
+				"tres"
+			],
+			"sources": [
+				"El País",
+				"El Correo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia",
+				"Hallan a un joven tras 6 días perdido sin comida y aguantando temperaturas de tres grados en un bosque de Australia",
+				"Elsa Pataky oyó ladrar a sus perros de madrugada y volvió a dormirse: las cámaras grabaron a cuatro encapuchados robando en su finca"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T14:49:36.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "cuatro + tres",
+					"latestAt": "2026-11-12T14:49:36.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia",
+						"Hallan a un joven tras 6 días perdido sin comida y aguantando temperaturas de tres grados en un bosque de Australia",
+						"Elsa Pataky oyó ladrar a sus perros de madrugada y volvió a dormirse: las cámaras grabaron a cuatro encapuchados robando en su finca"
+					],
+					"sources": [
+						"El País",
+						"El Correo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-cuatro + tres|2026-11-12T14:49:36.000Z|3|La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-spain-nacional-imputa-nacional-imputa": {
+			"candidateId": "cluster-spain-nacional + imputa",
+			"label": "nacional + imputa",
+			"latestAt": "2026-11-12T14:31:30.000Z",
+			"startedAt": "2026-11-12T12:30:09.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"nacional",
+				"imputa"
+			],
+			"sources": [
+				"El Mundo",
+				"El País",
+				"El Correo"
+			],
+			"titles": [
+				"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
+				"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva",
+				"La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T14:31:30.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "nacional + imputa",
+					"latestAt": "2026-11-12T14:31:30.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
+						"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva",
+						"La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto"
+					],
+					"sources": [
+						"El Mundo",
+						"El País",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-nacional + imputa|2026-11-12T14:31:30.000Z|3|La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-spain-sanchez-koldo-sanchez-koldo": {
+			"candidateId": "cluster-spain-sanchez + koldo",
+			"label": "sanchez + koldo",
+			"latestAt": "2026-11-12T18:19:46.000Z",
+			"startedAt": "2026-11-12T16:09:30.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"sanchez",
+				"koldo"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
+				"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
+				"Quién es Cristinini, la streamer condecorada por Pedro Sánchez con la Gran Cruz de la Orden del Mérito Civil"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:19:46.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "sanchez + koldo",
+					"latestAt": "2026-11-12T18:19:46.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
+						"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
+						"Quién es Cristinini, la streamer condecorada por Pedro Sánchez con la Gran Cruz de la Orden del Mérito Civil"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-sanchez + koldo|2026-11-12T18:19:46.000Z|3|La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-spain-contra-sexuales-contra-sexuales": {
+			"candidateId": "cluster-spain-contra + sexuales",
+			"label": "contra + sexuales",
+			"latestAt": "2026-11-12T18:43:07.000Z",
+			"startedAt": "2026-11-12T13:18:33.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"contra",
+				"sexuales"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
+				"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:43:07.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "contra + sexuales",
+					"latestAt": "2026-11-12T18:43:07.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
+						"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-contra + sexuales|2026-11-12T18:43:07.000Z|2|El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-spain-gana-etxepare-gana-etxepare": {
+			"candidateId": "cluster-spain-gana + etxepare",
+			"label": "gana + etxepare",
+			"latestAt": "2026-11-12T18:01:31.000Z",
+			"startedAt": "2026-11-12T17:40:55.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"gana",
+				"etxepare"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Bernardo Atxagaren 'Zazpi etxe Frantzian' eleberriaren serbierazko itzulpenak jaso du Etxepare – Laboral Kutxa Itzulpen Saria",
+				"Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:01:31.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "gana + etxepare",
+					"latestAt": "2026-11-12T18:01:31.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Bernardo Atxagaren 'Zazpi etxe Frantzian' eleberriaren serbierazko itzulpenak jaso du Etxepare – Laboral Kutxa Itzulpen Saria",
+						"Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-gana + etxepare|2026-11-12T18:01:31.000Z|2|Bernardo Atxagaren 'Zazpi etxe Frantzian' eleberriaren serbierazko itzulpenak jaso du Etxepare – Laboral Kutxa Itzulpen Saria"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-spain-entre-general-entre-general": {
+			"candidateId": "cluster-spain-entre + general",
+			"label": "entre + general",
+			"latestAt": "2026-11-12T17:35:24.000Z",
+			"startedAt": "2026-11-12T16:31:53.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"entre",
+				"general"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
+				"Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\""
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T17:35:24.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "entre + general",
+					"latestAt": "2026-11-12T17:35:24.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
+						"Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\""
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-entre + general|2026-11-12T17:35:24.000Z|2|Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-spain-detenido-hombre-detenido-hombre": {
+			"candidateId": "cluster-spain-detenido + hombre",
+			"label": "detenido + hombre",
+			"latestAt": "2026-11-12T16:59:30.000Z",
+			"startedAt": "2026-11-12T16:49:30.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"detenido",
+				"hombre"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Detenido un hombre en Gijón por matar a su expareja",
+				"Detenido un hombre en Gijón por matar a su ex pareja"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T16:59:30.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "detenido + hombre",
+					"latestAt": "2026-11-12T16:59:30.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Detenido un hombre en Gijón por matar a su expareja",
+						"Detenido un hombre en Gijón por matar a su ex pareja"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-detenido + hombre|2026-11-12T16:59:30.000Z|2|Detenido un hombre en Gijón por matar a su expareja"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		}
 	},
 	"latestRun": {
-		"id": "43268012941-us",
+		"id": "local-us-2026-11-12T19:03:55.334Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-12T17:19:54.483Z",
-		"finishedAt": "2026-11-12T17:20:29.611Z",
-		"signalsCandidate": 9,
-		"signalsSelected": 9,
+		"startedAt": "2026-11-12T19:03:55.334Z",
+		"finishedAt": "2026-11-12T19:11:32.510Z",
+		"signalsCandidate": 11,
+		"signalsSelected": 11,
 		"signalsProcessed": 0,
-		"cacheHits": 6,
-		"skippedByConfig": 9,
+		"cacheHits": 5,
+		"skippedByConfig": 11,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -13967,12 +14662,12 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 6,
+			"cacheHits": 5,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 271,
-			"retainedByTtl": 262,
-			"retiredByTtl": 2
+			"retained": 285,
+			"retainedByTtl": 274,
+			"retiredByTtl": 0
 		},
 		"costUsd": 0
 	}

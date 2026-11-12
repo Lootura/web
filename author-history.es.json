@@ -1,10 +1,16 @@
 {
-	"updatedAt": "2026-11-12T17:19:08.947Z",
+	"updatedAt": "2026-11-12T19:03:55.334Z",
 	"feedProfile": "es",
 	"retentionDays": 90,
 	"totalAuthors": 80,
-	"totalBylinedItems": 406,
+	"totalBylinedItems": 408,
 	"runs": [
+		{
+			"at": "2026-11-12T19:03:55.334Z",
+			"itemCount": 120,
+			"bylinedItemCount": 53,
+			"authorCount": 80
+		},
 		{
 			"at": "2026-11-12T17:19:08.947Z",
 			"itemCount": 120,
@@ -177,12 +183,6 @@
 			"at": "2026-11-08T10:21:15.006Z",
 			"itemCount": 120,
 			"bylinedItemCount": 46,
-			"authorCount": 80
-		},
-		{
-			"at": "2026-11-08T08:18:44.608Z",
-			"itemCount": 120,
-			"bylinedItemCount": 54,
 			"authorCount": 80
 		}
 	],
@@ -436,7 +436,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 267,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-10-31T21:29:02.000Z",
 			"latestAt": "2026-11-12T17:11:22.000Z",
 			"daysActive": 12,
@@ -604,7 +604,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 267,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-10-31T21:29:02.000Z",
 			"latestAt": "2026-11-12T17:11:22.000Z",
 			"daysActive": 12,
@@ -1108,7 +1108,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 235,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-04T05:12:35.000Z",
 			"latestAt": "2026-11-12T17:07:33.000Z",
 			"daysActive": 9,
@@ -1813,7 +1813,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 180,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-10-29T16:00:00.000Z",
 			"latestAt": "2026-11-12T17:17:58.000Z",
 			"daysActive": 15,
@@ -2170,6 +2170,120 @@
 					"publishedAt": "2026-11-01T14:40:14.000Z",
 					"category": "general",
 					"weight": 2
+				}
+			]
+		},
+		{
+			"id": "el mundo::quico alsedo",
+			"name": "Quico Alsedo",
+			"source": "El Mundo",
+			"profileUrl": "",
+			"itemCount": 7,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 169,
+			"confidence": "medium",
+			"firstSeenAt": "2026-10-29T13:31:42.000Z",
+			"latestAt": "2026-11-12T18:19:46.000Z",
+			"daysActive": 15,
+			"categories": [
+				"general"
+			],
+			"sources": [
+				"El Mundo"
+			],
+			"examples": [
+				{
+					"key": "https://www.elmundo.es/espana/2026/11/12/6af5ea88fc6c83c6308b45ca.html?ref=lootura.com",
+					"title": "La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/12/6af5ea88fc6c83c6308b45ca.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T18:19:46.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?ref=lootura.com",
+					"title": "Detenidos 43 estafadores que solo se conocían por Telegram y timaban a mujeres por teléfono con falsas alarmas del banco: \"Vamos a robar viejitas\"",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T13:36:06.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/espana/2026/11/11/6af477e2e9cf4a0e668b457d.html?ref=lootura.com",
+					"title": "Más de 50 detenidos, 13 heridos por gas pimienta y un político andaluz con una costilla rota, primer balance del paro",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/11/6af477e2e9cf4a0e668b457d.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-11T18:32:25.000Z",
+					"category": "general",
+					"weight": 3
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.elmundo.es/espana/2026/11/12/6af5ea88fc6c83c6308b45ca.html?ref=lootura.com",
+					"title": "La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/12/6af5ea88fc6c83c6308b45ca.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T18:19:46.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?ref=lootura.com",
+					"title": "Detenidos 43 estafadores que solo se conocían por Telegram y timaban a mujeres por teléfono con falsas alarmas del banco: \"Vamos a robar viejitas\"",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T13:36:06.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/espana/2026/11/11/6af477e2e9cf4a0e668b457d.html?ref=lootura.com",
+					"title": "Más de 50 detenidos, 13 heridos por gas pimienta y un político andaluz con una costilla rota, primer balance del paro",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/11/6af477e2e9cf4a0e668b457d.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-11T18:32:25.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/espana/2026/11/10/6af36b8de85ece64448b45bf.html?ref=lootura.com",
+					"title": "Más de 100 policías desplegados para cazar al 'Ruso', el ex legionario huido tras matar a un agente en Oviedo",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/10/6af36b8de85ece64448b45bf.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T20:30:18.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/espana/2026/11/07/6aee1271e9cf4ae17b8b458e.html?ref=lootura.com",
+					"title": "La 'invasión' desde Marruecos superó la población de Ceuta: más de 100.000 personas entraron en 24 horas",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/07/6aee1271e9cf4ae17b8b458e.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-07T00:19:48.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/cronica/2026/10/28/6adb9282fc6c832d2d8b45a3.html?ref=lootura.com",
+					"title": "La sociedad pública (de Zapatero) que le dio un alquiler social a Iván Redondo antes de Moncloa: \"Aquello era pura politización\"",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/cronica/2026/10/28/6adb9282fc6c832d2d8b45a3.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-01T01:27:43.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/espana/2026/10/29/6ae33bbbfc6c837e478b459d.html",
+					"title": "Antonio, el maquinista que intentó frenar el AVE: fotógrafo, militante de Izquierda Española y deja a su mujer embarazada",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/10/29/6ae33bbbfc6c837e478b459d.html?utm_source=lootura.com",
+					"publishedAt": "2026-10-29T13:31:42.000Z",
+					"category": "general",
+					"weight": 3
 				}
 			]
 		},
@@ -2744,111 +2858,6 @@
 			]
 		},
 		{
-			"id": "el mundo::quico alsedo",
-			"name": "Quico Alsedo",
-			"source": "El Mundo",
-			"profileUrl": "",
-			"itemCount": 6,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 151,
-			"confidence": "low",
-			"firstSeenAt": "2026-10-29T13:31:42.000Z",
-			"latestAt": "2026-11-12T13:36:06.000Z",
-			"daysActive": 15,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"El Mundo"
-			],
-			"examples": [
-				{
-					"key": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?ref=lootura.com",
-					"title": "Detenidos 43 estafadores que solo se conocían por Telegram y timaban a mujeres por teléfono con falsas alarmas del banco: \"Vamos a robar viejitas\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T13:36:06.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/11/6af477e2e9cf4a0e668b457d.html?ref=lootura.com",
-					"title": "Más de 50 detenidos, 13 heridos por gas pimienta y un político andaluz con una costilla rota, primer balance del paro",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/11/6af477e2e9cf4a0e668b457d.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T18:32:25.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/10/6af36b8de85ece64448b45bf.html?ref=lootura.com",
-					"title": "Más de 100 policías desplegados para cazar al 'Ruso', el ex legionario huido tras matar a un agente en Oviedo",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/10/6af36b8de85ece64448b45bf.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T20:30:18.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?ref=lootura.com",
-					"title": "Detenidos 43 estafadores que solo se conocían por Telegram y timaban a mujeres por teléfono con falsas alarmas del banco: \"Vamos a robar viejitas\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T13:36:06.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/11/6af477e2e9cf4a0e668b457d.html?ref=lootura.com",
-					"title": "Más de 50 detenidos, 13 heridos por gas pimienta y un político andaluz con una costilla rota, primer balance del paro",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/11/6af477e2e9cf4a0e668b457d.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T18:32:25.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/10/6af36b8de85ece64448b45bf.html?ref=lootura.com",
-					"title": "Más de 100 policías desplegados para cazar al 'Ruso', el ex legionario huido tras matar a un agente en Oviedo",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/10/6af36b8de85ece64448b45bf.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T20:30:18.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/07/6aee1271e9cf4ae17b8b458e.html?ref=lootura.com",
-					"title": "La 'invasión' desde Marruecos superó la población de Ceuta: más de 100.000 personas entraron en 24 horas",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/07/6aee1271e9cf4ae17b8b458e.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T00:19:48.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/cronica/2026/10/28/6adb9282fc6c832d2d8b45a3.html?ref=lootura.com",
-					"title": "La sociedad pública (de Zapatero) que le dio un alquiler social a Iván Redondo antes de Moncloa: \"Aquello era pura politización\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/cronica/2026/10/28/6adb9282fc6c832d2d8b45a3.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-01T01:27:43.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/espana/2026/10/29/6ae33bbbfc6c837e478b459d.html",
-					"title": "Antonio, el maquinista que intentó frenar el AVE: fotógrafo, militante de Izquierda Española y deja a su mujer embarazada",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/10/29/6ae33bbbfc6c837e478b459d.html?utm_source=lootura.com",
-					"publishedAt": "2026-10-29T13:31:42.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			]
-		},
-		{
 			"id": "ok diario::janire manzanas",
 			"name": "Janire Manzanas",
 			"source": "OK Diario",
@@ -3076,7 +3085,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 148,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-05-20T03:45:01.000Z",
 			"latestAt": "2026-11-12T17:02:52.000Z",
 			"daysActive": 177,
@@ -3784,7 +3793,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 122,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-09T13:52:58.000Z",
 			"latestAt": "2026-11-12T16:00:30.000Z",
 			"daysActive": 4,
@@ -6029,6 +6038,84 @@
 			]
 		},
 		{
+			"id": "https://www.diariovasco.com/autor/benat-barreto-4689.html",
+			"name": "Beñat Barreto",
+			"source": "El Diario Vasco",
+			"profileUrl": "https://www.diariovasco.com/autor/benat-barreto-4689.html",
+			"itemCount": 3,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 93,
+			"confidence": "high",
+			"firstSeenAt": "2026-11-08T18:29:34.000Z",
+			"latestAt": "2026-11-12T18:22:38.000Z",
+			"daysActive": 4,
+			"categories": [
+				"local"
+			],
+			"sources": [
+				"El Diario Vasco"
+			],
+			"examples": [
+				{
+					"key": "https://www.diariovasco.com/real-sociedad/desplazamiento-txuriurdin-898-entradas-santander-precio-unico-20261112192238-nt.html?ref=lootura.com",
+					"title": "Desplazamiento txuri-urdin a la vista: 898 entradas para Santander a un precio único de 30 euros",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/real-sociedad/desplazamiento-txuriurdin-898-entradas-santander-precio-unico-20261112192238-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T18:22:38.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/real-sociedad/1x1-jugadores-real-sociedad-ante-rayo-nota-20261108195516-nt.html?ref=lootura.com",
+					"title": "El 1x1 de los jugadores de la Real Sociedad ante el Rayo. ¿Tú qué nota les pondrías?",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/real-sociedad/1x1-jugadores-real-sociedad-ante-rayo-nota-20261108195516-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T18:55:16.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/real-sociedad/genialidad-dar-salto-20261108192934-nt.html?ref=lootura.com",
+					"title": "Una genialidad para dar un salto",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/real-sociedad/genialidad-dar-salto-20261108192934-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T18:29:34.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.diariovasco.com/real-sociedad/desplazamiento-txuriurdin-898-entradas-santander-precio-unico-20261112192238-nt.html?ref=lootura.com",
+					"title": "Desplazamiento txuri-urdin a la vista: 898 entradas para Santander a un precio único de 30 euros",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/real-sociedad/desplazamiento-txuriurdin-898-entradas-santander-precio-unico-20261112192238-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T18:22:38.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/real-sociedad/1x1-jugadores-real-sociedad-ante-rayo-nota-20261108195516-nt.html?ref=lootura.com",
+					"title": "El 1x1 de los jugadores de la Real Sociedad ante el Rayo. ¿Tú qué nota les pondrías?",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/real-sociedad/1x1-jugadores-real-sociedad-ante-rayo-nota-20261108195516-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T18:55:16.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/real-sociedad/genialidad-dar-salto-20261108192934-nt.html?ref=lootura.com",
+					"title": "Una genialidad para dar un salto",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/real-sociedad/genialidad-dar-salto-20261108192934-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T18:29:34.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			]
+		},
+		{
 			"id": "el correo::fernando romero",
 			"name": "Fernando Romero",
 			"source": "El Correo",
@@ -6349,7 +6436,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 85,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-10T14:48:14.000Z",
 			"latestAt": "2026-11-12T16:19:01.000Z",
 			"daysActive": 3,
@@ -7067,6 +7154,66 @@
 			]
 		},
 		{
+			"id": "https://www.elcorreo.com/autor/melchor-saiz-pardo-136.html",
+			"name": "Melchor Sáiz-Pardo",
+			"source": "El Correo",
+			"profileUrl": "https://www.elcorreo.com/autor/melchor-saiz-pardo-136.html",
+			"itemCount": 2,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 72,
+			"confidence": "high",
+			"firstSeenAt": "2026-11-12T12:30:09.000Z",
+			"latestAt": "2026-11-12T17:27:42.000Z",
+			"daysActive": 1,
+			"categories": [
+				"local"
+			],
+			"sources": [
+				"El Correo"
+			],
+			"examples": [
+				{
+					"key": "https://www.elcorreo.com/politica/jueza-ordena-cese-total-actividad-nucleo-nacional-20261112182742-ntrc.html?ref=lootura.com",
+					"title": "La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/politica/jueza-ordena-cese-total-actividad-nucleo-nacional-20261112182742-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T17:27:42.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/politica/jueza-tardon-imputa-exdelegado-gobierno-ceuta-pasividad-20261112133009-ntrc.html?ref=lootura.com",
+					"title": "La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/politica/jueza-tardon-imputa-exdelegado-gobierno-ceuta-pasividad-20261112133009-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T12:30:09.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.elcorreo.com/politica/jueza-ordena-cese-total-actividad-nucleo-nacional-20261112182742-ntrc.html?ref=lootura.com",
+					"title": "La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/politica/jueza-ordena-cese-total-actividad-nucleo-nacional-20261112182742-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T17:27:42.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/politica/jueza-tardon-imputa-exdelegado-gobierno-ceuta-pasividad-20261112133009-ntrc.html?ref=lootura.com",
+					"title": "La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/politica/jueza-tardon-imputa-exdelegado-gobierno-ceuta-pasividad-20261112133009-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T12:30:09.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			]
+		},
+		{
 			"id": "https://www.diariovasco.com/autor/angel-lopez-6967.html",
 			"name": "Ángel López",
 			"source": "El Diario Vasco",
@@ -7241,66 +7388,6 @@
 					"source": "El Diario Vasco",
 					"href": "https://www.diariovasco.com/culturas/libros/elvira-minguez-san-sebastian-leer-condena-marioneta-20261110200358-nt.html?utm_source=lootura.com&ref=lootura.com",
 					"publishedAt": "2026-11-09T23:17:24.000Z",
-					"category": "local",
-					"weight": 4
-				}
-			]
-		},
-		{
-			"id": "https://www.diariovasco.com/autor/benat-barreto-4689.html",
-			"name": "Beñat Barreto",
-			"source": "El Diario Vasco",
-			"profileUrl": "https://www.diariovasco.com/autor/benat-barreto-4689.html",
-			"itemCount": 2,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 72,
-			"confidence": "high",
-			"firstSeenAt": "2026-11-08T18:29:34.000Z",
-			"latestAt": "2026-11-08T18:55:16.000Z",
-			"daysActive": 1,
-			"categories": [
-				"local"
-			],
-			"sources": [
-				"El Diario Vasco"
-			],
-			"examples": [
-				{
-					"key": "https://www.diariovasco.com/real-sociedad/1x1-jugadores-real-sociedad-ante-rayo-nota-20261108195516-nt.html?ref=lootura.com",
-					"title": "El 1x1 de los jugadores de la Real Sociedad ante el Rayo. ¿Tú qué nota les pondrías?",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/real-sociedad/1x1-jugadores-real-sociedad-ante-rayo-nota-20261108195516-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T18:55:16.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/real-sociedad/genialidad-dar-salto-20261108192934-nt.html?ref=lootura.com",
-					"title": "Una genialidad para dar un salto",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/real-sociedad/genialidad-dar-salto-20261108192934-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T18:29:34.000Z",
-					"category": "local",
-					"weight": 4
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.diariovasco.com/real-sociedad/1x1-jugadores-real-sociedad-ante-rayo-nota-20261108195516-nt.html?ref=lootura.com",
-					"title": "El 1x1 de los jugadores de la Real Sociedad ante el Rayo. ¿Tú qué nota les pondrías?",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/real-sociedad/1x1-jugadores-real-sociedad-ante-rayo-nota-20261108195516-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T18:55:16.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/real-sociedad/genialidad-dar-salto-20261108192934-nt.html?ref=lootura.com",
-					"title": "Una genialidad para dar un salto",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/real-sociedad/genialidad-dar-salto-20261108192934-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T18:29:34.000Z",
 					"category": "local",
 					"weight": 4
 				}
@@ -7721,66 +7808,6 @@
 					"source": "El Mundo",
 					"href": "https://www.elmundo.es/deportes/formula-1/2026/11/08/6af0a4c0fdddff200a8b458f.html?utm_source=lootura.com&ref=lootura.com",
 					"publishedAt": "2026-11-08T19:11:50.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			]
-		},
-		{
-			"id": "el pais::guillermo vega",
-			"name": "Guillermo Vega",
-			"source": "El País",
-			"profileUrl": "",
-			"itemCount": 2,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 65,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-07T16:00:33.000Z",
-			"latestAt": "2026-11-07T19:26:26.000Z",
-			"daysActive": 1,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"El País"
-			],
-			"examples": [
-				{
-					"key": "https://elpais.com/deportes/2026-11-07/el-cd-tenerife-despide-a-jesus-de-miguel-sobre-el-cesped-damos-gracias-de-haberte-conocido.html?ref=lootura.com",
-					"title": "El CD Tenerife despide a Jesús de Miguel sobre el césped: “Vino a marcar goles y conquistó corazones”",
-					"source": "El País",
-					"href": "https://elpais.com/deportes/2026-11-07/el-cd-tenerife-despide-a-jesus-de-miguel-sobre-el-cesped-damos-gracias-de-haberte-conocido.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T19:26:26.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://elpais.com/espana/2026-11-07/el-hierro-pide-mas-ayuda-al-estado-ante-la-llegada-de-mas-cayucos-a-canarias.html?ref=lootura.com",
-					"title": "El Hierro pide más ayuda al Estado ante la llegada de más cayucos a Canarias",
-					"source": "El País",
-					"href": "https://elpais.com/espana/2026-11-07/el-hierro-pide-mas-ayuda-al-estado-ante-la-llegada-de-mas-cayucos-a-canarias.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T16:00:33.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			],
-			"items": [
-				{
-					"key": "https://elpais.com/deportes/2026-11-07/el-cd-tenerife-despide-a-jesus-de-miguel-sobre-el-cesped-damos-gracias-de-haberte-conocido.html?ref=lootura.com",
-					"title": "El CD Tenerife despide a Jesús de Miguel sobre el césped: “Vino a marcar goles y conquistó corazones”",
-					"source": "El País",
-					"href": "https://elpais.com/deportes/2026-11-07/el-cd-tenerife-despide-a-jesus-de-miguel-sobre-el-cesped-damos-gracias-de-haberte-conocido.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T19:26:26.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://elpais.com/espana/2026-11-07/el-hierro-pide-mas-ayuda-al-estado-ante-la-llegada-de-mas-cayucos-a-canarias.html?ref=lootura.com",
-					"title": "El Hierro pide más ayuda al Estado ante la llegada de más cayucos a Canarias",
-					"source": "El País",
-					"href": "https://elpais.com/espana/2026-11-07/el-hierro-pide-mas-ayuda-al-estado-ante-la-llegada-de-mas-cayucos-a-canarias.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T16:00:33.000Z",
 					"category": "general",
 					"weight": 3
 				}

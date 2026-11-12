@@ -2,136 +2,130 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-12T17:19:08.947Z",
+	"updatedAt": "2026-11-12T19:03:55.334Z",
 	"entries": {
-		"cluster-spain-sanchez-detenido-sanchez-detenido": {
-			"candidateId": "cluster-spain-sanchez + detenido",
-			"label": "sanchez + detenido",
-			"latestAt": "2026-11-12T17:13:34.000Z",
-			"startedAt": "2026-11-12T16:09:30.000Z",
-			"itemCount": 4,
-			"sourceCount": 4,
+		"cluster-spain-cuatro-heridos-cuatro-heridos": {
+			"candidateId": "cluster-spain-cuatro + heridos",
+			"label": "cuatro + heridos",
+			"latestAt": "2026-11-12T18:22:05.000Z",
+			"startedAt": "2026-11-12T13:59:33.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
 			"terms": [
-				"sanchez",
-				"detenido"
+				"cuatro",
+				"heridos"
 			],
 			"sources": [
-				"The Objective",
-				"El Debate",
-				"El Mundo",
-				"El Correo"
+				"El Correo",
+				"El País",
+				"El Mundo"
 			],
 			"titles": [
-				"Corvillo mantuvo una reunión de «35 minutos» con Sánchez en Córdoba que fue «de lujo»",
-				"La UCO constata una reunión en 2023 de Sánchez y su exchófer aunque el presidente dijo que no tenían «nada que ver»",
-				"La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
-				"Quién es Cristinini, la streamer condecorada por Pedro Sánchez con la Gran Cruz de la Orden del Mérito Civil"
+				"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
+				"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos",
+				"Un muerto y cuatro heridos por los disparos de un tirador, hallado después sin vida, en un barrio próximo a la Casa Blanca"
 			],
-			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
-			"entityLastCandidateAt": "2026-11-12T17:13:34.000Z",
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:22:05.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T17:19:08.947Z",
-					"label": "sanchez + detenido",
-					"latestAt": "2026-11-12T17:13:34.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "cuatro + heridos",
+					"latestAt": "2026-11-12T18:22:05.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
 					"headlines": [
-						"Corvillo mantuvo una reunión de «35 minutos» con Sánchez en Córdoba que fue «de lujo»",
-						"La UCO constata una reunión en 2023 de Sánchez y su exchófer aunque el presidente dijo que no tenían «nada que ver»",
-						"La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer"
+						"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
+						"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos",
+						"Un muerto y cuatro heridos por los disparos de un tirador, hallado después sin vida, en un barrio próximo a la Casa Blanca"
 					],
 					"sources": [
-						"The Objective",
-						"El Debate",
+						"El Correo",
+						"El País",
 						"El Mundo"
 					],
-					"eventId": "cluster-spain-sanchez + detenido|2026-11-12T17:13:34.000Z|4|Corvillo mantuvo una reunión de «35 minutos» con Sánchez en Córdoba que fue «de lujo»"
+					"eventId": "cluster-spain-cuatro + heridos|2026-11-12T18:22:05.000Z|3|Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
-		"cluster-spain-imputa-gobierno-imputa-gobierno": {
-			"candidateId": "cluster-spain-imputa + gobierno",
-			"label": "imputa + gobierno",
-			"latestAt": "2026-11-12T17:03:12.000Z",
-			"startedAt": "2026-11-12T12:30:09.000Z",
-			"itemCount": 4,
-			"sourceCount": 4,
+		"cluster-spain-nacional-ordena-nacional-ordena": {
+			"candidateId": "cluster-spain-nacional + ordena",
+			"label": "nacional + ordena",
+			"latestAt": "2026-11-12T17:27:42.000Z",
+			"startedAt": "2026-11-12T16:53:10.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
 			"terms": [
-				"imputa",
-				"gobierno"
+				"nacional",
+				"ordena"
 			],
 			"sources": [
-				"Heraldo de Aragón",
+				"El Correo",
 				"El Mundo",
-				"El País",
-				"El Correo"
+				"El País"
 			],
 			"titles": [
-				"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva de migrantes",
-				"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
-				"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva",
-				"La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto"
+				"La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes",
+				"La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales",
+				"La portavoz de Núcleo Nacional guardaba en su casa 13 armas largas y quería “ir a pegar tiros a París”"
 			],
-			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
-			"entityLastCandidateAt": "2026-11-12T17:03:12.000Z",
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T17:27:42.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T17:19:08.947Z",
-					"label": "imputa + gobierno",
-					"latestAt": "2026-11-12T17:03:12.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "nacional + ordena",
+					"latestAt": "2026-11-12T17:27:42.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
 					"headlines": [
-						"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva de migrantes",
-						"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
-						"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva"
+						"La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes",
+						"La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales",
+						"La portavoz de Núcleo Nacional guardaba en su casa 13 armas largas y quería “ir a pegar tiros a París”"
 					],
 					"sources": [
-						"Heraldo de Aragón",
+						"El Correo",
 						"El Mundo",
 						"El País"
 					],
-					"eventId": "cluster-spain-imputa + gobierno|2026-11-12T17:03:12.000Z|4|La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva de migrantes"
+					"eventId": "cluster-spain-nacional + ordena|2026-11-12T17:27:42.000Z|3|La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
-		"cluster-spain-cuatro-australia-cuatro-australia": {
-			"candidateId": "cluster-spain-cuatro + australia",
-			"label": "cuatro + australia",
+		"cluster-spain-cuatro-tres-cuatro-tres": {
+			"candidateId": "cluster-spain-cuatro + tres",
+			"label": "cuatro + tres",
 			"latestAt": "2026-11-12T14:49:36.000Z",
-			"startedAt": "2026-11-12T11:55:50.000Z",
-			"itemCount": 4,
-			"sourceCount": 4,
+			"startedAt": "2026-11-12T14:30:45.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
 			"terms": [
 				"cuatro",
-				"australia"
+				"tres"
 			],
 			"sources": [
 				"El País",
 				"El Correo",
-				"El Diario Vasco",
-				"El Mundo"
+				"El Diario Vasco"
 			],
 			"titles": [
 				"La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia",
 				"Hallan a un joven tras 6 días perdido sin comida y aguantando temperaturas de tres grados en un bosque de Australia",
-				"Elsa Pataky oyó ladrar a sus perros de madrugada y volvió a dormirse: las cámaras grabaron a cuatro encapuchados robando en su finca",
-				"Hallan con vida a un adolescente tras seis días perdido en una zona boscosa de Australia"
+				"Elsa Pataky oyó ladrar a sus perros de madrugada y volvió a dormirse: las cámaras grabaron a cuatro encapuchados robando en su finca"
 			],
-			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
 			"entityLastCandidateAt": "2026-11-12T14:49:36.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T17:19:08.947Z",
-					"label": "cuatro + australia",
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "cuatro + tres",
 					"latestAt": "2026-11-12T14:49:36.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
+					"itemCount": 3,
+					"sourceCount": 3,
 					"headlines": [
 						"La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia",
 						"Hallan a un joven tras 6 días perdido sin comida y aguantando temperaturas de tres grados en un bosque de Australia",
@@ -142,103 +136,227 @@
 						"El Correo",
 						"El Diario Vasco"
 					],
-					"eventId": "cluster-spain-cuatro + australia|2026-11-12T14:49:36.000Z|4|La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia"
+					"eventId": "cluster-spain-cuatro + tres|2026-11-12T14:49:36.000Z|3|La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
-		"cluster-spain-detenido-gijon-detenido-gijon": {
-			"candidateId": "cluster-spain-detenido + gijon",
-			"label": "detenido + gijon",
-			"latestAt": "2026-11-12T17:04:15.000Z",
-			"startedAt": "2026-11-12T16:49:30.000Z",
+		"cluster-spain-nacional-imputa-nacional-imputa": {
+			"candidateId": "cluster-spain-nacional + imputa",
+			"label": "nacional + imputa",
+			"latestAt": "2026-11-12T14:31:30.000Z",
+			"startedAt": "2026-11-12T12:30:09.000Z",
 			"itemCount": 3,
 			"sourceCount": 3,
 			"terms": [
-				"detenido",
-				"gijon"
+				"nacional",
+				"imputa"
 			],
 			"sources": [
-				"elDiario.es",
+				"El Mundo",
+				"El País",
+				"El Correo"
+			],
+			"titles": [
+				"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
+				"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva",
+				"La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T14:31:30.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "nacional + imputa",
+					"latestAt": "2026-11-12T14:31:30.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
+						"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva",
+						"La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto"
+					],
+					"sources": [
+						"El Mundo",
+						"El País",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-nacional + imputa|2026-11-12T14:31:30.000Z|3|La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-spain-sanchez-koldo-sanchez-koldo": {
+			"candidateId": "cluster-spain-sanchez + koldo",
+			"label": "sanchez + koldo",
+			"latestAt": "2026-11-12T18:19:46.000Z",
+			"startedAt": "2026-11-12T16:09:30.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"sanchez",
+				"koldo"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
+				"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
+				"Quién es Cristinini, la streamer condecorada por Pedro Sánchez con la Gran Cruz de la Orden del Mérito Civil"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:19:46.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "sanchez + koldo",
+					"latestAt": "2026-11-12T18:19:46.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
+						"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
+						"Quién es Cristinini, la streamer condecorada por Pedro Sánchez con la Gran Cruz de la Orden del Mérito Civil"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-sanchez + koldo|2026-11-12T18:19:46.000Z|3|La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-spain-contra-sexuales-contra-sexuales": {
+			"candidateId": "cluster-spain-contra + sexuales",
+			"label": "contra + sexuales",
+			"latestAt": "2026-11-12T18:43:07.000Z",
+			"startedAt": "2026-11-12T13:18:33.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"contra",
+				"sexuales"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
+				"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:43:07.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "contra + sexuales",
+					"latestAt": "2026-11-12T18:43:07.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
+						"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-contra + sexuales|2026-11-12T18:43:07.000Z|2|El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-spain-gana-etxepare-gana-etxepare": {
+			"candidateId": "cluster-spain-gana + etxepare",
+			"label": "gana + etxepare",
+			"latestAt": "2026-11-12T18:01:31.000Z",
+			"startedAt": "2026-11-12T17:40:55.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"gana",
+				"etxepare"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Bernardo Atxagaren 'Zazpi etxe Frantzian' eleberriaren serbierazko itzulpenak jaso du Etxepare – Laboral Kutxa Itzulpen Saria",
+				"Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:01:31.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "gana + etxepare",
+					"latestAt": "2026-11-12T18:01:31.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Bernardo Atxagaren 'Zazpi etxe Frantzian' eleberriaren serbierazko itzulpenak jaso du Etxepare – Laboral Kutxa Itzulpen Saria",
+						"Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-gana + etxepare|2026-11-12T18:01:31.000Z|2|Bernardo Atxagaren 'Zazpi etxe Frantzian' eleberriaren serbierazko itzulpenak jaso du Etxepare – Laboral Kutxa Itzulpen Saria"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-spain-entre-general-entre-general": {
+			"candidateId": "cluster-spain-entre + general",
+			"label": "entre + general",
+			"latestAt": "2026-11-12T17:35:24.000Z",
+			"startedAt": "2026-11-12T16:31:53.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"entre",
+				"general"
+			],
+			"sources": [
 				"El País",
 				"El Mundo"
 			],
 			"titles": [
-				"Asesinada una mujer en Gijón y detenido su expareja como presunto autor de su muerte",
-				"Detenido un hombre en Gijón por matar a su expareja",
-				"Detenido un hombre en Gijón por matar a su ex pareja"
+				"Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
+				"Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\""
 			],
-			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
-			"entityLastCandidateAt": "2026-11-12T17:04:15.000Z",
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T17:35:24.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T17:19:08.947Z",
-					"label": "detenido + gijon",
-					"latestAt": "2026-11-12T17:04:15.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "entre + general",
+					"latestAt": "2026-11-12T17:35:24.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
 					"headlines": [
-						"Asesinada una mujer en Gijón y detenido su expareja como presunto autor de su muerte",
-						"Detenido un hombre en Gijón por matar a su expareja",
-						"Detenido un hombre en Gijón por matar a su ex pareja"
-					],
-					"sources": [
-						"elDiario.es",
-						"El País",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-detenido + gijon|2026-11-12T17:04:15.000Z|3|Asesinada una mujer en Gijón y detenido su expareja como presunto autor de su muerte"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
-		},
-		"cluster-spain-cuatro-menos-cuatro-menos": {
-			"candidateId": "cluster-spain-cuatro + menos",
-			"label": "cuatro + menos",
-			"latestAt": "2026-11-12T16:34:00.000Z",
-			"startedAt": "2026-11-12T13:59:33.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"cuatro",
-				"menos"
-			],
-			"sources": [
-				"El País",
-				"El Correo",
-				"El Mundo"
-			],
-			"titles": [
-				"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos",
-				"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
-				"Un muerto y cuatro heridos por los disparos de un tirador, hallado después sin vida, en un barrio próximo a la Casa Blanca"
-			],
-			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
-			"entityLastCandidateAt": "2026-11-12T16:34:00.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T17:19:08.947Z",
-					"label": "cuatro + menos",
-					"latestAt": "2026-11-12T16:34:00.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos",
-						"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
-						"Un muerto y cuatro heridos por los disparos de un tirador, hallado después sin vida, en un barrio próximo a la Casa Blanca"
+						"Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
+						"Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\""
 					],
 					"sources": [
 						"El País",
-						"El Correo",
 						"El Mundo"
 					],
-					"eventId": "cluster-spain-cuatro + menos|2026-11-12T16:34:00.000Z|3|Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos"
+					"eventId": "cluster-spain-entre + general|2026-11-12T17:35:24.000Z|2|Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
 		"cluster-spain-sanchez-electoral-sanchez-electoral": {
 			"candidateId": "cluster-spain-sanchez + electoral",
@@ -280,7 +398,49 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-spain-detenido-hombre-detenido-hombre": {
+			"candidateId": "cluster-spain-detenido + hombre",
+			"label": "detenido + hombre",
+			"latestAt": "2026-11-12T16:59:30.000Z",
+			"startedAt": "2026-11-12T16:49:30.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"detenido",
+				"hombre"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Detenido un hombre en Gijón por matar a su expareja",
+				"Detenido un hombre en Gijón por matar a su ex pareja"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T16:59:30.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "detenido + hombre",
+					"latestAt": "2026-11-12T16:59:30.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Detenido un hombre en Gijón por matar a su expareja",
+						"Detenido un hombre en Gijón por matar a su ex pareja"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-detenido + hombre|2026-11-12T16:59:30.000Z|2|Detenido un hombre en Gijón por matar a su expareja"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
 		"cluster-spain-delegado-nvidia-delegado-nvidia": {
 			"candidateId": "cluster-spain-delegado + nvidia",
@@ -324,49 +484,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
-		},
-		"cluster-spain-entre-cita-entre-cita": {
-			"candidateId": "cluster-spain-entre + cita",
-			"label": "entre + cita",
-			"latestAt": "2026-11-12T13:10:33.000Z",
-			"startedAt": "2026-11-12T12:20:42.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"entre",
-				"cita"
-			],
-			"sources": [
-				"El País",
-				"El Mundo"
-			],
-			"titles": [
-				"Alcaraz y Jódar, juntos pero no revueltos en la cita maestra de Turín",
-				"El sorteo de las ATP Finals evita un duelo inicial entre Alcaraz y Jódar"
-			],
-			"entityFirstSeenAt": "2026-11-12T15:47:00.508Z",
-			"entityLastCandidateAt": "2026-11-12T13:10:33.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T15:47:00.508Z",
-					"label": "entre + cita",
-					"latestAt": "2026-11-12T13:10:33.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Alcaraz y Jódar, juntos pero no revueltos en la cita maestra de Turín",
-						"El sorteo de las ATP Finals evita un duelo inicial entre Alcaraz y Jódar"
-					],
-					"sources": [
-						"El País",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-entre + cita|2026-11-12T13:10:33.000Z|2|Alcaraz y Jódar, juntos pero no revueltos en la cita maestra de Turín"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -1643,48 +1761,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T01:19:45.981Z"
 		},
-		"cluster-spain-bajo-titulo-bajo-titulo": {
-			"candidateId": "cluster-spain-bajo + titulo",
-			"label": "bajo + titulo",
-			"latestAt": "2026-11-08T17:19:28.000Z",
-			"startedAt": "2026-11-08T14:03:41.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"bajo",
-				"titulo"
-			],
-			"sources": [
-				"El Mundo",
-				"El Correo"
-			],
-			"titles": [
-				"Alcaraz se venga de Shelton para levantar en París su primer Masters 1000 bajo techo",
-				"Alcaraz reina en París y conquista su quinto título del año"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:29:34.540Z",
-			"entityLastCandidateAt": "2026-11-08T17:19:28.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:29:34.540Z",
-					"label": "bajo + titulo",
-					"latestAt": "2026-11-08T17:19:28.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Alcaraz se venga de Shelton para levantar en París su primer Masters 1000 bajo techo",
-						"Alcaraz reina en París y conquista su quinto título del año"
-					],
-					"sources": [
-						"El Mundo",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-bajo + titulo|2026-11-08T17:19:28.000Z|2|Alcaraz se venga de Shelton para levantar en París su primer Masters 1000 bajo techo"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T21:29:34.540Z"
-		},
 		"cluster-usa-nvidia-investigation-nvidia-investigation": {
 			"candidateId": "cluster-usa-nvidia + investigation",
 			"label": "nvidia + investigation",
@@ -2201,48 +2277,6 @@
 						"El Mundo"
 					],
 					"eventId": "cluster-spain-gobierno + golf|2026-11-09T00:18:12.000Z|2|El Gobierno vasco pagará 21 millones por el suelo del plan fallido para levantar un campo de golf y 546 chalés en Derio"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T01:19:45.981Z"
-		},
-		"cluster-spain-titulo-bajo-titulo-bajo": {
-			"candidateId": "cluster-spain-titulo + bajo",
-			"label": "titulo + bajo",
-			"latestAt": "2026-11-08T17:19:28.000Z",
-			"startedAt": "2026-11-08T14:03:41.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"titulo",
-				"bajo"
-			],
-			"sources": [
-				"El Mundo",
-				"El Correo"
-			],
-			"titles": [
-				"Alcaraz se venga de Shelton para levantar en París su primer Masters 1000 bajo techo",
-				"Alcaraz reina en París y conquista su quinto título del año"
-			],
-			"entityFirstSeenAt": "2026-11-09T01:19:45.981Z",
-			"entityLastCandidateAt": "2026-11-08T17:19:28.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T01:19:45.981Z",
-					"label": "titulo + bajo",
-					"latestAt": "2026-11-08T17:19:28.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Alcaraz se venga de Shelton para levantar en París su primer Masters 1000 bajo techo",
-						"Alcaraz reina en París y conquista su quinto título del año"
-					],
-					"sources": [
-						"El Mundo",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-titulo + bajo|2026-11-08T17:19:28.000Z|2|Alcaraz se venga de Shelton para levantar en París su primer Masters 1000 bajo techo"
 				}
 			],
 			"entityState": "active",
@@ -3054,48 +3088,6 @@
 						"PBS NewsHour"
 					],
 					"eventId": "cluster-usa-trump + more|2026-11-09T02:05:00.000Z|2|Trump prepares for a fight with Congress, assembling more combative White House"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T08:25:56.119Z"
-		},
-		"cluster-usa-more-killing-more-killing": {
-			"candidateId": "cluster-usa-more + killing",
-			"label": "more + killing",
-			"latestAt": "2026-11-08T19:00:36.000Z",
-			"startedAt": "2026-11-08T17:40:25.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"more",
-				"killing"
-			],
-			"sources": [
-				"CBS News",
-				"PBS NewsHour"
-			],
-			"titles": [
-				"Trains collide in Egypt, killing at least 7 and injuring more than 100",
-				"Collision between 2 trains in Egypt kills 7 and injures at least 125"
-			],
-			"entityFirstSeenAt": "2026-11-09T08:25:56.119Z",
-			"entityLastCandidateAt": "2026-11-08T19:00:36.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T08:25:56.119Z",
-					"label": "more + killing",
-					"latestAt": "2026-11-08T19:00:36.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Trains collide in Egypt, killing at least 7 and injuring more than 100",
-						"Collision between 2 trains in Egypt kills 7 and injures at least 125"
-					],
-					"sources": [
-						"CBS News",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-more + killing|2026-11-08T19:00:36.000Z|2|Trains collide in Egypt, killing at least 7 and injuring more than 100"
 				}
 			],
 			"entityState": "active",
@@ -4485,40 +4477,50 @@
 		"cluster-usa-nvidia-huang-nvidia-huang": {
 			"candidateId": "cluster-usa-nvidia + huang",
 			"label": "nvidia + huang",
-			"latestAt": "2026-11-12T15:30:04.000Z",
-			"startedAt": "2026-11-12T13:53:16.000Z",
-			"itemCount": 11,
-			"sourceCount": 8,
+			"latestAt": "2026-11-12T16:51:22.000Z",
+			"startedAt": "2026-11-12T10:41:57.000Z",
+			"itemCount": 7,
+			"sourceCount": 4,
 			"terms": [
 				"nvidia",
 				"huang"
 			],
 			"sources": [
 				"The New York Times",
+				"PBS NewsHour",
 				"CBS News",
-				"The Verge",
-				"NBC News",
-				"ABC News",
-				"NBC News Politics",
-				"NPR",
-				"PBS NewsHour"
+				"NBC News"
 			],
 			"titles": [
-				"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
-				"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-				"Nvidia CEO Jensen Huang has resigned. What happens next?",
-				"Nvidia stock falls after Huang resigns, weighing on broader market",
-				"Nvidia CEO Jensen Huang resigns amid alleged affair with suspected spy",
-				"Nvidia’s Jensen Huang Steps Down as CEO Amid Scandal",
-				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
-				"Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
-				"Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
-				"Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
-				"Nvidia CEO Jensen Huang resigns amid spy, affair scandals"
+				"What to Know About the Deadly Building Collapse in Brooklyn",
+				"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
+				"NYC building collapse: Death toll rises",
+				"Building Collapse in Brooklyn Leaves at Least 5 Dead",
+				"Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
+				"Singapore Says US Not Helpful on Investigation Into Alice Huang and Megaspeed",
+				"Megaspeed, chip firm at center of Nvidia scandal, pledges to cooperate with U.S. investigation"
 			],
 			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-12T15:30:04.000Z",
+			"entityLastCandidateAt": "2026-11-12T16:51:22.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T16:51:22.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
+						"NYC building collapse: Death toll rises"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
 				{
 					"observedAt": "2026-11-12T15:47:37.262Z",
 					"label": "nvidia + huang",
@@ -4575,7 +4577,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
 		"cluster-usa-russell-brand-russell-brand": {
 			"candidateId": "cluster-usa-russell + brand",
@@ -12893,7 +12895,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
 		"cluster-usa-future-jensen-future-jensen": {
 			"candidateId": "cluster-usa-future + jensen",
@@ -13438,6 +13440,48 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T15:47:00.508Z"
 		},
+		"cluster-spain-entre-cita-entre-cita": {
+			"candidateId": "cluster-spain-entre + cita",
+			"label": "entre + cita",
+			"latestAt": "2026-11-12T13:10:33.000Z",
+			"startedAt": "2026-11-12T12:20:42.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"entre",
+				"cita"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Alcaraz y Jódar, juntos pero no revueltos en la cita maestra de Turín",
+				"El sorteo de las ATP Finals evita un duelo inicial entre Alcaraz y Jódar"
+			],
+			"entityFirstSeenAt": "2026-11-12T15:47:00.508Z",
+			"entityLastCandidateAt": "2026-11-12T13:10:33.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T15:47:00.508Z",
+					"label": "entre + cita",
+					"latestAt": "2026-11-12T13:10:33.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Alcaraz y Jódar, juntos pero no revueltos en la cita maestra de Turín",
+						"El sorteo de las ATP Finals evita un duelo inicial entre Alcaraz y Jódar"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-entre + cita|2026-11-12T13:10:33.000Z|2|Alcaraz y Jódar, juntos pero no revueltos en la cita maestra de Turín"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+		},
 		"cluster-spain-general-bizkaia-general-bizkaia": {
 			"candidateId": "cluster-spain-general + bizkaia",
 			"label": "general + bizkaia",
@@ -13575,7 +13619,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
 		"cluster-usa-prostate-cancer-prostate-cancer": {
 			"candidateId": "cluster-usa-prostate + cancer",
@@ -13621,32 +13665,46 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
 		"cluster-usa-hospital-least-hospital-least": {
 			"candidateId": "cluster-usa-hospital + least",
 			"label": "hospital + least",
 			"latestAt": "2026-11-12T15:26:36.000Z",
 			"startedAt": "2026-11-12T09:26:44.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
+			"itemCount": 2,
+			"sourceCount": 2,
 			"terms": [
 				"hospital",
 				"least"
 			],
 			"sources": [
 				"CBS News",
-				"The New York Times World",
 				"NBC News"
 			],
 			"titles": [
 				"Israeli strike on Gaza hospital kills 6, health authorities say",
-				"Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Say",
 				"Israeli strike on Gaza hospital kills at least six people, officials say"
 			],
 			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
 			"entityLastCandidateAt": "2026-11-12T15:26:36.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "hospital + least",
+					"latestAt": "2026-11-12T15:26:36.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Israeli strike on Gaza hospital kills 6, health authorities say",
+						"Israeli strike on Gaza hospital kills at least six people, officials say"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-hospital + least|2026-11-12T15:26:36.000Z|2|Israeli strike on Gaza hospital kills 6, health authorities say"
+				},
 				{
 					"observedAt": "2026-11-12T15:47:37.262Z",
 					"label": "hospital + least",
@@ -13667,7 +13725,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
 		"cluster-usa-trump-talks-trump-talks": {
 			"candidateId": "cluster-usa-trump + talks",
@@ -13850,20 +13908,410 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
+		},
+		"cluster-spain-sanchez-detenido-sanchez-detenido": {
+			"candidateId": "cluster-spain-sanchez + detenido",
+			"label": "sanchez + detenido",
+			"latestAt": "2026-11-12T17:13:34.000Z",
+			"startedAt": "2026-11-12T16:09:30.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"sanchez",
+				"detenido"
+			],
+			"sources": [
+				"The Objective",
+				"El Debate",
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Corvillo mantuvo una reunión de «35 minutos» con Sánchez en Córdoba que fue «de lujo»",
+				"La UCO constata una reunión en 2023 de Sánchez y su exchófer aunque el presidente dijo que no tenían «nada que ver»",
+				"La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
+				"Quién es Cristinini, la streamer condecorada por Pedro Sánchez con la Gran Cruz de la Orden del Mérito Civil"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
+			"entityLastCandidateAt": "2026-11-12T17:13:34.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:08.947Z",
+					"label": "sanchez + detenido",
+					"latestAt": "2026-11-12T17:13:34.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Corvillo mantuvo una reunión de «35 minutos» con Sánchez en Córdoba que fue «de lujo»",
+						"La UCO constata una reunión en 2023 de Sánchez y su exchófer aunque el presidente dijo que no tenían «nada que ver»",
+						"La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer"
+					],
+					"sources": [
+						"The Objective",
+						"El Debate",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-sanchez + detenido|2026-11-12T17:13:34.000Z|4|Corvillo mantuvo una reunión de «35 minutos» con Sánchez en Córdoba que fue «de lujo»"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+		},
+		"cluster-spain-imputa-gobierno-imputa-gobierno": {
+			"candidateId": "cluster-spain-imputa + gobierno",
+			"label": "imputa + gobierno",
+			"latestAt": "2026-11-12T17:03:12.000Z",
+			"startedAt": "2026-11-12T12:30:09.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"imputa",
+				"gobierno"
+			],
+			"sources": [
+				"Heraldo de Aragón",
+				"El Mundo",
+				"El País",
+				"El Correo"
+			],
+			"titles": [
+				"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva de migrantes",
+				"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
+				"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva",
+				"La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
+			"entityLastCandidateAt": "2026-11-12T17:03:12.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:08.947Z",
+					"label": "imputa + gobierno",
+					"latestAt": "2026-11-12T17:03:12.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva de migrantes",
+						"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
+						"La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva"
+					],
+					"sources": [
+						"Heraldo de Aragón",
+						"El Mundo",
+						"El País"
+					],
+					"eventId": "cluster-spain-imputa + gobierno|2026-11-12T17:03:12.000Z|4|La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva de migrantes"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+		},
+		"cluster-spain-cuatro-australia-cuatro-australia": {
+			"candidateId": "cluster-spain-cuatro + australia",
+			"label": "cuatro + australia",
+			"latestAt": "2026-11-12T14:49:36.000Z",
+			"startedAt": "2026-11-12T11:55:50.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"cuatro",
+				"australia"
+			],
+			"sources": [
+				"El País",
+				"El Correo",
+				"El Diario Vasco",
+				"El Mundo"
+			],
+			"titles": [
+				"La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia",
+				"Hallan a un joven tras 6 días perdido sin comida y aguantando temperaturas de tres grados en un bosque de Australia",
+				"Elsa Pataky oyó ladrar a sus perros de madrugada y volvió a dormirse: las cámaras grabaron a cuatro encapuchados robando en su finca",
+				"Hallan con vida a un adolescente tras seis días perdido en una zona boscosa de Australia"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
+			"entityLastCandidateAt": "2026-11-12T14:49:36.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:08.947Z",
+					"label": "cuatro + australia",
+					"latestAt": "2026-11-12T14:49:36.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia",
+						"Hallan a un joven tras 6 días perdido sin comida y aguantando temperaturas de tres grados en un bosque de Australia",
+						"Elsa Pataky oyó ladrar a sus perros de madrugada y volvió a dormirse: las cámaras grabaron a cuatro encapuchados robando en su finca"
+					],
+					"sources": [
+						"El País",
+						"El Correo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-cuatro + australia|2026-11-12T14:49:36.000Z|4|La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+		},
+		"cluster-spain-detenido-gijon-detenido-gijon": {
+			"candidateId": "cluster-spain-detenido + gijon",
+			"label": "detenido + gijon",
+			"latestAt": "2026-11-12T17:04:15.000Z",
+			"startedAt": "2026-11-12T16:49:30.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"detenido",
+				"gijon"
+			],
+			"sources": [
+				"elDiario.es",
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Asesinada una mujer en Gijón y detenido su expareja como presunto autor de su muerte",
+				"Detenido un hombre en Gijón por matar a su expareja",
+				"Detenido un hombre en Gijón por matar a su ex pareja"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
+			"entityLastCandidateAt": "2026-11-12T17:04:15.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:08.947Z",
+					"label": "detenido + gijon",
+					"latestAt": "2026-11-12T17:04:15.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Asesinada una mujer en Gijón y detenido su expareja como presunto autor de su muerte",
+						"Detenido un hombre en Gijón por matar a su expareja",
+						"Detenido un hombre en Gijón por matar a su ex pareja"
+					],
+					"sources": [
+						"elDiario.es",
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-detenido + gijon|2026-11-12T17:04:15.000Z|3|Asesinada una mujer en Gijón y detenido su expareja como presunto autor de su muerte"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+		},
+		"cluster-spain-cuatro-menos-cuatro-menos": {
+			"candidateId": "cluster-spain-cuatro + menos",
+			"label": "cuatro + menos",
+			"latestAt": "2026-11-12T16:34:00.000Z",
+			"startedAt": "2026-11-12T13:59:33.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"cuatro",
+				"menos"
+			],
+			"sources": [
+				"El País",
+				"El Correo",
+				"El Mundo"
+			],
+			"titles": [
+				"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos",
+				"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
+				"Un muerto y cuatro heridos por los disparos de un tirador, hallado después sin vida, en un barrio próximo a la Casa Blanca"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
+			"entityLastCandidateAt": "2026-11-12T16:34:00.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:08.947Z",
+					"label": "cuatro + menos",
+					"latestAt": "2026-11-12T16:34:00.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos",
+						"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
+						"Un muerto y cuatro heridos por los disparos de un tirador, hallado después sin vida, en un barrio próximo a la Casa Blanca"
+					],
+					"sources": [
+						"El País",
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-cuatro + menos|2026-11-12T16:34:00.000Z|3|Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
+		},
+		"cluster-usa-nvidia-trump-nvidia-trump": {
+			"candidateId": "cluster-usa-nvidia + trump",
+			"label": "nvidia + trump",
+			"latestAt": "2026-11-12T17:06:46.000Z",
+			"startedAt": "2026-11-12T01:57:34.000Z",
+			"itemCount": 17,
+			"sourceCount": 7,
+			"terms": [
+				"nvidia",
+				"trump"
+			],
+			"sources": [
+				"CBS News",
+				"The Guardian US",
+				"The New York Times",
+				"NBC News",
+				"TIME",
+				"NPR",
+				"PBS NewsHour"
+			],
+			"titles": [
+				"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+				"Jensen Huang resigns as Nvidia CEO after alleged affairs",
+				"Trump reacts after Nvidia CEO Jensen Huang resigns",
+				"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+				"Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
+				"Trump Wants Apple's Tim Cook to Replace Jensen Huang as NVIDIA CEO",
+				"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
+				"Nvidia stock falls after Huang resigns, weighing on broader market",
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
+				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+				"Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
+				"Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
+				"Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
+				"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+				"Nvidia Board Meets to Discuss CEO Jensen Huang’s Future",
+				"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
+				"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
+			"entityLastCandidateAt": "2026-11-12T17:06:46.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-12T17:06:46.000Z",
+					"itemCount": 17,
+					"sourceCount": 7,
+					"headlines": [
+						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+						"Jensen Huang resigns as Nvidia CEO after alleged affairs",
+						"Trump reacts after Nvidia CEO Jensen Huang resigns"
+					],
+					"sources": [
+						"CBS News",
+						"The Guardian US",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-12T17:06:46.000Z|17|Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
+		},
+		"cluster-usa-states-united-states-united": {
+			"candidateId": "cluster-usa-states + united",
+			"label": "states + united",
+			"latestAt": "2026-11-12T16:20:04.000Z",
+			"startedAt": "2026-11-12T03:10:32.000Z",
+			"itemCount": 5,
+			"sourceCount": 3,
+			"terms": [
+				"states",
+				"united"
+			],
+			"sources": [
+				"NPR",
+				"CBS News",
+				"The New York Times"
+			],
+			"titles": [
+				"The SS United States takes its final voyage to the bottom of the Gulf of Mexico",
+				"SS United States is sunk off the Florida coast to become largest artificial reef",
+				"Recalling the S.S. United States as It Becomes a Florida Reef",
+				"World's fastest ocean liner is sunk to break another record: largest artificial reef",
+				"The S.S. United States, a Historic Supership, Sinks to the Ocean Floor"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
+			"entityLastCandidateAt": "2026-11-12T16:20:04.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "states + united",
+					"latestAt": "2026-11-12T16:20:04.000Z",
+					"itemCount": 5,
+					"sourceCount": 3,
+					"headlines": [
+						"The SS United States takes its final voyage to the bottom of the Gulf of Mexico",
+						"SS United States is sunk off the Florida coast to become largest artificial reef",
+						"Recalling the S.S. United States as It Becomes a Florida Reef"
+					],
+					"sources": [
+						"NPR",
+						"CBS News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-states + united|2026-11-12T16:20:04.000Z|5|The SS United States takes its final voyage to the bottom of the Gulf of Mexico"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
+		},
+		"cluster-usa-shooting-logan-shooting-logan": {
+			"candidateId": "cluster-usa-shooting + logan",
+			"label": "shooting + logan",
+			"latestAt": "2026-11-12T17:15:35.000Z",
+			"startedAt": "2026-11-12T13:48:00.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"shooting",
+				"logan"
+			],
+			"sources": [
+				"The New York Times",
+				"CBS News"
+			],
+			"titles": [
+				"5 Shot in Washington D.C.’s Logan Circle Neighborhood",
+				"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
+			"entityLastCandidateAt": "2026-11-12T17:15:35.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "shooting + logan",
+					"latestAt": "2026-11-12T17:15:35.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"5 Shot in Washington D.C.’s Logan Circle Neighborhood",
+						"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-shooting + logan|2026-11-12T17:15:35.000Z|2|5 Shot in Washington D.C.’s Logan Circle Neighborhood"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		}
 	},
 	"latestRun": {
-		"id": "43268012941-es",
+		"id": "local-es-2026-11-12T19:03:55.334Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-12T17:19:08.947Z",
-		"finishedAt": "2026-11-12T17:19:50.015Z",
-		"signalsCandidate": 8,
-		"signalsSelected": 8,
+		"startedAt": "2026-11-12T19:03:55.334Z",
+		"finishedAt": "2026-11-12T19:06:41.083Z",
+		"signalsCandidate": 11,
+		"signalsSelected": 11,
 		"signalsProcessed": 0,
-		"cacheHits": 1,
-		"skippedByConfig": 8,
+		"cacheHits": 2,
+		"skippedByConfig": 11,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -13873,12 +14321,12 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 1,
+			"cacheHits": 2,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 270,
-			"retainedByTtl": 262,
-			"retiredByTtl": 7
+			"retained": 279,
+			"retainedByTtl": 268,
+			"retiredByTtl": 1
 		},
 		"costUsd": 0
 	}
