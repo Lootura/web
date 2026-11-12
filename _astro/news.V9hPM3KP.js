@@ -1,0 +1,1 @@
+var e=`lootura.com`;function t(t=``){if(!t)return``;try{let n=new URL(t);return![`http:`,`https:`].includes(n.protocol)||n.username||n.password?``:(n.searchParams.set(`ref`,e),n.searchParams.set(`utm_source`,e),n.toString())}catch{return``}}export{t};
