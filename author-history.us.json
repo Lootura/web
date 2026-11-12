@@ -1,10 +1,16 @@
 {
-	"updatedAt": "2026-11-12T19:25:49.967Z",
+	"updatedAt": "2026-11-12T20:00:49.000Z",
 	"feedProfile": "us",
 	"retentionDays": 90,
 	"totalAuthors": 80,
 	"totalBylinedItems": 507,
 	"runs": [
+		{
+			"at": "2026-11-12T20:00:49.000Z",
+			"itemCount": 120,
+			"bylinedItemCount": 78,
+			"authorCount": 80
+		},
 		{
 			"at": "2026-11-12T19:25:49.967Z",
 			"itemCount": 120,
@@ -178,12 +184,6 @@
 			"itemCount": 120,
 			"bylinedItemCount": 100,
 			"authorCount": 80
-		},
-		{
-			"at": "2026-11-08T10:52:26.574Z",
-			"itemCount": 120,
-			"bylinedItemCount": 102,
-			"authorCount": 80
 		}
 	],
 	"authors": [
@@ -196,7 +196,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 1145,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-05-20T09:38:05.000Z",
 			"latestAt": "2026-11-12T19:02:18.000Z",
 			"daysActive": 177,
@@ -5059,7 +5059,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 122,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-10-29T16:31:52.000Z",
 			"latestAt": "2026-11-12T19:12:20.000Z",
 			"daysActive": 15,
@@ -5947,9 +5947,9 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 110,
-			"confidence": "low",
+			"confidence": "medium",
 			"firstSeenAt": "2026-11-10T02:13:11.000Z",
-			"latestAt": "2026-11-12T18:51:48.000Z",
+			"latestAt": "2026-11-12T19:38:36.000Z",
 			"daysActive": 3,
 			"categories": [
 				"politics"
@@ -5963,7 +5963,7 @@
 					"title": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
 					"source": "The New York Times Politics",
 					"href": "https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T18:51:48.000Z",
+					"publishedAt": "2026-11-12T19:38:36.000Z",
 					"category": "politics",
 					"weight": 4
 				},
@@ -5992,7 +5992,7 @@
 					"title": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
 					"source": "The New York Times Politics",
 					"href": "https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T18:51:48.000Z",
+					"publishedAt": "2026-11-12T19:38:36.000Z",
 					"category": "politics",
 					"weight": 4
 				},
@@ -8006,7 +8006,7 @@
 			"score": 79,
 			"confidence": "medium",
 			"firstSeenAt": "2026-11-12T14:00:10.000Z",
-			"latestAt": "2026-11-12T19:05:41.000Z",
+			"latestAt": "2026-11-12T19:38:50.000Z",
 			"daysActive": 1,
 			"categories": [
 				"general"
@@ -8020,7 +8020,7 @@
 					"title": "What to Know About the Deadly Building Collapse in Brooklyn",
 					"source": "The New York Times",
 					"href": "https://www.nytimes.com/2026/11/12/nyregion/building-collapse-brooklyn-deaths-flatbush-nyc.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T19:05:41.000Z",
+					"publishedAt": "2026-11-12T19:38:50.000Z",
 					"category": "general",
 					"weight": 5
 				},
@@ -8040,7 +8040,7 @@
 					"title": "What to Know About the Deadly Building Collapse in Brooklyn",
 					"source": "The New York Times",
 					"href": "https://www.nytimes.com/2026/11/12/nyregion/building-collapse-brooklyn-deaths-flatbush-nyc.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T19:05:41.000Z",
+					"publishedAt": "2026-11-12T19:38:50.000Z",
 					"category": "general",
 					"weight": 5
 				},
@@ -8050,6 +8050,66 @@
 					"source": "The New York Times",
 					"href": "https://www.nytimes.com/2026/11/12/nyregion/brooklyn-building-collapse-excavation-work.html?utm_source=lootura.com&ref=lootura.com",
 					"publishedAt": "2026-11-12T16:09:11.000Z",
+					"category": "general",
+					"weight": 5
+				}
+			]
+		},
+		{
+			"id": "the new york times::james fallows",
+			"name": "James Fallows",
+			"source": "The New York Times",
+			"profileUrl": "",
+			"itemCount": 2,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 79,
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-12T10:01:45.000Z",
+			"latestAt": "2026-11-12T19:31:08.000Z",
+			"daysActive": 1,
+			"categories": [
+				"general"
+			],
+			"sources": [
+				"The New York Times"
+			],
+			"examples": [
+				{
+					"key": "https://www.nytimes.com/2026/11/12/magazine/safety-air-travel-takeaways.html?ref=lootura.com",
+					"title": "Takeaways From the Times’s Report on Aviation Safety",
+					"source": "The New York Times",
+					"href": "https://www.nytimes.com/2026/11/12/magazine/safety-air-travel-takeaways.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T19:31:08.000Z",
+					"category": "general",
+					"weight": 5
+				},
+				{
+					"key": "https://www.nytimes.com/2026/11/12/magazine/air-travel-safety-faa-aviation.html?ref=lootura.com",
+					"title": "Is Air Travel Getting Less Safe?",
+					"source": "The New York Times",
+					"href": "https://www.nytimes.com/2026/11/12/magazine/air-travel-safety-faa-aviation.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T10:01:45.000Z",
+					"category": "general",
+					"weight": 5
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.nytimes.com/2026/11/12/magazine/safety-air-travel-takeaways.html?ref=lootura.com",
+					"title": "Takeaways From the Times’s Report on Aviation Safety",
+					"source": "The New York Times",
+					"href": "https://www.nytimes.com/2026/11/12/magazine/safety-air-travel-takeaways.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T19:31:08.000Z",
+					"category": "general",
+					"weight": 5
+				},
+				{
+					"key": "https://www.nytimes.com/2026/11/12/magazine/air-travel-safety-faa-aviation.html?ref=lootura.com",
+					"title": "Is Air Travel Getting Less Safe?",
+					"source": "The New York Times",
+					"href": "https://www.nytimes.com/2026/11/12/magazine/air-travel-safety-faa-aviation.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T10:01:45.000Z",
 					"category": "general",
 					"weight": 5
 				}
@@ -8596,121 +8656,61 @@
 			]
 		},
 		{
-			"id": "npr politics::elise catrion gregg",
-			"name": "Elise Catrion Gregg",
-			"source": "NPR Politics",
+			"id": "nbc news::zoe malin",
+			"name": "Zoe Malin",
+			"source": "NBC News",
 			"profileUrl": "",
 			"itemCount": 2,
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 72,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-12T09:32:33.000Z",
-			"latestAt": "2026-11-12T10:00:00.000Z",
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-12T19:05:40.000Z",
+			"latestAt": "2026-11-12T19:30:00.000Z",
 			"daysActive": 1,
 			"categories": [
-				"politics"
+				"general"
 			],
 			"sources": [
-				"NPR Politics"
+				"NBC News"
 			],
 			"examples": [
 				{
-					"key": "https://www.npr.org/2026/11/12/nx-s1-6037438/scott-colom-defied-the-odds-mississippi-democratic-senator?ref=lootura.com",
-					"title": "How Scott Colom defied the odds to go from district attorney to Mississippi's Democratic US Senator",
-					"source": "NPR Politics",
-					"href": "https://www.npr.org/2026/11/12/nx-s1-6037438/scott-colom-defied-the-odds-mississippi-democratic-senator?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T10:00:00.000Z",
-					"category": "politics",
+					"key": "https://www.nbcnews.com/select/shopping/best-practical-gifts-rcna609014?ref=lootura.com",
+					"title": "21+ practical gifts that are too useful to get re-gifted: toilet paper, fancy salt, stress balls and more",
+					"source": "NBC News",
+					"href": "https://www.nbcnews.com/select/shopping/best-practical-gifts-rcna609014?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T19:30:00.000Z",
+					"category": "general",
 					"weight": 4
 				},
 				{
-					"key": "https://www.npr.org/2026/11/12/nx-s1-6037853/democrat-scott-colom-wins-mississippi-senate-race?ref=lootura.com",
-					"title": "Democrat Scott Colom wins Mississippi Senate race",
-					"source": "NPR Politics",
-					"href": "https://www.npr.org/2026/11/12/nx-s1-6037853/democrat-scott-colom-wins-mississippi-senate-race?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T09:32:33.000Z",
-					"category": "politics",
+					"key": "https://www.nbcnews.com/select/shopping/best-hanukkah-gifts-rcna608970?ref=lootura.com",
+					"title": "The 23+ best Hanukkah gifts for kids and adults — plus, everything else you need for a celebration",
+					"source": "NBC News",
+					"href": "https://www.nbcnews.com/select/shopping/best-hanukkah-gifts-rcna608970?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T19:05:40.000Z",
+					"category": "general",
 					"weight": 4
 				}
 			],
 			"items": [
 				{
-					"key": "https://www.npr.org/2026/11/12/nx-s1-6037438/scott-colom-defied-the-odds-mississippi-democratic-senator?ref=lootura.com",
-					"title": "How Scott Colom defied the odds to go from district attorney to Mississippi's Democratic US Senator",
-					"source": "NPR Politics",
-					"href": "https://www.npr.org/2026/11/12/nx-s1-6037438/scott-colom-defied-the-odds-mississippi-democratic-senator?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T10:00:00.000Z",
-					"category": "politics",
+					"key": "https://www.nbcnews.com/select/shopping/best-practical-gifts-rcna609014?ref=lootura.com",
+					"title": "21+ practical gifts that are too useful to get re-gifted: toilet paper, fancy salt, stress balls and more",
+					"source": "NBC News",
+					"href": "https://www.nbcnews.com/select/shopping/best-practical-gifts-rcna609014?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T19:30:00.000Z",
+					"category": "general",
 					"weight": 4
 				},
 				{
-					"key": "https://www.npr.org/2026/11/12/nx-s1-6037853/democrat-scott-colom-wins-mississippi-senate-race?ref=lootura.com",
-					"title": "Democrat Scott Colom wins Mississippi Senate race",
-					"source": "NPR Politics",
-					"href": "https://www.npr.org/2026/11/12/nx-s1-6037853/democrat-scott-colom-wins-mississippi-senate-race?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T09:32:33.000Z",
-					"category": "politics",
-					"weight": 4
-				}
-			]
-		},
-		{
-			"id": "the new york times politics::charlie savage",
-			"name": "Charlie Savage",
-			"source": "The New York Times Politics",
-			"profileUrl": "",
-			"itemCount": 2,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 72,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-11T13:38:54.000Z",
-			"latestAt": "2026-11-11T18:08:28.000Z",
-			"daysActive": 1,
-			"categories": [
-				"politics"
-			],
-			"sources": [
-				"The New York Times Politics"
-			],
-			"examples": [
-				{
-					"key": "https://www.nytimes.com/2026/11/11/us/politics/trump-democrats-congress-oversight-committee.html?ref=lootura.com",
-					"title": "White House Threatens Congress, Saying Aggressive Investigations Could Be Crime",
-					"source": "The New York Times Politics",
-					"href": "https://www.nytimes.com/2026/11/11/us/politics/trump-democrats-congress-oversight-committee.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T18:08:28.000Z",
-					"category": "politics",
-					"weight": 4
-				},
-				{
-					"key": "https://www.nytimes.com/2026/11/10/us/politics/doj-linkedin-data-reporters-trump.html?ref=lootura.com",
-					"title": "Appeals Court Blocks Trump Administration Demand for Journalists’ LinkedIn Data",
-					"source": "The New York Times Politics",
-					"href": "https://www.nytimes.com/2026/11/10/us/politics/doj-linkedin-data-reporters-trump.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T13:38:54.000Z",
-					"category": "politics",
-					"weight": 4
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.nytimes.com/2026/11/11/us/politics/trump-democrats-congress-oversight-committee.html?ref=lootura.com",
-					"title": "White House Threatens Congress, Saying Aggressive Investigations Could Be Crime",
-					"source": "The New York Times Politics",
-					"href": "https://www.nytimes.com/2026/11/11/us/politics/trump-democrats-congress-oversight-committee.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T18:08:28.000Z",
-					"category": "politics",
-					"weight": 4
-				},
-				{
-					"key": "https://www.nytimes.com/2026/11/10/us/politics/doj-linkedin-data-reporters-trump.html?ref=lootura.com",
-					"title": "Appeals Court Blocks Trump Administration Demand for Journalists’ LinkedIn Data",
-					"source": "The New York Times Politics",
-					"href": "https://www.nytimes.com/2026/11/10/us/politics/doj-linkedin-data-reporters-trump.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T13:38:54.000Z",
-					"category": "politics",
+					"key": "https://www.nbcnews.com/select/shopping/best-hanukkah-gifts-rcna608970?ref=lootura.com",
+					"title": "The 23+ best Hanukkah gifts for kids and adults — plus, everything else you need for a celebration",
+					"source": "NBC News",
+					"href": "https://www.nbcnews.com/select/shopping/best-hanukkah-gifts-rcna608970?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T19:05:40.000Z",
+					"category": "general",
 					"weight": 4
 				}
 			]

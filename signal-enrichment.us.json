@@ -2,31 +2,30 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-12T19:25:49.967Z",
+	"updatedAt": "2026-11-12T20:00:49.000Z",
 	"entries": {
-		"cluster-usa-huang-jensen-huang-jensen": {
-			"candidateId": "cluster-usa-huang + jensen",
-			"label": "huang + jensen",
-			"latestAt": "2026-11-12T19:04:13.000Z",
+		"cluster-usa-nvidia-huang-nvidia-huang": {
+			"candidateId": "cluster-usa-nvidia + huang",
+			"label": "nvidia + huang",
+			"latestAt": "2026-11-12T19:44:29.000Z",
 			"startedAt": "2026-11-12T02:40:15.000Z",
-			"itemCount": 19,
-			"sourceCount": 6,
+			"itemCount": 16,
+			"sourceCount": 5,
 			"terms": [
-				"huang",
-				"jensen"
+				"nvidia",
+				"huang"
 			],
 			"sources": [
 				"CBS News",
 				"The New York Times",
 				"NBC News",
 				"PBS NewsHour",
-				"NPR",
-				"The Verge"
+				"NPR"
 			],
 			"titles": [
+				"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
 				"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
 				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
 				"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
 				"Trump reacts after Nvidia CEO Jensen Huang resigns",
 				"Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
@@ -39,59 +38,110 @@
 				"Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
 				"Nvidia CEO Jensen Huang resigns in wake of affair with woman suspected of spying for China",
 				"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
-				"Nvidia Board Meets to Discuss CEO Jensen Huang’s Future",
-				"Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
-				"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
-				"The Jensen Huang scandal is hardly over"
+				"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future"
 			],
-			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-12T19:04:13.000Z",
+			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
+			"entityLastCandidateAt": "2026-11-12T19:44:29.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T19:25:49.967Z",
-					"label": "huang + jensen",
-					"latestAt": "2026-11-12T19:04:13.000Z",
-					"itemCount": 19,
-					"sourceCount": 6,
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T19:44:29.000Z",
+					"itemCount": 16,
+					"sourceCount": 5,
 					"headlines": [
+						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
 						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
 					],
 					"sources": [
 						"CBS News",
 						"The New York Times",
 						"NBC News"
 					],
-					"eventId": "cluster-usa-huang + jensen|2026-11-12T19:04:13.000Z|19|Here's how Jensen Huang's abrupt resignation unfolded at Nvidia"
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T19:44:29.000Z|16|Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
 				},
 				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "huang + jensen",
-					"latestAt": "2026-11-12T19:04:13.000Z",
-					"itemCount": 20,
-					"sourceCount": 6,
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T16:51:22.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
 					"headlines": [
-						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
+						"NYC building collapse: Death toll rises"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T15:30:04.000Z",
+					"itemCount": 11,
+					"sourceCount": 8,
+					"headlines": [
+						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+						"Nvidia CEO Jensen Huang has resigned. What happens next?"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"The Verge"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
+				},
+				{
+					"observedAt": "2026-11-12T03:38:47.147Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T02:52:00.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
+						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
 					],
 					"sources": [
 						"CBS News",
 						"The New York Times",
 						"NBC News"
 					],
-					"eventId": "cluster-usa-huang + jensen|2026-11-12T19:04:13.000Z|20|Here's how Jensen Huang's abrupt resignation unfolded at Nvidia"
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
+				},
+				{
+					"observedAt": "2026-11-09T18:21:05.029Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-09T17:58:28.000Z",
+					"itemCount": 11,
+					"sourceCount": 6,
+					"headlines": [
+						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
+						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
+						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-usa-building-collapse-building-collapse": {
 			"candidateId": "cluster-usa-building + collapse",
 			"label": "building + collapse",
-			"latestAt": "2026-11-12T19:05:41.000Z",
-			"startedAt": "2026-11-12T12:26:34.000Z",
+			"latestAt": "2026-11-12T19:43:09.000Z",
+			"startedAt": "2026-11-12T15:32:54.000Z",
 			"itemCount": 7,
 			"sourceCount": 5,
 			"terms": [
@@ -106,17 +156,35 @@
 				"CBS News"
 			],
 			"titles": [
+				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
 				"What to Know About the Deadly Building Collapse in Brooklyn",
 				"Casualties continue to rise after Brooklyn building collapses",
 				"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says",
-				"Building Collapse in Brooklyn Leaves at Least 5 Dead",
 				"Mamdani says eight people ‘senselessly’ died in NYC building collapse",
 				"NYC building collapse: Death toll rises",
 				"2 children among the 8 dead in New York City building collapse, officials say"
 			],
 			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T19:05:41.000Z",
+			"entityLastCandidateAt": "2026-11-12T19:43:09.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T19:43:09.000Z",
+					"itemCount": 7,
+					"sourceCount": 5,
+					"headlines": [
+						"A Frantic Search for Survivors in the Brooklyn Building Collapse",
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Casualties continue to rise after Brooklyn building collapses"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T19:43:09.000Z|7|A Frantic Search for Survivors in the Brooklyn Building Collapse"
+				},
 				{
 					"observedAt": "2026-11-12T19:25:49.967Z",
 					"label": "building + collapse",
@@ -173,7 +241,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-usa-mississippi-senate-mississippi-senate": {
 			"candidateId": "cluster-usa-mississippi + senate",
@@ -274,7 +342,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
@@ -501,7 +569,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-usa-states-united-states-united": {
 			"candidateId": "cluster-usa-states + united",
@@ -549,49 +617,51 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
-		"cluster-usa-shooting-killed-shooting-killed": {
-			"candidateId": "cluster-usa-shooting + killed",
-			"label": "shooting + killed",
-			"latestAt": "2026-11-12T19:28:18.000Z",
-			"startedAt": "2026-11-12T16:12:53.000Z",
-			"itemCount": 2,
+		"cluster-usa-they-shooting-they-shooting": {
+			"candidateId": "cluster-usa-they + shooting",
+			"label": "they + shooting",
+			"latestAt": "2026-11-12T18:25:15.000Z",
+			"startedAt": "2026-11-12T13:48:00.000Z",
+			"itemCount": 3,
 			"sourceCount": 2,
 			"terms": [
-				"shooting",
-				"killed"
+				"they",
+				"shooting"
 			],
 			"sources": [
 				"CBS News",
 				"NPR Politics"
 			],
 			"titles": [
-				"1 killed, 4 injured in shooting in D.C.; suspect is dead",
-				"D.C. shooting leaves 1 person killed, 4 injured. Gunman dead"
+				"Witnesses describe moment when they heard gunshots at D.C. gym",
+				"Witnesses describe the D.C. shooting that left 1 dead, 4 injured",
+				"1 killed, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood; suspect is dead"
 			],
-			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
-			"entityLastCandidateAt": "2026-11-12T19:28:18.000Z",
+			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityLastCandidateAt": "2026-11-12T18:25:15.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T19:25:49.967Z",
-					"label": "shooting + killed",
-					"latestAt": "2026-11-12T19:28:18.000Z",
-					"itemCount": 2,
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "they + shooting",
+					"latestAt": "2026-11-12T18:25:15.000Z",
+					"itemCount": 3,
 					"sourceCount": 2,
 					"headlines": [
-						"1 killed, 4 injured in shooting in D.C.; suspect is dead",
-						"D.C. shooting leaves 1 person killed, 4 injured. Gunman dead"
+						"Witnesses describe moment when they heard gunshots at D.C. gym",
+						"Witnesses describe the D.C. shooting that left 1 dead, 4 injured",
+						"1 killed, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood; suspect is dead"
 					],
 					"sources": [
 						"CBS News",
 						"NPR Politics"
 					],
-					"eventId": "cluster-usa-shooting + killed|2026-11-12T19:28:18.000Z|2|1 killed, 4 injured in shooting in D.C.; suspect is dead"
+					"eventId": "cluster-usa-they + shooting|2026-11-12T18:25:15.000Z|3|Witnesses describe moment when they heard gunshots at D.C. gym"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-usa-hegseth-soldier-hegseth-soldier": {
 			"candidateId": "cluster-usa-hegseth + soldier",
@@ -633,7 +703,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-usa-shooting-here-shooting-here": {
 			"candidateId": "cluster-usa-shooting + here",
@@ -675,7 +745,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -1660,48 +1730,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-08T21:29:34.540Z"
-		},
-		"cluster-spain-norris-deja-norris-deja": {
-			"candidateId": "cluster-spain-norris + deja",
-			"label": "norris + deja",
-			"latestAt": "2026-11-08T19:49:47.000Z",
-			"startedAt": "2026-11-08T19:11:50.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"norris",
-				"deja"
-			],
-			"sources": [
-				"El País",
-				"El Mundo"
-			],
-			"titles": [
-				"Norris se pega un chapuzón y Verstappen se da un festín en Interlagos",
-				"Norris impone la cordura en Interlagos y Verstappen deja otra remontada para el recuerdo"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:29:34.540Z",
-			"entityLastCandidateAt": "2026-11-08T19:49:47.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:29:34.540Z",
-					"label": "norris + deja",
-					"latestAt": "2026-11-08T19:49:47.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Norris se pega un chapuzón y Verstappen se da un festín en Interlagos",
-						"Norris impone la cordura en Interlagos y Verstappen deja otra remontada para el recuerdo"
-					],
-					"sources": [
-						"El País",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-norris + deja|2026-11-08T19:49:47.000Z|2|Norris se pega un chapuzón y Verstappen se da un festín en Interlagos"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T01:19:45.981Z"
 		},
 		"cluster-usa-nvidia-investigation-nvidia-investigation": {
 			"candidateId": "cluster-usa-nvidia + investigation",
@@ -4326,111 +4354,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T18:20:36.924Z"
-		},
-		"cluster-usa-nvidia-huang-nvidia-huang": {
-			"candidateId": "cluster-usa-nvidia + huang",
-			"label": "nvidia + huang",
-			"latestAt": "2026-11-12T16:51:22.000Z",
-			"startedAt": "2026-11-12T10:41:57.000Z",
-			"itemCount": 7,
-			"sourceCount": 4,
-			"terms": [
-				"nvidia",
-				"huang"
-			],
-			"sources": [
-				"The New York Times",
-				"PBS NewsHour",
-				"CBS News",
-				"NBC News"
-			],
-			"titles": [
-				"What to Know About the Deadly Building Collapse in Brooklyn",
-				"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
-				"NYC building collapse: Death toll rises",
-				"Building Collapse in Brooklyn Leaves at Least 5 Dead",
-				"Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
-				"Singapore Says US Not Helpful on Investigation Into Alice Huang and Megaspeed",
-				"Megaspeed, chip firm at center of Nvidia scandal, pledges to cooperate with U.S. investigation"
-			],
-			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-12T16:51:22.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T16:51:22.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
-						"NYC building collapse: Death toll rises"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
-				},
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T15:30:04.000Z",
-					"itemCount": 11,
-					"sourceCount": 8,
-					"headlines": [
-						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
-						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-						"Nvidia CEO Jensen Huang has resigned. What happens next?"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"The Verge"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
-				},
-				{
-					"observedAt": "2026-11-12T03:38:47.147Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T02:52:00.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
-						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
-						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
-				},
-				{
-					"observedAt": "2026-11-09T18:21:05.029Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-09T17:58:28.000Z",
-					"itemCount": 11,
-					"sourceCount": 6,
-					"headlines": [
-						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
-						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
-						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
 		"cluster-usa-russell-brand-russell-brand": {
 			"candidateId": "cluster-usa-russell + brand",
@@ -14217,7 +14140,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-spain-nacional-imputa-nacional-imputa": {
 			"candidateId": "cluster-spain-nacional + imputa",
@@ -14269,8 +14192,8 @@
 			"candidateId": "cluster-spain-sanchez + koldo",
 			"label": "sanchez + koldo",
 			"latestAt": "2026-11-12T18:19:46.000Z",
-			"startedAt": "2026-11-12T16:09:30.000Z",
-			"itemCount": 3,
+			"startedAt": "2026-11-12T18:18:39.000Z",
+			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
 				"sanchez",
@@ -14281,13 +14204,28 @@
 				"El Correo"
 			],
 			"titles": [
-				"La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
-				"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
-				"Quién es Cristinini, la streamer condecorada por Pedro Sánchez con la Gran Cruz de la Orden del Mérito Civil"
+				"La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer",
+				"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'"
 			],
 			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
 			"entityLastCandidateAt": "2026-11-12T18:19:46.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "sanchez + koldo",
+					"latestAt": "2026-11-12T18:19:46.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer",
+						"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-sanchez + koldo|2026-11-12T18:19:46.000Z|2|La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer"
+				},
 				{
 					"observedAt": "2026-11-12T19:03:55.334Z",
 					"label": "sanchez + koldo",
@@ -14307,7 +14245,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-spain-contra-sexuales-contra-sexuales": {
 			"candidateId": "cluster-spain-contra + sexuales",
@@ -14391,7 +14329,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-spain-entre-general-entre-general": {
 			"candidateId": "cluster-spain-entre + general",
@@ -14472,6 +14410,89 @@
 						"El Mundo"
 					],
 					"eventId": "cluster-spain-detenido + hombre|2026-11-12T16:59:30.000Z|2|Detenido un hombre en Gijón por matar a su expareja"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-usa-huang-jensen-huang-jensen": {
+			"candidateId": "cluster-usa-huang + jensen",
+			"label": "huang + jensen",
+			"latestAt": "2026-11-12T19:04:13.000Z",
+			"startedAt": "2026-11-12T02:40:15.000Z",
+			"itemCount": 19,
+			"sourceCount": 6,
+			"terms": [
+				"huang",
+				"jensen"
+			],
+			"sources": [
+				"CBS News",
+				"The New York Times",
+				"NBC News",
+				"PBS NewsHour",
+				"NPR",
+				"The Verge"
+			],
+			"titles": [
+				"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+				"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
+				"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+				"Trump reacts after Nvidia CEO Jensen Huang resigns",
+				"Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
+				"Sharp swings for Nvidia and oil prices weigh on Wall Street",
+				"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
+				"Nvidia stock falls after Huang resigns, weighing on broader market",
+				"Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
+				"Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
+				"Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
+				"Nvidia CEO Jensen Huang resigns in wake of affair with woman suspected of spying for China",
+				"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+				"Nvidia Board Meets to Discuss CEO Jensen Huang’s Future",
+				"Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
+				"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
+				"The Jensen Huang scandal is hardly over"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T19:04:13.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-12T19:04:13.000Z",
+					"itemCount": 19,
+					"sourceCount": 6,
+					"headlines": [
+						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-12T19:04:13.000Z|19|Here's how Jensen Huang's abrupt resignation unfolded at Nvidia"
+				},
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-12T19:04:13.000Z",
+					"itemCount": 20,
+					"sourceCount": 6,
+					"headlines": [
+						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-12T19:04:13.000Z|20|Here's how Jensen Huang's abrupt resignation unfolded at Nvidia"
 				}
 			],
 			"entityState": "active",
@@ -14652,13 +14673,13 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-spain-primera-psoe-primera-psoe": {
 			"candidateId": "cluster-spain-primera + psoe",
 			"label": "primera + psoe",
-			"latestAt": "2026-11-12T19:17:07.000Z",
-			"startedAt": "2026-11-12T19:16:38.000Z",
+			"latestAt": "2026-11-12T19:16:38.000Z",
+			"startedAt": "2026-11-12T18:57:33.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
@@ -14666,16 +14687,32 @@
 				"psoe"
 			],
 			"sources": [
-				"El Correo",
-				"El Diario Vasco"
+				"El Diario Vasco",
+				"El Correo"
 			],
 			"titles": [
-				"Begoña Gómez interviene por primera vez en un mitin del PSOE",
-				"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»"
+				"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
+				"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»"
 			],
 			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
-			"entityLastCandidateAt": "2026-11-12T19:17:07.000Z",
+			"entityLastCandidateAt": "2026-11-12T19:16:38.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "primera + psoe",
+					"latestAt": "2026-11-12T19:16:38.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
+						"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-primera + psoe|2026-11-12T19:16:38.000Z|2|Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»"
+				},
 				{
 					"observedAt": "2026-11-12T19:25:49.967Z",
 					"label": "primera + psoe",
@@ -14694,7 +14731,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-spain-campana-mayoria-campana-mayoria": {
 			"candidateId": "cluster-spain-campana + mayoria",
@@ -14736,7 +14773,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-spain-contra-tres-contra-tres": {
 			"candidateId": "cluster-spain-contra + tres",
@@ -14778,7 +14815,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-spain-nvidia-quien-nvidia-quien": {
 			"candidateId": "cluster-spain-nvidia + quien",
@@ -14822,15 +14859,309 @@
 				}
 			],
 			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-usa-shooting-killed-shooting-killed": {
+			"candidateId": "cluster-usa-shooting + killed",
+			"label": "shooting + killed",
+			"latestAt": "2026-11-12T19:28:18.000Z",
+			"startedAt": "2026-11-12T16:12:53.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"shooting",
+				"killed"
+			],
+			"sources": [
+				"CBS News",
+				"NPR Politics"
+			],
+			"titles": [
+				"1 killed, 4 injured in shooting in D.C.; suspect is dead",
+				"D.C. shooting leaves 1 person killed, 4 injured. Gunman dead"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
+			"entityLastCandidateAt": "2026-11-12T19:28:18.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "shooting + killed",
+					"latestAt": "2026-11-12T19:28:18.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"1 killed, 4 injured in shooting in D.C.; suspect is dead",
+						"D.C. shooting leaves 1 person killed, 4 injured. Gunman dead"
+					],
+					"sources": [
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-shooting + killed|2026-11-12T19:28:18.000Z|2|1 killed, 4 injured in shooting in D.C.; suspect is dead"
+				}
+			],
+			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+		},
+		"cluster-spain-primer-rosalia-primer-rosalia": {
+			"candidateId": "cluster-spain-primer + rosalia",
+			"label": "primer + rosalia",
+			"latestAt": "2026-11-12T19:19:43.000Z",
+			"startedAt": "2026-11-12T14:50:31.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"primer",
+				"rosalia"
+			],
+			"sources": [
+				"El Correo",
+				"El País"
+			],
+			"titles": [
+				"Rosalía vuelve a la gran pantalla con su primer papel con peso y Javier Bardem como compañero de reparto",
+				"Rosalía escala en el cine: tendrá su primer papel con peso en ‘Wet’ junto a Javier Bardem y el protagonista de ‘Más que rivales’"
+			],
+			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityLastCandidateAt": "2026-11-12T19:19:43.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "primer + rosalia",
+					"latestAt": "2026-11-12T19:19:43.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Rosalía vuelve a la gran pantalla con su primer papel con peso y Javier Bardem como compañero de reparto",
+						"Rosalía escala en el cine: tendrá su primer papel con peso en ‘Wet’ junto a Javier Bardem y el protagonista de ‘Más que rivales’"
+					],
+					"sources": [
+						"El Correo",
+						"El País"
+					],
+					"eventId": "cluster-spain-primer + rosalia|2026-11-12T19:19:43.000Z|2|Rosalía vuelve a la gran pantalla con su primer papel con peso y Javier Bardem como compañero de reparto"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-spain-ciencia-origen-ciencia-origen": {
+			"candidateId": "cluster-spain-ciencia + origen",
+			"label": "ciencia + origen",
+			"latestAt": "2026-11-12T19:02:32.000Z",
+			"startedAt": "2026-11-12T19:00:00.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"ciencia",
+				"origen"
+			],
+			"sources": [
+				"El Correo",
+				"El Mundo"
+			],
+			"titles": [
+				"La ciencia no puede resolver el misterio del origen del hantavirus en el crucero",
+				"El enigma del crucero MV Hondius: la ciencia confirma la transmisión humana del hantavirus, pero busca el origen"
+			],
+			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityLastCandidateAt": "2026-11-12T19:02:32.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "ciencia + origen",
+					"latestAt": "2026-11-12T19:02:32.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"La ciencia no puede resolver el misterio del origen del hantavirus en el crucero",
+						"El enigma del crucero MV Hondius: la ciencia confirma la transmisión humana del hantavirus, pero busca el origen"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-ciencia + origen|2026-11-12T19:02:32.000Z|2|La ciencia no puede resolver el misterio del origen del hantavirus en el crucero"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-spain-cuatro-tiroteo-cuatro-tiroteo": {
+			"candidateId": "cluster-spain-cuatro + tiroteo",
+			"label": "cuatro + tiroteo",
+			"latestAt": "2026-11-12T18:22:05.000Z",
+			"startedAt": "2026-11-12T16:34:00.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"cuatro",
+				"tiroteo"
+			],
+			"sources": [
+				"El Correo",
+				"El País"
+			],
+			"titles": [
+				"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
+				"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos"
+			],
+			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityLastCandidateAt": "2026-11-12T18:22:05.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "cuatro + tiroteo",
+					"latestAt": "2026-11-12T18:22:05.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
+						"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos"
+					],
+					"sources": [
+						"El Correo",
+						"El País"
+					],
+					"eventId": "cluster-spain-cuatro + tiroteo|2026-11-12T18:22:05.000Z|2|Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-spain-entre-primer-entre-primer": {
+			"candidateId": "cluster-spain-entre + primer",
+			"label": "entre + primer",
+			"latestAt": "2026-11-12T17:35:24.000Z",
+			"startedAt": "2026-11-12T16:31:53.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"entre",
+				"primer"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
+				"Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\""
+			],
+			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityLastCandidateAt": "2026-11-12T17:35:24.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "entre + primer",
+					"latestAt": "2026-11-12T17:35:24.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
+						"Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\""
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-entre + primer|2026-11-12T17:35:24.000Z|2|Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-spain-sanchez-campana-sanchez-campana": {
+			"candidateId": "cluster-spain-sanchez + campana",
+			"label": "sanchez + campana",
+			"latestAt": "2026-11-12T17:02:52.000Z",
+			"startedAt": "2026-11-12T16:07:57.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"sanchez",
+				"campana"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
+				"Lula viaja a España para apoyar a Sánchez en su campaña electoral"
+			],
+			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityLastCandidateAt": "2026-11-12T17:02:52.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "sanchez + campana",
+					"latestAt": "2026-11-12T17:02:52.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
+						"Lula viaja a España para apoyar a Sánchez en su campaña electoral"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-sanchez + campana|2026-11-12T17:02:52.000Z|2|Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-spain-nacional-juez-nacional-juez": {
+			"candidateId": "cluster-spain-nacional + juez",
+			"label": "nacional + juez",
+			"latestAt": "2026-11-12T14:31:30.000Z",
+			"startedAt": "2026-11-12T12:30:09.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"nacional",
+				"juez"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
+				"La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto"
+			],
+			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityLastCandidateAt": "2026-11-12T14:31:30.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "nacional + juez",
+					"latestAt": "2026-11-12T14:31:30.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
+						"La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-nacional + juez|2026-11-12T14:31:30.000Z|2|La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-us-2026-11-12T19:25:49.967Z",
+		"id": "local-us-2026-11-12T20:00:49.000Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-12T19:25:49.967Z",
-		"finishedAt": "2026-11-12T19:31:07.082Z",
+		"startedAt": "2026-11-12T20:00:49.000Z",
+		"finishedAt": "2026-11-12T20:06:14.197Z",
 		"signalsCandidate": 8,
 		"signalsSelected": 8,
 		"signalsProcessed": 0,
@@ -14848,8 +15179,8 @@
 			"cacheHits": 7,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 288,
-			"retainedByTtl": 280,
+			"retained": 294,
+			"retainedByTtl": 286,
 			"retiredByTtl": 0
 		},
 		"costUsd": 0
