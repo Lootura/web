@@ -10,7 +10,7 @@ export function safePublication(value){
   ||!/^[a-f0-9]{40}$/.test(value.sourceCommit||'')||!timestamp(value.builtAt)
   ||!['es','us'].every(edition=>timestamp(value.news?.[edition])))return null;
  return {schemaVersion:1,id:value.id,sourceCommit:value.sourceCommit,builtAt:value.builtAt,
-  news:{es:value.news.es,us:value.news.us}};
+  news:{es:value.news.es,us:value.news.us},...(typeof value.snapshotId==='string'&&/^[\w.-]{1,120}$/.test(value.snapshotId)?{snapshotId:value.snapshotId}:{})};
 }
 
 export async function githubRequest(path,{token,method='GET',body,raw=false,allow404=false,fetchImpl=fetch}={}){

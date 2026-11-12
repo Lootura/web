@@ -104,7 +104,10 @@ export function scanStepStatusLabel(status,lang='es'){
 
 // A phase counter, not an estimate of elapsed work. Missing phases never become green.
 export function scanFlow(run, options = {}) {
-  const recorded = scanTimeline(run, options);
+  const timeline = scanTimeline(run, options);
+  const editionStart=timeline.findLastIndex(event=>event.phase==='es'||event.phase==='us');
+  // ES and US execute sequentially. A fresh US phase must not inherit ES's green steps.
+  const recorded=run?.state!=='completed'&&editionStart>=0?timeline.filter((event,index)=>event.phase==='starting'||index>=editionStart):timeline;
   const phases = ['starting', 'headlines', 'review', 'checking', 'selection', 'publishing', 'completed'];
   const terminal = run && run.state !== 'running';
   const current = phases.indexOf(run?.phase);
