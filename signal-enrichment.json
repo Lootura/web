@@ -2,18 +2,18 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-12T22:00:48.193Z",
+	"updatedAt": "2026-11-12T23:00:48.320Z",
 	"entries": {
-		"cluster-spain-begona-gomez-begona-gomez": {
-			"candidateId": "cluster-spain-begona + gomez",
-			"label": "begona + gomez",
+		"cluster-spain-primera-begona-primera-begona": {
+			"candidateId": "cluster-spain-primera + begona",
+			"label": "primera + begona",
 			"latestAt": "2026-11-12T20:44:45.000Z",
 			"startedAt": "2026-11-12T17:02:52.000Z",
 			"itemCount": 7,
 			"sourceCount": 4,
 			"terms": [
-				"begona",
-				"gomez"
+				"primera",
+				"begona"
 			],
 			"sources": [
 				"El País",
@@ -30,12 +30,12 @@
 				"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
 				"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
 			],
-			"entityFirstSeenAt": "2026-11-12T22:00:48.193Z",
+			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
 			"entityLastCandidateAt": "2026-11-12T20:44:45.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T22:00:48.193Z",
-					"label": "begona + gomez",
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "primera + begona",
 					"latestAt": "2026-11-12T20:44:45.000Z",
 					"itemCount": 7,
 					"sourceCount": 4,
@@ -49,11 +49,53 @@
 						"El Mundo",
 						"El Diario Vasco"
 					],
-					"eventId": "cluster-spain-begona + gomez|2026-11-12T20:44:45.000Z|7|Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres"
+					"eventId": "cluster-spain-primera + begona|2026-11-12T20:44:45.000Z|7|Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+		},
+		"cluster-spain-real-estrella-real-estrella": {
+			"candidateId": "cluster-spain-real + estrella",
+			"label": "real + estrella",
+			"latestAt": "2026-11-12T22:22:09.000Z",
+			"startedAt": "2026-11-12T21:58:36.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"real",
+				"estrella"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga",
+				"Procida pide paso en la paliza del Real Madrid al Estrella Roja de Ibon Navarro"
+			],
+			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
+			"entityLastCandidateAt": "2026-11-12T22:22:09.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "real + estrella",
+					"latestAt": "2026-11-12T22:22:09.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga",
+						"Procida pide paso en la paliza del Real Madrid al Estrella Roja de Ibon Navarro"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-real + estrella|2026-11-12T22:22:09.000Z|2|El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
 		"cluster-spain-nacional-nucleo-nacional-nucleo": {
 			"candidateId": "cluster-spain-nacional + nucleo",
@@ -99,7 +141,49 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+		},
+		"cluster-spain-contra-primera-contra-primera": {
+			"candidateId": "cluster-spain-contra + primera",
+			"label": "contra + primera",
+			"latestAt": "2026-11-12T21:54:43.000Z",
+			"startedAt": "2026-11-12T21:48:19.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"contra",
+				"primera"
+			],
+			"sources": [
+				"El Correo",
+				"El Mundo"
+			],
+			"titles": [
+				"España también gana cuando toca sufrir",
+				"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
+			],
+			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
+			"entityLastCandidateAt": "2026-11-12T21:54:43.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "contra + primera",
+					"latestAt": "2026-11-12T21:54:43.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"España también gana cuando toca sufrir",
+						"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-contra + primera|2026-11-12T21:54:43.000Z|2|España también gana cuando toca sufrir"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
 		"cluster-spain-psoe-campana-psoe-campana": {
 			"candidateId": "cluster-spain-psoe + campana",
@@ -141,7 +225,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
 		"cluster-spain-pero-ciencia-pero-ciencia": {
 			"candidateId": "cluster-spain-pero + ciencia",
@@ -183,7 +267,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
 		"cluster-spain-contra-papa-contra-papa": {
 			"candidateId": "cluster-spain-contra + papa",
@@ -225,49 +309,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
-		},
-		"cluster-spain-cuatro-tiroteo-cuatro-tiroteo": {
-			"candidateId": "cluster-spain-cuatro + tiroteo",
-			"label": "cuatro + tiroteo",
-			"latestAt": "2026-11-12T18:22:05.000Z",
-			"startedAt": "2026-11-12T16:34:00.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"cuatro",
-				"tiroteo"
-			],
-			"sources": [
-				"El Correo",
-				"El País"
-			],
-			"titles": [
-				"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
-				"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos"
-			],
-			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
-			"entityLastCandidateAt": "2026-11-12T18:22:05.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "cuatro + tiroteo",
-					"latestAt": "2026-11-12T18:22:05.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
-						"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos"
-					],
-					"sources": [
-						"El Correo",
-						"El País"
-					],
-					"eventId": "cluster-spain-cuatro + tiroteo|2026-11-12T18:22:05.000Z|2|Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
 		"cluster-spain-gana-etxepare-gana-etxepare": {
 			"candidateId": "cluster-spain-gana + etxepare",
@@ -309,49 +351,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
-		},
-		"cluster-spain-entre-general-entre-general": {
-			"candidateId": "cluster-spain-entre + general",
-			"label": "entre + general",
-			"latestAt": "2026-11-12T17:35:24.000Z",
-			"startedAt": "2026-11-12T16:31:53.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"entre",
-				"general"
-			],
-			"sources": [
-				"El País",
-				"El Mundo"
-			],
-			"titles": [
-				"Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
-				"Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\""
-			],
-			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-12T17:35:24.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "entre + general",
-					"latestAt": "2026-11-12T17:35:24.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
-						"Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\""
-					],
-					"sources": [
-						"El País",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-entre + general|2026-11-12T17:35:24.000Z|2|Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
 		"cluster-spain-detenido-hombre-detenido-hombre": {
 			"candidateId": "cluster-spain-detenido + hombre",
@@ -393,7 +393,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -805,7 +805,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
+			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
 		},
 		"cluster-usa-trump-house-trump-house": {
 			"candidateId": "cluster-usa-trump + house",
@@ -1356,50 +1356,6 @@
 						"El Correo"
 					],
 					"eventId": "cluster-spain-trump + america|2026-11-09T00:57:41.000Z|2|Los demócratas le roban a Trump el populismo económico del 'América primero'"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T01:19:45.981Z"
-		},
-		"cluster-spain-ante-vivo-ante-vivo": {
-			"candidateId": "cluster-spain-ante + vivo",
-			"label": "ante + vivo",
-			"latestAt": "2026-11-08T22:27:28.000Z",
-			"startedAt": "2026-11-08T19:16:20.000Z",
-			"itemCount": 3,
-			"sourceCount": 2,
-			"terms": [
-				"ante",
-				"vivo"
-			],
-			"sources": [
-				"El País",
-				"El Correo"
-			],
-			"titles": [
-				"El líder del Metropolitano fue Fermín para la remontada del Barça ante el Atlético",
-				"Fermín aprovecha una genialidad de Lamine para adelantar al Barça",
-				"Atlético de Madrid - Barcelona en directo, La Liga en vivo | El Barça remonta el gol de Giuliano con un doblete de Fermín"
-			],
-			"entityFirstSeenAt": "2026-11-09T01:19:45.981Z",
-			"entityLastCandidateAt": "2026-11-08T22:27:28.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T01:19:45.981Z",
-					"label": "ante + vivo",
-					"latestAt": "2026-11-08T22:27:28.000Z",
-					"itemCount": 3,
-					"sourceCount": 2,
-					"headlines": [
-						"El líder del Metropolitano fue Fermín para la remontada del Barça ante el Atlético",
-						"Fermín aprovecha una genialidad de Lamine para adelantar al Barça",
-						"Atlético de Madrid - Barcelona en directo, La Liga en vivo | El Barça remonta el gol de Giuliano con un doblete de Fermín"
-					],
-					"sources": [
-						"El País",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-ante + vivo|2026-11-08T22:27:28.000Z|3|El líder del Metropolitano fue Fermín para la remontada del Barça ante el Atlético"
 				}
 			],
 			"entityState": "active",
@@ -3600,42 +3556,64 @@
 		"cluster-usa-nvidia-huang-nvidia-huang": {
 			"candidateId": "cluster-usa-nvidia + huang",
 			"label": "nvidia + huang",
-			"latestAt": "2026-11-12T19:44:29.000Z",
-			"startedAt": "2026-11-12T02:40:15.000Z",
-			"itemCount": 16,
-			"sourceCount": 5,
+			"latestAt": "2026-11-12T21:45:00.000Z",
+			"startedAt": "2026-11-12T11:00:15.000Z",
+			"itemCount": 18,
+			"sourceCount": 7,
 			"terms": [
 				"nvidia",
 				"huang"
 			],
 			"sources": [
+				"The Verge",
 				"CBS News",
+				"NBC News Politics",
 				"The New York Times",
 				"NBC News",
 				"PBS NewsHour",
 				"NPR"
 			],
 			"titles": [
-				"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
+				"‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation",
+				"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
+				"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmakers say",
+				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
+				"AG Todd Blanche asked about Jensen Huang, Nvidia",
+				"The rise and fall of former Nvidia CEO Jensen Huang",
+				"Jensen Huang's exit rocks Nvidia and creates openings for rivals",
 				"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
 				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+				"Who will succeed Jensen Huang as Nvidia's CEO? We asked Wall Street analysts.",
 				"Trump reacts after Nvidia CEO Jensen Huang resigns",
 				"Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
 				"Sharp swings for Nvidia and oil prices weigh on Wall Street",
-				"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
 				"Nvidia stock falls after Huang resigns, weighing on broader market",
 				"Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
 				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
-				"Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
-				"Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
-				"Nvidia CEO Jensen Huang resigns in wake of affair with woman suspected of spying for China",
-				"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
-				"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future"
+				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
 			],
 			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-12T19:44:29.000Z",
+			"entityLastCandidateAt": "2026-11-12T21:45:00.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T22:00:48.193Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T21:45:00.000Z",
+					"itemCount": 18,
+					"sourceCount": 7,
+					"headlines": [
+						"‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation",
+						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
+						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmakers say"
+					],
+					"sources": [
+						"The Verge",
+						"CBS News",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T21:45:00.000Z|18|‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation"
+				},
 				{
 					"observedAt": "2026-11-12T20:00:49.000Z",
 					"label": "nvidia + huang",
@@ -3728,7 +3706,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
 		},
 		"cluster-usa-russell-brand-russell-brand": {
 			"candidateId": "cluster-usa-russell + brand",
@@ -12764,7 +12742,7 @@
 		"cluster-usa-building-collapse-building-collapse": {
 			"candidateId": "cluster-usa-building + collapse",
 			"label": "building + collapse",
-			"latestAt": "2026-11-12T19:58:47.000Z",
+			"latestAt": "2026-11-12T21:45:05.000Z",
 			"startedAt": "2026-11-12T15:32:54.000Z",
 			"itemCount": 8,
 			"sourceCount": 5,
@@ -12773,16 +12751,16 @@
 				"collapse"
 			],
 			"sources": [
-				"NBC News",
 				"The New York Times",
+				"NBC News",
 				"NPR",
 				"PBS NewsHour",
 				"CBS News"
 			],
 			"titles": [
+				"What to Know About the Deadly Building Collapse in Brooklyn",
 				"Ring camera video shows the moment of Brooklyn building collapse",
 				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
-				"What to Know About the Deadly Building Collapse in Brooklyn",
 				"Casualties continue to rise after Brooklyn building collapses",
 				"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says",
 				"Mamdani says eight people ‘senselessly’ died in NYC building collapse",
@@ -12790,8 +12768,26 @@
 				"2 children among the 8 dead in New York City building collapse, officials say"
 			],
 			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T19:58:47.000Z",
+			"entityLastCandidateAt": "2026-11-12T21:45:05.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T22:00:48.193Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T21:45:05.000Z",
+					"itemCount": 8,
+					"sourceCount": 5,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Ring camera video shows the moment of Brooklyn building collapse",
+						"A Frantic Search for Survivors in the Brooklyn Building Collapse"
+					],
+					"sources": [
+						"The New York Times",
+						"NBC News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T21:45:05.000Z|8|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
 				{
 					"observedAt": "2026-11-12T21:00:48.034Z",
 					"label": "building + collapse",
@@ -12884,7 +12880,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
+			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
 		},
 		"cluster-usa-nvidia-affair-nvidia-affair": {
 			"candidateId": "cluster-usa-nvidia + affair",
@@ -13983,6 +13979,48 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
+		"cluster-spain-entre-general-entre-general": {
+			"candidateId": "cluster-spain-entre + general",
+			"label": "entre + general",
+			"latestAt": "2026-11-12T17:35:24.000Z",
+			"startedAt": "2026-11-12T16:31:53.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"entre",
+				"general"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
+				"Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\""
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T17:35:24.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "entre + general",
+					"latestAt": "2026-11-12T17:35:24.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
+						"Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\""
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-entre + general|2026-11-12T17:35:24.000Z|2|Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
+		},
 		"cluster-usa-huang-jensen-huang-jensen": {
 			"candidateId": "cluster-usa-huang + jensen",
 			"label": "huang + jensen",
@@ -14116,7 +14154,7 @@
 		"cluster-usa-hegseth-soldier-hegseth-soldier": {
 			"candidateId": "cluster-usa-hegseth + soldier",
 			"label": "hegseth + soldier",
-			"latestAt": "2026-11-12T20:15:28.865Z",
+			"latestAt": "2026-11-12T21:31:33.000Z",
 			"startedAt": "2026-11-12T18:35:44.000Z",
 			"itemCount": 3,
 			"sourceCount": 3,
@@ -14125,18 +14163,36 @@
 				"soldier"
 			],
 			"sources": [
-				"NBC News Politics",
+				"The New York Times Politics",
 				"CBS News",
 				"PBS NewsHour"
 			],
 			"titles": [
-				"Hegseth awards medal to soldier who reprimanded him at Arlington National Cemetery",
+				"Pete Hegseth, a Soldier’s Scolding and a Lesson at the Tomb of Unknowns",
 				"Hegseth awards medal to soldier who reprimanded group near tomb",
 				"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
 			],
 			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-12T20:15:28.865Z",
+			"entityLastCandidateAt": "2026-11-12T21:31:33.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T22:00:48.193Z",
+					"label": "hegseth + soldier",
+					"latestAt": "2026-11-12T21:31:33.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Pete Hegseth, a Soldier’s Scolding and a Lesson at the Tomb of Unknowns",
+						"Hegseth awards medal to soldier who reprimanded group near tomb",
+						"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-hegseth + soldier|2026-11-12T21:31:33.000Z|3|Pete Hegseth, a Soldier’s Scolding and a Lesson at the Tomb of Unknowns"
+				},
 				{
 					"observedAt": "2026-11-12T21:00:48.034Z",
 					"label": "hegseth + soldier",
@@ -14173,7 +14229,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
+			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
 		},
 		"cluster-usa-shooting-here-shooting-here": {
 			"candidateId": "cluster-usa-shooting + here",
@@ -14613,6 +14669,48 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
+		"cluster-spain-cuatro-tiroteo-cuatro-tiroteo": {
+			"candidateId": "cluster-spain-cuatro + tiroteo",
+			"label": "cuatro + tiroteo",
+			"latestAt": "2026-11-12T18:22:05.000Z",
+			"startedAt": "2026-11-12T16:34:00.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"cuatro",
+				"tiroteo"
+			],
+			"sources": [
+				"El Correo",
+				"El País"
+			],
+			"titles": [
+				"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
+				"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos"
+			],
+			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityLastCandidateAt": "2026-11-12T18:22:05.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "cuatro + tiroteo",
+					"latestAt": "2026-11-12T18:22:05.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos",
+						"Un tiroteo masivo en un gimnasio del centro de Washington deja un muerto y cuatro heridos"
+					],
+					"sources": [
+						"El Correo",
+						"El País"
+					],
+					"eventId": "cluster-spain-cuatro + tiroteo|2026-11-12T18:22:05.000Z|2|Un tiroteo en Washington deja al menos una persona muerta y cuatro heridos"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
+		},
 		"cluster-spain-entre-primer-entre-primer": {
 			"candidateId": "cluster-spain-entre + primer",
 			"label": "entre + primer",
@@ -14796,7 +14894,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
+			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
 		},
 		"cluster-spain-sanchez-begona-sanchez-begona": {
 			"candidateId": "cluster-spain-sanchez + begona",
@@ -14932,20 +15030,71 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
+			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
+		},
+		"cluster-spain-begona-gomez-begona-gomez": {
+			"candidateId": "cluster-spain-begona + gomez",
+			"label": "begona + gomez",
+			"latestAt": "2026-11-12T20:44:45.000Z",
+			"startedAt": "2026-11-12T17:02:52.000Z",
+			"itemCount": 7,
+			"sourceCount": 4,
+			"terms": [
+				"begona",
+				"gomez"
+			],
+			"sources": [
+				"El País",
+				"El Mundo",
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
+				"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
+				"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
+				"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»",
+				"La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer",
+				"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
+				"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
+			],
+			"entityFirstSeenAt": "2026-11-12T22:00:48.193Z",
+			"entityLastCandidateAt": "2026-11-12T20:44:45.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T22:00:48.193Z",
+					"label": "begona + gomez",
+					"latestAt": "2026-11-12T20:44:45.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
+						"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
+						"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-begona + gomez|2026-11-12T20:44:45.000Z|7|Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-es-2026-11-12T22:00:48.193Z",
+		"id": "local-es-2026-11-12T23:00:48.320Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-12T22:00:48.193Z",
-		"finishedAt": "2026-11-12T22:02:59.998Z",
+		"startedAt": "2026-11-12T23:00:48.320Z",
+		"finishedAt": "2026-11-12T23:02:40.551Z",
 		"signalsCandidate": 9,
-		"signalsSelected": 9,
+		"signalsSelected": 8,
 		"signalsProcessed": 0,
-		"cacheHits": 8,
-		"skippedByConfig": 9,
+		"cacheHits": 6,
+		"skippedByConfig": 8,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -14955,12 +15104,12 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 8,
+			"cacheHits": 6,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 287,
-			"retainedByTtl": 278,
-			"retiredByTtl": 9
+			"retained": 289,
+			"retainedByTtl": 280,
+			"retiredByTtl": 1
 		},
 		"costUsd": 0
 	}
