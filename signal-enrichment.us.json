@@ -2,18 +2,18 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-12T20:00:49.000Z",
+	"updatedAt": "2026-11-12T21:00:48.034Z",
 	"entries": {
-		"cluster-usa-nvidia-huang-nvidia-huang": {
-			"candidateId": "cluster-usa-nvidia + huang",
-			"label": "nvidia + huang",
-			"latestAt": "2026-11-12T19:44:29.000Z",
-			"startedAt": "2026-11-12T02:40:15.000Z",
-			"itemCount": 16,
+		"cluster-usa-trump-nvidia-trump-nvidia": {
+			"candidateId": "cluster-usa-trump + nvidia",
+			"label": "trump + nvidia",
+			"latestAt": "2026-11-12T20:38:00.000Z",
+			"startedAt": "2026-11-12T11:00:15.000Z",
+			"itemCount": 17,
 			"sourceCount": 5,
 			"terms": [
-				"nvidia",
-				"huang"
+				"trump",
+				"nvidia"
 			],
 			"sources": [
 				"CBS News",
@@ -23,6 +23,8 @@
 				"NPR"
 			],
 			"titles": [
+				"Jensen Huang's exit rocks Nvidia and creates openings for rivals",
+				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
 				"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
 				"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
 				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
@@ -37,125 +39,142 @@
 				"Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
 				"Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
 				"Nvidia CEO Jensen Huang resigns in wake of affair with woman suspected of spying for China",
-				"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
-				"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future"
+				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
 			],
-			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-12T19:44:29.000Z",
+			"entityFirstSeenAt": "2026-11-10T01:48:34.517Z",
+			"entityLastCandidateAt": "2026-11-12T20:38:00.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T19:44:29.000Z",
-					"itemCount": 16,
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "trump + nvidia",
+					"latestAt": "2026-11-12T20:38:00.000Z",
+					"itemCount": 17,
 					"sourceCount": 5,
 					"headlines": [
-						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
-						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
+						"Jensen Huang's exit rocks Nvidia and creates openings for rivals",
+						"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
+						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
 					],
 					"sources": [
 						"CBS News",
 						"The New York Times",
 						"NBC News"
 					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T19:44:29.000Z|16|Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+					"eventId": "cluster-usa-trump + nvidia|2026-11-12T20:38:00.000Z|17|Jensen Huang's exit rocks Nvidia and creates openings for rivals"
 				},
 				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T16:51:22.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
+					"observedAt": "2026-11-11T11:59:10.929Z",
+					"label": "trump + nvidia",
+					"latestAt": "2026-11-11T02:44:43.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
 					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
-						"NYC building collapse: Death toll rises"
+						"Nvidia board names pick for Huang investigation after affair with alleged Chinese spy",
+						"Nvidia shares plummet again amid CEO Jensen Huang's affair with alleged Chinese spy",
+						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
 					],
 					"sources": [
+						"CBS News",
 						"The New York Times",
-						"PBS NewsHour",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-trump + nvidia|2026-11-11T02:44:43.000Z|4|Nvidia board names pick for Huang investigation after affair with alleged Chinese spy"
+				},
+				{
+					"observedAt": "2026-11-11T06:20:58.838Z",
+					"label": "trump + nvidia",
+					"latestAt": "2026-11-11T02:44:43.000Z",
+					"itemCount": 9,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia board names pick for Huang investigation after affair with alleged Chinese spy",
+						"Nvidia shares plummet again amid CEO Jensen Huang's affair with alleged Chinese spy",
+						"Nvidia names outside council for investigation into CEO’s affair"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-trump + nvidia|2026-11-11T02:44:43.000Z|9|Nvidia board names pick for Huang investigation after affair with alleged Chinese spy"
+				},
+				{
+					"observedAt": "2026-11-11T01:29:59.725Z",
+					"label": "trump + nvidia",
+					"latestAt": "2026-11-11T01:02:52.000Z",
+					"itemCount": 9,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia's trillion-dollar bind: Can it afford to lose Jensen Huang?",
+						"Nvidia shares plummet again amid CEO Jensen Huang's affair with alleged Chinese spy",
+						"Nvidia names outside council for investigation into CEO’s affair"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-trump + nvidia|2026-11-11T01:02:52.000Z|9|Nvidia's trillion-dollar bind: Can it afford to lose Jensen Huang?"
+				},
+				{
+					"observedAt": "2026-11-10T13:32:37.686Z",
+					"label": "trump + nvidia",
+					"latestAt": "2026-11-10T02:13:11.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Nvidia CEO Jensen Huang Told Trump He Did Not Know Chinese Woman Was Suspected Spy",
+						"Trump says Jensen Huang told him he had \"no idea she was a spy\" amid Chinese intel allegations",
+						"Democrats Demand Answers on Trump’s A.I. Policy Amid Spy Plot"
+					],
+					"sources": [
+						"The New York Times Politics",
 						"CBS News"
 					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+					"eventId": "cluster-usa-trump + nvidia|2026-11-10T02:13:11.000Z|3|Nvidia CEO Jensen Huang Told Trump He Did Not Know Chinese Woman Was Suspected Spy"
 				},
 				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T15:30:04.000Z",
-					"itemCount": 11,
-					"sourceCount": 8,
-					"headlines": [
-						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
-						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-						"Nvidia CEO Jensen Huang has resigned. What happens next?"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"The Verge"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
-				},
-				{
-					"observedAt": "2026-11-12T03:38:47.147Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T02:52:00.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
-						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
-						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
-				},
-				{
-					"observedAt": "2026-11-09T18:21:05.029Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-09T17:58:28.000Z",
-					"itemCount": 11,
+					"observedAt": "2026-11-10T01:48:34.517Z",
+					"label": "trump + nvidia",
+					"latestAt": "2026-11-10T00:14:06.378Z",
+					"itemCount": 16,
 					"sourceCount": 6,
 					"headlines": [
-						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
-						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
-						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
+						"Trump defends Jensen Huang and Pete Hegseth at surprise news briefing with Dana White",
+						"Nvidia CEO Jensen Huang Told Trump He Did Not Know Chinese Woman Was Suspected Spy",
+						"Nvidia's Jensen Huang faces scrutiny over alleged affair with Chinese spy"
 					],
 					"sources": [
-						"The New York Times",
-						"CBS News",
-						"NBC News"
+						"NBC News Politics",
+						"The New York Times Politics",
+						"PBS NewsHour"
 					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
+					"eventId": "cluster-usa-trump + nvidia|2026-11-10T00:14:06.378Z|16|Trump defends Jensen Huang and Pete Hegseth at surprise news briefing with Dana White"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
 		"cluster-usa-building-collapse-building-collapse": {
 			"candidateId": "cluster-usa-building + collapse",
 			"label": "building + collapse",
-			"latestAt": "2026-11-12T19:43:09.000Z",
+			"latestAt": "2026-11-12T19:58:47.000Z",
 			"startedAt": "2026-11-12T15:32:54.000Z",
-			"itemCount": 7,
+			"itemCount": 8,
 			"sourceCount": 5,
 			"terms": [
 				"building",
 				"collapse"
 			],
 			"sources": [
+				"NBC News",
 				"The New York Times",
 				"NPR",
 				"PBS NewsHour",
-				"NBC News",
 				"CBS News"
 			],
 			"titles": [
+				"Ring camera video shows the moment of Brooklyn building collapse",
 				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
 				"What to Know About the Deadly Building Collapse in Brooklyn",
 				"Casualties continue to rise after Brooklyn building collapses",
@@ -165,8 +184,26 @@
 				"2 children among the 8 dead in New York City building collapse, officials say"
 			],
 			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T19:43:09.000Z",
+			"entityLastCandidateAt": "2026-11-12T19:58:47.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T19:58:47.000Z",
+					"itemCount": 8,
+					"sourceCount": 5,
+					"headlines": [
+						"Ring camera video shows the moment of Brooklyn building collapse",
+						"A Frantic Search for Survivors in the Brooklyn Building Collapse",
+						"What to Know About the Deadly Building Collapse in Brooklyn"
+					],
+					"sources": [
+						"NBC News",
+						"The New York Times",
+						"NPR"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T19:58:47.000Z|8|Ring camera video shows the moment of Brooklyn building collapse"
+				},
 				{
 					"observedAt": "2026-11-12T20:00:49.000Z",
 					"label": "building + collapse",
@@ -241,115 +278,76 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
-		"cluster-usa-mississippi-senate-mississippi-senate": {
-			"candidateId": "cluster-usa-mississippi + senate",
-			"label": "mississippi + senate",
-			"latestAt": "2026-11-12T18:16:50.000Z",
-			"startedAt": "2026-11-12T09:32:33.000Z",
-			"itemCount": 5,
-			"sourceCount": 4,
+		"cluster-usa-hegseth-soldier-hegseth-soldier": {
+			"candidateId": "cluster-usa-hegseth + soldier",
+			"label": "hegseth + soldier",
+			"latestAt": "2026-11-12T20:15:28.865Z",
+			"startedAt": "2026-11-12T18:35:44.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
 			"terms": [
-				"mississippi",
-				"senate"
+				"hegseth",
+				"soldier"
 			],
 			"sources": [
-				"The New York Times Politics",
+				"NBC News Politics",
 				"CBS News",
-				"NPR Politics",
-				"The New York Times"
+				"PBS NewsHour"
 			],
 			"titles": [
-				"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
-				"Mississippi goes blue after highly contested Senate battle",
-				"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi",
-				"Democrat Scott Colom wins Mississippi Senate race",
-				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
+				"Hegseth awards medal to soldier who reprimanded him at Arlington National Cemetery",
+				"Hegseth awards medal to soldier who reprimanded group near tomb",
+				"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
 			],
-			"entityFirstSeenAt": "2026-11-12T13:50:33.057Z",
-			"entityLastCandidateAt": "2026-11-12T18:16:50.000Z",
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T20:15:28.865Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T19:25:49.967Z",
-					"label": "mississippi + senate",
-					"latestAt": "2026-11-12T18:16:50.000Z",
-					"itemCount": 5,
-					"sourceCount": 4,
-					"headlines": [
-						"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
-						"Mississippi goes blue after highly contested Senate battle",
-						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-mississippi + senate|2026-11-12T18:16:50.000Z|5|How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter"
-				},
-				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "mississippi + senate",
-					"latestAt": "2026-11-12T18:16:50.000Z",
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "hegseth + soldier",
+					"latestAt": "2026-11-12T20:15:28.865Z",
 					"itemCount": 3,
 					"sourceCount": 3,
 					"headlines": [
-						"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
-						"Mississippi goes blue after highly contested Senate battle",
-						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
+						"Hegseth awards medal to soldier who reprimanded him at Arlington National Cemetery",
+						"Hegseth awards medal to soldier who reprimanded group near tomb",
+						"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
 					],
 					"sources": [
-						"The New York Times Politics",
+						"NBC News Politics",
 						"CBS News",
-						"NPR Politics"
+						"PBS NewsHour"
 					],
-					"eventId": "cluster-usa-mississippi + senate|2026-11-12T18:16:50.000Z|3|How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter"
+					"eventId": "cluster-usa-hegseth + soldier|2026-11-12T20:15:28.865Z|3|Hegseth awards medal to soldier who reprimanded him at Arlington National Cemetery"
 				},
 				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "mississippi + senate",
-					"latestAt": "2026-11-12T15:19:22.000Z",
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "hegseth + soldier",
+					"latestAt": "2026-11-12T18:49:29.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
 					"headlines": [
-						"Mississippi goes blue after highly contested Senate battle",
-						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
+						"Hegseth awards medal to soldier who reprimanded his party at Arlington's scared tomb",
+						"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
 					],
 					"sources": [
 						"CBS News",
-						"NPR Politics"
+						"PBS NewsHour"
 					],
-					"eventId": "cluster-usa-mississippi + senate|2026-11-12T15:19:22.000Z|2|Mississippi goes blue after highly contested Senate battle"
-				},
-				{
-					"observedAt": "2026-11-12T13:50:33.057Z",
-					"label": "mississippi + senate",
-					"latestAt": "2026-11-12T12:20:32.000Z",
-					"itemCount": 10,
-					"sourceCount": 6,
-					"headlines": [
-						"Democrat Scott Colom wins Mississippi Senate race in upset",
-						"Colom wins Mississippi Senate race. And, White House warns Dems over future probes",
-						"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
-					],
-					"sources": [
-						"CBS News",
-						"NPR World",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-mississippi + senate|2026-11-12T12:20:32.000Z|10|Democrat Scott Colom wins Mississippi Senate race in upset"
+					"eventId": "cluster-usa-hegseth + soldier|2026-11-12T18:49:29.000Z|2|Hegseth awards medal to soldier who reprimanded his party at Arlington's scared tomb"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
 			"label": "trump + democrats",
 			"latestAt": "2026-11-12T18:34:46.000Z",
-			"startedAt": "2026-11-12T09:18:04.000Z",
-			"itemCount": 6,
+			"startedAt": "2026-11-12T17:13:54.000Z",
+			"itemCount": 3,
 			"sourceCount": 3,
 			"terms": [
 				"trump",
@@ -363,14 +361,29 @@
 			"titles": [
 				"Democrats respond to warning over planned Trump probes: \"We're not going to be threatened\"",
 				"Democrats want to stop Trump's arch, golf course and more. What are their options?",
-				"Democrats Put Targets on Notice as Trump Oversight Takes Shape",
-				"Incoming House Oversight Committee chair Robert Garcia reacts to White House warning",
-				"White House warns Trump probes could be criminal. Rep. Robert Garcia won't back down",
-				"White House warns Democrats over future probes, citing possible 'criminality'"
+				"Democrats Put Targets on Notice as Trump Oversight Takes Shape"
 			],
 			"entityFirstSeenAt": "2026-11-04T23:00:23.472Z",
 			"entityLastCandidateAt": "2026-11-12T18:34:46.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "trump + democrats",
+					"latestAt": "2026-11-12T18:34:46.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Democrats respond to warning over planned Trump probes: \"We're not going to be threatened\"",
+						"Democrats want to stop Trump's arch, golf course and more. What are their options?",
+						"Democrats Put Targets on Notice as Trump Oversight Takes Shape"
+					],
+					"sources": [
+						"CBS News",
+						"NPR Politics",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-trump + democrats|2026-11-12T18:34:46.000Z|3|Democrats respond to warning over planned Trump probes: \"We're not going to be threatened\""
+				},
 				{
 					"observedAt": "2026-11-12T19:03:55.334Z",
 					"label": "trump + democrats",
@@ -569,62 +582,120 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
-		"cluster-usa-states-united-states-united": {
-			"candidateId": "cluster-usa-states + united",
-			"label": "states + united",
-			"latestAt": "2026-11-12T16:20:04.000Z",
-			"startedAt": "2026-11-12T03:10:32.000Z",
-			"itemCount": 5,
+		"cluster-usa-senate-mississippi-senate-mississippi": {
+			"candidateId": "cluster-usa-senate + mississippi",
+			"label": "senate + mississippi",
+			"latestAt": "2026-11-12T18:16:50.000Z",
+			"startedAt": "2026-11-12T14:14:44.000Z",
+			"itemCount": 3,
 			"sourceCount": 3,
 			"terms": [
-				"states",
-				"united"
+				"senate",
+				"mississippi"
 			],
 			"sources": [
-				"NPR",
+				"The New York Times Politics",
 				"CBS News",
 				"The New York Times"
 			],
 			"titles": [
-				"The SS United States takes its final voyage to the bottom of the Gulf of Mexico",
-				"SS United States is sunk off the Florida coast to become largest artificial reef",
-				"Recalling the S.S. United States as It Becomes a Florida Reef",
-				"World's fastest ocean liner is sunk to break another record: largest artificial reef",
-				"The S.S. United States, a Historic Supership, Sinks to the Ocean Floor"
+				"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
+				"Mississippi goes blue after highly contested Senate battle",
+				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
 			],
-			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
-			"entityLastCandidateAt": "2026-11-12T16:20:04.000Z",
+			"entityFirstSeenAt": "2026-11-12T03:38:47.147Z",
+			"entityLastCandidateAt": "2026-11-12T18:16:50.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "states + united",
-					"latestAt": "2026-11-12T16:20:04.000Z",
-					"itemCount": 5,
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "senate + mississippi",
+					"latestAt": "2026-11-12T18:16:50.000Z",
+					"itemCount": 3,
 					"sourceCount": 3,
 					"headlines": [
-						"The SS United States takes its final voyage to the bottom of the Gulf of Mexico",
-						"SS United States is sunk off the Florida coast to become largest artificial reef",
-						"Recalling the S.S. United States as It Becomes a Florida Reef"
+						"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
+						"Mississippi goes blue after highly contested Senate battle",
+						"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
 					],
 					"sources": [
-						"NPR",
+						"The New York Times Politics",
 						"CBS News",
 						"The New York Times"
 					],
-					"eventId": "cluster-usa-states + united|2026-11-12T16:20:04.000Z|5|The SS United States takes its final voyage to the bottom of the Gulf of Mexico"
+					"eventId": "cluster-usa-senate + mississippi|2026-11-12T18:16:50.000Z|3|How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter"
+				},
+				{
+					"observedAt": "2026-11-12T03:38:47.147Z",
+					"label": "senate + mississippi",
+					"latestAt": "2026-11-12T00:52:07.000Z",
+					"itemCount": 6,
+					"sourceCount": 6,
+					"headlines": [
+						"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
+						"Democrat wins Mississippi Senate race",
+						"Democrat Scott Colom wins the closest Senate race in the country"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"NBC News Politics",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-senate + mississippi|2026-11-12T00:52:07.000Z|6|How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
+		},
+		"cluster-usa-here-shooting-here-shooting": {
+			"candidateId": "cluster-usa-here + shooting",
+			"label": "here + shooting",
+			"latestAt": "2026-11-12T18:36:02.000Z",
+			"startedAt": "2026-11-12T16:36:49.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"here",
+				"shooting"
+			],
+			"sources": [
+				"CBS News",
+				"NBC News"
+			],
+			"titles": [
+				"Witness describes deadly D.C. shooting: \"Alright, let's get out of here\"",
+				"'There was no way of getting out': Witness describes gym shooting scene"
+			],
+			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
+			"entityLastCandidateAt": "2026-11-12T18:36:02.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "here + shooting",
+					"latestAt": "2026-11-12T18:36:02.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Witness describes deadly D.C. shooting: \"Alright, let's get out of here\"",
+						"'There was no way of getting out': Witness describes gym shooting scene"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-here + shooting|2026-11-12T18:36:02.000Z|2|Witness describes deadly D.C. shooting: \"Alright, let's get out of here\""
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
 		"cluster-usa-they-shooting-they-shooting": {
 			"candidateId": "cluster-usa-they + shooting",
 			"label": "they + shooting",
 			"latestAt": "2026-11-12T18:25:15.000Z",
-			"startedAt": "2026-11-12T13:48:00.000Z",
-			"itemCount": 3,
+			"startedAt": "2026-11-12T16:12:53.000Z",
+			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
 				"they",
@@ -636,12 +707,27 @@
 			],
 			"titles": [
 				"Witnesses describe moment when they heard gunshots at D.C. gym",
-				"Witnesses describe the D.C. shooting that left 1 dead, 4 injured",
-				"1 killed, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood; suspect is dead"
+				"Witnesses describe the D.C. shooting that left 1 dead, 4 injured"
 			],
 			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
 			"entityLastCandidateAt": "2026-11-12T18:25:15.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "they + shooting",
+					"latestAt": "2026-11-12T18:25:15.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Witnesses describe moment when they heard gunshots at D.C. gym",
+						"Witnesses describe the D.C. shooting that left 1 dead, 4 injured"
+					],
+					"sources": [
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-they + shooting|2026-11-12T18:25:15.000Z|2|Witnesses describe moment when they heard gunshots at D.C. gym"
+				},
 				{
 					"observedAt": "2026-11-12T20:00:49.000Z",
 					"label": "they + shooting",
@@ -661,91 +747,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
-		},
-		"cluster-usa-hegseth-soldier-hegseth-soldier": {
-			"candidateId": "cluster-usa-hegseth + soldier",
-			"label": "hegseth + soldier",
-			"latestAt": "2026-11-12T18:49:29.000Z",
-			"startedAt": "2026-11-12T18:35:44.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"hegseth",
-				"soldier"
-			],
-			"sources": [
-				"CBS News",
-				"PBS NewsHour"
-			],
-			"titles": [
-				"Hegseth awards medal to soldier who reprimanded his party at Arlington's scared tomb",
-				"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
-			],
-			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-12T18:49:29.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "hegseth + soldier",
-					"latestAt": "2026-11-12T18:49:29.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Hegseth awards medal to soldier who reprimanded his party at Arlington's scared tomb",
-						"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
-					],
-					"sources": [
-						"CBS News",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-hegseth + soldier|2026-11-12T18:49:29.000Z|2|Hegseth awards medal to soldier who reprimanded his party at Arlington's scared tomb"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
-		},
-		"cluster-usa-shooting-here-shooting-here": {
-			"candidateId": "cluster-usa-shooting + here",
-			"label": "shooting + here",
-			"latestAt": "2026-11-12T18:36:02.000Z",
-			"startedAt": "2026-11-12T16:36:49.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"shooting",
-				"here"
-			],
-			"sources": [
-				"CBS News",
-				"NBC News"
-			],
-			"titles": [
-				"Witness describes deadly D.C. shooting: \"Alright, let's get out of here\"",
-				"'There was no way of getting out': Witness describes gym shooting scene"
-			],
-			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-12T18:36:02.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "shooting + here",
-					"latestAt": "2026-11-12T18:36:02.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Witness describes deadly D.C. shooting: \"Alright, let's get out of here\"",
-						"'There was no way of getting out': Witness describes gym shooting scene"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-shooting + here|2026-11-12T18:36:02.000Z|2|Witness describes deadly D.C. shooting: \"Alright, let's get out of here\""
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -1473,98 +1475,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-08T21:29:34.540Z"
 		},
-		"cluster-spain-liga-partido-liga-partido": {
-			"candidateId": "cluster-spain-liga + partido",
-			"label": "liga + partido",
-			"latestAt": "2026-11-08T21:00:07.000Z",
-			"startedAt": "2026-11-08T14:43:07.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"liga",
-				"partido"
-			],
-			"sources": [
-				"OK Diario",
-				"El País",
-				"El Diario Vasco"
-			],
-			"titles": [
-				"Dónde ver el Atlético de Madrid – Barcelona en vivo por TV y en streaming gratis el partido de la Liga",
-				"Atlético de Madrid - Barcelona en directo, La Liga en vivo | El Barça remonta el gol de Giuliano con un doblete de Fermín",
-				"Primer partido en Liga de Matarazzo sin poder contar con Oyarzabal"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:29:34.540Z",
-			"entityLastCandidateAt": "2026-11-08T21:00:07.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:29:34.540Z",
-					"label": "liga + partido",
-					"latestAt": "2026-11-08T21:00:07.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Dónde ver el Atlético de Madrid – Barcelona en vivo por TV y en streaming gratis el partido de la Liga",
-						"Atlético de Madrid - Barcelona en directo, La Liga en vivo | El Barça remonta el gol de Giuliano con un doblete de Fermín",
-						"Primer partido en Liga de Matarazzo sin poder contar con Oyarzabal"
-					],
-					"sources": [
-						"OK Diario",
-						"El País",
-						"El Diario Vasco"
-					],
-					"eventId": "cluster-spain-liga + partido|2026-11-08T21:00:07.000Z|3|Dónde ver el Atlético de Madrid – Barcelona en vivo por TV y en streaming gratis el partido de la Liga"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T21:29:34.540Z"
-		},
-		"cluster-spain-sanchez-pensiones-sanchez-pensiones": {
-			"candidateId": "cluster-spain-sanchez + pensiones",
-			"label": "sanchez + pensiones",
-			"latestAt": "2026-11-08T20:10:32.000Z",
-			"startedAt": "2026-11-08T12:22:20.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"sanchez",
-				"pensiones"
-			],
-			"sources": [
-				"El Diario Vasco",
-				"El País",
-				"El Mundo"
-			],
-			"titles": [
-				"Pedro Sánchez promete blindar el aborto y la subida de pensiones e insufla moral de victoria: «Vamos a por el Congreso y el Senado»",
-				"Sánchez reenfoca la campaña del PSOE en la gestión y asegura que blindará las pensiones en la Constitución",
-				"Sánchez promete reformar la Constitución para blindar las pensiones y el aborto y cita al Papa para llamar a las urnas"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:29:34.540Z",
-			"entityLastCandidateAt": "2026-11-08T20:10:32.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:29:34.540Z",
-					"label": "sanchez + pensiones",
-					"latestAt": "2026-11-08T20:10:32.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Pedro Sánchez promete blindar el aborto y la subida de pensiones e insufla moral de victoria: «Vamos a por el Congreso y el Senado»",
-						"Sánchez reenfoca la campaña del PSOE en la gestión y asegura que blindará las pensiones en la Constitución",
-						"Sánchez promete reformar la Constitución para blindar las pensiones y el aborto y cita al Papa para llamar a las urnas"
-					],
-					"sources": [
-						"El Diario Vasco",
-						"El País",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-sanchez + pensiones|2026-11-08T20:10:32.000Z|3|Pedro Sánchez promete blindar el aborto y la subida de pensiones e insufla moral de victoria: «Vamos a por el Congreso y el Senado»"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T21:29:34.540Z"
-		},
 		"cluster-spain-busca-marquez-busca-marquez": {
 			"candidateId": "cluster-spain-busca + marquez",
 			"label": "busca + marquez",
@@ -1684,48 +1594,6 @@
 						"Expansión"
 					],
 					"eventId": "cluster-spain-contra + trump|2026-11-08T21:03:12.000Z|2|Trump dice que es \"muy improbable\" que reanude los ataques en Irán si avanzan las negociaciones"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T21:29:34.540Z"
-		},
-		"cluster-spain-gana-lucio-gana-lucio": {
-			"candidateId": "cluster-spain-gana + lucio",
-			"label": "gana + lucio",
-			"latestAt": "2026-11-08T20:45:58.000Z",
-			"startedAt": "2026-11-08T16:04:22.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"gana",
-				"lucio"
-			],
-			"sources": [
-				"elDiario.es",
-				"El Diario Vasco"
-			],
-			"titles": [
-				"Lucio Usobiaga recibe el Basque Culinary World Prize por un proyecto que une productores y restaurantes",
-				"El mexicano Lucio Usobiaga, con raíces en Gipuzkoa, gana el 'Nobel de la cocina'"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:29:34.540Z",
-			"entityLastCandidateAt": "2026-11-08T20:45:58.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:29:34.540Z",
-					"label": "gana + lucio",
-					"latestAt": "2026-11-08T20:45:58.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Lucio Usobiaga recibe el Basque Culinary World Prize por un proyecto que une productores y restaurantes",
-						"El mexicano Lucio Usobiaga, con raíces en Gipuzkoa, gana el 'Nobel de la cocina'"
-					],
-					"sources": [
-						"elDiario.es",
-						"El Diario Vasco"
-					],
-					"eventId": "cluster-spain-gana + lucio|2026-11-08T20:45:58.000Z|2|Lucio Usobiaga recibe el Basque Culinary World Prize por un proyecto que une productores y restaurantes"
 				}
 			],
 			"entityState": "active",
@@ -1897,52 +1765,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-08T21:30:11.158Z"
 		},
-		"cluster-usa-trump-election-trump-election": {
-			"candidateId": "cluster-usa-trump + election",
-			"label": "trump + election",
-			"latestAt": "2026-11-08T20:15:36.000Z",
-			"startedAt": "2026-11-08T02:09:25.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"trump",
-				"election"
-			],
-			"sources": [
-				"PBS NewsHour",
-				"The New York Times Politics",
-				"The New York Times"
-			],
-			"titles": [
-				"The Kremlin hopes the U.S. election shake-up won't shift Trump's negotiations on Ukraine",
-				"For Trump and America, a Clear Election Verdict but a Murky Future",
-				"How Trump Is Dismantling America’s Scientific Research Machine"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:30:11.158Z",
-			"entityLastCandidateAt": "2026-11-08T20:15:36.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:30:11.158Z",
-					"label": "trump + election",
-					"latestAt": "2026-11-08T20:15:36.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"The Kremlin hopes the U.S. election shake-up won't shift Trump's negotiations on Ukraine",
-						"For Trump and America, a Clear Election Verdict but a Murky Future",
-						"How Trump Is Dismantling America’s Scientific Research Machine"
-					],
-					"sources": [
-						"PBS NewsHour",
-						"The New York Times Politics",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-trump + election|2026-11-08T20:15:36.000Z|3|The Kremlin hopes the U.S. election shake-up won't shift Trump's negotiations on Ukraine"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T21:30:11.158Z"
-		},
 		"cluster-spain-milei-vivo-milei-vivo": {
 			"candidateId": "cluster-spain-milei + vivo",
 			"label": "milei + vivo",
@@ -2026,52 +1848,6 @@
 						"El Correo"
 					],
 					"eventId": "cluster-spain-trump + america|2026-11-09T00:57:41.000Z|2|Los demócratas le roban a Trump el populismo económico del 'América primero'"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T01:19:45.981Z"
-		},
-		"cluster-spain-ante-emergencia-ante-emergencia": {
-			"candidateId": "cluster-spain-ante + emergencia",
-			"label": "ante + emergencia",
-			"latestAt": "2026-11-08T20:18:52.000Z",
-			"startedAt": "2026-11-08T17:55:58.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"ante",
-				"emergencia"
-			],
-			"sources": [
-				"El Correo",
-				"El País",
-				"El Mundo"
-			],
-			"titles": [
-				"Eisenkot busca una fórmula de «emergencia» para gobernar sin Netanyahu",
-				"Eisenkot apela a un Gobierno de “emergencia nacional” ante la “necesidad urgente de un nuevo liderazgo” en Israel",
-				"Gadi Eisenkot busca un \"Gobierno de emergencia\" y abre la puerta a todas las facciones"
-			],
-			"entityFirstSeenAt": "2026-11-09T01:19:45.981Z",
-			"entityLastCandidateAt": "2026-11-08T20:18:52.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T01:19:45.981Z",
-					"label": "ante + emergencia",
-					"latestAt": "2026-11-08T20:18:52.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Eisenkot busca una fórmula de «emergencia» para gobernar sin Netanyahu",
-						"Eisenkot apela a un Gobierno de “emergencia nacional” ante la “necesidad urgente de un nuevo liderazgo” en Israel",
-						"Gadi Eisenkot busca un \"Gobierno de emergencia\" y abre la puerta a todas las facciones"
-					],
-					"sources": [
-						"El Correo",
-						"El País",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-ante + emergencia|2026-11-08T20:18:52.000Z|3|Eisenkot busca una fórmula de «emergencia» para gobernar sin Netanyahu"
 				}
 			],
 			"entityState": "active",
@@ -4355,6 +4131,139 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T18:20:36.924Z"
 		},
+		"cluster-usa-nvidia-huang-nvidia-huang": {
+			"candidateId": "cluster-usa-nvidia + huang",
+			"label": "nvidia + huang",
+			"latestAt": "2026-11-12T19:44:29.000Z",
+			"startedAt": "2026-11-12T02:40:15.000Z",
+			"itemCount": 16,
+			"sourceCount": 5,
+			"terms": [
+				"nvidia",
+				"huang"
+			],
+			"sources": [
+				"CBS News",
+				"The New York Times",
+				"NBC News",
+				"PBS NewsHour",
+				"NPR"
+			],
+			"titles": [
+				"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
+				"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+				"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+				"Trump reacts after Nvidia CEO Jensen Huang resigns",
+				"Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
+				"Sharp swings for Nvidia and oil prices weigh on Wall Street",
+				"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
+				"Nvidia stock falls after Huang resigns, weighing on broader market",
+				"Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
+				"Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
+				"Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
+				"Nvidia CEO Jensen Huang resigns in wake of affair with woman suspected of spying for China",
+				"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+				"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future"
+			],
+			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
+			"entityLastCandidateAt": "2026-11-12T19:44:29.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T19:44:29.000Z",
+					"itemCount": 16,
+					"sourceCount": 5,
+					"headlines": [
+						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
+						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T19:44:29.000Z|16|Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+				},
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T16:51:22.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
+						"NYC building collapse: Death toll rises"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T15:30:04.000Z",
+					"itemCount": 11,
+					"sourceCount": 8,
+					"headlines": [
+						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+						"Nvidia CEO Jensen Huang has resigned. What happens next?"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"The Verge"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
+				},
+				{
+					"observedAt": "2026-11-12T03:38:47.147Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T02:52:00.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
+						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
+				},
+				{
+					"observedAt": "2026-11-09T18:21:05.029Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-09T17:58:28.000Z",
+					"itemCount": 11,
+					"sourceCount": 6,
+					"headlines": [
+						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
+						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
+						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
 		"cluster-usa-russell-brand-russell-brand": {
 			"candidateId": "cluster-usa-russell + brand",
 			"label": "russell + brand",
@@ -4815,124 +4724,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-10T01:54:53.349Z"
-		},
-		"cluster-usa-trump-nvidia-trump-nvidia": {
-			"candidateId": "cluster-usa-trump + nvidia",
-			"label": "trump + nvidia",
-			"latestAt": "2026-11-11T02:44:43.000Z",
-			"startedAt": "2026-11-10T19:27:59.000Z",
-			"itemCount": 4,
-			"sourceCount": 3,
-			"terms": [
-				"trump",
-				"nvidia"
-			],
-			"sources": [
-				"CBS News",
-				"The New York Times",
-				"The New York Times Politics"
-			],
-			"titles": [
-				"Nvidia board names pick for Huang investigation after affair with alleged Chinese spy",
-				"Nvidia shares plummet again amid CEO Jensen Huang's affair with alleged Chinese spy",
-				"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
-				"Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia’s Jensen Huang"
-			],
-			"entityFirstSeenAt": "2026-11-10T01:48:34.517Z",
-			"entityLastCandidateAt": "2026-11-11T02:44:43.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-11T11:59:10.929Z",
-					"label": "trump + nvidia",
-					"latestAt": "2026-11-11T02:44:43.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Nvidia board names pick for Huang investigation after affair with alleged Chinese spy",
-						"Nvidia shares plummet again amid CEO Jensen Huang's affair with alleged Chinese spy",
-						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"The New York Times Politics"
-					],
-					"eventId": "cluster-usa-trump + nvidia|2026-11-11T02:44:43.000Z|4|Nvidia board names pick for Huang investigation after affair with alleged Chinese spy"
-				},
-				{
-					"observedAt": "2026-11-11T06:20:58.838Z",
-					"label": "trump + nvidia",
-					"latestAt": "2026-11-11T02:44:43.000Z",
-					"itemCount": 9,
-					"sourceCount": 4,
-					"headlines": [
-						"Nvidia board names pick for Huang investigation after affair with alleged Chinese spy",
-						"Nvidia shares plummet again amid CEO Jensen Huang's affair with alleged Chinese spy",
-						"Nvidia names outside council for investigation into CEO’s affair"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-trump + nvidia|2026-11-11T02:44:43.000Z|9|Nvidia board names pick for Huang investigation after affair with alleged Chinese spy"
-				},
-				{
-					"observedAt": "2026-11-11T01:29:59.725Z",
-					"label": "trump + nvidia",
-					"latestAt": "2026-11-11T01:02:52.000Z",
-					"itemCount": 9,
-					"sourceCount": 4,
-					"headlines": [
-						"Nvidia's trillion-dollar bind: Can it afford to lose Jensen Huang?",
-						"Nvidia shares plummet again amid CEO Jensen Huang's affair with alleged Chinese spy",
-						"Nvidia names outside council for investigation into CEO’s affair"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-trump + nvidia|2026-11-11T01:02:52.000Z|9|Nvidia's trillion-dollar bind: Can it afford to lose Jensen Huang?"
-				},
-				{
-					"observedAt": "2026-11-10T13:32:37.686Z",
-					"label": "trump + nvidia",
-					"latestAt": "2026-11-10T02:13:11.000Z",
-					"itemCount": 3,
-					"sourceCount": 2,
-					"headlines": [
-						"Nvidia CEO Jensen Huang Told Trump He Did Not Know Chinese Woman Was Suspected Spy",
-						"Trump says Jensen Huang told him he had \"no idea she was a spy\" amid Chinese intel allegations",
-						"Democrats Demand Answers on Trump’s A.I. Policy Amid Spy Plot"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-trump + nvidia|2026-11-10T02:13:11.000Z|3|Nvidia CEO Jensen Huang Told Trump He Did Not Know Chinese Woman Was Suspected Spy"
-				},
-				{
-					"observedAt": "2026-11-10T01:48:34.517Z",
-					"label": "trump + nvidia",
-					"latestAt": "2026-11-10T00:14:06.378Z",
-					"itemCount": 16,
-					"sourceCount": 6,
-					"headlines": [
-						"Trump defends Jensen Huang and Pete Hegseth at surprise news briefing with Dana White",
-						"Nvidia CEO Jensen Huang Told Trump He Did Not Know Chinese Woman Was Suspected Spy",
-						"Nvidia's Jensen Huang faces scrutiny over alleged affair with Chinese spy"
-					],
-					"sources": [
-						"NBC News Politics",
-						"The New York Times Politics",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-trump + nvidia|2026-11-10T00:14:06.378Z|16|Trump defends Jensen Huang and Pete Hegseth at surprise news briefing with Dana White"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-11T11:59:10.929Z"
 		},
 		"cluster-usa-trump-court-trump-court": {
 			"candidateId": "cluster-usa-trump + court",
@@ -12051,58 +11842,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T03:38:14.921Z"
 		},
-		"cluster-usa-senate-mississippi-senate-mississippi": {
-			"candidateId": "cluster-usa-senate + mississippi",
-			"label": "senate + mississippi",
-			"latestAt": "2026-11-12T00:52:07.000Z",
-			"startedAt": "2026-11-11T20:11:53.000Z",
-			"itemCount": 6,
-			"sourceCount": 6,
-			"terms": [
-				"senate",
-				"mississippi"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"NBC News Politics",
-				"NPR Politics",
-				"PBS NewsHour",
-				"Politico",
-				"CBS News"
-			],
-			"titles": [
-				"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
-				"Democrat wins Mississippi Senate race",
-				"Democrat Scott Colom wins the closest Senate race in the country",
-				"Scott Colom wins Senate election in Mississippi",
-				"Mississippi elects Democrat Scott Colom to Senate in massive upset",
-				"Mississippi Senate race leans Democratic as Colom's lead grows"
-			],
-			"entityFirstSeenAt": "2026-11-12T03:38:47.147Z",
-			"entityLastCandidateAt": "2026-11-12T00:52:07.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T03:38:47.147Z",
-					"label": "senate + mississippi",
-					"latestAt": "2026-11-12T00:52:07.000Z",
-					"itemCount": 6,
-					"sourceCount": 6,
-					"headlines": [
-						"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
-						"Democrat wins Mississippi Senate race",
-						"Democrat Scott Colom wins the closest Senate race in the country"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"NBC News Politics",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-senate + mississippi|2026-11-12T00:52:07.000Z|6|How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T03:38:47.147Z"
-		},
 		"cluster-usa-ocean-reef-ocean-reef": {
 			"candidateId": "cluster-usa-ocean + reef",
 			"label": "ocean + reef",
@@ -12612,6 +12351,107 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T13:49:52.824Z"
+		},
+		"cluster-usa-mississippi-senate-mississippi-senate": {
+			"candidateId": "cluster-usa-mississippi + senate",
+			"label": "mississippi + senate",
+			"latestAt": "2026-11-12T18:16:50.000Z",
+			"startedAt": "2026-11-12T09:32:33.000Z",
+			"itemCount": 5,
+			"sourceCount": 4,
+			"terms": [
+				"mississippi",
+				"senate"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"CBS News",
+				"NPR Politics",
+				"The New York Times"
+			],
+			"titles": [
+				"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
+				"Mississippi goes blue after highly contested Senate battle",
+				"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi",
+				"Democrat Scott Colom wins Mississippi Senate race",
+				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
+			],
+			"entityFirstSeenAt": "2026-11-12T13:50:33.057Z",
+			"entityLastCandidateAt": "2026-11-12T18:16:50.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "mississippi + senate",
+					"latestAt": "2026-11-12T18:16:50.000Z",
+					"itemCount": 5,
+					"sourceCount": 4,
+					"headlines": [
+						"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
+						"Mississippi goes blue after highly contested Senate battle",
+						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-mississippi + senate|2026-11-12T18:16:50.000Z|5|How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter"
+				},
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "mississippi + senate",
+					"latestAt": "2026-11-12T18:16:50.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
+						"Mississippi goes blue after highly contested Senate battle",
+						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-mississippi + senate|2026-11-12T18:16:50.000Z|3|How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "mississippi + senate",
+					"latestAt": "2026-11-12T15:19:22.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Mississippi goes blue after highly contested Senate battle",
+						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
+					],
+					"sources": [
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-mississippi + senate|2026-11-12T15:19:22.000Z|2|Mississippi goes blue after highly contested Senate battle"
+				},
+				{
+					"observedAt": "2026-11-12T13:50:33.057Z",
+					"label": "mississippi + senate",
+					"latestAt": "2026-11-12T12:20:32.000Z",
+					"itemCount": 10,
+					"sourceCount": 6,
+					"headlines": [
+						"Democrat Scott Colom wins Mississippi Senate race in upset",
+						"Colom wins Mississippi Senate race. And, White House warns Dems over future probes",
+						"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
+					],
+					"sources": [
+						"CBS News",
+						"NPR World",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-mississippi + senate|2026-11-12T12:20:32.000Z|10|Democrat Scott Colom wins Mississippi Senate race in upset"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-usa-future-jensen-future-jensen": {
 			"candidateId": "cluster-usa-future + jensen",
@@ -13962,6 +13802,54 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
 		},
+		"cluster-usa-states-united-states-united": {
+			"candidateId": "cluster-usa-states + united",
+			"label": "states + united",
+			"latestAt": "2026-11-12T16:20:04.000Z",
+			"startedAt": "2026-11-12T03:10:32.000Z",
+			"itemCount": 5,
+			"sourceCount": 3,
+			"terms": [
+				"states",
+				"united"
+			],
+			"sources": [
+				"NPR",
+				"CBS News",
+				"The New York Times"
+			],
+			"titles": [
+				"The SS United States takes its final voyage to the bottom of the Gulf of Mexico",
+				"SS United States is sunk off the Florida coast to become largest artificial reef",
+				"Recalling the S.S. United States as It Becomes a Florida Reef",
+				"World's fastest ocean liner is sunk to break another record: largest artificial reef",
+				"The S.S. United States, a Historic Supership, Sinks to the Ocean Floor"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
+			"entityLastCandidateAt": "2026-11-12T16:20:04.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "states + united",
+					"latestAt": "2026-11-12T16:20:04.000Z",
+					"itemCount": 5,
+					"sourceCount": 3,
+					"headlines": [
+						"The SS United States takes its final voyage to the bottom of the Gulf of Mexico",
+						"SS United States is sunk off the Florida coast to become largest artificial reef",
+						"Recalling the S.S. United States as It Becomes a Florida Reef"
+					],
+					"sources": [
+						"NPR",
+						"CBS News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-states + united|2026-11-12T16:20:04.000Z|5|The SS United States takes its final voyage to the bottom of the Gulf of Mexico"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
 		"cluster-usa-shooting-logan-shooting-logan": {
 			"candidateId": "cluster-usa-shooting + logan",
 			"label": "shooting + logan",
@@ -14329,7 +14217,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
 		"cluster-spain-entre-general-entre-general": {
 			"candidateId": "cluster-spain-entre + general",
@@ -14371,7 +14259,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
 		"cluster-spain-detenido-hombre-detenido-hombre": {
 			"candidateId": "cluster-spain-detenido + hombre",
@@ -14413,7 +14301,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
 		"cluster-usa-huang-jensen-huang-jensen": {
 			"candidateId": "cluster-usa-huang + jensen",
@@ -14545,6 +14433,48 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
+		"cluster-usa-shooting-here-shooting-here": {
+			"candidateId": "cluster-usa-shooting + here",
+			"label": "shooting + here",
+			"latestAt": "2026-11-12T18:36:02.000Z",
+			"startedAt": "2026-11-12T16:36:49.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"shooting",
+				"here"
+			],
+			"sources": [
+				"CBS News",
+				"NBC News"
+			],
+			"titles": [
+				"Witness describes deadly D.C. shooting: \"Alright, let's get out of here\"",
+				"'There was no way of getting out': Witness describes gym shooting scene"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:36:02.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "shooting + here",
+					"latestAt": "2026-11-12T18:36:02.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Witness describes deadly D.C. shooting: \"Alright, let's get out of here\"",
+						"'There was no way of getting out': Witness describes gym shooting scene"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-shooting + here|2026-11-12T18:36:02.000Z|2|Witness describes deadly D.C. shooting: \"Alright, let's get out of here\""
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
 		"cluster-usa-hospital-israeli-hospital-israeli": {
 			"candidateId": "cluster-usa-hospital + israeli",
 			"label": "hospital + israeli",
@@ -14673,7 +14603,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
 		"cluster-spain-primera-psoe-primera-psoe": {
 			"candidateId": "cluster-spain-primera + psoe",
@@ -15027,7 +14957,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
 		"cluster-spain-entre-primer-entre-primer": {
 			"candidateId": "cluster-spain-entre + primer",
@@ -15154,19 +15084,239 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-spain-sanchez-begona-sanchez-begona": {
+			"candidateId": "cluster-spain-sanchez + begona",
+			"label": "sanchez + begona",
+			"latestAt": "2026-11-12T20:44:45.000Z",
+			"startedAt": "2026-11-12T16:07:57.000Z",
+			"itemCount": 8,
+			"sourceCount": 4,
+			"terms": [
+				"sanchez",
+				"begona"
+			],
+			"sources": [
+				"El País",
+				"El Mundo",
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
+				"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
+				"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
+				"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»",
+				"La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer",
+				"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
+				"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
+				"Lula viaja a España para apoyar a Sánchez en su campaña electoral"
+			],
+			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
+			"entityLastCandidateAt": "2026-11-12T20:44:45.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "sanchez + begona",
+					"latestAt": "2026-11-12T20:44:45.000Z",
+					"itemCount": 8,
+					"sourceCount": 4,
+					"headlines": [
+						"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
+						"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
+						"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-sanchez + begona|2026-11-12T20:44:45.000Z|8|Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
+		},
+		"cluster-spain-yeremy-pino-yeremy-pino": {
+			"candidateId": "cluster-spain-yeremy + pino",
+			"label": "yeremy + pino",
+			"latestAt": "2026-11-12T20:53:53.000Z",
+			"startedAt": "2026-11-12T19:30:51.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"yeremy",
+				"pino"
+			],
+			"sources": [
+				"El País",
+				"El Correo"
+			],
+			"titles": [
+				"República Checa - España en directo | Yeremy Pino amplía la ventaja",
+				"Anulado el tanto de Yéremy Pino por fuera de juego"
+			],
+			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
+			"entityLastCandidateAt": "2026-11-12T20:53:53.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "yeremy + pino",
+					"latestAt": "2026-11-12T20:53:53.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"República Checa - España en directo | Yeremy Pino amplía la ventaja",
+						"Anulado el tanto de Yéremy Pino por fuera de juego"
+					],
+					"sources": [
+						"El País",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-yeremy + pino|2026-11-12T20:53:53.000Z|2|República Checa - España en directo | Yeremy Pino amplía la ventaja"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
+		},
+		"cluster-spain-psoe-campana-psoe-campana": {
+			"candidateId": "cluster-spain-psoe + campana",
+			"label": "psoe + campana",
+			"latestAt": "2026-11-12T19:14:00.000Z",
+			"startedAt": "2026-11-12T16:07:32.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"psoe",
+				"campana"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
+				"El CIS de Tezanos vaticina una victoria del PSOE el 29-N que dejaría sin mayoría absoluta a PP y Vox"
+			],
+			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
+			"entityLastCandidateAt": "2026-11-12T19:14:00.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "psoe + campana",
+					"latestAt": "2026-11-12T19:14:00.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
+						"El CIS de Tezanos vaticina una victoria del PSOE el 29-N que dejaría sin mayoría absoluta a PP y Vox"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-psoe + campana|2026-11-12T19:14:00.000Z|2|El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
+		},
+		"cluster-spain-pero-ciencia-pero-ciencia": {
+			"candidateId": "cluster-spain-pero + ciencia",
+			"label": "pero + ciencia",
+			"latestAt": "2026-11-12T19:02:32.000Z",
+			"startedAt": "2026-11-12T19:00:00.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"pero",
+				"ciencia"
+			],
+			"sources": [
+				"El Correo",
+				"El Mundo"
+			],
+			"titles": [
+				"La ciencia no puede resolver el misterio del origen del hantavirus en el crucero",
+				"El enigma del crucero MV Hondius: la ciencia confirma la transmisión humana del hantavirus, pero busca el origen"
+			],
+			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
+			"entityLastCandidateAt": "2026-11-12T19:02:32.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "pero + ciencia",
+					"latestAt": "2026-11-12T19:02:32.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"La ciencia no puede resolver el misterio del origen del hantavirus en el crucero",
+						"El enigma del crucero MV Hondius: la ciencia confirma la transmisión humana del hantavirus, pero busca el origen"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-pero + ciencia|2026-11-12T19:02:32.000Z|2|La ciencia no puede resolver el misterio del origen del hantavirus en el crucero"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
+		},
+		"cluster-spain-contra-papa-contra-papa": {
+			"candidateId": "cluster-spain-contra + papa",
+			"label": "contra + papa",
+			"latestAt": "2026-11-12T18:43:07.000Z",
+			"startedAt": "2026-11-12T13:18:33.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"contra",
+				"papa"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
+				"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
+			],
+			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
+			"entityLastCandidateAt": "2026-11-12T18:43:07.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "contra + papa",
+					"latestAt": "2026-11-12T18:43:07.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
+						"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-contra + papa|2026-11-12T18:43:07.000Z|2|El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-us-2026-11-12T20:00:49.000Z",
+		"id": "local-us-2026-11-12T21:00:48.034Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-12T20:00:49.000Z",
-		"finishedAt": "2026-11-12T20:06:14.197Z",
-		"signalsCandidate": 8,
-		"signalsSelected": 8,
+		"startedAt": "2026-11-12T21:00:48.034Z",
+		"finishedAt": "2026-11-12T21:06:00.290Z",
+		"signalsCandidate": 7,
+		"signalsSelected": 7,
 		"signalsProcessed": 0,
-		"cacheHits": 7,
-		"skippedByConfig": 8,
+		"cacheHits": 6,
+		"skippedByConfig": 7,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -15176,11 +15326,11 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 7,
+			"cacheHits": 6,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 294,
-			"retainedByTtl": 286,
+			"retained": 295,
+			"retainedByTtl": 288,
 			"retiredByTtl": 0
 		},
 		"costUsd": 0

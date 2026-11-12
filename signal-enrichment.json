@@ -2,8 +2,60 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-12T20:00:49.000Z",
+	"updatedAt": "2026-11-12T21:00:48.034Z",
 	"entries": {
+		"cluster-spain-sanchez-begona-sanchez-begona": {
+			"candidateId": "cluster-spain-sanchez + begona",
+			"label": "sanchez + begona",
+			"latestAt": "2026-11-12T20:44:45.000Z",
+			"startedAt": "2026-11-12T16:07:57.000Z",
+			"itemCount": 8,
+			"sourceCount": 4,
+			"terms": [
+				"sanchez",
+				"begona"
+			],
+			"sources": [
+				"El País",
+				"El Mundo",
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
+				"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
+				"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
+				"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»",
+				"La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer",
+				"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
+				"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
+				"Lula viaja a España para apoyar a Sánchez en su campaña electoral"
+			],
+			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
+			"entityLastCandidateAt": "2026-11-12T20:44:45.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "sanchez + begona",
+					"latestAt": "2026-11-12T20:44:45.000Z",
+					"itemCount": 8,
+					"sourceCount": 4,
+					"headlines": [
+						"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
+						"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
+						"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-sanchez + begona|2026-11-12T20:44:45.000Z|8|Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
+		},
 		"cluster-spain-nacional-nucleo-nacional-nucleo": {
 			"candidateId": "cluster-spain-nacional + nucleo",
 			"label": "nacional + nucleo",
@@ -48,118 +100,60 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
-		"cluster-spain-primer-rosalia-primer-rosalia": {
-			"candidateId": "cluster-spain-primer + rosalia",
-			"label": "primer + rosalia",
-			"latestAt": "2026-11-12T19:19:43.000Z",
-			"startedAt": "2026-11-12T14:50:31.000Z",
+		"cluster-spain-yeremy-pino-yeremy-pino": {
+			"candidateId": "cluster-spain-yeremy + pino",
+			"label": "yeremy + pino",
+			"latestAt": "2026-11-12T20:53:53.000Z",
+			"startedAt": "2026-11-12T19:30:51.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"primer",
-				"rosalia"
+				"yeremy",
+				"pino"
 			],
 			"sources": [
-				"El Correo",
-				"El País"
-			],
-			"titles": [
-				"Rosalía vuelve a la gran pantalla con su primer papel con peso y Javier Bardem como compañero de reparto",
-				"Rosalía escala en el cine: tendrá su primer papel con peso en ‘Wet’ junto a Javier Bardem y el protagonista de ‘Más que rivales’"
-			],
-			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
-			"entityLastCandidateAt": "2026-11-12T19:19:43.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "primer + rosalia",
-					"latestAt": "2026-11-12T19:19:43.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Rosalía vuelve a la gran pantalla con su primer papel con peso y Javier Bardem como compañero de reparto",
-						"Rosalía escala en el cine: tendrá su primer papel con peso en ‘Wet’ junto a Javier Bardem y el protagonista de ‘Más que rivales’"
-					],
-					"sources": [
-						"El Correo",
-						"El País"
-					],
-					"eventId": "cluster-spain-primer + rosalia|2026-11-12T19:19:43.000Z|2|Rosalía vuelve a la gran pantalla con su primer papel con peso y Javier Bardem como compañero de reparto"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
-		},
-		"cluster-spain-primera-psoe-primera-psoe": {
-			"candidateId": "cluster-spain-primera + psoe",
-			"label": "primera + psoe",
-			"latestAt": "2026-11-12T19:16:38.000Z",
-			"startedAt": "2026-11-12T18:57:33.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"primera",
-				"psoe"
-			],
-			"sources": [
-				"El Diario Vasco",
+				"El País",
 				"El Correo"
 			],
 			"titles": [
-				"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
-				"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»"
+				"República Checa - España en directo | Yeremy Pino amplía la ventaja",
+				"Anulado el tanto de Yéremy Pino por fuera de juego"
 			],
-			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
-			"entityLastCandidateAt": "2026-11-12T19:16:38.000Z",
+			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
+			"entityLastCandidateAt": "2026-11-12T20:53:53.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "primera + psoe",
-					"latestAt": "2026-11-12T19:16:38.000Z",
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "yeremy + pino",
+					"latestAt": "2026-11-12T20:53:53.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
 					"headlines": [
-						"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
-						"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»"
+						"República Checa - España en directo | Yeremy Pino amplía la ventaja",
+						"Anulado el tanto de Yéremy Pino por fuera de juego"
 					],
 					"sources": [
-						"El Diario Vasco",
+						"El País",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-primera + psoe|2026-11-12T19:16:38.000Z|2|Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»"
-				},
-				{
-					"observedAt": "2026-11-12T19:25:49.967Z",
-					"label": "primera + psoe",
-					"latestAt": "2026-11-12T19:17:07.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Begoña Gómez interviene por primera vez en un mitin del PSOE",
-						"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»"
-					],
-					"sources": [
-						"El Correo",
-						"El Diario Vasco"
-					],
-					"eventId": "cluster-spain-primera + psoe|2026-11-12T19:17:07.000Z|2|Begoña Gómez interviene por primera vez en un mitin del PSOE"
+					"eventId": "cluster-spain-yeremy + pino|2026-11-12T20:53:53.000Z|2|República Checa - España en directo | Yeremy Pino amplía la ventaja"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
-		"cluster-spain-campana-mayoria-campana-mayoria": {
-			"candidateId": "cluster-spain-campana + mayoria",
-			"label": "campana + mayoria",
+		"cluster-spain-psoe-campana-psoe-campana": {
+			"candidateId": "cluster-spain-psoe + campana",
+			"label": "psoe + campana",
 			"latestAt": "2026-11-12T19:14:00.000Z",
 			"startedAt": "2026-11-12T16:07:32.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"campana",
-				"mayoria"
+				"psoe",
+				"campana"
 			],
 			"sources": [
 				"El Mundo",
@@ -169,12 +163,12 @@
 				"El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
 				"El CIS de Tezanos vaticina una victoria del PSOE el 29-N que dejaría sin mayoría absoluta a PP y Vox"
 			],
-			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
+			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
 			"entityLastCandidateAt": "2026-11-12T19:14:00.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T19:25:49.967Z",
-					"label": "campana + mayoria",
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "psoe + campana",
 					"latestAt": "2026-11-12T19:14:00.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -186,68 +180,22 @@
 						"El Mundo",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-campana + mayoria|2026-11-12T19:14:00.000Z|2|El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención"
+					"eventId": "cluster-spain-psoe + campana|2026-11-12T19:14:00.000Z|2|El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
-		"cluster-spain-cuatro-tres-cuatro-tres": {
-			"candidateId": "cluster-spain-cuatro + tres",
-			"label": "cuatro + tres",
-			"latestAt": "2026-11-12T14:49:36.000Z",
-			"startedAt": "2026-11-12T14:30:45.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"cuatro",
-				"tres"
-			],
-			"sources": [
-				"El País",
-				"El Correo",
-				"El Diario Vasco"
-			],
-			"titles": [
-				"La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia",
-				"Hallan a un joven tras 6 días perdido sin comida y aguantando temperaturas de tres grados en un bosque de Australia",
-				"Elsa Pataky oyó ladrar a sus perros de madrugada y volvió a dormirse: las cámaras grabaron a cuatro encapuchados robando en su finca"
-			],
-			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-12T14:49:36.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "cuatro + tres",
-					"latestAt": "2026-11-12T14:49:36.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia",
-						"Hallan a un joven tras 6 días perdido sin comida y aguantando temperaturas de tres grados en un bosque de Australia",
-						"Elsa Pataky oyó ladrar a sus perros de madrugada y volvió a dormirse: las cámaras grabaron a cuatro encapuchados robando en su finca"
-					],
-					"sources": [
-						"El País",
-						"El Correo",
-						"El Diario Vasco"
-					],
-					"eventId": "cluster-spain-cuatro + tres|2026-11-12T14:49:36.000Z|3|La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
-		},
-		"cluster-spain-ciencia-origen-ciencia-origen": {
-			"candidateId": "cluster-spain-ciencia + origen",
-			"label": "ciencia + origen",
+		"cluster-spain-pero-ciencia-pero-ciencia": {
+			"candidateId": "cluster-spain-pero + ciencia",
+			"label": "pero + ciencia",
 			"latestAt": "2026-11-12T19:02:32.000Z",
 			"startedAt": "2026-11-12T19:00:00.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"ciencia",
-				"origen"
+				"pero",
+				"ciencia"
 			],
 			"sources": [
 				"El Correo",
@@ -257,12 +205,12 @@
 				"La ciencia no puede resolver el misterio del origen del hantavirus en el crucero",
 				"El enigma del crucero MV Hondius: la ciencia confirma la transmisión humana del hantavirus, pero busca el origen"
 			],
-			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
 			"entityLastCandidateAt": "2026-11-12T19:02:32.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "ciencia + origen",
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "pero + ciencia",
 					"latestAt": "2026-11-12T19:02:32.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -274,22 +222,22 @@
 						"El Correo",
 						"El Mundo"
 					],
-					"eventId": "cluster-spain-ciencia + origen|2026-11-12T19:02:32.000Z|2|La ciencia no puede resolver el misterio del origen del hantavirus en el crucero"
+					"eventId": "cluster-spain-pero + ciencia|2026-11-12T19:02:32.000Z|2|La ciencia no puede resolver el misterio del origen del hantavirus en el crucero"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
-		"cluster-spain-contra-tres-contra-tres": {
-			"candidateId": "cluster-spain-contra + tres",
-			"label": "contra + tres",
+		"cluster-spain-contra-papa-contra-papa": {
+			"candidateId": "cluster-spain-contra + papa",
+			"label": "contra + papa",
 			"latestAt": "2026-11-12T18:43:07.000Z",
 			"startedAt": "2026-11-12T13:18:33.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
 				"contra",
-				"tres"
+				"papa"
 			],
 			"sources": [
 				"El Mundo",
@@ -299,12 +247,12 @@
 				"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
 				"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
 			],
-			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
+			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
 			"entityLastCandidateAt": "2026-11-12T18:43:07.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T19:25:49.967Z",
-					"label": "contra + tres",
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "contra + papa",
 					"latestAt": "2026-11-12T18:43:07.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -316,11 +264,11 @@
 						"El Mundo",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-contra + tres|2026-11-12T18:43:07.000Z|2|El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica"
+					"eventId": "cluster-spain-contra + papa|2026-11-12T18:43:07.000Z|2|El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
 		"cluster-spain-cuatro-tiroteo-cuatro-tiroteo": {
 			"candidateId": "cluster-spain-cuatro + tiroteo",
@@ -362,66 +310,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
-		},
-		"cluster-spain-sanchez-koldo-sanchez-koldo": {
-			"candidateId": "cluster-spain-sanchez + koldo",
-			"label": "sanchez + koldo",
-			"latestAt": "2026-11-12T18:19:46.000Z",
-			"startedAt": "2026-11-12T18:18:39.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"sanchez",
-				"koldo"
-			],
-			"sources": [
-				"El Mundo",
-				"El Correo"
-			],
-			"titles": [
-				"La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer",
-				"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'"
-			],
-			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-12T18:19:46.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "sanchez + koldo",
-					"latestAt": "2026-11-12T18:19:46.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer",
-						"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'"
-					],
-					"sources": [
-						"El Mundo",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-sanchez + koldo|2026-11-12T18:19:46.000Z|2|La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer"
-				},
-				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "sanchez + koldo",
-					"latestAt": "2026-11-12T18:19:46.000Z",
-					"itemCount": 3,
-					"sourceCount": 2,
-					"headlines": [
-						"La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
-						"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
-						"Quién es Cristinini, la streamer condecorada por Pedro Sánchez con la Gran Cruz de la Orden del Mérito Civil"
-					],
-					"sources": [
-						"El Mundo",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-sanchez + koldo|2026-11-12T18:19:46.000Z|3|La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
 		"cluster-spain-gana-etxepare-gana-etxepare": {
 			"candidateId": "cluster-spain-gana + etxepare",
@@ -463,18 +352,18 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
-		"cluster-spain-entre-primer-entre-primer": {
-			"candidateId": "cluster-spain-entre + primer",
-			"label": "entre + primer",
+		"cluster-spain-entre-general-entre-general": {
+			"candidateId": "cluster-spain-entre + general",
+			"label": "entre + general",
 			"latestAt": "2026-11-12T17:35:24.000Z",
 			"startedAt": "2026-11-12T16:31:53.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
 				"entre",
-				"primer"
+				"general"
 			],
 			"sources": [
 				"El País",
@@ -484,12 +373,12 @@
 				"Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
 				"Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\""
 			],
-			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
 			"entityLastCandidateAt": "2026-11-12T17:35:24.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "entre + primer",
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "entre + general",
 					"latestAt": "2026-11-12T17:35:24.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -501,53 +390,11 @@
 						"El País",
 						"El Mundo"
 					],
-					"eventId": "cluster-spain-entre + primer|2026-11-12T17:35:24.000Z|2|Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN"
+					"eventId": "cluster-spain-entre + general|2026-11-12T17:35:24.000Z|2|Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
-		},
-		"cluster-spain-sanchez-campana-sanchez-campana": {
-			"candidateId": "cluster-spain-sanchez + campana",
-			"label": "sanchez + campana",
-			"latestAt": "2026-11-12T17:02:52.000Z",
-			"startedAt": "2026-11-12T16:07:57.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"sanchez",
-				"campana"
-			],
-			"sources": [
-				"El País",
-				"El Mundo"
-			],
-			"titles": [
-				"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
-				"Lula viaja a España para apoyar a Sánchez en su campaña electoral"
-			],
-			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
-			"entityLastCandidateAt": "2026-11-12T17:02:52.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "sanchez + campana",
-					"latestAt": "2026-11-12T17:02:52.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
-						"Lula viaja a España para apoyar a Sánchez en su campaña electoral"
-					],
-					"sources": [
-						"El País",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-sanchez + campana|2026-11-12T17:02:52.000Z|2|Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
 		"cluster-spain-detenido-hombre-detenido-hombre": {
 			"candidateId": "cluster-spain-detenido + hombre",
@@ -589,93 +436,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
-		},
-		"cluster-spain-nvidia-quien-nvidia-quien": {
-			"candidateId": "cluster-spain-nvidia + quien",
-			"label": "nvidia + quien",
-			"latestAt": "2026-11-12T13:59:35.000Z",
-			"startedAt": "2026-11-12T00:34:26.000Z",
-			"itemCount": 3,
-			"sourceCount": 2,
-			"terms": [
-				"nvidia",
-				"quien"
-			],
-			"sources": [
-				"El Mundo",
-				"El Correo"
-			],
-			"titles": [
-				"Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa",
-				"Quién es Kimberly Powell, la alta ejecutiva de Nvidia señalada como segunda amante de Jensen Huang",
-				"Una segunda infidelidad aboca a la destitución al CEO de Nvidia"
-			],
-			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
-			"entityLastCandidateAt": "2026-11-12T13:59:35.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T19:25:49.967Z",
-					"label": "nvidia + quien",
-					"latestAt": "2026-11-12T13:59:35.000Z",
-					"itemCount": 3,
-					"sourceCount": 2,
-					"headlines": [
-						"Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa",
-						"Quién es Kimberly Powell, la alta ejecutiva de Nvidia señalada como segunda amante de Jensen Huang",
-						"Una segunda infidelidad aboca a la destitución al CEO de Nvidia"
-					],
-					"sources": [
-						"El Mundo",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-nvidia + quien|2026-11-12T13:59:35.000Z|3|Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
-		},
-		"cluster-spain-nacional-juez-nacional-juez": {
-			"candidateId": "cluster-spain-nacional + juez",
-			"label": "nacional + juez",
-			"latestAt": "2026-11-12T14:31:30.000Z",
-			"startedAt": "2026-11-12T12:30:09.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"nacional",
-				"juez"
-			],
-			"sources": [
-				"El Mundo",
-				"El Correo"
-			],
-			"titles": [
-				"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
-				"La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto"
-			],
-			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
-			"entityLastCandidateAt": "2026-11-12T14:31:30.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "nacional + juez",
-					"latestAt": "2026-11-12T14:31:30.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
-						"La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto"
-					],
-					"sources": [
-						"El Mundo",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-nacional + juez|2026-11-12T14:31:30.000Z|2|La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -1072,7 +833,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-usa-trump-house-trump-house": {
 			"candidateId": "cluster-usa-trump + house",
@@ -1630,98 +1391,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-08T21:29:34.540Z"
 		},
-		"cluster-spain-liga-partido-liga-partido": {
-			"candidateId": "cluster-spain-liga + partido",
-			"label": "liga + partido",
-			"latestAt": "2026-11-08T21:00:07.000Z",
-			"startedAt": "2026-11-08T14:43:07.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"liga",
-				"partido"
-			],
-			"sources": [
-				"OK Diario",
-				"El País",
-				"El Diario Vasco"
-			],
-			"titles": [
-				"Dónde ver el Atlético de Madrid – Barcelona en vivo por TV y en streaming gratis el partido de la Liga",
-				"Atlético de Madrid - Barcelona en directo, La Liga en vivo | El Barça remonta el gol de Giuliano con un doblete de Fermín",
-				"Primer partido en Liga de Matarazzo sin poder contar con Oyarzabal"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:29:34.540Z",
-			"entityLastCandidateAt": "2026-11-08T21:00:07.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:29:34.540Z",
-					"label": "liga + partido",
-					"latestAt": "2026-11-08T21:00:07.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Dónde ver el Atlético de Madrid – Barcelona en vivo por TV y en streaming gratis el partido de la Liga",
-						"Atlético de Madrid - Barcelona en directo, La Liga en vivo | El Barça remonta el gol de Giuliano con un doblete de Fermín",
-						"Primer partido en Liga de Matarazzo sin poder contar con Oyarzabal"
-					],
-					"sources": [
-						"OK Diario",
-						"El País",
-						"El Diario Vasco"
-					],
-					"eventId": "cluster-spain-liga + partido|2026-11-08T21:00:07.000Z|3|Dónde ver el Atlético de Madrid – Barcelona en vivo por TV y en streaming gratis el partido de la Liga"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T21:29:34.540Z"
-		},
-		"cluster-spain-sanchez-pensiones-sanchez-pensiones": {
-			"candidateId": "cluster-spain-sanchez + pensiones",
-			"label": "sanchez + pensiones",
-			"latestAt": "2026-11-08T20:10:32.000Z",
-			"startedAt": "2026-11-08T12:22:20.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"sanchez",
-				"pensiones"
-			],
-			"sources": [
-				"El Diario Vasco",
-				"El País",
-				"El Mundo"
-			],
-			"titles": [
-				"Pedro Sánchez promete blindar el aborto y la subida de pensiones e insufla moral de victoria: «Vamos a por el Congreso y el Senado»",
-				"Sánchez reenfoca la campaña del PSOE en la gestión y asegura que blindará las pensiones en la Constitución",
-				"Sánchez promete reformar la Constitución para blindar las pensiones y el aborto y cita al Papa para llamar a las urnas"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:29:34.540Z",
-			"entityLastCandidateAt": "2026-11-08T20:10:32.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:29:34.540Z",
-					"label": "sanchez + pensiones",
-					"latestAt": "2026-11-08T20:10:32.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Pedro Sánchez promete blindar el aborto y la subida de pensiones e insufla moral de victoria: «Vamos a por el Congreso y el Senado»",
-						"Sánchez reenfoca la campaña del PSOE en la gestión y asegura que blindará las pensiones en la Constitución",
-						"Sánchez promete reformar la Constitución para blindar las pensiones y el aborto y cita al Papa para llamar a las urnas"
-					],
-					"sources": [
-						"El Diario Vasco",
-						"El País",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-sanchez + pensiones|2026-11-08T20:10:32.000Z|3|Pedro Sánchez promete blindar el aborto y la subida de pensiones e insufla moral de victoria: «Vamos a por el Congreso y el Senado»"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T21:29:34.540Z"
-		},
 		"cluster-spain-busca-marquez-busca-marquez": {
 			"candidateId": "cluster-spain-busca + marquez",
 			"label": "busca + marquez",
@@ -1841,48 +1510,6 @@
 						"Expansión"
 					],
 					"eventId": "cluster-spain-contra + trump|2026-11-08T21:03:12.000Z|2|Trump dice que es \"muy improbable\" que reanude los ataques en Irán si avanzan las negociaciones"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T21:29:34.540Z"
-		},
-		"cluster-spain-gana-lucio-gana-lucio": {
-			"candidateId": "cluster-spain-gana + lucio",
-			"label": "gana + lucio",
-			"latestAt": "2026-11-08T20:45:58.000Z",
-			"startedAt": "2026-11-08T16:04:22.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"gana",
-				"lucio"
-			],
-			"sources": [
-				"elDiario.es",
-				"El Diario Vasco"
-			],
-			"titles": [
-				"Lucio Usobiaga recibe el Basque Culinary World Prize por un proyecto que une productores y restaurantes",
-				"El mexicano Lucio Usobiaga, con raíces en Gipuzkoa, gana el 'Nobel de la cocina'"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:29:34.540Z",
-			"entityLastCandidateAt": "2026-11-08T20:45:58.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:29:34.540Z",
-					"label": "gana + lucio",
-					"latestAt": "2026-11-08T20:45:58.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Lucio Usobiaga recibe el Basque Culinary World Prize por un proyecto que une productores y restaurantes",
-						"El mexicano Lucio Usobiaga, con raíces en Gipuzkoa, gana el 'Nobel de la cocina'"
-					],
-					"sources": [
-						"elDiario.es",
-						"El Diario Vasco"
-					],
-					"eventId": "cluster-spain-gana + lucio|2026-11-08T20:45:58.000Z|2|Lucio Usobiaga recibe el Basque Culinary World Prize por un proyecto que une productores y restaurantes"
 				}
 			],
 			"entityState": "active",
@@ -2054,52 +1681,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-08T21:30:11.158Z"
 		},
-		"cluster-usa-trump-election-trump-election": {
-			"candidateId": "cluster-usa-trump + election",
-			"label": "trump + election",
-			"latestAt": "2026-11-08T20:15:36.000Z",
-			"startedAt": "2026-11-08T02:09:25.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"trump",
-				"election"
-			],
-			"sources": [
-				"PBS NewsHour",
-				"The New York Times Politics",
-				"The New York Times"
-			],
-			"titles": [
-				"The Kremlin hopes the U.S. election shake-up won't shift Trump's negotiations on Ukraine",
-				"For Trump and America, a Clear Election Verdict but a Murky Future",
-				"How Trump Is Dismantling America’s Scientific Research Machine"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:30:11.158Z",
-			"entityLastCandidateAt": "2026-11-08T20:15:36.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:30:11.158Z",
-					"label": "trump + election",
-					"latestAt": "2026-11-08T20:15:36.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"The Kremlin hopes the U.S. election shake-up won't shift Trump's negotiations on Ukraine",
-						"For Trump and America, a Clear Election Verdict but a Murky Future",
-						"How Trump Is Dismantling America’s Scientific Research Machine"
-					],
-					"sources": [
-						"PBS NewsHour",
-						"The New York Times Politics",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-trump + election|2026-11-08T20:15:36.000Z|3|The Kremlin hopes the U.S. election shake-up won't shift Trump's negotiations on Ukraine"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T21:30:11.158Z"
-		},
 		"cluster-spain-milei-vivo-milei-vivo": {
 			"candidateId": "cluster-spain-milei + vivo",
 			"label": "milei + vivo",
@@ -2183,52 +1764,6 @@
 						"El Correo"
 					],
 					"eventId": "cluster-spain-trump + america|2026-11-09T00:57:41.000Z|2|Los demócratas le roban a Trump el populismo económico del 'América primero'"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T01:19:45.981Z"
-		},
-		"cluster-spain-ante-emergencia-ante-emergencia": {
-			"candidateId": "cluster-spain-ante + emergencia",
-			"label": "ante + emergencia",
-			"latestAt": "2026-11-08T20:18:52.000Z",
-			"startedAt": "2026-11-08T17:55:58.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"ante",
-				"emergencia"
-			],
-			"sources": [
-				"El Correo",
-				"El País",
-				"El Mundo"
-			],
-			"titles": [
-				"Eisenkot busca una fórmula de «emergencia» para gobernar sin Netanyahu",
-				"Eisenkot apela a un Gobierno de “emergencia nacional” ante la “necesidad urgente de un nuevo liderazgo” en Israel",
-				"Gadi Eisenkot busca un \"Gobierno de emergencia\" y abre la puerta a todas las facciones"
-			],
-			"entityFirstSeenAt": "2026-11-09T01:19:45.981Z",
-			"entityLastCandidateAt": "2026-11-08T20:18:52.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T01:19:45.981Z",
-					"label": "ante + emergencia",
-					"latestAt": "2026-11-08T20:18:52.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Eisenkot busca una fórmula de «emergencia» para gobernar sin Netanyahu",
-						"Eisenkot apela a un Gobierno de “emergencia nacional” ante la “necesidad urgente de un nuevo liderazgo” en Israel",
-						"Gadi Eisenkot busca un \"Gobierno de emergencia\" y abre la puerta a todas las facciones"
-					],
-					"sources": [
-						"El Correo",
-						"El País",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-ante + emergencia|2026-11-08T20:18:52.000Z|3|Eisenkot busca una fórmula de «emergencia» para gobernar sin Netanyahu"
 				}
 			],
 			"entityState": "active",
@@ -4515,32 +4050,60 @@
 		"cluster-usa-nvidia-huang-nvidia-huang": {
 			"candidateId": "cluster-usa-nvidia + huang",
 			"label": "nvidia + huang",
-			"latestAt": "2026-11-12T16:51:22.000Z",
-			"startedAt": "2026-11-12T10:41:57.000Z",
-			"itemCount": 7,
-			"sourceCount": 4,
+			"latestAt": "2026-11-12T19:44:29.000Z",
+			"startedAt": "2026-11-12T02:40:15.000Z",
+			"itemCount": 16,
+			"sourceCount": 5,
 			"terms": [
 				"nvidia",
 				"huang"
 			],
 			"sources": [
-				"The New York Times",
-				"PBS NewsHour",
 				"CBS News",
-				"NBC News"
+				"The New York Times",
+				"NBC News",
+				"PBS NewsHour",
+				"NPR"
 			],
 			"titles": [
-				"What to Know About the Deadly Building Collapse in Brooklyn",
-				"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
-				"NYC building collapse: Death toll rises",
-				"Building Collapse in Brooklyn Leaves at Least 5 Dead",
-				"Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
-				"Singapore Says US Not Helpful on Investigation Into Alice Huang and Megaspeed",
-				"Megaspeed, chip firm at center of Nvidia scandal, pledges to cooperate with U.S. investigation"
+				"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
+				"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+				"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+				"Trump reacts after Nvidia CEO Jensen Huang resigns",
+				"Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
+				"Sharp swings for Nvidia and oil prices weigh on Wall Street",
+				"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
+				"Nvidia stock falls after Huang resigns, weighing on broader market",
+				"Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
+				"Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
+				"Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
+				"Nvidia CEO Jensen Huang resigns in wake of affair with woman suspected of spying for China",
+				"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+				"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future"
 			],
 			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-12T16:51:22.000Z",
+			"entityLastCandidateAt": "2026-11-12T19:44:29.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T19:44:29.000Z",
+					"itemCount": 16,
+					"sourceCount": 5,
+					"headlines": [
+						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
+						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T19:44:29.000Z|16|Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+				},
 				{
 					"observedAt": "2026-11-12T17:19:54.483Z",
 					"label": "nvidia + huang",
@@ -4615,7 +4178,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-usa-russell-brand-russell-brand": {
 			"candidateId": "cluster-usa-russell + brand",
@@ -12974,7 +12537,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-usa-future-jensen-future-jensen": {
 			"candidateId": "cluster-usa-future + jensen",
@@ -13606,8 +13169,8 @@
 		"cluster-usa-building-collapse-building-collapse": {
 			"candidateId": "cluster-usa-building + collapse",
 			"label": "building + collapse",
-			"latestAt": "2026-11-12T19:05:41.000Z",
-			"startedAt": "2026-11-12T12:26:34.000Z",
+			"latestAt": "2026-11-12T19:43:09.000Z",
+			"startedAt": "2026-11-12T15:32:54.000Z",
 			"itemCount": 7,
 			"sourceCount": 5,
 			"terms": [
@@ -13622,17 +13185,35 @@
 				"CBS News"
 			],
 			"titles": [
+				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
 				"What to Know About the Deadly Building Collapse in Brooklyn",
 				"Casualties continue to rise after Brooklyn building collapses",
 				"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says",
-				"Building Collapse in Brooklyn Leaves at Least 5 Dead",
 				"Mamdani says eight people ‘senselessly’ died in NYC building collapse",
 				"NYC building collapse: Death toll rises",
 				"2 children among the 8 dead in New York City building collapse, officials say"
 			],
 			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T19:05:41.000Z",
+			"entityLastCandidateAt": "2026-11-12T19:43:09.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T19:43:09.000Z",
+					"itemCount": 7,
+					"sourceCount": 5,
+					"headlines": [
+						"A Frantic Search for Survivors in the Brooklyn Building Collapse",
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Casualties continue to rise after Brooklyn building collapses"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T19:43:09.000Z|7|A Frantic Search for Survivors in the Brooklyn Building Collapse"
+				},
 				{
 					"observedAt": "2026-11-12T19:25:49.967Z",
 					"label": "building + collapse",
@@ -13689,7 +13270,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-usa-nvidia-affair-nvidia-affair": {
 			"candidateId": "cluster-usa-nvidia + affair",
@@ -14459,7 +14040,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-usa-shooting-logan-shooting-logan": {
 			"candidateId": "cluster-usa-shooting + logan",
@@ -14595,6 +14176,52 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
+		"cluster-spain-cuatro-tres-cuatro-tres": {
+			"candidateId": "cluster-spain-cuatro + tres",
+			"label": "cuatro + tres",
+			"latestAt": "2026-11-12T14:49:36.000Z",
+			"startedAt": "2026-11-12T14:30:45.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"cuatro",
+				"tres"
+			],
+			"sources": [
+				"El País",
+				"El Correo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia",
+				"Hallan a un joven tras 6 días perdido sin comida y aguantando temperaturas de tres grados en un bosque de Australia",
+				"Elsa Pataky oyó ladrar a sus perros de madrugada y volvió a dormirse: las cámaras grabaron a cuatro encapuchados robando en su finca"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T14:49:36.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "cuatro + tres",
+					"latestAt": "2026-11-12T14:49:36.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia",
+						"Hallan a un joven tras 6 días perdido sin comida y aguantando temperaturas de tres grados en un bosque de Australia",
+						"Elsa Pataky oyó ladrar a sus perros de madrugada y volvió a dormirse: las cámaras grabaron a cuatro encapuchados robando en su finca"
+					],
+					"sources": [
+						"El País",
+						"El Correo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-cuatro + tres|2026-11-12T14:49:36.000Z|3|La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
 		"cluster-spain-nacional-imputa-nacional-imputa": {
 			"candidateId": "cluster-spain-nacional + imputa",
 			"label": "nacional + imputa",
@@ -14641,6 +14268,65 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
 		},
+		"cluster-spain-sanchez-koldo-sanchez-koldo": {
+			"candidateId": "cluster-spain-sanchez + koldo",
+			"label": "sanchez + koldo",
+			"latestAt": "2026-11-12T18:19:46.000Z",
+			"startedAt": "2026-11-12T18:18:39.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"sanchez",
+				"koldo"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer",
+				"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:19:46.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "sanchez + koldo",
+					"latestAt": "2026-11-12T18:19:46.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer",
+						"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-sanchez + koldo|2026-11-12T18:19:46.000Z|2|La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer"
+				},
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "sanchez + koldo",
+					"latestAt": "2026-11-12T18:19:46.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
+						"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
+						"Quién es Cristinini, la streamer condecorada por Pedro Sánchez con la Gran Cruz de la Orden del Mérito Civil"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-sanchez + koldo|2026-11-12T18:19:46.000Z|3|La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
 		"cluster-spain-contra-sexuales-contra-sexuales": {
 			"candidateId": "cluster-spain-contra + sexuales",
 			"label": "contra + sexuales",
@@ -14682,48 +14368,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
-		},
-		"cluster-spain-entre-general-entre-general": {
-			"candidateId": "cluster-spain-entre + general",
-			"label": "entre + general",
-			"latestAt": "2026-11-12T17:35:24.000Z",
-			"startedAt": "2026-11-12T16:31:53.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"entre",
-				"general"
-			],
-			"sources": [
-				"El País",
-				"El Mundo"
-			],
-			"titles": [
-				"Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
-				"Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\""
-			],
-			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-12T17:35:24.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "entre + general",
-					"latestAt": "2026-11-12T17:35:24.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
-						"Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\""
-					],
-					"sources": [
-						"El País",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-entre + general|2026-11-12T17:35:24.000Z|2|Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
 		},
 		"cluster-usa-huang-jensen-huang-jensen": {
 			"candidateId": "cluster-usa-huang + jensen",
@@ -14895,7 +14539,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-usa-shooting-here-shooting-here": {
 			"candidateId": "cluster-usa-shooting + here",
@@ -14937,7 +14581,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		},
 		"cluster-usa-hospital-israeli-hospital-israeli": {
 			"candidateId": "cluster-usa-hospital + israeli",
@@ -15023,6 +14667,192 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
+		"cluster-spain-primera-psoe-primera-psoe": {
+			"candidateId": "cluster-spain-primera + psoe",
+			"label": "primera + psoe",
+			"latestAt": "2026-11-12T19:16:38.000Z",
+			"startedAt": "2026-11-12T18:57:33.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"primera",
+				"psoe"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
+				"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
+			"entityLastCandidateAt": "2026-11-12T19:16:38.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "primera + psoe",
+					"latestAt": "2026-11-12T19:16:38.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
+						"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-primera + psoe|2026-11-12T19:16:38.000Z|2|Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»"
+				},
+				{
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "primera + psoe",
+					"latestAt": "2026-11-12T19:17:07.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Begoña Gómez interviene por primera vez en un mitin del PSOE",
+						"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»"
+					],
+					"sources": [
+						"El Correo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-primera + psoe|2026-11-12T19:17:07.000Z|2|Begoña Gómez interviene por primera vez en un mitin del PSOE"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-spain-campana-mayoria-campana-mayoria": {
+			"candidateId": "cluster-spain-campana + mayoria",
+			"label": "campana + mayoria",
+			"latestAt": "2026-11-12T19:14:00.000Z",
+			"startedAt": "2026-11-12T16:07:32.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"campana",
+				"mayoria"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
+				"El CIS de Tezanos vaticina una victoria del PSOE el 29-N que dejaría sin mayoría absoluta a PP y Vox"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
+			"entityLastCandidateAt": "2026-11-12T19:14:00.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "campana + mayoria",
+					"latestAt": "2026-11-12T19:14:00.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
+						"El CIS de Tezanos vaticina una victoria del PSOE el 29-N que dejaría sin mayoría absoluta a PP y Vox"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-campana + mayoria|2026-11-12T19:14:00.000Z|2|El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-spain-contra-tres-contra-tres": {
+			"candidateId": "cluster-spain-contra + tres",
+			"label": "contra + tres",
+			"latestAt": "2026-11-12T18:43:07.000Z",
+			"startedAt": "2026-11-12T13:18:33.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"contra",
+				"tres"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
+				"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
+			"entityLastCandidateAt": "2026-11-12T18:43:07.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "contra + tres",
+					"latestAt": "2026-11-12T18:43:07.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
+						"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-contra + tres|2026-11-12T18:43:07.000Z|2|El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-spain-nvidia-quien-nvidia-quien": {
+			"candidateId": "cluster-spain-nvidia + quien",
+			"label": "nvidia + quien",
+			"latestAt": "2026-11-12T13:59:35.000Z",
+			"startedAt": "2026-11-12T00:34:26.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"nvidia",
+				"quien"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa",
+				"Quién es Kimberly Powell, la alta ejecutiva de Nvidia señalada como segunda amante de Jensen Huang",
+				"Una segunda infidelidad aboca a la destitución al CEO de Nvidia"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
+			"entityLastCandidateAt": "2026-11-12T13:59:35.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "nvidia + quien",
+					"latestAt": "2026-11-12T13:59:35.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa",
+						"Quién es Kimberly Powell, la alta ejecutiva de Nvidia señalada como segunda amante de Jensen Huang",
+						"Una segunda infidelidad aboca a la destitución al CEO de Nvidia"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-nvidia + quien|2026-11-12T13:59:35.000Z|3|Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
 		"cluster-usa-shooting-killed-shooting-killed": {
 			"candidateId": "cluster-usa-shooting + killed",
 			"label": "shooting + killed",
@@ -15064,19 +14894,273 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+		},
+		"cluster-spain-primer-rosalia-primer-rosalia": {
+			"candidateId": "cluster-spain-primer + rosalia",
+			"label": "primer + rosalia",
+			"latestAt": "2026-11-12T19:19:43.000Z",
+			"startedAt": "2026-11-12T14:50:31.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"primer",
+				"rosalia"
+			],
+			"sources": [
+				"El Correo",
+				"El País"
+			],
+			"titles": [
+				"Rosalía vuelve a la gran pantalla con su primer papel con peso y Javier Bardem como compañero de reparto",
+				"Rosalía escala en el cine: tendrá su primer papel con peso en ‘Wet’ junto a Javier Bardem y el protagonista de ‘Más que rivales’"
+			],
+			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityLastCandidateAt": "2026-11-12T19:19:43.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "primer + rosalia",
+					"latestAt": "2026-11-12T19:19:43.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Rosalía vuelve a la gran pantalla con su primer papel con peso y Javier Bardem como compañero de reparto",
+						"Rosalía escala en el cine: tendrá su primer papel con peso en ‘Wet’ junto a Javier Bardem y el protagonista de ‘Más que rivales’"
+					],
+					"sources": [
+						"El Correo",
+						"El País"
+					],
+					"eventId": "cluster-spain-primer + rosalia|2026-11-12T19:19:43.000Z|2|Rosalía vuelve a la gran pantalla con su primer papel con peso y Javier Bardem como compañero de reparto"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-spain-ciencia-origen-ciencia-origen": {
+			"candidateId": "cluster-spain-ciencia + origen",
+			"label": "ciencia + origen",
+			"latestAt": "2026-11-12T19:02:32.000Z",
+			"startedAt": "2026-11-12T19:00:00.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"ciencia",
+				"origen"
+			],
+			"sources": [
+				"El Correo",
+				"El Mundo"
+			],
+			"titles": [
+				"La ciencia no puede resolver el misterio del origen del hantavirus en el crucero",
+				"El enigma del crucero MV Hondius: la ciencia confirma la transmisión humana del hantavirus, pero busca el origen"
+			],
+			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityLastCandidateAt": "2026-11-12T19:02:32.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "ciencia + origen",
+					"latestAt": "2026-11-12T19:02:32.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"La ciencia no puede resolver el misterio del origen del hantavirus en el crucero",
+						"El enigma del crucero MV Hondius: la ciencia confirma la transmisión humana del hantavirus, pero busca el origen"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-ciencia + origen|2026-11-12T19:02:32.000Z|2|La ciencia no puede resolver el misterio del origen del hantavirus en el crucero"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-spain-entre-primer-entre-primer": {
+			"candidateId": "cluster-spain-entre + primer",
+			"label": "entre + primer",
+			"latestAt": "2026-11-12T17:35:24.000Z",
+			"startedAt": "2026-11-12T16:31:53.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"entre",
+				"primer"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
+				"Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\""
+			],
+			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityLastCandidateAt": "2026-11-12T17:35:24.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "entre + primer",
+					"latestAt": "2026-11-12T17:35:24.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
+						"Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\""
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-entre + primer|2026-11-12T17:35:24.000Z|2|Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-spain-sanchez-campana-sanchez-campana": {
+			"candidateId": "cluster-spain-sanchez + campana",
+			"label": "sanchez + campana",
+			"latestAt": "2026-11-12T17:02:52.000Z",
+			"startedAt": "2026-11-12T16:07:57.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"sanchez",
+				"campana"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
+				"Lula viaja a España para apoyar a Sánchez en su campaña electoral"
+			],
+			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityLastCandidateAt": "2026-11-12T17:02:52.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "sanchez + campana",
+					"latestAt": "2026-11-12T17:02:52.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
+						"Lula viaja a España para apoyar a Sánchez en su campaña electoral"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-sanchez + campana|2026-11-12T17:02:52.000Z|2|Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-spain-nacional-juez-nacional-juez": {
+			"candidateId": "cluster-spain-nacional + juez",
+			"label": "nacional + juez",
+			"latestAt": "2026-11-12T14:31:30.000Z",
+			"startedAt": "2026-11-12T12:30:09.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"nacional",
+				"juez"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
+				"La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto"
+			],
+			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityLastCandidateAt": "2026-11-12T14:31:30.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "nacional + juez",
+					"latestAt": "2026-11-12T14:31:30.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
+						"La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-nacional + juez|2026-11-12T14:31:30.000Z|2|La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
+		},
+		"cluster-usa-they-shooting-they-shooting": {
+			"candidateId": "cluster-usa-they + shooting",
+			"label": "they + shooting",
+			"latestAt": "2026-11-12T18:25:15.000Z",
+			"startedAt": "2026-11-12T13:48:00.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"they",
+				"shooting"
+			],
+			"sources": [
+				"CBS News",
+				"NPR Politics"
+			],
+			"titles": [
+				"Witnesses describe moment when they heard gunshots at D.C. gym",
+				"Witnesses describe the D.C. shooting that left 1 dead, 4 injured",
+				"1 killed, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood; suspect is dead"
+			],
+			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityLastCandidateAt": "2026-11-12T18:25:15.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "they + shooting",
+					"latestAt": "2026-11-12T18:25:15.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Witnesses describe moment when they heard gunshots at D.C. gym",
+						"Witnesses describe the D.C. shooting that left 1 dead, 4 injured",
+						"1 killed, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood; suspect is dead"
+					],
+					"sources": [
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-they + shooting|2026-11-12T18:25:15.000Z|3|Witnesses describe moment when they heard gunshots at D.C. gym"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-es-2026-11-12T20:00:49.000Z",
+		"id": "local-es-2026-11-12T21:00:48.034Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-12T20:00:49.000Z",
-		"finishedAt": "2026-11-12T20:02:58.056Z",
-		"signalsCandidate": 15,
-		"signalsSelected": 15,
+		"startedAt": "2026-11-12T21:00:48.034Z",
+		"finishedAt": "2026-11-12T21:02:52.866Z",
+		"signalsCandidate": 10,
+		"signalsSelected": 10,
 		"signalsProcessed": 0,
-		"cacheHits": 9,
-		"skippedByConfig": 15,
+		"cacheHits": 5,
+		"skippedByConfig": 10,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -15086,12 +15170,12 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 9,
+			"cacheHits": 5,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 293,
-			"retainedByTtl": 278,
-			"retiredByTtl": 1
+			"retained": 294,
+			"retainedByTtl": 284,
+			"retiredByTtl": 5
 		},
 		"costUsd": 0
 	}

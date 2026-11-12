@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-12T20:00:49.000Z",
+  "updatedAt": "2026-11-12T21:00:48.034Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "201.117 enlaces analizados",
-  "dayScanLabel": "3.219 enlaces escaneados en 24h",
+  "ambientPulseLabel": "201.536 enlaces analizados",
+  "dayScanLabel": "3.638 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,6 +19,80 @@
   "topAlert": null,
   "signals": [
     {
+      "id": "now-cluster-españa-begona + gomez",
+      "title": "Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
+      "brief": "Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar».",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 29,
+      "sourceCount": 4,
+      "itemCount": 8,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Mundo",
+        "El Diario Vasco",
+        "El Correo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/JYINGUKRBVA6RGU727DRHGOJPE.jpg?auth=cd39762888c3c19484aec1868e9f2e0dce303683b17b78a5db6ac3eef3f9b983",
+        "https://e01-phantom-elmundo.uecdn.es/45c1b1322c22c53372d72c8b0a91ebf1/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/12/17945139520748.jpg",
+        "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/12/begona-gomez-kF0C-U40322960519xYC-1200x840@Diario%20Vasco.jpg",
+        "https://s1.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/12/mitin-begona-gomez-U201395790477EoC-U403226979582sE-1200x840@El%20Correo.jpg",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/05/17939035330629.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
+          "source": "El País",
+          "publishedAt": "2026-11-12T20:44:45.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-12/begona-gomez-se-estrena-en-un-mitin-del-psoe-para-captar-el-voto-de-las-mujeres.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/JYINGUKRBVA6RGU727DRHGOJPE.jpg?auth=cd39762888c3c19484aec1868e9f2e0dce303683b17b78a5db6ac3eef3f9b983"
+        },
+        {
+          "title": "Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-12T20:07:07.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/12/6af61c69fc6c83561f8b45a2.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/45c1b1322c22c53372d72c8b0a91ebf1/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/12/17945139520748.jpg"
+        },
+        {
+          "title": "Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-12T19:16:38.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/begona-gomez-participa-primera-vez-mitin-psoe-20261112201637-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/12/begona-gomez-kF0C-U40322960519xYC-1200x840@Diario%20Vasco.jpg"
+        },
+        {
+          "title": "Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-12T18:57:33.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/begona-gomez-interviene-primer-mitin-campana-pedro-20261112195733-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/12/mitin-begona-gomez-U201395790477EoC-U403226979582sE-1200x840@El%20Correo.jpg"
+        },
+        {
+          "title": "La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-12T18:19:46.000Z",
+          "sourceUrl": "https://www.elmundo.es/espana/2026/11/12/6af5ea88fc6c83c6308b45ca.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/05/17939035330629.jpg"
+        }
+      ],
+      "path": "/es/entity/begona-gomez-participa-por-primera-vez-en-un-mitin-del-psoe-me-habeis-dado-el-al/"
+    },
+    {
       "id": "moving-cluster-españa-nucleo + nacional",
       "title": "La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales",
       "brief": "La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales.",
@@ -27,10 +101,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 22,
+      "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 86,
@@ -76,9 +150,9 @@
       "path": "/es/entity/la-juez-ordena-el-cese-total-de-las-actividades-de-nucleo-nacional-el-cierre-de/"
     },
     {
-      "id": "now-cluster-españa-javier + bardem",
-      "title": "Rosalía escala en el cine: tendrá su primer papel con peso en ‘Wet’ junto a Javier Bardem y el protagonista de ‘Más que rivales’",
-      "brief": "Rosalía escala en el cine: tendrá su primer papel con peso en ‘Wet’ junto a Javier Bardem y el protagonista de ‘Más que rivales’.",
+      "id": "now-cluster-españa-yeremy + pino",
+      "title": "Anulado el tanto de Yéremy Pino por fuera de juego",
+      "brief": "Anulado el tanto de Yéremy Pino por fuera de juego.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -97,79 +171,33 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/BQI5DHNDFRCHVFODFBJK7VPERA.jpg?auth=f42b3f7a7bb2d323f915d7eec05dc4e69f609efa5af9c402ef466bfed6251381"
-      ],
-      "evidence": [
-        {
-          "title": "Rosalía vuelve a la gran pantalla con su primer papel con peso y Javier Bardem como compañero de reparto",
-          "source": "El Correo",
-          "publishedAt": "2026-11-12T19:19:43.000Z",
-          "sourceUrl": "https://www.elcorreo.com/culturas/cine/rosalia-vuelve-gran-pantalla-primer-papel-peso-20261112201943-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Rosalía escala en el cine: tendrá su primer papel con peso en ‘Wet’ junto a Javier Bardem y el protagonista de ‘Más que rivales’",
-          "source": "El País",
-          "publishedAt": "2026-11-12T14:50:31.000Z",
-          "sourceUrl": "https://elpais.com/cultura/cine/2026-11-12/rosalia-escala-en-el-cine-tendra-su-primer-papel-con-peso-en-wet-junto-a-javier-bardem-y-el-protagonista-de-mas-que-rivales.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/BQI5DHNDFRCHVFODFBJK7VPERA.jpg?auth=f42b3f7a7bb2d323f915d7eec05dc4e69f609efa5af9c402ef466bfed6251381"
-        }
-      ],
-      "path": "/es/entity/rosalia-escala-en-el-cine-tendra-su-primer-papel-con-peso-en-wet-junto-a-javier/"
-    },
-    {
-      "id": "now-cluster-españa-begona + gomez",
-      "title": "Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
-      "brief": "Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar».",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
+        "El País",
         "El Correo"
       ],
       "images": [
-        "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/12/begona-gomez-kF0C-U40322960519xYC-1200x840@Diario%20Vasco.jpg",
-        "https://s1.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/12/mitin-begona-gomez-U201395790477EoC-U403226979582sE-1200x840@El%20Correo.jpg"
+        "https://imagenes.elpais.com/resizer/v2/6G52FOK23VN4XDXTJ3J6N44WYU.jpg?auth=bbccd6aa5e6ddf845b77426c4dba525b92f4c8069d550c6f14780a74fac5ebeb",
+        "https://s2.ppllstatics.com/rc/www/multimedia/deportes/2026/11/12/image_20261112213258-RKZVoHzpXOqTzDS90hmWNGO-1200x840@RC.png"
       ],
       "evidence": [
         {
-          "title": "Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-12T19:16:38.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/begona-gomez-participa-primera-vez-mitin-psoe-20261112201637-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/12/begona-gomez-kF0C-U40322960519xYC-1200x840@Diario%20Vasco.jpg"
+          "title": "República Checa - España en directo | Yeremy Pino amplía la ventaja",
+          "source": "El País",
+          "publishedAt": "2026-11-12T20:53:53.000Z",
+          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-12/republica-checa-espana-en-directo-el-partido-de-la-nations-league-en-vivo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/6G52FOK23VN4XDXTJ3J6N44WYU.jpg?auth=bbccd6aa5e6ddf845b77426c4dba525b92f4c8069d550c6f14780a74fac5ebeb"
         },
         {
-          "title": "Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»",
+          "title": "Anulado el tanto de Yéremy Pino por fuera de juego",
           "source": "El Correo",
-          "publishedAt": "2026-11-12T18:57:33.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/begona-gomez-interviene-primer-mitin-campana-pedro-20261112195733-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/12/mitin-begona-gomez-U201395790477EoC-U403226979582sE-1200x840@El%20Correo.jpg"
+          "publishedAt": "2026-11-12T19:30:51.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/seleccion-espanola/directo-republica-checa-espana-20261112163851-dirc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/rc/www/multimedia/deportes/2026/11/12/image_20261112213258-RKZVoHzpXOqTzDS90hmWNGO-1200x840@RC.png"
         }
       ],
-      "path": "/es/entity/begona-gomez-participa-por-primera-vez-en-un-mitin-del-psoe-me-habeis-dado-el-al/"
+      "path": "/es/entity/anulado-el-tanto-de-yeremy-pino-por-fuera-de-juego/"
     },
     {
-      "id": "now-cluster-españa-campana + mayoria",
+      "id": "now-cluster-españa-psoe + campana",
       "title": "El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
       "brief": "El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención.",
       "whyItMatters": "",
@@ -177,10 +205,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -216,7 +244,7 @@
       "path": "/es/entity/el-pp-y-vox-arrancan-la-campana-con-una-solida-mayoria-absoluta-y-siguen-sacando/"
     },
     {
-      "id": "now-cluster-españa-ciencia + origen",
+      "id": "now-cluster-españa-pero + ciencia",
       "title": "El enigma del crucero MV Hondius: la ciencia confirma la transmisión humana del hantavirus, pero busca el origen",
       "brief": "El enigma del crucero MV Hondius: la ciencia confirma la transmisión humana del hantavirus, pero busca el origen.",
       "whyItMatters": "",
@@ -227,7 +255,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -262,7 +290,7 @@
       "path": "/es/entity/el-enigma-del-crucero-mv-hondius-la-ciencia-confirma-la-transmision-humana-del-h/"
     },
     {
-      "id": "moving-cluster-españa-contra + tres",
+      "id": "moving-cluster-españa-contra + papa",
       "title": "El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
       "brief": "El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica.",
       "whyItMatters": "",
@@ -273,7 +301,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -316,13 +344,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -352,158 +380,48 @@
       "path": "/es/entity/un-tiroteo-masivo-en-un-gimnasio-del-centro-de-washington-deja-un-muerto-y-cuatr/"
     },
     {
-      "id": "moving-cluster-españa-sanchez + koldo",
-      "title": "La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
-      "brief": "La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'.",
+      "id": "moving-cluster-españa-gana + etxepare",
+      "title": "Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa",
+      "brief": "Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "El Mundo",
+        "El Diario Vasco",
         "El Correo"
       ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/05/17939035330629.jpg"
-      ],
+      "images": [],
       "evidence": [
         {
-          "title": "La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-12T18:19:46.000Z",
-          "sourceUrl": "https://www.elmundo.es/espana/2026/11/12/6af5ea88fc6c83c6308b45ca.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/05/17939035330629.jpg"
-        },
-        {
-          "title": "La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
-          "source": "El Correo",
-          "publishedAt": "2026-11-12T18:18:39.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/uco-revela-interlocucion-directa-exchofer-sanchez-detenido-20261112174118-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/la-uco-revela-que-sanchez-se-reunio-a-solas-con-su-exchofer-imputado-para-hablar/"
-    },
-    {
-      "id": "fading-cluster-españa-elsa + pataky",
-      "title": "Elsa Pataky oyó ladrar a sus perros de madrugada y volvió a dormirse: las cámaras grabaron a cuatro encapuchados robando en su finca",
-      "brief": "Elsa Pataky oyó ladrar a sus perros de madrugada y volvió a dormirse: las cámaras grabaron a cuatro encapuchados robando en su finca.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 15,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 68,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/XAM7I55YIFH7PIVLYSQERNURV4.jpg?auth=de8ca79944f45b2a16b18ab668f5e754ac8fba8df93f9b39fb1ed661b78aea94"
-      ],
-      "evidence": [
-        {
-          "title": "La policía investiga el robo de tres coches en la mansión de Elsa Pataky y Chris Hemsworth en Australia",
-          "source": "El País",
-          "publishedAt": "2026-11-12T14:49:36.000Z",
-          "sourceUrl": "https://elpais.com/gente/2026-11-12/la-policia-investiga-el-robo-de-tres-coches-en-la-mansion-de-elsa-pataky-y-chris-hemsworth-en-australia.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/XAM7I55YIFH7PIVLYSQERNURV4.jpg?auth=de8ca79944f45b2a16b18ab668f5e754ac8fba8df93f9b39fb1ed661b78aea94"
-        },
-        {
-          "title": "Hallan a un joven tras 6 días perdido sin comida y aguantando temperaturas de tres grados en un bosque de Australia",
-          "source": "El Correo",
-          "publishedAt": "2026-11-12T14:47:53.000Z",
-          "sourceUrl": "https://www.elcorreo.com/sociedad/encuentran-joven-tras-dias-perdido-comida-aguantando-20261112152708-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Elsa Pataky oyó ladrar a sus perros de madrugada y volvió a dormirse: las cámaras grabaron a cuatro encapuchados robando en su finca",
+          "title": "Bernardo Atxagaren 'Zazpi etxe Frantzian' eleberriaren serbierazko itzulpenak jaso du Etxepare",
           "source": "El Diario Vasco",
-          "publishedAt": "2026-11-12T14:30:45.000Z",
-          "sourceUrl": "https://www.diariovasco.com/gente-estilo/elsa-pataky-chris-hemsworth-robo-encapuchados-20261112150741-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/elsa-pataky-oyo-ladrar-a-sus-perros-de-madrugada-y-volvio-a-dormirse-las-camaras/"
-    },
-    {
-      "id": "fading-cluster-españa-jensen + huang",
-      "title": "Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa",
-      "brief": "Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "6h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 55,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/12/17944916920988.jpg",
-        "https://s3.ppllstatics.com/elcorreo/www/multimedia/economia/2026/11/12/nvidia-k2IC-U40304941259olF-1200x840@El%20Correo.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-12T13:59:35.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/12/6af5c551fdddff03488b45ad.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/12/17944916920988.jpg"
-        },
-        {
-          "title": "Quién es Kimberly Powell, la alta ejecutiva de Nvidia señalada como segunda amante de Jensen Huang",
-          "source": "El Correo",
-          "publishedAt": "2026-11-12T13:09:00.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/kimberly-powell-segunda-amante-ceo-nvidia-20261112135426-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-12T18:01:31.000Z",
+          "sourceUrl": "https://www.diariovasco.com/zabalik/bernardo-atxagaren-zazpi-etxe-frantzian-eleberriaren-serbierazko-20261112190130-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
         {
-          "title": "Una segunda infidelidad aboca a la destitución al CEO de Nvidia",
+          "title": "Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa",
           "source": "El Correo",
-          "publishedAt": "2026-11-12T00:34:26.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/segunda-infidelidad-aboca-destitucion-ceo-nvidia-20261112013425-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/economia/2026/11/12/nvidia-k2IC-U40304941259olF-1200x840@El%20Correo.jpg"
+          "publishedAt": "2026-11-12T17:40:55.000Z",
+          "sourceUrl": "https://www.elcorreo.com/culturas/libros/traduccion-serbio-novela-atxaga-recibe-premio-etxeparelaboral-20261112143541-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         }
       ],
-      "path": "/es/entity/dimite-el-consejero-delegado-de-nvidia-jensen-huang-arrastrado-por-unos-affairs/"
+      "path": "/es/entity/una-novela-de-atxaga-en-serbio-gana-el-premio-de-traduccion-etxepare-laboral-kut/"
     },
     {
       "id": "fading-cluster-españa-detenido + hombre",
@@ -517,7 +435,7 @@
       "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
@@ -552,18 +470,18 @@
       "path": "/es/entity/detenido-un-hombre-en-gijon-por-matar-a-su-ex-pareja/"
     },
     {
-      "id": "fading-cluster-españa-nacional + juez",
-      "title": "La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
-      "brief": "La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre.",
+      "id": "fading-cluster-españa-entre + general",
+      "title": "Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\"",
+      "brief": "Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\".",
       "whyItMatters": "",
       "verdict": "Si no vuelve a aparecer, sale de portada.",
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 8,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
@@ -572,30 +490,30 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Mundo",
-        "El Correo"
+        "El País",
+        "El Mundo"
       ],
       "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/09/11/17891399077729.jpg",
-        "https://s1.ppllstatics.com/rc/www/multimedia/nacional/2026/11/12/delegado%20(2)-RjHJEABpzyvAw5ibFWSQTML-1200x840@RC.jpeg"
+        "https://imagenes.elpais.com/resizer/v2/LVONZTWFTBJT3BOCRSABGWIM4Q.jpg?auth=e63be156a06397e9a8087e4492912902045d486c54087caebcc718316c88aa9a",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/12/17945009037938.jpg"
       ],
       "evidence": [
         {
-          "title": "La juez Tardón imputa al ex delegado del Gobierno en Ceuta y le cita en la Audiencia Nacional el próximo 18 de noviembre",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-12T14:31:30.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/12/6af5afbbfdddff8d358b4574.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/09/11/17891399077729.jpg"
+          "title": "Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN",
+          "source": "El País",
+          "publishedAt": "2026-11-12T17:35:24.000Z",
+          "sourceUrl": "https://elpais.com/internacional/2026-11-12/choque-en-dublin-entre-el-primer-ministro-portugues-y-el-secretario-general-de-la-otan.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/LVONZTWFTBJT3BOCRSABGWIM4Q.jpg?auth=e63be156a06397e9a8087e4492912902045d486c54087caebcc718316c88aa9a"
         },
         {
-          "title": "La jueza Tardón imputa al exdelegado del Gobierno en Ceuta por su supuesta pasividad ante los avisos previos al asalto",
-          "source": "El Correo",
-          "publishedAt": "2026-11-12T12:30:09.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/jueza-tardon-imputa-exdelegado-gobierno-ceuta-pasividad-20261112133009-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/nacional/2026/11/12/delegado%20(2)-RjHJEABpzyvAw5ibFWSQTML-1200x840@RC.jpeg"
+          "title": "Crisis abierta entre Portugal y la OTAN: \"Rutte está completamente alejado de la realidad\" y sus declaraciones son \"desafortunadas y frívolas\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-12T16:31:53.000Z",
+          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/12/6af5e2effdddff4a7f8b45bf.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/12/17945009037938.jpg"
         }
       ],
-      "path": "/es/entity/la-juez-tardon-imputa-al-ex-delegado-del-gobierno-en-ceuta-y-le-cita-en-la-audie/"
+      "path": "/es/entity/crisis-abierta-entre-portugal-y-la-otan-rutte-esta-completamente-alejado-de-la-r/"
     }
   ]
 }

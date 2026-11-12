@@ -1,10 +1,16 @@
 {
-	"updatedAt": "2026-11-12T20:00:49.000Z",
+	"updatedAt": "2026-11-12T21:00:48.034Z",
 	"feedProfile": "us",
 	"retentionDays": 90,
 	"totalAuthors": 80,
-	"totalBylinedItems": 507,
+	"totalBylinedItems": 508,
 	"runs": [
+		{
+			"at": "2026-11-12T21:00:48.034Z",
+			"itemCount": 120,
+			"bylinedItemCount": 84,
+			"authorCount": 80
+		},
 		{
 			"at": "2026-11-12T20:00:49.000Z",
 			"itemCount": 120,
@@ -178,12 +184,6 @@
 			"itemCount": 120,
 			"bylinedItemCount": 100,
 			"authorCount": 80
-		},
-		{
-			"at": "2026-11-08T16:28:13.151Z",
-			"itemCount": 120,
-			"bylinedItemCount": 100,
-			"authorCount": 80
 		}
 	],
 	"authors": [
@@ -196,9 +196,9 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 1145,
-			"confidence": "low",
+			"confidence": "medium",
 			"firstSeenAt": "2026-05-20T09:38:05.000Z",
-			"latestAt": "2026-11-12T19:02:18.000Z",
+			"latestAt": "2026-11-12T20:24:30.000Z",
 			"daysActive": 177,
 			"categories": [
 				"general"
@@ -207,6 +207,15 @@
 				"PBS NewsHour"
 			],
 			"examples": [
+				{
+					"key": "https://www.pbs.org/newshour/politics/alaska-judge-rules-a-request-by-peltola-campaign-for-ballot-data-in-senate-race-is-not-reasonable?ref=lootura.com",
+					"title": "Alaska judge rules a request by Peltola campaign for ballot data in Senate race is 'not reasonable'",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/politics/alaska-judge-rules-a-request-by-peltola-campaign-for-ballot-data-in-senate-race-is-not-reasonable?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T20:24:30.000Z",
+					"category": "general",
+					"weight": 4
+				},
 				{
 					"key": "https://www.pbs.org/newshour/politics/trump-administration-plans-to-make-it-harder-to-get-grocery-assistance?ref=lootura.com",
 					"title": "Trump administration plans to make it harder to get grocery assistance",
@@ -224,18 +233,18 @@
 					"publishedAt": "2026-11-12T18:35:44.000Z",
 					"category": "general",
 					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/politics/house-approves-bill-to-boost-compensation-for-many-veterans-with-some-floor-drama?ref=lootura.com",
-					"title": "House approves bill to boost compensation for many veterans, with some floor drama",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/politics/house-approves-bill-to-boost-compensation-for-many-veterans-with-some-floor-drama?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T18:28:00.000Z",
-					"category": "general",
-					"weight": 4
 				}
 			],
 			"items": [
+				{
+					"key": "https://www.pbs.org/newshour/politics/alaska-judge-rules-a-request-by-peltola-campaign-for-ballot-data-in-senate-race-is-not-reasonable?ref=lootura.com",
+					"title": "Alaska judge rules a request by Peltola campaign for ballot data in Senate race is 'not reasonable'",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/politics/alaska-judge-rules-a-request-by-peltola-campaign-for-ballot-data-in-senate-race-is-not-reasonable?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T20:24:30.000Z",
+					"category": "general",
+					"weight": 4
+				},
 				{
 					"key": "https://www.pbs.org/newshour/politics/trump-administration-plans-to-make-it-harder-to-get-grocery-assistance?ref=lootura.com",
 					"title": "Trump administration plans to make it harder to get grocery assistance",
@@ -764,15 +773,6 @@
 					"source": "PBS NewsHour",
 					"href": "https://www.pbs.org/newshour/world/israels-president-taps-opposition-candidate-eisenkot-to-form-a-government-in-setback-for-netanyahu?utm_source=lootura.com&ref=lootura.com",
 					"publishedAt": "2026-11-07T20:39:08.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/politics/melania-trump-and-lsu-announce-a-scholarship-program-for-students-who-were-in-foster-care?ref=lootura.com",
-					"title": "Melania Trump and LSU announce a scholarship program for students who were in foster care",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/politics/melania-trump-and-lsu-announce-a-scholarship-program-for-students-who-were-in-foster-care?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T19:35:15.000Z",
 					"category": "general",
 					"weight": 4
 				}
@@ -5417,6 +5417,93 @@
 			]
 		},
 		{
+			"id": "the new york times politics::ruth igielnik",
+			"name": "Ruth Igielnik",
+			"source": "The New York Times Politics",
+			"profileUrl": "",
+			"itemCount": 4,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 118,
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-02T02:49:50.000Z",
+			"latestAt": "2026-11-12T20:29:06.000Z",
+			"daysActive": 11,
+			"categories": [
+				"politics"
+			],
+			"sources": [
+				"The New York Times Politics"
+			],
+			"examples": [
+				{
+					"key": "https://www.nytimes.com/2026/11/12/us/politics/poll-error-democrats-midterms.html?ref=lootura.com",
+					"title": "Why 2026 Midterm Polls Underestimated Democratic Support",
+					"source": "The New York Times Politics",
+					"href": "https://www.nytimes.com/2026/11/12/us/politics/poll-error-democrats-midterms.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T20:29:06.000Z",
+					"category": "politics",
+					"weight": 4
+				},
+				{
+					"key": "https://www.nytimes.com/2026/11/06/us/politics/young-voters-democratic-wave-midterms.html?ref=lootura.com",
+					"title": "Fed Up With Politics and Struggle, Young Voters Powered Democrats’ Midterm Victory",
+					"source": "The New York Times Politics",
+					"href": "https://www.nytimes.com/2026/11/06/us/politics/young-voters-democratic-wave-midterms.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-06T12:26:56.000Z",
+					"category": "politics",
+					"weight": 4
+				},
+				{
+					"key": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-governor.html?ref=lootura.com",
+					"title": "Democrats Are Leading or Tied in 7 Battleground Governor’s Races, Polls Find",
+					"source": "The New York Times Politics",
+					"href": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-governor.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-02T03:07:41.000Z",
+					"category": "politics",
+					"weight": 4
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.nytimes.com/2026/11/12/us/politics/poll-error-democrats-midterms.html?ref=lootura.com",
+					"title": "Why 2026 Midterm Polls Underestimated Democratic Support",
+					"source": "The New York Times Politics",
+					"href": "https://www.nytimes.com/2026/11/12/us/politics/poll-error-democrats-midterms.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T20:29:06.000Z",
+					"category": "politics",
+					"weight": 4
+				},
+				{
+					"key": "https://www.nytimes.com/2026/11/06/us/politics/young-voters-democratic-wave-midterms.html?ref=lootura.com",
+					"title": "Fed Up With Politics and Struggle, Young Voters Powered Democrats’ Midterm Victory",
+					"source": "The New York Times Politics",
+					"href": "https://www.nytimes.com/2026/11/06/us/politics/young-voters-democratic-wave-midterms.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-06T12:26:56.000Z",
+					"category": "politics",
+					"weight": 4
+				},
+				{
+					"key": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-governor.html?ref=lootura.com",
+					"title": "Democrats Are Leading or Tied in 7 Battleground Governor’s Races, Polls Find",
+					"source": "The New York Times Politics",
+					"href": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-governor.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-02T03:07:41.000Z",
+					"category": "politics",
+					"weight": 4
+				},
+				{
+					"key": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-senate.html?ref=lootura.com",
+					"title": "Democrats Show Strength in Final Days of Race for the Senate, New Polls Find",
+					"source": "The New York Times Politics",
+					"href": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-senate.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-02T02:49:50.000Z",
+					"category": "politics",
+					"weight": 4
+				}
+			]
+		},
+		{
 			"id": "the new york times politics::shane goldmacher",
 			"name": "Shane Goldmacher",
 			"source": "The New York Times Politics",
@@ -5947,7 +6034,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 110,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-10T02:13:11.000Z",
 			"latestAt": "2026-11-12T19:38:36.000Z",
 			"daysActive": 3,
@@ -7000,84 +7087,6 @@
 			]
 		},
 		{
-			"id": "the new york times politics::ruth igielnik",
-			"name": "Ruth Igielnik",
-			"source": "The New York Times Politics",
-			"profileUrl": "",
-			"itemCount": 3,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 94,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-02T02:49:50.000Z",
-			"latestAt": "2026-11-06T12:26:56.000Z",
-			"daysActive": 5,
-			"categories": [
-				"politics"
-			],
-			"sources": [
-				"The New York Times Politics"
-			],
-			"examples": [
-				{
-					"key": "https://www.nytimes.com/2026/11/06/us/politics/young-voters-democratic-wave-midterms.html?ref=lootura.com",
-					"title": "Fed Up With Politics and Struggle, Young Voters Powered Democrats’ Midterm Victory",
-					"source": "The New York Times Politics",
-					"href": "https://www.nytimes.com/2026/11/06/us/politics/young-voters-democratic-wave-midterms.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-06T12:26:56.000Z",
-					"category": "politics",
-					"weight": 4
-				},
-				{
-					"key": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-governor.html?ref=lootura.com",
-					"title": "Democrats Are Leading or Tied in 7 Battleground Governor’s Races, Polls Find",
-					"source": "The New York Times Politics",
-					"href": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-governor.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-02T03:07:41.000Z",
-					"category": "politics",
-					"weight": 4
-				},
-				{
-					"key": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-senate.html?ref=lootura.com",
-					"title": "Democrats Show Strength in Final Days of Race for the Senate, New Polls Find",
-					"source": "The New York Times Politics",
-					"href": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-senate.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-02T02:49:50.000Z",
-					"category": "politics",
-					"weight": 4
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.nytimes.com/2026/11/06/us/politics/young-voters-democratic-wave-midterms.html?ref=lootura.com",
-					"title": "Fed Up With Politics and Struggle, Young Voters Powered Democrats’ Midterm Victory",
-					"source": "The New York Times Politics",
-					"href": "https://www.nytimes.com/2026/11/06/us/politics/young-voters-democratic-wave-midterms.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-06T12:26:56.000Z",
-					"category": "politics",
-					"weight": 4
-				},
-				{
-					"key": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-governor.html?ref=lootura.com",
-					"title": "Democrats Are Leading or Tied in 7 Battleground Governor’s Races, Polls Find",
-					"source": "The New York Times Politics",
-					"href": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-governor.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-02T03:07:41.000Z",
-					"category": "politics",
-					"weight": 4
-				},
-				{
-					"key": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-senate.html?ref=lootura.com",
-					"title": "Democrats Show Strength in Final Days of Race for the Senate, New Polls Find",
-					"source": "The New York Times Politics",
-					"href": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-senate.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-02T02:49:50.000Z",
-					"category": "politics",
-					"weight": 4
-				}
-			]
-		},
-		{
 			"id": "npr politics::maham javaid",
 			"name": "Maham Javaid",
 			"source": "NPR Politics",
@@ -8004,7 +8013,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 79,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-12T14:00:10.000Z",
 			"latestAt": "2026-11-12T19:38:50.000Z",
 			"daysActive": 1,
@@ -8064,7 +8073,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 79,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-12T10:01:45.000Z",
 			"latestAt": "2026-11-12T19:31:08.000Z",
 			"daysActive": 1,
@@ -8664,7 +8673,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 72,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-12T19:05:40.000Z",
 			"latestAt": "2026-11-12T19:30:00.000Z",
 			"daysActive": 1,
