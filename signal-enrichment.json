@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-12T19:03:55.334Z",
+	"updatedAt": "2026-11-12T19:25:49.967Z",
 	"entries": {
 		"cluster-spain-cuatro-heridos-cuatro-heridos": {
 			"candidateId": "cluster-spain-cuatro + heridos",
@@ -48,18 +48,18 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
 		},
-		"cluster-spain-nacional-ordena-nacional-ordena": {
-			"candidateId": "cluster-spain-nacional + ordena",
-			"label": "nacional + ordena",
+		"cluster-spain-nacional-nucleo-nacional-nucleo": {
+			"candidateId": "cluster-spain-nacional + nucleo",
+			"label": "nacional + nucleo",
 			"latestAt": "2026-11-12T17:27:42.000Z",
 			"startedAt": "2026-11-12T16:53:10.000Z",
 			"itemCount": 3,
 			"sourceCount": 3,
 			"terms": [
 				"nacional",
-				"ordena"
+				"nucleo"
 			],
 			"sources": [
 				"El Correo",
@@ -71,12 +71,12 @@
 				"La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales",
 				"La portavoz de Núcleo Nacional guardaba en su casa 13 armas largas y quería “ir a pegar tiros a París”"
 			],
-			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
 			"entityLastCandidateAt": "2026-11-12T17:27:42.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "nacional + ordena",
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "nacional + nucleo",
 					"latestAt": "2026-11-12T17:27:42.000Z",
 					"itemCount": 3,
 					"sourceCount": 3,
@@ -90,11 +90,11 @@
 						"El Mundo",
 						"El País"
 					],
-					"eventId": "cluster-spain-nacional + ordena|2026-11-12T17:27:42.000Z|3|La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes"
+					"eventId": "cluster-spain-nacional + nucleo|2026-11-12T17:27:42.000Z|3|La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
 		},
 		"cluster-spain-cuatro-tres-cuatro-tres": {
 			"candidateId": "cluster-spain-cuatro + tres",
@@ -140,7 +140,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
 		},
 		"cluster-spain-nacional-imputa-nacional-imputa": {
 			"candidateId": "cluster-spain-nacional + imputa",
@@ -186,7 +186,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
 		},
 		"cluster-spain-sanchez-koldo-sanchez-koldo": {
 			"candidateId": "cluster-spain-sanchez + koldo",
@@ -230,18 +230,102 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
 		},
-		"cluster-spain-contra-sexuales-contra-sexuales": {
-			"candidateId": "cluster-spain-contra + sexuales",
-			"label": "contra + sexuales",
+		"cluster-spain-primera-psoe-primera-psoe": {
+			"candidateId": "cluster-spain-primera + psoe",
+			"label": "primera + psoe",
+			"latestAt": "2026-11-12T19:17:07.000Z",
+			"startedAt": "2026-11-12T19:16:38.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"primera",
+				"psoe"
+			],
+			"sources": [
+				"El Correo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"Begoña Gómez interviene por primera vez en un mitin del PSOE",
+				"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
+			"entityLastCandidateAt": "2026-11-12T19:17:07.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "primera + psoe",
+					"latestAt": "2026-11-12T19:17:07.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Begoña Gómez interviene por primera vez en un mitin del PSOE",
+						"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»"
+					],
+					"sources": [
+						"El Correo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-primera + psoe|2026-11-12T19:17:07.000Z|2|Begoña Gómez interviene por primera vez en un mitin del PSOE"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+		},
+		"cluster-spain-campana-mayoria-campana-mayoria": {
+			"candidateId": "cluster-spain-campana + mayoria",
+			"label": "campana + mayoria",
+			"latestAt": "2026-11-12T19:14:00.000Z",
+			"startedAt": "2026-11-12T16:07:32.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"campana",
+				"mayoria"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
+				"El CIS de Tezanos vaticina una victoria del PSOE el 29-N que dejaría sin mayoría absoluta a PP y Vox"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
+			"entityLastCandidateAt": "2026-11-12T19:14:00.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "campana + mayoria",
+					"latestAt": "2026-11-12T19:14:00.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
+						"El CIS de Tezanos vaticina una victoria del PSOE el 29-N que dejaría sin mayoría absoluta a PP y Vox"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-campana + mayoria|2026-11-12T19:14:00.000Z|2|El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+		},
+		"cluster-spain-contra-tres-contra-tres": {
+			"candidateId": "cluster-spain-contra + tres",
+			"label": "contra + tres",
 			"latestAt": "2026-11-12T18:43:07.000Z",
 			"startedAt": "2026-11-12T13:18:33.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
 				"contra",
-				"sexuales"
+				"tres"
 			],
 			"sources": [
 				"El Mundo",
@@ -251,12 +335,12 @@
 				"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
 				"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
 			],
-			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
 			"entityLastCandidateAt": "2026-11-12T18:43:07.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "contra + sexuales",
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "contra + tres",
 					"latestAt": "2026-11-12T18:43:07.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -268,11 +352,11 @@
 						"El Mundo",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-contra + sexuales|2026-11-12T18:43:07.000Z|2|El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica"
+					"eventId": "cluster-spain-contra + tres|2026-11-12T18:43:07.000Z|2|El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
 		},
 		"cluster-spain-gana-etxepare-gana-etxepare": {
 			"candidateId": "cluster-spain-gana + etxepare",
@@ -314,7 +398,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
 		},
 		"cluster-spain-entre-general-entre-general": {
 			"candidateId": "cluster-spain-entre + general",
@@ -356,7 +440,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
 		},
 		"cluster-spain-sanchez-electoral-sanchez-electoral": {
 			"candidateId": "cluster-spain-sanchez + electoral",
@@ -398,7 +482,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
 		},
 		"cluster-spain-detenido-hombre-detenido-hombre": {
 			"candidateId": "cluster-spain-detenido + hombre",
@@ -440,18 +524,18 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
 		},
-		"cluster-spain-delegado-nvidia-delegado-nvidia": {
-			"candidateId": "cluster-spain-delegado + nvidia",
-			"label": "delegado + nvidia",
+		"cluster-spain-nvidia-quien-nvidia-quien": {
+			"candidateId": "cluster-spain-nvidia + quien",
+			"label": "nvidia + quien",
 			"latestAt": "2026-11-12T13:59:35.000Z",
 			"startedAt": "2026-11-12T00:34:26.000Z",
 			"itemCount": 3,
 			"sourceCount": 2,
 			"terms": [
-				"delegado",
-				"nvidia"
+				"nvidia",
+				"quien"
 			],
 			"sources": [
 				"El Mundo",
@@ -462,12 +546,12 @@
 				"Quién es Kimberly Powell, la alta ejecutiva de Nvidia señalada como segunda amante de Jensen Huang",
 				"Una segunda infidelidad aboca a la destitución al CEO de Nvidia"
 			],
-			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
+			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
 			"entityLastCandidateAt": "2026-11-12T13:59:35.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T17:19:08.947Z",
-					"label": "delegado + nvidia",
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "nvidia + quien",
 					"latestAt": "2026-11-12T13:59:35.000Z",
 					"itemCount": 3,
 					"sourceCount": 2,
@@ -480,11 +564,11 @@
 						"El Mundo",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-delegado + nvidia|2026-11-12T13:59:35.000Z|3|Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa"
+					"eventId": "cluster-spain-nvidia + quien|2026-11-12T13:59:35.000Z|3|Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -659,28 +743,48 @@
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
 			"label": "trump + democrats",
-			"latestAt": "2026-11-09T23:48:34.000Z",
-			"startedAt": "2026-11-09T11:45:25.000Z",
-			"itemCount": 4,
+			"latestAt": "2026-11-12T18:34:46.000Z",
+			"startedAt": "2026-11-12T09:18:04.000Z",
+			"itemCount": 6,
 			"sourceCount": 3,
 			"terms": [
 				"trump",
 				"democrats"
 			],
 			"sources": [
-				"The New York Times Politics",
-				"PBS NewsHour",
-				"NPR Politics"
+				"CBS News",
+				"NPR Politics",
+				"The New York Times Politics"
 			],
 			"titles": [
-				"Democrats Demand Answers on Trump’s A.I. Policy Amid Spy Plot",
-				"Trump says his deportation policy 'might have been too tough' for midterm voters",
-				"After midterm losses, Trump makes changes to his inner circle",
-				"Democrats’ Fight With Trump Is Just Getting Started"
+				"Democrats respond to warning over planned Trump probes: \"We're not going to be threatened\"",
+				"Democrats want to stop Trump's arch, golf course and more. What are their options?",
+				"Democrats Put Targets on Notice as Trump Oversight Takes Shape",
+				"Incoming House Oversight Committee chair Robert Garcia reacts to White House warning",
+				"White House warns Trump probes could be criminal. Rep. Robert Garcia won't back down",
+				"White House warns Democrats over future probes, citing possible 'criminality'"
 			],
 			"entityFirstSeenAt": "2026-11-04T23:00:23.472Z",
-			"entityLastCandidateAt": "2026-11-09T23:48:34.000Z",
+			"entityLastCandidateAt": "2026-11-12T18:34:46.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "trump + democrats",
+					"latestAt": "2026-11-12T18:34:46.000Z",
+					"itemCount": 6,
+					"sourceCount": 3,
+					"headlines": [
+						"Democrats respond to warning over planned Trump probes: \"We're not going to be threatened\"",
+						"Democrats want to stop Trump's arch, golf course and more. What are their options?",
+						"Democrats Put Targets on Notice as Trump Oversight Takes Shape"
+					],
+					"sources": [
+						"CBS News",
+						"NPR Politics",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-trump + democrats|2026-11-12T18:34:46.000Z|6|Democrats respond to warning over planned Trump probes: \"We're not going to be threatened\""
+				},
 				{
 					"observedAt": "2026-11-10T01:48:34.517Z",
 					"label": "trump + democrats",
@@ -861,7 +965,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T01:55:22.461Z"
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
 		"cluster-usa-trump-house-trump-house": {
 			"candidateId": "cluster-usa-trump + house",
@@ -1719,48 +1823,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T01:19:45.981Z"
 		},
-		"cluster-spain-gana-partido-gana-partido": {
-			"candidateId": "cluster-spain-gana + partido",
-			"label": "gana + partido",
-			"latestAt": "2026-11-08T19:19:41.000Z",
-			"startedAt": "2026-11-08T16:24:45.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"gana",
-				"partido"
-			],
-			"sources": [
-				"El Mundo",
-				"El País"
-			],
-			"titles": [
-				"Bezzecchi gana en Losail y la bola de partido de Márquez se traslada a Portugal",
-				"Un heroico Martín complica el alirón de Márquez, que gana la ‘sprint’ del GP de Qatar tras un polémico toque con Bezzecchi"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:29:34.540Z",
-			"entityLastCandidateAt": "2026-11-08T19:19:41.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:29:34.540Z",
-					"label": "gana + partido",
-					"latestAt": "2026-11-08T19:19:41.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Bezzecchi gana en Losail y la bola de partido de Márquez se traslada a Portugal",
-						"Un heroico Martín complica el alirón de Márquez, que gana la ‘sprint’ del GP de Qatar tras un polémico toque con Bezzecchi"
-					],
-					"sources": [
-						"El Mundo",
-						"El País"
-					],
-					"eventId": "cluster-spain-gana + partido|2026-11-08T19:19:41.000Z|2|Bezzecchi gana en Losail y la bola de partido de Márquez se traslada a Portugal"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T01:19:45.981Z"
-		},
 		"cluster-usa-nvidia-investigation-nvidia-investigation": {
 			"candidateId": "cluster-usa-nvidia + investigation",
 			"label": "nvidia + investigation",
@@ -1927,53 +1989,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-08T21:30:11.158Z"
 		},
-		"cluster-usa-democrats-hegseth-democrats-hegseth": {
-			"candidateId": "cluster-usa-democrats + hegseth",
-			"label": "democrats + hegseth",
-			"latestAt": "2026-11-08T19:22:52.000Z",
-			"startedAt": "2026-11-08T14:57:58.000Z",
-			"itemCount": 4,
-			"sourceCount": 3,
-			"terms": [
-				"democrats",
-				"hegseth"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"NBC News Politics",
-				"ABC News"
-			],
-			"titles": [
-				"Jeffries Backs Impeaching Hegseth as Democrats Push for Accountability",
-				"House Minority Leader Hakeem Jeffries says he is a ‘hard yes’ on impeaching Defense Secretary Pete Hegseth",
-				"Hakeem Jeffries, in Line to Become House Speaker, Promises Bold Agenda",
-				"'I'm a hard yes': Hakeem Jeffries announces support for Hegseth impeachment"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:30:11.158Z",
-			"entityLastCandidateAt": "2026-11-08T19:22:52.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:30:11.158Z",
-					"label": "democrats + hegseth",
-					"latestAt": "2026-11-08T19:22:52.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Jeffries Backs Impeaching Hegseth as Democrats Push for Accountability",
-						"House Minority Leader Hakeem Jeffries says he is a ‘hard yes’ on impeaching Defense Secretary Pete Hegseth",
-						"Hakeem Jeffries, in Line to Become House Speaker, Promises Bold Agenda"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"NBC News Politics",
-						"ABC News"
-					],
-					"eventId": "cluster-usa-democrats + hegseth|2026-11-08T19:22:52.000Z|4|Jeffries Backs Impeaching Hegseth as Democrats Push for Accountability"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T21:30:11.158Z"
-		},
 		"cluster-usa-trump-election-trump-election": {
 			"candidateId": "cluster-usa-trump + election",
 			"label": "trump + election",
@@ -2015,48 +2030,6 @@
 						"The New York Times"
 					],
 					"eventId": "cluster-usa-trump + election|2026-11-08T20:15:36.000Z|3|The Kremlin hopes the U.S. election shake-up won't shift Trump's negotiations on Ukraine"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-08T21:30:11.158Z"
-		},
-		"cluster-usa-found-women-found-women": {
-			"candidateId": "cluster-usa-found + women",
-			"label": "found + women",
-			"latestAt": "2026-11-08T19:05:04.000Z",
-			"startedAt": "2026-11-08T15:07:15.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"found",
-				"women"
-			],
-			"sources": [
-				"The Guardian US",
-				"NPR World"
-			],
-			"titles": [
-				"Russell Brand case must be wake-up call to protect women in media, Lisa Nandy says",
-				"Russell Brand to learn sentence after being found guilty of rape and sexual assault"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:30:11.158Z",
-			"entityLastCandidateAt": "2026-11-08T19:05:04.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-08T21:30:11.158Z",
-					"label": "found + women",
-					"latestAt": "2026-11-08T19:05:04.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Russell Brand case must be wake-up call to protect women in media, Lisa Nandy says",
-						"Russell Brand to learn sentence after being found guilty of rape and sexual assault"
-					],
-					"sources": [
-						"The Guardian US",
-						"NPR World"
-					],
-					"eventId": "cluster-usa-found + women|2026-11-08T19:05:04.000Z|2|Russell Brand case must be wake-up call to protect women in media, Lisa Nandy says"
 				}
 			],
 			"entityState": "active",
@@ -12840,25 +12813,45 @@
 		"cluster-usa-mississippi-senate-mississippi-senate": {
 			"candidateId": "cluster-usa-mississippi + senate",
 			"label": "mississippi + senate",
-			"latestAt": "2026-11-12T15:19:22.000Z",
+			"latestAt": "2026-11-12T18:16:50.000Z",
 			"startedAt": "2026-11-12T09:34:45.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
+			"itemCount": 3,
+			"sourceCount": 3,
 			"terms": [
 				"mississippi",
 				"senate"
 			],
 			"sources": [
+				"The New York Times Politics",
 				"CBS News",
 				"NPR Politics"
 			],
 			"titles": [
+				"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
 				"Mississippi goes blue after highly contested Senate battle",
 				"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
 			],
 			"entityFirstSeenAt": "2026-11-12T13:50:33.057Z",
-			"entityLastCandidateAt": "2026-11-12T15:19:22.000Z",
+			"entityLastCandidateAt": "2026-11-12T18:16:50.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "mississippi + senate",
+					"latestAt": "2026-11-12T18:16:50.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
+						"Mississippi goes blue after highly contested Senate battle",
+						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-mississippi + senate|2026-11-12T18:16:50.000Z|3|How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter"
+				},
 				{
 					"observedAt": "2026-11-12T15:47:37.262Z",
 					"label": "mississippi + senate",
@@ -12895,7 +12888,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
 		"cluster-usa-future-jensen-future-jensen": {
 			"candidateId": "cluster-usa-future + jensen",
@@ -13527,31 +13520,51 @@
 		"cluster-usa-building-collapse-building-collapse": {
 			"candidateId": "cluster-usa-building + collapse",
 			"label": "building + collapse",
-			"latestAt": "2026-11-12T15:32:54.000Z",
+			"latestAt": "2026-11-12T18:31:16.000Z",
 			"startedAt": "2026-11-12T12:26:34.000Z",
-			"itemCount": 6,
-			"sourceCount": 4,
+			"itemCount": 7,
+			"sourceCount": 5,
 			"terms": [
 				"building",
 				"collapse"
 			],
 			"sources": [
-				"CBS News",
-				"The Guardian US",
 				"The New York Times",
-				"NBC News"
+				"NPR",
+				"PBS NewsHour",
+				"NBC News",
+				"CBS News"
 			],
 			"titles": [
-				"NYC building collapse: Death toll rises",
-				"Greta Thunberg and a collapsed building in Brooklyn: photos of the day – Thursday",
-				"Brooklyn building collapse kills at least eight and injures 17 as search continues",
-				"Excavation Was Taking Place Next to Building in Brooklyn That Collapsed",
 				"What to Know About the Deadly Building Collapse in Brooklyn",
-				"Building Collapse in Brooklyn Leaves at Least 5 Dead"
+				"Casualties continue to rise after Brooklyn building collapses",
+				"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says",
+				"Building Collapse in Brooklyn Leaves at Least 5 Dead",
+				"Mamdani says eight people ‘senselessly’ died in NYC building collapse",
+				"NYC building collapse: Death toll rises",
+				"2 children among the 8 dead in New York City building collapse, officials say"
 			],
 			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T15:32:54.000Z",
+			"entityLastCandidateAt": "2026-11-12T18:31:16.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T18:31:16.000Z",
+					"itemCount": 7,
+					"sourceCount": 5,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Casualties continue to rise after Brooklyn building collapses",
+						"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T18:31:16.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
 				{
 					"observedAt": "2026-11-12T15:47:37.262Z",
 					"label": "building + collapse",
@@ -13572,7 +13585,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
 		"cluster-usa-nvidia-affair-nvidia-affair": {
 			"candidateId": "cluster-usa-nvidia + affair",
@@ -13665,7 +13678,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
 		"cluster-usa-hospital-least-hospital-least": {
 			"candidateId": "cluster-usa-hospital + least",
@@ -14146,6 +14159,50 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T17:19:08.947Z"
 		},
+		"cluster-spain-delegado-nvidia-delegado-nvidia": {
+			"candidateId": "cluster-spain-delegado + nvidia",
+			"label": "delegado + nvidia",
+			"latestAt": "2026-11-12T13:59:35.000Z",
+			"startedAt": "2026-11-12T00:34:26.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"delegado",
+				"nvidia"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa",
+				"Quién es Kimberly Powell, la alta ejecutiva de Nvidia señalada como segunda amante de Jensen Huang",
+				"Una segunda infidelidad aboca a la destitución al CEO de Nvidia"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:08.947Z",
+			"entityLastCandidateAt": "2026-11-12T13:59:35.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T17:19:08.947Z",
+					"label": "delegado + nvidia",
+					"latestAt": "2026-11-12T13:59:35.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa",
+						"Quién es Kimberly Powell, la alta ejecutiva de Nvidia señalada como segunda amante de Jensen Huang",
+						"Una segunda infidelidad aboca a la destitución al CEO de Nvidia"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-delegado + nvidia|2026-11-12T13:59:35.000Z|3|Dimite el consejero delegado de Nvidia, Jensen Huang, arrastrado por unos affairs que han desangrado a la compañía en bolsa"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
 		"cluster-usa-nvidia-trump-nvidia-trump": {
 			"candidateId": "cluster-usa-nvidia + trump",
 			"label": "nvidia + trump",
@@ -14256,7 +14313,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
 		"cluster-usa-shooting-logan-shooting-logan": {
 			"candidateId": "cluster-usa-shooting + logan",
@@ -14299,19 +14356,388 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
+		},
+		"cluster-spain-nacional-ordena-nacional-ordena": {
+			"candidateId": "cluster-spain-nacional + ordena",
+			"label": "nacional + ordena",
+			"latestAt": "2026-11-12T17:27:42.000Z",
+			"startedAt": "2026-11-12T16:53:10.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"nacional",
+				"ordena"
+			],
+			"sources": [
+				"El Correo",
+				"El Mundo",
+				"El País"
+			],
+			"titles": [
+				"La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes",
+				"La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales",
+				"La portavoz de Núcleo Nacional guardaba en su casa 13 armas largas y quería “ir a pegar tiros a París”"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T17:27:42.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "nacional + ordena",
+					"latestAt": "2026-11-12T17:27:42.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes",
+						"La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales",
+						"La portavoz de Núcleo Nacional guardaba en su casa 13 armas largas y quería “ir a pegar tiros a París”"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo",
+						"El País"
+					],
+					"eventId": "cluster-spain-nacional + ordena|2026-11-12T17:27:42.000Z|3|La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-spain-contra-sexuales-contra-sexuales": {
+			"candidateId": "cluster-spain-contra + sexuales",
+			"label": "contra + sexuales",
+			"latestAt": "2026-11-12T18:43:07.000Z",
+			"startedAt": "2026-11-12T13:18:33.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"contra",
+				"sexuales"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
+				"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:43:07.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "contra + sexuales",
+					"latestAt": "2026-11-12T18:43:07.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
+						"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-contra + sexuales|2026-11-12T18:43:07.000Z|2|El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-huang-jensen-huang-jensen": {
+			"candidateId": "cluster-usa-huang + jensen",
+			"label": "huang + jensen",
+			"latestAt": "2026-11-12T19:04:13.000Z",
+			"startedAt": "2026-11-12T01:57:34.000Z",
+			"itemCount": 20,
+			"sourceCount": 6,
+			"terms": [
+				"huang",
+				"jensen"
+			],
+			"sources": [
+				"CBS News",
+				"The New York Times",
+				"NBC News",
+				"PBS NewsHour",
+				"NPR",
+				"The Verge"
+			],
+			"titles": [
+				"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+				"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
+				"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+				"Trump reacts after Nvidia CEO Jensen Huang resigns",
+				"Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
+				"Sharp swings for Nvidia and oil prices weigh on Wall Street",
+				"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
+				"Nvidia stock falls after Huang resigns, weighing on broader market",
+				"Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
+				"Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
+				"Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
+				"Nvidia CEO Jensen Huang resigns in wake of affair with woman suspected of spying for China",
+				"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+				"Nvidia Board Meets to Discuss CEO Jensen Huang’s Future",
+				"Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
+				"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
+				"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
+				"The Jensen Huang scandal is hardly over"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T19:04:13.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-12T19:04:13.000Z",
+					"itemCount": 20,
+					"sourceCount": 6,
+					"headlines": [
+						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-12T19:04:13.000Z|20|Here's how Jensen Huang's abrupt resignation unfolded at Nvidia"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-nvidia-mississippi-nvidia-mississippi": {
+			"candidateId": "cluster-usa-nvidia + mississippi",
+			"label": "nvidia + mississippi",
+			"latestAt": "2026-11-12T14:14:44.000Z",
+			"startedAt": "2026-11-12T09:32:33.000Z",
+			"itemCount": 4,
+			"sourceCount": 3,
+			"terms": [
+				"nvidia",
+				"mississippi"
+			],
+			"sources": [
+				"The New York Times",
+				"CBS News",
+				"NPR Politics"
+			],
+			"titles": [
+				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
+				"Democrat Scott Colom wins Mississippi Senate race in upset",
+				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset",
+				"Democrat Scott Colom wins Mississippi Senate race"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T14:14:44.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "nvidia + mississippi",
+					"latestAt": "2026-11-12T14:14:44.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
+						"Democrat Scott Colom wins Mississippi Senate race in upset",
+						"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-nvidia + mississippi|2026-11-12T14:14:44.000Z|4|In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-hegseth-soldier-hegseth-soldier": {
+			"candidateId": "cluster-usa-hegseth + soldier",
+			"label": "hegseth + soldier",
+			"latestAt": "2026-11-12T18:49:29.000Z",
+			"startedAt": "2026-11-12T18:35:44.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"hegseth",
+				"soldier"
+			],
+			"sources": [
+				"CBS News",
+				"PBS NewsHour"
+			],
+			"titles": [
+				"Hegseth awards medal to soldier who reprimanded his party at Arlington's scared tomb",
+				"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:49:29.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "hegseth + soldier",
+					"latestAt": "2026-11-12T18:49:29.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Hegseth awards medal to soldier who reprimanded his party at Arlington's scared tomb",
+						"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
+					],
+					"sources": [
+						"CBS News",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-hegseth + soldier|2026-11-12T18:49:29.000Z|2|Hegseth awards medal to soldier who reprimanded his party at Arlington's scared tomb"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-shooting-here-shooting-here": {
+			"candidateId": "cluster-usa-shooting + here",
+			"label": "shooting + here",
+			"latestAt": "2026-11-12T18:36:02.000Z",
+			"startedAt": "2026-11-12T16:36:49.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"shooting",
+				"here"
+			],
+			"sources": [
+				"CBS News",
+				"NBC News"
+			],
+			"titles": [
+				"Witness describes deadly D.C. shooting: \"Alright, let's get out of here\"",
+				"'There was no way of getting out': Witness describes gym shooting scene"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:36:02.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "shooting + here",
+					"latestAt": "2026-11-12T18:36:02.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Witness describes deadly D.C. shooting: \"Alright, let's get out of here\"",
+						"'There was no way of getting out': Witness describes gym shooting scene"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-shooting + here|2026-11-12T18:36:02.000Z|2|Witness describes deadly D.C. shooting: \"Alright, let's get out of here\""
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-hospital-israeli-hospital-israeli": {
+			"candidateId": "cluster-usa-hospital + israeli",
+			"label": "hospital + israeli",
+			"latestAt": "2026-11-12T17:38:27.000Z",
+			"startedAt": "2026-11-12T15:26:36.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"hospital",
+				"israeli"
+			],
+			"sources": [
+				"The New York Times World",
+				"CBS News"
+			],
+			"titles": [
+				"Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Say",
+				"Israeli strike on Gaza hospital kills 6, health authorities say"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T17:38:27.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "hospital + israeli",
+					"latestAt": "2026-11-12T17:38:27.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Say",
+						"Israeli strike on Gaza hospital kills 6, health authorities say"
+					],
+					"sources": [
+						"The New York Times World",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-hospital + israeli|2026-11-12T17:38:27.000Z|2|Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Say"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-usa-shooting-leaves-shooting-leaves": {
+			"candidateId": "cluster-usa-shooting + leaves",
+			"label": "shooting + leaves",
+			"latestAt": "2026-11-12T16:12:53.000Z",
+			"startedAt": "2026-11-12T13:48:00.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"shooting",
+				"leaves"
+			],
+			"sources": [
+				"NPR Politics",
+				"CBS News"
+			],
+			"titles": [
+				"D.C. shooting leaves 1 person killed, 4 injured. Gunman dead",
+				"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T16:12:53.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "shooting + leaves",
+					"latestAt": "2026-11-12T16:12:53.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"D.C. shooting leaves 1 person killed, 4 injured. Gunman dead",
+						"1 dead, 4 injured in shooting in Washington, D.C.'s Logan Circle neighborhood, authorities say"
+					],
+					"sources": [
+						"NPR Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-shooting + leaves|2026-11-12T16:12:53.000Z|2|D.C. shooting leaves 1 person killed, 4 injured. Gunman dead"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-es-2026-11-12T19:03:55.334Z",
+		"id": "local-es-2026-11-12T19:25:49.967Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-12T19:03:55.334Z",
-		"finishedAt": "2026-11-12T19:06:41.083Z",
-		"signalsCandidate": 11,
-		"signalsSelected": 11,
+		"startedAt": "2026-11-12T19:25:49.967Z",
+		"finishedAt": "2026-11-12T19:27:47.030Z",
+		"signalsCandidate": 13,
+		"signalsSelected": 13,
 		"signalsProcessed": 0,
-		"cacheHits": 2,
-		"skippedByConfig": 11,
+		"cacheHits": 8,
+		"skippedByConfig": 13,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -14321,12 +14747,12 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 2,
+			"cacheHits": 8,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 279,
-			"retainedByTtl": 268,
-			"retiredByTtl": 1
+			"retained": 287,
+			"retainedByTtl": 274,
+			"retiredByTtl": 3
 		},
 		"costUsd": 0
 	}
