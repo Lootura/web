@@ -2,81 +2,100 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-13T05:00:48.275Z",
+	"updatedAt": "2026-11-13T06:00:48.217Z",
 	"entries": {
-		"cluster-usa-building-collapse-building-collapse": {
-			"candidateId": "cluster-usa-building + collapse",
-			"label": "building + collapse",
-			"latestAt": "2026-11-13T02:27:43.000Z",
-			"startedAt": "2026-11-12T18:15:00.000Z",
-			"itemCount": 8,
+		"cluster-usa-building-brooklyn-building-brooklyn": {
+			"candidateId": "cluster-usa-building + brooklyn",
+			"label": "building + brooklyn",
+			"latestAt": "2026-11-13T04:59:04.000Z",
+			"startedAt": "2026-11-12T16:09:11.000Z",
+			"itemCount": 9,
 			"sourceCount": 5,
 			"terms": [
 				"building",
-				"collapse"
+				"brooklyn"
 			],
 			"sources": [
-				"CBS News",
 				"The New York Times",
+				"CBS News",
 				"NBC News",
 				"PBS NewsHour",
 				"NPR"
 			],
 			"titles": [
+				"How the Deadly Brooklyn Building Collapse Unfolded",
 				"Crews begin excavating site of building collapse in Brooklyn",
-				"What to Know About the Deadly Building Collapse in Brooklyn",
 				"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
 				"First video of Brooklyn building collapse",
 				"New York building collapse kills 8, including 2 children",
 				"Eight Who Died in Building Collapse Reflected New York’s Diversity",
 				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
-				"Casualties continue to rise after Brooklyn building collapses"
+				"Casualties continue to rise after Brooklyn building collapses",
+				"Excavation Was Taking Place Next to Building in Brooklyn That Collapsed"
 			],
-			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-13T02:27:43.000Z",
+			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
+			"entityLastCandidateAt": "2026-11-13T04:59:04.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-13T02:27:43.000Z",
-					"itemCount": 8,
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-13T04:59:04.000Z",
+					"itemCount": 9,
 					"sourceCount": 5,
 					"headlines": [
+						"How the Deadly Brooklyn Building Collapse Unfolded",
 						"Crews begin excavating site of building collapse in Brooklyn",
-						"What to Know About the Deadly Building Collapse in Brooklyn",
 						"Rescue Ends in Brooklyn After 8 Die in Building Collapse"
 					],
 					"sources": [
-						"CBS News",
 						"The New York Times",
+						"CBS News",
 						"NBC News"
 					],
-					"eventId": "cluster-usa-building + collapse|2026-11-13T02:27:43.000Z|8|Crews begin excavating site of building collapse in Brooklyn"
+					"eventId": "cluster-usa-building + brooklyn|2026-11-13T04:59:04.000Z|9|How the Deadly Brooklyn Building Collapse Unfolded"
 				},
 				{
-					"observedAt": "2026-11-13T02:00:48.242Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-13T01:23:00.000Z",
-					"itemCount": 7,
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-12T23:58:33.000Z",
+					"itemCount": 8,
 					"sourceCount": 4,
 					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"First video of Brooklyn building collapse",
 						"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
-						"First video of Brooklyn building collapse"
+						"New York building collapse kills 8, including 2 children"
+					],
+					"sources": [
+						"NBC News",
+						"The New York Times",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-building + brooklyn|2026-11-12T23:58:33.000Z|8|First video of Brooklyn building collapse"
+				},
+				{
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-12T23:53:15.000Z",
+					"itemCount": 8,
+					"sourceCount": 4,
+					"headlines": [
+						"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
+						"New York building collapse kills 8, including 2 children",
+						"Eight Who Died in Building Collapse Reflected New York’s Diversity"
 					],
 					"sources": [
 						"The New York Times",
-						"NBC News",
-						"PBS NewsHour"
+						"PBS NewsHour",
+						"NBC News"
 					],
-					"eventId": "cluster-usa-building + collapse|2026-11-13T01:23:00.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+					"eventId": "cluster-usa-building + brooklyn|2026-11-12T23:53:15.000Z|8|Rescue Ends in Brooklyn After 8 Die in Building Collapse"
 				},
 				{
-					"observedAt": "2026-11-12T22:00:48.193Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-12T21:45:05.000Z",
-					"itemCount": 8,
-					"sourceCount": 5,
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-12T22:12:26.000Z",
+					"itemCount": 6,
+					"sourceCount": 4,
 					"headlines": [
 						"What to Know About the Deadly Building Collapse in Brooklyn",
 						"Ring camera video shows the moment of Brooklyn building collapse",
@@ -87,112 +106,22 @@
 						"NBC News",
 						"NPR"
 					],
-					"eventId": "cluster-usa-building + collapse|2026-11-12T21:45:05.000Z|8|What to Know About the Deadly Building Collapse in Brooklyn"
-				},
-				{
-					"observedAt": "2026-11-12T21:00:48.034Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-12T19:58:47.000Z",
-					"itemCount": 8,
-					"sourceCount": 5,
-					"headlines": [
-						"Ring camera video shows the moment of Brooklyn building collapse",
-						"A Frantic Search for Survivors in the Brooklyn Building Collapse",
-						"What to Know About the Deadly Building Collapse in Brooklyn"
-					],
-					"sources": [
-						"NBC News",
-						"The New York Times",
-						"NPR"
-					],
-					"eventId": "cluster-usa-building + collapse|2026-11-12T19:58:47.000Z|8|Ring camera video shows the moment of Brooklyn building collapse"
-				},
-				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-12T19:43:09.000Z",
-					"itemCount": 7,
-					"sourceCount": 5,
-					"headlines": [
-						"A Frantic Search for Survivors in the Brooklyn Building Collapse",
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Casualties continue to rise after Brooklyn building collapses"
-					],
-					"sources": [
-						"The New York Times",
-						"NPR",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-building + collapse|2026-11-12T19:43:09.000Z|7|A Frantic Search for Survivors in the Brooklyn Building Collapse"
-				},
-				{
-					"observedAt": "2026-11-12T19:25:49.967Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-12T19:05:41.000Z",
-					"itemCount": 7,
-					"sourceCount": 5,
-					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Casualties continue to rise after Brooklyn building collapses",
-						"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says"
-					],
-					"sources": [
-						"The New York Times",
-						"NPR",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-building + collapse|2026-11-12T19:05:41.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
-				},
-				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-12T18:31:16.000Z",
-					"itemCount": 7,
-					"sourceCount": 5,
-					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Casualties continue to rise after Brooklyn building collapses",
-						"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says"
-					],
-					"sources": [
-						"The New York Times",
-						"NPR",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-building + collapse|2026-11-12T18:31:16.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
-				},
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-12T15:32:54.000Z",
-					"itemCount": 6,
-					"sourceCount": 4,
-					"headlines": [
-						"NYC building collapse: Death toll rises",
-						"Greta Thunberg and a collapsed building in Brooklyn: photos of the day – Thursday",
-						"Brooklyn building collapse kills at least eight and injures 17 as search continues"
-					],
-					"sources": [
-						"CBS News",
-						"The Guardian US",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-building + collapse|2026-11-12T15:32:54.000Z|6|NYC building collapse: Death toll rises"
+					"eventId": "cluster-usa-building + brooklyn|2026-11-12T22:12:26.000Z|6|What to Know About the Deadly Building Collapse in Brooklyn"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
-		"cluster-usa-nvidia-trump-nvidia-trump": {
-			"candidateId": "cluster-usa-nvidia + trump",
-			"label": "nvidia + trump",
+		"cluster-usa-huang-nvidia-huang-nvidia": {
+			"candidateId": "cluster-usa-huang + nvidia",
+			"label": "huang + nvidia",
 			"latestAt": "2026-11-13T03:27:02.000Z",
 			"startedAt": "2026-11-12T14:17:20.000Z",
-			"itemCount": 8,
+			"itemCount": 10,
 			"sourceCount": 4,
 			"terms": [
-				"nvidia",
-				"trump"
+				"huang",
+				"nvidia"
 			],
 			"sources": [
 				"The New York Times Politics",
@@ -208,16 +137,18 @@
 				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
 				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
 				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal"
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
+				"What could happen to AI development and chip production as Huang resigns from Nvidia",
+				"Examining Jensen Huang's swift and stunning fall from grace at Nvidia"
 			],
-			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
+			"entityFirstSeenAt": "2026-11-10T19:04:31.604Z",
 			"entityLastCandidateAt": "2026-11-13T03:27:02.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T05:00:48.275Z",
-					"label": "nvidia + trump",
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "huang + nvidia",
 					"latestAt": "2026-11-13T03:27:02.000Z",
-					"itemCount": 8,
+					"itemCount": 10,
 					"sourceCount": 4,
 					"headlines": [
 						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
@@ -229,65 +160,250 @@
 						"CBS News",
 						"NPR"
 					],
-					"eventId": "cluster-usa-nvidia + trump|2026-11-13T03:27:02.000Z|8|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+					"eventId": "cluster-usa-huang + nvidia|2026-11-13T03:27:02.000Z|10|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
 				},
 				{
-					"observedAt": "2026-11-13T04:00:47.938Z",
-					"label": "nvidia + trump",
-					"latestAt": "2026-11-13T03:27:02.000Z",
-					"itemCount": 9,
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-12T23:55:39.000Z",
+					"itemCount": 17,
 					"sourceCount": 5,
 					"headlines": [
-						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
-						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+						"What Huang's resignation mean for chipmakers, AI and U.S. national security",
+						"What Jensen Huang's resignation means for Nvidia, global AI race",
+						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns"
 					],
 					"sources": [
-						"The New York Times Politics",
+						"PBS NewsHour",
 						"CBS News",
-						"NPR"
-					],
-					"eventId": "cluster-usa-nvidia + trump|2026-11-13T03:27:02.000Z|9|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
-				},
-				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "nvidia + trump",
-					"latestAt": "2026-11-13T00:46:07.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Donald Trump really wants Tim Cook to run Nvidia",
-						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO"
-					],
-					"sources": [
-						"The Verge",
-						"The New York Times Politics",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + trump|2026-11-13T00:46:07.000Z|4|Donald Trump really wants Tim Cook to run Nvidia"
-				},
-				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "nvidia + trump",
-					"latestAt": "2026-11-12T17:06:46.000Z",
-					"itemCount": 17,
-					"sourceCount": 7,
-					"headlines": [
-						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-						"Jensen Huang resigns as Nvidia CEO after alleged affairs",
-						"Trump reacts after Nvidia CEO Jensen Huang resigns"
-					],
-					"sources": [
-						"CBS News",
-						"The Guardian US",
 						"The New York Times"
 					],
-					"eventId": "cluster-usa-nvidia + trump|2026-11-12T17:06:46.000Z|17|Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal"
+					"eventId": "cluster-usa-huang + nvidia|2026-11-12T23:55:39.000Z|17|What Huang's resignation mean for chipmakers, AI and U.S. national security"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-12T15:32:30.000Z",
+					"itemCount": 9,
+					"sourceCount": 3,
+					"headlines": [
+						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+						"Nvidia's board preparing to oust CEO Jensen Huang, sources say"
+					],
+					"sources": [
+						"NBC News",
+						"The New York Times",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-12T15:32:30.000Z|9|Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says"
+				},
+				{
+					"observedAt": "2026-11-10T21:26:40.157Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-10T21:12:38.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
+						"Nvidia hires former acting U.S. attorney to probe Jensen Huang affair",
+						"Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia’s Jensen Huang"
+					],
+					"sources": [
+						"The New York Times",
+						"NBC News",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-10T21:12:38.000Z|7|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
+				},
+				{
+					"observedAt": "2026-11-10T19:04:31.604Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-10T19:01:56.000Z",
+					"itemCount": 5,
+					"sourceCount": 3,
+					"headlines": [
+						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
+						"Nvidia and Huang face lawsuit alleging investors were misled about spy affair",
+						"Nvidia’s Board Has a History of Letting Jensen Huang Get His Way"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-10T19:01:56.000Z|5|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+		},
+		"cluster-usa-senate-leader-senate-leader": {
+			"candidateId": "cluster-usa-senate + leader",
+			"label": "senate + leader",
+			"latestAt": "2026-11-13T04:11:39.000Z",
+			"startedAt": "2026-11-13T02:06:37.244Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"senate",
+				"leader"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"NPR Politics",
+				"CBS News",
+				"NBC News Politics"
+			],
+			"titles": [
+				"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+				"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+				"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
+				"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
+			],
+			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
+			"entityLastCandidateAt": "2026-11-13T04:11:39.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T05:00:48.275Z",
+					"label": "senate + leader",
+					"latestAt": "2026-11-13T04:11:39.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"NPR Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-senate + leader|2026-11-13T04:11:39.000Z|4|Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader"
+				},
+				{
+					"observedAt": "2026-11-13T04:00:47.938Z",
+					"label": "senate + leader",
+					"latestAt": "2026-11-13T03:52:25.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
+					],
+					"sources": [
+						"NPR Politics",
+						"The New York Times Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-senate + leader|2026-11-13T03:52:25.000Z|4|Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
+				},
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "senate + leader",
+					"latestAt": "2026-11-13T02:37:59.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
+						"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-senate + leader|2026-11-13T02:37:59.000Z|3|Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+		},
+		"cluster-usa-microsoft-outage-microsoft-outage": {
+			"candidateId": "cluster-usa-microsoft + outage",
+			"label": "microsoft + outage",
+			"latestAt": "2026-11-13T04:28:16.000Z",
+			"startedAt": "2026-11-12T23:15:24.000Z",
+			"itemCount": 4,
+			"sourceCount": 3,
+			"terms": [
+				"microsoft",
+				"outage"
+			],
+			"sources": [
+				"The New York Times",
+				"NPR",
+				"NBC News"
+			],
+			"titles": [
+				"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+				"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+				"Widespread outage of Microsoft apps used by hundreds of millions",
+				"Widespread outage hits Microsoft platforms including Outlook, thousands report issues"
+			],
+			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
+			"entityLastCandidateAt": "2026-11-13T04:28:16.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T05:00:48.275Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T04:28:16.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+						"Widespread outage of Microsoft apps used by hundreds of millions"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T04:28:16.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+				},
+				{
+					"observedAt": "2026-11-13T04:00:47.938Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T03:03:35.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+						"Widespread outage of Microsoft apps used by hundreds of millions"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T03:03:35.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+				},
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T01:48:06.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+						"Widespread outage of Microsoft apps used by hundreds of millions"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T01:48:06.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-mississippi-senate-mississippi-senate": {
 			"candidateId": "cluster-usa-mississippi + senate",
@@ -426,112 +542,26 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
-		},
-		"cluster-usa-senate-leader-senate-leader": {
-			"candidateId": "cluster-usa-senate + leader",
-			"label": "senate + leader",
-			"latestAt": "2026-11-13T04:11:39.000Z",
-			"startedAt": "2026-11-13T02:06:37.244Z",
-			"itemCount": 4,
-			"sourceCount": 4,
-			"terms": [
-				"senate",
-				"leader"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"NPR Politics",
-				"CBS News",
-				"NBC News Politics"
-			],
-			"titles": [
-				"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-				"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
-				"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
-				"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
-			],
-			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T04:11:39.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T05:00:48.275Z",
-					"label": "senate + leader",
-					"latestAt": "2026-11-13T04:11:39.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
-						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"NPR Politics",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-senate + leader|2026-11-13T04:11:39.000Z|4|Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader"
-				},
-				{
-					"observedAt": "2026-11-13T04:00:47.938Z",
-					"label": "senate + leader",
-					"latestAt": "2026-11-13T03:52:25.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
-						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
-					],
-					"sources": [
-						"NPR Politics",
-						"The New York Times Politics",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-senate + leader|2026-11-13T03:52:25.000Z|4|Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
-				},
-				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "senate + leader",
-					"latestAt": "2026-11-13T02:37:59.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
-						"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"NBC News Politics"
-					],
-					"eventId": "cluster-usa-senate + leader|2026-11-13T02:37:59.000Z|3|Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-democrats-trump-democrats-trump": {
 			"candidateId": "cluster-usa-democrats + trump",
 			"label": "democrats + trump",
 			"latestAt": "2026-11-13T02:01:47.000Z",
 			"startedAt": "2026-11-12T17:13:54.000Z",
-			"itemCount": 5,
-			"sourceCount": 4,
+			"itemCount": 4,
+			"sourceCount": 3,
 			"terms": [
 				"democrats",
 				"trump"
 			],
 			"sources": [
 				"CBS News",
-				"NBC News Politics",
 				"NPR Politics",
 				"The New York Times Politics"
 			],
 			"titles": [
 				"Legal expert on White House warning to Democrats over possible Trump investigations",
-				"Democrats can’t wait until after Trump to produce results, James Talarico says",
 				"White House warns of \"blatant criminality\" in Democratic probes",
 				"Democrats want to stop Trump's arch, golf course and more. What are their options?",
 				"Democrats Put Targets on Notice as Trump Oversight Takes Shape"
@@ -539,6 +569,24 @@
 			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
 			"entityLastCandidateAt": "2026-11-13T02:01:47.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "democrats + trump",
+					"latestAt": "2026-11-13T02:01:47.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Legal expert on White House warning to Democrats over possible Trump investigations",
+						"White House warns of \"blatant criminality\" in Democratic probes",
+						"Democrats want to stop Trump's arch, golf course and more. What are their options?"
+					],
+					"sources": [
+						"CBS News",
+						"NPR Politics",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-democrats + trump|2026-11-13T02:01:47.000Z|4|Legal expert on White House warning to Democrats over possible Trump investigations"
+				},
 				{
 					"observedAt": "2026-11-13T03:00:48.096Z",
 					"label": "democrats + trump",
@@ -577,152 +625,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
-		},
-		"cluster-usa-microsoft-outage-microsoft-outage": {
-			"candidateId": "cluster-usa-microsoft + outage",
-			"label": "microsoft + outage",
-			"latestAt": "2026-11-13T04:28:16.000Z",
-			"startedAt": "2026-11-12T23:15:24.000Z",
-			"itemCount": 4,
-			"sourceCount": 3,
-			"terms": [
-				"microsoft",
-				"outage"
-			],
-			"sources": [
-				"The New York Times",
-				"NPR",
-				"NBC News"
-			],
-			"titles": [
-				"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
-				"Is Outlook down? Widespread outage hits Microsoft email and other apps",
-				"Widespread outage of Microsoft apps used by hundreds of millions",
-				"Widespread outage hits Microsoft platforms including Outlook, thousands report issues"
-			],
-			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T04:28:16.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T05:00:48.275Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T04:28:16.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
-						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
-						"Widespread outage of Microsoft apps used by hundreds of millions"
-					],
-					"sources": [
-						"The New York Times",
-						"NPR",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T04:28:16.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
-				},
-				{
-					"observedAt": "2026-11-13T04:00:47.938Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T03:03:35.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
-						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
-						"Widespread outage of Microsoft apps used by hundreds of millions"
-					],
-					"sources": [
-						"The New York Times",
-						"NPR",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T03:03:35.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
-				},
-				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T01:48:06.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
-						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
-						"Widespread outage of Microsoft apps used by hundreds of millions"
-					],
-					"sources": [
-						"The New York Times",
-						"NPR",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T01:48:06.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
-		},
-		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
-			"candidateId": "cluster-usa-nvidia + lutnick",
-			"label": "nvidia + lutnick",
-			"latestAt": "2026-11-13T02:45:27.671Z",
-			"startedAt": "2026-11-12T23:33:00.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"nvidia",
-				"lutnick"
-			],
-			"sources": [
-				"NBC News Politics",
-				"The New York Times World",
-				"CBS News"
-			],
-			"titles": [
-				"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
-				"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
-				"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
-			],
-			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
-			"entityLastCandidateAt": "2026-11-13T02:45:27.671Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "nvidia + lutnick",
-					"latestAt": "2026-11-13T02:45:27.671Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
-						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
-						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
-					],
-					"sources": [
-						"NBC News Politics",
-						"The New York Times World",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T02:45:27.671Z|3|Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal"
-				},
-				{
-					"observedAt": "2026-11-13T02:00:48.242Z",
-					"label": "nvidia + lutnick",
-					"latestAt": "2026-11-13T01:28:40.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
-						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
-					],
-					"sources": [
-						"The New York Times World",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T01:28:40.000Z|2|Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-democrats-kansas-democrats-kansas": {
 			"candidateId": "cluster-usa-democrats + kansas",
@@ -768,7 +671,83 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+		},
+		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
+			"candidateId": "cluster-usa-nvidia + lutnick",
+			"label": "nvidia + lutnick",
+			"latestAt": "2026-11-13T02:45:27.671Z",
+			"startedAt": "2026-11-12T23:33:00.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"nvidia",
+				"lutnick"
+			],
+			"sources": [
+				"NBC News Politics",
+				"CBS News"
+			],
+			"titles": [
+				"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
+				"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
+			],
+			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
+			"entityLastCandidateAt": "2026-11-13T02:45:27.671Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T02:45:27.671Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
+						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
+					],
+					"sources": [
+						"NBC News Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T02:45:27.671Z|2|Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal"
+				},
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T02:45:27.671Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
+						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
+						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
+					],
+					"sources": [
+						"NBC News Politics",
+						"The New York Times World",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T02:45:27.671Z|3|Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal"
+				},
+				{
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T01:28:40.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
+						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
+					],
+					"sources": [
+						"The New York Times World",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T01:28:40.000Z|2|Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-kansas-charges-kansas-charges": {
 			"candidateId": "cluster-usa-kansas + charges",
@@ -810,7 +789,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-shooting-killed-shooting-killed": {
 			"candidateId": "cluster-usa-shooting + killed",
@@ -868,7 +847,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -1413,78 +1392,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-11T21:45:42.687Z"
-		},
-		"cluster-usa-trump-midterms-trump-midterms": {
-			"candidateId": "cluster-usa-trump + midterms",
-			"label": "trump + midterms",
-			"latestAt": "2026-11-09T05:08:56.000Z",
-			"startedAt": "2026-11-08T13:16:05.000Z",
-			"itemCount": 10,
-			"sourceCount": 6,
-			"terms": [
-				"trump",
-				"midterms"
-			],
-			"sources": [
-				"ABC News",
-				"NBC News Politics",
-				"CBS News",
-				"NPR Politics",
-				"PBS NewsHour",
-				"The New York Times Politics"
-			],
-			"titles": [
-				"Trump says 'too tough' deportation policies hurt him in the midterms",
-				"Trump says deportations were ‘too tough’ and hurt him during the midterms",
-				"Trump tells ‘60 Minutes’ his deportation policy ‘was too tough’",
-				"Extended Interview: President Trump on 60 Minutes",
-				"10 takeaways from Trump's 60 Minutes interview",
-				"Trump staffing changes post-midterms signal he's battle ready",
-				"Voters demanded economic relief. Trump and Democrats face tough choices on how to deliver",
-				"Trump and his Justice Department stand defiant as Democrats ready an investigative blitz",
-				"Week in politics: Democrats plan for the next Congress, Trump's new Chief of Staff",
-				"Trump Says Immigration Crackdown May Have ‘Hurt’ Republicans in Midterms"
-			],
-			"entityFirstSeenAt": "2026-11-07T10:48:13.994Z",
-			"entityLastCandidateAt": "2026-11-09T05:08:56.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T08:25:56.119Z",
-					"label": "trump + midterms",
-					"latestAt": "2026-11-09T05:08:56.000Z",
-					"itemCount": 10,
-					"sourceCount": 6,
-					"headlines": [
-						"Trump says 'too tough' deportation policies hurt him in the midterms",
-						"Trump says deportations were ‘too tough’ and hurt him during the midterms",
-						"Trump tells ‘60 Minutes’ his deportation policy ‘was too tough’"
-					],
-					"sources": [
-						"ABC News",
-						"NBC News Politics",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-trump + midterms|2026-11-09T05:08:56.000Z|10|Trump says 'too tough' deportation policies hurt him in the midterms"
-				},
-				{
-					"observedAt": "2026-11-07T10:48:13.994Z",
-					"label": "trump + midterms",
-					"latestAt": "2026-11-07T09:00:06.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"‘Finally there’s hope’: UK weighs up opportunities and risks after Trump’s midterms disaster",
-						"Former Sen. Flake, outspoken Trump critic, on the GOP reckoning post-midterms"
-					],
-					"sources": [
-						"The Guardian US",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-trump + midterms|2026-11-07T09:00:06.000Z|2|‘Finally there’s hope’: UK weighs up opportunities and risks after Trump’s midterms disaster"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T08:25:56.119Z"
 		},
 		"cluster-usa-trump-miller-trump-miller": {
 			"candidateId": "cluster-usa-trump + miller",
@@ -7244,122 +7151,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-10T19:03:55.994Z"
 		},
-		"cluster-usa-huang-nvidia-huang-nvidia": {
-			"candidateId": "cluster-usa-huang + nvidia",
-			"label": "huang + nvidia",
-			"latestAt": "2026-11-12T23:55:39.000Z",
-			"startedAt": "2026-11-12T11:00:15.000Z",
-			"itemCount": 17,
-			"sourceCount": 5,
-			"terms": [
-				"huang",
-				"nvidia"
-			],
-			"sources": [
-				"PBS NewsHour",
-				"CBS News",
-				"The New York Times",
-				"NPR",
-				"NBC News"
-			],
-			"titles": [
-				"What Huang's resignation mean for chipmakers, AI and U.S. national security",
-				"What Jensen Huang's resignation means for Nvidia, global AI race",
-				"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
-				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
-				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
-				"AG Todd Blanche asked about Jensen Huang, Nvidia",
-				"Jensen Huang's exit rocks Nvidia and creates openings for rivals",
-				"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
-				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset",
-				"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
-				"What happens next as Huang steps down as Nvidia CEO following affair scandal",
-				"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
-				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
-				"The rise and fall of former Nvidia CEO Jensen Huang",
-				"Who is Colette Kress, Nvidia’s new interim CEO?",
-				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal"
-			],
-			"entityFirstSeenAt": "2026-11-10T19:04:31.604Z",
-			"entityLastCandidateAt": "2026-11-12T23:55:39.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-12T23:55:39.000Z",
-					"itemCount": 17,
-					"sourceCount": 5,
-					"headlines": [
-						"What Huang's resignation mean for chipmakers, AI and U.S. national security",
-						"What Jensen Huang's resignation means for Nvidia, global AI race",
-						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns"
-					],
-					"sources": [
-						"PBS NewsHour",
-						"CBS News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-12T23:55:39.000Z|17|What Huang's resignation mean for chipmakers, AI and U.S. national security"
-				},
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-12T15:32:30.000Z",
-					"itemCount": 9,
-					"sourceCount": 3,
-					"headlines": [
-						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-						"Nvidia's board preparing to oust CEO Jensen Huang, sources say"
-					],
-					"sources": [
-						"NBC News",
-						"The New York Times",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-12T15:32:30.000Z|9|Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says"
-				},
-				{
-					"observedAt": "2026-11-10T21:26:40.157Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-10T21:12:38.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
-						"Nvidia hires former acting U.S. attorney to probe Jensen Huang affair",
-						"Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia’s Jensen Huang"
-					],
-					"sources": [
-						"The New York Times",
-						"NBC News",
-						"The New York Times Politics"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-10T21:12:38.000Z|7|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
-				},
-				{
-					"observedAt": "2026-11-10T19:04:31.604Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-10T19:01:56.000Z",
-					"itemCount": 5,
-					"sourceCount": 3,
-					"headlines": [
-						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
-						"Nvidia and Huang face lawsuit alleging investors were misled about spy affair",
-						"Nvidia’s Board Has a History of Letting Jensen Huang Get His Way"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-10T19:01:56.000Z|5|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
-		},
 		"cluster-usa-hegseth-against-hegseth-against": {
 			"candidateId": "cluster-usa-hegseth + against",
 			"label": "hegseth + against",
@@ -12839,6 +12630,185 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T15:47:00.508Z"
 		},
+		"cluster-usa-building-collapse-building-collapse": {
+			"candidateId": "cluster-usa-building + collapse",
+			"label": "building + collapse",
+			"latestAt": "2026-11-13T02:27:43.000Z",
+			"startedAt": "2026-11-12T18:15:00.000Z",
+			"itemCount": 8,
+			"sourceCount": 5,
+			"terms": [
+				"building",
+				"collapse"
+			],
+			"sources": [
+				"CBS News",
+				"The New York Times",
+				"NBC News",
+				"PBS NewsHour",
+				"NPR"
+			],
+			"titles": [
+				"Crews begin excavating site of building collapse in Brooklyn",
+				"What to Know About the Deadly Building Collapse in Brooklyn",
+				"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
+				"First video of Brooklyn building collapse",
+				"New York building collapse kills 8, including 2 children",
+				"Eight Who Died in Building Collapse Reflected New York’s Diversity",
+				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
+				"Casualties continue to rise after Brooklyn building collapses"
+			],
+			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
+			"entityLastCandidateAt": "2026-11-13T02:27:43.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-13T02:27:43.000Z",
+					"itemCount": 8,
+					"sourceCount": 5,
+					"headlines": [
+						"Crews begin excavating site of building collapse in Brooklyn",
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Rescue Ends in Brooklyn After 8 Die in Building Collapse"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-13T02:27:43.000Z|8|Crews begin excavating site of building collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-13T01:23:00.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
+						"First video of Brooklyn building collapse"
+					],
+					"sources": [
+						"The New York Times",
+						"NBC News",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-13T01:23:00.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T22:00:48.193Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T21:45:05.000Z",
+					"itemCount": 8,
+					"sourceCount": 5,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Ring camera video shows the moment of Brooklyn building collapse",
+						"A Frantic Search for Survivors in the Brooklyn Building Collapse"
+					],
+					"sources": [
+						"The New York Times",
+						"NBC News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T21:45:05.000Z|8|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T19:58:47.000Z",
+					"itemCount": 8,
+					"sourceCount": 5,
+					"headlines": [
+						"Ring camera video shows the moment of Brooklyn building collapse",
+						"A Frantic Search for Survivors in the Brooklyn Building Collapse",
+						"What to Know About the Deadly Building Collapse in Brooklyn"
+					],
+					"sources": [
+						"NBC News",
+						"The New York Times",
+						"NPR"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T19:58:47.000Z|8|Ring camera video shows the moment of Brooklyn building collapse"
+				},
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T19:43:09.000Z",
+					"itemCount": 7,
+					"sourceCount": 5,
+					"headlines": [
+						"A Frantic Search for Survivors in the Brooklyn Building Collapse",
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Casualties continue to rise after Brooklyn building collapses"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T19:43:09.000Z|7|A Frantic Search for Survivors in the Brooklyn Building Collapse"
+				},
+				{
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T19:05:41.000Z",
+					"itemCount": 7,
+					"sourceCount": 5,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Casualties continue to rise after Brooklyn building collapses",
+						"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T19:05:41.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T18:31:16.000Z",
+					"itemCount": 7,
+					"sourceCount": 5,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Casualties continue to rise after Brooklyn building collapses",
+						"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T18:31:16.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T15:32:54.000Z",
+					"itemCount": 6,
+					"sourceCount": 4,
+					"headlines": [
+						"NYC building collapse: Death toll rises",
+						"Greta Thunberg and a collapsed building in Brooklyn: photos of the day – Thursday",
+						"Brooklyn building collapse kills at least eight and injures 17 as search continues"
+					],
+					"sources": [
+						"CBS News",
+						"The Guardian US",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T15:32:54.000Z|6|NYC building collapse: Death toll rises"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+		},
 		"cluster-usa-nvidia-affair-nvidia-affair": {
 			"candidateId": "cluster-usa-nvidia + affair",
 			"label": "nvidia + affair",
@@ -13527,6 +13497,112 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
+		"cluster-usa-nvidia-trump-nvidia-trump": {
+			"candidateId": "cluster-usa-nvidia + trump",
+			"label": "nvidia + trump",
+			"latestAt": "2026-11-13T03:27:02.000Z",
+			"startedAt": "2026-11-12T14:17:20.000Z",
+			"itemCount": 8,
+			"sourceCount": 4,
+			"terms": [
+				"nvidia",
+				"trump"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"CBS News",
+				"NPR",
+				"The New York Times"
+			],
+			"titles": [
+				"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+				"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+				"What happens next as Huang steps down as Nvidia CEO following affair scandal",
+				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
+				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
+				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
+			"entityLastCandidateAt": "2026-11-13T03:27:02.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T05:00:48.275Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-13T03:27:02.000Z",
+					"itemCount": 8,
+					"sourceCount": 4,
+					"headlines": [
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-13T03:27:02.000Z|8|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+				},
+				{
+					"observedAt": "2026-11-13T04:00:47.938Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-13T03:27:02.000Z",
+					"itemCount": 9,
+					"sourceCount": 5,
+					"headlines": [
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-13T03:27:02.000Z|9|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+				},
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-13T00:46:07.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Donald Trump really wants Tim Cook to run Nvidia",
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO"
+					],
+					"sources": [
+						"The Verge",
+						"The New York Times Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-13T00:46:07.000Z|4|Donald Trump really wants Tim Cook to run Nvidia"
+				},
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-12T17:06:46.000Z",
+					"itemCount": 17,
+					"sourceCount": 7,
+					"headlines": [
+						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+						"Jensen Huang resigns as Nvidia CEO after alleged affairs",
+						"Trump reacts after Nvidia CEO Jensen Huang resigns"
+					],
+					"sources": [
+						"CBS News",
+						"The Guardian US",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-12T17:06:46.000Z|17|Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+		},
 		"cluster-usa-states-united-states-united": {
 			"candidateId": "cluster-usa-states + united",
 			"label": "states + united",
@@ -13942,7 +14018,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-spain-entre-general-entre-general": {
 			"candidateId": "cluster-spain-entre + general",
@@ -15412,94 +15488,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
-		"cluster-usa-building-brooklyn-building-brooklyn": {
-			"candidateId": "cluster-usa-building + brooklyn",
-			"label": "building + brooklyn",
-			"latestAt": "2026-11-12T23:58:33.000Z",
-			"startedAt": "2026-11-12T16:09:11.000Z",
-			"itemCount": 8,
-			"sourceCount": 4,
-			"terms": [
-				"building",
-				"brooklyn"
-			],
-			"sources": [
-				"NBC News",
-				"The New York Times",
-				"PBS NewsHour",
-				"NPR"
-			],
-			"titles": [
-				"First video of Brooklyn building collapse",
-				"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
-				"New York building collapse kills 8, including 2 children",
-				"Eight Who Died in Building Collapse Reflected New York’s Diversity",
-				"What to Know About the Deadly Building Collapse in Brooklyn",
-				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
-				"Casualties continue to rise after Brooklyn building collapses",
-				"Excavation Was Taking Place Next to Building in Brooklyn That Collapsed"
-			],
-			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
-			"entityLastCandidateAt": "2026-11-12T23:58:33.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T01:00:47.794Z",
-					"label": "building + brooklyn",
-					"latestAt": "2026-11-12T23:58:33.000Z",
-					"itemCount": 8,
-					"sourceCount": 4,
-					"headlines": [
-						"First video of Brooklyn building collapse",
-						"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
-						"New York building collapse kills 8, including 2 children"
-					],
-					"sources": [
-						"NBC News",
-						"The New York Times",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-building + brooklyn|2026-11-12T23:58:33.000Z|8|First video of Brooklyn building collapse"
-				},
-				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "building + brooklyn",
-					"latestAt": "2026-11-12T23:53:15.000Z",
-					"itemCount": 8,
-					"sourceCount": 4,
-					"headlines": [
-						"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
-						"New York building collapse kills 8, including 2 children",
-						"Eight Who Died in Building Collapse Reflected New York’s Diversity"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-building + brooklyn|2026-11-12T23:53:15.000Z|8|Rescue Ends in Brooklyn After 8 Die in Building Collapse"
-				},
-				{
-					"observedAt": "2026-11-12T23:00:48.320Z",
-					"label": "building + brooklyn",
-					"latestAt": "2026-11-12T22:12:26.000Z",
-					"itemCount": 6,
-					"sourceCount": 4,
-					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Ring camera video shows the moment of Brooklyn building collapse",
-						"A Frantic Search for Survivors in the Brooklyn Building Collapse"
-					],
-					"sources": [
-						"The New York Times",
-						"NBC News",
-						"NPR"
-					],
-					"eventId": "cluster-usa-building + brooklyn|2026-11-12T22:12:26.000Z|6|What to Know About the Deadly Building Collapse in Brooklyn"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
-		},
 		"cluster-usa-pope-emotional-pope-emotional": {
 			"candidateId": "cluster-usa-pope + emotional",
 			"label": "pope + emotional",
@@ -15668,7 +15656,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-spain-primera-cuando-primera-cuando": {
 			"candidateId": "cluster-spain-primera + cuando",
@@ -15710,7 +15698,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-wins-race-wins-race": {
 			"candidateId": "cluster-usa-wins + race",
@@ -15997,7 +15985,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-spain-sanchez-feijoo-sanchez-feijoo": {
 			"candidateId": "cluster-spain-sanchez + feijoo",
@@ -16039,7 +16027,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-nvidia-calls-nvidia-calls": {
 			"candidateId": "cluster-usa-nvidia + calls",
@@ -16259,19 +16247,61 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+		},
+		"cluster-spain-enfermera-osakidetza-enfermera-osakidetza": {
+			"candidateId": "cluster-spain-enfermera + osakidetza",
+			"label": "enfermera + osakidetza",
+			"latestAt": "2026-11-13T05:43:48.000Z",
+			"startedAt": "2026-11-12T23:41:08.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"enfermera",
+				"osakidetza"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+				"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
+			],
+			"entityFirstSeenAt": "2026-11-13T06:00:48.217Z",
+			"entityLastCandidateAt": "2026-11-13T05:43:48.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "enfermera + osakidetza",
+					"latestAt": "2026-11-13T05:43:48.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+						"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-enfermera + osakidetza|2026-11-13T05:43:48.000Z|2|Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-us-2026-11-13T05:00:48.275Z",
+		"id": "local-us-2026-11-13T06:00:48.217Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-13T05:00:48.275Z",
-		"finishedAt": "2026-11-13T05:04:34.043Z",
+		"startedAt": "2026-11-13T06:00:48.217Z",
+		"finishedAt": "2026-11-13T06:04:42.652Z",
 		"signalsCandidate": 10,
-		"signalsSelected": 10,
+		"signalsSelected": 9,
 		"signalsProcessed": 0,
 		"cacheHits": 10,
-		"skippedByConfig": 10,
+		"skippedByConfig": 9,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],

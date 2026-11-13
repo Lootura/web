@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-13T05:00:48.275Z",
+  "updatedAt": "2026-11-13T06:00:48.217Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "204.941 enlaces analizados",
-  "dayScanLabel": "4.240 enlaces escaneados en 24h",
+  "ambientPulseLabel": "205.371 enlaces analizados",
+  "dayScanLabel": "4.254 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -30,10 +30,10 @@
       "strength": 18,
       "sourceCount": 4,
       "itemCount": 5,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 94,
+      "alertScore": 88,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -92,45 +92,82 @@
       "path": "/es/entity/begona-gomez-participa-por-primera-vez-en-un-mitin-del-psoe-me-habeis-dado-el-al/"
     },
     {
-      "id": "now-cluster-españa-cuando + contra",
-      "title": "España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera",
-      "brief": "España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera.",
+      "id": "now-cluster-españa-enfermera + osakidetza",
+      "title": "Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+      "brief": "Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 24,
-      "sourceCount": 3,
-      "itemCount": 3,
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 92,
+      "alertScore": 76,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "elDiario.es",
+        "El Diario Vasco",
+        "El Correo"
+      ],
+      "images": [
+        "https://s3.ppllstatics.com/diariovasco/www/multimedia/sociedad/2026/11/12/SEO-JAVI%20(31)-keUH-U40314979081gkF-1200x840@Diario%20Vasco.jpg",
+        "https://s3.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/12/osakidetza-RN85bXGP6cz5BICW6mMYK2J-1200x840@El%20Correo.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-13T05:43:48.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/salud/condenan-enfermera-osakidetza-espiar-historiales-medicos-novia-expareja-hijo-20261113051859-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/sociedad/2026/11/12/SEO-JAVI%20(31)-keUH-U40314979081gkF-1200x840@Diario%20Vasco.jpg"
+        },
+        {
+          "title": "Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo",
+          "source": "El Correo",
+          "publishedAt": "2026-11-12T23:41:08.000Z",
+          "sourceUrl": "https://www.elcorreo.com/sociedad/condenada-enfermera-osakidetza-acceder-veces-historiales-pareja-20261112004107-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/12/osakidetza-RN85bXGP6cz5BICW6mMYK2J-1200x840@El%20Correo.jpg"
+        }
+      ],
+      "path": "/es/entity/condenan-a-una-enfermera-de-osakidetza-que-espio-89-veces-el-historial-medico-de/"
+    },
+    {
+      "id": "moving-cluster-españa-primera + cuando",
+      "title": "España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera",
+      "brief": "España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 6,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "8h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 64,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
         "El Correo",
         "El Mundo"
       ],
       "images": [
-        "https://static.eldiario.es/clip/dfaff051-8c3c-47c7-8ce7-bb4b4035f311_facebook-aspect-ratio-1200-675_default_0.jpg",
         "https://s1.ppllstatics.com/rc/www/multimedia/deportes/2026/11/12/image_20261112224900-RcAIwOom5qtPckmm8KboCGK-1200x840@RC.png",
         "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/12/17945199881619.jpg"
       ],
       "evidence": [
-        {
-          "title": "Cuando hordas travestis invadieron el planeta: Sevilla resucita una sátira en blanco y negro contra la intolerancia",
-          "source": "elDiario.es",
-          "publishedAt": "2026-11-13T05:01:36.000Z",
-          "sourceUrl": "https://www.eldiario.es/sevilla/hordas-travestis-invadieron-planeta-sevilla-resucita-satira-blanco-negro-intolerancia_1_13655376.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static.eldiario.es/clip/dfaff051-8c3c-47c7-8ce7-bb4b4035f311_facebook-aspect-ratio-1200-675_default_0.jpg"
-        },
         {
           "title": "España también gana cuando toca sufrir",
           "source": "El Correo",
@@ -149,53 +186,6 @@
       "path": "/es/entity/espana-gana-hasta-cuando-le-da-igual-vence-en-praga-y-le-basta-un-punto-contra-i/"
     },
     {
-      "id": "moving-cluster-españa-psoe + campana",
-      "title": "El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
-      "brief": "El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "10h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e01-phantom-elmundo.uecdn.es/ded63188facdb26bf09b706b6037de5d/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/12/17945106711028.jpg",
-        "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/12/1200x840_v3.png"
-      ],
-      "evidence": [
-        {
-          "title": "El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-12T19:14:00.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/12/6af60b3ee4d4d8845c8b4577.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/ded63188facdb26bf09b706b6037de5d/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/12/17945106711028.jpg"
-        },
-        {
-          "title": "El CIS de Tezanos vaticina una victoria del PSOE el 29-N que dejaría sin mayoría absoluta a PP y Vox",
-          "source": "El Correo",
-          "publishedAt": "2026-11-12T16:07:32.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/cis-situa-psoe-puntos-delante-pp-dos-20261112170732-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/12/1200x840_v3.png"
-        }
-      ],
-      "path": "/es/entity/el-pp-y-vox-arrancan-la-campana-con-una-solida-mayoria-absoluta-y-siguen-sacando/"
-    },
-    {
       "id": "moving-cluster-españa-gana + etxepare",
       "title": "Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa",
       "brief": "Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa.",
@@ -207,7 +197,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "11h fresca",
+      "freshness": "12h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -251,7 +241,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 60,
@@ -294,10 +284,10 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 7,
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresca",
+      "freshness": "8h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 54,

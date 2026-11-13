@@ -2,54 +2,8 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-13T05:00:48.275Z",
+	"updatedAt": "2026-11-13T06:00:48.217Z",
 	"entries": {
-		"cluster-spain-cuando-contra-cuando-contra": {
-			"candidateId": "cluster-spain-cuando + contra",
-			"label": "cuando + contra",
-			"latestAt": "2026-11-13T05:01:36.000Z",
-			"startedAt": "2026-11-12T21:48:19.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"cuando",
-				"contra"
-			],
-			"sources": [
-				"elDiario.es",
-				"El Correo",
-				"El Mundo"
-			],
-			"titles": [
-				"Cuando hordas travestis invadieron el planeta: Sevilla resucita una sátira en blanco y negro contra la intolerancia",
-				"España también gana cuando toca sufrir",
-				"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
-			],
-			"entityFirstSeenAt": "2026-11-13T05:00:48.275Z",
-			"entityLastCandidateAt": "2026-11-13T05:01:36.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T05:00:48.275Z",
-					"label": "cuando + contra",
-					"latestAt": "2026-11-13T05:01:36.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Cuando hordas travestis invadieron el planeta: Sevilla resucita una sátira en blanco y negro contra la intolerancia",
-						"España también gana cuando toca sufrir",
-						"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
-					],
-					"sources": [
-						"elDiario.es",
-						"El Correo",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-cuando + contra|2026-11-13T05:01:36.000Z|3|Cuando hordas travestis invadieron el planeta: Sevilla resucita una sátira en blanco y negro contra la intolerancia"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
-		},
 		"cluster-spain-psoe-begona-psoe-begona": {
 			"candidateId": "cluster-spain-psoe + begona",
 			"label": "psoe + begona",
@@ -97,7 +51,49 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+		},
+		"cluster-spain-enfermera-osakidetza-enfermera-osakidetza": {
+			"candidateId": "cluster-spain-enfermera + osakidetza",
+			"label": "enfermera + osakidetza",
+			"latestAt": "2026-11-13T05:43:48.000Z",
+			"startedAt": "2026-11-12T23:41:08.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"enfermera",
+				"osakidetza"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+				"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
+			],
+			"entityFirstSeenAt": "2026-11-13T06:00:48.217Z",
+			"entityLastCandidateAt": "2026-11-13T05:43:48.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "enfermera + osakidetza",
+					"latestAt": "2026-11-13T05:43:48.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+						"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-enfermera + osakidetza|2026-11-13T05:43:48.000Z|2|Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-spain-sanchez-feijoo-sanchez-feijoo": {
 			"candidateId": "cluster-spain-sanchez + feijoo",
@@ -139,7 +135,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-spain-roja-real-roja-real": {
 			"candidateId": "cluster-spain-roja + real",
@@ -181,49 +177,49 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
-		"cluster-spain-psoe-campana-psoe-campana": {
-			"candidateId": "cluster-spain-psoe + campana",
-			"label": "psoe + campana",
-			"latestAt": "2026-11-12T19:14:00.000Z",
-			"startedAt": "2026-11-12T16:07:32.000Z",
+		"cluster-spain-primera-cuando-primera-cuando": {
+			"candidateId": "cluster-spain-primera + cuando",
+			"label": "primera + cuando",
+			"latestAt": "2026-11-12T21:54:43.000Z",
+			"startedAt": "2026-11-12T21:48:19.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"psoe",
-				"campana"
+				"primera",
+				"cuando"
 			],
 			"sources": [
-				"El Mundo",
-				"El Correo"
+				"El Correo",
+				"El Mundo"
 			],
 			"titles": [
-				"El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
-				"El CIS de Tezanos vaticina una victoria del PSOE el 29-N que dejaría sin mayoría absoluta a PP y Vox"
+				"España también gana cuando toca sufrir",
+				"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
 			],
-			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
-			"entityLastCandidateAt": "2026-11-12T19:14:00.000Z",
+			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
+			"entityLastCandidateAt": "2026-11-12T21:54:43.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T21:00:48.034Z",
-					"label": "psoe + campana",
-					"latestAt": "2026-11-12T19:14:00.000Z",
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "primera + cuando",
+					"latestAt": "2026-11-12T21:54:43.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
 					"headlines": [
-						"El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
-						"El CIS de Tezanos vaticina una victoria del PSOE el 29-N que dejaría sin mayoría absoluta a PP y Vox"
+						"España también gana cuando toca sufrir",
+						"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
 					],
 					"sources": [
-						"El Mundo",
-						"El Correo"
+						"El Correo",
+						"El Mundo"
 					],
-					"eventId": "cluster-spain-psoe + campana|2026-11-12T19:14:00.000Z|2|El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención"
+					"eventId": "cluster-spain-primera + cuando|2026-11-12T21:54:43.000Z|2|España también gana cuando toca sufrir"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-spain-gana-etxepare-gana-etxepare": {
 			"candidateId": "cluster-spain-gana + etxepare",
@@ -265,7 +261,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -810,78 +806,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-11T21:45:42.687Z"
-		},
-		"cluster-usa-trump-midterms-trump-midterms": {
-			"candidateId": "cluster-usa-trump + midterms",
-			"label": "trump + midterms",
-			"latestAt": "2026-11-09T05:08:56.000Z",
-			"startedAt": "2026-11-08T13:16:05.000Z",
-			"itemCount": 10,
-			"sourceCount": 6,
-			"terms": [
-				"trump",
-				"midterms"
-			],
-			"sources": [
-				"ABC News",
-				"NBC News Politics",
-				"CBS News",
-				"NPR Politics",
-				"PBS NewsHour",
-				"The New York Times Politics"
-			],
-			"titles": [
-				"Trump says 'too tough' deportation policies hurt him in the midterms",
-				"Trump says deportations were ‘too tough’ and hurt him during the midterms",
-				"Trump tells ‘60 Minutes’ his deportation policy ‘was too tough’",
-				"Extended Interview: President Trump on 60 Minutes",
-				"10 takeaways from Trump's 60 Minutes interview",
-				"Trump staffing changes post-midterms signal he's battle ready",
-				"Voters demanded economic relief. Trump and Democrats face tough choices on how to deliver",
-				"Trump and his Justice Department stand defiant as Democrats ready an investigative blitz",
-				"Week in politics: Democrats plan for the next Congress, Trump's new Chief of Staff",
-				"Trump Says Immigration Crackdown May Have ‘Hurt’ Republicans in Midterms"
-			],
-			"entityFirstSeenAt": "2026-11-07T10:48:13.994Z",
-			"entityLastCandidateAt": "2026-11-09T05:08:56.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T08:25:56.119Z",
-					"label": "trump + midterms",
-					"latestAt": "2026-11-09T05:08:56.000Z",
-					"itemCount": 10,
-					"sourceCount": 6,
-					"headlines": [
-						"Trump says 'too tough' deportation policies hurt him in the midterms",
-						"Trump says deportations were ‘too tough’ and hurt him during the midterms",
-						"Trump tells ‘60 Minutes’ his deportation policy ‘was too tough’"
-					],
-					"sources": [
-						"ABC News",
-						"NBC News Politics",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-trump + midterms|2026-11-09T05:08:56.000Z|10|Trump says 'too tough' deportation policies hurt him in the midterms"
-				},
-				{
-					"observedAt": "2026-11-07T10:48:13.994Z",
-					"label": "trump + midterms",
-					"latestAt": "2026-11-07T09:00:06.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"‘Finally there’s hope’: UK weighs up opportunities and risks after Trump’s midterms disaster",
-						"Former Sen. Flake, outspoken Trump critic, on the GOP reckoning post-midterms"
-					],
-					"sources": [
-						"The Guardian US",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-trump + midterms|2026-11-07T09:00:06.000Z|2|‘Finally there’s hope’: UK weighs up opportunities and risks after Trump’s midterms disaster"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T08:25:56.119Z"
 		},
 		"cluster-usa-trump-miller-trump-miller": {
 			"candidateId": "cluster-usa-trump + miller",
@@ -11746,7 +11670,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-future-jensen-future-jensen": {
 			"candidateId": "cluster-usa-future + jensen",
@@ -12552,7 +12476,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-nvidia-affair-nvidia-affair": {
 			"candidateId": "cluster-usa-nvidia + affair",
@@ -13247,8 +13171,8 @@
 			"label": "nvidia + trump",
 			"latestAt": "2026-11-13T03:27:02.000Z",
 			"startedAt": "2026-11-12T14:17:20.000Z",
-			"itemCount": 9,
-			"sourceCount": 5,
+			"itemCount": 8,
+			"sourceCount": 4,
 			"terms": [
 				"nvidia",
 				"trump"
@@ -13257,8 +13181,7 @@
 				"The New York Times Politics",
 				"CBS News",
 				"NPR",
-				"The New York Times",
-				"The Verge"
+				"The New York Times"
 			],
 			"titles": [
 				"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
@@ -13268,12 +13191,29 @@
 				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
 				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
 				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
-				"Donald Trump really wants Tim Cook to run Nvidia"
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal"
 			],
 			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
 			"entityLastCandidateAt": "2026-11-13T03:27:02.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T05:00:48.275Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-13T03:27:02.000Z",
+					"itemCount": 8,
+					"sourceCount": 4,
+					"headlines": [
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-13T03:27:02.000Z|8|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+				},
 				{
 					"observedAt": "2026-11-13T04:00:47.938Z",
 					"label": "nvidia + trump",
@@ -13330,7 +13270,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-states-united-states-united": {
 			"candidateId": "cluster-usa-states + united",
@@ -14454,7 +14394,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-spain-primer-rosalia-primer-rosalia": {
 			"candidateId": "cluster-spain-primer + rosalia",
@@ -14860,6 +14800,48 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
+		},
+		"cluster-spain-psoe-campana-psoe-campana": {
+			"candidateId": "cluster-spain-psoe + campana",
+			"label": "psoe + campana",
+			"latestAt": "2026-11-12T19:14:00.000Z",
+			"startedAt": "2026-11-12T16:07:32.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"psoe",
+				"campana"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
+				"El CIS de Tezanos vaticina una victoria del PSOE el 29-N que dejaría sin mayoría absoluta a PP y Vox"
+			],
+			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
+			"entityLastCandidateAt": "2026-11-12T19:14:00.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "psoe + campana",
+					"latestAt": "2026-11-12T19:14:00.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
+						"El CIS de Tezanos vaticina una victoria del PSOE el 29-N que dejaría sin mayoría absoluta a PP y Vox"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-psoe + campana|2026-11-12T19:14:00.000Z|2|El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-spain-pero-ciencia-pero-ciencia": {
 			"candidateId": "cluster-spain-pero + ciencia",
@@ -15407,48 +15389,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
-		"cluster-spain-primera-cuando-primera-cuando": {
-			"candidateId": "cluster-spain-primera + cuando",
-			"label": "primera + cuando",
-			"latestAt": "2026-11-12T21:54:43.000Z",
-			"startedAt": "2026-11-12T21:48:19.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"primera",
-				"cuando"
-			],
-			"sources": [
-				"El Correo",
-				"El Mundo"
-			],
-			"titles": [
-				"España también gana cuando toca sufrir",
-				"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
-			],
-			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
-			"entityLastCandidateAt": "2026-11-12T21:54:43.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "primera + cuando",
-					"latestAt": "2026-11-12T21:54:43.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"España también gana cuando toca sufrir",
-						"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
-					],
-					"sources": [
-						"El Correo",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-primera + cuando|2026-11-12T21:54:43.000Z|2|España también gana cuando toca sufrir"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
-		},
 		"cluster-usa-wins-race-wins-race": {
 			"candidateId": "cluster-usa-wins + race",
 			"label": "wins + race",
@@ -15925,7 +15865,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-democrats-kansas-democrats-kansas": {
 			"candidateId": "cluster-usa-democrats + kansas",
@@ -15971,7 +15911,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-kansas-charges-kansas-charges": {
 			"candidateId": "cluster-usa-kansas + charges",
@@ -16013,7 +15953,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
 			"candidateId": "cluster-usa-nvidia + lutnick",
@@ -16075,12 +16015,12 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-microsoft-outage-microsoft-outage": {
 			"candidateId": "cluster-usa-microsoft + outage",
 			"label": "microsoft + outage",
-			"latestAt": "2026-11-13T03:03:35.000Z",
+			"latestAt": "2026-11-13T04:28:16.000Z",
 			"startedAt": "2026-11-12T23:15:24.000Z",
 			"itemCount": 4,
 			"sourceCount": 3,
@@ -16100,8 +16040,26 @@
 				"Widespread outage hits Microsoft platforms including Outlook, thousands report issues"
 			],
 			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T03:03:35.000Z",
+			"entityLastCandidateAt": "2026-11-13T04:28:16.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T05:00:48.275Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T04:28:16.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+						"Widespread outage of Microsoft apps used by hundreds of millions"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T04:28:16.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+				},
 				{
 					"observedAt": "2026-11-13T04:00:47.938Z",
 					"label": "microsoft + outage",
@@ -16140,12 +16098,12 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-senate-leader-senate-leader": {
 			"candidateId": "cluster-usa-senate + leader",
 			"label": "senate + leader",
-			"latestAt": "2026-11-13T03:52:25.000Z",
+			"latestAt": "2026-11-13T04:11:39.000Z",
 			"startedAt": "2026-11-13T02:06:37.244Z",
 			"itemCount": 4,
 			"sourceCount": 4,
@@ -16154,20 +16112,38 @@
 				"leader"
 			],
 			"sources": [
-				"NPR Politics",
 				"The New York Times Politics",
+				"NPR Politics",
 				"CBS News",
 				"NBC News Politics"
 			],
 			"titles": [
-				"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
 				"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+				"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
 				"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
 				"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
 			],
 			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T03:52:25.000Z",
+			"entityLastCandidateAt": "2026-11-13T04:11:39.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T05:00:48.275Z",
+					"label": "senate + leader",
+					"latestAt": "2026-11-13T04:11:39.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"NPR Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-senate + leader|2026-11-13T04:11:39.000Z|4|Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader"
+				},
 				{
 					"observedAt": "2026-11-13T04:00:47.938Z",
 					"label": "senate + leader",
@@ -16206,15 +16182,61 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+		},
+		"cluster-spain-cuando-contra-cuando-contra": {
+			"candidateId": "cluster-spain-cuando + contra",
+			"label": "cuando + contra",
+			"latestAt": "2026-11-13T05:01:36.000Z",
+			"startedAt": "2026-11-12T21:48:19.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"cuando",
+				"contra"
+			],
+			"sources": [
+				"elDiario.es",
+				"El Correo",
+				"El Mundo"
+			],
+			"titles": [
+				"Cuando hordas travestis invadieron el planeta: Sevilla resucita una sátira en blanco y negro contra la intolerancia",
+				"España también gana cuando toca sufrir",
+				"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
+			],
+			"entityFirstSeenAt": "2026-11-13T05:00:48.275Z",
+			"entityLastCandidateAt": "2026-11-13T05:01:36.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T05:00:48.275Z",
+					"label": "cuando + contra",
+					"latestAt": "2026-11-13T05:01:36.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Cuando hordas travestis invadieron el planeta: Sevilla resucita una sátira en blanco y negro contra la intolerancia",
+						"España también gana cuando toca sufrir",
+						"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
+					],
+					"sources": [
+						"elDiario.es",
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-cuando + contra|2026-11-13T05:01:36.000Z|3|Cuando hordas travestis invadieron el planeta: Sevilla resucita una sátira en blanco y negro contra la intolerancia"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-es-2026-11-13T05:00:48.275Z",
+		"id": "local-es-2026-11-13T06:00:48.217Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-13T05:00:48.275Z",
-		"finishedAt": "2026-11-13T05:02:20.062Z",
+		"startedAt": "2026-11-13T06:00:48.217Z",
+		"finishedAt": "2026-11-13T06:02:23.003Z",
 		"signalsCandidate": 6,
 		"signalsSelected": 3,
 		"signalsProcessed": 0,
@@ -16234,7 +16256,7 @@
 			"failures": 0,
 			"retained": 305,
 			"retainedByTtl": 299,
-			"retiredByTtl": 0
+			"retiredByTtl": 1
 		},
 		"costUsd": 0
 	}
