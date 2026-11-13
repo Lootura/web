@@ -1,9 +1,889 @@
 {
 	"schemaVersion": 1,
 	"edition": "us",
-	"updatedAt": "2026-11-13T16:00:48.169Z",
+	"updatedAt": "2026-11-13T17:00:47.990Z",
 	"retentionDays": 90,
 	"items": [
+		{
+			"url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights",
+			"title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+			"source": "Ars Technica",
+			"author": "Dan Goodin",
+			"summary": "Nightmare Eclipse, the pseudonym of a researcher with an ongoing, very public beef with Microsoft, has dropped yet another Windows zero-day. On Tuesday, Nightmare Eclipse disclosed SignDrop, a vulnerability that gives local users full System rights on some versions of Windows. The vulnerability resides in the Common Log File System , which Microsoft describes as a “general-purpose logging service used by software clients running in user-mode or kernel-mode.” By forcing a privileged process such as Windows Defender to open a crafted CLFS container, an attacker with ordinary user rights can abuse the privileged file creation to elevate privileges to System. Turning a Windows defense against itself The attack exploits the interaction of CLFS, Windows Defender, and Windows file permissions. The exploit uses Windows Defender to open a log file created by a standard user by calling ServerMpUpdateEngineSignature, a legitimate Defender function for processing antivirus signature updates. Read full article Comments",
+			"publishedAt": "2026-11-13T16:26:32.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://coloradosun.com/2026/11/13/democrats-denver-whats-next-after-midterms-james-talarico",
+			"title": "Democrats flock to Denver for a post-midterms introspection-turned-celebration",
+			"source": "The Colorado Sun",
+			"author": "The Associated Press",
+			"summary": "James Talarico, senator-elect of Texas, speaks during a Democratic conference Thursday, Nov. 12, 2026, in Denver. (David Zalubowski, The Associated Press) \" data-large-file=\"https://i0.wp.com/newspack-coloradosun.s3.amazonaws.com/wp-content/uploads/2026/11/AP26316847383515-scaled.jpg?fit=780%2C520&ssl=1\" /> The two-day What’s Next conference, hosted by a new group called Majority Democrats, began Thursday in Denver",
+			"publishedAt": "2026-11-13T16:49:28.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://fortune.com/2026/11/13/glp-1-drugs-fda-warning-eye-stroke-naion-vision-loss",
+			"title": "GLP-1 drugs taken by 30 million Americans now carry an FDA warning for a rare ‘stroke of the eye’ that can cause vision loss",
+			"source": "Fortune",
+			"author": "Ziyad Al-Aly, The Conversation",
+			"summary": "GLP-1 drugs must now carry a warning label about a potential link to a rare eye condition that can result in vision loss, the U.S. Food and Drug Administration announced on Nov. 9. 2026. The eye condition is called non-arteritic anterior ischemic optic neuropathy , or NAION, and doctors often refer to it as a stroke of the eye. I am a clinician and epidemiologist who has studied GLP-1 drugs, and my colleagues and I published one of the studies that identified a link between GLP-1 drugs and NAION . Millions of people around the world take these medications – including 30 million in the U.S. – to treat diabetes and obesity and reduce the risk of cardiovascular disease. They are also being investigated for an expanding list of clinical conditions . The data on which the FDA’s warning is based suggests a real but low risk of NAION for people taking GLP-1 medications. This is not a trivial or inconsequential outcome for those who develop the eye stroke. But on balance, if you’re using the medication for an FDA-approved condition such as diabetes or obesity on the advice of your doctor, the risk should not deter you from doing so. Here’s what patients who use GLP-1 drugs need to know abo",
+			"publishedAt": "2026-11-13T16:06:40.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://fortune.com/2026/11/13/jensen-huang-nvidia-affair-china-beauty-stratagem-honey-trap",
+			"title": "The Jensen Huang Nvidia affair recalls China’s ‘beauty stratagem’ that dates back 2,000 years",
+			"source": "Fortune",
+			"author": "Linggong Kong, The Conversation",
+			"summary": "Extramarital activities have led to the resignation of one of America’s most influential tech bosses, Nvidia CEO Jensen Huang. The saga has also raised the specter of an age-old spying tactic: the “honey trap.” Huang stepped down following media reports of an extramarital relationship with Alice Huang, a Singapore-based executive suspected of having ties to Chinese intelligence agencies . She previously worked for Megaspeed, a cloud computing company under U.S. scrutiny for allegedly helping China obtain restricted AI chips. Jensen Huang acknowledged an affair . And amid reports of a second with a company executive who reports to him , he tendered his resignation to the Nvidia board on Nov. 12, 2026. The sensitivity of Huang’s work – AI is increasingly seen as central to national security – has turned a company matter into an international issue. China’s Foreign Ministry has denied the espionage allegations and accused the U.S. of “fabricating so-called spy narratives and ⁠⁠⁠⁠using them as a pretext for imposing ⁠⁠⁠⁠a technological blockade.” Nvidia says it has no reason to believe company secrets have been leaked. Yet part of what makes the accusations so believable is history is ",
+			"publishedAt": "2026-11-13T16:44:10.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": [
+				"Jensen Huang"
+			]
+		},
+		{
+			"url": "https://fortune.com/2026/11/13/maha-candidates-midterms-losses-rfk-jr",
+			"title": "More than half of MAHA’s 24 endorsed candidates lost in the midterms — and 41% of Americans still back the movement",
+			"source": "Fortune",
+			"author": "Robert Brehm, Matt Motta, The Conversation",
+			"summary": "Candidates tied to the Make America Healthy Again, or MAHA, movement suffered a series of electoral defeats in the 2026 midterm elections, raising questions about MAHA’s political future. Despite its name, MAHA has become a controversial force in American health politics. While the movement calls for healthier food , increased physical activity and greater corporate transparency, prominent figures within it have also challenged established scientific evidence, especially on vaccines . Some commentators and critics have described the defeat of MAHA-aligned candidates like Iowa gubernatorial candidate Zach Lahn as a “ brutal election night wipeout .” Others have asked whether MAHA is “ dying .” Yet many Americans still support MAHA and the policies it champions . Its supporters also continue to hold powerful positions in the Trump administration – like Health and Human Services Secretary Robert F. Kennedy Jr., National Institutes of Health Director Jay Bhattacharya , and Kyle Diamantas , acting commissioner of the U.S. Food and Drug Administration – even as a new Congress prepares to take office in January 2027. We are political scientists who study public opinion on healthcare polic",
+			"publishedAt": "2026-11-13T16:08:13.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://fortune.com/2026/11/13/paraguay-ueno-bank-collapse-president-pena-dubai-south-america",
+			"title": "A digital bank’s collapse toppled Paraguay’s president within days — and cracked the myth of the ‘Dubai of South America’",
+			"source": "Fortune",
+			"author": "Joel E. Correia, The Conversation",
+			"summary": "It started on Nov. 3, 2026, when millions of Paraguayans trying to access the Ueno banking app found they could no longer get their money . In a matter of days, the financial situation escalated into political crisis, in which the country’s president was ousted, placed under house arrest and charged with several corruption-related crimes. The political and financial crisis exposes a central contradiction in Paraguay’s recent economic development . Ueno, a bank celebrated for expanding financial access to ordinary Paraguayans, grew through unusually close relationships with political elites and public institutions. And while the Ueno crisis came as a shock, there were clear warning signs. As scholars with expertise in various aspects of Paraguay’s contemporary political , economic and environment development , we believe the collapse raises troubling questions about who benefits from financial modernization, who controls it and who bears the risks when it fails. The political relationships through which financial institutions grow, regulators exercise authority and public resources are entrusted to private companies are crucial national concerns, especially in a country that has pre",
+			"publishedAt": "2026-11-13T16:10:39.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://fortune.com/2026/11/13/republican-gerrymandering-north-carolina-ohio-texas-florida-midterms",
+			"title": "Republicans redrew North Carolina to win nearly two-thirds of its House seats — the blue wave left them poised to hold less than a third",
+			"source": "Fortune",
+			"author": "Charlie Hunt, The Conversation",
+			"summary": "During the 2026 election cycle, Republicans enacted a series of gerrymanders – a form of partisan redistricting – in a handful of states to give them a disproportionate edge over Democrats in their congressional delegations. Democrats responded with a successful redistricting effort in California and an unsuccessful one in Virginia . Gerrymandering has obvious implications for fairness and democracy, characterized by some as politicians picking their voters, not voters picking their politicians. There’s also a practical consideration for those doing the gerrymandering: The efforts can fail when they overplay their hand. By spreading their supportive voters across many districts, parties can create more seats that may lean in their direction. But if spread too thin, these efforts can backfire and net seats for the other party, particularly in a “wave” election year that favors the other party. This unintended consequence is often referred to as a “dummymander .” So, with such massive Democratic majorities poised to enter the 120th Congress, did Republican attempts to gerrymander actually end up costing them some seats in the U.S. House? The answer isn’t as clear-cut as you might thi",
+			"publishedAt": "2026-11-13T16:44:30.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://fortune.com/2026/11/13/rfk-jr-hhs-peptides-compounding-pharmacies-wolverine-stack",
+			"title": "RFK Jr.’s HHS is letting pharmacies sell 6 unproven peptides like the ‘Wolverine stack’ — and no regulator will check what’s in them",
+			"source": "Fortune",
+			"author": "Ana Santos Rutschman, The Conversation",
+			"summary": "Unregulated peptides for weight loss, muscle building, longevity and more are a roaring wellness fad – even though these substances have not been proved safe and effective and have not been approved by the U.S. Food and Drug Administration. Until now, consumers were getting wellness peptides online through the so-called gray market, where companies rely on legal loopholes to sell them. Due to a push from Health and Human Services Secretary Robert F. Kennedy Jr., a vocal proponent of using peptides, an HHS policy on Oct. 29, 2026, will expand access to six peptides by allowing specialized pharmacies to make and sell them. I am a health law professor who researches and teaches FDA law and policy. Consumers of peptides will soon have more options, but they should also be aware of the risks. Drugs versus wellness products Peptides are short chains of amino acids , which are building blocks for proteins. More than 7,000 peptides occur naturally in the human body. Some peptides – both natural and synthetic – have been developed as medicines, such as insulin and GLP-1 drugs , including Ozempic and Wegovy . Peptides that are commercialized as pharmaceutical drugs go through clinical trials",
+			"publishedAt": "2026-11-13T16:17:53.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://huggingface.co/blog/allenai/xybench",
+			"title": "XYBench: Helping with the problem behind the question",
+			"source": "Hugging Face",
+			"summary": "A Blog post by Ai2 on Hugging Face",
+			"publishedAt": "2026-11-13T17:02:35.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://medicalxpress.com/news/2026-11-brain-atlas-reveals-aging-unfolds.html",
+			"title": "Brain atlas reveals how aging unfolds differently across brain regions, cell types and sexes",
+			"source": "Medical Xpress",
+			"summary": "How do we age, and how do we become more at risk of brain diseases as we age? An Arizona State University-led team is helping answer those questions with a new high-resolution atlas of the aging primate brain.",
+			"publishedAt": "2026-11-13T16:40:11.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://medicalxpress.com/news/2026-11-ebola-patterns-clues.html",
+			"title": "Where will Ebola spread next? Travel patterns offer clues",
+			"source": "Medical Xpress",
+			"summary": "How many trips have you squeezed into the past 10 days? Whether you're in Boston or across the globe, in the Democratic Republic of the Congo, your daily routine keeps you on the move. Between seven work commutes, a couple of grocery runs, a pharmacy stop and weekend dinner with friends, you can cover a lot of ground.",
+			"publishedAt": "2026-11-13T16:30:01.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://medicalxpress.com/news/2026-11-liver-radionuclide-therapy-patients-metastatic.html",
+			"title": "Intensified liver-directed radionuclide therapy shows promise for patients with metastatic neuroendocrine tumors",
+			"source": "Medical Xpress",
+			"summary": "Combining intraarterial and intravenous administration of peptide receptor radionuclide therapy (PRRT) can selectively intensify treatment for liver-dominant metastatic neuroendocrine tumors (NETs) while still effectively delivering treatment throughout the whole body. This hybrid approach safely delivered over three times more radiation directly to liver metastases, resulting in encouraging tumor responses among patients. This research was published online in the Journal of Nuclear Medicine.",
+			"publishedAt": "2026-11-13T16:40:07.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://medicalxpress.com/news/2026-11-measles-florida-pfizer-covid-vaccine.html",
+			"title": "Measles elimination at risk—and what a Florida study shows about Pfizer's COVID vaccine",
+			"source": "Medical Xpress",
+			"author": "Izzy Brandstetter Figueroa",
+			"summary": "A Florida study comparing deaths after the Pfizer and Moderna COVID vaccines is getting a lot of attention, and one statistic from it is filling the echo chambers: a 40% higher rate of death with Pfizer. This edition closes with a closer look at that number and why it doesn't show that the vaccine caused deaths.",
+			"publishedAt": "2026-11-13T17:00:06.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://medicalxpress.com/news/2026-11-qa-rethinking-immunity-strong-weak.html",
+			"title": "Q&A: Rethinking immunity beyond 'strong' and 'weak'",
+			"source": "Medical Xpress",
+			"summary": "Melinda Fagan, professor in the Department of Philosophy at the University of Utah, where she holds the Sterling M. McMurrin Chair, proposed in a recent paper a new approach to understanding immunity for both experts and nonexperts, which could help address vaccine hesitancy in a science-leery public.",
+			"publishedAt": "2026-11-13T16:10:01.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://medicalxpress.com/news/2026-11-scientists-pan-african-malaria-parasite.html",
+			"title": "Scientists breed a 'pan-African' malaria parasite to build a better whole-parasite malaria vaccine",
+			"source": "Medical Xpress",
+			"summary": "Researchers have created a hybrid malaria parasite that combines the manufacturing advantages of the strain used in every current whole-parasite malaria vaccine with the much higher liver infectivity of a parasite collected recently in East Africa. The work is published in JCI Insight.",
+			"publishedAt": "2026-11-13T16:20:01.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://phys.org/news/2026-11-cryosphere-decline-safe-planetary-limits.html",
+			"title": "Cryosphere decline beyond safe planetary limits, putting conditions for human society at risk",
+			"source": "Phys.org",
+			"summary": "New research published at COP31 issues a stark warning about the health of the frozen parts of the planet—ice sheets, mountain glaciers, sea ice, permafrost and snow cover—known as the cryosphere. The study, published in Science, finds that human-driven climate change is degrading these landscapes beyond safe environmental limits, systematically threatening the Earth system conditions on which humanity fundamentally depends.",
+			"publishedAt": "2026-11-13T16:40:17.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://phys.org/news/2026-11-electron-orbital-currents-revealing-experimental.html",
+			"title": "Heat drives electron orbital currents, revealing first experimental evidence of orbital Nernst effect",
+			"source": "Phys.org",
+			"summary": "Researchers at National Taiwan University (NTU) have reported the first experimental evidence of heat-current-driven transverse accumulation of electrons' orbital angular momentum, a phenomenon known as the orbital Nernst effect. The study was recently published in Nature Communications.",
+			"publishedAt": "2026-11-13T17:00:12.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://phys.org/news/2026-11-gemini-decam-showcase-young-ia.html",
+			"title": "Gemini and DECam showcase a young Type Ia supernova",
+			"source": "Phys.org",
+			"summary": "A star's explosive demise has added a shiny new feature to NGC 1433, a barred spiral galaxy approximately 50 million light-years away in the southern constellation Horologium (the Pendulum Clock). New images of supernova SN 2026ahvu from the U.S. Department of Energy–fabricated Dark Energy Camera (DECam) and the Gemini South telescope capture the explosion against its galactic surroundings, recording an event that is changing in appearance from night to night.",
+			"publishedAt": "2026-11-13T16:20:10.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://phys.org/news/2026-11-scientists-successfully-swap-fish-products.html",
+			"title": "Scientists successfully swap all fish products in aquafeed to boost sustainable fish farming",
+			"source": "Phys.org",
+			"author": "Emma Merchant",
+			"summary": "Global fish production and consumption have hit new heights, according to the United Nations. People worldwide are consuming much more fish per capita, and more than 23 million people now work in the aquaculture industry. That booming business is putting pressure on the world's oceans.",
+			"publishedAt": "2026-11-13T16:40:25.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://qz.com/cma-awards-winners-chosen-voting-explained",
+			"title": "CMA Awards voting explained: professional members, three ballots, no fan votes",
+			"source": "Quartz",
+			"author": "Colleen Cabili",
+			"summary": "How CMA Awards winners are chosen comes down to three ballots cast by Country Music Association professional members, a July-to-June eligibility window and five finalists in most categories",
+			"publishedAt": "2026-11-13T16:32:07.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://qz.com/cmas-vs-acms-country-awards-differences",
+			"title": "CMAs vs. ACMs: how 2 country music awards shows differ",
+			"source": "Quartz",
+			"author": "Colleen Cabili",
+			"summary": "CMAs vs. ACMs explained: who runs each country music awards show, where they began, who airs them and how winners and categories compare",
+			"publishedAt": "2026-11-13T16:31:40.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://qz.com/how-to-dispute-credit-report-error-ftc",
+			"title": "How to dispute a credit report error: 10 points from the FTC guide",
+			"source": "Quartz",
+			"author": "Cris Tolomia",
+			"summary": "The FTC's guide covers free reports, dispute letters, the 30-day investigation and how to confirm a fix. Here are 10 points.",
+			"publishedAt": "2026-11-13T16:03:07.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://qz.com/low-budget-horror-movies-launched-franchises",
+			"title": "From Night of the Living Dead to Insidious: 10 horror films that began long-running series",
+			"source": "Quartz",
+			"author": "Colleen Cabili",
+			"summary": "These 10 low-budget horror movies, from Night of the Living Dead to Insidious, turned modest reported budgets into long-running film franchises and recurring villains",
+			"publishedAt": "2026-11-13T16:31:35.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://qz.com/moon-facts-nasa",
+			"title": "10 facts about the Moon that NASA says are still changing",
+			"source": "Quartz",
+			"author": "Cris Tolomia",
+			"summary": "NASA's 10 Moon facts show a world that drifts, shrinks and hides unsolved puzzles, and why returning crews will have to live with them.",
+			"publishedAt": "2026-11-13T16:25:17.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://qz.com/presidential-clemency-pardons-commutations",
+			"title": "Which presidents granted the most pardons and commutations, according to Pew",
+			"source": "Quartz",
+			"author": "Cris Tolomia",
+			"summary": "Pew data show Biden granted 4,245 acts of clemency, with 9 findings on pardons, commutations, timing and controversy.",
+			"publishedAt": "2026-11-13T16:03:34.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://qz.com/sam-hartman-facts-commanders-qb-bachelor-for-the-win",
+			"title": "5 facts about Sam Hartman, the Commanders QB cast as the next Bachelor",
+			"source": "Quartz",
+			"author": "Cris Tolomia",
+			"summary": "Sam Hartman, a Commanders practice-squad QB, will star in The Bachelor. Five facts cover his draft fate, a hug, a rib and a viral sprint.",
+			"publishedAt": "2026-11-13T16:31:44.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://qz.com/unlucky-number-13-business",
+			"title": "From hotel floors to SEC filings, 13 ways the number 13 appears in business",
+			"source": "Quartz",
+			"author": "Colleen Cabili",
+			"summary": "The unlucky number 13 in business goes beyond superstition, shaping hotel floors, airline seat maps, fiscal quarters, SEC filings, bankruptcy law and year-end pay worldwide",
+			"publishedAt": "2026-11-13T16:27:27.016Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://qz.com/ways-cut-heating-bill-winter-department-of-energy",
+			"title": "13 ways to cut your home heating bill this winter, from the Department of Energy",
+			"source": "Quartz",
+			"author": "Cris Tolomia",
+			"summary": "A selection of 13 Department of Energy heating tips, from sealing leaks to heat pumps, and the order that decides which ones pay off.",
+			"publishedAt": "2026-11-13T16:23:53.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://qz.com/why-friday-13th-unlucky-origin-theories",
+			"title": "Why Friday the 13th is unlucky: 10 theories on its origin",
+			"source": "Quartz",
+			"author": "Colleen Cabili",
+			"summary": "Why Friday the 13th is unlucky has no proven answer, but these 10 origin theories trace the superstition from the Knights Templar and Norse myth to a 1907 novel",
+			"publishedAt": "2026-11-13T16:27:28.597Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://slate.com/advice/2026/11/sex-advice-dangerous-kink-injury.html",
+			"title": "My Ex Wanted Something Dangerous in Bed. She Found Someone Who Would Do It—and It’s Not Pretty.",
+			"source": "Slate",
+			"author": "Rich Juzwiak, Jessica Stoya",
+			"summary": "I knew this would happen.",
+			"publishedAt": "2026-11-13T17:00:00.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://slate.com/life/2026/11/crossword-slate-daily-puzzle-nov-13-2026.html?via=rss",
+			"title": "Slate Crossword: Duel-Purpose Container? (Six Letters)",
+			"source": "Slate",
+			"author": "Tim Croce",
+			"summary": "Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Nov. 13, 2026.",
+			"publishedAt": "2026-11-13T17:01:50.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://slate.com/life/2026/11/sex-politics-election-midterms-2026-democrats-los-angeles.html?via=rss",
+			"title": "“The Rules Were Bending in Every Way”: Six People on the Life-Changing Sex They Had on Election Night",
+			"source": "Slate",
+			"author": "Maggie Lange",
+			"summary": "One woman had so much sex she decided to freeze her eggs and move to L.A.",
+			"publishedAt": "2026-11-13T16:48:05.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://slate.com/life/2026/11/word-game-slate-pears-456-for-november-13-2026.html",
+			"title": "Slate Pears Game 456: Nov. 13, 2026",
+			"source": "Slate",
+			"summary": "Today's puzzle has nine pears.",
+			"publishedAt": "2026-11-13T17:00:00.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://time.com/article/2026/11/13/early-polar-vortex-el-nino-winter",
+			"title": "What An Early Polar Vortex Combined With El Niño Means For Winter Weather",
+			"source": "TIME",
+			"author": "Simmone Shah",
+			"summary": "A record-early wobble in the polar vortex will send Arctic temperatures to the U.S. by Thanksgiving.",
+			"publishedAt": "2026-11-13T16:43:15.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://variety.com/2026/film/global/tom-hopper-rita-ora-mila-harris-sci-fi-movie-the-signalers-1236947064",
+			"title": "Tom Hopper, Rita Ora and Mila Harris to Star in Sci-Fi Thriller ‘The Signalers,’ WME Independent Launches Sales (EXCLUSIVE)",
+			"source": "Variety",
+			"author": "Alex Ritman",
+			"summary": "Tom Hopper (“The Umbrella Academy,” “The Terminal List”), singer and actress Rita Ora (“Fifty Shades of Grey,” “Tin Soldier”), and rising young Hollywood star Mila Harris (“No Exit,” “Mary”) are set to star in upcoming sci-fi adventure thriller “The Signaler.” Missi Pyle (“Galaxy Quest”) and Nolan North (“Uncharted”) have also joined the cast in supporting […]",
+			"publishedAt": "2026-11-13T17:00:00.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://variety.com/2026/film/news/asian-world-film-festival-honorees-1236945778",
+			"title": "Asian World Film Festival Sets Honorees Including ‘Josephine’ Star Mason Reeves, Packed Lineup of Oscar Contenders",
+			"source": "Variety",
+			"author": "Carolehorst",
+			"summary": "The Asian World Film Festival has announced its honorees, recognizing their accomplishments in bringing Asian stories to audiences worldwide. The fest is honoring Mason Reeves, the young star of “Josephine,” with the Snow Leopard Rising Star Award. Irene Tsu will be honored with the Snow Leopard Outstanding Cinematic Achievement Award. The Shanghai-born actress who, after […]",
+			"publishedAt": "2026-11-13T16:30:00.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://variety.com/2026/film/news/lilo-scratch-disney-animation-short-1236946759",
+			"title": "‘Lilo & Scratch’: Disney Animation Blends 2D and 3D to Bring Back Stitch to the Big Screen in a New Short",
+			"source": "Variety",
+			"author": "Carole Horst",
+			"summary": "Directors Michael Pierce and Fawn Veerasunthorn break down Disney Animation's new short ‘Lilo & Scratch‘.",
+			"publishedAt": "2026-11-13T17:00:00.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://variety.com/2026/tv/global/david-walliams-investigated-police-serious-sexual-offences-1236947077",
+			"title": "David Walliams Being Investigated for ‘Serious Sexual Offences’ by Police",
+			"source": "Variety",
+			"author": "K.J. Yossman",
+			"summary": "David Walliams is being investigated for “serious sexual offences,” the Metropolitan Police confirmed Friday. Walliams, a comedian and former “Britain’s Got Talent” judge, was accused of sexually abusing a teenage girl in a Guardian article earlier this week. The investigation, published in conjunction with an ITV News documentary, also accused Walliams of “grooming” young fans […]",
+			"publishedAt": "2026-11-13T16:24:26.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://variety.com/2026/tv/global/russell-brand-open-secret-netflix-director-1236946984",
+			"title": "‘Russell Brand: Open Secret’ Director Says Finding Contributors Wasn’t Easy: ‘There’s Been a Landscape of Fear’",
+			"source": "Variety",
+			"author": "K.J. Yossman",
+			"summary": "It didn’t take Netflix long to deliver what might be the definitive documentary about the rise and fall of Russell Brand, the former comedian who was sentenced this week to ten and a half years in prison after being convicted of rape and sexual assault. “Russell Brand: Open Secret,” which includes testimony from ex-partners and […]",
+			"publishedAt": "2026-11-13T16:56:51.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://variety.com/2026/tv/news/gilmore-girls-documentary-scott-patterson-streaming-1236946597",
+			"title": "Unauthorized ‘Gilmore Girls’ Doc ‘Drink Coffee, Talk Fast’ Sets Release Date as Series Alum Scott Patterson Joins as Producer (EXCLUSIVE)",
+			"source": "Variety",
+			"author": "Jennifer Maas",
+			"summary": "The “Gilmore Girls” documentary “Drink Coffee, Talk Fast” will be releasing on video-on-demand platforms next week with series alum Scott Patterson (who played the beloved Luke Danes) now on board as an executive producer and doc subject. Airing for seven seasons on The WB/CW from 2000-2007 with a one-season revival at Netflix in 2016, “Gilmore […]",
+			"publishedAt": "2026-11-13T17:00:00.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.cbsnews.com/news/alex-murdaugh-wants-murder-indictments-dismissed",
+			"title": "Alex Murdaugh wants murder indictments tossed, saying agent lied",
+			"source": "CBS News",
+			"summary": "Alex Murdaugh's attorneys are going back to court, this time trying to get his original murder indictments dismissed.",
+			"publishedAt": "2026-11-13T16:50:14.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.cbsnews.com/news/this-week-on-sunday-morning-nov-15-2026",
+			"title": "This week on \"Sunday Morning\" (Nov. 15)",
+			"source": "CBS News",
+			"author": "David Morgan",
+			"summary": "A look at the features for this week's broadcast of the Emmy-winning program, hosted by Jane Pauley.",
+			"publishedAt": "2026-11-13T16:41:00.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.cbsnews.com/video/ebenezer-stars-johnny-depp-sam-claflin-andrea-riseborough-talk-redemption",
+			"title": "\"Ebenezer\" stars Johnny Depp, Sam Claflin, Andrea Riseborough talk redemption",
+			"source": "CBS News",
+			"summary": "Actors Johnny Depp, Sam Claflin and Andrea Riseborough share their thoughts on \"Ebenezer,\" their new dark fantasy film adaptation of Charles Dickens' classic story, \"A Christmas Carol.\"",
+			"publishedAt": "2026-11-13T16:29:14.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.cbsnews.com/video/key-points-stalling-progress-in-russia-ukraine-peace-talks",
+			"title": "Breaking down key points stalling progress in Russia-Ukraine peace talks",
+			"source": "CBS News",
+			"summary": "U.S. special envoys Steve Witkoff and Jared Kushner held separate talks with Russian President Vladimir Putin and Ukrainian President Volodymyr Zelenskyy. CBS News' Aidan Stretch has more.",
+			"publishedAt": "2026-11-13T16:43:00.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.cbsnews.com/video/lutnick-faces-scrutiny-as-nvidia-scandal-fallout-grows",
+			"title": "Lutnick faces scrutiny as Nvidia scandal fallout grows",
+			"source": "CBS News",
+			"summary": "Commerce Secretary Howard Lutnick faces new scrutiny over the Commerce Department's oversight of Nvidia's chip exports after Jensen Huang resigned as CEO. CBS News' Olivia Gazis reports, and Gerrit De Vynck, tech reporter for \"The Washington Post,\" joins to discuss.",
+			"publishedAt": "2026-11-13T16:20:29.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.cbsnews.com/video/missing-australian-boy-found-alive-after-6-days-in-the-wilderness",
+			"title": "Missing Australian boy found alive after 6 days in the wilderness",
+			"source": "CBS News",
+			"summary": "A 17-year-old boy with autism was found alive by a helicopter crew after he spent six days lost in the Australian bush.",
+			"publishedAt": "2026-11-13T16:21:27.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.cbsnews.com/video/news-reports-called-her-a-missing-hiker-her-community-suspected-foul-play",
+			"title": "News reports called her a missing hiker. Her community suspected foul play.",
+			"source": "CBS News",
+			"summary": "When experienced hiker Susan Lane disappeared with her dogs from a tight-knit Oregon mountain community, her friends and neighbors refused to believe she had simply gotten lost. Peter Van Sant reports on their search for answers Saturday on \"48 Hours.\"",
+			"publishedAt": "2026-11-13T16:32:00.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.cnbc.com/2026/11/13/data-center-slowdown-utility-stocks.html",
+			"title": "Why the data center slowdown concern is overblown. Two stocks to buy amid the fear",
+			"source": "CNBC",
+			"author": "Brian Sullivan",
+			"summary": "Not one utility CEO we spoke with at the EEI conference is anticipating a slowdown in electricity growth expectations.",
+			"publishedAt": "2026-11-13T16:54:40.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.cnbc.com/make-it/2026/11/13/menopause-career-setbacks.html",
+			"title": "Women are taking pay cuts and 'white-knuckling it' to manage menopause and work: 'I feel like I'm sitting on the sidelines'",
+			"source": "CNBC",
+			"summary": "Women, and some trans and non-binary people, often experience career setbacks stemming from menopause that can hurt them financially and professionally.",
+			"publishedAt": "2026-11-13T16:00:01.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.fastcompany.com/91641974/high-airfares-could-become-new-normal-according-industry-insider?partner=rss",
+			"title": "High airfares could become the new normal, according to this industry insider",
+			"source": "Fast Company",
+			"author": "Associated Press",
+			"summary": "High airfares could become the new norm as airlines contend with soaring jet fuel prices and mounting operating costs, the Association of Asia Pacific Airlines’ chief said Friday. Wong Hong, director-general of the association grouping 18 airlines in the region, said carriers were trying to contain ticket prices while protecting their finances and avoiding fare increases that could drive passengers away . But the industry is operating in a substantially different cost environment from a year ago when jet fuel was about $80 a barrel, compared with around $180 currently, he said. Fuel accounts for a third of airline operating costs, making further price increases a threat to carriers’ financial performance, he said. “I believe so,” Wong said after an AAPA conference when asked whether high airfares would become a lasting feature rather than a temporary adjustment. “We are living in completely different market conditions and a completely different cost environment … and it looks like these high prices will continue to prevail.” On whether airlines could implement another round of fare increases if fuel prices remain high, Wong said there was no clear answer as passenger price sensitiv",
+			"publishedAt": "2026-11-13T16:15:23.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.fastcompany.com/91642046/friday-the-13th-2026-impact-on-business-may-not-be-so-scary?partner=rss",
+			"title": "Friday the 13th is here. Its impact on your work day may not be so scary",
+			"source": "Fast Company",
+			"author": "Shannon Cudd",
+			"summary": "Business can be risky, so it’s natural that superstitions can sometimes creep in when money and careers are at stake. This workweek ends on Friday the 13th, so in the Western world, the stage is set for fear to influence commerce. Let’s take a look at the so-called bad luck day’s origins and how it impacts the business world. What is a fear of Friday the 13th called? A fear of Friday the 13th is called “paraskevidekatriaphobia,” a term created by psychotherapist Donald Dossey . It combines the Greek words for Friday, 13, and fear. How many Friday the 13ths are there in a year? Around every 212.35 days, a Friday the 13th occurs. This figure is based on a complete 400-year Gregorian calendar cycle. Another way to look at it: there is at least one Friday the 13th a year, but there can be up to three. This year, 2026, Friday the 13th will be in triplicate. When did Friday the 13th become unlucky? The truth is, no one really knows how exactly Friday the 13th became synonymous with misfortune. There are historical and religious references that might shed some light. One of the theories is that the number 12 is considered perfect and complete, so by comparison, 13 is less than. A popular ",
+			"publishedAt": "2026-11-13T16:48:00.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.foxnews.com/outkick-betting/colorado-football-struggles-deion-sanders-tough-test-surging-houston",
+			"title": "Colorado football's struggles under Deion Sanders face a tough test against surging Houston",
+			"source": "Fox News",
+			"author": "David Troy",
+			"summary": "Houston's 7-2 Cougars face Deion Sanders' struggling 3-6 Colorado Buffaloes with college football playoff hopes potentially on the line Friday night.",
+			"publishedAt": "2026-11-13T16:45:37.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.foxnews.com/outkick-sports/wwe-brie-bella-shares-injury-update-after-suffering-broken-scapula-summerslam",
+			"title": "WWE's Brie Bella shares injury update after suffering broken scapula at SummerSlam",
+			"source": "Fox News",
+			"summary": "Brie Bella’s stunning return to WWE at the beginning of the year took a disastrous turn when she suffered a serious shoulder injury at SummerSlam in August. Bella suffered a broken scapula during her tag team match with Paige against Fallon Henley and Lainey Reid. It marked the first time she suffered a significant injury in her WWE career and the overwhelming feelings of her Royal Rumble appearance and tag team victory with Paige at WrestleMania 42 simmered. CLICK HERE FOR MORE OUTKICK PRO WRESTLING COVERAGE The WWE Hall of Famer is now on the mend and gave an injury update to OutKick Dropkick in a recent interview ahead of her appearance at JP’s Brasserie and Sports Den in Las Vegas. \"Well, right now, I still have some breaks, unfortunately,\" she said. \"We just got my CT scan back, but I'm hoping beginning of December, I'll have better news. So, I'm just keeping up with my physical therapy. Finally, I got to kind of go up the next level of physical therapy and that was really fun. It was really challenging so far this week. I was like, whoa, I haven't been this sore like since July. \"I'm hoping I can get back training in the ring in January. That is my goal. So, if the shoulder b",
+			"publishedAt": "2026-11-13T16:44:59.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.foxnews.com/politics/incoming-gop-congressman-backs-halting-all-immigration-us-warns-sharia-law-texas",
+			"title": "Incoming GOP congressman backs halting all immigration to US, warns about Sharia law in Texas",
+			"source": "Fox News",
+			"author": "James Cirrone",
+			"summary": "Rep.-elect Jace Yarbrough says he favors stopping immigration altogether and repealing the 1965 Hart-Celler Act as he prepares to enter Congress.",
+			"publishedAt": "2026-11-13T16:48:35.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.foxnews.com/politics/trumps-spy-chiefs-put-republican-leaders-clock-huge-priority-power-shift-looms-congress",
+			"title": "Trump's spy chiefs put Republican leaders on the clock over 'huge priority' as power shift looms over Congress",
+			"source": "Fox News",
+			"summary": "EXCLUSIVE: President Donald Trump's top administration intelligence officials penned a letter to congressional leaders urging them to reauthorize the Foreign Intelligence Surveillance Act (FISA). An administration official told Fox News Digital the intel measure is at top of mind for the White House to get passed in the still-Republican-controlled Congress before Democrats take a majority on Capitol Hill in January. \"This is going to be a huge priority and push by the administration, by the White House for the lame-duck Congress, because this really needs to get done,\" the administration source said. \"Otherwise, we're kind of in trouble from a national security standpoint.\" They stressed that the White House is \"fully on board\" with the push by the intelligence agencies' leaders asking Congress to reauthorize the law, including the controversial Section 702. CONGRESS RETURNS TO BRUTAL LAME-DUCK STRETCH WITH SHUTDOWN DEADLINE, LEADERSHIP RACES: 'CLOSET IS FULL OF S—' The letter, signed by Attorney General Todd Blanche , Director of National Intelligence Jay Clayton and CIA Director John Ratcliffe, set a deadline for Dec. 9, 2026, less than a month before the new Congress will be swo",
+			"publishedAt": "2026-11-13T16:11:21.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.foxnews.com/tech/could-ai-reduce-shipping-costs-grocery-bills",
+			"title": "Could AI reduce shipping costs and grocery bills?",
+			"source": "Fox News",
+			"summary": "You walk into the grocery store and notice that some of your favorite products cost more than they used to. Then you order something online and discover the delivery fee has gone up, too. It's frustrating, especially when it feels like you're paying more for the same things. Now, here's something you probably haven't considered. Part of what you pay for everyday products can be tied to delivery trucks sitting in long lines outside warehouses. Those trucks can burn expensive diesel while drivers wait to check in. Meanwhile, transportation companies face higher operating expenses that can eventually find their way into retail prices. According to the most recent update from the U.S. Energy Information Administration, the national average diesel price was $6.13 per gallon for the week of Nov. 9. That's still a significant expense for businesses moving products across the country. But what if artificial intelligence could help eliminate some of that waste? A company called EAIGLE says its AI-powered camera technology can reduce truck check-ins at distribution centers from roughly 10 minutes to under 30 seconds. That could save trucking companies money. And if those savings spread acros",
+			"publishedAt": "2026-11-13T16:08:51.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.foxnews.com/us/illegal-immigrant-trucker-charged-crash-killed-mom-2-young-sons-heading-airport",
+			"title": "Illegal immigrant trucker charged in crash that killed mom, 2 young sons heading to airport",
+			"source": "Fox News",
+			"summary": "An illegal immigrant truck driver was charged after allegedly causing a crash in Missouri that left a mother and her two young sons dead. Eldar Skander, 39, was charged with three counts of first-degree involuntary manslaughter in connection with a crash in Kansas City, Missouri , on Monday, according to a news release from the Jackson County Prosecutor's Office. A GoFundMe page identified the victims as 35-year-old Olga Sorbalo and her two children, 4-year-old Samir and 8-year-old Luis. Sorbalo's husband, Liviu Sorbalo, as well as their youngest child, survived the crash, according to the fundraiser. Prosecutors said a total of six other people were transported to a nearby hospital with serious injuries. ILLEGAL IMMIGRANT TRUCK DRIVER FROM INDIA ARRESTED IN DEADLY CALIFORNIA HIT-AND-RUN AFTER BIDEN RELEASE Daniel Cosovan, Olga's brother, told KGW8 the family was headed to the airport to catch a flight back home to Washington. U.S. Immigration and Customs Enforcement (ICE) said in a post on X that Skander is a Ukrainian illegal immigrant who was released into the country under the Biden administration. \"Reckless open-border policies have resulted in countless preventable tragedies.",
+			"publishedAt": "2026-11-13T16:26:44.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.hollywoodreporter.com/movies/movie-features/stephen-king-interview-horror-novel-carrie-1236753241",
+			"title": "Stephen King Almost Threw ‘Carrie’ in the Trash. Then It Changed Everything",
+			"source": "Hollywood Reporter",
+			"author": "Kimberly Nordyke",
+			"summary": "On the film’s 50th anniversary, King looks back at the nearly discarded pages, the bargain-basement movie deal and the 1976 classic that transformed horror.",
+			"publishedAt": "2026-11-13T16:30:00.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.hollywoodreporter.com/movies/movie-news/johnny-depp-ebenezer-comeback-box-office-previews-rob-bank-1236754682",
+			"title": "Johnny Depp’s ‘Ebenezer’ Unearths $1.5M in Box Office Previews",
+			"source": "Hollywood Reporter",
+			"author": "Ryan Gajewski",
+			"summary": "Paramount's spooky take on 'A Christmas Carol' debuts opposite 'How to Rob a Bank' and 'Ghost Soldier.'",
+			"publishedAt": "2026-11-13T16:23:58.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.hollywoodreporter.com/music/music-news/taylor-swift-perform-2026-cma-awards-1236754753",
+			"title": "Taylor Swift to Perform at the 2026 CMA Awards",
+			"source": "Hollywood Reporter",
+			"author": "Hilary Lewis",
+			"summary": "The superstar singer-songwriter had indicated she'd attend the show, where she's nominated for her 'Toy Story 5' song \"I Knew It, I Knew You.\"",
+			"publishedAt": "2026-11-13T16:34:48.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.hollywoodreporter.com/news/general-news/david-walliams-met-police-investigation-sexual-offences-1236754735",
+			"title": "David Walliams Under Investigation by U.K. Police Over Alleged “Serious Sexual Offenses”",
+			"source": "Hollywood Reporter",
+			"author": "Lily Ford",
+			"summary": "It comes just days after Walliams was accused of sexual assault and grooming in a bombshell Guardian and ITV News investigation, claims he vehemently denies.",
+			"publishedAt": "2026-11-13T16:29:12.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.hollywoodreporter.com/news/general-news/russell-brand-sexual-allegations-women-prison-trial-report-1236754647",
+			"title": "Russell Brand Accused of Predatory Behavior by Several More Women: “I Begged Him to Stop”",
+			"source": "Hollywood Reporter",
+			"author": "Lily Ford",
+			"summary": "The sex offender, currently serving a 10-year prison sentence for rape and sexual assault, faces further allegations from six women — including one encounter from 2015, when he was with his now-wife, Laura.",
+			"publishedAt": "2026-11-13T16:31:37.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.hollywoodreporter.com/tv/tv-news/christian-cousins-dead-knots-landing-kindergarten-cop-twin-1236754701",
+			"title": "Christian Cousins, Young Actor in ‘Knots Landing’ and ‘Kindergarten Cop,’ Dies at 43",
+			"source": "Hollywood Reporter",
+			"author": "Mike Barnes",
+			"summary": "He and his identical twin, Joseph, shared roles as Bobby Ewing on the CBS show and as Penelope Ann Miller’s son in the Arnold Schwarzenegger movie.",
+			"publishedAt": "2026-11-13T16:18:59.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.hollywoodreporter.com/tv/tv-news/savannah-guthrie-extends-today-show-deal-nbc-news-1236754721",
+			"title": "Savannah Guthrie Extends ‘Today’ Show Deal",
+			"source": "Hollywood Reporter",
+			"author": "Tony Maglio",
+			"summary": "Guthrie's mom Nancy remains missing.",
+			"publishedAt": "2026-11-13T16:29:10.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.hollywoodreporter.com/tv/tv-news/streaming-ratings-oct-26-nov-1-2026-1236754707",
+			"title": "Streaming Ratings: ‘From’ Dominates an Otherwise Quiet Halloween Week",
+			"source": "Hollywood Reporter",
+			"author": "Rick Porter",
+			"summary": "The sci-fi/horror series is the only title to draw more than a billion minutes of watch time.",
+			"publishedAt": "2026-11-13T16:20:20.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.nbcnews.com/politics/justice-department/feds-add-dc-terrorism-charge-white-house-correspondents-dinner-gunman-rcna609174",
+			"title": "Feds add D.C. terrorism charge for White House Correspondents’ Dinner gunman",
+			"source": "NBC News Politics",
+			"author": "Ryan J. Reilly",
+			"summary": "Cole Tomas Allen now faces a total of five charges, and is set to go to trial in September 2027.",
+			"publishedAt": "2026-11-13T16:57:03.026Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.nbcnews.com/video/commerce-secretary-lutnick-agrees-to-testify-about-nvidia-273452613709",
+			"title": "Commerce Secretary Lutnick agrees to testify about Nvidia",
+			"source": "NBC News Politics",
+			"summary": "Commerce Secretary Howard Lutnick agreed to testify before Congress over national security concerns regarding the expanding Nvidia scandal. NBC News’ Yamiche Alcindor details bipartisan concern and White House reaction.",
+			"publishedAt": "2026-11-13T16:02:27.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.npr.org/2026/11/13/nx-s1-6034016/voter-fraud-search-trump-california",
+			"title": "The Trump administration's voter roll crusade could continue",
+			"source": "NPR",
+			"author": "Jude Joffe-Block",
+			"summary": "Election officials are preparing for the Trump administration's pressure tactics over potential noncitizens on state voter rolls to continue, though recent court rulings pose new obstacles. (Image credit: Mario Tama)",
+			"publishedAt": "2026-11-13T17:00:00.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.npr.org/2026/11/13/nx-s1-6038868/nvidia-jensen-huang-exit-scandal-colette-kress-ai-future",
+			"title": "Jensen Huang is out. An AI expert explains what his exit could mean for the AI boom",
+			"source": "NPR World",
+			"author": "Michel Martin",
+			"summary": "AI expert Gary Marcus breaks down what's at stake for Nvidia and the mess its new CEO has inherited. (Image credit: Markus Schreiber)",
+			"publishedAt": "2026-11-13T11:47:00.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.npr.org/sections/planet-money/2026/11/13/nx-s1-6039196/does-europe-regret-its-bet-on-u-s-defense",
+			"title": "Does Europe regret its bet on U.S. defense?",
+			"source": "NPR",
+			"author": "Cooper Katz McKim",
+			"summary": "Europe bet big on American defense technology and they're now paying the price. Years-long backlogs are underway due to production delays and the U.S. own military needs. (Image credit: JOHN MACDOUGALL/AFP via Getty Images)",
+			"publishedAt": "2026-11-13T16:17:43.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.nytimes.com/2026/11/13/business/economy/bessent-commerce-megaspeed-lutnick.html",
+			"title": "Bessent Faults Commerce Dept. for Failing to Blacklist Megaspeed",
+			"source": "The New York Times Politics",
+			"author": "Ana Swanson",
+			"summary": "The Treasury secretary blamed the department for not sanctioning Megaspeed and said that Nvidia employees should be held accountable if they sidestepped the law.",
+			"publishedAt": "2026-11-13T16:25:12.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.nytimes.com/2026/11/13/opinion/jensen-huang-nvidia.html",
+			"title": "Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+			"source": "The New York Times",
+			"author": "Alex Kantrowitz",
+			"summary": "Jensen Huang was a big reason Nvidia preserved the ability to sell chips to China. His departure from the company might change that.",
+			"publishedAt": "2026-11-13T16:30:07.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.nytimes.com/2026/11/13/technology/anthropic-dario-amodei-ai-openai.html",
+			"title": "Why Anthropic’s Dario Amodei Has Angered OpenAI and Other A.I. Peers",
+			"source": "The New York Times",
+			"author": "Kalley Huang, Mike Isaac and Cecilia Kang",
+			"summary": "Dario Amodei, the company’s chief executive, publicly frets about the dangers of artificial intelligence and has made enemies of his peers along the way.",
+			"publishedAt": "2026-11-13T16:11:41.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.nytimes.com/2026/11/13/technology/anthropic-ipo-spending-plans.html",
+			"title": "Wall Street Braces for Anthropic’s Spending",
+			"source": "The New York Times",
+			"author": "Cory Weinberg",
+			"summary": "The company’s financial picture may get murky as it deals with employee stock compensation and the growing costs of artificial intelligence.",
+			"publishedAt": "2026-11-13T16:28:46.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.nytimes.com/2026/11/13/technology/jensen-huang-silicon-valley-start-ups.html",
+			"title": "Silicon Valley Start-Ups Face a Future Without Jensen Huang’s Money",
+			"source": "The New York Times",
+			"author": "Erin Griffith and Cory Weinberg",
+			"summary": "Mr. Huang championed start-ups, with Nvidia holding $48 billion worth of stakes in 229 private companies, including OpenAI and Anthropic, at the end of July.",
+			"publishedAt": "2026-11-13T16:36:28.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.nytimes.com/2026/11/13/us/june-carpenter-dead.html",
+			"title": "Sister June Carpenter, the Oldest Shaker, Has Died",
+			"source": "The New York Times",
+			"author": "Penelope Green",
+			"summary": "Now there are only two practicing members of the last active Shaker community in the United States. Sister June was 88.",
+			"publishedAt": "2026-11-13T15:40:39.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.pbs.org/newshour/politics/democrats-are-weighing-impeachment-of-rfk-jr-while-courting-his-supporters",
+			"title": "Democrats are weighing impeachment of RFK Jr. while courting his supporters",
+			"source": "PBS NewsHour",
+			"author": "Ali Swenson, Associated Press",
+			"summary": "When Democrats take over Congress in January, one of their many oversight targets will be Health Secretary Robert F. Kennedy Jr., whose overhaul of longstanding vaccine guidance and cuts to medical research over the past two years have drawn fiery criticism. Some high-ranking lawmakers have suggested impeaching him.",
+			"publishedAt": "2026-11-13T16:43:22.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.pbs.org/newshour/politics/navy-has-quietly-fired-some-commanders-and-other-officials-drawing-congressional-pushback",
+			"title": "Navy has quietly fired some commanders and other officials, drawing congressional pushback",
+			"source": "PBS NewsHour",
+			"author": "Konstantin Toropin, Associated Press",
+			"summary": "The firings are a break from the Navy's longstanding policy to announce major removals of commanders and other highly visible officials. They also follow an increasing level of secrecy over military operations, especially in the Middle East.",
+			"publishedAt": "2026-11-13T16:58:31.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.pbs.org/newshour/world/high-airfares-may-become-new-norm-as-jet-fuel-costs-soar-says-asia-pacific-airline-industry-chief",
+			"title": "High airfares may become new norm as jet fuel costs soar, says Asia-Pacific airline industry chief",
+			"source": "PBS NewsHour",
+			"author": "Associated Press",
+			"summary": "High airfares could become the new norm as airlines contend with soaring jet fuel prices and mounting operating costs, the Association of Asia Pacific Airlines' chief said Friday.",
+			"publishedAt": "2026-11-13T16:06:42.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.rollingstone.com/music/music-features/jake-bugg-interview-alamo-album-1235657118",
+			"title": "Jake Bugg Remembers Who He Is on 'Alamo'",
+			"source": "Rolling Stone",
+			"author": "Daniel Kohn",
+			"summary": "U.K. songwriter Jake Bugg says he addressed past hardships to write his new album 'Alamo.'",
+			"publishedAt": "2026-11-13T16:47:13.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.rollingstone.com/music/music-news/idk-eminem-j-dilla-new-song-welcome-1235657529",
+			"title": "IDK Brings Together Eminem and J Dilla for First Time on New Song 'Welcome'",
+			"source": "Rolling Stone",
+			"author": "Daniel Kreps",
+			"summary": "IDK brings together a pair of Detroit legends — Eminem and the late J Dilla — for the first time on the rapper’s new single \"Welcome.\"",
+			"publishedAt": "2026-11-13T16:56:34.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.rollingstone.com/tv-movies/tv-movie-news/13th-friday-the-13th-movie-is-coming-1235657477",
+			"title": "Jason Voorhees Is Back for More Blood: the 13th ‘Friday the 13th’ Film Is Coming",
+			"source": "Rolling Stone",
+			"author": "Larisha Paul",
+			"summary": "The 2027 film will be directed by Friday the 13th veteran Steve Miner, who played a pivotal role in shaping the murderous character through the introduction of his mask and machete",
+			"publishedAt": "2026-11-13T16:24:46.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.theatlantic.com/politics/2026/11/joe-biden-memoir-trump/689346",
+			"title": "Biden: I Was Right to Seek Reelection",
+			"source": "The Atlantic",
+			"author": "Jim Watson / AFP / Getty",
+			"summary": "J oe Biden has a favorite saying that he has attributed to various family members over the years, most often to his mother: Joey , she’d tell him, never bow; never bend; never kneel; never yield. That sentiment runs through his nearly 500-page memoir, as he recounts his four years as president, his decision to run for reelection, and his attempt to stay in the race after the worst presidential-debate performance in American history. “Today there is no shortage of people who think I blindly raced to run again. Driven by ambition. Selfishness. Unaware of the concerns about my age,” he states, accurately. “I knew better than anyone how old I was. I knew what I was—and wasn’t—capable of doing. I carefully monitored how I was meeting the demands of the job. And there is not a single example of me failing to handle my responsibilities.” Biden, as you can tell, is neither reflective nor repentant. He does not concede mistakes, and seems to regret almost nothing. He believes he was right to run for a second term, wishes he had been given the chance for a second debate with Donald Trump, and still insists he maintained the support of average voters even as party leadership pressed him to ge",
+			"publishedAt": "2026-11-13T16:12:43.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.thebulwark.com/p/border-dems-to-fellow-democrats-dont-f-this-up-immigration-reform",
+			"title": "Border Dems to Fellow Democrats: Don’t F This Up",
+			"source": "The Bulwark",
+			"author": "Adrian Carrasquillo",
+			"summary": "(Photo illustration by Bill Kuchman/ The Bulwark | Photos: Elliott O’Donovan/ABIC Action, Shutterstock) THE FIRST THING YOU’D HAVE NOTICED about Wednesday’s immigration press conference on Capitol Hill was the cowboy hats. Similarly behatted groups can be seen in Washington often enough, and if this presser had been hosted as little as two weeks ago, you may have assumed those assembled were advocating for further immigration restrictions or a tighter border. But the American Business Immigration Coalition Action had called this conference for a completely different purpose: to demand new solutions in light of the historic rebuke voters delivered to Trump’s mass-deportation agenda in the November 3 midterms. Along with mainstays like Sen. Ruben Gallego (D-Ariz.)—who was heard lamenting that no one told him about the hats or else he would have worn his—and Rep. Joaquin Castro (D-Texas) were nine men in cowboy hats, including Bobby Pulido, the Tejano music star who unseated Monica De La Cruz in Texas’s 15th Congressional District last week, as well as South Texas builders who had turned against Trump. The event was a veritable Marlboro Man audition happening in the shadow of the U.S.",
+			"publishedAt": "2026-11-13T16:14:04.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.theguardian.com/books/2026/nov/13/sheds-cakes-and-photos-of-me-prince-williams-country-life-digested-by-john-crace",
+			"title": "Sheds, cakes and photos of me – Prince William’s Country Life, digested by John Crace",
+			"source": "The Guardian US",
+			"author": "John Crace",
+			"summary": "Saintly heir to the throne breaks his hectic schedule for a magazine lowdown on life in the country Country Life: Guest Edited by HRH the Prince of Wales Front Cover: Photo of me outdoors. I love the country, me.",
+			"publishedAt": "2026-11-13T16:12:29.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.theguardian.com/environment/2026/nov/13/california-gavin-newsom-endorses-fossil-fuel-phaseout",
+			"title": "California governor Gavin Newsom endorses global fossil fuel phaseout",
+			"source": "The Guardian US",
+			"author": "Mark Hertsgaard",
+			"summary": "Newsom is the most prominent US politician at Cop31, a process the Trump administration continues to boycott The leader of the world’s fourth biggest economy, California governor Gavin Newsom, has explicitly endorsed a global phase out of the fossil fuels that drive climate breakdown. Newsom told the Guardian that California is “100%” behind the efforts of the so-called Santa Marta coalition , a group of more than 50 countries that includes many of the world’s largest economies, to transition away from oil, gas and coal toward solar, wind, batteries and other non-carbon energy sources.",
+			"publishedAt": "2026-11-13T16:31:28.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+			"title": "‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths",
+			"source": "The Guardian US",
+			"author": "Alex Bellos",
+			"summary": "Kurt Gödel left 1,009 pages of densely written text – much of it in an obsolete shorthand – which is now said to contain hundreds of proved theorems",
+			"publishedAt": "2026-11-13T16:38:27.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.theguardian.com/uk-news/2026/nov/13/david-walliams-allegations-met-police-investigation",
+			"title": "Met police launch investigation into David Walliams allegations",
+			"source": "The Guardian US",
+			"author": "Vikram Dodd Police and crime correspondent",
+			"summary": "Police say allegations of sexual misconduct are separate from those made by multiple women in Guardian and ITN investigation The Metropolitan police have announced a criminal investigation into David Walliams over alleged sexual misconduct. In reports by the Guardian and ITV News, Walliams, 55, has been accused by multiple women of using his power and celebrity status to prey on young women and teenagers for sex.",
+			"publishedAt": "2026-11-13T16:36:21.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.theguardian.com/us-news/2026/nov/13/chuck-schumer-democrat-party-control-ideology",
+			"title": "Chuck Schumer’s challenger for party control underscores Democrats’ ideological rift",
+			"source": "The Guardian US",
+			"author": "George Chidi",
+			"summary": "Senator Chris Van Hollen’s policy credentials allowed his quick rise to roles usually reserved for the more tenured",
+			"publishedAt": "2026-11-13T16:36:45.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
+		{
+			"url": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
+			"title": "The new Apple TV has a YouTube problem",
+			"source": "The Verge",
+			"author": "Stevie Bonifield",
+			"summary": "People who received the brand new Apple TV 4k today saw some strange error messages as soon as they opened the YouTube app. As the first units arrived, the app was initially only showing a black screen with a QR code and an error message saying \"YouTube is not yet available on this device.\" In some cases the app was functional, but had a transparent red bar stuck at the bottom of the screen saying, \"YouTube app is approved for device testing only and not for production use.\" Installing the new tvOS 27.2 update and rebooting wasn't enough to resolve the issue for The Verge 's Tom Warren , he also had to uninstall and reinstall the app. The Ve … Read the full story at The Verge.",
+			"publishedAt": "2026-11-13T16:55:57.000Z",
+			"arrivedAt": "2026-11-13T17:00:47.990Z",
+			"entities": []
+		},
 		{
 			"url": "https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction",
 			"title": "It's the end of the world as we know it, per a physicist's 1960 prediction",
@@ -380,7 +1260,7 @@
 			"title": "China warns against new U.S. export controls on computer chips",
 			"source": "CBS News",
 			"summary": "China is warning the U.S. against putting new export controls on semiconductors in the wake of the scandal surrounding​ AI chip giant Nvidia and its now-former CEO Jensen Huang.",
-			"publishedAt": "2026-11-13T15:19:38.000Z",
+			"publishedAt": "2026-11-13T16:23:15.000Z",
 			"arrivedAt": "2026-11-13T16:00:48.169Z",
 			"entities": []
 		},
@@ -580,7 +1460,7 @@
 			"title": "How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front",
 			"source": "NPR",
 			"author": "Jonathan Lambert",
-			"summary": "The Maryland Democrat, who's the ranking member of the Senate Foreign Relations Subcommittee, just announced he's going to run for Majority Leader post. He spoke to NPR about his foreign aid vision. (Image credit: Nathan Posner/Anadolu )",
+			"summary": "The Maryland Democrat, who's the ranking member of the Senate Foreign Relations Subcommittee, just announced he's going to run for Majority Leader. He spoke to NPR about his foreign aid vision. (Image credit: Nathan Posner/Anadolu )",
 			"publishedAt": "2026-11-13T15:46:35.000Z",
 			"arrivedAt": "2026-11-13T16:00:48.169Z",
 			"entities": []
@@ -650,7 +1530,7 @@
 			"title": "Jack White on the Magic of Loretta Lynn and ‘Van Lear Rose’: ‘Outstanding and Life-Affirming’",
 			"source": "Rolling Stone",
 			"author": "Marissa Moss",
-			"summary": "The country music legend's Grammy-winning 2004 album returns to streaming and gets a newly remastered reissue on White's Third Man Records",
+			"summary": "The country music legend’s Grammy-winning 2004 album returns to streaming and gets a newly remastered reissue on White’s Third Man Records",
 			"publishedAt": "2026-11-13T15:35:56.000Z",
 			"arrivedAt": "2026-11-13T16:00:48.169Z",
 			"entities": []
@@ -767,11 +1647,11 @@
 		},
 		{
 			"url": "https://www.theguardian.com/us-news/2026/nov/13/washington-dc-gym-shooter-confession",
-			"title": "Doctor named as DC gym shooting suspect confessed, noting dispute over living conditions, home manager says",
+			"title": "Condo manager says DC gym shooter confessed in phone call, noting dispute over living conditions",
 			"source": "The Guardian US",
 			"author": "Anna Betts",
-			"summary": "Gunman killed one person and injured at least four others in and around condo building not far from the White House More details were emerging on Friday about the previous morning’s shooting in north-west Washington DC, as a manager at the shooter’s residential building shared how he was angry over living conditions there and confessed to the killings. The gunman killed one person and injured at least four others on Thursday in and around the condominium building in the Logan Circle neighborhood of the capital, not far from the White House, where he lived.",
-			"publishedAt": "2026-11-13T15:25:28.000Z",
+			"summary": "Gunman killed one person and injured at least five others in and around condo building not far from the White House More details were emerging on Friday about the previous morning’s shooting in north-west Washington DC, as a manager at the shooter’s residential building shared how he was angry over living conditions there and confessed to the killings. The gunman killed one person and injured at least five others on Thursday in and around the condominium building in the Logan Circle neighborhood of the capital, not far from the White House, where he lived.",
+			"publishedAt": "2026-11-13T16:35:02.000Z",
 			"arrivedAt": "2026-11-13T16:00:48.169Z",
 			"entities": []
 		},
@@ -1116,7 +1996,9 @@
 			"summary": "Jensen Huang resigned from his role as CEO of chipmaker Nvidia, less than a week after his extramarital affair with a suspected Chinese spy became widely known.",
 			"publishedAt": "2026-11-13T14:50:17.000Z",
 			"arrivedAt": "2026-11-13T15:00:48.579Z",
-			"entities": []
+			"entities": [
+				"Jensen Huang"
+			]
 		},
 		{
 			"url": "https://www.cbsnews.com/video/preview-u2-on-being-nicely-chaotic",
@@ -1820,7 +2702,7 @@
 		},
 		{
 			"url": "https://www.theatlantic.com/politics/2026/11/unlikely-congress-midterm-winners/689388",
-			"title": "Surprise! You’re in Congress Now",
+			"title": "The Democrats Who Are Stunned to Find Themselves in Congress",
 			"source": "The Atlantic",
 			"author": "Illustration by The Atlantic*",
 			"summary": "Z ack Mullock spent the past nine months campaigning for a U.S. House seat, but never actually pictured himself in Washington as a newly elected member of Congress. Yes, the mayor of Cape May, on the southern tip of New Jersey, believed in his long-shot congressional campaign. But the Democrat never really stopped to think about what would happen if he won. And why would he have? As of late October, political prognosticators still rated the seat he was running for, New Jersey’s Second Congressional District, as safely Republican. After Mullock eked out a shock victory against Representative Jeff Van Drew on November 3, there was a lot to do. For one thing, he had to Google how much members of Congress make ($174,000 a year—more than 10 times what he was paid to serve as mayor). Mullock, a 41-year-old father of three, also had to scramble his travel plans. He had scheduled a vacation for immediately after the election to mark the end of an exhausting stretch for his family. Then someone informed him that he needed to show up at freshman orientation instead. “The first thing I had to tell my kids was, ‘We’re not going to Florida, guys. I’m sorry,’” Mullock told us. Forty-eight hours ",
@@ -3431,7 +4313,7 @@
 			"source": "The New York Times",
 			"author": "Jessica Contrera and Mack Liederman",
 			"summary": "When a popular restaurant agreed to serve as a campaign stop for G.O.P. candidates ahead of Election Day, longtime customers turned against it and Medina, Ohio, was left reeling.",
-			"publishedAt": "2026-11-13T13:17:17.000Z",
+			"publishedAt": "2026-11-13T16:46:17.000Z",
 			"arrivedAt": "2026-11-13T13:35:22.142Z",
 			"entities": []
 		},
@@ -3451,7 +4333,7 @@
 			"source": "The New York Times World",
 			"author": "Declan Walsh and Daniel Berehulak",
 			"summary": "The new epicenter of Congo’s fast-spreading outbreak is a region scarred by rebel violence. Responders are struggling to help it.",
-			"publishedAt": "2026-11-13T10:02:05.000Z",
+			"publishedAt": "2026-11-13T16:02:36.000Z",
 			"arrivedAt": "2026-11-13T13:35:22.142Z",
 			"entities": []
 		},
@@ -4022,8 +4904,8 @@
 			"title": "Microsoft’s massive Outlook outage continues",
 			"source": "The Verge",
 			"author": "Jess Weatherbed",
-			"summary": "Service is gradually starting to recover for Microsoft Outlook and 365 after an almost two-day outage impacting millions of users around the world. While some apps and features are still running in a degraded state, some people (including Verge staffers) are reporting that access to their emails has been restored, though the flow of Outlook mail might be delayed while efforts to fully fix the outage continue. Senior Verge correspondent Tom Warren reports that according to his sources, the outage is linked to Azure VNet config changes. Microsoft has said that it hasn't found any evidence of the outage being connected to \"malicious activity,\" … Read the full story at The Verge.",
-			"publishedAt": "2026-11-13T15:29:21.000Z",
+			"summary": "Service is gradually starting to recover for Microsoft Outlook and 365 after an almost two-day outage impacting millions of users around the world. While some apps and features are still running in a degraded state, some people (including Verge staffers) are reporting that access to their emails has been restored, though the flow of Outlook mail might be delayed while efforts to fully fix the outage continue. Charles Lamanna, Copilot, agents, and platform leader at Microsoft said in a statement to The Verge that the situation is continuing to improve: \"We're seeing encouraging recovery progress, with service availability and email deliver … Read the full story at The Verge.",
+			"publishedAt": "2026-11-13T16:17:11.000Z",
 			"arrivedAt": "2026-11-13T13:35:22.142Z",
 			"entities": []
 		},
@@ -6717,7 +7599,7 @@
 			"source": "The New York Times World",
 			"author": "Adam Nossiter",
 			"summary": "After years in elite police units, he drew scrutiny from human rights groups for selling arms and providing other services to unsavory governments. He was 80.",
-			"publishedAt": "2026-11-13T00:23:46.000Z",
+			"publishedAt": "2026-11-13T16:54:40.000Z",
 			"arrivedAt": "2026-11-13T00:00:48.749Z",
 			"entities": []
 		},
@@ -8822,10 +9704,10 @@
 		},
 		{
 			"url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
-			"title": "Microsoft outage hits Outlook. AWS and Google users also report issues",
+			"title": "Microsoft says email delivery and service availability 'improving' across more infrastructure",
 			"source": "CNBC",
-			"author": "Samantha Subin",
-			"summary": "Amazon Web Services and Google users also reported outages on Thursday",
+			"author": "Jenni Reid, Samantha Subin",
+			"summary": "A Microsoft outage on Thursday and Friday affected users of services like Outlook, Teams and 365.",
 			"publishedAt": "2026-11-12T20:54:22.000Z",
 			"arrivedAt": "2026-11-12T21:00:48.034Z",
 			"entities": []

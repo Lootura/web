@@ -1,10 +1,16 @@
 {
-	"updatedAt": "2026-11-13T16:00:48.169Z",
+	"updatedAt": "2026-11-13T17:00:47.990Z",
 	"feedProfile": "es",
 	"retentionDays": 90,
 	"totalAuthors": 80,
-	"totalBylinedItems": 434,
+	"totalBylinedItems": 436,
 	"runs": [
+		{
+			"at": "2026-11-13T17:00:47.990Z",
+			"itemCount": 120,
+			"bylinedItemCount": 65,
+			"authorCount": 80
+		},
 		{
 			"at": "2026-11-13T16:00:48.169Z",
 			"itemCount": 120,
@@ -177,12 +183,6 @@
 			"at": "2026-11-11T11:58:41.380Z",
 			"itemCount": 120,
 			"bylinedItemCount": 47,
-			"authorCount": 80
-		},
-		{
-			"at": "2026-11-11T06:54:03.533Z",
-			"itemCount": 120,
-			"bylinedItemCount": 60,
 			"authorCount": 80
 		}
 	],
@@ -3376,7 +3376,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 148,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-05-20T03:30:01.000Z",
 			"latestAt": "2026-11-13T15:25:28.000Z",
 			"daysActive": 178,
@@ -4070,6 +4070,102 @@
 					"source": "El Correo",
 					"href": "https://www.elcorreo.com/gente-estilo/revuelta-cancela-entradas-publico-ante-exigencias-abascal-20261107093432-nt.html?utm_source=lootura.com&ref=lootura.com",
 					"publishedAt": "2026-11-07T08:34:32.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			]
+		},
+		{
+			"id": "https://www.diariovasco.com/autor/benat-barreto-4689.html",
+			"name": "Beñat Barreto",
+			"source": "El Diario Vasco",
+			"profileUrl": "https://www.diariovasco.com/autor/benat-barreto-4689.html",
+			"itemCount": 5,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 130,
+			"confidence": "high",
+			"firstSeenAt": "2026-11-08T18:29:34.000Z",
+			"latestAt": "2026-11-13T16:47:58.000Z",
+			"daysActive": 5,
+			"categories": [
+				"local"
+			],
+			"sources": [
+				"El Diario Vasco"
+			],
+			"examples": [
+				{
+					"key": "https://www.diariovasco.com/real-sociedad/ander-barrenetxea-operado-manera-satisfactoria-doctor-lasse-20261113174757-nt.html?ref=lootura.com",
+					"title": "Ander Barrenetxea, operado de «manera satisfactoria» por el doctor Lasse Lempainen",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/real-sociedad/ander-barrenetxea-operado-manera-satisfactoria-doctor-lasse-20261113174757-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T16:47:58.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/real-sociedad/hora-take-kubo-20261113000656-nt.html?ref=lootura.com",
+					"title": "La hora de Take Kubo",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/real-sociedad/hora-take-kubo-20261113000656-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T23:06:56.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/real-sociedad/desplazamiento-txuriurdin-898-entradas-santander-precio-unico-20261112192238-nt.html?ref=lootura.com",
+					"title": "Desplazamiento txuri-urdin a la vista: 898 entradas para Santander a un precio único de 30 euros",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/real-sociedad/desplazamiento-txuriurdin-898-entradas-santander-precio-unico-20261112192238-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T18:22:38.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.diariovasco.com/real-sociedad/ander-barrenetxea-operado-manera-satisfactoria-doctor-lasse-20261113174757-nt.html?ref=lootura.com",
+					"title": "Ander Barrenetxea, operado de «manera satisfactoria» por el doctor Lasse Lempainen",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/real-sociedad/ander-barrenetxea-operado-manera-satisfactoria-doctor-lasse-20261113174757-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T16:47:58.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/real-sociedad/hora-take-kubo-20261113000656-nt.html?ref=lootura.com",
+					"title": "La hora de Take Kubo",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/real-sociedad/hora-take-kubo-20261113000656-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T23:06:56.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/real-sociedad/desplazamiento-txuriurdin-898-entradas-santander-precio-unico-20261112192238-nt.html?ref=lootura.com",
+					"title": "Desplazamiento txuri-urdin a la vista: 898 entradas para Santander a un precio único de 30 euros",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/real-sociedad/desplazamiento-txuriurdin-898-entradas-santander-precio-unico-20261112192238-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T18:22:38.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/real-sociedad/1x1-jugadores-real-sociedad-ante-rayo-nota-20261108195516-nt.html?ref=lootura.com",
+					"title": "El 1x1 de los jugadores de la Real Sociedad ante el Rayo. ¿Tú qué nota les pondrías?",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/real-sociedad/1x1-jugadores-real-sociedad-ante-rayo-nota-20261108195516-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T18:55:16.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/real-sociedad/genialidad-dar-salto-20261108192934-nt.html?ref=lootura.com",
+					"title": "Una genialidad para dar un salto",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/real-sociedad/genialidad-dar-salto-20261108192934-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T18:29:34.000Z",
 					"category": "local",
 					"weight": 4
 				}
@@ -4826,93 +4922,6 @@
 			]
 		},
 		{
-			"id": "https://www.diariovasco.com/autor/benat-barreto-4689.html",
-			"name": "Beñat Barreto",
-			"source": "El Diario Vasco",
-			"profileUrl": "https://www.diariovasco.com/autor/benat-barreto-4689.html",
-			"itemCount": 4,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 112,
-			"confidence": "high",
-			"firstSeenAt": "2026-11-08T18:29:34.000Z",
-			"latestAt": "2026-11-12T23:06:56.000Z",
-			"daysActive": 5,
-			"categories": [
-				"local"
-			],
-			"sources": [
-				"El Diario Vasco"
-			],
-			"examples": [
-				{
-					"key": "https://www.diariovasco.com/real-sociedad/hora-take-kubo-20261113000656-nt.html?ref=lootura.com",
-					"title": "La hora de Take Kubo",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/real-sociedad/hora-take-kubo-20261113000656-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T23:06:56.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/real-sociedad/desplazamiento-txuriurdin-898-entradas-santander-precio-unico-20261112192238-nt.html?ref=lootura.com",
-					"title": "Desplazamiento txuri-urdin a la vista: 898 entradas para Santander a un precio único de 30 euros",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/real-sociedad/desplazamiento-txuriurdin-898-entradas-santander-precio-unico-20261112192238-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T18:22:38.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/real-sociedad/1x1-jugadores-real-sociedad-ante-rayo-nota-20261108195516-nt.html?ref=lootura.com",
-					"title": "El 1x1 de los jugadores de la Real Sociedad ante el Rayo. ¿Tú qué nota les pondrías?",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/real-sociedad/1x1-jugadores-real-sociedad-ante-rayo-nota-20261108195516-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T18:55:16.000Z",
-					"category": "local",
-					"weight": 4
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.diariovasco.com/real-sociedad/hora-take-kubo-20261113000656-nt.html?ref=lootura.com",
-					"title": "La hora de Take Kubo",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/real-sociedad/hora-take-kubo-20261113000656-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T23:06:56.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/real-sociedad/desplazamiento-txuriurdin-898-entradas-santander-precio-unico-20261112192238-nt.html?ref=lootura.com",
-					"title": "Desplazamiento txuri-urdin a la vista: 898 entradas para Santander a un precio único de 30 euros",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/real-sociedad/desplazamiento-txuriurdin-898-entradas-santander-precio-unico-20261112192238-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T18:22:38.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/real-sociedad/1x1-jugadores-real-sociedad-ante-rayo-nota-20261108195516-nt.html?ref=lootura.com",
-					"title": "El 1x1 de los jugadores de la Real Sociedad ante el Rayo. ¿Tú qué nota les pondrías?",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/real-sociedad/1x1-jugadores-real-sociedad-ante-rayo-nota-20261108195516-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T18:55:16.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/real-sociedad/genialidad-dar-salto-20261108192934-nt.html?ref=lootura.com",
-					"title": "Una genialidad para dar un salto",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/real-sociedad/genialidad-dar-salto-20261108192934-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T18:29:34.000Z",
-					"category": "local",
-					"weight": 4
-				}
-			]
-		},
-		{
 			"id": "la razon::fernandez",
 			"name": "Fernández",
 			"source": "La Razón",
@@ -5005,6 +5014,93 @@
 					"publishedAt": "2026-11-09T08:04:58.000Z",
 					"category": "general",
 					"weight": 2
+				}
+			]
+		},
+		{
+			"id": "https://www.diariovasco.com/autor/iker-elduayen-6950.html",
+			"name": "Iker Elduayen",
+			"source": "El Diario Vasco",
+			"profileUrl": "https://www.diariovasco.com/autor/iker-elduayen-6950.html",
+			"itemCount": 4,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 111,
+			"confidence": "high",
+			"firstSeenAt": "2026-11-09T23:17:24.000Z",
+			"latestAt": "2026-11-13T12:01:55.000Z",
+			"daysActive": 4,
+			"categories": [
+				"local"
+			],
+			"sources": [
+				"El Diario Vasco"
+			],
+			"examples": [
+				{
+					"key": "https://www.diariovasco.com/culturas/catorce-miradas-desentranan-legado-poliedrico-luis-pena-20261113123015-nt.html?ref=lootura.com",
+					"title": "De la Plaza de la Trinidad a la Torre Vista Alegre: así han reinterpretado 14 artistas los edificios de Peña Ganchegui",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/culturas/catorce-miradas-desentranan-legado-poliedrico-luis-pena-20261113123015-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T12:01:55.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/culturas/juan-echanove-teatro-extincion-raza-humana-cultura-20261113193837-nt.html?ref=lootura.com",
+					"title": "Juan Echanove: «El teatro morirá con la extinción de la raza humana, ni antes ni después»",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/culturas/juan-echanove-teatro-extincion-raza-humana-cultura-20261113193837-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T23:13:57.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?ref=lootura.com",
+					"title": "Sylvester Stallone, el guionista que con 'Rocky' enseñó a encajar los golpes",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T23:17:40.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.diariovasco.com/culturas/catorce-miradas-desentranan-legado-poliedrico-luis-pena-20261113123015-nt.html?ref=lootura.com",
+					"title": "De la Plaza de la Trinidad a la Torre Vista Alegre: así han reinterpretado 14 artistas los edificios de Peña Ganchegui",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/culturas/catorce-miradas-desentranan-legado-poliedrico-luis-pena-20261113123015-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T12:01:55.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/culturas/juan-echanove-teatro-extincion-raza-humana-cultura-20261113193837-nt.html?ref=lootura.com",
+					"title": "Juan Echanove: «El teatro morirá con la extinción de la raza humana, ni antes ni después»",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/culturas/juan-echanove-teatro-extincion-raza-humana-cultura-20261113193837-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T23:13:57.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?ref=lootura.com",
+					"title": "Sylvester Stallone, el guionista que con 'Rocky' enseñó a encajar los golpes",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T23:17:40.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/culturas/libros/elvira-minguez-san-sebastian-leer-condena-marioneta-20261110200358-nt.html?ref=lootura.com",
+					"title": "Elvira Mínguez: «Si renunciamos a leer estamos condenados a que nos manejen como a marionetas»",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/culturas/libros/elvira-minguez-san-sebastian-leer-condena-marioneta-20261110200358-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T23:17:24.000Z",
+					"category": "local",
+					"weight": 4
 				}
 			]
 		},
@@ -6617,84 +6713,6 @@
 			]
 		},
 		{
-			"id": "https://www.diariovasco.com/autor/iker-elduayen-6950.html",
-			"name": "Iker Elduayen",
-			"source": "El Diario Vasco",
-			"profileUrl": "https://www.diariovasco.com/autor/iker-elduayen-6950.html",
-			"itemCount": 3,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 92,
-			"confidence": "high",
-			"firstSeenAt": "2026-11-09T23:17:24.000Z",
-			"latestAt": "2026-11-12T23:13:57.000Z",
-			"daysActive": 3,
-			"categories": [
-				"local"
-			],
-			"sources": [
-				"El Diario Vasco"
-			],
-			"examples": [
-				{
-					"key": "https://www.diariovasco.com/culturas/juan-echanove-teatro-extincion-raza-humana-cultura-20261113193837-nt.html?ref=lootura.com",
-					"title": "Juan Echanove: «El teatro morirá con la extinción de la raza humana, ni antes ni después»",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/culturas/juan-echanove-teatro-extincion-raza-humana-cultura-20261113193837-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T23:13:57.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?ref=lootura.com",
-					"title": "Sylvester Stallone, el guionista que con 'Rocky' enseñó a encajar los golpes",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T23:17:40.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/culturas/libros/elvira-minguez-san-sebastian-leer-condena-marioneta-20261110200358-nt.html?ref=lootura.com",
-					"title": "Elvira Mínguez: «Si renunciamos a leer estamos condenados a que nos manejen como a marionetas»",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/culturas/libros/elvira-minguez-san-sebastian-leer-condena-marioneta-20261110200358-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T23:17:24.000Z",
-					"category": "local",
-					"weight": 4
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.diariovasco.com/culturas/juan-echanove-teatro-extincion-raza-humana-cultura-20261113193837-nt.html?ref=lootura.com",
-					"title": "Juan Echanove: «El teatro morirá con la extinción de la raza humana, ni antes ni después»",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/culturas/juan-echanove-teatro-extincion-raza-humana-cultura-20261113193837-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T23:13:57.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?ref=lootura.com",
-					"title": "Sylvester Stallone, el guionista que con 'Rocky' enseñó a encajar los golpes",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T23:17:40.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/culturas/libros/elvira-minguez-san-sebastian-leer-condena-marioneta-20261110200358-nt.html?ref=lootura.com",
-					"title": "Elvira Mínguez: «Si renunciamos a leer estamos condenados a que nos manejen como a marionetas»",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/culturas/libros/elvira-minguez-san-sebastian-leer-condena-marioneta-20261110200358-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T23:17:24.000Z",
-					"category": "local",
-					"weight": 4
-				}
-			]
-		},
-		{
 			"id": "https://www.diariovasco.com/autor/angel-lopez-6967.html",
 			"name": "Ángel López",
 			"source": "El Diario Vasco",
@@ -7733,6 +7751,66 @@
 			]
 		},
 		{
+			"id": "https://www.elcorreo.com/autor/gabriel-cuesta-2310.html",
+			"name": "Gabriel Cuesta",
+			"source": "El Correo",
+			"profileUrl": "https://www.elcorreo.com/autor/gabriel-cuesta-2310.html",
+			"itemCount": 2,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 72,
+			"confidence": "high",
+			"firstSeenAt": "2026-11-13T11:22:56.000Z",
+			"latestAt": "2026-11-13T13:00:32.000Z",
+			"daysActive": 1,
+			"categories": [
+				"local"
+			],
+			"sources": [
+				"El Correo"
+			],
+			"examples": [
+				{
+					"key": "https://www.elcorreo.com/gente-estilo/mal-rato-hijas-pedro-sanchez-local-pone-20261113140032-nt.html?ref=lootura.com",
+					"title": "El mal rato de las hijas de Pedro Sánchez: «Están en un local y el DJ pone el 'Pedro Sánchez, hijo de p...'»",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/gente-estilo/mal-rato-hijas-pedro-sanchez-local-pone-20261113140032-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T13:00:32.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/gente-estilo/choque-nunez-feijoo-jordi-wild-imagen-marcial-20261113122256-nt.html?ref=lootura.com",
+					"title": "El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas financiadas con fondos públicos»",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/gente-estilo/choque-nunez-feijoo-jordi-wild-imagen-marcial-20261113122256-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T11:22:56.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.elcorreo.com/gente-estilo/mal-rato-hijas-pedro-sanchez-local-pone-20261113140032-nt.html?ref=lootura.com",
+					"title": "El mal rato de las hijas de Pedro Sánchez: «Están en un local y el DJ pone el 'Pedro Sánchez, hijo de p...'»",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/gente-estilo/mal-rato-hijas-pedro-sanchez-local-pone-20261113140032-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T13:00:32.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/gente-estilo/choque-nunez-feijoo-jordi-wild-imagen-marcial-20261113122256-nt.html?ref=lootura.com",
+					"title": "El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas financiadas con fondos públicos»",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/gente-estilo/choque-nunez-feijoo-jordi-wild-imagen-marcial-20261113122256-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T11:22:56.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			]
+		},
+		{
 			"id": "el correo::helena rodriguez",
 			"name": "Helena Rodríguez",
 			"source": "El Correo",
@@ -8027,66 +8105,6 @@
 					"source": "El País",
 					"href": "https://elpais.com/espana/2026-10-29/la-maquinista-del-iryo-de-urda-intento-desbloquear-su-tren-en-dos-ocasiones-sin-exito-y-busco-el-consejo-de-su-empresa-antes-de-la-colision.html?utm_source=lootura.com",
 					"publishedAt": "2026-10-29T12:44:19.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			]
-		},
-		{
-			"id": "el mundo::pablo herraiz",
-			"name": "Pablo Herraiz",
-			"source": "El Mundo",
-			"profileUrl": "",
-			"itemCount": 2,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 65,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-13T12:27:27.000Z",
-			"latestAt": "2026-11-13T13:37:53.000Z",
-			"daysActive": 1,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"El Mundo"
-			],
-			"examples": [
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/13/6af6f56a21efa0e33c8b458e.html?ref=lootura.com",
-					"title": "Oleada de avisos de bomba falsos en Madrid: se registran 30 en el último día y medio, y las autoridades investigan las causas",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/13/6af6f56a21efa0e33c8b458e.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T13:37:53.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/madrid/2026/11/13/6af7022afdddff3a7f8b45fa.html?ref=lootura.com",
-					"title": "El Tribunal de Cuentas ordena investigar el caso del ático al detectar indicios de perjuicio a fondos públicos",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/madrid/2026/11/13/6af7022afdddff3a7f8b45fa.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T12:27:27.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/13/6af6f56a21efa0e33c8b458e.html?ref=lootura.com",
-					"title": "Oleada de avisos de bomba falsos en Madrid: se registran 30 en el último día y medio, y las autoridades investigan las causas",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/13/6af6f56a21efa0e33c8b458e.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T13:37:53.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/madrid/2026/11/13/6af7022afdddff3a7f8b45fa.html?ref=lootura.com",
-					"title": "El Tribunal de Cuentas ordena investigar el caso del ático al detectar indicios de perjuicio a fondos públicos",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/madrid/2026/11/13/6af7022afdddff3a7f8b45fa.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T12:27:27.000Z",
 					"category": "general",
 					"weight": 3
 				}
