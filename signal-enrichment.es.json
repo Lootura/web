@@ -2,79 +2,14 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-13T20:00:48.144Z",
+	"updatedAt": "2026-11-13T21:00:47.961Z",
 	"entries": {
-		"cluster-spain-sanchez-entre-sanchez-entre": {
-			"candidateId": "cluster-spain-sanchez + entre",
-			"label": "sanchez + entre",
-			"latestAt": "2026-11-13T17:39:32.000Z",
-			"startedAt": "2026-11-13T13:22:15.000Z",
-			"itemCount": 4,
-			"sourceCount": 3,
-			"terms": [
-				"sanchez",
-				"entre"
-			],
-			"sources": [
-				"El Mundo",
-				"El Correo",
-				"El País"
-			],
-			"titles": [
-				"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
-				"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
-				"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”",
-				"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta"
-			],
-			"entityFirstSeenAt": "2026-11-13T18:00:48.625Z",
-			"entityLastCandidateAt": "2026-11-13T17:39:32.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T20:00:48.144Z",
-					"label": "sanchez + entre",
-					"latestAt": "2026-11-13T17:39:32.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
-						"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
-						"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”"
-					],
-					"sources": [
-						"El Mundo",
-						"El Correo",
-						"El País"
-					],
-					"eventId": "cluster-spain-sanchez + entre|2026-11-13T17:39:32.000Z|4|Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras"
-				},
-				{
-					"observedAt": "2026-11-13T18:00:48.625Z",
-					"label": "sanchez + entre",
-					"latestAt": "2026-11-13T17:39:32.000Z",
-					"itemCount": 7,
-					"sourceCount": 3,
-					"headlines": [
-						"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
-						"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
-						"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”"
-					],
-					"sources": [
-						"El Mundo",
-						"El Correo",
-						"El País"
-					],
-					"eventId": "cluster-spain-sanchez + entre|2026-11-13T17:39:32.000Z|7|Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
-		},
 		"cluster-spain-sanchez-antes-sanchez-antes": {
 			"candidateId": "cluster-spain-sanchez + antes",
 			"label": "sanchez + antes",
-			"latestAt": "2026-11-13T19:07:18.000Z",
+			"latestAt": "2026-11-13T20:46:11.000Z",
 			"startedAt": "2026-11-13T17:15:09.000Z",
-			"itemCount": 2,
+			"itemCount": 3,
 			"sourceCount": 2,
 			"terms": [
 				"sanchez",
@@ -85,12 +20,30 @@
 				"El Mundo"
 			],
 			"titles": [
+				"Sánchez insta a una participación del 75% el 29-N para reeditar un Gobierno progresista que llegue “más lejos y antes en las conquistas sociales”",
 				"Campaña elecciones 29-N y actualidad política, en directo | Sánchez pide 176 diputados progresistas en el Congreso para “llegar antes y más lejos”",
 				"Sánchez fija en el 75% el umbral de participación el 29-N para tener alguna opción de poder gobernar"
 			],
 			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
-			"entityLastCandidateAt": "2026-11-13T19:07:18.000Z",
+			"entityLastCandidateAt": "2026-11-13T20:46:11.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "sanchez + antes",
+					"latestAt": "2026-11-13T20:46:11.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Sánchez insta a una participación del 75% el 29-N para reeditar un Gobierno progresista que llegue “más lejos y antes en las conquistas sociales”",
+						"Campaña elecciones 29-N y actualidad política, en directo | Sánchez pide 176 diputados progresistas en el Congreso para “llegar antes y más lejos”",
+						"Sánchez fija en el 75% el umbral de participación el 29-N para tener alguna opción de poder gobernar"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-sanchez + antes|2026-11-13T20:46:11.000Z|3|Sánchez insta a una participación del 75% el 29-N para reeditar un Gobierno progresista que llegue “más lejos y antes en las conquistas sociales”"
+				},
 				{
 					"observedAt": "2026-11-13T20:00:48.144Z",
 					"label": "sanchez + antes",
@@ -125,7 +78,91 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+		},
+		"cluster-spain-contra-crucero-contra-crucero": {
+			"candidateId": "cluster-spain-contra + crucero",
+			"label": "contra + crucero",
+			"latestAt": "2026-11-13T20:52:18.000Z",
+			"startedAt": "2026-11-13T20:04:51.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"contra",
+				"crucero"
+			],
+			"sources": [
+				"El Mundo",
+				"El País"
+			],
+			"titles": [
+				"Vuelca un crucero con 129 personas a bordo tras el choque con un buque en Nueva Orleans",
+				"Un buque choca contra un crucero con 129 personas a bordo en el río Misisipi a la altura de Nueva Orleans"
+			],
+			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
+			"entityLastCandidateAt": "2026-11-13T20:52:18.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "contra + crucero",
+					"latestAt": "2026-11-13T20:52:18.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Vuelca un crucero con 129 personas a bordo tras el choque con un buque en Nueva Orleans",
+						"Un buque choca contra un crucero con 129 personas a bordo en el río Misisipi a la altura de Nueva Orleans"
+					],
+					"sources": [
+						"El Mundo",
+						"El País"
+					],
+					"eventId": "cluster-spain-contra + crucero|2026-11-13T20:52:18.000Z|2|Vuelca un crucero con 129 personas a bordo tras el choque con un buque en Nueva Orleans"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+		},
+		"cluster-spain-millones-feijoo-millones-feijoo": {
+			"candidateId": "cluster-spain-millones + feijoo",
+			"label": "millones + feijoo",
+			"latestAt": "2026-11-13T20:01:28.000Z",
+			"startedAt": "2026-11-13T17:05:27.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"millones",
+				"feijoo"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
+				"Jordi Wild, sobre los asesinatos machistas: «44 mujeres son pocas en comparación con una población de 50 millones»"
+			],
+			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
+			"entityLastCandidateAt": "2026-11-13T20:01:28.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "millones + feijoo",
+					"latestAt": "2026-11-13T20:01:28.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
+						"Jordi Wild, sobre los asesinatos machistas: «44 mujeres son pocas en comparación con una población de 50 millones»"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-millones + feijoo|2026-11-13T20:01:28.000Z|2|Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\""
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-spain-ante-euskal-ante-euskal": {
 			"candidateId": "cluster-spain-ante + euskal",
@@ -183,7 +220,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-spain-mundial-euskal-mundial-euskal": {
 			"candidateId": "cluster-spain-mundial + euskal",
@@ -225,7 +262,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-spain-nucleo-nacional-nucleo-nacional": {
 			"candidateId": "cluster-spain-nucleo + nacional",
@@ -267,7 +304,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-spain-papa-leon-papa-leon": {
 			"candidateId": "cluster-spain-papa + leon",
@@ -309,7 +346,49 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+		},
+		"cluster-spain-sanchez-ante-sanchez-ante": {
+			"candidateId": "cluster-spain-sanchez + ante",
+			"label": "sanchez + ante",
+			"latestAt": "2026-11-13T17:39:32.000Z",
+			"startedAt": "2026-11-13T15:13:28.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"sanchez",
+				"ante"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+				"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre"
+			],
+			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
+			"entityLastCandidateAt": "2026-11-13T17:39:32.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "sanchez + ante",
+					"latestAt": "2026-11-13T17:39:32.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+						"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-sanchez + ante|2026-11-13T17:39:32.000Z|2|Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-spain-solo-estar-solo-estar": {
 			"candidateId": "cluster-spain-solo + estar",
@@ -351,18 +430,18 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
-		"cluster-spain-casa-cuerpo-casa-cuerpo": {
-			"candidateId": "cluster-spain-casa + cuerpo",
-			"label": "casa + cuerpo",
+		"cluster-spain-cuerpo-renfe-cuerpo-renfe": {
+			"candidateId": "cluster-spain-cuerpo + renfe",
+			"label": "cuerpo + renfe",
 			"latestAt": "2026-11-13T15:36:47.000Z",
 			"startedAt": "2026-11-13T14:33:45.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"casa",
-				"cuerpo"
+				"cuerpo",
+				"renfe"
 			],
 			"sources": [
 				"El Mundo",
@@ -372,12 +451,12 @@
 				"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
 				"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
 			],
-			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
+			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
 			"entityLastCandidateAt": "2026-11-13T15:36:47.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T16:00:48.169Z",
-					"label": "casa + cuerpo",
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "cuerpo + renfe",
 					"latestAt": "2026-11-13T15:36:47.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -389,43 +468,11 @@
 						"El Mundo",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-casa + cuerpo|2026-11-13T15:36:47.000Z|2|Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
-				},
-				{
-					"observedAt": "2026-11-13T15:00:48.579Z",
-					"label": "casa + cuerpo",
-					"latestAt": "2026-11-13T14:33:45.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
-						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
-					],
-					"sources": [
-						"El Correo",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-casa + cuerpo|2026-11-13T14:33:45.000Z|2|Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
-				},
-				{
-					"observedAt": "2026-11-13T14:25:49.198Z",
-					"label": "casa + cuerpo",
-					"latestAt": "2026-11-13T13:14:52.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
-						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
-					],
-					"sources": [
-						"El Correo",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-casa + cuerpo|2026-11-13T13:14:52.000Z|2|Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
+					"eventId": "cluster-spain-cuerpo + renfe|2026-11-13T15:36:47.000Z|2|Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
@@ -1288,30 +1335,43 @@
 		"cluster-usa-nvidia-huang-nvidia-huang": {
 			"candidateId": "cluster-usa-nvidia + huang",
 			"label": "nvidia + huang",
-			"latestAt": "2026-11-13T16:36:28.000Z",
-			"startedAt": "2026-11-13T01:10:19.000Z",
-			"itemCount": 6,
-			"sourceCount": 3,
+			"latestAt": "2026-11-13T18:10:25.000Z",
+			"startedAt": "2026-11-13T10:45:00.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
 			"terms": [
 				"nvidia",
 				"huang"
 			],
 			"sources": [
 				"The New York Times",
-				"CBS News",
 				"Politico"
 			],
 			"titles": [
-				"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
 				"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
-				"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
-				"Search for next Nvidia CEO begins after Jensen Huang's resignation",
-				"Jensen Huang’s Washington fallout",
-				"Huang and Lutnick Summoned to Testify Before Congress"
+				"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+				"Jensen Huang’s Washington fallout"
 			],
 			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-13T16:36:28.000Z",
+			"entityLastCandidateAt": "2026-11-13T18:10:25.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T18:10:25.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+						"Jensen Huang’s Washington fallout"
+					],
+					"sources": [
+						"The New York Times",
+						"Politico"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T18:10:25.000Z|3|Jensen Huang’s Fall Is Bad for Nvidia but Good for America"
+				},
 				{
 					"observedAt": "2026-11-13T18:00:48.625Z",
 					"label": "nvidia + huang",
@@ -1512,7 +1572,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-usa-russell-brand-russell-brand": {
 			"candidateId": "cluster-usa-russell + brand",
@@ -2013,27 +2073,46 @@
 		"cluster-usa-trump-court-trump-court": {
 			"candidateId": "cluster-usa-trump + court",
 			"label": "trump + court",
-			"latestAt": "2026-11-10T01:34:10.000Z",
-			"startedAt": "2026-11-09T21:47:39.000Z",
-			"itemCount": 3,
+			"latestAt": "2026-11-13T19:16:41.000Z",
+			"startedAt": "2026-11-13T17:56:25.082Z",
+			"itemCount": 4,
 			"sourceCount": 3,
 			"terms": [
 				"trump",
 				"court"
 			],
 			"sources": [
-				"The New York Times Politics",
-				"Politico",
-				"NPR"
+				"PBS NewsHour",
+				"CBS News",
+				"NBC News Politics"
 			],
 			"titles": [
-				"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
-				"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
-				"Supreme Court says border wall construction can continue in west Texas"
+				"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
+				"Supreme Court takes up case over Trump effort to suspend asylum access at southern border",
+				"Supreme Court to rule on Trump’s asylum ban",
+				"Alito says Supreme Court is caught between the president and a Congress that can ‘turn off the lights’"
 			],
 			"entityFirstSeenAt": "2026-11-10T01:48:34.517Z",
-			"entityLastCandidateAt": "2026-11-10T01:34:10.000Z",
+			"entityLastCandidateAt": "2026-11-13T19:16:41.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-13T19:16:41.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
+						"Supreme Court takes up case over Trump effort to suspend asylum access at southern border",
+						"Supreme Court to rule on Trump’s asylum ban"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"CBS News",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-trump + court|2026-11-13T19:16:41.000Z|4|Supreme Court will consider Trump’s executive order suspending asylum access at the southern border"
+				},
 				{
 					"observedAt": "2026-11-10T13:32:37.686Z",
 					"label": "trump + court",
@@ -2108,7 +2187,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T13:32:37.686Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-usa-warning-rare-warning-rare": {
 			"candidateId": "cluster-usa-warning + rare",
@@ -10101,7 +10180,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-usa-nvidia-center-nvidia-center": {
 			"candidateId": "cluster-usa-nvidia + center",
@@ -10960,7 +11039,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-usa-states-reef-states-reef": {
 			"candidateId": "cluster-usa-states + reef",
@@ -14805,29 +14884,46 @@
 		"cluster-usa-microsoft-outage-microsoft-outage": {
 			"candidateId": "cluster-usa-microsoft + outage",
 			"label": "microsoft + outage",
-			"latestAt": "2026-11-13T15:30:08.000Z",
+			"latestAt": "2026-11-13T19:01:03.000Z",
 			"startedAt": "2026-11-13T01:26:24.000Z",
 			"itemCount": 4,
-			"sourceCount": 4,
+			"sourceCount": 3,
 			"terms": [
 				"microsoft",
 				"outage"
 			],
 			"sources": [
-				"The New York Times",
-				"CBS News",
+				"NBC News",
 				"NPR",
-				"NBC News"
+				"The New York Times"
 			],
 			"titles": [
-				"Microsoft Says Outage Disrupting Outlook Is Improving",
-				"Widespread Microsoft 365 outage continues, impacting email and other services",
+				"Microsoft says major outage was due to 'a network capacity upgrade'",
 				"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+				"Microsoft Says Outage Disrupting Outlook Is Improving",
 				"Microsoft Scrambles to Find Fix Massive Global Outage"
 			],
 			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T15:30:08.000Z",
+			"entityLastCandidateAt": "2026-11-13T19:01:03.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T19:01:03.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Microsoft says major outage was due to 'a network capacity upgrade'",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+						"Microsoft Says Outage Disrupting Outlook Is Improving"
+					],
+					"sources": [
+						"NBC News",
+						"NPR",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T19:01:03.000Z|4|Microsoft says major outage was due to 'a network capacity upgrade'"
+				},
 				{
 					"observedAt": "2026-11-13T19:00:48.644Z",
 					"label": "microsoft + outage",
@@ -15046,7 +15142,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-usa-senate-leader-senate-leader": {
 			"candidateId": "cluster-usa-senate + leader",
@@ -16378,6 +16474,80 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
+		"cluster-spain-casa-cuerpo-casa-cuerpo": {
+			"candidateId": "cluster-spain-casa + cuerpo",
+			"label": "casa + cuerpo",
+			"latestAt": "2026-11-13T15:36:47.000Z",
+			"startedAt": "2026-11-13T14:33:45.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"casa",
+				"cuerpo"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
+				"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
+			],
+			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
+			"entityLastCandidateAt": "2026-11-13T15:36:47.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T16:00:48.169Z",
+					"label": "casa + cuerpo",
+					"latestAt": "2026-11-13T15:36:47.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
+						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-casa + cuerpo|2026-11-13T15:36:47.000Z|2|Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
+				},
+				{
+					"observedAt": "2026-11-13T15:00:48.579Z",
+					"label": "casa + cuerpo",
+					"latestAt": "2026-11-13T14:33:45.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
+						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-casa + cuerpo|2026-11-13T14:33:45.000Z|2|Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
+				},
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "casa + cuerpo",
+					"latestAt": "2026-11-13T13:14:52.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
+						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-casa + cuerpo|2026-11-13T13:14:52.000Z|2|Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+		},
 		"cluster-spain-mundial-horas-mundial-horas": {
 			"candidateId": "cluster-spain-mundial + horas",
 			"label": "mundial + horas",
@@ -16997,7 +17167,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-spain-estar-raphinha-estar-raphinha": {
 			"candidateId": "cluster-spain-estar + raphinha",
@@ -17229,7 +17399,72 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+		},
+		"cluster-spain-sanchez-entre-sanchez-entre": {
+			"candidateId": "cluster-spain-sanchez + entre",
+			"label": "sanchez + entre",
+			"latestAt": "2026-11-13T17:39:32.000Z",
+			"startedAt": "2026-11-13T13:22:15.000Z",
+			"itemCount": 4,
+			"sourceCount": 3,
+			"terms": [
+				"sanchez",
+				"entre"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo",
+				"El País"
+			],
+			"titles": [
+				"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+				"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
+				"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”",
+				"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta"
+			],
+			"entityFirstSeenAt": "2026-11-13T18:00:48.625Z",
+			"entityLastCandidateAt": "2026-11-13T17:39:32.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "sanchez + entre",
+					"latestAt": "2026-11-13T17:39:32.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+						"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
+						"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo",
+						"El País"
+					],
+					"eventId": "cluster-spain-sanchez + entre|2026-11-13T17:39:32.000Z|4|Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras"
+				},
+				{
+					"observedAt": "2026-11-13T18:00:48.625Z",
+					"label": "sanchez + entre",
+					"latestAt": "2026-11-13T17:39:32.000Z",
+					"itemCount": 7,
+					"sourceCount": 3,
+					"headlines": [
+						"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+						"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
+						"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo",
+						"El País"
+					],
+					"eventId": "cluster-spain-sanchez + entre|2026-11-13T17:39:32.000Z|7|Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-spain-ante-mundial-ante-mundial": {
 			"candidateId": "cluster-spain-ante + mundial",
@@ -17445,48 +17680,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
 		},
-		"cluster-spain-cuerpo-renfe-cuerpo-renfe": {
-			"candidateId": "cluster-spain-cuerpo + renfe",
-			"label": "cuerpo + renfe",
-			"latestAt": "2026-11-13T15:36:47.000Z",
-			"startedAt": "2026-11-13T14:33:45.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"cuerpo",
-				"renfe"
-			],
-			"sources": [
-				"El Mundo",
-				"El Correo"
-			],
-			"titles": [
-				"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
-				"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
-			],
-			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
-			"entityLastCandidateAt": "2026-11-13T15:36:47.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "cuerpo + renfe",
-					"latestAt": "2026-11-13T15:36:47.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
-						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
-					],
-					"sources": [
-						"El Mundo",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-cuerpo + renfe|2026-11-13T15:36:47.000Z|2|Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
-		},
 		"cluster-spain-antes-mucho-antes-mucho": {
 			"candidateId": "cluster-spain-antes + mucho",
 			"label": "antes + mucho",
@@ -17614,19 +17807,107 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+		},
+		"cluster-usa-nvidia-scrutiny-nvidia-scrutiny": {
+			"candidateId": "cluster-usa-nvidia + scrutiny",
+			"label": "nvidia + scrutiny",
+			"latestAt": "2026-11-13T17:09:45.000Z",
+			"startedAt": "2026-11-13T15:19:08.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"nvidia",
+				"scrutiny"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"CBS News"
+			],
+			"titles": [
+				"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+				"Lutnick faces scrutiny as Nvidia scandal fallout grows",
+				"Company under scrutiny for ties to Nvidia and China"
+			],
+			"entityFirstSeenAt": "2026-11-13T20:00:48.144Z",
+			"entityLastCandidateAt": "2026-11-13T17:09:45.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "nvidia + scrutiny",
+					"latestAt": "2026-11-13T17:09:45.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+						"Lutnick faces scrutiny as Nvidia scandal fallout grows",
+						"Company under scrutiny for ties to Nvidia and China"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + scrutiny|2026-11-13T17:09:45.000Z|3|Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+		},
+		"cluster-usa-court-alex-court-alex": {
+			"candidateId": "cluster-usa-court + alex",
+			"label": "court + alex",
+			"latestAt": "2026-11-13T16:49:10.000Z",
+			"startedAt": "2026-11-13T15:56:09.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"court",
+				"alex"
+			],
+			"sources": [
+				"NBC News",
+				"CBS News"
+			],
+			"titles": [
+				"Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury",
+				"Alex Murdaugh lawyers say top investigator lied to grand jury, want murder indictments tossed",
+				"Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed"
+			],
+			"entityFirstSeenAt": "2026-11-13T20:00:48.144Z",
+			"entityLastCandidateAt": "2026-11-13T16:49:10.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "court + alex",
+					"latestAt": "2026-11-13T16:49:10.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury",
+						"Alex Murdaugh lawyers say top investigator lied to grand jury, want murder indictments tossed",
+						"Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed"
+					],
+					"sources": [
+						"NBC News",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-court + alex|2026-11-13T16:49:10.000Z|3|Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-es-2026-11-13T20:00:48.144Z",
+		"id": "local-es-2026-11-13T21:00:47.961Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-13T20:00:48.144Z",
-		"finishedAt": "2026-11-13T20:02:37.737Z",
-		"signalsCandidate": 8,
-		"signalsSelected": 8,
+		"startedAt": "2026-11-13T21:00:47.961Z",
+		"finishedAt": "2026-11-13T21:03:32.988Z",
+		"signalsCandidate": 10,
+		"signalsSelected": 10,
 		"signalsProcessed": 0,
-		"cacheHits": 6,
-		"skippedByConfig": 8,
+		"cacheHits": 7,
+		"skippedByConfig": 10,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -17636,11 +17917,11 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 6,
+			"cacheHits": 7,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 327,
-			"retainedByTtl": 319,
+			"retained": 332,
+			"retainedByTtl": 322,
 			"retiredByTtl": 0
 		},
 		"costUsd": 0

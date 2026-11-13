@@ -2,554 +2,155 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-13T20:00:48.144Z",
+	"updatedAt": "2026-11-13T21:00:47.961Z",
 	"entries": {
-		"cluster-usa-trump-court-trump-court": {
-			"candidateId": "cluster-usa-trump + court",
-			"label": "trump + court",
-			"latestAt": "2026-11-13T19:16:41.000Z",
-			"startedAt": "2026-11-13T17:56:25.082Z",
-			"itemCount": 4,
-			"sourceCount": 3,
+		"cluster-usa-orleans-tanker-orleans-tanker": {
+			"candidateId": "cluster-usa-orleans + tanker",
+			"label": "orleans + tanker",
+			"latestAt": "2026-11-13T21:00:35.000Z",
+			"startedAt": "2026-11-13T20:33:00.000Z",
+			"itemCount": 5,
+			"sourceCount": 4,
 			"terms": [
-				"trump",
-				"court"
+				"orleans",
+				"tanker"
 			],
 			"sources": [
+				"PBS NewsHour",
+				"NBC News",
+				"CBS News",
+				"The New York Times"
+			],
+			"titles": [
+				"Rescues operations underway in New Orleans after tanker hits river cruise boat",
+				"Rescue underway after a tanker collides with a New Orleans river boat",
+				"Tanker hits river cruise ship in New Orleans | Special Report",
+				"Cargo Ship Crashes Into Docked Riverboat in New Orleans",
+				"River cruise ship, tanker crash in New Orleans on Mississippi River; rescues are underway"
+			],
+			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
+			"entityLastCandidateAt": "2026-11-13T21:00:35.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "orleans + tanker",
+					"latestAt": "2026-11-13T21:00:35.000Z",
+					"itemCount": 5,
+					"sourceCount": 4,
+					"headlines": [
+						"Rescues operations underway in New Orleans after tanker hits river cruise boat",
+						"Rescue underway after a tanker collides with a New Orleans river boat",
+						"Tanker hits river cruise ship in New Orleans | Special Report"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"NBC News",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-orleans + tanker|2026-11-13T21:00:35.000Z|5|Rescues operations underway in New Orleans after tanker hits river cruise boat"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+		},
+		"cluster-usa-trump-supreme-trump-supreme": {
+			"candidateId": "cluster-usa-trump + supreme",
+			"label": "trump + supreme",
+			"latestAt": "2026-11-13T20:37:10.000Z",
+			"startedAt": "2026-11-13T18:49:06.078Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"trump",
+				"supreme"
+			],
+			"sources": [
+				"The New York Times Politics",
 				"PBS NewsHour",
 				"CBS News",
 				"NBC News Politics"
 			],
 			"titles": [
+				"Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border",
 				"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
 				"Supreme Court takes up case over Trump effort to suspend asylum access at southern border",
-				"Supreme Court to rule on Trump’s asylum ban",
-				"Alito says Supreme Court is caught between the president and a Congress that can ‘turn off the lights’"
+				"Supreme Court to rule on Trump’s asylum ban"
 			],
-			"entityFirstSeenAt": "2026-11-10T01:48:34.517Z",
-			"entityLastCandidateAt": "2026-11-13T19:16:41.000Z",
+			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
+			"entityLastCandidateAt": "2026-11-13T20:37:10.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T20:00:48.144Z",
-					"label": "trump + court",
-					"latestAt": "2026-11-13T19:16:41.000Z",
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "trump + supreme",
+					"latestAt": "2026-11-13T20:37:10.000Z",
 					"itemCount": 4,
-					"sourceCount": 3,
+					"sourceCount": 4,
 					"headlines": [
+						"Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border",
 						"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
-						"Supreme Court takes up case over Trump effort to suspend asylum access at southern border",
-						"Supreme Court to rule on Trump’s asylum ban"
+						"Supreme Court takes up case over Trump effort to suspend asylum access at southern border"
 					],
 					"sources": [
+						"The New York Times Politics",
 						"PBS NewsHour",
-						"CBS News",
-						"NBC News Politics"
-					],
-					"eventId": "cluster-usa-trump + court|2026-11-13T19:16:41.000Z|4|Supreme Court will consider Trump’s executive order suspending asylum access at the southern border"
-				},
-				{
-					"observedAt": "2026-11-10T13:32:37.686Z",
-					"label": "trump + court",
-					"latestAt": "2026-11-10T01:34:10.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
-						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
-						"Supreme Court says border wall construction can continue in west Texas"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"Politico",
-						"NPR"
-					],
-					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:10.000Z|3|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
-				},
-				{
-					"observedAt": "2026-11-10T06:40:54.048Z",
-					"label": "trump + court",
-					"latestAt": "2026-11-10T01:34:10.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
-						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
-						"News Wrap: Supreme Court allows border wall construction in Big Bend"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"Politico",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:10.000Z|4|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
-				},
-				{
-					"observedAt": "2026-11-10T01:55:22.461Z",
-					"label": "trump + court",
-					"latestAt": "2026-11-10T01:34:09.000Z",
-					"itemCount": 5,
-					"sourceCount": 5,
-					"headlines": [
-						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
-						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
-						"News Wrap: Supreme Court allows border wall construction in Big Bend"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"Politico",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:09.000Z|5|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
-				},
-				{
-					"observedAt": "2026-11-10T01:48:34.517Z",
-					"label": "trump + court",
-					"latestAt": "2026-11-10T01:34:09.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
-						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
-						"News Wrap: Supreme Court allows border wall construction in Big Bend"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"Politico",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:09.000Z|4|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
-		},
-		"cluster-usa-microsoft-outage-microsoft-outage": {
-			"candidateId": "cluster-usa-microsoft + outage",
-			"label": "microsoft + outage",
-			"latestAt": "2026-11-13T19:01:03.000Z",
-			"startedAt": "2026-11-13T01:26:24.000Z",
-			"itemCount": 4,
-			"sourceCount": 3,
-			"terms": [
-				"microsoft",
-				"outage"
-			],
-			"sources": [
-				"NBC News",
-				"NPR",
-				"The New York Times"
-			],
-			"titles": [
-				"Microsoft says major outage was due to 'a network capacity upgrade'",
-				"Is Outlook down? Widespread outage hits Microsoft email and other apps",
-				"Microsoft Says Outage Disrupting Outlook Is Improving",
-				"Microsoft Scrambles to Find Fix Massive Global Outage"
-			],
-			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T19:01:03.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T20:00:48.144Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T19:01:03.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Microsoft says major outage was due to 'a network capacity upgrade'",
-						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
-						"Microsoft Says Outage Disrupting Outlook Is Improving"
-					],
-					"sources": [
-						"NBC News",
-						"NPR",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T19:01:03.000Z|4|Microsoft says major outage was due to 'a network capacity upgrade'"
-				},
-				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T15:30:08.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Microsoft Says Outage Disrupting Outlook Is Improving",
-						"Widespread Microsoft 365 outage continues, impacting email and other services",
-						"Is Outlook down? Widespread outage hits Microsoft email and other apps"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"NPR"
-					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T15:30:08.000Z|4|Microsoft Says Outage Disrupting Outlook Is Improving"
-				},
-				{
-					"observedAt": "2026-11-13T18:00:48.625Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T16:17:11.000Z",
-					"itemCount": 6,
-					"sourceCount": 5,
-					"headlines": [
-						"Microsoft’s massive Outlook outage continues",
-						"Microsoft Says Outage Disrupting Outlook Is Improving",
-						"Eye Opener: Microsoft Outlook email outage"
-					],
-					"sources": [
-						"The Verge",
-						"The New York Times",
 						"CBS News"
 					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T16:17:11.000Z|6|Microsoft’s massive Outlook outage continues"
-				},
-				{
-					"observedAt": "2026-11-13T17:00:47.990Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T16:17:11.000Z",
-					"itemCount": 7,
-					"sourceCount": 5,
-					"headlines": [
-						"Microsoft’s massive Outlook outage continues",
-						"Microsoft says it is seeing \"continued recovery progress\" as it battles major worldwide outage",
-						"Microsoft Says Outage Disrupting Outlook Is Improving"
-					],
-					"sources": [
-						"The Verge",
-						"CBS News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T16:17:11.000Z|7|Microsoft’s massive Outlook outage continues"
-				},
-				{
-					"observedAt": "2026-11-13T16:00:48.169Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T15:30:08.000Z",
-					"itemCount": 7,
-					"sourceCount": 5,
-					"headlines": [
-						"Microsoft Says Outage Disrupting Outlook Is Improving",
-						"Eye Opener: Microsoft Outlook email outage",
-						"Microsoft’s massive Outlook outage continues"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"The Verge"
-					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T15:30:08.000Z|7|Microsoft Says Outage Disrupting Outlook Is Improving"
-				},
-				{
-					"observedAt": "2026-11-13T15:00:48.579Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T14:53:51.000Z",
-					"itemCount": 8,
-					"sourceCount": 6,
-					"headlines": [
-						"Microsoft Races to Fix Outage Disrupting Outlook for a Second Day",
-						"Eye Opener: Microsoft Outlook email outage",
-						"Widespread Microsoft 365 outage continues, impacting email and other services"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"NPR"
-					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T14:53:51.000Z|8|Microsoft Races to Fix Outage Disrupting Outlook for a Second Day"
-				},
-				{
-					"observedAt": "2026-11-13T14:25:49.198Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T14:06:20.000Z",
-					"itemCount": 6,
-					"sourceCount": 6,
-					"headlines": [
-						"Microsoft Struggles to Repair Worldwide Outage. Here's What You Need to Know",
-						"Microsoft says it is seeing \"continued recovery progress\" as it battles major worldwide outage",
-						"Microsoft Races to Fix Outage Disrupting Outlook for a Second Day"
-					],
-					"sources": [
-						"TIME",
-						"CBS News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T14:06:20.000Z|6|Microsoft Struggles to Repair Worldwide Outage. Here's What You Need to Know"
-				},
-				{
-					"observedAt": "2026-11-13T13:50:49.929Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T12:56:32.000Z",
-					"itemCount": 5,
-					"sourceCount": 5,
-					"headlines": [
-						"Microsoft Races to Fix Outage Disrupting Outlook for a Second Day",
-						"Microsoft’s massive Outlook outage continues",
-						"Microsoft battling major worldwide outage"
-					],
-					"sources": [
-						"The New York Times",
-						"The Verge",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T12:56:32.000Z|5|Microsoft Races to Fix Outage Disrupting Outlook for a Second Day"
-				},
-				{
-					"observedAt": "2026-11-13T13:35:22.142Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T12:56:32.000Z",
-					"itemCount": 5,
-					"sourceCount": 5,
-					"headlines": [
-						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
-						"Microsoft’s massive Outlook outage continues",
-						"Microsoft Scrambles to Find Fix Massive Global Outage"
-					],
-					"sources": [
-						"The New York Times",
-						"The Verge",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T12:56:32.000Z|5|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
-				},
-				{
-					"observedAt": "2026-11-13T09:00:48.269Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T08:08:16.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
-						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
-						"Widespread outage of Microsoft apps used by hundreds of millions"
-					],
-					"sources": [
-						"The New York Times",
-						"NPR",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T08:08:16.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
-				},
-				{
-					"observedAt": "2026-11-13T05:00:48.275Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T04:28:16.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
-						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
-						"Widespread outage of Microsoft apps used by hundreds of millions"
-					],
-					"sources": [
-						"The New York Times",
-						"NPR",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T04:28:16.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
-				},
-				{
-					"observedAt": "2026-11-13T04:00:47.938Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T03:03:35.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
-						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
-						"Widespread outage of Microsoft apps used by hundreds of millions"
-					],
-					"sources": [
-						"The New York Times",
-						"NPR",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T03:03:35.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
-				},
-				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "microsoft + outage",
-					"latestAt": "2026-11-13T01:48:06.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
-						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
-						"Widespread outage of Microsoft apps used by hundreds of millions"
-					],
-					"sources": [
-						"The New York Times",
-						"NPR",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-microsoft + outage|2026-11-13T01:48:06.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+					"eventId": "cluster-usa-trump + supreme|2026-11-13T20:37:10.000Z|4|Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
-		"cluster-usa-democratic-hollen-democratic-hollen": {
-			"candidateId": "cluster-usa-democratic + hollen",
-			"label": "democratic + hollen",
-			"latestAt": "2026-11-13T17:47:41.000Z",
-			"startedAt": "2026-11-13T14:26:31.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"democratic",
-				"hollen"
-			],
-			"sources": [
-				"CBS News",
-				"PBS NewsHour",
-				"NPR"
-			],
-			"titles": [
-				"Van Hollen challenges Schumer for Senate majority leader",
-				"Van Hollen to challenge Schumer for Senate Democratic leader",
-				"How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front"
-			],
-			"entityFirstSeenAt": "2026-11-13T17:00:47.990Z",
-			"entityLastCandidateAt": "2026-11-13T17:47:41.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T18:00:48.625Z",
-					"label": "democratic + hollen",
-					"latestAt": "2026-11-13T17:47:41.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Van Hollen challenges Schumer for Senate majority leader",
-						"Van Hollen to challenge Schumer for Senate Democratic leader",
-						"How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front"
-					],
-					"sources": [
-						"CBS News",
-						"PBS NewsHour",
-						"NPR"
-					],
-					"eventId": "cluster-usa-democratic + hollen|2026-11-13T17:47:41.000Z|3|Van Hollen challenges Schumer for Senate majority leader"
-				},
-				{
-					"observedAt": "2026-11-13T17:00:47.990Z",
-					"label": "democratic + hollen",
-					"latestAt": "2026-11-13T15:46:35.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front",
-						"Van Hollen says he'll challenge Schumer for Senate majority leader",
-						"Van Hollen to challenge Schumer for Senate Democratic leader"
-					],
-					"sources": [
-						"NPR",
-						"CBS News",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-democratic + hollen|2026-11-13T15:46:35.000Z|3|How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
-		},
-		"cluster-usa-nvidia-huang-nvidia-huang": {
-			"candidateId": "cluster-usa-nvidia + huang",
-			"label": "nvidia + huang",
-			"latestAt": "2026-11-13T18:10:25.000Z",
+		"cluster-usa-huang-nvidia-huang-nvidia": {
+			"candidateId": "cluster-usa-huang + nvidia",
+			"label": "huang + nvidia",
+			"latestAt": "2026-11-13T20:14:05.000Z",
 			"startedAt": "2026-11-13T10:45:00.000Z",
-			"itemCount": 3,
-			"sourceCount": 2,
+			"itemCount": 5,
+			"sourceCount": 3,
 			"terms": [
-				"nvidia",
-				"huang"
+				"huang",
+				"nvidia"
 			],
 			"sources": [
 				"The New York Times",
+				"NPR",
 				"Politico"
 			],
 			"titles": [
+				"Why Jensen Huang Was Essential to Nvidia’s Rise",
 				"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
 				"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+				"Colette Kress becomes Nvidia's interim CEO after Jensen Huang resigns",
 				"Jensen Huang’s Washington fallout"
 			],
-			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-13T18:10:25.000Z",
+			"entityFirstSeenAt": "2026-11-10T19:04:31.604Z",
+			"entityLastCandidateAt": "2026-11-13T20:14:05.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T20:00:48.144Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T18:10:25.000Z",
-					"itemCount": 3,
-					"sourceCount": 2,
-					"headlines": [
-						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
-						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
-						"Jensen Huang’s Washington fallout"
-					],
-					"sources": [
-						"The New York Times",
-						"Politico"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T18:10:25.000Z|3|Jensen Huang’s Fall Is Bad for Nvidia but Good for America"
-				},
-				{
-					"observedAt": "2026-11-13T18:00:48.625Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T16:36:28.000Z",
-					"itemCount": 6,
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-13T20:14:05.000Z",
+					"itemCount": 5,
 					"sourceCount": 3,
 					"headlines": [
-						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+						"Why Jensen Huang Was Essential to Nvidia’s Rise",
 						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
-						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair"
+						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World"
 					],
 					"sources": [
 						"The New York Times",
-						"CBS News",
+						"NPR",
 						"Politico"
 					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T16:36:28.000Z|6|Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World"
+					"eventId": "cluster-usa-huang + nvidia|2026-11-13T20:14:05.000Z|5|Why Jensen Huang Was Essential to Nvidia’s Rise"
 				},
 				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T01:52:57.000Z",
-					"itemCount": 8,
-					"sourceCount": 3,
-					"headlines": [
-						"What could happen to AI development and chip production as Huang resigns from Nvidia",
-						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
-						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NPR"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|8|What could happen to AI development and chip production as Huang resigns from Nvidia"
-				},
-				{
-					"observedAt": "2026-11-13T02:00:48.242Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T01:52:57.000Z",
-					"itemCount": 13,
-					"sourceCount": 5,
-					"headlines": [
-						"What could happen to AI development and chip production as Huang resigns from Nvidia",
-						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
-						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NPR"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|13|What could happen to AI development and chip production as Huang resigns from Nvidia"
-				},
-				{
-					"observedAt": "2026-11-13T01:00:47.794Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T00:25:08.000Z",
-					"itemCount": 14,
-					"sourceCount": 5,
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-13T03:27:02.000Z",
+					"itemCount": 10,
+					"sourceCount": 4,
 					"headlines": [
 						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
 						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
@@ -560,181 +161,176 @@
 						"CBS News",
 						"NPR"
 					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T00:25:08.000Z|14|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+					"eventId": "cluster-usa-huang + nvidia|2026-11-13T03:27:02.000Z|10|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
 				},
 				{
-					"observedAt": "2026-11-12T23:00:48.320Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T22:46:24.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
-						"Who is Colette Kress, Nvidia’s new interim CEO?",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T22:46:24.000Z|4|Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns"
-				},
-				{
-					"observedAt": "2026-11-12T22:00:48.193Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T21:45:00.000Z",
-					"itemCount": 18,
-					"sourceCount": 7,
-					"headlines": [
-						"‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation",
-						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
-						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmakers say"
-					],
-					"sources": [
-						"The Verge",
-						"CBS News",
-						"NBC News Politics"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T21:45:00.000Z|18|‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation"
-				},
-				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T19:44:29.000Z",
-					"itemCount": 16,
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-12T23:55:39.000Z",
+					"itemCount": 17,
 					"sourceCount": 5,
 					"headlines": [
-						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
-						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
+						"What Huang's resignation mean for chipmakers, AI and U.S. national security",
+						"What Jensen Huang's resignation means for Nvidia, global AI race",
+						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns"
 					],
 					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T19:44:29.000Z|16|Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
-				},
-				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T16:51:22.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
-						"NYC building collapse: Death toll rises"
-					],
-					"sources": [
-						"The New York Times",
 						"PBS NewsHour",
-						"CBS News"
+						"CBS News",
+						"The New York Times"
 					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+					"eventId": "cluster-usa-huang + nvidia|2026-11-12T23:55:39.000Z|17|What Huang's resignation mean for chipmakers, AI and U.S. national security"
 				},
 				{
 					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T15:30:04.000Z",
-					"itemCount": 11,
-					"sourceCount": 8,
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-12T15:32:30.000Z",
+					"itemCount": 9,
+					"sourceCount": 3,
 					"headlines": [
-						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
-						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-						"Nvidia CEO Jensen Huang has resigned. What happens next?"
+						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+						"Nvidia's board preparing to oust CEO Jensen Huang, sources say"
 					],
 					"sources": [
+						"NBC News",
 						"The New York Times",
-						"CBS News",
-						"The Verge"
+						"CBS News"
 					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
+					"eventId": "cluster-usa-huang + nvidia|2026-11-12T15:32:30.000Z|9|Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says"
 				},
 				{
-					"observedAt": "2026-11-12T03:38:47.147Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T02:52:00.000Z",
+					"observedAt": "2026-11-10T21:26:40.157Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-10T21:12:38.000Z",
 					"itemCount": 7,
 					"sourceCount": 4,
 					"headlines": [
-						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
-						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
-						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
+						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
+						"Nvidia hires former acting U.S. attorney to probe Jensen Huang affair",
+						"Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia’s Jensen Huang"
 					],
 					"sources": [
-						"CBS News",
 						"The New York Times",
-						"NBC News"
+						"NBC News",
+						"The New York Times Politics"
 					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
+					"eventId": "cluster-usa-huang + nvidia|2026-11-10T21:12:38.000Z|7|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
 				},
 				{
-					"observedAt": "2026-11-09T18:21:05.029Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-09T17:58:28.000Z",
-					"itemCount": 11,
-					"sourceCount": 6,
+					"observedAt": "2026-11-10T19:04:31.604Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-10T19:01:56.000Z",
+					"itemCount": 5,
+					"sourceCount": 3,
 					"headlines": [
-						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
-						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
-						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
+						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
+						"Nvidia and Huang face lawsuit alleging investors were misled about spy affair",
+						"Nvidia’s Board Has a History of Letting Jensen Huang Get His Way"
 					],
 					"sources": [
 						"The New York Times",
-						"CBS News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
-		},
-		"cluster-usa-nvidia-scrutiny-nvidia-scrutiny": {
-			"candidateId": "cluster-usa-nvidia + scrutiny",
-			"label": "nvidia + scrutiny",
-			"latestAt": "2026-11-13T17:09:45.000Z",
-			"startedAt": "2026-11-13T15:19:08.000Z",
-			"itemCount": 3,
-			"sourceCount": 2,
-			"terms": [
-				"nvidia",
-				"scrutiny"
-			],
-			"sources": [
-				"PBS NewsHour",
-				"CBS News"
-			],
-			"titles": [
-				"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
-				"Lutnick faces scrutiny as Nvidia scandal fallout grows",
-				"Company under scrutiny for ties to Nvidia and China"
-			],
-			"entityFirstSeenAt": "2026-11-13T20:00:48.144Z",
-			"entityLastCandidateAt": "2026-11-13T17:09:45.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T20:00:48.144Z",
-					"label": "nvidia + scrutiny",
-					"latestAt": "2026-11-13T17:09:45.000Z",
-					"itemCount": 3,
-					"sourceCount": 2,
-					"headlines": [
-						"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
-						"Lutnick faces scrutiny as Nvidia scandal fallout grows",
-						"Company under scrutiny for ties to Nvidia and China"
-					],
-					"sources": [
 						"PBS NewsHour",
 						"CBS News"
 					],
-					"eventId": "cluster-usa-nvidia + scrutiny|2026-11-13T17:09:45.000Z|3|Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China"
+					"eventId": "cluster-usa-huang + nvidia|2026-11-10T19:01:56.000Z|5|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+		},
+		"cluster-usa-house-election-house-election": {
+			"candidateId": "cluster-usa-house + election",
+			"label": "house + election",
+			"latestAt": "2026-11-13T20:39:32.000Z",
+			"startedAt": "2026-11-13T19:58:19.188Z",
+			"itemCount": 4,
+			"sourceCount": 3,
+			"terms": [
+				"house",
+				"election"
+			],
+			"sources": [
+				"CBS News",
+				"NBC News Politics",
+				"The New York Times"
+			],
+			"titles": [
+				"Democrat Eileen Laubacher defeats Lauren Boebert in House race",
+				"Republican Rep. Lauren Boebert will lose re-election, NBC News projects",
+				"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
+				"Rep. Lauren Boebert, conservative firebrand from Colorado, loses her race for re-election"
+			],
+			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
+			"entityLastCandidateAt": "2026-11-13T20:39:32.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "house + election",
+					"latestAt": "2026-11-13T20:39:32.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Democrat Eileen Laubacher defeats Lauren Boebert in House race",
+						"Republican Rep. Lauren Boebert will lose re-election, NBC News projects",
+						"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-house + election|2026-11-13T20:39:32.000Z|4|Democrat Eileen Laubacher defeats Lauren Boebert in House race"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+		},
+		"cluster-usa-brooklyn-building-brooklyn-building": {
+			"candidateId": "cluster-usa-brooklyn + building",
+			"label": "brooklyn + building",
+			"latestAt": "2026-11-13T20:44:20.000Z",
+			"startedAt": "2026-11-13T12:47:29.000Z",
+			"itemCount": 5,
+			"sourceCount": 2,
+			"terms": [
+				"brooklyn",
+				"building"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"The New York Times"
+			],
+			"titles": [
+				"WATCH: Brooklyn community leaders, residents hold meeting on building collapse",
+				"Inquiry Into Brooklyn Building Collapse Expands as Families Demand Answers",
+				"How the Deadly Brooklyn Building Collapse Unfolded",
+				"Brooklyn D.A. Opens Criminal Inquiry Into Flatbush Building Collapse",
+				"Video From Inside Brooklyn Building That Collapsed Shows Walls Caving In"
+			],
+			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
+			"entityLastCandidateAt": "2026-11-13T20:44:20.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "brooklyn + building",
+					"latestAt": "2026-11-13T20:44:20.000Z",
+					"itemCount": 5,
+					"sourceCount": 2,
+					"headlines": [
+						"WATCH: Brooklyn community leaders, residents hold meeting on building collapse",
+						"Inquiry Into Brooklyn Building Collapse Expands as Families Demand Answers",
+						"How the Deadly Brooklyn Building Collapse Unfolded"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-brooklyn + building|2026-11-13T20:44:20.000Z|5|WATCH: Brooklyn community leaders, residents hold meeting on building collapse"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-usa-trump-they-trump-they": {
 			"candidateId": "cluster-usa-trump + they",
@@ -792,7 +388,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-usa-trump-talks-trump-talks": {
 			"candidateId": "cluster-usa-trump + talks",
@@ -852,17 +448,17 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
-		"cluster-usa-court-alex-court-alex": {
-			"candidateId": "cluster-usa-court + alex",
-			"label": "court + alex",
+		"cluster-usa-case-alex-case-alex": {
+			"candidateId": "cluster-usa-case + alex",
+			"label": "case + alex",
 			"latestAt": "2026-11-13T16:49:10.000Z",
-			"startedAt": "2026-11-13T15:56:09.000Z",
-			"itemCount": 3,
+			"startedAt": "2026-11-13T16:49:00.000Z",
+			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"court",
+				"case",
 				"alex"
 			],
 			"sources": [
@@ -871,43 +467,41 @@
 			],
 			"titles": [
 				"Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury",
-				"Alex Murdaugh lawyers say top investigator lied to grand jury, want murder indictments tossed",
-				"Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed"
+				"Alex Murdaugh lawyers say top investigator lied to grand jury, want murder indictments tossed"
 			],
-			"entityFirstSeenAt": "2026-11-13T20:00:48.144Z",
+			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
 			"entityLastCandidateAt": "2026-11-13T16:49:10.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T20:00:48.144Z",
-					"label": "court + alex",
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "case + alex",
 					"latestAt": "2026-11-13T16:49:10.000Z",
-					"itemCount": 3,
+					"itemCount": 2,
 					"sourceCount": 2,
 					"headlines": [
 						"Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury",
-						"Alex Murdaugh lawyers say top investigator lied to grand jury, want murder indictments tossed",
-						"Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed"
+						"Alex Murdaugh lawyers say top investigator lied to grand jury, want murder indictments tossed"
 					],
 					"sources": [
 						"NBC News",
 						"CBS News"
 					],
-					"eventId": "cluster-usa-court + alex|2026-11-13T16:49:10.000Z|3|Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury"
+					"eventId": "cluster-usa-case + alex|2026-11-13T16:49:10.000Z|2|Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
-		"cluster-usa-here-even-here-even": {
-			"candidateId": "cluster-usa-here + even",
-			"label": "here + even",
+		"cluster-usa-here-mississippi-here-mississippi": {
+			"candidateId": "cluster-usa-here + mississippi",
+			"label": "here + mississippi",
 			"latestAt": "2026-11-13T15:01:10.000Z",
 			"startedAt": "2026-11-13T07:20:24.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
 				"here",
-				"even"
+				"mississippi"
 			],
 			"sources": [
 				"The New York Times Politics",
@@ -917,12 +511,12 @@
 				"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
 				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
 			],
-			"entityFirstSeenAt": "2026-11-13T16:00:48.169Z",
+			"entityFirstSeenAt": "2026-11-13T15:00:48.579Z",
 			"entityLastCandidateAt": "2026-11-13T15:01:10.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T16:00:48.169Z",
-					"label": "here + even",
+					"observedAt": "2026-11-13T15:00:48.579Z",
+					"label": "here + mississippi",
 					"latestAt": "2026-11-13T15:01:10.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -934,11 +528,11 @@
 						"The New York Times Politics",
 						"The New York Times"
 					],
-					"eventId": "cluster-usa-here + even|2026-11-13T15:01:10.000Z|2|Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi."
+					"eventId": "cluster-usa-here + mississippi|2026-11-13T15:01:10.000Z|2|Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi."
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
@@ -1798,6 +1392,248 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-11T21:45:05.852Z"
 		},
+		"cluster-usa-nvidia-huang-nvidia-huang": {
+			"candidateId": "cluster-usa-nvidia + huang",
+			"label": "nvidia + huang",
+			"latestAt": "2026-11-13T18:10:25.000Z",
+			"startedAt": "2026-11-13T10:45:00.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"nvidia",
+				"huang"
+			],
+			"sources": [
+				"The New York Times",
+				"Politico"
+			],
+			"titles": [
+				"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+				"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+				"Jensen Huang’s Washington fallout"
+			],
+			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
+			"entityLastCandidateAt": "2026-11-13T18:10:25.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T18:10:25.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+						"Jensen Huang’s Washington fallout"
+					],
+					"sources": [
+						"The New York Times",
+						"Politico"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T18:10:25.000Z|3|Jensen Huang’s Fall Is Bad for Nvidia but Good for America"
+				},
+				{
+					"observedAt": "2026-11-13T18:00:48.625Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T16:36:28.000Z",
+					"itemCount": 6,
+					"sourceCount": 3,
+					"headlines": [
+						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"Politico"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T16:36:28.000Z|6|Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World"
+				},
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T01:52:57.000Z",
+					"itemCount": 8,
+					"sourceCount": 3,
+					"headlines": [
+						"What could happen to AI development and chip production as Huang resigns from Nvidia",
+						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|8|What could happen to AI development and chip production as Huang resigns from Nvidia"
+				},
+				{
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T01:52:57.000Z",
+					"itemCount": 13,
+					"sourceCount": 5,
+					"headlines": [
+						"What could happen to AI development and chip production as Huang resigns from Nvidia",
+						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|13|What could happen to AI development and chip production as Huang resigns from Nvidia"
+				},
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T00:25:08.000Z",
+					"itemCount": 14,
+					"sourceCount": 5,
+					"headlines": [
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T00:25:08.000Z|14|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+				},
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T22:46:24.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
+						"Who is Colette Kress, Nvidia’s new interim CEO?",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T22:46:24.000Z|4|Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns"
+				},
+				{
+					"observedAt": "2026-11-12T22:00:48.193Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T21:45:00.000Z",
+					"itemCount": 18,
+					"sourceCount": 7,
+					"headlines": [
+						"‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation",
+						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
+						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmakers say"
+					],
+					"sources": [
+						"The Verge",
+						"CBS News",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T21:45:00.000Z|18|‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation"
+				},
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T19:44:29.000Z",
+					"itemCount": 16,
+					"sourceCount": 5,
+					"headlines": [
+						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
+						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T19:44:29.000Z|16|Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+				},
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T16:51:22.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
+						"NYC building collapse: Death toll rises"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T15:30:04.000Z",
+					"itemCount": 11,
+					"sourceCount": 8,
+					"headlines": [
+						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+						"Nvidia CEO Jensen Huang has resigned. What happens next?"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"The Verge"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
+				},
+				{
+					"observedAt": "2026-11-12T03:38:47.147Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T02:52:00.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
+						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
+				},
+				{
+					"observedAt": "2026-11-09T18:21:05.029Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-09T17:58:28.000Z",
+					"itemCount": 11,
+					"sourceCount": 6,
+					"headlines": [
+						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
+						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
+						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+		},
 		"cluster-usa-russell-brand-russell-brand": {
 			"candidateId": "cluster-usa-russell + brand",
 			"label": "russell + brand",
@@ -2293,6 +2129,125 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+		},
+		"cluster-usa-trump-court-trump-court": {
+			"candidateId": "cluster-usa-trump + court",
+			"label": "trump + court",
+			"latestAt": "2026-11-13T19:16:41.000Z",
+			"startedAt": "2026-11-13T17:56:25.082Z",
+			"itemCount": 4,
+			"sourceCount": 3,
+			"terms": [
+				"trump",
+				"court"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"CBS News",
+				"NBC News Politics"
+			],
+			"titles": [
+				"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
+				"Supreme Court takes up case over Trump effort to suspend asylum access at southern border",
+				"Supreme Court to rule on Trump’s asylum ban",
+				"Alito says Supreme Court is caught between the president and a Congress that can ‘turn off the lights’"
+			],
+			"entityFirstSeenAt": "2026-11-10T01:48:34.517Z",
+			"entityLastCandidateAt": "2026-11-13T19:16:41.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-13T19:16:41.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
+						"Supreme Court takes up case over Trump effort to suspend asylum access at southern border",
+						"Supreme Court to rule on Trump’s asylum ban"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"CBS News",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-trump + court|2026-11-13T19:16:41.000Z|4|Supreme Court will consider Trump’s executive order suspending asylum access at the southern border"
+				},
+				{
+					"observedAt": "2026-11-10T13:32:37.686Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-10T01:34:10.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
+						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
+						"Supreme Court says border wall construction can continue in west Texas"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"Politico",
+						"NPR"
+					],
+					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:10.000Z|3|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
+				},
+				{
+					"observedAt": "2026-11-10T06:40:54.048Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-10T01:34:10.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
+						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
+						"News Wrap: Supreme Court allows border wall construction in Big Bend"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"Politico",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:10.000Z|4|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
+				},
+				{
+					"observedAt": "2026-11-10T01:55:22.461Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-10T01:34:09.000Z",
+					"itemCount": 5,
+					"sourceCount": 5,
+					"headlines": [
+						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
+						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
+						"News Wrap: Supreme Court allows border wall construction in Big Bend"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"Politico",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:09.000Z|5|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
+				},
+				{
+					"observedAt": "2026-11-10T01:48:34.517Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-10T01:34:09.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
+						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
+						"News Wrap: Supreme Court allows border wall construction in Big Bend"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"Politico",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:09.000Z|4|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-usa-warning-rare-warning-rare": {
 			"candidateId": "cluster-usa-warning + rare",
@@ -4944,132 +4899,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-10T19:03:55.994Z"
-		},
-		"cluster-usa-huang-nvidia-huang-nvidia": {
-			"candidateId": "cluster-usa-huang + nvidia",
-			"label": "huang + nvidia",
-			"latestAt": "2026-11-13T03:27:02.000Z",
-			"startedAt": "2026-11-12T14:17:20.000Z",
-			"itemCount": 10,
-			"sourceCount": 4,
-			"terms": [
-				"huang",
-				"nvidia"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"CBS News",
-				"NPR",
-				"The New York Times"
-			],
-			"titles": [
-				"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-				"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
-				"What happens next as Huang steps down as Nvidia CEO following affair scandal",
-				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
-				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
-				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
-				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
-				"What could happen to AI development and chip production as Huang resigns from Nvidia",
-				"Examining Jensen Huang's swift and stunning fall from grace at Nvidia"
-			],
-			"entityFirstSeenAt": "2026-11-10T19:04:31.604Z",
-			"entityLastCandidateAt": "2026-11-13T03:27:02.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T06:00:48.217Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-13T03:27:02.000Z",
-					"itemCount": 10,
-					"sourceCount": 4,
-					"headlines": [
-						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
-						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"NPR"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-13T03:27:02.000Z|10|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
-				},
-				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-12T23:55:39.000Z",
-					"itemCount": 17,
-					"sourceCount": 5,
-					"headlines": [
-						"What Huang's resignation mean for chipmakers, AI and U.S. national security",
-						"What Jensen Huang's resignation means for Nvidia, global AI race",
-						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns"
-					],
-					"sources": [
-						"PBS NewsHour",
-						"CBS News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-12T23:55:39.000Z|17|What Huang's resignation mean for chipmakers, AI and U.S. national security"
-				},
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-12T15:32:30.000Z",
-					"itemCount": 9,
-					"sourceCount": 3,
-					"headlines": [
-						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-						"Nvidia's board preparing to oust CEO Jensen Huang, sources say"
-					],
-					"sources": [
-						"NBC News",
-						"The New York Times",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-12T15:32:30.000Z|9|Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says"
-				},
-				{
-					"observedAt": "2026-11-10T21:26:40.157Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-10T21:12:38.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
-						"Nvidia hires former acting U.S. attorney to probe Jensen Huang affair",
-						"Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia’s Jensen Huang"
-					],
-					"sources": [
-						"The New York Times",
-						"NBC News",
-						"The New York Times Politics"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-10T21:12:38.000Z|7|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
-				},
-				{
-					"observedAt": "2026-11-10T19:04:31.604Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-10T19:01:56.000Z",
-					"itemCount": 5,
-					"sourceCount": 3,
-					"headlines": [
-						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
-						"Nvidia and Huang face lawsuit alleging investors were misled about spy affair",
-						"Nvidia’s Board Has a History of Letting Jensen Huang Get His Way"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-10T19:01:56.000Z|5|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
 		},
 		"cluster-usa-hegseth-against-hegseth-against": {
 			"candidateId": "cluster-usa-hegseth + against",
@@ -14868,6 +14697,269 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
 		},
+		"cluster-usa-microsoft-outage-microsoft-outage": {
+			"candidateId": "cluster-usa-microsoft + outage",
+			"label": "microsoft + outage",
+			"latestAt": "2026-11-13T19:01:03.000Z",
+			"startedAt": "2026-11-13T01:26:24.000Z",
+			"itemCount": 4,
+			"sourceCount": 3,
+			"terms": [
+				"microsoft",
+				"outage"
+			],
+			"sources": [
+				"NBC News",
+				"NPR",
+				"The New York Times"
+			],
+			"titles": [
+				"Microsoft says major outage was due to 'a network capacity upgrade'",
+				"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+				"Microsoft Says Outage Disrupting Outlook Is Improving",
+				"Microsoft Scrambles to Find Fix Massive Global Outage"
+			],
+			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
+			"entityLastCandidateAt": "2026-11-13T19:01:03.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T19:01:03.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Microsoft says major outage was due to 'a network capacity upgrade'",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+						"Microsoft Says Outage Disrupting Outlook Is Improving"
+					],
+					"sources": [
+						"NBC News",
+						"NPR",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T19:01:03.000Z|4|Microsoft says major outage was due to 'a network capacity upgrade'"
+				},
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T15:30:08.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Microsoft Says Outage Disrupting Outlook Is Improving",
+						"Widespread Microsoft 365 outage continues, impacting email and other services",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T15:30:08.000Z|4|Microsoft Says Outage Disrupting Outlook Is Improving"
+				},
+				{
+					"observedAt": "2026-11-13T18:00:48.625Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T16:17:11.000Z",
+					"itemCount": 6,
+					"sourceCount": 5,
+					"headlines": [
+						"Microsoft’s massive Outlook outage continues",
+						"Microsoft Says Outage Disrupting Outlook Is Improving",
+						"Eye Opener: Microsoft Outlook email outage"
+					],
+					"sources": [
+						"The Verge",
+						"The New York Times",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T16:17:11.000Z|6|Microsoft’s massive Outlook outage continues"
+				},
+				{
+					"observedAt": "2026-11-13T17:00:47.990Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T16:17:11.000Z",
+					"itemCount": 7,
+					"sourceCount": 5,
+					"headlines": [
+						"Microsoft’s massive Outlook outage continues",
+						"Microsoft says it is seeing \"continued recovery progress\" as it battles major worldwide outage",
+						"Microsoft Says Outage Disrupting Outlook Is Improving"
+					],
+					"sources": [
+						"The Verge",
+						"CBS News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T16:17:11.000Z|7|Microsoft’s massive Outlook outage continues"
+				},
+				{
+					"observedAt": "2026-11-13T16:00:48.169Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T15:30:08.000Z",
+					"itemCount": 7,
+					"sourceCount": 5,
+					"headlines": [
+						"Microsoft Says Outage Disrupting Outlook Is Improving",
+						"Eye Opener: Microsoft Outlook email outage",
+						"Microsoft’s massive Outlook outage continues"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"The Verge"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T15:30:08.000Z|7|Microsoft Says Outage Disrupting Outlook Is Improving"
+				},
+				{
+					"observedAt": "2026-11-13T15:00:48.579Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T14:53:51.000Z",
+					"itemCount": 8,
+					"sourceCount": 6,
+					"headlines": [
+						"Microsoft Races to Fix Outage Disrupting Outlook for a Second Day",
+						"Eye Opener: Microsoft Outlook email outage",
+						"Widespread Microsoft 365 outage continues, impacting email and other services"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T14:53:51.000Z|8|Microsoft Races to Fix Outage Disrupting Outlook for a Second Day"
+				},
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T14:06:20.000Z",
+					"itemCount": 6,
+					"sourceCount": 6,
+					"headlines": [
+						"Microsoft Struggles to Repair Worldwide Outage. Here's What You Need to Know",
+						"Microsoft says it is seeing \"continued recovery progress\" as it battles major worldwide outage",
+						"Microsoft Races to Fix Outage Disrupting Outlook for a Second Day"
+					],
+					"sources": [
+						"TIME",
+						"CBS News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T14:06:20.000Z|6|Microsoft Struggles to Repair Worldwide Outage. Here's What You Need to Know"
+				},
+				{
+					"observedAt": "2026-11-13T13:50:49.929Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T12:56:32.000Z",
+					"itemCount": 5,
+					"sourceCount": 5,
+					"headlines": [
+						"Microsoft Races to Fix Outage Disrupting Outlook for a Second Day",
+						"Microsoft’s massive Outlook outage continues",
+						"Microsoft battling major worldwide outage"
+					],
+					"sources": [
+						"The New York Times",
+						"The Verge",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T12:56:32.000Z|5|Microsoft Races to Fix Outage Disrupting Outlook for a Second Day"
+				},
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T12:56:32.000Z",
+					"itemCount": 5,
+					"sourceCount": 5,
+					"headlines": [
+						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+						"Microsoft’s massive Outlook outage continues",
+						"Microsoft Scrambles to Find Fix Massive Global Outage"
+					],
+					"sources": [
+						"The New York Times",
+						"The Verge",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T12:56:32.000Z|5|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+				},
+				{
+					"observedAt": "2026-11-13T09:00:48.269Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T08:08:16.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+						"Widespread outage of Microsoft apps used by hundreds of millions"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T08:08:16.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+				},
+				{
+					"observedAt": "2026-11-13T05:00:48.275Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T04:28:16.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+						"Widespread outage of Microsoft apps used by hundreds of millions"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T04:28:16.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+				},
+				{
+					"observedAt": "2026-11-13T04:00:47.938Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T03:03:35.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+						"Widespread outage of Microsoft apps used by hundreds of millions"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T03:03:35.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+				},
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T01:48:06.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+						"Widespread outage of Microsoft apps used by hundreds of millions"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T01:48:06.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+		},
 		"cluster-usa-senate-leader-senate-leader": {
 			"candidateId": "cluster-usa-senate + leader",
 			"label": "senate + leader",
@@ -16576,48 +16668,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
 		},
-		"cluster-usa-here-mississippi-here-mississippi": {
-			"candidateId": "cluster-usa-here + mississippi",
-			"label": "here + mississippi",
-			"latestAt": "2026-11-13T15:01:10.000Z",
-			"startedAt": "2026-11-13T07:20:24.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"here",
-				"mississippi"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"The New York Times"
-			],
-			"titles": [
-				"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
-				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
-			],
-			"entityFirstSeenAt": "2026-11-13T15:00:48.579Z",
-			"entityLastCandidateAt": "2026-11-13T15:01:10.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T15:00:48.579Z",
-					"label": "here + mississippi",
-					"latestAt": "2026-11-13T15:01:10.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
-						"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-here + mississippi|2026-11-13T15:01:10.000Z|2|Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi."
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
-		},
 		"cluster-spain-sanchez-jordi-sanchez-jordi": {
 			"candidateId": "cluster-spain-sanchez + jordi",
 			"label": "sanchez + jordi",
@@ -16851,6 +16901,48 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T16:00:48.169Z"
 		},
+		"cluster-usa-here-even-here-even": {
+			"candidateId": "cluster-usa-here + even",
+			"label": "here + even",
+			"latestAt": "2026-11-13T15:01:10.000Z",
+			"startedAt": "2026-11-13T07:20:24.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"here",
+				"even"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"The New York Times"
+			],
+			"titles": [
+				"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
+				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
+			],
+			"entityFirstSeenAt": "2026-11-13T16:00:48.169Z",
+			"entityLastCandidateAt": "2026-11-13T15:01:10.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T16:00:48.169Z",
+					"label": "here + even",
+					"latestAt": "2026-11-13T15:01:10.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
+						"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-here + even|2026-11-13T15:01:10.000Z|2|Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi."
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+		},
 		"cluster-spain-estar-raphinha-estar-raphinha": {
 			"candidateId": "cluster-spain-estar + raphinha",
 			"label": "estar + raphinha",
@@ -17018,6 +17110,70 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
+		},
+		"cluster-usa-democratic-hollen-democratic-hollen": {
+			"candidateId": "cluster-usa-democratic + hollen",
+			"label": "democratic + hollen",
+			"latestAt": "2026-11-13T17:47:41.000Z",
+			"startedAt": "2026-11-13T14:26:31.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"democratic",
+				"hollen"
+			],
+			"sources": [
+				"CBS News",
+				"PBS NewsHour",
+				"NPR"
+			],
+			"titles": [
+				"Van Hollen challenges Schumer for Senate majority leader",
+				"Van Hollen to challenge Schumer for Senate Democratic leader",
+				"How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front"
+			],
+			"entityFirstSeenAt": "2026-11-13T17:00:47.990Z",
+			"entityLastCandidateAt": "2026-11-13T17:47:41.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T18:00:48.625Z",
+					"label": "democratic + hollen",
+					"latestAt": "2026-11-13T17:47:41.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Van Hollen challenges Schumer for Senate majority leader",
+						"Van Hollen to challenge Schumer for Senate Democratic leader",
+						"How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front"
+					],
+					"sources": [
+						"CBS News",
+						"PBS NewsHour",
+						"NPR"
+					],
+					"eventId": "cluster-usa-democratic + hollen|2026-11-13T17:47:41.000Z|3|Van Hollen challenges Schumer for Senate majority leader"
+				},
+				{
+					"observedAt": "2026-11-13T17:00:47.990Z",
+					"label": "democratic + hollen",
+					"latestAt": "2026-11-13T15:46:35.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front",
+						"Van Hollen says he'll challenge Schumer for Senate majority leader",
+						"Van Hollen to challenge Schumer for Senate Democratic leader"
+					],
+					"sources": [
+						"NPR",
+						"CBS News",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-democratic + hollen|2026-11-13T15:46:35.000Z|3|How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-spain-sanchez-entre-sanchez-entre": {
 			"candidateId": "cluster-spain-sanchez + entre",
@@ -17259,9 +17415,9 @@
 		"cluster-spain-sanchez-antes-sanchez-antes": {
 			"candidateId": "cluster-spain-sanchez + antes",
 			"label": "sanchez + antes",
-			"latestAt": "2026-11-13T19:07:18.000Z",
+			"latestAt": "2026-11-13T20:46:11.000Z",
 			"startedAt": "2026-11-13T17:15:09.000Z",
-			"itemCount": 2,
+			"itemCount": 3,
 			"sourceCount": 2,
 			"terms": [
 				"sanchez",
@@ -17272,12 +17428,30 @@
 				"El Mundo"
 			],
 			"titles": [
+				"Sánchez insta a una participación del 75% el 29-N para reeditar un Gobierno progresista que llegue “más lejos y antes en las conquistas sociales”",
 				"Campaña elecciones 29-N y actualidad política, en directo | Sánchez pide 176 diputados progresistas en el Congreso para “llegar antes y más lejos”",
 				"Sánchez fija en el 75% el umbral de participación el 29-N para tener alguna opción de poder gobernar"
 			],
 			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
-			"entityLastCandidateAt": "2026-11-13T19:07:18.000Z",
+			"entityLastCandidateAt": "2026-11-13T20:46:11.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "sanchez + antes",
+					"latestAt": "2026-11-13T20:46:11.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Sánchez insta a una participación del 75% el 29-N para reeditar un Gobierno progresista que llegue “más lejos y antes en las conquistas sociales”",
+						"Campaña elecciones 29-N y actualidad política, en directo | Sánchez pide 176 diputados progresistas en el Congreso para “llegar antes y más lejos”",
+						"Sánchez fija en el 75% el umbral de participación el 29-N para tener alguna opción de poder gobernar"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-sanchez + antes|2026-11-13T20:46:11.000Z|3|Sánchez insta a una participación del 75% el 29-N para reeditar un Gobierno progresista que llegue “más lejos y antes en las conquistas sociales”"
+				},
 				{
 					"observedAt": "2026-11-13T20:00:48.144Z",
 					"label": "sanchez + antes",
@@ -17312,7 +17486,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-spain-antes-putin-antes-putin": {
 			"candidateId": "cluster-spain-antes + putin",
@@ -17396,7 +17570,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-spain-papa-leon-papa-leon": {
 			"candidateId": "cluster-spain-papa + leon",
@@ -17438,7 +17612,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-spain-ante-euskal-ante-euskal": {
 			"candidateId": "cluster-spain-ante + euskal",
@@ -17496,7 +17670,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-spain-cuerpo-renfe-cuerpo-renfe": {
 			"candidateId": "cluster-spain-cuerpo + renfe",
@@ -17538,7 +17712,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-spain-antes-mucho-antes-mucho": {
 			"candidateId": "cluster-spain-antes + mucho",
@@ -17708,7 +17882,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-spain-solo-estar-solo-estar": {
 			"candidateId": "cluster-spain-solo + estar",
@@ -17750,20 +17924,234 @@
 				}
 			],
 			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+		},
+		"cluster-usa-nvidia-scrutiny-nvidia-scrutiny": {
+			"candidateId": "cluster-usa-nvidia + scrutiny",
+			"label": "nvidia + scrutiny",
+			"latestAt": "2026-11-13T17:09:45.000Z",
+			"startedAt": "2026-11-13T15:19:08.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"nvidia",
+				"scrutiny"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"CBS News"
+			],
+			"titles": [
+				"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+				"Lutnick faces scrutiny as Nvidia scandal fallout grows",
+				"Company under scrutiny for ties to Nvidia and China"
+			],
+			"entityFirstSeenAt": "2026-11-13T20:00:48.144Z",
+			"entityLastCandidateAt": "2026-11-13T17:09:45.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "nvidia + scrutiny",
+					"latestAt": "2026-11-13T17:09:45.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+						"Lutnick faces scrutiny as Nvidia scandal fallout grows",
+						"Company under scrutiny for ties to Nvidia and China"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + scrutiny|2026-11-13T17:09:45.000Z|3|Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China"
+				}
+			],
+			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+		},
+		"cluster-usa-court-alex-court-alex": {
+			"candidateId": "cluster-usa-court + alex",
+			"label": "court + alex",
+			"latestAt": "2026-11-13T16:49:10.000Z",
+			"startedAt": "2026-11-13T15:56:09.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"court",
+				"alex"
+			],
+			"sources": [
+				"NBC News",
+				"CBS News"
+			],
+			"titles": [
+				"Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury",
+				"Alex Murdaugh lawyers say top investigator lied to grand jury, want murder indictments tossed",
+				"Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed"
+			],
+			"entityFirstSeenAt": "2026-11-13T20:00:48.144Z",
+			"entityLastCandidateAt": "2026-11-13T16:49:10.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "court + alex",
+					"latestAt": "2026-11-13T16:49:10.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury",
+						"Alex Murdaugh lawyers say top investigator lied to grand jury, want murder indictments tossed",
+						"Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed"
+					],
+					"sources": [
+						"NBC News",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-court + alex|2026-11-13T16:49:10.000Z|3|Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+		},
+		"cluster-spain-contra-crucero-contra-crucero": {
+			"candidateId": "cluster-spain-contra + crucero",
+			"label": "contra + crucero",
+			"latestAt": "2026-11-13T20:52:18.000Z",
+			"startedAt": "2026-11-13T20:04:51.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"contra",
+				"crucero"
+			],
+			"sources": [
+				"El Mundo",
+				"El País"
+			],
+			"titles": [
+				"Vuelca un crucero con 129 personas a bordo tras el choque con un buque en Nueva Orleans",
+				"Un buque choca contra un crucero con 129 personas a bordo en el río Misisipi a la altura de Nueva Orleans"
+			],
+			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
+			"entityLastCandidateAt": "2026-11-13T20:52:18.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "contra + crucero",
+					"latestAt": "2026-11-13T20:52:18.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Vuelca un crucero con 129 personas a bordo tras el choque con un buque en Nueva Orleans",
+						"Un buque choca contra un crucero con 129 personas a bordo en el río Misisipi a la altura de Nueva Orleans"
+					],
+					"sources": [
+						"El Mundo",
+						"El País"
+					],
+					"eventId": "cluster-spain-contra + crucero|2026-11-13T20:52:18.000Z|2|Vuelca un crucero con 129 personas a bordo tras el choque con un buque en Nueva Orleans"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+		},
+		"cluster-spain-millones-feijoo-millones-feijoo": {
+			"candidateId": "cluster-spain-millones + feijoo",
+			"label": "millones + feijoo",
+			"latestAt": "2026-11-13T20:01:28.000Z",
+			"startedAt": "2026-11-13T17:05:27.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"millones",
+				"feijoo"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
+				"Jordi Wild, sobre los asesinatos machistas: «44 mujeres son pocas en comparación con una población de 50 millones»"
+			],
+			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
+			"entityLastCandidateAt": "2026-11-13T20:01:28.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "millones + feijoo",
+					"latestAt": "2026-11-13T20:01:28.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
+						"Jordi Wild, sobre los asesinatos machistas: «44 mujeres son pocas en comparación con una población de 50 millones»"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-millones + feijoo|2026-11-13T20:01:28.000Z|2|Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\""
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+		},
+		"cluster-spain-sanchez-ante-sanchez-ante": {
+			"candidateId": "cluster-spain-sanchez + ante",
+			"label": "sanchez + ante",
+			"latestAt": "2026-11-13T17:39:32.000Z",
+			"startedAt": "2026-11-13T15:13:28.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"sanchez",
+				"ante"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+				"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre"
+			],
+			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
+			"entityLastCandidateAt": "2026-11-13T17:39:32.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "sanchez + ante",
+					"latestAt": "2026-11-13T17:39:32.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+						"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-sanchez + ante|2026-11-13T17:39:32.000Z|2|Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-us-2026-11-13T20:00:48.144Z",
+		"id": "local-us-2026-11-13T21:00:47.961Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-13T20:00:48.144Z",
-		"finishedAt": "2026-11-13T20:05:31.851Z",
+		"startedAt": "2026-11-13T21:00:47.961Z",
+		"finishedAt": "2026-11-13T21:06:37.596Z",
 		"signalsCandidate": 9,
-		"signalsSelected": 9,
+		"signalsSelected": 8,
 		"signalsProcessed": 0,
-		"cacheHits": 7,
-		"skippedByConfig": 9,
+		"cacheHits": 4,
+		"skippedByConfig": 8,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -17773,11 +18161,11 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 7,
+			"cacheHits": 4,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 329,
-			"retainedByTtl": 320,
+			"retained": 337,
+			"retainedByTtl": 328,
 			"retiredByTtl": 0
 		},
 		"costUsd": 0
