@@ -2,45 +2,62 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-13T01:00:47.794Z",
+	"updatedAt": "2026-11-13T02:00:48.242Z",
 	"entries": {
 		"cluster-usa-nvidia-huang-nvidia-huang": {
 			"candidateId": "cluster-usa-nvidia + huang",
 			"label": "nvidia + huang",
-			"latestAt": "2026-11-13T00:25:08.000Z",
+			"latestAt": "2026-11-13T01:52:57.000Z",
 			"startedAt": "2026-11-12T14:17:20.000Z",
-			"itemCount": 14,
+			"itemCount": 13,
 			"sourceCount": 5,
 			"terms": [
 				"nvidia",
 				"huang"
 			],
 			"sources": [
-				"The New York Times Politics",
 				"CBS News",
-				"NPR",
 				"The New York Times",
+				"NPR",
+				"The New York Times Politics",
 				"PBS NewsHour"
 			],
 			"titles": [
-				"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-				"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+				"What could happen to AI development and chip production as Huang resigns from Nvidia",
+				"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
 				"What happens next as Huang steps down as Nvidia CEO following affair scandal",
+				"What Jensen Huang's resignation means for Nvidia, global AI race",
 				"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
-				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
-				"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
 				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
 				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
-				"AG Todd Blanche asked about Jensen Huang, Nvidia",
 				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
 				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
-				"What Huang's resignation mean for chipmakers, AI and U.S. national security",
-				"What Jensen Huang's resignation means for Nvidia, global AI race",
+				"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+				"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
 				"WATCH: 'More questions than answers' about Nvidia's Huang, Jeffries says in news conference"
 			],
 			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-13T00:25:08.000Z",
+			"entityLastCandidateAt": "2026-11-13T01:52:57.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T01:52:57.000Z",
+					"itemCount": 13,
+					"sourceCount": 5,
+					"headlines": [
+						"What could happen to AI development and chip production as Huang resigns from Nvidia",
+						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|13|What could happen to AI development and chip production as Huang resigns from Nvidia"
+				},
 				{
 					"observedAt": "2026-11-13T01:00:47.794Z",
 					"label": "nvidia + huang",
@@ -187,80 +204,61 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
 		},
-		"cluster-usa-building-brooklyn-building-brooklyn": {
-			"candidateId": "cluster-usa-building + brooklyn",
-			"label": "building + brooklyn",
-			"latestAt": "2026-11-12T23:58:33.000Z",
-			"startedAt": "2026-11-12T16:09:11.000Z",
-			"itemCount": 8,
+		"cluster-usa-building-collapse-building-collapse": {
+			"candidateId": "cluster-usa-building + collapse",
+			"label": "building + collapse",
+			"latestAt": "2026-11-13T01:23:00.000Z",
+			"startedAt": "2026-11-12T18:15:00.000Z",
+			"itemCount": 7,
 			"sourceCount": 4,
 			"terms": [
 				"building",
-				"brooklyn"
+				"collapse"
 			],
 			"sources": [
-				"NBC News",
 				"The New York Times",
+				"NBC News",
 				"PBS NewsHour",
 				"NPR"
 			],
 			"titles": [
-				"First video of Brooklyn building collapse",
+				"What to Know About the Deadly Building Collapse in Brooklyn",
 				"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
+				"First video of Brooklyn building collapse",
 				"New York building collapse kills 8, including 2 children",
 				"Eight Who Died in Building Collapse Reflected New York’s Diversity",
-				"What to Know About the Deadly Building Collapse in Brooklyn",
 				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
-				"Casualties continue to rise after Brooklyn building collapses",
-				"Excavation Was Taking Place Next to Building in Brooklyn That Collapsed"
+				"Casualties continue to rise after Brooklyn building collapses"
 			],
-			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
-			"entityLastCandidateAt": "2026-11-12T23:58:33.000Z",
+			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
+			"entityLastCandidateAt": "2026-11-13T01:23:00.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T01:00:47.794Z",
-					"label": "building + brooklyn",
-					"latestAt": "2026-11-12T23:58:33.000Z",
-					"itemCount": 8,
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-13T01:23:00.000Z",
+					"itemCount": 7,
 					"sourceCount": 4,
 					"headlines": [
-						"First video of Brooklyn building collapse",
+						"What to Know About the Deadly Building Collapse in Brooklyn",
 						"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
-						"New York building collapse kills 8, including 2 children"
+						"First video of Brooklyn building collapse"
 					],
 					"sources": [
-						"NBC News",
 						"The New York Times",
+						"NBC News",
 						"PBS NewsHour"
 					],
-					"eventId": "cluster-usa-building + brooklyn|2026-11-12T23:58:33.000Z|8|First video of Brooklyn building collapse"
+					"eventId": "cluster-usa-building + collapse|2026-11-13T01:23:00.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
 				},
 				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "building + brooklyn",
-					"latestAt": "2026-11-12T23:53:15.000Z",
+					"observedAt": "2026-11-12T22:00:48.193Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T21:45:05.000Z",
 					"itemCount": 8,
-					"sourceCount": 4,
-					"headlines": [
-						"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
-						"New York building collapse kills 8, including 2 children",
-						"Eight Who Died in Building Collapse Reflected New York’s Diversity"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-building + brooklyn|2026-11-12T23:53:15.000Z|8|Rescue Ends in Brooklyn After 8 Die in Building Collapse"
-				},
-				{
-					"observedAt": "2026-11-12T23:00:48.320Z",
-					"label": "building + brooklyn",
-					"latestAt": "2026-11-12T22:12:26.000Z",
-					"itemCount": 6,
-					"sourceCount": 4,
+					"sourceCount": 5,
 					"headlines": [
 						"What to Know About the Deadly Building Collapse in Brooklyn",
 						"Ring camera video shows the moment of Brooklyn building collapse",
@@ -271,22 +269,112 @@
 						"NBC News",
 						"NPR"
 					],
-					"eventId": "cluster-usa-building + brooklyn|2026-11-12T22:12:26.000Z|6|What to Know About the Deadly Building Collapse in Brooklyn"
+					"eventId": "cluster-usa-building + collapse|2026-11-12T21:45:05.000Z|8|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T19:58:47.000Z",
+					"itemCount": 8,
+					"sourceCount": 5,
+					"headlines": [
+						"Ring camera video shows the moment of Brooklyn building collapse",
+						"A Frantic Search for Survivors in the Brooklyn Building Collapse",
+						"What to Know About the Deadly Building Collapse in Brooklyn"
+					],
+					"sources": [
+						"NBC News",
+						"The New York Times",
+						"NPR"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T19:58:47.000Z|8|Ring camera video shows the moment of Brooklyn building collapse"
+				},
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T19:43:09.000Z",
+					"itemCount": 7,
+					"sourceCount": 5,
+					"headlines": [
+						"A Frantic Search for Survivors in the Brooklyn Building Collapse",
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Casualties continue to rise after Brooklyn building collapses"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T19:43:09.000Z|7|A Frantic Search for Survivors in the Brooklyn Building Collapse"
+				},
+				{
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T19:05:41.000Z",
+					"itemCount": 7,
+					"sourceCount": 5,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Casualties continue to rise after Brooklyn building collapses",
+						"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T19:05:41.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T18:31:16.000Z",
+					"itemCount": 7,
+					"sourceCount": 5,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Casualties continue to rise after Brooklyn building collapses",
+						"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T18:31:16.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "building + collapse",
+					"latestAt": "2026-11-12T15:32:54.000Z",
+					"itemCount": 6,
+					"sourceCount": 4,
+					"headlines": [
+						"NYC building collapse: Death toll rises",
+						"Greta Thunberg and a collapsed building in Brooklyn: photos of the day – Thursday",
+						"Brooklyn building collapse kills at least eight and injures 17 as search continues"
+					],
+					"sources": [
+						"CBS News",
+						"The Guardian US",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-building + collapse|2026-11-12T15:32:54.000Z|6|NYC building collapse: Death toll rises"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
 		},
-		"cluster-usa-nvidia-mississippi-nvidia-mississippi": {
-			"candidateId": "cluster-usa-nvidia + mississippi",
-			"label": "nvidia + mississippi",
+		"cluster-usa-mississippi-senate-mississippi-senate": {
+			"candidateId": "cluster-usa-mississippi + senate",
+			"label": "mississippi + senate",
 			"latestAt": "2026-11-12T23:59:27.000Z",
-			"startedAt": "2026-11-12T11:00:15.000Z",
-			"itemCount": 6,
+			"startedAt": "2026-11-12T14:14:44.000Z",
+			"itemCount": 5,
 			"sourceCount": 4,
 			"terms": [
-				"nvidia",
-				"mississippi"
+				"mississippi",
+				"senate"
 			],
 			"sources": [
 				"CBS News",
@@ -299,17 +387,16 @@
 				"Mississippi reacts after Scott Colom wins Senate race",
 				"How Scott Colom won his longshot bid to flip Mississippi's Senate seat",
 				"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
-				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
-				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
+				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
 			],
-			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityFirstSeenAt": "2026-11-12T13:50:33.057Z",
 			"entityLastCandidateAt": "2026-11-12T23:59:27.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T01:00:47.794Z",
-					"label": "nvidia + mississippi",
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "mississippi + senate",
 					"latestAt": "2026-11-12T23:59:27.000Z",
-					"itemCount": 6,
+					"itemCount": 5,
 					"sourceCount": 4,
 					"headlines": [
 						"Jasmine Crockett on Scott Colom's Senate win: \"Mississippi has been overlooked\"",
@@ -321,40 +408,185 @@
 						"PBS NewsHour",
 						"The New York Times Politics"
 					],
-					"eventId": "cluster-usa-nvidia + mississippi|2026-11-12T23:59:27.000Z|6|Jasmine Crockett on Scott Colom's Senate win: \"Mississippi has been overlooked\""
+					"eventId": "cluster-usa-mississippi + senate|2026-11-12T23:59:27.000Z|5|Jasmine Crockett on Scott Colom's Senate win: \"Mississippi has been overlooked\""
 				},
 				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "nvidia + mississippi",
-					"latestAt": "2026-11-12T14:14:44.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "mississippi + senate",
+					"latestAt": "2026-11-12T18:16:50.000Z",
+					"itemCount": 5,
+					"sourceCount": 4,
 					"headlines": [
-						"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
-						"Democrat Scott Colom wins Mississippi Senate race in upset",
-						"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
+						"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
+						"Mississippi goes blue after highly contested Senate battle",
+						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
 					],
 					"sources": [
-						"The New York Times",
+						"The New York Times Politics",
 						"CBS News",
 						"NPR Politics"
 					],
-					"eventId": "cluster-usa-nvidia + mississippi|2026-11-12T14:14:44.000Z|4|In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
+					"eventId": "cluster-usa-mississippi + senate|2026-11-12T18:16:50.000Z|5|How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter"
+				},
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "mississippi + senate",
+					"latestAt": "2026-11-12T18:16:50.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
+						"Mississippi goes blue after highly contested Senate battle",
+						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-mississippi + senate|2026-11-12T18:16:50.000Z|3|How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "mississippi + senate",
+					"latestAt": "2026-11-12T15:19:22.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Mississippi goes blue after highly contested Senate battle",
+						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
+					],
+					"sources": [
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-mississippi + senate|2026-11-12T15:19:22.000Z|2|Mississippi goes blue after highly contested Senate battle"
+				},
+				{
+					"observedAt": "2026-11-12T13:50:33.057Z",
+					"label": "mississippi + senate",
+					"latestAt": "2026-11-12T12:20:32.000Z",
+					"itemCount": 10,
+					"sourceCount": 6,
+					"headlines": [
+						"Democrat Scott Colom wins Mississippi Senate race in upset",
+						"Colom wins Mississippi Senate race. And, White House warns Dems over future probes",
+						"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
+					],
+					"sources": [
+						"CBS News",
+						"NPR World",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-mississippi + senate|2026-11-12T12:20:32.000Z|10|Democrat Scott Colom wins Mississippi Senate race in upset"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
 		},
-		"cluster-usa-democrats-wins-democrats-wins": {
-			"candidateId": "cluster-usa-democrats + wins",
-			"label": "democrats + wins",
+		"cluster-usa-more-microsoft-more-microsoft": {
+			"candidateId": "cluster-usa-more + microsoft",
+			"label": "more + microsoft",
+			"latestAt": "2026-11-13T01:48:06.000Z",
+			"startedAt": "2026-11-12T23:15:24.000Z",
+			"itemCount": 4,
+			"sourceCount": 3,
+			"terms": [
+				"more",
+				"microsoft"
+			],
+			"sources": [
+				"The New York Times",
+				"NPR",
+				"NBC News"
+			],
+			"titles": [
+				"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+				"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+				"Widespread outage of Microsoft apps used by hundreds of millions",
+				"Widespread outage hits Microsoft platforms including Outlook, thousands report issues"
+			],
+			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
+			"entityLastCandidateAt": "2026-11-13T01:48:06.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "more + microsoft",
+					"latestAt": "2026-11-13T01:48:06.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+						"Widespread outage of Microsoft apps used by hundreds of millions"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-more + microsoft|2026-11-13T01:48:06.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
+		},
+		"cluster-usa-democrats-trump-democrats-trump": {
+			"candidateId": "cluster-usa-democrats + trump",
+			"label": "democrats + trump",
+			"latestAt": "2026-11-13T01:28:48.131Z",
+			"startedAt": "2026-11-12T17:13:54.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"democrats",
+				"trump"
+			],
+			"sources": [
+				"NBC News Politics",
+				"NPR Politics",
+				"The New York Times Politics"
+			],
+			"titles": [
+				"Democrats can’t wait until after Trump to produce results, James Talarico says",
+				"Democrats want to stop Trump's arch, golf course and more. What are their options?",
+				"Democrats Put Targets on Notice as Trump Oversight Takes Shape"
+			],
+			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
+			"entityLastCandidateAt": "2026-11-13T01:28:48.131Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "democrats + trump",
+					"latestAt": "2026-11-13T01:28:48.131Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Democrats can’t wait until after Trump to produce results, James Talarico says",
+						"Democrats want to stop Trump's arch, golf course and more. What are their options?",
+						"Democrats Put Targets on Notice as Trump Oversight Takes Shape"
+					],
+					"sources": [
+						"NBC News Politics",
+						"NPR Politics",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-democrats + trump|2026-11-13T01:28:48.131Z|3|Democrats can’t wait until after Trump to produce results, James Talarico says"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
+		},
+		"cluster-usa-democrats-kansas-democrats-kansas": {
+			"candidateId": "cluster-usa-democrats + kansas",
+			"label": "democrats + kansas",
 			"latestAt": "2026-11-12T23:36:19.000Z",
 			"startedAt": "2026-11-12T23:15:50.000Z",
 			"itemCount": 3,
 			"sourceCount": 3,
 			"terms": [
 				"democrats",
-				"wins"
+				"kansas"
 			],
 			"sources": [
 				"NPR Politics",
@@ -366,12 +598,12 @@
 				"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats",
 				"Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories"
 			],
-			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
+			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
 			"entityLastCandidateAt": "2026-11-12T23:36:19.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T01:00:47.794Z",
-					"label": "democrats + wins",
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "democrats + kansas",
 					"latestAt": "2026-11-12T23:36:19.000Z",
 					"itemCount": 3,
 					"sourceCount": 3,
@@ -385,113 +617,171 @@
 						"The New York Times",
 						"PBS NewsHour"
 					],
-					"eventId": "cluster-usa-democrats + wins|2026-11-12T23:36:19.000Z|3|Cindy Holscher wins in Kansas, holding governor's office for Democrats"
-				},
-				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "democrats + wins",
-					"latestAt": "2026-11-12T23:36:19.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
-						"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats",
-						"Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories"
-					],
-					"sources": [
-						"NPR Politics",
-						"The New York Times",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-democrats + wins|2026-11-12T23:36:19.000Z|4|Cindy Holscher wins in Kansas, holding governor's office for Democrats"
+					"eventId": "cluster-usa-democrats + kansas|2026-11-12T23:36:19.000Z|3|Cindy Holscher wins in Kansas, holding governor's office for Democrats"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
 		},
-		"cluster-usa-nvidia-calls-nvidia-calls": {
-			"candidateId": "cluster-usa-nvidia + calls",
-			"label": "nvidia + calls",
-			"latestAt": "2026-11-13T00:46:55.000Z",
+		"cluster-usa-kansas-charges-kansas-charges": {
+			"candidateId": "cluster-usa-kansas + charges",
+			"label": "kansas + charges",
+			"latestAt": "2026-11-13T01:54:37.000Z",
+			"startedAt": "2026-11-13T01:22:28.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"kansas",
+				"charges"
+			],
+			"sources": [
+				"CBS News",
+				"NBC News"
+			],
+			"titles": [
+				"No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2",
+				"No charges for woman who drove onto Kansas soccer field, killing 2, officials say"
+			],
+			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
+			"entityLastCandidateAt": "2026-11-13T01:54:37.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "kansas + charges",
+					"latestAt": "2026-11-13T01:54:37.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2",
+						"No charges for woman who drove onto Kansas soccer field, killing 2, officials say"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-kansas + charges|2026-11-13T01:54:37.000Z|2|No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
+		},
+		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
+			"candidateId": "cluster-usa-nvidia + lutnick",
+			"label": "nvidia + lutnick",
+			"latestAt": "2026-11-13T01:28:40.000Z",
 			"startedAt": "2026-11-12T23:33:00.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
 				"nvidia",
-				"calls"
+				"lutnick"
 			],
 			"sources": [
 				"The New York Times World",
 				"CBS News"
 			],
 			"titles": [
-				"Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew",
+				"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
 				"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
 			],
-			"entityFirstSeenAt": "2026-11-13T01:00:47.794Z",
-			"entityLastCandidateAt": "2026-11-13T00:46:55.000Z",
+			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
+			"entityLastCandidateAt": "2026-11-13T01:28:40.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T01:00:47.794Z",
-					"label": "nvidia + calls",
-					"latestAt": "2026-11-13T00:46:55.000Z",
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T01:28:40.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
 					"headlines": [
-						"Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew",
+						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
 						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
 					],
 					"sources": [
 						"The New York Times World",
 						"CBS News"
 					],
-					"eventId": "cluster-usa-nvidia + calls|2026-11-13T00:46:55.000Z|2|Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew"
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T01:28:40.000Z|2|Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
 		},
-		"cluster-usa-calls-pope-calls-pope": {
-			"candidateId": "cluster-usa-calls + pope",
-			"label": "calls + pope",
-			"latestAt": "2026-11-13T00:35:20.000Z",
-			"startedAt": "2026-11-12T22:06:20.000Z",
+		"cluster-usa-prostate-cancer-prostate-cancer": {
+			"candidateId": "cluster-usa-prostate + cancer",
+			"label": "prostate + cancer",
+			"latestAt": "2026-11-13T00:13:17.000Z",
+			"startedAt": "2026-11-12T22:13:00.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"calls",
-				"pope"
+				"prostate",
+				"cancer"
 			],
 			"sources": [
-				"CBS News",
-				"PBS NewsHour"
+				"NBC News",
+				"CBS News"
 			],
 			"titles": [
-				"Pope Leo calls on followers to \"value women\" and \"respect girls\"",
-				"After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women"
+				"New prostate cancer screening guidelines",
+				"Regular prostate cancer screening recommended in new guidelines"
 			],
-			"entityFirstSeenAt": "2026-11-13T01:00:47.794Z",
-			"entityLastCandidateAt": "2026-11-13T00:35:20.000Z",
+			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
+			"entityLastCandidateAt": "2026-11-13T00:13:17.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T01:00:47.794Z",
-					"label": "calls + pope",
-					"latestAt": "2026-11-13T00:35:20.000Z",
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "prostate + cancer",
+					"latestAt": "2026-11-13T00:13:17.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
 					"headlines": [
-						"Pope Leo calls on followers to \"value women\" and \"respect girls\"",
-						"After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women"
+						"New prostate cancer screening guidelines",
+						"Regular prostate cancer screening recommended in new guidelines"
+					],
+					"sources": [
+						"NBC News",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-prostate + cancer|2026-11-13T00:13:17.000Z|2|New prostate cancer screening guidelines"
+				},
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "prostate + cancer",
+					"latestAt": "2026-11-12T22:13:00.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Regular prostate cancer screening recommended in new guidelines",
+						"What to Know About New Prostate Cancer Screening Recommendations"
 					],
 					"sources": [
 						"CBS News",
-						"PBS NewsHour"
+						"The New York Times"
 					],
-					"eventId": "cluster-usa-calls + pope|2026-11-13T00:35:20.000Z|2|Pope Leo calls on followers to \"value women\" and \"respect girls\""
+					"eventId": "cluster-usa-prostate + cancer|2026-11-12T22:13:00.000Z|2|Regular prostate cancer screening recommended in new guidelines"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "prostate + cancer",
+					"latestAt": "2026-11-12T15:30:29.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"How men can guard against prostate cancer",
+						"New prostate cancer screening guidelines include regular PSA testing for most older men",
+						"What to Know About New Prostate Cancer Screening Recommendations"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-prostate + cancer|2026-11-12T15:30:29.000Z|3|How men can guard against prostate cancer"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
 		},
 		"cluster-usa-shooting-killed-shooting-killed": {
 			"candidateId": "cluster-usa-shooting + killed",
@@ -549,109 +839,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
-		},
-		"cluster-usa-oklahoma-inmate-oklahoma-inmate": {
-			"candidateId": "cluster-usa-oklahoma + inmate",
-			"label": "oklahoma + inmate",
-			"latestAt": "2026-11-12T23:34:05.000Z",
-			"startedAt": "2026-11-12T21:44:01.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"oklahoma",
-				"inmate"
-			],
-			"sources": [
-				"CBS News",
-				"NBC News"
-			],
-			"titles": [
-				"Ex-Oklahoma death row inmate pleads guilty to lesser charge",
-				"Oklahoma dismisses murder charge against former death row inmate Richard Glossip"
-			],
-			"entityFirstSeenAt": "2026-11-13T01:00:47.794Z",
-			"entityLastCandidateAt": "2026-11-12T23:34:05.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T01:00:47.794Z",
-					"label": "oklahoma + inmate",
-					"latestAt": "2026-11-12T23:34:05.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Ex-Oklahoma death row inmate pleads guilty to lesser charge",
-						"Oklahoma dismisses murder charge against former death row inmate Richard Glossip"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-oklahoma + inmate|2026-11-12T23:34:05.000Z|2|Ex-Oklahoma death row inmate pleads guilty to lesser charge"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
-		},
-		"cluster-usa-prostate-cancer-prostate-cancer": {
-			"candidateId": "cluster-usa-prostate + cancer",
-			"label": "prostate + cancer",
-			"latestAt": "2026-11-12T22:13:00.000Z",
-			"startedAt": "2026-11-12T12:00:05.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"prostate",
-				"cancer"
-			],
-			"sources": [
-				"CBS News",
-				"The New York Times"
-			],
-			"titles": [
-				"Regular prostate cancer screening recommended in new guidelines",
-				"What to Know About New Prostate Cancer Screening Recommendations"
-			],
-			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T22:13:00.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T23:00:48.320Z",
-					"label": "prostate + cancer",
-					"latestAt": "2026-11-12T22:13:00.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Regular prostate cancer screening recommended in new guidelines",
-						"What to Know About New Prostate Cancer Screening Recommendations"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-prostate + cancer|2026-11-12T22:13:00.000Z|2|Regular prostate cancer screening recommended in new guidelines"
-				},
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "prostate + cancer",
-					"latestAt": "2026-11-12T15:30:29.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"How men can guard against prostate cancer",
-						"New prostate cancer screening guidelines include regular PSA testing for most older men",
-						"What to Know About New Prostate Cancer Screening Recommendations"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-prostate + cancer|2026-11-12T15:30:29.000Z|3|How men can guard against prostate cancer"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -1957,48 +2145,6 @@
 						"El País"
 					],
 					"eventId": "cluster-spain-ante + barca|2026-11-09T06:14:24.000Z|3|El Barça sale más líder del Metropolitano"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T08:25:19.568Z"
-		},
-		"cluster-spain-cuando-sanchez-cuando-sanchez": {
-			"candidateId": "cluster-spain-cuando + sanchez",
-			"label": "cuando + sanchez",
-			"latestAt": "2026-11-09T01:19:40.000Z",
-			"startedAt": "2026-11-08T20:10:32.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"cuando",
-				"sanchez"
-			],
-			"sources": [
-				"El Mundo",
-				"El Diario Vasco"
-			],
-			"titles": [
-				"Fernando Savater: \"La pregunta no es cuándo me hice yo de derechas sino cuándo los socialistas se hicieron como Pedro Sánchez\"",
-				"Pedro Sánchez promete blindar el aborto y la subida de pensiones e insufla moral de victoria: «Vamos a por el Congreso y el Senado»"
-			],
-			"entityFirstSeenAt": "2026-11-09T08:25:19.568Z",
-			"entityLastCandidateAt": "2026-11-09T01:19:40.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T08:25:19.568Z",
-					"label": "cuando + sanchez",
-					"latestAt": "2026-11-09T01:19:40.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Fernando Savater: \"La pregunta no es cuándo me hice yo de derechas sino cuándo los socialistas se hicieron como Pedro Sánchez\"",
-						"Pedro Sánchez promete blindar el aborto y la subida de pensiones e insufla moral de victoria: «Vamos a por el Congreso y el Senado»"
-					],
-					"sources": [
-						"El Mundo",
-						"El Diario Vasco"
-					],
-					"eventId": "cluster-spain-cuando + sanchez|2026-11-09T01:19:40.000Z|2|Fernando Savater: \"La pregunta no es cuándo me hice yo de derechas sino cuándo los socialistas se hicieron como Pedro Sánchez\""
 				}
 			],
 			"entityState": "active",
@@ -11916,107 +12062,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T13:49:52.824Z"
 		},
-		"cluster-usa-mississippi-senate-mississippi-senate": {
-			"candidateId": "cluster-usa-mississippi + senate",
-			"label": "mississippi + senate",
-			"latestAt": "2026-11-12T18:16:50.000Z",
-			"startedAt": "2026-11-12T09:32:33.000Z",
-			"itemCount": 5,
-			"sourceCount": 4,
-			"terms": [
-				"mississippi",
-				"senate"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"CBS News",
-				"NPR Politics",
-				"The New York Times"
-			],
-			"titles": [
-				"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
-				"Mississippi goes blue after highly contested Senate battle",
-				"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi",
-				"Democrat Scott Colom wins Mississippi Senate race",
-				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
-			],
-			"entityFirstSeenAt": "2026-11-12T13:50:33.057Z",
-			"entityLastCandidateAt": "2026-11-12T18:16:50.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T19:25:49.967Z",
-					"label": "mississippi + senate",
-					"latestAt": "2026-11-12T18:16:50.000Z",
-					"itemCount": 5,
-					"sourceCount": 4,
-					"headlines": [
-						"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
-						"Mississippi goes blue after highly contested Senate battle",
-						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-mississippi + senate|2026-11-12T18:16:50.000Z|5|How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter"
-				},
-				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "mississippi + senate",
-					"latestAt": "2026-11-12T18:16:50.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
-						"Mississippi goes blue after highly contested Senate battle",
-						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-mississippi + senate|2026-11-12T18:16:50.000Z|3|How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter"
-				},
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "mississippi + senate",
-					"latestAt": "2026-11-12T15:19:22.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Mississippi goes blue after highly contested Senate battle",
-						"Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi"
-					],
-					"sources": [
-						"CBS News",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-mississippi + senate|2026-11-12T15:19:22.000Z|2|Mississippi goes blue after highly contested Senate battle"
-				},
-				{
-					"observedAt": "2026-11-12T13:50:33.057Z",
-					"label": "mississippi + senate",
-					"latestAt": "2026-11-12T12:20:32.000Z",
-					"itemCount": 10,
-					"sourceCount": 6,
-					"headlines": [
-						"Democrat Scott Colom wins Mississippi Senate race in upset",
-						"Colom wins Mississippi Senate race. And, White House warns Dems over future probes",
-						"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
-					],
-					"sources": [
-						"CBS News",
-						"NPR World",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-mississippi + senate|2026-11-12T12:20:32.000Z|10|Democrat Scott Colom wins Mississippi Senate race in upset"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
-		},
 		"cluster-usa-future-jensen-future-jensen": {
 			"candidateId": "cluster-usa-future + jensen",
 			"label": "future + jensen",
@@ -12643,149 +12688,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T15:47:00.508Z"
-		},
-		"cluster-usa-building-collapse-building-collapse": {
-			"candidateId": "cluster-usa-building + collapse",
-			"label": "building + collapse",
-			"latestAt": "2026-11-12T21:45:05.000Z",
-			"startedAt": "2026-11-12T15:32:54.000Z",
-			"itemCount": 8,
-			"sourceCount": 5,
-			"terms": [
-				"building",
-				"collapse"
-			],
-			"sources": [
-				"The New York Times",
-				"NBC News",
-				"NPR",
-				"PBS NewsHour",
-				"CBS News"
-			],
-			"titles": [
-				"What to Know About the Deadly Building Collapse in Brooklyn",
-				"Ring camera video shows the moment of Brooklyn building collapse",
-				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
-				"Casualties continue to rise after Brooklyn building collapses",
-				"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says",
-				"Mamdani says eight people ‘senselessly’ died in NYC building collapse",
-				"NYC building collapse: Death toll rises",
-				"2 children among the 8 dead in New York City building collapse, officials say"
-			],
-			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T21:45:05.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T22:00:48.193Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-12T21:45:05.000Z",
-					"itemCount": 8,
-					"sourceCount": 5,
-					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Ring camera video shows the moment of Brooklyn building collapse",
-						"A Frantic Search for Survivors in the Brooklyn Building Collapse"
-					],
-					"sources": [
-						"The New York Times",
-						"NBC News",
-						"NPR"
-					],
-					"eventId": "cluster-usa-building + collapse|2026-11-12T21:45:05.000Z|8|What to Know About the Deadly Building Collapse in Brooklyn"
-				},
-				{
-					"observedAt": "2026-11-12T21:00:48.034Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-12T19:58:47.000Z",
-					"itemCount": 8,
-					"sourceCount": 5,
-					"headlines": [
-						"Ring camera video shows the moment of Brooklyn building collapse",
-						"A Frantic Search for Survivors in the Brooklyn Building Collapse",
-						"What to Know About the Deadly Building Collapse in Brooklyn"
-					],
-					"sources": [
-						"NBC News",
-						"The New York Times",
-						"NPR"
-					],
-					"eventId": "cluster-usa-building + collapse|2026-11-12T19:58:47.000Z|8|Ring camera video shows the moment of Brooklyn building collapse"
-				},
-				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-12T19:43:09.000Z",
-					"itemCount": 7,
-					"sourceCount": 5,
-					"headlines": [
-						"A Frantic Search for Survivors in the Brooklyn Building Collapse",
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Casualties continue to rise after Brooklyn building collapses"
-					],
-					"sources": [
-						"The New York Times",
-						"NPR",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-building + collapse|2026-11-12T19:43:09.000Z|7|A Frantic Search for Survivors in the Brooklyn Building Collapse"
-				},
-				{
-					"observedAt": "2026-11-12T19:25:49.967Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-12T19:05:41.000Z",
-					"itemCount": 7,
-					"sourceCount": 5,
-					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Casualties continue to rise after Brooklyn building collapses",
-						"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says"
-					],
-					"sources": [
-						"The New York Times",
-						"NPR",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-building + collapse|2026-11-12T19:05:41.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
-				},
-				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-12T18:31:16.000Z",
-					"itemCount": 7,
-					"sourceCount": 5,
-					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Casualties continue to rise after Brooklyn building collapses",
-						"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says"
-					],
-					"sources": [
-						"The New York Times",
-						"NPR",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-building + collapse|2026-11-12T18:31:16.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
-				},
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "building + collapse",
-					"latestAt": "2026-11-12T15:32:54.000Z",
-					"itemCount": 6,
-					"sourceCount": 4,
-					"headlines": [
-						"NYC building collapse: Death toll rises",
-						"Greta Thunberg and a collapsed building in Brooklyn: photos of the day – Thursday",
-						"Brooklyn building collapse kills at least eight and injures 17 as search continues"
-					],
-					"sources": [
-						"CBS News",
-						"The Guardian US",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-building + collapse|2026-11-12T15:32:54.000Z|6|NYC building collapse: Death toll rises"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
 		},
 		"cluster-usa-nvidia-affair-nvidia-affair": {
 			"candidateId": "cluster-usa-nvidia + affair",
@@ -13878,7 +13780,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
 		},
 		"cluster-spain-entre-general-entre-general": {
 			"candidateId": "cluster-spain-entre + general",
@@ -14046,6 +13948,74 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+		},
+		"cluster-usa-nvidia-mississippi-nvidia-mississippi": {
+			"candidateId": "cluster-usa-nvidia + mississippi",
+			"label": "nvidia + mississippi",
+			"latestAt": "2026-11-12T23:59:27.000Z",
+			"startedAt": "2026-11-12T11:00:15.000Z",
+			"itemCount": 6,
+			"sourceCount": 4,
+			"terms": [
+				"nvidia",
+				"mississippi"
+			],
+			"sources": [
+				"CBS News",
+				"PBS NewsHour",
+				"The New York Times Politics",
+				"The New York Times"
+			],
+			"titles": [
+				"Jasmine Crockett on Scott Colom's Senate win: \"Mississippi has been overlooked\"",
+				"Mississippi reacts after Scott Colom wins Senate race",
+				"How Scott Colom won his longshot bid to flip Mississippi's Senate seat",
+				"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
+				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
+				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T23:59:27.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "nvidia + mississippi",
+					"latestAt": "2026-11-12T23:59:27.000Z",
+					"itemCount": 6,
+					"sourceCount": 4,
+					"headlines": [
+						"Jasmine Crockett on Scott Colom's Senate win: \"Mississippi has been overlooked\"",
+						"Mississippi reacts after Scott Colom wins Senate race",
+						"How Scott Colom won his longshot bid to flip Mississippi's Senate seat"
+					],
+					"sources": [
+						"CBS News",
+						"PBS NewsHour",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-nvidia + mississippi|2026-11-12T23:59:27.000Z|6|Jasmine Crockett on Scott Colom's Senate win: \"Mississippi has been overlooked\""
+				},
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "nvidia + mississippi",
+					"latestAt": "2026-11-12T14:14:44.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
+						"Democrat Scott Colom wins Mississippi Senate race in upset",
+						"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-nvidia + mississippi|2026-11-12T14:14:44.000Z|4|In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		},
 		"cluster-usa-hegseth-soldier-hegseth-soldier": {
 			"candidateId": "cluster-usa-hegseth + soldier",
@@ -14948,7 +14918,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
 		},
 		"cluster-spain-pero-ciencia-pero-ciencia": {
 			"candidateId": "cluster-spain-pero + ciencia",
@@ -14990,7 +14960,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
 		},
 		"cluster-spain-contra-papa-contra-papa": {
 			"candidateId": "cluster-spain-contra + papa",
@@ -15280,6 +15250,94 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
+		"cluster-usa-building-brooklyn-building-brooklyn": {
+			"candidateId": "cluster-usa-building + brooklyn",
+			"label": "building + brooklyn",
+			"latestAt": "2026-11-12T23:58:33.000Z",
+			"startedAt": "2026-11-12T16:09:11.000Z",
+			"itemCount": 8,
+			"sourceCount": 4,
+			"terms": [
+				"building",
+				"brooklyn"
+			],
+			"sources": [
+				"NBC News",
+				"The New York Times",
+				"PBS NewsHour",
+				"NPR"
+			],
+			"titles": [
+				"First video of Brooklyn building collapse",
+				"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
+				"New York building collapse kills 8, including 2 children",
+				"Eight Who Died in Building Collapse Reflected New York’s Diversity",
+				"What to Know About the Deadly Building Collapse in Brooklyn",
+				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
+				"Casualties continue to rise after Brooklyn building collapses",
+				"Excavation Was Taking Place Next to Building in Brooklyn That Collapsed"
+			],
+			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
+			"entityLastCandidateAt": "2026-11-12T23:58:33.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-12T23:58:33.000Z",
+					"itemCount": 8,
+					"sourceCount": 4,
+					"headlines": [
+						"First video of Brooklyn building collapse",
+						"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
+						"New York building collapse kills 8, including 2 children"
+					],
+					"sources": [
+						"NBC News",
+						"The New York Times",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-building + brooklyn|2026-11-12T23:58:33.000Z|8|First video of Brooklyn building collapse"
+				},
+				{
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-12T23:53:15.000Z",
+					"itemCount": 8,
+					"sourceCount": 4,
+					"headlines": [
+						"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
+						"New York building collapse kills 8, including 2 children",
+						"Eight Who Died in Building Collapse Reflected New York’s Diversity"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-building + brooklyn|2026-11-12T23:53:15.000Z|8|Rescue Ends in Brooklyn After 8 Die in Building Collapse"
+				},
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-12T22:12:26.000Z",
+					"itemCount": 6,
+					"sourceCount": 4,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Ring camera video shows the moment of Brooklyn building collapse",
+						"A Frantic Search for Survivors in the Brooklyn Building Collapse"
+					],
+					"sources": [
+						"The New York Times",
+						"NBC News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-building + brooklyn|2026-11-12T22:12:26.000Z|6|What to Know About the Deadly Building Collapse in Brooklyn"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+		},
 		"cluster-usa-pope-emotional-pope-emotional": {
 			"candidateId": "cluster-usa-pope + emotional",
 			"label": "pope + emotional",
@@ -15448,7 +15506,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
 		},
 		"cluster-spain-primera-cuando-primera-cuando": {
 			"candidateId": "cluster-spain-primera + cuando",
@@ -15490,7 +15548,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
 		},
 		"cluster-usa-wins-race-wins-race": {
 			"candidateId": "cluster-usa-wins + race",
@@ -15539,6 +15597,70 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+		},
+		"cluster-usa-democrats-wins-democrats-wins": {
+			"candidateId": "cluster-usa-democrats + wins",
+			"label": "democrats + wins",
+			"latestAt": "2026-11-12T23:36:19.000Z",
+			"startedAt": "2026-11-12T23:15:50.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"democrats",
+				"wins"
+			],
+			"sources": [
+				"NPR Politics",
+				"The New York Times",
+				"PBS NewsHour"
+			],
+			"titles": [
+				"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+				"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats",
+				"Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories"
+			],
+			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
+			"entityLastCandidateAt": "2026-11-12T23:36:19.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "democrats + wins",
+					"latestAt": "2026-11-12T23:36:19.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+						"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats",
+						"Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories"
+					],
+					"sources": [
+						"NPR Politics",
+						"The New York Times",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-democrats + wins|2026-11-12T23:36:19.000Z|3|Cindy Holscher wins in Kansas, holding governor's office for Democrats"
+				},
+				{
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "democrats + wins",
+					"latestAt": "2026-11-12T23:36:19.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+						"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats",
+						"Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories"
+					],
+					"sources": [
+						"NPR Politics",
+						"The New York Times",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-democrats + wins|2026-11-12T23:36:19.000Z|4|Cindy Holscher wins in Kansas, holding governor's office for Democrats"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		},
 		"cluster-usa-more-outlook-more-outlook": {
 			"candidateId": "cluster-usa-more + outlook",
@@ -15713,7 +15835,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
 		},
 		"cluster-spain-sanchez-feijoo-sanchez-feijoo": {
 			"candidateId": "cluster-spain-sanchez + feijoo",
@@ -15755,20 +15877,146 @@
 				}
 			],
 			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
+		},
+		"cluster-usa-nvidia-calls-nvidia-calls": {
+			"candidateId": "cluster-usa-nvidia + calls",
+			"label": "nvidia + calls",
+			"latestAt": "2026-11-13T00:46:55.000Z",
+			"startedAt": "2026-11-12T23:33:00.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"nvidia",
+				"calls"
+			],
+			"sources": [
+				"The New York Times World",
+				"CBS News"
+			],
+			"titles": [
+				"Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew",
+				"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
+			],
+			"entityFirstSeenAt": "2026-11-13T01:00:47.794Z",
+			"entityLastCandidateAt": "2026-11-13T00:46:55.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "nvidia + calls",
+					"latestAt": "2026-11-13T00:46:55.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew",
+						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
+					],
+					"sources": [
+						"The New York Times World",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + calls|2026-11-13T00:46:55.000Z|2|Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+		},
+		"cluster-usa-calls-pope-calls-pope": {
+			"candidateId": "cluster-usa-calls + pope",
+			"label": "calls + pope",
+			"latestAt": "2026-11-13T00:35:20.000Z",
+			"startedAt": "2026-11-12T22:06:20.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"calls",
+				"pope"
+			],
+			"sources": [
+				"CBS News",
+				"PBS NewsHour"
+			],
+			"titles": [
+				"Pope Leo calls on followers to \"value women\" and \"respect girls\"",
+				"After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women"
+			],
+			"entityFirstSeenAt": "2026-11-13T01:00:47.794Z",
+			"entityLastCandidateAt": "2026-11-13T00:35:20.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "calls + pope",
+					"latestAt": "2026-11-13T00:35:20.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Pope Leo calls on followers to \"value women\" and \"respect girls\"",
+						"After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women"
+					],
+					"sources": [
+						"CBS News",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-calls + pope|2026-11-13T00:35:20.000Z|2|Pope Leo calls on followers to \"value women\" and \"respect girls\""
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+		},
+		"cluster-usa-oklahoma-inmate-oklahoma-inmate": {
+			"candidateId": "cluster-usa-oklahoma + inmate",
+			"label": "oklahoma + inmate",
+			"latestAt": "2026-11-12T23:34:05.000Z",
+			"startedAt": "2026-11-12T21:44:01.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"oklahoma",
+				"inmate"
+			],
+			"sources": [
+				"CBS News",
+				"NBC News"
+			],
+			"titles": [
+				"Ex-Oklahoma death row inmate pleads guilty to lesser charge",
+				"Oklahoma dismisses murder charge against former death row inmate Richard Glossip"
+			],
+			"entityFirstSeenAt": "2026-11-13T01:00:47.794Z",
+			"entityLastCandidateAt": "2026-11-12T23:34:05.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "oklahoma + inmate",
+					"latestAt": "2026-11-12T23:34:05.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Ex-Oklahoma death row inmate pleads guilty to lesser charge",
+						"Oklahoma dismisses murder charge against former death row inmate Richard Glossip"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-oklahoma + inmate|2026-11-12T23:34:05.000Z|2|Ex-Oklahoma death row inmate pleads guilty to lesser charge"
+				}
+			],
+			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-us-2026-11-13T01:00:47.794Z",
+		"id": "local-us-2026-11-13T02:00:48.242Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-13T01:00:47.794Z",
-		"finishedAt": "2026-11-13T01:04:36.800Z",
-		"signalsCandidate": 9,
-		"signalsSelected": 9,
+		"startedAt": "2026-11-13T02:00:48.242Z",
+		"finishedAt": "2026-11-13T02:04:25.775Z",
+		"signalsCandidate": 10,
+		"signalsSelected": 10,
 		"signalsProcessed": 0,
-		"cacheHits": 6,
-		"skippedByConfig": 9,
+		"cacheHits": 5,
+		"skippedByConfig": 10,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -15778,11 +16026,11 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 6,
+			"cacheHits": 5,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 300,
-			"retainedByTtl": 291,
+			"retained": 304,
+			"retainedByTtl": 294,
 			"retiredByTtl": 0
 		},
 		"costUsd": 0
