@@ -2,288 +2,170 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-13T19:00:48.644Z",
+	"updatedAt": "2026-11-13T20:00:48.144Z",
 	"entries": {
-		"cluster-usa-huang-jensen-huang-jensen": {
-			"candidateId": "cluster-usa-huang + jensen",
-			"label": "huang + jensen",
-			"latestAt": "2026-11-13T18:10:25.000Z",
-			"startedAt": "2026-11-13T10:45:00.000Z",
+		"cluster-usa-trump-court-trump-court": {
+			"candidateId": "cluster-usa-trump + court",
+			"label": "trump + court",
+			"latestAt": "2026-11-13T19:16:41.000Z",
+			"startedAt": "2026-11-13T17:56:25.082Z",
 			"itemCount": 4,
 			"sourceCount": 3,
 			"terms": [
-				"huang",
-				"jensen"
+				"trump",
+				"court"
 			],
 			"sources": [
-				"The New York Times",
-				"The Verge",
-				"Politico"
+				"PBS NewsHour",
+				"CBS News",
+				"NBC News Politics"
 			],
 			"titles": [
-				"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
-				"Jensen Huang was reckless with the environment, too",
-				"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
-				"Jensen Huang’s Washington fallout"
+				"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
+				"Supreme Court takes up case over Trump effort to suspend asylum access at southern border",
+				"Supreme Court to rule on Trump’s asylum ban",
+				"Alito says Supreme Court is caught between the president and a Congress that can ‘turn off the lights’"
 			],
-			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-13T18:10:25.000Z",
+			"entityFirstSeenAt": "2026-11-10T01:48:34.517Z",
+			"entityLastCandidateAt": "2026-11-13T19:16:41.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "huang + jensen",
-					"latestAt": "2026-11-13T18:10:25.000Z",
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-13T19:16:41.000Z",
 					"itemCount": 4,
 					"sourceCount": 3,
 					"headlines": [
-						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
-						"Jensen Huang was reckless with the environment, too",
-						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World"
+						"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
+						"Supreme Court takes up case over Trump effort to suspend asylum access at southern border",
+						"Supreme Court to rule on Trump’s asylum ban"
 					],
 					"sources": [
-						"The New York Times",
-						"The Verge",
-						"Politico"
-					],
-					"eventId": "cluster-usa-huang + jensen|2026-11-13T18:10:25.000Z|4|Jensen Huang’s Fall Is Bad for Nvidia but Good for America"
-				},
-				{
-					"observedAt": "2026-11-13T17:00:47.990Z",
-					"label": "huang + jensen",
-					"latestAt": "2026-11-13T16:36:28.000Z",
-					"itemCount": 9,
-					"sourceCount": 5,
-					"headlines": [
-						"Silicon Valley Start-Ups Face a Future Without Jensen Huang’s Money",
-						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
-						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair"
-					],
-					"sources": [
-						"The New York Times",
+						"PBS NewsHour",
 						"CBS News",
-						"The Verge"
+						"NBC News Politics"
 					],
-					"eventId": "cluster-usa-huang + jensen|2026-11-13T16:36:28.000Z|9|Silicon Valley Start-Ups Face a Future Without Jensen Huang’s Money"
+					"eventId": "cluster-usa-trump + court|2026-11-13T19:16:41.000Z|4|Supreme Court will consider Trump’s executive order suspending asylum access at the southern border"
 				},
 				{
-					"observedAt": "2026-11-13T16:00:48.169Z",
-					"label": "huang + jensen",
-					"latestAt": "2026-11-13T14:50:17.000Z",
-					"itemCount": 5,
-					"sourceCount": 2,
-					"headlines": [
-						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
-						"Search for next Nvidia CEO begins after Jensen Huang's resignation",
-						"Huang and Lutnick Summoned to Testify Before Congress"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-huang + jensen|2026-11-13T14:50:17.000Z|5|Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair"
-				},
-				{
-					"observedAt": "2026-11-13T15:00:48.579Z",
-					"label": "huang + jensen",
-					"latestAt": "2026-11-13T14:50:17.000Z",
-					"itemCount": 14,
-					"sourceCount": 8,
-					"headlines": [
-						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
-						"Search for next Nvidia CEO begins after Jensen Huang's resignation",
-						"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News Politics",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-huang + jensen|2026-11-13T14:50:17.000Z|14|Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair"
-				},
-				{
-					"observedAt": "2026-11-13T14:25:49.198Z",
-					"label": "huang + jensen",
-					"latestAt": "2026-11-13T14:10:40.000Z",
-					"itemCount": 10,
-					"sourceCount": 7,
-					"headlines": [
-						"Search for next Nvidia CEO begins after Jensen Huang's resignation",
-						"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets",
-						"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News Politics",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-huang + jensen|2026-11-13T14:10:40.000Z|10|Search for next Nvidia CEO begins after Jensen Huang's resignation"
-				},
-				{
-					"observedAt": "2026-11-13T13:50:49.929Z",
-					"label": "huang + jensen",
-					"latestAt": "2026-11-13T12:18:37.000Z",
-					"itemCount": 9,
-					"sourceCount": 6,
-					"headlines": [
-						"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets",
-						"Let’s talk about Jensen Huang’s many affairs!",
-						"Jensen Huang’s Washington fallout"
-					],
-					"sources": [
-						"NBC News Politics",
-						"The Verge",
-						"Politico"
-					],
-					"eventId": "cluster-usa-huang + jensen|2026-11-13T12:18:37.000Z|9|Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets"
-				},
-				{
-					"observedAt": "2026-11-13T13:35:22.142Z",
-					"label": "huang + jensen",
-					"latestAt": "2026-11-13T12:18:37.000Z",
-					"itemCount": 10,
-					"sourceCount": 7,
-					"headlines": [
-						"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets",
-						"Let’s talk about Jensen Huang’s many affairs!",
-						"Jensen Huang’s Washington fallout"
-					],
-					"sources": [
-						"NBC News Politics",
-						"The Verge",
-						"Politico"
-					],
-					"eventId": "cluster-usa-huang + jensen|2026-11-13T12:18:37.000Z|10|Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets"
-				},
-				{
-					"observedAt": "2026-11-12T19:25:49.967Z",
-					"label": "huang + jensen",
-					"latestAt": "2026-11-12T19:04:13.000Z",
-					"itemCount": 19,
-					"sourceCount": 6,
-					"headlines": [
-						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-huang + jensen|2026-11-12T19:04:13.000Z|19|Here's how Jensen Huang's abrupt resignation unfolded at Nvidia"
-				},
-				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "huang + jensen",
-					"latestAt": "2026-11-12T19:04:13.000Z",
-					"itemCount": 20,
-					"sourceCount": 6,
-					"headlines": [
-						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-huang + jensen|2026-11-12T19:04:13.000Z|20|Here's how Jensen Huang's abrupt resignation unfolded at Nvidia"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
-		},
-		"cluster-usa-democratic-hollen-democratic-hollen": {
-			"candidateId": "cluster-usa-democratic + hollen",
-			"label": "democratic + hollen",
-			"latestAt": "2026-11-13T17:47:41.000Z",
-			"startedAt": "2026-11-13T14:26:31.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"democratic",
-				"hollen"
-			],
-			"sources": [
-				"CBS News",
-				"PBS NewsHour",
-				"NPR"
-			],
-			"titles": [
-				"Van Hollen challenges Schumer for Senate majority leader",
-				"Van Hollen to challenge Schumer for Senate Democratic leader",
-				"How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front"
-			],
-			"entityFirstSeenAt": "2026-11-13T17:00:47.990Z",
-			"entityLastCandidateAt": "2026-11-13T17:47:41.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T18:00:48.625Z",
-					"label": "democratic + hollen",
-					"latestAt": "2026-11-13T17:47:41.000Z",
+					"observedAt": "2026-11-10T13:32:37.686Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-10T01:34:10.000Z",
 					"itemCount": 3,
 					"sourceCount": 3,
 					"headlines": [
-						"Van Hollen challenges Schumer for Senate majority leader",
-						"Van Hollen to challenge Schumer for Senate Democratic leader",
-						"How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front"
+						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
+						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
+						"Supreme Court says border wall construction can continue in west Texas"
 					],
 					"sources": [
-						"CBS News",
-						"PBS NewsHour",
+						"The New York Times Politics",
+						"Politico",
 						"NPR"
 					],
-					"eventId": "cluster-usa-democratic + hollen|2026-11-13T17:47:41.000Z|3|Van Hollen challenges Schumer for Senate majority leader"
+					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:10.000Z|3|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
 				},
 				{
-					"observedAt": "2026-11-13T17:00:47.990Z",
-					"label": "democratic + hollen",
-					"latestAt": "2026-11-13T15:46:35.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
+					"observedAt": "2026-11-10T06:40:54.048Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-10T01:34:10.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
 					"headlines": [
-						"How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front",
-						"Van Hollen says he'll challenge Schumer for Senate majority leader",
-						"Van Hollen to challenge Schumer for Senate Democratic leader"
+						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
+						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
+						"News Wrap: Supreme Court allows border wall construction in Big Bend"
 					],
 					"sources": [
-						"NPR",
-						"CBS News",
+						"The New York Times Politics",
+						"Politico",
 						"PBS NewsHour"
 					],
-					"eventId": "cluster-usa-democratic + hollen|2026-11-13T15:46:35.000Z|3|How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front"
+					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:10.000Z|4|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
+				},
+				{
+					"observedAt": "2026-11-10T01:55:22.461Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-10T01:34:09.000Z",
+					"itemCount": 5,
+					"sourceCount": 5,
+					"headlines": [
+						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
+						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
+						"News Wrap: Supreme Court allows border wall construction in Big Bend"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"Politico",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:09.000Z|5|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
+				},
+				{
+					"observedAt": "2026-11-10T01:48:34.517Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-10T01:34:09.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
+						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
+						"News Wrap: Supreme Court allows border wall construction in Big Bend"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"Politico",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:09.000Z|4|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-usa-microsoft-outage-microsoft-outage": {
 			"candidateId": "cluster-usa-microsoft + outage",
 			"label": "microsoft + outage",
-			"latestAt": "2026-11-13T15:30:08.000Z",
+			"latestAt": "2026-11-13T19:01:03.000Z",
 			"startedAt": "2026-11-13T01:26:24.000Z",
 			"itemCount": 4,
-			"sourceCount": 4,
+			"sourceCount": 3,
 			"terms": [
 				"microsoft",
 				"outage"
 			],
 			"sources": [
-				"The New York Times",
-				"CBS News",
+				"NBC News",
 				"NPR",
-				"NBC News"
+				"The New York Times"
 			],
 			"titles": [
-				"Microsoft Says Outage Disrupting Outlook Is Improving",
-				"Widespread Microsoft 365 outage continues, impacting email and other services",
+				"Microsoft says major outage was due to 'a network capacity upgrade'",
 				"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+				"Microsoft Says Outage Disrupting Outlook Is Improving",
 				"Microsoft Scrambles to Find Fix Massive Global Outage"
 			],
 			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T15:30:08.000Z",
+			"entityLastCandidateAt": "2026-11-13T19:01:03.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T19:01:03.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Microsoft says major outage was due to 'a network capacity upgrade'",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+						"Microsoft Says Outage Disrupting Outlook Is Improving"
+					],
+					"sources": [
+						"NBC News",
+						"NPR",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T19:01:03.000Z|4|Microsoft says major outage was due to 'a network capacity upgrade'"
+				},
 				{
 					"observedAt": "2026-11-13T19:00:48.644Z",
 					"label": "microsoft + outage",
@@ -502,160 +384,324 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
-		"cluster-usa-trump-congress-trump-congress": {
-			"candidateId": "cluster-usa-trump + congress",
-			"label": "trump + congress",
-			"latestAt": "2026-11-13T18:49:06.078Z",
-			"startedAt": "2026-11-13T15:29:23.000Z",
+		"cluster-usa-democratic-hollen-democratic-hollen": {
+			"candidateId": "cluster-usa-democratic + hollen",
+			"label": "democratic + hollen",
+			"latestAt": "2026-11-13T17:47:41.000Z",
+			"startedAt": "2026-11-13T14:26:31.000Z",
 			"itemCount": 3,
-			"sourceCount": 2,
+			"sourceCount": 3,
 			"terms": [
-				"trump",
-				"congress"
+				"democratic",
+				"hollen"
 			],
 			"sources": [
-				"NBC News Politics",
-				"PBS NewsHour"
+				"CBS News",
+				"PBS NewsHour",
+				"NPR"
 			],
 			"titles": [
-				"Supreme Court to rule on Trump’s asylum ban",
-				"Alito says Supreme Court is caught between the president and a Congress that can ‘turn off the lights’",
-				"Trump's Justice Department faces a new era of scrutiny under a Democratic-led Congress"
+				"Van Hollen challenges Schumer for Senate majority leader",
+				"Van Hollen to challenge Schumer for Senate Democratic leader",
+				"How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front"
 			],
-			"entityFirstSeenAt": "2026-11-09T11:32:26.028Z",
-			"entityLastCandidateAt": "2026-11-13T18:49:06.078Z",
+			"entityFirstSeenAt": "2026-11-13T17:00:47.990Z",
+			"entityLastCandidateAt": "2026-11-13T17:47:41.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "trump + congress",
-					"latestAt": "2026-11-13T18:49:06.078Z",
+					"observedAt": "2026-11-13T18:00:48.625Z",
+					"label": "democratic + hollen",
+					"latestAt": "2026-11-13T17:47:41.000Z",
 					"itemCount": 3,
-					"sourceCount": 2,
-					"headlines": [
-						"Supreme Court to rule on Trump’s asylum ban",
-						"Alito says Supreme Court is caught between the president and a Congress that can ‘turn off the lights’",
-						"Trump's Justice Department faces a new era of scrutiny under a Democratic-led Congress"
-					],
-					"sources": [
-						"NBC News Politics",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-trump + congress|2026-11-13T18:49:06.078Z|3|Supreme Court to rule on Trump’s asylum ban"
-				},
-				{
-					"observedAt": "2026-11-10T06:40:54.048Z",
-					"label": "trump + congress",
-					"latestAt": "2026-11-10T02:36:00.000Z",
-					"itemCount": 4,
 					"sourceCount": 3,
 					"headlines": [
-						"Trump defends Hegseth as Massie moves for impeachment",
-						"Massie introduces Hegseth impeachment articles, teeing up vote",
-						"Hegseth faces impeachment push as Congress returns to Washington"
+						"Van Hollen challenges Schumer for Senate majority leader",
+						"Van Hollen to challenge Schumer for Senate Democratic leader",
+						"How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front"
 					],
 					"sources": [
 						"CBS News",
 						"PBS NewsHour",
-						"NPR Politics"
+						"NPR"
 					],
-					"eventId": "cluster-usa-trump + congress|2026-11-10T02:36:00.000Z|4|Trump defends Hegseth as Massie moves for impeachment"
+					"eventId": "cluster-usa-democratic + hollen|2026-11-13T17:47:41.000Z|3|Van Hollen challenges Schumer for Senate majority leader"
 				},
 				{
-					"observedAt": "2026-11-09T13:36:54.802Z",
-					"label": "trump + congress",
-					"latestAt": "2026-11-09T13:22:11.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Eye Opener: Trump reckons with midterm results",
-						"Congress is back after GOP's midterm defeat. And, Trump appoints new chief of staff",
-						"Congress is coming back to Washington. Here's what to expect"
-					],
-					"sources": [
-						"CBS News",
-						"NPR World",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-trump + congress|2026-11-09T13:22:11.000Z|4|Eye Opener: Trump reckons with midterm results"
-				},
-				{
-					"observedAt": "2026-11-09T11:32:26.028Z",
-					"label": "trump + congress",
-					"latestAt": "2026-11-09T03:41:38.315Z",
+					"observedAt": "2026-11-13T17:00:47.990Z",
+					"label": "democratic + hollen",
+					"latestAt": "2026-11-13T15:46:35.000Z",
 					"itemCount": 3,
 					"sourceCount": 3,
 					"headlines": [
-						"Trump says he was ‘only kidding’ about making UFC head Dana White his press secretary",
-						"Trump prepares for a fight with Congress, assembling more combative White House",
-						"Trump Was ‘Only Kidding’ in Asking Dana White to Be His Press Secretary"
+						"How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front",
+						"Van Hollen says he'll challenge Schumer for Senate majority leader",
+						"Van Hollen to challenge Schumer for Senate Democratic leader"
 					],
 					"sources": [
-						"NBC News Politics",
+						"NPR",
 						"CBS News",
-						"The New York Times Politics"
+						"PBS NewsHour"
 					],
-					"eventId": "cluster-usa-trump + congress|2026-11-09T03:41:38.315Z|3|Trump says he was ‘only kidding’ about making UFC head Dana White his press secretary"
+					"eventId": "cluster-usa-democratic + hollen|2026-11-13T15:46:35.000Z|3|How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
-		"cluster-usa-huang-congress-huang-congress": {
-			"candidateId": "cluster-usa-huang + congress",
-			"label": "huang + congress",
-			"latestAt": "2026-11-13T18:32:00.000Z",
-			"startedAt": "2026-11-13T01:10:19.000Z",
+		"cluster-usa-nvidia-huang-nvidia-huang": {
+			"candidateId": "cluster-usa-nvidia + huang",
+			"label": "nvidia + huang",
+			"latestAt": "2026-11-13T18:10:25.000Z",
+			"startedAt": "2026-11-13T10:45:00.000Z",
 			"itemCount": 3,
 			"sourceCount": 2,
 			"terms": [
-				"huang",
-				"congress"
+				"nvidia",
+				"huang"
 			],
 			"sources": [
-				"CBS News",
-				"The New York Times"
+				"The New York Times",
+				"Politico"
 			],
 			"titles": [
-				"Navy admiral resigns as top doctor for Congress amid misconduct allegations",
-				"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
-				"Huang and Lutnick Summoned to Testify Before Congress"
+				"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+				"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+				"Jensen Huang’s Washington fallout"
 			],
-			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
-			"entityLastCandidateAt": "2026-11-13T18:32:00.000Z",
+			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
+			"entityLastCandidateAt": "2026-11-13T18:10:25.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "huang + congress",
-					"latestAt": "2026-11-13T18:32:00.000Z",
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T18:10:25.000Z",
 					"itemCount": 3,
 					"sourceCount": 2,
 					"headlines": [
-						"Navy admiral resigns as top doctor for Congress amid misconduct allegations",
-						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
-						"Huang and Lutnick Summoned to Testify Before Congress"
+						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+						"Jensen Huang’s Washington fallout"
+					],
+					"sources": [
+						"The New York Times",
+						"Politico"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T18:10:25.000Z|3|Jensen Huang’s Fall Is Bad for Nvidia but Good for America"
+				},
+				{
+					"observedAt": "2026-11-13T18:00:48.625Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T16:36:28.000Z",
+					"itemCount": 6,
+					"sourceCount": 3,
+					"headlines": [
+						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"Politico"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T16:36:28.000Z|6|Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World"
+				},
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T01:52:57.000Z",
+					"itemCount": 8,
+					"sourceCount": 3,
+					"headlines": [
+						"What could happen to AI development and chip production as Huang resigns from Nvidia",
+						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
 					],
 					"sources": [
 						"CBS News",
+						"The New York Times",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|8|What could happen to AI development and chip production as Huang resigns from Nvidia"
+				},
+				{
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T01:52:57.000Z",
+					"itemCount": 13,
+					"sourceCount": 5,
+					"headlines": [
+						"What could happen to AI development and chip production as Huang resigns from Nvidia",
+						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|13|What could happen to AI development and chip production as Huang resigns from Nvidia"
+				},
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T00:25:08.000Z",
+					"itemCount": 14,
+					"sourceCount": 5,
+					"headlines": [
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T00:25:08.000Z|14|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+				},
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T22:46:24.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
+						"Who is Colette Kress, Nvidia’s new interim CEO?",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News",
 						"The New York Times"
 					],
-					"eventId": "cluster-usa-huang + congress|2026-11-13T18:32:00.000Z|3|Navy admiral resigns as top doctor for Congress amid misconduct allegations"
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T22:46:24.000Z|4|Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns"
+				},
+				{
+					"observedAt": "2026-11-12T22:00:48.193Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T21:45:00.000Z",
+					"itemCount": 18,
+					"sourceCount": 7,
+					"headlines": [
+						"‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation",
+						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
+						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmakers say"
+					],
+					"sources": [
+						"The Verge",
+						"CBS News",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T21:45:00.000Z|18|‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation"
+				},
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T19:44:29.000Z",
+					"itemCount": 16,
+					"sourceCount": 5,
+					"headlines": [
+						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
+						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T19:44:29.000Z|16|Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+				},
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T16:51:22.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
+						"NYC building collapse: Death toll rises"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T15:30:04.000Z",
+					"itemCount": 11,
+					"sourceCount": 8,
+					"headlines": [
+						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+						"Nvidia CEO Jensen Huang has resigned. What happens next?"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"The Verge"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
+				},
+				{
+					"observedAt": "2026-11-12T03:38:47.147Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T02:52:00.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
+						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
+				},
+				{
+					"observedAt": "2026-11-09T18:21:05.029Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-09T17:58:28.000Z",
+					"itemCount": 11,
+					"sourceCount": 6,
+					"headlines": [
+						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
+						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
+						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
-		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
-			"candidateId": "cluster-usa-nvidia + lutnick",
-			"label": "nvidia + lutnick",
+		"cluster-usa-nvidia-scrutiny-nvidia-scrutiny": {
+			"candidateId": "cluster-usa-nvidia + scrutiny",
+			"label": "nvidia + scrutiny",
 			"latestAt": "2026-11-13T17:09:45.000Z",
 			"startedAt": "2026-11-13T15:19:08.000Z",
 			"itemCount": 3,
 			"sourceCount": 2,
 			"terms": [
 				"nvidia",
-				"lutnick"
+				"scrutiny"
 			],
 			"sources": [
 				"PBS NewsHour",
@@ -666,12 +712,12 @@
 				"Lutnick faces scrutiny as Nvidia scandal fallout grows",
 				"Company under scrutiny for ties to Nvidia and China"
 			],
-			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
+			"entityFirstSeenAt": "2026-11-13T20:00:48.144Z",
 			"entityLastCandidateAt": "2026-11-13T17:09:45.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "nvidia + lutnick",
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "nvidia + scrutiny",
 					"latestAt": "2026-11-13T17:09:45.000Z",
 					"itemCount": 3,
 					"sourceCount": 2,
@@ -684,112 +730,11 @@
 						"PBS NewsHour",
 						"CBS News"
 					],
-					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T17:09:45.000Z|3|Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China"
-				},
-				{
-					"observedAt": "2026-11-13T18:00:48.625Z",
-					"label": "nvidia + lutnick",
-					"latestAt": "2026-11-13T17:09:45.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
-						"Lutnick faces scrutiny as Nvidia scandal fallout grows",
-						"Commerce Secretary Lutnick agrees to testify about Nvidia"
-					],
-					"sources": [
-						"PBS NewsHour",
-						"CBS News",
-						"NBC News Politics"
-					],
-					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T17:09:45.000Z|4|Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China"
-				},
-				{
-					"observedAt": "2026-11-13T17:00:47.990Z",
-					"label": "nvidia + lutnick",
-					"latestAt": "2026-11-13T16:20:29.000Z",
-					"itemCount": 4,
-					"sourceCount": 2,
-					"headlines": [
-						"Lutnick faces scrutiny as Nvidia scandal fallout grows",
-						"Commerce Secretary Lutnick agrees to testify about Nvidia",
-						"Company under scrutiny for ties to Nvidia and China"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News Politics"
-					],
-					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T16:20:29.000Z|4|Lutnick faces scrutiny as Nvidia scandal fallout grows"
-				},
-				{
-					"observedAt": "2026-11-13T14:25:49.198Z",
-					"label": "nvidia + lutnick",
-					"latestAt": "2026-11-13T14:02:13.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
-						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
-					],
-					"sources": [
-						"The New York Times World",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T14:02:13.000Z|2|Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew"
-				},
-				{
-					"observedAt": "2026-11-13T06:00:48.217Z",
-					"label": "nvidia + lutnick",
-					"latestAt": "2026-11-13T02:45:27.671Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
-						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
-					],
-					"sources": [
-						"NBC News Politics",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T02:45:27.671Z|2|Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal"
-				},
-				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "nvidia + lutnick",
-					"latestAt": "2026-11-13T02:45:27.671Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
-						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
-						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
-					],
-					"sources": [
-						"NBC News Politics",
-						"The New York Times World",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T02:45:27.671Z|3|Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal"
-				},
-				{
-					"observedAt": "2026-11-13T02:00:48.242Z",
-					"label": "nvidia + lutnick",
-					"latestAt": "2026-11-13T01:28:40.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
-						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
-					],
-					"sources": [
-						"The New York Times World",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T01:28:40.000Z|2|Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew"
+					"eventId": "cluster-usa-nvidia + scrutiny|2026-11-13T17:09:45.000Z|3|Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-usa-trump-they-trump-they": {
 			"candidateId": "cluster-usa-trump + they",
@@ -847,51 +792,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
-		},
-		"cluster-usa-alex-murdaugh-alex-murdaugh": {
-			"candidateId": "cluster-usa-alex + murdaugh",
-			"label": "alex + murdaugh",
-			"latestAt": "2026-11-13T16:50:14.000Z",
-			"startedAt": "2026-11-13T15:56:09.000Z",
-			"itemCount": 3,
-			"sourceCount": 2,
-			"terms": [
-				"alex",
-				"murdaugh"
-			],
-			"sources": [
-				"CBS News",
-				"NBC News"
-			],
-			"titles": [
-				"Alex Murdaugh wants murder indictments tossed, saying agent lied",
-				"Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury",
-				"Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed"
-			],
-			"entityFirstSeenAt": "2026-11-13T18:00:48.625Z",
-			"entityLastCandidateAt": "2026-11-13T16:50:14.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T18:00:48.625Z",
-					"label": "alex + murdaugh",
-					"latestAt": "2026-11-13T16:50:14.000Z",
-					"itemCount": 3,
-					"sourceCount": 2,
-					"headlines": [
-						"Alex Murdaugh wants murder indictments tossed, saying agent lied",
-						"Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury",
-						"Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-alex + murdaugh|2026-11-13T16:50:14.000Z|3|Alex Murdaugh wants murder indictments tossed, saying agent lied"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-usa-trump-talks-trump-talks": {
 			"candidateId": "cluster-usa-trump + talks",
@@ -951,18 +852,62 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
-		"cluster-usa-even-scott-even-scott": {
-			"candidateId": "cluster-usa-even + scott",
-			"label": "even + scott",
+		"cluster-usa-court-alex-court-alex": {
+			"candidateId": "cluster-usa-court + alex",
+			"label": "court + alex",
+			"latestAt": "2026-11-13T16:49:10.000Z",
+			"startedAt": "2026-11-13T15:56:09.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"court",
+				"alex"
+			],
+			"sources": [
+				"NBC News",
+				"CBS News"
+			],
+			"titles": [
+				"Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury",
+				"Alex Murdaugh lawyers say top investigator lied to grand jury, want murder indictments tossed",
+				"Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed"
+			],
+			"entityFirstSeenAt": "2026-11-13T20:00:48.144Z",
+			"entityLastCandidateAt": "2026-11-13T16:49:10.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "court + alex",
+					"latestAt": "2026-11-13T16:49:10.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury",
+						"Alex Murdaugh lawyers say top investigator lied to grand jury, want murder indictments tossed",
+						"Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed"
+					],
+					"sources": [
+						"NBC News",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-court + alex|2026-11-13T16:49:10.000Z|3|Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+		},
+		"cluster-usa-here-even-here-even": {
+			"candidateId": "cluster-usa-here + even",
+			"label": "here + even",
 			"latestAt": "2026-11-13T15:01:10.000Z",
 			"startedAt": "2026-11-13T07:20:24.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"even",
-				"scott"
+				"here",
+				"even"
 			],
 			"sources": [
 				"The New York Times Politics",
@@ -972,12 +917,12 @@
 				"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
 				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
 			],
-			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
+			"entityFirstSeenAt": "2026-11-13T16:00:48.169Z",
 			"entityLastCandidateAt": "2026-11-13T15:01:10.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "even + scott",
+					"observedAt": "2026-11-13T16:00:48.169Z",
+					"label": "here + even",
 					"latestAt": "2026-11-13T15:01:10.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -989,11 +934,11 @@
 						"The New York Times Politics",
 						"The New York Times"
 					],
-					"eventId": "cluster-usa-even + scott|2026-11-13T15:01:10.000Z|2|Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi."
+					"eventId": "cluster-usa-here + even|2026-11-13T15:01:10.000Z|2|Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi."
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
@@ -1623,6 +1568,104 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T13:49:52.824Z"
 		},
+		"cluster-usa-trump-congress-trump-congress": {
+			"candidateId": "cluster-usa-trump + congress",
+			"label": "trump + congress",
+			"latestAt": "2026-11-13T18:49:06.078Z",
+			"startedAt": "2026-11-13T15:29:23.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"trump",
+				"congress"
+			],
+			"sources": [
+				"NBC News Politics",
+				"PBS NewsHour"
+			],
+			"titles": [
+				"Supreme Court to rule on Trump’s asylum ban",
+				"Alito says Supreme Court is caught between the president and a Congress that can ‘turn off the lights’",
+				"Trump's Justice Department faces a new era of scrutiny under a Democratic-led Congress"
+			],
+			"entityFirstSeenAt": "2026-11-09T11:32:26.028Z",
+			"entityLastCandidateAt": "2026-11-13T18:49:06.078Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "trump + congress",
+					"latestAt": "2026-11-13T18:49:06.078Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Supreme Court to rule on Trump’s asylum ban",
+						"Alito says Supreme Court is caught between the president and a Congress that can ‘turn off the lights’",
+						"Trump's Justice Department faces a new era of scrutiny under a Democratic-led Congress"
+					],
+					"sources": [
+						"NBC News Politics",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-trump + congress|2026-11-13T18:49:06.078Z|3|Supreme Court to rule on Trump’s asylum ban"
+				},
+				{
+					"observedAt": "2026-11-10T06:40:54.048Z",
+					"label": "trump + congress",
+					"latestAt": "2026-11-10T02:36:00.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Trump defends Hegseth as Massie moves for impeachment",
+						"Massie introduces Hegseth impeachment articles, teeing up vote",
+						"Hegseth faces impeachment push as Congress returns to Washington"
+					],
+					"sources": [
+						"CBS News",
+						"PBS NewsHour",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-trump + congress|2026-11-10T02:36:00.000Z|4|Trump defends Hegseth as Massie moves for impeachment"
+				},
+				{
+					"observedAt": "2026-11-09T13:36:54.802Z",
+					"label": "trump + congress",
+					"latestAt": "2026-11-09T13:22:11.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Eye Opener: Trump reckons with midterm results",
+						"Congress is back after GOP's midterm defeat. And, Trump appoints new chief of staff",
+						"Congress is coming back to Washington. Here's what to expect"
+					],
+					"sources": [
+						"CBS News",
+						"NPR World",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-trump + congress|2026-11-09T13:22:11.000Z|4|Eye Opener: Trump reckons with midterm results"
+				},
+				{
+					"observedAt": "2026-11-09T11:32:26.028Z",
+					"label": "trump + congress",
+					"latestAt": "2026-11-09T03:41:38.315Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Trump says he was ‘only kidding’ about making UFC head Dana White his press secretary",
+						"Trump prepares for a fight with Congress, assembling more combative White House",
+						"Trump Was ‘Only Kidding’ in Asking Dana White to Be His Press Secretary"
+					],
+					"sources": [
+						"NBC News Politics",
+						"CBS News",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-trump + congress|2026-11-09T03:41:38.315Z|3|Trump says he was ‘only kidding’ about making UFC head Dana White his press secretary"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+		},
 		"cluster-spain-abascal-broncano-abascal-broncano": {
 			"candidateId": "cluster-spain-abascal + broncano",
 			"label": "abascal + broncano",
@@ -1754,235 +1797,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-11T21:45:05.852Z"
-		},
-		"cluster-usa-nvidia-huang-nvidia-huang": {
-			"candidateId": "cluster-usa-nvidia + huang",
-			"label": "nvidia + huang",
-			"latestAt": "2026-11-13T16:36:28.000Z",
-			"startedAt": "2026-11-13T01:10:19.000Z",
-			"itemCount": 6,
-			"sourceCount": 3,
-			"terms": [
-				"nvidia",
-				"huang"
-			],
-			"sources": [
-				"The New York Times",
-				"CBS News",
-				"Politico"
-			],
-			"titles": [
-				"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
-				"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
-				"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
-				"Search for next Nvidia CEO begins after Jensen Huang's resignation",
-				"Jensen Huang’s Washington fallout",
-				"Huang and Lutnick Summoned to Testify Before Congress"
-			],
-			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-13T16:36:28.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T18:00:48.625Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T16:36:28.000Z",
-					"itemCount": 6,
-					"sourceCount": 3,
-					"headlines": [
-						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
-						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
-						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"Politico"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T16:36:28.000Z|6|Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World"
-				},
-				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T01:52:57.000Z",
-					"itemCount": 8,
-					"sourceCount": 3,
-					"headlines": [
-						"What could happen to AI development and chip production as Huang resigns from Nvidia",
-						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
-						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NPR"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|8|What could happen to AI development and chip production as Huang resigns from Nvidia"
-				},
-				{
-					"observedAt": "2026-11-13T02:00:48.242Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T01:52:57.000Z",
-					"itemCount": 13,
-					"sourceCount": 5,
-					"headlines": [
-						"What could happen to AI development and chip production as Huang resigns from Nvidia",
-						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
-						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NPR"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|13|What could happen to AI development and chip production as Huang resigns from Nvidia"
-				},
-				{
-					"observedAt": "2026-11-13T01:00:47.794Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T00:25:08.000Z",
-					"itemCount": 14,
-					"sourceCount": 5,
-					"headlines": [
-						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
-						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"NPR"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T00:25:08.000Z|14|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
-				},
-				{
-					"observedAt": "2026-11-12T23:00:48.320Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T22:46:24.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
-						"Who is Colette Kress, Nvidia’s new interim CEO?",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T22:46:24.000Z|4|Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns"
-				},
-				{
-					"observedAt": "2026-11-12T22:00:48.193Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T21:45:00.000Z",
-					"itemCount": 18,
-					"sourceCount": 7,
-					"headlines": [
-						"‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation",
-						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
-						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmakers say"
-					],
-					"sources": [
-						"The Verge",
-						"CBS News",
-						"NBC News Politics"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T21:45:00.000Z|18|‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation"
-				},
-				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T19:44:29.000Z",
-					"itemCount": 16,
-					"sourceCount": 5,
-					"headlines": [
-						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
-						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T19:44:29.000Z|16|Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
-				},
-				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T16:51:22.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
-						"NYC building collapse: Death toll rises"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
-				},
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T15:30:04.000Z",
-					"itemCount": 11,
-					"sourceCount": 8,
-					"headlines": [
-						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
-						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-						"Nvidia CEO Jensen Huang has resigned. What happens next?"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"The Verge"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
-				},
-				{
-					"observedAt": "2026-11-12T03:38:47.147Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T02:52:00.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
-						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
-						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
-				},
-				{
-					"observedAt": "2026-11-09T18:21:05.029Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-09T17:58:28.000Z",
-					"itemCount": 11,
-					"sourceCount": 6,
-					"headlines": [
-						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
-						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
-						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
 		},
 		"cluster-usa-russell-brand-russell-brand": {
 			"candidateId": "cluster-usa-russell + brand",
@@ -2479,106 +2293,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
-		},
-		"cluster-usa-trump-court-trump-court": {
-			"candidateId": "cluster-usa-trump + court",
-			"label": "trump + court",
-			"latestAt": "2026-11-10T01:34:10.000Z",
-			"startedAt": "2026-11-09T21:47:39.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"trump",
-				"court"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"Politico",
-				"NPR"
-			],
-			"titles": [
-				"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
-				"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
-				"Supreme Court says border wall construction can continue in west Texas"
-			],
-			"entityFirstSeenAt": "2026-11-10T01:48:34.517Z",
-			"entityLastCandidateAt": "2026-11-10T01:34:10.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-10T13:32:37.686Z",
-					"label": "trump + court",
-					"latestAt": "2026-11-10T01:34:10.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
-						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
-						"Supreme Court says border wall construction can continue in west Texas"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"Politico",
-						"NPR"
-					],
-					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:10.000Z|3|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
-				},
-				{
-					"observedAt": "2026-11-10T06:40:54.048Z",
-					"label": "trump + court",
-					"latestAt": "2026-11-10T01:34:10.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
-						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
-						"News Wrap: Supreme Court allows border wall construction in Big Bend"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"Politico",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:10.000Z|4|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
-				},
-				{
-					"observedAt": "2026-11-10T01:55:22.461Z",
-					"label": "trump + court",
-					"latestAt": "2026-11-10T01:34:09.000Z",
-					"itemCount": 5,
-					"sourceCount": 5,
-					"headlines": [
-						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
-						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
-						"News Wrap: Supreme Court allows border wall construction in Big Bend"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"Politico",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:09.000Z|5|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
-				},
-				{
-					"observedAt": "2026-11-10T01:48:34.517Z",
-					"label": "trump + court",
-					"latestAt": "2026-11-10T01:34:09.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
-						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
-						"News Wrap: Supreme Court allows border wall construction in Big Bend"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"Politico",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:09.000Z|4|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T13:32:37.686Z"
 		},
 		"cluster-usa-warning-rare-warning-rare": {
 			"candidateId": "cluster-usa-warning + rare",
@@ -12380,6 +12094,196 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
+		"cluster-usa-huang-jensen-huang-jensen": {
+			"candidateId": "cluster-usa-huang + jensen",
+			"label": "huang + jensen",
+			"latestAt": "2026-11-13T18:10:25.000Z",
+			"startedAt": "2026-11-13T10:45:00.000Z",
+			"itemCount": 4,
+			"sourceCount": 3,
+			"terms": [
+				"huang",
+				"jensen"
+			],
+			"sources": [
+				"The New York Times",
+				"The Verge",
+				"Politico"
+			],
+			"titles": [
+				"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+				"Jensen Huang was reckless with the environment, too",
+				"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+				"Jensen Huang’s Washington fallout"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-13T18:10:25.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-13T18:10:25.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+						"Jensen Huang was reckless with the environment, too",
+						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World"
+					],
+					"sources": [
+						"The New York Times",
+						"The Verge",
+						"Politico"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-13T18:10:25.000Z|4|Jensen Huang’s Fall Is Bad for Nvidia but Good for America"
+				},
+				{
+					"observedAt": "2026-11-13T17:00:47.990Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-13T16:36:28.000Z",
+					"itemCount": 9,
+					"sourceCount": 5,
+					"headlines": [
+						"Silicon Valley Start-Ups Face a Future Without Jensen Huang’s Money",
+						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"The Verge"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-13T16:36:28.000Z|9|Silicon Valley Start-Ups Face a Future Without Jensen Huang’s Money"
+				},
+				{
+					"observedAt": "2026-11-13T16:00:48.169Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-13T14:50:17.000Z",
+					"itemCount": 5,
+					"sourceCount": 2,
+					"headlines": [
+						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
+						"Search for next Nvidia CEO begins after Jensen Huang's resignation",
+						"Huang and Lutnick Summoned to Testify Before Congress"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-13T14:50:17.000Z|5|Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair"
+				},
+				{
+					"observedAt": "2026-11-13T15:00:48.579Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-13T14:50:17.000Z",
+					"itemCount": 14,
+					"sourceCount": 8,
+					"headlines": [
+						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
+						"Search for next Nvidia CEO begins after Jensen Huang's resignation",
+						"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-13T14:50:17.000Z|14|Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair"
+				},
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-13T14:10:40.000Z",
+					"itemCount": 10,
+					"sourceCount": 7,
+					"headlines": [
+						"Search for next Nvidia CEO begins after Jensen Huang's resignation",
+						"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets",
+						"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-13T14:10:40.000Z|10|Search for next Nvidia CEO begins after Jensen Huang's resignation"
+				},
+				{
+					"observedAt": "2026-11-13T13:50:49.929Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-13T12:18:37.000Z",
+					"itemCount": 9,
+					"sourceCount": 6,
+					"headlines": [
+						"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets",
+						"Let’s talk about Jensen Huang’s many affairs!",
+						"Jensen Huang’s Washington fallout"
+					],
+					"sources": [
+						"NBC News Politics",
+						"The Verge",
+						"Politico"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-13T12:18:37.000Z|9|Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets"
+				},
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-13T12:18:37.000Z",
+					"itemCount": 10,
+					"sourceCount": 7,
+					"headlines": [
+						"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets",
+						"Let’s talk about Jensen Huang’s many affairs!",
+						"Jensen Huang’s Washington fallout"
+					],
+					"sources": [
+						"NBC News Politics",
+						"The Verge",
+						"Politico"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-13T12:18:37.000Z|10|Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets"
+				},
+				{
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-12T19:04:13.000Z",
+					"itemCount": 19,
+					"sourceCount": 6,
+					"headlines": [
+						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-12T19:04:13.000Z|19|Here's how Jensen Huang's abrupt resignation unfolded at Nvidia"
+				},
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-12T19:04:13.000Z",
+					"itemCount": 20,
+					"sourceCount": 6,
+					"headlines": [
+						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-12T19:04:13.000Z|20|Here's how Jensen Huang's abrupt resignation unfolded at Nvidia"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+		},
 		"cluster-usa-nvidia-mississippi-nvidia-mississippi": {
 			"candidateId": "cluster-usa-nvidia + mississippi",
 			"label": "nvidia + mississippi",
@@ -14819,6 +14723,151 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
 		},
+		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
+			"candidateId": "cluster-usa-nvidia + lutnick",
+			"label": "nvidia + lutnick",
+			"latestAt": "2026-11-13T17:09:45.000Z",
+			"startedAt": "2026-11-13T15:19:08.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"nvidia",
+				"lutnick"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"CBS News"
+			],
+			"titles": [
+				"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+				"Lutnick faces scrutiny as Nvidia scandal fallout grows",
+				"Company under scrutiny for ties to Nvidia and China"
+			],
+			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
+			"entityLastCandidateAt": "2026-11-13T17:09:45.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T17:09:45.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+						"Lutnick faces scrutiny as Nvidia scandal fallout grows",
+						"Company under scrutiny for ties to Nvidia and China"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T17:09:45.000Z|3|Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China"
+				},
+				{
+					"observedAt": "2026-11-13T18:00:48.625Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T17:09:45.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+						"Lutnick faces scrutiny as Nvidia scandal fallout grows",
+						"Commerce Secretary Lutnick agrees to testify about Nvidia"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"CBS News",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T17:09:45.000Z|4|Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China"
+				},
+				{
+					"observedAt": "2026-11-13T17:00:47.990Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T16:20:29.000Z",
+					"itemCount": 4,
+					"sourceCount": 2,
+					"headlines": [
+						"Lutnick faces scrutiny as Nvidia scandal fallout grows",
+						"Commerce Secretary Lutnick agrees to testify about Nvidia",
+						"Company under scrutiny for ties to Nvidia and China"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T16:20:29.000Z|4|Lutnick faces scrutiny as Nvidia scandal fallout grows"
+				},
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T14:02:13.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
+						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
+					],
+					"sources": [
+						"The New York Times World",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T14:02:13.000Z|2|Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew"
+				},
+				{
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T02:45:27.671Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
+						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
+					],
+					"sources": [
+						"NBC News Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T02:45:27.671Z|2|Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal"
+				},
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T02:45:27.671Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
+						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
+						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
+					],
+					"sources": [
+						"NBC News Politics",
+						"The New York Times World",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T02:45:27.671Z|3|Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal"
+				},
+				{
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T01:28:40.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
+						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
+					],
+					"sources": [
+						"The New York Times World",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T01:28:40.000Z|2|Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+		},
 		"cluster-usa-senate-leader-senate-leader": {
 			"candidateId": "cluster-usa-senate + leader",
 			"label": "senate + leader",
@@ -16221,7 +16270,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-spain-mundial-horas-mundial-horas": {
 			"candidateId": "cluster-spain-mundial + horas",
@@ -16802,48 +16851,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T16:00:48.169Z"
 		},
-		"cluster-usa-here-even-here-even": {
-			"candidateId": "cluster-usa-here + even",
-			"label": "here + even",
-			"latestAt": "2026-11-13T15:01:10.000Z",
-			"startedAt": "2026-11-13T07:20:24.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"here",
-				"even"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"The New York Times"
-			],
-			"titles": [
-				"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
-				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
-			],
-			"entityFirstSeenAt": "2026-11-13T16:00:48.169Z",
-			"entityLastCandidateAt": "2026-11-13T15:01:10.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T16:00:48.169Z",
-					"label": "here + even",
-					"latestAt": "2026-11-13T15:01:10.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
-						"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-here + even|2026-11-13T15:01:10.000Z|2|Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi."
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
-		},
 		"cluster-spain-estar-raphinha-estar-raphinha": {
 			"candidateId": "cluster-spain-estar + raphinha",
 			"label": "estar + raphinha",
@@ -17016,8 +17023,8 @@
 			"candidateId": "cluster-spain-sanchez + entre",
 			"label": "sanchez + entre",
 			"latestAt": "2026-11-13T17:39:32.000Z",
-			"startedAt": "2026-11-13T10:14:26.000Z",
-			"itemCount": 7,
+			"startedAt": "2026-11-13T13:22:15.000Z",
+			"itemCount": 4,
 			"sourceCount": 3,
 			"terms": [
 				"sanchez",
@@ -17032,14 +17039,29 @@
 				"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
 				"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
 				"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”",
-				"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
-				"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
-				"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas financiadas con fondos públicos»",
-				"Colau, en la entrevista con Jordi Wild: «La derecha ha identificado mejor que Sánchez el cabreo de mucha gente»"
+				"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta"
 			],
 			"entityFirstSeenAt": "2026-11-13T18:00:48.625Z",
 			"entityLastCandidateAt": "2026-11-13T17:39:32.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "sanchez + entre",
+					"latestAt": "2026-11-13T17:39:32.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+						"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
+						"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo",
+						"El País"
+					],
+					"eventId": "cluster-spain-sanchez + entre|2026-11-13T17:39:32.000Z|4|Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras"
+				},
 				{
 					"observedAt": "2026-11-13T18:00:48.625Z",
 					"label": "sanchez + entre",
@@ -17060,7 +17082,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-spain-ante-mundial-ante-mundial": {
 			"candidateId": "cluster-spain-ante + mundial",
@@ -17148,6 +17170,50 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
 		},
+		"cluster-usa-alex-murdaugh-alex-murdaugh": {
+			"candidateId": "cluster-usa-alex + murdaugh",
+			"label": "alex + murdaugh",
+			"latestAt": "2026-11-13T16:50:14.000Z",
+			"startedAt": "2026-11-13T15:56:09.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"alex",
+				"murdaugh"
+			],
+			"sources": [
+				"CBS News",
+				"NBC News"
+			],
+			"titles": [
+				"Alex Murdaugh wants murder indictments tossed, saying agent lied",
+				"Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury",
+				"Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed"
+			],
+			"entityFirstSeenAt": "2026-11-13T18:00:48.625Z",
+			"entityLastCandidateAt": "2026-11-13T16:50:14.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T18:00:48.625Z",
+					"label": "alex + murdaugh",
+					"latestAt": "2026-11-13T16:50:14.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Alex Murdaugh wants murder indictments tossed, saying agent lied",
+						"Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury",
+						"Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-alex + murdaugh|2026-11-13T16:50:14.000Z|3|Alex Murdaugh wants murder indictments tossed, saying agent lied"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+		},
 		"cluster-usa-trump-democratic-trump-democratic": {
 			"candidateId": "cluster-usa-trump + democratic",
 			"label": "trump + democratic",
@@ -17193,7 +17259,7 @@
 		"cluster-spain-sanchez-antes-sanchez-antes": {
 			"candidateId": "cluster-spain-sanchez + antes",
 			"label": "sanchez + antes",
-			"latestAt": "2026-11-13T18:50:53.000Z",
+			"latestAt": "2026-11-13T19:07:18.000Z",
 			"startedAt": "2026-11-13T17:15:09.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
@@ -17210,8 +17276,24 @@
 				"Sánchez fija en el 75% el umbral de participación el 29-N para tener alguna opción de poder gobernar"
 			],
 			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
-			"entityLastCandidateAt": "2026-11-13T18:50:53.000Z",
+			"entityLastCandidateAt": "2026-11-13T19:07:18.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "sanchez + antes",
+					"latestAt": "2026-11-13T19:07:18.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Campaña elecciones 29-N y actualidad política, en directo | Sánchez pide 176 diputados progresistas en el Congreso para “llegar antes y más lejos”",
+						"Sánchez fija en el 75% el umbral de participación el 29-N para tener alguna opción de poder gobernar"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-sanchez + antes|2026-11-13T19:07:18.000Z|2|Campaña elecciones 29-N y actualidad política, en directo | Sánchez pide 176 diputados progresistas en el Congreso para “llegar antes y más lejos”"
+				},
 				{
 					"observedAt": "2026-11-13T19:00:48.644Z",
 					"label": "sanchez + antes",
@@ -17230,7 +17312,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-spain-antes-putin-antes-putin": {
 			"candidateId": "cluster-spain-antes + putin",
@@ -17314,7 +17396,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-spain-papa-leon-papa-leon": {
 			"candidateId": "cluster-spain-papa + leon",
@@ -17356,13 +17438,13 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-spain-ante-euskal-ante-euskal": {
 			"candidateId": "cluster-spain-ante + euskal",
 			"label": "ante + euskal",
-			"latestAt": "2026-11-13T17:23:48.000Z",
-			"startedAt": "2026-11-13T08:47:09.000Z",
+			"latestAt": "2026-11-13T19:00:12.000Z",
+			"startedAt": "2026-11-13T17:23:48.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
@@ -17370,16 +17452,32 @@
 				"euskal"
 			],
 			"sources": [
-				"El Correo",
-				"El Diario Vasco"
+				"El Diario Vasco",
+				"El Correo"
 			],
 			"titles": [
-				"Euskal Selekzioa examina su potencial ante una experimentada Venezuela",
-				"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»"
+				"Euskal Selekzioa almuerza en Zubieta y Venezuela utiliza Areitio",
+				"Euskal Selekzioa examina su potencial ante una experimentada Venezuela"
 			],
 			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
-			"entityLastCandidateAt": "2026-11-13T17:23:48.000Z",
+			"entityLastCandidateAt": "2026-11-13T19:00:12.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "ante + euskal",
+					"latestAt": "2026-11-13T19:00:12.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Euskal Selekzioa almuerza en Zubieta y Venezuela utiliza Areitio",
+						"Euskal Selekzioa examina su potencial ante una experimentada Venezuela"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-ante + euskal|2026-11-13T19:00:12.000Z|2|Euskal Selekzioa almuerza en Zubieta y Venezuela utiliza Areitio"
+				},
 				{
 					"observedAt": "2026-11-13T19:00:48.644Z",
 					"label": "ante + euskal",
@@ -17398,7 +17496,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-spain-cuerpo-renfe-cuerpo-renfe": {
 			"candidateId": "cluster-spain-cuerpo + renfe",
@@ -17483,19 +17581,189 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+		},
+		"cluster-usa-huang-congress-huang-congress": {
+			"candidateId": "cluster-usa-huang + congress",
+			"label": "huang + congress",
+			"latestAt": "2026-11-13T18:32:00.000Z",
+			"startedAt": "2026-11-13T01:10:19.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"huang",
+				"congress"
+			],
+			"sources": [
+				"CBS News",
+				"The New York Times"
+			],
+			"titles": [
+				"Navy admiral resigns as top doctor for Congress amid misconduct allegations",
+				"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
+				"Huang and Lutnick Summoned to Testify Before Congress"
+			],
+			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
+			"entityLastCandidateAt": "2026-11-13T18:32:00.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "huang + congress",
+					"latestAt": "2026-11-13T18:32:00.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Navy admiral resigns as top doctor for Congress amid misconduct allegations",
+						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
+						"Huang and Lutnick Summoned to Testify Before Congress"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-huang + congress|2026-11-13T18:32:00.000Z|3|Navy admiral resigns as top doctor for Congress amid misconduct allegations"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+		},
+		"cluster-usa-even-scott-even-scott": {
+			"candidateId": "cluster-usa-even + scott",
+			"label": "even + scott",
+			"latestAt": "2026-11-13T15:01:10.000Z",
+			"startedAt": "2026-11-13T07:20:24.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"even",
+				"scott"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"The New York Times"
+			],
+			"titles": [
+				"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
+				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
+			],
+			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
+			"entityLastCandidateAt": "2026-11-13T15:01:10.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "even + scott",
+					"latestAt": "2026-11-13T15:01:10.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
+						"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-even + scott|2026-11-13T15:01:10.000Z|2|Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi."
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+		},
+		"cluster-spain-mundial-euskal-mundial-euskal": {
+			"candidateId": "cluster-spain-mundial + euskal",
+			"label": "mundial + euskal",
+			"latestAt": "2026-11-13T18:48:48.000Z",
+			"startedAt": "2026-11-13T08:47:09.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"mundial",
+				"euskal"
+			],
+			"sources": [
+				"El Correo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»",
+				"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»"
+			],
+			"entityFirstSeenAt": "2026-11-13T20:00:48.144Z",
+			"entityLastCandidateAt": "2026-11-13T18:48:48.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "mundial + euskal",
+					"latestAt": "2026-11-13T18:48:48.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»",
+						"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»"
+					],
+					"sources": [
+						"El Correo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-mundial + euskal|2026-11-13T18:48:48.000Z|2|Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+		},
+		"cluster-spain-solo-estar-solo-estar": {
+			"candidateId": "cluster-spain-solo + estar",
+			"label": "solo + estar",
+			"latestAt": "2026-11-13T16:30:31.000Z",
+			"startedAt": "2026-11-13T15:16:32.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"solo",
+				"estar"
+			],
+			"sources": [
+				"El País",
+				"El Correo"
+			],
+			"titles": [
+				"La encrucijada de Raphinha en la selección brasileña: “Siempre hice todo lo posible por estar presente”",
+				"Raphinha, al borde del llanto: «Quiero estar disponible no solo para Brasil, también para el Barça»"
+			],
+			"entityFirstSeenAt": "2026-11-13T20:00:48.144Z",
+			"entityLastCandidateAt": "2026-11-13T16:30:31.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "solo + estar",
+					"latestAt": "2026-11-13T16:30:31.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"La encrucijada de Raphinha en la selección brasileña: “Siempre hice todo lo posible por estar presente”",
+						"Raphinha, al borde del llanto: «Quiero estar disponible no solo para Brasil, también para el Barça»"
+					],
+					"sources": [
+						"El País",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-solo + estar|2026-11-13T16:30:31.000Z|2|La encrucijada de Raphinha en la selección brasileña: “Siempre hice todo lo posible por estar presente”"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-us-2026-11-13T19:00:48.644Z",
+		"id": "local-us-2026-11-13T20:00:48.144Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-13T19:00:48.644Z",
-		"finishedAt": "2026-11-13T19:06:16.270Z",
-		"signalsCandidate": 10,
-		"signalsSelected": 10,
+		"startedAt": "2026-11-13T20:00:48.144Z",
+		"finishedAt": "2026-11-13T20:05:31.851Z",
+		"signalsCandidate": 9,
+		"signalsSelected": 9,
 		"signalsProcessed": 0,
-		"cacheHits": 8,
-		"skippedByConfig": 10,
+		"cacheHits": 7,
+		"skippedByConfig": 9,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -17505,11 +17773,11 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 8,
+			"cacheHits": 7,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 325,
-			"retainedByTtl": 315,
+			"retained": 329,
+			"retainedByTtl": 320,
 			"retiredByTtl": 0
 		},
 		"costUsd": 0

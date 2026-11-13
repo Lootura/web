@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-13T19:00:48.644Z",
+	"updatedAt": "2026-11-13T20:00:48.144Z",
 	"entries": {
 		"cluster-spain-sanchez-entre-sanchez-entre": {
 			"candidateId": "cluster-spain-sanchez + entre",
 			"label": "sanchez + entre",
 			"latestAt": "2026-11-13T17:39:32.000Z",
-			"startedAt": "2026-11-13T10:14:26.000Z",
-			"itemCount": 7,
+			"startedAt": "2026-11-13T13:22:15.000Z",
+			"itemCount": 4,
 			"sourceCount": 3,
 			"terms": [
 				"sanchez",
@@ -24,14 +24,29 @@
 				"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
 				"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
 				"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”",
-				"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
-				"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
-				"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas financiadas con fondos públicos»",
-				"Colau, en la entrevista con Jordi Wild: «La derecha ha identificado mejor que Sánchez el cabreo de mucha gente»"
+				"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta"
 			],
 			"entityFirstSeenAt": "2026-11-13T18:00:48.625Z",
 			"entityLastCandidateAt": "2026-11-13T17:39:32.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "sanchez + entre",
+					"latestAt": "2026-11-13T17:39:32.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+						"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
+						"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo",
+						"El País"
+					],
+					"eventId": "cluster-spain-sanchez + entre|2026-11-13T17:39:32.000Z|4|Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras"
+				},
 				{
 					"observedAt": "2026-11-13T18:00:48.625Z",
 					"label": "sanchez + entre",
@@ -52,12 +67,12 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-spain-sanchez-antes-sanchez-antes": {
 			"candidateId": "cluster-spain-sanchez + antes",
 			"label": "sanchez + antes",
-			"latestAt": "2026-11-13T18:50:53.000Z",
+			"latestAt": "2026-11-13T19:07:18.000Z",
 			"startedAt": "2026-11-13T17:15:09.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
@@ -74,8 +89,24 @@
 				"Sánchez fija en el 75% el umbral de participación el 29-N para tener alguna opción de poder gobernar"
 			],
 			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
-			"entityLastCandidateAt": "2026-11-13T18:50:53.000Z",
+			"entityLastCandidateAt": "2026-11-13T19:07:18.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "sanchez + antes",
+					"latestAt": "2026-11-13T19:07:18.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Campaña elecciones 29-N y actualidad política, en directo | Sánchez pide 176 diputados progresistas en el Congreso para “llegar antes y más lejos”",
+						"Sánchez fija en el 75% el umbral de participación el 29-N para tener alguna opción de poder gobernar"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-sanchez + antes|2026-11-13T19:07:18.000Z|2|Campaña elecciones 29-N y actualidad política, en directo | Sánchez pide 176 diputados progresistas en el Congreso para “llegar antes y más lejos”"
+				},
 				{
 					"observedAt": "2026-11-13T19:00:48.644Z",
 					"label": "sanchez + antes",
@@ -94,49 +125,107 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
-		"cluster-spain-antes-putin-antes-putin": {
-			"candidateId": "cluster-spain-antes + putin",
-			"label": "antes + putin",
-			"latestAt": "2026-11-13T18:09:07.000Z",
-			"startedAt": "2026-11-13T12:36:03.000Z",
+		"cluster-spain-ante-euskal-ante-euskal": {
+			"candidateId": "cluster-spain-ante + euskal",
+			"label": "ante + euskal",
+			"latestAt": "2026-11-13T19:00:12.000Z",
+			"startedAt": "2026-11-13T17:23:48.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"antes",
-				"putin"
+				"ante",
+				"euskal"
 			],
 			"sources": [
-				"El Mundo",
-				"El País"
+				"El Diario Vasco",
+				"El Correo"
 			],
 			"titles": [
-				"La trampa de Putin: negociar la seguridad de Europa antes de detener la guerra de Ucrania",
-				"El enviado de Trump asegura que Putin acepta que Europa se sume a las negociaciones de paz sobre Ucrania"
+				"Euskal Selekzioa almuerza en Zubieta y Venezuela utiliza Areitio",
+				"Euskal Selekzioa examina su potencial ante una experimentada Venezuela"
 			],
 			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
-			"entityLastCandidateAt": "2026-11-13T18:09:07.000Z",
+			"entityLastCandidateAt": "2026-11-13T19:00:12.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "antes + putin",
-					"latestAt": "2026-11-13T18:09:07.000Z",
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "ante + euskal",
+					"latestAt": "2026-11-13T19:00:12.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
 					"headlines": [
-						"La trampa de Putin: negociar la seguridad de Europa antes de detener la guerra de Ucrania",
-						"El enviado de Trump asegura que Putin acepta que Europa se sume a las negociaciones de paz sobre Ucrania"
+						"Euskal Selekzioa almuerza en Zubieta y Venezuela utiliza Areitio",
+						"Euskal Selekzioa examina su potencial ante una experimentada Venezuela"
 					],
 					"sources": [
-						"El Mundo",
-						"El País"
+						"El Diario Vasco",
+						"El Correo"
 					],
-					"eventId": "cluster-spain-antes + putin|2026-11-13T18:09:07.000Z|2|La trampa de Putin: negociar la seguridad de Europa antes de detener la guerra de Ucrania"
+					"eventId": "cluster-spain-ante + euskal|2026-11-13T19:00:12.000Z|2|Euskal Selekzioa almuerza en Zubieta y Venezuela utiliza Areitio"
+				},
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "ante + euskal",
+					"latestAt": "2026-11-13T17:23:48.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Euskal Selekzioa examina su potencial ante una experimentada Venezuela",
+						"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»"
+					],
+					"sources": [
+						"El Correo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-ante + euskal|2026-11-13T17:23:48.000Z|2|Euskal Selekzioa examina su potencial ante una experimentada Venezuela"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+		},
+		"cluster-spain-mundial-euskal-mundial-euskal": {
+			"candidateId": "cluster-spain-mundial + euskal",
+			"label": "mundial + euskal",
+			"latestAt": "2026-11-13T18:48:48.000Z",
+			"startedAt": "2026-11-13T08:47:09.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"mundial",
+				"euskal"
+			],
+			"sources": [
+				"El Correo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»",
+				"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»"
+			],
+			"entityFirstSeenAt": "2026-11-13T20:00:48.144Z",
+			"entityLastCandidateAt": "2026-11-13T18:48:48.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "mundial + euskal",
+					"latestAt": "2026-11-13T18:48:48.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»",
+						"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»"
+					],
+					"sources": [
+						"El Correo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-mundial + euskal|2026-11-13T18:48:48.000Z|2|Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-spain-nucleo-nacional-nucleo-nacional": {
 			"candidateId": "cluster-spain-nucleo + nacional",
@@ -178,7 +267,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-spain-papa-leon-papa-leon": {
 			"candidateId": "cluster-spain-papa + leon",
@@ -220,60 +309,18 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
-		"cluster-spain-ante-euskal-ante-euskal": {
-			"candidateId": "cluster-spain-ante + euskal",
-			"label": "ante + euskal",
-			"latestAt": "2026-11-13T17:23:48.000Z",
-			"startedAt": "2026-11-13T08:47:09.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"ante",
-				"euskal"
-			],
-			"sources": [
-				"El Correo",
-				"El Diario Vasco"
-			],
-			"titles": [
-				"Euskal Selekzioa examina su potencial ante una experimentada Venezuela",
-				"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»"
-			],
-			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
-			"entityLastCandidateAt": "2026-11-13T17:23:48.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "ante + euskal",
-					"latestAt": "2026-11-13T17:23:48.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Euskal Selekzioa examina su potencial ante una experimentada Venezuela",
-						"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»"
-					],
-					"sources": [
-						"El Correo",
-						"El Diario Vasco"
-					],
-					"eventId": "cluster-spain-ante + euskal|2026-11-13T17:23:48.000Z|2|Euskal Selekzioa examina su potencial ante una experimentada Venezuela"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
-		},
-		"cluster-spain-estar-raphinha-estar-raphinha": {
-			"candidateId": "cluster-spain-estar + raphinha",
-			"label": "estar + raphinha",
+		"cluster-spain-solo-estar-solo-estar": {
+			"candidateId": "cluster-spain-solo + estar",
+			"label": "solo + estar",
 			"latestAt": "2026-11-13T16:30:31.000Z",
 			"startedAt": "2026-11-13T15:16:32.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"estar",
-				"raphinha"
+				"solo",
+				"estar"
 			],
 			"sources": [
 				"El País",
@@ -283,12 +330,12 @@
 				"La encrucijada de Raphinha en la selección brasileña: “Siempre hice todo lo posible por estar presente”",
 				"Raphinha, al borde del llanto: «Quiero estar disponible no solo para Brasil, también para el Barça»"
 			],
-			"entityFirstSeenAt": "2026-11-13T17:00:47.990Z",
+			"entityFirstSeenAt": "2026-11-13T20:00:48.144Z",
 			"entityLastCandidateAt": "2026-11-13T16:30:31.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T17:00:47.990Z",
-					"label": "estar + raphinha",
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "solo + estar",
 					"latestAt": "2026-11-13T16:30:31.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -300,22 +347,22 @@
 						"El País",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-estar + raphinha|2026-11-13T16:30:31.000Z|2|La encrucijada de Raphinha en la selección brasileña: “Siempre hice todo lo posible por estar presente”"
+					"eventId": "cluster-spain-solo + estar|2026-11-13T16:30:31.000Z|2|La encrucijada de Raphinha en la selección brasileña: “Siempre hice todo lo posible por estar presente”"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
-		"cluster-spain-cuerpo-renfe-cuerpo-renfe": {
-			"candidateId": "cluster-spain-cuerpo + renfe",
-			"label": "cuerpo + renfe",
+		"cluster-spain-casa-cuerpo-casa-cuerpo": {
+			"candidateId": "cluster-spain-casa + cuerpo",
+			"label": "casa + cuerpo",
 			"latestAt": "2026-11-13T15:36:47.000Z",
 			"startedAt": "2026-11-13T14:33:45.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"cuerpo",
-				"renfe"
+				"casa",
+				"cuerpo"
 			],
 			"sources": [
 				"El Mundo",
@@ -325,12 +372,12 @@
 				"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
 				"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
 			],
-			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
+			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
 			"entityLastCandidateAt": "2026-11-13T15:36:47.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "cuerpo + renfe",
+					"observedAt": "2026-11-13T16:00:48.169Z",
+					"label": "casa + cuerpo",
 					"latestAt": "2026-11-13T15:36:47.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -342,53 +389,43 @@
 						"El Mundo",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-cuerpo + renfe|2026-11-13T15:36:47.000Z|2|Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
-		},
-		"cluster-spain-antes-mucho-antes-mucho": {
-			"candidateId": "cluster-spain-antes + mucho",
-			"label": "antes + mucho",
-			"latestAt": "2026-11-13T12:33:07.000Z",
-			"startedAt": "2026-11-13T10:41:11.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"antes",
-				"mucho"
-			],
-			"sources": [
-				"El Diario Vasco",
-				"El Correo"
-			],
-			"titles": [
-				"Así sonaba Rosalía mucho antes de arrasar en los Latin Grammy: el vídeo de su concierto en la sala Dabadaba de San Sebastián",
-				"El artista bilbaíno Adrián Romero gana un Latin Grammy por su trabajo visual para el disco de Milo J"
-			],
-			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
-			"entityLastCandidateAt": "2026-11-13T12:33:07.000Z",
-			"entityTimeline": [
+					"eventId": "cluster-spain-casa + cuerpo|2026-11-13T15:36:47.000Z|2|Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
+				},
 				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "antes + mucho",
-					"latestAt": "2026-11-13T12:33:07.000Z",
+					"observedAt": "2026-11-13T15:00:48.579Z",
+					"label": "casa + cuerpo",
+					"latestAt": "2026-11-13T14:33:45.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
 					"headlines": [
-						"Así sonaba Rosalía mucho antes de arrasar en los Latin Grammy: el vídeo de su concierto en la sala Dabadaba de San Sebastián",
-						"El artista bilbaíno Adrián Romero gana un Latin Grammy por su trabajo visual para el disco de Milo J"
+						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
+						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
 					],
 					"sources": [
-						"El Diario Vasco",
-						"El Correo"
+						"El Correo",
+						"El Mundo"
 					],
-					"eventId": "cluster-spain-antes + mucho|2026-11-13T12:33:07.000Z|2|Así sonaba Rosalía mucho antes de arrasar en los Latin Grammy: el vídeo de su concierto en la sala Dabadaba de San Sebastián"
+					"eventId": "cluster-spain-casa + cuerpo|2026-11-13T14:33:45.000Z|2|Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
+				},
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "casa + cuerpo",
+					"latestAt": "2026-11-13T13:14:52.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
+						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-casa + cuerpo|2026-11-13T13:14:52.000Z|2|Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
@@ -1021,28 +1058,43 @@
 		"cluster-usa-trump-congress-trump-congress": {
 			"candidateId": "cluster-usa-trump + congress",
 			"label": "trump + congress",
-			"latestAt": "2026-11-10T02:36:00.000Z",
-			"startedAt": "2026-11-09T20:52:24.000Z",
-			"itemCount": 4,
-			"sourceCount": 3,
+			"latestAt": "2026-11-13T18:49:06.078Z",
+			"startedAt": "2026-11-13T15:29:23.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
 			"terms": [
 				"trump",
 				"congress"
 			],
 			"sources": [
-				"CBS News",
-				"PBS NewsHour",
-				"NPR Politics"
+				"NBC News Politics",
+				"PBS NewsHour"
 			],
 			"titles": [
-				"Trump defends Hegseth as Massie moves for impeachment",
-				"Massie introduces Hegseth impeachment articles, teeing up vote",
-				"Hegseth faces impeachment push as Congress returns to Washington",
-				"Thomas Massie files articles of impeachment against Defense Secretary Pete Hegseth"
+				"Supreme Court to rule on Trump’s asylum ban",
+				"Alito says Supreme Court is caught between the president and a Congress that can ‘turn off the lights’",
+				"Trump's Justice Department faces a new era of scrutiny under a Democratic-led Congress"
 			],
 			"entityFirstSeenAt": "2026-11-09T11:32:26.028Z",
-			"entityLastCandidateAt": "2026-11-10T02:36:00.000Z",
+			"entityLastCandidateAt": "2026-11-13T18:49:06.078Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "trump + congress",
+					"latestAt": "2026-11-13T18:49:06.078Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Supreme Court to rule on Trump’s asylum ban",
+						"Alito says Supreme Court is caught between the president and a Congress that can ‘turn off the lights’",
+						"Trump's Justice Department faces a new era of scrutiny under a Democratic-led Congress"
+					],
+					"sources": [
+						"NBC News Politics",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-trump + congress|2026-11-13T18:49:06.078Z|3|Supreme Court to rule on Trump’s asylum ban"
+				},
 				{
 					"observedAt": "2026-11-10T06:40:54.048Z",
 					"label": "trump + congress",
@@ -1099,7 +1151,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T07:04:00.708Z"
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
 		},
 		"cluster-spain-abascal-broncano-abascal-broncano": {
 			"candidateId": "cluster-spain-abascal + broncano",
@@ -9996,8 +10048,8 @@
 		"cluster-usa-trump-they-trump-they": {
 			"candidateId": "cluster-usa-trump + they",
 			"label": "trump + they",
-			"latestAt": "2026-11-12T13:22:27.000Z",
-			"startedAt": "2026-11-11T17:09:18.000Z",
+			"latestAt": "2026-11-13T19:02:04.000Z",
+			"startedAt": "2026-11-13T18:20:50.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
@@ -10005,16 +10057,32 @@
 				"they"
 			],
 			"sources": [
-				"The Guardian US",
-				"The New York Times"
+				"NPR World",
+				"The New York Times Politics"
 			],
 			"titles": [
-				"Trump won't save Ukraine. But Marine Le Pen's betrayal could be worse | Mujtaba Rahman",
-				"Trump. Miller. Blanche. Jordan. Things Could Get Worse, and They Probably Will."
+				"What's Trump's strategy now with Iran? To keep things as they are",
+				"Trump Signals New Strategy on Iran: A Waiting Game"
 			],
 			"entityFirstSeenAt": "2026-11-12T13:50:33.057Z",
-			"entityLastCandidateAt": "2026-11-12T13:22:27.000Z",
+			"entityLastCandidateAt": "2026-11-13T19:02:04.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "trump + they",
+					"latestAt": "2026-11-13T19:02:04.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"What's Trump's strategy now with Iran? To keep things as they are",
+						"Trump Signals New Strategy on Iran: A Waiting Game"
+					],
+					"sources": [
+						"NPR World",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-trump + they|2026-11-13T19:02:04.000Z|2|What's Trump's strategy now with Iran? To keep things as they are"
+				},
 				{
 					"observedAt": "2026-11-12T13:50:33.057Z",
 					"label": "trump + they",
@@ -10033,7 +10101,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T13:50:33.057Z"
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
 		},
 		"cluster-usa-nvidia-center-nvidia-center": {
 			"candidateId": "cluster-usa-nvidia + center",
@@ -10837,27 +10905,41 @@
 		"cluster-usa-trump-talks-trump-talks": {
 			"candidateId": "cluster-usa-trump + talks",
 			"label": "trump + talks",
-			"latestAt": "2026-11-12T15:26:34.000Z",
-			"startedAt": "2026-11-12T14:22:12.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
+			"latestAt": "2026-11-13T17:22:56.000Z",
+			"startedAt": "2026-11-13T09:43:04.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
 			"terms": [
 				"trump",
 				"talks"
 			],
 			"sources": [
-				"NPR World",
-				"TIME",
-				"The New York Times Politics"
+				"The New York Times Politics",
+				"NPR Politics"
 			],
 			"titles": [
-				"U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi",
-				"Trump Envoys Witkoff and Kushner Meet With Putin in Moscow for Ukraine Talks",
-				"Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign"
+				"Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
+				"Trump redirects Vance from Iran to focus on combatting fraud in Democratic-led states"
 			],
 			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T15:26:34.000Z",
+			"entityLastCandidateAt": "2026-11-13T17:22:56.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "trump + talks",
+					"latestAt": "2026-11-13T17:22:56.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
+						"Trump redirects Vance from Iran to focus on combatting fraud in Democratic-led states"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-trump + talks|2026-11-13T17:22:56.000Z|2|Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign"
+				},
 				{
 					"observedAt": "2026-11-12T15:47:37.262Z",
 					"label": "trump + talks",
@@ -10878,7 +10960,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T15:47:37.262Z"
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
 		},
 		"cluster-usa-states-reef-states-reef": {
 			"candidateId": "cluster-usa-states + reef",
@@ -11949,35 +12031,46 @@
 		"cluster-usa-huang-jensen-huang-jensen": {
 			"candidateId": "cluster-usa-huang + jensen",
 			"label": "huang + jensen",
-			"latestAt": "2026-11-13T16:36:28.000Z",
-			"startedAt": "2026-11-12T22:45:40.000Z",
-			"itemCount": 9,
-			"sourceCount": 5,
+			"latestAt": "2026-11-13T18:10:25.000Z",
+			"startedAt": "2026-11-13T10:45:00.000Z",
+			"itemCount": 4,
+			"sourceCount": 3,
 			"terms": [
 				"huang",
 				"jensen"
 			],
 			"sources": [
 				"The New York Times",
-				"CBS News",
 				"The Verge",
-				"Politico",
-				"NPR"
+				"Politico"
 			],
 			"titles": [
-				"Silicon Valley Start-Ups Face a Future Without Jensen Huang’s Money",
 				"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
-				"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
-				"What’s really at stake in the Jensen Huang saga",
-				"Search for next Nvidia CEO begins after Jensen Huang's resignation",
-				"Jensen Huang’s Washington fallout",
-				"Huang and Lutnick Summoned to Testify Before Congress",
-				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
-				"I Wrote Jensen Huang’s Biography. Here’s What Led to His Downfall."
+				"Jensen Huang was reckless with the environment, too",
+				"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+				"Jensen Huang’s Washington fallout"
 			],
 			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-13T16:36:28.000Z",
+			"entityLastCandidateAt": "2026-11-13T18:10:25.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-13T18:10:25.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+						"Jensen Huang was reckless with the environment, too",
+						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World"
+					],
+					"sources": [
+						"The New York Times",
+						"The Verge",
+						"Politico"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-13T18:10:25.000Z|4|Jensen Huang’s Fall Is Bad for Nvidia but Good for America"
+				},
 				{
 					"observedAt": "2026-11-13T17:00:47.990Z",
 					"label": "huang + jensen",
@@ -12123,7 +12216,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
 		},
 		"cluster-usa-nvidia-mississippi-nvidia-mississippi": {
 			"candidateId": "cluster-usa-nvidia + mississippi",
@@ -14569,26 +14662,41 @@
 			"label": "nvidia + lutnick",
 			"latestAt": "2026-11-13T17:09:45.000Z",
 			"startedAt": "2026-11-13T15:19:08.000Z",
-			"itemCount": 4,
-			"sourceCount": 3,
+			"itemCount": 3,
+			"sourceCount": 2,
 			"terms": [
 				"nvidia",
 				"lutnick"
 			],
 			"sources": [
 				"PBS NewsHour",
-				"CBS News",
-				"NBC News Politics"
+				"CBS News"
 			],
 			"titles": [
 				"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
 				"Lutnick faces scrutiny as Nvidia scandal fallout grows",
-				"Commerce Secretary Lutnick agrees to testify about Nvidia",
 				"Company under scrutiny for ties to Nvidia and China"
 			],
 			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
 			"entityLastCandidateAt": "2026-11-13T17:09:45.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T17:09:45.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+						"Lutnick faces scrutiny as Nvidia scandal fallout grows",
+						"Company under scrutiny for ties to Nvidia and China"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T17:09:45.000Z|3|Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China"
+				},
 				{
 					"observedAt": "2026-11-13T18:00:48.625Z",
 					"label": "nvidia + lutnick",
@@ -14692,37 +14800,52 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
 		},
 		"cluster-usa-microsoft-outage-microsoft-outage": {
 			"candidateId": "cluster-usa-microsoft + outage",
 			"label": "microsoft + outage",
-			"latestAt": "2026-11-13T16:17:11.000Z",
+			"latestAt": "2026-11-13T15:30:08.000Z",
 			"startedAt": "2026-11-13T01:26:24.000Z",
-			"itemCount": 6,
-			"sourceCount": 5,
+			"itemCount": 4,
+			"sourceCount": 4,
 			"terms": [
 				"microsoft",
 				"outage"
 			],
 			"sources": [
-				"The Verge",
 				"The New York Times",
 				"CBS News",
 				"NPR",
 				"NBC News"
 			],
 			"titles": [
-				"Microsoft’s massive Outlook outage continues",
 				"Microsoft Says Outage Disrupting Outlook Is Improving",
-				"Eye Opener: Microsoft Outlook email outage",
 				"Widespread Microsoft 365 outage continues, impacting email and other services",
 				"Is Outlook down? Widespread outage hits Microsoft email and other apps",
 				"Microsoft Scrambles to Find Fix Massive Global Outage"
 			],
 			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T16:17:11.000Z",
+			"entityLastCandidateAt": "2026-11-13T15:30:08.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T15:30:08.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Microsoft Says Outage Disrupting Outlook Is Improving",
+						"Widespread Microsoft 365 outage continues, impacting email and other services",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T15:30:08.000Z|4|Microsoft Says Outage Disrupting Outlook Is Improving"
+				},
 				{
 					"observedAt": "2026-11-13T18:00:48.625Z",
 					"label": "microsoft + outage",
@@ -14923,7 +15046,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
 		},
 		"cluster-usa-senate-leader-senate-leader": {
 			"candidateId": "cluster-usa-senate + leader",
@@ -16255,80 +16378,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
-		"cluster-spain-casa-cuerpo-casa-cuerpo": {
-			"candidateId": "cluster-spain-casa + cuerpo",
-			"label": "casa + cuerpo",
-			"latestAt": "2026-11-13T15:36:47.000Z",
-			"startedAt": "2026-11-13T14:33:45.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"casa",
-				"cuerpo"
-			],
-			"sources": [
-				"El Mundo",
-				"El Correo"
-			],
-			"titles": [
-				"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
-				"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
-			],
-			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
-			"entityLastCandidateAt": "2026-11-13T15:36:47.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T16:00:48.169Z",
-					"label": "casa + cuerpo",
-					"latestAt": "2026-11-13T15:36:47.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
-						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
-					],
-					"sources": [
-						"El Mundo",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-casa + cuerpo|2026-11-13T15:36:47.000Z|2|Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
-				},
-				{
-					"observedAt": "2026-11-13T15:00:48.579Z",
-					"label": "casa + cuerpo",
-					"latestAt": "2026-11-13T14:33:45.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
-						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
-					],
-					"sources": [
-						"El Correo",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-casa + cuerpo|2026-11-13T14:33:45.000Z|2|Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
-				},
-				{
-					"observedAt": "2026-11-13T14:25:49.198Z",
-					"label": "casa + cuerpo",
-					"latestAt": "2026-11-13T13:14:52.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
-						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
-					],
-					"sources": [
-						"El Correo",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-casa + cuerpo|2026-11-13T13:14:52.000Z|2|Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
-		},
 		"cluster-spain-mundial-horas-mundial-horas": {
 			"candidateId": "cluster-spain-mundial + horas",
 			"label": "mundial + horas",
@@ -16950,6 +16999,48 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
 		},
+		"cluster-spain-estar-raphinha-estar-raphinha": {
+			"candidateId": "cluster-spain-estar + raphinha",
+			"label": "estar + raphinha",
+			"latestAt": "2026-11-13T16:30:31.000Z",
+			"startedAt": "2026-11-13T15:16:32.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"estar",
+				"raphinha"
+			],
+			"sources": [
+				"El País",
+				"El Correo"
+			],
+			"titles": [
+				"La encrucijada de Raphinha en la selección brasileña: “Siempre hice todo lo posible por estar presente”",
+				"Raphinha, al borde del llanto: «Quiero estar disponible no solo para Brasil, también para el Barça»"
+			],
+			"entityFirstSeenAt": "2026-11-13T17:00:47.990Z",
+			"entityLastCandidateAt": "2026-11-13T16:30:31.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T17:00:47.990Z",
+					"label": "estar + raphinha",
+					"latestAt": "2026-11-13T16:30:31.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"La encrucijada de Raphinha en la selección brasileña: “Siempre hice todo lo posible por estar presente”",
+						"Raphinha, al borde del llanto: «Quiero estar disponible no solo para Brasil, también para el Barça»"
+					],
+					"sources": [
+						"El País",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-estar + raphinha|2026-11-13T16:30:31.000Z|2|La encrucijada de Raphinha en la selección brasileña: “Siempre hice todo lo posible por estar presente”"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+		},
 		"cluster-spain-caida-mossos-caida-mossos": {
 			"candidateId": "cluster-spain-caida + mossos",
 			"label": "caida + mossos",
@@ -17138,7 +17229,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
 		},
 		"cluster-spain-ante-mundial-ante-mundial": {
 			"candidateId": "cluster-spain-ante + mundial",
@@ -17268,7 +17359,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
 		},
 		"cluster-usa-trump-democratic-trump-democratic": {
 			"candidateId": "cluster-usa-trump + democratic",
@@ -17311,18 +17402,230 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
+		},
+		"cluster-spain-antes-putin-antes-putin": {
+			"candidateId": "cluster-spain-antes + putin",
+			"label": "antes + putin",
+			"latestAt": "2026-11-13T18:09:07.000Z",
+			"startedAt": "2026-11-13T12:36:03.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"antes",
+				"putin"
+			],
+			"sources": [
+				"El Mundo",
+				"El País"
+			],
+			"titles": [
+				"La trampa de Putin: negociar la seguridad de Europa antes de detener la guerra de Ucrania",
+				"El enviado de Trump asegura que Putin acepta que Europa se sume a las negociaciones de paz sobre Ucrania"
+			],
+			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
+			"entityLastCandidateAt": "2026-11-13T18:09:07.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "antes + putin",
+					"latestAt": "2026-11-13T18:09:07.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"La trampa de Putin: negociar la seguridad de Europa antes de detener la guerra de Ucrania",
+						"El enviado de Trump asegura que Putin acepta que Europa se sume a las negociaciones de paz sobre Ucrania"
+					],
+					"sources": [
+						"El Mundo",
+						"El País"
+					],
+					"eventId": "cluster-spain-antes + putin|2026-11-13T18:09:07.000Z|2|La trampa de Putin: negociar la seguridad de Europa antes de detener la guerra de Ucrania"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+		},
+		"cluster-spain-cuerpo-renfe-cuerpo-renfe": {
+			"candidateId": "cluster-spain-cuerpo + renfe",
+			"label": "cuerpo + renfe",
+			"latestAt": "2026-11-13T15:36:47.000Z",
+			"startedAt": "2026-11-13T14:33:45.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"cuerpo",
+				"renfe"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
+				"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
+			],
+			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
+			"entityLastCandidateAt": "2026-11-13T15:36:47.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "cuerpo + renfe",
+					"latestAt": "2026-11-13T15:36:47.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
+						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-cuerpo + renfe|2026-11-13T15:36:47.000Z|2|Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+		},
+		"cluster-spain-antes-mucho-antes-mucho": {
+			"candidateId": "cluster-spain-antes + mucho",
+			"label": "antes + mucho",
+			"latestAt": "2026-11-13T12:33:07.000Z",
+			"startedAt": "2026-11-13T10:41:11.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"antes",
+				"mucho"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Así sonaba Rosalía mucho antes de arrasar en los Latin Grammy: el vídeo de su concierto en la sala Dabadaba de San Sebastián",
+				"El artista bilbaíno Adrián Romero gana un Latin Grammy por su trabajo visual para el disco de Milo J"
+			],
+			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
+			"entityLastCandidateAt": "2026-11-13T12:33:07.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "antes + mucho",
+					"latestAt": "2026-11-13T12:33:07.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Así sonaba Rosalía mucho antes de arrasar en los Latin Grammy: el vídeo de su concierto en la sala Dabadaba de San Sebastián",
+						"El artista bilbaíno Adrián Romero gana un Latin Grammy por su trabajo visual para el disco de Milo J"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-antes + mucho|2026-11-13T12:33:07.000Z|2|Así sonaba Rosalía mucho antes de arrasar en los Latin Grammy: el vídeo de su concierto en la sala Dabadaba de San Sebastián"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+		},
+		"cluster-usa-huang-congress-huang-congress": {
+			"candidateId": "cluster-usa-huang + congress",
+			"label": "huang + congress",
+			"latestAt": "2026-11-13T18:32:00.000Z",
+			"startedAt": "2026-11-13T01:10:19.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"huang",
+				"congress"
+			],
+			"sources": [
+				"CBS News",
+				"The New York Times"
+			],
+			"titles": [
+				"Navy admiral resigns as top doctor for Congress amid misconduct allegations",
+				"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
+				"Huang and Lutnick Summoned to Testify Before Congress"
+			],
+			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
+			"entityLastCandidateAt": "2026-11-13T18:32:00.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "huang + congress",
+					"latestAt": "2026-11-13T18:32:00.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Navy admiral resigns as top doctor for Congress amid misconduct allegations",
+						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
+						"Huang and Lutnick Summoned to Testify Before Congress"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-huang + congress|2026-11-13T18:32:00.000Z|3|Navy admiral resigns as top doctor for Congress amid misconduct allegations"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
+		},
+		"cluster-usa-even-scott-even-scott": {
+			"candidateId": "cluster-usa-even + scott",
+			"label": "even + scott",
+			"latestAt": "2026-11-13T15:01:10.000Z",
+			"startedAt": "2026-11-13T07:20:24.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"even",
+				"scott"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"The New York Times"
+			],
+			"titles": [
+				"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
+				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
+			],
+			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
+			"entityLastCandidateAt": "2026-11-13T15:01:10.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "even + scott",
+					"latestAt": "2026-11-13T15:01:10.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
+						"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-even + scott|2026-11-13T15:01:10.000Z|2|Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi."
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-es-2026-11-13T19:00:48.644Z",
+		"id": "local-es-2026-11-13T20:00:48.144Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-13T19:00:48.644Z",
-		"finishedAt": "2026-11-13T19:02:57.267Z",
-		"signalsCandidate": 9,
+		"startedAt": "2026-11-13T20:00:48.144Z",
+		"finishedAt": "2026-11-13T20:02:37.737Z",
+		"signalsCandidate": 8,
 		"signalsSelected": 8,
 		"signalsProcessed": 0,
-		"cacheHits": 2,
+		"cacheHits": 6,
 		"skippedByConfig": 8,
 		"skippedByBudget": 0,
 		"failures": 0,
@@ -17333,12 +17636,12 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 2,
+			"cacheHits": 6,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 323,
-			"retainedByTtl": 314,
-			"retiredByTtl": 2
+			"retained": 327,
+			"retainedByTtl": 319,
+			"retiredByTtl": 0
 		},
 		"costUsd": 0
 	}
