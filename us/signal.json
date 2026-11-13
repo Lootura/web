@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-13T02:00:48.242Z",
+  "updatedAt": "2026-11-13T03:00:48.096Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "217,054 links analyzed",
-  "dayScanLabel": "6,088 links scanned in 24h",
+  "ambientPulseLabel": "217,667 links analyzed",
+  "dayScanLabel": "6,083 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -16,21 +16,168 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": null,
+  "topAlert": {
+    "id": "now-cluster-united states-building + collapse",
+    "title": "Eight Who Died in Building Collapse Reflected New York’s Diversity",
+    "brief": "Eight Who Died in Building Collapse Reflected New York’s Diversity.",
+    "whyItMatters": "",
+    "verdict": "If it repeats in the next run, it gains weight.",
+    "mode": "now",
+    "state": "rising",
+    "stateLabel": "Rising",
+    "strength": 30,
+    "sourceCount": 5,
+    "itemCount": 8,
+    "freshness": "fresh now",
+    "alertLevel": "watch",
+    "alertLabel": "Watch",
+    "alertScore": 99,
+    "alertTriggers": [
+      "Crosses several sources",
+      "Picks up volume fast",
+      "Still active"
+    ],
+    "isHotNews": false,
+    "sources": [
+      "CBS News",
+      "The New York Times",
+      "NBC News",
+      "PBS NewsHour",
+      "NPR"
+    ],
+    "images": [
+      "https://static01.nyt.com/images/2026/12/11/multimedia/11met-building-wtk-pjgk/11met-building-wtk-pjgk-mediumSquareAt3X.jpg",
+      "https://static01.nyt.com/images/2026/11/12/multimedia/12met-collapse-print-01-plmq/12met-collapse-print-01-plmq-mediumSquareAt3X.jpg",
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794527907810_nn_sbr_first_video_brooklyn_building_collapse_261112_S3_1920x1080-01x3ap.jpg",
+      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/deadlycollapse2-1024x576.jpg"
+    ],
+    "evidence": [
+      {
+        "title": "Crews begin excavating site of building collapse in Brooklyn",
+        "source": "CBS News",
+        "publishedAt": "2026-11-13T02:27:43.000Z",
+        "sourceUrl": "https://www.cbsnews.com/news/building-collapse-nyc-brooklyn-flatbush-rescue-operation/?utm_source=lootura.com&ref=lootura.com",
+        "image": ""
+      },
+      {
+        "title": "What to Know About the Deadly Building Collapse in Brooklyn",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-13T01:23:00.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/12/nyregion/building-collapse-brooklyn-deaths-flatbush-nyc.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/12/11/multimedia/11met-building-wtk-pjgk/11met-building-wtk-pjgk-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Rescue Ends in Brooklyn After 8 Die in Building Collapse",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-13T01:11:13.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/12/us/brooklyn-building-collapse-deaths.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12met-collapse-print-01-plmq/12met-collapse-print-01-plmq-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "First video of Brooklyn building collapse",
+        "source": "NBC News",
+        "publishedAt": "2026-11-12T23:58:33.000Z",
+        "sourceUrl": "https://www.nbcnews.com/nightly-news/video/first-video-of-brooklyn-building-collapse-273385029565?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794527907810_nn_sbr_first_video_brooklyn_building_collapse_261112_S3_1920x1080-01x3ap.jpg"
+      },
+      {
+        "title": "New York building collapse kills 8, including 2 children",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-11-12T23:50:06.000Z",
+        "sourceUrl": "https://www.pbs.org/newshour/show/new-york-building-collapse-kills-8-including-2-children?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/deadlycollapse2-1024x576.jpg"
+      }
+    ],
+    "path": "/us/entity/eight-who-died-in-building-collapse-reflected-new-york-s-diversity/"
+  },
   "signals": [
     {
-      "id": "now-cluster-united states-jensen + huang",
-      "title": "Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
-      "brief": "Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy.",
+      "id": "now-cluster-united states-building + collapse",
+      "title": "Eight Who Died in Building Collapse Reflected New York’s Diversity",
+      "brief": "Eight Who Died in Building Collapse Reflected New York’s Diversity.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 32,
-      "sourceCount": 4,
-      "itemCount": 12,
+      "strength": 30,
+      "sourceCount": 5,
+      "itemCount": 8,
       "freshness": "fresh now",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "The New York Times",
+        "NBC News",
+        "PBS NewsHour",
+        "NPR"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/12/11/multimedia/11met-building-wtk-pjgk/11met-building-wtk-pjgk-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/12/multimedia/12met-collapse-print-01-plmq/12met-collapse-print-01-plmq-mediumSquareAt3X.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794527907810_nn_sbr_first_video_brooklyn_building_collapse_261112_S3_1920x1080-01x3ap.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/deadlycollapse2-1024x576.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Crews begin excavating site of building collapse in Brooklyn",
+          "source": "CBS News",
+          "publishedAt": "2026-11-13T02:27:43.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/building-collapse-nyc-brooklyn-flatbush-rescue-operation/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "What to Know About the Deadly Building Collapse in Brooklyn",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-13T01:23:00.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/12/nyregion/building-collapse-brooklyn-deaths-flatbush-nyc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/12/11/multimedia/11met-building-wtk-pjgk/11met-building-wtk-pjgk-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Rescue Ends in Brooklyn After 8 Die in Building Collapse",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-13T01:11:13.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/12/us/brooklyn-building-collapse-deaths.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12met-collapse-print-01-plmq/12met-collapse-print-01-plmq-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "First video of Brooklyn building collapse",
+          "source": "NBC News",
+          "publishedAt": "2026-11-12T23:58:33.000Z",
+          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/first-video-of-brooklyn-building-collapse-273385029565?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794527907810_nn_sbr_first_video_brooklyn_building_collapse_261112_S3_1920x1080-01x3ap.jpg"
+        },
+        {
+          "title": "New York building collapse kills 8, including 2 children",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-12T23:50:06.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/new-york-building-collapse-kills-8-including-2-children?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/deadlycollapse2-1024x576.jpg"
+        }
+      ],
+      "path": "/us/entity/eight-who-died-in-building-collapse-reflected-new-york-s-diversity/"
+    },
+    {
+      "id": "moving-cluster-united states-jensen + huang",
+      "title": "Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
+      "brief": "Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 30,
+      "sourceCount": 4,
+      "itemCount": 11,
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -48,8 +195,8 @@
       ],
       "images": [
         "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/13/ed170b09-c3b5-487b-8a63-a6396e387fb4/thumbnail/1200x630/16e778ef9d5322d7daf48667545feb13/cbsn-fusion-what-could-happen-to-ai-development-and-chip-production-as-huang-resigns-from-nvidia-thumbnail.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/12/b6dd5e57-25ea-4974-b75d-0f48d1625e9e/thumbnail/1200x630/3d8f38741657f516252ee56a188b9f34/cbsn-fusion-nvidia-cfo-colette-kress-appointed-as-interim-ceo-as-huang-resigns-thumbnail.jpg",
         "https://static01.nyt.com/images/2026/11/12/multimedia/12biz-nvidia-stock1-bqgj/12biz-nvidia-stock1-bqgj-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/12/multimedia/12biz-nvidia-live-economy-mktc/12biz-nvidia-live-economy-mktc-mediumSquareAt3X.jpg",
         "https://static01.nyt.com/images/2026/11/13/multimedia/13DC-TRUMP-HUANG-fwzc/13DC-TRUMP-HUANG-fwzc-mediumSquareAt3X.jpg",
         "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/12/f371a707-4164-4bef-aaef-46d12d338ac1/thumbnail/1200x630/99ffd4acf01caadd7a7a0182cdcd8f5b/cbsn-fusion-trump-calls-for-tim-cook-to-replace-jensen-huang-as-nvidia-ceo-thumbnail.jpg"
       ],
@@ -93,92 +240,18 @@
       "path": "/us/entity/jensen-huang-nvidia-s-ousted-ceo-was-the-face-of-the-a-i-boom-powering-the-u-s-e/"
     },
     {
-      "id": "moving-cluster-united states-building + collapse",
-      "title": "Eight Who Died in Building Collapse Reflected New York’s Diversity",
-      "brief": "Eight Who Died in Building Collapse Reflected New York’s Diversity.",
+      "id": "now-cluster-united states-scott + colom",
+      "title": "NAACP official on Mississippi electing Scott Colom as its first Black senator since the 1800s",
+      "brief": "NAACP official on Mississippi electing Scott Colom as its first Black senator since the 1800s.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 28,
       "sourceCount": 4,
       "itemCount": 7,
       "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 99,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times",
-        "NBC News",
-        "PBS NewsHour",
-        "NPR"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/12/11/multimedia/11met-building-wtk-pjgk/11met-building-wtk-pjgk-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/11/12/multimedia/12met-collapse-print-01-plmq/12met-collapse-print-01-plmq-mediumSquareAt3X.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794527907810_nn_sbr_first_video_brooklyn_building_collapse_261112_S3_1920x1080-01x3ap.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/deadlycollapse2-1024x576.jpg",
-        "https://static01.nyt.com/images/2026/11/12/multimedia/12met-building-collapse-live-victims-vfjw/12met-building-collapse-live-victims-vfjw-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "What to Know About the Deadly Building Collapse in Brooklyn",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-13T01:23:00.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/12/nyregion/building-collapse-brooklyn-deaths-flatbush-nyc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/12/11/multimedia/11met-building-wtk-pjgk/11met-building-wtk-pjgk-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Rescue Ends in Brooklyn After 8 Die in Building Collapse",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-13T01:11:13.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/12/us/brooklyn-building-collapse-deaths.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12met-collapse-print-01-plmq/12met-collapse-print-01-plmq-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "First video of Brooklyn building collapse",
-          "source": "NBC News",
-          "publishedAt": "2026-11-12T23:58:33.000Z",
-          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/first-video-of-brooklyn-building-collapse-273385029565?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794527907810_nn_sbr_first_video_brooklyn_building_collapse_261112_S3_1920x1080-01x3ap.jpg"
-        },
-        {
-          "title": "New York building collapse kills 8, including 2 children",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-12T23:50:06.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/show/new-york-building-collapse-kills-8-including-2-children?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/deadlycollapse2-1024x576.jpg"
-        },
-        {
-          "title": "Eight Who Died in Building Collapse Reflected New York’s Diversity",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-12T23:06:46.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/12/nyregion/brooklyn-building-collapse-victims.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12met-building-collapse-live-victims-vfjw/12met-building-collapse-live-victims-vfjw-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/eight-who-died-in-building-collapse-reflected-new-york-s-diversity/"
-    },
-    {
-      "id": "moving-cluster-united states-mississippi + senate",
-      "title": "Jasmine Crockett on Scott Colom's Senate win: \"Mississippi has been overlooked\"",
-      "brief": "Jasmine Crockett on Scott Colom's Senate win: \"Mississippi has been overlooked\".",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 25,
-      "sourceCount": 4,
-      "itemCount": 5,
-      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -197,10 +270,16 @@
       "images": [
         "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/12/c6b43917-a0b4-4a8c-9020-eec70367d42b/thumbnail/1200x630/79ff4b30198f475b3f561933ca99cda6/cbsn-fusion-mississippi-reacts-after-scott-colom-wins-senate-race-thumbnail.jpg",
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/majorvictory-1024x683.jpg",
-        "https://static01.nyt.com/images/2026/11/10/multimedia/10nat-mississippi-senate-bglh/10nat-mississippi-senate-bglh-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/11/12/multimedia/12pol-Black-voters-rejoice-hjvw/12pol-Black-voters-rejoice-hjvw-mediumSquareAt3X.jpg"
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-05-18T134723Z_1237696663_RC2W3LA4FEMZ_RTRMADP_3_USA-COURT-REDISTRICTING-ALABAMA-1024x683.jpg"
       ],
       "evidence": [
+        {
+          "title": "NAACP official on Mississippi electing Scott Colom as its first Black senator since the 1800s",
+          "source": "CBS News",
+          "publishedAt": "2026-11-13T02:20:35.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/naacp-on-mississippi-electing-scott-colom-first-black-senator-since-1800s/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
         {
           "title": "Jasmine Crockett on Scott Colom's Senate win: \"Mississippi has been overlooked\"",
           "source": "CBS News",
@@ -223,35 +302,91 @@
           "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/majorvictory-1024x683.jpg"
         },
         {
-          "title": "How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-12T18:16:50.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/11/insider/mississippi-senate-race-coverage.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/10/multimedia/10nat-mississippi-senate-bglh/10nat-mississippi-senate-bglh-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-12T14:14:44.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/12/us/elections/mississippi-colom-senate-race-black-voters.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12pol-Black-voters-rejoice-hjvw/12pol-Black-voters-rejoice-hjvw-mediumSquareAt3X.jpg"
+          "title": "Scott Colom's historic victory marks 'new moment' for Black voters, Bryan Stevenson says",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-12T23:38:26.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/scott-coloms-historic-victory-marks-new-moment-for-black-voters-bryan-stevenson-says?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-05-18T134723Z_1237696663_RC2W3LA4FEMZ_RTRMADP_3_USA-COURT-REDISTRICTING-ALABAMA-1024x683.jpg"
         }
       ],
-      "path": "/us/entity/jasmine-crockett-on-scott-colom-s-senate-win-mississippi-has-been-overlooked/"
+      "path": "/us/entity/naacp-official-on-mississippi-electing-scott-colom-as-its-first-black-senator-si/"
     },
     {
-      "id": "now-cluster-united states-more + microsoft",
-      "title": "Outlook, Teams and More Microsoft Programs Disrupted by Outage",
-      "brief": "Outlook, Teams and More Microsoft Programs Disrupted by Outage.",
+      "id": "moving-cluster-united states-white + house",
+      "title": "Legal expert on White House warning to Democrats over possible Trump investigations",
+      "brief": "Legal expert on White House warning to Democrats over possible Trump investigations.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 24,
       "sourceCount": 3,
       "itemCount": 4,
       "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 96,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NBC News Politics",
+        "NPR Politics"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261102-james-talarico-washington-capitol-ww-1655-c49d11.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7886x5257+0+0/resize/7886x5257!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7c%2F00%2F45ae5e5c4173a2bbdfc2feb574d7%2Fgettyimages-2303515786.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Legal expert on White House warning to Democrats over possible Trump investigations",
+          "source": "CBS News",
+          "publishedAt": "2026-11-13T02:01:47.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/legal-expert-weighs-in-on-white-house-warning-to-dems-over-possible-trump-investigations/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Democrats can’t wait until after Trump to produce results, James Talarico says",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-13T01:28:48.131Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/2026-election/democrats-cant-wait-trump-produce-results-james-talarico-says-rcna609096?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261102-james-talarico-washington-capitol-ww-1655-c49d11.jpg"
+        },
+        {
+          "title": "White House warns of \"blatant criminality\" in Democratic probes",
+          "source": "CBS News",
+          "publishedAt": "2026-11-12T23:09:18.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/white-house-counsel-will-scharf-house-oversight-committee-robert-garcia-investigations/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Democrats want to stop Trump's arch, golf course and more. What are their options?",
+          "source": "NPR Politics",
+          "publishedAt": "2026-11-12T17:13:54.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/12/nx-s1-6034539/democrats-congress-trump-arch-ballroom-funding-oversight?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7886x5257+0+0/resize/7886x5257!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7c%2F00%2F45ae5e5c4173a2bbdfc2feb574d7%2Fgettyimages-2303515786.jpg"
+        }
+      ],
+      "path": "/us/entity/legal-expert-on-white-house-warning-to-democrats-over-possible-trump-investigati/"
+    },
+    {
+      "id": "moving-cluster-united states-microsoft + outage",
+      "title": "Is Outlook down? Widespread outage hits Microsoft email and other apps",
+      "brief": "Is Outlook down? Widespread outage hits Microsoft email and other apps.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 96,
@@ -302,12 +437,12 @@
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794525319299_now_hallie_mfr_microsoft_outage_261112_S3_1920x1080-hgl0ad.jpg"
         }
       ],
-      "path": "/us/entity/outlook-teams-and-more-microsoft-programs-disrupted-by-outage/"
+      "path": "/us/entity/is-outlook-down-widespread-outage-hits-microsoft-email-and-other-apps/"
     },
     {
-      "id": "now-cluster-united states-democrats + trump",
-      "title": "Democrats want to stop Trump's arch, golf course and more. What are their options?",
-      "brief": "Democrats want to stop Trump's arch, golf course and more. What are their options?",
+      "id": "now-cluster-united states-nvidia + lutnick",
+      "title": "Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
+      "brief": "Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -328,52 +463,51 @@
       "isHotNews": false,
       "sources": [
         "NBC News Politics",
-        "NPR Politics",
-        "The New York Times Politics"
+        "The New York Times World",
+        "CBS News"
       ],
       "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261102-james-talarico-washington-capitol-ww-1655-c49d11.jpg",
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7886x5257+0+0/resize/7886x5257!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7c%2F00%2F45ae5e5c4173a2bbdfc2feb574d7%2Fgettyimages-2303515786.jpg",
-        "https://static01.nyt.com/images/2026/11/12/multimedia/12cli-letters-02b-bhpw/12cli-letters-02b-bhpw-mediumSquareAt3X.jpg"
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261112-howard-lutnick-washington-ww-1636-e8ad4e.jpg",
+        "https://static01.nyt.com/images/2026/11/12/multimedia/12dc-commerce-nvidia-fzpt/12dc-commerce-nvidia-fzpt-mediumSquareAt3X.jpg"
       ],
       "evidence": [
         {
-          "title": "Democrats can’t wait until after Trump to produce results, James Talarico says",
+          "title": "Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
           "source": "NBC News Politics",
-          "publishedAt": "2026-11-13T01:28:48.131Z",
-          "sourceUrl": "https://www.nbcnews.com/politics/2026-election/democrats-cant-wait-trump-produce-results-james-talarico-says-rcna609096?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261102-james-talarico-washington-capitol-ww-1655-c49d11.jpg"
+          "publishedAt": "2026-11-13T02:45:27.671Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/congress/commerce-secretary-howard-lutnick-testify-pressure-nvidia-scandal-rcna609093?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261112-howard-lutnick-washington-ww-1636-e8ad4e.jpg"
         },
         {
-          "title": "Democrats Put Targets on Notice as Trump Oversight Takes Shape",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-12T18:07:23.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/12/climate/democrats-oversight-committees-letters.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12cli-letters-02b-bhpw/12cli-letters-02b-bhpw-mediumSquareAt3X.jpg"
+          "title": "Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
+          "source": "The New York Times World",
+          "publishedAt": "2026-11-13T01:28:40.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12dc-commerce-nvidia-fzpt/12dc-commerce-nvidia-fzpt-mediumSquareAt3X.jpg"
         },
         {
-          "title": "Democrats want to stop Trump's arch, golf course and more. What are their options?",
-          "source": "NPR Politics",
-          "publishedAt": "2026-11-12T17:13:54.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/12/nx-s1-6034539/democrats-congress-trump-arch-ballroom-funding-oversight?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7886x5257+0+0/resize/7886x5257!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7c%2F00%2F45ae5e5c4173a2bbdfc2feb574d7%2Fgettyimages-2303515786.jpg"
+          "title": "Critics say Lutnick failed to cut off diversion of Nvidia chips to China",
+          "source": "CBS News",
+          "publishedAt": "2026-11-12T23:33:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/lutnick-nvidia-ai-chips-china/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         }
       ],
-      "path": "/us/entity/democrats-want-to-stop-trump-s-arch-golf-course-and-more-what-are-their-options/"
+      "path": "/us/entity/howard-lutnick-agrees-to-testify-as-bipartisan-pressure-grows-over-nvidia-scanda/"
     },
     {
-      "id": "moving-cluster-united states-cindy + holscher",
-      "title": "Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories",
-      "brief": "Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories.",
+      "id": "now-cluster-united states-chris + hollen",
+      "title": "Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader",
+      "brief": "Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 22,
+      "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "2h fresh",
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 92,
@@ -381,6 +515,109 @@
         "Crosses several sources",
         "Picks up volume fast",
         "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times Politics",
+        "CBS News",
+        "NBC News Politics"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/12/multimedia/12dc-vanhollen-kvwt/12dc-vanhollen-kvwt-mediumSquareAt3X.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/10/8023000d-59ef-46a9-ba34-08164c04fcb8/thumbnail/1200x630/81be138a3b1cf77066d13d6bf1811ea1/ap26176520488521.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261112-schumer-van-hollen-split-ww-1806-750458.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-13T02:37:59.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/12/us/politics/van-hollen-schumer-democrats-majority-leader.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12dc-vanhollen-kvwt/12dc-vanhollen-kvwt-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
+          "source": "CBS News",
+          "publishedAt": "2026-11-13T02:10:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/chris-van-hollen-challenge-chuck-schumer-senate-majority-leader-democrat/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/10/8023000d-59ef-46a9-ba34-08164c04fcb8/thumbnail/1200x630/81be138a3b1cf77066d13d6bf1811ea1/ap26176520488521.jpg"
+        },
+        {
+          "title": "Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-13T02:06:37.244Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/congress/sen-chris-van-hollen-says-will-challenge-sen-chuck-schumer-majority-le-rcna609100?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261112-schumer-van-hollen-split-ww-1806-750458.jpg"
+        }
+      ],
+      "path": "/us/entity/sen-chris-van-hollen-says-he-will-challenge-sen-chuck-schumer-for-majority-leade/"
+    },
+    {
+      "id": "moving-cluster-united states-kansas + charges",
+      "title": "No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2",
+      "brief": "No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NBC News"
+      ],
+      "images": [
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/13/bccaefe0-5a23-460c-92d4-6abac7716181/thumbnail/1200x630/5cfc5695cda703c1cb52a6e18a9e98ea/cbsn-fusion-no-charges-driver-plowed-truck-field-during-kansas-youth-soccer-game-killing-2-thumbnail.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-10/261018-wichita-kansas-soccer-game-crash-rc-1216a-159395.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2",
+          "source": "CBS News",
+          "publishedAt": "2026-11-13T01:54:37.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/no-charges-driver-plowed-truck-field-during-kansas-youth-soccer-game-killing-2/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/13/bccaefe0-5a23-460c-92d4-6abac7716181/thumbnail/1200x630/5cfc5695cda703c1cb52a6e18a9e98ea/cbsn-fusion-no-charges-driver-plowed-truck-field-during-kansas-youth-soccer-game-killing-2-thumbnail.jpg"
+        },
+        {
+          "title": "No charges for woman who drove onto Kansas soccer field, killing 2, officials say",
+          "source": "NBC News",
+          "publishedAt": "2026-11-13T01:22:28.000Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/no-charges-woman-drove-kansas-soccer-field-killing-2-officials-say-rcna609094?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-10/261018-wichita-kansas-soccer-game-crash-rc-1216a-159395.jpg"
+        }
+      ],
+      "path": "/us/entity/no-charges-for-driver-who-plowed-truck-into-field-during-kansas-youth-soccer-gam/"
+    },
+    {
+      "id": "fading-cluster-united states-cindy + holscher",
+      "title": "Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories",
+      "brief": "Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories.",
+      "whyItMatters": "",
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 16,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "3h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 68,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast"
       ],
       "isHotNews": false,
       "sources": [
@@ -419,97 +656,50 @@
       "path": "/us/entity/cindy-holscher-wins-election-for-kansas-governor-extending-democrats-wave-of-vic/"
     },
     {
-      "id": "now-cluster-united states-kansas + charges",
-      "title": "No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2",
-      "brief": "No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2.",
+      "id": "fading-cluster-united states-shooting + killed",
+      "title": "Witnesses describe the D.C. shooting that left 1 dead, 4 injured",
+      "brief": "Witnesses describe the D.C. shooting that left 1 dead, 4 injured.",
       "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 16,
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresh now",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 76,
+      "alertScore": 52,
       "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
+        "Crosses several sources"
       ],
       "isHotNews": false,
       "sources": [
-        "CBS News",
-        "NBC News"
+        "PBS NewsHour",
+        "NPR Politics"
       ],
       "images": [
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/13/bccaefe0-5a23-460c-92d4-6abac7716181/thumbnail/1200x630/5cfc5695cda703c1cb52a6e18a9e98ea/cbsn-fusion-no-charges-driver-plowed-truck-field-during-kansas-youth-soccer-game-killing-2-thumbnail.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-10/261018-wichita-kansas-soccer-game-crash-rc-1216a-159395.jpg"
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrapnov12-1024x683.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2617x1745+0+0/resize/2617x1745!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5c%2F8b%2F7e225de64a2d86828ffdb414d762%2Fap26316527860423.jpg"
       ],
       "evidence": [
         {
-          "title": "No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2",
-          "source": "CBS News",
-          "publishedAt": "2026-11-13T01:54:37.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/no-charges-driver-plowed-truck-field-during-kansas-youth-soccer-game-killing-2/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/13/bccaefe0-5a23-460c-92d4-6abac7716181/thumbnail/1200x630/5cfc5695cda703c1cb52a6e18a9e98ea/cbsn-fusion-no-charges-driver-plowed-truck-field-during-kansas-youth-soccer-game-killing-2-thumbnail.jpg"
+          "title": "News Wrap: 1 killed and 4 injured in D.C. shooting",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-12T23:45:02.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/news-wrap-1-killed-and-4-injured-in-d-c-shooting?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrapnov12-1024x683.jpg"
         },
         {
-          "title": "No charges for woman who drove onto Kansas soccer field, killing 2, officials say",
-          "source": "NBC News",
-          "publishedAt": "2026-11-13T01:22:28.000Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/no-charges-woman-drove-kansas-soccer-field-killing-2-officials-say-rcna609094?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-10/261018-wichita-kansas-soccer-game-crash-rc-1216a-159395.jpg"
+          "title": "Witnesses describe the D.C. shooting that left 1 dead, 4 injured",
+          "source": "NPR Politics",
+          "publishedAt": "2026-11-12T16:12:53.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/12/nx-s1-6038860/dc-logan-circle-shooting?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2617x1745+0+0/resize/2617x1745!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5c%2F8b%2F7e225de64a2d86828ffdb414d762%2Fap26316527860423.jpg"
         }
       ],
-      "path": "/us/entity/no-charges-for-driver-who-plowed-truck-into-field-during-kansas-youth-soccer-gam/"
-    },
-    {
-      "id": "moving-cluster-united states-nvidia + lutnick",
-      "title": "Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
-      "brief": "Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times World",
-        "CBS News"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/12/multimedia/12dc-commerce-nvidia-fzpt/12dc-commerce-nvidia-fzpt-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
-          "source": "The New York Times World",
-          "publishedAt": "2026-11-13T01:28:40.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12dc-commerce-nvidia-fzpt/12dc-commerce-nvidia-fzpt-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Critics say Lutnick failed to cut off diversion of Nvidia chips to China",
-          "source": "CBS News",
-          "publishedAt": "2026-11-12T23:33:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/lutnick-nvidia-ai-chips-china/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/us/entity/howard-lutnick-took-softer-line-on-nvidia-as-calls-for-tougher-controls-grew/"
+      "path": "/us/entity/witnesses-describe-the-d-c-shooting-that-left-1-dead-4-injured/"
     }
   ]
 }
