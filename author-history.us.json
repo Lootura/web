@@ -1,10 +1,16 @@
 {
-	"updatedAt": "2026-11-13T03:00:48.096Z",
+	"updatedAt": "2026-11-13T04:00:47.938Z",
 	"feedProfile": "us",
 	"retentionDays": 90,
 	"totalAuthors": 80,
-	"totalBylinedItems": 525,
+	"totalBylinedItems": 526,
 	"runs": [
+		{
+			"at": "2026-11-13T04:00:47.938Z",
+			"itemCount": 120,
+			"bylinedItemCount": 82,
+			"authorCount": 80
+		},
 		{
 			"at": "2026-11-13T03:00:48.096Z",
 			"itemCount": 120,
@@ -177,12 +183,6 @@
 			"at": "2026-11-10T01:48:34.517Z",
 			"itemCount": 120,
 			"bylinedItemCount": 91,
-			"authorCount": 80
-		},
-		{
-			"at": "2026-11-09T18:21:05.029Z",
-			"itemCount": 120,
-			"bylinedItemCount": 88,
 			"authorCount": 80
 		}
 	],
@@ -1277,6 +1277,237 @@
 			]
 		},
 		{
+			"id": "pbs newshour::amna nawaz",
+			"name": "Amna Nawaz",
+			"source": "PBS NewsHour",
+			"profileUrl": "",
+			"itemCount": 20,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 406,
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-02T23:35:57.000Z",
+			"latestAt": "2026-11-12T23:55:39.000Z",
+			"daysActive": 11,
+			"categories": [
+				"general"
+			],
+			"sources": [
+				"PBS NewsHour"
+			],
+			"examples": [
+				{
+					"key": "https://www.pbs.org/newshour/show/what-huangs-resignation-mean-for-chipmakers-ai-and-u-s-national-security?ref=lootura.com",
+					"title": "What Huang's resignation means for chipmakers, AI and U.S. national security",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/what-huangs-resignation-mean-for-chipmakers-ai-and-u-s-national-security?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T23:55:39.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/abdul-el-sayed-on-democratic-leadership-health-care-access-and-inspiring-a-new-generation?ref=lootura.com",
+					"title": "Abdul El-Sayed on Democratic leadership, health care access and inspiring a new generation",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/abdul-el-sayed-on-democratic-leadership-health-care-access-and-inspiring-a-new-generation?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T23:35:14.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/white-house-threatens-democrats-over-plans-to-investigate-trump-officials?ref=lootura.com",
+					"title": "White House threatens Democrats over plans to investigate Trump officials",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/white-house-threatens-democrats-over-plans-to-investigate-trump-officials?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-11T23:45:49.000Z",
+					"category": "general",
+					"weight": 4
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.pbs.org/newshour/show/what-huangs-resignation-mean-for-chipmakers-ai-and-u-s-national-security?ref=lootura.com",
+					"title": "What Huang's resignation means for chipmakers, AI and U.S. national security",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/what-huangs-resignation-mean-for-chipmakers-ai-and-u-s-national-security?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T23:55:39.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/abdul-el-sayed-on-democratic-leadership-health-care-access-and-inspiring-a-new-generation?ref=lootura.com",
+					"title": "Abdul El-Sayed on Democratic leadership, health care access and inspiring a new generation",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/abdul-el-sayed-on-democratic-leadership-health-care-access-and-inspiring-a-new-generation?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T23:35:14.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/white-house-threatens-democrats-over-plans-to-investigate-trump-officials?ref=lootura.com",
+					"title": "White House threatens Democrats over plans to investigate Trump officials",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/white-house-threatens-democrats-over-plans-to-investigate-trump-officials?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-11T23:45:49.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/they-want-us-to-fight-jeffries-outlines-priorities-as-democrats-prepare-to-take-power?ref=lootura.com",
+					"title": "'They want us to fight': Jeffries outlines priorities as Democrats prepare to take power",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/they-want-us-to-fight-jeffries-outlines-priorities-as-democrats-prepare-to-take-power?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T23:40:05.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/a-matter-of-hope-shines-light-on-social-entrepreneurs-tackling-big-issues?ref=lootura.com",
+					"title": "'A Matter of Hope' shines light on social entrepreneurs tackling big issues",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/a-matter-of-hope-shines-light-on-social-entrepreneurs-tackling-big-issues?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T23:25:47.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/what-china-stands-to-gain-from-nvidias-ceos-alleged-affair-with-spy?ref=lootura.com",
+					"title": "What China stands to gain from Nvidia's CEO's alleged affair with spy",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/what-china-stands-to-gain-from-nvidias-ceos-alleged-affair-with-spy?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T23:50:09.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/tamara-keith-and-amy-walter-on-how-trump-will-govern-after-the-blue-wave?ref=lootura.com",
+					"title": "Tamara Keith and Amy Walter on how Trump will govern after the blue wave",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/tamara-keith-and-amy-walter-on-how-trump-will-govern-after-the-blue-wave?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T23:20:06.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/what-to-know-about-a-better-than-expected-jobs-report-amid-ai-bubble-concerns?ref=lootura.com",
+					"title": "What to know about a better-than-expected jobs report amid AI bubble concerns",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/what-to-know-about-a-better-than-expected-jobs-report-amid-ai-bubble-concerns?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-06T23:45:56.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/sen-elect-hamilton-reflects-on-why-kansas-voters-chose-a-democrat-for-u-s-senate?ref=lootura.com",
+					"title": "Sen.-elect Hamilton reflects on why Kansas voters chose a Democrat for U.S. Senate",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/sen-elect-hamilton-reflects-on-why-kansas-voters-chose-a-democrat-for-u-s-senate?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-06T23:40:45.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/former-sen-flake-outspoken-trump-critic-on-the-gop-reckoning-post-midterms?ref=lootura.com",
+					"title": "Former Sen. Flake, outspoken Trump critic, on the GOP reckoning post-midterms",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/former-sen-flake-outspoken-trump-critic-on-the-gop-reckoning-post-midterms?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-06T23:30:54.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/a-look-at-the-midterm-races-that-remain-undecided?ref=lootura.com",
+					"title": "A look at the midterm races that remain undecided",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/a-look-at-the-midterm-races-that-remain-undecided?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-05T23:55:48.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/newsom-plans-to-commute-all-of-californias-death-sentences?ref=lootura.com",
+					"title": "Newsom plans to commute all of California's death sentences",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/newsom-plans-to-commute-all-of-californias-death-sentences?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-05T23:40:51.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/the-issues-that-drove-voters-decisions-in-the-midterms?ref=lootura.com",
+					"title": "The issues that drove voters' decisions in the midterms",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/the-issues-that-drove-voters-decisions-in-the-midterms?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-04T23:40:31.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/a-mandate-for-change-progressive-democrat-william-lawrence-flips-house-seat-in-michigan?ref=lootura.com",
+					"title": "'A mandate for change': Progressive Democrat William Lawrence flips House seat in Michigan",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/a-mandate-for-change-progressive-democrat-william-lawrence-flips-house-seat-in-michigan?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-04T23:35:28.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/okcs-republican-mayor-says-election-wipeout-is-rejection-of-trumpism?ref=lootura.com",
+					"title": "OKC's Republican mayor says election wipeout is 'rejection of Trumpism'",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/okcs-republican-mayor-says-election-wipeout-is-rejection-of-trumpism?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-04T23:25:13.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/how-the-latino-shift-to-democrats-helped-turn-texas-blue?ref=lootura.com",
+					"title": "How the Latino shift to Democrats helped turn Texas blue",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/how-the-latino-shift-to-democrats-helped-turn-texas-blue?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-04T23:20:54.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/expert-panel-on-what-to-expect-on-election-night?ref=lootura.com",
+					"title": "Expert panel on what to expect on Election Night",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/expert-panel-on-what-to-expect-on-election-night?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-03T23:54:50.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/pelosi-reflects-on-historic-career-and-predicts-big-victory-for-democrats?ref=lootura.com",
+					"title": "Pelosi reflects on historic career and predicts 'big victory' for Democrats",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/pelosi-reflects-on-historic-career-and-predicts-big-victory-for-democrats?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-03T23:45:16.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/zelenskyy-on-his-emotional-relationship-with-trump-and-fighting-russia?ref=lootura.com",
+					"title": "Zelenskyy on his 'emotional' relationship with Trump and fighting Russia",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/zelenskyy-on-his-emotional-relationship-with-trump-and-fighting-russia?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-02T23:45:25.000Z",
+					"category": "general",
+					"weight": 4
+				},
+				{
+					"key": "https://www.pbs.org/newshour/show/surprise-endorsement-in-michigan-senate-race-a-huge-distraction-says-rep-dingell?ref=lootura.com",
+					"title": "Surprise endorsement in Michigan Senate race a 'huge distraction,' says Rep. Dingell",
+					"source": "PBS NewsHour",
+					"href": "https://www.pbs.org/newshour/show/surprise-endorsement-in-michigan-senate-race-a-huge-distraction-says-rep-dingell?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-02T23:35:57.000Z",
+					"category": "general",
+					"weight": 4
+				}
+			]
+		},
+		{
 			"id": "npr world::the associated press",
 			"name": "The Associated Press",
 			"source": "NPR World",
@@ -1495,228 +1726,6 @@
 					"publishedAt": "2026-10-29T06:10:11.000Z",
 					"category": "world",
 					"weight": 3
-				}
-			]
-		},
-		{
-			"id": "pbs newshour::amna nawaz",
-			"name": "Amna Nawaz",
-			"source": "PBS NewsHour",
-			"profileUrl": "",
-			"itemCount": 19,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 387,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-02T23:35:57.000Z",
-			"latestAt": "2026-11-12T23:35:14.000Z",
-			"daysActive": 10,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"PBS NewsHour"
-			],
-			"examples": [
-				{
-					"key": "https://www.pbs.org/newshour/show/abdul-el-sayed-on-democratic-leadership-health-care-access-and-inspiring-a-new-generation?ref=lootura.com",
-					"title": "Abdul El-Sayed on Democratic leadership, health care access and inspiring a new generation",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/abdul-el-sayed-on-democratic-leadership-health-care-access-and-inspiring-a-new-generation?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T23:35:14.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/white-house-threatens-democrats-over-plans-to-investigate-trump-officials?ref=lootura.com",
-					"title": "White House threatens Democrats over plans to investigate Trump officials",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/white-house-threatens-democrats-over-plans-to-investigate-trump-officials?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T23:45:49.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/they-want-us-to-fight-jeffries-outlines-priorities-as-democrats-prepare-to-take-power?ref=lootura.com",
-					"title": "'They want us to fight': Jeffries outlines priorities as Democrats prepare to take power",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/they-want-us-to-fight-jeffries-outlines-priorities-as-democrats-prepare-to-take-power?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T23:40:05.000Z",
-					"category": "general",
-					"weight": 4
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.pbs.org/newshour/show/abdul-el-sayed-on-democratic-leadership-health-care-access-and-inspiring-a-new-generation?ref=lootura.com",
-					"title": "Abdul El-Sayed on Democratic leadership, health care access and inspiring a new generation",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/abdul-el-sayed-on-democratic-leadership-health-care-access-and-inspiring-a-new-generation?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T23:35:14.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/white-house-threatens-democrats-over-plans-to-investigate-trump-officials?ref=lootura.com",
-					"title": "White House threatens Democrats over plans to investigate Trump officials",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/white-house-threatens-democrats-over-plans-to-investigate-trump-officials?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T23:45:49.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/they-want-us-to-fight-jeffries-outlines-priorities-as-democrats-prepare-to-take-power?ref=lootura.com",
-					"title": "'They want us to fight': Jeffries outlines priorities as Democrats prepare to take power",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/they-want-us-to-fight-jeffries-outlines-priorities-as-democrats-prepare-to-take-power?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T23:40:05.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/a-matter-of-hope-shines-light-on-social-entrepreneurs-tackling-big-issues?ref=lootura.com",
-					"title": "'A Matter of Hope' shines light on social entrepreneurs tackling big issues",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/a-matter-of-hope-shines-light-on-social-entrepreneurs-tackling-big-issues?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T23:25:47.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/what-china-stands-to-gain-from-nvidias-ceos-alleged-affair-with-spy?ref=lootura.com",
-					"title": "What China stands to gain from Nvidia's CEO's alleged affair with spy",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/what-china-stands-to-gain-from-nvidias-ceos-alleged-affair-with-spy?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T23:50:09.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/tamara-keith-and-amy-walter-on-how-trump-will-govern-after-the-blue-wave?ref=lootura.com",
-					"title": "Tamara Keith and Amy Walter on how Trump will govern after the blue wave",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/tamara-keith-and-amy-walter-on-how-trump-will-govern-after-the-blue-wave?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T23:20:06.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/what-to-know-about-a-better-than-expected-jobs-report-amid-ai-bubble-concerns?ref=lootura.com",
-					"title": "What to know about a better-than-expected jobs report amid AI bubble concerns",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/what-to-know-about-a-better-than-expected-jobs-report-amid-ai-bubble-concerns?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-06T23:45:56.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/sen-elect-hamilton-reflects-on-why-kansas-voters-chose-a-democrat-for-u-s-senate?ref=lootura.com",
-					"title": "Sen.-elect Hamilton reflects on why Kansas voters chose a Democrat for U.S. Senate",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/sen-elect-hamilton-reflects-on-why-kansas-voters-chose-a-democrat-for-u-s-senate?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-06T23:40:45.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/former-sen-flake-outspoken-trump-critic-on-the-gop-reckoning-post-midterms?ref=lootura.com",
-					"title": "Former Sen. Flake, outspoken Trump critic, on the GOP reckoning post-midterms",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/former-sen-flake-outspoken-trump-critic-on-the-gop-reckoning-post-midterms?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-06T23:30:54.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/a-look-at-the-midterm-races-that-remain-undecided?ref=lootura.com",
-					"title": "A look at the midterm races that remain undecided",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/a-look-at-the-midterm-races-that-remain-undecided?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-05T23:55:48.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/newsom-plans-to-commute-all-of-californias-death-sentences?ref=lootura.com",
-					"title": "Newsom plans to commute all of California's death sentences",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/newsom-plans-to-commute-all-of-californias-death-sentences?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-05T23:40:51.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/the-issues-that-drove-voters-decisions-in-the-midterms?ref=lootura.com",
-					"title": "The issues that drove voters' decisions in the midterms",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/the-issues-that-drove-voters-decisions-in-the-midterms?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-04T23:40:31.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/a-mandate-for-change-progressive-democrat-william-lawrence-flips-house-seat-in-michigan?ref=lootura.com",
-					"title": "'A mandate for change': Progressive Democrat William Lawrence flips House seat in Michigan",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/a-mandate-for-change-progressive-democrat-william-lawrence-flips-house-seat-in-michigan?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-04T23:35:28.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/okcs-republican-mayor-says-election-wipeout-is-rejection-of-trumpism?ref=lootura.com",
-					"title": "OKC's Republican mayor says election wipeout is 'rejection of Trumpism'",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/okcs-republican-mayor-says-election-wipeout-is-rejection-of-trumpism?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-04T23:25:13.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/how-the-latino-shift-to-democrats-helped-turn-texas-blue?ref=lootura.com",
-					"title": "How the Latino shift to Democrats helped turn Texas blue",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/how-the-latino-shift-to-democrats-helped-turn-texas-blue?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-04T23:20:54.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/expert-panel-on-what-to-expect-on-election-night?ref=lootura.com",
-					"title": "Expert panel on what to expect on Election Night",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/expert-panel-on-what-to-expect-on-election-night?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-03T23:54:50.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/pelosi-reflects-on-historic-career-and-predicts-big-victory-for-democrats?ref=lootura.com",
-					"title": "Pelosi reflects on historic career and predicts 'big victory' for Democrats",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/pelosi-reflects-on-historic-career-and-predicts-big-victory-for-democrats?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-03T23:45:16.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/zelenskyy-on-his-emotional-relationship-with-trump-and-fighting-russia?ref=lootura.com",
-					"title": "Zelenskyy on his 'emotional' relationship with Trump and fighting Russia",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/zelenskyy-on-his-emotional-relationship-with-trump-and-fighting-russia?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-02T23:45:25.000Z",
-					"category": "general",
-					"weight": 4
-				},
-				{
-					"key": "https://www.pbs.org/newshour/show/surprise-endorsement-in-michigan-senate-race-a-huge-distraction-says-rep-dingell?ref=lootura.com",
-					"title": "Surprise endorsement in Michigan Senate race a 'huge distraction,' says Rep. Dingell",
-					"source": "PBS NewsHour",
-					"href": "https://www.pbs.org/newshour/show/surprise-endorsement-in-michigan-senate-race-a-huge-distraction-says-rep-dingell?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-02T23:35:57.000Z",
-					"category": "general",
-					"weight": 4
 				}
 			]
 		},
@@ -3187,9 +3196,9 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 223,
-			"confidence": "low",
+			"confidence": "medium",
 			"firstSeenAt": "2026-11-05T12:15:39.000Z",
-			"latestAt": "2026-11-13T00:25:08.000Z",
+			"latestAt": "2026-11-13T03:27:02.000Z",
 			"daysActive": 8,
 			"categories": [
 				"politics"
@@ -3203,7 +3212,7 @@
 					"title": "Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
 					"source": "The New York Times Politics",
 					"href": "https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T00:25:08.000Z",
+					"publishedAt": "2026-11-13T03:27:02.000Z",
 					"category": "politics",
 					"weight": 4
 				},
@@ -3232,7 +3241,7 @@
 					"title": "Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
 					"source": "The New York Times Politics",
 					"href": "https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T00:25:08.000Z",
+					"publishedAt": "2026-11-13T03:27:02.000Z",
 					"category": "politics",
 					"weight": 4
 				},
@@ -4162,7 +4171,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 156,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-10-31T09:05:21.000Z",
 			"latestAt": "2026-11-13T02:23:48.000Z",
 			"daysActive": 13,
@@ -4477,9 +4486,9 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 148,
-			"confidence": "low",
+			"confidence": "medium",
 			"firstSeenAt": "2026-11-08T21:11:51.000Z",
-			"latestAt": "2026-11-13T00:25:08.000Z",
+			"latestAt": "2026-11-13T03:27:02.000Z",
 			"daysActive": 5,
 			"categories": [
 				"politics"
@@ -4493,7 +4502,7 @@
 					"title": "Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
 					"source": "The New York Times Politics",
 					"href": "https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T00:25:08.000Z",
+					"publishedAt": "2026-11-13T03:27:02.000Z",
 					"category": "politics",
 					"weight": 4
 				},
@@ -4522,7 +4531,7 @@
 					"title": "Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
 					"source": "The New York Times Politics",
 					"href": "https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T00:25:08.000Z",
+					"publishedAt": "2026-11-13T03:27:02.000Z",
 					"category": "politics",
 					"weight": 4
 				},
@@ -4582,9 +4591,9 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 148,
-			"confidence": "low",
+			"confidence": "medium",
 			"firstSeenAt": "2026-11-08T21:11:51.000Z",
-			"latestAt": "2026-11-13T00:25:08.000Z",
+			"latestAt": "2026-11-13T03:27:02.000Z",
 			"daysActive": 5,
 			"categories": [
 				"politics"
@@ -4598,7 +4607,7 @@
 					"title": "Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
 					"source": "The New York Times Politics",
 					"href": "https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T00:25:08.000Z",
+					"publishedAt": "2026-11-13T03:27:02.000Z",
 					"category": "politics",
 					"weight": 4
 				},
@@ -4627,7 +4636,7 @@
 					"title": "Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
 					"source": "The New York Times Politics",
 					"href": "https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T00:25:08.000Z",
+					"publishedAt": "2026-11-13T03:27:02.000Z",
 					"category": "politics",
 					"weight": 4
 				},

@@ -2,8 +2,98 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-13T03:00:48.096Z",
+	"updatedAt": "2026-11-13T04:00:47.938Z",
 	"entries": {
+		"cluster-usa-nvidia-trump-nvidia-trump": {
+			"candidateId": "cluster-usa-nvidia + trump",
+			"label": "nvidia + trump",
+			"latestAt": "2026-11-13T03:27:02.000Z",
+			"startedAt": "2026-11-12T14:17:20.000Z",
+			"itemCount": 9,
+			"sourceCount": 5,
+			"terms": [
+				"nvidia",
+				"trump"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"CBS News",
+				"NPR",
+				"The New York Times",
+				"The Verge"
+			],
+			"titles": [
+				"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+				"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+				"What happens next as Huang steps down as Nvidia CEO following affair scandal",
+				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
+				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
+				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
+				"Donald Trump really wants Tim Cook to run Nvidia"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
+			"entityLastCandidateAt": "2026-11-13T03:27:02.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T04:00:47.938Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-13T03:27:02.000Z",
+					"itemCount": 9,
+					"sourceCount": 5,
+					"headlines": [
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-13T03:27:02.000Z|9|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+				},
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-13T00:46:07.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Donald Trump really wants Tim Cook to run Nvidia",
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO"
+					],
+					"sources": [
+						"The Verge",
+						"The New York Times Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-13T00:46:07.000Z|4|Donald Trump really wants Tim Cook to run Nvidia"
+				},
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-12T17:06:46.000Z",
+					"itemCount": 17,
+					"sourceCount": 7,
+					"headlines": [
+						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+						"Jensen Huang resigns as Nvidia CEO after alleged affairs",
+						"Trump reacts after Nvidia CEO Jensen Huang resigns"
+					],
+					"sources": [
+						"CBS News",
+						"The Guardian US",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-12T17:06:46.000Z|17|Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+		},
 		"cluster-usa-building-collapse-building-collapse": {
 			"candidateId": "cluster-usa-building + collapse",
 			"label": "building + collapse",
@@ -181,7 +271,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-mississippi-senate-mississippi-senate": {
 			"candidateId": "cluster-usa-mississippi + senate",
@@ -320,7 +410,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-democrats-trump-democrats-trump": {
 			"candidateId": "cluster-usa-democrats + trump",
@@ -387,291 +477,78 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
-		"cluster-usa-nvidia-huang-nvidia-huang": {
-			"candidateId": "cluster-usa-nvidia + huang",
-			"label": "nvidia + huang",
-			"latestAt": "2026-11-13T01:52:57.000Z",
-			"startedAt": "2026-11-12T14:17:20.000Z",
-			"itemCount": 8,
-			"sourceCount": 3,
-			"terms": [
-				"nvidia",
-				"huang"
-			],
-			"sources": [
-				"CBS News",
-				"The New York Times",
-				"NPR"
-			],
-			"titles": [
-				"What could happen to AI development and chip production as Huang resigns from Nvidia",
-				"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
-				"What happens next as Huang steps down as Nvidia CEO following affair scandal",
-				"What Jensen Huang's resignation means for Nvidia, global AI race",
-				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
-				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
-				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal"
-			],
-			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-13T01:52:57.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T01:52:57.000Z",
-					"itemCount": 8,
-					"sourceCount": 3,
-					"headlines": [
-						"What could happen to AI development and chip production as Huang resigns from Nvidia",
-						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
-						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NPR"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|8|What could happen to AI development and chip production as Huang resigns from Nvidia"
-				},
-				{
-					"observedAt": "2026-11-13T02:00:48.242Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T01:52:57.000Z",
-					"itemCount": 13,
-					"sourceCount": 5,
-					"headlines": [
-						"What could happen to AI development and chip production as Huang resigns from Nvidia",
-						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
-						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NPR"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|13|What could happen to AI development and chip production as Huang resigns from Nvidia"
-				},
-				{
-					"observedAt": "2026-11-13T01:00:47.794Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T00:25:08.000Z",
-					"itemCount": 14,
-					"sourceCount": 5,
-					"headlines": [
-						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
-						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"NPR"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T00:25:08.000Z|14|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
-				},
-				{
-					"observedAt": "2026-11-12T23:00:48.320Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T22:46:24.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
-						"Who is Colette Kress, Nvidia’s new interim CEO?",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T22:46:24.000Z|4|Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns"
-				},
-				{
-					"observedAt": "2026-11-12T22:00:48.193Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T21:45:00.000Z",
-					"itemCount": 18,
-					"sourceCount": 7,
-					"headlines": [
-						"‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation",
-						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
-						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmakers say"
-					],
-					"sources": [
-						"The Verge",
-						"CBS News",
-						"NBC News Politics"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T21:45:00.000Z|18|‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation"
-				},
-				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T19:44:29.000Z",
-					"itemCount": 16,
-					"sourceCount": 5,
-					"headlines": [
-						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
-						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T19:44:29.000Z|16|Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
-				},
-				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T16:51:22.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
-						"NYC building collapse: Death toll rises"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
-				},
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T15:30:04.000Z",
-					"itemCount": 11,
-					"sourceCount": 8,
-					"headlines": [
-						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
-						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-						"Nvidia CEO Jensen Huang has resigned. What happens next?"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"The Verge"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
-				},
-				{
-					"observedAt": "2026-11-12T03:38:47.147Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T02:52:00.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
-						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
-						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
-				},
-				{
-					"observedAt": "2026-11-09T18:21:05.029Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-09T17:58:28.000Z",
-					"itemCount": 11,
-					"sourceCount": 6,
-					"headlines": [
-						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
-						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
-						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
-		},
-		"cluster-usa-nvidia-trump-nvidia-trump": {
-			"candidateId": "cluster-usa-nvidia + trump",
-			"label": "nvidia + trump",
-			"latestAt": "2026-11-13T00:46:07.000Z",
-			"startedAt": "2026-11-12T22:45:40.000Z",
+		"cluster-usa-senate-leader-senate-leader": {
+			"candidateId": "cluster-usa-senate + leader",
+			"label": "senate + leader",
+			"latestAt": "2026-11-13T03:52:25.000Z",
+			"startedAt": "2026-11-13T02:06:37.244Z",
 			"itemCount": 4,
 			"sourceCount": 4,
 			"terms": [
-				"nvidia",
-				"trump"
+				"senate",
+				"leader"
 			],
 			"sources": [
-				"The Verge",
+				"NPR Politics",
 				"The New York Times Politics",
 				"CBS News",
-				"NPR"
+				"NBC News Politics"
 			],
 			"titles": [
-				"Donald Trump really wants Tim Cook to run Nvidia",
-				"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-				"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
-				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang"
+				"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+				"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+				"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
+				"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
 			],
-			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
-			"entityLastCandidateAt": "2026-11-13T00:46:07.000Z",
+			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
+			"entityLastCandidateAt": "2026-11-13T03:52:25.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "nvidia + trump",
-					"latestAt": "2026-11-13T00:46:07.000Z",
+					"observedAt": "2026-11-13T04:00:47.938Z",
+					"label": "senate + leader",
+					"latestAt": "2026-11-13T03:52:25.000Z",
 					"itemCount": 4,
 					"sourceCount": 4,
 					"headlines": [
-						"Donald Trump really wants Tim Cook to run Nvidia",
-						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO"
+						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
 					],
 					"sources": [
-						"The Verge",
+						"NPR Politics",
 						"The New York Times Politics",
 						"CBS News"
 					],
-					"eventId": "cluster-usa-nvidia + trump|2026-11-13T00:46:07.000Z|4|Donald Trump really wants Tim Cook to run Nvidia"
+					"eventId": "cluster-usa-senate + leader|2026-11-13T03:52:25.000Z|4|Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
 				},
 				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "nvidia + trump",
-					"latestAt": "2026-11-12T17:06:46.000Z",
-					"itemCount": 17,
-					"sourceCount": 7,
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "senate + leader",
+					"latestAt": "2026-11-13T02:37:59.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
 					"headlines": [
-						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-						"Jensen Huang resigns as Nvidia CEO after alleged affairs",
-						"Trump reacts after Nvidia CEO Jensen Huang resigns"
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
+						"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
 					],
 					"sources": [
+						"The New York Times Politics",
 						"CBS News",
-						"The Guardian US",
-						"The New York Times"
+						"NBC News Politics"
 					],
-					"eventId": "cluster-usa-nvidia + trump|2026-11-12T17:06:46.000Z|17|Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal"
+					"eventId": "cluster-usa-senate + leader|2026-11-13T02:37:59.000Z|3|Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-microsoft-outage-microsoft-outage": {
 			"candidateId": "cluster-usa-microsoft + outage",
 			"label": "microsoft + outage",
-			"latestAt": "2026-11-13T01:48:06.000Z",
+			"latestAt": "2026-11-13T03:03:35.000Z",
 			"startedAt": "2026-11-12T23:15:24.000Z",
 			"itemCount": 4,
 			"sourceCount": 3,
@@ -691,8 +568,26 @@
 				"Widespread outage hits Microsoft platforms including Outlook, thousands report issues"
 			],
 			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T01:48:06.000Z",
+			"entityLastCandidateAt": "2026-11-13T03:03:35.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T04:00:47.938Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T03:03:35.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+						"Widespread outage of Microsoft apps used by hundreds of millions"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T03:03:35.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+				},
 				{
 					"observedAt": "2026-11-13T03:00:48.096Z",
 					"label": "microsoft + outage",
@@ -713,7 +608,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
 			"candidateId": "cluster-usa-nvidia + lutnick",
@@ -775,53 +670,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
-		},
-		"cluster-usa-senate-leader-senate-leader": {
-			"candidateId": "cluster-usa-senate + leader",
-			"label": "senate + leader",
-			"latestAt": "2026-11-13T02:37:59.000Z",
-			"startedAt": "2026-11-13T02:06:37.244Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"senate",
-				"leader"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"CBS News",
-				"NBC News Politics"
-			],
-			"titles": [
-				"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-				"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
-				"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
-			],
-			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T02:37:59.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "senate + leader",
-					"latestAt": "2026-11-13T02:37:59.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
-						"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"NBC News Politics"
-					],
-					"eventId": "cluster-usa-senate + leader|2026-11-13T02:37:59.000Z|3|Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-democrats-kansas-democrats-kansas": {
 			"candidateId": "cluster-usa-democrats + kansas",
@@ -867,13 +716,13 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-kansas-charges-kansas-charges": {
 			"candidateId": "cluster-usa-kansas + charges",
 			"label": "kansas + charges",
 			"latestAt": "2026-11-13T01:54:37.000Z",
-			"startedAt": "2026-11-13T01:22:28.000Z",
+			"startedAt": "2026-11-13T01:22:28.199Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
@@ -909,7 +758,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-shooting-killed-shooting-killed": {
 			"candidateId": "cluster-usa-shooting + killed",
@@ -967,7 +816,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -2626,56 +2475,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T13:36:18.901Z"
 		},
-		"cluster-usa-trump-immigration-trump-immigration": {
-			"candidateId": "cluster-usa-trump + immigration",
-			"label": "trump + immigration",
-			"latestAt": "2026-11-09T03:16:26.000Z",
-			"startedAt": "2026-11-08T22:04:17.000Z",
-			"itemCount": 6,
-			"sourceCount": 4,
-			"terms": [
-				"trump",
-				"immigration"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"NBC News Politics",
-				"CBS News",
-				"NPR Politics"
-			],
-			"titles": [
-				"Trump Says Immigration Crackdown May Have ‘Hurt’ Republicans in Midterms",
-				"Trump says deportations were ‘too tough’ and hurt him during the midterms",
-				"Trump tells ‘60 Minutes’ his deportation policy ‘was too tough’",
-				"Extended Interview: President Trump on 60 Minutes",
-				"10 takeaways from Trump's 60 Minutes interview",
-				"Trump staffing changes post-midterms signal he's battle ready"
-			],
-			"entityFirstSeenAt": "2026-11-09T11:32:26.028Z",
-			"entityLastCandidateAt": "2026-11-09T03:16:26.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T11:32:26.028Z",
-					"label": "trump + immigration",
-					"latestAt": "2026-11-09T03:16:26.000Z",
-					"itemCount": 6,
-					"sourceCount": 4,
-					"headlines": [
-						"Trump Says Immigration Crackdown May Have ‘Hurt’ Republicans in Midterms",
-						"Trump says deportations were ‘too tough’ and hurt him during the midterms",
-						"Trump tells ‘60 Minutes’ his deportation policy ‘was too tough’"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"NBC News Politics",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-trump + immigration|2026-11-09T03:16:26.000Z|6|Trump Says Immigration Crackdown May Have ‘Hurt’ Republicans in Midterms"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T11:32:26.028Z"
-		},
 		"cluster-usa-jeffries-agenda-jeffries-agenda": {
 			"candidateId": "cluster-usa-jeffries + agenda",
 			"label": "jeffries + agenda",
@@ -3802,6 +3601,219 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T18:20:36.924Z"
+		},
+		"cluster-usa-nvidia-huang-nvidia-huang": {
+			"candidateId": "cluster-usa-nvidia + huang",
+			"label": "nvidia + huang",
+			"latestAt": "2026-11-13T01:52:57.000Z",
+			"startedAt": "2026-11-12T14:17:20.000Z",
+			"itemCount": 8,
+			"sourceCount": 3,
+			"terms": [
+				"nvidia",
+				"huang"
+			],
+			"sources": [
+				"CBS News",
+				"The New York Times",
+				"NPR"
+			],
+			"titles": [
+				"What could happen to AI development and chip production as Huang resigns from Nvidia",
+				"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
+				"What happens next as Huang steps down as Nvidia CEO following affair scandal",
+				"What Jensen Huang's resignation means for Nvidia, global AI race",
+				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
+				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal"
+			],
+			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
+			"entityLastCandidateAt": "2026-11-13T01:52:57.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T01:52:57.000Z",
+					"itemCount": 8,
+					"sourceCount": 3,
+					"headlines": [
+						"What could happen to AI development and chip production as Huang resigns from Nvidia",
+						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|8|What could happen to AI development and chip production as Huang resigns from Nvidia"
+				},
+				{
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T01:52:57.000Z",
+					"itemCount": 13,
+					"sourceCount": 5,
+					"headlines": [
+						"What could happen to AI development and chip production as Huang resigns from Nvidia",
+						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|13|What could happen to AI development and chip production as Huang resigns from Nvidia"
+				},
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T00:25:08.000Z",
+					"itemCount": 14,
+					"sourceCount": 5,
+					"headlines": [
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T00:25:08.000Z|14|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+				},
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T22:46:24.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
+						"Who is Colette Kress, Nvidia’s new interim CEO?",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T22:46:24.000Z|4|Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns"
+				},
+				{
+					"observedAt": "2026-11-12T22:00:48.193Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T21:45:00.000Z",
+					"itemCount": 18,
+					"sourceCount": 7,
+					"headlines": [
+						"‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation",
+						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
+						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmakers say"
+					],
+					"sources": [
+						"The Verge",
+						"CBS News",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T21:45:00.000Z|18|‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation"
+				},
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T19:44:29.000Z",
+					"itemCount": 16,
+					"sourceCount": 5,
+					"headlines": [
+						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
+						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T19:44:29.000Z|16|Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+				},
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T16:51:22.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
+						"NYC building collapse: Death toll rises"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T15:30:04.000Z",
+					"itemCount": 11,
+					"sourceCount": 8,
+					"headlines": [
+						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+						"Nvidia CEO Jensen Huang has resigned. What happens next?"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"The Verge"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
+				},
+				{
+					"observedAt": "2026-11-12T03:38:47.147Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T02:52:00.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
+						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
+				},
+				{
+					"observedAt": "2026-11-09T18:21:05.029Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-09T17:58:28.000Z",
+					"itemCount": 11,
+					"sourceCount": 6,
+					"headlines": [
+						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
+						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
+						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
 		},
 		"cluster-usa-russell-brand-russell-brand": {
 			"candidateId": "cluster-usa-russell + brand",
@@ -13878,7 +13890,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-spain-entre-general-entre-general": {
 			"candidateId": "cluster-spain-entre + general",
@@ -15016,7 +15028,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-spain-pero-ciencia-pero-ciencia": {
 			"candidateId": "cluster-spain-pero + ciencia",
@@ -15058,7 +15070,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-spain-contra-papa-contra-papa": {
 			"candidateId": "cluster-spain-contra + papa",
@@ -15604,7 +15616,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-spain-primera-cuando-primera-cuando": {
 			"candidateId": "cluster-spain-primera + cuando",
@@ -15646,7 +15658,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-wins-race-wins-race": {
 			"candidateId": "cluster-usa-wins + race",
@@ -15933,7 +15945,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-spain-sanchez-feijoo-sanchez-feijoo": {
 			"candidateId": "cluster-spain-sanchez + feijoo",
@@ -15975,7 +15987,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-nvidia-calls-nvidia-calls": {
 			"candidateId": "cluster-usa-nvidia + calls",
@@ -16152,16 +16164,16 @@
 		}
 	},
 	"latestRun": {
-		"id": "local-us-2026-11-13T03:00:48.096Z",
+		"id": "local-us-2026-11-13T04:00:47.938Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-13T03:00:48.096Z",
-		"finishedAt": "2026-11-13T03:04:38.076Z",
-		"signalsCandidate": 11,
-		"signalsSelected": 11,
+		"startedAt": "2026-11-13T04:00:47.938Z",
+		"finishedAt": "2026-11-13T04:04:07.682Z",
+		"signalsCandidate": 10,
+		"signalsSelected": 10,
 		"signalsProcessed": 0,
-		"cacheHits": 9,
-		"skippedByConfig": 11,
+		"cacheHits": 10,
+		"skippedByConfig": 10,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -16171,10 +16183,10 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 9,
+			"cacheHits": 10,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 305,
+			"retained": 304,
 			"retainedByTtl": 294,
 			"retiredByTtl": 0
 		},
