@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-13T06:00:48.217Z",
+  "updatedAt": "2026-11-13T07:00:48.282Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "205.371 enlaces analizados",
-  "dayScanLabel": "4.254 enlaces escaneados en 24h",
+  "ambientPulseLabel": "205.803 enlaces analizados",
+  "dayScanLabel": "4.267 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,21 +19,84 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-begona + gomez",
+      "id": "now-cluster-españa-latin + grammy",
+      "title": "Rosalía, reina de los Latin Grammy: gana el premio a disco del año por ‘Lux’ y a canción del año por ‘La Perla’",
+      "brief": "Rosalía, reina de los Latin Grammy: gana el premio a disco del año por ‘Lux’ y a canción del año por ‘La Perla’.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 24,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 96,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo",
+        "El País"
+      ],
+      "images": [
+        "https://e01-phantom-elmundo.uecdn.es/9de85efcb0eaf168eefd1fea185c4086/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17945503223714.jpg",
+        "https://imagenes.elpais.com/resizer/v2/3JJJM3BD7ND65AFE4DMODI3XVA.jpg?auth=d8fe37e32a52ceae6ff8b6cd140e2087e2d4d60346b14fdf268a37b0a48b6cf0"
+      ],
+      "evidence": [
+        {
+          "title": "Rosalía triunfa en los Latin Grammy",
+          "source": "El Correo",
+          "publishedAt": "2026-11-13T06:18:54.000Z",
+          "sourceUrl": "https://www.elcorreo.com/culturas/rosalia-triunfa-latin-grammy-20261113065002-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Rosalía hace historia en los Latin Grammy 2026 con su tercer mejor álbum del año",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-13T06:13:19.000Z",
+          "sourceUrl": "https://www.elmundo.es/cultura/musica/2026/11/13/6af6a959fc6c830f298b456f.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/9de85efcb0eaf168eefd1fea185c4086/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17945503223714.jpg"
+        },
+        {
+          "title": "Rosalía, reina de los Latin Grammy: gana el premio a disco del año por ‘Lux’ y a canción del año por ‘La Perla’",
+          "source": "El País",
+          "publishedAt": "2026-11-13T05:12:21.000Z",
+          "sourceUrl": "https://elpais.com/us/entretenimiento/2026-11-13/rosalia-reina-de-los-latin-grammy-gana-el-premio-a-disco-del-ano-por-lux-y-a-cancion-del-ano-por-la-perla.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Todos los ‘looks’ de la alfombra roja de los Latin Grammy 2026",
+          "source": "El País",
+          "publishedAt": "2026-11-13T03:21:25.000Z",
+          "sourceUrl": "https://elpais.com/smoda/moda/2026-11-12/todos-los-looks-de-la-alfombra-roja-de-los-latin-grammy.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/3JJJM3BD7ND65AFE4DMODI3XVA.jpg?auth=d8fe37e32a52ceae6ff8b6cd140e2087e2d4d60346b14fdf268a37b0a48b6cf0"
+        }
+      ],
+      "path": "/es/entity/rosalia-reina-de-los-latin-grammy-gana-el-premio-a-disco-del-ano-por-lux-y-a-can/"
+    },
+    {
+      "id": "moving-cluster-españa-begona + gomez",
       "title": "Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
       "brief": "Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar».",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 18,
-      "sourceCount": 4,
-      "itemCount": 5,
-      "freshness": "7h fresca",
+      "strength": 14,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "8h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 88,
+      "alertScore": 80,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -42,13 +105,11 @@
       "isHotNews": false,
       "sources": [
         "El País",
-        "El Mundo",
         "El Diario Vasco",
         "El Correo"
       ],
       "images": [
         "https://imagenes.elpais.com/resizer/v2/YIS467ALYVBGLLZNNXZ57RER64.jpg?auth=e81674e1fb381e6ad1b623123ed496875b1b2b6528ccf0935c87dccc74fb5a5c",
-        "https://e01-phantom-elmundo.uecdn.es/45c1b1322c22c53372d72c8b0a91ebf1/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/12/17945139520748.jpg",
         "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/12/begona-gomez-kF0C-U40322960519xYC-1200x840@Diario%20Vasco.jpg",
         "https://s1.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/12/mitin-begona-gomez-U201395790477EoC-U403226979582sE-1200x840@El%20Correo.jpg"
       ],
@@ -59,20 +120,6 @@
           "publishedAt": "2026-11-12T23:09:17.000Z",
           "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-12/y-el-marido-de-begona-gomez-visito-a-manu-sanchez-perros-al-cuadrado-y-en-todas-partes.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://imagenes.elpais.com/resizer/v2/YIS467ALYVBGLLZNNXZ57RER64.jpg?auth=e81674e1fb381e6ad1b623123ed496875b1b2b6528ccf0935c87dccc74fb5a5c"
-        },
-        {
-          "title": "Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
-          "source": "El País",
-          "publishedAt": "2026-11-12T20:44:45.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-12/begona-gomez-se-estrena-en-un-mitin-del-psoe-para-captar-el-voto-de-las-mujeres.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-12T20:07:07.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/12/6af61c69fc6c83561f8b45a2.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/45c1b1322c22c53372d72c8b0a91ebf1/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/12/17945139520748.jpg"
         },
         {
           "title": "Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
@@ -92,9 +139,9 @@
       "path": "/es/entity/begona-gomez-participa-por-primera-vez-en-un-mitin-del-psoe-me-habeis-dado-el-al/"
     },
     {
-      "id": "now-cluster-españa-enfermera + osakidetza",
-      "title": "Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
-      "brief": "Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo.",
+      "id": "now-cluster-españa-anne + igartiburu",
+      "title": "Anne Igartiburu, sobre la muerte de su madre en un rescate en helicóptero: «Aquello me convenció de que la ayuda mutua es indispensable»",
+      "brief": "Anne Igartiburu, sobre la muerte de su madre en un rescate en helicóptero: «Aquello me convenció de que la ayuda mutua es indispensable».",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -104,6 +151,94 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Diario Vasco",
+        "El Correo"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Anne Igartiburu, sobre la muerte de su madre en un rescate en helicóptero: «Aquello me convenció de que la ayuda mutua es indispensable»",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-13T06:40:19.000Z",
+          "sourceUrl": "https://www.diariovasco.com/gente-estilo/anne-igartiburu-sobre-muerte-madre-rescate-helicoptero-20261113183220-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Anne Igartiburu recuerda el trágico accidente de su madre en una misión de rescate en Picos de Europa",
+          "source": "El Correo",
+          "publishedAt": "2026-11-12T17:38:23.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/anne-igartiburu-recuerda-madre-fallecida-participaba-voluntaria-20261112182402-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/anne-igartiburu-sobre-la-muerte-de-su-madre-en-un-rescate-en-helicoptero-aquello/"
+    },
+    {
+      "id": "now-cluster-españa-microsoft + outlook",
+      "title": "Microsoft Outlook sufre una caída a nivel mundial",
+      "brief": "Microsoft Outlook sufre una caída a nivel mundial.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Diario Vasco",
+        "El Correo"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Microsoft Outlook sufre una caída a nivel mundial",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-13T06:39:46.000Z",
+          "sourceUrl": "https://www.diariovasco.com/tecnologia/microsoft-outlook-sufre-caida-nivel-mundial-20261113070846-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Microsoft Outlook se cae en todo el mundo",
+          "source": "El Correo",
+          "publishedAt": "2026-11-12T19:11:44.000Z",
+          "sourceUrl": "https://www.elcorreo.com/tecnologia/microsoft-outlook-cae-mundo-20261112195349-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/microsoft-outlook-sufre-una-caida-a-nivel-mundial/"
+    },
+    {
+      "id": "now-cluster-españa-veces + enfermera",
+      "title": "Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+      "brief": "Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -139,18 +274,111 @@
       "path": "/es/entity/condenan-a-una-enfermera-de-osakidetza-que-espio-89-veces-el-historial-medico-de/"
     },
     {
+      "id": "moving-cluster-españa-feijoo + sanchez",
+      "title": "Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\"",
+      "brief": "Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\".",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "7h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 64,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El País"
+      ],
+      "images": [
+        "https://e01-phantom-elmundo.uecdn.es/35b98a81bea57f6aa9806dc7e7956ce7/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/12/17945152717081.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-13T00:27:22.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af620eb21efa059588b45bb.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/35b98a81bea57f6aa9806dc7e7956ce7/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/12/17945152717081.jpg"
+        },
+        {
+          "title": "Feijóo se presenta como “gestor” para “resolver los problemas” frente al “saqueo” de Sánchez",
+          "source": "El País",
+          "publishedAt": "2026-11-12T21:26:10.000Z",
+          "sourceUrl": "https://elpais.com/espana/2026-11-12/feijoo-se-presenta-como-gestor-para-resolver-los-problemas-frente-al-saqueo-de-sanchez.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/feijoo-se-vuelca-en-la-disputa-del-voto-joven-con-vox-los-problemas-no-se-soluci/"
+    },
+    {
+      "id": "moving-cluster-españa-estrella + roja",
+      "title": "El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga",
+      "brief": "El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 6,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "9h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 64,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/IJAF73MYGVLJDASHPCPLD23BZE.jpg?auth=98cc27910a4eab7211fbd8dbb66ab66c6014764d07caae4710d3903dcb136812",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/12/17945196555275.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga",
+          "source": "El País",
+          "publishedAt": "2026-11-12T22:22:09.000Z",
+          "sourceUrl": "https://elpais.com/deportes/baloncesto/2026-11-12/el-real-madrid-aplasta-al-estrella-roja-uno-de-los-rivales-mas-correosos-de-la-euroliga.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/IJAF73MYGVLJDASHPCPLD23BZE.jpg?auth=98cc27910a4eab7211fbd8dbb66ab66c6014764d07caae4710d3903dcb136812"
+        },
+        {
+          "title": "Procida pide paso en la paliza del Real Madrid al Estrella Roja de Ibon Navarro",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-12T22:12:09.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/baloncesto/euroliga/2026/11/12/6af6043afdddff121d8b45a4.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/12/17945196555275.jpg"
+        }
+      ],
+      "path": "/es/entity/el-real-madrid-aplasta-al-estrella-roja-uno-de-los-rivales-mas-correosos-de-la-e/"
+    },
+    {
       "id": "moving-cluster-españa-primera + cuando",
       "title": "España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera",
       "brief": "España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
+      "state": "cooling",
+      "stateLabel": "Bajando",
       "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "8h fresca",
+      "freshness": "9h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -186,24 +414,23 @@
       "path": "/es/entity/espana-gana-hasta-cuando-le-da-igual-vence-en-praga-y-le-basta-un-punto-contra-i/"
     },
     {
-      "id": "moving-cluster-españa-gana + etxepare",
+      "id": "fading-cluster-españa-gana + etxepare",
       "title": "Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa",
       "brief": "Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa.",
       "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
       "state": "cooling",
       "stateLabel": "Bajando",
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "12h fresca",
+      "freshness": "13h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 64,
+      "alertScore": 41,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
@@ -228,99 +455,6 @@
         }
       ],
       "path": "/es/entity/una-novela-de-atxaga-en-serbio-gana-el-premio-de-traduccion-etxepare-laboral-kut/"
-    },
-    {
-      "id": "now-cluster-españa-sanchez + feijoo",
-      "title": "Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\"",
-      "brief": "Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\".",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "6h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 60,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El País"
-      ],
-      "images": [
-        "https://e01-phantom-elmundo.uecdn.es/35b98a81bea57f6aa9806dc7e7956ce7/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/12/17945152717081.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-13T00:27:22.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af620eb21efa059588b45bb.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/35b98a81bea57f6aa9806dc7e7956ce7/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/12/17945152717081.jpg"
-        },
-        {
-          "title": "Feijóo se presenta como “gestor” para “resolver los problemas” frente al “saqueo” de Sánchez",
-          "source": "El País",
-          "publishedAt": "2026-11-12T21:26:10.000Z",
-          "sourceUrl": "https://elpais.com/espana/2026-11-12/feijoo-se-presenta-como-gestor-para-resolver-los-problemas-frente-al-saqueo-de-sanchez.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/feijoo-se-vuelca-en-la-disputa-del-voto-joven-con-vox-los-problemas-no-se-soluci/"
-    },
-    {
-      "id": "now-cluster-españa-estrella + roja",
-      "title": "El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga",
-      "brief": "El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "8h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 54,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/IJAF73MYGVLJDASHPCPLD23BZE.jpg?auth=98cc27910a4eab7211fbd8dbb66ab66c6014764d07caae4710d3903dcb136812",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/12/17945196555275.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga",
-          "source": "El País",
-          "publishedAt": "2026-11-12T22:22:09.000Z",
-          "sourceUrl": "https://elpais.com/deportes/baloncesto/2026-11-12/el-real-madrid-aplasta-al-estrella-roja-uno-de-los-rivales-mas-correosos-de-la-euroliga.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/IJAF73MYGVLJDASHPCPLD23BZE.jpg?auth=98cc27910a4eab7211fbd8dbb66ab66c6014764d07caae4710d3903dcb136812"
-        },
-        {
-          "title": "Procida pide paso en la paliza del Real Madrid al Estrella Roja de Ibon Navarro",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-12T22:12:09.000Z",
-          "sourceUrl": "https://www.elmundo.es/deportes/baloncesto/euroliga/2026/11/12/6af6043afdddff121d8b45a4.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/12/17945196555275.jpg"
-        }
-      ],
-      "path": "/es/entity/el-real-madrid-aplasta-al-estrella-roja-uno-de-los-rivales-mas-correosos-de-la-e/"
     }
   ]
 }

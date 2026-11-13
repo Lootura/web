@@ -2,67 +2,149 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-13T06:00:48.217Z",
+	"updatedAt": "2026-11-13T07:00:48.282Z",
 	"entries": {
-		"cluster-spain-psoe-begona-psoe-begona": {
-			"candidateId": "cluster-spain-psoe + begona",
-			"label": "psoe + begona",
-			"latestAt": "2026-11-12T23:09:17.000Z",
-			"startedAt": "2026-11-12T18:57:33.000Z",
-			"itemCount": 5,
-			"sourceCount": 4,
+		"cluster-spain-grammy-gana-grammy-gana": {
+			"candidateId": "cluster-spain-grammy + gana",
+			"label": "grammy + gana",
+			"latestAt": "2026-11-13T06:18:54.000Z",
+			"startedAt": "2026-11-13T03:21:25.000Z",
+			"itemCount": 4,
+			"sourceCount": 3,
 			"terms": [
-				"psoe",
-				"begona"
+				"grammy",
+				"gana"
 			],
 			"sources": [
-				"El País",
+				"El Correo",
 				"El Mundo",
+				"El País"
+			],
+			"titles": [
+				"Rosalía triunfa en los Latin Grammy",
+				"Rosalía hace historia en los Latin Grammy 2026 con su tercer mejor álbum del año",
+				"Rosalía, reina de los Latin Grammy: gana el premio a disco del año por ‘Lux’ y a canción del año por ‘La Perla’",
+				"Todos los ‘looks’ de la alfombra roja de los Latin Grammy 2026"
+			],
+			"entityFirstSeenAt": "2026-11-13T07:00:48.282Z",
+			"entityLastCandidateAt": "2026-11-13T06:18:54.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T07:00:48.282Z",
+					"label": "grammy + gana",
+					"latestAt": "2026-11-13T06:18:54.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Rosalía triunfa en los Latin Grammy",
+						"Rosalía hace historia en los Latin Grammy 2026 con su tercer mejor álbum del año",
+						"Rosalía, reina de los Latin Grammy: gana el premio a disco del año por ‘Lux’ y a canción del año por ‘La Perla’"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo",
+						"El País"
+					],
+					"eventId": "cluster-spain-grammy + gana|2026-11-13T06:18:54.000Z|4|Rosalía triunfa en los Latin Grammy"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+		},
+		"cluster-spain-rescate-ayuda-rescate-ayuda": {
+			"candidateId": "cluster-spain-rescate + ayuda",
+			"label": "rescate + ayuda",
+			"latestAt": "2026-11-13T06:40:19.000Z",
+			"startedAt": "2026-11-12T17:38:23.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"rescate",
+				"ayuda"
+			],
+			"sources": [
 				"El Diario Vasco",
 				"El Correo"
 			],
 			"titles": [
-				"Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)",
-				"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
-				"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
-				"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
-				"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»"
+				"Anne Igartiburu, sobre la muerte de su madre en un rescate en helicóptero: «Aquello me convenció de que la ayuda mutua es indispensable»",
+				"Anne Igartiburu recuerda el trágico accidente de su madre en una misión de rescate en Picos de Europa"
 			],
-			"entityFirstSeenAt": "2026-11-13T01:00:47.794Z",
-			"entityLastCandidateAt": "2026-11-12T23:09:17.000Z",
+			"entityFirstSeenAt": "2026-11-13T07:00:48.282Z",
+			"entityLastCandidateAt": "2026-11-13T06:40:19.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T01:00:47.794Z",
-					"label": "psoe + begona",
-					"latestAt": "2026-11-12T23:09:17.000Z",
-					"itemCount": 5,
-					"sourceCount": 4,
+					"observedAt": "2026-11-13T07:00:48.282Z",
+					"label": "rescate + ayuda",
+					"latestAt": "2026-11-13T06:40:19.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
 					"headlines": [
-						"Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)",
-						"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
-						"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña"
+						"Anne Igartiburu, sobre la muerte de su madre en un rescate en helicóptero: «Aquello me convenció de que la ayuda mutua es indispensable»",
+						"Anne Igartiburu recuerda el trágico accidente de su madre en una misión de rescate en Picos de Europa"
 					],
 					"sources": [
-						"El País",
-						"El Mundo",
-						"El Diario Vasco"
+						"El Diario Vasco",
+						"El Correo"
 					],
-					"eventId": "cluster-spain-psoe + begona|2026-11-12T23:09:17.000Z|5|Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)"
+					"eventId": "cluster-spain-rescate + ayuda|2026-11-13T06:40:19.000Z|2|Anne Igartiburu, sobre la muerte de su madre en un rescate en helicóptero: «Aquello me convenció de que la ayuda mutua es indispensable»"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
-		"cluster-spain-enfermera-osakidetza-enfermera-osakidetza": {
-			"candidateId": "cluster-spain-enfermera + osakidetza",
-			"label": "enfermera + osakidetza",
+		"cluster-spain-mundial-microsoft-mundial-microsoft": {
+			"candidateId": "cluster-spain-mundial + microsoft",
+			"label": "mundial + microsoft",
+			"latestAt": "2026-11-13T06:39:46.000Z",
+			"startedAt": "2026-11-12T19:11:44.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"mundial",
+				"microsoft"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Microsoft Outlook sufre una caída a nivel mundial",
+				"Microsoft Outlook se cae en todo el mundo"
+			],
+			"entityFirstSeenAt": "2026-11-13T07:00:48.282Z",
+			"entityLastCandidateAt": "2026-11-13T06:39:46.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T07:00:48.282Z",
+					"label": "mundial + microsoft",
+					"latestAt": "2026-11-13T06:39:46.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Microsoft Outlook sufre una caída a nivel mundial",
+						"Microsoft Outlook se cae en todo el mundo"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-mundial + microsoft|2026-11-13T06:39:46.000Z|2|Microsoft Outlook sufre una caída a nivel mundial"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+		},
+		"cluster-spain-veces-enfermera-veces-enfermera": {
+			"candidateId": "cluster-spain-veces + enfermera",
+			"label": "veces + enfermera",
 			"latestAt": "2026-11-13T05:43:48.000Z",
 			"startedAt": "2026-11-12T23:41:08.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"enfermera",
-				"osakidetza"
+				"veces",
+				"enfermera"
 			],
 			"sources": [
 				"El Diario Vasco",
@@ -72,12 +154,12 @@
 				"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
 				"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
 			],
-			"entityFirstSeenAt": "2026-11-13T06:00:48.217Z",
+			"entityFirstSeenAt": "2026-11-13T07:00:48.282Z",
 			"entityLastCandidateAt": "2026-11-13T05:43:48.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T06:00:48.217Z",
-					"label": "enfermera + osakidetza",
+					"observedAt": "2026-11-13T07:00:48.282Z",
+					"label": "veces + enfermera",
 					"latestAt": "2026-11-13T05:43:48.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -89,22 +171,86 @@
 						"El Diario Vasco",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-enfermera + osakidetza|2026-11-13T05:43:48.000Z|2|Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo"
+					"eventId": "cluster-spain-veces + enfermera|2026-11-13T05:43:48.000Z|2|Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
-		"cluster-spain-sanchez-feijoo-sanchez-feijoo": {
-			"candidateId": "cluster-spain-sanchez + feijoo",
-			"label": "sanchez + feijoo",
+		"cluster-spain-primera-begona-primera-begona": {
+			"candidateId": "cluster-spain-primera + begona",
+			"label": "primera + begona",
+			"latestAt": "2026-11-12T23:09:17.000Z",
+			"startedAt": "2026-11-12T18:57:33.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"primera",
+				"begona"
+			],
+			"sources": [
+				"El País",
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)",
+				"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
+				"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»"
+			],
+			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
+			"entityLastCandidateAt": "2026-11-12T23:09:17.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T07:00:48.282Z",
+					"label": "primera + begona",
+					"latestAt": "2026-11-12T23:09:17.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)",
+						"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
+						"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»"
+					],
+					"sources": [
+						"El País",
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-primera + begona|2026-11-12T23:09:17.000Z|3|Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)"
+				},
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "primera + begona",
+					"latestAt": "2026-11-12T20:44:45.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
+						"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
+						"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-primera + begona|2026-11-12T20:44:45.000Z|7|Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+		},
+		"cluster-spain-feijoo-sanchez-feijoo-sanchez": {
+			"candidateId": "cluster-spain-feijoo + sanchez",
+			"label": "feijoo + sanchez",
 			"latestAt": "2026-11-13T00:27:22.000Z",
 			"startedAt": "2026-11-12T21:26:10.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"sanchez",
-				"feijoo"
+				"feijoo",
+				"sanchez"
 			],
 			"sources": [
 				"El Mundo",
@@ -114,12 +260,12 @@
 				"Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\"",
 				"Feijóo se presenta como “gestor” para “resolver los problemas” frente al “saqueo” de Sánchez"
 			],
-			"entityFirstSeenAt": "2026-11-13T01:00:47.794Z",
+			"entityFirstSeenAt": "2026-11-13T07:00:48.282Z",
 			"entityLastCandidateAt": "2026-11-13T00:27:22.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T01:00:47.794Z",
-					"label": "sanchez + feijoo",
+					"observedAt": "2026-11-13T07:00:48.282Z",
+					"label": "feijoo + sanchez",
 					"latestAt": "2026-11-13T00:27:22.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -131,11 +277,11 @@
 						"El Mundo",
 						"El País"
 					],
-					"eventId": "cluster-spain-sanchez + feijoo|2026-11-13T00:27:22.000Z|2|Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\""
+					"eventId": "cluster-spain-feijoo + sanchez|2026-11-13T00:27:22.000Z|2|Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\""
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-spain-roja-real-roja-real": {
 			"candidateId": "cluster-spain-roja + real",
@@ -177,7 +323,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-spain-primera-cuando-primera-cuando": {
 			"candidateId": "cluster-spain-primera + cuando",
@@ -219,7 +365,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-spain-gana-etxepare-gana-etxepare": {
 			"candidateId": "cluster-spain-gana + etxepare",
@@ -261,7 +407,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -1451,50 +1597,6 @@
 						"El Mundo"
 					],
 					"eventId": "cluster-spain-retrasos + todas|2026-11-09T07:59:59.000Z|2|Una incidencia operativa provoca retrasos en todas las líneas de Rodalies"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T08:25:19.568Z"
-		},
-		"cluster-spain-ante-barca-ante-barca": {
-			"candidateId": "cluster-spain-ante + barca",
-			"label": "ante + barca",
-			"latestAt": "2026-11-09T06:14:24.000Z",
-			"startedAt": "2026-11-08T19:45:29.000Z",
-			"itemCount": 3,
-			"sourceCount": 2,
-			"terms": [
-				"ante",
-				"barca"
-			],
-			"sources": [
-				"El Correo",
-				"El País"
-			],
-			"titles": [
-				"El Barça sale más líder del Metropolitano",
-				"El líder del Metropolitano fue Fermín para la remontada del Barça ante el Atlético",
-				"Fermín aprovecha una genialidad de Lamine para adelantar al Barça"
-			],
-			"entityFirstSeenAt": "2026-11-09T08:25:19.568Z",
-			"entityLastCandidateAt": "2026-11-09T06:14:24.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T08:25:19.568Z",
-					"label": "ante + barca",
-					"latestAt": "2026-11-09T06:14:24.000Z",
-					"itemCount": 3,
-					"sourceCount": 2,
-					"headlines": [
-						"El Barça sale más líder del Metropolitano",
-						"El líder del Metropolitano fue Fermín para la remontada del Barça ante el Atlético",
-						"Fermín aprovecha una genialidad de Lamine para adelantar al Barça"
-					],
-					"sources": [
-						"El Correo",
-						"El País"
-					],
-					"eventId": "cluster-spain-ante + barca|2026-11-09T06:14:24.000Z|3|El Barça sale más líder del Metropolitano"
 				}
 			],
 			"entityState": "active",
@@ -6568,43 +6670,53 @@
 		"cluster-usa-huang-nvidia-huang-nvidia": {
 			"candidateId": "cluster-usa-huang + nvidia",
 			"label": "huang + nvidia",
-			"latestAt": "2026-11-12T23:55:39.000Z",
-			"startedAt": "2026-11-12T11:00:15.000Z",
-			"itemCount": 17,
-			"sourceCount": 5,
+			"latestAt": "2026-11-13T03:27:02.000Z",
+			"startedAt": "2026-11-12T14:17:20.000Z",
+			"itemCount": 10,
+			"sourceCount": 4,
 			"terms": [
 				"huang",
 				"nvidia"
 			],
 			"sources": [
-				"PBS NewsHour",
+				"The New York Times Politics",
 				"CBS News",
-				"The New York Times",
 				"NPR",
-				"NBC News"
+				"The New York Times"
 			],
 			"titles": [
-				"What Huang's resignation mean for chipmakers, AI and U.S. national security",
-				"What Jensen Huang's resignation means for Nvidia, global AI race",
-				"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
-				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
-				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
-				"AG Todd Blanche asked about Jensen Huang, Nvidia",
-				"Jensen Huang's exit rocks Nvidia and creates openings for rivals",
-				"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
-				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset",
+				"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
 				"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
 				"What happens next as Huang steps down as Nvidia CEO following affair scandal",
-				"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
 				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
-				"The rise and fall of former Nvidia CEO Jensen Huang",
-				"Who is Colette Kress, Nvidia’s new interim CEO?",
+				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
 				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal"
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
+				"What could happen to AI development and chip production as Huang resigns from Nvidia",
+				"Examining Jensen Huang's swift and stunning fall from grace at Nvidia"
 			],
 			"entityFirstSeenAt": "2026-11-10T19:04:31.604Z",
-			"entityLastCandidateAt": "2026-11-12T23:55:39.000Z",
+			"entityLastCandidateAt": "2026-11-13T03:27:02.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-13T03:27:02.000Z",
+					"itemCount": 10,
+					"sourceCount": 4,
+					"headlines": [
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-13T03:27:02.000Z|10|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+				},
 				{
 					"observedAt": "2026-11-13T00:00:48.749Z",
 					"label": "huang + nvidia",
@@ -6679,7 +6791,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-hegseth-against-hegseth-against": {
 			"candidateId": "cluster-usa-hegseth + against",
@@ -11670,7 +11782,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-future-jensen-future-jensen": {
 			"candidateId": "cluster-usa-future + jensen",
@@ -14394,7 +14506,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-spain-primer-rosalia-primer-rosalia": {
 			"candidateId": "cluster-spain-primer + rosalia",
@@ -15038,57 +15150,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
 		},
-		"cluster-spain-primera-begona-primera-begona": {
-			"candidateId": "cluster-spain-primera + begona",
-			"label": "primera + begona",
-			"latestAt": "2026-11-12T20:44:45.000Z",
-			"startedAt": "2026-11-12T17:02:52.000Z",
-			"itemCount": 7,
-			"sourceCount": 4,
-			"terms": [
-				"primera",
-				"begona"
-			],
-			"sources": [
-				"El País",
-				"El Mundo",
-				"El Diario Vasco",
-				"El Correo"
-			],
-			"titles": [
-				"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
-				"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
-				"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
-				"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»",
-				"La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer",
-				"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
-				"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
-			],
-			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
-			"entityLastCandidateAt": "2026-11-12T20:44:45.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T23:00:48.320Z",
-					"label": "primera + begona",
-					"latestAt": "2026-11-12T20:44:45.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
-						"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
-						"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»"
-					],
-					"sources": [
-						"El País",
-						"El Mundo",
-						"El Diario Vasco"
-					],
-					"eventId": "cluster-spain-primera + begona|2026-11-12T20:44:45.000Z|7|Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
-		},
 		"cluster-spain-real-estrella-real-estrella": {
 			"candidateId": "cluster-spain-real + estrella",
 			"label": "real + estrella",
@@ -15176,33 +15237,53 @@
 		"cluster-usa-building-brooklyn-building-brooklyn": {
 			"candidateId": "cluster-usa-building + brooklyn",
 			"label": "building + brooklyn",
-			"latestAt": "2026-11-12T23:58:33.000Z",
+			"latestAt": "2026-11-13T04:59:04.000Z",
 			"startedAt": "2026-11-12T16:09:11.000Z",
-			"itemCount": 8,
-			"sourceCount": 4,
+			"itemCount": 9,
+			"sourceCount": 5,
 			"terms": [
 				"building",
 				"brooklyn"
 			],
 			"sources": [
-				"NBC News",
 				"The New York Times",
+				"CBS News",
+				"NBC News",
 				"PBS NewsHour",
 				"NPR"
 			],
 			"titles": [
-				"First video of Brooklyn building collapse",
+				"How the Deadly Brooklyn Building Collapse Unfolded",
+				"Crews begin excavating site of building collapse in Brooklyn",
 				"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
+				"First video of Brooklyn building collapse",
 				"New York building collapse kills 8, including 2 children",
 				"Eight Who Died in Building Collapse Reflected New York’s Diversity",
-				"What to Know About the Deadly Building Collapse in Brooklyn",
 				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
 				"Casualties continue to rise after Brooklyn building collapses",
 				"Excavation Was Taking Place Next to Building in Brooklyn That Collapsed"
 			],
 			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
-			"entityLastCandidateAt": "2026-11-12T23:58:33.000Z",
+			"entityLastCandidateAt": "2026-11-13T04:59:04.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-13T04:59:04.000Z",
+					"itemCount": 9,
+					"sourceCount": 5,
+					"headlines": [
+						"How the Deadly Brooklyn Building Collapse Unfolded",
+						"Crews begin excavating site of building collapse in Brooklyn",
+						"Rescue Ends in Brooklyn After 8 Die in Building Collapse"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-building + brooklyn|2026-11-13T04:59:04.000Z|9|How the Deadly Brooklyn Building Collapse Unfolded"
+				},
 				{
 					"observedAt": "2026-11-13T01:00:47.794Z",
 					"label": "building + brooklyn",
@@ -15259,7 +15340,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-pope-emotional-pope-emotional": {
 			"candidateId": "cluster-usa-pope + emotional",
@@ -15627,6 +15708,97 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
 		},
+		"cluster-spain-psoe-begona-psoe-begona": {
+			"candidateId": "cluster-spain-psoe + begona",
+			"label": "psoe + begona",
+			"latestAt": "2026-11-12T23:09:17.000Z",
+			"startedAt": "2026-11-12T18:57:33.000Z",
+			"itemCount": 5,
+			"sourceCount": 4,
+			"terms": [
+				"psoe",
+				"begona"
+			],
+			"sources": [
+				"El País",
+				"El Mundo",
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)",
+				"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
+				"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
+				"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
+				"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»"
+			],
+			"entityFirstSeenAt": "2026-11-13T01:00:47.794Z",
+			"entityLastCandidateAt": "2026-11-12T23:09:17.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "psoe + begona",
+					"latestAt": "2026-11-12T23:09:17.000Z",
+					"itemCount": 5,
+					"sourceCount": 4,
+					"headlines": [
+						"Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)",
+						"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
+						"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-psoe + begona|2026-11-12T23:09:17.000Z|5|Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+		},
+		"cluster-spain-sanchez-feijoo-sanchez-feijoo": {
+			"candidateId": "cluster-spain-sanchez + feijoo",
+			"label": "sanchez + feijoo",
+			"latestAt": "2026-11-13T00:27:22.000Z",
+			"startedAt": "2026-11-12T21:26:10.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"sanchez",
+				"feijoo"
+			],
+			"sources": [
+				"El Mundo",
+				"El País"
+			],
+			"titles": [
+				"Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\"",
+				"Feijóo se presenta como “gestor” para “resolver los problemas” frente al “saqueo” de Sánchez"
+			],
+			"entityFirstSeenAt": "2026-11-13T01:00:47.794Z",
+			"entityLastCandidateAt": "2026-11-13T00:27:22.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "sanchez + feijoo",
+					"latestAt": "2026-11-13T00:27:22.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\"",
+						"Feijóo se presenta como “gestor” para “resolver los problemas” frente al “saqueo” de Sánchez"
+					],
+					"sources": [
+						"El Mundo",
+						"El País"
+					],
+					"eventId": "cluster-spain-sanchez + feijoo|2026-11-13T00:27:22.000Z|2|Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\""
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+		},
 		"cluster-usa-nvidia-calls-nvidia-calls": {
 			"candidateId": "cluster-usa-nvidia + calls",
 			"label": "nvidia + calls",
@@ -15805,21 +15977,19 @@
 			"label": "democrats + trump",
 			"latestAt": "2026-11-13T02:01:47.000Z",
 			"startedAt": "2026-11-12T17:13:54.000Z",
-			"itemCount": 5,
-			"sourceCount": 4,
+			"itemCount": 4,
+			"sourceCount": 3,
 			"terms": [
 				"democrats",
 				"trump"
 			],
 			"sources": [
 				"CBS News",
-				"NBC News Politics",
 				"NPR Politics",
 				"The New York Times Politics"
 			],
 			"titles": [
 				"Legal expert on White House warning to Democrats over possible Trump investigations",
-				"Democrats can’t wait until after Trump to produce results, James Talarico says",
 				"White House warns of \"blatant criminality\" in Democratic probes",
 				"Democrats want to stop Trump's arch, golf course and more. What are their options?",
 				"Democrats Put Targets on Notice as Trump Oversight Takes Shape"
@@ -15827,6 +15997,24 @@
 			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
 			"entityLastCandidateAt": "2026-11-13T02:01:47.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "democrats + trump",
+					"latestAt": "2026-11-13T02:01:47.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Legal expert on White House warning to Democrats over possible Trump investigations",
+						"White House warns of \"blatant criminality\" in Democratic probes",
+						"Democrats want to stop Trump's arch, golf course and more. What are their options?"
+					],
+					"sources": [
+						"CBS News",
+						"NPR Politics",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-democrats + trump|2026-11-13T02:01:47.000Z|4|Legal expert on White House warning to Democrats over possible Trump investigations"
+				},
 				{
 					"observedAt": "2026-11-13T03:00:48.096Z",
 					"label": "democrats + trump",
@@ -15865,7 +16053,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-democrats-kansas-democrats-kansas": {
 			"candidateId": "cluster-usa-democrats + kansas",
@@ -15911,7 +16099,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-kansas-charges-kansas-charges": {
 			"candidateId": "cluster-usa-kansas + charges",
@@ -15953,32 +16141,46 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
 			"candidateId": "cluster-usa-nvidia + lutnick",
 			"label": "nvidia + lutnick",
 			"latestAt": "2026-11-13T02:45:27.671Z",
 			"startedAt": "2026-11-12T23:33:00.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
+			"itemCount": 2,
+			"sourceCount": 2,
 			"terms": [
 				"nvidia",
 				"lutnick"
 			],
 			"sources": [
 				"NBC News Politics",
-				"The New York Times World",
 				"CBS News"
 			],
 			"titles": [
 				"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
-				"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
 				"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
 			],
 			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
 			"entityLastCandidateAt": "2026-11-13T02:45:27.671Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T02:45:27.671Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
+						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
+					],
+					"sources": [
+						"NBC News Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T02:45:27.671Z|2|Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal"
+				},
 				{
 					"observedAt": "2026-11-13T03:00:48.096Z",
 					"label": "nvidia + lutnick",
@@ -16015,7 +16217,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-microsoft-outage-microsoft-outage": {
 			"candidateId": "cluster-usa-microsoft + outage",
@@ -16098,7 +16300,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-usa-senate-leader-senate-leader": {
 			"candidateId": "cluster-usa-senate + leader",
@@ -16182,7 +16384,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		},
 		"cluster-spain-cuando-contra-cuando-contra": {
 			"candidateId": "cluster-spain-cuando + contra",
@@ -16229,19 +16431,61 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+		},
+		"cluster-spain-enfermera-osakidetza-enfermera-osakidetza": {
+			"candidateId": "cluster-spain-enfermera + osakidetza",
+			"label": "enfermera + osakidetza",
+			"latestAt": "2026-11-13T05:43:48.000Z",
+			"startedAt": "2026-11-12T23:41:08.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"enfermera",
+				"osakidetza"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+				"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
+			],
+			"entityFirstSeenAt": "2026-11-13T06:00:48.217Z",
+			"entityLastCandidateAt": "2026-11-13T05:43:48.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "enfermera + osakidetza",
+					"latestAt": "2026-11-13T05:43:48.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+						"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-enfermera + osakidetza|2026-11-13T05:43:48.000Z|2|Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-es-2026-11-13T06:00:48.217Z",
+		"id": "local-es-2026-11-13T07:00:48.282Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-13T06:00:48.217Z",
-		"finishedAt": "2026-11-13T06:02:23.003Z",
-		"signalsCandidate": 6,
-		"signalsSelected": 3,
+		"startedAt": "2026-11-13T07:00:48.282Z",
+		"finishedAt": "2026-11-13T07:02:33.619Z",
+		"signalsCandidate": 9,
+		"signalsSelected": 5,
 		"signalsProcessed": 0,
-		"cacheHits": 5,
-		"skippedByConfig": 3,
+		"cacheHits": 4,
+		"skippedByConfig": 5,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -16251,11 +16495,11 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 5,
+			"cacheHits": 4,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 305,
-			"retainedByTtl": 299,
+			"retained": 309,
+			"retainedByTtl": 300,
 			"retiredByTtl": 1
 		},
 		"costUsd": 0

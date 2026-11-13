@@ -1,10 +1,16 @@
 {
-	"updatedAt": "2026-11-13T06:00:48.217Z",
+	"updatedAt": "2026-11-13T07:00:48.282Z",
 	"feedProfile": "es",
 	"retentionDays": 90,
 	"totalAuthors": 80,
-	"totalBylinedItems": 416,
+	"totalBylinedItems": 417,
 	"runs": [
+		{
+			"at": "2026-11-13T07:00:48.282Z",
+			"itemCount": 120,
+			"bylinedItemCount": 79,
+			"authorCount": 80
+		},
 		{
 			"at": "2026-11-13T06:00:48.217Z",
 			"itemCount": 120,
@@ -175,12 +181,6 @@
 		},
 		{
 			"at": "2026-11-10T07:03:34.270Z",
-			"itemCount": 120,
-			"bylinedItemCount": 66,
-			"authorCount": 80
-		},
-		{
-			"at": "2026-11-10T06:40:19.930Z",
 			"itemCount": 120,
 			"bylinedItemCount": 66,
 			"authorCount": 80
@@ -4457,6 +4457,93 @@
 			]
 		},
 		{
+			"id": "el mundo::pablo scarpellini",
+			"name": "Pablo Scarpellini",
+			"source": "El Mundo",
+			"profileUrl": "",
+			"itemCount": 4,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 113,
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-01T01:27:20.000Z",
+			"latestAt": "2026-11-13T06:13:19.000Z",
+			"daysActive": 13,
+			"categories": [
+				"general"
+			],
+			"sources": [
+				"El Mundo"
+			],
+			"examples": [
+				{
+					"key": "https://www.elmundo.es/cultura/musica/2026/11/13/6af6a959fc6c830f298b456f.html?ref=lootura.com",
+					"title": "Rosalía hace historia en los Latin Grammy 2026 con su tercer mejor álbum del año",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/cultura/musica/2026/11/13/6af6a959fc6c830f298b456f.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T06:13:19.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/motor/2026/11/06/6aee2eb9e9cf4ae17b8b4597.html?ref=lootura.com",
+					"title": "Tesla dejará de producir el Cybertruck en 2027",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/motor/2026/11/06/6aee2eb9e9cf4ae17b8b4597.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-06T19:47:21.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/internacional/2026/11/04/6aeab391e4d4d866128b45af.html?ref=lootura.com",
+					"title": "Elecciones midterms en EEUU: Texas hace historia con la demócrata Gina Hinojosa, primera gobernadora latina",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/internacional/2026/11/04/6aeab391e4d4d866128b45af.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-04T04:37:02.000Z",
+					"category": "general",
+					"weight": 3
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.elmundo.es/cultura/musica/2026/11/13/6af6a959fc6c830f298b456f.html?ref=lootura.com",
+					"title": "Rosalía hace historia en los Latin Grammy 2026 con su tercer mejor álbum del año",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/cultura/musica/2026/11/13/6af6a959fc6c830f298b456f.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T06:13:19.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/motor/2026/11/06/6aee2eb9e9cf4ae17b8b4597.html?ref=lootura.com",
+					"title": "Tesla dejará de producir el Cybertruck en 2027",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/motor/2026/11/06/6aee2eb9e9cf4ae17b8b4597.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-06T19:47:21.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/internacional/2026/11/04/6aeab391e4d4d866128b45af.html?ref=lootura.com",
+					"title": "Elecciones midterms en EEUU: Texas hace historia con la demócrata Gina Hinojosa, primera gobernadora latina",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/internacional/2026/11/04/6aeab391e4d4d866128b45af.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-04T04:37:02.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/internacional/2026/10/31/6ae5fae5e85ece6f6c8b45a4.html?ref=lootura.com",
+					"title": "Los rostros clave de las midterms: del pastor de Kansas al heredero de Trump en Ohio",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/internacional/2026/10/31/6ae5fae5e85ece6f6c8b45a4.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-01T07:42:55.000Z",
+					"category": "general",
+					"weight": 3
+				}
+			]
+		},
+		{
 			"id": "https://www.diariovasco.com/autor/benat-barreto-4689.html",
 			"name": "Beñat Barreto",
 			"source": "El Diario Vasco",
@@ -6491,84 +6578,6 @@
 			]
 		},
 		{
-			"id": "el mundo::pablo scarpellini",
-			"name": "Pablo Scarpellini",
-			"source": "El Mundo",
-			"profileUrl": "",
-			"itemCount": 3,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 88,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-01T01:27:20.000Z",
-			"latestAt": "2026-11-06T19:47:21.000Z",
-			"daysActive": 6,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"El Mundo"
-			],
-			"examples": [
-				{
-					"key": "https://www.elmundo.es/motor/2026/11/06/6aee2eb9e9cf4ae17b8b4597.html?ref=lootura.com",
-					"title": "Tesla dejará de producir el Cybertruck en 2027",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/motor/2026/11/06/6aee2eb9e9cf4ae17b8b4597.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-06T19:47:21.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/internacional/2026/11/04/6aeab391e4d4d866128b45af.html?ref=lootura.com",
-					"title": "Elecciones midterms en EEUU: Texas hace historia con la demócrata Gina Hinojosa, primera gobernadora latina",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/internacional/2026/11/04/6aeab391e4d4d866128b45af.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-04T04:37:02.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/internacional/2026/10/31/6ae5fae5e85ece6f6c8b45a4.html?ref=lootura.com",
-					"title": "Los rostros clave de las midterms: del pastor de Kansas al heredero de Trump en Ohio",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/internacional/2026/10/31/6ae5fae5e85ece6f6c8b45a4.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-01T07:42:55.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.elmundo.es/motor/2026/11/06/6aee2eb9e9cf4ae17b8b4597.html?ref=lootura.com",
-					"title": "Tesla dejará de producir el Cybertruck en 2027",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/motor/2026/11/06/6aee2eb9e9cf4ae17b8b4597.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-06T19:47:21.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/internacional/2026/11/04/6aeab391e4d4d866128b45af.html?ref=lootura.com",
-					"title": "Elecciones midterms en EEUU: Texas hace historia con la demócrata Gina Hinojosa, primera gobernadora latina",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/internacional/2026/11/04/6aeab391e4d4d866128b45af.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-04T04:37:02.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/internacional/2026/10/31/6ae5fae5e85ece6f6c8b45a4.html?ref=lootura.com",
-					"title": "Los rostros clave de las midterms: del pastor de Kansas al heredero de Trump en Ohio",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/internacional/2026/10/31/6ae5fae5e85ece6f6c8b45a4.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-01T07:42:55.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			]
-		},
-		{
 			"id": "el mundo::olga r sanmartin",
 			"name": "Olga R. Sanmartín",
 			"source": "El Mundo",
@@ -7595,6 +7604,66 @@
 			]
 		},
 		{
+			"id": "el pais::luis campo yanguas",
+			"name": "Luis Campo Yanguas",
+			"source": "El País",
+			"profileUrl": "",
+			"itemCount": 2,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 65,
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-13T05:30:00.000Z",
+			"latestAt": "2026-11-13T06:00:00.000Z",
+			"daysActive": 1,
+			"categories": [
+				"general"
+			],
+			"sources": [
+				"El País"
+			],
+			"examples": [
+				{
+					"key": "https://elpais.com/escaparate/estilo-de-vida/camping-gas.html?ref=lootura.com",
+					"title": "Cada vez más gente guarda este hornillo de gas en casa por si falla la luz",
+					"source": "El País",
+					"href": "https://elpais.com/escaparate/estilo-de-vida/camping-gas.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T06:00:00.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://elpais.com/escaparate/estilo-de-vida/deshumidificador-inteligente.html?ref=lootura.com",
+					"title": "Adiós al olor a cerrado: el deshumidificador de 20 litros que ayuda a mejorar el ambiente en casa",
+					"source": "El País",
+					"href": "https://elpais.com/escaparate/estilo-de-vida/deshumidificador-inteligente.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T05:30:00.000Z",
+					"category": "general",
+					"weight": 3
+				}
+			],
+			"items": [
+				{
+					"key": "https://elpais.com/escaparate/estilo-de-vida/camping-gas.html?ref=lootura.com",
+					"title": "Cada vez más gente guarda este hornillo de gas en casa por si falla la luz",
+					"source": "El País",
+					"href": "https://elpais.com/escaparate/estilo-de-vida/camping-gas.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T06:00:00.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://elpais.com/escaparate/estilo-de-vida/deshumidificador-inteligente.html?ref=lootura.com",
+					"title": "Adiós al olor a cerrado: el deshumidificador de 20 litros que ayuda a mejorar el ambiente en casa",
+					"source": "El País",
+					"href": "https://elpais.com/escaparate/estilo-de-vida/deshumidificador-inteligente.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T05:30:00.000Z",
+					"category": "general",
+					"weight": 3
+				}
+			]
+		},
+		{
 			"id": "el mundo::eduardo j castelao",
 			"name": "Eduardo J. Castelao",
 			"source": "El Mundo",
@@ -7829,66 +7898,6 @@
 					"source": "El Mundo",
 					"href": "https://www.elmundo.es/economia/2026/11/09/6af0a741e9cf4a21328b456d.html?utm_source=lootura.com&ref=lootura.com",
 					"publishedAt": "2026-11-08T23:50:18.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			]
-		},
-		{
-			"id": "el mundo::miguel a herguedas",
-			"name": "Miguel A. Herguedas",
-			"source": "El Mundo",
-			"profileUrl": "",
-			"itemCount": 2,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 65,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-08T19:11:50.000Z",
-			"latestAt": "2026-11-08T23:18:40.000Z",
-			"daysActive": 1,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"El Mundo"
-			],
-			"examples": [
-				{
-					"key": "https://www.elmundo.es/deportes/formula-1/2026/11/09/6af0e1d121efa03a568b4588.html?ref=lootura.com",
-					"title": "Mercedes cierra en Interlagos su noveno título de constructores: las claves de su dominio en 2026",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/deportes/formula-1/2026/11/09/6af0e1d121efa03a568b4588.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T23:18:40.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/deportes/formula-1/2026/11/08/6af0a4c0fdddff200a8b458f.html?ref=lootura.com",
-					"title": "Norris impone la cordura en Interlagos y Verstappen deja otra remontada para el recuerdo",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/deportes/formula-1/2026/11/08/6af0a4c0fdddff200a8b458f.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T19:11:50.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.elmundo.es/deportes/formula-1/2026/11/09/6af0e1d121efa03a568b4588.html?ref=lootura.com",
-					"title": "Mercedes cierra en Interlagos su noveno título de constructores: las claves de su dominio en 2026",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/deportes/formula-1/2026/11/09/6af0e1d121efa03a568b4588.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T23:18:40.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/deportes/formula-1/2026/11/08/6af0a4c0fdddff200a8b458f.html?ref=lootura.com",
-					"title": "Norris impone la cordura en Interlagos y Verstappen deja otra remontada para el recuerdo",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/deportes/formula-1/2026/11/08/6af0a4c0fdddff200a8b458f.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T19:11:50.000Z",
 					"category": "general",
 					"weight": 3
 				}

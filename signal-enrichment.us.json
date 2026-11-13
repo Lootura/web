@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-13T06:00:48.217Z",
+	"updatedAt": "2026-11-13T07:00:48.282Z",
 	"entries": {
 		"cluster-usa-building-brooklyn-building-brooklyn": {
 			"candidateId": "cluster-usa-building + brooklyn",
@@ -110,7 +110,91 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+		},
+		"cluster-usa-senate-leader-senate-leader": {
+			"candidateId": "cluster-usa-senate + leader",
+			"label": "senate + leader",
+			"latestAt": "2026-11-13T04:11:39.000Z",
+			"startedAt": "2026-11-13T02:06:37.244Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"senate",
+				"leader"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"NPR Politics",
+				"CBS News",
+				"NBC News Politics"
+			],
+			"titles": [
+				"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+				"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+				"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
+				"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
+			],
+			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
+			"entityLastCandidateAt": "2026-11-13T04:11:39.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T05:00:48.275Z",
+					"label": "senate + leader",
+					"latestAt": "2026-11-13T04:11:39.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"NPR Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-senate + leader|2026-11-13T04:11:39.000Z|4|Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader"
+				},
+				{
+					"observedAt": "2026-11-13T04:00:47.938Z",
+					"label": "senate + leader",
+					"latestAt": "2026-11-13T03:52:25.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
+					],
+					"sources": [
+						"NPR Politics",
+						"The New York Times Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-senate + leader|2026-11-13T03:52:25.000Z|4|Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
+				},
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "senate + leader",
+					"latestAt": "2026-11-13T02:37:59.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
+						"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-senate + leader|2026-11-13T02:37:59.000Z|3|Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-usa-huang-nvidia-huang-nvidia": {
 			"candidateId": "cluster-usa-huang + nvidia",
@@ -236,91 +320,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
-		},
-		"cluster-usa-senate-leader-senate-leader": {
-			"candidateId": "cluster-usa-senate + leader",
-			"label": "senate + leader",
-			"latestAt": "2026-11-13T04:11:39.000Z",
-			"startedAt": "2026-11-13T02:06:37.244Z",
-			"itemCount": 4,
-			"sourceCount": 4,
-			"terms": [
-				"senate",
-				"leader"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"NPR Politics",
-				"CBS News",
-				"NBC News Politics"
-			],
-			"titles": [
-				"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-				"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
-				"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
-				"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
-			],
-			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T04:11:39.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T05:00:48.275Z",
-					"label": "senate + leader",
-					"latestAt": "2026-11-13T04:11:39.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
-						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"NPR Politics",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-senate + leader|2026-11-13T04:11:39.000Z|4|Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader"
-				},
-				{
-					"observedAt": "2026-11-13T04:00:47.938Z",
-					"label": "senate + leader",
-					"latestAt": "2026-11-13T03:52:25.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
-						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
-					],
-					"sources": [
-						"NPR Politics",
-						"The New York Times Politics",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-senate + leader|2026-11-13T03:52:25.000Z|4|Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
-				},
-				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "senate + leader",
-					"latestAt": "2026-11-13T02:37:59.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
-						"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"NBC News Politics"
-					],
-					"eventId": "cluster-usa-senate + leader|2026-11-13T02:37:59.000Z|3|Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-usa-microsoft-outage-microsoft-outage": {
 			"candidateId": "cluster-usa-microsoft + outage",
@@ -403,7 +403,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-usa-mississippi-senate-mississippi-senate": {
 			"candidateId": "cluster-usa-mississippi + senate",
@@ -542,7 +542,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-usa-democrats-trump-democrats-trump": {
 			"candidateId": "cluster-usa-democrats + trump",
@@ -625,7 +625,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-usa-democrats-kansas-democrats-kansas": {
 			"candidateId": "cluster-usa-democrats + kansas",
@@ -671,7 +671,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
 			"candidateId": "cluster-usa-nvidia + lutnick",
@@ -747,7 +747,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-usa-kansas-charges-kansas-charges": {
 			"candidateId": "cluster-usa-kansas + charges",
@@ -789,7 +789,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-usa-shooting-killed-shooting-killed": {
 			"candidateId": "cluster-usa-shooting + killed",
@@ -847,7 +847,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -2037,50 +2037,6 @@
 						"El Mundo"
 					],
 					"eventId": "cluster-spain-retrasos + todas|2026-11-09T07:59:59.000Z|2|Una incidencia operativa provoca retrasos en todas las líneas de Rodalies"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T08:25:19.568Z"
-		},
-		"cluster-spain-ante-barca-ante-barca": {
-			"candidateId": "cluster-spain-ante + barca",
-			"label": "ante + barca",
-			"latestAt": "2026-11-09T06:14:24.000Z",
-			"startedAt": "2026-11-08T19:45:29.000Z",
-			"itemCount": 3,
-			"sourceCount": 2,
-			"terms": [
-				"ante",
-				"barca"
-			],
-			"sources": [
-				"El Correo",
-				"El País"
-			],
-			"titles": [
-				"El Barça sale más líder del Metropolitano",
-				"El líder del Metropolitano fue Fermín para la remontada del Barça ante el Atlético",
-				"Fermín aprovecha una genialidad de Lamine para adelantar al Barça"
-			],
-			"entityFirstSeenAt": "2026-11-09T08:25:19.568Z",
-			"entityLastCandidateAt": "2026-11-09T06:14:24.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T08:25:19.568Z",
-					"label": "ante + barca",
-					"latestAt": "2026-11-09T06:14:24.000Z",
-					"itemCount": 3,
-					"sourceCount": 2,
-					"headlines": [
-						"El Barça sale más líder del Metropolitano",
-						"El líder del Metropolitano fue Fermín para la remontada del Barça ante el Atlético",
-						"Fermín aprovecha una genialidad de Lamine para adelantar al Barça"
-					],
-					"sources": [
-						"El Correo",
-						"El País"
-					],
-					"eventId": "cluster-spain-ante + barca|2026-11-09T06:14:24.000Z|3|El Barça sale más líder del Metropolitano"
 				}
 			],
 			"entityState": "active",
@@ -14018,7 +13974,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-spain-entre-general-entre-general": {
 			"candidateId": "cluster-spain-entre + general",
@@ -15356,32 +15312,45 @@
 		"cluster-spain-primera-begona-primera-begona": {
 			"candidateId": "cluster-spain-primera + begona",
 			"label": "primera + begona",
-			"latestAt": "2026-11-12T20:44:45.000Z",
-			"startedAt": "2026-11-12T17:02:52.000Z",
-			"itemCount": 7,
-			"sourceCount": 4,
+			"latestAt": "2026-11-12T23:09:17.000Z",
+			"startedAt": "2026-11-12T18:57:33.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
 			"terms": [
 				"primera",
 				"begona"
 			],
 			"sources": [
 				"El País",
-				"El Mundo",
 				"El Diario Vasco",
 				"El Correo"
 			],
 			"titles": [
-				"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
-				"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
+				"Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)",
 				"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
-				"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»",
-				"La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer",
-				"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
-				"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
+				"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»"
 			],
 			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
-			"entityLastCandidateAt": "2026-11-12T20:44:45.000Z",
+			"entityLastCandidateAt": "2026-11-12T23:09:17.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T07:00:48.282Z",
+					"label": "primera + begona",
+					"latestAt": "2026-11-12T23:09:17.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)",
+						"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
+						"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»"
+					],
+					"sources": [
+						"El País",
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-primera + begona|2026-11-12T23:09:17.000Z|3|Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)"
+				},
 				{
 					"observedAt": "2026-11-12T23:00:48.320Z",
 					"label": "primera + begona",
@@ -15402,7 +15371,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-spain-real-estrella-real-estrella": {
 			"candidateId": "cluster-spain-real + estrella",
@@ -15656,7 +15625,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-spain-primera-cuando-primera-cuando": {
 			"candidateId": "cluster-spain-primera + cuando",
@@ -15698,7 +15667,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		},
 		"cluster-usa-wins-race-wins-race": {
 			"candidateId": "cluster-usa-wins + race",
@@ -16289,14 +16258,229 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T06:00:48.217Z"
+		},
+		"cluster-spain-grammy-gana-grammy-gana": {
+			"candidateId": "cluster-spain-grammy + gana",
+			"label": "grammy + gana",
+			"latestAt": "2026-11-13T06:18:54.000Z",
+			"startedAt": "2026-11-13T03:21:25.000Z",
+			"itemCount": 4,
+			"sourceCount": 3,
+			"terms": [
+				"grammy",
+				"gana"
+			],
+			"sources": [
+				"El Correo",
+				"El Mundo",
+				"El País"
+			],
+			"titles": [
+				"Rosalía triunfa en los Latin Grammy",
+				"Rosalía hace historia en los Latin Grammy 2026 con su tercer mejor álbum del año",
+				"Rosalía, reina de los Latin Grammy: gana el premio a disco del año por ‘Lux’ y a canción del año por ‘La Perla’",
+				"Todos los ‘looks’ de la alfombra roja de los Latin Grammy 2026"
+			],
+			"entityFirstSeenAt": "2026-11-13T07:00:48.282Z",
+			"entityLastCandidateAt": "2026-11-13T06:18:54.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T07:00:48.282Z",
+					"label": "grammy + gana",
+					"latestAt": "2026-11-13T06:18:54.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Rosalía triunfa en los Latin Grammy",
+						"Rosalía hace historia en los Latin Grammy 2026 con su tercer mejor álbum del año",
+						"Rosalía, reina de los Latin Grammy: gana el premio a disco del año por ‘Lux’ y a canción del año por ‘La Perla’"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo",
+						"El País"
+					],
+					"eventId": "cluster-spain-grammy + gana|2026-11-13T06:18:54.000Z|4|Rosalía triunfa en los Latin Grammy"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+		},
+		"cluster-spain-rescate-ayuda-rescate-ayuda": {
+			"candidateId": "cluster-spain-rescate + ayuda",
+			"label": "rescate + ayuda",
+			"latestAt": "2026-11-13T06:40:19.000Z",
+			"startedAt": "2026-11-12T17:38:23.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"rescate",
+				"ayuda"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Anne Igartiburu, sobre la muerte de su madre en un rescate en helicóptero: «Aquello me convenció de que la ayuda mutua es indispensable»",
+				"Anne Igartiburu recuerda el trágico accidente de su madre en una misión de rescate en Picos de Europa"
+			],
+			"entityFirstSeenAt": "2026-11-13T07:00:48.282Z",
+			"entityLastCandidateAt": "2026-11-13T06:40:19.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T07:00:48.282Z",
+					"label": "rescate + ayuda",
+					"latestAt": "2026-11-13T06:40:19.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Anne Igartiburu, sobre la muerte de su madre en un rescate en helicóptero: «Aquello me convenció de que la ayuda mutua es indispensable»",
+						"Anne Igartiburu recuerda el trágico accidente de su madre en una misión de rescate en Picos de Europa"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-rescate + ayuda|2026-11-13T06:40:19.000Z|2|Anne Igartiburu, sobre la muerte de su madre en un rescate en helicóptero: «Aquello me convenció de que la ayuda mutua es indispensable»"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+		},
+		"cluster-spain-mundial-microsoft-mundial-microsoft": {
+			"candidateId": "cluster-spain-mundial + microsoft",
+			"label": "mundial + microsoft",
+			"latestAt": "2026-11-13T06:39:46.000Z",
+			"startedAt": "2026-11-12T19:11:44.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"mundial",
+				"microsoft"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Microsoft Outlook sufre una caída a nivel mundial",
+				"Microsoft Outlook se cae en todo el mundo"
+			],
+			"entityFirstSeenAt": "2026-11-13T07:00:48.282Z",
+			"entityLastCandidateAt": "2026-11-13T06:39:46.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T07:00:48.282Z",
+					"label": "mundial + microsoft",
+					"latestAt": "2026-11-13T06:39:46.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Microsoft Outlook sufre una caída a nivel mundial",
+						"Microsoft Outlook se cae en todo el mundo"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-mundial + microsoft|2026-11-13T06:39:46.000Z|2|Microsoft Outlook sufre una caída a nivel mundial"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+		},
+		"cluster-spain-veces-enfermera-veces-enfermera": {
+			"candidateId": "cluster-spain-veces + enfermera",
+			"label": "veces + enfermera",
+			"latestAt": "2026-11-13T05:43:48.000Z",
+			"startedAt": "2026-11-12T23:41:08.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"veces",
+				"enfermera"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+				"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
+			],
+			"entityFirstSeenAt": "2026-11-13T07:00:48.282Z",
+			"entityLastCandidateAt": "2026-11-13T05:43:48.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T07:00:48.282Z",
+					"label": "veces + enfermera",
+					"latestAt": "2026-11-13T05:43:48.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+						"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-veces + enfermera|2026-11-13T05:43:48.000Z|2|Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+		},
+		"cluster-spain-feijoo-sanchez-feijoo-sanchez": {
+			"candidateId": "cluster-spain-feijoo + sanchez",
+			"label": "feijoo + sanchez",
+			"latestAt": "2026-11-13T00:27:22.000Z",
+			"startedAt": "2026-11-12T21:26:10.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"feijoo",
+				"sanchez"
+			],
+			"sources": [
+				"El Mundo",
+				"El País"
+			],
+			"titles": [
+				"Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\"",
+				"Feijóo se presenta como “gestor” para “resolver los problemas” frente al “saqueo” de Sánchez"
+			],
+			"entityFirstSeenAt": "2026-11-13T07:00:48.282Z",
+			"entityLastCandidateAt": "2026-11-13T00:27:22.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T07:00:48.282Z",
+					"label": "feijoo + sanchez",
+					"latestAt": "2026-11-13T00:27:22.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\"",
+						"Feijóo se presenta como “gestor” para “resolver los problemas” frente al “saqueo” de Sánchez"
+					],
+					"sources": [
+						"El Mundo",
+						"El País"
+					],
+					"eventId": "cluster-spain-feijoo + sanchez|2026-11-13T00:27:22.000Z|2|Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\""
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-us-2026-11-13T06:00:48.217Z",
+		"id": "local-us-2026-11-13T07:00:48.282Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-13T06:00:48.217Z",
-		"finishedAt": "2026-11-13T06:04:42.652Z",
+		"startedAt": "2026-11-13T07:00:48.282Z",
+		"finishedAt": "2026-11-13T07:04:32.932Z",
 		"signalsCandidate": 10,
 		"signalsSelected": 9,
 		"signalsProcessed": 0,
@@ -16314,8 +16498,8 @@
 			"cacheHits": 10,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 305,
-			"retainedByTtl": 295,
+			"retained": 309,
+			"retainedByTtl": 299,
 			"retiredByTtl": 0
 		},
 		"costUsd": 0
