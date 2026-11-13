@@ -2,58 +2,159 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-13T17:00:47.990Z",
+	"updatedAt": "2026-11-13T18:00:48.625Z",
 	"entries": {
-		"cluster-spain-sanchez-jordi-sanchez-jordi": {
-			"candidateId": "cluster-spain-sanchez + jordi",
-			"label": "sanchez + jordi",
-			"latestAt": "2026-11-13T15:13:28.000Z",
+		"cluster-spain-sanchez-entre-sanchez-entre": {
+			"candidateId": "cluster-spain-sanchez + entre",
+			"label": "sanchez + entre",
+			"latestAt": "2026-11-13T17:39:32.000Z",
 			"startedAt": "2026-11-13T10:14:26.000Z",
-			"itemCount": 8,
+			"itemCount": 7,
 			"sourceCount": 3,
 			"terms": [
 				"sanchez",
-				"jordi"
+				"entre"
 			],
 			"sources": [
-				"El Correo",
 				"El Mundo",
+				"El Correo",
 				"El País"
 			],
 			"titles": [
-				"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
 				"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+				"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
 				"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”",
 				"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
 				"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
-				"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
 				"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas financiadas con fondos públicos»",
 				"Colau, en la entrevista con Jordi Wild: «La derecha ha identificado mejor que Sánchez el cabreo de mucha gente»"
 			],
-			"entityFirstSeenAt": "2026-11-13T16:00:48.169Z",
-			"entityLastCandidateAt": "2026-11-13T15:13:28.000Z",
+			"entityFirstSeenAt": "2026-11-13T18:00:48.625Z",
+			"entityLastCandidateAt": "2026-11-13T17:39:32.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T16:00:48.169Z",
-					"label": "sanchez + jordi",
-					"latestAt": "2026-11-13T15:13:28.000Z",
-					"itemCount": 8,
+					"observedAt": "2026-11-13T18:00:48.625Z",
+					"label": "sanchez + entre",
+					"latestAt": "2026-11-13T17:39:32.000Z",
+					"itemCount": 7,
 					"sourceCount": 3,
 					"headlines": [
-						"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
 						"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+						"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
 						"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”"
 					],
 					"sources": [
-						"El Correo",
 						"El Mundo",
+						"El Correo",
 						"El País"
 					],
-					"eventId": "cluster-spain-sanchez + jordi|2026-11-13T15:13:28.000Z|8|El cara a cara entre Sánchez y Feijóo será el 19 de noviembre"
+					"eventId": "cluster-spain-sanchez + entre|2026-11-13T17:39:32.000Z|7|Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
+			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
+		},
+		"cluster-spain-ante-mundial-ante-mundial": {
+			"candidateId": "cluster-spain-ante + mundial",
+			"label": "ante + mundial",
+			"latestAt": "2026-11-13T17:23:48.000Z",
+			"startedAt": "2026-11-13T07:51:57.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"ante",
+				"mundial"
+			],
+			"sources": [
+				"El Correo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"Euskal Selekzioa examina su potencial ante una experimentada Venezuela",
+				"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»",
+				"Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»"
+			],
+			"entityFirstSeenAt": "2026-11-13T18:00:48.625Z",
+			"entityLastCandidateAt": "2026-11-13T17:23:48.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T18:00:48.625Z",
+					"label": "ante + mundial",
+					"latestAt": "2026-11-13T17:23:48.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Euskal Selekzioa examina su potencial ante una experimentada Venezuela",
+						"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»",
+						"Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»"
+					],
+					"sources": [
+						"El Correo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-ante + mundial|2026-11-13T17:23:48.000Z|3|Euskal Selekzioa examina su potencial ante una experimentada Venezuela"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
+		},
+		"cluster-spain-sanchez-campana-sanchez-campana": {
+			"candidateId": "cluster-spain-sanchez + campana",
+			"label": "sanchez + campana",
+			"latestAt": "2026-11-13T17:54:56.000Z",
+			"startedAt": "2026-11-13T17:15:09.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"sanchez",
+				"campana"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Campaña elecciones 29-N y actualidad política, en directo | Sánchez pide 176 diputados progresistas en el Congreso para “llegar antes y más lejos”",
+				"Sánchez fija en el 75% el umbral de participación el 29-N para tener alguna opción de poder gobernar"
+			],
+			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
+			"entityLastCandidateAt": "2026-11-13T17:54:56.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T18:00:48.625Z",
+					"label": "sanchez + campana",
+					"latestAt": "2026-11-13T17:54:56.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Campaña elecciones 29-N y actualidad política, en directo | Sánchez pide 176 diputados progresistas en el Congreso para “llegar antes y más lejos”",
+						"Sánchez fija en el 75% el umbral de participación el 29-N para tener alguna opción de poder gobernar"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-sanchez + campana|2026-11-13T17:54:56.000Z|2|Campaña elecciones 29-N y actualidad política, en directo | Sánchez pide 176 diputados progresistas en el Congreso para “llegar antes y más lejos”"
+				},
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "sanchez + campana",
+					"latestAt": "2026-11-12T17:02:52.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
+						"Lula viaja a España para apoyar a Sánchez en su campaña electoral"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-sanchez + campana|2026-11-12T17:02:52.000Z|2|Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
 		},
 		"cluster-spain-estar-raphinha-estar-raphinha": {
 			"candidateId": "cluster-spain-estar + raphinha",
@@ -95,49 +196,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
-		},
-		"cluster-spain-caida-mossos-caida-mossos": {
-			"candidateId": "cluster-spain-caida + mossos",
-			"label": "caida + mossos",
-			"latestAt": "2026-11-13T16:15:26.000Z",
-			"startedAt": "2026-11-13T12:15:19.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"caida",
-				"mossos"
-			],
-			"sources": [
-				"El Correo",
-				"El Mundo"
-			],
-			"titles": [
-				"Los Mossos no pueden determinar que alguien participara en la caída de Isak Andic",
-				"Los Mossos admiten que no pueden concluir que alguien participara en la caída de Isak Andic ni determinar la antigüedad de la huella en Collbató"
-			],
-			"entityFirstSeenAt": "2026-11-13T17:00:47.990Z",
-			"entityLastCandidateAt": "2026-11-13T16:15:26.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T17:00:47.990Z",
-					"label": "caida + mossos",
-					"latestAt": "2026-11-13T16:15:26.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Los Mossos no pueden determinar que alguien participara en la caída de Isak Andic",
-						"Los Mossos admiten que no pueden concluir que alguien participara en la caída de Isak Andic ni determinar la antigüedad de la huella en Collbató"
-					],
-					"sources": [
-						"El Correo",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-caida + mossos|2026-11-13T16:15:26.000Z|2|Los Mossos no pueden determinar que alguien participara en la caída de Isak Andic"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
+			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
 		},
 		"cluster-spain-casa-cuerpo-casa-cuerpo": {
 			"candidateId": "cluster-spain-casa + cuerpo",
@@ -211,60 +270,18 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
+			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
 		},
-		"cluster-spain-gobierno-campana-gobierno-campana": {
-			"candidateId": "cluster-spain-gobierno + campana",
-			"label": "gobierno + campana",
-			"latestAt": "2026-11-13T15:02:08.000Z",
-			"startedAt": "2026-11-13T11:58:25.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"gobierno",
-				"campana"
-			],
-			"sources": [
-				"El Correo",
-				"El Mundo"
-			],
-			"titles": [
-				"El Gobierno aprovecha el primer día de campaña electoral para activar la subida de las pensiones",
-				"El Gobierno inicia el camino para revalorizar las pensiones en el primer día de campaña electoral"
-			],
-			"entityFirstSeenAt": "2026-11-13T17:00:47.990Z",
-			"entityLastCandidateAt": "2026-11-13T15:02:08.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T17:00:47.990Z",
-					"label": "gobierno + campana",
-					"latestAt": "2026-11-13T15:02:08.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"El Gobierno aprovecha el primer día de campaña electoral para activar la subida de las pensiones",
-						"El Gobierno inicia el camino para revalorizar las pensiones en el primer día de campaña electoral"
-					],
-					"sources": [
-						"El Correo",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-gobierno + campana|2026-11-13T15:02:08.000Z|2|El Gobierno aprovecha el primer día de campaña electoral para activar la subida de las pensiones"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
-		},
-		"cluster-spain-rosalia-mucho-rosalia-mucho": {
-			"candidateId": "cluster-spain-rosalia + mucho",
-			"label": "rosalia + mucho",
+		"cluster-spain-mucho-antes-mucho-antes": {
+			"candidateId": "cluster-spain-mucho + antes",
+			"label": "mucho + antes",
 			"latestAt": "2026-11-13T12:33:07.000Z",
-			"startedAt": "2026-11-13T06:18:54.000Z",
+			"startedAt": "2026-11-13T10:41:11.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"rosalia",
-				"mucho"
+				"mucho",
+				"antes"
 			],
 			"sources": [
 				"El Diario Vasco",
@@ -272,114 +289,30 @@
 			],
 			"titles": [
 				"Así sonaba Rosalía mucho antes de arrasar en los Latin Grammy: el vídeo de su concierto en la sala Dabadaba de San Sebastián",
-				"Rosalía triunfa en los Latin Grammy"
+				"El artista bilbaíno Adrián Romero gana un Latin Grammy por su trabajo visual para el disco de Milo J"
 			],
-			"entityFirstSeenAt": "2026-11-13T17:00:47.990Z",
+			"entityFirstSeenAt": "2026-11-13T18:00:48.625Z",
 			"entityLastCandidateAt": "2026-11-13T12:33:07.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T17:00:47.990Z",
-					"label": "rosalia + mucho",
+					"observedAt": "2026-11-13T18:00:48.625Z",
+					"label": "mucho + antes",
 					"latestAt": "2026-11-13T12:33:07.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
 					"headlines": [
 						"Así sonaba Rosalía mucho antes de arrasar en los Latin Grammy: el vídeo de su concierto en la sala Dabadaba de San Sebastián",
-						"Rosalía triunfa en los Latin Grammy"
+						"El artista bilbaíno Adrián Romero gana un Latin Grammy por su trabajo visual para el disco de Milo J"
 					],
 					"sources": [
 						"El Diario Vasco",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-rosalia + mucho|2026-11-13T12:33:07.000Z|2|Así sonaba Rosalía mucho antes de arrasar en los Latin Grammy: el vídeo de su concierto en la sala Dabadaba de San Sebastián"
+					"eventId": "cluster-spain-mucho + antes|2026-11-13T12:33:07.000Z|2|Así sonaba Rosalía mucho antes de arrasar en los Latin Grammy: el vídeo de su concierto en la sala Dabadaba de San Sebastián"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
-		},
-		"cluster-spain-mundial-sancet-mundial-sancet": {
-			"candidateId": "cluster-spain-mundial + sancet",
-			"label": "mundial + sancet",
-			"latestAt": "2026-11-13T08:47:09.000Z",
-			"startedAt": "2026-11-13T07:51:57.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"mundial",
-				"sancet"
-			],
-			"sources": [
-				"El Diario Vasco",
-				"El Correo"
-			],
-			"titles": [
-				"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»",
-				"Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»"
-			],
-			"entityFirstSeenAt": "2026-11-13T09:00:48.269Z",
-			"entityLastCandidateAt": "2026-11-13T08:47:09.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T09:00:48.269Z",
-					"label": "mundial + sancet",
-					"latestAt": "2026-11-13T08:47:09.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»",
-						"Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»"
-					],
-					"sources": [
-						"El Diario Vasco",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-mundial + sancet|2026-11-13T08:47:09.000Z|2|Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
-		},
-		"cluster-spain-viviendas-heridos-viviendas-heridos": {
-			"candidateId": "cluster-spain-viviendas + heridos",
-			"label": "viviendas + heridos",
-			"latestAt": "2026-11-13T06:40:29.000Z",
-			"startedAt": "2026-11-13T05:48:13.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"viviendas",
-				"heridos"
-			],
-			"sources": [
-				"El Diario Vasco",
-				"El Correo"
-			],
-			"titles": [
-				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
-				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»"
-			],
-			"entityFirstSeenAt": "2026-11-13T16:00:48.169Z",
-			"entityLastCandidateAt": "2026-11-13T06:40:29.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T16:00:48.169Z",
-					"label": "viviendas + heridos",
-					"latestAt": "2026-11-13T06:40:29.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
-						"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»"
-					],
-					"sources": [
-						"El Diario Vasco",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-viviendas + heridos|2026-11-13T06:40:29.000Z|2|22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
+			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
 		},
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
@@ -769,66 +702,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-11T21:45:42.687Z"
 		},
-		"cluster-usa-trump-miller-trump-miller": {
-			"candidateId": "cluster-usa-trump + miller",
-			"label": "trump + miller",
-			"latestAt": "2026-11-09T17:53:52.000Z",
-			"startedAt": "2026-11-09T13:28:07.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"trump",
-				"miller"
-			],
-			"sources": [
-				"The Guardian US",
-				"CBS News"
-			],
-			"titles": [
-				"Stephen Miller is in. Is Pete Hegseth out? With Ben Rhodes – Stateside with Kai and Carter",
-				"Trump's deportation policy remains in focus as Stephen Miller becomes chief of staff"
-			],
-			"entityFirstSeenAt": "2026-11-07T17:11:05.339Z",
-			"entityLastCandidateAt": "2026-11-09T17:53:52.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T18:21:05.029Z",
-					"label": "trump + miller",
-					"latestAt": "2026-11-09T17:53:52.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Stephen Miller is in. Is Pete Hegseth out? With Ben Rhodes – Stateside with Kai and Carter",
-						"Trump's deportation policy remains in focus as Stephen Miller becomes chief of staff"
-					],
-					"sources": [
-						"The Guardian US",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-trump + miller|2026-11-09T17:53:52.000Z|2|Stephen Miller is in. Is Pete Hegseth out? With Ben Rhodes – Stateside with Kai and Carter"
-				},
-				{
-					"observedAt": "2026-11-07T17:11:05.339Z",
-					"label": "trump + miller",
-					"latestAt": "2026-11-07T15:15:11.000Z",
-					"itemCount": 7,
-					"sourceCount": 5,
-					"headlines": [
-						"Stephen Miller, Trump’s incoming chief of staff, pledges ‘total devotion’ to the president",
-						"Week in Politics: Trump taps Miller for chief of staff; doubles down on Trumpism",
-						"What to Know About Stephen Miller, Trump’s New Chief of Staff"
-					],
-					"sources": [
-						"The Guardian US",
-						"NPR Politics",
-						"The New York Times Politics"
-					],
-					"eventId": "cluster-usa-trump + miller|2026-11-07T15:15:11.000Z|7|Stephen Miller, Trump’s incoming chief of staff, pledges ‘total devotion’ to the president"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T18:21:05.029Z"
-		},
 		"cluster-usa-hegseth-house-hegseth-house": {
 			"candidateId": "cluster-usa-hegseth + house",
 			"label": "hegseth + house",
@@ -1151,88 +1024,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-10T07:04:00.708Z"
-		},
-		"cluster-spain-voto-supremo-voto-supremo": {
-			"candidateId": "cluster-spain-voto + supremo",
-			"label": "voto + supremo",
-			"latestAt": "2026-11-09T17:48:23.000Z",
-			"startedAt": "2026-11-09T12:58:11.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"voto",
-				"supremo"
-			],
-			"sources": [
-				"El País",
-				"El Correo",
-				"El Mundo"
-			],
-			"titles": [
-				"El Supremo rechaza suspender también el voto de los hijos de los nacionalizados por la ‘ley de nietos’",
-				"El Supremo rechaza suspender el voto a los hijos de los nacionalizados por la ley de nietos",
-				"El Supremo rechaza suspender el voto a los hijos de los nacionalizados en la ley de nietos"
-			],
-			"entityFirstSeenAt": "2026-11-09T13:36:18.901Z",
-			"entityLastCandidateAt": "2026-11-09T17:48:23.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T18:20:36.924Z",
-					"label": "voto + supremo",
-					"latestAt": "2026-11-09T17:48:23.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"El Supremo rechaza suspender también el voto de los hijos de los nacionalizados por la ‘ley de nietos’",
-						"El Supremo rechaza suspender el voto a los hijos de los nacionalizados por la ley de nietos",
-						"El Supremo rechaza suspender el voto a los hijos de los nacionalizados en la ley de nietos"
-					],
-					"sources": [
-						"El País",
-						"El Correo",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-voto + supremo|2026-11-09T17:48:23.000Z|3|El Supremo rechaza suspender también el voto de los hijos de los nacionalizados por la ‘ley de nietos’"
-				},
-				{
-					"observedAt": "2026-11-09T13:47:26.704Z",
-					"label": "voto + supremo",
-					"latestAt": "2026-11-09T13:30:22.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"El Supremo rechaza suspender el voto a los hijos de los nacionalizados por la ley de nietos",
-						"El Supremo rechaza suspender el voto a los hijos de los nacionalizados en la ley de nietos",
-						"El Supremo rechaza suspender también el derecho al voto de los 189.000 hijos de los nacionalizados por la ‘ley de nietos’"
-					],
-					"sources": [
-						"El Correo",
-						"El Mundo",
-						"El País"
-					],
-					"eventId": "cluster-spain-voto + supremo|2026-11-09T13:30:22.000Z|3|El Supremo rechaza suspender el voto a los hijos de los nacionalizados por la ley de nietos"
-				},
-				{
-					"observedAt": "2026-11-09T13:36:18.901Z",
-					"label": "voto + supremo",
-					"latestAt": "2026-11-09T13:07:13.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"El Supremo rechaza suspender el voto a los hijos de los nacionalizados por la ley de nietos",
-						"El Supremo rechaza suspender el voto a los hijos de los nacionalizados en la ley de nietos",
-						"El Supremo rechaza suspender también el derecho al voto de los 189.000 hijos de los nacionalizados por la ‘ley de nietos’"
-					],
-					"sources": [
-						"El Correo",
-						"El Mundo",
-						"El País"
-					],
-					"eventId": "cluster-spain-voto + supremo|2026-11-09T13:07:13.000Z|3|El Supremo rechaza suspender el voto a los hijos de los nacionalizados por la ley de nietos"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T18:20:36.924Z"
 		},
 		"cluster-spain-abascal-broncano-abascal-broncano": {
 			"candidateId": "cluster-spain-abascal + broncano",
@@ -1699,52 +1490,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-10T07:04:00.708Z"
 		},
-		"cluster-usa-supreme-court-supreme-court": {
-			"candidateId": "cluster-usa-supreme + court",
-			"label": "supreme + court",
-			"latestAt": "2026-11-09T17:29:57.000Z",
-			"startedAt": "2026-11-09T10:00:00.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"supreme",
-				"court"
-			],
-			"sources": [
-				"NBC News Politics",
-				"NPR Politics",
-				"The New York Times Politics"
-			],
-			"titles": [
-				"Supreme Court set to pare back federal inmates’ ability to sue officials",
-				"Supreme Court weighs effort to shield federal law enforcement as ICE complaints rise",
-				"Why Colorado Is at the Epicenter of So Many Supreme Court Clashes"
-			],
-			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-09T17:29:57.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T18:21:05.029Z",
-					"label": "supreme + court",
-					"latestAt": "2026-11-09T17:29:57.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Supreme Court set to pare back federal inmates’ ability to sue officials",
-						"Supreme Court weighs effort to shield federal law enforcement as ICE complaints rise",
-						"Why Colorado Is at the Epicenter of So Many Supreme Court Clashes"
-					],
-					"sources": [
-						"NBC News Politics",
-						"NPR Politics",
-						"The New York Times Politics"
-					],
-					"eventId": "cluster-usa-supreme + court|2026-11-09T17:29:57.000Z|3|Supreme Court set to pare back federal inmates’ ability to sue officials"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T18:21:05.029Z"
-		},
 		"cluster-usa-here-fire-here-fire": {
 			"candidateId": "cluster-usa-here + fire",
 			"label": "here + fire",
@@ -2039,48 +1784,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-10T07:03:34.270Z"
-		},
-		"cluster-spain-voto-suspender-voto-suspender": {
-			"candidateId": "cluster-spain-voto + suspender",
-			"label": "voto + suspender",
-			"latestAt": "2026-11-09T17:48:23.000Z",
-			"startedAt": "2026-11-09T13:30:22.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"voto",
-				"suspender"
-			],
-			"sources": [
-				"El País",
-				"El Correo"
-			],
-			"titles": [
-				"El Supremo rechaza suspender también el voto de los hijos de los nacionalizados por la ‘ley de nietos’",
-				"El Supremo rechaza suspender el voto a los hijos de los nacionalizados por la ley de nietos"
-			],
-			"entityFirstSeenAt": "2026-11-10T01:47:55.211Z",
-			"entityLastCandidateAt": "2026-11-09T17:48:23.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-10T01:47:55.211Z",
-					"label": "voto + suspender",
-					"latestAt": "2026-11-09T17:48:23.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"El Supremo rechaza suspender también el voto de los hijos de los nacionalizados por la ‘ley de nietos’",
-						"El Supremo rechaza suspender el voto a los hijos de los nacionalizados por la ley de nietos"
-					],
-					"sources": [
-						"El País",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-voto + suspender|2026-11-09T17:48:23.000Z|2|El Supremo rechaza suspender también el voto de los hijos de los nacionalizados por la ‘ley de nietos’"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T01:54:53.349Z"
 		},
 		"cluster-usa-trump-nvidia-trump-nvidia": {
 			"candidateId": "cluster-usa-trump + nvidia",
@@ -12238,28 +11941,53 @@
 		"cluster-usa-huang-jensen-huang-jensen": {
 			"candidateId": "cluster-usa-huang + jensen",
 			"label": "huang + jensen",
-			"latestAt": "2026-11-13T14:50:17.000Z",
-			"startedAt": "2026-11-12T21:15:17.000Z",
-			"itemCount": 5,
-			"sourceCount": 2,
+			"latestAt": "2026-11-13T16:36:28.000Z",
+			"startedAt": "2026-11-12T22:45:40.000Z",
+			"itemCount": 9,
+			"sourceCount": 5,
 			"terms": [
 				"huang",
 				"jensen"
 			],
 			"sources": [
+				"The New York Times",
 				"CBS News",
-				"The New York Times"
+				"The Verge",
+				"Politico",
+				"NPR"
 			],
 			"titles": [
+				"Silicon Valley Start-Ups Face a Future Without Jensen Huang’s Money",
+				"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
 				"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
+				"What’s really at stake in the Jensen Huang saga",
 				"Search for next Nvidia CEO begins after Jensen Huang's resignation",
+				"Jensen Huang’s Washington fallout",
 				"Huang and Lutnick Summoned to Testify Before Congress",
-				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
 				"I Wrote Jensen Huang’s Biography. Here’s What Led to His Downfall."
 			],
 			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-13T14:50:17.000Z",
+			"entityLastCandidateAt": "2026-11-13T16:36:28.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T17:00:47.990Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-13T16:36:28.000Z",
+					"itemCount": 9,
+					"sourceCount": 5,
+					"headlines": [
+						"Silicon Valley Start-Ups Face a Future Without Jensen Huang’s Money",
+						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"The Verge"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-13T16:36:28.000Z|9|Silicon Valley Start-Ups Face a Future Without Jensen Huang’s Money"
+				},
 				{
 					"observedAt": "2026-11-13T16:00:48.169Z",
 					"label": "huang + jensen",
@@ -12387,7 +12115,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T16:00:48.169Z"
+			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
 		},
 		"cluster-usa-nvidia-mississippi-nvidia-mississippi": {
 			"candidateId": "cluster-usa-nvidia + mississippi",
@@ -13134,48 +12862,6 @@
 						"El Mundo"
 					],
 					"eventId": "cluster-spain-entre + primer|2026-11-12T17:35:24.000Z|2|Choque en Dublín entre el primer ministro portugués y el secretario general de la OTAN"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T20:00:49.000Z"
-		},
-		"cluster-spain-sanchez-campana-sanchez-campana": {
-			"candidateId": "cluster-spain-sanchez + campana",
-			"label": "sanchez + campana",
-			"latestAt": "2026-11-12T17:02:52.000Z",
-			"startedAt": "2026-11-12T16:07:57.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"sanchez",
-				"campana"
-			],
-			"sources": [
-				"El País",
-				"El Mundo"
-			],
-			"titles": [
-				"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
-				"Lula viaja a España para apoyar a Sánchez en su campaña electoral"
-			],
-			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
-			"entityLastCandidateAt": "2026-11-12T17:02:52.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "sanchez + campana",
-					"latestAt": "2026-11-12T17:02:52.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
-						"Lula viaja a España para apoyar a Sánchez en su campaña electoral"
-					],
-					"sources": [
-						"El País",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-sanchez + campana|2026-11-12T17:02:52.000Z|2|Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
 				}
 			],
 			"entityState": "active",
@@ -14815,25 +14501,44 @@
 		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
 			"candidateId": "cluster-usa-nvidia + lutnick",
 			"label": "nvidia + lutnick",
-			"latestAt": "2026-11-13T14:02:13.000Z",
+			"latestAt": "2026-11-13T16:20:29.000Z",
 			"startedAt": "2026-11-13T13:59:19.000Z",
-			"itemCount": 2,
+			"itemCount": 4,
 			"sourceCount": 2,
 			"terms": [
 				"nvidia",
 				"lutnick"
 			],
 			"sources": [
-				"The New York Times World",
-				"CBS News"
+				"CBS News",
+				"NBC News Politics"
 			],
 			"titles": [
-				"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
+				"Lutnick faces scrutiny as Nvidia scandal fallout grows",
+				"Commerce Secretary Lutnick agrees to testify about Nvidia",
+				"Company under scrutiny for ties to Nvidia and China",
 				"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
 			],
 			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
-			"entityLastCandidateAt": "2026-11-13T14:02:13.000Z",
+			"entityLastCandidateAt": "2026-11-13T16:20:29.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T17:00:47.990Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T16:20:29.000Z",
+					"itemCount": 4,
+					"sourceCount": 2,
+					"headlines": [
+						"Lutnick faces scrutiny as Nvidia scandal fallout grows",
+						"Commerce Secretary Lutnick agrees to testify about Nvidia",
+						"Company under scrutiny for ties to Nvidia and China"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T16:20:29.000Z|4|Lutnick faces scrutiny as Nvidia scandal fallout grows"
+				},
 				{
 					"observedAt": "2026-11-13T14:25:49.198Z",
 					"label": "nvidia + lutnick",
@@ -14902,12 +14607,12 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T16:00:48.169Z"
+			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
 		},
 		"cluster-usa-microsoft-outage-microsoft-outage": {
 			"candidateId": "cluster-usa-microsoft + outage",
 			"label": "microsoft + outage",
-			"latestAt": "2026-11-13T15:30:08.000Z",
+			"latestAt": "2026-11-13T16:17:11.000Z",
 			"startedAt": "2026-11-13T01:26:24.000Z",
 			"itemCount": 7,
 			"sourceCount": 5,
@@ -14916,24 +14621,42 @@
 				"outage"
 			],
 			"sources": [
-				"The New York Times",
-				"CBS News",
 				"The Verge",
+				"CBS News",
+				"The New York Times",
 				"NPR",
 				"NBC News"
 			],
 			"titles": [
-				"Microsoft Says Outage Disrupting Outlook Is Improving",
-				"Eye Opener: Microsoft Outlook email outage",
 				"Microsoft’s massive Outlook outage continues",
 				"Microsoft says it is seeing \"continued recovery progress\" as it battles major worldwide outage",
+				"Microsoft Says Outage Disrupting Outlook Is Improving",
+				"Eye Opener: Microsoft Outlook email outage",
 				"Widespread Microsoft 365 outage continues, impacting email and other services",
 				"Is Outlook down? Widespread outage hits Microsoft email and other apps",
 				"Microsoft Scrambles to Find Fix Massive Global Outage"
 			],
 			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T15:30:08.000Z",
+			"entityLastCandidateAt": "2026-11-13T16:17:11.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T17:00:47.990Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T16:17:11.000Z",
+					"itemCount": 7,
+					"sourceCount": 5,
+					"headlines": [
+						"Microsoft’s massive Outlook outage continues",
+						"Microsoft says it is seeing \"continued recovery progress\" as it battles major worldwide outage",
+						"Microsoft Says Outage Disrupting Outlook Is Improving"
+					],
+					"sources": [
+						"The Verge",
+						"CBS News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T16:17:11.000Z|7|Microsoft’s massive Outlook outage continues"
+				},
 				{
 					"observedAt": "2026-11-13T16:00:48.169Z",
 					"label": "microsoft + outage",
@@ -15098,7 +14821,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T16:00:48.169Z"
+			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
 		},
 		"cluster-usa-senate-leader-senate-leader": {
 			"candidateId": "cluster-usa-senate + leader",
@@ -15698,6 +15421,48 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
+		},
+		"cluster-spain-mundial-sancet-mundial-sancet": {
+			"candidateId": "cluster-spain-mundial + sancet",
+			"label": "mundial + sancet",
+			"latestAt": "2026-11-13T08:47:09.000Z",
+			"startedAt": "2026-11-13T07:51:57.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"mundial",
+				"sancet"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»",
+				"Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»"
+			],
+			"entityFirstSeenAt": "2026-11-13T09:00:48.269Z",
+			"entityLastCandidateAt": "2026-11-13T08:47:09.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T09:00:48.269Z",
+					"label": "mundial + sancet",
+					"latestAt": "2026-11-13T08:47:09.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»",
+						"Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-mundial + sancet|2026-11-13T08:47:09.000Z|2|Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
 		},
 		"cluster-spain-caida-mundial-caida-mundial": {
 			"candidateId": "cluster-spain-caida + mundial",
@@ -16734,6 +16499,57 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
 		},
+		"cluster-spain-sanchez-jordi-sanchez-jordi": {
+			"candidateId": "cluster-spain-sanchez + jordi",
+			"label": "sanchez + jordi",
+			"latestAt": "2026-11-13T15:13:28.000Z",
+			"startedAt": "2026-11-13T10:14:26.000Z",
+			"itemCount": 8,
+			"sourceCount": 3,
+			"terms": [
+				"sanchez",
+				"jordi"
+			],
+			"sources": [
+				"El Correo",
+				"El Mundo",
+				"El País"
+			],
+			"titles": [
+				"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
+				"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+				"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”",
+				"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
+				"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
+				"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
+				"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas financiadas con fondos públicos»",
+				"Colau, en la entrevista con Jordi Wild: «La derecha ha identificado mejor que Sánchez el cabreo de mucha gente»"
+			],
+			"entityFirstSeenAt": "2026-11-13T16:00:48.169Z",
+			"entityLastCandidateAt": "2026-11-13T15:13:28.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T16:00:48.169Z",
+					"label": "sanchez + jordi",
+					"latestAt": "2026-11-13T15:13:28.000Z",
+					"itemCount": 8,
+					"sourceCount": 3,
+					"headlines": [
+						"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
+						"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+						"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo",
+						"El País"
+					],
+					"eventId": "cluster-spain-sanchez + jordi|2026-11-13T15:13:28.000Z|8|El cara a cara entre Sánchez y Feijóo será el 19 de noviembre"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
+		},
 		"cluster-spain-gobierno-electoral-gobierno-electoral": {
 			"candidateId": "cluster-spain-gobierno + electoral",
 			"label": "gobierno + electoral",
@@ -16775,6 +16591,48 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T16:00:48.169Z"
+		},
+		"cluster-spain-viviendas-heridos-viviendas-heridos": {
+			"candidateId": "cluster-spain-viviendas + heridos",
+			"label": "viviendas + heridos",
+			"latestAt": "2026-11-13T06:40:29.000Z",
+			"startedAt": "2026-11-13T05:48:13.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"viviendas",
+				"heridos"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
+				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»"
+			],
+			"entityFirstSeenAt": "2026-11-13T16:00:48.169Z",
+			"entityLastCandidateAt": "2026-11-13T06:40:29.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T16:00:48.169Z",
+					"label": "viviendas + heridos",
+					"latestAt": "2026-11-13T06:40:29.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
+						"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-viviendas + heridos|2026-11-13T06:40:29.000Z|2|22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
 		},
 		"cluster-usa-huang-trump-huang-trump": {
 			"candidateId": "cluster-usa-huang + trump",
@@ -16914,19 +16772,191 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T16:00:48.169Z"
+			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
+		},
+		"cluster-spain-caida-mossos-caida-mossos": {
+			"candidateId": "cluster-spain-caida + mossos",
+			"label": "caida + mossos",
+			"latestAt": "2026-11-13T16:15:26.000Z",
+			"startedAt": "2026-11-13T12:15:19.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"caida",
+				"mossos"
+			],
+			"sources": [
+				"El Correo",
+				"El Mundo"
+			],
+			"titles": [
+				"Los Mossos no pueden determinar que alguien participara en la caída de Isak Andic",
+				"Los Mossos admiten que no pueden concluir que alguien participara en la caída de Isak Andic ni determinar la antigüedad de la huella en Collbató"
+			],
+			"entityFirstSeenAt": "2026-11-13T17:00:47.990Z",
+			"entityLastCandidateAt": "2026-11-13T16:15:26.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T17:00:47.990Z",
+					"label": "caida + mossos",
+					"latestAt": "2026-11-13T16:15:26.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Los Mossos no pueden determinar que alguien participara en la caída de Isak Andic",
+						"Los Mossos admiten que no pueden concluir que alguien participara en la caída de Isak Andic ni determinar la antigüedad de la huella en Collbató"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-caida + mossos|2026-11-13T16:15:26.000Z|2|Los Mossos no pueden determinar que alguien participara en la caída de Isak Andic"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
+		},
+		"cluster-spain-gobierno-campana-gobierno-campana": {
+			"candidateId": "cluster-spain-gobierno + campana",
+			"label": "gobierno + campana",
+			"latestAt": "2026-11-13T15:02:08.000Z",
+			"startedAt": "2026-11-13T11:58:25.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"gobierno",
+				"campana"
+			],
+			"sources": [
+				"El Correo",
+				"El Mundo"
+			],
+			"titles": [
+				"El Gobierno aprovecha el primer día de campaña electoral para activar la subida de las pensiones",
+				"El Gobierno inicia el camino para revalorizar las pensiones en el primer día de campaña electoral"
+			],
+			"entityFirstSeenAt": "2026-11-13T17:00:47.990Z",
+			"entityLastCandidateAt": "2026-11-13T15:02:08.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T17:00:47.990Z",
+					"label": "gobierno + campana",
+					"latestAt": "2026-11-13T15:02:08.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El Gobierno aprovecha el primer día de campaña electoral para activar la subida de las pensiones",
+						"El Gobierno inicia el camino para revalorizar las pensiones en el primer día de campaña electoral"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-gobierno + campana|2026-11-13T15:02:08.000Z|2|El Gobierno aprovecha el primer día de campaña electoral para activar la subida de las pensiones"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
+		},
+		"cluster-spain-rosalia-mucho-rosalia-mucho": {
+			"candidateId": "cluster-spain-rosalia + mucho",
+			"label": "rosalia + mucho",
+			"latestAt": "2026-11-13T12:33:07.000Z",
+			"startedAt": "2026-11-13T06:18:54.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"rosalia",
+				"mucho"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Así sonaba Rosalía mucho antes de arrasar en los Latin Grammy: el vídeo de su concierto en la sala Dabadaba de San Sebastián",
+				"Rosalía triunfa en los Latin Grammy"
+			],
+			"entityFirstSeenAt": "2026-11-13T17:00:47.990Z",
+			"entityLastCandidateAt": "2026-11-13T12:33:07.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T17:00:47.990Z",
+					"label": "rosalia + mucho",
+					"latestAt": "2026-11-13T12:33:07.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Así sonaba Rosalía mucho antes de arrasar en los Latin Grammy: el vídeo de su concierto en la sala Dabadaba de San Sebastián",
+						"Rosalía triunfa en los Latin Grammy"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-rosalia + mucho|2026-11-13T12:33:07.000Z|2|Así sonaba Rosalía mucho antes de arrasar en los Latin Grammy: el vídeo de su concierto en la sala Dabadaba de San Sebastián"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
+		},
+		"cluster-usa-democratic-hollen-democratic-hollen": {
+			"candidateId": "cluster-usa-democratic + hollen",
+			"label": "democratic + hollen",
+			"latestAt": "2026-11-13T15:46:35.000Z",
+			"startedAt": "2026-11-13T14:26:31.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"democratic",
+				"hollen"
+			],
+			"sources": [
+				"NPR",
+				"CBS News",
+				"PBS NewsHour"
+			],
+			"titles": [
+				"How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front",
+				"Van Hollen says he'll challenge Schumer for Senate majority leader",
+				"Van Hollen to challenge Schumer for Senate Democratic leader"
+			],
+			"entityFirstSeenAt": "2026-11-13T17:00:47.990Z",
+			"entityLastCandidateAt": "2026-11-13T15:46:35.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T17:00:47.990Z",
+					"label": "democratic + hollen",
+					"latestAt": "2026-11-13T15:46:35.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front",
+						"Van Hollen says he'll challenge Schumer for Senate majority leader",
+						"Van Hollen to challenge Schumer for Senate Democratic leader"
+					],
+					"sources": [
+						"NPR",
+						"CBS News",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-democratic + hollen|2026-11-13T15:46:35.000Z|3|How Sen. Chris Van Hollen plans to flex Democratic power on the foreign aid front"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T17:00:47.990Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-es-2026-11-13T17:00:47.990Z",
+		"id": "local-es-2026-11-13T18:00:48.625Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-13T17:00:47.990Z",
-		"finishedAt": "2026-11-13T17:02:42.114Z",
-		"signalsCandidate": 8,
+		"startedAt": "2026-11-13T18:00:48.625Z",
+		"finishedAt": "2026-11-13T18:03:10.243Z",
+		"signalsCandidate": 6,
 		"signalsSelected": 6,
 		"signalsProcessed": 0,
-		"cacheHits": 4,
+		"cacheHits": 3,
 		"skippedByConfig": 6,
 		"skippedByBudget": 0,
 		"failures": 0,
@@ -16937,12 +16967,12 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 4,
+			"cacheHits": 3,
 			"skippedByBudget": 0,
 			"failures": 0,
 			"retained": 316,
-			"retainedByTtl": 308,
-			"retiredByTtl": 1
+			"retainedByTtl": 310,
+			"retiredByTtl": 4
 		},
 		"costUsd": 0
 	}
