@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-13T18:00:48.625Z",
+  "updatedAt": "2026-11-13T19:00:48.644Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "225,513 links analyzed",
-  "dayScanLabel": "6,026 links scanned in 24h",
+  "ambientPulseLabel": "226,121 links analyzed",
+  "dayScanLabel": "6,033 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -16,80 +16,7 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": {
-    "id": "moving-cluster-united states-microsoft + outage",
-    "title": "Is Outlook down? Widespread outage hits Microsoft email and other apps",
-    "brief": "Is Outlook down? Widespread outage hits Microsoft email and other apps.",
-    "whyItMatters": "",
-    "verdict": "If it repeats in the next run, it gains weight.",
-    "mode": "moving",
-    "state": "rising",
-    "stateLabel": "Rising",
-    "strength": 28,
-    "sourceCount": 5,
-    "itemCount": 6,
-    "freshness": "2h fresh",
-    "alertLevel": "watch",
-    "alertLabel": "Watch",
-    "alertScore": 99,
-    "alertTriggers": [
-      "Crosses several sources",
-      "Picks up volume fast",
-      "Still active"
-    ],
-    "isHotNews": false,
-    "sources": [
-      "The Verge",
-      "The New York Times",
-      "CBS News",
-      "NPR",
-      "NBC News"
-    ],
-    "images": [
-      "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_A.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "https://static01.nyt.com/images/2026/11/12/multimedia/12xp-outlook-wtfb/12xp-outlook-wtfb-mediumSquareAt3X.jpg",
-      "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4799x3199+0+0/resize/4799x3199!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F47%2F97%2Fb2168dc9402c9b30f325585f85b5%2Fap26316685909733.jpg",
-      "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1794571944190_tdy_news_7a_romans_microsoft_outage_261113_S3_1920x1080-87fz6d.jpg"
-    ],
-    "evidence": [
-      {
-        "title": "Microsoft’s massive Outlook outage continues",
-        "source": "The Verge",
-        "publishedAt": "2026-11-13T16:17:11.000Z",
-        "sourceUrl": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_A.jpg?quality=90&strip=all&crop=0,0,100,100"
-      },
-      {
-        "title": "Microsoft Says Outage Disrupting Outlook Is Improving",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-13T15:30:08.000Z",
-        "sourceUrl": "https://www.nytimes.com/2026/11/12/business/microsoft-outlook-down-outage-email.html?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12xp-outlook-wtfb/12xp-outlook-wtfb-mediumSquareAt3X.jpg"
-      },
-      {
-        "title": "Widespread Microsoft 365 outage continues, impacting email and other services",
-        "source": "CBS News",
-        "publishedAt": "2026-11-13T14:42:05.000Z",
-        "sourceUrl": "https://www.cbsnews.com/video/widespread-microsoft-365-outage-continues-impacting-email-and-other-services/?utm_source=lootura.com&ref=lootura.com",
-        "image": ""
-      },
-      {
-        "title": "Eye Opener: Microsoft Outlook email outage",
-        "source": "CBS News",
-        "publishedAt": "2026-11-13T14:37:55.000Z",
-        "sourceUrl": "https://www.cbsnews.com/video/eye-opener-microsoft-outlook-email-outage/?utm_source=lootura.com&ref=lootura.com",
-        "image": ""
-      },
-      {
-        "title": "Microsoft Scrambles to Find Fix Massive Global Outage",
-        "source": "NBC News",
-        "publishedAt": "2026-11-13T12:12:30.000Z",
-        "sourceUrl": "https://www.today.com/video/global-microsoft-outage-enters-its-2nd-day-how-long-will-it-last-273437765987?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1794571944190_tdy_news_7a_romans_microsoft_outage_261113_S3_1920x1080-87fz6d.jpg"
-      }
-    ],
-    "path": "/us/entity/is-outlook-down-widespread-outage-hits-microsoft-email-and-other-apps/"
-  },
+  "topAlert": null,
   "signals": [
     {
       "id": "moving-cluster-united states-microsoft + outage",
@@ -100,12 +27,12 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 28,
-      "sourceCount": 5,
-      "itemCount": 6,
-      "freshness": "2h fresh",
-      "alertLevel": "watch",
-      "alertLabel": "Watch",
+      "strength": 19,
+      "sourceCount": 4,
+      "itemCount": 4,
+      "freshness": "4h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
       "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
@@ -114,26 +41,17 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The Verge",
         "The New York Times",
         "CBS News",
         "NPR",
         "NBC News"
       ],
       "images": [
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_A.jpg?quality=90&strip=all&crop=0,0,100,100",
         "https://static01.nyt.com/images/2026/11/12/multimedia/12xp-outlook-wtfb/12xp-outlook-wtfb-mediumSquareAt3X.jpg",
         "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4799x3199+0+0/resize/4799x3199!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F47%2F97%2Fb2168dc9402c9b30f325585f85b5%2Fap26316685909733.jpg",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1794571944190_tdy_news_7a_romans_microsoft_outage_261113_S3_1920x1080-87fz6d.jpg"
       ],
       "evidence": [
-        {
-          "title": "Microsoft’s massive Outlook outage continues",
-          "source": "The Verge",
-          "publishedAt": "2026-11-13T16:17:11.000Z",
-          "sourceUrl": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_A.jpg?quality=90&strip=all&crop=0,0,100,100"
-        },
         {
           "title": "Microsoft Says Outage Disrupting Outlook Is Improving",
           "source": "The New York Times",
@@ -149,98 +67,26 @@
           "image": ""
         },
         {
-          "title": "Eye Opener: Microsoft Outlook email outage",
-          "source": "CBS News",
-          "publishedAt": "2026-11-13T14:37:55.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/eye-opener-microsoft-outlook-email-outage/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
           "title": "Microsoft Scrambles to Find Fix Massive Global Outage",
           "source": "NBC News",
           "publishedAt": "2026-11-13T12:12:30.000Z",
           "sourceUrl": "https://www.today.com/video/global-microsoft-outage-enters-its-2nd-day-how-long-will-it-last-273437765987?utm_source=lootura.com&ref=lootura.com",
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1794571944190_tdy_news_7a_romans_microsoft_outage_261113_S3_1920x1080-87fz6d.jpg"
+        },
+        {
+          "title": "Is Outlook down? Widespread outage hits Microsoft email and other apps",
+          "source": "NPR",
+          "publishedAt": "2026-11-13T01:26:24.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/12/nx-s1-6039343/is-outlook-down-widespread-outage-hits-microsoft-email-and-other-apps?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4799x3199+0+0/resize/4799x3199!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F47%2F97%2Fb2168dc9402c9b30f325585f85b5%2Fap26316685909733.jpg"
         }
       ],
       "path": "/us/entity/is-outlook-down-widespread-outage-hits-microsoft-email-and-other-apps/"
     },
     {
-      "id": "moving-cluster-united states-jensen + huang",
-      "title": "Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
-      "brief": "Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 25,
-      "sourceCount": 3,
-      "itemCount": 6,
-      "freshness": "1h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 99,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times",
-        "CBS News",
-        "Politico"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/13/multimedia/13biz-nvidia-startups-2-mfvc/13biz-nvidia-startups-2-mfvc-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/11/13/opinion/13kantrowitz-image/13kantrowitz-image-mediumSquareAt3X.jpg",
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/13/95be5c47-16b3-4058-8f92-87ef170c1159/thumbnail/1200x630/5cd0e87720ded82e2289ef40c680e4ee/cbsn-fusion-search-for-next-nvidia-ceo-begins-after-jensen-huangs-resignation-thumbnail.jpg",
-        "https://cf-images.us-east-1.prod.boltdns.net/v1/static/1155968404/58d3794f-78d2-4ff0-94e3-c7a53a925b18/99c0b8d2-61c3-4b98-921c-d12f5637010f/1280x720/match/image.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-13T16:36:28.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/13/technology/jensen-huang-silicon-valley-start-ups.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13biz-nvidia-startups-2-mfvc/13biz-nvidia-startups-2-mfvc-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-13T16:30:07.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/13/opinion/jensen-huang-nvidia.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/13/opinion/13kantrowitz-image/13kantrowitz-image-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
-          "source": "CBS News",
-          "publishedAt": "2026-11-13T14:50:17.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/former-nvidia-ceo-jensen-huang-willing-to-appear-before-congress-amid-probe-into-alleged-spy-affair/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Search for next Nvidia CEO begins after Jensen Huang's resignation",
-          "source": "CBS News",
-          "publishedAt": "2026-11-13T14:10:40.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/search-for-next-nvidia-ceo-begins-after-jensen-huangs-resignation/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/13/95be5c47-16b3-4058-8f92-87ef170c1159/thumbnail/1200x630/5cd0e87720ded82e2289ef40c680e4ee/cbsn-fusion-search-for-next-nvidia-ceo-begins-after-jensen-huangs-resignation-thumbnail.jpg"
-        },
-        {
-          "title": "Jensen Huang’s Washington fallout",
-          "source": "Politico",
-          "publishedAt": "2026-11-13T10:45:00.000Z",
-          "sourceUrl": "https://www.politico.com/video/2026/11/13/jensen-huangs-washington-fallout-2229409?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/1155968404/58d3794f-78d2-4ff0-94e3-c7a53a925b18/99c0b8d2-61c3-4b98-921c-d12f5637010f/1280x720/match/image.jpg"
-        }
-      ],
-      "path": "/us/entity/former-nvidia-ceo-jensen-huang-willing-to-appear-before-congress-amid-probe-into/"
-    },
-    {
-      "id": "now-cluster-united states-nvidia + lutnick",
-      "title": "Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
-      "brief": "Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China.",
+      "id": "now-cluster-united states-jensen + huang",
+      "title": "Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+      "brief": "Jensen Huang’s Fall Is Bad for Nvidia but Good for America.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -260,45 +106,47 @@
       ],
       "isHotNews": false,
       "sources": [
-        "PBS NewsHour",
-        "CBS News",
-        "NBC News Politics"
+        "The New York Times",
+        "The Verge",
+        "Politico"
       ],
       "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-11T014218Z_1139623673_RC2DLOAHZWQ0_RTRMADP_3_USA-CHINA-BESSENT-1-1024x683.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794585741703_now_current_lutnick_testify_agree_261113_S3_1920x1080-y6fk14.jpg"
+        "https://static01.nyt.com/images/2026/11/13/opinion/13kantrowitz-image/13kantrowitz-image-mediumSquareAt3X.jpg",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301295182.jpg?quality=90&strip=all&crop=0,0,100,100",
+        "https://static01.nyt.com/images/2026/11/13/multimedia/13biz-nvidia-startups-2-mfvc/13biz-nvidia-startups-2-mfvc-mediumSquareAt3X.jpg",
+        "https://cf-images.us-east-1.prod.boltdns.net/v1/static/1155968404/58d3794f-78d2-4ff0-94e3-c7a53a925b18/99c0b8d2-61c3-4b98-921c-d12f5637010f/1280x720/match/image.jpg"
       ],
       "evidence": [
         {
-          "title": "Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-13T17:09:45.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/politics/bessent-blames-lutnicks-commerce-department-for-not-restricting-nvidia-chips-to-china?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-11T014218Z_1139623673_RC2DLOAHZWQ0_RTRMADP_3_USA-CHINA-BESSENT-1-1024x683.jpg"
+          "title": "Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-13T18:10:25.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/13/opinion/jensen-huang-nvidia.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/13/opinion/13kantrowitz-image/13kantrowitz-image-mediumSquareAt3X.jpg"
         },
         {
-          "title": "Lutnick faces scrutiny as Nvidia scandal fallout grows",
-          "source": "CBS News",
-          "publishedAt": "2026-11-13T16:20:29.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/lutnick-faces-scrutiny-as-nvidia-scandal-fallout-grows/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "Jensen Huang was reckless with the environment, too",
+          "source": "The Verge",
+          "publishedAt": "2026-11-13T17:44:22.000Z",
+          "sourceUrl": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301295182.jpg?quality=90&strip=all&crop=0,0,100,100"
         },
         {
-          "title": "Commerce Secretary Lutnick agrees to testify about Nvidia",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-13T16:02:27.000Z",
-          "sourceUrl": "https://www.nbcnews.com/video/commerce-secretary-lutnick-agrees-to-testify-about-nvidia-273452613709?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794585741703_now_current_lutnick_testify_agree_261113_S3_1920x1080-y6fk14.jpg"
+          "title": "Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-13T16:36:28.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/13/technology/jensen-huang-silicon-valley-start-ups.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13biz-nvidia-startups-2-mfvc/13biz-nvidia-startups-2-mfvc-mediumSquareAt3X.jpg"
         },
         {
-          "title": "Company under scrutiny for ties to Nvidia and China",
-          "source": "CBS News",
-          "publishedAt": "2026-11-13T15:19:08.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/megaspeed-nvidia-china-ties/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "Jensen Huang’s Washington fallout",
+          "source": "Politico",
+          "publishedAt": "2026-11-13T10:45:00.000Z",
+          "sourceUrl": "https://www.politico.com/video/2026/11/13/jensen-huangs-washington-fallout-2229409?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/1155968404/58d3794f-78d2-4ff0-94e3-c7a53a925b18/99c0b8d2-61c3-4b98-921c-d12f5637010f/1280x720/match/image.jpg"
         }
       ],
-      "path": "/us/entity/bessent-blames-lutnick-s-commerce-department-for-not-restricting-nvidia-chips-to/"
+      "path": "/us/entity/jensen-huang-s-fall-is-bad-for-nvidia-but-good-for-america/"
     },
     {
       "id": "now-cluster-united states-democratic + hollen",
@@ -312,7 +160,7 @@
       "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "fresh now",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 92,
@@ -358,9 +206,9 @@
       "path": "/us/entity/how-sen-chris-van-hollen-plans-to-flex-democratic-power-on-the-foreign-aid-front/"
     },
     {
-      "id": "now-cluster-united states-alex + murdaugh",
-      "title": "Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed",
-      "brief": "Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed.",
+      "id": "now-cluster-united states-huang + congress",
+      "title": "Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
+      "brief": "Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -369,7 +217,116 @@
       "strength": 16,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "1h fresh",
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "The New York Times"
+      ],
+      "images": [
+        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/13/be750536-5488-4730-9262-4de8c9eea90f/thumbnail/1200x630/42433ca49ef539be4ce311d6b7bad7d7/brian-monahan-20200512.jpg",
+        "https://static01.nyt.com/images/2026/11/12/multimedia/12biz-nvidia-live-hill-testimony-sub-glmz/12biz-nvidia-live-hill-testimony-sub-glmz-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Navy admiral resigns as top doctor for Congress amid misconduct allegations",
+          "source": "CBS News",
+          "publishedAt": "2026-11-13T18:32:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/brian-monahan-resigns-congress-doctor-misconduct-allegations/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/13/be750536-5488-4730-9262-4de8c9eea90f/thumbnail/1200x630/42433ca49ef539be4ce311d6b7bad7d7/brian-monahan-20200512.jpg"
+        },
+        {
+          "title": "Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
+          "source": "CBS News",
+          "publishedAt": "2026-11-13T14:50:17.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/former-nvidia-ceo-jensen-huang-willing-to-appear-before-congress-amid-probe-into-alleged-spy-affair/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Huang and Lutnick Summoned to Testify Before Congress",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-13T01:10:19.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/12/business/jensen-huang-howard-lutnick-testify-capitol-hill.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12biz-nvidia-live-hill-testimony-sub-glmz/12biz-nvidia-live-hill-testimony-sub-glmz-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/former-nvidia-ceo-jensen-huang-willing-to-appear-before-congress-amid-probe-into/"
+    },
+    {
+      "id": "moving-cluster-united states-nvidia + lutnick",
+      "title": "Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+      "brief": "Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "2h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "PBS NewsHour",
+        "CBS News"
+      ],
+      "images": [
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-11T014218Z_1139623673_RC2DLOAHZWQ0_RTRMADP_3_USA-CHINA-BESSENT-1-1024x683.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-13T17:09:45.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/politics/bessent-blames-lutnicks-commerce-department-for-not-restricting-nvidia-chips-to-china?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-11T014218Z_1139623673_RC2DLOAHZWQ0_RTRMADP_3_USA-CHINA-BESSENT-1-1024x683.jpg"
+        },
+        {
+          "title": "Lutnick faces scrutiny as Nvidia scandal fallout grows",
+          "source": "CBS News",
+          "publishedAt": "2026-11-13T16:20:29.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/lutnick-faces-scrutiny-as-nvidia-scandal-fallout-grows/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Company under scrutiny for ties to Nvidia and China",
+          "source": "CBS News",
+          "publishedAt": "2026-11-13T15:19:08.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/megaspeed-nvidia-china-ties/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/us/entity/bessent-blames-lutnick-s-commerce-department-for-not-restricting-nvidia-chips-to/"
+    },
+    {
+      "id": "moving-cluster-united states-alex + murdaugh",
+      "title": "Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed",
+      "brief": "Alex Murdaugh's lawyers back in court, hoping to get murder indictments dismissed.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 79,
@@ -413,9 +370,9 @@
       "path": "/us/entity/alex-murdaugh-s-lawyers-back-in-court-hoping-to-get-murder-indictments-dismissed/"
     },
     {
-      "id": "now-cluster-united states-trump + democratic",
-      "title": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
-      "brief": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign.",
+      "id": "now-cluster-united states-trump + they",
+      "title": "What's Trump's strategy now with Iran? To keep things as they are",
+      "brief": "What's Trump's strategy now with Iran? To keep things as they are.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -425,6 +382,53 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NPR World",
+        "The New York Times Politics"
+      ],
+      "images": [
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2Fb9%2F6cf90f6c4b56b83e0634229f9650%2Fap26315362362926.jpg",
+        "https://static01.nyt.com/images/2026/11/12/multimedia/12dc-trump-vance-klmp/12dc-trump-vance-klmp-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "What's Trump's strategy now with Iran? To keep things as they are",
+          "source": "NPR World",
+          "publishedAt": "2026-11-13T19:02:04.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2Fb9%2F6cf90f6c4b56b83e0634229f9650%2Fap26315362362926.jpg"
+        },
+        {
+          "title": "Trump Signals New Strategy on Iran: A Waiting Game",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-13T18:20:50.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/13/us/politics/trump-iran-strategy.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12dc-trump-vance-klmp/12dc-trump-vance-klmp-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/what-s-trump-s-strategy-now-with-iran-to-keep-things-as-they-are/"
+    },
+    {
+      "id": "moving-cluster-united states-trump + talks",
+      "title": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
+      "brief": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -460,24 +464,23 @@
       "path": "/us/entity/trump-says-he-s-pulling-vance-off-iran-talks-to-focus-on-fraud-campaign/"
     },
     {
-      "id": "moving-cluster-united states-here + even",
+      "id": "fading-cluster-united states-even + scott",
       "title": "Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
       "brief": "Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
       "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 14,
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 70,
+      "alertScore": 52,
       "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
+        "Crosses several sources"
       ],
       "isHotNews": false,
       "sources": [
