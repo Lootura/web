@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-13T13:35:22.142Z",
+	"updatedAt": "2026-11-13T13:50:49.929Z",
 	"entries": {
 		"cluster-spain-latin-grammy-latin-grammy": {
 			"candidateId": "cluster-spain-latin + grammy",
@@ -67,18 +67,66 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
-		"cluster-spain-jordi-wild-jordi-wild": {
-			"candidateId": "cluster-spain-jordi + wild",
-			"label": "jordi + wild",
+		"cluster-spain-campana-electoral-campana-electoral": {
+			"candidateId": "cluster-spain-campana + electoral",
+			"label": "campana + electoral",
+			"latestAt": "2026-11-13T13:50:17.000Z",
+			"startedAt": "2026-11-13T12:09:22.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"campana",
+				"electoral"
+			],
+			"sources": [
+				"La Razón",
+				"The Objective",
+				"Cadena SER",
+				"El Mundo"
+			],
+			"titles": [
+				"Elecciones generales 29N, en directo: arranca la campaña electoral con los primeros mítines de PSOE, PP, Vox y Frente Amplio",
+				"AP Institute celebra el primer debate electoral con jóvenes de PP, PSOE, Vox y Frente Amplio",
+				"Francina Armengol sitúa el acceso a la vivienda como prioridad absoluta en el primer día de campaña electoral",
+				"El Gobierno inicia el camino para revalorizar las pensiones en el primer día de campaña electoral"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:50:49.929Z",
+			"entityLastCandidateAt": "2026-11-13T13:50:17.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:50:49.929Z",
+					"label": "campana + electoral",
+					"latestAt": "2026-11-13T13:50:17.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Elecciones generales 29N, en directo: arranca la campaña electoral con los primeros mítines de PSOE, PP, Vox y Frente Amplio",
+						"AP Institute celebra el primer debate electoral con jóvenes de PP, PSOE, Vox y Frente Amplio",
+						"Francina Armengol sitúa el acceso a la vivienda como prioridad absoluta en el primer día de campaña electoral"
+					],
+					"sources": [
+						"La Razón",
+						"The Objective",
+						"Cadena SER"
+					],
+					"eventId": "cluster-spain-campana + electoral|2026-11-13T13:50:17.000Z|4|Elecciones generales 29N, en directo: arranca la campaña electoral con los primeros mítines de PSOE, PP, Vox y Frente Amplio"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+		},
+		"cluster-spain-pero-campana-pero-campana": {
+			"candidateId": "cluster-spain-pero + campana",
+			"label": "pero + campana",
 			"latestAt": "2026-11-13T13:22:15.000Z",
 			"startedAt": "2026-11-13T04:45:01.000Z",
 			"itemCount": 5,
 			"sourceCount": 3,
 			"terms": [
-				"jordi",
-				"wild"
+				"pero",
+				"campana"
 			],
 			"sources": [
 				"El Mundo",
@@ -87,35 +135,97 @@
 			],
 			"titles": [
 				"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
-				"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas»",
 				"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
 				"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
+				"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas financiadas con fondos públicos»",
 				"Arranca la campaña con el plantón de Abascal a Jordi Wild: “Todo el efecto positivo que había conseguido con Broncano se ha diluido”"
 			],
-			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityFirstSeenAt": "2026-11-13T13:50:49.929Z",
 			"entityLastCandidateAt": "2026-11-13T13:22:15.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T13:35:22.142Z",
-					"label": "jordi + wild",
+					"observedAt": "2026-11-13T13:50:49.929Z",
+					"label": "pero + campana",
 					"latestAt": "2026-11-13T13:22:15.000Z",
 					"itemCount": 5,
 					"sourceCount": 3,
 					"headlines": [
 						"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
-						"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas»",
-						"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores"
+						"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
+						"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\""
 					],
 					"sources": [
 						"El Mundo",
 						"El Correo",
 						"El País"
 					],
-					"eventId": "cluster-spain-jordi + wild|2026-11-13T13:22:15.000Z|5|Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta"
+					"eventId": "cluster-spain-pero + campana|2026-11-13T13:22:15.000Z|5|Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+		},
+		"cluster-spain-caida-mundial-caida-mundial": {
+			"candidateId": "cluster-spain-caida + mundial",
+			"label": "caida + mundial",
+			"latestAt": "2026-11-13T13:47:24.000Z",
+			"startedAt": "2026-11-13T06:08:47.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"caida",
+				"mundial"
+			],
+			"sources": [
+				"Cadena SER",
+				"El Mundo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"Un experto de la UPV apunta a un error humano o un posible ciberataque en la caída global de Microsoft",
+				"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+				"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
+			],
+			"entityFirstSeenAt": "2026-11-13T09:00:48.269Z",
+			"entityLastCandidateAt": "2026-11-13T13:47:24.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:50:49.929Z",
+					"label": "caida + mundial",
+					"latestAt": "2026-11-13T13:47:24.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Un experto de la UPV apunta a un error humano o un posible ciberataque en la caída global de Microsoft",
+						"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+						"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
+					],
+					"sources": [
+						"Cadena SER",
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-caida + mundial|2026-11-13T13:47:24.000Z|3|Un experto de la UPV apunta a un error humano o un posible ciberataque en la caída global de Microsoft"
+				},
+				{
+					"observedAt": "2026-11-13T09:00:48.269Z",
+					"label": "caida + mundial",
+					"latestAt": "2026-11-13T07:21:44.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+						"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
+					],
+					"sources": [
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-caida + mundial|2026-11-13T07:21:44.000Z|2|Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
 		"cluster-spain-casa-renfe-casa-renfe": {
 			"candidateId": "cluster-spain-casa + renfe",
@@ -157,7 +267,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
 		"cluster-spain-mundial-sancet-mundial-sancet": {
 			"candidateId": "cluster-spain-mundial + sancet",
@@ -199,60 +309,18 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
-		"cluster-spain-mundial-caida-mundial-caida": {
-			"candidateId": "cluster-spain-mundial + caida",
-			"label": "mundial + caida",
-			"latestAt": "2026-11-13T07:21:44.000Z",
-			"startedAt": "2026-11-13T06:08:47.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"mundial",
-				"caida"
-			],
-			"sources": [
-				"El Mundo",
-				"El Diario Vasco"
-			],
-			"titles": [
-				"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
-				"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
-			],
-			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
-			"entityLastCandidateAt": "2026-11-13T07:21:44.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T13:35:22.142Z",
-					"label": "mundial + caida",
-					"latestAt": "2026-11-13T07:21:44.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
-						"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
-					],
-					"sources": [
-						"El Mundo",
-						"El Diario Vasco"
-					],
-					"eventId": "cluster-spain-mundial + caida|2026-11-13T07:21:44.000Z|2|Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
-		},
-		"cluster-spain-grave-heridos-grave-heridos": {
-			"candidateId": "cluster-spain-grave + heridos",
-			"label": "grave + heridos",
+		"cluster-spain-hospital-grave-hospital-grave": {
+			"candidateId": "cluster-spain-hospital + grave",
+			"label": "hospital + grave",
 			"latestAt": "2026-11-13T06:40:29.000Z",
 			"startedAt": "2026-11-13T05:48:13.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"grave",
-				"heridos"
+				"hospital",
+				"grave"
 			],
 			"sources": [
 				"El Diario Vasco",
@@ -262,12 +330,12 @@
 				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
 				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»"
 			],
-			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityFirstSeenAt": "2026-11-13T13:50:49.929Z",
 			"entityLastCandidateAt": "2026-11-13T06:40:29.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T13:35:22.142Z",
-					"label": "grave + heridos",
+					"observedAt": "2026-11-13T13:50:49.929Z",
+					"label": "hospital + grave",
 					"latestAt": "2026-11-13T06:40:29.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -279,22 +347,22 @@
 						"El Diario Vasco",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-grave + heridos|2026-11-13T06:40:29.000Z|2|22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»"
+					"eventId": "cluster-spain-hospital + grave|2026-11-13T06:40:29.000Z|2|22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
-		"cluster-spain-veces-hijo-veces-hijo": {
-			"candidateId": "cluster-spain-veces + hijo",
-			"label": "veces + hijo",
+		"cluster-spain-enfermera-veces-enfermera-veces": {
+			"candidateId": "cluster-spain-enfermera + veces",
+			"label": "enfermera + veces",
 			"latestAt": "2026-11-13T05:43:48.000Z",
 			"startedAt": "2026-11-12T23:41:08.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"veces",
-				"hijo"
+				"enfermera",
+				"veces"
 			],
 			"sources": [
 				"El Diario Vasco",
@@ -304,12 +372,12 @@
 				"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
 				"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
 			],
-			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityFirstSeenAt": "2026-11-13T13:50:49.929Z",
 			"entityLastCandidateAt": "2026-11-13T05:43:48.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T13:35:22.142Z",
-					"label": "veces + hijo",
+					"observedAt": "2026-11-13T13:50:49.929Z",
+					"label": "enfermera + veces",
 					"latestAt": "2026-11-13T05:43:48.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -321,11 +389,11 @@
 						"El Diario Vasco",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-veces + hijo|2026-11-13T05:43:48.000Z|2|Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo"
+					"eventId": "cluster-spain-enfermera + veces|2026-11-13T05:43:48.000Z|2|Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -500,27 +568,41 @@
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
 			"label": "trump + democrats",
-			"latestAt": "2026-11-12T18:34:46.000Z",
-			"startedAt": "2026-11-12T17:13:54.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
+			"latestAt": "2026-11-13T10:03:55.000Z",
+			"startedAt": "2026-11-13T02:01:47.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
 			"terms": [
 				"trump",
 				"democrats"
 			],
 			"sources": [
-				"CBS News",
-				"NPR Politics",
-				"The New York Times Politics"
+				"The New York Times",
+				"CBS News"
 			],
 			"titles": [
-				"Democrats respond to warning over planned Trump probes: \"We're not going to be threatened\"",
-				"Democrats want to stop Trump's arch, golf course and more. What are their options?",
-				"Democrats Put Targets on Notice as Trump Oversight Takes Shape"
+				"Democrats Eye Strict New Limits on White House Budget Powers",
+				"Legal expert on White House warning to Democrats over possible Trump investigations"
 			],
 			"entityFirstSeenAt": "2026-11-04T23:00:23.472Z",
-			"entityLastCandidateAt": "2026-11-12T18:34:46.000Z",
+			"entityLastCandidateAt": "2026-11-13T10:03:55.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "trump + democrats",
+					"latestAt": "2026-11-13T10:03:55.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Democrats Eye Strict New Limits on White House Budget Powers",
+						"Legal expert on White House warning to Democrats over possible Trump investigations"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-trump + democrats|2026-11-13T10:03:55.000Z|2|Democrats Eye Strict New Limits on White House Budget Powers"
+				},
 				{
 					"observedAt": "2026-11-12T21:00:48.034Z",
 					"label": "trump + democrats",
@@ -737,7 +819,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
 		},
 		"cluster-usa-trump-house-trump-house": {
 			"candidateId": "cluster-usa-trump + house",
@@ -1335,90 +1417,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T18:20:36.924Z"
-		},
-		"cluster-spain-ante-hasta-ante-hasta": {
-			"candidateId": "cluster-spain-ante + hasta",
-			"label": "ante + hasta",
-			"latestAt": "2026-11-09T13:35:51.000Z",
-			"startedAt": "2026-11-09T10:57:57.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"ante",
-				"hasta"
-			],
-			"sources": [
-				"elDiario.es",
-				"El Correo"
-			],
-			"titles": [
-				"Alerta por lluvias intensas en Toledo: la Junta activa el Meteocam ante la previsión de hasta 200 litros en la provincia",
-				"Alerta en La Roja: Lamine Yamal y Mikel Oyarzabal, bajas ante la República Checa"
-			],
-			"entityFirstSeenAt": "2026-11-09T13:36:18.901Z",
-			"entityLastCandidateAt": "2026-11-09T13:35:51.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T13:36:18.901Z",
-					"label": "ante + hasta",
-					"latestAt": "2026-11-09T13:35:51.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Alerta por lluvias intensas en Toledo: la Junta activa el Meteocam ante la previsión de hasta 200 litros en la provincia",
-						"Alerta en La Roja: Lamine Yamal y Mikel Oyarzabal, bajas ante la República Checa"
-					],
-					"sources": [
-						"elDiario.es",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-ante + hasta|2026-11-09T13:35:51.000Z|2|Alerta por lluvias intensas en Toledo: la Junta activa el Meteocam ante la previsión de hasta 200 litros en la provincia"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T13:47:26.704Z"
-		},
-		"cluster-spain-hasta-nvidia-hasta-nvidia": {
-			"candidateId": "cluster-spain-hasta + nvidia",
-			"label": "hasta + nvidia",
-			"latestAt": "2026-11-09T13:38:13.000Z",
-			"startedAt": "2026-11-09T10:10:07.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"hasta",
-				"nvidia"
-			],
-			"sources": [
-				"El País",
-				"El Mundo"
-			],
-			"titles": [
-				"Alice Huang, la espía china de pasado misterioso que llegó hasta el consejero delegado de Nvidia",
-				"Nvidia investigará a su propio director ejecutivo por haber mantenido una relación con una espía china"
-			],
-			"entityFirstSeenAt": "2026-11-09T13:47:26.704Z",
-			"entityLastCandidateAt": "2026-11-09T13:38:13.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T13:47:26.704Z",
-					"label": "hasta + nvidia",
-					"latestAt": "2026-11-09T13:38:13.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Alice Huang, la espía china de pasado misterioso que llegó hasta el consejero delegado de Nvidia",
-						"Nvidia investigará a su propio director ejecutivo por haber mantenido una relación con una espía china"
-					],
-					"sources": [
-						"El País",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-hasta + nvidia|2026-11-09T13:38:13.000Z|2|Alice Huang, la espía china de pasado misterioso que llegó hasta el consejero delegado de Nvidia"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T13:47:26.704Z"
 		},
 		"cluster-spain-abascal-broncano-abascal-broncano": {
 			"candidateId": "cluster-spain-abascal + broncano",
@@ -12424,46 +12422,56 @@
 		"cluster-usa-huang-jensen-huang-jensen": {
 			"candidateId": "cluster-usa-huang + jensen",
 			"label": "huang + jensen",
-			"latestAt": "2026-11-12T19:04:13.000Z",
-			"startedAt": "2026-11-12T02:40:15.000Z",
-			"itemCount": 19,
-			"sourceCount": 6,
+			"latestAt": "2026-11-13T12:18:37.000Z",
+			"startedAt": "2026-11-12T18:54:11.000Z",
+			"itemCount": 10,
+			"sourceCount": 7,
 			"terms": [
 				"huang",
 				"jensen"
 			],
 			"sources": [
-				"CBS News",
-				"The New York Times",
-				"NBC News",
-				"PBS NewsHour",
+				"NBC News Politics",
+				"The Verge",
+				"Politico",
+				"The New York Times Politics",
 				"NPR",
-				"The Verge"
+				"The New York Times",
+				"CBS News"
 			],
 			"titles": [
-				"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+				"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets",
+				"Let’s talk about Jensen Huang’s many affairs!",
+				"Jensen Huang’s Washington fallout",
+				"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
+				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
 				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
-				"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
-				"Trump reacts after Nvidia CEO Jensen Huang resigns",
-				"Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
-				"Sharp swings for Nvidia and oil prices weigh on Wall Street",
-				"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
-				"Nvidia stock falls after Huang resigns, weighing on broader market",
-				"Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
-				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
-				"Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
-				"Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
-				"Nvidia CEO Jensen Huang resigns in wake of affair with woman suspected of spying for China",
-				"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
-				"Nvidia Board Meets to Discuss CEO Jensen Huang’s Future",
-				"Nvidia board weighs Jensen Huang’s future and 8 dead in Brooklyn building collapse: Morning Rundown",
-				"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
-				"The Jensen Huang scandal is hardly over"
+				"What could happen to AI development and chip production as Huang resigns from Nvidia",
+				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+				"I Wrote Jensen Huang’s Biography. Here’s What Led to His Downfall."
 			],
 			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-12T19:04:13.000Z",
+			"entityLastCandidateAt": "2026-11-13T12:18:37.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-13T12:18:37.000Z",
+					"itemCount": 10,
+					"sourceCount": 7,
+					"headlines": [
+						"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets",
+						"Let’s talk about Jensen Huang’s many affairs!",
+						"Jensen Huang’s Washington fallout"
+					],
+					"sources": [
+						"NBC News Politics",
+						"The Verge",
+						"Politico"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-13T12:18:37.000Z|10|Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets"
+				},
 				{
 					"observedAt": "2026-11-12T19:25:49.967Z",
 					"label": "huang + jensen",
@@ -12502,7 +12510,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
+			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
 		},
 		"cluster-usa-nvidia-mississippi-nvidia-mississippi": {
 			"candidateId": "cluster-usa-nvidia + mississippi",
@@ -13892,10 +13900,10 @@
 		"cluster-usa-building-brooklyn-building-brooklyn": {
 			"candidateId": "cluster-usa-building + brooklyn",
 			"label": "building + brooklyn",
-			"latestAt": "2026-11-13T04:59:04.000Z",
+			"latestAt": "2026-11-13T13:23:46.000Z",
 			"startedAt": "2026-11-12T16:09:11.000Z",
-			"itemCount": 9,
-			"sourceCount": 5,
+			"itemCount": 7,
+			"sourceCount": 3,
 			"terms": [
 				"building",
 				"brooklyn"
@@ -13903,24 +13911,38 @@
 			"sources": [
 				"The New York Times",
 				"CBS News",
-				"NBC News",
-				"PBS NewsHour",
 				"NPR"
 			],
 			"titles": [
 				"How the Deadly Brooklyn Building Collapse Unfolded",
 				"Crews begin excavating site of building collapse in Brooklyn",
 				"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
-				"First video of Brooklyn building collapse",
-				"New York building collapse kills 8, including 2 children",
-				"Eight Who Died in Building Collapse Reflected New York’s Diversity",
 				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
 				"Casualties continue to rise after Brooklyn building collapses",
+				"Video From Inside Brooklyn Building That Collapsed Shows Walls Caving In",
 				"Excavation Was Taking Place Next to Building in Brooklyn That Collapsed"
 			],
 			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
-			"entityLastCandidateAt": "2026-11-13T04:59:04.000Z",
+			"entityLastCandidateAt": "2026-11-13T13:23:46.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-13T13:23:46.000Z",
+					"itemCount": 7,
+					"sourceCount": 3,
+					"headlines": [
+						"How the Deadly Brooklyn Building Collapse Unfolded",
+						"Crews begin excavating site of building collapse in Brooklyn",
+						"Rescue Ends in Brooklyn After 8 Die in Building Collapse"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-building + brooklyn|2026-11-13T13:23:46.000Z|7|How the Deadly Brooklyn Building Collapse Unfolded"
+				},
 				{
 					"observedAt": "2026-11-13T06:00:48.217Z",
 					"label": "building + brooklyn",
@@ -13995,7 +14017,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
+			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
 		},
 		"cluster-usa-pope-emotional-pope-emotional": {
 			"candidateId": "cluster-usa-pope + emotional",
@@ -14798,26 +14820,40 @@
 			"candidateId": "cluster-usa-democrats + kansas",
 			"label": "democrats + kansas",
 			"latestAt": "2026-11-12T23:36:19.000Z",
-			"startedAt": "2026-11-12T23:15:50.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
+			"startedAt": "2026-11-12T23:16:10.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
 			"terms": [
 				"democrats",
 				"kansas"
 			],
 			"sources": [
 				"NPR Politics",
-				"The New York Times",
-				"PBS NewsHour"
+				"The New York Times"
 			],
 			"titles": [
 				"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
-				"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats",
-				"Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories"
+				"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats"
 			],
 			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
 			"entityLastCandidateAt": "2026-11-12T23:36:19.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "democrats + kansas",
+					"latestAt": "2026-11-12T23:36:19.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+						"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats"
+					],
+					"sources": [
+						"NPR Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-democrats + kansas|2026-11-12T23:36:19.000Z|2|Cindy Holscher wins in Kansas, holding governor's office for Democrats"
+				},
 				{
 					"observedAt": "2026-11-13T02:00:48.242Z",
 					"label": "democrats + kansas",
@@ -14838,7 +14874,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
+			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
 		},
 		"cluster-usa-kansas-charges-kansas-charges": {
 			"candidateId": "cluster-usa-kansas + charges",
@@ -14880,7 +14916,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
+			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
 		},
 		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
 			"candidateId": "cluster-usa-nvidia + lutnick",
@@ -14961,28 +14997,49 @@
 		"cluster-usa-microsoft-outage-microsoft-outage": {
 			"candidateId": "cluster-usa-microsoft + outage",
 			"label": "microsoft + outage",
-			"latestAt": "2026-11-13T08:08:16.000Z",
-			"startedAt": "2026-11-12T23:15:24.000Z",
-			"itemCount": 4,
-			"sourceCount": 3,
+			"latestAt": "2026-11-13T12:56:32.000Z",
+			"startedAt": "2026-11-13T01:26:24.000Z",
+			"itemCount": 5,
+			"sourceCount": 5,
 			"terms": [
 				"microsoft",
 				"outage"
 			],
 			"sources": [
 				"The New York Times",
-				"NPR",
-				"NBC News"
+				"The Verge",
+				"NBC News",
+				"CBS News",
+				"NPR"
 			],
 			"titles": [
 				"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
-				"Is Outlook down? Widespread outage hits Microsoft email and other apps",
-				"Widespread outage of Microsoft apps used by hundreds of millions",
-				"Widespread outage hits Microsoft platforms including Outlook, thousands report issues"
+				"Microsoft’s massive Outlook outage continues",
+				"Microsoft Scrambles to Find Fix Massive Global Outage",
+				"Microsoft battling major worldwide outage",
+				"Is Outlook down? Widespread outage hits Microsoft email and other apps"
 			],
 			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T08:08:16.000Z",
+			"entityLastCandidateAt": "2026-11-13T12:56:32.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T12:56:32.000Z",
+					"itemCount": 5,
+					"sourceCount": 5,
+					"headlines": [
+						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+						"Microsoft’s massive Outlook outage continues",
+						"Microsoft Scrambles to Find Fix Massive Global Outage"
+					],
+					"sources": [
+						"The New York Times",
+						"The Verge",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T12:56:32.000Z|5|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+				},
 				{
 					"observedAt": "2026-11-13T09:00:48.269Z",
 					"label": "microsoft + outage",
@@ -15057,7 +15114,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
+			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
 		},
 		"cluster-usa-senate-leader-senate-leader": {
 			"candidateId": "cluster-usa-senate + leader",
@@ -15578,48 +15635,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
 		},
-		"cluster-spain-caida-mundial-caida-mundial": {
-			"candidateId": "cluster-spain-caida + mundial",
-			"label": "caida + mundial",
-			"latestAt": "2026-11-13T07:21:44.000Z",
-			"startedAt": "2026-11-13T06:08:47.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"caida",
-				"mundial"
-			],
-			"sources": [
-				"El Mundo",
-				"El Diario Vasco"
-			],
-			"titles": [
-				"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
-				"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
-			],
-			"entityFirstSeenAt": "2026-11-13T09:00:48.269Z",
-			"entityLastCandidateAt": "2026-11-13T07:21:44.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T09:00:48.269Z",
-					"label": "caida + mundial",
-					"latestAt": "2026-11-13T07:21:44.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
-						"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
-					],
-					"sources": [
-						"El Mundo",
-						"El Diario Vasco"
-					],
-					"eventId": "cluster-spain-caida + mundial|2026-11-13T07:21:44.000Z|2|Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
-		},
 		"cluster-spain-hospital-ellos-hospital-ellos": {
 			"candidateId": "cluster-spain-hospital + ellos",
 			"label": "hospital + ellos",
@@ -15661,19 +15676,329 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
+		},
+		"cluster-spain-jordi-wild-jordi-wild": {
+			"candidateId": "cluster-spain-jordi + wild",
+			"label": "jordi + wild",
+			"latestAt": "2026-11-13T13:22:15.000Z",
+			"startedAt": "2026-11-13T04:45:01.000Z",
+			"itemCount": 5,
+			"sourceCount": 3,
+			"terms": [
+				"jordi",
+				"wild"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo",
+				"El País"
+			],
+			"titles": [
+				"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
+				"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas»",
+				"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
+				"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
+				"Arranca la campaña con el plantón de Abascal a Jordi Wild: “Todo el efecto positivo que había conseguido con Broncano se ha diluido”"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityLastCandidateAt": "2026-11-13T13:22:15.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "jordi + wild",
+					"latestAt": "2026-11-13T13:22:15.000Z",
+					"itemCount": 5,
+					"sourceCount": 3,
+					"headlines": [
+						"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
+						"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas»",
+						"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo",
+						"El País"
+					],
+					"eventId": "cluster-spain-jordi + wild|2026-11-13T13:22:15.000Z|5|Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+		},
+		"cluster-spain-mundial-caida-mundial-caida": {
+			"candidateId": "cluster-spain-mundial + caida",
+			"label": "mundial + caida",
+			"latestAt": "2026-11-13T07:21:44.000Z",
+			"startedAt": "2026-11-13T06:08:47.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"mundial",
+				"caida"
+			],
+			"sources": [
+				"El Mundo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+				"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityLastCandidateAt": "2026-11-13T07:21:44.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "mundial + caida",
+					"latestAt": "2026-11-13T07:21:44.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+						"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
+					],
+					"sources": [
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-mundial + caida|2026-11-13T07:21:44.000Z|2|Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+		},
+		"cluster-spain-grave-heridos-grave-heridos": {
+			"candidateId": "cluster-spain-grave + heridos",
+			"label": "grave + heridos",
+			"latestAt": "2026-11-13T06:40:29.000Z",
+			"startedAt": "2026-11-13T05:48:13.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"grave",
+				"heridos"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
+				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityLastCandidateAt": "2026-11-13T06:40:29.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "grave + heridos",
+					"latestAt": "2026-11-13T06:40:29.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
+						"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-grave + heridos|2026-11-13T06:40:29.000Z|2|22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+		},
+		"cluster-spain-veces-hijo-veces-hijo": {
+			"candidateId": "cluster-spain-veces + hijo",
+			"label": "veces + hijo",
+			"latestAt": "2026-11-13T05:43:48.000Z",
+			"startedAt": "2026-11-12T23:41:08.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"veces",
+				"hijo"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+				"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityLastCandidateAt": "2026-11-13T05:43:48.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "veces + hijo",
+					"latestAt": "2026-11-13T05:43:48.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+						"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-veces + hijo|2026-11-13T05:43:48.000Z|2|Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+		},
+		"cluster-usa-hollen-majority-hollen-majority": {
+			"candidateId": "cluster-usa-hollen + majority",
+			"label": "hollen + majority",
+			"latestAt": "2026-11-13T12:22:50.000Z",
+			"startedAt": "2026-11-13T02:10:00.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"hollen",
+				"majority"
+			],
+			"sources": [
+				"NBC News Politics",
+				"The New York Times Politics",
+				"NPR Politics",
+				"CBS News"
+			],
+			"titles": [
+				"Van Hollen Challenges Schumer for Senate Majority Leader",
+				"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+				"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+				"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityLastCandidateAt": "2026-11-13T12:22:50.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "hollen + majority",
+					"latestAt": "2026-11-13T12:22:50.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Van Hollen Challenges Schumer for Senate Majority Leader",
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
+					],
+					"sources": [
+						"NBC News Politics",
+						"The New York Times Politics",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-hollen + majority|2026-11-13T12:22:50.000Z|4|Van Hollen Challenges Schumer for Senate Majority Leader"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+		},
+		"cluster-usa-united-mauricio-united-mauricio": {
+			"candidateId": "cluster-usa-united + mauricio",
+			"label": "united + mauricio",
+			"latestAt": "2026-11-13T13:32:23.000Z",
+			"startedAt": "2026-11-13T12:02:00.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"united",
+				"mauricio"
+			],
+			"sources": [
+				"NPR",
+				"The Guardian US",
+				"ABC News"
+			],
+			"titles": [
+				"Manchester United names USMNT coach Mauricio Pochettino as its manager",
+				"Mauricio Pochettino’s switch from USA to Manchester United confirmed",
+				"Man United hires Mauricio Pochettino, who leaves US job with task of reviving team"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityLastCandidateAt": "2026-11-13T13:32:23.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "united + mauricio",
+					"latestAt": "2026-11-13T13:32:23.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Manchester United names USMNT coach Mauricio Pochettino as its manager",
+						"Mauricio Pochettino’s switch from USA to Manchester United confirmed",
+						"Man United hires Mauricio Pochettino, who leaves US job with task of reviving team"
+					],
+					"sources": [
+						"NPR",
+						"The Guardian US",
+						"ABC News"
+					],
+					"eventId": "cluster-usa-united + mauricio|2026-11-13T13:32:23.000Z|3|Manchester United names USMNT coach Mauricio Pochettino as its manager"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+		},
+		"cluster-usa-mississippi-first-mississippi-first": {
+			"candidateId": "cluster-usa-mississippi + first",
+			"label": "mississippi + first",
+			"latestAt": "2026-11-13T07:20:24.000Z",
+			"startedAt": "2026-11-13T02:20:35.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"mississippi",
+				"first"
+			],
+			"sources": [
+				"The New York Times",
+				"CBS News"
+			],
+			"titles": [
+				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi",
+				"NAACP official on Mississippi electing Scott Colom as its first Black senator since the 1800s"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityLastCandidateAt": "2026-11-13T07:20:24.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "mississippi + first",
+					"latestAt": "2026-11-13T07:20:24.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi",
+						"NAACP official on Mississippi electing Scott Colom as its first Black senator since the 1800s"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-mississippi + first|2026-11-13T07:20:24.000Z|2|Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-es-2026-11-13T13:35:22.142Z",
+		"id": "local-es-2026-11-13T13:50:49.929Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-13T13:35:22.142Z",
-		"finishedAt": "2026-11-13T13:37:47.841Z",
-		"signalsCandidate": 7,
-		"signalsSelected": 4,
+		"startedAt": "2026-11-13T13:50:49.929Z",
+		"finishedAt": "2026-11-13T13:52:59.000Z",
+		"signalsCandidate": 8,
+		"signalsSelected": 6,
 		"signalsProcessed": 0,
-		"cacheHits": 2,
-		"skippedByConfig": 4,
+		"cacheHits": 4,
+		"skippedByConfig": 6,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -15683,12 +16008,12 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 2,
+			"cacheHits": 4,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 293,
-			"retainedByTtl": 286,
-			"retiredByTtl": 19
+			"retained": 298,
+			"retainedByTtl": 290,
+			"retiredByTtl": 2
 		},
 		"costUsd": 0
 	}

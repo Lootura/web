@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-13T13:35:22.142Z",
+  "updatedAt": "2026-11-13T13:50:49.929Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "207.076 enlaces analizados",
-  "dayScanLabel": "4.270 enlaces escaneados en 24h",
+  "ambientPulseLabel": "207.489 enlaces analizados",
+  "dayScanLabel": "4.256 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,12 +19,12 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-latin + grammy",
+      "id": "moving-cluster-españa-latin + grammy",
       "title": "Así sonaba Rosalía mucho antes de arrasar en los Latin Grammy: el vídeo de su concierto en la sala Dabadaba de San Sebastián",
       "brief": "Así sonaba Rosalía mucho antes de arrasar en los Latin Grammy: el vídeo de su concierto en la sala Dabadaba de San Sebastián.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
       "strength": 26,
@@ -90,6 +90,63 @@
       "path": "/es/entity/asi-sonaba-rosalia-mucho-antes-de-arrasar-en-los-latin-grammy-el-video-de-su-con/"
     },
     {
+      "id": "now-cluster-españa-caida + mundial",
+      "title": "Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+      "brief": "Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "Cadena SER",
+        "El Mundo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://cadenaser.com/resizer/v2/63BELYDUPJF6BNGJF3AZQTUPL4.jpg?auth=b5c33ae4a399640e4f024e72e462fdbdcdbb2d8343233fae28c978a7740fb041&width=4774&height=3413&smart=true",
+        "https://e01-phantom-elmundo.uecdn.es/a244601f9d84b166456e10f56c841658/crop/0x0/3072x2048/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17945544621412.jpg",
+        "https://s3.ppllstatics.com/diariovasco/www/multimedia/tecnologia/2026/11/13/mirco-kJzB-U40327510907j3H-1200x840@Diario%20Vasco.PNG"
+      ],
+      "evidence": [
+        {
+          "title": "Un experto de la UPV apunta a un error humano o un posible ciberataque en la caída global de Microsoft",
+          "source": "Cadena SER",
+          "publishedAt": "2026-11-13T13:47:24.000Z",
+          "sourceUrl": "https://cadenaser.com/comunitat-valenciana/2026/11/13/un-experto-de-la-upv-apunta-a-un-error-humano-o-un-posible-ciberataque-en-la-caida-global-de-microsoft-radio-valencia/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://cadenaser.com/resizer/v2/63BELYDUPJF6BNGJF3AZQTUPL4.jpg?auth=b5c33ae4a399640e4f024e72e462fdbdcdbb2d8343233fae28c978a7740fb041&width=4774&height=3413&smart=true"
+        },
+        {
+          "title": "Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-13T07:21:44.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/13/6af6b987fdddfff22c8b4587.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/a244601f9d84b166456e10f56c841658/crop/0x0/3072x2048/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17945544621412.jpg"
+        },
+        {
+          "title": "La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-13T06:08:47.000Z",
+          "sourceUrl": "https://www.diariovasco.com/tecnologia/microsoft-outlook-sufre-caida-nivel-mundial-20261113070846-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/tecnologia/2026/11/13/mirco-kJzB-U40327510907j3H-1200x840@Diario%20Vasco.PNG"
+        }
+      ],
+      "path": "/es/entity/microsoft-sufre-una-caida-mundial-outlook-teams-y-copilot-llevan-mas-de-12-horas/"
+    },
+    {
       "id": "now-cluster-españa-jordi + wild",
       "title": "Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
       "brief": "Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\".",
@@ -118,7 +175,8 @@
       "images": [
         "https://e01-phantom-elmundo.uecdn.es/fa25bb0bc3315981484113fc4bb1158d/f/webp/assets/multimedia/imagenes/2026/11/13/17945716774688.png",
         "https://s3.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/13/sanchez-marruecos-keKF-U40333562566TqF-1200x840@El%20Correo.JPG",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945645629376.jpg"
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945645629376.jpg",
+        "https://s1.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/13/feijoo-wild-kPL-U40331680762ffB-1200x840@El%20Correo.JPG"
       ],
       "evidence": [
         {
@@ -127,13 +185,6 @@
           "publishedAt": "2026-11-13T13:22:15.000Z",
           "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af6ee63fc6c83fa038b4580.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://e01-phantom-elmundo.uecdn.es/fa25bb0bc3315981484113fc4bb1158d/f/webp/assets/multimedia/imagenes/2026/11/13/17945716774688.png"
-        },
-        {
-          "title": "El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-13T13:20:41.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/choque-nunez-feijoo-jordi-wild-imagen-marcial-20261113122256-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
         },
         {
           "title": "La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
@@ -148,17 +199,118 @@
           "publishedAt": "2026-11-13T12:18:09.000Z",
           "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af6e315fdddff705e8b4593.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945645629376.jpg"
+        },
+        {
+          "title": "El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas financiadas con fondos públicos»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-13T11:22:56.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/choque-nunez-feijoo-jordi-wild-imagen-marcial-20261113122256-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/13/feijoo-wild-kPL-U40331680762ffB-1200x840@El%20Correo.JPG"
         }
       ],
       "path": "/es/entity/feijoo-se-pone-la-capa-de-anotop-at-frente-a-jordi-wild-para-conquistar-a-la-gen/"
     },
     {
-      "id": "now-cluster-españa-casa + renfe",
+      "id": "now-cluster-españa-frente + amplio",
+      "title": "Elecciones generales 29N, en directo: arranca la campaña electoral con los primeros mítines de PSOE, PP, Vox y Frente Amplio",
+      "brief": "Elecciones generales 29N, en directo: arranca la campaña electoral con los primeros mítines de PSOE, PP, Vox y Frente Amplio.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "La Razón",
+        "The Objective"
+      ],
+      "images": [
+        "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/25/FD65FA94-27E0-40C3-96FD-BA56D9A2CEC0/premia-alcaldes-dana-listas-elecciones-generales_96.jpg?crop=2887,1624,x0,y113&width=1200&height=675&optimize=low&format=webply",
+        "https://theobjective.com/theobjective.com/wp-content/uploads/2026/05/servimedia-ap-institute-469x317.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Elecciones generales 29N, en directo: arranca la campaña electoral con los primeros mítines de PSOE, PP, Vox y Frente Amplio",
+          "source": "La Razón",
+          "publishedAt": "2026-11-13T13:50:17.000Z",
+          "sourceUrl": "https://www.larazon.es/espana/elecciones-generales-29n-directo-comienza-campana-electoral-primeros-mitines-psoe-vox-frente-amplio_202611136af69a894196933d7edb7d49.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/25/FD65FA94-27E0-40C3-96FD-BA56D9A2CEC0/premia-alcaldes-dana-listas-elecciones-generales_96.jpg?crop=2887,1624,x0,y113&width=1200&height=675&optimize=low&format=webply"
+        },
+        {
+          "title": "AP Institute celebra el primer debate electoral con jóvenes de PP, PSOE, Vox y Frente Amplio",
+          "source": "The Objective",
+          "publishedAt": "2026-11-13T13:48:05.000Z",
+          "sourceUrl": "https://theobjective.com/espana/politica/2026-11-13/ap-institute-debate-electoral/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://theobjective.com/theobjective.com/wp-content/uploads/2026/05/servimedia-ap-institute-469x317.jpg"
+        }
+      ],
+      "path": "/es/entity/elecciones-generales-29n-en-directo-arranca-la-campana-electoral-con-los-primero/"
+    },
+    {
+      "id": "now-cluster-españa-electoral + primer",
+      "title": "Francina Armengol sitúa el acceso a la vivienda como prioridad absoluta en el primer día de campaña electoral",
+      "brief": "Francina Armengol sitúa el acceso a la vivienda como prioridad absoluta en el primer día de campaña electoral.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "Cadena SER",
+        "El Mundo"
+      ],
+      "images": [
+        "https://cadenaser.com/resizer/v2/34F7V3U3UBECVLR6GKWEVUAFLM.jpg?auth=7ba9febcc2cbc8d40da73de02704a427571e8795afece660ede5ae6e93616673&width=4032&height=3024&smart=true",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945710149928.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Francina Armengol sitúa el acceso a la vivienda como prioridad absoluta en el primer día de campaña electoral",
+          "source": "Cadena SER",
+          "publishedAt": "2026-11-13T13:46:56.000Z",
+          "sourceUrl": "https://cadenaser.com/baleares/2026/11/13/francina-armengol-situa-el-acceso-a-la-vivienda-como-prioridad-absoluta-en-el-primer-dia-de-campana-electoral-radio-mallorca/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://cadenaser.com/resizer/v2/34F7V3U3UBECVLR6GKWEVUAFLM.jpg?auth=7ba9febcc2cbc8d40da73de02704a427571e8795afece660ede5ae6e93616673&width=4032&height=3024&smart=true"
+        },
+        {
+          "title": "El Gobierno inicia el camino para revalorizar las pensiones en el primer día de campaña electoral",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-13T12:09:22.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af6fb2121efa0c94b8b457a.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945710149928.jpg"
+        }
+      ],
+      "path": "/es/entity/francina-armengol-situa-el-acceso-a-la-vivienda-como-prioridad-absoluta-en-el-pr/"
+    },
+    {
+      "id": "moving-cluster-españa-casa + renfe",
       "title": "Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
       "brief": "Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
       "strength": 16,
@@ -199,18 +351,18 @@
       "path": "/es/entity/cuerpo-destituye-al-presidente-de-renfe-afin-a-puente-para-tratar-de-apaciguar-e/"
     },
     {
-      "id": "moving-cluster-españa-mundial + caida",
-      "title": "Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
-      "brief": "Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+      "id": "moving-cluster-españa-mundial + sancet",
+      "title": "Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»",
+      "brief": "Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial».",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 7,
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -220,33 +372,32 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Mundo",
-        "El Diario Vasco"
+        "El Diario Vasco",
+        "El Correo"
       ],
       "images": [
-        "https://e01-phantom-elmundo.uecdn.es/a244601f9d84b166456e10f56c841658/crop/0x0/3072x2048/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17945544621412.jpg",
-        "https://s3.ppllstatics.com/diariovasco/www/multimedia/tecnologia/2026/11/13/mirco-kJzB-U40327510907j3H-1200x840@Diario%20Vasco.PNG"
+        "https://s1.ppllstatics.com/diariovasco/www/multimedia/noticias/2026/11/13/sancet-kehG-U40328861930EnD-1200x840@Diario%20Vasco.jpg"
       ],
       "evidence": [
         {
-          "title": "Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-13T07:21:44.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/13/6af6b987fdddfff22c8b4587.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/a244601f9d84b166456e10f56c841658/crop/0x0/3072x2048/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17945544621412.jpg"
+          "title": "Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-13T08:47:09.000Z",
+          "sourceUrl": "https://www.diariovasco.com/deportes/futbol/sancet-euskal-selekzioa-jugar-mundial-20261113094606-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/noticias/2026/11/13/sancet-kehG-U40328861930EnD-1200x840@Diario%20Vasco.jpg"
         },
         {
-          "title": "La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-13T06:08:47.000Z",
-          "sourceUrl": "https://www.diariovasco.com/tecnologia/microsoft-outlook-sufre-caida-nivel-mundial-20261113070846-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/tecnologia/2026/11/13/mirco-kJzB-U40327510907j3H-1200x840@Diario%20Vasco.PNG"
+          "title": "Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-13T07:51:57.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/sancet-ojala-podamos-jugar-dia-mundial-seleccion-20261112215252-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         }
       ],
-      "path": "/es/entity/microsoft-sufre-una-caida-mundial-outlook-teams-y-copilot-llevan-mas-de-12-horas/"
+      "path": "/es/entity/sancet-sobre-la-euskal-selekzioa-ojala-el-dia-de-manana-pueda-ser-oficial-y-nos/"
     },
     {
-      "id": "moving-cluster-españa-grave + heridos",
+      "id": "moving-cluster-españa-hospital + grave",
       "title": "22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
       "brief": "22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible».",
       "whyItMatters": "",
@@ -292,24 +443,23 @@
       "path": "/es/entity/22-heridos-trasladados-al-hospital-uno-de-ellos-muy-grave-en-el-incendio-de-un-e/"
     },
     {
-      "id": "moving-cluster-españa-veces + hijo",
+      "id": "fading-cluster-españa-enfermera + veces",
       "title": "Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
       "brief": "Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo.",
       "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
       "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "8h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 64,
+      "alertScore": 46,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
@@ -337,52 +487,6 @@
         }
       ],
       "path": "/es/entity/condenan-a-una-enfermera-de-osakidetza-que-espio-89-veces-el-historial-medico-de/"
-    },
-    {
-      "id": "now-cluster-españa-mundial + sancet",
-      "title": "Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»",
-      "brief": "Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial».",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 60,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/diariovasco/www/multimedia/noticias/2026/11/13/sancet-kehG-U40328861930EnD-1200x840@Diario%20Vasco.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-13T08:47:09.000Z",
-          "sourceUrl": "https://www.diariovasco.com/deportes/futbol/sancet-euskal-selekzioa-jugar-mundial-20261113094606-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/noticias/2026/11/13/sancet-kehG-U40328861930EnD-1200x840@Diario%20Vasco.jpg"
-        },
-        {
-          "title": "Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-13T07:51:57.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/sancet-ojala-podamos-jugar-dia-mundial-seleccion-20261112215252-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/sancet-sobre-la-euskal-selekzioa-ojala-el-dia-de-manana-pueda-ser-oficial-y-nos/"
     }
   ]
 }

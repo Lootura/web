@@ -1,10 +1,16 @@
 {
-	"updatedAt": "2026-11-13T13:35:22.142Z",
+	"updatedAt": "2026-11-13T13:50:49.929Z",
 	"feedProfile": "es",
 	"retentionDays": 90,
 	"totalAuthors": 80,
-	"totalBylinedItems": 425,
+	"totalBylinedItems": 428,
 	"runs": [
+		{
+			"at": "2026-11-13T13:50:49.929Z",
+			"itemCount": 120,
+			"bylinedItemCount": 83,
+			"authorCount": 80
+		},
 		{
 			"at": "2026-11-13T13:35:22.142Z",
 			"itemCount": 120,
@@ -175,12 +181,6 @@
 		},
 		{
 			"at": "2026-11-10T21:26:08.880Z",
-			"itemCount": 120,
-			"bylinedItemCount": 61,
-			"authorCount": 80
-		},
-		{
-			"at": "2026-11-10T19:03:55.994Z",
 			"itemCount": 120,
 			"bylinedItemCount": 61,
 			"authorCount": 80
@@ -436,7 +436,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 284,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-02T17:31:56.000Z",
 			"latestAt": "2026-11-13T13:31:32.000Z",
 			"daysActive": 11,
@@ -1418,6 +1418,156 @@
 			]
 		},
 		{
+			"id": "la razon::juan",
+			"name": "Juan",
+			"source": "La Razón",
+			"profileUrl": "",
+			"itemCount": 11,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 227,
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-06T08:35:04.000Z",
+			"latestAt": "2026-11-13T13:50:17.000Z",
+			"daysActive": 8,
+			"categories": [
+				"general"
+			],
+			"sources": [
+				"La Razón"
+			],
+			"examples": [
+				{
+					"key": "https://www.larazon.es/espana/elecciones-generales-29n-directo-comienza-campana-electoral-primeros-mitines-psoe-vox-frente-amplio_202611136af69a894196933d7edb7d49.html?ref=lootura.com",
+					"title": "Elecciones generales 29N, en directo: arranca la campaña electoral con los primeros mítines de PSOE, PP, Vox y Frente Amplio",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/espana/elecciones-generales-29n-directo-comienza-campana-electoral-primeros-mitines-psoe-vox-frente-amplio_202611136af69a894196933d7edb7d49.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T13:50:17.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/andalucia/apagon-ferroviario-efectos-todos-sectores_202611126af529a903bbf30bb0491460.html?ref=lootura.com",
+					"title": "Un «apagón ferroviario» con efectos en todos los sectores",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/andalucia/apagon-ferroviario-efectos-todos-sectores_202611126af529a903bbf30bb0491460.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T02:51:21.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/espana/huelga-general-11n-directo-ultima-hora-manifestaciones-piquetes-cargas-policiales-paros-servicios-minimos_202611116af478e603bbf30bb048690d.html?ref=lootura.com",
+					"title": "Huelga general 11N, en directo: última hora de las manifestaciones, piquetes, cargas policiales, paros y servicios mínimos en España",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/espana/huelga-general-11n-directo-ultima-hora-manifestaciones-piquetes-cargas-policiales-paros-servicios-minimos_202611116af478e603bbf30bb048690d.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-11T18:45:22.000Z",
+					"category": "general",
+					"weight": 2
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.larazon.es/espana/elecciones-generales-29n-directo-comienza-campana-electoral-primeros-mitines-psoe-vox-frente-amplio_202611136af69a894196933d7edb7d49.html?ref=lootura.com",
+					"title": "Elecciones generales 29N, en directo: arranca la campaña electoral con los primeros mítines de PSOE, PP, Vox y Frente Amplio",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/espana/elecciones-generales-29n-directo-comienza-campana-electoral-primeros-mitines-psoe-vox-frente-amplio_202611136af69a894196933d7edb7d49.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T13:50:17.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/andalucia/apagon-ferroviario-efectos-todos-sectores_202611126af529a903bbf30bb0491460.html?ref=lootura.com",
+					"title": "Un «apagón ferroviario» con efectos en todos los sectores",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/andalucia/apagon-ferroviario-efectos-todos-sectores_202611126af529a903bbf30bb0491460.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T02:51:21.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/espana/huelga-general-11n-directo-ultima-hora-manifestaciones-piquetes-cargas-policiales-paros-servicios-minimos_202611116af478e603bbf30bb048690d.html?ref=lootura.com",
+					"title": "Huelga general 11N, en directo: última hora de las manifestaciones, piquetes, cargas policiales, paros y servicios mínimos en España",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/espana/huelga-general-11n-directo-ultima-hora-manifestaciones-piquetes-cargas-policiales-paros-servicios-minimos_202611116af478e603bbf30bb048690d.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-11T18:45:22.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/espana/huelga-general-11n-directo-ultima-hora-paros-manifestaciones-servicios-minimos-toda-espana_202611116af3f78a03bbf30bb047d601.html?ref=lootura.com",
+					"title": "Huelga general 11N, en directo: última hora de las manifestaciones, piquetes, cargas policiales, paros y servicios mínimos",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/espana/huelga-general-11n-directo-ultima-hora-paros-manifestaciones-servicios-minimos-toda-espana_202611116af3f78a03bbf30bb047d601.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-11T11:55:58.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/cataluna/cortes-trafico-barcelona-hoy-miercoles-11-noviembre-zonas-afectadas-huelga-general-manifestaciones_202611116af4091d03bbf30bb047e420.html?ref=lootura.com",
+					"title": "Cortes de tráfico en Barcelona hoy, miércoles 11 de noviembre: las zonas afectadas por la huelga general y las manifestaciones",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/cataluna/cortes-trafico-barcelona-hoy-miercoles-11-noviembre-zonas-afectadas-huelga-general-manifestaciones_202611116af4091d03bbf30bb047e420.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-11T06:20:13.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/sociedad/funeral-urda-directo-ultima-hora-misa-toledo-69-victimas-accidente-ferroviario_202611106af3417503bbf30bb047367a.html?ref=lootura.com",
+					"title": "Funeral de estado por las 69 víctimas del accidente de tren de Urda, en directo: última hora de la misa en Toledo",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/sociedad/funeral-urda-directo-ultima-hora-misa-toledo-69-victimas-accidente-ferroviario_202611106af3417503bbf30bb047367a.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T19:01:42.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/economia/huelga-renfe-hoy-10-noviembre-horarios-servicios-minimos-trenes-afectados-cercanias-media-distancia-ave_202611106af2a861d3bddc0868ac0683.html?ref=lootura.com",
+					"title": "Huelga de maquinistas de Renfe hoy, 10 de noviembre: horarios, servicios mínimos y trenes afectados en Cercanías, Media Distancia y AVE",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/economia/huelga-renfe-hoy-10-noviembre-horarios-servicios-minimos-trenes-afectados-cercanias-media-distancia-ave_202611106af2a861d3bddc0868ac0683.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T15:20:19.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/andalucia/pedro-sanchez-abre-campana-electoral-jueves-sevilla_202611096af1ac294196933d7ed69213.html?ref=lootura.com",
+					"title": "Pedro Sánchez abre la campaña electoral el jueves en Sevilla",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/andalucia/pedro-sanchez-abre-campana-electoral-jueves-sevilla_202611096af1ac294196933d7ed69213.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T11:19:05.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/tecnologia/ghostmap-fallo-android-que-puede-dejar-movil-inutilizable-solo-instalar-aplicacion_202611086af0527e03bbf30bb04458de.html?ref=lootura.com",
+					"title": "GhostMap: el fallo de Android que puede dejar tu móvil inutilizable con solo instalar una aplicación",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/tecnologia/ghostmap-fallo-android-que-puede-dejar-movil-inutilizable-solo-instalar-aplicacion_202611086af0527e03bbf30bb04458de.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T10:44:19.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/espana/elecciones-generales-29n-directo-sanchez-retoma-hoy-precampana-valencia-abascal-reune-vox-granada_202611066aed81dbd3bddc0868a74810.html?ref=lootura.com",
+					"title": "Elecciones generales 29N, en directo: Sánchez retoma hoy la precampaña en Valencia y Abascal reúne a Vox en Granada",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/espana/elecciones-generales-29n-directo-sanchez-retoma-hoy-precampana-valencia-abascal-reune-vox-granada_202611066aed81dbd3bddc0868a74810.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-06T16:50:17.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/videojuegos/playstation/sony-actualiza-estado-desarrollo-ps6-todo-apunta-podria-llegar-mercado-antes-esperado_202611066aed8f3c9a31a65adcd1fc62.html?ref=lootura.com",
+					"title": "Sony actualiza el estado de desarrollo de PS6 y todo apunta a que podría llegar al mercado antes de lo esperado",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/videojuegos/playstation/sony-actualiza-estado-desarrollo-ps6-todo-apunta-podria-llegar-mercado-antes-esperado_202611066aed8f3c9a31a65adcd1fc62.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-06T08:35:04.000Z",
+					"category": "general",
+					"weight": 2
+				}
+			]
+		},
+		{
 			"id": "hipertextual::gabriel erard",
 			"name": "Gabriel Erard",
 			"source": "Hipertextual",
@@ -1554,147 +1704,6 @@
 					"href": "https://hipertextual.com/videojuegos/hasta-la-caca-de-perro-sera-un-arma-en-gta-6/?utm_source=lootura.com",
 					"publishedAt": "2026-10-29T13:26:39.000Z",
 					"category": "digital-culture",
-					"weight": 2
-				}
-			]
-		},
-		{
-			"id": "la razon::juan",
-			"name": "Juan",
-			"source": "La Razón",
-			"profileUrl": "",
-			"itemCount": 10,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 207,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-06T08:35:04.000Z",
-			"latestAt": "2026-11-12T02:51:21.000Z",
-			"daysActive": 6,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"La Razón"
-			],
-			"examples": [
-				{
-					"key": "https://www.larazon.es/andalucia/apagon-ferroviario-efectos-todos-sectores_202611126af529a903bbf30bb0491460.html?ref=lootura.com",
-					"title": "Un «apagón ferroviario» con efectos en todos los sectores",
-					"source": "La Razón",
-					"href": "https://www.larazon.es/andalucia/apagon-ferroviario-efectos-todos-sectores_202611126af529a903bbf30bb0491460.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T02:51:21.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://www.larazon.es/espana/huelga-general-11n-directo-ultima-hora-manifestaciones-piquetes-cargas-policiales-paros-servicios-minimos_202611116af478e603bbf30bb048690d.html?ref=lootura.com",
-					"title": "Huelga general 11N, en directo: última hora de las manifestaciones, piquetes, cargas policiales, paros y servicios mínimos en España",
-					"source": "La Razón",
-					"href": "https://www.larazon.es/espana/huelga-general-11n-directo-ultima-hora-manifestaciones-piquetes-cargas-policiales-paros-servicios-minimos_202611116af478e603bbf30bb048690d.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T18:45:22.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://www.larazon.es/espana/huelga-general-11n-directo-ultima-hora-paros-manifestaciones-servicios-minimos-toda-espana_202611116af3f78a03bbf30bb047d601.html?ref=lootura.com",
-					"title": "Huelga general 11N, en directo: última hora de las manifestaciones, piquetes, cargas policiales, paros y servicios mínimos",
-					"source": "La Razón",
-					"href": "https://www.larazon.es/espana/huelga-general-11n-directo-ultima-hora-paros-manifestaciones-servicios-minimos-toda-espana_202611116af3f78a03bbf30bb047d601.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T11:55:58.000Z",
-					"category": "general",
-					"weight": 2
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.larazon.es/andalucia/apagon-ferroviario-efectos-todos-sectores_202611126af529a903bbf30bb0491460.html?ref=lootura.com",
-					"title": "Un «apagón ferroviario» con efectos en todos los sectores",
-					"source": "La Razón",
-					"href": "https://www.larazon.es/andalucia/apagon-ferroviario-efectos-todos-sectores_202611126af529a903bbf30bb0491460.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T02:51:21.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://www.larazon.es/espana/huelga-general-11n-directo-ultima-hora-manifestaciones-piquetes-cargas-policiales-paros-servicios-minimos_202611116af478e603bbf30bb048690d.html?ref=lootura.com",
-					"title": "Huelga general 11N, en directo: última hora de las manifestaciones, piquetes, cargas policiales, paros y servicios mínimos en España",
-					"source": "La Razón",
-					"href": "https://www.larazon.es/espana/huelga-general-11n-directo-ultima-hora-manifestaciones-piquetes-cargas-policiales-paros-servicios-minimos_202611116af478e603bbf30bb048690d.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T18:45:22.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://www.larazon.es/espana/huelga-general-11n-directo-ultima-hora-paros-manifestaciones-servicios-minimos-toda-espana_202611116af3f78a03bbf30bb047d601.html?ref=lootura.com",
-					"title": "Huelga general 11N, en directo: última hora de las manifestaciones, piquetes, cargas policiales, paros y servicios mínimos",
-					"source": "La Razón",
-					"href": "https://www.larazon.es/espana/huelga-general-11n-directo-ultima-hora-paros-manifestaciones-servicios-minimos-toda-espana_202611116af3f78a03bbf30bb047d601.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T11:55:58.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://www.larazon.es/cataluna/cortes-trafico-barcelona-hoy-miercoles-11-noviembre-zonas-afectadas-huelga-general-manifestaciones_202611116af4091d03bbf30bb047e420.html?ref=lootura.com",
-					"title": "Cortes de tráfico en Barcelona hoy, miércoles 11 de noviembre: las zonas afectadas por la huelga general y las manifestaciones",
-					"source": "La Razón",
-					"href": "https://www.larazon.es/cataluna/cortes-trafico-barcelona-hoy-miercoles-11-noviembre-zonas-afectadas-huelga-general-manifestaciones_202611116af4091d03bbf30bb047e420.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T06:20:13.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://www.larazon.es/sociedad/funeral-urda-directo-ultima-hora-misa-toledo-69-victimas-accidente-ferroviario_202611106af3417503bbf30bb047367a.html?ref=lootura.com",
-					"title": "Funeral de estado por las 69 víctimas del accidente de tren de Urda, en directo: última hora de la misa en Toledo",
-					"source": "La Razón",
-					"href": "https://www.larazon.es/sociedad/funeral-urda-directo-ultima-hora-misa-toledo-69-victimas-accidente-ferroviario_202611106af3417503bbf30bb047367a.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T19:01:42.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://www.larazon.es/economia/huelga-renfe-hoy-10-noviembre-horarios-servicios-minimos-trenes-afectados-cercanias-media-distancia-ave_202611106af2a861d3bddc0868ac0683.html?ref=lootura.com",
-					"title": "Huelga de maquinistas de Renfe hoy, 10 de noviembre: horarios, servicios mínimos y trenes afectados en Cercanías, Media Distancia y AVE",
-					"source": "La Razón",
-					"href": "https://www.larazon.es/economia/huelga-renfe-hoy-10-noviembre-horarios-servicios-minimos-trenes-afectados-cercanias-media-distancia-ave_202611106af2a861d3bddc0868ac0683.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T15:20:19.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://www.larazon.es/andalucia/pedro-sanchez-abre-campana-electoral-jueves-sevilla_202611096af1ac294196933d7ed69213.html?ref=lootura.com",
-					"title": "Pedro Sánchez abre la campaña electoral el jueves en Sevilla",
-					"source": "La Razón",
-					"href": "https://www.larazon.es/andalucia/pedro-sanchez-abre-campana-electoral-jueves-sevilla_202611096af1ac294196933d7ed69213.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T11:19:05.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://www.larazon.es/tecnologia/ghostmap-fallo-android-que-puede-dejar-movil-inutilizable-solo-instalar-aplicacion_202611086af0527e03bbf30bb04458de.html?ref=lootura.com",
-					"title": "GhostMap: el fallo de Android que puede dejar tu móvil inutilizable con solo instalar una aplicación",
-					"source": "La Razón",
-					"href": "https://www.larazon.es/tecnologia/ghostmap-fallo-android-que-puede-dejar-movil-inutilizable-solo-instalar-aplicacion_202611086af0527e03bbf30bb04458de.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T10:44:19.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://www.larazon.es/espana/elecciones-generales-29n-directo-sanchez-retoma-hoy-precampana-valencia-abascal-reune-vox-granada_202611066aed81dbd3bddc0868a74810.html?ref=lootura.com",
-					"title": "Elecciones generales 29N, en directo: Sánchez retoma hoy la precampaña en Valencia y Abascal reúne a Vox en Granada",
-					"source": "La Razón",
-					"href": "https://www.larazon.es/espana/elecciones-generales-29n-directo-sanchez-retoma-hoy-precampana-valencia-abascal-reune-vox-granada_202611066aed81dbd3bddc0868a74810.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-06T16:50:17.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://www.larazon.es/videojuegos/playstation/sony-actualiza-estado-desarrollo-ps6-todo-apunta-podria-llegar-mercado-antes-esperado_202611066aed8f3c9a31a65adcd1fc62.html?ref=lootura.com",
-					"title": "Sony actualiza el estado de desarrollo de PS6 y todo apunta a que podría llegar al mercado antes de lo esperado",
-					"source": "La Razón",
-					"href": "https://www.larazon.es/videojuegos/playstation/sony-actualiza-estado-desarrollo-ps6-todo-apunta-podria-llegar-mercado-antes-esperado_202611066aed8f3c9a31a65adcd1fc62.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-06T08:35:04.000Z",
-					"category": "general",
 					"weight": 2
 				}
 			]
@@ -1964,6 +1973,129 @@
 			]
 		},
 		{
+			"id": "el mundo::quico alsedo",
+			"name": "Quico Alsedo",
+			"source": "El Mundo",
+			"profileUrl": "",
+			"itemCount": 8,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 188,
+			"confidence": "medium",
+			"firstSeenAt": "2026-10-29T13:31:42.000Z",
+			"latestAt": "2026-11-13T13:37:53.000Z",
+			"daysActive": 16,
+			"categories": [
+				"general"
+			],
+			"sources": [
+				"El Mundo"
+			],
+			"examples": [
+				{
+					"key": "https://www.elmundo.es/espana/2026/11/13/6af6f56a21efa0e33c8b458e.html?ref=lootura.com",
+					"title": "Oleada de avisos de bomba falsos en Madrid: se registran 30 en el último día y medio, y las autoridades investigan las causas",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/13/6af6f56a21efa0e33c8b458e.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T13:37:53.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/espana/2026/11/12/6af5ea88fc6c83c6308b45ca.html?ref=lootura.com",
+					"title": "La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/12/6af5ea88fc6c83c6308b45ca.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T18:19:46.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?ref=lootura.com",
+					"title": "Detenidos 43 estafadores que solo se conocían por Telegram y timaban a mujeres por teléfono con falsas alarmas del banco: \"Vamos a robar viejitas\"",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T13:36:06.000Z",
+					"category": "general",
+					"weight": 3
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.elmundo.es/espana/2026/11/13/6af6f56a21efa0e33c8b458e.html?ref=lootura.com",
+					"title": "Oleada de avisos de bomba falsos en Madrid: se registran 30 en el último día y medio, y las autoridades investigan las causas",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/13/6af6f56a21efa0e33c8b458e.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T13:37:53.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/espana/2026/11/12/6af5ea88fc6c83c6308b45ca.html?ref=lootura.com",
+					"title": "La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/12/6af5ea88fc6c83c6308b45ca.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T18:19:46.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?ref=lootura.com",
+					"title": "Detenidos 43 estafadores que solo se conocían por Telegram y timaban a mujeres por teléfono con falsas alarmas del banco: \"Vamos a robar viejitas\"",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T13:36:06.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/espana/2026/11/11/6af477e2e9cf4a0e668b457d.html?ref=lootura.com",
+					"title": "Más de 50 detenidos, 13 heridos por gas pimienta y un político andaluz con una costilla rota, primer balance del paro",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/11/6af477e2e9cf4a0e668b457d.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-11T18:32:25.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/espana/2026/11/10/6af36b8de85ece64448b45bf.html?ref=lootura.com",
+					"title": "Más de 100 policías desplegados para cazar al 'Ruso', el ex legionario huido tras matar a un agente en Oviedo",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/10/6af36b8de85ece64448b45bf.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T20:30:18.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/espana/2026/11/07/6aee1271e9cf4ae17b8b458e.html?ref=lootura.com",
+					"title": "La 'invasión' desde Marruecos superó la población de Ceuta: más de 100.000 personas entraron en 24 horas",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/07/6aee1271e9cf4ae17b8b458e.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-07T00:19:48.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/cronica/2026/10/28/6adb9282fc6c832d2d8b45a3.html?ref=lootura.com",
+					"title": "La sociedad pública (de Zapatero) que le dio un alquiler social a Iván Redondo antes de Moncloa: \"Aquello era pura politización\"",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/cronica/2026/10/28/6adb9282fc6c832d2d8b45a3.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-01T01:27:43.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/espana/2026/10/29/6ae33bbbfc6c837e478b459d.html",
+					"title": "Antonio, el maquinista que intentó frenar el AVE: fotógrafo, militante de Izquierda Española y deja a su mujer embarazada",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/10/29/6ae33bbbfc6c837e478b459d.html?utm_source=lootura.com",
+					"publishedAt": "2026-10-29T13:31:42.000Z",
+					"category": "general",
+					"weight": 3
+				}
+			]
+		},
+		{
 			"id": "el mundo::juanma lamet",
 			"name": "Juanma Lamet",
 			"source": "El Mundo",
@@ -1972,7 +2104,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 185,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-01T01:18:48.000Z",
 			"latestAt": "2026-11-13T12:18:09.000Z",
 			"daysActive": 13,
@@ -2452,120 +2584,6 @@
 					"publishedAt": "2026-11-01T14:40:14.000Z",
 					"category": "general",
 					"weight": 2
-				}
-			]
-		},
-		{
-			"id": "el mundo::quico alsedo",
-			"name": "Quico Alsedo",
-			"source": "El Mundo",
-			"profileUrl": "",
-			"itemCount": 7,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 169,
-			"confidence": "low",
-			"firstSeenAt": "2026-10-29T13:31:42.000Z",
-			"latestAt": "2026-11-12T18:19:46.000Z",
-			"daysActive": 15,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"El Mundo"
-			],
-			"examples": [
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/12/6af5ea88fc6c83c6308b45ca.html?ref=lootura.com",
-					"title": "La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/12/6af5ea88fc6c83c6308b45ca.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T18:19:46.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?ref=lootura.com",
-					"title": "Detenidos 43 estafadores que solo se conocían por Telegram y timaban a mujeres por teléfono con falsas alarmas del banco: \"Vamos a robar viejitas\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T13:36:06.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/11/6af477e2e9cf4a0e668b457d.html?ref=lootura.com",
-					"title": "Más de 50 detenidos, 13 heridos por gas pimienta y un político andaluz con una costilla rota, primer balance del paro",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/11/6af477e2e9cf4a0e668b457d.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T18:32:25.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/12/6af5ea88fc6c83c6308b45ca.html?ref=lootura.com",
-					"title": "La UCO señala que Pedro Sánchez se reunió 35 minutos en Córdoba con el último detenido de la trama Koldo, a quien negó conocer",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/12/6af5ea88fc6c83c6308b45ca.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T18:19:46.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?ref=lootura.com",
-					"title": "Detenidos 43 estafadores que solo se conocían por Telegram y timaban a mujeres por teléfono con falsas alarmas del banco: \"Vamos a robar viejitas\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/madrid/2026/11/12/6af5acf9fc6c832d5f8b458c.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T13:36:06.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/11/6af477e2e9cf4a0e668b457d.html?ref=lootura.com",
-					"title": "Más de 50 detenidos, 13 heridos por gas pimienta y un político andaluz con una costilla rota, primer balance del paro",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/11/6af477e2e9cf4a0e668b457d.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T18:32:25.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/10/6af36b8de85ece64448b45bf.html?ref=lootura.com",
-					"title": "Más de 100 policías desplegados para cazar al 'Ruso', el ex legionario huido tras matar a un agente en Oviedo",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/10/6af36b8de85ece64448b45bf.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T20:30:18.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/07/6aee1271e9cf4ae17b8b458e.html?ref=lootura.com",
-					"title": "La 'invasión' desde Marruecos superó la población de Ceuta: más de 100.000 personas entraron en 24 horas",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/07/6aee1271e9cf4ae17b8b458e.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T00:19:48.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/cronica/2026/10/28/6adb9282fc6c832d2d8b45a3.html?ref=lootura.com",
-					"title": "La sociedad pública (de Zapatero) que le dio un alquiler social a Iván Redondo antes de Moncloa: \"Aquello era pura politización\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/cronica/2026/10/28/6adb9282fc6c832d2d8b45a3.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-01T01:27:43.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/espana/2026/10/29/6ae33bbbfc6c837e478b459d.html",
-					"title": "Antonio, el maquinista que intentó frenar el AVE: fotógrafo, militante de Izquierda Española y deja a su mujer embarazada",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/10/29/6ae33bbbfc6c837e478b459d.html?utm_source=lootura.com",
-					"publishedAt": "2026-10-29T13:31:42.000Z",
-					"category": "general",
-					"weight": 3
 				}
 			]
 		},
@@ -3752,6 +3770,102 @@
 			]
 		},
 		{
+			"id": "https://www.elcorreo.com/autor/alain-mateos-6643.html",
+			"name": "Alain Mateos",
+			"source": "El Correo",
+			"profileUrl": "https://www.elcorreo.com/autor/alain-mateos-6643.html",
+			"itemCount": 5,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 132,
+			"confidence": "high",
+			"firstSeenAt": "2026-11-07T08:34:32.000Z",
+			"latestAt": "2026-11-13T12:25:02.000Z",
+			"daysActive": 7,
+			"categories": [
+				"local"
+			],
+			"sources": [
+				"El Correo"
+			],
+			"examples": [
+				{
+					"key": "https://www.elcorreo.com/deportes/futbol/defensa-tertuliano-madridista-chiringuito-oihan-sancet-20261113132502-nt.html?ref=lootura.com",
+					"title": "La defensa de un tertuliano madridista de 'El Chiringuito' a Oihan Sancet",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/deportes/futbol/defensa-tertuliano-madridista-chiringuito-oihan-sancet-20261113132502-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T12:25:02.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/politica/discusion-jordi-wild-pedro-sanchez-inmigracion-marroqui-20261113131852-nt.html?ref=lootura.com",
+					"title": "La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/politica/discusion-jordi-wild-pedro-sanchez-inmigracion-marroqui-20261113131852-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T12:18:53.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?ref=lootura.com",
+					"title": "¿Hubo falta a Unai Simón en el gol del empate?",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T09:55:04.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.elcorreo.com/deportes/futbol/defensa-tertuliano-madridista-chiringuito-oihan-sancet-20261113132502-nt.html?ref=lootura.com",
+					"title": "La defensa de un tertuliano madridista de 'El Chiringuito' a Oihan Sancet",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/deportes/futbol/defensa-tertuliano-madridista-chiringuito-oihan-sancet-20261113132502-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T12:25:02.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/politica/discusion-jordi-wild-pedro-sanchez-inmigracion-marroqui-20261113131852-nt.html?ref=lootura.com",
+					"title": "La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/politica/discusion-jordi-wild-pedro-sanchez-inmigracion-marroqui-20261113131852-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T12:18:53.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?ref=lootura.com",
+					"title": "¿Hubo falta a Unai Simón en el gol del empate?",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T09:55:04.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/politica/pedro-sanchez-competira-abascal-septima-20261107111807-nt.html?ref=lootura.com",
+					"title": "Pedro Sánchez competirá con Abascal desde La Séptima",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/politica/pedro-sanchez-competira-abascal-septima-20261107111807-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-07T10:18:07.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/gente-estilo/revuelta-cancela-entradas-publico-ante-exigencias-abascal-20261107093432-nt.html?ref=lootura.com",
+					"title": "'La Revuelta' cancela las entradas del público ante las exigencias de Abascal",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/gente-estilo/revuelta-cancela-entradas-publico-ante-exigencias-abascal-20261107093432-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-07T08:34:32.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			]
+		},
+		{
 			"id": "el pais::jose marcos garcia",
 			"name": "José Marcos García",
 			"source": "El País",
@@ -4306,93 +4420,6 @@
 					"publishedAt": "2026-11-04T05:55:21.000Z",
 					"category": "politics",
 					"weight": 2
-				}
-			]
-		},
-		{
-			"id": "https://www.elcorreo.com/autor/alain-mateos-6643.html",
-			"name": "Alain Mateos",
-			"source": "El Correo",
-			"profileUrl": "https://www.elcorreo.com/autor/alain-mateos-6643.html",
-			"itemCount": 4,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 114,
-			"confidence": "high",
-			"firstSeenAt": "2026-11-07T08:34:32.000Z",
-			"latestAt": "2026-11-13T12:18:53.000Z",
-			"daysActive": 7,
-			"categories": [
-				"local"
-			],
-			"sources": [
-				"El Correo"
-			],
-			"examples": [
-				{
-					"key": "https://www.elcorreo.com/politica/discusion-jordi-wild-pedro-sanchez-inmigracion-marroqui-20261113131852-nt.html?ref=lootura.com",
-					"title": "La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/politica/discusion-jordi-wild-pedro-sanchez-inmigracion-marroqui-20261113131852-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T12:18:53.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?ref=lootura.com",
-					"title": "¿Hubo falta a Unai Simón en el gol del empate?",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T09:55:04.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.elcorreo.com/politica/pedro-sanchez-competira-abascal-septima-20261107111807-nt.html?ref=lootura.com",
-					"title": "Pedro Sánchez competirá con Abascal desde La Séptima",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/politica/pedro-sanchez-competira-abascal-septima-20261107111807-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T10:18:07.000Z",
-					"category": "local",
-					"weight": 4
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.elcorreo.com/politica/discusion-jordi-wild-pedro-sanchez-inmigracion-marroqui-20261113131852-nt.html?ref=lootura.com",
-					"title": "La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/politica/discusion-jordi-wild-pedro-sanchez-inmigracion-marroqui-20261113131852-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T12:18:53.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?ref=lootura.com",
-					"title": "¿Hubo falta a Unai Simón en el gol del empate?",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T09:55:04.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.elcorreo.com/politica/pedro-sanchez-competira-abascal-septima-20261107111807-nt.html?ref=lootura.com",
-					"title": "Pedro Sánchez competirá con Abascal desde La Séptima",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/politica/pedro-sanchez-competira-abascal-septima-20261107111807-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T10:18:07.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.elcorreo.com/gente-estilo/revuelta-cancela-entradas-publico-ante-exigencias-abascal-20261107093432-nt.html?ref=lootura.com",
-					"title": "'La Revuelta' cancela las entradas del público ante las exigencias de Abascal",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/gente-estilo/revuelta-cancela-entradas-publico-ante-exigencias-abascal-20261107093432-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T08:34:32.000Z",
-					"category": "local",
-					"weight": 4
 				}
 			]
 		},
@@ -7934,60 +7961,60 @@
 			]
 		},
 		{
-			"id": "el pais::laura paz chavarria",
-			"name": "Laura Paz Chavarría",
-			"source": "El País",
+			"id": "el mundo::pablo herraiz",
+			"name": "Pablo Herraiz",
+			"source": "El Mundo",
 			"profileUrl": "",
 			"itemCount": 2,
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 65,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-13T06:15:00.000Z",
-			"latestAt": "2026-11-13T06:20:00.000Z",
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-13T12:27:27.000Z",
+			"latestAt": "2026-11-13T13:37:53.000Z",
 			"daysActive": 1,
 			"categories": [
 				"general"
 			],
 			"sources": [
-				"El País"
+				"El Mundo"
 			],
 			"examples": [
 				{
-					"key": "https://elpais.com/escaparate/belleza/crema-de-manos-okeeffes.html?ref=lootura.com",
-					"title": "¿Manos secas y agrietadas por el frío? Esta crema casi milagrosa las deja como nuevas",
-					"source": "El País",
-					"href": "https://elpais.com/escaparate/belleza/crema-de-manos-okeeffes.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T06:20:00.000Z",
+					"key": "https://www.elmundo.es/espana/2026/11/13/6af6f56a21efa0e33c8b458e.html?ref=lootura.com",
+					"title": "Oleada de avisos de bomba falsos en Madrid: se registran 30 en el último día y medio, y las autoridades investigan las causas",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/13/6af6f56a21efa0e33c8b458e.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T13:37:53.000Z",
 					"category": "general",
 					"weight": 3
 				},
 				{
-					"key": "https://elpais.com/escaparate/ofertas-y-descuentos/gel-limpiador-la-roche-posay.html?ref=lootura.com",
-					"title": "Más de 3.000 personas lo han comprado este mes: el gel limpiador de La Roche-Posay cuesta ahora la mitad",
-					"source": "El País",
-					"href": "https://elpais.com/escaparate/ofertas-y-descuentos/gel-limpiador-la-roche-posay.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T06:15:00.000Z",
+					"key": "https://www.elmundo.es/madrid/2026/11/13/6af7022afdddff3a7f8b45fa.html?ref=lootura.com",
+					"title": "El Tribunal de Cuentas ordena investigar el caso del ático al detectar indicios de perjuicio a fondos públicos",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/madrid/2026/11/13/6af7022afdddff3a7f8b45fa.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T12:27:27.000Z",
 					"category": "general",
 					"weight": 3
 				}
 			],
 			"items": [
 				{
-					"key": "https://elpais.com/escaparate/belleza/crema-de-manos-okeeffes.html?ref=lootura.com",
-					"title": "¿Manos secas y agrietadas por el frío? Esta crema casi milagrosa las deja como nuevas",
-					"source": "El País",
-					"href": "https://elpais.com/escaparate/belleza/crema-de-manos-okeeffes.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T06:20:00.000Z",
+					"key": "https://www.elmundo.es/espana/2026/11/13/6af6f56a21efa0e33c8b458e.html?ref=lootura.com",
+					"title": "Oleada de avisos de bomba falsos en Madrid: se registran 30 en el último día y medio, y las autoridades investigan las causas",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/13/6af6f56a21efa0e33c8b458e.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T13:37:53.000Z",
 					"category": "general",
 					"weight": 3
 				},
 				{
-					"key": "https://elpais.com/escaparate/ofertas-y-descuentos/gel-limpiador-la-roche-posay.html?ref=lootura.com",
-					"title": "Más de 3.000 personas lo han comprado este mes: el gel limpiador de La Roche-Posay cuesta ahora la mitad",
-					"source": "El País",
-					"href": "https://elpais.com/escaparate/ofertas-y-descuentos/gel-limpiador-la-roche-posay.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T06:15:00.000Z",
+					"key": "https://www.elmundo.es/madrid/2026/11/13/6af7022afdddff3a7f8b45fa.html?ref=lootura.com",
+					"title": "El Tribunal de Cuentas ordena investigar el caso del ático al detectar indicios de perjuicio a fondos públicos",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/madrid/2026/11/13/6af7022afdddff3a7f8b45fa.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T12:27:27.000Z",
 					"category": "general",
 					"weight": 3
 				}
