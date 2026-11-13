@@ -2,8 +2,54 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-13T04:00:47.938Z",
+	"updatedAt": "2026-11-13T05:00:48.275Z",
 	"entries": {
+		"cluster-spain-cuando-contra-cuando-contra": {
+			"candidateId": "cluster-spain-cuando + contra",
+			"label": "cuando + contra",
+			"latestAt": "2026-11-13T05:01:36.000Z",
+			"startedAt": "2026-11-12T21:48:19.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"cuando",
+				"contra"
+			],
+			"sources": [
+				"elDiario.es",
+				"El Correo",
+				"El Mundo"
+			],
+			"titles": [
+				"Cuando hordas travestis invadieron el planeta: Sevilla resucita una sátira en blanco y negro contra la intolerancia",
+				"España también gana cuando toca sufrir",
+				"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
+			],
+			"entityFirstSeenAt": "2026-11-13T05:00:48.275Z",
+			"entityLastCandidateAt": "2026-11-13T05:01:36.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T05:00:48.275Z",
+					"label": "cuando + contra",
+					"latestAt": "2026-11-13T05:01:36.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Cuando hordas travestis invadieron el planeta: Sevilla resucita una sátira en blanco y negro contra la intolerancia",
+						"España también gana cuando toca sufrir",
+						"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
+					],
+					"sources": [
+						"elDiario.es",
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-cuando + contra|2026-11-13T05:01:36.000Z|3|Cuando hordas travestis invadieron el planeta: Sevilla resucita una sátira en blanco y negro contra la intolerancia"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+		},
 		"cluster-spain-psoe-begona-psoe-begona": {
 			"candidateId": "cluster-spain-psoe + begona",
 			"label": "psoe + begona",
@@ -51,7 +97,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-spain-sanchez-feijoo-sanchez-feijoo": {
 			"candidateId": "cluster-spain-sanchez + feijoo",
@@ -93,7 +139,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-spain-roja-real-roja-real": {
 			"candidateId": "cluster-spain-roja + real",
@@ -135,49 +181,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
-		},
-		"cluster-spain-primera-cuando-primera-cuando": {
-			"candidateId": "cluster-spain-primera + cuando",
-			"label": "primera + cuando",
-			"latestAt": "2026-11-12T21:54:43.000Z",
-			"startedAt": "2026-11-12T21:48:19.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"primera",
-				"cuando"
-			],
-			"sources": [
-				"El Correo",
-				"El Mundo"
-			],
-			"titles": [
-				"España también gana cuando toca sufrir",
-				"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
-			],
-			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
-			"entityLastCandidateAt": "2026-11-12T21:54:43.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "primera + cuando",
-					"latestAt": "2026-11-12T21:54:43.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"España también gana cuando toca sufrir",
-						"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
-					],
-					"sources": [
-						"El Correo",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-primera + cuando|2026-11-12T21:54:43.000Z|2|España también gana cuando toca sufrir"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-spain-psoe-campana-psoe-campana": {
 			"candidateId": "cluster-spain-psoe + campana",
@@ -219,49 +223,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
-		},
-		"cluster-spain-pero-ciencia-pero-ciencia": {
-			"candidateId": "cluster-spain-pero + ciencia",
-			"label": "pero + ciencia",
-			"latestAt": "2026-11-12T19:02:32.000Z",
-			"startedAt": "2026-11-12T19:00:00.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"pero",
-				"ciencia"
-			],
-			"sources": [
-				"El Correo",
-				"El Mundo"
-			],
-			"titles": [
-				"La ciencia no puede resolver el misterio del origen del hantavirus en el crucero",
-				"El enigma del crucero MV Hondius: la ciencia confirma la transmisión humana del hantavirus, pero busca el origen"
-			],
-			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
-			"entityLastCandidateAt": "2026-11-12T19:02:32.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T21:00:48.034Z",
-					"label": "pero + ciencia",
-					"latestAt": "2026-11-12T19:02:32.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"La ciencia no puede resolver el misterio del origen del hantavirus en el crucero",
-						"El enigma del crucero MV Hondius: la ciencia confirma la transmisión humana del hantavirus, pero busca el origen"
-					],
-					"sources": [
-						"El Correo",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-pero + ciencia|2026-11-12T19:02:32.000Z|2|La ciencia no puede resolver el misterio del origen del hantavirus en el crucero"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-spain-gana-etxepare-gana-etxepare": {
 			"candidateId": "cluster-spain-gana + etxepare",
@@ -303,7 +265,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -11784,7 +11746,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-future-jensen-future-jensen": {
 			"candidateId": "cluster-usa-future + jensen",
@@ -12590,7 +12552,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-nvidia-affair-nvidia-affair": {
 			"candidateId": "cluster-usa-nvidia + affair",
@@ -13283,29 +13245,53 @@
 		"cluster-usa-nvidia-trump-nvidia-trump": {
 			"candidateId": "cluster-usa-nvidia + trump",
 			"label": "nvidia + trump",
-			"latestAt": "2026-11-13T00:46:07.000Z",
-			"startedAt": "2026-11-12T22:45:40.000Z",
-			"itemCount": 4,
-			"sourceCount": 4,
+			"latestAt": "2026-11-13T03:27:02.000Z",
+			"startedAt": "2026-11-12T14:17:20.000Z",
+			"itemCount": 9,
+			"sourceCount": 5,
 			"terms": [
 				"nvidia",
 				"trump"
 			],
 			"sources": [
-				"The Verge",
 				"The New York Times Politics",
 				"CBS News",
-				"NPR"
+				"NPR",
+				"The New York Times",
+				"The Verge"
 			],
 			"titles": [
-				"Donald Trump really wants Tim Cook to run Nvidia",
 				"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
 				"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
-				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang"
+				"What happens next as Huang steps down as Nvidia CEO following affair scandal",
+				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
+				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
+				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
+				"Donald Trump really wants Tim Cook to run Nvidia"
 			],
 			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
-			"entityLastCandidateAt": "2026-11-13T00:46:07.000Z",
+			"entityLastCandidateAt": "2026-11-13T03:27:02.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T04:00:47.938Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-13T03:27:02.000Z",
+					"itemCount": 9,
+					"sourceCount": 5,
+					"headlines": [
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-13T03:27:02.000Z|9|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+				},
 				{
 					"observedAt": "2026-11-13T03:00:48.096Z",
 					"label": "nvidia + trump",
@@ -13344,7 +13330,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-states-united-states-united": {
 			"candidateId": "cluster-usa-states + united",
@@ -14468,7 +14454,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-spain-primer-rosalia-primer-rosalia": {
 			"candidateId": "cluster-spain-primer + rosalia",
@@ -14874,6 +14860,48 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
+		},
+		"cluster-spain-pero-ciencia-pero-ciencia": {
+			"candidateId": "cluster-spain-pero + ciencia",
+			"label": "pero + ciencia",
+			"latestAt": "2026-11-12T19:02:32.000Z",
+			"startedAt": "2026-11-12T19:00:00.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"pero",
+				"ciencia"
+			],
+			"sources": [
+				"El Correo",
+				"El Mundo"
+			],
+			"titles": [
+				"La ciencia no puede resolver el misterio del origen del hantavirus en el crucero",
+				"El enigma del crucero MV Hondius: la ciencia confirma la transmisión humana del hantavirus, pero busca el origen"
+			],
+			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
+			"entityLastCandidateAt": "2026-11-12T19:02:32.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "pero + ciencia",
+					"latestAt": "2026-11-12T19:02:32.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"La ciencia no puede resolver el misterio del origen del hantavirus en el crucero",
+						"El enigma del crucero MV Hondius: la ciencia confirma la transmisión humana del hantavirus, pero busca el origen"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-pero + ciencia|2026-11-12T19:02:32.000Z|2|La ciencia no puede resolver el misterio del origen del hantavirus en el crucero"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-spain-contra-papa-contra-papa": {
 			"candidateId": "cluster-spain-contra + papa",
@@ -15379,6 +15407,48 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
+		"cluster-spain-primera-cuando-primera-cuando": {
+			"candidateId": "cluster-spain-primera + cuando",
+			"label": "primera + cuando",
+			"latestAt": "2026-11-12T21:54:43.000Z",
+			"startedAt": "2026-11-12T21:48:19.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"primera",
+				"cuando"
+			],
+			"sources": [
+				"El Correo",
+				"El Mundo"
+			],
+			"titles": [
+				"España también gana cuando toca sufrir",
+				"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
+			],
+			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
+			"entityLastCandidateAt": "2026-11-12T21:54:43.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "primera + cuando",
+					"latestAt": "2026-11-12T21:54:43.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"España también gana cuando toca sufrir",
+						"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-primera + cuando|2026-11-12T21:54:43.000Z|2|España también gana cuando toca sufrir"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+		},
 		"cluster-usa-wins-race-wins-race": {
 			"candidateId": "cluster-usa-wins + race",
 			"label": "wins + race",
@@ -15855,7 +15925,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-democrats-kansas-democrats-kansas": {
 			"candidateId": "cluster-usa-democrats + kansas",
@@ -15901,13 +15971,13 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-kansas-charges-kansas-charges": {
 			"candidateId": "cluster-usa-kansas + charges",
 			"label": "kansas + charges",
 			"latestAt": "2026-11-13T01:54:37.000Z",
-			"startedAt": "2026-11-13T01:22:28.000Z",
+			"startedAt": "2026-11-13T01:22:28.199Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
@@ -15943,7 +16013,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
 			"candidateId": "cluster-usa-nvidia + lutnick",
@@ -16005,12 +16075,12 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-microsoft-outage-microsoft-outage": {
 			"candidateId": "cluster-usa-microsoft + outage",
 			"label": "microsoft + outage",
-			"latestAt": "2026-11-13T01:48:06.000Z",
+			"latestAt": "2026-11-13T03:03:35.000Z",
 			"startedAt": "2026-11-12T23:15:24.000Z",
 			"itemCount": 4,
 			"sourceCount": 3,
@@ -16030,8 +16100,26 @@
 				"Widespread outage hits Microsoft platforms including Outlook, thousands report issues"
 			],
 			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T01:48:06.000Z",
+			"entityLastCandidateAt": "2026-11-13T03:03:35.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T04:00:47.938Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T03:03:35.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+						"Widespread outage of Microsoft apps used by hundreds of millions"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T03:03:35.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+				},
 				{
 					"observedAt": "2026-11-13T03:00:48.096Z",
 					"label": "microsoft + outage",
@@ -16052,32 +16140,52 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		},
 		"cluster-usa-senate-leader-senate-leader": {
 			"candidateId": "cluster-usa-senate + leader",
 			"label": "senate + leader",
-			"latestAt": "2026-11-13T02:37:59.000Z",
+			"latestAt": "2026-11-13T03:52:25.000Z",
 			"startedAt": "2026-11-13T02:06:37.244Z",
-			"itemCount": 3,
-			"sourceCount": 3,
+			"itemCount": 4,
+			"sourceCount": 4,
 			"terms": [
 				"senate",
 				"leader"
 			],
 			"sources": [
+				"NPR Politics",
 				"The New York Times Politics",
 				"CBS News",
 				"NBC News Politics"
 			],
 			"titles": [
+				"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
 				"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
 				"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
 				"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
 			],
 			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T02:37:59.000Z",
+			"entityLastCandidateAt": "2026-11-13T03:52:25.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T04:00:47.938Z",
+					"label": "senate + leader",
+					"latestAt": "2026-11-13T03:52:25.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
+					],
+					"sources": [
+						"NPR Politics",
+						"The New York Times Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-senate + leader|2026-11-13T03:52:25.000Z|4|Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
+				},
 				{
 					"observedAt": "2026-11-13T03:00:48.096Z",
 					"label": "senate + leader",
@@ -16098,19 +16206,19 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T03:00:48.096Z"
+			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-es-2026-11-13T04:00:47.938Z",
+		"id": "local-es-2026-11-13T05:00:48.275Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-13T04:00:47.938Z",
-		"finishedAt": "2026-11-13T04:01:57.608Z",
-		"signalsCandidate": 7,
+		"startedAt": "2026-11-13T05:00:48.275Z",
+		"finishedAt": "2026-11-13T05:02:20.062Z",
+		"signalsCandidate": 6,
 		"signalsSelected": 3,
 		"signalsProcessed": 0,
-		"cacheHits": 7,
+		"cacheHits": 5,
 		"skippedByConfig": 3,
 		"skippedByBudget": 0,
 		"failures": 0,
@@ -16121,12 +16229,12 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 7,
+			"cacheHits": 5,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 304,
-			"retainedByTtl": 297,
-			"retiredByTtl": 1
+			"retained": 305,
+			"retainedByTtl": 299,
+			"retiredByTtl": 0
 		},
 		"costUsd": 0
 	}

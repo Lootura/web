@@ -2,98 +2,8 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-13T04:00:47.938Z",
+	"updatedAt": "2026-11-13T05:00:48.275Z",
 	"entries": {
-		"cluster-usa-nvidia-trump-nvidia-trump": {
-			"candidateId": "cluster-usa-nvidia + trump",
-			"label": "nvidia + trump",
-			"latestAt": "2026-11-13T03:27:02.000Z",
-			"startedAt": "2026-11-12T14:17:20.000Z",
-			"itemCount": 9,
-			"sourceCount": 5,
-			"terms": [
-				"nvidia",
-				"trump"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"CBS News",
-				"NPR",
-				"The New York Times",
-				"The Verge"
-			],
-			"titles": [
-				"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-				"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
-				"What happens next as Huang steps down as Nvidia CEO following affair scandal",
-				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
-				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
-				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
-				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
-				"Donald Trump really wants Tim Cook to run Nvidia"
-			],
-			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
-			"entityLastCandidateAt": "2026-11-13T03:27:02.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T04:00:47.938Z",
-					"label": "nvidia + trump",
-					"latestAt": "2026-11-13T03:27:02.000Z",
-					"itemCount": 9,
-					"sourceCount": 5,
-					"headlines": [
-						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
-						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"NPR"
-					],
-					"eventId": "cluster-usa-nvidia + trump|2026-11-13T03:27:02.000Z|9|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
-				},
-				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "nvidia + trump",
-					"latestAt": "2026-11-13T00:46:07.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Donald Trump really wants Tim Cook to run Nvidia",
-						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO"
-					],
-					"sources": [
-						"The Verge",
-						"The New York Times Politics",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + trump|2026-11-13T00:46:07.000Z|4|Donald Trump really wants Tim Cook to run Nvidia"
-				},
-				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "nvidia + trump",
-					"latestAt": "2026-11-12T17:06:46.000Z",
-					"itemCount": 17,
-					"sourceCount": 7,
-					"headlines": [
-						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-						"Jensen Huang resigns as Nvidia CEO after alleged affairs",
-						"Trump reacts after Nvidia CEO Jensen Huang resigns"
-					],
-					"sources": [
-						"CBS News",
-						"The Guardian US",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-nvidia + trump|2026-11-12T17:06:46.000Z|17|Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
-		},
 		"cluster-usa-building-collapse-building-collapse": {
 			"candidateId": "cluster-usa-building + collapse",
 			"label": "building + collapse",
@@ -271,7 +181,113 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+		},
+		"cluster-usa-nvidia-trump-nvidia-trump": {
+			"candidateId": "cluster-usa-nvidia + trump",
+			"label": "nvidia + trump",
+			"latestAt": "2026-11-13T03:27:02.000Z",
+			"startedAt": "2026-11-12T14:17:20.000Z",
+			"itemCount": 8,
+			"sourceCount": 4,
+			"terms": [
+				"nvidia",
+				"trump"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"CBS News",
+				"NPR",
+				"The New York Times"
+			],
+			"titles": [
+				"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+				"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+				"What happens next as Huang steps down as Nvidia CEO following affair scandal",
+				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
+				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
+				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal"
+			],
+			"entityFirstSeenAt": "2026-11-12T17:19:54.483Z",
+			"entityLastCandidateAt": "2026-11-13T03:27:02.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T05:00:48.275Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-13T03:27:02.000Z",
+					"itemCount": 8,
+					"sourceCount": 4,
+					"headlines": [
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-13T03:27:02.000Z|8|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+				},
+				{
+					"observedAt": "2026-11-13T04:00:47.938Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-13T03:27:02.000Z",
+					"itemCount": 9,
+					"sourceCount": 5,
+					"headlines": [
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-13T03:27:02.000Z|9|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+				},
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-13T00:46:07.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Donald Trump really wants Tim Cook to run Nvidia",
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO"
+					],
+					"sources": [
+						"The Verge",
+						"The New York Times Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-13T00:46:07.000Z|4|Donald Trump really wants Tim Cook to run Nvidia"
+				},
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + trump",
+					"latestAt": "2026-11-12T17:06:46.000Z",
+					"itemCount": 17,
+					"sourceCount": 7,
+					"headlines": [
+						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+						"Jensen Huang resigns as Nvidia CEO after alleged affairs",
+						"Trump reacts after Nvidia CEO Jensen Huang resigns"
+					],
+					"sources": [
+						"CBS News",
+						"The Guardian US",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-nvidia + trump|2026-11-12T17:06:46.000Z|17|Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-mississippi-senate-mississippi-senate": {
 			"candidateId": "cluster-usa-mississippi + senate",
@@ -410,7 +426,91 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
+		},
+		"cluster-usa-senate-leader-senate-leader": {
+			"candidateId": "cluster-usa-senate + leader",
+			"label": "senate + leader",
+			"latestAt": "2026-11-13T04:11:39.000Z",
+			"startedAt": "2026-11-13T02:06:37.244Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"senate",
+				"leader"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"NPR Politics",
+				"CBS News",
+				"NBC News Politics"
+			],
+			"titles": [
+				"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+				"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+				"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
+				"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
+			],
+			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
+			"entityLastCandidateAt": "2026-11-13T04:11:39.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T05:00:48.275Z",
+					"label": "senate + leader",
+					"latestAt": "2026-11-13T04:11:39.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"NPR Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-senate + leader|2026-11-13T04:11:39.000Z|4|Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader"
+				},
+				{
+					"observedAt": "2026-11-13T04:00:47.938Z",
+					"label": "senate + leader",
+					"latestAt": "2026-11-13T03:52:25.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
+					],
+					"sources": [
+						"NPR Politics",
+						"The New York Times Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-senate + leader|2026-11-13T03:52:25.000Z|4|Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
+				},
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "senate + leader",
+					"latestAt": "2026-11-13T02:37:59.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
+						"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-senate + leader|2026-11-13T02:37:59.000Z|3|Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-democrats-trump-democrats-trump": {
 			"candidateId": "cluster-usa-democrats + trump",
@@ -477,78 +577,12 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
-		},
-		"cluster-usa-senate-leader-senate-leader": {
-			"candidateId": "cluster-usa-senate + leader",
-			"label": "senate + leader",
-			"latestAt": "2026-11-13T03:52:25.000Z",
-			"startedAt": "2026-11-13T02:06:37.244Z",
-			"itemCount": 4,
-			"sourceCount": 4,
-			"terms": [
-				"senate",
-				"leader"
-			],
-			"sources": [
-				"NPR Politics",
-				"The New York Times Politics",
-				"CBS News",
-				"NBC News Politics"
-			],
-			"titles": [
-				"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
-				"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-				"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
-				"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
-			],
-			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T03:52:25.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T04:00:47.938Z",
-					"label": "senate + leader",
-					"latestAt": "2026-11-13T03:52:25.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
-						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
-					],
-					"sources": [
-						"NPR Politics",
-						"The New York Times Politics",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-senate + leader|2026-11-13T03:52:25.000Z|4|Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
-				},
-				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "senate + leader",
-					"latestAt": "2026-11-13T02:37:59.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-						"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
-						"Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"NBC News Politics"
-					],
-					"eventId": "cluster-usa-senate + leader|2026-11-13T02:37:59.000Z|3|Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-microsoft-outage-microsoft-outage": {
 			"candidateId": "cluster-usa-microsoft + outage",
 			"label": "microsoft + outage",
-			"latestAt": "2026-11-13T03:03:35.000Z",
+			"latestAt": "2026-11-13T04:28:16.000Z",
 			"startedAt": "2026-11-12T23:15:24.000Z",
 			"itemCount": 4,
 			"sourceCount": 3,
@@ -568,8 +602,26 @@
 				"Widespread outage hits Microsoft platforms including Outlook, thousands report issues"
 			],
 			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T03:03:35.000Z",
+			"entityLastCandidateAt": "2026-11-13T04:28:16.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T05:00:48.275Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T04:28:16.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+						"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+						"Widespread outage of Microsoft apps used by hundreds of millions"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T04:28:16.000Z|4|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+				},
 				{
 					"observedAt": "2026-11-13T04:00:47.938Z",
 					"label": "microsoft + outage",
@@ -608,7 +660,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
 			"candidateId": "cluster-usa-nvidia + lutnick",
@@ -670,7 +722,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-democrats-kansas-democrats-kansas": {
 			"candidateId": "cluster-usa-democrats + kansas",
@@ -716,7 +768,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-kansas-charges-kansas-charges": {
 			"candidateId": "cluster-usa-kansas + charges",
@@ -758,7 +810,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-shooting-killed-shooting-killed": {
 			"candidateId": "cluster-usa-shooting + killed",
@@ -816,7 +868,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -13890,7 +13942,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-spain-entre-general-entre-general": {
 			"candidateId": "cluster-spain-entre + general",
@@ -15028,7 +15080,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-spain-pero-ciencia-pero-ciencia": {
 			"candidateId": "cluster-spain-pero + ciencia",
@@ -15616,7 +15668,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-spain-primera-cuando-primera-cuando": {
 			"candidateId": "cluster-spain-primera + cuando",
@@ -15945,7 +15997,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-spain-sanchez-feijoo-sanchez-feijoo": {
 			"candidateId": "cluster-spain-sanchez + feijoo",
@@ -15987,7 +16039,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T04:00:47.938Z"
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		},
 		"cluster-usa-nvidia-calls-nvidia-calls": {
 			"candidateId": "cluster-usa-nvidia + calls",
@@ -16161,14 +16213,60 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T02:00:48.242Z"
+		},
+		"cluster-spain-cuando-contra-cuando-contra": {
+			"candidateId": "cluster-spain-cuando + contra",
+			"label": "cuando + contra",
+			"latestAt": "2026-11-13T05:01:36.000Z",
+			"startedAt": "2026-11-12T21:48:19.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"cuando",
+				"contra"
+			],
+			"sources": [
+				"elDiario.es",
+				"El Correo",
+				"El Mundo"
+			],
+			"titles": [
+				"Cuando hordas travestis invadieron el planeta: Sevilla resucita una sátira en blanco y negro contra la intolerancia",
+				"España también gana cuando toca sufrir",
+				"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
+			],
+			"entityFirstSeenAt": "2026-11-13T05:00:48.275Z",
+			"entityLastCandidateAt": "2026-11-13T05:01:36.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T05:00:48.275Z",
+					"label": "cuando + contra",
+					"latestAt": "2026-11-13T05:01:36.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Cuando hordas travestis invadieron el planeta: Sevilla resucita una sátira en blanco y negro contra la intolerancia",
+						"España también gana cuando toca sufrir",
+						"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
+					],
+					"sources": [
+						"elDiario.es",
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-cuando + contra|2026-11-13T05:01:36.000Z|3|Cuando hordas travestis invadieron el planeta: Sevilla resucita una sátira en blanco y negro contra la intolerancia"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T05:00:48.275Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-us-2026-11-13T04:00:47.938Z",
+		"id": "local-us-2026-11-13T05:00:48.275Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-13T04:00:47.938Z",
-		"finishedAt": "2026-11-13T04:04:07.682Z",
+		"startedAt": "2026-11-13T05:00:48.275Z",
+		"finishedAt": "2026-11-13T05:04:34.043Z",
 		"signalsCandidate": 10,
 		"signalsSelected": 10,
 		"signalsProcessed": 0,
@@ -16186,8 +16284,8 @@
 			"cacheHits": 10,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 304,
-			"retainedByTtl": 294,
+			"retained": 305,
+			"retainedByTtl": 295,
 			"retiredByTtl": 0
 		},
 		"costUsd": 0

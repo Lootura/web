@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-13T04:00:47.938Z",
+  "updatedAt": "2026-11-13T05:00:48.275Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "218,278 links analyzed",
-  "dayScanLabel": "6,081 links scanned in 24h",
+  "ambientPulseLabel": "218,884 links analyzed",
+  "dayScanLabel": "6,080 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -25,10 +25,10 @@
     "mode": "moving",
     "state": "rising",
     "stateLabel": "Rising",
-    "strength": 30,
+    "strength": 29,
     "sourceCount": 5,
     "itemCount": 8,
-    "freshness": "2h fresh",
+    "freshness": "3h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -100,10 +100,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 30,
+      "strength": 29,
       "sourceCount": 5,
       "itemCount": 8,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -177,7 +177,7 @@
       "strength": 28,
       "sourceCount": 4,
       "itemCount": 8,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -250,7 +250,7 @@
       "strength": 27,
       "sourceCount": 4,
       "itemCount": 7,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -334,31 +334,31 @@
       ],
       "isHotNews": false,
       "sources": [
-        "NPR Politics",
         "The New York Times Politics",
+        "NPR Politics",
         "CBS News",
         "NBC News Politics"
       ],
       "images": [
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4811x3289+0+0/resize/4811x3289!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F03%2Fdd%2F332d58b44e4e9507fa1047877405%2Fgettyimages-2288943476.jpg",
         "https://static01.nyt.com/images/2026/11/12/multimedia/12dc-vanhollen-kvwt/12dc-vanhollen-kvwt-mediumSquareAt3X.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4811x3289+0+0/resize/4811x3289!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F03%2Fdd%2F332d58b44e4e9507fa1047877405%2Fgettyimages-2288943476.jpg",
         "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/10/8023000d-59ef-46a9-ba34-08164c04fcb8/thumbnail/1200x630/81be138a3b1cf77066d13d6bf1811ea1/ap26176520488521.jpg",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261112-schumer-van-hollen-split-ww-1806-750458.jpg"
       ],
       "evidence": [
+        {
+          "title": "Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-13T04:11:39.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/12/us/politics/van-hollen-schumer-democrats-majority-leader.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12dc-vanhollen-kvwt/12dc-vanhollen-kvwt-mediumSquareAt3X.jpg"
+        },
         {
           "title": "Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
           "source": "NPR Politics",
           "publishedAt": "2026-11-13T03:52:25.000Z",
           "sourceUrl": "https://www.npr.org/2026/11/12/nx-s1-6039357/chris-van-hollen-chuck-schumer-senate-majority-leader?utm_source=lootura.com&ref=lootura.com",
           "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4811x3289+0+0/resize/4811x3289!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F03%2Fdd%2F332d58b44e4e9507fa1047877405%2Fgettyimages-2288943476.jpg"
-        },
-        {
-          "title": "Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-13T03:24:57.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/12/us/politics/van-hollen-schumer-democrats-majority-leader.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12dc-vanhollen-kvwt/12dc-vanhollen-kvwt-mediumSquareAt3X.jpg"
         },
         {
           "title": "Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
@@ -414,7 +414,7 @@
         {
           "title": "Outlook, Teams and More Microsoft Programs Disrupted by Outage",
           "source": "The New York Times",
-          "publishedAt": "2026-11-13T03:03:35.000Z",
+          "publishedAt": "2026-11-13T04:28:16.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/12/business/microsoft-outlook-down-outage-email.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12xp-outlook-wtfb/12xp-outlook-wtfb-mediumSquareAt3X.jpg"
         },
@@ -443,69 +443,6 @@
       "path": "/us/entity/is-outlook-down-widespread-outage-hits-microsoft-email-and-other-apps/"
     },
     {
-      "id": "moving-cluster-united states-white + house",
-      "title": "Legal expert on White House warning to Democrats over possible Trump investigations",
-      "brief": "Legal expert on White House warning to Democrats over possible Trump investigations.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "2h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 96,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "NBC News Politics",
-        "NPR Politics"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261102-james-talarico-washington-capitol-ww-1655-c49d11.jpg",
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7886x5257+0+0/resize/7886x5257!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7c%2F00%2F45ae5e5c4173a2bbdfc2feb574d7%2Fgettyimages-2303515786.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Legal expert on White House warning to Democrats over possible Trump investigations",
-          "source": "CBS News",
-          "publishedAt": "2026-11-13T02:01:47.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/legal-expert-weighs-in-on-white-house-warning-to-dems-over-possible-trump-investigations/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Democrats can’t wait until after Trump to produce results, James Talarico says",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-13T01:28:48.131Z",
-          "sourceUrl": "https://www.nbcnews.com/politics/2026-election/democrats-cant-wait-trump-produce-results-james-talarico-says-rcna609096?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261102-james-talarico-washington-capitol-ww-1655-c49d11.jpg"
-        },
-        {
-          "title": "White House warns of \"blatant criminality\" in Democratic probes",
-          "source": "CBS News",
-          "publishedAt": "2026-11-12T23:09:18.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/white-house-counsel-will-scharf-house-oversight-committee-robert-garcia-investigations/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Democrats want to stop Trump's arch, golf course and more. What are their options?",
-          "source": "NPR Politics",
-          "publishedAt": "2026-11-12T17:13:54.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/12/nx-s1-6034539/democrats-congress-trump-arch-ballroom-funding-oversight?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7886x5257+0+0/resize/7886x5257!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7c%2F00%2F45ae5e5c4173a2bbdfc2feb574d7%2Fgettyimages-2303515786.jpg"
-        }
-      ],
-      "path": "/us/entity/legal-expert-on-white-house-warning-to-democrats-over-possible-trump-investigati/"
-    },
-    {
       "id": "now-cluster-united states-nvidia + lutnick",
       "title": "Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
       "brief": "Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal.",
@@ -514,10 +451,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 23,
+      "strength": 22,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 92,
@@ -562,71 +499,89 @@
       "path": "/us/entity/howard-lutnick-agrees-to-testify-as-bipartisan-pressure-grows-over-nvidia-scanda/"
     },
     {
-      "id": "moving-cluster-united states-kansas + charges",
-      "title": "No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2",
-      "brief": "No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2.",
+      "id": "moving-cluster-united states-white + house",
+      "title": "Legal expert on White House warning to Democrats over possible Trump investigations",
+      "brief": "Legal expert on White House warning to Democrats over possible Trump investigations.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresh",
+      "strength": 22,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 76,
+      "alertScore": 90,
       "alertTriggers": [
         "Crosses several sources",
+        "Picks up volume fast",
         "Still active"
       ],
       "isHotNews": false,
       "sources": [
         "CBS News",
-        "NBC News"
+        "NBC News Politics",
+        "NPR Politics"
       ],
       "images": [
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/13/bccaefe0-5a23-460c-92d4-6abac7716181/thumbnail/1200x630/5cfc5695cda703c1cb52a6e18a9e98ea/cbsn-fusion-no-charges-driver-plowed-truck-field-during-kansas-youth-soccer-game-killing-2-thumbnail.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261018-wichita-kansas-soccer-game-crash-rc-1216a-159395.jpg"
+        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/13/fb9defa7-d732-4fa9-8965-5114cae83530/thumbnail/1200x630/bbc4c5b235c546d21a8727f257c0c090/cbsn-fusion-legal-expert-weighs-in-on-white-house-warning-to-dems-over-possible-trump-investigations-thumbnail.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261102-james-talarico-washington-capitol-ww-1655-c49d11.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7886x5257+0+0/resize/7886x5257!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7c%2F00%2F45ae5e5c4173a2bbdfc2feb574d7%2Fgettyimages-2303515786.jpg"
       ],
       "evidence": [
         {
-          "title": "No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2",
+          "title": "Legal expert on White House warning to Democrats over possible Trump investigations",
           "source": "CBS News",
-          "publishedAt": "2026-11-13T01:54:37.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/no-charges-driver-plowed-truck-field-during-kansas-youth-soccer-game-killing-2/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/13/bccaefe0-5a23-460c-92d4-6abac7716181/thumbnail/1200x630/5cfc5695cda703c1cb52a6e18a9e98ea/cbsn-fusion-no-charges-driver-plowed-truck-field-during-kansas-youth-soccer-game-killing-2-thumbnail.jpg"
+          "publishedAt": "2026-11-13T02:01:47.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/legal-expert-weighs-in-on-white-house-warning-to-dems-over-possible-trump-investigations/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/13/fb9defa7-d732-4fa9-8965-5114cae83530/thumbnail/1200x630/bbc4c5b235c546d21a8727f257c0c090/cbsn-fusion-legal-expert-weighs-in-on-white-house-warning-to-dems-over-possible-trump-investigations-thumbnail.jpg"
         },
         {
-          "title": "No charges for woman who drove onto Kansas soccer field, killing 2, officials say",
-          "source": "NBC News",
-          "publishedAt": "2026-11-13T01:22:28.199Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/no-charges-woman-drove-kansas-soccer-field-killing-2-officials-say-rcna609094?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261018-wichita-kansas-soccer-game-crash-rc-1216a-159395.jpg"
+          "title": "Democrats can’t wait until after Trump to produce results, James Talarico says",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-13T01:28:48.131Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/2026-election/democrats-cant-wait-trump-produce-results-james-talarico-says-rcna609096?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261102-james-talarico-washington-capitol-ww-1655-c49d11.jpg"
+        },
+        {
+          "title": "White House warns of \"blatant criminality\" in Democratic probes",
+          "source": "CBS News",
+          "publishedAt": "2026-11-12T23:09:18.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/white-house-counsel-will-scharf-house-oversight-committee-robert-garcia-investigations/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Democrats want to stop Trump's arch, golf course and more. What are their options?",
+          "source": "NPR Politics",
+          "publishedAt": "2026-11-12T17:13:54.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/12/nx-s1-6034539/democrats-congress-trump-arch-ballroom-funding-oversight?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7886x5257+0+0/resize/7886x5257!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7c%2F00%2F45ae5e5c4173a2bbdfc2feb574d7%2Fgettyimages-2303515786.jpg"
         }
       ],
-      "path": "/us/entity/no-charges-for-driver-who-plowed-truck-into-field-during-kansas-youth-soccer-gam/"
+      "path": "/us/entity/legal-expert-on-white-house-warning-to-democrats-over-possible-trump-investigati/"
     },
     {
-      "id": "fading-cluster-united states-cindy + holscher",
+      "id": "moving-cluster-united states-cindy + holscher",
       "title": "Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories",
       "brief": "Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories.",
       "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 16,
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 15,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 68,
+      "alertScore": 86,
       "alertTriggers": [
         "Crosses several sources",
-        "Picks up volume fast"
+        "Picks up volume fast",
+        "Still active"
       ],
       "isHotNews": false,
       "sources": [
@@ -665,6 +620,52 @@
       "path": "/us/entity/cindy-holscher-wins-election-for-kansas-governor-extending-democrats-wave-of-vic/"
     },
     {
+      "id": "fading-cluster-united states-kansas + charges",
+      "title": "No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2",
+      "brief": "No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2.",
+      "whyItMatters": "",
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "3h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Crosses several sources"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NBC News"
+      ],
+      "images": [
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/13/bccaefe0-5a23-460c-92d4-6abac7716181/thumbnail/1200x630/5cfc5695cda703c1cb52a6e18a9e98ea/cbsn-fusion-no-charges-driver-plowed-truck-field-during-kansas-youth-soccer-game-killing-2-thumbnail.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261018-wichita-kansas-soccer-game-crash-rc-1216a-159395.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2",
+          "source": "CBS News",
+          "publishedAt": "2026-11-13T01:54:37.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/no-charges-driver-plowed-truck-field-during-kansas-youth-soccer-game-killing-2/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/13/bccaefe0-5a23-460c-92d4-6abac7716181/thumbnail/1200x630/5cfc5695cda703c1cb52a6e18a9e98ea/cbsn-fusion-no-charges-driver-plowed-truck-field-during-kansas-youth-soccer-game-killing-2-thumbnail.jpg"
+        },
+        {
+          "title": "No charges for woman who drove onto Kansas soccer field, killing 2, officials say",
+          "source": "NBC News",
+          "publishedAt": "2026-11-13T01:22:28.199Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/no-charges-woman-drove-kansas-soccer-field-killing-2-officials-say-rcna609094?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261018-wichita-kansas-soccer-game-crash-rc-1216a-159395.jpg"
+        }
+      ],
+      "path": "/us/entity/no-charges-for-driver-who-plowed-truck-into-field-during-kansas-youth-soccer-gam/"
+    },
+    {
       "id": "fading-cluster-united states-shooting + killed",
       "title": "Witnesses describe the D.C. shooting that left 1 dead, 4 injured",
       "brief": "Witnesses describe the D.C. shooting that left 1 dead, 4 injured.",
@@ -676,7 +677,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 52,
