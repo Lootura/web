@@ -22,6 +22,7 @@ const isCacheableRequest = (request) => {
 	if (url.pathname.endsWith('/app-build.json')) return false;
 	if (/\/news(?:\.[a-z]{2})?\.json$/.test(url.pathname)) return false;
 	if (url.pathname.endsWith('/activity.json')) return false;
+	if (url.pathname.endsWith('/catch-up.json')) return false;
 	if (url.pathname.endsWith('/scan-status.json')) return false;
 	if (url.pathname.endsWith('/publication.json')) return false;
 	if (url.pathname.endsWith('/signal.json')) return false;
