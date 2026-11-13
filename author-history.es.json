@@ -1,10 +1,16 @@
 {
-	"updatedAt": "2026-11-12T23:00:48.320Z",
+	"updatedAt": "2026-11-13T00:00:48.749Z",
 	"feedProfile": "es",
 	"retentionDays": 90,
 	"totalAuthors": 80,
-	"totalBylinedItems": 413,
+	"totalBylinedItems": 414,
 	"runs": [
+		{
+			"at": "2026-11-13T00:00:48.749Z",
+			"itemCount": 120,
+			"bylinedItemCount": 60,
+			"authorCount": 80
+		},
 		{
 			"at": "2026-11-12T23:00:48.320Z",
 			"itemCount": 120,
@@ -177,12 +183,6 @@
 			"at": "2026-11-09T11:31:49.044Z",
 			"itemCount": 120,
 			"bylinedItemCount": 51,
-			"authorCount": 80
-		},
-		{
-			"at": "2026-11-09T08:25:19.568Z",
-			"itemCount": 120,
-			"bylinedItemCount": 52,
 			"authorCount": 80
 		}
 	],
@@ -4081,7 +4081,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 121,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-10T14:18:23.000Z",
 			"latestAt": "2026-11-12T22:15:27.000Z",
 			"daysActive": 3,
@@ -4808,6 +4808,93 @@
 					"source": "El País",
 					"href": "https://elpais.com/deportes/formula-1/2026-10-31/hamilton-pone-lustre-a-la-coronacion-de-antonelli-en-el-gp-de-mexico.html?utm_source=lootura.com&ref=lootura.com",
 					"publishedAt": "2026-11-01T22:28:05.000Z",
+					"category": "general",
+					"weight": 3
+				}
+			]
+		},
+		{
+			"id": "el mundo::lucas de la cal",
+			"name": "Lucas de la Cal",
+			"source": "El Mundo",
+			"profileUrl": "",
+			"itemCount": 4,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 104,
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-09T06:25:32.000Z",
+			"latestAt": "2026-11-12T22:15:42.000Z",
+			"daysActive": 4,
+			"categories": [
+				"general"
+			],
+			"sources": [
+				"El Mundo"
+			],
+			"examples": [
+				{
+					"key": "https://www.elmundo.es/deportes/mas-deporte/2026/11/12/6af5efaa21efa0321d8b45ac.html?ref=lootura.com",
+					"title": "En la cuna del karate: viaje a Okinawa, donde los últimos maestros mantienen viva la tradición de este arte marcial",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/deportes/mas-deporte/2026/11/12/6af5efaa21efa0321d8b45ac.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T22:15:42.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/economia/empresas/2026/11/10/6af34014fdddff030b8b45a2.html?ref=lootura.com",
+					"title": "Los secretos de la amante del jefe de Nvidia y los 7.500 millones en chips para China",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/economia/empresas/2026/11/10/6af34014fdddff030b8b45a2.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-11T04:11:16.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/economia/empresas/2026/11/08/6af0ed92e85ece421f8b4580.html?ref=lootura.com",
+					"title": "Nvidia investigará a su propio director ejecutivo por haber mantenido una relación con una espía china",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/economia/empresas/2026/11/08/6af0ed92e85ece421f8b4580.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T10:10:07.000Z",
+					"category": "general",
+					"weight": 3
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.elmundo.es/deportes/mas-deporte/2026/11/12/6af5efaa21efa0321d8b45ac.html?ref=lootura.com",
+					"title": "En la cuna del karate: viaje a Okinawa, donde los últimos maestros mantienen viva la tradición de este arte marcial",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/deportes/mas-deporte/2026/11/12/6af5efaa21efa0321d8b45ac.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T22:15:42.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/economia/empresas/2026/11/10/6af34014fdddff030b8b45a2.html?ref=lootura.com",
+					"title": "Los secretos de la amante del jefe de Nvidia y los 7.500 millones en chips para China",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/economia/empresas/2026/11/10/6af34014fdddff030b8b45a2.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-11T04:11:16.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/economia/empresas/2026/11/08/6af0ed92e85ece421f8b4580.html?ref=lootura.com",
+					"title": "Nvidia investigará a su propio director ejecutivo por haber mantenido una relación con una espía china",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/economia/empresas/2026/11/08/6af0ed92e85ece421f8b4580.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T10:10:07.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/economia/empresas/2026/11/09/6af1397ee85eceed388b4570.html?ref=lootura.com",
+					"title": "Los secretos de alcoba del espionaje chino: de la amante del jefe de Nvidia al engaño de M. Butterfly",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/economia/empresas/2026/11/09/6af1397ee85eceed388b4570.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T06:25:32.000Z",
 					"category": "general",
 					"weight": 3
 				}
@@ -6623,84 +6710,6 @@
 					"source": "El País",
 					"href": "https://elpais.com/escaparate/estilo-de-vida/organizador-de-tapas-de-tuppers.html?utm_source=lootura.com&ref=lootura.com",
 					"publishedAt": "2026-11-10T05:30:00.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			]
-		},
-		{
-			"id": "el mundo::lucas de la cal",
-			"name": "Lucas de la Cal",
-			"source": "El Mundo",
-			"profileUrl": "",
-			"itemCount": 3,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 84,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-09T06:25:32.000Z",
-			"latestAt": "2026-11-11T04:11:16.000Z",
-			"daysActive": 2,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"El Mundo"
-			],
-			"examples": [
-				{
-					"key": "https://www.elmundo.es/economia/empresas/2026/11/10/6af34014fdddff030b8b45a2.html?ref=lootura.com",
-					"title": "Los secretos de la amante del jefe de Nvidia y los 7.500 millones en chips para China",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/economia/empresas/2026/11/10/6af34014fdddff030b8b45a2.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T04:11:16.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/economia/empresas/2026/11/08/6af0ed92e85ece421f8b4580.html?ref=lootura.com",
-					"title": "Nvidia investigará a su propio director ejecutivo por haber mantenido una relación con una espía china",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/economia/empresas/2026/11/08/6af0ed92e85ece421f8b4580.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T10:10:07.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/economia/empresas/2026/11/09/6af1397ee85eceed388b4570.html?ref=lootura.com",
-					"title": "Los secretos de alcoba del espionaje chino: de la amante del jefe de Nvidia al engaño de M. Butterfly",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/economia/empresas/2026/11/09/6af1397ee85eceed388b4570.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T06:25:32.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.elmundo.es/economia/empresas/2026/11/10/6af34014fdddff030b8b45a2.html?ref=lootura.com",
-					"title": "Los secretos de la amante del jefe de Nvidia y los 7.500 millones en chips para China",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/economia/empresas/2026/11/10/6af34014fdddff030b8b45a2.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T04:11:16.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/economia/empresas/2026/11/08/6af0ed92e85ece421f8b4580.html?ref=lootura.com",
-					"title": "Nvidia investigará a su propio director ejecutivo por haber mantenido una relación con una espía china",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/economia/empresas/2026/11/08/6af0ed92e85ece421f8b4580.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T10:10:07.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/economia/empresas/2026/11/09/6af1397ee85eceed388b4570.html?ref=lootura.com",
-					"title": "Los secretos de alcoba del espionaje chino: de la amante del jefe de Nvidia al engaño de M. Butterfly",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/economia/empresas/2026/11/09/6af1397ee85eceed388b4570.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T06:25:32.000Z",
 					"category": "general",
 					"weight": 3
 				}

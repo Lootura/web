@@ -2,18 +2,18 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-12T23:00:48.320Z",
+	"updatedAt": "2026-11-13T00:00:48.749Z",
 	"entries": {
-		"cluster-spain-primera-begona-primera-begona": {
-			"candidateId": "cluster-spain-primera + begona",
-			"label": "primera + begona",
-			"latestAt": "2026-11-12T20:44:45.000Z",
-			"startedAt": "2026-11-12T17:02:52.000Z",
+		"cluster-spain-begona-gomez-begona-gomez": {
+			"candidateId": "cluster-spain-begona + gomez",
+			"label": "begona + gomez",
+			"latestAt": "2026-11-12T23:09:17.000Z",
+			"startedAt": "2026-11-12T18:18:39.000Z",
 			"itemCount": 7,
 			"sourceCount": 4,
 			"terms": [
-				"primera",
-				"begona"
+				"begona",
+				"gomez"
 			],
 			"sources": [
 				"El País",
@@ -22,20 +22,38 @@
 				"El Correo"
 			],
 			"titles": [
+				"Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)",
 				"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
 				"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
 				"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
 				"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»",
 				"La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer",
-				"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
-				"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
+				"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'"
 			],
-			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
-			"entityLastCandidateAt": "2026-11-12T20:44:45.000Z",
+			"entityFirstSeenAt": "2026-11-12T22:00:48.193Z",
+			"entityLastCandidateAt": "2026-11-12T23:09:17.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T23:00:48.320Z",
-					"label": "primera + begona",
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "begona + gomez",
+					"latestAt": "2026-11-12T23:09:17.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)",
+						"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
+						"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-begona + gomez|2026-11-12T23:09:17.000Z|7|Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)"
+				},
+				{
+					"observedAt": "2026-11-12T22:00:48.193Z",
+					"label": "begona + gomez",
 					"latestAt": "2026-11-12T20:44:45.000Z",
 					"itemCount": 7,
 					"sourceCount": 4,
@@ -49,22 +67,22 @@
 						"El Mundo",
 						"El Diario Vasco"
 					],
-					"eventId": "cluster-spain-primera + begona|2026-11-12T20:44:45.000Z|7|Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres"
+					"eventId": "cluster-spain-begona + gomez|2026-11-12T20:44:45.000Z|7|Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
 		},
-		"cluster-spain-real-estrella-real-estrella": {
-			"candidateId": "cluster-spain-real + estrella",
-			"label": "real + estrella",
+		"cluster-spain-roja-real-roja-real": {
+			"candidateId": "cluster-spain-roja + real",
+			"label": "roja + real",
 			"latestAt": "2026-11-12T22:22:09.000Z",
-			"startedAt": "2026-11-12T21:58:36.000Z",
+			"startedAt": "2026-11-12T22:12:09.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"real",
-				"estrella"
+				"roja",
+				"real"
 			],
 			"sources": [
 				"El País",
@@ -74,12 +92,12 @@
 				"El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga",
 				"Procida pide paso en la paliza del Real Madrid al Estrella Roja de Ibon Navarro"
 			],
-			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
+			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
 			"entityLastCandidateAt": "2026-11-12T22:22:09.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T23:00:48.320Z",
-					"label": "real + estrella",
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "roja + real",
 					"latestAt": "2026-11-12T22:22:09.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -91,68 +109,22 @@
 						"El País",
 						"El Mundo"
 					],
-					"eventId": "cluster-spain-real + estrella|2026-11-12T22:22:09.000Z|2|El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga"
+					"eventId": "cluster-spain-roja + real|2026-11-12T22:22:09.000Z|2|El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
 		},
-		"cluster-spain-nacional-nucleo-nacional-nucleo": {
-			"candidateId": "cluster-spain-nacional + nucleo",
-			"label": "nacional + nucleo",
-			"latestAt": "2026-11-12T17:27:42.000Z",
-			"startedAt": "2026-11-12T16:53:10.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"nacional",
-				"nucleo"
-			],
-			"sources": [
-				"El Correo",
-				"El Mundo",
-				"El País"
-			],
-			"titles": [
-				"La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes",
-				"La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales",
-				"La portavoz de Núcleo Nacional guardaba en su casa 13 armas largas y quería “ir a pegar tiros a París”"
-			],
-			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
-			"entityLastCandidateAt": "2026-11-12T17:27:42.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T19:25:49.967Z",
-					"label": "nacional + nucleo",
-					"latestAt": "2026-11-12T17:27:42.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes",
-						"La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales",
-						"La portavoz de Núcleo Nacional guardaba en su casa 13 armas largas y quería “ir a pegar tiros a París”"
-					],
-					"sources": [
-						"El Correo",
-						"El Mundo",
-						"El País"
-					],
-					"eventId": "cluster-spain-nacional + nucleo|2026-11-12T17:27:42.000Z|3|La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
-		},
-		"cluster-spain-contra-primera-contra-primera": {
-			"candidateId": "cluster-spain-contra + primera",
-			"label": "contra + primera",
+		"cluster-spain-primera-cuando-primera-cuando": {
+			"candidateId": "cluster-spain-primera + cuando",
+			"label": "primera + cuando",
 			"latestAt": "2026-11-12T21:54:43.000Z",
 			"startedAt": "2026-11-12T21:48:19.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"contra",
-				"primera"
+				"primera",
+				"cuando"
 			],
 			"sources": [
 				"El Correo",
@@ -162,12 +134,12 @@
 				"España también gana cuando toca sufrir",
 				"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
 			],
-			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
+			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
 			"entityLastCandidateAt": "2026-11-12T21:54:43.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T23:00:48.320Z",
-					"label": "contra + primera",
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "primera + cuando",
 					"latestAt": "2026-11-12T21:54:43.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -179,11 +151,11 @@
 						"El Correo",
 						"El Mundo"
 					],
-					"eventId": "cluster-spain-contra + primera|2026-11-12T21:54:43.000Z|2|España también gana cuando toca sufrir"
+					"eventId": "cluster-spain-primera + cuando|2026-11-12T21:54:43.000Z|2|España también gana cuando toca sufrir"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
 		},
 		"cluster-spain-psoe-campana-psoe-campana": {
 			"candidateId": "cluster-spain-psoe + campana",
@@ -225,7 +197,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
 		},
 		"cluster-spain-pero-ciencia-pero-ciencia": {
 			"candidateId": "cluster-spain-pero + ciencia",
@@ -267,49 +239,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
-		},
-		"cluster-spain-contra-papa-contra-papa": {
-			"candidateId": "cluster-spain-contra + papa",
-			"label": "contra + papa",
-			"latestAt": "2026-11-12T18:43:07.000Z",
-			"startedAt": "2026-11-12T13:18:33.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"contra",
-				"papa"
-			],
-			"sources": [
-				"El Mundo",
-				"El Correo"
-			],
-			"titles": [
-				"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
-				"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
-			],
-			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
-			"entityLastCandidateAt": "2026-11-12T18:43:07.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T21:00:48.034Z",
-					"label": "contra + papa",
-					"latestAt": "2026-11-12T18:43:07.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
-						"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
-					],
-					"sources": [
-						"El Mundo",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-contra + papa|2026-11-12T18:43:07.000Z|2|El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
 		},
 		"cluster-spain-gana-etxepare-gana-etxepare": {
 			"candidateId": "cluster-spain-gana + etxepare",
@@ -351,49 +281,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
-		},
-		"cluster-spain-detenido-hombre-detenido-hombre": {
-			"candidateId": "cluster-spain-detenido + hombre",
-			"label": "detenido + hombre",
-			"latestAt": "2026-11-12T16:59:30.000Z",
-			"startedAt": "2026-11-12T16:49:30.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"detenido",
-				"hombre"
-			],
-			"sources": [
-				"El País",
-				"El Mundo"
-			],
-			"titles": [
-				"Detenido un hombre en Gijón por matar a su expareja",
-				"Detenido un hombre en Gijón por matar a su ex pareja"
-			],
-			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-12T16:59:30.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "detenido + hombre",
-					"latestAt": "2026-11-12T16:59:30.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Detenido un hombre en Gijón por matar a su expareja",
-						"Detenido un hombre en Gijón por matar a su ex pareja"
-					],
-					"sources": [
-						"El País",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-detenido + hombre|2026-11-12T16:59:30.000Z|2|Detenido un hombre en Gijón por matar a su expareja"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -805,7 +693,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
 		"cluster-usa-trump-house-trump-house": {
 			"candidateId": "cluster-usa-trump + house",
@@ -1204,74 +1092,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T08:25:56.119Z"
-		},
-		"cluster-usa-more-than-more-than": {
-			"candidateId": "cluster-usa-more + than",
-			"label": "more + than",
-			"latestAt": "2026-11-08T23:34:09.000Z",
-			"startedAt": "2026-11-08T17:40:25.000Z",
-			"itemCount": 5,
-			"sourceCount": 5,
-			"terms": [
-				"more",
-				"than"
-			],
-			"sources": [
-				"The New York Times",
-				"Phys.org",
-				"CBS News",
-				"PBS NewsHour",
-				"The New York Times World"
-			],
-			"titles": [
-				"When the Boss on the Phone Isn’t Real: How More Than $129 Million Was Stolen Using A.I.",
-				"JWST tracks more than 100 magnified stellar events in the Dragon galaxy",
-				"Trains collide in Egypt, killing at least 7 and injuring more than 100",
-				"Collision between 2 trains in Egypt kills 7 and injures at least 125",
-				"More Than 3,000 Tarantulas Found in Smugglers’ Socks at Peru Airport"
-			],
-			"entityFirstSeenAt": "2026-11-08T21:30:11.158Z",
-			"entityLastCandidateAt": "2026-11-08T23:34:09.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T01:20:23.182Z",
-					"label": "more + than",
-					"latestAt": "2026-11-08T23:34:09.000Z",
-					"itemCount": 5,
-					"sourceCount": 5,
-					"headlines": [
-						"When the Boss on the Phone Isn’t Real: How More Than $129 Million Was Stolen Using A.I.",
-						"JWST tracks more than 100 magnified stellar events in the Dragon galaxy",
-						"Trains collide in Egypt, killing at least 7 and injuring more than 100"
-					],
-					"sources": [
-						"The New York Times",
-						"Phys.org",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-more + than|2026-11-08T23:34:09.000Z|5|When the Boss on the Phone Isn’t Real: How More Than $129 Million Was Stolen Using A.I."
-				},
-				{
-					"observedAt": "2026-11-08T21:30:11.158Z",
-					"label": "more + than",
-					"latestAt": "2026-11-08T19:20:01.000Z",
-					"itemCount": 5,
-					"sourceCount": 5,
-					"headlines": [
-						"JWST tracks more than 100 magnified stellar events in the Dragon galaxy",
-						"Trains collide in Egypt, killing at least 7 and injuring more than 100",
-						"Collision between 2 trains in Egypt kills 7 and injures at least 125"
-					],
-					"sources": [
-						"Phys.org",
-						"CBS News",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-more + than|2026-11-08T19:20:01.000Z|5|JWST tracks more than 100 magnified stellar events in the Dragon galaxy"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T01:20:23.182Z"
 		},
 		"cluster-spain-milei-vivo-milei-vivo": {
 			"candidateId": "cluster-spain-milei + vivo",
@@ -3556,46 +3376,47 @@
 		"cluster-usa-nvidia-huang-nvidia-huang": {
 			"candidateId": "cluster-usa-nvidia + huang",
 			"label": "nvidia + huang",
-			"latestAt": "2026-11-12T21:45:00.000Z",
-			"startedAt": "2026-11-12T11:00:15.000Z",
-			"itemCount": 18,
-			"sourceCount": 7,
+			"latestAt": "2026-11-12T22:46:24.000Z",
+			"startedAt": "2026-11-12T18:54:11.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
 			"terms": [
 				"nvidia",
 				"huang"
 			],
 			"sources": [
-				"The Verge",
 				"CBS News",
-				"NBC News Politics",
-				"The New York Times",
 				"NBC News",
-				"PBS NewsHour",
-				"NPR"
+				"The New York Times",
+				"PBS NewsHour"
 			],
 			"titles": [
-				"‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation",
-				"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
-				"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmakers say",
-				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
-				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
-				"AG Todd Blanche asked about Jensen Huang, Nvidia",
-				"The rise and fall of former Nvidia CEO Jensen Huang",
-				"Jensen Huang's exit rocks Nvidia and creates openings for rivals",
-				"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+				"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
+				"Who is Colette Kress, Nvidia’s new interim CEO?",
 				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"Who will succeed Jensen Huang as Nvidia's CEO? We asked Wall Street analysts.",
-				"Trump reacts after Nvidia CEO Jensen Huang resigns",
-				"Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
-				"Sharp swings for Nvidia and oil prices weigh on Wall Street",
-				"Nvidia stock falls after Huang resigns, weighing on broader market",
-				"Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
-				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
-				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
+				"WATCH: 'More questions than answers' about Nvidia's Huang, Jeffries says in news conference"
 			],
 			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-12T21:45:00.000Z",
+			"entityLastCandidateAt": "2026-11-12T22:46:24.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T22:46:24.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
+						"Who is Colette Kress, Nvidia’s new interim CEO?",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T22:46:24.000Z|4|Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns"
+				},
 				{
 					"observedAt": "2026-11-12T22:00:48.193Z",
 					"label": "nvidia + huang",
@@ -3706,7 +3527,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
 		"cluster-usa-russell-brand-russell-brand": {
 			"candidateId": "cluster-usa-russell + brand",
@@ -4172,43 +3993,57 @@
 		"cluster-usa-trump-nvidia-trump-nvidia": {
 			"candidateId": "cluster-usa-trump + nvidia",
 			"label": "trump + nvidia",
-			"latestAt": "2026-11-12T20:38:00.000Z",
+			"latestAt": "2026-11-12T22:45:40.000Z",
 			"startedAt": "2026-11-12T11:00:15.000Z",
-			"itemCount": 17,
+			"itemCount": 13,
 			"sourceCount": 5,
 			"terms": [
 				"trump",
 				"nvidia"
 			],
 			"sources": [
+				"NPR",
 				"CBS News",
+				"NBC News Politics",
 				"The New York Times",
-				"NBC News",
-				"PBS NewsHour",
-				"NPR"
+				"NBC News"
 			],
 			"titles": [
-				"Jensen Huang's exit rocks Nvidia and creates openings for rivals",
+				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
+				"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
+				"‘There will have to be a public hearing’ on Jensen Huang scandal: Top Foreign Affairs Democrat",
+				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
 				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
-				"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
+				"AG Todd Blanche asked about Jensen Huang, Nvidia",
+				"The rise and fall of former Nvidia CEO Jensen Huang",
+				"Jensen Huang's exit rocks Nvidia and creates openings for rivals",
 				"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
-				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
-				"Trump reacts after Nvidia CEO Jensen Huang resigns",
+				"Who will succeed Jensen Huang as Nvidia's CEO? We asked Wall Street analysts.",
 				"Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
-				"Sharp swings for Nvidia and oil prices weigh on Wall Street",
-				"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
-				"Nvidia stock falls after Huang resigns, weighing on broader market",
-				"Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
 				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
-				"Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
-				"Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
-				"Nvidia CEO Jensen Huang resigns in wake of affair with woman suspected of spying for China",
 				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
 			],
 			"entityFirstSeenAt": "2026-11-10T01:48:34.517Z",
-			"entityLastCandidateAt": "2026-11-12T20:38:00.000Z",
+			"entityLastCandidateAt": "2026-11-12T22:45:40.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "trump + nvidia",
+					"latestAt": "2026-11-12T22:45:40.000Z",
+					"itemCount": 13,
+					"sourceCount": 5,
+					"headlines": [
+						"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
+						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
+						"‘There will have to be a public hearing’ on Jensen Huang scandal: Top Foreign Affairs Democrat"
+					],
+					"sources": [
+						"NPR",
+						"CBS News",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-trump + nvidia|2026-11-12T22:45:40.000Z|13|What's a Honey Trap? The spy tactic that helped topple Jensen Huang"
+				},
 				{
 					"observedAt": "2026-11-12T21:00:48.034Z",
 					"label": "trump + nvidia",
@@ -4318,7 +4153,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
 		"cluster-usa-trump-court-trump-court": {
 			"candidateId": "cluster-usa-trump + court",
@@ -12932,27 +12767,41 @@
 		"cluster-usa-prostate-cancer-prostate-cancer": {
 			"candidateId": "cluster-usa-prostate + cancer",
 			"label": "prostate + cancer",
-			"latestAt": "2026-11-12T15:30:29.000Z",
+			"latestAt": "2026-11-12T22:13:00.000Z",
 			"startedAt": "2026-11-12T12:00:05.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
+			"itemCount": 2,
+			"sourceCount": 2,
 			"terms": [
 				"prostate",
 				"cancer"
 			],
 			"sources": [
 				"CBS News",
-				"NBC News",
 				"The New York Times"
 			],
 			"titles": [
-				"How men can guard against prostate cancer",
-				"New prostate cancer screening guidelines include regular PSA testing for most older men",
+				"Regular prostate cancer screening recommended in new guidelines",
 				"What to Know About New Prostate Cancer Screening Recommendations"
 			],
 			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
-			"entityLastCandidateAt": "2026-11-12T15:30:29.000Z",
+			"entityLastCandidateAt": "2026-11-12T22:13:00.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "prostate + cancer",
+					"latestAt": "2026-11-12T22:13:00.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Regular prostate cancer screening recommended in new guidelines",
+						"What to Know About New Prostate Cancer Screening Recommendations"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-prostate + cancer|2026-11-12T22:13:00.000Z|2|Regular prostate cancer screening recommended in new guidelines"
+				},
 				{
 					"observedAt": "2026-11-12T15:47:37.262Z",
 					"label": "prostate + cancer",
@@ -12973,7 +12822,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
 		"cluster-usa-hospital-least-hospital-least": {
 			"candidateId": "cluster-usa-hospital + least",
@@ -14021,6 +13870,48 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
 		},
+		"cluster-spain-detenido-hombre-detenido-hombre": {
+			"candidateId": "cluster-spain-detenido + hombre",
+			"label": "detenido + hombre",
+			"latestAt": "2026-11-12T16:59:30.000Z",
+			"startedAt": "2026-11-12T16:49:30.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"detenido",
+				"hombre"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Detenido un hombre en Gijón por matar a su expareja",
+				"Detenido un hombre en Gijón por matar a su ex pareja"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T16:59:30.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "detenido + hombre",
+					"latestAt": "2026-11-12T16:59:30.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Detenido un hombre en Gijón por matar a su expareja",
+						"Detenido un hombre en Gijón por matar a su ex pareja"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-detenido + hombre|2026-11-12T16:59:30.000Z|2|Detenido un hombre en Gijón por matar a su expareja"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+		},
 		"cluster-usa-huang-jensen-huang-jensen": {
 			"candidateId": "cluster-usa-huang + jensen",
 			"label": "huang + jensen",
@@ -14229,7 +14120,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
 		"cluster-usa-shooting-here-shooting-here": {
 			"candidateId": "cluster-usa-shooting + here",
@@ -14356,6 +14247,52 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+		},
+		"cluster-spain-nacional-nucleo-nacional-nucleo": {
+			"candidateId": "cluster-spain-nacional + nucleo",
+			"label": "nacional + nucleo",
+			"latestAt": "2026-11-12T17:27:42.000Z",
+			"startedAt": "2026-11-12T16:53:10.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"nacional",
+				"nucleo"
+			],
+			"sources": [
+				"El Correo",
+				"El Mundo",
+				"El País"
+			],
+			"titles": [
+				"La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes",
+				"La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales",
+				"La portavoz de Núcleo Nacional guardaba en su casa 13 armas largas y quería “ir a pegar tiros a París”"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
+			"entityLastCandidateAt": "2026-11-12T17:27:42.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "nacional + nucleo",
+					"latestAt": "2026-11-12T17:27:42.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes",
+						"La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales",
+						"La portavoz de Núcleo Nacional guardaba en su casa 13 armas largas y quería “ir a pegar tiros a París”"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo",
+						"El País"
+					],
+					"eventId": "cluster-spain-nacional + nucleo|2026-11-12T17:27:42.000Z|3|La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
 		"cluster-spain-primera-psoe-primera-psoe": {
 			"candidateId": "cluster-spain-primera + psoe",
@@ -14894,7 +14831,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
 		"cluster-spain-sanchez-begona-sanchez-begona": {
 			"candidateId": "cluster-spain-sanchez + begona",
@@ -14990,6 +14927,48 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T21:00:48.034Z"
 		},
+		"cluster-spain-contra-papa-contra-papa": {
+			"candidateId": "cluster-spain-contra + papa",
+			"label": "contra + papa",
+			"latestAt": "2026-11-12T18:43:07.000Z",
+			"startedAt": "2026-11-12T13:18:33.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"contra",
+				"papa"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
+				"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
+			],
+			"entityFirstSeenAt": "2026-11-12T21:00:48.034Z",
+			"entityLastCandidateAt": "2026-11-12T18:43:07.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "contra + papa",
+					"latestAt": "2026-11-12T18:43:07.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica",
+						"Tres millones de personas reciben en Perú al Papa en su «regreso a la patria»"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-contra + papa|2026-11-12T18:43:07.000Z|2|El Papa León XIV regresa a Perú: justicia y prevención contra los abusos sexuales de la Iglesia Católica"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+		},
 		"cluster-usa-here-shooting-here-shooting": {
 			"candidateId": "cluster-usa-here + shooting",
 			"label": "here + shooting",
@@ -15032,16 +15011,16 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
 		},
-		"cluster-spain-begona-gomez-begona-gomez": {
-			"candidateId": "cluster-spain-begona + gomez",
-			"label": "begona + gomez",
+		"cluster-spain-primera-begona-primera-begona": {
+			"candidateId": "cluster-spain-primera + begona",
+			"label": "primera + begona",
 			"latestAt": "2026-11-12T20:44:45.000Z",
 			"startedAt": "2026-11-12T17:02:52.000Z",
 			"itemCount": 7,
 			"sourceCount": 4,
 			"terms": [
-				"begona",
-				"gomez"
+				"primera",
+				"begona"
 			],
 			"sources": [
 				"El País",
@@ -15058,12 +15037,12 @@
 				"La UCO revela que Sánchez se reunió a solas con su exchófer imputado para hablar de Ábalos antes de estallar el 'caso Koldo'",
 				"Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
 			],
-			"entityFirstSeenAt": "2026-11-12T22:00:48.193Z",
+			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
 			"entityLastCandidateAt": "2026-11-12T20:44:45.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T22:00:48.193Z",
-					"label": "begona + gomez",
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "primera + begona",
 					"latestAt": "2026-11-12T20:44:45.000Z",
 					"itemCount": 7,
 					"sourceCount": 4,
@@ -15077,24 +15056,286 @@
 						"El Mundo",
 						"El Diario Vasco"
 					],
-					"eventId": "cluster-spain-begona + gomez|2026-11-12T20:44:45.000Z|7|Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres"
+					"eventId": "cluster-spain-primera + begona|2026-11-12T20:44:45.000Z|7|Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T22:00:48.193Z"
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+		},
+		"cluster-spain-real-estrella-real-estrella": {
+			"candidateId": "cluster-spain-real + estrella",
+			"label": "real + estrella",
+			"latestAt": "2026-11-12T22:22:09.000Z",
+			"startedAt": "2026-11-12T21:58:36.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"real",
+				"estrella"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga",
+				"Procida pide paso en la paliza del Real Madrid al Estrella Roja de Ibon Navarro"
+			],
+			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
+			"entityLastCandidateAt": "2026-11-12T22:22:09.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "real + estrella",
+					"latestAt": "2026-11-12T22:22:09.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga",
+						"Procida pide paso en la paliza del Real Madrid al Estrella Roja de Ibon Navarro"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-real + estrella|2026-11-12T22:22:09.000Z|2|El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+		},
+		"cluster-spain-contra-primera-contra-primera": {
+			"candidateId": "cluster-spain-contra + primera",
+			"label": "contra + primera",
+			"latestAt": "2026-11-12T21:54:43.000Z",
+			"startedAt": "2026-11-12T21:48:19.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"contra",
+				"primera"
+			],
+			"sources": [
+				"El Correo",
+				"El Mundo"
+			],
+			"titles": [
+				"España también gana cuando toca sufrir",
+				"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
+			],
+			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
+			"entityLastCandidateAt": "2026-11-12T21:54:43.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "contra + primera",
+					"latestAt": "2026-11-12T21:54:43.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"España también gana cuando toca sufrir",
+						"España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-contra + primera|2026-11-12T21:54:43.000Z|2|España también gana cuando toca sufrir"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+		},
+		"cluster-usa-building-brooklyn-building-brooklyn": {
+			"candidateId": "cluster-usa-building + brooklyn",
+			"label": "building + brooklyn",
+			"latestAt": "2026-11-12T22:12:26.000Z",
+			"startedAt": "2026-11-12T16:09:11.000Z",
+			"itemCount": 6,
+			"sourceCount": 4,
+			"terms": [
+				"building",
+				"brooklyn"
+			],
+			"sources": [
+				"The New York Times",
+				"NBC News",
+				"NPR",
+				"PBS NewsHour"
+			],
+			"titles": [
+				"What to Know About the Deadly Building Collapse in Brooklyn",
+				"Ring camera video shows the moment of Brooklyn building collapse",
+				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
+				"Casualties continue to rise after Brooklyn building collapses",
+				"WATCH: Brooklyn building collapse killed 2 children and 6 adults, mayor says",
+				"Excavation Was Taking Place Next to Building in Brooklyn That Collapsed"
+			],
+			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
+			"entityLastCandidateAt": "2026-11-12T22:12:26.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-12T22:12:26.000Z",
+					"itemCount": 6,
+					"sourceCount": 4,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Ring camera video shows the moment of Brooklyn building collapse",
+						"A Frantic Search for Survivors in the Brooklyn Building Collapse"
+					],
+					"sources": [
+						"The New York Times",
+						"NBC News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-building + brooklyn|2026-11-12T22:12:26.000Z|6|What to Know About the Deadly Building Collapse in Brooklyn"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+		},
+		"cluster-usa-pope-emotional-pope-emotional": {
+			"candidateId": "cluster-usa-pope + emotional",
+			"label": "pope + emotional",
+			"latestAt": "2026-11-12T22:06:20.000Z",
+			"startedAt": "2026-11-12T18:22:29.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"pope",
+				"emotional"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"CBS News"
+			],
+			"titles": [
+				"After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women",
+				"Pope declares Peru his \"homeland\" in final leg of South America trip",
+				"Pope Leo enjoys an emotional Peruvian homecoming"
+			],
+			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
+			"entityLastCandidateAt": "2026-11-12T22:06:20.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "pope + emotional",
+					"latestAt": "2026-11-12T22:06:20.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women",
+						"Pope declares Peru his \"homeland\" in final leg of South America trip",
+						"Pope Leo enjoys an emotional Peruvian homecoming"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-pope + emotional|2026-11-12T22:06:20.000Z|3|After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+		},
+		"cluster-usa-democrats-race-democrats-race": {
+			"candidateId": "cluster-usa-democrats + race",
+			"label": "democrats + race",
+			"latestAt": "2026-11-12T22:52:49.000Z",
+			"startedAt": "2026-11-12T22:46:39.308Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"democrats",
+				"race"
+			],
+			"sources": [
+				"NPR Politics",
+				"NBC News Politics"
+			],
+			"titles": [
+				"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+				"Democrat Cindy Holscher defeats Republican Ty Masterson in Kansas governor’s race"
+			],
+			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
+			"entityLastCandidateAt": "2026-11-12T22:52:49.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "democrats + race",
+					"latestAt": "2026-11-12T22:52:49.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+						"Democrat Cindy Holscher defeats Republican Ty Masterson in Kansas governor’s race"
+					],
+					"sources": [
+						"NPR Politics",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-democrats + race|2026-11-12T22:52:49.000Z|2|Cindy Holscher wins in Kansas, holding governor's office for Democrats"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+		},
+		"cluster-usa-shooting-witness-shooting-witness": {
+			"candidateId": "cluster-usa-shooting + witness",
+			"label": "shooting + witness",
+			"latestAt": "2026-11-12T18:36:02.000Z",
+			"startedAt": "2026-11-12T16:36:49.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"shooting",
+				"witness"
+			],
+			"sources": [
+				"CBS News",
+				"NBC News"
+			],
+			"titles": [
+				"Witness describes deadly D.C. shooting: \"Alright, let's get out of here\"",
+				"'There was no way of getting out': Witness describes gym shooting scene"
+			],
+			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
+			"entityLastCandidateAt": "2026-11-12T18:36:02.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "shooting + witness",
+					"latestAt": "2026-11-12T18:36:02.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Witness describes deadly D.C. shooting: \"Alright, let's get out of here\"",
+						"'There was no way of getting out': Witness describes gym shooting scene"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-shooting + witness|2026-11-12T18:36:02.000Z|2|Witness describes deadly D.C. shooting: \"Alright, let's get out of here\""
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-es-2026-11-12T23:00:48.320Z",
+		"id": "local-es-2026-11-13T00:00:48.749Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-12T23:00:48.320Z",
-		"finishedAt": "2026-11-12T23:02:40.551Z",
-		"signalsCandidate": 9,
-		"signalsSelected": 8,
+		"startedAt": "2026-11-13T00:00:48.749Z",
+		"finishedAt": "2026-11-13T00:02:24.688Z",
+		"signalsCandidate": 6,
+		"signalsSelected": 5,
 		"signalsProcessed": 0,
-		"cacheHits": 6,
-		"skippedByConfig": 8,
+		"cacheHits": 4,
+		"skippedByConfig": 5,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -15104,11 +15345,11 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 6,
+			"cacheHits": 4,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 289,
-			"retainedByTtl": 280,
+			"retained": 294,
+			"retainedByTtl": 288,
 			"retiredByTtl": 1
 		},
 		"costUsd": 0
