@@ -1,10 +1,16 @@
 {
-	"updatedAt": "2026-11-13T09:00:48.269Z",
+	"updatedAt": "2026-11-13T13:35:22.142Z",
 	"feedProfile": "es",
 	"retentionDays": 90,
 	"totalAuthors": 80,
-	"totalBylinedItems": 422,
+	"totalBylinedItems": 425,
 	"runs": [
+		{
+			"at": "2026-11-13T13:35:22.142Z",
+			"itemCount": 120,
+			"bylinedItemCount": 78,
+			"authorCount": 80
+		},
 		{
 			"at": "2026-11-13T09:00:48.269Z",
 			"itemCount": 120,
@@ -177,12 +183,6 @@
 			"at": "2026-11-10T19:03:55.994Z",
 			"itemCount": 120,
 			"bylinedItemCount": 61,
-			"authorCount": 80
-		},
-		{
-			"at": "2026-11-10T15:25:42.575Z",
-			"itemCount": 120,
-			"bylinedItemCount": 65,
 			"authorCount": 80
 		}
 	],
@@ -422,6 +422,183 @@
 					"source": "El Debate",
 					"href": "https://www.eldebate.com/espana/galicia/20261031/maria-vazquez-hija-ex-concejal-gallego-entre-fallecidos-urda_476042.html?utm_source=lootura.com&ref=lootura.com",
 					"publishedAt": "2026-10-31T19:56:07.000Z",
+					"category": "general",
+					"weight": 2
+				}
+			]
+		},
+		{
+			"id": "ok diario::okdiario",
+			"name": "OKDIARIO",
+			"source": "OK Diario",
+			"profileUrl": "",
+			"itemCount": 14,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 284,
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-02T17:31:56.000Z",
+			"latestAt": "2026-11-13T13:31:32.000Z",
+			"daysActive": 11,
+			"categories": [
+				"general"
+			],
+			"sources": [
+				"OK Diario"
+			],
+			"examples": [
+				{
+					"key": "https://okdiario.com/baleares/eroski-consolida-apoyo-asociaciones-ayuda-infancia-baleares-14a-edicion-campana-midesonrisas-20894131?ref=lootura.com",
+					"title": "EROSKI consolida su apoyo a las asociaciones de ayuda a la infancia de Baleares con la 14ª edición de su campaña ‘MideSonrisas’",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/baleares/eroski-consolida-apoyo-asociaciones-ayuda-infancia-baleares-14a-edicion-campana-midesonrisas-20894131?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T13:31:32.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/cataluna/aemet-preve-cielos-nublados-y-ligeras-lluvias-en-barcelona-con-mejoras-en-las-horas-centrales-20748303?ref=lootura.com",
+					"title": "AEMET prevé cielos nublados y ligeras lluvias en Barcelona, con mejoras en las horas centrales",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/cataluna/aemet-preve-cielos-nublados-y-ligeras-lluvias-en-barcelona-con-mejoras-en-las-horas-centrales-20748303?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-11T06:19:27.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/andalucia/lluvias-y-vientos-intensos-marcan-la-prevision-del-tiempo-en-andalucia-segun-aemet-20748300?ref=lootura.com",
+					"title": "Lluvias y vientos intensos marcan la previsión del tiempo en Andalucía, según AEMET",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/andalucia/lluvias-y-vientos-intensos-marcan-la-prevision-del-tiempo-en-andalucia-segun-aemet-20748300?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-11T06:13:44.000Z",
+					"category": "general",
+					"weight": 2
+				}
+			],
+			"items": [
+				{
+					"key": "https://okdiario.com/baleares/eroski-consolida-apoyo-asociaciones-ayuda-infancia-baleares-14a-edicion-campana-midesonrisas-20894131?ref=lootura.com",
+					"title": "EROSKI consolida su apoyo a las asociaciones de ayuda a la infancia de Baleares con la 14ª edición de su campaña ‘MideSonrisas’",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/baleares/eroski-consolida-apoyo-asociaciones-ayuda-infancia-baleares-14a-edicion-campana-midesonrisas-20894131?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T13:31:32.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/cataluna/aemet-preve-cielos-nublados-y-ligeras-lluvias-en-barcelona-con-mejoras-en-las-horas-centrales-20748303?ref=lootura.com",
+					"title": "AEMET prevé cielos nublados y ligeras lluvias en Barcelona, con mejoras en las horas centrales",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/cataluna/aemet-preve-cielos-nublados-y-ligeras-lluvias-en-barcelona-con-mejoras-en-las-horas-centrales-20748303?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-11T06:19:27.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/andalucia/lluvias-y-vientos-intensos-marcan-la-prevision-del-tiempo-en-andalucia-segun-aemet-20748300?ref=lootura.com",
+					"title": "Lluvias y vientos intensos marcan la previsión del tiempo en Andalucía, según AEMET",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/andalucia/lluvias-y-vientos-intensos-marcan-la-prevision-del-tiempo-en-andalucia-segun-aemet-20748300?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-11T06:13:44.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/salud/quironsalud-consolida-apuesta-calidad-asistencial-cuatro-nuevos-sellos-qh-quality-healthcare-sus-hospitales-20745074?ref=lootura.com",
+					"title": "Quirónsalud consolida su apuesta por la calidad asistencial con cuatro nuevos sellos QH (Quality Healthcare) en sus hospitales",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/salud/quironsalud-consolida-apuesta-calidad-asistencial-cuatro-nuevos-sellos-qh-quality-healthcare-sus-hospitales-20745074?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T15:14:00.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/aragon/nubes-y-chubascos-debiles-en-zaragoza-aemet-preve-ascenso-de-temperaturas-y-viento-variable-20740168?ref=lootura.com",
+					"title": "Nubes y chubascos débiles en Zaragoza; AEMET prevé ascenso de temperaturas y viento variable",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/aragon/nubes-y-chubascos-debiles-en-zaragoza-aemet-preve-ascenso-de-temperaturas-y-viento-variable-20740168?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T06:48:44.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/pais-vasco/cielos-nubosos-y-lluvias-debiles-en-bilbao-segun-aemet-viento-suave-en-el-litoral-y-brumas-en-el-sur-20740136?ref=lootura.com",
+					"title": "Cielos nubosos y lluvias débiles en Bilbao según AEMET, viento suave en el litoral y brumas en el sur",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/pais-vasco/cielos-nubosos-y-lluvias-debiles-en-bilbao-segun-aemet-viento-suave-en-el-litoral-y-brumas-en-el-sur-20740136?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T06:35:43.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/horoscopo/prediccion-del-horoscopo-para-leo-hoy-martes-10-de-noviembre-de-2026-20740124?ref=lootura.com",
+					"title": "Predicción del horóscopo para Leo hoy, martes 10 de noviembre de 2026",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/horoscopo/prediccion-del-horoscopo-para-leo-hoy-martes-10-de-noviembre-de-2026-20740124?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T06:29:08.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/cataluna/aemet-preve-un-dia-de-nubes-y-claros-con-viento-suave-en-barcelona-20740114?ref=lootura.com",
+					"title": "AEMET prevé un día de nubes y claros con viento suave en Barcelona",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/cataluna/aemet-preve-un-dia-de-nubes-y-claros-con-viento-suave-en-barcelona-20740114?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T06:20:17.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/horoscopo/prediccion-del-horoscopo-para-acuario-hoy-viernes-6-de-noviembre-de-2026-20713300?ref=lootura.com",
+					"title": "Predicción del horóscopo para Acuario hoy, viernes 6 de noviembre de 2026",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/horoscopo/prediccion-del-horoscopo-para-acuario-hoy-viernes-6-de-noviembre-de-2026-20713300?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-06T08:37:46.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/cultura/juan-luis-guerra-pone-todo-mundo-bailar-madrid-megaconcierto-starlite-20702068?ref=lootura.com",
+					"title": "Juan Luis Guerra pone a todo el mundo a bailar en Madrid con un megaconcierto de Starlite",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/cultura/juan-luis-guerra-pone-todo-mundo-bailar-madrid-megaconcierto-starlite-20702068?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-04T17:28:01.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/deportes/vota-nuestra-encuesta-crees-que-deberia-ser-sancionado-owono-fallecimiento-jesus-miguel-20701731?ref=lootura.com",
+					"title": "Vota en nuestra encuesta: ¿Crees que debería ser sancionado Owono tras el fallecimiento de Jesús de Miguel?",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/deportes/vota-nuestra-encuesta-crees-que-deberia-ser-sancionado-owono-fallecimiento-jesus-miguel-20701731?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-04T17:18:45.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/sociedad/ofertas-flash-amazon-directo-rebajas-descuentos-tiempo-limitado-hoy-4-noviembre-20696030?ref=lootura.com",
+					"title": "Ofertas flash de Amazon, en directo: rebajas y descuentos por tiempo limitado de hoy 4 de noviembre",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/sociedad/ofertas-flash-amazon-directo-rebajas-descuentos-tiempo-limitado-hoy-4-noviembre-20696030?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-04T07:32:42.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/deportes/quien-jesus-miguel-jugador-del-tenerife-evacuado-urgencia-edad-donde-donde-vive-20684280?ref=lootura.com",
+					"title": "Quién es Jesús de Miguel, el jugador del Tenerife evacuado de urgencia: edad, de dónde es y dónde vive",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/deportes/quien-jesus-miguel-jugador-del-tenerife-evacuado-urgencia-edad-donde-donde-vive-20684280?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-02T17:47:17.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/economia/ibex-35-lunes-2-noviembre-20678756?ref=lootura.com",
+					"title": "El Ibex cierra la jornada con una subida del 1,63% y roza los 19.000 puntos mientras el petróleo cae el 7%",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/economia/ibex-35-lunes-2-noviembre-20678756?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-02T17:31:56.000Z",
 					"category": "general",
 					"weight": 2
 				}
@@ -927,174 +1104,6 @@
 					"href": "https://www.cope.es/actualidad/internacional/noticias/terremoto-electoral-estados-unidos-democratas-arrebatan-trump-control-congreso-senado-20261104_3468019.html?utm_source=lootura.com&ref=lootura.com",
 					"publishedAt": "2026-11-04T06:35:17.000Z",
 					"category": "radio-news",
-					"weight": 2
-				}
-			]
-		},
-		{
-			"id": "ok diario::okdiario",
-			"name": "OKDIARIO",
-			"source": "OK Diario",
-			"profileUrl": "",
-			"itemCount": 13,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 264,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-02T17:31:56.000Z",
-			"latestAt": "2026-11-11T06:19:27.000Z",
-			"daysActive": 9,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"OK Diario"
-			],
-			"examples": [
-				{
-					"key": "https://okdiario.com/cataluna/aemet-preve-cielos-nublados-y-ligeras-lluvias-en-barcelona-con-mejoras-en-las-horas-centrales-20748303?ref=lootura.com",
-					"title": "AEMET prevé cielos nublados y ligeras lluvias en Barcelona, con mejoras en las horas centrales",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/cataluna/aemet-preve-cielos-nublados-y-ligeras-lluvias-en-barcelona-con-mejoras-en-las-horas-centrales-20748303?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T06:19:27.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/andalucia/lluvias-y-vientos-intensos-marcan-la-prevision-del-tiempo-en-andalucia-segun-aemet-20748300?ref=lootura.com",
-					"title": "Lluvias y vientos intensos marcan la previsión del tiempo en Andalucía, según AEMET",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/andalucia/lluvias-y-vientos-intensos-marcan-la-prevision-del-tiempo-en-andalucia-segun-aemet-20748300?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T06:13:44.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/salud/quironsalud-consolida-apuesta-calidad-asistencial-cuatro-nuevos-sellos-qh-quality-healthcare-sus-hospitales-20745074?ref=lootura.com",
-					"title": "Quirónsalud consolida su apuesta por la calidad asistencial con cuatro nuevos sellos QH (Quality Healthcare) en sus hospitales",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/salud/quironsalud-consolida-apuesta-calidad-asistencial-cuatro-nuevos-sellos-qh-quality-healthcare-sus-hospitales-20745074?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T15:14:00.000Z",
-					"category": "general",
-					"weight": 2
-				}
-			],
-			"items": [
-				{
-					"key": "https://okdiario.com/cataluna/aemet-preve-cielos-nublados-y-ligeras-lluvias-en-barcelona-con-mejoras-en-las-horas-centrales-20748303?ref=lootura.com",
-					"title": "AEMET prevé cielos nublados y ligeras lluvias en Barcelona, con mejoras en las horas centrales",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/cataluna/aemet-preve-cielos-nublados-y-ligeras-lluvias-en-barcelona-con-mejoras-en-las-horas-centrales-20748303?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T06:19:27.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/andalucia/lluvias-y-vientos-intensos-marcan-la-prevision-del-tiempo-en-andalucia-segun-aemet-20748300?ref=lootura.com",
-					"title": "Lluvias y vientos intensos marcan la previsión del tiempo en Andalucía, según AEMET",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/andalucia/lluvias-y-vientos-intensos-marcan-la-prevision-del-tiempo-en-andalucia-segun-aemet-20748300?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T06:13:44.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/salud/quironsalud-consolida-apuesta-calidad-asistencial-cuatro-nuevos-sellos-qh-quality-healthcare-sus-hospitales-20745074?ref=lootura.com",
-					"title": "Quirónsalud consolida su apuesta por la calidad asistencial con cuatro nuevos sellos QH (Quality Healthcare) en sus hospitales",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/salud/quironsalud-consolida-apuesta-calidad-asistencial-cuatro-nuevos-sellos-qh-quality-healthcare-sus-hospitales-20745074?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T15:14:00.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/aragon/nubes-y-chubascos-debiles-en-zaragoza-aemet-preve-ascenso-de-temperaturas-y-viento-variable-20740168?ref=lootura.com",
-					"title": "Nubes y chubascos débiles en Zaragoza; AEMET prevé ascenso de temperaturas y viento variable",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/aragon/nubes-y-chubascos-debiles-en-zaragoza-aemet-preve-ascenso-de-temperaturas-y-viento-variable-20740168?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T06:48:44.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/pais-vasco/cielos-nubosos-y-lluvias-debiles-en-bilbao-segun-aemet-viento-suave-en-el-litoral-y-brumas-en-el-sur-20740136?ref=lootura.com",
-					"title": "Cielos nubosos y lluvias débiles en Bilbao según AEMET, viento suave en el litoral y brumas en el sur",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/pais-vasco/cielos-nubosos-y-lluvias-debiles-en-bilbao-segun-aemet-viento-suave-en-el-litoral-y-brumas-en-el-sur-20740136?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T06:35:43.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/horoscopo/prediccion-del-horoscopo-para-leo-hoy-martes-10-de-noviembre-de-2026-20740124?ref=lootura.com",
-					"title": "Predicción del horóscopo para Leo hoy, martes 10 de noviembre de 2026",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/horoscopo/prediccion-del-horoscopo-para-leo-hoy-martes-10-de-noviembre-de-2026-20740124?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T06:29:08.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/cataluna/aemet-preve-un-dia-de-nubes-y-claros-con-viento-suave-en-barcelona-20740114?ref=lootura.com",
-					"title": "AEMET prevé un día de nubes y claros con viento suave en Barcelona",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/cataluna/aemet-preve-un-dia-de-nubes-y-claros-con-viento-suave-en-barcelona-20740114?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T06:20:17.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/horoscopo/prediccion-del-horoscopo-para-acuario-hoy-viernes-6-de-noviembre-de-2026-20713300?ref=lootura.com",
-					"title": "Predicción del horóscopo para Acuario hoy, viernes 6 de noviembre de 2026",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/horoscopo/prediccion-del-horoscopo-para-acuario-hoy-viernes-6-de-noviembre-de-2026-20713300?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-06T08:37:46.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/cultura/juan-luis-guerra-pone-todo-mundo-bailar-madrid-megaconcierto-starlite-20702068?ref=lootura.com",
-					"title": "Juan Luis Guerra pone a todo el mundo a bailar en Madrid con un megaconcierto de Starlite",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/cultura/juan-luis-guerra-pone-todo-mundo-bailar-madrid-megaconcierto-starlite-20702068?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-04T17:28:01.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/deportes/vota-nuestra-encuesta-crees-que-deberia-ser-sancionado-owono-fallecimiento-jesus-miguel-20701731?ref=lootura.com",
-					"title": "Vota en nuestra encuesta: ¿Crees que debería ser sancionado Owono tras el fallecimiento de Jesús de Miguel?",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/deportes/vota-nuestra-encuesta-crees-que-deberia-ser-sancionado-owono-fallecimiento-jesus-miguel-20701731?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-04T17:18:45.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/sociedad/ofertas-flash-amazon-directo-rebajas-descuentos-tiempo-limitado-hoy-4-noviembre-20696030?ref=lootura.com",
-					"title": "Ofertas flash de Amazon, en directo: rebajas y descuentos por tiempo limitado de hoy 4 de noviembre",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/sociedad/ofertas-flash-amazon-directo-rebajas-descuentos-tiempo-limitado-hoy-4-noviembre-20696030?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-04T07:32:42.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/deportes/quien-jesus-miguel-jugador-del-tenerife-evacuado-urgencia-edad-donde-donde-vive-20684280?ref=lootura.com",
-					"title": "Quién es Jesús de Miguel, el jugador del Tenerife evacuado de urgencia: edad, de dónde es y dónde vive",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/deportes/quien-jesus-miguel-jugador-del-tenerife-evacuado-urgencia-edad-donde-donde-vive-20684280?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-02T17:47:17.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/economia/ibex-35-lunes-2-noviembre-20678756?ref=lootura.com",
-					"title": "El Ibex cierra la jornada con una subida del 1,63% y roza los 19.000 puntos mientras el petróleo cae el 7%",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/economia/ibex-35-lunes-2-noviembre-20678756?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-02T17:31:56.000Z",
-					"category": "general",
 					"weight": 2
 				}
 			]
@@ -1831,7 +1840,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 190,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-06T17:00:12.000Z",
 			"latestAt": "2026-11-13T09:00:57.000Z",
 			"daysActive": 7,
@@ -1951,6 +1960,129 @@
 					"publishedAt": "2026-11-06T17:00:12.000Z",
 					"category": "general",
 					"weight": 2
+				}
+			]
+		},
+		{
+			"id": "el mundo::juanma lamet",
+			"name": "Juanma Lamet",
+			"source": "El Mundo",
+			"profileUrl": "",
+			"itemCount": 8,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 185,
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-01T01:18:48.000Z",
+			"latestAt": "2026-11-13T12:18:09.000Z",
+			"daysActive": 13,
+			"categories": [
+				"general"
+			],
+			"sources": [
+				"El Mundo"
+			],
+			"examples": [
+				{
+					"key": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af6e315fdddff705e8b4593.html?ref=lootura.com",
+					"title": "Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af6e315fdddff705e8b4593.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T12:18:09.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/10/6af30c3ce4d4d8e0028b4589.html?ref=lootura.com",
+					"title": "Feijóo promete sustituir el ingreso mínimo vital por una \"renta de activación\" que se les retirará a quienes rechacen empleos sin \"causa justificada\"",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/10/6af30c3ce4d4d8e0028b4589.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T12:37:29.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/economia/2026/11/09/6af18df8e4d4d88f658b458c.html?ref=lootura.com",
+					"title": "Adif confirma que su ex presidente aprobó horas antes de dimitir por la tragedia de Urda un plan de incentivos para su dirección",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/economia/2026/11/09/6af18df8e4d4d88f658b458c.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T11:40:56.000Z",
+					"category": "general",
+					"weight": 3
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af6e315fdddff705e8b4593.html?ref=lootura.com",
+					"title": "Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af6e315fdddff705e8b4593.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T12:18:09.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/10/6af30c3ce4d4d8e0028b4589.html?ref=lootura.com",
+					"title": "Feijóo promete sustituir el ingreso mínimo vital por una \"renta de activación\" que se les retirará a quienes rechacen empleos sin \"causa justificada\"",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/10/6af30c3ce4d4d8e0028b4589.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T12:37:29.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/economia/2026/11/09/6af18df8e4d4d88f658b458c.html?ref=lootura.com",
+					"title": "Adif confirma que su ex presidente aprobó horas antes de dimitir por la tragedia de Urda un plan de incentivos para su dirección",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/economia/2026/11/09/6af18df8e4d4d88f658b458c.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T11:40:56.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6aef6c95e85eceea168b457d.html?ref=lootura.com",
+					"title": "El PP promete restaurar el Premio Nacional de Tauromaquia y dar más \"protección\" legal y más \"proyección\" económica a los toros",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6aef6c95e85eceea168b457d.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T00:17:24.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/06/6aedcb46e9cf4a8a1e8b4596.html?ref=lootura.com",
+					"title": "La campaña del PP para \"el cambio necesario\": arranque en Badalona, mítines en plazas de toros y agenda paralela de los barones",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/06/6aedcb46e9cf4a8a1e8b4596.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-06T13:18:37.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/05/6aec7ca4fdddff19508b456e.html?ref=lootura.com",
+					"title": "El PP ve en los registros de la UCO en Adif \"la traca final\" de Sánchez: \"Es un deber moral sacarlo de las instituciones\"",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/05/6aec7ca4fdddff19508b456e.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-05T12:58:37.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/espana/2026/11/04/6aea2328fdddff9d618b45a7.html?ref=lootura.com",
+					"title": "Cargos de Adif denuncian una \"caza de brujas\" interna: \"Nos quieren silenciar a todos los que no hemos sido nombrados a dedo\"",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/espana/2026/11/04/6aea2328fdddff9d618b45a7.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-04T00:57:35.000Z",
+					"category": "general",
+					"weight": 3
+				},
+				{
+					"key": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/01/6ae5daade9cf4a7d748b45a1.html?ref=lootura.com",
+					"title": "El PP retoma la \"política para adultos\" como estrategia: \"Es el 'momento Feijóo', somos el Gobierno a la espera\"",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/01/6ae5daade9cf4a7d748b45a1.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-01T08:44:18.000Z",
+					"category": "general",
+					"weight": 3
 				}
 			]
 		},
@@ -2432,120 +2564,6 @@
 					"source": "El Mundo",
 					"href": "https://www.elmundo.es/espana/2026/10/29/6ae33bbbfc6c837e478b459d.html?utm_source=lootura.com",
 					"publishedAt": "2026-10-29T13:31:42.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			]
-		},
-		{
-			"id": "el mundo::juanma lamet",
-			"name": "Juanma Lamet",
-			"source": "El Mundo",
-			"profileUrl": "",
-			"itemCount": 7,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 164,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-01T01:18:48.000Z",
-			"latestAt": "2026-11-10T12:37:29.000Z",
-			"daysActive": 10,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"El Mundo"
-			],
-			"examples": [
-				{
-					"key": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/10/6af30c3ce4d4d8e0028b4589.html?ref=lootura.com",
-					"title": "Feijóo promete sustituir el ingreso mínimo vital por una \"renta de activación\" que se les retirará a quienes rechacen empleos sin \"causa justificada\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/10/6af30c3ce4d4d8e0028b4589.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T12:37:29.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/economia/2026/11/09/6af18df8e4d4d88f658b458c.html?ref=lootura.com",
-					"title": "Adif confirma que su ex presidente aprobó horas antes de dimitir por la tragedia de Urda un plan de incentivos para su dirección",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/economia/2026/11/09/6af18df8e4d4d88f658b458c.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T11:40:56.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6aef6c95e85eceea168b457d.html?ref=lootura.com",
-					"title": "El PP promete restaurar el Premio Nacional de Tauromaquia y dar más \"protección\" legal y más \"proyección\" económica a los toros",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6aef6c95e85eceea168b457d.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T00:17:24.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/10/6af30c3ce4d4d8e0028b4589.html?ref=lootura.com",
-					"title": "Feijóo promete sustituir el ingreso mínimo vital por una \"renta de activación\" que se les retirará a quienes rechacen empleos sin \"causa justificada\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/10/6af30c3ce4d4d8e0028b4589.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T12:37:29.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/economia/2026/11/09/6af18df8e4d4d88f658b458c.html?ref=lootura.com",
-					"title": "Adif confirma que su ex presidente aprobó horas antes de dimitir por la tragedia de Urda un plan de incentivos para su dirección",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/economia/2026/11/09/6af18df8e4d4d88f658b458c.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T11:40:56.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6aef6c95e85eceea168b457d.html?ref=lootura.com",
-					"title": "El PP promete restaurar el Premio Nacional de Tauromaquia y dar más \"protección\" legal y más \"proyección\" económica a los toros",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6aef6c95e85eceea168b457d.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T00:17:24.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/06/6aedcb46e9cf4a8a1e8b4596.html?ref=lootura.com",
-					"title": "La campaña del PP para \"el cambio necesario\": arranque en Badalona, mítines en plazas de toros y agenda paralela de los barones",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/06/6aedcb46e9cf4a8a1e8b4596.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-06T13:18:37.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/05/6aec7ca4fdddff19508b456e.html?ref=lootura.com",
-					"title": "El PP ve en los registros de la UCO en Adif \"la traca final\" de Sánchez: \"Es un deber moral sacarlo de las instituciones\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/05/6aec7ca4fdddff19508b456e.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-05T12:58:37.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/04/6aea2328fdddff9d618b45a7.html?ref=lootura.com",
-					"title": "Cargos de Adif denuncian una \"caza de brujas\" interna: \"Nos quieren silenciar a todos los que no hemos sido nombrados a dedo\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/04/6aea2328fdddff9d618b45a7.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-04T00:57:35.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/01/6ae5daade9cf4a7d748b45a1.html?ref=lootura.com",
-					"title": "El PP retoma la \"política para adultos\" como estrategia: \"Es el 'momento Feijóo', somos el Gobierno a la espera\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/01/6ae5daade9cf4a7d748b45a1.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-01T08:44:18.000Z",
 					"category": "general",
 					"weight": 3
 				}
@@ -4288,6 +4306,93 @@
 					"publishedAt": "2026-11-04T05:55:21.000Z",
 					"category": "politics",
 					"weight": 2
+				}
+			]
+		},
+		{
+			"id": "https://www.elcorreo.com/autor/alain-mateos-6643.html",
+			"name": "Alain Mateos",
+			"source": "El Correo",
+			"profileUrl": "https://www.elcorreo.com/autor/alain-mateos-6643.html",
+			"itemCount": 4,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 114,
+			"confidence": "high",
+			"firstSeenAt": "2026-11-07T08:34:32.000Z",
+			"latestAt": "2026-11-13T12:18:53.000Z",
+			"daysActive": 7,
+			"categories": [
+				"local"
+			],
+			"sources": [
+				"El Correo"
+			],
+			"examples": [
+				{
+					"key": "https://www.elcorreo.com/politica/discusion-jordi-wild-pedro-sanchez-inmigracion-marroqui-20261113131852-nt.html?ref=lootura.com",
+					"title": "La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/politica/discusion-jordi-wild-pedro-sanchez-inmigracion-marroqui-20261113131852-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T12:18:53.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?ref=lootura.com",
+					"title": "¿Hubo falta a Unai Simón en el gol del empate?",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T09:55:04.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/politica/pedro-sanchez-competira-abascal-septima-20261107111807-nt.html?ref=lootura.com",
+					"title": "Pedro Sánchez competirá con Abascal desde La Séptima",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/politica/pedro-sanchez-competira-abascal-septima-20261107111807-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-07T10:18:07.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.elcorreo.com/politica/discusion-jordi-wild-pedro-sanchez-inmigracion-marroqui-20261113131852-nt.html?ref=lootura.com",
+					"title": "La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/politica/discusion-jordi-wild-pedro-sanchez-inmigracion-marroqui-20261113131852-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T12:18:53.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?ref=lootura.com",
+					"title": "¿Hubo falta a Unai Simón en el gol del empate?",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T09:55:04.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/politica/pedro-sanchez-competira-abascal-septima-20261107111807-nt.html?ref=lootura.com",
+					"title": "Pedro Sánchez competirá con Abascal desde La Séptima",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/politica/pedro-sanchez-competira-abascal-septima-20261107111807-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-07T10:18:07.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/gente-estilo/revuelta-cancela-entradas-publico-ante-exigencias-abascal-20261107093432-nt.html?ref=lootura.com",
+					"title": "'La Revuelta' cancela las entradas del público ante las exigencias de Abascal",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/gente-estilo/revuelta-cancela-entradas-publico-ante-exigencias-abascal-20261107093432-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-07T08:34:32.000Z",
+					"category": "local",
+					"weight": 4
 				}
 			]
 		},
@@ -6527,84 +6632,6 @@
 			]
 		},
 		{
-			"id": "https://www.elcorreo.com/autor/alain-mateos-6643.html",
-			"name": "Alain Mateos",
-			"source": "El Correo",
-			"profileUrl": "https://www.elcorreo.com/autor/alain-mateos-6643.html",
-			"itemCount": 3,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 91,
-			"confidence": "high",
-			"firstSeenAt": "2026-11-07T08:34:32.000Z",
-			"latestAt": "2026-11-08T09:55:04.000Z",
-			"daysActive": 2,
-			"categories": [
-				"local"
-			],
-			"sources": [
-				"El Correo"
-			],
-			"examples": [
-				{
-					"key": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?ref=lootura.com",
-					"title": "¿Hubo falta a Unai Simón en el gol del empate?",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T09:55:04.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.elcorreo.com/politica/pedro-sanchez-competira-abascal-septima-20261107111807-nt.html?ref=lootura.com",
-					"title": "Pedro Sánchez competirá con Abascal desde La Séptima",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/politica/pedro-sanchez-competira-abascal-septima-20261107111807-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T10:18:07.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.elcorreo.com/gente-estilo/revuelta-cancela-entradas-publico-ante-exigencias-abascal-20261107093432-nt.html?ref=lootura.com",
-					"title": "'La Revuelta' cancela las entradas del público ante las exigencias de Abascal",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/gente-estilo/revuelta-cancela-entradas-publico-ante-exigencias-abascal-20261107093432-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T08:34:32.000Z",
-					"category": "local",
-					"weight": 4
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?ref=lootura.com",
-					"title": "¿Hubo falta a Unai Simón en el gol del empate?",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/athletic/falta-osambela-unai-simon-gol-empate-20261108105504-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T09:55:04.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.elcorreo.com/politica/pedro-sanchez-competira-abascal-septima-20261107111807-nt.html?ref=lootura.com",
-					"title": "Pedro Sánchez competirá con Abascal desde La Séptima",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/politica/pedro-sanchez-competira-abascal-septima-20261107111807-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T10:18:07.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.elcorreo.com/gente-estilo/revuelta-cancela-entradas-publico-ante-exigencias-abascal-20261107093432-nt.html?ref=lootura.com",
-					"title": "'La Revuelta' cancela las entradas del público ante las exigencias de Abascal",
-					"source": "El Correo",
-					"href": "https://www.elcorreo.com/gente-estilo/revuelta-cancela-entradas-publico-ante-exigencias-abascal-20261107093432-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T08:34:32.000Z",
-					"category": "local",
-					"weight": 4
-				}
-			]
-		},
-		{
 			"id": "el mundo::olga r sanmartin",
 			"name": "Olga R. Sanmartín",
 			"source": "El Mundo",
@@ -7159,7 +7186,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 76,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-13T09:00:13.000Z",
 			"latestAt": "2026-11-13T09:00:19.000Z",
 			"daysActive": 1,
@@ -7237,7 +7264,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 76,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-13T09:00:13.000Z",
 			"latestAt": "2026-11-13T09:00:19.000Z",
 			"daysActive": 1,
@@ -7495,7 +7522,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 72,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-13T05:48:13.000Z",
 			"latestAt": "2026-11-13T07:51:15.000Z",
 			"daysActive": 1,
@@ -7915,7 +7942,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 65,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-13T06:15:00.000Z",
 			"latestAt": "2026-11-13T06:20:00.000Z",
 			"daysActive": 1,
