@@ -2,64 +2,425 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-13T21:00:47.961Z",
+	"updatedAt": "2026-11-13T22:00:48.358Z",
 	"entries": {
-		"cluster-usa-orleans-tanker-orleans-tanker": {
-			"candidateId": "cluster-usa-orleans + tanker",
-			"label": "orleans + tanker",
-			"latestAt": "2026-11-13T21:00:35.000Z",
+		"cluster-usa-house-lauren-house-lauren": {
+			"candidateId": "cluster-usa-house + lauren",
+			"label": "house + lauren",
+			"latestAt": "2026-11-13T21:32:51.000Z",
+			"startedAt": "2026-11-13T19:58:19.188Z",
+			"itemCount": 6,
+			"sourceCount": 4,
+			"terms": [
+				"house",
+				"lauren"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"NBC News Politics",
+				"The New York Times",
+				"CBS News"
+			],
+			"titles": [
+				"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher",
+				"Republican Rep. Lauren Boebert will lose re-election, NBC News projects",
+				"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
+				"Democrat Eileen Laubacher defeats incumbent Lauren Boebert in Colorado's 4th Congressional District",
+				"Meet Eileen Laubacher, the Navy Veteran Who Beat Lauren Boebert",
+				"Rep. Lauren Boebert, conservative firebrand from Colorado, loses her race for re-election"
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T21:32:51.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "house + lauren",
+					"latestAt": "2026-11-13T21:32:51.000Z",
+					"itemCount": 6,
+					"sourceCount": 4,
+					"headlines": [
+						"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher",
+						"Republican Rep. Lauren Boebert will lose re-election, NBC News projects",
+						"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"NBC News Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-house + lauren|2026-11-13T21:32:51.000Z|6|GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-usa-orleans-underway-orleans-underway": {
+			"candidateId": "cluster-usa-orleans + underway",
+			"label": "orleans + underway",
+			"latestAt": "2026-11-13T21:48:48.000Z",
 			"startedAt": "2026-11-13T20:33:00.000Z",
 			"itemCount": 5,
 			"sourceCount": 4,
 			"terms": [
 				"orleans",
-				"tanker"
+				"underway"
 			],
 			"sources": [
+				"The New York Times",
 				"PBS NewsHour",
 				"NBC News",
-				"CBS News",
-				"The New York Times"
+				"CBS News"
 			],
 			"titles": [
+				"Search and Rescue Underway in New Orleans After Cargo Ship Crashes Into Riverboat",
 				"Rescues operations underway in New Orleans after tanker hits river cruise boat",
 				"Rescue underway after a tanker collides with a New Orleans river boat",
 				"Tanker hits river cruise ship in New Orleans | Special Report",
-				"Cargo Ship Crashes Into Docked Riverboat in New Orleans",
 				"River cruise ship, tanker crash in New Orleans on Mississippi River; rescues are underway"
 			],
-			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
-			"entityLastCandidateAt": "2026-11-13T21:00:35.000Z",
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T21:48:48.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T21:00:47.961Z",
-					"label": "orleans + tanker",
-					"latestAt": "2026-11-13T21:00:35.000Z",
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "orleans + underway",
+					"latestAt": "2026-11-13T21:48:48.000Z",
 					"itemCount": 5,
 					"sourceCount": 4,
 					"headlines": [
+						"Search and Rescue Underway in New Orleans After Cargo Ship Crashes Into Riverboat",
 						"Rescues operations underway in New Orleans after tanker hits river cruise boat",
-						"Rescue underway after a tanker collides with a New Orleans river boat",
-						"Tanker hits river cruise ship in New Orleans | Special Report"
+						"Rescue underway after a tanker collides with a New Orleans river boat"
 					],
 					"sources": [
+						"The New York Times",
 						"PBS NewsHour",
-						"NBC News",
-						"CBS News"
+						"NBC News"
 					],
-					"eventId": "cluster-usa-orleans + tanker|2026-11-13T21:00:35.000Z|5|Rescues operations underway in New Orleans after tanker hits river cruise boat"
+					"eventId": "cluster-usa-orleans + underway|2026-11-13T21:48:48.000Z|5|Search and Rescue Underway in New Orleans After Cargo Ship Crashes Into Riverboat"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-usa-ground-stop-ground-stop": {
+			"candidateId": "cluster-usa-ground + stop",
+			"label": "ground + stop",
+			"latestAt": "2026-11-13T21:59:06.493Z",
+			"startedAt": "2026-11-13T21:29:00.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"ground",
+				"stop"
+			],
+			"sources": [
+				"NBC News",
+				"NPR",
+				"The Verge",
+				"CBS News"
+			],
+			"titles": [
+				"Ground stop ordered for all airports nationwide for ‘reasons of safety’",
+				"FAA issues nationwide ground stop for all U.S. airports",
+				"FAA ground stop shuts down flights nationwide",
+				"FAA issues nationwide ground stop due to \"extraordinary circumstances\""
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T21:59:06.493Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "ground + stop",
+					"latestAt": "2026-11-13T21:59:06.493Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Ground stop ordered for all airports nationwide for ‘reasons of safety’",
+						"FAA issues nationwide ground stop for all U.S. airports",
+						"FAA ground stop shuts down flights nationwide"
+					],
+					"sources": [
+						"NBC News",
+						"NPR",
+						"The Verge"
+					],
+					"eventId": "cluster-usa-ground + stop|2026-11-13T21:59:06.493Z|4|Ground stop ordered for all airports nationwide for ‘reasons of safety’"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-usa-nvidia-huang-nvidia-huang": {
+			"candidateId": "cluster-usa-nvidia + huang",
+			"label": "nvidia + huang",
+			"latestAt": "2026-11-13T20:14:05.000Z",
+			"startedAt": "2026-11-13T10:45:00.000Z",
+			"itemCount": 5,
+			"sourceCount": 3,
+			"terms": [
+				"nvidia",
+				"huang"
+			],
+			"sources": [
+				"The New York Times",
+				"NPR",
+				"Politico"
+			],
+			"titles": [
+				"Why Jensen Huang Was Essential to Nvidia’s Rise",
+				"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+				"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+				"Colette Kress becomes Nvidia's interim CEO after Jensen Huang resigns",
+				"Jensen Huang’s Washington fallout"
+			],
+			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
+			"entityLastCandidateAt": "2026-11-13T20:14:05.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T20:14:05.000Z",
+					"itemCount": 5,
+					"sourceCount": 3,
+					"headlines": [
+						"Why Jensen Huang Was Essential to Nvidia’s Rise",
+						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"Politico"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T20:14:05.000Z|5|Why Jensen Huang Was Essential to Nvidia’s Rise"
+				},
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T18:10:25.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+						"Jensen Huang’s Washington fallout"
+					],
+					"sources": [
+						"The New York Times",
+						"Politico"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T18:10:25.000Z|3|Jensen Huang’s Fall Is Bad for Nvidia but Good for America"
+				},
+				{
+					"observedAt": "2026-11-13T18:00:48.625Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T16:36:28.000Z",
+					"itemCount": 6,
+					"sourceCount": 3,
+					"headlines": [
+						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"Politico"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T16:36:28.000Z|6|Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World"
+				},
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T01:52:57.000Z",
+					"itemCount": 8,
+					"sourceCount": 3,
+					"headlines": [
+						"What could happen to AI development and chip production as Huang resigns from Nvidia",
+						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|8|What could happen to AI development and chip production as Huang resigns from Nvidia"
+				},
+				{
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T01:52:57.000Z",
+					"itemCount": 13,
+					"sourceCount": 5,
+					"headlines": [
+						"What could happen to AI development and chip production as Huang resigns from Nvidia",
+						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|13|What could happen to AI development and chip production as Huang resigns from Nvidia"
+				},
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T00:25:08.000Z",
+					"itemCount": 14,
+					"sourceCount": 5,
+					"headlines": [
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T00:25:08.000Z|14|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+				},
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T22:46:24.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
+						"Who is Colette Kress, Nvidia’s new interim CEO?",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T22:46:24.000Z|4|Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns"
+				},
+				{
+					"observedAt": "2026-11-12T22:00:48.193Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T21:45:00.000Z",
+					"itemCount": 18,
+					"sourceCount": 7,
+					"headlines": [
+						"‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation",
+						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
+						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmakers say"
+					],
+					"sources": [
+						"The Verge",
+						"CBS News",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T21:45:00.000Z|18|‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation"
+				},
+				{
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T19:44:29.000Z",
+					"itemCount": 16,
+					"sourceCount": 5,
+					"headlines": [
+						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
+						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T19:44:29.000Z|16|Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+				},
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T16:51:22.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
+						"NYC building collapse: Death toll rises"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T15:30:04.000Z",
+					"itemCount": 11,
+					"sourceCount": 8,
+					"headlines": [
+						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+						"Nvidia CEO Jensen Huang has resigned. What happens next?"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"The Verge"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
+				},
+				{
+					"observedAt": "2026-11-12T03:38:47.147Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T02:52:00.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
+						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
+				},
+				{
+					"observedAt": "2026-11-09T18:21:05.029Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-09T17:58:28.000Z",
+					"itemCount": 11,
+					"sourceCount": 6,
+					"headlines": [
+						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
+						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
+						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
 		"cluster-usa-trump-supreme-trump-supreme": {
 			"candidateId": "cluster-usa-trump + supreme",
 			"label": "trump + supreme",
 			"latestAt": "2026-11-13T20:37:10.000Z",
-			"startedAt": "2026-11-13T18:49:06.078Z",
-			"itemCount": 4,
-			"sourceCount": 4,
+			"startedAt": "2026-11-13T19:09:00.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
 			"terms": [
 				"trump",
 				"supreme"
@@ -67,18 +428,34 @@
 			"sources": [
 				"The New York Times Politics",
 				"PBS NewsHour",
-				"CBS News",
-				"NBC News Politics"
+				"CBS News"
 			],
 			"titles": [
 				"Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border",
 				"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
-				"Supreme Court takes up case over Trump effort to suspend asylum access at southern border",
-				"Supreme Court to rule on Trump’s asylum ban"
+				"Supreme Court takes up case over Trump effort to suspend asylum access at southern border"
 			],
 			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
 			"entityLastCandidateAt": "2026-11-13T20:37:10.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "trump + supreme",
+					"latestAt": "2026-11-13T20:37:10.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border",
+						"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
+						"Supreme Court takes up case over Trump effort to suspend asylum access at southern border"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-trump + supreme|2026-11-13T20:37:10.000Z|3|Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border"
+				},
 				{
 					"observedAt": "2026-11-13T21:00:47.961Z",
 					"label": "trump + supreme",
@@ -99,192 +476,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
-		},
-		"cluster-usa-huang-nvidia-huang-nvidia": {
-			"candidateId": "cluster-usa-huang + nvidia",
-			"label": "huang + nvidia",
-			"latestAt": "2026-11-13T20:14:05.000Z",
-			"startedAt": "2026-11-13T10:45:00.000Z",
-			"itemCount": 5,
-			"sourceCount": 3,
-			"terms": [
-				"huang",
-				"nvidia"
-			],
-			"sources": [
-				"The New York Times",
-				"NPR",
-				"Politico"
-			],
-			"titles": [
-				"Why Jensen Huang Was Essential to Nvidia’s Rise",
-				"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
-				"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
-				"Colette Kress becomes Nvidia's interim CEO after Jensen Huang resigns",
-				"Jensen Huang’s Washington fallout"
-			],
-			"entityFirstSeenAt": "2026-11-10T19:04:31.604Z",
-			"entityLastCandidateAt": "2026-11-13T20:14:05.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T21:00:47.961Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-13T20:14:05.000Z",
-					"itemCount": 5,
-					"sourceCount": 3,
-					"headlines": [
-						"Why Jensen Huang Was Essential to Nvidia’s Rise",
-						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
-						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World"
-					],
-					"sources": [
-						"The New York Times",
-						"NPR",
-						"Politico"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-13T20:14:05.000Z|5|Why Jensen Huang Was Essential to Nvidia’s Rise"
-				},
-				{
-					"observedAt": "2026-11-13T06:00:48.217Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-13T03:27:02.000Z",
-					"itemCount": 10,
-					"sourceCount": 4,
-					"headlines": [
-						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
-						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"NPR"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-13T03:27:02.000Z|10|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
-				},
-				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-12T23:55:39.000Z",
-					"itemCount": 17,
-					"sourceCount": 5,
-					"headlines": [
-						"What Huang's resignation mean for chipmakers, AI and U.S. national security",
-						"What Jensen Huang's resignation means for Nvidia, global AI race",
-						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns"
-					],
-					"sources": [
-						"PBS NewsHour",
-						"CBS News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-12T23:55:39.000Z|17|What Huang's resignation mean for chipmakers, AI and U.S. national security"
-				},
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-12T15:32:30.000Z",
-					"itemCount": 9,
-					"sourceCount": 3,
-					"headlines": [
-						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-						"Nvidia's board preparing to oust CEO Jensen Huang, sources say"
-					],
-					"sources": [
-						"NBC News",
-						"The New York Times",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-12T15:32:30.000Z|9|Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says"
-				},
-				{
-					"observedAt": "2026-11-10T21:26:40.157Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-10T21:12:38.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
-						"Nvidia hires former acting U.S. attorney to probe Jensen Huang affair",
-						"Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia’s Jensen Huang"
-					],
-					"sources": [
-						"The New York Times",
-						"NBC News",
-						"The New York Times Politics"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-10T21:12:38.000Z|7|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
-				},
-				{
-					"observedAt": "2026-11-10T19:04:31.604Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-10T19:01:56.000Z",
-					"itemCount": 5,
-					"sourceCount": 3,
-					"headlines": [
-						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
-						"Nvidia and Huang face lawsuit alleging investors were misled about spy affair",
-						"Nvidia’s Board Has a History of Letting Jensen Huang Get His Way"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-10T19:01:56.000Z|5|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
-		},
-		"cluster-usa-house-election-house-election": {
-			"candidateId": "cluster-usa-house + election",
-			"label": "house + election",
-			"latestAt": "2026-11-13T20:39:32.000Z",
-			"startedAt": "2026-11-13T19:58:19.188Z",
-			"itemCount": 4,
-			"sourceCount": 3,
-			"terms": [
-				"house",
-				"election"
-			],
-			"sources": [
-				"CBS News",
-				"NBC News Politics",
-				"The New York Times"
-			],
-			"titles": [
-				"Democrat Eileen Laubacher defeats Lauren Boebert in House race",
-				"Republican Rep. Lauren Boebert will lose re-election, NBC News projects",
-				"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
-				"Rep. Lauren Boebert, conservative firebrand from Colorado, loses her race for re-election"
-			],
-			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
-			"entityLastCandidateAt": "2026-11-13T20:39:32.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T21:00:47.961Z",
-					"label": "house + election",
-					"latestAt": "2026-11-13T20:39:32.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Democrat Eileen Laubacher defeats Lauren Boebert in House race",
-						"Republican Rep. Lauren Boebert will lose re-election, NBC News projects",
-						"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News Politics",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-house + election|2026-11-13T20:39:32.000Z|4|Democrat Eileen Laubacher defeats Lauren Boebert in House race"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
 		"cluster-usa-brooklyn-building-brooklyn-building": {
 			"candidateId": "cluster-usa-brooklyn + building",
@@ -330,76 +522,18 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
-		"cluster-usa-trump-they-trump-they": {
-			"candidateId": "cluster-usa-trump + they",
-			"label": "trump + they",
-			"latestAt": "2026-11-13T19:02:04.000Z",
-			"startedAt": "2026-11-13T18:20:50.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"trump",
-				"they"
-			],
-			"sources": [
-				"NPR World",
-				"The New York Times Politics"
-			],
-			"titles": [
-				"What's Trump's strategy now with Iran? To keep things as they are",
-				"Trump Signals New Strategy on Iran: A Waiting Game"
-			],
-			"entityFirstSeenAt": "2026-11-12T13:50:33.057Z",
-			"entityLastCandidateAt": "2026-11-13T19:02:04.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "trump + they",
-					"latestAt": "2026-11-13T19:02:04.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"What's Trump's strategy now with Iran? To keep things as they are",
-						"Trump Signals New Strategy on Iran: A Waiting Game"
-					],
-					"sources": [
-						"NPR World",
-						"The New York Times Politics"
-					],
-					"eventId": "cluster-usa-trump + they|2026-11-13T19:02:04.000Z|2|What's Trump's strategy now with Iran? To keep things as they are"
-				},
-				{
-					"observedAt": "2026-11-12T13:50:33.057Z",
-					"label": "trump + they",
-					"latestAt": "2026-11-12T13:22:27.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Trump won't save Ukraine. But Marine Le Pen's betrayal could be worse | Mujtaba Rahman",
-						"Trump. Miller. Blanche. Jordan. Things Could Get Worse, and They Probably Will."
-					],
-					"sources": [
-						"The Guardian US",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-trump + they|2026-11-12T13:22:27.000Z|2|Trump won't save Ukraine. But Marine Le Pen's betrayal could be worse | Mujtaba Rahman"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
-		},
-		"cluster-usa-trump-talks-trump-talks": {
-			"candidateId": "cluster-usa-trump + talks",
-			"label": "trump + talks",
+		"cluster-usa-trump-vance-trump-vance": {
+			"candidateId": "cluster-usa-trump + vance",
+			"label": "trump + vance",
 			"latestAt": "2026-11-13T17:22:56.000Z",
 			"startedAt": "2026-11-13T09:43:04.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
 				"trump",
-				"talks"
+				"vance"
 			],
 			"sources": [
 				"The New York Times Politics",
@@ -409,12 +543,12 @@
 				"Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
 				"Trump redirects Vance from Iran to focus on combatting fraud in Democratic-led states"
 			],
-			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
 			"entityLastCandidateAt": "2026-11-13T17:22:56.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "trump + talks",
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "trump + vance",
 					"latestAt": "2026-11-13T17:22:56.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -426,29 +560,53 @@
 						"The New York Times Politics",
 						"NPR Politics"
 					],
-					"eventId": "cluster-usa-trump + talks|2026-11-13T17:22:56.000Z|2|Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign"
-				},
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "trump + talks",
-					"latestAt": "2026-11-12T15:26:34.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi",
-						"Trump Envoys Witkoff and Kushner Meet With Putin in Moscow for Ukraine Talks",
-						"Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign"
-					],
-					"sources": [
-						"NPR World",
-						"TIME",
-						"The New York Times Politics"
-					],
-					"eventId": "cluster-usa-trump + talks|2026-11-12T15:26:34.000Z|3|U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi"
+					"eventId": "cluster-usa-trump + vance|2026-11-13T17:22:56.000Z|2|Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-usa-nvidia-bessent-nvidia-bessent": {
+			"candidateId": "cluster-usa-nvidia + bessent",
+			"label": "nvidia + bessent",
+			"latestAt": "2026-11-13T17:09:45.000Z",
+			"startedAt": "2026-11-13T14:02:13.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"nvidia",
+				"bessent"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"The New York Times Politics"
+			],
+			"titles": [
+				"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+				"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew"
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T17:09:45.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "nvidia + bessent",
+					"latestAt": "2026-11-13T17:09:45.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-nvidia + bessent|2026-11-13T17:09:45.000Z|2|Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
 		"cluster-usa-case-alex-case-alex": {
 			"candidateId": "cluster-usa-case + alex",
@@ -490,12 +648,12 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
 		"cluster-usa-here-mississippi-here-mississippi": {
 			"candidateId": "cluster-usa-here + mississippi",
 			"label": "here + mississippi",
-			"latestAt": "2026-11-13T15:01:10.000Z",
+			"latestAt": "2026-11-13T15:01:11.000Z",
 			"startedAt": "2026-11-13T07:20:24.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
@@ -512,8 +670,24 @@
 				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
 			],
 			"entityFirstSeenAt": "2026-11-13T15:00:48.579Z",
-			"entityLastCandidateAt": "2026-11-13T15:01:10.000Z",
+			"entityLastCandidateAt": "2026-11-13T15:01:11.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "here + mississippi",
+					"latestAt": "2026-11-13T15:01:11.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
+						"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-here + mississippi|2026-11-13T15:01:11.000Z|2|Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi."
+				},
 				{
 					"observedAt": "2026-11-13T15:00:48.579Z",
 					"label": "here + mississippi",
@@ -532,7 +706,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
@@ -1391,248 +1565,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-11T21:45:05.852Z"
-		},
-		"cluster-usa-nvidia-huang-nvidia-huang": {
-			"candidateId": "cluster-usa-nvidia + huang",
-			"label": "nvidia + huang",
-			"latestAt": "2026-11-13T18:10:25.000Z",
-			"startedAt": "2026-11-13T10:45:00.000Z",
-			"itemCount": 3,
-			"sourceCount": 2,
-			"terms": [
-				"nvidia",
-				"huang"
-			],
-			"sources": [
-				"The New York Times",
-				"Politico"
-			],
-			"titles": [
-				"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
-				"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
-				"Jensen Huang’s Washington fallout"
-			],
-			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-13T18:10:25.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T20:00:48.144Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T18:10:25.000Z",
-					"itemCount": 3,
-					"sourceCount": 2,
-					"headlines": [
-						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
-						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
-						"Jensen Huang’s Washington fallout"
-					],
-					"sources": [
-						"The New York Times",
-						"Politico"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T18:10:25.000Z|3|Jensen Huang’s Fall Is Bad for Nvidia but Good for America"
-				},
-				{
-					"observedAt": "2026-11-13T18:00:48.625Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T16:36:28.000Z",
-					"itemCount": 6,
-					"sourceCount": 3,
-					"headlines": [
-						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
-						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
-						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"Politico"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T16:36:28.000Z|6|Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World"
-				},
-				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T01:52:57.000Z",
-					"itemCount": 8,
-					"sourceCount": 3,
-					"headlines": [
-						"What could happen to AI development and chip production as Huang resigns from Nvidia",
-						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
-						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NPR"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|8|What could happen to AI development and chip production as Huang resigns from Nvidia"
-				},
-				{
-					"observedAt": "2026-11-13T02:00:48.242Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T01:52:57.000Z",
-					"itemCount": 13,
-					"sourceCount": 5,
-					"headlines": [
-						"What could happen to AI development and chip production as Huang resigns from Nvidia",
-						"Examining Jensen Huang's swift and stunning fall from grace at Nvidia",
-						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NPR"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T01:52:57.000Z|13|What could happen to AI development and chip production as Huang resigns from Nvidia"
-				},
-				{
-					"observedAt": "2026-11-13T01:00:47.794Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-13T00:25:08.000Z",
-					"itemCount": 14,
-					"sourceCount": 5,
-					"headlines": [
-						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
-						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"NPR"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-13T00:25:08.000Z|14|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
-				},
-				{
-					"observedAt": "2026-11-12T23:00:48.320Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T22:46:24.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
-						"Who is Colette Kress, Nvidia’s new interim CEO?",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T22:46:24.000Z|4|Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns"
-				},
-				{
-					"observedAt": "2026-11-12T22:00:48.193Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T21:45:00.000Z",
-					"itemCount": 18,
-					"sourceCount": 7,
-					"headlines": [
-						"‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation",
-						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
-						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmakers say"
-					],
-					"sources": [
-						"The Verge",
-						"CBS News",
-						"NBC News Politics"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T21:45:00.000Z|18|‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation"
-				},
-				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T19:44:29.000Z",
-					"itemCount": 16,
-					"sourceCount": 5,
-					"headlines": [
-						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
-						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T19:44:29.000Z|16|Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
-				},
-				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T16:51:22.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
-						"NYC building collapse: Death toll rises"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
-				},
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T15:30:04.000Z",
-					"itemCount": 11,
-					"sourceCount": 8,
-					"headlines": [
-						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
-						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-						"Nvidia CEO Jensen Huang has resigned. What happens next?"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"The Verge"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
-				},
-				{
-					"observedAt": "2026-11-12T03:38:47.147Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T02:52:00.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
-						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
-						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
-				},
-				{
-					"observedAt": "2026-11-09T18:21:05.029Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-09T17:58:28.000Z",
-					"itemCount": 11,
-					"sourceCount": 6,
-					"headlines": [
-						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
-						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
-						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
 		},
 		"cluster-usa-russell-brand-russell-brand": {
 			"candidateId": "cluster-usa-russell + brand",
@@ -4899,6 +4831,144 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-10T19:03:55.994Z"
+		},
+		"cluster-usa-huang-nvidia-huang-nvidia": {
+			"candidateId": "cluster-usa-huang + nvidia",
+			"label": "huang + nvidia",
+			"latestAt": "2026-11-13T20:14:05.000Z",
+			"startedAt": "2026-11-13T10:45:00.000Z",
+			"itemCount": 5,
+			"sourceCount": 3,
+			"terms": [
+				"huang",
+				"nvidia"
+			],
+			"sources": [
+				"The New York Times",
+				"NPR",
+				"Politico"
+			],
+			"titles": [
+				"Why Jensen Huang Was Essential to Nvidia’s Rise",
+				"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+				"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+				"Colette Kress becomes Nvidia's interim CEO after Jensen Huang resigns",
+				"Jensen Huang’s Washington fallout"
+			],
+			"entityFirstSeenAt": "2026-11-10T19:04:31.604Z",
+			"entityLastCandidateAt": "2026-11-13T20:14:05.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-13T20:14:05.000Z",
+					"itemCount": 5,
+					"sourceCount": 3,
+					"headlines": [
+						"Why Jensen Huang Was Essential to Nvidia’s Rise",
+						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"Politico"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-13T20:14:05.000Z|5|Why Jensen Huang Was Essential to Nvidia’s Rise"
+				},
+				{
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-13T03:27:02.000Z",
+					"itemCount": 10,
+					"sourceCount": 4,
+					"headlines": [
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-13T03:27:02.000Z|10|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+				},
+				{
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-12T23:55:39.000Z",
+					"itemCount": 17,
+					"sourceCount": 5,
+					"headlines": [
+						"What Huang's resignation mean for chipmakers, AI and U.S. national security",
+						"What Jensen Huang's resignation means for Nvidia, global AI race",
+						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"CBS News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-12T23:55:39.000Z|17|What Huang's resignation mean for chipmakers, AI and U.S. national security"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-12T15:32:30.000Z",
+					"itemCount": 9,
+					"sourceCount": 3,
+					"headlines": [
+						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+						"Nvidia's board preparing to oust CEO Jensen Huang, sources say"
+					],
+					"sources": [
+						"NBC News",
+						"The New York Times",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-12T15:32:30.000Z|9|Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says"
+				},
+				{
+					"observedAt": "2026-11-10T21:26:40.157Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-10T21:12:38.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
+						"Nvidia hires former acting U.S. attorney to probe Jensen Huang affair",
+						"Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia’s Jensen Huang"
+					],
+					"sources": [
+						"The New York Times",
+						"NBC News",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-10T21:12:38.000Z|7|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
+				},
+				{
+					"observedAt": "2026-11-10T19:04:31.604Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-10T19:01:56.000Z",
+					"itemCount": 5,
+					"sourceCount": 3,
+					"headlines": [
+						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
+						"Nvidia and Huang face lawsuit alleging investors were misled about spy affair",
+						"Nvidia’s Board Has a History of Letting Jensen Huang Get His Way"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-10T19:01:56.000Z|5|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-usa-hegseth-against-hegseth-against": {
 			"candidateId": "cluster-usa-hegseth + against",
@@ -10058,6 +10128,64 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T13:50:33.057Z"
 		},
+		"cluster-usa-trump-they-trump-they": {
+			"candidateId": "cluster-usa-trump + they",
+			"label": "trump + they",
+			"latestAt": "2026-11-13T19:02:04.000Z",
+			"startedAt": "2026-11-13T18:20:50.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"trump",
+				"they"
+			],
+			"sources": [
+				"NPR World",
+				"The New York Times Politics"
+			],
+			"titles": [
+				"What's Trump's strategy now with Iran? To keep things as they are",
+				"Trump Signals New Strategy on Iran: A Waiting Game"
+			],
+			"entityFirstSeenAt": "2026-11-12T13:50:33.057Z",
+			"entityLastCandidateAt": "2026-11-13T19:02:04.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "trump + they",
+					"latestAt": "2026-11-13T19:02:04.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"What's Trump's strategy now with Iran? To keep things as they are",
+						"Trump Signals New Strategy on Iran: A Waiting Game"
+					],
+					"sources": [
+						"NPR World",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-trump + they|2026-11-13T19:02:04.000Z|2|What's Trump's strategy now with Iran? To keep things as they are"
+				},
+				{
+					"observedAt": "2026-11-12T13:50:33.057Z",
+					"label": "trump + they",
+					"latestAt": "2026-11-12T13:22:27.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Trump won't save Ukraine. But Marine Le Pen's betrayal could be worse | Mujtaba Rahman",
+						"Trump. Miller. Blanche. Jordan. Things Could Get Worse, and They Probably Will."
+					],
+					"sources": [
+						"The Guardian US",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-trump + they|2026-11-12T13:22:27.000Z|2|Trump won't save Ukraine. But Marine Le Pen's betrayal could be worse | Mujtaba Rahman"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+		},
 		"cluster-usa-nvidia-center-nvidia-center": {
 			"candidateId": "cluster-usa-nvidia + center",
 			"label": "nvidia + center",
@@ -10856,6 +10984,66 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T17:19:54.483Z"
+		},
+		"cluster-usa-trump-talks-trump-talks": {
+			"candidateId": "cluster-usa-trump + talks",
+			"label": "trump + talks",
+			"latestAt": "2026-11-13T17:22:56.000Z",
+			"startedAt": "2026-11-13T09:43:04.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"trump",
+				"talks"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"NPR Politics"
+			],
+			"titles": [
+				"Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
+				"Trump redirects Vance from Iran to focus on combatting fraud in Democratic-led states"
+			],
+			"entityFirstSeenAt": "2026-11-12T15:47:37.262Z",
+			"entityLastCandidateAt": "2026-11-13T17:22:56.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "trump + talks",
+					"latestAt": "2026-11-13T17:22:56.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
+						"Trump redirects Vance from Iran to focus on combatting fraud in Democratic-led states"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-trump + talks|2026-11-13T17:22:56.000Z|2|Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "trump + talks",
+					"latestAt": "2026-11-12T15:26:34.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi",
+						"Trump Envoys Witkoff and Kushner Meet With Putin in Moscow for Ukraine Talks",
+						"Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign"
+					],
+					"sources": [
+						"NPR World",
+						"TIME",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-trump + talks|2026-11-12T15:26:34.000Z|3|U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
 		"cluster-usa-states-reef-states-reef": {
 			"candidateId": "cluster-usa-states + reef",
@@ -12408,27 +12596,41 @@
 		"cluster-spain-nacional-nucleo-nacional-nucleo": {
 			"candidateId": "cluster-spain-nacional + nucleo",
 			"label": "nacional + nucleo",
-			"latestAt": "2026-11-12T17:27:42.000Z",
-			"startedAt": "2026-11-12T16:53:10.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
+			"latestAt": "2026-11-13T18:05:29.000Z",
+			"startedAt": "2026-11-13T15:36:14.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
 			"terms": [
 				"nacional",
 				"nucleo"
 			],
 			"sources": [
 				"El Correo",
-				"El Mundo",
 				"El País"
 			],
 			"titles": [
-				"La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes",
-				"La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales",
-				"La portavoz de Núcleo Nacional guardaba en su casa 13 armas largas y quería “ir a pegar tiros a París”"
+				"«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido",
+				"Núcleo Nacional planeó “reventar” la acampada de Sol: “Podemos pegar a los guarros”"
 			],
 			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
-			"entityLastCandidateAt": "2026-11-12T17:27:42.000Z",
+			"entityLastCandidateAt": "2026-11-13T18:05:29.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "nacional + nucleo",
+					"latestAt": "2026-11-13T18:05:29.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido",
+						"Núcleo Nacional planeó “reventar” la acampada de Sol: “Podemos pegar a los guarros”"
+					],
+					"sources": [
+						"El Correo",
+						"El País"
+					],
+					"eventId": "cluster-spain-nacional + nucleo|2026-11-13T18:05:29.000Z|2|«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido"
+				},
 				{
 					"observedAt": "2026-11-12T19:25:49.967Z",
 					"label": "nacional + nucleo",
@@ -12449,7 +12651,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
 		"cluster-spain-primera-psoe-primera-psoe": {
 			"candidateId": "cluster-spain-primera + psoe",
@@ -12866,9 +13068,9 @@
 		"cluster-spain-sanchez-campana-sanchez-campana": {
 			"candidateId": "cluster-spain-sanchez + campana",
 			"label": "sanchez + campana",
-			"latestAt": "2026-11-13T17:54:56.000Z",
+			"latestAt": "2026-11-13T20:46:11.000Z",
 			"startedAt": "2026-11-13T17:15:09.000Z",
-			"itemCount": 2,
+			"itemCount": 3,
 			"sourceCount": 2,
 			"terms": [
 				"sanchez",
@@ -12879,12 +13081,30 @@
 				"El Mundo"
 			],
 			"titles": [
+				"Sánchez insta a una participación del 75% el 29-N para reeditar un Gobierno progresista que llegue “más lejos y antes en las conquistas sociales”",
 				"Campaña elecciones 29-N y actualidad política, en directo | Sánchez pide 176 diputados progresistas en el Congreso para “llegar antes y más lejos”",
 				"Sánchez fija en el 75% el umbral de participación el 29-N para tener alguna opción de poder gobernar"
 			],
 			"entityFirstSeenAt": "2026-11-12T20:00:49.000Z",
-			"entityLastCandidateAt": "2026-11-13T17:54:56.000Z",
+			"entityLastCandidateAt": "2026-11-13T20:46:11.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "sanchez + campana",
+					"latestAt": "2026-11-13T20:46:11.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Sánchez insta a una participación del 75% el 29-N para reeditar un Gobierno progresista que llegue “más lejos y antes en las conquistas sociales”",
+						"Campaña elecciones 29-N y actualidad política, en directo | Sánchez pide 176 diputados progresistas en el Congreso para “llegar antes y más lejos”",
+						"Sánchez fija en el 75% el umbral de participación el 29-N para tener alguna opción de poder gobernar"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-sanchez + campana|2026-11-13T20:46:11.000Z|3|Sánchez insta a una participación del 75% el 29-N para reeditar un Gobierno progresista que llegue “más lejos y antes en las conquistas sociales”"
+				},
 				{
 					"observedAt": "2026-11-13T18:00:48.625Z",
 					"label": "sanchez + campana",
@@ -12919,7 +13139,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T18:00:48.625Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
 		"cluster-spain-nacional-juez-nacional-juez": {
 			"candidateId": "cluster-spain-nacional + juez",
@@ -17612,7 +17832,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
 		"cluster-spain-ante-euskal-ante-euskal": {
 			"candidateId": "cluster-spain-ante + euskal",
@@ -17670,7 +17890,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
 		"cluster-spain-cuerpo-renfe-cuerpo-renfe": {
 			"candidateId": "cluster-spain-cuerpo + renfe",
@@ -17712,7 +17932,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
 		"cluster-spain-antes-mucho-antes-mucho": {
 			"candidateId": "cluster-spain-antes + mucho",
@@ -17924,7 +18144,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
 		"cluster-usa-nvidia-scrutiny-nvidia-scrutiny": {
 			"candidateId": "cluster-usa-nvidia + scrutiny",
@@ -18139,19 +18359,335 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+		},
+		"cluster-usa-orleans-tanker-orleans-tanker": {
+			"candidateId": "cluster-usa-orleans + tanker",
+			"label": "orleans + tanker",
+			"latestAt": "2026-11-13T21:00:35.000Z",
+			"startedAt": "2026-11-13T20:33:00.000Z",
+			"itemCount": 5,
+			"sourceCount": 4,
+			"terms": [
+				"orleans",
+				"tanker"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"NBC News",
+				"CBS News",
+				"The New York Times"
+			],
+			"titles": [
+				"Rescues operations underway in New Orleans after tanker hits river cruise boat",
+				"Rescue underway after a tanker collides with a New Orleans river boat",
+				"Tanker hits river cruise ship in New Orleans | Special Report",
+				"Cargo Ship Crashes Into Docked Riverboat in New Orleans",
+				"River cruise ship, tanker crash in New Orleans on Mississippi River; rescues are underway"
+			],
+			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
+			"entityLastCandidateAt": "2026-11-13T21:00:35.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "orleans + tanker",
+					"latestAt": "2026-11-13T21:00:35.000Z",
+					"itemCount": 5,
+					"sourceCount": 4,
+					"headlines": [
+						"Rescues operations underway in New Orleans after tanker hits river cruise boat",
+						"Rescue underway after a tanker collides with a New Orleans river boat",
+						"Tanker hits river cruise ship in New Orleans | Special Report"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"NBC News",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-orleans + tanker|2026-11-13T21:00:35.000Z|5|Rescues operations underway in New Orleans after tanker hits river cruise boat"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+		},
+		"cluster-usa-house-election-house-election": {
+			"candidateId": "cluster-usa-house + election",
+			"label": "house + election",
+			"latestAt": "2026-11-13T20:39:32.000Z",
+			"startedAt": "2026-11-13T19:58:19.188Z",
+			"itemCount": 4,
+			"sourceCount": 3,
+			"terms": [
+				"house",
+				"election"
+			],
+			"sources": [
+				"CBS News",
+				"NBC News Politics",
+				"The New York Times"
+			],
+			"titles": [
+				"Democrat Eileen Laubacher defeats Lauren Boebert in House race",
+				"Republican Rep. Lauren Boebert will lose re-election, NBC News projects",
+				"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
+				"Rep. Lauren Boebert, conservative firebrand from Colorado, loses her race for re-election"
+			],
+			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
+			"entityLastCandidateAt": "2026-11-13T20:39:32.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "house + election",
+					"latestAt": "2026-11-13T20:39:32.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Democrat Eileen Laubacher defeats Lauren Boebert in House race",
+						"Republican Rep. Lauren Boebert will lose re-election, NBC News projects",
+						"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-house + election|2026-11-13T20:39:32.000Z|4|Democrat Eileen Laubacher defeats Lauren Boebert in House race"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+		},
+		"cluster-spain-jesus-owono-jesus-owono": {
+			"candidateId": "cluster-spain-jesus + owono",
+			"label": "jesus + owono",
+			"latestAt": "2026-11-13T20:57:09.000Z",
+			"startedAt": "2026-11-13T17:31:22.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"jesus",
+				"owono"
+			],
+			"sources": [
+				"El País",
+				"El Mundo",
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Competición sanciona con 12 partidos a Jesús Owono tras su expulsión ante el Tenerife",
+				"La Federación sanciona con 12 partidos a Owono por la acción que acabó con la muerte de Jesús de Miguel",
+				"El donostiarra Jesús Owono es sancionado con doce partidos por la acción que causó la muerte de Jesús de Miguel",
+				"La Federación declara como caso independiente la sanción a Jesús Owono"
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T20:57:09.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "jesus + owono",
+					"latestAt": "2026-11-13T20:57:09.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Competición sanciona con 12 partidos a Jesús Owono tras su expulsión ante el Tenerife",
+						"La Federación sanciona con 12 partidos a Owono por la acción que acabó con la muerte de Jesús de Miguel",
+						"El donostiarra Jesús Owono es sancionado con doce partidos por la acción que causó la muerte de Jesús de Miguel"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-jesus + owono|2026-11-13T20:57:09.000Z|4|Competición sanciona con 12 partidos a Jesús Owono tras su expulsión ante el Tenerife"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-spain-seguridad-pais-seguridad-pais": {
+			"candidateId": "cluster-spain-seguridad + pais",
+			"label": "seguridad + pais",
+			"latestAt": "2026-11-13T21:45:06.000Z",
+			"startedAt": "2026-11-13T21:37:53.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"seguridad",
+				"pais"
+			],
+			"sources": [
+				"El País",
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"La FAA ordena una suspensión nacional de los vuelos debido a “circunstancias extraordinarias y motivos de seguridad”",
+				"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
+				"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T21:45:06.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "seguridad + pais",
+					"latestAt": "2026-11-13T21:45:06.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"La FAA ordena una suspensión nacional de los vuelos debido a “circunstancias extraordinarias y motivos de seguridad”",
+						"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
+						"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-seguridad + pais|2026-11-13T21:45:06.000Z|3|La FAA ordena una suspensión nacional de los vuelos debido a “circunstancias extraordinarias y motivos de seguridad”"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-spain-contra-bordo-contra-bordo": {
+			"candidateId": "cluster-spain-contra + bordo",
+			"label": "contra + bordo",
+			"latestAt": "2026-11-13T20:40:07.000Z",
+			"startedAt": "2026-11-13T20:04:51.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"contra",
+				"bordo"
+			],
+			"sources": [
+				"El Correo",
+				"El País"
+			],
+			"titles": [
+				"Un petrolero choca contra un ferry con 129 pasajeros a bordo en el río Misisipi",
+				"Un buque choca contra un crucero con 129 personas a bordo en el río Misisipi a la altura de Nueva Orleans"
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T20:40:07.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "contra + bordo",
+					"latestAt": "2026-11-13T20:40:07.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Un petrolero choca contra un ferry con 129 pasajeros a bordo en el río Misisipi",
+						"Un buque choca contra un crucero con 129 personas a bordo en el río Misisipi a la altura de Nueva Orleans"
+					],
+					"sources": [
+						"El Correo",
+						"El País"
+					],
+					"eventId": "cluster-spain-contra + bordo|2026-11-13T20:40:07.000Z|2|Un petrolero choca contra un ferry con 129 pasajeros a bordo en el río Misisipi"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-spain-wild-millones-wild-millones": {
+			"candidateId": "cluster-spain-wild + millones",
+			"label": "wild + millones",
+			"latestAt": "2026-11-13T20:01:28.000Z",
+			"startedAt": "2026-11-13T17:05:27.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"wild",
+				"millones"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
+				"Jordi Wild, sobre los asesinatos machistas: «44 mujeres son pocas en comparación con una población de 50 millones»"
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T20:01:28.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "wild + millones",
+					"latestAt": "2026-11-13T20:01:28.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
+						"Jordi Wild, sobre los asesinatos machistas: «44 mujeres son pocas en comparación con una población de 50 millones»"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-wild + millones|2026-11-13T20:01:28.000Z|2|Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\""
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-spain-entre-sanchez-entre-sanchez": {
+			"candidateId": "cluster-spain-entre + sanchez",
+			"label": "entre + sanchez",
+			"latestAt": "2026-11-13T17:39:32.000Z",
+			"startedAt": "2026-11-13T15:13:28.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"entre",
+				"sanchez"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+				"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre"
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T17:39:32.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "entre + sanchez",
+					"latestAt": "2026-11-13T17:39:32.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+						"El cara a cara entre Sánchez y Feijóo será el 19 de noviembre"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-entre + sanchez|2026-11-13T17:39:32.000Z|2|Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-us-2026-11-13T21:00:47.961Z",
+		"id": "local-us-2026-11-13T22:00:48.358Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-13T21:00:47.961Z",
-		"finishedAt": "2026-11-13T21:06:37.596Z",
-		"signalsCandidate": 9,
-		"signalsSelected": 8,
+		"startedAt": "2026-11-13T22:00:48.358Z",
+		"finishedAt": "2026-11-13T22:05:03.469Z",
+		"signalsCandidate": 10,
+		"signalsSelected": 9,
 		"signalsProcessed": 0,
-		"cacheHits": 4,
-		"skippedByConfig": 8,
+		"cacheHits": 5,
+		"skippedByConfig": 9,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -18161,11 +18697,11 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 4,
+			"cacheHits": 5,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 337,
-			"retainedByTtl": 328,
+			"retained": 347,
+			"retainedByTtl": 337,
 			"retiredByTtl": 0
 		},
 		"costUsd": 0
