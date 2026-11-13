@@ -2,55 +2,49 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-13T08:00:48.024Z",
+	"updatedAt": "2026-11-13T09:00:48.269Z",
 	"entries": {
-		"cluster-spain-microsoft-caida-microsoft-caida": {
-			"candidateId": "cluster-spain-microsoft + caida",
-			"label": "microsoft + caida",
-			"latestAt": "2026-11-13T07:53:14.000Z",
-			"startedAt": "2026-11-12T19:11:44.000Z",
-			"itemCount": 4,
-			"sourceCount": 4,
+		"cluster-spain-mundial-sancet-mundial-sancet": {
+			"candidateId": "cluster-spain-mundial + sancet",
+			"label": "mundial + sancet",
+			"latestAt": "2026-11-13T08:47:09.000Z",
+			"startedAt": "2026-11-13T07:51:57.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
 			"terms": [
-				"microsoft",
-				"caida"
+				"mundial",
+				"sancet"
 			],
 			"sources": [
-				"El País",
-				"El Mundo",
 				"El Diario Vasco",
 				"El Correo"
 			],
 			"titles": [
-				"Microsoft no logra recuperar sus servicios tras una caída global de más de 12 horas",
-				"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
-				"Microsoft Outlook sufre una caída a nivel mundial",
-				"Microsoft Outlook se cae en todo el mundo"
+				"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»",
+				"Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»"
 			],
-			"entityFirstSeenAt": "2026-11-13T08:00:48.024Z",
-			"entityLastCandidateAt": "2026-11-13T07:53:14.000Z",
+			"entityFirstSeenAt": "2026-11-13T09:00:48.269Z",
+			"entityLastCandidateAt": "2026-11-13T08:47:09.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T08:00:48.024Z",
-					"label": "microsoft + caida",
-					"latestAt": "2026-11-13T07:53:14.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
+					"observedAt": "2026-11-13T09:00:48.269Z",
+					"label": "mundial + sancet",
+					"latestAt": "2026-11-13T08:47:09.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
 					"headlines": [
-						"Microsoft no logra recuperar sus servicios tras una caída global de más de 12 horas",
-						"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
-						"Microsoft Outlook sufre una caída a nivel mundial"
+						"Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»",
+						"Sancet: «Ojalá podamos jugar algún día un Mundial con la selección de nuestro país»"
 					],
 					"sources": [
-						"El País",
-						"El Mundo",
-						"El Diario Vasco"
+						"El Diario Vasco",
+						"El Correo"
 					],
-					"eventId": "cluster-spain-microsoft + caida|2026-11-13T07:53:14.000Z|4|Microsoft no logra recuperar sus servicios tras una caída global de más de 12 horas"
+					"eventId": "cluster-spain-mundial + sancet|2026-11-13T08:47:09.000Z|2|Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
+			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
 		},
 		"cluster-spain-latin-grammy-latin-grammy": {
 			"candidateId": "cluster-spain-latin + grammy",
@@ -92,18 +86,60 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
+			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
 		},
-		"cluster-spain-edificio-heridos-edificio-heridos": {
-			"candidateId": "cluster-spain-edificio + heridos",
-			"label": "edificio + heridos",
+		"cluster-spain-caida-mundial-caida-mundial": {
+			"candidateId": "cluster-spain-caida + mundial",
+			"label": "caida + mundial",
+			"latestAt": "2026-11-13T07:21:44.000Z",
+			"startedAt": "2026-11-13T06:08:47.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"caida",
+				"mundial"
+			],
+			"sources": [
+				"El Mundo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+				"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
+			],
+			"entityFirstSeenAt": "2026-11-13T09:00:48.269Z",
+			"entityLastCandidateAt": "2026-11-13T07:21:44.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T09:00:48.269Z",
+					"label": "caida + mundial",
+					"latestAt": "2026-11-13T07:21:44.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+						"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
+					],
+					"sources": [
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-caida + mundial|2026-11-13T07:21:44.000Z|2|Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
+		},
+		"cluster-spain-hospital-ellos-hospital-ellos": {
+			"candidateId": "cluster-spain-hospital + ellos",
+			"label": "hospital + ellos",
 			"latestAt": "2026-11-13T06:40:29.000Z",
 			"startedAt": "2026-11-13T05:48:13.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"edificio",
-				"heridos"
+				"hospital",
+				"ellos"
 			],
 			"sources": [
 				"El Diario Vasco",
@@ -113,12 +149,12 @@
 				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
 				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»"
 			],
-			"entityFirstSeenAt": "2026-11-13T08:00:48.024Z",
+			"entityFirstSeenAt": "2026-11-13T09:00:48.269Z",
 			"entityLastCandidateAt": "2026-11-13T06:40:29.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T08:00:48.024Z",
-					"label": "edificio + heridos",
+					"observedAt": "2026-11-13T09:00:48.269Z",
+					"label": "hospital + ellos",
 					"latestAt": "2026-11-13T06:40:29.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -130,11 +166,11 @@
 						"El Diario Vasco",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-edificio + heridos|2026-11-13T06:40:29.000Z|2|22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»"
+					"eventId": "cluster-spain-hospital + ellos|2026-11-13T06:40:29.000Z|2|22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
+			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
 		},
 		"cluster-spain-rosalia-latin-rosalia-latin": {
 			"candidateId": "cluster-spain-rosalia + latin",
@@ -176,49 +212,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
-		},
-		"cluster-spain-veces-enfermera-veces-enfermera": {
-			"candidateId": "cluster-spain-veces + enfermera",
-			"label": "veces + enfermera",
-			"latestAt": "2026-11-13T05:43:48.000Z",
-			"startedAt": "2026-11-12T23:41:08.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"veces",
-				"enfermera"
-			],
-			"sources": [
-				"El Diario Vasco",
-				"El Correo"
-			],
-			"titles": [
-				"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
-				"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
-			],
-			"entityFirstSeenAt": "2026-11-13T07:00:48.282Z",
-			"entityLastCandidateAt": "2026-11-13T05:43:48.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T07:00:48.282Z",
-					"label": "veces + enfermera",
-					"latestAt": "2026-11-13T05:43:48.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
-						"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
-					],
-					"sources": [
-						"El Diario Vasco",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-veces + enfermera|2026-11-13T05:43:48.000Z|2|Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
+			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
 		},
 		"cluster-spain-begona-gomez-begona-gomez": {
 			"candidateId": "cluster-spain-begona + gomez",
@@ -300,91 +294,49 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
+			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
 		},
-		"cluster-spain-roja-real-roja-real": {
-			"candidateId": "cluster-spain-roja + real",
-			"label": "roja + real",
-			"latestAt": "2026-11-12T22:22:09.000Z",
-			"startedAt": "2026-11-12T22:12:09.000Z",
+		"cluster-spain-veces-enfermera-veces-enfermera": {
+			"candidateId": "cluster-spain-veces + enfermera",
+			"label": "veces + enfermera",
+			"latestAt": "2026-11-13T05:43:48.000Z",
+			"startedAt": "2026-11-12T23:41:08.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"roja",
-				"real"
-			],
-			"sources": [
-				"El País",
-				"El Mundo"
-			],
-			"titles": [
-				"El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga",
-				"Procida pide paso en la paliza del Real Madrid al Estrella Roja de Ibon Navarro"
-			],
-			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
-			"entityLastCandidateAt": "2026-11-12T22:22:09.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "roja + real",
-					"latestAt": "2026-11-12T22:22:09.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga",
-						"Procida pide paso en la paliza del Real Madrid al Estrella Roja de Ibon Navarro"
-					],
-					"sources": [
-						"El País",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-roja + real|2026-11-12T22:22:09.000Z|2|El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
-		},
-		"cluster-spain-gana-etxepare-gana-etxepare": {
-			"candidateId": "cluster-spain-gana + etxepare",
-			"label": "gana + etxepare",
-			"latestAt": "2026-11-12T18:01:31.000Z",
-			"startedAt": "2026-11-12T17:40:55.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"gana",
-				"etxepare"
+				"veces",
+				"enfermera"
 			],
 			"sources": [
 				"El Diario Vasco",
 				"El Correo"
 			],
 			"titles": [
-				"Bernardo Atxagaren 'Zazpi etxe Frantzian' eleberriaren serbierazko itzulpenak jaso du Etxepare – Laboral Kutxa Itzulpen Saria",
-				"Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa"
+				"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+				"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
 			],
-			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-12T18:01:31.000Z",
+			"entityFirstSeenAt": "2026-11-13T07:00:48.282Z",
+			"entityLastCandidateAt": "2026-11-13T05:43:48.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "gana + etxepare",
-					"latestAt": "2026-11-12T18:01:31.000Z",
+					"observedAt": "2026-11-13T07:00:48.282Z",
+					"label": "veces + enfermera",
+					"latestAt": "2026-11-13T05:43:48.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
 					"headlines": [
-						"Bernardo Atxagaren 'Zazpi etxe Frantzian' eleberriaren serbierazko itzulpenak jaso du Etxepare – Laboral Kutxa Itzulpen Saria",
-						"Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa"
+						"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+						"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
 					],
 					"sources": [
 						"El Diario Vasco",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-gana + etxepare|2026-11-12T18:01:31.000Z|2|Bernardo Atxagaren 'Zazpi etxe Frantzian' eleberriaren serbierazko itzulpenak jaso du Etxepare – Laboral Kutxa Itzulpen Saria"
+					"eventId": "cluster-spain-veces + enfermera|2026-11-13T05:43:48.000Z|2|Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
+			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -1182,187 +1134,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-11T06:54:31.521Z"
-		},
-		"cluster-spain-nvidia-relacion-nvidia-relacion": {
-			"candidateId": "cluster-spain-nvidia + relacion",
-			"label": "nvidia + relacion",
-			"latestAt": "2026-11-09T08:11:57.000Z",
-			"startedAt": "2026-11-08T22:18:25.000Z",
-			"itemCount": 4,
-			"sourceCount": 4,
-			"terms": [
-				"nvidia",
-				"relacion"
-			],
-			"sources": [
-				"Expansión",
-				"Cinco Días",
-				"El Mundo",
-				"El País"
-			],
-			"titles": [
-				"El CEO de Nvidia admite una aventura extramatrimonial tras ser acusado de mantener una relación con una espía china",
-				"Nvidia se hunde en Bolsa tras iniciar una investigación por una relación extramatrimonial de su CEO",
-				"Nvidia investigará a su propio director ejecutivo por haber mantenido una relación con una espía china",
-				"Nvidia abre una investigación a su consejero delegado sobre su relación con una presunta espía china"
-			],
-			"entityFirstSeenAt": "2026-11-09T08:25:19.568Z",
-			"entityLastCandidateAt": "2026-11-09T08:11:57.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T08:25:19.568Z",
-					"label": "nvidia + relacion",
-					"latestAt": "2026-11-09T08:11:57.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"El CEO de Nvidia admite una aventura extramatrimonial tras ser acusado de mantener una relación con una espía china",
-						"Nvidia se hunde en Bolsa tras iniciar una investigación por una relación extramatrimonial de su CEO",
-						"Nvidia investigará a su propio director ejecutivo por haber mantenido una relación con una espía china"
-					],
-					"sources": [
-						"Expansión",
-						"Cinco Días",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-nvidia + relacion|2026-11-09T08:11:57.000Z|4|El CEO de Nvidia admite una aventura extramatrimonial tras ser acusado de mantener una relación con una espía china"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T08:25:19.568Z"
-		},
-		"cluster-spain-hospital-muertos-hospital-muertos": {
-			"candidateId": "cluster-spain-hospital + muertos",
-			"label": "hospital + muertos",
-			"latestAt": "2026-11-09T08:18:56.000Z",
-			"startedAt": "2026-11-09T06:27:58.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"hospital",
-				"muertos"
-			],
-			"sources": [
-				"elDiario.es",
-				"El Mundo"
-			],
-			"titles": [
-				"Muere en el hospital el ultraderechista que mató a nueve personas en Cracovia tras ser abatido por la Policía",
-				"Muere en el hospital el autor del tiroteo de Cracovia que dejó seis muertos y quince heridos"
-			],
-			"entityFirstSeenAt": "2026-11-09T08:25:19.568Z",
-			"entityLastCandidateAt": "2026-11-09T08:18:56.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T08:25:19.568Z",
-					"label": "hospital + muertos",
-					"latestAt": "2026-11-09T08:18:56.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Muere en el hospital el ultraderechista que mató a nueve personas en Cracovia tras ser abatido por la Policía",
-						"Muere en el hospital el autor del tiroteo de Cracovia que dejó seis muertos y quince heridos"
-					],
-					"sources": [
-						"elDiario.es",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-hospital + muertos|2026-11-09T08:18:56.000Z|2|Muere en el hospital el ultraderechista que mató a nueve personas en Cracovia tras ser abatido por la Policía"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T08:25:19.568Z"
-		},
-		"cluster-spain-nvidia-trump-nvidia-trump": {
-			"candidateId": "cluster-spain-nvidia + trump",
-			"label": "nvidia + trump",
-			"latestAt": "2026-11-09T08:10:35.000Z",
-			"startedAt": "2026-11-09T06:25:32.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"nvidia",
-				"trump"
-			],
-			"sources": [
-				"The Objective",
-				"El Mundo"
-			],
-			"titles": [
-				"Trump respalda al CEO de Nvidia tras ser infiel con una empresaria investigada por espionaje",
-				"Los secretos de alcoba del espionaje chino: de la amante del jefe de Nvidia al engaño de M. Butterfly"
-			],
-			"entityFirstSeenAt": "2026-11-09T08:25:19.568Z",
-			"entityLastCandidateAt": "2026-11-09T08:10:35.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T08:25:19.568Z",
-					"label": "nvidia + trump",
-					"latestAt": "2026-11-09T08:10:35.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Trump respalda al CEO de Nvidia tras ser infiel con una empresaria investigada por espionaje",
-						"Los secretos de alcoba del espionaje chino: de la amante del jefe de Nvidia al engaño de M. Butterfly"
-					],
-					"sources": [
-						"The Objective",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-nvidia + trump|2026-11-09T08:10:35.000Z|2|Trump respalda al CEO de Nvidia tras ser infiel con una empresaria investigada por espionaje"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T08:25:19.568Z"
-		},
-		"cluster-usa-poland-here-poland-here": {
-			"candidateId": "cluster-usa-poland + here",
-			"label": "poland + here",
-			"latestAt": "2026-11-09T08:22:25.000Z",
-			"startedAt": "2026-11-08T16:12:12.000Z",
-			"itemCount": 5,
-			"sourceCount": 4,
-			"terms": [
-				"poland",
-				"here"
-			],
-			"sources": [
-				"The New York Times World",
-				"ABC News",
-				"NBC News",
-				"The New York Times Politics"
-			],
-			"titles": [
-				"Suspect in Mass Shooting in Krakow, Poland, Dies in Hospital. Here’s What to Know.",
-				"Suspect in deadly Poland shooting dies in hospital, police say",
-				"Hakeem Jeffries supports impeaching Pete Hegseth, and a deadly mass shooting in Poland: Weekend Rundown",
-				"Reeling From Rare Mass Shooting, Poles Ask What Set Off Young Suspect",
-				"Hakeem Jeffries, in Line to Become House Speaker, Promises Bold Agenda"
-			],
-			"entityFirstSeenAt": "2026-11-09T08:25:56.119Z",
-			"entityLastCandidateAt": "2026-11-09T08:22:25.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T08:25:56.119Z",
-					"label": "poland + here",
-					"latestAt": "2026-11-09T08:22:25.000Z",
-					"itemCount": 5,
-					"sourceCount": 4,
-					"headlines": [
-						"Suspect in Mass Shooting in Krakow, Poland, Dies in Hospital. Here’s What to Know.",
-						"Suspect in deadly Poland shooting dies in hospital, police say",
-						"Hakeem Jeffries supports impeaching Pete Hegseth, and a deadly mass shooting in Poland: Weekend Rundown"
-					],
-					"sources": [
-						"The New York Times World",
-						"ABC News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-poland + here|2026-11-09T08:22:25.000Z|5|Suspect in Mass Shooting in Krakow, Poland, Dies in Hospital. Here’s What to Know."
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T08:25:56.119Z"
 		},
 		"cluster-usa-nvidia-jensen-nvidia-jensen": {
 			"candidateId": "cluster-usa-nvidia + jensen",
@@ -6462,7 +6233,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
 		},
 		"cluster-usa-hegseth-against-hegseth-against": {
 			"candidateId": "cluster-usa-hegseth + against",
@@ -11319,21 +11090,22 @@
 		"cluster-usa-mississippi-senate-mississippi-senate": {
 			"candidateId": "cluster-usa-mississippi + senate",
 			"label": "mississippi + senate",
-			"latestAt": "2026-11-13T02:20:35.000Z",
+			"latestAt": "2026-11-13T07:20:24.000Z",
 			"startedAt": "2026-11-12T14:14:44.000Z",
-			"itemCount": 7,
+			"itemCount": 8,
 			"sourceCount": 4,
 			"terms": [
 				"mississippi",
 				"senate"
 			],
 			"sources": [
+				"The New York Times",
 				"CBS News",
 				"PBS NewsHour",
-				"The New York Times Politics",
-				"The New York Times"
+				"The New York Times Politics"
 			],
 			"titles": [
+				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi",
 				"NAACP official on Mississippi electing Scott Colom as its first Black senator since the 1800s",
 				"Jasmine Crockett on Scott Colom's Senate win: \"Mississippi has been overlooked\"",
 				"Mississippi reacts after Scott Colom wins Senate race",
@@ -11343,8 +11115,26 @@
 				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
 			],
 			"entityFirstSeenAt": "2026-11-12T13:50:33.057Z",
-			"entityLastCandidateAt": "2026-11-13T02:20:35.000Z",
+			"entityLastCandidateAt": "2026-11-13T07:20:24.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T08:00:48.024Z",
+					"label": "mississippi + senate",
+					"latestAt": "2026-11-13T07:20:24.000Z",
+					"itemCount": 8,
+					"sourceCount": 4,
+					"headlines": [
+						"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi",
+						"NAACP official on Mississippi electing Scott Colom as its first Black senator since the 1800s",
+						"Jasmine Crockett on Scott Colom's Senate win: \"Mississippi has been overlooked\""
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-mississippi + senate|2026-11-13T07:20:24.000Z|8|Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
+				},
 				{
 					"observedAt": "2026-11-13T03:00:48.096Z",
 					"label": "mississippi + senate",
@@ -11453,7 +11243,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
 		},
 		"cluster-usa-future-jensen-future-jensen": {
 			"candidateId": "cluster-usa-future + jensen",
@@ -13430,6 +13220,48 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
+		"cluster-spain-gana-etxepare-gana-etxepare": {
+			"candidateId": "cluster-spain-gana + etxepare",
+			"label": "gana + etxepare",
+			"latestAt": "2026-11-12T18:01:31.000Z",
+			"startedAt": "2026-11-12T17:40:55.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"gana",
+				"etxepare"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Bernardo Atxagaren 'Zazpi etxe Frantzian' eleberriaren serbierazko itzulpenak jaso du Etxepare – Laboral Kutxa Itzulpen Saria",
+				"Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T18:01:31.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "gana + etxepare",
+					"latestAt": "2026-11-12T18:01:31.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Bernardo Atxagaren 'Zazpi etxe Frantzian' eleberriaren serbierazko itzulpenak jaso du Etxepare – Laboral Kutxa Itzulpen Saria",
+						"Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-gana + etxepare|2026-11-12T18:01:31.000Z|2|Bernardo Atxagaren 'Zazpi etxe Frantzian' eleberriaren serbierazko itzulpenak jaso du Etxepare – Laboral Kutxa Itzulpen Saria"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
+		},
 		"cluster-spain-entre-general-entre-general": {
 			"candidateId": "cluster-spain-entre + general",
 			"label": "entre + general",
@@ -14177,7 +14009,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
 		},
 		"cluster-spain-primer-rosalia-primer-rosalia": {
 			"candidateId": "cluster-spain-primer + rosalia",
@@ -15006,7 +14838,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
 		},
 		"cluster-usa-pope-emotional-pope-emotional": {
 			"candidateId": "cluster-usa-pope + emotional",
@@ -15135,6 +14967,48 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+		},
+		"cluster-spain-roja-real-roja-real": {
+			"candidateId": "cluster-spain-roja + real",
+			"label": "roja + real",
+			"latestAt": "2026-11-12T22:22:09.000Z",
+			"startedAt": "2026-11-12T22:12:09.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"roja",
+				"real"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga",
+				"Procida pide paso en la paliza del Real Madrid al Estrella Roja de Ibon Navarro"
+			],
+			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
+			"entityLastCandidateAt": "2026-11-12T22:22:09.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "roja + real",
+					"latestAt": "2026-11-12T22:22:09.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga",
+						"Procida pide paso en la paliza del Real Madrid al Estrella Roja de Ibon Navarro"
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-roja + real|2026-11-12T22:22:09.000Z|2|El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
 		},
 		"cluster-spain-primera-cuando-primera-cuando": {
 			"candidateId": "cluster-spain-primera + cuando",
@@ -15761,7 +15635,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
 		},
 		"cluster-usa-democrats-kansas-democrats-kansas": {
 			"candidateId": "cluster-usa-democrats + kansas",
@@ -15807,7 +15681,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
 		},
 		"cluster-usa-kansas-charges-kansas-charges": {
 			"candidateId": "cluster-usa-kansas + charges",
@@ -15849,7 +15723,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
 		},
 		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
 			"candidateId": "cluster-usa-nvidia + lutnick",
@@ -15925,7 +15799,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
 		},
 		"cluster-usa-microsoft-outage-microsoft-outage": {
 			"candidateId": "cluster-usa-microsoft + outage",
@@ -16008,7 +15882,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
 		},
 		"cluster-usa-senate-leader-senate-leader": {
 			"candidateId": "cluster-usa-senate + leader",
@@ -16092,7 +15966,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
 		},
 		"cluster-spain-cuando-contra-cuando-contra": {
 			"candidateId": "cluster-spain-cuando + contra",
@@ -16354,19 +16228,109 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T07:00:48.282Z"
+		},
+		"cluster-spain-microsoft-caida-microsoft-caida": {
+			"candidateId": "cluster-spain-microsoft + caida",
+			"label": "microsoft + caida",
+			"latestAt": "2026-11-13T07:53:14.000Z",
+			"startedAt": "2026-11-12T19:11:44.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"microsoft",
+				"caida"
+			],
+			"sources": [
+				"El País",
+				"El Mundo",
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Microsoft no logra recuperar sus servicios tras una caída global de más de 12 horas",
+				"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+				"Microsoft Outlook sufre una caída a nivel mundial",
+				"Microsoft Outlook se cae en todo el mundo"
+			],
+			"entityFirstSeenAt": "2026-11-13T08:00:48.024Z",
+			"entityLastCandidateAt": "2026-11-13T07:53:14.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T08:00:48.024Z",
+					"label": "microsoft + caida",
+					"latestAt": "2026-11-13T07:53:14.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Microsoft no logra recuperar sus servicios tras una caída global de más de 12 horas",
+						"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+						"Microsoft Outlook sufre una caída a nivel mundial"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-microsoft + caida|2026-11-13T07:53:14.000Z|4|Microsoft no logra recuperar sus servicios tras una caída global de más de 12 horas"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
+		},
+		"cluster-spain-edificio-heridos-edificio-heridos": {
+			"candidateId": "cluster-spain-edificio + heridos",
+			"label": "edificio + heridos",
+			"latestAt": "2026-11-13T06:40:29.000Z",
+			"startedAt": "2026-11-13T05:48:13.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"edificio",
+				"heridos"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
+				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»"
+			],
+			"entityFirstSeenAt": "2026-11-13T08:00:48.024Z",
+			"entityLastCandidateAt": "2026-11-13T06:40:29.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T08:00:48.024Z",
+					"label": "edificio + heridos",
+					"latestAt": "2026-11-13T06:40:29.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
+						"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-edificio + heridos|2026-11-13T06:40:29.000Z|2|22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T08:00:48.024Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-es-2026-11-13T08:00:48.024Z",
+		"id": "local-es-2026-11-13T09:00:48.269Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-13T08:00:48.024Z",
-		"finishedAt": "2026-11-13T08:02:28.681Z",
-		"signalsCandidate": 8,
-		"signalsSelected": 6,
+		"startedAt": "2026-11-13T09:00:48.269Z",
+		"finishedAt": "2026-11-13T09:02:40.614Z",
+		"signalsCandidate": 7,
+		"signalsSelected": 7,
 		"signalsProcessed": 0,
 		"cacheHits": 4,
-		"skippedByConfig": 6,
+		"skippedByConfig": 7,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -16379,9 +16343,9 @@
 			"cacheHits": 4,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 308,
+			"retained": 307,
 			"retainedByTtl": 300,
-			"retiredByTtl": 5
+			"retiredByTtl": 4
 		},
 		"costUsd": 0
 	}

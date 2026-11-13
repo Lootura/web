@@ -1,10 +1,16 @@
 {
-	"updatedAt": "2026-11-13T08:00:48.024Z",
+	"updatedAt": "2026-11-13T09:00:48.269Z",
 	"feedProfile": "es",
 	"retentionDays": 90,
 	"totalAuthors": 80,
-	"totalBylinedItems": 419,
+	"totalBylinedItems": 422,
 	"runs": [
+		{
+			"at": "2026-11-13T09:00:48.269Z",
+			"itemCount": 120,
+			"bylinedItemCount": 81,
+			"authorCount": 80
+		},
 		{
 			"at": "2026-11-13T08:00:48.024Z",
 			"itemCount": 120,
@@ -177,12 +183,6 @@
 			"at": "2026-11-10T15:25:42.575Z",
 			"itemCount": 120,
 			"bylinedItemCount": 65,
-			"authorCount": 80
-		},
-		{
-			"at": "2026-11-10T13:31:59.956Z",
-			"itemCount": 120,
-			"bylinedItemCount": 63,
 			"authorCount": 80
 		}
 	],
@@ -1108,7 +1108,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 254,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-04T05:12:35.000Z",
 			"latestAt": "2026-11-13T07:17:40.000Z",
 			"daysActive": 10,
@@ -1823,6 +1823,138 @@
 			]
 		},
 		{
+			"id": "ok diario::janire manzanas",
+			"name": "Janire Manzanas",
+			"source": "OK Diario",
+			"profileUrl": "",
+			"itemCount": 9,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 190,
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-06T17:00:12.000Z",
+			"latestAt": "2026-11-13T09:00:57.000Z",
+			"daysActive": 7,
+			"categories": [
+				"general"
+			],
+			"sources": [
+				"OK Diario"
+			],
+			"examples": [
+				{
+					"key": "https://okdiario.com/curiosidades/psicologia-revela-que-hay-personas-que-prefieren-guardar-sus-alegrias-si-mismas-antes-que-compartirlas-algunos-familiares-20829436?ref=lootura.com",
+					"title": "La psicología revela por qué hay personas que prefieren guardar sus alegrías para sí mismas antes que compartirlas con algunos familiares",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/curiosidades/psicologia-revela-que-hay-personas-que-prefieren-guardar-sus-alegrias-si-mismas-antes-que-compartirlas-algunos-familiares-20829436?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T09:00:57.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/ciencia/volcan-ecuador-podria-enfriar-europa-durante-anos-que-erupciones-tropicales-tienen-mayor-impacto-clima-global-20828260?ref=lootura.com",
+					"title": "Un volcán en el ecuador podría enfriar Europa durante años: por qué las erupciones tropicales tienen un mayor impacto en el clima global",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/ciencia/volcan-ecuador-podria-enfriar-europa-durante-anos-que-erupciones-tropicales-tienen-mayor-impacto-clima-global-20828260?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T08:00:54.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?ref=lootura.com",
+					"title": "Byung-Chul Han, filósofo y premio Princesa de Asturias 2025: «La depresión es la enfermedad de una sociedad que sufre de excesiva positividad»",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T07:00:13.000Z",
+					"category": "general",
+					"weight": 2
+				}
+			],
+			"items": [
+				{
+					"key": "https://okdiario.com/curiosidades/psicologia-revela-que-hay-personas-que-prefieren-guardar-sus-alegrias-si-mismas-antes-que-compartirlas-algunos-familiares-20829436?ref=lootura.com",
+					"title": "La psicología revela por qué hay personas que prefieren guardar sus alegrías para sí mismas antes que compartirlas con algunos familiares",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/curiosidades/psicologia-revela-que-hay-personas-que-prefieren-guardar-sus-alegrias-si-mismas-antes-que-compartirlas-algunos-familiares-20829436?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T09:00:57.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/ciencia/volcan-ecuador-podria-enfriar-europa-durante-anos-que-erupciones-tropicales-tienen-mayor-impacto-clima-global-20828260?ref=lootura.com",
+					"title": "Un volcán en el ecuador podría enfriar Europa durante años: por qué las erupciones tropicales tienen un mayor impacto en el clima global",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/ciencia/volcan-ecuador-podria-enfriar-europa-durante-anos-que-erupciones-tropicales-tienen-mayor-impacto-clima-global-20828260?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T08:00:54.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?ref=lootura.com",
+					"title": "Byung-Chul Han, filósofo y premio Princesa de Asturias 2025: «La depresión es la enfermedad de una sociedad que sufre de excesiva positividad»",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T07:00:13.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/okgreen/decada-1960-urss-deseco-mar-aral-convertirlo-campos-algodon-hoy-alli-crece-bosque-combatir-erosion-20724979?ref=lootura.com",
+					"title": "En la década de 1960, la URSS desecó el mar de Aral para convertirlo en campos de algodón: hoy, allí crece un bosque para combatir la erosión",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/okgreen/decada-1960-urss-deseco-mar-aral-convertirlo-campos-algodon-hoy-alli-crece-bosque-combatir-erosion-20724979?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T10:30:18.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/curiosidades/rociar-vinagre-entrada-casa-durante-noviembre-que-lo-recomiendan-expertos-que-sirve-20724866?ref=lootura.com",
+					"title": "Rociar vinagre en la entrada de casa durante noviembre: por qué lo recomiendan los expertos y para qué sirve",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/curiosidades/rociar-vinagre-entrada-casa-durante-noviembre-que-lo-recomiendan-expertos-que-sirve-20724866?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T10:00:45.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/curiosidades/diego-fernandez-ingeniero-quimico-sobre-uso-del-bicarbonato-lo-utilizo-mezclado-agua-limpiar-paredes-o-zapatillas-deportivas-20724646?ref=lootura.com",
+					"title": "Diego Fernández, ingeniero químico, sobre el uso del bicarbonato: «Lo utilizo mezclado con agua para limpiar paredes o zapatillas deportivas»",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/curiosidades/diego-fernandez-ingeniero-quimico-sobre-uso-del-bicarbonato-lo-utilizo-mezclado-agua-limpiar-paredes-o-zapatillas-deportivas-20724646?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T08:00:08.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/okgreen/2022-california-decidio-salvar-pumas-4-anos-despues-ya-construido-puente-animales-mas-grande-del-mundo-20721564?ref=lootura.com",
+					"title": "En 2022 California decidió salvar a los pumas: 4 años después ya se ha construido el puente para animales más grande del mundo",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/okgreen/2022-california-decidio-salvar-pumas-4-anos-despues-ya-construido-puente-animales-mas-grande-del-mundo-20721564?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-07T10:30:57.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/curiosidades/ernestina-champourcin-poeta-espanola-sobre-amor-morir-rosa-que-nos-da-balde-perfume-cuajado-amor-siempre-20716139?ref=lootura.com",
+					"title": "Ernestina de Champourcín, poeta española, sobre el amor: «Morir es una rosa que se nos da de balde, un perfume cuajado en amor para siempre»",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/curiosidades/ernestina-champourcin-poeta-espanola-sobre-amor-morir-rosa-que-nos-da-balde-perfume-cuajado-amor-siempre-20716139?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-06T17:00:24.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/curiosidades/importante-reflexion-albert-einstein-educacion-lo-que-queda-despues-olvidar-lo-que-aprendido-escuela-20709628?ref=lootura.com",
+					"title": "La importante reflexión de Albert Einstein: «La educación es lo que queda después de olvidar lo que se ha aprendido en la escuela»",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/curiosidades/importante-reflexion-albert-einstein-educacion-lo-que-queda-despues-olvidar-lo-que-aprendido-escuela-20709628?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-06T17:00:12.000Z",
+					"category": "general",
+					"weight": 2
+				}
+			]
+		},
+		{
 			"id": "la razon::garcia",
 			"name": "García",
 			"source": "La Razón",
@@ -2064,129 +2196,6 @@
 					"href": "https://hipertextual.com/cine-television/jennifer-lawrence-confirma-su-regreso-a-los-juegos-del-hambre-amanecer-en-la-cosecha-fue-muy-emotivo/?utm_source=lootura.com",
 					"publishedAt": "2026-10-29T09:36:46.000Z",
 					"category": "digital-culture",
-					"weight": 2
-				}
-			]
-		},
-		{
-			"id": "ok diario::janire manzanas",
-			"name": "Janire Manzanas",
-			"source": "OK Diario",
-			"profileUrl": "",
-			"itemCount": 8,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 172,
-			"confidence": "medium",
-			"firstSeenAt": "2026-11-06T17:00:12.000Z",
-			"latestAt": "2026-11-13T08:00:54.000Z",
-			"daysActive": 7,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"OK Diario"
-			],
-			"examples": [
-				{
-					"key": "https://okdiario.com/ciencia/volcan-ecuador-podria-enfriar-europa-durante-anos-que-erupciones-tropicales-tienen-mayor-impacto-clima-global-20828260?ref=lootura.com",
-					"title": "Un volcán en el ecuador podría enfriar Europa durante años: por qué las erupciones tropicales tienen un mayor impacto en el clima global",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/ciencia/volcan-ecuador-podria-enfriar-europa-durante-anos-que-erupciones-tropicales-tienen-mayor-impacto-clima-global-20828260?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T08:00:54.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?ref=lootura.com",
-					"title": "Byung-Chul Han, filósofo y premio Princesa de Asturias 2025: «La depresión es la enfermedad de una sociedad que sufre de excesiva positividad»",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T07:00:13.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/okgreen/decada-1960-urss-deseco-mar-aral-convertirlo-campos-algodon-hoy-alli-crece-bosque-combatir-erosion-20724979?ref=lootura.com",
-					"title": "En la década de 1960, la URSS desecó el mar de Aral para convertirlo en campos de algodón: hoy, allí crece un bosque para combatir la erosión",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/okgreen/decada-1960-urss-deseco-mar-aral-convertirlo-campos-algodon-hoy-alli-crece-bosque-combatir-erosion-20724979?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T10:30:18.000Z",
-					"category": "general",
-					"weight": 2
-				}
-			],
-			"items": [
-				{
-					"key": "https://okdiario.com/ciencia/volcan-ecuador-podria-enfriar-europa-durante-anos-que-erupciones-tropicales-tienen-mayor-impacto-clima-global-20828260?ref=lootura.com",
-					"title": "Un volcán en el ecuador podría enfriar Europa durante años: por qué las erupciones tropicales tienen un mayor impacto en el clima global",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/ciencia/volcan-ecuador-podria-enfriar-europa-durante-anos-que-erupciones-tropicales-tienen-mayor-impacto-clima-global-20828260?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T08:00:54.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?ref=lootura.com",
-					"title": "Byung-Chul Han, filósofo y premio Princesa de Asturias 2025: «La depresión es la enfermedad de una sociedad que sufre de excesiva positividad»",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T07:00:13.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/okgreen/decada-1960-urss-deseco-mar-aral-convertirlo-campos-algodon-hoy-alli-crece-bosque-combatir-erosion-20724979?ref=lootura.com",
-					"title": "En la década de 1960, la URSS desecó el mar de Aral para convertirlo en campos de algodón: hoy, allí crece un bosque para combatir la erosión",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/okgreen/decada-1960-urss-deseco-mar-aral-convertirlo-campos-algodon-hoy-alli-crece-bosque-combatir-erosion-20724979?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T10:30:18.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/curiosidades/rociar-vinagre-entrada-casa-durante-noviembre-que-lo-recomiendan-expertos-que-sirve-20724866?ref=lootura.com",
-					"title": "Rociar vinagre en la entrada de casa durante noviembre: por qué lo recomiendan los expertos y para qué sirve",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/curiosidades/rociar-vinagre-entrada-casa-durante-noviembre-que-lo-recomiendan-expertos-que-sirve-20724866?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T10:00:45.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/curiosidades/diego-fernandez-ingeniero-quimico-sobre-uso-del-bicarbonato-lo-utilizo-mezclado-agua-limpiar-paredes-o-zapatillas-deportivas-20724646?ref=lootura.com",
-					"title": "Diego Fernández, ingeniero químico, sobre el uso del bicarbonato: «Lo utilizo mezclado con agua para limpiar paredes o zapatillas deportivas»",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/curiosidades/diego-fernandez-ingeniero-quimico-sobre-uso-del-bicarbonato-lo-utilizo-mezclado-agua-limpiar-paredes-o-zapatillas-deportivas-20724646?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T08:00:08.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/okgreen/2022-california-decidio-salvar-pumas-4-anos-despues-ya-construido-puente-animales-mas-grande-del-mundo-20721564?ref=lootura.com",
-					"title": "En 2022 California decidió salvar a los pumas: 4 años después ya se ha construido el puente para animales más grande del mundo",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/okgreen/2022-california-decidio-salvar-pumas-4-anos-despues-ya-construido-puente-animales-mas-grande-del-mundo-20721564?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T10:30:57.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/curiosidades/ernestina-champourcin-poeta-espanola-sobre-amor-morir-rosa-que-nos-da-balde-perfume-cuajado-amor-siempre-20716139?ref=lootura.com",
-					"title": "Ernestina de Champourcín, poeta española, sobre el amor: «Morir es una rosa que se nos da de balde, un perfume cuajado en amor para siempre»",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/curiosidades/ernestina-champourcin-poeta-espanola-sobre-amor-morir-rosa-que-nos-da-balde-perfume-cuajado-amor-siempre-20716139?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-06T17:00:24.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/curiosidades/importante-reflexion-albert-einstein-educacion-lo-que-queda-despues-olvidar-lo-que-aprendido-escuela-20709628?ref=lootura.com",
-					"title": "La importante reflexión de Albert Einstein: «La educación es lo que queda después de olvidar lo que se ha aprendido en la escuela»",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/curiosidades/importante-reflexion-albert-einstein-educacion-lo-que-queda-despues-olvidar-lo-que-aprendido-escuela-20709628?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-06T17:00:12.000Z",
-					"category": "general",
 					"weight": 2
 				}
 			]
@@ -7142,6 +7151,162 @@
 			]
 		},
 		{
+			"id": "la razon::benjamin",
+			"name": "Benjamín",
+			"source": "La Razón",
+			"profileUrl": "",
+			"itemCount": 3,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 76,
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-13T09:00:13.000Z",
+			"latestAt": "2026-11-13T09:00:19.000Z",
+			"daysActive": 1,
+			"categories": [
+				"general"
+			],
+			"sources": [
+				"La Razón"
+			],
+			"examples": [
+				{
+					"key": "https://www.larazon.es/compras/15-mejores-ofertas-hoy-13-noviembre-amazon-57-descuento-roborock-tommy-hilfiger-mas-3v3r_202611136af645ad4196933d7edb39be.html?ref=lootura.com",
+					"title": "Las 15 mejores ofertas de hoy (13 de noviembre) en Amazon: hasta un 57% de descuento en Roborock, Tommy Hilfiger y más",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/compras/15-mejores-ofertas-hoy-13-noviembre-amazon-57-descuento-roborock-tommy-hilfiger-mas-3v3r_202611136af645ad4196933d7edb39be.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T09:00:19.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/compras/ver-gato-trabajo-solo-pide-enchufe-vigilar-toda-parcela-pide-cable-red-ambos-casos-hay-rebaja-3v3r_202611136af64634ea8d897997839cac.html?ref=lootura.com",
+					"title": "Ver al gato desde el trabajo solo pide un enchufe y vigilar toda la parcela pide cable de red, y en ambos casos hay rebaja",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/compras/ver-gato-trabajo-solo-pide-enchufe-vigilar-toda-parcela-pide-cable-red-ambos-casos-hay-rebaja-3v3r_202611136af64634ea8d897997839cac.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T09:00:17.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/compras/proteina-vegana-2026-cual-elegir-entrenas-eres-vegano-buscas-alternativa-whey-3v3r_202611136af6d19d4196933d7edbb0b1.html?ref=lootura.com",
+					"title": "Proteína vegana en 2026: cuál elegir si entrenas, si eres vegano o si buscas una alternativa a la whey",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/compras/proteina-vegana-2026-cual-elegir-entrenas-eres-vegano-buscas-alternativa-whey-3v3r_202611136af6d19d4196933d7edbb0b1.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T09:00:13.000Z",
+					"category": "general",
+					"weight": 2
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.larazon.es/compras/15-mejores-ofertas-hoy-13-noviembre-amazon-57-descuento-roborock-tommy-hilfiger-mas-3v3r_202611136af645ad4196933d7edb39be.html?ref=lootura.com",
+					"title": "Las 15 mejores ofertas de hoy (13 de noviembre) en Amazon: hasta un 57% de descuento en Roborock, Tommy Hilfiger y más",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/compras/15-mejores-ofertas-hoy-13-noviembre-amazon-57-descuento-roborock-tommy-hilfiger-mas-3v3r_202611136af645ad4196933d7edb39be.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T09:00:19.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/compras/ver-gato-trabajo-solo-pide-enchufe-vigilar-toda-parcela-pide-cable-red-ambos-casos-hay-rebaja-3v3r_202611136af64634ea8d897997839cac.html?ref=lootura.com",
+					"title": "Ver al gato desde el trabajo solo pide un enchufe y vigilar toda la parcela pide cable de red, y en ambos casos hay rebaja",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/compras/ver-gato-trabajo-solo-pide-enchufe-vigilar-toda-parcela-pide-cable-red-ambos-casos-hay-rebaja-3v3r_202611136af64634ea8d897997839cac.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T09:00:17.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/compras/proteina-vegana-2026-cual-elegir-entrenas-eres-vegano-buscas-alternativa-whey-3v3r_202611136af6d19d4196933d7edbb0b1.html?ref=lootura.com",
+					"title": "Proteína vegana en 2026: cuál elegir si entrenas, si eres vegano o si buscas una alternativa a la whey",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/compras/proteina-vegana-2026-cual-elegir-entrenas-eres-vegano-buscas-alternativa-whey-3v3r_202611136af6d19d4196933d7edbb0b1.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T09:00:13.000Z",
+					"category": "general",
+					"weight": 2
+				}
+			]
+		},
+		{
+			"id": "la razon::pelaz",
+			"name": "Pelaz",
+			"source": "La Razón",
+			"profileUrl": "",
+			"itemCount": 3,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 76,
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-13T09:00:13.000Z",
+			"latestAt": "2026-11-13T09:00:19.000Z",
+			"daysActive": 1,
+			"categories": [
+				"general"
+			],
+			"sources": [
+				"La Razón"
+			],
+			"examples": [
+				{
+					"key": "https://www.larazon.es/compras/15-mejores-ofertas-hoy-13-noviembre-amazon-57-descuento-roborock-tommy-hilfiger-mas-3v3r_202611136af645ad4196933d7edb39be.html?ref=lootura.com",
+					"title": "Las 15 mejores ofertas de hoy (13 de noviembre) en Amazon: hasta un 57% de descuento en Roborock, Tommy Hilfiger y más",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/compras/15-mejores-ofertas-hoy-13-noviembre-amazon-57-descuento-roborock-tommy-hilfiger-mas-3v3r_202611136af645ad4196933d7edb39be.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T09:00:19.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/compras/ver-gato-trabajo-solo-pide-enchufe-vigilar-toda-parcela-pide-cable-red-ambos-casos-hay-rebaja-3v3r_202611136af64634ea8d897997839cac.html?ref=lootura.com",
+					"title": "Ver al gato desde el trabajo solo pide un enchufe y vigilar toda la parcela pide cable de red, y en ambos casos hay rebaja",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/compras/ver-gato-trabajo-solo-pide-enchufe-vigilar-toda-parcela-pide-cable-red-ambos-casos-hay-rebaja-3v3r_202611136af64634ea8d897997839cac.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T09:00:17.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/compras/proteina-vegana-2026-cual-elegir-entrenas-eres-vegano-buscas-alternativa-whey-3v3r_202611136af6d19d4196933d7edbb0b1.html?ref=lootura.com",
+					"title": "Proteína vegana en 2026: cuál elegir si entrenas, si eres vegano o si buscas una alternativa a la whey",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/compras/proteina-vegana-2026-cual-elegir-entrenas-eres-vegano-buscas-alternativa-whey-3v3r_202611136af6d19d4196933d7edbb0b1.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T09:00:13.000Z",
+					"category": "general",
+					"weight": 2
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.larazon.es/compras/15-mejores-ofertas-hoy-13-noviembre-amazon-57-descuento-roborock-tommy-hilfiger-mas-3v3r_202611136af645ad4196933d7edb39be.html?ref=lootura.com",
+					"title": "Las 15 mejores ofertas de hoy (13 de noviembre) en Amazon: hasta un 57% de descuento en Roborock, Tommy Hilfiger y más",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/compras/15-mejores-ofertas-hoy-13-noviembre-amazon-57-descuento-roborock-tommy-hilfiger-mas-3v3r_202611136af645ad4196933d7edb39be.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T09:00:19.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/compras/ver-gato-trabajo-solo-pide-enchufe-vigilar-toda-parcela-pide-cable-red-ambos-casos-hay-rebaja-3v3r_202611136af64634ea8d897997839cac.html?ref=lootura.com",
+					"title": "Ver al gato desde el trabajo solo pide un enchufe y vigilar toda la parcela pide cable de red, y en ambos casos hay rebaja",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/compras/ver-gato-trabajo-solo-pide-enchufe-vigilar-toda-parcela-pide-cable-red-ambos-casos-hay-rebaja-3v3r_202611136af64634ea8d897997839cac.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T09:00:17.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://www.larazon.es/compras/proteina-vegana-2026-cual-elegir-entrenas-eres-vegano-buscas-alternativa-whey-3v3r_202611136af6d19d4196933d7edbb0b1.html?ref=lootura.com",
+					"title": "Proteína vegana en 2026: cuál elegir si entrenas, si eres vegano o si buscas una alternativa a la whey",
+					"source": "La Razón",
+					"href": "https://www.larazon.es/compras/proteina-vegana-2026-cual-elegir-entrenas-eres-vegano-buscas-alternativa-whey-3v3r_202611136af6d19d4196933d7edbb0b1.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T09:00:13.000Z",
+					"category": "general",
+					"weight": 2
+				}
+			]
+		},
+		{
 			"id": "https://www.elcorreo.com/autor/sergio-garcia-174.html",
 			"name": "Sergio García",
 			"source": "El Correo",
@@ -7316,6 +7481,66 @@
 					"source": "El Correo",
 					"href": "https://www.elcorreo.com/economia/airef-pide-medidas-ajuste-ante-incumplimiento-plan-20261104124636-ntrc.html?utm_source=lootura.com&ref=lootura.com",
 					"publishedAt": "2026-11-04T11:49:02.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			]
+		},
+		{
+			"id": "el correo::helena rodriguez",
+			"name": "Helena Rodríguez",
+			"source": "El Correo",
+			"profileUrl": "",
+			"itemCount": 2,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 72,
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-13T05:48:13.000Z",
+			"latestAt": "2026-11-13T07:51:15.000Z",
+			"daysActive": 1,
+			"categories": [
+				"local"
+			],
+			"sources": [
+				"El Correo"
+			],
+			"examples": [
+				{
+					"key": "https://www.elcorreo.com/bizkaia/quedado-piso-arrasado-fuego-uribarri-20261113085114-nt.html?ref=lootura.com",
+					"title": "Así ha quedado el piso arrasado por el fuego en Uribarri",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/bizkaia/quedado-piso-arrasado-fuego-uribarri-20261113085114-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T07:51:15.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/bizkaia/heridos-grave-incendio-edificio-viviendas-uribarri-20261113064813-nt.html?ref=lootura.com",
+					"title": "22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/bizkaia/heridos-grave-incendio-edificio-viviendas-uribarri-20261113064813-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T05:48:13.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.elcorreo.com/bizkaia/quedado-piso-arrasado-fuego-uribarri-20261113085114-nt.html?ref=lootura.com",
+					"title": "Así ha quedado el piso arrasado por el fuego en Uribarri",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/bizkaia/quedado-piso-arrasado-fuego-uribarri-20261113085114-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T07:51:15.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/bizkaia/heridos-grave-incendio-edificio-viviendas-uribarri-20261113064813-nt.html?ref=lootura.com",
+					"title": "22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/bizkaia/heridos-grave-incendio-edificio-viviendas-uribarri-20261113064813-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T05:48:13.000Z",
 					"category": "local",
 					"weight": 4
 				}
@@ -7682,17 +7907,17 @@
 			]
 		},
 		{
-			"id": "el pais::luis campo yanguas",
-			"name": "Luis Campo Yanguas",
+			"id": "el pais::laura paz chavarria",
+			"name": "Laura Paz Chavarría",
 			"source": "El País",
 			"profileUrl": "",
 			"itemCount": 2,
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 65,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-13T05:30:00.000Z",
-			"latestAt": "2026-11-13T06:00:00.000Z",
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-13T06:15:00.000Z",
+			"latestAt": "2026-11-13T06:20:00.000Z",
 			"daysActive": 1,
 			"categories": [
 				"general"
@@ -7702,220 +7927,40 @@
 			],
 			"examples": [
 				{
-					"key": "https://elpais.com/escaparate/estilo-de-vida/camping-gas.html?ref=lootura.com",
-					"title": "Cada vez más gente guarda este hornillo de gas en casa por si falla la luz",
+					"key": "https://elpais.com/escaparate/belleza/crema-de-manos-okeeffes.html?ref=lootura.com",
+					"title": "¿Manos secas y agrietadas por el frío? Esta crema casi milagrosa las deja como nuevas",
 					"source": "El País",
-					"href": "https://elpais.com/escaparate/estilo-de-vida/camping-gas.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T06:00:00.000Z",
+					"href": "https://elpais.com/escaparate/belleza/crema-de-manos-okeeffes.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T06:20:00.000Z",
 					"category": "general",
 					"weight": 3
 				},
 				{
-					"key": "https://elpais.com/escaparate/estilo-de-vida/deshumidificador-inteligente.html?ref=lootura.com",
-					"title": "Adiós al olor a cerrado: el deshumidificador de 20 litros que ayuda a mejorar el ambiente en casa",
+					"key": "https://elpais.com/escaparate/ofertas-y-descuentos/gel-limpiador-la-roche-posay.html?ref=lootura.com",
+					"title": "Más de 3.000 personas lo han comprado este mes: el gel limpiador de La Roche-Posay cuesta ahora la mitad",
 					"source": "El País",
-					"href": "https://elpais.com/escaparate/estilo-de-vida/deshumidificador-inteligente.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T05:30:00.000Z",
+					"href": "https://elpais.com/escaparate/ofertas-y-descuentos/gel-limpiador-la-roche-posay.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T06:15:00.000Z",
 					"category": "general",
 					"weight": 3
 				}
 			],
 			"items": [
 				{
-					"key": "https://elpais.com/escaparate/estilo-de-vida/camping-gas.html?ref=lootura.com",
-					"title": "Cada vez más gente guarda este hornillo de gas en casa por si falla la luz",
+					"key": "https://elpais.com/escaparate/belleza/crema-de-manos-okeeffes.html?ref=lootura.com",
+					"title": "¿Manos secas y agrietadas por el frío? Esta crema casi milagrosa las deja como nuevas",
 					"source": "El País",
-					"href": "https://elpais.com/escaparate/estilo-de-vida/camping-gas.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T06:00:00.000Z",
+					"href": "https://elpais.com/escaparate/belleza/crema-de-manos-okeeffes.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T06:20:00.000Z",
 					"category": "general",
 					"weight": 3
 				},
 				{
-					"key": "https://elpais.com/escaparate/estilo-de-vida/deshumidificador-inteligente.html?ref=lootura.com",
-					"title": "Adiós al olor a cerrado: el deshumidificador de 20 litros que ayuda a mejorar el ambiente en casa",
+					"key": "https://elpais.com/escaparate/ofertas-y-descuentos/gel-limpiador-la-roche-posay.html?ref=lootura.com",
+					"title": "Más de 3.000 personas lo han comprado este mes: el gel limpiador de La Roche-Posay cuesta ahora la mitad",
 					"source": "El País",
-					"href": "https://elpais.com/escaparate/estilo-de-vida/deshumidificador-inteligente.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-13T05:30:00.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			]
-		},
-		{
-			"id": "el mundo::eduardo j castelao",
-			"name": "Eduardo J. Castelao",
-			"source": "El Mundo",
-			"profileUrl": "",
-			"itemCount": 2,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 65,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-11T17:39:52.000Z",
-			"latestAt": "2026-11-11T22:52:16.000Z",
-			"daysActive": 1,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"El Mundo"
-			],
-			"examples": [
-				{
-					"key": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/11/6af496c7fc6c83ec1e8b4583.html?ref=lootura.com",
-					"title": "Nico Williams: \"El problema de la vivienda me toca muy de cerca. Mis padres, a veces, no podían pagar el alquiler. Hay que arreglarlo\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/11/6af496c7fc6c83ec1e8b4583.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T22:52:16.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/11/6af49f4721efa070728b458c.html?ref=lootura.com",
-					"title": "Y Luis de la Fuente se enfadó: \"Lamine no se ha borrado. No aguanto a la gente que miente\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/11/6af49f4721efa070728b458c.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T17:39:52.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/11/6af496c7fc6c83ec1e8b4583.html?ref=lootura.com",
-					"title": "Nico Williams: \"El problema de la vivienda me toca muy de cerca. Mis padres, a veces, no podían pagar el alquiler. Hay que arreglarlo\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/11/6af496c7fc6c83ec1e8b4583.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T22:52:16.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/11/6af49f4721efa070728b458c.html?ref=lootura.com",
-					"title": "Y Luis de la Fuente se enfadó: \"Lamine no se ha borrado. No aguanto a la gente que miente\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/11/6af49f4721efa070728b458c.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-11T17:39:52.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			]
-		},
-		{
-			"id": "el pais::miguel gonzalez lopez",
-			"name": "Miguel González López",
-			"source": "El País",
-			"profileUrl": "",
-			"itemCount": 2,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 65,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-09T23:11:34.000Z",
-			"latestAt": "2026-11-10T04:40:00.000Z",
-			"daysActive": 1,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"El País"
-			],
-			"examples": [
-				{
-					"key": "https://elpais.com/internacional/2026-11-10/milei-el-hombre-a-quien-solo-conmueven-sus-perros.html?ref=lootura.com",
-					"title": "Milei, el hombre a quien solo conmueven sus perros",
-					"source": "El País",
-					"href": "https://elpais.com/internacional/2026-11-10/milei-el-hombre-a-quien-solo-conmueven-sus-perros.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T04:40:00.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://elpais.com/espana/elecciones-generales/2026-11-09/abascal-califica-a-sanchez-de-dictador-en-el-el-programa-estrella-de-la-television-publica.html?ref=lootura.com",
-					"title": "Abascal califica a Sánchez de “dictador” en el programa estrella de la televisión pública",
-					"source": "El País",
-					"href": "https://elpais.com/espana/elecciones-generales/2026-11-09/abascal-califica-a-sanchez-de-dictador-en-el-el-programa-estrella-de-la-television-publica.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T23:11:34.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			],
-			"items": [
-				{
-					"key": "https://elpais.com/internacional/2026-11-10/milei-el-hombre-a-quien-solo-conmueven-sus-perros.html?ref=lootura.com",
-					"title": "Milei, el hombre a quien solo conmueven sus perros",
-					"source": "El País",
-					"href": "https://elpais.com/internacional/2026-11-10/milei-el-hombre-a-quien-solo-conmueven-sus-perros.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T04:40:00.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://elpais.com/espana/elecciones-generales/2026-11-09/abascal-califica-a-sanchez-de-dictador-en-el-el-programa-estrella-de-la-television-publica.html?ref=lootura.com",
-					"title": "Abascal califica a Sánchez de “dictador” en el programa estrella de la televisión pública",
-					"source": "El País",
-					"href": "https://elpais.com/espana/elecciones-generales/2026-11-09/abascal-califica-a-sanchez-de-dictador-en-el-el-programa-estrella-de-la-television-publica.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T23:11:34.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			]
-		},
-		{
-			"id": "el mundo::cristina alonso",
-			"name": "Cristina Alonso",
-			"source": "El Mundo",
-			"profileUrl": "",
-			"itemCount": 2,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 65,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-10T00:12:11.000Z",
-			"latestAt": "2026-11-10T00:12:12.000Z",
-			"daysActive": 1,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"El Mundo"
-			],
-			"examples": [
-				{
-					"key": "https://www.elmundo.es/economia/2026/11/10/6aedc36cfc6c8362578b45a5.html?ref=lootura.com",
-					"title": "Pepe Álvarez (UGT): \"La CEOE ha coaccionado a mucha gente con sus acusaciones sobre la convocatoria de huelga ilegal\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/economia/2026/11/10/6aedc36cfc6c8362578b45a5.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T00:12:12.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/economia/2026/11/10/6aedc352fc6c839e1c8b457f.html?ref=lootura.com",
-					"title": "Unai Sordo (CCOO): \"Si el Partido Popular y Vox se sienten apelados por las reivindicaciones de la huelga, por algo será\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/economia/2026/11/10/6aedc352fc6c839e1c8b457f.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T00:12:11.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.elmundo.es/economia/2026/11/10/6aedc36cfc6c8362578b45a5.html?ref=lootura.com",
-					"title": "Pepe Álvarez (UGT): \"La CEOE ha coaccionado a mucha gente con sus acusaciones sobre la convocatoria de huelga ilegal\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/economia/2026/11/10/6aedc36cfc6c8362578b45a5.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T00:12:12.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/economia/2026/11/10/6aedc352fc6c839e1c8b457f.html?ref=lootura.com",
-					"title": "Unai Sordo (CCOO): \"Si el Partido Popular y Vox se sienten apelados por las reivindicaciones de la huelga, por algo será\"",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/economia/2026/11/10/6aedc352fc6c839e1c8b457f.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T00:12:11.000Z",
+					"href": "https://elpais.com/escaparate/ofertas-y-descuentos/gel-limpiador-la-roche-posay.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T06:15:00.000Z",
 					"category": "general",
 					"weight": 3
 				}
