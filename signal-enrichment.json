@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-13T22:00:48.358Z",
+	"updatedAt": "2026-11-13T23:00:48.051Z",
 	"entries": {
 		"cluster-spain-jesus-owono-jesus-owono": {
 			"candidateId": "cluster-spain-jesus + owono",
@@ -50,18 +50,18 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
-		"cluster-spain-seguridad-pais-seguridad-pais": {
-			"candidateId": "cluster-spain-seguridad + pais",
-			"label": "seguridad + pais",
-			"latestAt": "2026-11-13T21:45:06.000Z",
+		"cluster-spain-pais-seguridad-pais-seguridad": {
+			"candidateId": "cluster-spain-pais + seguridad",
+			"label": "pais + seguridad",
+			"latestAt": "2026-11-13T22:19:44.000Z",
 			"startedAt": "2026-11-13T21:37:53.000Z",
 			"itemCount": 3,
 			"sourceCount": 3,
 			"terms": [
-				"seguridad",
-				"pais"
+				"pais",
+				"seguridad"
 			],
 			"sources": [
 				"El País",
@@ -69,21 +69,21 @@
 				"El Correo"
 			],
 			"titles": [
-				"La FAA ordena una suspensión nacional de los vuelos debido a “circunstancias extraordinarias y motivos de seguridad”",
+				"Estados Unidos suspende los vuelos en todo el país por “circunstancias extraordinarias y motivos de seguridad”",
 				"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
 				"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
 			],
-			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
-			"entityLastCandidateAt": "2026-11-13T21:45:06.000Z",
+			"entityFirstSeenAt": "2026-11-13T23:00:48.051Z",
+			"entityLastCandidateAt": "2026-11-13T22:19:44.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T22:00:48.358Z",
-					"label": "seguridad + pais",
-					"latestAt": "2026-11-13T21:45:06.000Z",
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "pais + seguridad",
+					"latestAt": "2026-11-13T22:19:44.000Z",
 					"itemCount": 3,
 					"sourceCount": 3,
 					"headlines": [
-						"La FAA ordena una suspensión nacional de los vuelos debido a “circunstancias extraordinarias y motivos de seguridad”",
+						"Estados Unidos suspende los vuelos en todo el país por “circunstancias extraordinarias y motivos de seguridad”",
 						"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
 						"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
 					],
@@ -92,11 +92,11 @@
 						"El Mundo",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-seguridad + pais|2026-11-13T21:45:06.000Z|3|La FAA ordena una suspensión nacional de los vuelos debido a “circunstancias extraordinarias y motivos de seguridad”"
+					"eventId": "cluster-spain-pais + seguridad|2026-11-13T22:19:44.000Z|3|Estados Unidos suspende los vuelos en todo el país por “circunstancias extraordinarias y motivos de seguridad”"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-spain-sanchez-campana-sanchez-campana": {
 			"candidateId": "cluster-spain-sanchez + campana",
@@ -172,7 +172,49 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+		},
+		"cluster-spain-pais-gobierno-pais-gobierno": {
+			"candidateId": "cluster-spain-pais + gobierno",
+			"label": "pais + gobierno",
+			"latestAt": "2026-11-13T22:06:28.000Z",
+			"startedAt": "2026-11-13T13:58:09.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"pais",
+				"gobierno"
+			],
+			"sources": [
+				"El Correo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada",
+				"El Gobierno crea 15 nuevas plazas de jueces y 7 de fiscales en el País Vasco"
+			],
+			"entityFirstSeenAt": "2026-11-13T23:00:48.051Z",
+			"entityLastCandidateAt": "2026-11-13T22:06:28.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "pais + gobierno",
+					"latestAt": "2026-11-13T22:06:28.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada",
+						"El Gobierno crea 15 nuevas plazas de jueces y 7 de fiscales en el País Vasco"
+					],
+					"sources": [
+						"El Correo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-pais + gobierno|2026-11-13T22:06:28.000Z|2|El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-spain-contra-bordo-contra-bordo": {
 			"candidateId": "cluster-spain-contra + bordo",
@@ -214,49 +256,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
-		},
-		"cluster-spain-wild-millones-wild-millones": {
-			"candidateId": "cluster-spain-wild + millones",
-			"label": "wild + millones",
-			"latestAt": "2026-11-13T20:01:28.000Z",
-			"startedAt": "2026-11-13T17:05:27.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"wild",
-				"millones"
-			],
-			"sources": [
-				"El Mundo",
-				"El Correo"
-			],
-			"titles": [
-				"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
-				"Jordi Wild, sobre los asesinatos machistas: «44 mujeres son pocas en comparación con una población de 50 millones»"
-			],
-			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
-			"entityLastCandidateAt": "2026-11-13T20:01:28.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T22:00:48.358Z",
-					"label": "wild + millones",
-					"latestAt": "2026-11-13T20:01:28.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
-						"Jordi Wild, sobre los asesinatos machistas: «44 mujeres son pocas en comparación con una población de 50 millones»"
-					],
-					"sources": [
-						"El Mundo",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-wild + millones|2026-11-13T20:01:28.000Z|2|Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\""
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-spain-ante-euskal-ante-euskal": {
 			"candidateId": "cluster-spain-ante + euskal",
@@ -314,18 +314,18 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
-		"cluster-spain-nacional-nucleo-nacional-nucleo": {
-			"candidateId": "cluster-spain-nacional + nucleo",
-			"label": "nacional + nucleo",
+		"cluster-spain-nucleo-nacional-nucleo-nacional": {
+			"candidateId": "cluster-spain-nucleo + nacional",
+			"label": "nucleo + nacional",
 			"latestAt": "2026-11-13T18:05:29.000Z",
 			"startedAt": "2026-11-13T15:36:14.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"nacional",
-				"nucleo"
+				"nucleo",
+				"nacional"
 			],
 			"sources": [
 				"El Correo",
@@ -335,12 +335,12 @@
 				"«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido",
 				"Núcleo Nacional planeó “reventar” la acampada de Sol: “Podemos pegar a los guarros”"
 			],
-			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
+			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
 			"entityLastCandidateAt": "2026-11-13T18:05:29.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T22:00:48.358Z",
-					"label": "nacional + nucleo",
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "nucleo + nacional",
 					"latestAt": "2026-11-13T18:05:29.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -352,29 +352,11 @@
 						"El Correo",
 						"El País"
 					],
-					"eventId": "cluster-spain-nacional + nucleo|2026-11-13T18:05:29.000Z|2|«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido"
-				},
-				{
-					"observedAt": "2026-11-12T19:25:49.967Z",
-					"label": "nacional + nucleo",
-					"latestAt": "2026-11-12T17:27:42.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes",
-						"La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales",
-						"La portavoz de Núcleo Nacional guardaba en su casa 13 armas largas y quería “ir a pegar tiros a París”"
-					],
-					"sources": [
-						"El Correo",
-						"El Mundo",
-						"El País"
-					],
-					"eventId": "cluster-spain-nacional + nucleo|2026-11-12T17:27:42.000Z|3|La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes"
+					"eventId": "cluster-spain-nucleo + nacional|2026-11-13T18:05:29.000Z|2|«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-spain-papa-leon-papa-leon": {
 			"candidateId": "cluster-spain-papa + leon",
@@ -416,7 +398,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-spain-entre-sanchez-entre-sanchez": {
 			"candidateId": "cluster-spain-entre + sanchez",
@@ -458,7 +440,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-spain-solo-estar-solo-estar": {
 			"candidateId": "cluster-spain-solo + estar",
@@ -500,7 +482,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-spain-cuerpo-renfe-cuerpo-renfe": {
 			"candidateId": "cluster-spain-cuerpo + renfe",
@@ -542,7 +524,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
@@ -1405,26 +1387,47 @@
 		"cluster-usa-nvidia-huang-nvidia-huang": {
 			"candidateId": "cluster-usa-nvidia + huang",
 			"label": "nvidia + huang",
-			"latestAt": "2026-11-13T18:10:25.000Z",
+			"latestAt": "2026-11-13T20:14:05.000Z",
 			"startedAt": "2026-11-13T10:45:00.000Z",
-			"itemCount": 3,
-			"sourceCount": 2,
+			"itemCount": 5,
+			"sourceCount": 3,
 			"terms": [
 				"nvidia",
 				"huang"
 			],
 			"sources": [
 				"The New York Times",
+				"NPR",
 				"Politico"
 			],
 			"titles": [
+				"Why Jensen Huang Was Essential to Nvidia’s Rise",
 				"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
 				"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+				"Colette Kress becomes Nvidia's interim CEO after Jensen Huang resigns",
 				"Jensen Huang’s Washington fallout"
 			],
 			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-13T18:10:25.000Z",
+			"entityLastCandidateAt": "2026-11-13T20:14:05.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T20:14:05.000Z",
+					"itemCount": 5,
+					"sourceCount": 3,
+					"headlines": [
+						"Why Jensen Huang Was Essential to Nvidia’s Rise",
+						"Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
+						"Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World"
+					],
+					"sources": [
+						"The New York Times",
+						"NPR",
+						"Politico"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T20:14:05.000Z|5|Why Jensen Huang Was Essential to Nvidia’s Rise"
+				},
 				{
 					"observedAt": "2026-11-13T20:00:48.144Z",
 					"label": "nvidia + huang",
@@ -1642,7 +1645,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
 		"cluster-usa-russell-brand-russell-brand": {
 			"candidateId": "cluster-usa-russell + brand",
@@ -12671,6 +12674,66 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
 		},
+		"cluster-spain-nacional-nucleo-nacional-nucleo": {
+			"candidateId": "cluster-spain-nacional + nucleo",
+			"label": "nacional + nucleo",
+			"latestAt": "2026-11-13T18:05:29.000Z",
+			"startedAt": "2026-11-13T15:36:14.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"nacional",
+				"nucleo"
+			],
+			"sources": [
+				"El Correo",
+				"El País"
+			],
+			"titles": [
+				"«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido",
+				"Núcleo Nacional planeó “reventar” la acampada de Sol: “Podemos pegar a los guarros”"
+			],
+			"entityFirstSeenAt": "2026-11-12T19:25:49.967Z",
+			"entityLastCandidateAt": "2026-11-13T18:05:29.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "nacional + nucleo",
+					"latestAt": "2026-11-13T18:05:29.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido",
+						"Núcleo Nacional planeó “reventar” la acampada de Sol: “Podemos pegar a los guarros”"
+					],
+					"sources": [
+						"El Correo",
+						"El País"
+					],
+					"eventId": "cluster-spain-nacional + nucleo|2026-11-13T18:05:29.000Z|2|«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido"
+				},
+				{
+					"observedAt": "2026-11-12T19:25:49.967Z",
+					"label": "nacional + nucleo",
+					"latestAt": "2026-11-12T17:27:42.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes",
+						"La juez ordena el cese total de las actividades de Núcleo Nacional, el cierre de sus sedes y el bloqueo de sus perfiles en redes sociales",
+						"La portavoz de Núcleo Nacional guardaba en su casa 13 armas largas y quería “ir a pegar tiros a París”"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo",
+						"El País"
+					],
+					"eventId": "cluster-spain-nacional + nucleo|2026-11-12T17:27:42.000Z|3|La jueza ordena el cese total de actividad de Núcleo Nacional y el cierre de sus sedes"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
 		"cluster-spain-primera-psoe-primera-psoe": {
 			"candidateId": "cluster-spain-primera + psoe",
 			"label": "primera + psoe",
@@ -16833,7 +16896,7 @@
 		"cluster-usa-here-mississippi-here-mississippi": {
 			"candidateId": "cluster-usa-here + mississippi",
 			"label": "here + mississippi",
-			"latestAt": "2026-11-13T15:01:10.000Z",
+			"latestAt": "2026-11-13T15:01:11.000Z",
 			"startedAt": "2026-11-13T07:20:24.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
@@ -16850,8 +16913,24 @@
 				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
 			],
 			"entityFirstSeenAt": "2026-11-13T15:00:48.579Z",
-			"entityLastCandidateAt": "2026-11-13T15:01:10.000Z",
+			"entityLastCandidateAt": "2026-11-13T15:01:11.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "here + mississippi",
+					"latestAt": "2026-11-13T15:01:11.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
+						"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-here + mississippi|2026-11-13T15:01:11.000Z|2|Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi."
+				},
 				{
 					"observedAt": "2026-11-13T15:00:48.579Z",
 					"label": "here + mississippi",
@@ -16870,7 +16949,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
 		"cluster-spain-sanchez-jordi-sanchez-jordi": {
 			"candidateId": "cluster-spain-sanchez + jordi",
@@ -17734,48 +17813,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
 		},
-		"cluster-spain-nucleo-nacional-nucleo-nacional": {
-			"candidateId": "cluster-spain-nucleo + nacional",
-			"label": "nucleo + nacional",
-			"latestAt": "2026-11-13T18:05:29.000Z",
-			"startedAt": "2026-11-13T15:36:14.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"nucleo",
-				"nacional"
-			],
-			"sources": [
-				"El Correo",
-				"El País"
-			],
-			"titles": [
-				"«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido",
-				"Núcleo Nacional planeó “reventar” la acampada de Sol: “Podemos pegar a los guarros”"
-			],
-			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
-			"entityLastCandidateAt": "2026-11-13T18:05:29.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "nucleo + nacional",
-					"latestAt": "2026-11-13T18:05:29.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido",
-						"Núcleo Nacional planeó “reventar” la acampada de Sol: “Podemos pegar a los guarros”"
-					],
-					"sources": [
-						"El Correo",
-						"El País"
-					],
-					"eventId": "cluster-spain-nucleo + nacional|2026-11-13T18:05:29.000Z|2|«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
-		},
 		"cluster-spain-antes-mucho-antes-mucho": {
 			"candidateId": "cluster-spain-antes + mucho",
 			"label": "antes + mucho",
@@ -18213,9 +18250,9 @@
 			"candidateId": "cluster-usa-trump + supreme",
 			"label": "trump + supreme",
 			"latestAt": "2026-11-13T20:37:10.000Z",
-			"startedAt": "2026-11-13T18:49:06.078Z",
-			"itemCount": 4,
-			"sourceCount": 4,
+			"startedAt": "2026-11-13T19:09:00.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
 			"terms": [
 				"trump",
 				"supreme"
@@ -18223,18 +18260,34 @@
 			"sources": [
 				"The New York Times Politics",
 				"PBS NewsHour",
-				"CBS News",
-				"NBC News Politics"
+				"CBS News"
 			],
 			"titles": [
 				"Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border",
 				"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
-				"Supreme Court takes up case over Trump effort to suspend asylum access at southern border",
-				"Supreme Court to rule on Trump’s asylum ban"
+				"Supreme Court takes up case over Trump effort to suspend asylum access at southern border"
 			],
 			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
 			"entityLastCandidateAt": "2026-11-13T20:37:10.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "trump + supreme",
+					"latestAt": "2026-11-13T20:37:10.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border",
+						"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
+						"Supreme Court takes up case over Trump effort to suspend asylum access at southern border"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-trump + supreme|2026-11-13T20:37:10.000Z|3|Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border"
+				},
 				{
 					"observedAt": "2026-11-13T21:00:47.961Z",
 					"label": "trump + supreme",
@@ -18255,7 +18308,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
 		"cluster-usa-house-election-house-election": {
 			"candidateId": "cluster-usa-house + election",
@@ -18348,7 +18401,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		},
 		"cluster-usa-case-alex-case-alex": {
 			"candidateId": "cluster-usa-case + alex",
@@ -18390,20 +18443,339 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-spain-seguridad-pais-seguridad-pais": {
+			"candidateId": "cluster-spain-seguridad + pais",
+			"label": "seguridad + pais",
+			"latestAt": "2026-11-13T21:45:06.000Z",
+			"startedAt": "2026-11-13T21:37:53.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"seguridad",
+				"pais"
+			],
+			"sources": [
+				"El País",
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"La FAA ordena una suspensión nacional de los vuelos debido a “circunstancias extraordinarias y motivos de seguridad”",
+				"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
+				"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T21:45:06.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "seguridad + pais",
+					"latestAt": "2026-11-13T21:45:06.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"La FAA ordena una suspensión nacional de los vuelos debido a “circunstancias extraordinarias y motivos de seguridad”",
+						"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
+						"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-seguridad + pais|2026-11-13T21:45:06.000Z|3|La FAA ordena una suspensión nacional de los vuelos debido a “circunstancias extraordinarias y motivos de seguridad”"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-spain-wild-millones-wild-millones": {
+			"candidateId": "cluster-spain-wild + millones",
+			"label": "wild + millones",
+			"latestAt": "2026-11-13T20:01:28.000Z",
+			"startedAt": "2026-11-13T17:05:27.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"wild",
+				"millones"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
+				"Jordi Wild, sobre los asesinatos machistas: «44 mujeres son pocas en comparación con una población de 50 millones»"
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T20:01:28.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "wild + millones",
+					"latestAt": "2026-11-13T20:01:28.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
+						"Jordi Wild, sobre los asesinatos machistas: «44 mujeres son pocas en comparación con una población de 50 millones»"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-wild + millones|2026-11-13T20:01:28.000Z|2|Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\""
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-usa-house-lauren-house-lauren": {
+			"candidateId": "cluster-usa-house + lauren",
+			"label": "house + lauren",
+			"latestAt": "2026-11-13T21:32:51.000Z",
+			"startedAt": "2026-11-13T19:58:19.188Z",
+			"itemCount": 6,
+			"sourceCount": 4,
+			"terms": [
+				"house",
+				"lauren"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"NBC News Politics",
+				"The New York Times",
+				"CBS News"
+			],
+			"titles": [
+				"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher",
+				"Republican Rep. Lauren Boebert will lose re-election, NBC News projects",
+				"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
+				"Democrat Eileen Laubacher defeats incumbent Lauren Boebert in Colorado's 4th Congressional District",
+				"Meet Eileen Laubacher, the Navy Veteran Who Beat Lauren Boebert",
+				"Rep. Lauren Boebert, conservative firebrand from Colorado, loses her race for re-election"
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T21:32:51.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "house + lauren",
+					"latestAt": "2026-11-13T21:32:51.000Z",
+					"itemCount": 6,
+					"sourceCount": 4,
+					"headlines": [
+						"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher",
+						"Republican Rep. Lauren Boebert will lose re-election, NBC News projects",
+						"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"NBC News Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-house + lauren|2026-11-13T21:32:51.000Z|6|GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-usa-orleans-underway-orleans-underway": {
+			"candidateId": "cluster-usa-orleans + underway",
+			"label": "orleans + underway",
+			"latestAt": "2026-11-13T21:48:48.000Z",
+			"startedAt": "2026-11-13T20:33:00.000Z",
+			"itemCount": 5,
+			"sourceCount": 4,
+			"terms": [
+				"orleans",
+				"underway"
+			],
+			"sources": [
+				"The New York Times",
+				"PBS NewsHour",
+				"NBC News",
+				"CBS News"
+			],
+			"titles": [
+				"Search and Rescue Underway in New Orleans After Cargo Ship Crashes Into Riverboat",
+				"Rescues operations underway in New Orleans after tanker hits river cruise boat",
+				"Rescue underway after a tanker collides with a New Orleans river boat",
+				"Tanker hits river cruise ship in New Orleans | Special Report",
+				"River cruise ship, tanker crash in New Orleans on Mississippi River; rescues are underway"
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T21:48:48.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "orleans + underway",
+					"latestAt": "2026-11-13T21:48:48.000Z",
+					"itemCount": 5,
+					"sourceCount": 4,
+					"headlines": [
+						"Search and Rescue Underway in New Orleans After Cargo Ship Crashes Into Riverboat",
+						"Rescues operations underway in New Orleans after tanker hits river cruise boat",
+						"Rescue underway after a tanker collides with a New Orleans river boat"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-orleans + underway|2026-11-13T21:48:48.000Z|5|Search and Rescue Underway in New Orleans After Cargo Ship Crashes Into Riverboat"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-usa-ground-stop-ground-stop": {
+			"candidateId": "cluster-usa-ground + stop",
+			"label": "ground + stop",
+			"latestAt": "2026-11-13T21:59:06.493Z",
+			"startedAt": "2026-11-13T21:29:00.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"ground",
+				"stop"
+			],
+			"sources": [
+				"NBC News",
+				"NPR",
+				"The Verge",
+				"CBS News"
+			],
+			"titles": [
+				"Ground stop ordered for all airports nationwide for ‘reasons of safety’",
+				"FAA issues nationwide ground stop for all U.S. airports",
+				"FAA ground stop shuts down flights nationwide",
+				"FAA issues nationwide ground stop due to \"extraordinary circumstances\""
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T21:59:06.493Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "ground + stop",
+					"latestAt": "2026-11-13T21:59:06.493Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Ground stop ordered for all airports nationwide for ‘reasons of safety’",
+						"FAA issues nationwide ground stop for all U.S. airports",
+						"FAA ground stop shuts down flights nationwide"
+					],
+					"sources": [
+						"NBC News",
+						"NPR",
+						"The Verge"
+					],
+					"eventId": "cluster-usa-ground + stop|2026-11-13T21:59:06.493Z|4|Ground stop ordered for all airports nationwide for ‘reasons of safety’"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-usa-trump-vance-trump-vance": {
+			"candidateId": "cluster-usa-trump + vance",
+			"label": "trump + vance",
+			"latestAt": "2026-11-13T17:22:56.000Z",
+			"startedAt": "2026-11-13T09:43:04.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"trump",
+				"vance"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"NPR Politics"
+			],
+			"titles": [
+				"Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
+				"Trump redirects Vance from Iran to focus on combatting fraud in Democratic-led states"
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T17:22:56.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "trump + vance",
+					"latestAt": "2026-11-13T17:22:56.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
+						"Trump redirects Vance from Iran to focus on combatting fraud in Democratic-led states"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-trump + vance|2026-11-13T17:22:56.000Z|2|Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-usa-nvidia-bessent-nvidia-bessent": {
+			"candidateId": "cluster-usa-nvidia + bessent",
+			"label": "nvidia + bessent",
+			"latestAt": "2026-11-13T17:09:45.000Z",
+			"startedAt": "2026-11-13T14:02:13.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"nvidia",
+				"bessent"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"The New York Times Politics"
+			],
+			"titles": [
+				"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+				"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew"
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T17:09:45.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "nvidia + bessent",
+					"latestAt": "2026-11-13T17:09:45.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-nvidia + bessent|2026-11-13T17:09:45.000Z|2|Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-es-2026-11-13T22:00:48.358Z",
+		"id": "local-es-2026-11-13T23:00:48.051Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-13T22:00:48.358Z",
-		"finishedAt": "2026-11-13T22:02:21.161Z",
+		"startedAt": "2026-11-13T23:00:48.051Z",
+		"finishedAt": "2026-11-13T23:02:24.568Z",
 		"signalsCandidate": 11,
-		"signalsSelected": 10,
+		"signalsSelected": 9,
 		"signalsProcessed": 0,
-		"cacheHits": 6,
-		"skippedByConfig": 10,
+		"cacheHits": 9,
+		"skippedByConfig": 9,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -18413,11 +18785,11 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 6,
+			"cacheHits": 9,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 342,
-			"retainedByTtl": 331,
+			"retained": 349,
+			"retainedByTtl": 338,
 			"retiredByTtl": 0
 		},
 		"costUsd": 0
