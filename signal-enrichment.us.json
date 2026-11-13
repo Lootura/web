@@ -2,128 +2,197 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-13T00:00:48.749Z",
+	"updatedAt": "2026-11-13T01:00:47.794Z",
 	"entries": {
-		"cluster-usa-huang-nvidia-huang-nvidia": {
-			"candidateId": "cluster-usa-huang + nvidia",
-			"label": "huang + nvidia",
-			"latestAt": "2026-11-12T23:55:39.000Z",
-			"startedAt": "2026-11-12T11:00:15.000Z",
-			"itemCount": 17,
+		"cluster-usa-nvidia-huang-nvidia-huang": {
+			"candidateId": "cluster-usa-nvidia + huang",
+			"label": "nvidia + huang",
+			"latestAt": "2026-11-13T00:25:08.000Z",
+			"startedAt": "2026-11-12T14:17:20.000Z",
+			"itemCount": 14,
 			"sourceCount": 5,
 			"terms": [
-				"huang",
-				"nvidia"
+				"nvidia",
+				"huang"
 			],
 			"sources": [
-				"PBS NewsHour",
+				"The New York Times Politics",
 				"CBS News",
-				"The New York Times",
 				"NPR",
-				"NBC News"
+				"The New York Times",
+				"PBS NewsHour"
 			],
 			"titles": [
-				"What Huang's resignation mean for chipmakers, AI and U.S. national security",
-				"What Jensen Huang's resignation means for Nvidia, global AI race",
-				"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
-				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
-				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
-				"AG Todd Blanche asked about Jensen Huang, Nvidia",
-				"Jensen Huang's exit rocks Nvidia and creates openings for rivals",
-				"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
-				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset",
+				"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
 				"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
 				"What happens next as Huang steps down as Nvidia CEO following affair scandal",
 				"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
 				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
-				"The rise and fall of former Nvidia CEO Jensen Huang",
-				"Who is Colette Kress, Nvidia’s new interim CEO?",
+				"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
+				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
+				"AG Todd Blanche asked about Jensen Huang, Nvidia",
 				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal"
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
+				"What Huang's resignation mean for chipmakers, AI and U.S. national security",
+				"What Jensen Huang's resignation means for Nvidia, global AI race",
+				"WATCH: 'More questions than answers' about Nvidia's Huang, Jeffries says in news conference"
 			],
-			"entityFirstSeenAt": "2026-11-10T19:04:31.604Z",
-			"entityLastCandidateAt": "2026-11-12T23:55:39.000Z",
+			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
+			"entityLastCandidateAt": "2026-11-13T00:25:08.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-12T23:55:39.000Z",
-					"itemCount": 17,
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-13T00:25:08.000Z",
+					"itemCount": 14,
 					"sourceCount": 5,
 					"headlines": [
-						"What Huang's resignation mean for chipmakers, AI and U.S. national security",
-						"What Jensen Huang's resignation means for Nvidia, global AI race",
-						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns"
+						"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+						"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+						"What happens next as Huang steps down as Nvidia CEO following affair scandal"
 					],
 					"sources": [
-						"PBS NewsHour",
+						"The New York Times Politics",
 						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-13T00:25:08.000Z|14|Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job"
+				},
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T22:46:24.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
+						"Who is Colette Kress, Nvidia’s new interim CEO?",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News",
 						"The New York Times"
 					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-12T23:55:39.000Z|17|What Huang's resignation mean for chipmakers, AI and U.S. national security"
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T22:46:24.000Z|4|Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns"
 				},
 				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-12T15:32:30.000Z",
-					"itemCount": 9,
-					"sourceCount": 3,
+					"observedAt": "2026-11-12T22:00:48.193Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T21:45:00.000Z",
+					"itemCount": 18,
+					"sourceCount": 7,
 					"headlines": [
-						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-						"Nvidia's board preparing to oust CEO Jensen Huang, sources say"
+						"‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation",
+						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
+						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmakers say"
 					],
 					"sources": [
-						"NBC News",
-						"The New York Times",
-						"CBS News"
+						"The Verge",
+						"CBS News",
+						"NBC News Politics"
 					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-12T15:32:30.000Z|9|Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says"
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T21:45:00.000Z|18|‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation"
 				},
 				{
-					"observedAt": "2026-11-10T21:26:40.157Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-10T21:12:38.000Z",
+					"observedAt": "2026-11-12T20:00:49.000Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T19:44:29.000Z",
+					"itemCount": 16,
+					"sourceCount": 5,
+					"headlines": [
+						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
+						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T19:44:29.000Z|16|Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
+				},
+				{
+					"observedAt": "2026-11-12T17:19:54.483Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T16:51:22.000Z",
 					"itemCount": 7,
 					"sourceCount": 4,
 					"headlines": [
-						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
-						"Nvidia hires former acting U.S. attorney to probe Jensen Huang affair",
-						"Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia’s Jensen Huang"
-					],
-					"sources": [
-						"The New York Times",
-						"NBC News",
-						"The New York Times Politics"
-					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-10T21:12:38.000Z|7|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
-				},
-				{
-					"observedAt": "2026-11-10T19:04:31.604Z",
-					"label": "huang + nvidia",
-					"latestAt": "2026-11-10T19:01:56.000Z",
-					"itemCount": 5,
-					"sourceCount": 3,
-					"headlines": [
-						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
-						"Nvidia and Huang face lawsuit alleging investors were misled about spy affair",
-						"Nvidia’s Board Has a History of Letting Jensen Huang Get His Way"
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
+						"NYC building collapse: Death toll rises"
 					],
 					"sources": [
 						"The New York Times",
 						"PBS NewsHour",
 						"CBS News"
 					],
-					"eventId": "cluster-usa-huang + nvidia|2026-11-10T19:01:56.000Z|5|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T15:30:04.000Z",
+					"itemCount": 11,
+					"sourceCount": 8,
+					"headlines": [
+						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
+						"Nvidia CEO Jensen Huang has resigned. What happens next?"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"The Verge"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
+				},
+				{
+					"observedAt": "2026-11-12T03:38:47.147Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-12T02:52:00.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
+						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
+				},
+				{
+					"observedAt": "2026-11-09T18:21:05.029Z",
+					"label": "nvidia + huang",
+					"latestAt": "2026-11-09T17:58:28.000Z",
+					"itemCount": 11,
+					"sourceCount": 6,
+					"headlines": [
+						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
+						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
+						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		},
 		"cluster-usa-building-brooklyn-building-brooklyn": {
 			"candidateId": "cluster-usa-building + brooklyn",
 			"label": "building + brooklyn",
-			"latestAt": "2026-11-12T23:53:15.000Z",
+			"latestAt": "2026-11-12T23:58:33.000Z",
 			"startedAt": "2026-11-12T16:09:11.000Z",
 			"itemCount": 8,
 			"sourceCount": 4,
@@ -132,24 +201,42 @@
 				"brooklyn"
 			],
 			"sources": [
+				"NBC News",
 				"The New York Times",
 				"PBS NewsHour",
-				"NBC News",
 				"NPR"
 			],
 			"titles": [
+				"First video of Brooklyn building collapse",
 				"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
 				"New York building collapse kills 8, including 2 children",
 				"Eight Who Died in Building Collapse Reflected New York’s Diversity",
 				"What to Know About the Deadly Building Collapse in Brooklyn",
-				"Ring camera video shows the moment of Brooklyn building collapse",
 				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
 				"Casualties continue to rise after Brooklyn building collapses",
 				"Excavation Was Taking Place Next to Building in Brooklyn That Collapsed"
 			],
 			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
-			"entityLastCandidateAt": "2026-11-12T23:53:15.000Z",
+			"entityLastCandidateAt": "2026-11-12T23:58:33.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-12T23:58:33.000Z",
+					"itemCount": 8,
+					"sourceCount": 4,
+					"headlines": [
+						"First video of Brooklyn building collapse",
+						"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
+						"New York building collapse kills 8, including 2 children"
+					],
+					"sources": [
+						"NBC News",
+						"The New York Times",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-building + brooklyn|2026-11-12T23:58:33.000Z|8|First video of Brooklyn building collapse"
+				},
 				{
 					"observedAt": "2026-11-13T00:00:48.749Z",
 					"label": "building + brooklyn",
@@ -188,18 +275,18 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		},
-		"cluster-usa-wins-race-wins-race": {
-			"candidateId": "cluster-usa-wins + race",
-			"label": "wins + race",
-			"latestAt": "2026-11-12T23:49:40.000Z",
-			"startedAt": "2026-11-12T14:14:44.000Z",
-			"itemCount": 4,
+		"cluster-usa-nvidia-mississippi-nvidia-mississippi": {
+			"candidateId": "cluster-usa-nvidia + mississippi",
+			"label": "nvidia + mississippi",
+			"latestAt": "2026-11-12T23:59:27.000Z",
+			"startedAt": "2026-11-12T11:00:15.000Z",
+			"itemCount": 6,
 			"sourceCount": 4,
 			"terms": [
-				"wins",
-				"race"
+				"nvidia",
+				"mississippi"
 			],
 			"sources": [
 				"CBS News",
@@ -208,43 +295,63 @@
 				"The New York Times"
 			],
 			"titles": [
+				"Jasmine Crockett on Scott Colom's Senate win: \"Mississippi has been overlooked\"",
 				"Mississippi reacts after Scott Colom wins Senate race",
-				"Alaska judge rules a request by Peltola campaign for ballot data in Senate race is 'not reasonable'",
+				"How Scott Colom won his longshot bid to flip Mississippi's Senate seat",
 				"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
-				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
+				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
+				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
 			],
-			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
-			"entityLastCandidateAt": "2026-11-12T23:49:40.000Z",
+			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
+			"entityLastCandidateAt": "2026-11-12T23:59:27.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "wins + race",
-					"latestAt": "2026-11-12T23:49:40.000Z",
-					"itemCount": 4,
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "nvidia + mississippi",
+					"latestAt": "2026-11-12T23:59:27.000Z",
+					"itemCount": 6,
 					"sourceCount": 4,
 					"headlines": [
+						"Jasmine Crockett on Scott Colom's Senate win: \"Mississippi has been overlooked\"",
 						"Mississippi reacts after Scott Colom wins Senate race",
-						"Alaska judge rules a request by Peltola campaign for ballot data in Senate race is 'not reasonable'",
-						"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter"
+						"How Scott Colom won his longshot bid to flip Mississippi's Senate seat"
 					],
 					"sources": [
 						"CBS News",
 						"PBS NewsHour",
 						"The New York Times Politics"
 					],
-					"eventId": "cluster-usa-wins + race|2026-11-12T23:49:40.000Z|4|Mississippi reacts after Scott Colom wins Senate race"
+					"eventId": "cluster-usa-nvidia + mississippi|2026-11-12T23:59:27.000Z|6|Jasmine Crockett on Scott Colom's Senate win: \"Mississippi has been overlooked\""
+				},
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "nvidia + mississippi",
+					"latestAt": "2026-11-12T14:14:44.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
+						"Democrat Scott Colom wins Mississippi Senate race in upset",
+						"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-nvidia + mississippi|2026-11-12T14:14:44.000Z|4|In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		},
 		"cluster-usa-democrats-wins-democrats-wins": {
 			"candidateId": "cluster-usa-democrats + wins",
 			"label": "democrats + wins",
 			"latestAt": "2026-11-12T23:36:19.000Z",
-			"startedAt": "2026-11-12T23:15:44.000Z",
-			"itemCount": 4,
-			"sourceCount": 4,
+			"startedAt": "2026-11-12T23:15:50.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
 			"terms": [
 				"democrats",
 				"wins"
@@ -252,18 +359,34 @@
 			"sources": [
 				"NPR Politics",
 				"The New York Times",
-				"PBS NewsHour",
-				"NBC News Politics"
+				"PBS NewsHour"
 			],
 			"titles": [
 				"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
 				"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats",
-				"Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories",
-				"Kansas state Sen. Cindy Holscher wins governor's race, NBC News projects"
+				"Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories"
 			],
 			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
 			"entityLastCandidateAt": "2026-11-12T23:36:19.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "democrats + wins",
+					"latestAt": "2026-11-12T23:36:19.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+						"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats",
+						"Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories"
+					],
+					"sources": [
+						"NPR Politics",
+						"The New York Times",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-democrats + wins|2026-11-12T23:36:19.000Z|3|Cindy Holscher wins in Kansas, holding governor's office for Democrats"
+				},
 				{
 					"observedAt": "2026-11-13T00:00:48.749Z",
 					"label": "democrats + wins",
@@ -284,105 +407,91 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		},
-		"cluster-usa-hegseth-soldier-hegseth-soldier": {
-			"candidateId": "cluster-usa-hegseth + soldier",
-			"label": "hegseth + soldier",
-			"latestAt": "2026-11-12T23:30:00.000Z",
-			"startedAt": "2026-11-12T18:35:44.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
+		"cluster-usa-nvidia-calls-nvidia-calls": {
+			"candidateId": "cluster-usa-nvidia + calls",
+			"label": "nvidia + calls",
+			"latestAt": "2026-11-13T00:46:55.000Z",
+			"startedAt": "2026-11-12T23:33:00.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
 			"terms": [
-				"hegseth",
-				"soldier"
+				"nvidia",
+				"calls"
 			],
 			"sources": [
-				"CBS News",
-				"The New York Times Politics",
-				"PBS NewsHour"
+				"The New York Times World",
+				"CBS News"
 			],
 			"titles": [
-				"What to know after Hegseth awards medal to soldier who reprimanded group at Arlington",
-				"Pete Hegseth, a Soldier’s Scolding and a Lesson at the Tomb of Unknowns",
-				"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
+				"Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew",
+				"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
 			],
-			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-12T23:30:00.000Z",
+			"entityFirstSeenAt": "2026-11-13T01:00:47.794Z",
+			"entityLastCandidateAt": "2026-11-13T00:46:55.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "hegseth + soldier",
-					"latestAt": "2026-11-12T23:30:00.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"What to know after Hegseth awards medal to soldier who reprimanded group at Arlington",
-						"Pete Hegseth, a Soldier’s Scolding and a Lesson at the Tomb of Unknowns",
-						"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times Politics",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-hegseth + soldier|2026-11-12T23:30:00.000Z|3|What to know after Hegseth awards medal to soldier who reprimanded group at Arlington"
-				},
-				{
-					"observedAt": "2026-11-12T22:00:48.193Z",
-					"label": "hegseth + soldier",
-					"latestAt": "2026-11-12T21:31:33.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Pete Hegseth, a Soldier’s Scolding and a Lesson at the Tomb of Unknowns",
-						"Hegseth awards medal to soldier who reprimanded group near tomb",
-						"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-hegseth + soldier|2026-11-12T21:31:33.000Z|3|Pete Hegseth, a Soldier’s Scolding and a Lesson at the Tomb of Unknowns"
-				},
-				{
-					"observedAt": "2026-11-12T21:00:48.034Z",
-					"label": "hegseth + soldier",
-					"latestAt": "2026-11-12T20:15:28.865Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Hegseth awards medal to soldier who reprimanded him at Arlington National Cemetery",
-						"Hegseth awards medal to soldier who reprimanded group near tomb",
-						"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
-					],
-					"sources": [
-						"NBC News Politics",
-						"CBS News",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-hegseth + soldier|2026-11-12T20:15:28.865Z|3|Hegseth awards medal to soldier who reprimanded him at Arlington National Cemetery"
-				},
-				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "hegseth + soldier",
-					"latestAt": "2026-11-12T18:49:29.000Z",
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "nvidia + calls",
+					"latestAt": "2026-11-13T00:46:55.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
 					"headlines": [
-						"Hegseth awards medal to soldier who reprimanded his party at Arlington's scared tomb",
-						"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
+						"Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew",
+						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
+					],
+					"sources": [
+						"The New York Times World",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + calls|2026-11-13T00:46:55.000Z|2|Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+		},
+		"cluster-usa-calls-pope-calls-pope": {
+			"candidateId": "cluster-usa-calls + pope",
+			"label": "calls + pope",
+			"latestAt": "2026-11-13T00:35:20.000Z",
+			"startedAt": "2026-11-12T22:06:20.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"calls",
+				"pope"
+			],
+			"sources": [
+				"CBS News",
+				"PBS NewsHour"
+			],
+			"titles": [
+				"Pope Leo calls on followers to \"value women\" and \"respect girls\"",
+				"After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women"
+			],
+			"entityFirstSeenAt": "2026-11-13T01:00:47.794Z",
+			"entityLastCandidateAt": "2026-11-13T00:35:20.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "calls + pope",
+					"latestAt": "2026-11-13T00:35:20.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Pope Leo calls on followers to \"value women\" and \"respect girls\"",
+						"After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women"
 					],
 					"sources": [
 						"CBS News",
 						"PBS NewsHour"
 					],
-					"eventId": "cluster-usa-hegseth + soldier|2026-11-12T18:49:29.000Z|2|Hegseth awards medal to soldier who reprimanded his party at Arlington's scared tomb"
+					"eventId": "cluster-usa-calls + pope|2026-11-13T00:35:20.000Z|2|Pope Leo calls on followers to \"value women\" and \"respect girls\""
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		},
 		"cluster-usa-shooting-killed-shooting-killed": {
 			"candidateId": "cluster-usa-shooting + killed",
@@ -440,60 +549,18 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		},
-		"cluster-usa-more-outlook-more-outlook": {
-			"candidateId": "cluster-usa-more + outlook",
-			"label": "more + outlook",
-			"latestAt": "2026-11-12T23:40:44.000Z",
-			"startedAt": "2026-11-12T23:15:24.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"more",
-				"outlook"
-			],
-			"sources": [
-				"The New York Times",
-				"NBC News"
-			],
-			"titles": [
-				"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
-				"Widespread outage hits Microsoft platforms including Outlook, thousands report issues"
-			],
-			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
-			"entityLastCandidateAt": "2026-11-12T23:40:44.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "more + outlook",
-					"latestAt": "2026-11-12T23:40:44.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
-						"Widespread outage hits Microsoft platforms including Outlook, thousands report issues"
-					],
-					"sources": [
-						"The New York Times",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-more + outlook|2026-11-12T23:40:44.000Z|2|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
-		},
-		"cluster-usa-former-oklahoma-former-oklahoma": {
-			"candidateId": "cluster-usa-former + oklahoma",
-			"label": "former + oklahoma",
+		"cluster-usa-oklahoma-inmate-oklahoma-inmate": {
+			"candidateId": "cluster-usa-oklahoma + inmate",
+			"label": "oklahoma + inmate",
 			"latestAt": "2026-11-12T23:34:05.000Z",
 			"startedAt": "2026-11-12T21:44:01.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"former",
-				"oklahoma"
+				"oklahoma",
+				"inmate"
 			],
 			"sources": [
 				"CBS News",
@@ -503,12 +570,12 @@
 				"Ex-Oklahoma death row inmate pleads guilty to lesser charge",
 				"Oklahoma dismisses murder charge against former death row inmate Richard Glossip"
 			],
-			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
+			"entityFirstSeenAt": "2026-11-13T01:00:47.794Z",
 			"entityLastCandidateAt": "2026-11-12T23:34:05.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "former + oklahoma",
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "oklahoma + inmate",
 					"latestAt": "2026-11-12T23:34:05.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -520,11 +587,11 @@
 						"CBS News",
 						"NBC News"
 					],
-					"eventId": "cluster-usa-former + oklahoma|2026-11-12T23:34:05.000Z|2|Ex-Oklahoma death row inmate pleads guilty to lesser charge"
+					"eventId": "cluster-usa-oklahoma + inmate|2026-11-12T23:34:05.000Z|2|Ex-Oklahoma death row inmate pleads guilty to lesser charge"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		},
 		"cluster-usa-prostate-cancer-prostate-cancer": {
 			"candidateId": "cluster-usa-prostate + cancer",
@@ -584,49 +651,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
-		},
-		"cluster-usa-pope-peru-pope-peru": {
-			"candidateId": "cluster-usa-pope + peru",
-			"label": "pope + peru",
-			"latestAt": "2026-11-12T22:06:20.000Z",
-			"startedAt": "2026-11-12T19:26:48.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"pope",
-				"peru"
-			],
-			"sources": [
-				"PBS NewsHour",
-				"CBS News"
-			],
-			"titles": [
-				"After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women",
-				"Pope declares Peru his \"homeland\" in final leg of South America trip"
-			],
-			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
-			"entityLastCandidateAt": "2026-11-12T22:06:20.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "pope + peru",
-					"latestAt": "2026-11-12T22:06:20.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women",
-						"Pope declares Peru his \"homeland\" in final leg of South America trip"
-					],
-					"sources": [
-						"PBS NewsHour",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-pope + peru|2026-11-12T22:06:20.000Z|2|After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -1438,136 +1463,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T08:25:56.119Z"
 		},
-		"cluster-spain-milei-vivo-milei-vivo": {
-			"candidateId": "cluster-spain-milei + vivo",
-			"label": "milei + vivo",
-			"latestAt": "2026-11-09T00:30:25.000Z",
-			"startedAt": "2026-11-08T19:53:35.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"milei",
-				"vivo"
-			],
-			"sources": [
-				"El País",
-				"El Correo",
-				"El Mundo"
-			],
-			"titles": [
-				"La visita de León XIV en Argentina, en vivo | Frente a Milei, el Papa aboga por la necesidad de “escuchar” y por “el cuidado de la palabra”",
-				"Milei recibe al Papa en una nueva escala de su gira latinoamericana",
-				"León XIV paga la deuda de Francisco con una visita de cuatro días a Argentina, donde se reunirá con Javier Milei"
-			],
-			"entityFirstSeenAt": "2026-11-09T01:19:45.981Z",
-			"entityLastCandidateAt": "2026-11-09T00:30:25.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T01:19:45.981Z",
-					"label": "milei + vivo",
-					"latestAt": "2026-11-09T00:30:25.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"La visita de León XIV en Argentina, en vivo | Frente a Milei, el Papa aboga por la necesidad de “escuchar” y por “el cuidado de la palabra”",
-						"Milei recibe al Papa en una nueva escala de su gira latinoamericana",
-						"León XIV paga la deuda de Francisco con una visita de cuatro días a Argentina, donde se reunirá con Javier Milei"
-					],
-					"sources": [
-						"El País",
-						"El Correo",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-milei + vivo|2026-11-09T00:30:25.000Z|3|La visita de León XIV en Argentina, en vivo | Frente a Milei, el Papa aboga por la necesidad de “escuchar” y por “el cuidado de la palabra”"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T01:19:45.981Z"
-		},
-		"cluster-spain-trump-america-trump-america": {
-			"candidateId": "cluster-spain-trump + america",
-			"label": "trump + america",
-			"latestAt": "2026-11-09T00:57:41.000Z",
-			"startedAt": "2026-11-08T19:08:09.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"trump",
-				"america"
-			],
-			"sources": [
-				"ABC",
-				"El Correo"
-			],
-			"titles": [
-				"Los demócratas le roban a Trump el populismo económico del 'América primero'",
-				"La agenda de Trump tropieza también en América Latina"
-			],
-			"entityFirstSeenAt": "2026-11-09T01:19:45.981Z",
-			"entityLastCandidateAt": "2026-11-09T00:57:41.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T01:19:45.981Z",
-					"label": "trump + america",
-					"latestAt": "2026-11-09T00:57:41.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Los demócratas le roban a Trump el populismo económico del 'América primero'",
-						"La agenda de Trump tropieza también en América Latina"
-					],
-					"sources": [
-						"ABC",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-trump + america|2026-11-09T00:57:41.000Z|2|Los demócratas le roban a Trump el populismo económico del 'América primero'"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T01:19:45.981Z"
-		},
-		"cluster-spain-gobierno-golf-gobierno-golf": {
-			"candidateId": "cluster-spain-gobierno + golf",
-			"label": "gobierno + golf",
-			"latestAt": "2026-11-09T00:18:12.000Z",
-			"startedAt": "2026-11-08T23:50:18.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"gobierno",
-				"golf"
-			],
-			"sources": [
-				"El Correo",
-				"El Mundo"
-			],
-			"titles": [
-				"El Gobierno vasco pagará 21 millones por el suelo del plan fallido para levantar un campo de golf y 546 chalés en Derio",
-				"El Gobierno bate récords este año de manipulación presupuestaria al modificar ya 40.000 millones en las cuentas prorrogadas"
-			],
-			"entityFirstSeenAt": "2026-11-09T01:19:45.981Z",
-			"entityLastCandidateAt": "2026-11-09T00:18:12.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T01:19:45.981Z",
-					"label": "gobierno + golf",
-					"latestAt": "2026-11-09T00:18:12.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"El Gobierno vasco pagará 21 millones por el suelo del plan fallido para levantar un campo de golf y 546 chalés en Derio",
-						"El Gobierno bate récords este año de manipulación presupuestaria al modificar ya 40.000 millones en las cuentas prorrogadas"
-					],
-					"sources": [
-						"El Correo",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-gobierno + golf|2026-11-09T00:18:12.000Z|2|El Gobierno vasco pagará 21 millones por el suelo del plan fallido para levantar un campo de golf y 546 chalés en Derio"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T01:19:45.981Z"
-		},
 		"cluster-usa-nvidia-chinese-nvidia-chinese": {
 			"candidateId": "cluster-usa-nvidia + chinese",
 			"label": "nvidia + chinese",
@@ -2104,48 +1999,6 @@
 						"El Diario Vasco"
 					],
 					"eventId": "cluster-spain-cuando + sanchez|2026-11-09T01:19:40.000Z|2|Fernando Savater: \"La pregunta no es cuándo me hice yo de derechas sino cuándo los socialistas se hicieron como Pedro Sánchez\""
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T08:25:19.568Z"
-		},
-		"cluster-spain-gobierno-millones-gobierno-millones": {
-			"candidateId": "cluster-spain-gobierno + millones",
-			"label": "gobierno + millones",
-			"latestAt": "2026-11-09T00:18:12.000Z",
-			"startedAt": "2026-11-08T23:50:18.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"gobierno",
-				"millones"
-			],
-			"sources": [
-				"El Correo",
-				"El Mundo"
-			],
-			"titles": [
-				"El Gobierno vasco pagará 21 millones por el suelo del plan fallido para levantar un campo de golf y 546 chalés en Derio",
-				"El Gobierno bate récords este año de manipulación presupuestaria al modificar ya 40.000 millones en las cuentas prorrogadas"
-			],
-			"entityFirstSeenAt": "2026-11-09T08:25:19.568Z",
-			"entityLastCandidateAt": "2026-11-09T00:18:12.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T08:25:19.568Z",
-					"label": "gobierno + millones",
-					"latestAt": "2026-11-09T00:18:12.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"El Gobierno vasco pagará 21 millones por el suelo del plan fallido para levantar un campo de golf y 546 chalés en Derio",
-						"El Gobierno bate récords este año de manipulación presupuestaria al modificar ya 40.000 millones en las cuentas prorrogadas"
-					],
-					"sources": [
-						"El Correo",
-						"El Mundo"
-					],
-					"eventId": "cluster-spain-gobierno + millones|2026-11-09T00:18:12.000Z|2|El Gobierno vasco pagará 21 millones por el suelo del plan fallido para levantar un campo de golf y 546 chalés en Derio"
 				}
 			],
 			"entityState": "active",
@@ -3717,162 +3570,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-09T18:20:36.924Z"
-		},
-		"cluster-usa-nvidia-huang-nvidia-huang": {
-			"candidateId": "cluster-usa-nvidia + huang",
-			"label": "nvidia + huang",
-			"latestAt": "2026-11-12T22:46:24.000Z",
-			"startedAt": "2026-11-12T18:54:11.000Z",
-			"itemCount": 4,
-			"sourceCount": 4,
-			"terms": [
-				"nvidia",
-				"huang"
-			],
-			"sources": [
-				"CBS News",
-				"NBC News",
-				"The New York Times",
-				"PBS NewsHour"
-			],
-			"titles": [
-				"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
-				"Who is Colette Kress, Nvidia’s new interim CEO?",
-				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"WATCH: 'More questions than answers' about Nvidia's Huang, Jeffries says in news conference"
-			],
-			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-12T22:46:24.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-12T23:00:48.320Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T22:46:24.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
-						"Who is Colette Kress, Nvidia’s new interim CEO?",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T22:46:24.000Z|4|Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns"
-				},
-				{
-					"observedAt": "2026-11-12T22:00:48.193Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T21:45:00.000Z",
-					"itemCount": 18,
-					"sourceCount": 7,
-					"headlines": [
-						"‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation",
-						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
-						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmakers say"
-					],
-					"sources": [
-						"The Verge",
-						"CBS News",
-						"NBC News Politics"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T21:45:00.000Z|18|‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation"
-				},
-				{
-					"observedAt": "2026-11-12T20:00:49.000Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T19:44:29.000Z",
-					"itemCount": 16,
-					"sourceCount": 5,
-					"headlines": [
-						"Who will succeed Jensen Huang at Nvidia? Analysts weigh in.",
-						"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
-						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T19:44:29.000Z|16|Who will succeed Jensen Huang at Nvidia? Analysts weigh in."
-				},
-				{
-					"observedAt": "2026-11-12T17:19:54.483Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T16:51:22.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Brooklyn building collapse death toll rises to 8 as rescuers search for survivors",
-						"NYC building collapse: Death toll rises"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T16:51:22.000Z|7|What to Know About the Deadly Building Collapse in Brooklyn"
-				},
-				{
-					"observedAt": "2026-11-12T15:47:37.262Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T15:30:04.000Z",
-					"itemCount": 11,
-					"sourceCount": 8,
-					"headlines": [
-						"Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
-						"Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-						"Nvidia CEO Jensen Huang has resigned. What happens next?"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"The Verge"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T15:30:04.000Z|11|Nvidia Stock Plunges After Jensen Huang Resigns as CEO"
-				},
-				{
-					"observedAt": "2026-11-12T03:38:47.147Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-12T02:52:00.000Z",
-					"itemCount": 7,
-					"sourceCount": 4,
-					"headlines": [
-						"Nvidia's board preparing to oust CEO Jensen Huang, sources say",
-						"Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
-						"Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-12T02:52:00.000Z|7|Nvidia's board preparing to oust CEO Jensen Huang, sources say"
-				},
-				{
-					"observedAt": "2026-11-09T18:21:05.029Z",
-					"label": "nvidia + huang",
-					"latestAt": "2026-11-09T17:58:28.000Z",
-					"itemCount": 11,
-					"sourceCount": 6,
-					"headlines": [
-						"A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
-						"Nvidia stock slumps amid board investigation into CEO Jensen Huang",
-						"Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-nvidia + huang|2026-11-09T17:58:28.000Z|11|A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
 		"cluster-usa-russell-brand-russell-brand": {
 			"candidateId": "cluster-usa-russell + brand",
@@ -7250,6 +6947,122 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-10T19:03:55.994Z"
+		},
+		"cluster-usa-huang-nvidia-huang-nvidia": {
+			"candidateId": "cluster-usa-huang + nvidia",
+			"label": "huang + nvidia",
+			"latestAt": "2026-11-12T23:55:39.000Z",
+			"startedAt": "2026-11-12T11:00:15.000Z",
+			"itemCount": 17,
+			"sourceCount": 5,
+			"terms": [
+				"huang",
+				"nvidia"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"CBS News",
+				"The New York Times",
+				"NPR",
+				"NBC News"
+			],
+			"titles": [
+				"What Huang's resignation mean for chipmakers, AI and U.S. national security",
+				"What Jensen Huang's resignation means for Nvidia, global AI race",
+				"Nvidia sheds almost $500 billion in value as Jensen Huang resigns",
+				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
+				"AG Todd Blanche asked about Jensen Huang, Nvidia",
+				"Jensen Huang's exit rocks Nvidia and creates openings for rivals",
+				"Here's how Jensen Huang's abrupt resignation unfolded at Nvidia",
+				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset",
+				"Trump calls for former Apple leader Tim Cook to replace Jensen Huang as Nvidia CEO",
+				"What happens next as Huang steps down as Nvidia CEO following affair scandal",
+				"Nvidia CFO Colette Kress appointed as Interim CEO as Huang resigns",
+				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
+				"The rise and fall of former Nvidia CEO Jensen Huang",
+				"Who is Colette Kress, Nvidia’s new interim CEO?",
+				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+				"Nvidia CEO Jensen Huang steps down amid alleged spy scandal"
+			],
+			"entityFirstSeenAt": "2026-11-10T19:04:31.604Z",
+			"entityLastCandidateAt": "2026-11-12T23:55:39.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-12T23:55:39.000Z",
+					"itemCount": 17,
+					"sourceCount": 5,
+					"headlines": [
+						"What Huang's resignation mean for chipmakers, AI and U.S. national security",
+						"What Jensen Huang's resignation means for Nvidia, global AI race",
+						"Nvidia sheds almost $500 billion in value as Jensen Huang resigns"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"CBS News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-12T23:55:39.000Z|17|What Huang's resignation mean for chipmakers, AI and U.S. national security"
+				},
+				{
+					"observedAt": "2026-11-12T15:47:37.262Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-12T15:32:30.000Z",
+					"itemCount": 9,
+					"sourceCount": 3,
+					"headlines": [
+						"Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says",
+						"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
+						"Nvidia's board preparing to oust CEO Jensen Huang, sources say"
+					],
+					"sources": [
+						"NBC News",
+						"The New York Times",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-12T15:32:30.000Z|9|Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmaker says"
+				},
+				{
+					"observedAt": "2026-11-10T21:26:40.157Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-10T21:12:38.000Z",
+					"itemCount": 7,
+					"sourceCount": 4,
+					"headlines": [
+						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
+						"Nvidia hires former acting U.S. attorney to probe Jensen Huang affair",
+						"Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia’s Jensen Huang"
+					],
+					"sources": [
+						"The New York Times",
+						"NBC News",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-10T21:12:38.000Z|7|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
+				},
+				{
+					"observedAt": "2026-11-10T19:04:31.604Z",
+					"label": "huang + nvidia",
+					"latestAt": "2026-11-10T19:01:56.000Z",
+					"itemCount": 5,
+					"sourceCount": 3,
+					"headlines": [
+						"Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
+						"Nvidia and Huang face lawsuit alleging investors were misled about spy affair",
+						"Nvidia’s Board Has a History of Letting Jensen Huang Get His Way"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-huang + nvidia|2026-11-10T19:01:56.000Z|5|Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
 		},
 		"cluster-usa-hegseth-against-hegseth-against": {
 			"candidateId": "cluster-usa-hegseth + against",
@@ -14065,7 +13878,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		},
 		"cluster-spain-entre-general-entre-general": {
 			"candidateId": "cluster-spain-entre + general",
@@ -14234,52 +14047,103 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T19:25:49.967Z"
 		},
-		"cluster-usa-nvidia-mississippi-nvidia-mississippi": {
-			"candidateId": "cluster-usa-nvidia + mississippi",
-			"label": "nvidia + mississippi",
-			"latestAt": "2026-11-12T14:14:44.000Z",
-			"startedAt": "2026-11-12T09:32:33.000Z",
-			"itemCount": 4,
+		"cluster-usa-hegseth-soldier-hegseth-soldier": {
+			"candidateId": "cluster-usa-hegseth + soldier",
+			"label": "hegseth + soldier",
+			"latestAt": "2026-11-12T23:30:00.000Z",
+			"startedAt": "2026-11-12T18:35:44.000Z",
+			"itemCount": 3,
 			"sourceCount": 3,
 			"terms": [
-				"nvidia",
-				"mississippi"
+				"hegseth",
+				"soldier"
 			],
 			"sources": [
-				"The New York Times",
 				"CBS News",
-				"NPR Politics"
+				"The New York Times Politics",
+				"PBS NewsHour"
 			],
 			"titles": [
-				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
-				"Democrat Scott Colom wins Mississippi Senate race in upset",
-				"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset",
-				"Democrat Scott Colom wins Mississippi Senate race"
+				"What to know after Hegseth awards medal to soldier who reprimanded group at Arlington",
+				"Pete Hegseth, a Soldier’s Scolding and a Lesson at the Tomb of Unknowns",
+				"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
 			],
 			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-12T14:14:44.000Z",
+			"entityLastCandidateAt": "2026-11-12T23:30:00.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-12T19:03:55.334Z",
-					"label": "nvidia + mississippi",
-					"latestAt": "2026-11-12T14:14:44.000Z",
-					"itemCount": 4,
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "hegseth + soldier",
+					"latestAt": "2026-11-12T23:30:00.000Z",
+					"itemCount": 3,
 					"sourceCount": 3,
 					"headlines": [
-						"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win",
-						"Democrat Scott Colom wins Mississippi Senate race in upset",
-						"A Second Affair Revelation Rocks Nvidia, and a Democrat Wins Mississippi in a Major Senate Upset"
+						"What to know after Hegseth awards medal to soldier who reprimanded group at Arlington",
+						"Pete Hegseth, a Soldier’s Scolding and a Lesson at the Tomb of Unknowns",
+						"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
 					],
 					"sources": [
-						"The New York Times",
 						"CBS News",
-						"NPR Politics"
+						"The New York Times Politics",
+						"PBS NewsHour"
 					],
-					"eventId": "cluster-usa-nvidia + mississippi|2026-11-12T14:14:44.000Z|4|In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
+					"eventId": "cluster-usa-hegseth + soldier|2026-11-12T23:30:00.000Z|3|What to know after Hegseth awards medal to soldier who reprimanded group at Arlington"
+				},
+				{
+					"observedAt": "2026-11-12T22:00:48.193Z",
+					"label": "hegseth + soldier",
+					"latestAt": "2026-11-12T21:31:33.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Pete Hegseth, a Soldier’s Scolding and a Lesson at the Tomb of Unknowns",
+						"Hegseth awards medal to soldier who reprimanded group near tomb",
+						"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-hegseth + soldier|2026-11-12T21:31:33.000Z|3|Pete Hegseth, a Soldier’s Scolding and a Lesson at the Tomb of Unknowns"
+				},
+				{
+					"observedAt": "2026-11-12T21:00:48.034Z",
+					"label": "hegseth + soldier",
+					"latestAt": "2026-11-12T20:15:28.865Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Hegseth awards medal to soldier who reprimanded him at Arlington National Cemetery",
+						"Hegseth awards medal to soldier who reprimanded group near tomb",
+						"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
+					],
+					"sources": [
+						"NBC News Politics",
+						"CBS News",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-hegseth + soldier|2026-11-12T20:15:28.865Z|3|Hegseth awards medal to soldier who reprimanded him at Arlington National Cemetery"
+				},
+				{
+					"observedAt": "2026-11-12T19:03:55.334Z",
+					"label": "hegseth + soldier",
+					"latestAt": "2026-11-12T18:49:29.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Hegseth awards medal to soldier who reprimanded his party at Arlington's scared tomb",
+						"Hegseth presents award to soldier who scolded him and his aides at Tomb of the Unknown Soldier"
+					],
+					"sources": [
+						"CBS News",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-hegseth + soldier|2026-11-12T18:49:29.000Z|2|Hegseth awards medal to soldier who reprimanded his party at Arlington's scared tomb"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-12T19:03:55.334Z"
+			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
 		},
 		"cluster-usa-shooting-here-shooting-here": {
 			"candidateId": "cluster-usa-shooting + here",
@@ -15084,7 +14948,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		},
 		"cluster-spain-pero-ciencia-pero-ciencia": {
 			"candidateId": "cluster-spain-pero + ciencia",
@@ -15126,7 +14990,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		},
 		"cluster-spain-contra-papa-contra-papa": {
 			"candidateId": "cluster-spain-contra + papa",
@@ -15584,7 +15448,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		},
 		"cluster-spain-primera-cuando-primera-cuando": {
 			"candidateId": "cluster-spain-primera + cuando",
@@ -15626,20 +15490,285 @@
 				}
 			],
 			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+		},
+		"cluster-usa-wins-race-wins-race": {
+			"candidateId": "cluster-usa-wins + race",
+			"label": "wins + race",
+			"latestAt": "2026-11-12T23:49:40.000Z",
+			"startedAt": "2026-11-12T14:14:44.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"wins",
+				"race"
+			],
+			"sources": [
+				"CBS News",
+				"PBS NewsHour",
+				"The New York Times Politics",
+				"The New York Times"
+			],
+			"titles": [
+				"Mississippi reacts after Scott Colom wins Senate race",
+				"Alaska judge rules a request by Peltola campaign for ballot data in Senate race is 'not reasonable'",
+				"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter",
+				"In Mississippi, Scott Colom Supporters Celebrate Historic Senate Win"
+			],
+			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
+			"entityLastCandidateAt": "2026-11-12T23:49:40.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "wins + race",
+					"latestAt": "2026-11-12T23:49:40.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Mississippi reacts after Scott Colom wins Senate race",
+						"Alaska judge rules a request by Peltola campaign for ballot data in Senate race is 'not reasonable'",
+						"How The Times Covered Mississippi’s Senate Race, Which Unexpectedly Became a Nail-Biter"
+					],
+					"sources": [
+						"CBS News",
+						"PBS NewsHour",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-wins + race|2026-11-12T23:49:40.000Z|4|Mississippi reacts after Scott Colom wins Senate race"
+				}
+			],
+			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+		},
+		"cluster-usa-more-outlook-more-outlook": {
+			"candidateId": "cluster-usa-more + outlook",
+			"label": "more + outlook",
+			"latestAt": "2026-11-12T23:40:44.000Z",
+			"startedAt": "2026-11-12T23:15:24.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"more",
+				"outlook"
+			],
+			"sources": [
+				"The New York Times",
+				"NBC News"
+			],
+			"titles": [
+				"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+				"Widespread outage hits Microsoft platforms including Outlook, thousands report issues"
+			],
+			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
+			"entityLastCandidateAt": "2026-11-12T23:40:44.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "more + outlook",
+					"latestAt": "2026-11-12T23:40:44.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+						"Widespread outage hits Microsoft platforms including Outlook, thousands report issues"
+					],
+					"sources": [
+						"The New York Times",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-more + outlook|2026-11-12T23:40:44.000Z|2|Outlook, Teams and More Microsoft Programs Disrupted by Outage"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+		},
+		"cluster-usa-former-oklahoma-former-oklahoma": {
+			"candidateId": "cluster-usa-former + oklahoma",
+			"label": "former + oklahoma",
+			"latestAt": "2026-11-12T23:34:05.000Z",
+			"startedAt": "2026-11-12T21:44:01.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"former",
+				"oklahoma"
+			],
+			"sources": [
+				"CBS News",
+				"NBC News"
+			],
+			"titles": [
+				"Ex-Oklahoma death row inmate pleads guilty to lesser charge",
+				"Oklahoma dismisses murder charge against former death row inmate Richard Glossip"
+			],
+			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
+			"entityLastCandidateAt": "2026-11-12T23:34:05.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "former + oklahoma",
+					"latestAt": "2026-11-12T23:34:05.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Ex-Oklahoma death row inmate pleads guilty to lesser charge",
+						"Oklahoma dismisses murder charge against former death row inmate Richard Glossip"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-former + oklahoma|2026-11-12T23:34:05.000Z|2|Ex-Oklahoma death row inmate pleads guilty to lesser charge"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+		},
+		"cluster-usa-pope-peru-pope-peru": {
+			"candidateId": "cluster-usa-pope + peru",
+			"label": "pope + peru",
+			"latestAt": "2026-11-12T22:06:20.000Z",
+			"startedAt": "2026-11-12T19:26:48.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"pope",
+				"peru"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"CBS News"
+			],
+			"titles": [
+				"After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women",
+				"Pope declares Peru his \"homeland\" in final leg of South America trip"
+			],
+			"entityFirstSeenAt": "2026-11-13T00:00:48.749Z",
+			"entityLastCandidateAt": "2026-11-12T22:06:20.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "pope + peru",
+					"latestAt": "2026-11-12T22:06:20.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women",
+						"Pope declares Peru his \"homeland\" in final leg of South America trip"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-pope + peru|2026-11-12T22:06:20.000Z|2|After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T00:00:48.749Z"
+		},
+		"cluster-spain-psoe-begona-psoe-begona": {
+			"candidateId": "cluster-spain-psoe + begona",
+			"label": "psoe + begona",
+			"latestAt": "2026-11-12T23:09:17.000Z",
+			"startedAt": "2026-11-12T18:57:33.000Z",
+			"itemCount": 5,
+			"sourceCount": 4,
+			"terms": [
+				"psoe",
+				"begona"
+			],
+			"sources": [
+				"El País",
+				"El Mundo",
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)",
+				"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
+				"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña",
+				"Begoña Gómez participa por primera vez en un mitin del PSOE: «Me habéis dado el aliento para continuar»",
+				"Begoña Gómez interviene por primera vez en un mitin del PSOE: «Es la hora las mujeres»"
+			],
+			"entityFirstSeenAt": "2026-11-13T01:00:47.794Z",
+			"entityLastCandidateAt": "2026-11-12T23:09:17.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "psoe + begona",
+					"latestAt": "2026-11-12T23:09:17.000Z",
+					"itemCount": 5,
+					"sourceCount": 4,
+					"headlines": [
+						"Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)",
+						"Begoña Gómez se estrena en un mitin del PSOE para captar el voto de las mujeres",
+						"Abascal señala que Sánchez es \"chusma\" por darle voz a Begoña Gómez en el inicio de la campaña"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-psoe + begona|2026-11-12T23:09:17.000Z|5|Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
+		},
+		"cluster-spain-sanchez-feijoo-sanchez-feijoo": {
+			"candidateId": "cluster-spain-sanchez + feijoo",
+			"label": "sanchez + feijoo",
+			"latestAt": "2026-11-13T00:27:22.000Z",
+			"startedAt": "2026-11-12T21:26:10.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"sanchez",
+				"feijoo"
+			],
+			"sources": [
+				"El Mundo",
+				"El País"
+			],
+			"titles": [
+				"Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\"",
+				"Feijóo se presenta como “gestor” para “resolver los problemas” frente al “saqueo” de Sánchez"
+			],
+			"entityFirstSeenAt": "2026-11-13T01:00:47.794Z",
+			"entityLastCandidateAt": "2026-11-13T00:27:22.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "sanchez + feijoo",
+					"latestAt": "2026-11-13T00:27:22.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\"",
+						"Feijóo se presenta como “gestor” para “resolver los problemas” frente al “saqueo” de Sánchez"
+					],
+					"sources": [
+						"El Mundo",
+						"El País"
+					],
+					"eventId": "cluster-spain-sanchez + feijoo|2026-11-13T00:27:22.000Z|2|Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\""
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T01:00:47.794Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-us-2026-11-13T00:00:48.749Z",
+		"id": "local-us-2026-11-13T01:00:47.794Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-13T00:00:48.749Z",
-		"finishedAt": "2026-11-13T00:04:58.288Z",
-		"signalsCandidate": 10,
-		"signalsSelected": 10,
+		"startedAt": "2026-11-13T01:00:47.794Z",
+		"finishedAt": "2026-11-13T01:04:36.800Z",
+		"signalsCandidate": 9,
+		"signalsSelected": 9,
 		"signalsProcessed": 0,
-		"cacheHits": 5,
-		"skippedByConfig": 10,
+		"cacheHits": 6,
+		"skippedByConfig": 9,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -15649,11 +15778,11 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 5,
+			"cacheHits": 6,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 299,
-			"retainedByTtl": 289,
+			"retained": 300,
+			"retainedByTtl": 291,
 			"retiredByTtl": 0
 		},
 		"costUsd": 0

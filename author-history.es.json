@@ -1,10 +1,16 @@
 {
-	"updatedAt": "2026-11-13T00:00:48.749Z",
+	"updatedAt": "2026-11-13T01:00:47.794Z",
 	"feedProfile": "es",
 	"retentionDays": 90,
 	"totalAuthors": 80,
-	"totalBylinedItems": 414,
+	"totalBylinedItems": 415,
 	"runs": [
+		{
+			"at": "2026-11-13T01:00:47.794Z",
+			"itemCount": 120,
+			"bylinedItemCount": 65,
+			"authorCount": 80
+		},
 		{
 			"at": "2026-11-13T00:00:48.749Z",
 			"itemCount": 120,
@@ -177,12 +183,6 @@
 			"at": "2026-11-09T13:36:18.901Z",
 			"itemCount": 120,
 			"bylinedItemCount": 49,
-			"authorCount": 80
-		},
-		{
-			"at": "2026-11-09T11:31:49.044Z",
-			"itemCount": 120,
-			"bylinedItemCount": 51,
 			"authorCount": 80
 		}
 	],
@@ -4822,7 +4822,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 104,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-09T06:25:32.000Z",
 			"latestAt": "2026-11-12T22:15:42.000Z",
 			"daysActive": 4,
@@ -6248,6 +6248,84 @@
 			]
 		},
 		{
+			"id": "https://www.diariovasco.com/autor/iker-elduayen-6950.html",
+			"name": "Iker Elduayen",
+			"source": "El Diario Vasco",
+			"profileUrl": "https://www.diariovasco.com/autor/iker-elduayen-6950.html",
+			"itemCount": 3,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 92,
+			"confidence": "high",
+			"firstSeenAt": "2026-11-09T23:17:24.000Z",
+			"latestAt": "2026-11-12T23:13:57.000Z",
+			"daysActive": 3,
+			"categories": [
+				"local"
+			],
+			"sources": [
+				"El Diario Vasco"
+			],
+			"examples": [
+				{
+					"key": "https://www.diariovasco.com/culturas/juan-echanove-teatro-extincion-raza-humana-cultura-20261113193837-nt.html?ref=lootura.com",
+					"title": "Juan Echanove: «El teatro morirá con la extinción de la raza humana, ni antes ni después»",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/culturas/juan-echanove-teatro-extincion-raza-humana-cultura-20261113193837-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T23:13:57.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?ref=lootura.com",
+					"title": "Sylvester Stallone, el guionista que con 'Rocky' enseñó a encajar los golpes",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T23:17:40.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/culturas/libros/elvira-minguez-san-sebastian-leer-condena-marioneta-20261110200358-nt.html?ref=lootura.com",
+					"title": "Elvira Mínguez: «Si renunciamos a leer estamos condenados a que nos manejen como a marionetas»",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/culturas/libros/elvira-minguez-san-sebastian-leer-condena-marioneta-20261110200358-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T23:17:24.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.diariovasco.com/culturas/juan-echanove-teatro-extincion-raza-humana-cultura-20261113193837-nt.html?ref=lootura.com",
+					"title": "Juan Echanove: «El teatro morirá con la extinción de la raza humana, ni antes ni después»",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/culturas/juan-echanove-teatro-extincion-raza-humana-cultura-20261113193837-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T23:13:57.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?ref=lootura.com",
+					"title": "Sylvester Stallone, el guionista que con 'Rocky' enseñó a encajar los golpes",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T23:17:40.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/culturas/libros/elvira-minguez-san-sebastian-leer-condena-marioneta-20261110200358-nt.html?ref=lootura.com",
+					"title": "Elvira Mínguez: «Si renunciamos a leer estamos condenados a que nos manejen como a marionetas»",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/culturas/libros/elvira-minguez-san-sebastian-leer-condena-marioneta-20261110200358-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T23:17:24.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			]
+		},
+		{
 			"id": "el correo::fernando romero",
 			"name": "Fernando Romero",
 			"source": "El Correo",
@@ -7382,66 +7460,6 @@
 					"source": "El Diario Vasco",
 					"href": "https://www.diariovasco.com/sociedad/nueva-norma-ryanair-hacerte-perder-vuelo-conoces-20261111123829-nt.html?utm_source=lootura.com&ref=lootura.com",
 					"publishedAt": "2026-11-11T11:38:30.000Z",
-					"category": "local",
-					"weight": 4
-				}
-			]
-		},
-		{
-			"id": "https://www.diariovasco.com/autor/iker-elduayen-6950.html",
-			"name": "Iker Elduayen",
-			"source": "El Diario Vasco",
-			"profileUrl": "https://www.diariovasco.com/autor/iker-elduayen-6950.html",
-			"itemCount": 2,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 72,
-			"confidence": "high",
-			"firstSeenAt": "2026-11-09T23:17:24.000Z",
-			"latestAt": "2026-11-09T23:17:40.000Z",
-			"daysActive": 1,
-			"categories": [
-				"local"
-			],
-			"sources": [
-				"El Diario Vasco"
-			],
-			"examples": [
-				{
-					"key": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?ref=lootura.com",
-					"title": "Sylvester Stallone, el guionista que con 'Rocky' enseñó a encajar los golpes",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T23:17:40.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/culturas/libros/elvira-minguez-san-sebastian-leer-condena-marioneta-20261110200358-nt.html?ref=lootura.com",
-					"title": "Elvira Mínguez: «Si renunciamos a leer estamos condenados a que nos manejen como a marionetas»",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/culturas/libros/elvira-minguez-san-sebastian-leer-condena-marioneta-20261110200358-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T23:17:24.000Z",
-					"category": "local",
-					"weight": 4
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?ref=lootura.com",
-					"title": "Sylvester Stallone, el guionista que con 'Rocky' enseñó a encajar los golpes",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/culturas/cine/sylvester-stallone-rocky-cine-pelicula-libro-estreno-20261110193121-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T23:17:40.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/culturas/libros/elvira-minguez-san-sebastian-leer-condena-marioneta-20261110200358-nt.html?ref=lootura.com",
-					"title": "Elvira Mínguez: «Si renunciamos a leer estamos condenados a que nos manejen como a marionetas»",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/culturas/libros/elvira-minguez-san-sebastian-leer-condena-marioneta-20261110200358-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T23:17:24.000Z",
 					"category": "local",
 					"weight": 4
 				}
