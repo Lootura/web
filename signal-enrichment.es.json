@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-13T13:50:49.929Z",
+	"updatedAt": "2026-11-13T14:25:49.198Z",
 	"entries": {
 		"cluster-spain-latin-grammy-latin-grammy": {
 			"candidateId": "cluster-spain-latin + grammy",
@@ -67,176 +67,86 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
 		},
-		"cluster-spain-campana-electoral-campana-electoral": {
-			"candidateId": "cluster-spain-campana + electoral",
-			"label": "campana + electoral",
-			"latestAt": "2026-11-13T13:50:17.000Z",
-			"startedAt": "2026-11-13T12:09:22.000Z",
-			"itemCount": 4,
-			"sourceCount": 4,
-			"terms": [
-				"campana",
-				"electoral"
-			],
-			"sources": [
-				"La Razón",
-				"The Objective",
-				"Cadena SER",
-				"El Mundo"
-			],
-			"titles": [
-				"Elecciones generales 29N, en directo: arranca la campaña electoral con los primeros mítines de PSOE, PP, Vox y Frente Amplio",
-				"AP Institute celebra el primer debate electoral con jóvenes de PP, PSOE, Vox y Frente Amplio",
-				"Francina Armengol sitúa el acceso a la vivienda como prioridad absoluta en el primer día de campaña electoral",
-				"El Gobierno inicia el camino para revalorizar las pensiones en el primer día de campaña electoral"
-			],
-			"entityFirstSeenAt": "2026-11-13T13:50:49.929Z",
-			"entityLastCandidateAt": "2026-11-13T13:50:17.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T13:50:49.929Z",
-					"label": "campana + electoral",
-					"latestAt": "2026-11-13T13:50:17.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Elecciones generales 29N, en directo: arranca la campaña electoral con los primeros mítines de PSOE, PP, Vox y Frente Amplio",
-						"AP Institute celebra el primer debate electoral con jóvenes de PP, PSOE, Vox y Frente Amplio",
-						"Francina Armengol sitúa el acceso a la vivienda como prioridad absoluta en el primer día de campaña electoral"
-					],
-					"sources": [
-						"La Razón",
-						"The Objective",
-						"Cadena SER"
-					],
-					"eventId": "cluster-spain-campana + electoral|2026-11-13T13:50:17.000Z|4|Elecciones generales 29N, en directo: arranca la campaña electoral con los primeros mítines de PSOE, PP, Vox y Frente Amplio"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
-		},
-		"cluster-spain-pero-campana-pero-campana": {
-			"candidateId": "cluster-spain-pero + campana",
-			"label": "pero + campana",
-			"latestAt": "2026-11-13T13:22:15.000Z",
+		"cluster-spain-jordi-wild-jordi-wild": {
+			"candidateId": "cluster-spain-jordi + wild",
+			"label": "jordi + wild",
+			"latestAt": "2026-11-13T13:36:28.000Z",
 			"startedAt": "2026-11-13T04:45:01.000Z",
-			"itemCount": 5,
+			"itemCount": 7,
 			"sourceCount": 3,
 			"terms": [
-				"pero",
-				"campana"
+				"jordi",
+				"wild"
 			],
 			"sources": [
+				"El País",
 				"El Mundo",
-				"El Correo",
-				"El País"
+				"El Correo"
 			],
 			"titles": [
+				"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”",
 				"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
 				"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
 				"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
 				"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas financiadas con fondos públicos»",
+				"Colau, en la entrevista con Jordi Wild: «La derecha ha identificado mejor que Sánchez el cabreo de mucha gente»",
 				"Arranca la campaña con el plantón de Abascal a Jordi Wild: “Todo el efecto positivo que había conseguido con Broncano se ha diluido”"
 			],
-			"entityFirstSeenAt": "2026-11-13T13:50:49.929Z",
-			"entityLastCandidateAt": "2026-11-13T13:22:15.000Z",
+			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityLastCandidateAt": "2026-11-13T13:36:28.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T13:50:49.929Z",
-					"label": "pero + campana",
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "jordi + wild",
+					"latestAt": "2026-11-13T13:36:28.000Z",
+					"itemCount": 7,
+					"sourceCount": 3,
+					"headlines": [
+						"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”",
+						"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
+						"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-jordi + wild|2026-11-13T13:36:28.000Z|7|Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”"
+				},
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "jordi + wild",
 					"latestAt": "2026-11-13T13:22:15.000Z",
 					"itemCount": 5,
 					"sourceCount": 3,
 					"headlines": [
 						"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
-						"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
-						"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\""
+						"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas»",
+						"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores"
 					],
 					"sources": [
 						"El Mundo",
 						"El Correo",
 						"El País"
 					],
-					"eventId": "cluster-spain-pero + campana|2026-11-13T13:22:15.000Z|5|Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta"
+					"eventId": "cluster-spain-jordi + wild|2026-11-13T13:22:15.000Z|5|Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
 		},
-		"cluster-spain-caida-mundial-caida-mundial": {
-			"candidateId": "cluster-spain-caida + mundial",
-			"label": "caida + mundial",
-			"latestAt": "2026-11-13T13:47:24.000Z",
-			"startedAt": "2026-11-13T06:08:47.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"caida",
-				"mundial"
-			],
-			"sources": [
-				"Cadena SER",
-				"El Mundo",
-				"El Diario Vasco"
-			],
-			"titles": [
-				"Un experto de la UPV apunta a un error humano o un posible ciberataque en la caída global de Microsoft",
-				"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
-				"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
-			],
-			"entityFirstSeenAt": "2026-11-13T09:00:48.269Z",
-			"entityLastCandidateAt": "2026-11-13T13:47:24.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T13:50:49.929Z",
-					"label": "caida + mundial",
-					"latestAt": "2026-11-13T13:47:24.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Un experto de la UPV apunta a un error humano o un posible ciberataque en la caída global de Microsoft",
-						"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
-						"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
-					],
-					"sources": [
-						"Cadena SER",
-						"El Mundo",
-						"El Diario Vasco"
-					],
-					"eventId": "cluster-spain-caida + mundial|2026-11-13T13:47:24.000Z|3|Un experto de la UPV apunta a un error humano o un posible ciberataque en la caída global de Microsoft"
-				},
-				{
-					"observedAt": "2026-11-13T09:00:48.269Z",
-					"label": "caida + mundial",
-					"latestAt": "2026-11-13T07:21:44.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
-						"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
-					],
-					"sources": [
-						"El Mundo",
-						"El Diario Vasco"
-					],
-					"eventId": "cluster-spain-caida + mundial|2026-11-13T07:21:44.000Z|2|Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
-		},
-		"cluster-spain-casa-renfe-casa-renfe": {
-			"candidateId": "cluster-spain-casa + renfe",
-			"label": "casa + renfe",
+		"cluster-spain-casa-cuerpo-casa-cuerpo": {
+			"candidateId": "cluster-spain-casa + cuerpo",
+			"label": "casa + cuerpo",
 			"latestAt": "2026-11-13T13:14:52.000Z",
 			"startedAt": "2026-11-13T12:51:20.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
 				"casa",
-				"renfe"
+				"cuerpo"
 			],
 			"sources": [
 				"El Correo",
@@ -246,12 +156,12 @@
 				"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
 				"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
 			],
-			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
 			"entityLastCandidateAt": "2026-11-13T13:14:52.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T13:35:22.142Z",
-					"label": "casa + renfe",
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "casa + cuerpo",
 					"latestAt": "2026-11-13T13:14:52.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -263,11 +173,11 @@
 						"El Correo",
 						"El Mundo"
 					],
-					"eventId": "cluster-spain-casa + renfe|2026-11-13T13:14:52.000Z|2|Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
+					"eventId": "cluster-spain-casa + cuerpo|2026-11-13T13:14:52.000Z|2|Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
 		},
 		"cluster-spain-mundial-sancet-mundial-sancet": {
 			"candidateId": "cluster-spain-mundial + sancet",
@@ -309,18 +219,60 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
 		},
-		"cluster-spain-hospital-grave-hospital-grave": {
-			"candidateId": "cluster-spain-hospital + grave",
-			"label": "hospital + grave",
+		"cluster-spain-mundial-horas-mundial-horas": {
+			"candidateId": "cluster-spain-mundial + horas",
+			"label": "mundial + horas",
+			"latestAt": "2026-11-13T07:21:44.000Z",
+			"startedAt": "2026-11-13T06:08:47.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"mundial",
+				"horas"
+			],
+			"sources": [
+				"El Mundo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+				"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
+			],
+			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
+			"entityLastCandidateAt": "2026-11-13T07:21:44.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "mundial + horas",
+					"latestAt": "2026-11-13T07:21:44.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+						"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
+					],
+					"sources": [
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-mundial + horas|2026-11-13T07:21:44.000Z|2|Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+		},
+		"cluster-spain-grave-edificio-grave-edificio": {
+			"candidateId": "cluster-spain-grave + edificio",
+			"label": "grave + edificio",
 			"latestAt": "2026-11-13T06:40:29.000Z",
 			"startedAt": "2026-11-13T05:48:13.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"hospital",
-				"grave"
+				"grave",
+				"edificio"
 			],
 			"sources": [
 				"El Diario Vasco",
@@ -330,12 +282,12 @@
 				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
 				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»"
 			],
-			"entityFirstSeenAt": "2026-11-13T13:50:49.929Z",
+			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
 			"entityLastCandidateAt": "2026-11-13T06:40:29.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T13:50:49.929Z",
-					"label": "hospital + grave",
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "grave + edificio",
 					"latestAt": "2026-11-13T06:40:29.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -347,21 +299,21 @@
 						"El Diario Vasco",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-hospital + grave|2026-11-13T06:40:29.000Z|2|22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»"
+					"eventId": "cluster-spain-grave + edificio|2026-11-13T06:40:29.000Z|2|22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
 		},
-		"cluster-spain-enfermera-veces-enfermera-veces": {
-			"candidateId": "cluster-spain-enfermera + veces",
-			"label": "enfermera + veces",
+		"cluster-spain-osakidetza-veces-osakidetza-veces": {
+			"candidateId": "cluster-spain-osakidetza + veces",
+			"label": "osakidetza + veces",
 			"latestAt": "2026-11-13T05:43:48.000Z",
 			"startedAt": "2026-11-12T23:41:08.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
-				"enfermera",
+				"osakidetza",
 				"veces"
 			],
 			"sources": [
@@ -372,12 +324,12 @@
 				"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
 				"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
 			],
-			"entityFirstSeenAt": "2026-11-13T13:50:49.929Z",
+			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
 			"entityLastCandidateAt": "2026-11-13T05:43:48.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T13:50:49.929Z",
-					"label": "enfermera + veces",
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "osakidetza + veces",
 					"latestAt": "2026-11-13T05:43:48.000Z",
 					"itemCount": 2,
 					"sourceCount": 2,
@@ -389,11 +341,11 @@
 						"El Diario Vasco",
 						"El Correo"
 					],
-					"eventId": "cluster-spain-enfermera + veces|2026-11-13T05:43:48.000Z|2|Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo"
+					"eventId": "cluster-spain-osakidetza + veces|2026-11-13T05:43:48.000Z|2|Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -819,7 +771,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
 		"cluster-usa-trump-house-trump-house": {
 			"candidateId": "cluster-usa-trump + house",
@@ -12424,8 +12376,8 @@
 			"label": "huang + jensen",
 			"latestAt": "2026-11-13T12:18:37.000Z",
 			"startedAt": "2026-11-12T18:54:11.000Z",
-			"itemCount": 10,
-			"sourceCount": 7,
+			"itemCount": 9,
+			"sourceCount": 6,
 			"terms": [
 				"huang",
 				"jensen"
@@ -12436,8 +12388,7 @@
 				"Politico",
 				"The New York Times Politics",
 				"NPR",
-				"The New York Times",
-				"CBS News"
+				"The New York Times"
 			],
 			"titles": [
 				"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets",
@@ -12447,13 +12398,30 @@
 				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
 				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
 				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"What could happen to AI development and chip production as Huang resigns from Nvidia",
-				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
-				"I Wrote Jensen Huang’s Biography. Here’s What Led to His Downfall."
+				"I Wrote Jensen Huang’s Biography. Here’s What Led to His Downfall.",
+				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO"
 			],
 			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
 			"entityLastCandidateAt": "2026-11-13T12:18:37.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:50:49.929Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-13T12:18:37.000Z",
+					"itemCount": 9,
+					"sourceCount": 6,
+					"headlines": [
+						"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets",
+						"Let’s talk about Jensen Huang’s many affairs!",
+						"Jensen Huang’s Washington fallout"
+					],
+					"sources": [
+						"NBC News Politics",
+						"The Verge",
+						"Politico"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-13T12:18:37.000Z|9|Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets"
+				},
 				{
 					"observedAt": "2026-11-13T13:35:22.142Z",
 					"label": "huang + jensen",
@@ -12510,7 +12478,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
 		"cluster-usa-nvidia-mississippi-nvidia-mississippi": {
 			"candidateId": "cluster-usa-nvidia + mississippi",
@@ -14017,7 +13985,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
 		"cluster-usa-pope-emotional-pope-emotional": {
 			"candidateId": "cluster-usa-pope + emotional",
@@ -14874,7 +14842,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
 		"cluster-usa-kansas-charges-kansas-charges": {
 			"candidateId": "cluster-usa-kansas + charges",
@@ -15008,20 +14976,38 @@
 			"sources": [
 				"The New York Times",
 				"The Verge",
-				"NBC News",
 				"CBS News",
-				"NPR"
+				"NPR",
+				"NBC News"
 			],
 			"titles": [
-				"Outlook, Teams and More Microsoft Programs Disrupted by Outage",
+				"Microsoft Races to Fix Outage Disrupting Outlook for a Second Day",
 				"Microsoft’s massive Outlook outage continues",
-				"Microsoft Scrambles to Find Fix Massive Global Outage",
 				"Microsoft battling major worldwide outage",
-				"Is Outlook down? Widespread outage hits Microsoft email and other apps"
+				"Is Outlook down? Widespread outage hits Microsoft email and other apps",
+				"Microsoft Scrambles to Find Fix Massive Global Outage"
 			],
 			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
 			"entityLastCandidateAt": "2026-11-13T12:56:32.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:50:49.929Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T12:56:32.000Z",
+					"itemCount": 5,
+					"sourceCount": 5,
+					"headlines": [
+						"Microsoft Races to Fix Outage Disrupting Outlook for a Second Day",
+						"Microsoft’s massive Outlook outage continues",
+						"Microsoft battling major worldwide outage"
+					],
+					"sources": [
+						"The New York Times",
+						"The Verge",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T12:56:32.000Z|5|Microsoft Races to Fix Outage Disrupting Outlook for a Second Day"
+				},
 				{
 					"observedAt": "2026-11-13T13:35:22.142Z",
 					"label": "microsoft + outage",
@@ -15114,7 +15100,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
 		"cluster-usa-senate-leader-senate-leader": {
 			"candidateId": "cluster-usa-senate + leader",
@@ -15635,6 +15621,68 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
 		},
+		"cluster-spain-caida-mundial-caida-mundial": {
+			"candidateId": "cluster-spain-caida + mundial",
+			"label": "caida + mundial",
+			"latestAt": "2026-11-13T13:47:24.000Z",
+			"startedAt": "2026-11-13T06:08:47.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"caida",
+				"mundial"
+			],
+			"sources": [
+				"Cadena SER",
+				"El Mundo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"Un experto de la UPV apunta a un error humano o un posible ciberataque en la caída global de Microsoft",
+				"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+				"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
+			],
+			"entityFirstSeenAt": "2026-11-13T09:00:48.269Z",
+			"entityLastCandidateAt": "2026-11-13T13:47:24.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:50:49.929Z",
+					"label": "caida + mundial",
+					"latestAt": "2026-11-13T13:47:24.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Un experto de la UPV apunta a un error humano o un posible ciberataque en la caída global de Microsoft",
+						"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+						"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
+					],
+					"sources": [
+						"Cadena SER",
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-caida + mundial|2026-11-13T13:47:24.000Z|3|Un experto de la UPV apunta a un error humano o un posible ciberataque en la caída global de Microsoft"
+				},
+				{
+					"observedAt": "2026-11-13T09:00:48.269Z",
+					"label": "caida + mundial",
+					"latestAt": "2026-11-13T07:21:44.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+						"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
+					],
+					"sources": [
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-caida + mundial|2026-11-13T07:21:44.000Z|2|Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+		},
 		"cluster-spain-hospital-ellos-hospital-ellos": {
 			"candidateId": "cluster-spain-hospital + ellos",
 			"label": "hospital + ellos",
@@ -15677,53 +15725,47 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
 		},
-		"cluster-spain-jordi-wild-jordi-wild": {
-			"candidateId": "cluster-spain-jordi + wild",
-			"label": "jordi + wild",
-			"latestAt": "2026-11-13T13:22:15.000Z",
-			"startedAt": "2026-11-13T04:45:01.000Z",
-			"itemCount": 5,
-			"sourceCount": 3,
+		"cluster-spain-casa-renfe-casa-renfe": {
+			"candidateId": "cluster-spain-casa + renfe",
+			"label": "casa + renfe",
+			"latestAt": "2026-11-13T13:14:52.000Z",
+			"startedAt": "2026-11-13T12:51:20.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
 			"terms": [
-				"jordi",
-				"wild"
+				"casa",
+				"renfe"
 			],
 			"sources": [
-				"El Mundo",
 				"El Correo",
-				"El País"
+				"El Mundo"
 			],
 			"titles": [
-				"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
-				"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas»",
-				"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
-				"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
-				"Arranca la campaña con el plantón de Abascal a Jordi Wild: “Todo el efecto positivo que había conseguido con Broncano se ha diluido”"
+				"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
+				"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
 			],
 			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
-			"entityLastCandidateAt": "2026-11-13T13:22:15.000Z",
+			"entityLastCandidateAt": "2026-11-13T13:14:52.000Z",
 			"entityTimeline": [
 				{
 					"observedAt": "2026-11-13T13:35:22.142Z",
-					"label": "jordi + wild",
-					"latestAt": "2026-11-13T13:22:15.000Z",
-					"itemCount": 5,
-					"sourceCount": 3,
+					"label": "casa + renfe",
+					"latestAt": "2026-11-13T13:14:52.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
 					"headlines": [
-						"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
-						"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas»",
-						"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores"
+						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
+						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
 					],
 					"sources": [
-						"El Mundo",
 						"El Correo",
-						"El País"
+						"El Mundo"
 					],
-					"eventId": "cluster-spain-jordi + wild|2026-11-13T13:22:15.000Z|5|Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta"
+					"eventId": "cluster-spain-casa + renfe|2026-11-13T13:14:52.000Z|2|Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
 		"cluster-spain-mundial-caida-mundial-caida": {
 			"candidateId": "cluster-spain-mundial + caida",
@@ -15897,7 +15939,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
 		"cluster-usa-united-mauricio-united-mauricio": {
 			"candidateId": "cluster-usa-united + mauricio",
@@ -15943,7 +15985,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
 		"cluster-usa-mississippi-first-mississippi-first": {
 			"candidateId": "cluster-usa-mississippi + first",
@@ -15985,20 +16027,200 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+		},
+		"cluster-spain-campana-electoral-campana-electoral": {
+			"candidateId": "cluster-spain-campana + electoral",
+			"label": "campana + electoral",
+			"latestAt": "2026-11-13T13:50:17.000Z",
+			"startedAt": "2026-11-13T12:09:22.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"campana",
+				"electoral"
+			],
+			"sources": [
+				"La Razón",
+				"The Objective",
+				"Cadena SER",
+				"El Mundo"
+			],
+			"titles": [
+				"Elecciones generales 29N, en directo: arranca la campaña electoral con los primeros mítines de PSOE, PP, Vox y Frente Amplio",
+				"AP Institute celebra el primer debate electoral con jóvenes de PP, PSOE, Vox y Frente Amplio",
+				"Francina Armengol sitúa el acceso a la vivienda como prioridad absoluta en el primer día de campaña electoral",
+				"El Gobierno inicia el camino para revalorizar las pensiones en el primer día de campaña electoral"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:50:49.929Z",
+			"entityLastCandidateAt": "2026-11-13T13:50:17.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:50:49.929Z",
+					"label": "campana + electoral",
+					"latestAt": "2026-11-13T13:50:17.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Elecciones generales 29N, en directo: arranca la campaña electoral con los primeros mítines de PSOE, PP, Vox y Frente Amplio",
+						"AP Institute celebra el primer debate electoral con jóvenes de PP, PSOE, Vox y Frente Amplio",
+						"Francina Armengol sitúa el acceso a la vivienda como prioridad absoluta en el primer día de campaña electoral"
+					],
+					"sources": [
+						"La Razón",
+						"The Objective",
+						"Cadena SER"
+					],
+					"eventId": "cluster-spain-campana + electoral|2026-11-13T13:50:17.000Z|4|Elecciones generales 29N, en directo: arranca la campaña electoral con los primeros mítines de PSOE, PP, Vox y Frente Amplio"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+		},
+		"cluster-spain-pero-campana-pero-campana": {
+			"candidateId": "cluster-spain-pero + campana",
+			"label": "pero + campana",
+			"latestAt": "2026-11-13T13:22:15.000Z",
+			"startedAt": "2026-11-13T04:45:01.000Z",
+			"itemCount": 5,
+			"sourceCount": 3,
+			"terms": [
+				"pero",
+				"campana"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo",
+				"El País"
+			],
+			"titles": [
+				"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
+				"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
+				"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
+				"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas financiadas con fondos públicos»",
+				"Arranca la campaña con el plantón de Abascal a Jordi Wild: “Todo el efecto positivo que había conseguido con Broncano se ha diluido”"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:50:49.929Z",
+			"entityLastCandidateAt": "2026-11-13T13:22:15.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:50:49.929Z",
+					"label": "pero + campana",
+					"latestAt": "2026-11-13T13:22:15.000Z",
+					"itemCount": 5,
+					"sourceCount": 3,
+					"headlines": [
+						"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
+						"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
+						"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\""
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo",
+						"El País"
+					],
+					"eventId": "cluster-spain-pero + campana|2026-11-13T13:22:15.000Z|5|Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+		},
+		"cluster-spain-hospital-grave-hospital-grave": {
+			"candidateId": "cluster-spain-hospital + grave",
+			"label": "hospital + grave",
+			"latestAt": "2026-11-13T06:40:29.000Z",
+			"startedAt": "2026-11-13T05:48:13.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"hospital",
+				"grave"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
+				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:50:49.929Z",
+			"entityLastCandidateAt": "2026-11-13T06:40:29.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:50:49.929Z",
+					"label": "hospital + grave",
+					"latestAt": "2026-11-13T06:40:29.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
+						"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-hospital + grave|2026-11-13T06:40:29.000Z|2|22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+		},
+		"cluster-spain-enfermera-veces-enfermera-veces": {
+			"candidateId": "cluster-spain-enfermera + veces",
+			"label": "enfermera + veces",
+			"latestAt": "2026-11-13T05:43:48.000Z",
+			"startedAt": "2026-11-12T23:41:08.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"enfermera",
+				"veces"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+				"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:50:49.929Z",
+			"entityLastCandidateAt": "2026-11-13T05:43:48.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:50:49.929Z",
+					"label": "enfermera + veces",
+					"latestAt": "2026-11-13T05:43:48.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+						"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-enfermera + veces|2026-11-13T05:43:48.000Z|2|Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-es-2026-11-13T13:50:49.929Z",
+		"id": "local-es-2026-11-13T14:25:49.198Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-13T13:50:49.929Z",
-		"finishedAt": "2026-11-13T13:52:59.000Z",
-		"signalsCandidate": 8,
-		"signalsSelected": 6,
+		"startedAt": "2026-11-13T14:25:49.198Z",
+		"finishedAt": "2026-11-13T14:28:11.325Z",
+		"signalsCandidate": 7,
+		"signalsSelected": 4,
 		"signalsProcessed": 0,
-		"cacheHits": 4,
-		"skippedByConfig": 6,
+		"cacheHits": 3,
+		"skippedByConfig": 4,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -16008,12 +16230,12 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 4,
+			"cacheHits": 3,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 298,
-			"retainedByTtl": 290,
-			"retiredByTtl": 2
+			"retained": 302,
+			"retainedByTtl": 295,
+			"retiredByTtl": 0
 		},
 		"costUsd": 0
 	}

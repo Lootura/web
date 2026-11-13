@@ -2,41 +2,61 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-13T13:50:49.929Z",
+	"updatedAt": "2026-11-13T14:25:49.198Z",
 	"entries": {
 		"cluster-usa-huang-jensen-huang-jensen": {
 			"candidateId": "cluster-usa-huang + jensen",
 			"label": "huang + jensen",
-			"latestAt": "2026-11-13T12:18:37.000Z",
+			"latestAt": "2026-11-13T14:10:40.000Z",
 			"startedAt": "2026-11-12T18:54:11.000Z",
-			"itemCount": 9,
-			"sourceCount": 6,
+			"itemCount": 10,
+			"sourceCount": 7,
 			"terms": [
 				"huang",
 				"jensen"
 			],
 			"sources": [
+				"CBS News",
 				"NBC News Politics",
+				"The New York Times",
 				"The Verge",
 				"Politico",
 				"The New York Times Politics",
-				"NPR",
-				"The New York Times"
+				"NPR"
 			],
 			"titles": [
+				"Search for next Nvidia CEO begins after Jensen Huang's resignation",
 				"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets",
+				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
 				"Let’s talk about Jensen Huang’s many affairs!",
 				"Jensen Huang’s Washington fallout",
 				"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
 				"What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
 				"Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
 				"Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-				"I Wrote Jensen Huang’s Biography. Here’s What Led to His Downfall.",
-				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO"
+				"I Wrote Jensen Huang’s Biography. Here’s What Led to His Downfall."
 			],
 			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-13T12:18:37.000Z",
+			"entityLastCandidateAt": "2026-11-13T14:10:40.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-13T14:10:40.000Z",
+					"itemCount": 10,
+					"sourceCount": 7,
+					"headlines": [
+						"Search for next Nvidia CEO begins after Jensen Huang's resignation",
+						"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets",
+						"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-13T14:10:40.000Z|10|Search for next Nvidia CEO begins after Jensen Huang's resignation"
+				},
 				{
 					"observedAt": "2026-11-13T13:50:49.929Z",
 					"label": "huang + jensen",
@@ -111,36 +131,56 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
 		},
 		"cluster-usa-microsoft-outage-microsoft-outage": {
 			"candidateId": "cluster-usa-microsoft + outage",
 			"label": "microsoft + outage",
-			"latestAt": "2026-11-13T12:56:32.000Z",
+			"latestAt": "2026-11-13T14:06:20.000Z",
 			"startedAt": "2026-11-13T01:26:24.000Z",
-			"itemCount": 5,
-			"sourceCount": 5,
+			"itemCount": 6,
+			"sourceCount": 6,
 			"terms": [
 				"microsoft",
 				"outage"
 			],
 			"sources": [
+				"TIME",
+				"CBS News",
 				"The New York Times",
 				"The Verge",
-				"CBS News",
 				"NPR",
 				"NBC News"
 			],
 			"titles": [
+				"Microsoft Struggles to Repair Worldwide Outage. Here's What You Need to Know",
+				"Microsoft says it is seeing \"continued recovery progress\" as it battles major worldwide outage",
 				"Microsoft Races to Fix Outage Disrupting Outlook for a Second Day",
 				"Microsoft’s massive Outlook outage continues",
-				"Microsoft battling major worldwide outage",
 				"Is Outlook down? Widespread outage hits Microsoft email and other apps",
 				"Microsoft Scrambles to Find Fix Massive Global Outage"
 			],
 			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T12:56:32.000Z",
+			"entityLastCandidateAt": "2026-11-13T14:06:20.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T14:06:20.000Z",
+					"itemCount": 6,
+					"sourceCount": 6,
+					"headlines": [
+						"Microsoft Struggles to Repair Worldwide Outage. Here's What You Need to Know",
+						"Microsoft says it is seeing \"continued recovery progress\" as it battles major worldwide outage",
+						"Microsoft Races to Fix Outage Disrupting Outlook for a Second Day"
+					],
+					"sources": [
+						"TIME",
+						"CBS News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T14:06:20.000Z|6|Microsoft Struggles to Repair Worldwide Outage. Here's What You Need to Know"
+				},
 				{
 					"observedAt": "2026-11-13T13:50:49.929Z",
 					"label": "microsoft + outage",
@@ -251,14 +291,14 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
 		},
 		"cluster-usa-building-brooklyn-building-brooklyn": {
 			"candidateId": "cluster-usa-building + brooklyn",
 			"label": "building + brooklyn",
 			"latestAt": "2026-11-13T13:23:46.000Z",
-			"startedAt": "2026-11-12T16:09:11.000Z",
-			"itemCount": 7,
+			"startedAt": "2026-11-12T18:15:00.000Z",
+			"itemCount": 6,
 			"sourceCount": 3,
 			"terms": [
 				"building",
@@ -275,12 +315,29 @@
 				"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
 				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
 				"Casualties continue to rise after Brooklyn building collapses",
-				"Video From Inside Brooklyn Building That Collapsed Shows Walls Caving In",
-				"Excavation Was Taking Place Next to Building in Brooklyn That Collapsed"
+				"Video From Inside Brooklyn Building That Collapsed Shows Walls Caving In"
 			],
 			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
 			"entityLastCandidateAt": "2026-11-13T13:23:46.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-13T13:23:46.000Z",
+					"itemCount": 6,
+					"sourceCount": 3,
+					"headlines": [
+						"How the Deadly Brooklyn Building Collapse Unfolded",
+						"Crews begin excavating site of building collapse in Brooklyn",
+						"Rescue Ends in Brooklyn After 8 Die in Building Collapse"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-building + brooklyn|2026-11-13T13:23:46.000Z|6|How the Deadly Brooklyn Building Collapse Unfolded"
+				},
 				{
 					"observedAt": "2026-11-13T13:35:22.142Z",
 					"label": "building + brooklyn",
@@ -373,15 +430,15 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
 		},
 		"cluster-usa-hollen-majority-hollen-majority": {
 			"candidateId": "cluster-usa-hollen + majority",
 			"label": "hollen + majority",
 			"latestAt": "2026-11-13T12:22:50.000Z",
-			"startedAt": "2026-11-13T02:10:00.000Z",
-			"itemCount": 4,
-			"sourceCount": 4,
+			"startedAt": "2026-11-13T03:52:25.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
 			"terms": [
 				"hollen",
 				"majority"
@@ -389,18 +446,34 @@
 			"sources": [
 				"NBC News Politics",
 				"The New York Times Politics",
-				"NPR Politics",
-				"CBS News"
+				"NPR Politics"
 			],
 			"titles": [
 				"Van Hollen Challenges Schumer for Senate Majority Leader",
 				"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-				"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
-				"Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader"
+				"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
 			],
 			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
 			"entityLastCandidateAt": "2026-11-13T12:22:50.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "hollen + majority",
+					"latestAt": "2026-11-13T12:22:50.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Van Hollen Challenges Schumer for Senate Majority Leader",
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
+					],
+					"sources": [
+						"NBC News Politics",
+						"The New York Times Politics",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-hollen + majority|2026-11-13T12:22:50.000Z|3|Van Hollen Challenges Schumer for Senate Majority Leader"
+				},
 				{
 					"observedAt": "2026-11-13T13:35:22.142Z",
 					"label": "hollen + majority",
@@ -421,53 +494,353 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
 		},
-		"cluster-usa-united-mauricio-united-mauricio": {
-			"candidateId": "cluster-usa-united + mauricio",
-			"label": "united + mauricio",
-			"latestAt": "2026-11-13T13:32:23.000Z",
-			"startedAt": "2026-11-13T12:02:00.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
+		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
+			"candidateId": "cluster-usa-nvidia + lutnick",
+			"label": "nvidia + lutnick",
+			"latestAt": "2026-11-13T14:02:13.000Z",
+			"startedAt": "2026-11-13T13:59:19.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
 			"terms": [
-				"united",
-				"mauricio"
+				"nvidia",
+				"lutnick"
 			],
 			"sources": [
-				"NPR",
-				"The Guardian US",
-				"ABC News"
+				"The New York Times World",
+				"CBS News"
 			],
 			"titles": [
-				"Manchester United names USMNT coach Mauricio Pochettino as its manager",
-				"Mauricio Pochettino’s switch from USA to Manchester United confirmed",
-				"Man United hires Mauricio Pochettino, who leaves US job with task of reviving team"
+				"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
+				"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
 			],
-			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
-			"entityLastCandidateAt": "2026-11-13T13:32:23.000Z",
+			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
+			"entityLastCandidateAt": "2026-11-13T14:02:13.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T13:35:22.142Z",
-					"label": "united + mauricio",
-					"latestAt": "2026-11-13T13:32:23.000Z",
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T14:02:13.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
+						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
+					],
+					"sources": [
+						"The New York Times World",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T14:02:13.000Z|2|Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew"
+				},
+				{
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T02:45:27.671Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
+						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
+					],
+					"sources": [
+						"NBC News Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T02:45:27.671Z|2|Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal"
+				},
+				{
+					"observedAt": "2026-11-13T03:00:48.096Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T02:45:27.671Z",
 					"itemCount": 3,
 					"sourceCount": 3,
 					"headlines": [
-						"Manchester United names USMNT coach Mauricio Pochettino as its manager",
-						"Mauricio Pochettino’s switch from USA to Manchester United confirmed",
-						"Man United hires Mauricio Pochettino, who leaves US job with task of reviving team"
+						"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
+						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
+						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
 					],
 					"sources": [
-						"NPR",
-						"The Guardian US",
-						"ABC News"
+						"NBC News Politics",
+						"The New York Times World",
+						"CBS News"
 					],
-					"eventId": "cluster-usa-united + mauricio|2026-11-13T13:32:23.000Z|3|Manchester United names USMNT coach Mauricio Pochettino as its manager"
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T02:45:27.671Z|3|Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal"
+				},
+				{
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "nvidia + lutnick",
+					"latestAt": "2026-11-13T01:28:40.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
+						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
+					],
+					"sources": [
+						"The New York Times World",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T01:28:40.000Z|2|Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+		},
+		"cluster-usa-mississippi-first-mississippi-first": {
+			"candidateId": "cluster-usa-mississippi + first",
+			"label": "mississippi + first",
+			"latestAt": "2026-11-13T07:20:24.000Z",
+			"startedAt": "2026-11-13T02:20:35.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"mississippi",
+				"first"
+			],
+			"sources": [
+				"The New York Times",
+				"CBS News"
+			],
+			"titles": [
+				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi",
+				"NAACP official on Mississippi electing Scott Colom as its first Black senator since the 1800s"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityLastCandidateAt": "2026-11-13T07:20:24.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "mississippi + first",
+					"latestAt": "2026-11-13T07:20:24.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi",
+						"NAACP official on Mississippi electing Scott Colom as its first Black senator since the 1800s"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-mississippi + first|2026-11-13T07:20:24.000Z|2|Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+		},
+		"cluster-usa-democrats-holscher-democrats-holscher": {
+			"candidateId": "cluster-usa-democrats + holscher",
+			"label": "democrats + holscher",
+			"latestAt": "2026-11-12T23:36:19.000Z",
+			"startedAt": "2026-11-12T23:16:10.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"democrats",
+				"holscher"
+			],
+			"sources": [
+				"NPR Politics",
+				"The New York Times"
+			],
+			"titles": [
+				"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+				"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats"
+			],
+			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
+			"entityLastCandidateAt": "2026-11-12T23:36:19.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "democrats + holscher",
+					"latestAt": "2026-11-12T23:36:19.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+						"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats"
+					],
+					"sources": [
+						"NPR Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-democrats + holscher|2026-11-12T23:36:19.000Z|2|Cindy Holscher wins in Kansas, holding governor's office for Democrats"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+		},
+		"cluster-usa-trump-midterm-trump-midterm": {
+			"candidateId": "cluster-usa-trump + midterm",
+			"label": "trump + midterm",
+			"latestAt": "2026-11-09T16:33:17.000Z",
+			"startedAt": "2026-11-09T11:45:25.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"trump",
+				"midterm"
+			],
+			"sources": [
+				"The New York Times",
+				"PBS NewsHour",
+				"CBS News",
+				"NPR Politics"
+			],
+			"titles": [
+				"Trump Veers Back Into Claims of Rigged Election, Questioning Midterm Results",
+				"Trump says his deportation policy 'might have been too tough' for midterm voters",
+				"Eye Opener: Trump reckons with midterm results",
+				"After midterm losses, Trump makes changes to his inner circle"
+			],
+			"entityFirstSeenAt": "2026-11-01T14:44:06.647Z",
+			"entityLastCandidateAt": "2026-11-09T16:33:17.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-09T18:21:05.029Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-09T16:33:17.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Trump Veers Back Into Claims of Rigged Election, Questioning Midterm Results",
+						"Trump says his deportation policy 'might have been too tough' for midterm voters",
+						"Eye Opener: Trump reckons with midterm results"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-09T16:33:17.000Z|4|Trump Veers Back Into Claims of Rigged Election, Questioning Midterm Results"
+				},
+				{
+					"observedAt": "2026-11-09T13:36:54.802Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-09T12:15:13.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Trump Blames Midterm Losses on Immigration: 'It Was Too Tough'",
+						"After midterm losses, Trump makes changes to his inner circle",
+						"Trump staffing changes post-midterms signal he's battle ready"
+					],
+					"sources": [
+						"NBC News Politics",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-09T12:15:13.000Z|3|Trump Blames Midterm Losses on Immigration: 'It Was Too Tough'"
+				},
+				{
+					"observedAt": "2026-11-06T01:55:40.131Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-05T22:28:50.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"How Democrats plan to investigate the Trump administration after their midterm wins",
+						"Trump administration held talks with Iran on deporting Iranians during the war, court documents show",
+						"How Trump Is Reacting to the Midterm Results"
+					],
+					"sources": [
+						"NPR Politics",
+						"PBS NewsHour",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-05T22:28:50.000Z|4|How Democrats plan to investigate the Trump administration after their midterm wins"
+				},
+				{
+					"observedAt": "2026-11-05T20:54:57.765Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-05T13:20:22.000Z",
+					"itemCount": 4,
+					"sourceCount": 2,
+					"headlines": [
+						"How Trump Is Reacting to the Midterm Results",
+						"Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections",
+						"Vance, in Break With Trump, Blames Iran War for Republicans’ 2026 Midterm Losses"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-05T13:20:22.000Z|4|How Trump Is Reacting to the Midterm Results"
+				},
+				{
+					"observedAt": "2026-11-05T13:43:50.499Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-05T13:20:22.000Z",
+					"itemCount": 8,
+					"sourceCount": 4,
+					"headlines": [
+						"How Trump Is Reacting to the Midterm Results",
+						"Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections",
+						"Vance, in Break With Trump, Blames Iran War for Republicans’ 2026 Midterm Losses"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"The New York Times World"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-05T13:20:22.000Z|8|How Trump Is Reacting to the Midterm Results"
+				},
+				{
+					"observedAt": "2026-11-05T04:15:42.487Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-05T04:11:05.000Z",
+					"itemCount": 12,
+					"sourceCount": 5,
+					"headlines": [
+						"Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections",
+						"Vance blames Iran war for midterm losses, Trump agrees but says Iran couldn't have nuke",
+						"Vance, in Break With Trump, Blames Iran War for Republicans’ 2026 Midterm Losses"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"CBS News",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-05T04:11:05.000Z|12|Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections"
+				},
+				{
+					"observedAt": "2026-11-04T23:00:23.472Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-04T22:26:37.000Z",
+					"itemCount": 16,
+					"sourceCount": 7,
+					"headlines": [
+						"Trump and Republicans Begin Pointing Fingers After Sweeping Midterms Losses",
+						"Vance blames Iran war for GOP's midterms defeat. Trump says he would 'do it again'",
+						"Trump touts White House ballroom after GOP midterm losses"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"ABC News",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-04T22:26:37.000Z|16|Trump and Republicans Begin Pointing Fingers After Sweeping Midterms Losses"
+				},
+				{
+					"observedAt": "2026-11-01T14:44:06.647Z",
+					"label": "trump + midterm",
+					"latestAt": "2026-11-01T14:00:40.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Poll: Voters demand change and a check on Trump, fueling a steep Democratic midterm advantage",
+						"What a midterm race in Kentucky says about how Democrats may do in Trump strongholds"
+					],
+					"sources": [
+						"NBC News Politics",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-trump + midterm|2026-11-01T14:00:40.000Z|2|Poll: Voters demand change and a check on Trump, fueling a steep Democratic midterm advantage"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-09T18:21:05.029Z"
 		},
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
@@ -724,278 +1097,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
-		},
-		"cluster-usa-mississippi-first-mississippi-first": {
-			"candidateId": "cluster-usa-mississippi + first",
-			"label": "mississippi + first",
-			"latestAt": "2026-11-13T07:20:24.000Z",
-			"startedAt": "2026-11-13T02:20:35.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"mississippi",
-				"first"
-			],
-			"sources": [
-				"The New York Times",
-				"CBS News"
-			],
-			"titles": [
-				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi",
-				"NAACP official on Mississippi electing Scott Colom as its first Black senator since the 1800s"
-			],
-			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
-			"entityLastCandidateAt": "2026-11-13T07:20:24.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T13:35:22.142Z",
-					"label": "mississippi + first",
-					"latestAt": "2026-11-13T07:20:24.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi",
-						"NAACP official on Mississippi electing Scott Colom as its first Black senator since the 1800s"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-mississippi + first|2026-11-13T07:20:24.000Z|2|Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
-		},
-		"cluster-usa-democrats-kansas-democrats-kansas": {
-			"candidateId": "cluster-usa-democrats + kansas",
-			"label": "democrats + kansas",
-			"latestAt": "2026-11-12T23:36:19.000Z",
-			"startedAt": "2026-11-12T23:16:10.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"democrats",
-				"kansas"
-			],
-			"sources": [
-				"NPR Politics",
-				"The New York Times"
-			],
-			"titles": [
-				"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
-				"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats"
-			],
-			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
-			"entityLastCandidateAt": "2026-11-12T23:36:19.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T13:35:22.142Z",
-					"label": "democrats + kansas",
-					"latestAt": "2026-11-12T23:36:19.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
-						"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats"
-					],
-					"sources": [
-						"NPR Politics",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-democrats + kansas|2026-11-12T23:36:19.000Z|2|Cindy Holscher wins in Kansas, holding governor's office for Democrats"
-				},
-				{
-					"observedAt": "2026-11-13T02:00:48.242Z",
-					"label": "democrats + kansas",
-					"latestAt": "2026-11-12T23:36:19.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
-						"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats",
-						"Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories"
-					],
-					"sources": [
-						"NPR Politics",
-						"The New York Times",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-democrats + kansas|2026-11-12T23:36:19.000Z|3|Cindy Holscher wins in Kansas, holding governor's office for Democrats"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
-		},
-		"cluster-usa-trump-midterm-trump-midterm": {
-			"candidateId": "cluster-usa-trump + midterm",
-			"label": "trump + midterm",
-			"latestAt": "2026-11-09T16:33:17.000Z",
-			"startedAt": "2026-11-09T11:45:25.000Z",
-			"itemCount": 4,
-			"sourceCount": 4,
-			"terms": [
-				"trump",
-				"midterm"
-			],
-			"sources": [
-				"The New York Times",
-				"PBS NewsHour",
-				"CBS News",
-				"NPR Politics"
-			],
-			"titles": [
-				"Trump Veers Back Into Claims of Rigged Election, Questioning Midterm Results",
-				"Trump says his deportation policy 'might have been too tough' for midterm voters",
-				"Eye Opener: Trump reckons with midterm results",
-				"After midterm losses, Trump makes changes to his inner circle"
-			],
-			"entityFirstSeenAt": "2026-11-01T14:44:06.647Z",
-			"entityLastCandidateAt": "2026-11-09T16:33:17.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-09T18:21:05.029Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-09T16:33:17.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Trump Veers Back Into Claims of Rigged Election, Questioning Midterm Results",
-						"Trump says his deportation policy 'might have been too tough' for midterm voters",
-						"Eye Opener: Trump reckons with midterm results"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-09T16:33:17.000Z|4|Trump Veers Back Into Claims of Rigged Election, Questioning Midterm Results"
-				},
-				{
-					"observedAt": "2026-11-09T13:36:54.802Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-09T12:15:13.000Z",
-					"itemCount": 3,
-					"sourceCount": 2,
-					"headlines": [
-						"Trump Blames Midterm Losses on Immigration: 'It Was Too Tough'",
-						"After midterm losses, Trump makes changes to his inner circle",
-						"Trump staffing changes post-midterms signal he's battle ready"
-					],
-					"sources": [
-						"NBC News Politics",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-09T12:15:13.000Z|3|Trump Blames Midterm Losses on Immigration: 'It Was Too Tough'"
-				},
-				{
-					"observedAt": "2026-11-06T01:55:40.131Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-05T22:28:50.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"How Democrats plan to investigate the Trump administration after their midterm wins",
-						"Trump administration held talks with Iran on deporting Iranians during the war, court documents show",
-						"How Trump Is Reacting to the Midterm Results"
-					],
-					"sources": [
-						"NPR Politics",
-						"PBS NewsHour",
-						"The New York Times Politics"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-05T22:28:50.000Z|4|How Democrats plan to investigate the Trump administration after their midterm wins"
-				},
-				{
-					"observedAt": "2026-11-05T20:54:57.765Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-05T13:20:22.000Z",
-					"itemCount": 4,
-					"sourceCount": 2,
-					"headlines": [
-						"How Trump Is Reacting to the Midterm Results",
-						"Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections",
-						"Vance, in Break With Trump, Blames Iran War for Republicans’ 2026 Midterm Losses"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-05T13:20:22.000Z|4|How Trump Is Reacting to the Midterm Results"
-				},
-				{
-					"observedAt": "2026-11-05T13:43:50.499Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-05T13:20:22.000Z",
-					"itemCount": 8,
-					"sourceCount": 4,
-					"headlines": [
-						"How Trump Is Reacting to the Midterm Results",
-						"Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections",
-						"Vance, in Break With Trump, Blames Iran War for Republicans’ 2026 Midterm Losses"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"The New York Times World"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-05T13:20:22.000Z|8|How Trump Is Reacting to the Midterm Results"
-				},
-				{
-					"observedAt": "2026-11-05T04:15:42.487Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-05T04:11:05.000Z",
-					"itemCount": 12,
-					"sourceCount": 5,
-					"headlines": [
-						"Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections",
-						"Vance blames Iran war for midterm losses, Trump agrees but says Iran couldn't have nuke",
-						"Vance, in Break With Trump, Blames Iran War for Republicans’ 2026 Midterm Losses"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"CBS News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-05T04:11:05.000Z|12|Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections"
-				},
-				{
-					"observedAt": "2026-11-04T23:00:23.472Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-04T22:26:37.000Z",
-					"itemCount": 16,
-					"sourceCount": 7,
-					"headlines": [
-						"Trump and Republicans Begin Pointing Fingers After Sweeping Midterms Losses",
-						"Vance blames Iran war for GOP's midterms defeat. Trump says he would 'do it again'",
-						"Trump touts White House ballroom after GOP midterm losses"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"ABC News",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-04T22:26:37.000Z|16|Trump and Republicans Begin Pointing Fingers After Sweeping Midterms Losses"
-				},
-				{
-					"observedAt": "2026-11-01T14:44:06.647Z",
-					"label": "trump + midterm",
-					"latestAt": "2026-11-01T14:00:40.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Poll: Voters demand change and a check on Trump, fueling a steep Democratic midterm advantage",
-						"What a midterm race in Kentucky says about how Democrats may do in Trump strongholds"
-					],
-					"sources": [
-						"NBC News Politics",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-trump + midterm|2026-11-01T14:00:40.000Z|2|Poll: Voters demand change and a check on Trump, fueling a steep Democratic midterm advantage"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-09T18:21:05.029Z"
 		},
 		"cluster-usa-trump-house-trump-house": {
 			"candidateId": "cluster-usa-trump + house",
@@ -14777,6 +14878,66 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
 		},
+		"cluster-usa-democrats-kansas-democrats-kansas": {
+			"candidateId": "cluster-usa-democrats + kansas",
+			"label": "democrats + kansas",
+			"latestAt": "2026-11-12T23:36:19.000Z",
+			"startedAt": "2026-11-12T23:16:10.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"democrats",
+				"kansas"
+			],
+			"sources": [
+				"NPR Politics",
+				"The New York Times"
+			],
+			"titles": [
+				"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+				"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats"
+			],
+			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
+			"entityLastCandidateAt": "2026-11-12T23:36:19.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "democrats + kansas",
+					"latestAt": "2026-11-12T23:36:19.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+						"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats"
+					],
+					"sources": [
+						"NPR Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-democrats + kansas|2026-11-12T23:36:19.000Z|2|Cindy Holscher wins in Kansas, holding governor's office for Democrats"
+				},
+				{
+					"observedAt": "2026-11-13T02:00:48.242Z",
+					"label": "democrats + kansas",
+					"latestAt": "2026-11-12T23:36:19.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+						"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats",
+						"Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories"
+					],
+					"sources": [
+						"NPR Politics",
+						"The New York Times",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-democrats + kansas|2026-11-12T23:36:19.000Z|3|Cindy Holscher wins in Kansas, holding governor's office for Democrats"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+		},
 		"cluster-usa-kansas-charges-kansas-charges": {
 			"candidateId": "cluster-usa-kansas + charges",
 			"label": "kansas + charges",
@@ -14818,82 +14979,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
-		},
-		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
-			"candidateId": "cluster-usa-nvidia + lutnick",
-			"label": "nvidia + lutnick",
-			"latestAt": "2026-11-13T02:45:27.671Z",
-			"startedAt": "2026-11-12T23:33:00.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"nvidia",
-				"lutnick"
-			],
-			"sources": [
-				"NBC News Politics",
-				"CBS News"
-			],
-			"titles": [
-				"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
-				"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
-			],
-			"entityFirstSeenAt": "2026-11-13T02:00:48.242Z",
-			"entityLastCandidateAt": "2026-11-13T02:45:27.671Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T06:00:48.217Z",
-					"label": "nvidia + lutnick",
-					"latestAt": "2026-11-13T02:45:27.671Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
-						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
-					],
-					"sources": [
-						"NBC News Politics",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T02:45:27.671Z|2|Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal"
-				},
-				{
-					"observedAt": "2026-11-13T03:00:48.096Z",
-					"label": "nvidia + lutnick",
-					"latestAt": "2026-11-13T02:45:27.671Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
-						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
-						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
-					],
-					"sources": [
-						"NBC News Politics",
-						"The New York Times World",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T02:45:27.671Z|3|Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal"
-				},
-				{
-					"observedAt": "2026-11-13T02:00:48.242Z",
-					"label": "nvidia + lutnick",
-					"latestAt": "2026-11-13T01:28:40.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
-						"Critics say Lutnick failed to cut off diversion of Nvidia chips to China"
-					],
-					"sources": [
-						"The New York Times World",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-nvidia + lutnick|2026-11-13T01:28:40.000Z|2|Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T09:00:48.269Z"
 		},
 		"cluster-usa-senate-leader-senate-leader": {
 			"candidateId": "cluster-usa-senate + leader",
@@ -15393,7 +15478,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
 		},
 		"cluster-spain-edificio-heridos-edificio-heridos": {
 			"candidateId": "cluster-spain-edificio + heridos",
@@ -15519,7 +15604,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
 		},
 		"cluster-spain-caida-mundial-caida-mundial": {
 			"candidateId": "cluster-spain-caida + mundial",
@@ -15628,29 +15713,49 @@
 		"cluster-spain-jordi-wild-jordi-wild": {
 			"candidateId": "cluster-spain-jordi + wild",
 			"label": "jordi + wild",
-			"latestAt": "2026-11-13T13:22:15.000Z",
+			"latestAt": "2026-11-13T13:36:28.000Z",
 			"startedAt": "2026-11-13T04:45:01.000Z",
-			"itemCount": 5,
+			"itemCount": 7,
 			"sourceCount": 3,
 			"terms": [
 				"jordi",
 				"wild"
 			],
 			"sources": [
+				"El País",
 				"El Mundo",
-				"El Correo",
-				"El País"
+				"El Correo"
 			],
 			"titles": [
+				"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”",
 				"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
-				"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas»",
 				"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
 				"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
+				"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas financiadas con fondos públicos»",
+				"Colau, en la entrevista con Jordi Wild: «La derecha ha identificado mejor que Sánchez el cabreo de mucha gente»",
 				"Arranca la campaña con el plantón de Abascal a Jordi Wild: “Todo el efecto positivo que había conseguido con Broncano se ha diluido”"
 			],
 			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
-			"entityLastCandidateAt": "2026-11-13T13:22:15.000Z",
+			"entityLastCandidateAt": "2026-11-13T13:36:28.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "jordi + wild",
+					"latestAt": "2026-11-13T13:36:28.000Z",
+					"itemCount": 7,
+					"sourceCount": 3,
+					"headlines": [
+						"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”",
+						"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
+						"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-jordi + wild|2026-11-13T13:36:28.000Z|7|Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”"
+				},
 				{
 					"observedAt": "2026-11-13T13:35:22.142Z",
 					"label": "jordi + wild",
@@ -15671,7 +15776,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
 		},
 		"cluster-spain-casa-renfe-casa-renfe": {
 			"candidateId": "cluster-spain-casa + renfe",
@@ -15840,6 +15945,52 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
+		},
+		"cluster-usa-united-mauricio-united-mauricio": {
+			"candidateId": "cluster-usa-united + mauricio",
+			"label": "united + mauricio",
+			"latestAt": "2026-11-13T13:32:23.000Z",
+			"startedAt": "2026-11-13T12:02:00.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"united",
+				"mauricio"
+			],
+			"sources": [
+				"NPR",
+				"The Guardian US",
+				"ABC News"
+			],
+			"titles": [
+				"Manchester United names USMNT coach Mauricio Pochettino as its manager",
+				"Mauricio Pochettino’s switch from USA to Manchester United confirmed",
+				"Man United hires Mauricio Pochettino, who leaves US job with task of reviving team"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityLastCandidateAt": "2026-11-13T13:32:23.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "united + mauricio",
+					"latestAt": "2026-11-13T13:32:23.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Manchester United names USMNT coach Mauricio Pochettino as its manager",
+						"Mauricio Pochettino’s switch from USA to Manchester United confirmed",
+						"Man United hires Mauricio Pochettino, who leaves US job with task of reviving team"
+					],
+					"sources": [
+						"NPR",
+						"The Guardian US",
+						"ABC News"
+					],
+					"eventId": "cluster-usa-united + mauricio|2026-11-13T13:32:23.000Z|3|Manchester United names USMNT coach Mauricio Pochettino as its manager"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
 		},
 		"cluster-spain-campana-electoral-campana-electoral": {
 			"candidateId": "cluster-spain-campana + electoral",
@@ -16020,19 +16171,187 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+		},
+		"cluster-spain-casa-cuerpo-casa-cuerpo": {
+			"candidateId": "cluster-spain-casa + cuerpo",
+			"label": "casa + cuerpo",
+			"latestAt": "2026-11-13T13:14:52.000Z",
+			"startedAt": "2026-11-13T12:51:20.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"casa",
+				"cuerpo"
+			],
+			"sources": [
+				"El Correo",
+				"El Mundo"
+			],
+			"titles": [
+				"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
+				"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
+			],
+			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
+			"entityLastCandidateAt": "2026-11-13T13:14:52.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "casa + cuerpo",
+					"latestAt": "2026-11-13T13:14:52.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
+						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-casa + cuerpo|2026-11-13T13:14:52.000Z|2|Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+		},
+		"cluster-spain-mundial-horas-mundial-horas": {
+			"candidateId": "cluster-spain-mundial + horas",
+			"label": "mundial + horas",
+			"latestAt": "2026-11-13T07:21:44.000Z",
+			"startedAt": "2026-11-13T06:08:47.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"mundial",
+				"horas"
+			],
+			"sources": [
+				"El Mundo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+				"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
+			],
+			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
+			"entityLastCandidateAt": "2026-11-13T07:21:44.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "mundial + horas",
+					"latestAt": "2026-11-13T07:21:44.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+						"La caída de Outlook a nivel mundial complica la jornada a empresas de Gipuzkoa"
+					],
+					"sources": [
+						"El Mundo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-mundial + horas|2026-11-13T07:21:44.000Z|2|Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+		},
+		"cluster-spain-grave-edificio-grave-edificio": {
+			"candidateId": "cluster-spain-grave + edificio",
+			"label": "grave + edificio",
+			"latestAt": "2026-11-13T06:40:29.000Z",
+			"startedAt": "2026-11-13T05:48:13.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"grave",
+				"edificio"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
+				"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»"
+			],
+			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
+			"entityLastCandidateAt": "2026-11-13T06:40:29.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "grave + edificio",
+					"latestAt": "2026-11-13T06:40:29.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
+						"22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-grave + edificio|2026-11-13T06:40:29.000Z|2|22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+		},
+		"cluster-spain-osakidetza-veces-osakidetza-veces": {
+			"candidateId": "cluster-spain-osakidetza + veces",
+			"label": "osakidetza + veces",
+			"latestAt": "2026-11-13T05:43:48.000Z",
+			"startedAt": "2026-11-12T23:41:08.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"osakidetza",
+				"veces"
+			],
+			"sources": [
+				"El Diario Vasco",
+				"El Correo"
+			],
+			"titles": [
+				"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+				"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
+			],
+			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
+			"entityLastCandidateAt": "2026-11-13T05:43:48.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "osakidetza + veces",
+					"latestAt": "2026-11-13T05:43:48.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo",
+						"Condenada una enfermera de Osakidetza por acceder 89 veces a los historiales de la pareja de su ex y su hijo"
+					],
+					"sources": [
+						"El Diario Vasco",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-osakidetza + veces|2026-11-13T05:43:48.000Z|2|Condenan a una enfermera de Osakidetza que espió 89 veces el historial médico de la nueva novia de su exmarido y su hijo"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-us-2026-11-13T13:50:49.929Z",
+		"id": "local-us-2026-11-13T14:25:49.198Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-13T13:50:49.929Z",
-		"finishedAt": "2026-11-13T13:55:59.223Z",
-		"signalsCandidate": 8,
-		"signalsSelected": 6,
+		"startedAt": "2026-11-13T14:25:49.198Z",
+		"finishedAt": "2026-11-13T14:31:29.261Z",
+		"signalsCandidate": 7,
+		"signalsSelected": 5,
 		"signalsProcessed": 0,
-		"cacheHits": 8,
-		"skippedByConfig": 6,
+		"cacheHits": 6,
+		"skippedByConfig": 5,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -16042,11 +16361,11 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 8,
+			"cacheHits": 6,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 298,
-			"retainedByTtl": 290,
+			"retained": 303,
+			"retainedByTtl": 296,
 			"retiredByTtl": 0
 		},
 		"costUsd": 0
