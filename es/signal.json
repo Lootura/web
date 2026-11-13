@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-13T15:00:48.579Z",
+  "updatedAt": "2026-11-13T16:00:48.169Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "208.316 enlaces analizados",
-  "dayScanLabel": "4.228 enlaces escaneados en 24h",
+  "ambientPulseLabel": "208.738 enlaces analizados",
+  "dayScanLabel": "4.224 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -27,10 +27,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 25,
+      "strength": 27,
       "sourceCount": 3,
-      "itemCount": 6,
-      "freshness": "1h fresca",
+      "itemCount": 8,
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 99,
@@ -41,18 +41,32 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El País",
+        "El Correo",
         "El Mundo",
-        "El Correo"
+        "El País"
       ],
       "images": [
+        "https://s3.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/13/1519174175-RWpYtq2uNMQupvLQEYTdOQO-1200x840@RC.jpg",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945818074688.jpg",
         "https://imagenes.elpais.com/resizer/v2/BI6DOQ3JR5EVJEVRFFAZO4S3HQ.jpg?auth=9cc310d3bb309fe0b2ec0bd4c9de944f87b64aabb7d5d61ac2665d61ffe817fe",
         "https://e01-phantom-elmundo.uecdn.es/fa25bb0bc3315981484113fc4bb1158d/f/webp/assets/multimedia/imagenes/2026/11/13/17945716774688.png",
-        "https://s3.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/13/sanchez-marruecos-keKF-U40333562566TqF-1200x840@El%20Correo.JPG",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945645629376.jpg",
-        "https://s1.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/13/feijoo-wild-kPL-U40331680762ffB-1200x840@El%20Correo.JPG"
+        "https://s3.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/13/sanchez-marruecos-keKF-U40333562566TqF-1200x840@El%20Correo.JPG"
       ],
       "evidence": [
+        {
+          "title": "El cara a cara entre Sánchez y Feijóo será el 19 de noviembre",
+          "source": "El Correo",
+          "publishedAt": "2026-11-13T15:13:28.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/cara-cara-sanchez-feijoo-noviembre-20261113161328-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/13/1519174175-RWpYtq2uNMQupvLQEYTdOQO-1200x840@RC.jpg"
+        },
+        {
+          "title": "Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-13T15:04:04.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af726a8e4d4d8e5638b4587.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945818074688.jpg"
+        },
         {
           "title": "Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”",
           "source": "El País",
@@ -73,20 +87,6 @@
           "publishedAt": "2026-11-13T12:18:53.000Z",
           "sourceUrl": "https://www.elcorreo.com/politica/discusion-jordi-wild-pedro-sanchez-inmigracion-marroqui-20261113131852-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/13/sanchez-marruecos-keKF-U40333562566TqF-1200x840@El%20Correo.JPG"
-        },
-        {
-          "title": "Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-13T12:18:09.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af6e315fdddff705e8b4593.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945645629376.jpg"
-        },
-        {
-          "title": "El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas financiadas con fondos públicos»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-13T11:22:56.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/choque-nunez-feijoo-jordi-wild-imagen-marcial-20261113122256-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/13/feijoo-wild-kPL-U40331680762ffB-1200x840@El%20Correo.JPG"
         }
       ],
       "path": "/es/entity/las-seis-horas-de-jordi-wild-con-sanchez-feijoo-colau-y-el-fary-en-su-casa-esto/"
@@ -100,13 +100,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 25,
-      "sourceCount": 4,
-      "itemCount": 5,
-      "freshness": "2h fresca",
+      "strength": 16,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 99,
+      "alertScore": 86,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -116,12 +116,10 @@
       "sources": [
         "El Diario Vasco",
         "El Correo",
-        "El País",
-        "El Mundo"
+        "El País"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/3JJJM3BD7ND65AFE4DMODI3XVA.jpg?auth=d8fe37e32a52ceae6ff8b6cd140e2087e2d4d60346b14fdf268a37b0a48b6cf0",
-        "https://e01-phantom-elmundo.uecdn.es/9de85efcb0eaf168eefd1fea185c4086/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17945503223714.jpg"
+        "https://imagenes.elpais.com/resizer/v2/3JJJM3BD7ND65AFE4DMODI3XVA.jpg?auth=d8fe37e32a52ceae6ff8b6cd140e2087e2d4d60346b14fdf268a37b0a48b6cf0"
       ],
       "evidence": [
         {
@@ -144,79 +142,101 @@
           "publishedAt": "2026-11-13T06:18:54.000Z",
           "sourceUrl": "https://www.elcorreo.com/culturas/rosalia-triunfa-latin-grammy-20261113065002-ntrc.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
-        },
-        {
-          "title": "Rosalía hace historia en los Latin Grammy 2026 con su tercer mejor álbum del año",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-13T06:13:19.000Z",
-          "sourceUrl": "https://www.elmundo.es/cultura/musica/2026/11/13/6af6a959fc6c830f298b456f.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/9de85efcb0eaf168eefd1fea185c4086/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17945503223714.jpg"
-        },
-        {
-          "title": "Rosalía, reina de los Latin Grammy: gana el premio a disco del año por ‘Lux’ y a canción del año por ‘La Perla’",
-          "source": "El País",
-          "publishedAt": "2026-11-13T05:12:21.000Z",
-          "sourceUrl": "https://elpais.com/us/entretenimiento/2026-11-13/rosalia-reina-de-los-latin-grammy-gana-el-premio-a-disco-del-ano-por-lux-y-a-cancion-del-ano-por-la-perla.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
         }
       ],
       "path": "/es/entity/asi-sonaba-rosalia-mucho-antes-de-arrasar-en-los-latin-grammy-el-video-de-su-con/"
     },
     {
-      "id": "now-cluster-españa-fiscalia + tiktok",
-      "title": "La Fiscalía denuncia a TikTok por la difusión de vídeos de abuso sexual infantil y pide su retirada urgente",
-      "brief": "La Fiscalía denuncia a TikTok por la difusión de vídeos de abuso sexual infantil y pide su retirada urgente.",
+      "id": "now-cluster-españa-casa + cuerpo",
+      "title": "Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
+      "brief": "Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 17,
+      "strength": 16,
       "sourceCount": 2,
-      "itemCount": 3,
+      "itemCount": 2,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 76,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "El País",
+        "El Mundo",
         "El Correo"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/YZAZPBU6EVCILF6EODY7Y3DTAE.jpg?auth=58807945bf5f21b9899da089a6fa09d6392fd09b63a937bbb749823c6bddeb36",
-        "https://s2.ppllstatics.com/rc/www/multimedia/sociedad/2026/11/13/fiscal-delitos-ciberneticos-RigIskPKO3rZTCsKES83xWO-1200x840@RC.jpg",
-        "https://imagenes.elpais.com/resizer/v2/BHLDTWBBPNGALM67KZ2LSIII6Q.jpg?auth=1144c94ea80d4c623aae6c8a20e0ed3f9212f51a9c08d8b867f6e168fdf39b87"
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/01/17935375539281.jpg"
       ],
       "evidence": [
         {
-          "title": "La Fiscalía denuncia a TikTok por la difusión de vídeos de abuso sexual infantil y pide su retirada urgente",
-          "source": "El País",
-          "publishedAt": "2026-11-13T14:44:52.000Z",
-          "sourceUrl": "https://elpais.com/sociedad/2026-11-13/la-fiscalia-denuncia-a-tiktok-en-el-juzgado-por-los-videos-de-abuso-sexual-infantil.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/YZAZPBU6EVCILF6EODY7Y3DTAE.jpg?auth=58807945bf5f21b9899da089a6fa09d6392fd09b63a937bbb749823c6bddeb36"
+          "title": "Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-13T15:36:47.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/13/6af706bae4d4d85b4d8b4574.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/01/17935375539281.jpg"
         },
         {
-          "title": "La Fiscalía denuncia a TikTok por los vídeos de abusos sexuales a menores",
+          "title": "Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
           "source": "El Correo",
-          "publishedAt": "2026-11-13T14:39:54.000Z",
-          "sourceUrl": "https://www.elcorreo.com/sociedad/fiscalia-denuncia-tiktok-videos-abusos-sexuales-menores-20261113153921-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/sociedad/2026/11/13/fiscal-delitos-ciberneticos-RigIskPKO3rZTCsKES83xWO-1200x840@RC.jpg"
-        },
-        {
-          "title": "TikTok ya pierde publicidad en España por los contenidos de abuso sexual infantil: Santander y Moeve retiran sus anuncios",
-          "source": "El País",
-          "publishedAt": "2026-11-13T12:06:24.000Z",
-          "sourceUrl": "https://elpais.com/tecnologia/2026-11-13/tiktok-ya-pierde-publicidad-en-espana-por-los-contenidos-de-abuso-sexual-infantil-santander-y-moeve-retiran-sus-anuncios.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/BHLDTWBBPNGALM67KZ2LSIII6Q.jpg?auth=1144c94ea80d4c623aae6c8a20e0ed3f9212f51a9c08d8b867f6e168fdf39b87"
+          "publishedAt": "2026-11-13T14:33:45.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/carlos-cuerpo-cesa-alvaro-fernandez-heredia-presidente-20261113133735-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         }
       ],
-      "path": "/es/entity/la-fiscalia-denuncia-a-tiktok-por-la-difusion-de-videos-de-abuso-sexual-infantil/"
+      "path": "/es/entity/cuerpo-destituye-al-presidente-de-renfe-afin-a-puente-para-tratar-de-apaciguar-e/"
+    },
+    {
+      "id": "now-cluster-españa-gobierno + electoral",
+      "title": "El Gobierno aprovecha el primer día de campaña electoral para activar la subida de las pensiones",
+      "brief": "El Gobierno aprovecha el primer día de campaña electoral para activar la subida de las pensiones.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945710149928.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El Gobierno aprovecha el primer día de campaña electoral para activar la subida de las pensiones",
+          "source": "El Correo",
+          "publishedAt": "2026-11-13T15:02:08.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/pensiones/gobierno-primer-paso-aprobar-subida-pensiones-plena-20261113133513-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "El Gobierno inicia el camino para revalorizar las pensiones en el primer día de campaña electoral",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-13T11:58:25.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af6fb2121efa0c94b8b457a.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945710149928.jpg"
+        }
+      ],
+      "path": "/es/entity/el-gobierno-aprovecha-el-primer-dia-de-campana-electoral-para-activar-la-subida/"
     },
     {
       "id": "now-cluster-españa-chus + mateo",
@@ -227,10 +247,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -266,52 +286,6 @@
       "path": "/es/entity/chus-mateo-cambia-el-guion-y-convoca-a-ocho-jugadores-de-la-euroliga-para-los-pr/"
     },
     {
-      "id": "now-cluster-españa-casa + cuerpo",
-      "title": "Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
-      "brief": "Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Mundo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/01/17935375539281.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
-          "source": "El Correo",
-          "publishedAt": "2026-11-13T14:33:45.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/carlos-cuerpo-cesa-alvaro-fernandez-heredia-presidente-20261113133735-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-13T12:51:20.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/13/6af706bae4d4d85b4d8b4574.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/01/17935375539281.jpg"
-        }
-      ],
-      "path": "/es/entity/cuerpo-destituye-al-presidente-de-renfe-afin-a-puente-para-tratar-de-apaciguar-e/"
-    },
-    {
       "id": "moving-cluster-españa-mundial + sancet",
       "title": "Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial»",
       "brief": "Sancet, sobre la Euskal Selekzioa: «Ojalá el día de mañana pueda ser oficial y nos podamos medir en un Mundial».",
@@ -323,10 +297,10 @@
       "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 64,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -364,12 +338,12 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
+      "state": "cooling",
+      "stateLabel": "Bajando",
       "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "8h fresca",
+      "freshness": "9h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -405,7 +379,7 @@
       "path": "/es/entity/microsoft-sufre-una-caida-mundial-outlook-teams-y-copilot-llevan-mas-de-12-horas/"
     },
     {
-      "id": "moving-cluster-españa-grave + edificio",
+      "id": "moving-cluster-españa-viviendas + heridos",
       "title": "22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
       "brief": "22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible».",
       "whyItMatters": "",
@@ -413,10 +387,10 @@
       "mode": "moving",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 6,
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "8h fresca",
+      "freshness": "9h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -462,7 +436,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "9h fresca",
+      "freshness": "10h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 46,
