@@ -1,10 +1,16 @@
 {
-	"updatedAt": "2026-11-13T14:25:49.198Z",
+	"updatedAt": "2026-11-13T15:00:48.579Z",
 	"feedProfile": "es",
 	"retentionDays": 90,
 	"totalAuthors": 80,
-	"totalBylinedItems": 432,
+	"totalBylinedItems": 433,
 	"runs": [
+		{
+			"at": "2026-11-13T15:00:48.579Z",
+			"itemCount": 120,
+			"bylinedItemCount": 79,
+			"authorCount": 80
+		},
 		{
 			"at": "2026-11-13T14:25:49.198Z",
 			"itemCount": 120,
@@ -177,12 +183,6 @@
 			"at": "2026-11-11T06:20:25.719Z",
 			"itemCount": 120,
 			"bylinedItemCount": 61,
-			"authorCount": 80
-		},
-		{
-			"at": "2026-11-11T01:29:34.339Z",
-			"itemCount": 120,
-			"bylinedItemCount": 54,
 			"authorCount": 80
 		}
 	],
@@ -2596,7 +2596,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 162,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-10-29T15:58:02.000Z",
 			"latestAt": "2026-11-13T14:21:51.000Z",
 			"daysActive": 15,
@@ -3376,7 +3376,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 148,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-05-20T03:30:01.000Z",
 			"latestAt": "2026-11-13T13:59:50.000Z",
 			"daysActive": 178,
@@ -3883,7 +3883,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 139,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-10T14:18:23.000Z",
 			"latestAt": "2026-11-13T13:49:06.000Z",
 			"daysActive": 3,
@@ -4070,6 +4070,102 @@
 					"source": "El Correo",
 					"href": "https://www.elcorreo.com/gente-estilo/revuelta-cancela-entradas-publico-ante-exigencias-abascal-20261107093432-nt.html?utm_source=lootura.com&ref=lootura.com",
 					"publishedAt": "2026-11-07T08:34:32.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			]
+		},
+		{
+			"id": "https://www.diariovasco.com/autor/agurtzane-nunez-7503.html",
+			"name": "Agurtzane Núñez",
+			"source": "El Diario Vasco",
+			"profileUrl": "https://www.diariovasco.com/autor/agurtzane-nunez-7503.html",
+			"itemCount": 5,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 130,
+			"confidence": "high",
+			"firstSeenAt": "2026-11-09T13:12:55.000Z",
+			"latestAt": "2026-11-13T13:58:13.000Z",
+			"daysActive": 5,
+			"categories": [
+				"local"
+			],
+			"sources": [
+				"El Diario Vasco"
+			],
+			"examples": [
+				{
+					"key": "https://www.diariovasco.com/zabalik/artea-osasun-mentala-eta-giza-eskubideak-uztartuz-20261113145813-nt.html?ref=lootura.com",
+					"title": "Artea, osasun mentala eta giza eskubideak uztartuz lanketa egiteko artista gazteentzako deialdia ireki da",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/zabalik/artea-osasun-mentala-eta-giza-eskubideak-uztartuz-20261113145813-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T13:58:13.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/zabalik/hamar-urteko-yhabrilen-mendi-argazkilaritza-ibilbidearen-erakusketak-20261112142321-nt.html?ref=lootura.com",
+					"title": "Hamar urteko Yhabrilen mendi argazkilaritza ibilbidearen erakusketak ireki du BBK Mendi Filmen egitaraua",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/zabalik/hamar-urteko-yhabrilen-mendi-argazkilaritza-ibilbidearen-erakusketak-20261112142321-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T13:23:21.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/zabalik/haurrak-olentzero-eta-mari-domingirekin-egoteko-aukera-20261109185024-nt.html?ref=lootura.com",
+					"title": "Haurrak Olentzero eta Mari Domingirekin egoteko aukera izango dute Zegamako Anduetza parketxean",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/zabalik/haurrak-olentzero-eta-mari-domingirekin-egoteko-aukera-20261109185024-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T17:50:24.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.diariovasco.com/zabalik/artea-osasun-mentala-eta-giza-eskubideak-uztartuz-20261113145813-nt.html?ref=lootura.com",
+					"title": "Artea, osasun mentala eta giza eskubideak uztartuz lanketa egiteko artista gazteentzako deialdia ireki da",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/zabalik/artea-osasun-mentala-eta-giza-eskubideak-uztartuz-20261113145813-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T13:58:13.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/zabalik/hamar-urteko-yhabrilen-mendi-argazkilaritza-ibilbidearen-erakusketak-20261112142321-nt.html?ref=lootura.com",
+					"title": "Hamar urteko Yhabrilen mendi argazkilaritza ibilbidearen erakusketak ireki du BBK Mendi Filmen egitaraua",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/zabalik/hamar-urteko-yhabrilen-mendi-argazkilaritza-ibilbidearen-erakusketak-20261112142321-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-12T13:23:21.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/zabalik/haurrak-olentzero-eta-mari-domingirekin-egoteko-aukera-20261109185024-nt.html?ref=lootura.com",
+					"title": "Haurrak Olentzero eta Mari Domingirekin egoteko aukera izango dute Zegamako Anduetza parketxean",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/zabalik/haurrak-olentzero-eta-mari-domingirekin-egoteko-aukera-20261109185024-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T17:50:24.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/zabalik/pirinioetako-landaredia-identifikatzeko-plataforma-digitala-sortuko-herritarrei-20261109141311-nt.html?ref=lootura.com",
+					"title": "Pirinioetako landaredia identifikatzeko plataforma digitala sortuko da herritarrei gerturatzeko helburuarekin",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/zabalik/pirinioetako-landaredia-identifikatzeko-plataforma-digitala-sortuko-herritarrei-20261109141311-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T13:13:11.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.diariovasco.com/zabalik/xabier-morras-argazkilariaren-erakusketara-bisita-gidatuak-egingo-20261109141255-nt.html?ref=lootura.com",
+					"title": "Xabier Morrás argazkilariaren erakusketara bisita gidatuak egingo dira larunbatetan",
+					"source": "El Diario Vasco",
+					"href": "https://www.diariovasco.com/zabalik/xabier-morras-argazkilariaren-erakusketara-bisita-gidatuak-egingo-20261109141255-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-09T13:12:55.000Z",
 					"category": "local",
 					"weight": 4
 				}
@@ -4909,93 +5005,6 @@
 					"publishedAt": "2026-11-09T08:04:58.000Z",
 					"category": "general",
 					"weight": 2
-				}
-			]
-		},
-		{
-			"id": "https://www.diariovasco.com/autor/agurtzane-nunez-7503.html",
-			"name": "Agurtzane Núñez",
-			"source": "El Diario Vasco",
-			"profileUrl": "https://www.diariovasco.com/autor/agurtzane-nunez-7503.html",
-			"itemCount": 4,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 111,
-			"confidence": "high",
-			"firstSeenAt": "2026-11-09T13:12:55.000Z",
-			"latestAt": "2026-11-12T13:23:21.000Z",
-			"daysActive": 4,
-			"categories": [
-				"local"
-			],
-			"sources": [
-				"El Diario Vasco"
-			],
-			"examples": [
-				{
-					"key": "https://www.diariovasco.com/zabalik/hamar-urteko-yhabrilen-mendi-argazkilaritza-ibilbidearen-erakusketak-20261112142321-nt.html?ref=lootura.com",
-					"title": "Hamar urteko Yhabrilen mendi argazkilaritza ibilbidearen erakusketak ireki du BBK Mendi Filmen egitaraua",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/zabalik/hamar-urteko-yhabrilen-mendi-argazkilaritza-ibilbidearen-erakusketak-20261112142321-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T13:23:21.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/zabalik/haurrak-olentzero-eta-mari-domingirekin-egoteko-aukera-20261109185024-nt.html?ref=lootura.com",
-					"title": "Haurrak Olentzero eta Mari Domingirekin egoteko aukera izango dute Zegamako Anduetza parketxean",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/zabalik/haurrak-olentzero-eta-mari-domingirekin-egoteko-aukera-20261109185024-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T17:50:24.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/zabalik/pirinioetako-landaredia-identifikatzeko-plataforma-digitala-sortuko-herritarrei-20261109141311-nt.html?ref=lootura.com",
-					"title": "Pirinioetako landaredia identifikatzeko plataforma digitala sortuko da herritarrei gerturatzeko helburuarekin",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/zabalik/pirinioetako-landaredia-identifikatzeko-plataforma-digitala-sortuko-herritarrei-20261109141311-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T13:13:11.000Z",
-					"category": "local",
-					"weight": 4
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.diariovasco.com/zabalik/hamar-urteko-yhabrilen-mendi-argazkilaritza-ibilbidearen-erakusketak-20261112142321-nt.html?ref=lootura.com",
-					"title": "Hamar urteko Yhabrilen mendi argazkilaritza ibilbidearen erakusketak ireki du BBK Mendi Filmen egitaraua",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/zabalik/hamar-urteko-yhabrilen-mendi-argazkilaritza-ibilbidearen-erakusketak-20261112142321-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T13:23:21.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/zabalik/haurrak-olentzero-eta-mari-domingirekin-egoteko-aukera-20261109185024-nt.html?ref=lootura.com",
-					"title": "Haurrak Olentzero eta Mari Domingirekin egoteko aukera izango dute Zegamako Anduetza parketxean",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/zabalik/haurrak-olentzero-eta-mari-domingirekin-egoteko-aukera-20261109185024-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T17:50:24.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/zabalik/pirinioetako-landaredia-identifikatzeko-plataforma-digitala-sortuko-herritarrei-20261109141311-nt.html?ref=lootura.com",
-					"title": "Pirinioetako landaredia identifikatzeko plataforma digitala sortuko da herritarrei gerturatzeko helburuarekin",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/zabalik/pirinioetako-landaredia-identifikatzeko-plataforma-digitala-sortuko-herritarrei-20261109141311-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T13:13:11.000Z",
-					"category": "local",
-					"weight": 4
-				},
-				{
-					"key": "https://www.diariovasco.com/zabalik/xabier-morras-argazkilariaren-erakusketara-bisita-gidatuak-egingo-20261109141255-nt.html?ref=lootura.com",
-					"title": "Xabier Morrás argazkilariaren erakusketara bisita gidatuak egingo dira larunbatetan",
-					"source": "El Diario Vasco",
-					"href": "https://www.diariovasco.com/zabalik/xabier-morras-argazkilariaren-erakusketara-bisita-gidatuak-egingo-20261109141255-nt.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T13:12:55.000Z",
-					"category": "local",
-					"weight": 4
 				}
 			]
 		},
@@ -6538,7 +6547,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 92,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-11T11:38:30.000Z",
 			"latestAt": "2026-11-13T14:09:17.000Z",
 			"daysActive": 3,

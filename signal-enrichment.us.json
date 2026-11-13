@@ -2,15 +2,15 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-13T14:25:49.198Z",
+	"updatedAt": "2026-11-13T15:00:48.579Z",
 	"entries": {
 		"cluster-usa-huang-jensen-huang-jensen": {
 			"candidateId": "cluster-usa-huang + jensen",
 			"label": "huang + jensen",
-			"latestAt": "2026-11-13T14:10:40.000Z",
+			"latestAt": "2026-11-13T14:50:17.000Z",
 			"startedAt": "2026-11-12T18:54:11.000Z",
-			"itemCount": 10,
-			"sourceCount": 7,
+			"itemCount": 14,
+			"sourceCount": 8,
 			"terms": [
 				"huang",
 				"jensen"
@@ -20,14 +20,19 @@
 				"NBC News Politics",
 				"The New York Times",
 				"The Verge",
+				"The Guardian US",
 				"Politico",
 				"The New York Times Politics",
 				"NPR"
 			],
 			"titles": [
+				"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
 				"Search for next Nvidia CEO begins after Jensen Huang's resignation",
 				"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets",
+				"Huang and Lutnick Summoned to Testify Before Congress",
 				"Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+				"What’s really at stake in the Jensen Huang saga",
+				"Marlon Brando cool to Jensen Huang joke: how the black leather jacket became a meme",
 				"Let’s talk about Jensen Huang’s many affairs!",
 				"Jensen Huang’s Washington fallout",
 				"Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
@@ -37,8 +42,26 @@
 				"I Wrote Jensen Huang’s Biography. Here’s What Led to His Downfall."
 			],
 			"entityFirstSeenAt": "2026-11-12T19:03:55.334Z",
-			"entityLastCandidateAt": "2026-11-13T14:10:40.000Z",
+			"entityLastCandidateAt": "2026-11-13T14:50:17.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T15:00:48.579Z",
+					"label": "huang + jensen",
+					"latestAt": "2026-11-13T14:50:17.000Z",
+					"itemCount": 14,
+					"sourceCount": 8,
+					"headlines": [
+						"Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair",
+						"Search for next Nvidia CEO begins after Jensen Huang's resignation",
+						"Nvidia CEO Jensen Huang’s Resignation Rattles Global Markets"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-huang + jensen|2026-11-13T14:50:17.000Z|14|Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair"
+				},
 				{
 					"observedAt": "2026-11-13T14:25:49.198Z",
 					"label": "huang + jensen",
@@ -131,38 +154,58 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
 		},
 		"cluster-usa-microsoft-outage-microsoft-outage": {
 			"candidateId": "cluster-usa-microsoft + outage",
 			"label": "microsoft + outage",
-			"latestAt": "2026-11-13T14:06:20.000Z",
+			"latestAt": "2026-11-13T14:53:51.000Z",
 			"startedAt": "2026-11-13T01:26:24.000Z",
-			"itemCount": 6,
+			"itemCount": 8,
 			"sourceCount": 6,
 			"terms": [
 				"microsoft",
 				"outage"
 			],
 			"sources": [
-				"TIME",
-				"CBS News",
 				"The New York Times",
-				"The Verge",
+				"CBS News",
 				"NPR",
+				"TIME",
+				"The Verge",
 				"NBC News"
 			],
 			"titles": [
+				"Microsoft Races to Fix Outage Disrupting Outlook for a Second Day",
+				"Eye Opener: Microsoft Outlook email outage",
+				"Widespread Microsoft 365 outage continues, impacting email and other services",
+				"Is Outlook down? Widespread outage hits Microsoft email and other apps",
 				"Microsoft Struggles to Repair Worldwide Outage. Here's What You Need to Know",
 				"Microsoft says it is seeing \"continued recovery progress\" as it battles major worldwide outage",
-				"Microsoft Races to Fix Outage Disrupting Outlook for a Second Day",
 				"Microsoft’s massive Outlook outage continues",
-				"Is Outlook down? Widespread outage hits Microsoft email and other apps",
 				"Microsoft Scrambles to Find Fix Massive Global Outage"
 			],
 			"entityFirstSeenAt": "2026-11-13T03:00:48.096Z",
-			"entityLastCandidateAt": "2026-11-13T14:06:20.000Z",
+			"entityLastCandidateAt": "2026-11-13T14:53:51.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T15:00:48.579Z",
+					"label": "microsoft + outage",
+					"latestAt": "2026-11-13T14:53:51.000Z",
+					"itemCount": 8,
+					"sourceCount": 6,
+					"headlines": [
+						"Microsoft Races to Fix Outage Disrupting Outlook for a Second Day",
+						"Eye Opener: Microsoft Outlook email outage",
+						"Widespread Microsoft 365 outage continues, impacting email and other services"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-microsoft + outage|2026-11-13T14:53:51.000Z|8|Microsoft Races to Fix Outage Disrupting Outlook for a Second Day"
+				},
 				{
 					"observedAt": "2026-11-13T14:25:49.198Z",
 					"label": "microsoft + outage",
@@ -291,210 +334,99 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
 		},
-		"cluster-usa-building-brooklyn-building-brooklyn": {
-			"candidateId": "cluster-usa-building + brooklyn",
-			"label": "building + brooklyn",
-			"latestAt": "2026-11-13T13:23:46.000Z",
-			"startedAt": "2026-11-12T18:15:00.000Z",
-			"itemCount": 6,
-			"sourceCount": 3,
-			"terms": [
-				"building",
-				"brooklyn"
-			],
-			"sources": [
-				"The New York Times",
-				"CBS News",
-				"NPR"
-			],
-			"titles": [
-				"How the Deadly Brooklyn Building Collapse Unfolded",
-				"Crews begin excavating site of building collapse in Brooklyn",
-				"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
-				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
-				"Casualties continue to rise after Brooklyn building collapses",
-				"Video From Inside Brooklyn Building That Collapsed Shows Walls Caving In"
-			],
-			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
-			"entityLastCandidateAt": "2026-11-13T13:23:46.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T14:25:49.198Z",
-					"label": "building + brooklyn",
-					"latestAt": "2026-11-13T13:23:46.000Z",
-					"itemCount": 6,
-					"sourceCount": 3,
-					"headlines": [
-						"How the Deadly Brooklyn Building Collapse Unfolded",
-						"Crews begin excavating site of building collapse in Brooklyn",
-						"Rescue Ends in Brooklyn After 8 Die in Building Collapse"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"NPR"
-					],
-					"eventId": "cluster-usa-building + brooklyn|2026-11-13T13:23:46.000Z|6|How the Deadly Brooklyn Building Collapse Unfolded"
-				},
-				{
-					"observedAt": "2026-11-13T13:35:22.142Z",
-					"label": "building + brooklyn",
-					"latestAt": "2026-11-13T13:23:46.000Z",
-					"itemCount": 7,
-					"sourceCount": 3,
-					"headlines": [
-						"How the Deadly Brooklyn Building Collapse Unfolded",
-						"Crews begin excavating site of building collapse in Brooklyn",
-						"Rescue Ends in Brooklyn After 8 Die in Building Collapse"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"NPR"
-					],
-					"eventId": "cluster-usa-building + brooklyn|2026-11-13T13:23:46.000Z|7|How the Deadly Brooklyn Building Collapse Unfolded"
-				},
-				{
-					"observedAt": "2026-11-13T06:00:48.217Z",
-					"label": "building + brooklyn",
-					"latestAt": "2026-11-13T04:59:04.000Z",
-					"itemCount": 9,
-					"sourceCount": 5,
-					"headlines": [
-						"How the Deadly Brooklyn Building Collapse Unfolded",
-						"Crews begin excavating site of building collapse in Brooklyn",
-						"Rescue Ends in Brooklyn After 8 Die in Building Collapse"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-building + brooklyn|2026-11-13T04:59:04.000Z|9|How the Deadly Brooklyn Building Collapse Unfolded"
-				},
-				{
-					"observedAt": "2026-11-13T01:00:47.794Z",
-					"label": "building + brooklyn",
-					"latestAt": "2026-11-12T23:58:33.000Z",
-					"itemCount": 8,
-					"sourceCount": 4,
-					"headlines": [
-						"First video of Brooklyn building collapse",
-						"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
-						"New York building collapse kills 8, including 2 children"
-					],
-					"sources": [
-						"NBC News",
-						"The New York Times",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-building + brooklyn|2026-11-12T23:58:33.000Z|8|First video of Brooklyn building collapse"
-				},
-				{
-					"observedAt": "2026-11-13T00:00:48.749Z",
-					"label": "building + brooklyn",
-					"latestAt": "2026-11-12T23:53:15.000Z",
-					"itemCount": 8,
-					"sourceCount": 4,
-					"headlines": [
-						"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
-						"New York building collapse kills 8, including 2 children",
-						"Eight Who Died in Building Collapse Reflected New York’s Diversity"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-building + brooklyn|2026-11-12T23:53:15.000Z|8|Rescue Ends in Brooklyn After 8 Die in Building Collapse"
-				},
-				{
-					"observedAt": "2026-11-12T23:00:48.320Z",
-					"label": "building + brooklyn",
-					"latestAt": "2026-11-12T22:12:26.000Z",
-					"itemCount": 6,
-					"sourceCount": 4,
-					"headlines": [
-						"What to Know About the Deadly Building Collapse in Brooklyn",
-						"Ring camera video shows the moment of Brooklyn building collapse",
-						"A Frantic Search for Survivors in the Brooklyn Building Collapse"
-					],
-					"sources": [
-						"The New York Times",
-						"NBC News",
-						"NPR"
-					],
-					"eventId": "cluster-usa-building + brooklyn|2026-11-12T22:12:26.000Z|6|What to Know About the Deadly Building Collapse in Brooklyn"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
-		},
-		"cluster-usa-hollen-majority-hollen-majority": {
-			"candidateId": "cluster-usa-hollen + majority",
-			"label": "hollen + majority",
-			"latestAt": "2026-11-13T12:22:50.000Z",
+		"cluster-usa-hollen-leader-hollen-leader": {
+			"candidateId": "cluster-usa-hollen + leader",
+			"label": "hollen + leader",
+			"latestAt": "2026-11-13T14:31:59.000Z",
 			"startedAt": "2026-11-13T03:52:25.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
+			"itemCount": 5,
+			"sourceCount": 5,
 			"terms": [
 				"hollen",
-				"majority"
+				"leader"
 			],
 			"sources": [
+				"CBS News",
+				"PBS NewsHour",
 				"NBC News Politics",
 				"The New York Times Politics",
 				"NPR Politics"
 			],
 			"titles": [
+				"Van Hollen says he'll challenge Schumer for Senate majority leader",
+				"Van Hollen to challenge Schumer for Senate Democratic leader",
 				"Van Hollen Challenges Schumer for Senate Majority Leader",
 				"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
 				"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
 			],
-			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
-			"entityLastCandidateAt": "2026-11-13T12:22:50.000Z",
+			"entityFirstSeenAt": "2026-11-13T15:00:48.579Z",
+			"entityLastCandidateAt": "2026-11-13T14:31:59.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T14:25:49.198Z",
-					"label": "hollen + majority",
-					"latestAt": "2026-11-13T12:22:50.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
+					"observedAt": "2026-11-13T15:00:48.579Z",
+					"label": "hollen + leader",
+					"latestAt": "2026-11-13T14:31:59.000Z",
+					"itemCount": 5,
+					"sourceCount": 5,
 					"headlines": [
-						"Van Hollen Challenges Schumer for Senate Majority Leader",
-						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
+						"Van Hollen says he'll challenge Schumer for Senate majority leader",
+						"Van Hollen to challenge Schumer for Senate Democratic leader",
+						"Van Hollen Challenges Schumer for Senate Majority Leader"
 					],
 					"sources": [
-						"NBC News Politics",
-						"The New York Times Politics",
-						"NPR Politics"
+						"CBS News",
+						"PBS NewsHour",
+						"NBC News Politics"
 					],
-					"eventId": "cluster-usa-hollen + majority|2026-11-13T12:22:50.000Z|3|Van Hollen Challenges Schumer for Senate Majority Leader"
-				},
-				{
-					"observedAt": "2026-11-13T13:35:22.142Z",
-					"label": "hollen + majority",
-					"latestAt": "2026-11-13T12:22:50.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Van Hollen Challenges Schumer for Senate Majority Leader",
-						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
-						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
-					],
-					"sources": [
-						"NBC News Politics",
-						"The New York Times Politics",
-						"NPR Politics"
-					],
-					"eventId": "cluster-usa-hollen + majority|2026-11-13T12:22:50.000Z|4|Van Hollen Challenges Schumer for Senate Majority Leader"
+					"eventId": "cluster-usa-hollen + leader|2026-11-13T14:31:59.000Z|5|Van Hollen says he'll challenge Schumer for Senate majority leader"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
+		},
+		"cluster-usa-here-mississippi-here-mississippi": {
+			"candidateId": "cluster-usa-here + mississippi",
+			"label": "here + mississippi",
+			"latestAt": "2026-11-13T15:01:10.000Z",
+			"startedAt": "2026-11-13T07:20:24.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"here",
+				"mississippi"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"The New York Times"
+			],
+			"titles": [
+				"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
+				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
+			],
+			"entityFirstSeenAt": "2026-11-13T15:00:48.579Z",
+			"entityLastCandidateAt": "2026-11-13T15:01:10.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T15:00:48.579Z",
+					"label": "here + mississippi",
+					"latestAt": "2026-11-13T15:01:10.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi.",
+						"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-here + mississippi|2026-11-13T15:01:10.000Z|2|Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi."
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
 		},
 		"cluster-usa-nvidia-lutnick-nvidia-lutnick": {
 			"candidateId": "cluster-usa-nvidia + lutnick",
@@ -586,91 +518,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
-		},
-		"cluster-usa-mississippi-first-mississippi-first": {
-			"candidateId": "cluster-usa-mississippi + first",
-			"label": "mississippi + first",
-			"latestAt": "2026-11-13T07:20:24.000Z",
-			"startedAt": "2026-11-13T02:20:35.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"mississippi",
-				"first"
-			],
-			"sources": [
-				"The New York Times",
-				"CBS News"
-			],
-			"titles": [
-				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi",
-				"NAACP official on Mississippi electing Scott Colom as its first Black senator since the 1800s"
-			],
-			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
-			"entityLastCandidateAt": "2026-11-13T07:20:24.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T13:35:22.142Z",
-					"label": "mississippi + first",
-					"latestAt": "2026-11-13T07:20:24.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi",
-						"NAACP official on Mississippi electing Scott Colom as its first Black senator since the 1800s"
-					],
-					"sources": [
-						"The New York Times",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-mississippi + first|2026-11-13T07:20:24.000Z|2|Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
-		},
-		"cluster-usa-democrats-holscher-democrats-holscher": {
-			"candidateId": "cluster-usa-democrats + holscher",
-			"label": "democrats + holscher",
-			"latestAt": "2026-11-12T23:36:19.000Z",
-			"startedAt": "2026-11-12T23:16:10.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"democrats",
-				"holscher"
-			],
-			"sources": [
-				"NPR Politics",
-				"The New York Times"
-			],
-			"titles": [
-				"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
-				"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats"
-			],
-			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
-			"entityLastCandidateAt": "2026-11-12T23:36:19.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T14:25:49.198Z",
-					"label": "democrats + holscher",
-					"latestAt": "2026-11-12T23:36:19.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
-						"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats"
-					],
-					"sources": [
-						"NPR Politics",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-democrats + holscher|2026-11-12T23:36:19.000Z|2|Cindy Holscher wins in Kansas, holding governor's office for Democrats"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
 		},
 		"cluster-usa-trump-midterm-trump-midterm": {
 			"candidateId": "cluster-usa-trump + midterm",
@@ -14081,6 +13929,145 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
 		},
+		"cluster-usa-building-brooklyn-building-brooklyn": {
+			"candidateId": "cluster-usa-building + brooklyn",
+			"label": "building + brooklyn",
+			"latestAt": "2026-11-13T13:23:46.000Z",
+			"startedAt": "2026-11-12T18:15:00.000Z",
+			"itemCount": 6,
+			"sourceCount": 3,
+			"terms": [
+				"building",
+				"brooklyn"
+			],
+			"sources": [
+				"The New York Times",
+				"CBS News",
+				"NPR"
+			],
+			"titles": [
+				"How the Deadly Brooklyn Building Collapse Unfolded",
+				"Crews begin excavating site of building collapse in Brooklyn",
+				"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
+				"A Frantic Search for Survivors in the Brooklyn Building Collapse",
+				"Casualties continue to rise after Brooklyn building collapses",
+				"Video From Inside Brooklyn Building That Collapsed Shows Walls Caving In"
+			],
+			"entityFirstSeenAt": "2026-11-12T23:00:48.320Z",
+			"entityLastCandidateAt": "2026-11-13T13:23:46.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-13T13:23:46.000Z",
+					"itemCount": 6,
+					"sourceCount": 3,
+					"headlines": [
+						"How the Deadly Brooklyn Building Collapse Unfolded",
+						"Crews begin excavating site of building collapse in Brooklyn",
+						"Rescue Ends in Brooklyn After 8 Die in Building Collapse"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-building + brooklyn|2026-11-13T13:23:46.000Z|6|How the Deadly Brooklyn Building Collapse Unfolded"
+				},
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-13T13:23:46.000Z",
+					"itemCount": 7,
+					"sourceCount": 3,
+					"headlines": [
+						"How the Deadly Brooklyn Building Collapse Unfolded",
+						"Crews begin excavating site of building collapse in Brooklyn",
+						"Rescue Ends in Brooklyn After 8 Die in Building Collapse"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-building + brooklyn|2026-11-13T13:23:46.000Z|7|How the Deadly Brooklyn Building Collapse Unfolded"
+				},
+				{
+					"observedAt": "2026-11-13T06:00:48.217Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-13T04:59:04.000Z",
+					"itemCount": 9,
+					"sourceCount": 5,
+					"headlines": [
+						"How the Deadly Brooklyn Building Collapse Unfolded",
+						"Crews begin excavating site of building collapse in Brooklyn",
+						"Rescue Ends in Brooklyn After 8 Die in Building Collapse"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-building + brooklyn|2026-11-13T04:59:04.000Z|9|How the Deadly Brooklyn Building Collapse Unfolded"
+				},
+				{
+					"observedAt": "2026-11-13T01:00:47.794Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-12T23:58:33.000Z",
+					"itemCount": 8,
+					"sourceCount": 4,
+					"headlines": [
+						"First video of Brooklyn building collapse",
+						"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
+						"New York building collapse kills 8, including 2 children"
+					],
+					"sources": [
+						"NBC News",
+						"The New York Times",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-building + brooklyn|2026-11-12T23:58:33.000Z|8|First video of Brooklyn building collapse"
+				},
+				{
+					"observedAt": "2026-11-13T00:00:48.749Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-12T23:53:15.000Z",
+					"itemCount": 8,
+					"sourceCount": 4,
+					"headlines": [
+						"Rescue Ends in Brooklyn After 8 Die in Building Collapse",
+						"New York building collapse kills 8, including 2 children",
+						"Eight Who Died in Building Collapse Reflected New York’s Diversity"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-building + brooklyn|2026-11-12T23:53:15.000Z|8|Rescue Ends in Brooklyn After 8 Die in Building Collapse"
+				},
+				{
+					"observedAt": "2026-11-12T23:00:48.320Z",
+					"label": "building + brooklyn",
+					"latestAt": "2026-11-12T22:12:26.000Z",
+					"itemCount": 6,
+					"sourceCount": 4,
+					"headlines": [
+						"What to Know About the Deadly Building Collapse in Brooklyn",
+						"Ring camera video shows the moment of Brooklyn building collapse",
+						"A Frantic Search for Survivors in the Brooklyn Building Collapse"
+					],
+					"sources": [
+						"The New York Times",
+						"NBC News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-building + brooklyn|2026-11-12T22:12:26.000Z|6|What to Know About the Deadly Building Collapse in Brooklyn"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+		},
 		"cluster-usa-pope-emotional-pope-emotional": {
 			"candidateId": "cluster-usa-pope + emotional",
 			"label": "pope + emotional",
@@ -15478,7 +15465,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
 		},
 		"cluster-spain-edificio-heridos-edificio-heridos": {
 			"candidateId": "cluster-spain-edificio + heridos",
@@ -15604,7 +15591,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
 		},
 		"cluster-spain-caida-mundial-caida-mundial": {
 			"candidateId": "cluster-spain-caida + mundial",
@@ -15714,8 +15701,8 @@
 			"candidateId": "cluster-spain-jordi + wild",
 			"label": "jordi + wild",
 			"latestAt": "2026-11-13T13:36:28.000Z",
-			"startedAt": "2026-11-13T04:45:01.000Z",
-			"itemCount": 7,
+			"startedAt": "2026-11-13T10:14:26.000Z",
+			"itemCount": 6,
 			"sourceCount": 3,
 			"terms": [
 				"jordi",
@@ -15732,12 +15719,29 @@
 				"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores",
 				"Feijóo se pone la capa de 'Anotop At' frente a Jordi Wild para conquistar a la Generación Z: \"Yo no sé inglés, pero sé gobernar\"",
 				"El choque de Núñez Feijóo y Jordi Wild por su imagen con Marcial Dorado: «Yo no tengo fotos con prostitutas financiadas con fondos públicos»",
-				"Colau, en la entrevista con Jordi Wild: «La derecha ha identificado mejor que Sánchez el cabreo de mucha gente»",
-				"Arranca la campaña con el plantón de Abascal a Jordi Wild: “Todo el efecto positivo que había conseguido con Broncano se ha diluido”"
+				"Colau, en la entrevista con Jordi Wild: «La derecha ha identificado mejor que Sánchez el cabreo de mucha gente»"
 			],
 			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
 			"entityLastCandidateAt": "2026-11-13T13:36:28.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T15:00:48.579Z",
+					"label": "jordi + wild",
+					"latestAt": "2026-11-13T13:36:28.000Z",
+					"itemCount": 6,
+					"sourceCount": 3,
+					"headlines": [
+						"Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”",
+						"Sánchez pierde la memoria con Jordi Wild: \"No me fui de vacaciones\" tras la crisis de Ceuta",
+						"La discusión entre Jordi Wild y Pedro Sánchez por la inmigración marroquí acaba con la intervención de los verificadores"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-jordi + wild|2026-11-13T13:36:28.000Z|6|Las seis horas de Jordi Wild con Sánchez, Feijóo, Colau (y el Fary) en su casa: “Esto es una vez en la vida”"
+				},
 				{
 					"observedAt": "2026-11-13T14:25:49.198Z",
 					"label": "jordi + wild",
@@ -15776,7 +15780,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
 		},
 		"cluster-spain-casa-renfe-casa-renfe": {
 			"candidateId": "cluster-spain-casa + renfe",
@@ -15946,6 +15950,70 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T13:35:22.142Z"
 		},
+		"cluster-usa-hollen-majority-hollen-majority": {
+			"candidateId": "cluster-usa-hollen + majority",
+			"label": "hollen + majority",
+			"latestAt": "2026-11-13T12:22:50.000Z",
+			"startedAt": "2026-11-13T03:52:25.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"hollen",
+				"majority"
+			],
+			"sources": [
+				"NBC News Politics",
+				"The New York Times Politics",
+				"NPR Politics"
+			],
+			"titles": [
+				"Van Hollen Challenges Schumer for Senate Majority Leader",
+				"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+				"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityLastCandidateAt": "2026-11-13T12:22:50.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "hollen + majority",
+					"latestAt": "2026-11-13T12:22:50.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Van Hollen Challenges Schumer for Senate Majority Leader",
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
+					],
+					"sources": [
+						"NBC News Politics",
+						"The New York Times Politics",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-hollen + majority|2026-11-13T12:22:50.000Z|3|Van Hollen Challenges Schumer for Senate Majority Leader"
+				},
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "hollen + majority",
+					"latestAt": "2026-11-13T12:22:50.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Van Hollen Challenges Schumer for Senate Majority Leader",
+						"Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+						"Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader"
+					],
+					"sources": [
+						"NBC News Politics",
+						"The New York Times Politics",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-hollen + majority|2026-11-13T12:22:50.000Z|4|Van Hollen Challenges Schumer for Senate Majority Leader"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+		},
 		"cluster-usa-united-mauricio-united-mauricio": {
 			"candidateId": "cluster-usa-united + mauricio",
 			"label": "united + mauricio",
@@ -15991,6 +16059,48 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+		},
+		"cluster-usa-mississippi-first-mississippi-first": {
+			"candidateId": "cluster-usa-mississippi + first",
+			"label": "mississippi + first",
+			"latestAt": "2026-11-13T07:20:24.000Z",
+			"startedAt": "2026-11-13T02:20:35.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"mississippi",
+				"first"
+			],
+			"sources": [
+				"The New York Times",
+				"CBS News"
+			],
+			"titles": [
+				"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi",
+				"NAACP official on Mississippi electing Scott Colom as its first Black senator since the 1800s"
+			],
+			"entityFirstSeenAt": "2026-11-13T13:35:22.142Z",
+			"entityLastCandidateAt": "2026-11-13T07:20:24.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T13:35:22.142Z",
+					"label": "mississippi + first",
+					"latestAt": "2026-11-13T07:20:24.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi",
+						"NAACP official on Mississippi electing Scott Colom as its first Black senator since the 1800s"
+					],
+					"sources": [
+						"The New York Times",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-mississippi + first|2026-11-13T07:20:24.000Z|2|Seth Meyers Is Excited by Scott Colom’s Historic Win in Mississippi"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
 		},
 		"cluster-spain-campana-electoral-campana-electoral": {
 			"candidateId": "cluster-spain-campana + electoral",
@@ -16175,7 +16285,7 @@
 		"cluster-spain-casa-cuerpo-casa-cuerpo": {
 			"candidateId": "cluster-spain-casa + cuerpo",
 			"label": "casa + cuerpo",
-			"latestAt": "2026-11-13T13:14:52.000Z",
+			"latestAt": "2026-11-13T14:33:45.000Z",
 			"startedAt": "2026-11-13T12:51:20.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
@@ -16192,8 +16302,24 @@
 				"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
 			],
 			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
-			"entityLastCandidateAt": "2026-11-13T13:14:52.000Z",
+			"entityLastCandidateAt": "2026-11-13T14:33:45.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T15:00:48.579Z",
+					"label": "casa + cuerpo",
+					"latestAt": "2026-11-13T14:33:45.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa",
+						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
+					],
+					"sources": [
+						"El Correo",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-casa + cuerpo|2026-11-13T14:33:45.000Z|2|Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
+				},
 				{
 					"observedAt": "2026-11-13T14:25:49.198Z",
 					"label": "casa + cuerpo",
@@ -16212,7 +16338,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
 		},
 		"cluster-spain-mundial-horas-mundial-horas": {
 			"candidateId": "cluster-spain-mundial + horas",
@@ -16254,7 +16380,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
 		},
 		"cluster-spain-grave-edificio-grave-edificio": {
 			"candidateId": "cluster-spain-grave + edificio",
@@ -16296,7 +16422,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
 		},
 		"cluster-spain-osakidetza-veces-osakidetza-veces": {
 			"candidateId": "cluster-spain-osakidetza + veces",
@@ -16338,19 +16464,147 @@
 				}
 			],
 			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
+		},
+		"cluster-usa-democrats-holscher-democrats-holscher": {
+			"candidateId": "cluster-usa-democrats + holscher",
+			"label": "democrats + holscher",
+			"latestAt": "2026-11-12T23:36:19.000Z",
+			"startedAt": "2026-11-12T23:16:10.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"democrats",
+				"holscher"
+			],
+			"sources": [
+				"NPR Politics",
+				"The New York Times"
+			],
+			"titles": [
+				"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+				"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats"
+			],
+			"entityFirstSeenAt": "2026-11-13T14:25:49.198Z",
+			"entityLastCandidateAt": "2026-11-12T23:36:19.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T14:25:49.198Z",
+					"label": "democrats + holscher",
+					"latestAt": "2026-11-12T23:36:19.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+						"Holscher Wins Kansas Governor Race, Retaining Seat for Democrats"
+					],
+					"sources": [
+						"NPR Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-democrats + holscher|2026-11-12T23:36:19.000Z|2|Cindy Holscher wins in Kansas, holding governor's office for Democrats"
+				}
+			],
+			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T14:25:49.198Z"
+		},
+		"cluster-spain-fiscalia-tiktok-fiscalia-tiktok": {
+			"candidateId": "cluster-spain-fiscalia + tiktok",
+			"label": "fiscalia + tiktok",
+			"latestAt": "2026-11-13T14:44:52.000Z",
+			"startedAt": "2026-11-13T12:06:24.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"fiscalia",
+				"tiktok"
+			],
+			"sources": [
+				"El País",
+				"El Correo"
+			],
+			"titles": [
+				"La Fiscalía denuncia a TikTok por la difusión de vídeos de abuso sexual infantil y pide su retirada urgente",
+				"La Fiscalía denuncia a TikTok por los vídeos de abusos sexuales a menores",
+				"TikTok ya pierde publicidad en España por los contenidos de abuso sexual infantil: Santander y Moeve retiran sus anuncios"
+			],
+			"entityFirstSeenAt": "2026-11-13T15:00:48.579Z",
+			"entityLastCandidateAt": "2026-11-13T14:44:52.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T15:00:48.579Z",
+					"label": "fiscalia + tiktok",
+					"latestAt": "2026-11-13T14:44:52.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"La Fiscalía denuncia a TikTok por la difusión de vídeos de abuso sexual infantil y pide su retirada urgente",
+						"La Fiscalía denuncia a TikTok por los vídeos de abusos sexuales a menores",
+						"TikTok ya pierde publicidad en España por los contenidos de abuso sexual infantil: Santander y Moeve retiran sus anuncios"
+					],
+					"sources": [
+						"El País",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-fiscalia + tiktok|2026-11-13T14:44:52.000Z|3|La Fiscalía denuncia a TikTok por la difusión de vídeos de abuso sexual infantil y pide su retirada urgente"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
+		},
+		"cluster-spain-mundial-chus-mundial-chus": {
+			"candidateId": "cluster-spain-mundial + chus",
+			"label": "mundial + chus",
+			"latestAt": "2026-11-13T14:39:17.000Z",
+			"startedAt": "2026-11-13T11:41:48.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"mundial",
+				"chus"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Chus Mateo cambia el guion y convoca a ocho jugadores de la Euroliga para los próximos partidos de España, vitales para ir al Mundial",
+				"Chus Mateo llama por primera vez a varios Euroliga en su lista más \"complicada\": \"Era el momento de hacerlo\""
+			],
+			"entityFirstSeenAt": "2026-11-13T15:00:48.579Z",
+			"entityLastCandidateAt": "2026-11-13T14:39:17.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T15:00:48.579Z",
+					"label": "mundial + chus",
+					"latestAt": "2026-11-13T14:39:17.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Chus Mateo cambia el guion y convoca a ocho jugadores de la Euroliga para los próximos partidos de España, vitales para ir al Mundial",
+						"Chus Mateo llama por primera vez a varios Euroliga en su lista más \"complicada\": \"Era el momento de hacerlo\""
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-mundial + chus|2026-11-13T14:39:17.000Z|2|Chus Mateo cambia el guion y convoca a ocho jugadores de la Euroliga para los próximos partidos de España, vitales para ir al Mundial"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T15:00:48.579Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-us-2026-11-13T14:25:49.198Z",
+		"id": "local-us-2026-11-13T15:00:48.579Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-13T14:25:49.198Z",
-		"finishedAt": "2026-11-13T14:31:29.261Z",
-		"signalsCandidate": 7,
+		"startedAt": "2026-11-13T15:00:48.579Z",
+		"finishedAt": "2026-11-13T15:05:40.837Z",
+		"signalsCandidate": 5,
 		"signalsSelected": 5,
 		"signalsProcessed": 0,
-		"cacheHits": 6,
+		"cacheHits": 3,
 		"skippedByConfig": 5,
 		"skippedByBudget": 0,
 		"failures": 0,
@@ -16361,11 +16615,11 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 6,
+			"cacheHits": 3,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 303,
-			"retainedByTtl": 296,
+			"retained": 307,
+			"retainedByTtl": 302,
 			"retiredByTtl": 0
 		},
 		"costUsd": 0
