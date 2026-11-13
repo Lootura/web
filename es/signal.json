@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-13T07:00:48.282Z",
+  "updatedAt": "2026-11-13T08:00:48.024Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "205.803 enlaces analizados",
-  "dayScanLabel": "4.267 enlaces escaneados en 24h",
+  "ambientPulseLabel": "206.231 enlaces analizados",
+  "dayScanLabel": "4.272 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -18,6 +18,70 @@
   },
   "topAlert": null,
   "signals": [
+    {
+      "id": "now-cluster-españa-microsoft + outlook",
+      "title": "Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+      "brief": "Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 26,
+      "sourceCount": 4,
+      "itemCount": 4,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Mundo",
+        "El Diario Vasco",
+        "El Correo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/ZRND26ZYLVG2BNXLGWZKZACKFE.jpg?auth=52341b528a79d52a89278fb8eac34afa25aa1b9a32d24935ff6031cc941a187c",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945544621412.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Microsoft no logra recuperar sus servicios tras una caída global de más de 12 horas",
+          "source": "El País",
+          "publishedAt": "2026-11-13T07:53:14.000Z",
+          "sourceUrl": "https://elpais.com/tecnologia/2026-11-13/microsoft-no-logra-recuperar-sus-servicios-tras-una-caida-global-de-mas-de-12-horas.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/ZRND26ZYLVG2BNXLGWZKZACKFE.jpg?auth=52341b528a79d52a89278fb8eac34afa25aa1b9a32d24935ff6031cc941a187c"
+        },
+        {
+          "title": "Microsoft sufre una caída mundial: Outlook, Teams y Copilot llevan más de 12 horas sin funcionar. ¿Qué puedo hacer?",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-13T07:21:44.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/13/6af6b987fdddfff22c8b4587.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945544621412.jpg"
+        },
+        {
+          "title": "Microsoft Outlook sufre una caída a nivel mundial",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-13T06:39:46.000Z",
+          "sourceUrl": "https://www.diariovasco.com/tecnologia/microsoft-outlook-sufre-caida-nivel-mundial-20261113070846-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Microsoft Outlook se cae en todo el mundo",
+          "source": "El Correo",
+          "publishedAt": "2026-11-12T19:11:44.000Z",
+          "sourceUrl": "https://www.elcorreo.com/tecnologia/microsoft-outlook-cae-mundo-20261112195349-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/microsoft-sufre-una-caida-mundial-outlook-teams-y-copilot-llevan-mas-de-12-horas/"
+    },
     {
       "id": "now-cluster-españa-latin + grammy",
       "title": "Rosalía, reina de los Latin Grammy: gana el premio a disco del año por ‘Lux’ y a canción del año por ‘La Perla’",
@@ -41,15 +105,22 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Correo",
+        "El País",
         "El Mundo",
-        "El País"
+        "El Correo"
       ],
       "images": [
-        "https://e01-phantom-elmundo.uecdn.es/9de85efcb0eaf168eefd1fea185c4086/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17945503223714.jpg",
-        "https://imagenes.elpais.com/resizer/v2/3JJJM3BD7ND65AFE4DMODI3XVA.jpg?auth=d8fe37e32a52ceae6ff8b6cd140e2087e2d4d60346b14fdf268a37b0a48b6cf0"
+        "https://imagenes.elpais.com/resizer/v2/3JJJM3BD7ND65AFE4DMODI3XVA.jpg?auth=d8fe37e32a52ceae6ff8b6cd140e2087e2d4d60346b14fdf268a37b0a48b6cf0",
+        "https://e01-phantom-elmundo.uecdn.es/9de85efcb0eaf168eefd1fea185c4086/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17945503223714.jpg"
       ],
       "evidence": [
+        {
+          "title": "Todos los ‘looks’ de la alfombra roja de los Latin Grammy 2026",
+          "source": "El País",
+          "publishedAt": "2026-11-13T07:45:36.000Z",
+          "sourceUrl": "https://elpais.com/smoda/moda/2026-11-12/todos-los-looks-de-la-alfombra-roja-de-los-latin-grammy.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/3JJJM3BD7ND65AFE4DMODI3XVA.jpg?auth=d8fe37e32a52ceae6ff8b6cd140e2087e2d4d60346b14fdf268a37b0a48b6cf0"
+        },
         {
           "title": "Rosalía triunfa en los Latin Grammy",
           "source": "El Correo",
@@ -70,13 +141,6 @@
           "publishedAt": "2026-11-13T05:12:21.000Z",
           "sourceUrl": "https://elpais.com/us/entretenimiento/2026-11-13/rosalia-reina-de-los-latin-grammy-gana-el-premio-a-disco-del-ano-por-lux-y-a-cancion-del-ano-por-la-perla.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
-        },
-        {
-          "title": "Todos los ‘looks’ de la alfombra roja de los Latin Grammy 2026",
-          "source": "El País",
-          "publishedAt": "2026-11-13T03:21:25.000Z",
-          "sourceUrl": "https://elpais.com/smoda/moda/2026-11-12/todos-los-looks-de-la-alfombra-roja-de-los-latin-grammy.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/3JJJM3BD7ND65AFE4DMODI3XVA.jpg?auth=d8fe37e32a52ceae6ff8b6cd140e2087e2d4d60346b14fdf268a37b0a48b6cf0"
         }
       ],
       "path": "/es/entity/rosalia-reina-de-los-latin-grammy-gana-el-premio-a-disco-del-ano-por-lux-y-a-can/"
@@ -88,12 +152,12 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 14,
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 13,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "8h fresca",
+      "freshness": "9h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 80,
@@ -139,18 +203,18 @@
       "path": "/es/entity/begona-gomez-participa-por-primera-vez-en-un-mitin-del-psoe-me-habeis-dado-el-al/"
     },
     {
-      "id": "now-cluster-españa-anne + igartiburu",
-      "title": "Anne Igartiburu, sobre la muerte de su madre en un rescate en helicóptero: «Aquello me convenció de que la ayuda mutua es indispensable»",
-      "brief": "Anne Igartiburu, sobre la muerte de su madre en un rescate en helicóptero: «Aquello me convenció de que la ayuda mutua es indispensable».",
+      "id": "now-cluster-españa-edificio + heridos",
+      "title": "22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
+      "brief": "22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible».",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -163,68 +227,26 @@
         "El Diario Vasco",
         "El Correo"
       ],
-      "images": [],
+      "images": [
+        "https://s3.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/13/incendio4-kxDC-U40327364568VMH-1200x840@El%20Correo.JPG"
+      ],
       "evidence": [
         {
-          "title": "Anne Igartiburu, sobre la muerte de su madre en un rescate en helicóptero: «Aquello me convenció de que la ayuda mutua es indispensable»",
+          "title": "22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Bilbao: «Ha sido horrible»",
           "source": "El Diario Vasco",
-          "publishedAt": "2026-11-13T06:40:19.000Z",
-          "sourceUrl": "https://www.diariovasco.com/gente-estilo/anne-igartiburu-sobre-muerte-madre-rescate-helicoptero-20261113183220-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-13T06:40:29.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/heridos-trasladados-hospital-grave-incendio-edificio-viviendas-20261113074029-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
         {
-          "title": "Anne Igartiburu recuerda el trágico accidente de su madre en una misión de rescate en Picos de Europa",
+          "title": "22 heridos trasladados al hospital, uno de ellos muy grave, en el incendio de un edificio de viviendas de Uribarri: «Ha sido horrible»",
           "source": "El Correo",
-          "publishedAt": "2026-11-12T17:38:23.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/anne-igartiburu-recuerda-madre-fallecida-participaba-voluntaria-20261112182402-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "publishedAt": "2026-11-13T05:48:13.000Z",
+          "sourceUrl": "https://www.elcorreo.com/bizkaia/heridos-grave-incendio-edificio-viviendas-uribarri-20261113064813-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/13/incendio4-kxDC-U40327364568VMH-1200x840@El%20Correo.JPG"
         }
       ],
-      "path": "/es/entity/anne-igartiburu-sobre-la-muerte-de-su-madre-en-un-rescate-en-helicoptero-aquello/"
-    },
-    {
-      "id": "now-cluster-españa-microsoft + outlook",
-      "title": "Microsoft Outlook sufre una caída a nivel mundial",
-      "brief": "Microsoft Outlook sufre una caída a nivel mundial.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "Microsoft Outlook sufre una caída a nivel mundial",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-13T06:39:46.000Z",
-          "sourceUrl": "https://www.diariovasco.com/tecnologia/microsoft-outlook-sufre-caida-nivel-mundial-20261113070846-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Microsoft Outlook se cae en todo el mundo",
-          "source": "El Correo",
-          "publishedAt": "2026-11-12T19:11:44.000Z",
-          "sourceUrl": "https://www.elcorreo.com/tecnologia/microsoft-outlook-cae-mundo-20261112195349-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/microsoft-outlook-sufre-una-caida-a-nivel-mundial/"
+      "path": "/es/entity/22-heridos-trasladados-al-hospital-uno-de-ellos-muy-grave-en-el-incendio-de-un-e/"
     },
     {
       "id": "now-cluster-españa-veces + enfermera",
@@ -238,7 +260,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -274,52 +296,6 @@
       "path": "/es/entity/condenan-a-una-enfermera-de-osakidetza-que-espio-89-veces-el-historial-medico-de/"
     },
     {
-      "id": "moving-cluster-españa-feijoo + sanchez",
-      "title": "Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\"",
-      "brief": "Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\".",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "7h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El País"
-      ],
-      "images": [
-        "https://e01-phantom-elmundo.uecdn.es/35b98a81bea57f6aa9806dc7e7956ce7/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/12/17945152717081.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-13T00:27:22.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af620eb21efa059588b45bb.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/35b98a81bea57f6aa9806dc7e7956ce7/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/12/17945152717081.jpg"
-        },
-        {
-          "title": "Feijóo se presenta como “gestor” para “resolver los problemas” frente al “saqueo” de Sánchez",
-          "source": "El País",
-          "publishedAt": "2026-11-12T21:26:10.000Z",
-          "sourceUrl": "https://elpais.com/espana/2026-11-12/feijoo-se-presenta-como-gestor-para-resolver-los-problemas-frente-al-saqueo-de-sanchez.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/feijoo-se-vuelca-en-la-disputa-del-voto-joven-con-vox-los-problemas-no-se-soluci/"
-    },
-    {
       "id": "moving-cluster-españa-estrella + roja",
       "title": "El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga",
       "brief": "El Real Madrid aplasta al Estrella Roja, uno de los rivales más correosos de la Euroliga.",
@@ -328,10 +304,10 @@
       "mode": "moving",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 6,
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "9h fresca",
+      "freshness": "10h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -367,70 +343,24 @@
       "path": "/es/entity/el-real-madrid-aplasta-al-estrella-roja-uno-de-los-rivales-mas-correosos-de-la-e/"
     },
     {
-      "id": "moving-cluster-españa-primera + cuando",
-      "title": "España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera",
-      "brief": "España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera.",
+      "id": "moving-cluster-españa-gana + etxepare",
+      "title": "Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa",
+      "brief": "Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "9h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Mundo"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/rc/www/multimedia/deportes/2026/11/12/image_20261112224900-RcAIwOom5qtPckmm8KboCGK-1200x840@RC.png",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/12/17945199881619.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "España también gana cuando toca sufrir",
-          "source": "El Correo",
-          "publishedAt": "2026-11-12T21:54:43.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/seleccion-espanola/espana-gana-toca-sufrir-20261112225443-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/deportes/2026/11/12/image_20261112224900-RcAIwOom5qtPckmm8KboCGK-1200x840@RC.png"
-        },
-        {
-          "title": "España gana hasta cuando le da igual: vence en Praga y le basta un punto contra Inglaterra el domingo para ser primera",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-12T21:48:19.000Z",
-          "sourceUrl": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/12/6af6075221efa05b5e8b45c0.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/12/17945199881619.jpg"
-        }
-      ],
-      "path": "/es/entity/espana-gana-hasta-cuando-le-da-igual-vence-en-praga-y-le-basta-un-punto-contra-i/"
-    },
-    {
-      "id": "fading-cluster-españa-gana + etxepare",
-      "title": "Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa",
-      "brief": "Una novela de Atxaga en serbio gana el Premio de Traducción Etxepare-Laboral Kutxa.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "13h fresca",
+      "freshness": "14h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 41,
+      "alertScore": 59,
       "alertTriggers": [
-        "Cruza varias fuentes"
+        "Cruza varias fuentes",
+        "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [

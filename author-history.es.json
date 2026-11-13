@@ -1,10 +1,16 @@
 {
-	"updatedAt": "2026-11-13T07:00:48.282Z",
+	"updatedAt": "2026-11-13T08:00:48.024Z",
 	"feedProfile": "es",
 	"retentionDays": 90,
 	"totalAuthors": 80,
-	"totalBylinedItems": 417,
+	"totalBylinedItems": 419,
 	"runs": [
+		{
+			"at": "2026-11-13T08:00:48.024Z",
+			"itemCount": 120,
+			"bylinedItemCount": 78,
+			"authorCount": 80
+		},
 		{
 			"at": "2026-11-13T07:00:48.282Z",
 			"itemCount": 120,
@@ -177,12 +183,6 @@
 			"at": "2026-11-10T13:31:59.956Z",
 			"itemCount": 120,
 			"bylinedItemCount": 63,
-			"authorCount": 80
-		},
-		{
-			"at": "2026-11-10T07:03:34.270Z",
-			"itemCount": 120,
-			"bylinedItemCount": 66,
 			"authorCount": 80
 		}
 	],
@@ -1104,14 +1104,14 @@
 			"name": "Pablo R. Suanzes",
 			"source": "El Mundo",
 			"profileUrl": "",
-			"itemCount": 11,
+			"itemCount": 12,
 			"sourceCount": 1,
 			"categoryCount": 1,
-			"score": 235,
-			"confidence": "low",
+			"score": 254,
+			"confidence": "medium",
 			"firstSeenAt": "2026-11-04T05:12:35.000Z",
-			"latestAt": "2026-11-12T17:07:33.000Z",
-			"daysActive": 9,
+			"latestAt": "2026-11-13T07:17:40.000Z",
+			"daysActive": 10,
 			"categories": [
 				"general"
 			],
@@ -1119,6 +1119,15 @@
 				"El Mundo"
 			],
 			"examples": [
+				{
+					"key": "https://www.elmundo.es/economia/empresas/2026/11/12/6af60dbbe4d4d8237d8b45a6.html?ref=lootura.com",
+					"title": "La caída de Huang deja tocada a Nvidia, expone al Gobierno estadounidense y refuerza a quienes piden más controles a las exportaciones de chips",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/economia/empresas/2026/11/12/6af60dbbe4d4d8237d8b45a6.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T07:17:40.000Z",
+					"category": "general",
+					"weight": 3
+				},
 				{
 					"key": "https://www.elmundo.es/internacional/2026/11/12/6af5ecf5e4d4d86f298b4574.html?ref=lootura.com",
 					"title": "Hegseth condecora al centinela que le llamó la atención a gritos por reírse junto a la tumba del Soldado Desconocido del cementerio de Arlington",
@@ -1136,18 +1145,18 @@
 					"publishedAt": "2026-11-12T13:59:35.000Z",
 					"category": "general",
 					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/internacional/2026/11/12/6af4a98021efa0ac198b458c.html?ref=lootura.com",
-					"title": "La inmigración divide al trumpismo tras la derrota en las urnas: el presidente insinúa una amnistía y el mundo MAGA fuerza una rectificación",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/internacional/2026/11/12/6af4a98021efa0ac198b458c.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-12T00:00:22.000Z",
-					"category": "general",
-					"weight": 3
 				}
 			],
 			"items": [
+				{
+					"key": "https://www.elmundo.es/economia/empresas/2026/11/12/6af60dbbe4d4d8237d8b45a6.html?ref=lootura.com",
+					"title": "La caída de Huang deja tocada a Nvidia, expone al Gobierno estadounidense y refuerza a quienes piden más controles a las exportaciones de chips",
+					"source": "El Mundo",
+					"href": "https://www.elmundo.es/economia/empresas/2026/11/12/6af60dbbe4d4d8237d8b45a6.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T07:17:40.000Z",
+					"category": "general",
+					"weight": 3
+				},
 				{
 					"key": "https://www.elmundo.es/internacional/2026/11/12/6af5ecf5e4d4d86f298b4574.html?ref=lootura.com",
 					"title": "Hegseth condecora al centinela que le llamó la atención a gritos por reírse junto a la tumba del Soldado Desconocido del cementerio de Arlington",
@@ -2060,6 +2069,129 @@
 			]
 		},
 		{
+			"id": "ok diario::janire manzanas",
+			"name": "Janire Manzanas",
+			"source": "OK Diario",
+			"profileUrl": "",
+			"itemCount": 8,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 172,
+			"confidence": "medium",
+			"firstSeenAt": "2026-11-06T17:00:12.000Z",
+			"latestAt": "2026-11-13T08:00:54.000Z",
+			"daysActive": 7,
+			"categories": [
+				"general"
+			],
+			"sources": [
+				"OK Diario"
+			],
+			"examples": [
+				{
+					"key": "https://okdiario.com/ciencia/volcan-ecuador-podria-enfriar-europa-durante-anos-que-erupciones-tropicales-tienen-mayor-impacto-clima-global-20828260?ref=lootura.com",
+					"title": "Un volcán en el ecuador podría enfriar Europa durante años: por qué las erupciones tropicales tienen un mayor impacto en el clima global",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/ciencia/volcan-ecuador-podria-enfriar-europa-durante-anos-que-erupciones-tropicales-tienen-mayor-impacto-clima-global-20828260?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T08:00:54.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?ref=lootura.com",
+					"title": "Byung-Chul Han, filósofo y premio Princesa de Asturias 2025: «La depresión es la enfermedad de una sociedad que sufre de excesiva positividad»",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T07:00:13.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/okgreen/decada-1960-urss-deseco-mar-aral-convertirlo-campos-algodon-hoy-alli-crece-bosque-combatir-erosion-20724979?ref=lootura.com",
+					"title": "En la década de 1960, la URSS desecó el mar de Aral para convertirlo en campos de algodón: hoy, allí crece un bosque para combatir la erosión",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/okgreen/decada-1960-urss-deseco-mar-aral-convertirlo-campos-algodon-hoy-alli-crece-bosque-combatir-erosion-20724979?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T10:30:18.000Z",
+					"category": "general",
+					"weight": 2
+				}
+			],
+			"items": [
+				{
+					"key": "https://okdiario.com/ciencia/volcan-ecuador-podria-enfriar-europa-durante-anos-que-erupciones-tropicales-tienen-mayor-impacto-clima-global-20828260?ref=lootura.com",
+					"title": "Un volcán en el ecuador podría enfriar Europa durante años: por qué las erupciones tropicales tienen un mayor impacto en el clima global",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/ciencia/volcan-ecuador-podria-enfriar-europa-durante-anos-que-erupciones-tropicales-tienen-mayor-impacto-clima-global-20828260?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T08:00:54.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?ref=lootura.com",
+					"title": "Byung-Chul Han, filósofo y premio Princesa de Asturias 2025: «La depresión es la enfermedad de una sociedad que sufre de excesiva positividad»",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-10T07:00:13.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/okgreen/decada-1960-urss-deseco-mar-aral-convertirlo-campos-algodon-hoy-alli-crece-bosque-combatir-erosion-20724979?ref=lootura.com",
+					"title": "En la década de 1960, la URSS desecó el mar de Aral para convertirlo en campos de algodón: hoy, allí crece un bosque para combatir la erosión",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/okgreen/decada-1960-urss-deseco-mar-aral-convertirlo-campos-algodon-hoy-alli-crece-bosque-combatir-erosion-20724979?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T10:30:18.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/curiosidades/rociar-vinagre-entrada-casa-durante-noviembre-que-lo-recomiendan-expertos-que-sirve-20724866?ref=lootura.com",
+					"title": "Rociar vinagre en la entrada de casa durante noviembre: por qué lo recomiendan los expertos y para qué sirve",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/curiosidades/rociar-vinagre-entrada-casa-durante-noviembre-que-lo-recomiendan-expertos-que-sirve-20724866?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T10:00:45.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/curiosidades/diego-fernandez-ingeniero-quimico-sobre-uso-del-bicarbonato-lo-utilizo-mezclado-agua-limpiar-paredes-o-zapatillas-deportivas-20724646?ref=lootura.com",
+					"title": "Diego Fernández, ingeniero químico, sobre el uso del bicarbonato: «Lo utilizo mezclado con agua para limpiar paredes o zapatillas deportivas»",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/curiosidades/diego-fernandez-ingeniero-quimico-sobre-uso-del-bicarbonato-lo-utilizo-mezclado-agua-limpiar-paredes-o-zapatillas-deportivas-20724646?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-08T08:00:08.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/okgreen/2022-california-decidio-salvar-pumas-4-anos-despues-ya-construido-puente-animales-mas-grande-del-mundo-20721564?ref=lootura.com",
+					"title": "En 2022 California decidió salvar a los pumas: 4 años después ya se ha construido el puente para animales más grande del mundo",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/okgreen/2022-california-decidio-salvar-pumas-4-anos-despues-ya-construido-puente-animales-mas-grande-del-mundo-20721564?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-07T10:30:57.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/curiosidades/ernestina-champourcin-poeta-espanola-sobre-amor-morir-rosa-que-nos-da-balde-perfume-cuajado-amor-siempre-20716139?ref=lootura.com",
+					"title": "Ernestina de Champourcín, poeta española, sobre el amor: «Morir es una rosa que se nos da de balde, un perfume cuajado en amor para siempre»",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/curiosidades/ernestina-champourcin-poeta-espanola-sobre-amor-morir-rosa-que-nos-da-balde-perfume-cuajado-amor-siempre-20716139?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-06T17:00:24.000Z",
+					"category": "general",
+					"weight": 2
+				},
+				{
+					"key": "https://okdiario.com/curiosidades/importante-reflexion-albert-einstein-educacion-lo-que-queda-despues-olvidar-lo-que-aprendido-escuela-20709628?ref=lootura.com",
+					"title": "La importante reflexión de Albert Einstein: «La educación es lo que queda después de olvidar lo que se ha aprendido en la escuela»",
+					"source": "OK Diario",
+					"href": "https://okdiario.com/curiosidades/importante-reflexion-albert-einstein-educacion-lo-que-queda-despues-olvidar-lo-que-aprendido-escuela-20709628?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-06T17:00:12.000Z",
+					"category": "general",
+					"weight": 2
+				}
+			]
+		},
+		{
 			"id": "ok diario::alejandro peinado",
 			"name": "Alejandro Peinado",
 			"source": "OK Diario",
@@ -2861,120 +2993,6 @@
 					"source": "OK Diario",
 					"href": "https://okdiario.com/deportes/espeluznante-evacuan-hospital-quadri-jugador-del-sabadell-escalofriante-patada-cabeza-20677224?utm_source=lootura.com&ref=lootura.com",
 					"publishedAt": "2026-10-31T21:40:22.000Z",
-					"category": "general",
-					"weight": 2
-				}
-			]
-		},
-		{
-			"id": "ok diario::janire manzanas",
-			"name": "Janire Manzanas",
-			"source": "OK Diario",
-			"profileUrl": "",
-			"itemCount": 7,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 151,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-06T17:00:12.000Z",
-			"latestAt": "2026-11-10T07:00:13.000Z",
-			"daysActive": 4,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"OK Diario"
-			],
-			"examples": [
-				{
-					"key": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?ref=lootura.com",
-					"title": "Byung-Chul Han, filósofo y premio Princesa de Asturias 2025: «La depresión es la enfermedad de una sociedad que sufre de excesiva positividad»",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T07:00:13.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/okgreen/decada-1960-urss-deseco-mar-aral-convertirlo-campos-algodon-hoy-alli-crece-bosque-combatir-erosion-20724979?ref=lootura.com",
-					"title": "En la década de 1960, la URSS desecó el mar de Aral para convertirlo en campos de algodón: hoy, allí crece un bosque para combatir la erosión",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/okgreen/decada-1960-urss-deseco-mar-aral-convertirlo-campos-algodon-hoy-alli-crece-bosque-combatir-erosion-20724979?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T10:30:18.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/curiosidades/rociar-vinagre-entrada-casa-durante-noviembre-que-lo-recomiendan-expertos-que-sirve-20724866?ref=lootura.com",
-					"title": "Rociar vinagre en la entrada de casa durante noviembre: por qué lo recomiendan los expertos y para qué sirve",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/curiosidades/rociar-vinagre-entrada-casa-durante-noviembre-que-lo-recomiendan-expertos-que-sirve-20724866?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T10:00:45.000Z",
-					"category": "general",
-					"weight": 2
-				}
-			],
-			"items": [
-				{
-					"key": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?ref=lootura.com",
-					"title": "Byung-Chul Han, filósofo y premio Princesa de Asturias 2025: «La depresión es la enfermedad de una sociedad que sufre de excesiva positividad»",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/curiosidades/byung-chul-han-filosofo-premio-princesa-asturias-2025-depresion-enfermedad-sociedad-que-sufre-excesiva-positividad-20739226?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-10T07:00:13.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/okgreen/decada-1960-urss-deseco-mar-aral-convertirlo-campos-algodon-hoy-alli-crece-bosque-combatir-erosion-20724979?ref=lootura.com",
-					"title": "En la década de 1960, la URSS desecó el mar de Aral para convertirlo en campos de algodón: hoy, allí crece un bosque para combatir la erosión",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/okgreen/decada-1960-urss-deseco-mar-aral-convertirlo-campos-algodon-hoy-alli-crece-bosque-combatir-erosion-20724979?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T10:30:18.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/curiosidades/rociar-vinagre-entrada-casa-durante-noviembre-que-lo-recomiendan-expertos-que-sirve-20724866?ref=lootura.com",
-					"title": "Rociar vinagre en la entrada de casa durante noviembre: por qué lo recomiendan los expertos y para qué sirve",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/curiosidades/rociar-vinagre-entrada-casa-durante-noviembre-que-lo-recomiendan-expertos-que-sirve-20724866?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T10:00:45.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/curiosidades/diego-fernandez-ingeniero-quimico-sobre-uso-del-bicarbonato-lo-utilizo-mezclado-agua-limpiar-paredes-o-zapatillas-deportivas-20724646?ref=lootura.com",
-					"title": "Diego Fernández, ingeniero químico, sobre el uso del bicarbonato: «Lo utilizo mezclado con agua para limpiar paredes o zapatillas deportivas»",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/curiosidades/diego-fernandez-ingeniero-quimico-sobre-uso-del-bicarbonato-lo-utilizo-mezclado-agua-limpiar-paredes-o-zapatillas-deportivas-20724646?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T08:00:08.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/okgreen/2022-california-decidio-salvar-pumas-4-anos-despues-ya-construido-puente-animales-mas-grande-del-mundo-20721564?ref=lootura.com",
-					"title": "En 2022 California decidió salvar a los pumas: 4 años después ya se ha construido el puente para animales más grande del mundo",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/okgreen/2022-california-decidio-salvar-pumas-4-anos-despues-ya-construido-puente-animales-mas-grande-del-mundo-20721564?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-07T10:30:57.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/curiosidades/ernestina-champourcin-poeta-espanola-sobre-amor-morir-rosa-que-nos-da-balde-perfume-cuajado-amor-siempre-20716139?ref=lootura.com",
-					"title": "Ernestina de Champourcín, poeta española, sobre el amor: «Morir es una rosa que se nos da de balde, un perfume cuajado en amor para siempre»",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/curiosidades/ernestina-champourcin-poeta-espanola-sobre-amor-morir-rosa-que-nos-da-balde-perfume-cuajado-amor-siempre-20716139?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-06T17:00:24.000Z",
-					"category": "general",
-					"weight": 2
-				},
-				{
-					"key": "https://okdiario.com/curiosidades/importante-reflexion-albert-einstein-educacion-lo-que-queda-despues-olvidar-lo-que-aprendido-escuela-20709628?ref=lootura.com",
-					"title": "La importante reflexión de Albert Einstein: «La educación es lo que queda después de olvidar lo que se ha aprendido en la escuela»",
-					"source": "OK Diario",
-					"href": "https://okdiario.com/curiosidades/importante-reflexion-albert-einstein-educacion-lo-que-queda-despues-olvidar-lo-que-aprendido-escuela-20709628?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-06T17:00:12.000Z",
 					"category": "general",
 					"weight": 2
 				}
@@ -4465,7 +4483,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 113,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-01T01:27:20.000Z",
 			"latestAt": "2026-11-13T06:13:19.000Z",
 			"daysActive": 13,
@@ -7304,6 +7322,66 @@
 			]
 		},
 		{
+			"id": "https://www.elcorreo.com/autor/helena-rodriguez-4460.html",
+			"name": "Helena Rodríguez",
+			"source": "El Correo",
+			"profileUrl": "https://www.elcorreo.com/autor/helena-rodriguez-4460.html",
+			"itemCount": 2,
+			"sourceCount": 1,
+			"categoryCount": 1,
+			"score": 72,
+			"confidence": "high",
+			"firstSeenAt": "2026-11-13T06:49:23.000Z",
+			"latestAt": "2026-11-13T07:38:23.000Z",
+			"daysActive": 1,
+			"categories": [
+				"local"
+			],
+			"sources": [
+				"El Correo"
+			],
+			"examples": [
+				{
+					"key": "https://www.elcorreo.com/bizkaia/vecina-afectada-inhalacion-humo-iba-cama-visto-20261113083823-nt.html?ref=lootura.com",
+					"title": "Una vecina afectada por inhalación de humo: «Me iba a la cama y he visto humo entrando por debajo de la puerta de casa»",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/bizkaia/vecina-afectada-inhalacion-humo-iba-cama-visto-20261113083823-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T07:38:23.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/bizkaia/mujer-sola-casa-quemado-entera-20261113074922-nt.html?ref=lootura.com",
+					"title": "El marido de la herida grave: «Mi mujer estaba sola, la casa se nos ha quemado entera...»",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/bizkaia/mujer-sola-casa-quemado-entera-20261113074922-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T06:49:23.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			],
+			"items": [
+				{
+					"key": "https://www.elcorreo.com/bizkaia/vecina-afectada-inhalacion-humo-iba-cama-visto-20261113083823-nt.html?ref=lootura.com",
+					"title": "Una vecina afectada por inhalación de humo: «Me iba a la cama y he visto humo entrando por debajo de la puerta de casa»",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/bizkaia/vecina-afectada-inhalacion-humo-iba-cama-visto-20261113083823-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T07:38:23.000Z",
+					"category": "local",
+					"weight": 4
+				},
+				{
+					"key": "https://www.elcorreo.com/bizkaia/mujer-sola-casa-quemado-entera-20261113074922-nt.html?ref=lootura.com",
+					"title": "El marido de la herida grave: «Mi mujer estaba sola, la casa se nos ha quemado entera...»",
+					"source": "El Correo",
+					"href": "https://www.elcorreo.com/bizkaia/mujer-sola-casa-quemado-entera-20261113074922-nt.html?utm_source=lootura.com&ref=lootura.com",
+					"publishedAt": "2026-11-13T06:49:23.000Z",
+					"category": "local",
+					"weight": 4
+				}
+			]
+		},
+		{
 			"id": "https://www.elcorreo.com/autor/melchor-saiz-pardo-136.html",
 			"name": "Melchor Sáiz-Pardo",
 			"source": "El Correo",
@@ -7612,7 +7690,7 @@
 			"sourceCount": 1,
 			"categoryCount": 1,
 			"score": 65,
-			"confidence": "medium",
+			"confidence": "low",
 			"firstSeenAt": "2026-11-13T05:30:00.000Z",
 			"latestAt": "2026-11-13T06:00:00.000Z",
 			"daysActive": 1,
@@ -7838,66 +7916,6 @@
 					"source": "El Mundo",
 					"href": "https://www.elmundo.es/economia/2026/11/10/6aedc352fc6c839e1c8b457f.html?utm_source=lootura.com&ref=lootura.com",
 					"publishedAt": "2026-11-10T00:12:11.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			]
-		},
-		{
-			"id": "el mundo::carlos segovia",
-			"name": "Carlos Segovia",
-			"source": "El Mundo",
-			"profileUrl": "",
-			"itemCount": 2,
-			"sourceCount": 1,
-			"categoryCount": 1,
-			"score": 65,
-			"confidence": "low",
-			"firstSeenAt": "2026-11-08T23:50:18.000Z",
-			"latestAt": "2026-11-09T00:05:11.000Z",
-			"daysActive": 1,
-			"categories": [
-				"general"
-			],
-			"sources": [
-				"El Mundo"
-			],
-			"examples": [
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/09/6af0a574fc6c83f83b8b457c.html?ref=lootura.com",
-					"title": "El Tribunal de Cuentas inicia la instrucción para recuperar el dinero de concursos amañados de Adif",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/09/6af0a574fc6c83f83b8b457c.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T00:05:11.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/economia/2026/11/09/6af0a741e9cf4a21328b456d.html?ref=lootura.com",
-					"title": "El Gobierno bate récords este año de manipulación presupuestaria al modificar ya 40.000 millones en las cuentas prorrogadas",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/economia/2026/11/09/6af0a741e9cf4a21328b456d.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T23:50:18.000Z",
-					"category": "general",
-					"weight": 3
-				}
-			],
-			"items": [
-				{
-					"key": "https://www.elmundo.es/espana/2026/11/09/6af0a574fc6c83f83b8b457c.html?ref=lootura.com",
-					"title": "El Tribunal de Cuentas inicia la instrucción para recuperar el dinero de concursos amañados de Adif",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/espana/2026/11/09/6af0a574fc6c83f83b8b457c.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-09T00:05:11.000Z",
-					"category": "general",
-					"weight": 3
-				},
-				{
-					"key": "https://www.elmundo.es/economia/2026/11/09/6af0a741e9cf4a21328b456d.html?ref=lootura.com",
-					"title": "El Gobierno bate récords este año de manipulación presupuestaria al modificar ya 40.000 millones en las cuentas prorrogadas",
-					"source": "El Mundo",
-					"href": "https://www.elmundo.es/economia/2026/11/09/6af0a741e9cf4a21328b456d.html?utm_source=lootura.com&ref=lootura.com",
-					"publishedAt": "2026-11-08T23:50:18.000Z",
 					"category": "general",
 					"weight": 3
 				}
