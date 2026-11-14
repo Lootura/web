@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-14T15:00:47.985Z",
+  "updatedAt": "2026-11-14T16:00:48.248Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "232,775 links analyzed",
-  "dayScanLabel": "6,049 links scanned in 24h",
+  "ambientPulseLabel": "233,374 links analyzed",
+  "dayScanLabel": "6,039 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -17,18 +17,18 @@
     ]
   },
   "topAlert": {
-    "id": "moving-cluster-united states-ground + stop",
+    "id": "now-cluster-united states-ground + stop",
     "title": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
     "brief": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop.",
     "whyItMatters": "",
     "verdict": "If it repeats in the next run, it gains weight.",
-    "mode": "moving",
-    "state": "active",
-    "stateLabel": "Active",
-    "strength": 20,
-    "sourceCount": 5,
-    "itemCount": 7,
-    "freshness": "8h fresh",
+    "mode": "now",
+    "state": "rising",
+    "stateLabel": "Rising",
+    "strength": 33,
+    "sourceCount": 6,
+    "itemCount": 9,
+    "freshness": "fresh now",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -39,25 +39,39 @@
     ],
     "isHotNews": false,
     "sources": [
-      "The New York Times",
       "CBS News",
       "NBC News",
       "NPR Politics",
-      "NPR"
+      "The New York Times",
+      "The Guardian US"
     ],
     "images": [
-      "https://static01.nyt.com/images/2026/12/13/multimedia/13faa-groundstop-what-to-know-kgwh/13faa-groundstop-what-to-know-kgwh-mediumSquareAt3X.jpg",
       "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794621135079_nbc_spec_faa_duffy_timeline_261113_S3_1920x1080-g0b3j8.jpg",
       "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6040418",
-      "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-travelers-rights2-qwgh/13faa-groundstop-travelers-rights2-qwgh-mediumSquareAt3X.jpg"
+      "https://static01.nyt.com/images/2026/12/13/multimedia/13faa-groundstop-what-to-know-kgwh/13faa-groundstop-what-to-know-kgwh-mediumSquareAt3X.jpg",
+      "https://i.guim.co.uk/img/media/6934b82431c8fab49bd4a56b9baaca81b07d75ae/0_0_3333_2667/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=df39ec2f66eadc002f0e2550196d56ad"
     ],
     "evidence": [
       {
+        "title": "Eye Opener: National ground stop lifted",
+        "source": "CBS News",
+        "publishedAt": "2026-11-14T15:34:54.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/eye-opener-national-ground-stop-lifted/?utm_source=lootura.com&ref=lootura.com",
+        "image": ""
+      },
+      {
         "title": "What to Know About Friday’s Nationwide Ground Stop",
         "source": "The New York Times",
-        "publishedAt": "2026-11-14T06:54:50.000Z",
+        "publishedAt": "2026-11-14T15:04:44.000Z",
         "sourceUrl": "https://www.nytimes.com/2026/11/13/us/faa-ground-stop-flights-what-to-know.html?utm_source=lootura.com&ref=lootura.com",
         "image": "https://static01.nyt.com/images/2026/12/13/multimedia/13faa-groundstop-what-to-know-kgwh/13faa-groundstop-what-to-know-kgwh-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "US air travel slowly recovers from nationwide flight ground stop as chaos continues",
+        "source": "The Guardian US",
+        "publishedAt": "2026-11-14T15:03:00.000Z",
+        "sourceUrl": "https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://i.guim.co.uk/img/media/6934b82431c8fab49bd4a56b9baaca81b07d75ae/0_0_3333_2667/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=df39ec2f66eadc002f0e2550196d56ad"
       },
       {
         "title": "Nationwide ground stop lifted, Duffy calls for congressional funding to upgrade ATC system",
@@ -72,38 +86,24 @@
         "publishedAt": "2026-11-14T01:52:22.000Z",
         "sourceUrl": "https://www.nbcnews.com/video/duffy-details-timeline-of-ground-stop-demands-more-faa-funding-273494085679?utm_source=lootura.com&ref=lootura.com",
         "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794621135079_nbc_spec_faa_duffy_timeline_261113_S3_1920x1080-g0b3j8.jpg"
-      },
-      {
-        "title": "Flight Canceled During the FAA Ground Stop? Here’s What to Do.",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-13T23:42:43.000Z",
-        "sourceUrl": "https://www.nytimes.com/2026/11/13/us/ground-stop-flight-delays-cancellations-tips.html?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-travelers-rights2-qwgh/13faa-groundstop-travelers-rights2-qwgh-mediumSquareAt3X.jpg"
-      },
-      {
-        "title": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
-        "source": "NPR Politics",
-        "publishedAt": "2026-11-13T22:36:46.000Z",
-        "sourceUrl": "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6040418"
       }
     ],
     "path": "/us/entity/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground/"
   },
   "signals": [
     {
-      "id": "moving-cluster-united states-ground + stop",
+      "id": "now-cluster-united states-ground + stop",
       "title": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
       "brief": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 20,
-      "sourceCount": 5,
-      "itemCount": 7,
-      "freshness": "8h fresh",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 33,
+      "sourceCount": 6,
+      "itemCount": 9,
+      "freshness": "fresh now",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -114,25 +114,39 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The New York Times",
         "CBS News",
         "NBC News",
         "NPR Politics",
-        "NPR"
+        "The New York Times",
+        "The Guardian US"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/12/13/multimedia/13faa-groundstop-what-to-know-kgwh/13faa-groundstop-what-to-know-kgwh-mediumSquareAt3X.jpg",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794621135079_nbc_spec_faa_duffy_timeline_261113_S3_1920x1080-g0b3j8.jpg",
         "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6040418",
-        "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-travelers-rights2-qwgh/13faa-groundstop-travelers-rights2-qwgh-mediumSquareAt3X.jpg"
+        "https://static01.nyt.com/images/2026/12/13/multimedia/13faa-groundstop-what-to-know-kgwh/13faa-groundstop-what-to-know-kgwh-mediumSquareAt3X.jpg",
+        "https://i.guim.co.uk/img/media/6934b82431c8fab49bd4a56b9baaca81b07d75ae/0_0_3333_2667/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=df39ec2f66eadc002f0e2550196d56ad"
       ],
       "evidence": [
         {
+          "title": "Eye Opener: National ground stop lifted",
+          "source": "CBS News",
+          "publishedAt": "2026-11-14T15:34:54.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/eye-opener-national-ground-stop-lifted/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
           "title": "What to Know About Friday’s Nationwide Ground Stop",
           "source": "The New York Times",
-          "publishedAt": "2026-11-14T06:54:50.000Z",
+          "publishedAt": "2026-11-14T15:04:44.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/13/us/faa-ground-stop-flights-what-to-know.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static01.nyt.com/images/2026/12/13/multimedia/13faa-groundstop-what-to-know-kgwh/13faa-groundstop-what-to-know-kgwh-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "US air travel slowly recovers from nationwide flight ground stop as chaos continues",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-14T15:03:00.000Z",
+          "sourceUrl": "https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/6934b82431c8fab49bd4a56b9baaca81b07d75ae/0_0_3333_2667/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=df39ec2f66eadc002f0e2550196d56ad"
         },
         {
           "title": "Nationwide ground stop lifted, Duffy calls for congressional funding to upgrade ATC system",
@@ -147,20 +161,6 @@
           "publishedAt": "2026-11-14T01:52:22.000Z",
           "sourceUrl": "https://www.nbcnews.com/video/duffy-details-timeline-of-ground-stop-demands-more-faa-funding-273494085679?utm_source=lootura.com&ref=lootura.com",
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794621135079_nbc_spec_faa_duffy_timeline_261113_S3_1920x1080-g0b3j8.jpg"
-        },
-        {
-          "title": "Flight Canceled During the FAA Ground Stop? Here’s What to Do.",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-13T23:42:43.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/13/us/ground-stop-flight-delays-cancellations-tips.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-travelers-rights2-qwgh/13faa-groundstop-travelers-rights2-qwgh-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
-          "source": "NPR Politics",
-          "publishedAt": "2026-11-13T22:36:46.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6040418"
         }
       ],
       "path": "/us/entity/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground/"
@@ -174,10 +174,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 23,
+      "strength": 22,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 92,
@@ -223,21 +223,21 @@
       "path": "/us/entity/bomb-found-at-industrial-plant-in-peoria-illinois-rendered-safe-by-police/"
     },
     {
-      "id": "now-cluster-united states-democrat + jonathan",
+      "id": "moving-cluster-united states-democrat + jonathan",
       "title": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
       "brief": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 16,
-      "sourceCount": 4,
-      "itemCount": 4,
-      "freshness": "8h fresh",
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 13,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "9h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 85,
+      "alertScore": 80,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -247,13 +247,11 @@
       "sources": [
         "CBS News",
         "NPR Politics",
-        "Politico",
-        "NBC News Politics"
+        "Politico"
       ],
       "images": [
         "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/14/e04476f7-c2af-4476-89f9-54e19e95def3/thumbnail/1200x630/2987d01481400e555a0e0e3a1fe022b3/sequence-24-00-00-00-00-still001.jpg",
         "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1956x1500+0+0/resize/1956x1500!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9f%2Fc8%2F33103fa7402ba264b48ddc1ee50e%2Ftomkins.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261030-Jonathan-Kreiss-Tomkins-ch-1321-9e72b7.jpg",
         "https://static.politico.com/e3/af/c47c1748435d9ea3405f9a5edbd3/https-delivery-gettyimages.com/downloads/2304485587"
       ],
       "evidence": [
@@ -277,30 +275,23 @@
           "publishedAt": "2026-11-14T05:07:08.000Z",
           "sourceUrl": "https://www.politico.com/news/2026/11/14/jonathan-kreiss-tomkins-wins-alaska-governor-01166573?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static.politico.com/e3/af/c47c1748435d9ea3405f9a5edbd3/https-delivery-gettyimages.com/downloads/2304485587"
-        },
-        {
-          "title": "Democrat Jonathan Kreiss-Tomkins wins the Alaska governor’s race",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-14T05:05:00.120Z",
-          "sourceUrl": "https://www.nbcnews.com/politics/2026-election/jonathan-kreiss-tomkins-democrat-wins-alaska-governor-race-rcna606558?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261030-Jonathan-Kreiss-Tomkins-ch-1321-9e72b7.jpg"
         }
       ],
       "path": "/us/entity/democrat-jonathan-kreiss-tomkins-wins-race-for-alaska-governor-replaces-a-republ/"
     },
     {
-      "id": "now-cluster-united states-alaska + voting",
-      "title": "Alaska voters aren't ditching ranked choice voting, top-four primaries",
-      "brief": "Alaska voters aren't ditching ranked choice voting, top-four primaries.",
+      "id": "now-cluster-united states-democrats + congress",
+      "title": "Progressive versus moderate? Democrats deny party rift as they head into new Congress",
+      "brief": "Progressive versus moderate? Democrats deny party rift as they head into new Congress.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresh",
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -310,47 +301,94 @@
       ],
       "isHotNews": false,
       "sources": [
-        "NPR Politics",
-        "NBC News Politics"
+        "The Guardian US",
+        "NPR Politics"
       ],
       "images": [
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5191x3461+0+0/resize/5191x3461!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F04%2F692982c643afb52e86b590ea8647%2Fap26307845117065.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261103-alaska-voting-mn-1345-15f529.jpg"
+        "https://i.guim.co.uk/img/media/5cb9c07dc0365f409c0acd494adfaec5bafdb713/823_0_6899_5520/master/6899.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=475aa202a605f492a326aad6818a15f7",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2400x1599+0+0/resize/2400x1599!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa4%2F7f%2F1e1751c144f1bd74d4bf72ab16e1%2Fgettyimages-2244508651.jpg"
       ],
       "evidence": [
         {
-          "title": "Alaska voters aren't ditching ranked choice voting, top-four primaries",
-          "source": "NPR Politics",
-          "publishedAt": "2026-11-14T13:08:05.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/14/nx-s1-6034952/alaska-results-ranked-choice-voting-nonpartisan-primary?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5191x3461+0+0/resize/5191x3461!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F04%2F692982c643afb52e86b590ea8647%2Fap26307845117065.jpg"
+          "title": "Progressive versus moderate? Democrats deny party rift as they head into new Congress",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-14T15:28:14.000Z",
+          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/14/democrats-moderate-progressive-congress?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/5cb9c07dc0365f409c0acd494adfaec5bafdb713/823_0_6899_5520/master/6899.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=475aa202a605f492a326aad6818a15f7"
         },
         {
-          "title": "Alaskans opt to stick with ranked choice voting",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-14T05:08:58.163Z",
-          "sourceUrl": "https://www.nbcnews.com/politics/2026-election/alaskans-opt-stick-ranked-choice-voting-rcna607641?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261103-alaska-voting-mn-1345-15f529.jpg"
+          "title": "Hegseth's failed impeachment was a warning to Democrats. Where will they go from here?",
+          "source": "NPR Politics",
+          "publishedAt": "2026-11-14T10:00:00.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/14/nx-s1-6040299/hegseth-impeachment-democrats-house-test?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2400x1599+0+0/resize/2400x1599!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa4%2F7f%2F1e1751c144f1bd74d4bf72ab16e1%2Fgettyimages-2244508651.jpg"
         }
       ],
-      "path": "/us/entity/alaska-voters-aren-t-ditching-ranked-choice-voting-top-four-primaries/"
+      "path": "/us/entity/progressive-versus-moderate-democrats-deny-party-rift-as-they-head-into-new-cong/"
     },
     {
-      "id": "now-cluster-united states-trump + meet",
+      "id": "now-cluster-united states-trump + national",
+      "title": "Trump’s Oil Grab in Venezuela Is Testing the Country’s National Identity",
+      "brief": "Trump’s Oil Grab in Venezuela Is Testing the Country’s National Identity.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The Guardian US",
+        "The New York Times World"
+      ],
+      "images": [
+        "https://i.guim.co.uk/img/media/e49a1b76dc431e7d51ebb5a7c6f88068ba050832/292_0_2501_2000/master/2501.jpg?width=140&quality=85&auto=format&fit=max&s=a030a3a7562d73b1f5c81ecf0bda1ec9",
+        "https://static01.nyt.com/images/2026/10/29/multimedia/00int-venezuela-oil-pqfl/00int-venezuela-oil-pqfl-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "How ICE raids in Kansas meatpacking country sparked fury",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-14T15:00:47.000Z",
+          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/14/kansas-ice-meatpacking-raids-trump-midterms?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/e49a1b76dc431e7d51ebb5a7c6f88068ba050832/292_0_2501_2000/master/2501.jpg?width=140&quality=85&auto=format&fit=max&s=a030a3a7562d73b1f5c81ecf0bda1ec9"
+        },
+        {
+          "title": "Trump’s Oil Grab in Venezuela Is Testing the Country’s National Identity",
+          "source": "The New York Times World",
+          "publishedAt": "2026-11-14T10:10:01.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/14/world/americas/trump-venezuela-oil.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/10/29/multimedia/00int-venezuela-oil-pqfl/00int-venezuela-oil-pqfl-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/trump-s-oil-grab-in-venezuela-is-testing-the-country-s-national-identity/"
+    },
+    {
+      "id": "moving-cluster-united states-trump + meet",
       "title": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say",
       "brief": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 9,
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 60,
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
