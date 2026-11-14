@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-14T11:21:25.242Z",
-  "pulseLabel": "Last analysis · 29 minutes ago",
-  "ambientPulseLabel": "230,356 links analyzed",
-  "dayScanLabel": "6,051 links scanned in 24h",
+  "updatedAt": "2026-11-14T12:00:49.834Z",
+  "pulseLabel": "Last analysis · this minute",
+  "ambientPulseLabel": "230,962 links analyzed",
+  "dayScanLabel": "6,053 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -25,10 +25,10 @@
     "mode": "moving",
     "state": "active",
     "stateLabel": "Active",
-    "strength": 31,
-    "sourceCount": 7,
-    "itemCount": 15,
-    "freshness": "4h fresh",
+    "strength": 27,
+    "sourceCount": 6,
+    "itemCount": 12,
+    "freshness": "5h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -41,14 +41,14 @@
     "sources": [
       "The New York Times",
       "CBS News",
-      "The Verge",
       "NBC News",
-      "PBS NewsHour"
+      "PBS NewsHour",
+      "NPR Politics"
     ],
     "images": [
       "https://static01.nyt.com/images/2026/12/13/multimedia/13faa-groundstop-what-to-know-kgwh/13faa-groundstop-what-to-know-kgwh-mediumSquareAt3X.jpg",
-      "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794621135079_nbc_spec_faa_duffy_timeline_261113_S3_1920x1080-g0b3j8.jpg"
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794621135079_nbc_spec_faa_duffy_timeline_261113_S3_1920x1080-g0b3j8.jpg",
+      "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/14/b5270c0a-7cff-4bb6-823a-223bf8eaf762/thumbnail/1200x630/b9953f940ab1ae0ba8ce297e482388bb/cbsn-fusion-stranded-passenger-in-las-vegas-on-nationwide-ground-stop-thumbnail.jpg"
     ],
     "evidence": [
       {
@@ -59,13 +59,6 @@
         "image": "https://static01.nyt.com/images/2026/12/13/multimedia/13faa-groundstop-what-to-know-kgwh/13faa-groundstop-what-to-know-kgwh-mediumSquareAt3X.jpg"
       },
       {
-        "title": "FAA lifts nationwide ground stop that disrupted thousands of flights",
-        "source": "CBS News",
-        "publishedAt": "2026-11-14T04:03:00.000Z",
-        "sourceUrl": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/?utm_source=lootura.com&ref=lootura.com",
-        "image": ""
-      },
-      {
         "title": "Nationwide ground stop lifted, Duffy calls for congressional funding to upgrade ATC system",
         "source": "CBS News",
         "publishedAt": "2026-11-14T02:16:30.000Z",
@@ -73,18 +66,25 @@
         "image": ""
       },
       {
-        "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
-        "source": "The Verge",
-        "publishedAt": "2026-11-14T01:53:04.000Z",
-        "sourceUrl": "https://www.theverge.com/news/1033489/faa-ground-stop?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&strip=all&crop=0,0,100,100"
-      },
-      {
         "title": "Duffy details timeline of ground stop, demands more FAA funding",
         "source": "NBC News",
         "publishedAt": "2026-11-14T01:52:22.000Z",
         "sourceUrl": "https://www.nbcnews.com/video/duffy-details-timeline-of-ground-stop-demands-more-faa-funding-273494085679?utm_source=lootura.com&ref=lootura.com",
         "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794621135079_nbc_spec_faa_duffy_timeline_261113_S3_1920x1080-g0b3j8.jpg"
+      },
+      {
+        "title": "Stranded passenger in Las Vegas on nationwide ground stop: \"Nobody has answers\"",
+        "source": "CBS News",
+        "publishedAt": "2026-11-14T00:14:31.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/stranded-passenger-in-las-vegas-on-nationwide-ground-stop/?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/14/b5270c0a-7cff-4bb6-823a-223bf8eaf762/thumbnail/1200x630/b9953f940ab1ae0ba8ce297e482388bb/cbsn-fusion-stranded-passenger-in-las-vegas-on-nationwide-ground-stop-thumbnail.jpg"
+      },
+      {
+        "title": "Nationwide ground stop brings America’s airports to a standstill",
+        "source": "NBC News",
+        "publishedAt": "2026-11-14T00:09:50.000Z",
+        "sourceUrl": "https://www.nbcnews.com/nightly-news/video/nationwide-ground-stop-brings-america-s-airports-to-a-standstill-273485381855?utm_source=lootura.com&ref=lootura.com",
+        "image": ""
       }
     ],
     "path": "/us/entity/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground/"
@@ -99,10 +99,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 31,
-      "sourceCount": 7,
-      "itemCount": 15,
-      "freshness": "4h fresh",
+      "strength": 27,
+      "sourceCount": 6,
+      "itemCount": 12,
+      "freshness": "5h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -115,14 +115,14 @@
       "sources": [
         "The New York Times",
         "CBS News",
-        "The Verge",
         "NBC News",
-        "PBS NewsHour"
+        "PBS NewsHour",
+        "NPR Politics"
       ],
       "images": [
         "https://static01.nyt.com/images/2026/12/13/multimedia/13faa-groundstop-what-to-know-kgwh/13faa-groundstop-what-to-know-kgwh-mediumSquareAt3X.jpg",
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&strip=all&crop=0,0,100,100",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794621135079_nbc_spec_faa_duffy_timeline_261113_S3_1920x1080-g0b3j8.jpg"
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794621135079_nbc_spec_faa_duffy_timeline_261113_S3_1920x1080-g0b3j8.jpg",
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/14/b5270c0a-7cff-4bb6-823a-223bf8eaf762/thumbnail/1200x630/b9953f940ab1ae0ba8ce297e482388bb/cbsn-fusion-stranded-passenger-in-las-vegas-on-nationwide-ground-stop-thumbnail.jpg"
       ],
       "evidence": [
         {
@@ -133,13 +133,6 @@
           "image": "https://static01.nyt.com/images/2026/12/13/multimedia/13faa-groundstop-what-to-know-kgwh/13faa-groundstop-what-to-know-kgwh-mediumSquareAt3X.jpg"
         },
         {
-          "title": "FAA lifts nationwide ground stop that disrupted thousands of flights",
-          "source": "CBS News",
-          "publishedAt": "2026-11-14T04:03:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
           "title": "Nationwide ground stop lifted, Duffy calls for congressional funding to upgrade ATC system",
           "source": "CBS News",
           "publishedAt": "2026-11-14T02:16:30.000Z",
@@ -147,26 +140,107 @@
           "image": ""
         },
         {
-          "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
-          "source": "The Verge",
-          "publishedAt": "2026-11-14T01:53:04.000Z",
-          "sourceUrl": "https://www.theverge.com/news/1033489/faa-ground-stop?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&strip=all&crop=0,0,100,100"
-        },
-        {
           "title": "Duffy details timeline of ground stop, demands more FAA funding",
           "source": "NBC News",
           "publishedAt": "2026-11-14T01:52:22.000Z",
           "sourceUrl": "https://www.nbcnews.com/video/duffy-details-timeline-of-ground-stop-demands-more-faa-funding-273494085679?utm_source=lootura.com&ref=lootura.com",
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794621135079_nbc_spec_faa_duffy_timeline_261113_S3_1920x1080-g0b3j8.jpg"
+        },
+        {
+          "title": "Stranded passenger in Las Vegas on nationwide ground stop: \"Nobody has answers\"",
+          "source": "CBS News",
+          "publishedAt": "2026-11-14T00:14:31.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/stranded-passenger-in-las-vegas-on-nationwide-ground-stop/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/14/b5270c0a-7cff-4bb6-823a-223bf8eaf762/thumbnail/1200x630/b9953f940ab1ae0ba8ce297e482388bb/cbsn-fusion-stranded-passenger-in-las-vegas-on-nationwide-ground-stop-thumbnail.jpg"
+        },
+        {
+          "title": "Nationwide ground stop brings America’s airports to a standstill",
+          "source": "NBC News",
+          "publishedAt": "2026-11-14T00:09:50.000Z",
+          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/nationwide-ground-stop-brings-america-s-airports-to-a-standstill-273485381855?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         }
       ],
       "path": "/us/entity/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground/"
     },
     {
+      "id": "now-cluster-united states-trump + officials",
+      "title": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say",
+      "brief": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 26,
+      "sourceCount": 4,
+      "itemCount": 5,
+      "freshness": "1h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NBC News Politics",
+        "The New York Times Politics",
+        "NPR Politics"
+      ],
+      "images": [
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/14/ca3d845e-2e76-4093-9b96-5798868f6369/thumbnail/1200x630/0b1af416dc9ccf224b98686701d6f9f6/gettyimages-2302566480.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261106-Xi-Trump-Putin-vsb-1846-405edd.jpg",
+        "https://static01.nyt.com/images/2026/11/13/multimedia/13dc-trilateral-meeting-kvtj/13dc-trilateral-meeting-kvtj-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/13/multimedia/13dc-surveillance-pbwq/13dc-surveillance-pbwq-mediumSquareAt3X.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2511x1674+0+0/resize/2511x1674!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8a%2F6d%2Fbb7e77884e4fb7331a20a24d8a8a%2Fap26230766602771.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say",
+          "source": "CBS News",
+          "publishedAt": "2026-11-14T10:59:18.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/14/ca3d845e-2e76-4093-9b96-5798868f6369/thumbnail/1200x630/0b1af416dc9ccf224b98686701d6f9f6/gettyimages-2302566480.jpg"
+        },
+        {
+          "title": "Trump, Xi and Putin plan an unprecedented meeting on the sidelines of APEC, officials say",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-14T03:07:36.257Z",
+          "sourceUrl": "https://www.nbcnews.com/world/china/trump-xi-putin-plan-unprecedented-joint-meeting-sidelines-apec-officia-rcna609275?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261106-Xi-Trump-Putin-vsb-1846-405edd.jpg"
+        },
+        {
+          "title": "Trump to Meet With Putin and Xi in China, With Nuclear Proliferation on the Agenda",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-14T02:24:24.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/13/us/politics/trump-putin-xi-china-nuclear-proliferation.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13dc-trilateral-meeting-kvtj/13dc-trilateral-meeting-kvtj-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Trump Officials Press Congress to Renew Spying Law in Lame-Duck Session",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-13T23:10:36.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/13/us/politics/trump-congress-section-702-surveillance.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13dc-surveillance-pbwq/13dc-surveillance-pbwq-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "GOP state officials push to revive Trump's mail voting restrictions for 2028 election",
+          "source": "NPR Politics",
+          "publishedAt": "2026-11-13T22:18:55.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/13/nx-s1-6040409/trump-mail-in-voting?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2511x1674+0+0/resize/2511x1674!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8a%2F6d%2Fbb7e77884e4fb7331a20a24d8a8a%2Fap26230766602771.jpg"
+        }
+      ],
+      "path": "/us/entity/trump-putin-and-xi-jinping-expected-to-meet-in-first-ever-trilateral-of-its-kind/"
+    },
+    {
       "id": "now-cluster-united states-outage + microsoft",
-      "title": "Microsoft says it \"restored service\" after major worldwide outage",
-      "brief": "Microsoft says it \"restored service\" after major worldwide outage.",
+      "title": "Microsoft says services fully restored after global outage hits governments",
+      "brief": "Microsoft says services fully restored after global outage hits governments.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -192,16 +266,16 @@
         "The New York Times"
       ],
       "images": [
-        "https://i.guim.co.uk/img/media/6e00c0e827484eda171fc2f542c59ea59f98fec9/397_0_4924_3939/master/4924.jpg?width=140&quality=85&auto=format&fit=max&s=2bb5ac39c36c26222c851cdb1633b29f",
+        "https://i.guim.co.uk/img/media/6e00c0e827484eda171fc2f542c59ea59f98fec9/397_0_4924_3939/master/4924.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=626aaab5d918cc8e4aa6f74a887744f0",
         "https://static01.nyt.com/images/2026/11/12/multimedia/12xp-outlook-wtfb/12xp-outlook-wtfb-mediumSquareAt3X.jpg"
       ],
       "evidence": [
         {
-          "title": "Microsoft says services fully restored after global outage",
+          "title": "Microsoft says services fully restored after global outage hits governments",
           "source": "The Guardian US",
-          "publishedAt": "2026-11-14T11:07:10.000Z",
+          "publishedAt": "2026-11-14T11:54:31.000Z",
           "sourceUrl": "https://www.theguardian.com/technology/2026/nov/14/microsoft-says-services-fully-restored-after-global-outage?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/6e00c0e827484eda171fc2f542c59ea59f98fec9/397_0_4924_3939/master/4924.jpg?width=140&quality=85&auto=format&fit=max&s=2bb5ac39c36c26222c851cdb1633b29f"
+          "image": "https://i.guim.co.uk/img/media/6e00c0e827484eda171fc2f542c59ea59f98fec9/397_0_4924_3939/master/4924.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=626aaab5d918cc8e4aa6f74a887744f0"
         },
         {
           "title": "Microsoft says it \"restored service\" after major worldwide outage",
@@ -225,7 +299,7 @@
           "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12xp-outlook-wtfb/12xp-outlook-wtfb-mediumSquareAt3X.jpg"
         }
       ],
-      "path": "/us/entity/microsoft-says-it-restored-service-after-major-worldwide-outage/"
+      "path": "/us/entity/microsoft-says-services-fully-restored-after-global-outage-hits-governments/"
     },
     {
       "id": "moving-cluster-united states-tanker + orleans",
@@ -239,7 +313,7 @@
       "strength": 17,
       "sourceCount": 4,
       "itemCount": 5,
-      "freshness": "7h fresh",
+      "freshness": "8h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 98,
@@ -309,10 +383,10 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 19,
+      "strength": 18,
       "sourceCount": 4,
       "itemCount": 4,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 91,
@@ -366,63 +440,6 @@
       "path": "/us/entity/democrat-jonathan-kreiss-tomkins-wins-race-for-alaska-governor-replaces-a-republ/"
     },
     {
-      "id": "moving-cluster-united states-race + democrats",
-      "title": "Democrats Vie for Support in Race for Top Senate Job",
-      "brief": "Democrats Vie for Support in Race for Top Senate Job.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 13,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "12h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 80,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "PBS NewsHour",
-        "NPR Politics",
-        "The New York Times Politics"
-      ],
-      "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/partyvote-1024x576.jpg",
-        "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6040044",
-        "https://static01.nyt.com/images/2026/11/12/espanol/12dc-vanhollen-kvwt-ES-copy1/12dc-vanhollen-kvwt-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Does Van Hollen have enough support to beat Schumer in Senate leadership race?",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-13T23:40:11.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/show/does-van-hollen-have-enough-support-to-beat-schumer-in-senate-leadership-race?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/partyvote-1024x576.jpg"
-        },
-        {
-          "title": "Democrats Vie for Support in Race for Top Senate Job",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-13T22:53:50.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/13/us/politics/democrats-senate-leader.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/12/espanol/12dc-vanhollen-kvwt-ES-copy1/12dc-vanhollen-kvwt-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
-          "source": "NPR Politics",
-          "publishedAt": "2026-11-13T21:06:09.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/13/nx-s1-6040044/dem-senate-leader-fight?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6040044"
-        }
-      ],
-      "path": "/us/entity/democrats-vie-for-support-in-race-for-top-senate-job/"
-    },
-    {
       "id": "now-cluster-united states-spacex + starship",
       "title": "SpaceX's Starship soars into orbit after booster explosion prevents an unprecedented double catch",
       "brief": "SpaceX's Starship soars into orbit after booster explosion prevents an unprecedented double catch.",
@@ -431,7 +448,7 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 17,
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 3,
       "freshness": "fresh now",
@@ -479,53 +496,6 @@
       "path": "/us/entity/spacex-s-starship-soars-into-orbit-after-booster-explosion-prevents-an-unprecede/"
     },
     {
-      "id": "now-cluster-united states-trump + meet",
-      "title": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say",
-      "brief": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "The New York Times Politics"
-      ],
-      "images": [
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/14/ca3d845e-2e76-4093-9b96-5798868f6369/thumbnail/1200x630/0b1af416dc9ccf224b98686701d6f9f6/gettyimages-2302566480.jpg",
-        "https://static01.nyt.com/images/2026/11/13/multimedia/13dc-trilateral-meeting-kvtj/13dc-trilateral-meeting-kvtj-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say",
-          "source": "CBS News",
-          "publishedAt": "2026-11-14T10:59:18.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/14/ca3d845e-2e76-4093-9b96-5798868f6369/thumbnail/1200x630/0b1af416dc9ccf224b98686701d6f9f6/gettyimages-2302566480.jpg"
-        },
-        {
-          "title": "Trump to Meet With Putin and Xi in China, With Nuclear Proliferation on the Agenda",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-14T02:24:24.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/13/us/politics/trump-putin-xi-china-nuclear-proliferation.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13dc-trilateral-meeting-kvtj/13dc-trilateral-meeting-kvtj-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/trump-putin-and-xi-jinping-expected-to-meet-in-first-ever-trilateral-of-its-kind/"
-    },
-    {
       "id": "moving-cluster-united states-spacex + flight",
       "title": "SpaceX launches first-of-its-kind Starship test flight",
       "brief": "SpaceX launches first-of-its-kind Starship test flight.",
@@ -537,7 +507,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "9h fresh",
+      "freshness": "10h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 64,
@@ -550,7 +520,9 @@
         "CBS News",
         "NBC News"
       ],
-      "images": [],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794615450757_nn_gsc_spacex_261113_S3_1920x1080-x63y1f.jpg"
+      ],
       "evidence": [
         {
           "title": "SpaceX launches first-of-its-kind Starship test flight",
@@ -564,55 +536,10 @@
           "source": "NBC News",
           "publishedAt": "2026-11-14T00:17:35.000Z",
           "sourceUrl": "https://www.nbcnews.com/nightly-news/video/spacex-historic-test-flight-takes-off-273485893908?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794615450757_nn_gsc_spacex_261113_S3_1920x1080-x63y1f.jpg"
         }
       ],
       "path": "/us/entity/spacex-launches-first-of-its-kind-starship-test-flight/"
-    },
-    {
-      "id": "fading-cluster-united states-nvidia + lutnick",
-      "title": "Bessent accuses Lutnick of failing to prevent China from obtaining Nvidia chips",
-      "brief": "Bessent accuses Lutnick of failing to prevent China from obtaining Nvidia chips.",
-      "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "9h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Crosses several sources"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-08-27T185336Z_1493077900_RC267NAYKMJ8_RTRMADP_3_USA-TRUMP-KENNEDY-CENTER-COURT-1024x683.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Lutnick agrees to testify as Bessent blames him for chip sales",
-          "source": "CBS News",
-          "publishedAt": "2026-11-14T02:02:30.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/howard-lutnick-scott-bessent-nvidia-megaspeed-testimony/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Bessent accuses Lutnick of failing to prevent China from obtaining Nvidia chips",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-13T23:50:51.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/show/bessent-accuses-lutnick-of-failing-to-prevent-china-from-obtaining-nvidia-chips?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-08-27T185336Z_1493077900_RC267NAYKMJ8_RTRMADP_3_USA-TRUMP-KENNEDY-CENTER-COURT-1024x683.jpg"
-        }
-      ],
-      "path": "/us/entity/bessent-accuses-lutnick-of-failing-to-prevent-china-from-obtaining-nvidia-chips/"
     }
   ]
 }
