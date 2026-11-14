@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-14T17:00:48.404Z",
+  "updatedAt": "2026-11-14T18:00:48.570Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "233,975 links analyzed",
-  "dayScanLabel": "6,038 links scanned in 24h",
+  "ambientPulseLabel": "234,575 links analyzed",
+  "dayScanLabel": "6,033 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -24,35 +24,48 @@
     "verdict": "If it repeats in the next run, it gains weight.",
     "mode": "now",
     "state": "rising",
-    "stateLabel": "Rising",
-    "strength": 36,
-    "sourceCount": 7,
-    "itemCount": 11,
+    "stateLabel": "Hot",
+    "strength": 39,
+    "sourceCount": 8,
+    "itemCount": 12,
     "freshness": "fresh now",
-    "alertLevel": "watch",
-    "alertLabel": "Watch",
+    "alertLevel": "hot",
+    "alertLabel": "Hot alert",
     "alertScore": 99,
     "alertTriggers": [
       "Crosses several sources",
       "Picks up volume fast",
       "Still active"
     ],
-    "isHotNews": false,
+    "isHotNews": true,
     "sources": [
+      "The Verge",
       "NPR",
       "NBC News",
       "The New York Times",
-      "The Guardian US",
-      "CBS News"
+      "The Guardian US"
     ],
     "images": [
+      "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&strip=all&crop=0,0,100,100",
       "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8091x5394+0+0/resize/8091x5394!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9e%2F96%2Fe23d590f45f8bbd605875a794fb7%2Fgettyimages-2304485779.jpg",
       "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261114-Oklahoma-Memorial-Stadium-ch-1110-0b9e72.jpg",
-      "https://static01.nyt.com/images/2026/12/13/multimedia/13faa-groundstop-what-to-know-kgwh/13faa-groundstop-what-to-know-kgwh-mediumSquareAt3X.jpg",
-      "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-fiberoptics-hzkb/13faa-groundstop-fiberoptics-hzkb-mediumSquareAt3X.jpg",
-      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-14T154336Z_993759118_RC2ONOAS5K0H_RTRMADP_3_USA-FAA-GROUND-STOP-1024x683.jpg"
+      "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-fiberoptics-hzkb/13faa-groundstop-fiberoptics-hzkb-mediumSquareAt3X.jpg"
     ],
     "evidence": [
+      {
+        "title": "Work to replace old copper wire led to the FAA’s ground stop",
+        "source": "The Verge",
+        "publishedAt": "2026-11-14T17:44:28.000Z",
+        "sourceUrl": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&strip=all&crop=0,0,100,100"
+      },
+      {
+        "title": "Duffy, officials give update after nationwide ground stop lifted",
+        "source": "CBS News",
+        "publishedAt": "2026-11-14T17:23:22.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/full-remarks-duffy-officials-give-update-following-nationwide-faa-ground-stop/?utm_source=lootura.com&ref=lootura.com",
+        "image": ""
+      },
       {
         "title": "FAA blames Friday's ground stop on 'equipment issue' during telecoms network upgrade",
         "source": "NPR",
@@ -73,20 +86,6 @@
         "publishedAt": "2026-11-14T16:36:36.000Z",
         "sourceUrl": "https://www.nytimes.com/2026/11/14/us/politics/ground-stop-air-traffic-faa.html?utm_source=lootura.com&ref=lootura.com",
         "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-fiberoptics-hzkb/13faa-groundstop-fiberoptics-hzkb-mediumSquareAt3X.jpg"
-      },
-      {
-        "title": "Thousands of flights canceled as airlines work to recover from nationwide ground stop",
-        "source": "PBS NewsHour",
-        "publishedAt": "2026-11-14T16:10:40.000Z",
-        "sourceUrl": "https://www.pbs.org/newshour/nation/thousands-of-flights-canceled-as-airlines-work-to-recover-from-nationwide-ground-stop?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-14T154336Z_993759118_RC2ONOAS5K0H_RTRMADP_3_USA-FAA-GROUND-STOP-1024x683.jpg"
-      },
-      {
-        "title": "Eye Opener: National ground stop lifted",
-        "source": "CBS News",
-        "publishedAt": "2026-11-14T15:34:54.000Z",
-        "sourceUrl": "https://www.cbsnews.com/video/eye-opener-national-ground-stop-lifted/?utm_source=lootura.com&ref=lootura.com",
-        "image": ""
       }
     ],
     "path": "/us/entity/old-tech-blamed-for-the-ground-stop-that-caused-flight-chaos-it-got-overloaded/"
@@ -100,35 +99,48 @@
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 36,
-      "sourceCount": 7,
-      "itemCount": 11,
+      "stateLabel": "Hot",
+      "strength": 39,
+      "sourceCount": 8,
+      "itemCount": 12,
       "freshness": "fresh now",
-      "alertLevel": "watch",
-      "alertLabel": "Watch",
+      "alertLevel": "hot",
+      "alertLabel": "Hot alert",
       "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
         "Still active"
       ],
-      "isHotNews": false,
+      "isHotNews": true,
       "sources": [
+        "The Verge",
         "NPR",
         "NBC News",
         "The New York Times",
-        "The Guardian US",
-        "CBS News"
+        "The Guardian US"
       ],
       "images": [
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&strip=all&crop=0,0,100,100",
         "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8091x5394+0+0/resize/8091x5394!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9e%2F96%2Fe23d590f45f8bbd605875a794fb7%2Fgettyimages-2304485779.jpg",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261114-Oklahoma-Memorial-Stadium-ch-1110-0b9e72.jpg",
-        "https://static01.nyt.com/images/2026/12/13/multimedia/13faa-groundstop-what-to-know-kgwh/13faa-groundstop-what-to-know-kgwh-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-fiberoptics-hzkb/13faa-groundstop-fiberoptics-hzkb-mediumSquareAt3X.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-14T154336Z_993759118_RC2ONOAS5K0H_RTRMADP_3_USA-FAA-GROUND-STOP-1024x683.jpg"
+        "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-fiberoptics-hzkb/13faa-groundstop-fiberoptics-hzkb-mediumSquareAt3X.jpg"
       ],
       "evidence": [
+        {
+          "title": "Work to replace old copper wire led to the FAA’s ground stop",
+          "source": "The Verge",
+          "publishedAt": "2026-11-14T17:44:28.000Z",
+          "sourceUrl": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&strip=all&crop=0,0,100,100"
+        },
+        {
+          "title": "Duffy, officials give update after nationwide ground stop lifted",
+          "source": "CBS News",
+          "publishedAt": "2026-11-14T17:23:22.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/full-remarks-duffy-officials-give-update-following-nationwide-faa-ground-stop/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
         {
           "title": "FAA blames Friday's ground stop on 'equipment issue' during telecoms network upgrade",
           "source": "NPR",
@@ -149,26 +161,12 @@
           "publishedAt": "2026-11-14T16:36:36.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/14/us/politics/ground-stop-air-traffic-faa.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-fiberoptics-hzkb/13faa-groundstop-fiberoptics-hzkb-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Thousands of flights canceled as airlines work to recover from nationwide ground stop",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-14T16:10:40.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/nation/thousands-of-flights-canceled-as-airlines-work-to-recover-from-nationwide-ground-stop?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-14T154336Z_993759118_RC2ONOAS5K0H_RTRMADP_3_USA-FAA-GROUND-STOP-1024x683.jpg"
-        },
-        {
-          "title": "Eye Opener: National ground stop lifted",
-          "source": "CBS News",
-          "publishedAt": "2026-11-14T15:34:54.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/eye-opener-national-ground-stop-lifted/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
         }
       ],
       "path": "/us/entity/old-tech-blamed-for-the-ground-stop-that-caused-flight-chaos-it-got-overloaded/"
     },
     {
-      "id": "now-cluster-united states-jonathan + kreiss",
+      "id": "now-cluster-united states-democrat + jonathan",
       "title": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
       "brief": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican.",
       "whyItMatters": "",
@@ -176,12 +174,12 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 26,
-      "sourceCount": 4,
-      "itemCount": 4,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
+      "strength": 28,
+      "sourceCount": 5,
+      "itemCount": 5,
+      "freshness": "1h fresh",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
       "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
@@ -190,18 +188,27 @@
       ],
       "isHotNews": false,
       "sources": [
+        "The Guardian US",
         "PBS NewsHour",
         "CBS News",
         "NPR Politics",
         "Politico"
       ],
       "images": [
+        "https://i.guim.co.uk/img/media/0e83e7d08933409bcc15b86d35740272644b415a/0_0_4305_3444/master/4305.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d182321e6832b302d3de0295b3b1d3b3",
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26317758565404-1024x768.jpg",
         "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/14/e04476f7-c2af-4476-89f9-54e19e95def3/thumbnail/1200x630/2987d01481400e555a0e0e3a1fe022b3/sequence-24-00-00-00-00-still001.jpg",
         "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1956x1500+0+0/resize/1956x1500!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9f%2Fc8%2F33103fa7402ba264b48ddc1ee50e%2Ftomkins.jpg",
         "https://static.politico.com/e3/af/c47c1748435d9ea3405f9a5edbd3/https-delivery-gettyimages.com/downloads/2304485587"
       ],
       "evidence": [
+        {
+          "title": "Democrat wins Alaska governor’s seat for first time in nearly 30 years",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-14T16:58:33.000Z",
+          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/14/alaska-governor-democrat-jonathan-kreiss-tomkins-wins?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/0e83e7d08933409bcc15b86d35740272644b415a/0_0_4305_3444/master/4305.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d182321e6832b302d3de0295b3b1d3b3"
+        },
         {
           "title": "Jonathan Kreiss-Tomkins becomes first Democrat since 1998 elected governor in Alaska",
           "source": "PBS NewsHour",
@@ -242,10 +249,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 22,
+      "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 86,
@@ -299,10 +306,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 17,
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 4,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 83,
@@ -354,51 +361,59 @@
       "path": "/us/entity/inquiry-into-brooklyn-building-collapse-expands-as-families-demand-answers/"
     },
     {
-      "id": "now-cluster-united states-more + best",
-      "title": "Amazon's top editor shares more picks for best books of 2026",
-      "brief": "Amazon's top editor shares more picks for best books of 2026.",
+      "id": "now-cluster-united states-orleans + tanker",
+      "title": "Port of New Orleans sues tanker that hit riverboat cruise for $1 million in repair costs",
+      "brief": "Port of New Orleans sues tanker that hit riverboat cruise for $1 million in repair costs.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 16,
+      "strength": 17,
       "sourceCount": 2,
-      "itemCount": 2,
+      "itemCount": 3,
       "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 76,
+      "alertScore": 79,
       "alertTriggers": [
         "Crosses several sources",
+        "Picks up volume fast",
         "Still active"
       ],
       "isHotNews": false,
       "sources": [
         "CBS News",
-        "The Guardian US"
+        "The New York Times"
       ],
       "images": [
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/14/996dc0f1-1778-4bdd-b2c8-01816c315af9/thumbnail/1200x630/8bb49ad866ebb6a773d3ade125305dc7/cbsn-fusion-amazons-top-editor-shares-more-picks-for-best-books-of-2026-thumbnail.jpg",
-        "https://i.guim.co.uk/img/media/20d2330e5f473bbce3a0a217a7f06fea87fb32a7/1_0_2499_2000/master/2499.jpg?width=140&quality=85&auto=format&fit=max&s=8c1c1bf27636df70e303038abf60b80c"
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/13/ba59891d-9b26-4381-beee-7a4c061e552d/thumbnail/1200x630/a8ff6a119e1e5074c24511a98627c543/ap26317811767503.jpg",
+        "https://static01.nyt.com/images/2026/11/13/multimedia/13xp-new-orleans-ship-lpfg/13xp-new-orleans-ship-lpfg-mediumSquareAt3X-v2.jpg"
       ],
       "evidence": [
         {
-          "title": "Amazon's top editor shares more picks for best books of 2026",
+          "title": "Port of New Orleans sues tanker that hit riverboat cruise for $1 million in repair costs",
           "source": "CBS News",
-          "publishedAt": "2026-11-14T16:46:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/amazons-top-editor-shares-more-picks-for-best-books-of-2026/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/14/996dc0f1-1778-4bdd-b2c8-01816c315af9/thumbnail/1200x630/8bb49ad866ebb6a773d3ade125305dc7/cbsn-fusion-amazons-top-editor-shares-more-picks-for-best-books-of-2026-thumbnail.jpg"
+          "publishedAt": "2026-11-14T17:56:43.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/port-of-new-orleans-sues-tanker-riverboat-crash/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/13/ba59891d-9b26-4381-beee-7a4c061e552d/thumbnail/1200x630/a8ff6a119e1e5074c24511a98627c543/ap26317811767503.jpg"
         },
         {
-          "title": "The 143 best holiday gifts in 2026 – obsessively tested by the Guardian US",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-14T14:00:47.000Z",
-          "sourceUrl": "https://www.theguardian.com/thefilter-us/2026/nov/14/best-holiday-gifts-ideas-guide?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/20d2330e5f473bbce3a0a217a7f06fea87fb32a7/1_0_2499_2000/master/2499.jpg?width=140&quality=85&auto=format&fit=max&s=8c1c1bf27636df70e303038abf60b80c"
+          "title": "Passengers rescued after tanker hit river cruise in New Orleans",
+          "source": "CBS News",
+          "publishedAt": "2026-11-14T04:03:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/tanker-cruise-collision-mississippi-river-new-orleans/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "All Accounted for After Tanker Crashes Into Docked New Orleans Riverboat",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-14T00:25:27.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/13/us/new-orleans-cruise-ship-crash.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13xp-new-orleans-ship-lpfg/13xp-new-orleans-ship-lpfg-mediumSquareAt3X-v2.jpg"
         }
       ],
-      "path": "/us/entity/amazon-s-top-editor-shares-more-picks-for-best-books-of-2026/"
+      "path": "/us/entity/port-of-new-orleans-sues-tanker-that-hit-riverboat-cruise-for-1-million-in-repai/"
     },
     {
       "id": "moving-cluster-united states-democrats + here",
@@ -409,13 +424,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
@@ -456,13 +471,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
@@ -473,7 +488,7 @@
         "The New York Times World"
       ],
       "images": [
-        "https://i.guim.co.uk/img/media/e49a1b76dc431e7d51ebb5a7c6f88068ba050832/292_0_2501_2000/master/2501.jpg?width=140&quality=85&auto=format&fit=max&s=a030a3a7562d73b1f5c81ecf0bda1ec9",
+        "https://i.guim.co.uk/img/media/e49a1b76dc431e7d51ebb5a7c6f88068ba050832/292_0_2501_2000/master/2501.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=46c98c2d456a309812fdebd2eef3a997",
         "https://static01.nyt.com/images/2026/10/29/multimedia/00int-venezuela-oil-pqfl/00int-venezuela-oil-pqfl-mediumSquareAt3X.jpg"
       ],
       "evidence": [
@@ -482,7 +497,7 @@
           "source": "The Guardian US",
           "publishedAt": "2026-11-14T15:00:47.000Z",
           "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/14/kansas-ice-meatpacking-raids-trump-midterms?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/e49a1b76dc431e7d51ebb5a7c6f88068ba050832/292_0_2501_2000/master/2501.jpg?width=140&quality=85&auto=format&fit=max&s=a030a3a7562d73b1f5c81ecf0bda1ec9"
+          "image": "https://i.guim.co.uk/img/media/e49a1b76dc431e7d51ebb5a7c6f88068ba050832/292_0_2501_2000/master/2501.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=46c98c2d456a309812fdebd2eef3a997"
         },
         {
           "title": "Trump’s Oil Grab in Venezuela Is Testing the Country’s National Identity",
@@ -495,7 +510,7 @@
       "path": "/us/entity/trump-s-oil-grab-in-venezuela-is-testing-the-country-s-national-identity/"
     },
     {
-      "id": "moving-cluster-united states-trump + meet",
+      "id": "moving-cluster-united states-trump + first",
       "title": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say",
       "brief": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say.",
       "whyItMatters": "",
@@ -506,10 +521,10 @@
       "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresh",
+      "freshness": "7h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 70,
+      "alertScore": 64,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
