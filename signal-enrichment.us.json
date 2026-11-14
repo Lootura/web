@@ -2,39 +2,66 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-13T23:00:48.051Z",
+	"updatedAt": "2026-11-14T00:00:48.227Z",
 	"entries": {
 		"cluster-usa-ground-stop-ground-stop": {
 			"candidateId": "cluster-usa-ground + stop",
 			"label": "ground + stop",
-			"latestAt": "2026-11-13T22:46:33.000Z",
+			"latestAt": "2026-11-13T23:51:25.000Z",
 			"startedAt": "2026-11-13T21:29:00.000Z",
-			"itemCount": 9,
-			"sourceCount": 4,
+			"itemCount": 16,
+			"sourceCount": 6,
 			"terms": [
 				"ground",
 				"stop"
 			],
 			"sources": [
 				"CBS News",
+				"The Verge",
 				"NBC News",
+				"NPR Politics",
 				"NPR",
-				"The Verge"
+				"The New York Times"
 			],
 			"titles": [
+				"Update to network connecting air traffic control system led to outage before ground stop, sources ay",
+				"FAA ground stop shuts down flights nationwide",
+				"Some international flights allowed to depart U.S. amid FAA ground stop",
+				"Commercial pilot explains what crews are going through amid nationwide ground stop",
+				"Some airports beginning to run out of space for planes amid nationwide ground stop",
 				"No indication of nefarious attack before FAA ground stop, Mullin says",
+				"DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
 				"Mullin says FAA ground stop caused by telecommunications outage",
 				"Secy. Mullin says FAA ground stop was caused by 'telecommunication outage'",
 				"Early details on FAA's nationwide ground stop",
 				"Ground stop ordered for all airports nationwide for ‘reasons of safety’",
 				"Nationwide ground stop ordered by FAA | Special Report",
 				"FAA issues nationwide ground stop for all U.S. airports",
-				"FAA ground stop shuts down flights nationwide",
-				"FAA issues nationwide ground stop due to \"extraordinary circumstances\""
+				"FAA issues nationwide ground stop due to \"extraordinary circumstances\"",
+				"Flight Canceled During the FAA Ground Stop? Here’s What to Do.",
+				"Stuck on the tarmac without information: Travelers share their ground stop experiences"
 			],
 			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
-			"entityLastCandidateAt": "2026-11-13T22:46:33.000Z",
+			"entityLastCandidateAt": "2026-11-13T23:51:25.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T00:00:48.227Z",
+					"label": "ground + stop",
+					"latestAt": "2026-11-13T23:51:25.000Z",
+					"itemCount": 16,
+					"sourceCount": 6,
+					"headlines": [
+						"Update to network connecting air traffic control system led to outage before ground stop, sources ay",
+						"FAA ground stop shuts down flights nationwide",
+						"Some international flights allowed to depart U.S. amid FAA ground stop"
+					],
+					"sources": [
+						"CBS News",
+						"The Verge",
+						"NBC News"
+					],
+					"eventId": "cluster-usa-ground + stop|2026-11-13T23:51:25.000Z|16|Update to network connecting air traffic control system led to outage before ground stop, sources ay"
+				},
 				{
 					"observedAt": "2026-11-13T23:00:48.051Z",
 					"label": "ground + stop",
@@ -73,15 +100,130 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+		},
+		"cluster-usa-tanker-orleans-tanker-orleans": {
+			"candidateId": "cluster-usa-tanker + orleans",
+			"label": "tanker + orleans",
+			"latestAt": "2026-11-13T23:53:42.000Z",
+			"startedAt": "2026-11-13T20:33:00.000Z",
+			"itemCount": 5,
+			"sourceCount": 4,
+			"terms": [
+				"tanker",
+				"orleans"
+			],
+			"sources": [
+				"CBS News",
+				"The New York Times",
+				"PBS NewsHour",
+				"NBC News"
+			],
+			"titles": [
+				"All accounted for after tanker hits river cruise ship in New Orleans, 32 hospitalized",
+				"All Accounted for After Tanker Crashes Into Docked New Orleans Riverboat",
+				"Rescues operations underway in New Orleans after tanker hits river cruise boat",
+				"Rescue underway after a tanker collides with a New Orleans river boat",
+				"River cruise ship, tanker crash in New Orleans on Mississippi River; rescues are underway"
+			],
+			"entityFirstSeenAt": "2026-11-14T00:00:48.227Z",
+			"entityLastCandidateAt": "2026-11-13T23:53:42.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T00:00:48.227Z",
+					"label": "tanker + orleans",
+					"latestAt": "2026-11-13T23:53:42.000Z",
+					"itemCount": 5,
+					"sourceCount": 4,
+					"headlines": [
+						"All accounted for after tanker hits river cruise ship in New Orleans, 32 hospitalized",
+						"All Accounted for After Tanker Crashes Into Docked New Orleans Riverboat",
+						"Rescues operations underway in New Orleans after tanker hits river cruise boat"
+					],
+					"sources": [
+						"CBS News",
+						"The New York Times",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-tanker + orleans|2026-11-13T23:53:42.000Z|5|All accounted for after tanker hits river cruise ship in New Orleans, 32 hospitalized"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+		},
+		"cluster-usa-democrats-senate-democrats-senate": {
+			"candidateId": "cluster-usa-democrats + senate",
+			"label": "democrats + senate",
+			"latestAt": "2026-11-13T23:40:11.000Z",
+			"startedAt": "2026-11-13T21:06:09.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"democrats",
+				"senate"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"NPR Politics",
+				"The New York Times Politics",
+				"NBC News Politics"
+			],
+			"titles": [
+				"Does Van Hollen have enough support to beat Schumer in Senate leadership race?",
+				"With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
+				"Democrats Vie for Support in Race for Top Senate Job",
+				"Newly elected Senate Democrats in the spotlight: From the Politics Desk"
+			],
+			"entityFirstSeenAt": "2026-11-13T23:00:48.051Z",
+			"entityLastCandidateAt": "2026-11-13T23:40:11.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T00:00:48.227Z",
+					"label": "democrats + senate",
+					"latestAt": "2026-11-13T23:40:11.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Does Van Hollen have enough support to beat Schumer in Senate leadership race?",
+						"With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
+						"Democrats Vie for Support in Race for Top Senate Job"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"NPR Politics",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-democrats + senate|2026-11-13T23:40:11.000Z|4|Does Van Hollen have enough support to beat Schumer in Senate leadership race?"
+				},
+				{
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "democrats + senate",
+					"latestAt": "2026-11-13T22:53:50.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Democrats Vie for Support in Race for Top Senate Job",
+						"With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
+						"Van Hollen challenges Schumer for Senate majority leader"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"NPR Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-democrats + senate|2026-11-13T22:53:50.000Z|3|Democrats Vie for Support in Race for Top Senate Job"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-usa-house-lauren-house-lauren": {
 			"candidateId": "cluster-usa-house + lauren",
 			"label": "house + lauren",
 			"latestAt": "2026-11-13T22:32:22.000Z",
 			"startedAt": "2026-11-13T20:15:00.000Z",
-			"itemCount": 5,
-			"sourceCount": 4,
+			"itemCount": 4,
+			"sourceCount": 3,
 			"terms": [
 				"house",
 				"lauren"
@@ -89,19 +231,35 @@
 			"sources": [
 				"The New York Times",
 				"PBS NewsHour",
-				"NBC News Politics",
 				"CBS News"
 			],
 			"titles": [
 				"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
 				"Meet Eileen Laubacher, the Navy Veteran Who Beat Lauren Boebert",
 				"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher",
-				"Republican Rep. Lauren Boebert will lose re-election, NBC News projects",
 				"Democrat Eileen Laubacher defeats incumbent Lauren Boebert in Colorado's 4th Congressional District"
 			],
 			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
 			"entityLastCandidateAt": "2026-11-13T22:32:22.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T00:00:48.227Z",
+					"label": "house + lauren",
+					"latestAt": "2026-11-13T22:32:22.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
+						"Meet Eileen Laubacher, the Navy Veteran Who Beat Lauren Boebert",
+						"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-house + lauren|2026-11-13T22:32:22.000Z|4|Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher"
+				},
 				{
 					"observedAt": "2026-11-13T23:00:48.051Z",
 					"label": "house + lauren",
@@ -140,7 +298,69 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+		},
+		"cluster-usa-trump-administration-trump-administration": {
+			"candidateId": "cluster-usa-trump + administration",
+			"label": "trump + administration",
+			"latestAt": "2026-11-13T23:10:21.000Z",
+			"startedAt": "2026-11-13T17:00:00.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"trump",
+				"administration"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"NBC News Politics",
+				"NPR Politics"
+			],
+			"titles": [
+				"Trump Administration Delays Enforcement of Medicaid Work Requirement",
+				"Trump administration delays Medicaid work requirements by six months",
+				"The Trump administration's voter roll crusade could continue"
+			],
+			"entityFirstSeenAt": "2026-11-11T14:56:15.238Z",
+			"entityLastCandidateAt": "2026-11-13T23:10:21.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T00:00:48.227Z",
+					"label": "trump + administration",
+					"latestAt": "2026-11-13T23:10:21.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Trump Administration Delays Enforcement of Medicaid Work Requirement",
+						"Trump administration delays Medicaid work requirements by six months",
+						"The Trump administration's voter roll crusade could continue"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"NBC News Politics",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-trump + administration|2026-11-13T23:10:21.000Z|3|Trump Administration Delays Enforcement of Medicaid Work Requirement"
+				},
+				{
+					"observedAt": "2026-11-11T14:56:15.238Z",
+					"label": "trump + administration",
+					"latestAt": "2026-11-11T14:22:01.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Trump administration moves to drop millions from SNAP under proposal",
+						"Both sides now? Critics slam DOJ moves to dismiss convictions of Trump allies"
+					],
+					"sources": [
+						"ABC News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-trump + administration|2026-11-11T14:22:01.000Z|2|Trump administration moves to drop millions from SNAP under proposal"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-usa-nvidia-huang-nvidia-huang": {
 			"candidateId": "cluster-usa-nvidia + huang",
@@ -403,254 +623,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
-		},
-		"cluster-usa-orleans-tanker-orleans-tanker": {
-			"candidateId": "cluster-usa-orleans + tanker",
-			"label": "orleans + tanker",
-			"latestAt": "2026-11-13T21:00:35.000Z",
-			"startedAt": "2026-11-13T20:33:00.000Z",
-			"itemCount": 4,
-			"sourceCount": 3,
-			"terms": [
-				"orleans",
-				"tanker"
-			],
-			"sources": [
-				"PBS NewsHour",
-				"NBC News",
-				"CBS News"
-			],
-			"titles": [
-				"Rescues operations underway in New Orleans after tanker hits river cruise boat",
-				"Rescue underway after a tanker collides with a New Orleans river boat",
-				"Tanker hits river cruise ship in New Orleans | Special Report",
-				"River cruise ship, tanker crash in New Orleans on Mississippi River; rescues are underway"
-			],
-			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
-			"entityLastCandidateAt": "2026-11-13T21:00:35.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T23:00:48.051Z",
-					"label": "orleans + tanker",
-					"latestAt": "2026-11-13T21:00:35.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Rescues operations underway in New Orleans after tanker hits river cruise boat",
-						"Rescue underway after a tanker collides with a New Orleans river boat",
-						"Tanker hits river cruise ship in New Orleans | Special Report"
-					],
-					"sources": [
-						"PBS NewsHour",
-						"NBC News",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-orleans + tanker|2026-11-13T21:00:35.000Z|4|Rescues operations underway in New Orleans after tanker hits river cruise boat"
-				},
-				{
-					"observedAt": "2026-11-13T21:00:47.961Z",
-					"label": "orleans + tanker",
-					"latestAt": "2026-11-13T21:00:35.000Z",
-					"itemCount": 5,
-					"sourceCount": 4,
-					"headlines": [
-						"Rescues operations underway in New Orleans after tanker hits river cruise boat",
-						"Rescue underway after a tanker collides with a New Orleans river boat",
-						"Tanker hits river cruise ship in New Orleans | Special Report"
-					],
-					"sources": [
-						"PBS NewsHour",
-						"NBC News",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-orleans + tanker|2026-11-13T21:00:35.000Z|5|Rescues operations underway in New Orleans after tanker hits river cruise boat"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
-		},
-		"cluster-usa-democrats-senate-democrats-senate": {
-			"candidateId": "cluster-usa-democrats + senate",
-			"label": "democrats + senate",
-			"latestAt": "2026-11-13T22:53:50.000Z",
-			"startedAt": "2026-11-13T17:47:41.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"democrats",
-				"senate"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"NPR Politics",
-				"CBS News"
-			],
-			"titles": [
-				"Democrats Vie for Support in Race for Top Senate Job",
-				"With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
-				"Van Hollen challenges Schumer for Senate majority leader"
-			],
-			"entityFirstSeenAt": "2026-11-13T23:00:48.051Z",
-			"entityLastCandidateAt": "2026-11-13T22:53:50.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T23:00:48.051Z",
-					"label": "democrats + senate",
-					"latestAt": "2026-11-13T22:53:50.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Democrats Vie for Support in Race for Top Senate Job",
-						"With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
-						"Van Hollen challenges Schumer for Senate majority leader"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"NPR Politics",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-democrats + senate|2026-11-13T22:53:50.000Z|3|Democrats Vie for Support in Race for Top Senate Job"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
-		},
-		"cluster-usa-trump-court-trump-court": {
-			"candidateId": "cluster-usa-trump + court",
-			"label": "trump + court",
-			"latestAt": "2026-11-13T20:37:10.000Z",
-			"startedAt": "2026-11-13T19:09:00.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"trump",
-				"court"
-			],
-			"sources": [
-				"The New York Times Politics",
-				"PBS NewsHour",
-				"CBS News"
-			],
-			"titles": [
-				"Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border",
-				"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
-				"Supreme Court takes up case over Trump effort to suspend asylum access at southern border"
-			],
-			"entityFirstSeenAt": "2026-11-10T01:48:34.517Z",
-			"entityLastCandidateAt": "2026-11-13T20:37:10.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T23:00:48.051Z",
-					"label": "trump + court",
-					"latestAt": "2026-11-13T20:37:10.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border",
-						"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
-						"Supreme Court takes up case over Trump effort to suspend asylum access at southern border"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"PBS NewsHour",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-trump + court|2026-11-13T20:37:10.000Z|3|Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border"
-				},
-				{
-					"observedAt": "2026-11-13T20:00:48.144Z",
-					"label": "trump + court",
-					"latestAt": "2026-11-13T19:16:41.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
-						"Supreme Court takes up case over Trump effort to suspend asylum access at southern border",
-						"Supreme Court to rule on Trump’s asylum ban"
-					],
-					"sources": [
-						"PBS NewsHour",
-						"CBS News",
-						"NBC News Politics"
-					],
-					"eventId": "cluster-usa-trump + court|2026-11-13T19:16:41.000Z|4|Supreme Court will consider Trump’s executive order suspending asylum access at the southern border"
-				},
-				{
-					"observedAt": "2026-11-10T13:32:37.686Z",
-					"label": "trump + court",
-					"latestAt": "2026-11-10T01:34:10.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
-						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
-						"Supreme Court says border wall construction can continue in west Texas"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"Politico",
-						"NPR"
-					],
-					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:10.000Z|3|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
-				},
-				{
-					"observedAt": "2026-11-10T06:40:54.048Z",
-					"label": "trump + court",
-					"latestAt": "2026-11-10T01:34:10.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
-						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
-						"News Wrap: Supreme Court allows border wall construction in Big Bend"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"Politico",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:10.000Z|4|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
-				},
-				{
-					"observedAt": "2026-11-10T01:55:22.461Z",
-					"label": "trump + court",
-					"latestAt": "2026-11-10T01:34:09.000Z",
-					"itemCount": 5,
-					"sourceCount": 5,
-					"headlines": [
-						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
-						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
-						"News Wrap: Supreme Court allows border wall construction in Big Bend"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"Politico",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:09.000Z|5|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
-				},
-				{
-					"observedAt": "2026-11-10T01:48:34.517Z",
-					"label": "trump + court",
-					"latestAt": "2026-11-10T01:34:09.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
-						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
-						"News Wrap: Supreme Court allows border wall construction in Big Bend"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"Politico",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:09.000Z|4|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-usa-brooklyn-building-brooklyn-building": {
 			"candidateId": "cluster-usa-brooklyn + building",
@@ -713,7 +686,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
@@ -1820,90 +1793,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-10T01:54:53.349Z"
 		},
-		"cluster-spain-santiago-boveda-santiago-boveda": {
-			"candidateId": "cluster-spain-santiago + boveda",
-			"label": "santiago + boveda",
-			"latestAt": "2026-11-09T23:53:14.000Z",
-			"startedAt": "2026-11-09T23:35:47.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"santiago",
-				"boveda"
-			],
-			"sources": [
-				"El Mundo",
-				"El País"
-			],
-			"titles": [
-				"La bóveda secreta en la casa de verano de Santiago Peña se convierte en un quebradero de cabeza para la Fiscalía",
-				"La policía de Paraguay descubre una bóveda blindada con tecnología israelí en la mansión del expresidente Santiago Peña"
-			],
-			"entityFirstSeenAt": "2026-11-10T01:47:55.211Z",
-			"entityLastCandidateAt": "2026-11-09T23:53:14.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-10T01:47:55.211Z",
-					"label": "santiago + boveda",
-					"latestAt": "2026-11-09T23:53:14.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"La bóveda secreta en la casa de verano de Santiago Peña se convierte en un quebradero de cabeza para la Fiscalía",
-						"La policía de Paraguay descubre una bóveda blindada con tecnología israelí en la mansión del expresidente Santiago Peña"
-					],
-					"sources": [
-						"El Mundo",
-						"El País"
-					],
-					"eventId": "cluster-spain-santiago + boveda|2026-11-09T23:53:14.000Z|2|La bóveda secreta en la casa de verano de Santiago Peña se convierte en un quebradero de cabeza para la Fiscalía"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T07:03:34.270Z"
-		},
-		"cluster-spain-afectados-vicinay-afectados-vicinay": {
-			"candidateId": "cluster-spain-afectados + vicinay",
-			"label": "afectados + vicinay",
-			"latestAt": "2026-11-09T23:14:57.000Z",
-			"startedAt": "2026-11-09T13:06:06.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"afectados",
-				"vicinay"
-			],
-			"sources": [
-				"El Diario Vasco",
-				"El Correo"
-			],
-			"titles": [
-				"Vicinay publica una lista con los nombres de los 60 afectados por el ERE",
-				"Vicinay pone sobre la mesa una lista con los nombres de los 60 afectados por los despidos"
-			],
-			"entityFirstSeenAt": "2026-11-10T01:47:55.211Z",
-			"entityLastCandidateAt": "2026-11-09T23:14:57.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-10T01:47:55.211Z",
-					"label": "afectados + vicinay",
-					"latestAt": "2026-11-09T23:14:57.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Vicinay publica una lista con los nombres de los 60 afectados por el ERE",
-						"Vicinay pone sobre la mesa una lista con los nombres de los 60 afectados por los despidos"
-					],
-					"sources": [
-						"El Diario Vasco",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-afectados + vicinay|2026-11-09T23:14:57.000Z|2|Vicinay publica una lista con los nombres de los 60 afectados por el ERE"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T07:03:34.270Z"
-		},
 		"cluster-usa-trump-nvidia-trump-nvidia": {
 			"candidateId": "cluster-usa-trump + nvidia",
 			"label": "trump + nvidia",
@@ -2068,6 +1957,142 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T23:00:48.320Z"
+		},
+		"cluster-usa-trump-court-trump-court": {
+			"candidateId": "cluster-usa-trump + court",
+			"label": "trump + court",
+			"latestAt": "2026-11-13T20:37:10.000Z",
+			"startedAt": "2026-11-13T19:09:00.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"trump",
+				"court"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"PBS NewsHour",
+				"CBS News"
+			],
+			"titles": [
+				"Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border",
+				"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
+				"Supreme Court takes up case over Trump effort to suspend asylum access at southern border"
+			],
+			"entityFirstSeenAt": "2026-11-10T01:48:34.517Z",
+			"entityLastCandidateAt": "2026-11-13T20:37:10.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-13T20:37:10.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border",
+						"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
+						"Supreme Court takes up case over Trump effort to suspend asylum access at southern border"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-trump + court|2026-11-13T20:37:10.000Z|3|Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border"
+				},
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-13T19:16:41.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
+						"Supreme Court takes up case over Trump effort to suspend asylum access at southern border",
+						"Supreme Court to rule on Trump’s asylum ban"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"CBS News",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-trump + court|2026-11-13T19:16:41.000Z|4|Supreme Court will consider Trump’s executive order suspending asylum access at the southern border"
+				},
+				{
+					"observedAt": "2026-11-10T13:32:37.686Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-10T01:34:10.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
+						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
+						"Supreme Court says border wall construction can continue in west Texas"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"Politico",
+						"NPR"
+					],
+					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:10.000Z|3|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
+				},
+				{
+					"observedAt": "2026-11-10T06:40:54.048Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-10T01:34:10.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
+						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
+						"News Wrap: Supreme Court allows border wall construction in Big Bend"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"Politico",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:10.000Z|4|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
+				},
+				{
+					"observedAt": "2026-11-10T01:55:22.461Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-10T01:34:09.000Z",
+					"itemCount": 5,
+					"sourceCount": 5,
+					"headlines": [
+						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
+						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
+						"News Wrap: Supreme Court allows border wall construction in Big Bend"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"Politico",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:09.000Z|5|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
+				},
+				{
+					"observedAt": "2026-11-10T01:48:34.517Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-10T01:34:09.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
+						"Court filing alleges Trump adviser received cash, luxury gifts from foreign interests",
+						"News Wrap: Supreme Court allows border wall construction in Big Bend"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"Politico",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-trump + court|2026-11-10T01:34:09.000Z|4|Supreme Court Allows Construction of Trump’s Border Wall in Big Bend"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-usa-warning-rare-warning-rare": {
 			"candidateId": "cluster-usa-warning + rare",
@@ -7751,48 +7776,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-11T14:56:15.238Z"
 		},
-		"cluster-usa-trump-administration-trump-administration": {
-			"candidateId": "cluster-usa-trump + administration",
-			"label": "trump + administration",
-			"latestAt": "2026-11-11T14:22:01.000Z",
-			"startedAt": "2026-11-11T10:00:00.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"trump",
-				"administration"
-			],
-			"sources": [
-				"ABC News",
-				"NPR"
-			],
-			"titles": [
-				"Trump administration moves to drop millions from SNAP under proposal",
-				"Both sides now? Critics slam DOJ moves to dismiss convictions of Trump allies"
-			],
-			"entityFirstSeenAt": "2026-11-11T14:56:15.238Z",
-			"entityLastCandidateAt": "2026-11-11T14:22:01.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-11T14:56:15.238Z",
-					"label": "trump + administration",
-					"latestAt": "2026-11-11T14:22:01.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Trump administration moves to drop millions from SNAP under proposal",
-						"Both sides now? Critics slam DOJ moves to dismiss convictions of Trump allies"
-					],
-					"sources": [
-						"ABC News",
-						"NPR"
-					],
-					"eventId": "cluster-usa-trump + administration|2026-11-11T14:22:01.000Z|2|Trump administration moves to drop millions from SNAP under proposal"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-11T14:56:15.238Z"
-		},
 		"cluster-usa-killing-angeles-killing-angeles": {
 			"candidateId": "cluster-usa-killing + angeles",
 			"label": "killing + angeles",
@@ -13027,7 +13010,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-spain-nacional-juez-nacional-juez": {
 			"candidateId": "cluster-spain-nacional + juez",
@@ -17778,7 +17761,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-spain-ante-euskal-ante-euskal": {
 			"candidateId": "cluster-spain-ante + euskal",
@@ -17836,7 +17819,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-spain-cuerpo-renfe-cuerpo-renfe": {
 			"candidateId": "cluster-spain-cuerpo + renfe",
@@ -18306,6 +18289,71 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
+		"cluster-usa-orleans-tanker-orleans-tanker": {
+			"candidateId": "cluster-usa-orleans + tanker",
+			"label": "orleans + tanker",
+			"latestAt": "2026-11-13T21:00:35.000Z",
+			"startedAt": "2026-11-13T20:33:00.000Z",
+			"itemCount": 4,
+			"sourceCount": 3,
+			"terms": [
+				"orleans",
+				"tanker"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"NBC News",
+				"CBS News"
+			],
+			"titles": [
+				"Rescues operations underway in New Orleans after tanker hits river cruise boat",
+				"Rescue underway after a tanker collides with a New Orleans river boat",
+				"Tanker hits river cruise ship in New Orleans | Special Report",
+				"River cruise ship, tanker crash in New Orleans on Mississippi River; rescues are underway"
+			],
+			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
+			"entityLastCandidateAt": "2026-11-13T21:00:35.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "orleans + tanker",
+					"latestAt": "2026-11-13T21:00:35.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Rescues operations underway in New Orleans after tanker hits river cruise boat",
+						"Rescue underway after a tanker collides with a New Orleans river boat",
+						"Tanker hits river cruise ship in New Orleans | Special Report"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"NBC News",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-orleans + tanker|2026-11-13T21:00:35.000Z|4|Rescues operations underway in New Orleans after tanker hits river cruise boat"
+				},
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "orleans + tanker",
+					"latestAt": "2026-11-13T21:00:35.000Z",
+					"itemCount": 5,
+					"sourceCount": 4,
+					"headlines": [
+						"Rescues operations underway in New Orleans after tanker hits river cruise boat",
+						"Rescue underway after a tanker collides with a New Orleans river boat",
+						"Tanker hits river cruise ship in New Orleans | Special Report"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"NBC News",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-orleans + tanker|2026-11-13T21:00:35.000Z|5|Rescues operations underway in New Orleans after tanker hits river cruise boat"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+		},
 		"cluster-usa-trump-supreme-trump-supreme": {
 			"candidateId": "cluster-usa-trump + supreme",
 			"label": "trump + supreme",
@@ -18505,12 +18553,12 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-spain-seguridad-pais-seguridad-pais": {
 			"candidateId": "cluster-spain-seguridad + pais",
 			"label": "seguridad + pais",
-			"latestAt": "2026-11-13T21:45:06.000Z",
+			"latestAt": "2026-11-13T23:43:49.000Z",
 			"startedAt": "2026-11-13T21:37:53.000Z",
 			"itemCount": 3,
 			"sourceCount": 3,
@@ -18524,13 +18572,31 @@
 				"El Correo"
 			],
 			"titles": [
-				"La FAA ordena una suspensión nacional de los vuelos debido a “circunstancias extraordinarias y motivos de seguridad”",
+				"Suspendidos todos los vuelos en Estados Unidos por “circunstancias extraordinarias y motivos de seguridad”",
 				"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
 				"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
 			],
 			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
-			"entityLastCandidateAt": "2026-11-13T21:45:06.000Z",
+			"entityLastCandidateAt": "2026-11-13T23:43:49.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T00:00:48.227Z",
+					"label": "seguridad + pais",
+					"latestAt": "2026-11-13T23:43:49.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Suspendidos todos los vuelos en Estados Unidos por “circunstancias extraordinarias y motivos de seguridad”",
+						"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
+						"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-seguridad + pais|2026-11-13T23:43:49.000Z|3|Suspendidos todos los vuelos en Estados Unidos por “circunstancias extraordinarias y motivos de seguridad”"
+				},
 				{
 					"observedAt": "2026-11-13T22:00:48.358Z",
 					"label": "seguridad + pais",
@@ -18551,7 +18617,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-spain-contra-bordo-contra-bordo": {
 			"candidateId": "cluster-spain-contra + bordo",
@@ -18593,7 +18659,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-spain-wild-millones-wild-millones": {
 			"candidateId": "cluster-spain-wild + millones",
@@ -18677,7 +18743,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-usa-orleans-underway-orleans-underway": {
 			"candidateId": "cluster-usa-orleans + underway",
@@ -18899,14 +18965,98 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+		},
+		"cluster-spain-campana-elecciones-campana-elecciones": {
+			"candidateId": "cluster-spain-campana + elecciones",
+			"label": "campana + elecciones",
+			"latestAt": "2026-11-13T22:36:53.000Z",
+			"startedAt": "2026-11-13T20:42:20.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"campana",
+				"elecciones"
+			],
+			"sources": [
+				"El País",
+				"El Mundo"
+			],
+			"titles": [
+				"Abascal exhibe el respaldo de la ultraderecha internacional en su arranque de campaña",
+				"Abascal se apoya en Meloni, Le Pen, Milei y Bolsonaro en el arranque a unas elecciones \"existenciales\": \"Estamos levantando una bandera unitaria\""
+			],
+			"entityFirstSeenAt": "2026-11-14T00:00:48.227Z",
+			"entityLastCandidateAt": "2026-11-13T22:36:53.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T00:00:48.227Z",
+					"label": "campana + elecciones",
+					"latestAt": "2026-11-13T22:36:53.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Abascal exhibe el respaldo de la ultraderecha internacional en su arranque de campaña",
+						"Abascal se apoya en Meloni, Le Pen, Milei y Bolsonaro en el arranque a unas elecciones \"existenciales\": \"Estamos levantando una bandera unitaria\""
+					],
+					"sources": [
+						"El País",
+						"El Mundo"
+					],
+					"eventId": "cluster-spain-campana + elecciones|2026-11-13T22:36:53.000Z|2|Abascal exhibe el respaldo de la ultraderecha internacional en su arranque de campaña"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+		},
+		"cluster-spain-gobierno-pais-gobierno-pais": {
+			"candidateId": "cluster-spain-gobierno + pais",
+			"label": "gobierno + pais",
+			"latestAt": "2026-11-13T22:06:28.000Z",
+			"startedAt": "2026-11-13T13:58:09.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"gobierno",
+				"pais"
+			],
+			"sources": [
+				"El Correo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada",
+				"El Gobierno crea 15 nuevas plazas de jueces y 7 de fiscales en el País Vasco"
+			],
+			"entityFirstSeenAt": "2026-11-14T00:00:48.227Z",
+			"entityLastCandidateAt": "2026-11-13T22:06:28.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T00:00:48.227Z",
+					"label": "gobierno + pais",
+					"latestAt": "2026-11-13T22:06:28.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada",
+						"El Gobierno crea 15 nuevas plazas de jueces y 7 de fiscales en el País Vasco"
+					],
+					"sources": [
+						"El Correo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-gobierno + pais|2026-11-13T22:06:28.000Z|2|El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-us-2026-11-13T23:00:48.051Z",
+		"id": "local-us-2026-11-14T00:00:48.227Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-13T23:00:48.051Z",
-		"finishedAt": "2026-11-13T23:05:05.638Z",
+		"startedAt": "2026-11-14T00:00:48.227Z",
+		"finishedAt": "2026-11-14T00:04:47.329Z",
 		"signalsCandidate": 7,
 		"signalsSelected": 7,
 		"signalsProcessed": 0,
@@ -18924,8 +19074,8 @@
 			"cacheHits": 6,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 350,
-			"retainedByTtl": 343,
+			"retained": 351,
+			"retainedByTtl": 344,
 			"retiredByTtl": 0
 		},
 		"costUsd": 0

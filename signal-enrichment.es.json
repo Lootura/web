@@ -2,8 +2,72 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "es",
-	"updatedAt": "2026-11-13T23:00:48.051Z",
+	"updatedAt": "2026-11-14T00:00:48.227Z",
 	"entries": {
+		"cluster-spain-seguridad-pais-seguridad-pais": {
+			"candidateId": "cluster-spain-seguridad + pais",
+			"label": "seguridad + pais",
+			"latestAt": "2026-11-13T23:43:49.000Z",
+			"startedAt": "2026-11-13T21:37:53.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"seguridad",
+				"pais"
+			],
+			"sources": [
+				"El País",
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Suspendidos todos los vuelos en Estados Unidos por “circunstancias extraordinarias y motivos de seguridad”",
+				"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
+				"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T23:43:49.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T00:00:48.227Z",
+					"label": "seguridad + pais",
+					"latestAt": "2026-11-13T23:43:49.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Suspendidos todos los vuelos en Estados Unidos por “circunstancias extraordinarias y motivos de seguridad”",
+						"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
+						"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-seguridad + pais|2026-11-13T23:43:49.000Z|3|Suspendidos todos los vuelos en Estados Unidos por “circunstancias extraordinarias y motivos de seguridad”"
+				},
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "seguridad + pais",
+					"latestAt": "2026-11-13T21:45:06.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"La FAA ordena una suspensión nacional de los vuelos debido a “circunstancias extraordinarias y motivos de seguridad”",
+						"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
+						"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-seguridad + pais|2026-11-13T21:45:06.000Z|3|La FAA ordena una suspensión nacional de los vuelos debido a “circunstancias extraordinarias y motivos de seguridad”"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+		},
 		"cluster-spain-jesus-owono-jesus-owono": {
 			"candidateId": "cluster-spain-jesus + owono",
 			"label": "jesus + owono",
@@ -50,53 +114,91 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
-		"cluster-spain-pais-seguridad-pais-seguridad": {
-			"candidateId": "cluster-spain-pais + seguridad",
-			"label": "pais + seguridad",
-			"latestAt": "2026-11-13T22:19:44.000Z",
-			"startedAt": "2026-11-13T21:37:53.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
+		"cluster-spain-campana-elecciones-campana-elecciones": {
+			"candidateId": "cluster-spain-campana + elecciones",
+			"label": "campana + elecciones",
+			"latestAt": "2026-11-13T22:36:53.000Z",
+			"startedAt": "2026-11-13T20:42:20.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
 			"terms": [
-				"pais",
-				"seguridad"
+				"campana",
+				"elecciones"
 			],
 			"sources": [
 				"El País",
-				"El Mundo",
-				"El Correo"
+				"El Mundo"
 			],
 			"titles": [
-				"Estados Unidos suspende los vuelos en todo el país por “circunstancias extraordinarias y motivos de seguridad”",
-				"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
-				"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
+				"Abascal exhibe el respaldo de la ultraderecha internacional en su arranque de campaña",
+				"Abascal se apoya en Meloni, Le Pen, Milei y Bolsonaro en el arranque a unas elecciones \"existenciales\": \"Estamos levantando una bandera unitaria\""
 			],
-			"entityFirstSeenAt": "2026-11-13T23:00:48.051Z",
-			"entityLastCandidateAt": "2026-11-13T22:19:44.000Z",
+			"entityFirstSeenAt": "2026-11-14T00:00:48.227Z",
+			"entityLastCandidateAt": "2026-11-13T22:36:53.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T23:00:48.051Z",
-					"label": "pais + seguridad",
-					"latestAt": "2026-11-13T22:19:44.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
+					"observedAt": "2026-11-14T00:00:48.227Z",
+					"label": "campana + elecciones",
+					"latestAt": "2026-11-13T22:36:53.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
 					"headlines": [
-						"Estados Unidos suspende los vuelos en todo el país por “circunstancias extraordinarias y motivos de seguridad”",
-						"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
-						"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
+						"Abascal exhibe el respaldo de la ultraderecha internacional en su arranque de campaña",
+						"Abascal se apoya en Meloni, Le Pen, Milei y Bolsonaro en el arranque a unas elecciones \"existenciales\": \"Estamos levantando una bandera unitaria\""
 					],
 					"sources": [
 						"El País",
-						"El Mundo",
-						"El Correo"
+						"El Mundo"
 					],
-					"eventId": "cluster-spain-pais + seguridad|2026-11-13T22:19:44.000Z|3|Estados Unidos suspende los vuelos en todo el país por “circunstancias extraordinarias y motivos de seguridad”"
+					"eventId": "cluster-spain-campana + elecciones|2026-11-13T22:36:53.000Z|2|Abascal exhibe el respaldo de la ultraderecha internacional en su arranque de campaña"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+		},
+		"cluster-spain-gobierno-pais-gobierno-pais": {
+			"candidateId": "cluster-spain-gobierno + pais",
+			"label": "gobierno + pais",
+			"latestAt": "2026-11-13T22:06:28.000Z",
+			"startedAt": "2026-11-13T13:58:09.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"gobierno",
+				"pais"
+			],
+			"sources": [
+				"El Correo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada",
+				"El Gobierno crea 15 nuevas plazas de jueces y 7 de fiscales en el País Vasco"
+			],
+			"entityFirstSeenAt": "2026-11-14T00:00:48.227Z",
+			"entityLastCandidateAt": "2026-11-13T22:06:28.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T00:00:48.227Z",
+					"label": "gobierno + pais",
+					"latestAt": "2026-11-13T22:06:28.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada",
+						"El Gobierno crea 15 nuevas plazas de jueces y 7 de fiscales en el País Vasco"
+					],
+					"sources": [
+						"El Correo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-gobierno + pais|2026-11-13T22:06:28.000Z|2|El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-spain-sanchez-campana-sanchez-campana": {
 			"candidateId": "cluster-spain-sanchez + campana",
@@ -172,49 +274,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
-		},
-		"cluster-spain-pais-gobierno-pais-gobierno": {
-			"candidateId": "cluster-spain-pais + gobierno",
-			"label": "pais + gobierno",
-			"latestAt": "2026-11-13T22:06:28.000Z",
-			"startedAt": "2026-11-13T13:58:09.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"pais",
-				"gobierno"
-			],
-			"sources": [
-				"El Correo",
-				"El Diario Vasco"
-			],
-			"titles": [
-				"El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada",
-				"El Gobierno crea 15 nuevas plazas de jueces y 7 de fiscales en el País Vasco"
-			],
-			"entityFirstSeenAt": "2026-11-13T23:00:48.051Z",
-			"entityLastCandidateAt": "2026-11-13T22:06:28.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T23:00:48.051Z",
-					"label": "pais + gobierno",
-					"latestAt": "2026-11-13T22:06:28.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada",
-						"El Gobierno crea 15 nuevas plazas de jueces y 7 de fiscales en el País Vasco"
-					],
-					"sources": [
-						"El Correo",
-						"El Diario Vasco"
-					],
-					"eventId": "cluster-spain-pais + gobierno|2026-11-13T22:06:28.000Z|2|El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-spain-contra-bordo-contra-bordo": {
 			"candidateId": "cluster-spain-contra + bordo",
@@ -256,7 +316,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-spain-ante-euskal-ante-euskal": {
 			"candidateId": "cluster-spain-ante + euskal",
@@ -314,49 +374,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
-		},
-		"cluster-spain-nucleo-nacional-nucleo-nacional": {
-			"candidateId": "cluster-spain-nucleo + nacional",
-			"label": "nucleo + nacional",
-			"latestAt": "2026-11-13T18:05:29.000Z",
-			"startedAt": "2026-11-13T15:36:14.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"nucleo",
-				"nacional"
-			],
-			"sources": [
-				"El Correo",
-				"El País"
-			],
-			"titles": [
-				"«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido",
-				"Núcleo Nacional planeó “reventar” la acampada de Sol: “Podemos pegar a los guarros”"
-			],
-			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
-			"entityLastCandidateAt": "2026-11-13T18:05:29.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "nucleo + nacional",
-					"latestAt": "2026-11-13T18:05:29.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido",
-						"Núcleo Nacional planeó “reventar” la acampada de Sol: “Podemos pegar a los guarros”"
-					],
-					"sources": [
-						"El Correo",
-						"El País"
-					],
-					"eventId": "cluster-spain-nucleo + nacional|2026-11-13T18:05:29.000Z|2|«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-spain-papa-leon-papa-leon": {
 			"candidateId": "cluster-spain-papa + leon",
@@ -398,7 +416,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-spain-entre-sanchez-entre-sanchez": {
 			"candidateId": "cluster-spain-entre + sanchez",
@@ -440,91 +458,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
-		},
-		"cluster-spain-solo-estar-solo-estar": {
-			"candidateId": "cluster-spain-solo + estar",
-			"label": "solo + estar",
-			"latestAt": "2026-11-13T16:30:31.000Z",
-			"startedAt": "2026-11-13T15:16:32.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"solo",
-				"estar"
-			],
-			"sources": [
-				"El País",
-				"El Correo"
-			],
-			"titles": [
-				"La encrucijada de Raphinha en la selección brasileña: “Siempre hice todo lo posible por estar presente”",
-				"Raphinha, al borde del llanto: «Quiero estar disponible no solo para Brasil, también para el Barça»"
-			],
-			"entityFirstSeenAt": "2026-11-13T20:00:48.144Z",
-			"entityLastCandidateAt": "2026-11-13T16:30:31.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T20:00:48.144Z",
-					"label": "solo + estar",
-					"latestAt": "2026-11-13T16:30:31.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"La encrucijada de Raphinha en la selección brasileña: “Siempre hice todo lo posible por estar presente”",
-						"Raphinha, al borde del llanto: «Quiero estar disponible no solo para Brasil, también para el Barça»"
-					],
-					"sources": [
-						"El País",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-solo + estar|2026-11-13T16:30:31.000Z|2|La encrucijada de Raphinha en la selección brasileña: “Siempre hice todo lo posible por estar presente”"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
-		},
-		"cluster-spain-cuerpo-renfe-cuerpo-renfe": {
-			"candidateId": "cluster-spain-cuerpo + renfe",
-			"label": "cuerpo + renfe",
-			"latestAt": "2026-11-13T15:36:47.000Z",
-			"startedAt": "2026-11-13T14:33:45.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"cuerpo",
-				"renfe"
-			],
-			"sources": [
-				"El Mundo",
-				"El Correo"
-			],
-			"titles": [
-				"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
-				"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
-			],
-			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
-			"entityLastCandidateAt": "2026-11-13T15:36:47.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T19:00:48.644Z",
-					"label": "cuerpo + renfe",
-					"latestAt": "2026-11-13T15:36:47.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
-						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
-					],
-					"sources": [
-						"El Mundo",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-cuerpo + renfe|2026-11-13T15:36:47.000Z|2|Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
@@ -1645,7 +1579,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-usa-russell-brand-russell-brand": {
 			"candidateId": "cluster-usa-russell + brand",
@@ -1894,90 +1828,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-10T01:54:53.349Z"
 		},
-		"cluster-spain-santiago-boveda-santiago-boveda": {
-			"candidateId": "cluster-spain-santiago + boveda",
-			"label": "santiago + boveda",
-			"latestAt": "2026-11-09T23:53:14.000Z",
-			"startedAt": "2026-11-09T23:35:47.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"santiago",
-				"boveda"
-			],
-			"sources": [
-				"El Mundo",
-				"El País"
-			],
-			"titles": [
-				"La bóveda secreta en la casa de verano de Santiago Peña se convierte en un quebradero de cabeza para la Fiscalía",
-				"La policía de Paraguay descubre una bóveda blindada con tecnología israelí en la mansión del expresidente Santiago Peña"
-			],
-			"entityFirstSeenAt": "2026-11-10T01:47:55.211Z",
-			"entityLastCandidateAt": "2026-11-09T23:53:14.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-10T01:47:55.211Z",
-					"label": "santiago + boveda",
-					"latestAt": "2026-11-09T23:53:14.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"La bóveda secreta en la casa de verano de Santiago Peña se convierte en un quebradero de cabeza para la Fiscalía",
-						"La policía de Paraguay descubre una bóveda blindada con tecnología israelí en la mansión del expresidente Santiago Peña"
-					],
-					"sources": [
-						"El Mundo",
-						"El País"
-					],
-					"eventId": "cluster-spain-santiago + boveda|2026-11-09T23:53:14.000Z|2|La bóveda secreta en la casa de verano de Santiago Peña se convierte en un quebradero de cabeza para la Fiscalía"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T07:03:34.270Z"
-		},
-		"cluster-spain-afectados-vicinay-afectados-vicinay": {
-			"candidateId": "cluster-spain-afectados + vicinay",
-			"label": "afectados + vicinay",
-			"latestAt": "2026-11-09T23:14:57.000Z",
-			"startedAt": "2026-11-09T13:06:06.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"afectados",
-				"vicinay"
-			],
-			"sources": [
-				"El Diario Vasco",
-				"El Correo"
-			],
-			"titles": [
-				"Vicinay publica una lista con los nombres de los 60 afectados por el ERE",
-				"Vicinay pone sobre la mesa una lista con los nombres de los 60 afectados por los despidos"
-			],
-			"entityFirstSeenAt": "2026-11-10T01:47:55.211Z",
-			"entityLastCandidateAt": "2026-11-09T23:14:57.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-10T01:47:55.211Z",
-					"label": "afectados + vicinay",
-					"latestAt": "2026-11-09T23:14:57.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Vicinay publica una lista con los nombres de los 60 afectados por el ERE",
-						"Vicinay pone sobre la mesa una lista con los nombres de los 60 afectados por los despidos"
-					],
-					"sources": [
-						"El Diario Vasco",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-afectados + vicinay|2026-11-09T23:14:57.000Z|2|Vicinay publica una lista con los nombres de los 60 afectados por el ERE"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T07:03:34.270Z"
-		},
 		"cluster-usa-trump-nvidia-trump-nvidia": {
 			"candidateId": "cluster-usa-trump + nvidia",
 			"label": "trump + nvidia",
@@ -2146,28 +1996,45 @@
 		"cluster-usa-trump-court-trump-court": {
 			"candidateId": "cluster-usa-trump + court",
 			"label": "trump + court",
-			"latestAt": "2026-11-13T19:16:41.000Z",
-			"startedAt": "2026-11-13T17:56:25.082Z",
-			"itemCount": 4,
+			"latestAt": "2026-11-13T20:37:10.000Z",
+			"startedAt": "2026-11-13T19:09:00.000Z",
+			"itemCount": 3,
 			"sourceCount": 3,
 			"terms": [
 				"trump",
 				"court"
 			],
 			"sources": [
+				"The New York Times Politics",
 				"PBS NewsHour",
-				"CBS News",
-				"NBC News Politics"
+				"CBS News"
 			],
 			"titles": [
+				"Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border",
 				"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
-				"Supreme Court takes up case over Trump effort to suspend asylum access at southern border",
-				"Supreme Court to rule on Trump’s asylum ban",
-				"Alito says Supreme Court is caught between the president and a Congress that can ‘turn off the lights’"
+				"Supreme Court takes up case over Trump effort to suspend asylum access at southern border"
 			],
 			"entityFirstSeenAt": "2026-11-10T01:48:34.517Z",
-			"entityLastCandidateAt": "2026-11-13T19:16:41.000Z",
+			"entityLastCandidateAt": "2026-11-13T20:37:10.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "trump + court",
+					"latestAt": "2026-11-13T20:37:10.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border",
+						"Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
+						"Supreme Court takes up case over Trump effort to suspend asylum access at southern border"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-trump + court|2026-11-13T20:37:10.000Z|3|Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border"
+				},
 				{
 					"observedAt": "2026-11-13T20:00:48.144Z",
 					"label": "trump + court",
@@ -2260,7 +2127,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T20:00:48.144Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-usa-warning-rare-warning-rare": {
 			"candidateId": "cluster-usa-warning + rare",
@@ -17813,6 +17680,90 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T19:00:48.644Z"
 		},
+		"cluster-spain-nucleo-nacional-nucleo-nacional": {
+			"candidateId": "cluster-spain-nucleo + nacional",
+			"label": "nucleo + nacional",
+			"latestAt": "2026-11-13T18:05:29.000Z",
+			"startedAt": "2026-11-13T15:36:14.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"nucleo",
+				"nacional"
+			],
+			"sources": [
+				"El Correo",
+				"El País"
+			],
+			"titles": [
+				"«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido",
+				"Núcleo Nacional planeó “reventar” la acampada de Sol: “Podemos pegar a los guarros”"
+			],
+			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
+			"entityLastCandidateAt": "2026-11-13T18:05:29.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "nucleo + nacional",
+					"latestAt": "2026-11-13T18:05:29.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido",
+						"Núcleo Nacional planeó “reventar” la acampada de Sol: “Podemos pegar a los guarros”"
+					],
+					"sources": [
+						"El Correo",
+						"El País"
+					],
+					"eventId": "cluster-spain-nucleo + nacional|2026-11-13T18:05:29.000Z|2|«No vamos a echarnos atrás»: Núcleo Nacional desafía su cierre judicial y pide dinero en redes para reorganizarse como partido"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+		},
+		"cluster-spain-cuerpo-renfe-cuerpo-renfe": {
+			"candidateId": "cluster-spain-cuerpo + renfe",
+			"label": "cuerpo + renfe",
+			"latestAt": "2026-11-13T15:36:47.000Z",
+			"startedAt": "2026-11-13T14:33:45.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"cuerpo",
+				"renfe"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
+				"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
+			],
+			"entityFirstSeenAt": "2026-11-13T19:00:48.644Z",
+			"entityLastCandidateAt": "2026-11-13T15:36:47.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T19:00:48.644Z",
+					"label": "cuerpo + renfe",
+					"latestAt": "2026-11-13T15:36:47.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif",
+						"Cuerpo despolitiza la cúpula de Renfe y Adif y apuesta por técnicos expertos de la casa"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-cuerpo + renfe|2026-11-13T15:36:47.000Z|2|Cuerpo destituye al presidente de Renfe afín a Puente para tratar de apaciguar el malestar del sector y recupera a Joaquim Hortalà para dirigir Adif"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+		},
 		"cluster-spain-antes-mucho-antes-mucho": {
 			"candidateId": "cluster-spain-antes + mucho",
 			"label": "antes + mucho",
@@ -17982,6 +17933,48 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+		},
+		"cluster-spain-solo-estar-solo-estar": {
+			"candidateId": "cluster-spain-solo + estar",
+			"label": "solo + estar",
+			"latestAt": "2026-11-13T16:30:31.000Z",
+			"startedAt": "2026-11-13T15:16:32.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"solo",
+				"estar"
+			],
+			"sources": [
+				"El País",
+				"El Correo"
+			],
+			"titles": [
+				"La encrucijada de Raphinha en la selección brasileña: “Siempre hice todo lo posible por estar presente”",
+				"Raphinha, al borde del llanto: «Quiero estar disponible no solo para Brasil, también para el Barça»"
+			],
+			"entityFirstSeenAt": "2026-11-13T20:00:48.144Z",
+			"entityLastCandidateAt": "2026-11-13T16:30:31.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T20:00:48.144Z",
+					"label": "solo + estar",
+					"latestAt": "2026-11-13T16:30:31.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"La encrucijada de Raphinha en la selección brasileña: “Siempre hice todo lo posible por estar presente”",
+						"Raphinha, al borde del llanto: «Quiero estar disponible no solo para Brasil, también para el Barça»"
+					],
+					"sources": [
+						"El País",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-solo + estar|2026-11-13T16:30:31.000Z|2|La encrucijada de Raphinha en la selección brasileña: “Siempre hice todo lo posible por estar presente”"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-usa-nvidia-scrutiny-nvidia-scrutiny": {
 			"candidateId": "cluster-usa-nvidia + scrutiny",
@@ -18202,8 +18195,8 @@
 			"label": "orleans + tanker",
 			"latestAt": "2026-11-13T21:00:35.000Z",
 			"startedAt": "2026-11-13T20:33:00.000Z",
-			"itemCount": 5,
-			"sourceCount": 4,
+			"itemCount": 4,
+			"sourceCount": 3,
 			"terms": [
 				"orleans",
 				"tanker"
@@ -18211,19 +18204,35 @@
 			"sources": [
 				"PBS NewsHour",
 				"NBC News",
-				"CBS News",
-				"The New York Times"
+				"CBS News"
 			],
 			"titles": [
 				"Rescues operations underway in New Orleans after tanker hits river cruise boat",
 				"Rescue underway after a tanker collides with a New Orleans river boat",
 				"Tanker hits river cruise ship in New Orleans | Special Report",
-				"Cargo Ship Crashes Into Docked Riverboat in New Orleans",
 				"River cruise ship, tanker crash in New Orleans on Mississippi River; rescues are underway"
 			],
 			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
 			"entityLastCandidateAt": "2026-11-13T21:00:35.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "orleans + tanker",
+					"latestAt": "2026-11-13T21:00:35.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Rescues operations underway in New Orleans after tanker hits river cruise boat",
+						"Rescue underway after a tanker collides with a New Orleans river boat",
+						"Tanker hits river cruise ship in New Orleans | Special Report"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"NBC News",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-orleans + tanker|2026-11-13T21:00:35.000Z|4|Rescues operations underway in New Orleans after tanker hits river cruise boat"
+				},
 				{
 					"observedAt": "2026-11-13T21:00:47.961Z",
 					"label": "orleans + tanker",
@@ -18244,7 +18253,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-usa-trump-supreme-trump-supreme": {
 			"candidateId": "cluster-usa-trump + supreme",
@@ -18360,7 +18369,7 @@
 		"cluster-usa-brooklyn-building-brooklyn-building": {
 			"candidateId": "cluster-usa-brooklyn + building",
 			"label": "brooklyn + building",
-			"latestAt": "2026-11-13T20:44:20.000Z",
+			"latestAt": "2026-11-13T22:08:24.000Z",
 			"startedAt": "2026-11-13T12:47:29.000Z",
 			"itemCount": 5,
 			"sourceCount": 2,
@@ -18369,19 +18378,36 @@
 				"building"
 			],
 			"sources": [
-				"PBS NewsHour",
-				"The New York Times"
+				"The New York Times",
+				"PBS NewsHour"
 			],
 			"titles": [
-				"WATCH: Brooklyn community leaders, residents hold meeting on building collapse",
 				"Inquiry Into Brooklyn Building Collapse Expands as Families Demand Answers",
+				"WATCH: Brooklyn community leaders, residents hold meeting on building collapse",
 				"How the Deadly Brooklyn Building Collapse Unfolded",
 				"Brooklyn D.A. Opens Criminal Inquiry Into Flatbush Building Collapse",
 				"Video From Inside Brooklyn Building That Collapsed Shows Walls Caving In"
 			],
 			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
-			"entityLastCandidateAt": "2026-11-13T20:44:20.000Z",
+			"entityLastCandidateAt": "2026-11-13T22:08:24.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "brooklyn + building",
+					"latestAt": "2026-11-13T22:08:24.000Z",
+					"itemCount": 5,
+					"sourceCount": 2,
+					"headlines": [
+						"Inquiry Into Brooklyn Building Collapse Expands as Families Demand Answers",
+						"WATCH: Brooklyn community leaders, residents hold meeting on building collapse",
+						"How the Deadly Brooklyn Building Collapse Unfolded"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-brooklyn + building|2026-11-13T22:08:24.000Z|5|Inquiry Into Brooklyn Building Collapse Expands as Families Demand Answers"
+				},
 				{
 					"observedAt": "2026-11-13T21:00:47.961Z",
 					"label": "brooklyn + building",
@@ -18401,7 +18427,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-usa-case-alex-case-alex": {
 			"candidateId": "cluster-usa-case + alex",
@@ -18440,52 +18466,6 @@
 						"CBS News"
 					],
 					"eventId": "cluster-usa-case + alex|2026-11-13T16:49:10.000Z|2|Alex Murdaugh seeks dismissal of murder case, says agent lied to grand jury"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
-		},
-		"cluster-spain-seguridad-pais-seguridad-pais": {
-			"candidateId": "cluster-spain-seguridad + pais",
-			"label": "seguridad + pais",
-			"latestAt": "2026-11-13T21:45:06.000Z",
-			"startedAt": "2026-11-13T21:37:53.000Z",
-			"itemCount": 3,
-			"sourceCount": 3,
-			"terms": [
-				"seguridad",
-				"pais"
-			],
-			"sources": [
-				"El País",
-				"El Mundo",
-				"El Correo"
-			],
-			"titles": [
-				"La FAA ordena una suspensión nacional de los vuelos debido a “circunstancias extraordinarias y motivos de seguridad”",
-				"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
-				"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
-			],
-			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
-			"entityLastCandidateAt": "2026-11-13T21:45:06.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-13T22:00:48.358Z",
-					"label": "seguridad + pais",
-					"latestAt": "2026-11-13T21:45:06.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"La FAA ordena una suspensión nacional de los vuelos debido a “circunstancias extraordinarias y motivos de seguridad”",
-						"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
-						"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
-					],
-					"sources": [
-						"El País",
-						"El Mundo",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-seguridad + pais|2026-11-13T21:45:06.000Z|3|La FAA ordena una suspensión nacional de los vuelos debido a “circunstancias extraordinarias y motivos de seguridad”"
 				}
 			],
 			"entityState": "active",
@@ -18536,31 +18516,48 @@
 		"cluster-usa-house-lauren-house-lauren": {
 			"candidateId": "cluster-usa-house + lauren",
 			"label": "house + lauren",
-			"latestAt": "2026-11-13T21:32:51.000Z",
-			"startedAt": "2026-11-13T19:58:19.188Z",
-			"itemCount": 6,
+			"latestAt": "2026-11-13T22:32:22.000Z",
+			"startedAt": "2026-11-13T20:15:00.000Z",
+			"itemCount": 5,
 			"sourceCount": 4,
 			"terms": [
 				"house",
 				"lauren"
 			],
 			"sources": [
+				"The New York Times",
 				"PBS NewsHour",
 				"NBC News Politics",
-				"The New York Times",
 				"CBS News"
 			],
 			"titles": [
+				"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
+				"Meet Eileen Laubacher, the Navy Veteran Who Beat Lauren Boebert",
 				"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher",
 				"Republican Rep. Lauren Boebert will lose re-election, NBC News projects",
-				"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
-				"Democrat Eileen Laubacher defeats incumbent Lauren Boebert in Colorado's 4th Congressional District",
-				"Meet Eileen Laubacher, the Navy Veteran Who Beat Lauren Boebert",
-				"Rep. Lauren Boebert, conservative firebrand from Colorado, loses her race for re-election"
+				"Democrat Eileen Laubacher defeats incumbent Lauren Boebert in Colorado's 4th Congressional District"
 			],
 			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
-			"entityLastCandidateAt": "2026-11-13T21:32:51.000Z",
+			"entityLastCandidateAt": "2026-11-13T22:32:22.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "house + lauren",
+					"latestAt": "2026-11-13T22:32:22.000Z",
+					"itemCount": 5,
+					"sourceCount": 4,
+					"headlines": [
+						"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
+						"Meet Eileen Laubacher, the Navy Veteran Who Beat Lauren Boebert",
+						"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-house + lauren|2026-11-13T22:32:22.000Z|5|Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher"
+				},
 				{
 					"observedAt": "2026-11-13T22:00:48.358Z",
 					"label": "house + lauren",
@@ -18581,7 +18578,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-usa-orleans-underway-orleans-underway": {
 			"candidateId": "cluster-usa-orleans + underway",
@@ -18635,29 +18632,52 @@
 		"cluster-usa-ground-stop-ground-stop": {
 			"candidateId": "cluster-usa-ground + stop",
 			"label": "ground + stop",
-			"latestAt": "2026-11-13T21:59:06.493Z",
+			"latestAt": "2026-11-13T22:46:33.000Z",
 			"startedAt": "2026-11-13T21:29:00.000Z",
-			"itemCount": 4,
+			"itemCount": 9,
 			"sourceCount": 4,
 			"terms": [
 				"ground",
 				"stop"
 			],
 			"sources": [
+				"CBS News",
 				"NBC News",
 				"NPR",
-				"The Verge",
-				"CBS News"
+				"The Verge"
 			],
 			"titles": [
+				"No indication of nefarious attack before FAA ground stop, Mullin says",
+				"Mullin says FAA ground stop caused by telecommunications outage",
+				"Secy. Mullin says FAA ground stop was caused by 'telecommunication outage'",
+				"Early details on FAA's nationwide ground stop",
 				"Ground stop ordered for all airports nationwide for ‘reasons of safety’",
+				"Nationwide ground stop ordered by FAA | Special Report",
 				"FAA issues nationwide ground stop for all U.S. airports",
 				"FAA ground stop shuts down flights nationwide",
 				"FAA issues nationwide ground stop due to \"extraordinary circumstances\""
 			],
 			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
-			"entityLastCandidateAt": "2026-11-13T21:59:06.493Z",
+			"entityLastCandidateAt": "2026-11-13T22:46:33.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "ground + stop",
+					"latestAt": "2026-11-13T22:46:33.000Z",
+					"itemCount": 9,
+					"sourceCount": 4,
+					"headlines": [
+						"No indication of nefarious attack before FAA ground stop, Mullin says",
+						"Mullin says FAA ground stop caused by telecommunications outage",
+						"Secy. Mullin says FAA ground stop was caused by 'telecommunication outage'"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News",
+						"NPR"
+					],
+					"eventId": "cluster-usa-ground + stop|2026-11-13T22:46:33.000Z|9|No indication of nefarious attack before FAA ground stop, Mullin says"
+				},
 				{
 					"observedAt": "2026-11-13T22:00:48.358Z",
 					"label": "ground + stop",
@@ -18678,7 +18698,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
 		"cluster-usa-trump-vance-trump-vance": {
 			"candidateId": "cluster-usa-trump + vance",
@@ -18763,19 +18783,153 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T22:00:48.358Z"
+		},
+		"cluster-spain-pais-seguridad-pais-seguridad": {
+			"candidateId": "cluster-spain-pais + seguridad",
+			"label": "pais + seguridad",
+			"latestAt": "2026-11-13T22:19:44.000Z",
+			"startedAt": "2026-11-13T21:37:53.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"pais",
+				"seguridad"
+			],
+			"sources": [
+				"El País",
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"Estados Unidos suspende los vuelos en todo el país por “circunstancias extraordinarias y motivos de seguridad”",
+				"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
+				"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
+			],
+			"entityFirstSeenAt": "2026-11-13T23:00:48.051Z",
+			"entityLastCandidateAt": "2026-11-13T22:19:44.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "pais + seguridad",
+					"latestAt": "2026-11-13T22:19:44.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Estados Unidos suspende los vuelos en todo el país por “circunstancias extraordinarias y motivos de seguridad”",
+						"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
+						"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-pais + seguridad|2026-11-13T22:19:44.000Z|3|Estados Unidos suspende los vuelos en todo el país por “circunstancias extraordinarias y motivos de seguridad”"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+		},
+		"cluster-spain-pais-gobierno-pais-gobierno": {
+			"candidateId": "cluster-spain-pais + gobierno",
+			"label": "pais + gobierno",
+			"latestAt": "2026-11-13T22:06:28.000Z",
+			"startedAt": "2026-11-13T13:58:09.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"pais",
+				"gobierno"
+			],
+			"sources": [
+				"El Correo",
+				"El Diario Vasco"
+			],
+			"titles": [
+				"El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada",
+				"El Gobierno crea 15 nuevas plazas de jueces y 7 de fiscales en el País Vasco"
+			],
+			"entityFirstSeenAt": "2026-11-13T23:00:48.051Z",
+			"entityLastCandidateAt": "2026-11-13T22:06:28.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "pais + gobierno",
+					"latestAt": "2026-11-13T22:06:28.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada",
+						"El Gobierno crea 15 nuevas plazas de jueces y 7 de fiscales en el País Vasco"
+					],
+					"sources": [
+						"El Correo",
+						"El Diario Vasco"
+					],
+					"eventId": "cluster-spain-pais + gobierno|2026-11-13T22:06:28.000Z|2|El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+		},
+		"cluster-usa-democrats-senate-democrats-senate": {
+			"candidateId": "cluster-usa-democrats + senate",
+			"label": "democrats + senate",
+			"latestAt": "2026-11-13T22:53:50.000Z",
+			"startedAt": "2026-11-13T17:47:41.000Z",
+			"itemCount": 3,
+			"sourceCount": 3,
+			"terms": [
+				"democrats",
+				"senate"
+			],
+			"sources": [
+				"The New York Times Politics",
+				"NPR Politics",
+				"CBS News"
+			],
+			"titles": [
+				"Democrats Vie for Support in Race for Top Senate Job",
+				"With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
+				"Van Hollen challenges Schumer for Senate majority leader"
+			],
+			"entityFirstSeenAt": "2026-11-13T23:00:48.051Z",
+			"entityLastCandidateAt": "2026-11-13T22:53:50.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "democrats + senate",
+					"latestAt": "2026-11-13T22:53:50.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Democrats Vie for Support in Race for Top Senate Job",
+						"With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
+						"Van Hollen challenges Schumer for Senate majority leader"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"NPR Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-democrats + senate|2026-11-13T22:53:50.000Z|3|Democrats Vie for Support in Race for Top Senate Job"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-es-2026-11-13T23:00:48.051Z",
+		"id": "local-es-2026-11-14T00:00:48.227Z",
 		"profile": "es",
 		"status": "disabled",
-		"startedAt": "2026-11-13T23:00:48.051Z",
-		"finishedAt": "2026-11-13T23:02:24.568Z",
-		"signalsCandidate": 11,
-		"signalsSelected": 9,
+		"startedAt": "2026-11-14T00:00:48.227Z",
+		"finishedAt": "2026-11-14T00:02:17.197Z",
+		"signalsCandidate": 9,
+		"signalsSelected": 7,
 		"signalsProcessed": 0,
-		"cacheHits": 9,
-		"skippedByConfig": 9,
+		"cacheHits": 7,
+		"skippedByConfig": 7,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -18785,12 +18939,12 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 9,
+			"cacheHits": 7,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 349,
-			"retainedByTtl": 338,
-			"retiredByTtl": 0
+			"retained": 350,
+			"retainedByTtl": 341,
+			"retiredByTtl": 2
 		},
 		"costUsd": 0
 	}

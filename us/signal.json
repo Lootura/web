@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-13T23:00:48.051Z",
+  "updatedAt": "2026-11-14T00:00:48.227Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "228,542 links analyzed",
-  "dayScanLabel": "6,044 links scanned in 24h",
+  "ambientPulseLabel": "229,148 links analyzed",
+  "dayScanLabel": "6,050 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -16,23 +16,96 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": null,
+  "topAlert": {
+    "id": "now-cluster-united states-ground + stop",
+    "title": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
+    "brief": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop.",
+    "whyItMatters": "",
+    "verdict": "If it repeats in the next run, it gains weight.",
+    "mode": "now",
+    "state": "rising",
+    "stateLabel": "Rising",
+    "strength": 38,
+    "sourceCount": 6,
+    "itemCount": 16,
+    "freshness": "fresh now",
+    "alertLevel": "watch",
+    "alertLabel": "Watch",
+    "alertScore": 99,
+    "alertTriggers": [
+      "Crosses several sources",
+      "Picks up volume fast",
+      "Still active"
+    ],
+    "isHotNews": false,
+    "sources": [
+      "CBS News",
+      "The Verge",
+      "NBC News",
+      "NPR Politics",
+      "NPR"
+    ],
+    "images": [
+      "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/13/b4852419-0cb0-4e81-83b2-fc4fda702815/thumbnail/1200x630/2b2dabdd19202399998f0e5b5f0bbcec/cbsn-fusion-update-to-network-connecting-air-traffic-control-system-led-to-outage-before-ground-stop-sources-ay-thumbnail.jpg",
+      "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2284677563.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794610293869_now_hallie_gosk_plane_space_261113_S3_1920x1080-a3oh0i.jpg",
+      "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-travelers-rights2-qwgh/13faa-groundstop-travelers-rights2-qwgh-mediumSquareAt3X.jpg"
+    ],
+    "evidence": [
+      {
+        "title": "Update to network connecting air traffic control system led to outage before ground stop, sources ay",
+        "source": "CBS News",
+        "publishedAt": "2026-11-13T23:51:25.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/update-to-network-connecting-air-traffic-control-system-led-to-outage-before-ground-stop-sources-ay/?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/13/b4852419-0cb0-4e81-83b2-fc4fda702815/thumbnail/1200x630/2b2dabdd19202399998f0e5b5f0bbcec/cbsn-fusion-update-to-network-connecting-air-traffic-control-system-led-to-outage-before-ground-stop-sources-ay-thumbnail.jpg"
+      },
+      {
+        "title": "FAA ground stop shuts down flights nationwide",
+        "source": "The Verge",
+        "publishedAt": "2026-11-13T23:47:27.000Z",
+        "sourceUrl": "https://www.theverge.com/news/1033489/faa-ground-stop?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2284677563.jpg?quality=90&strip=all&crop=0,0,100,100"
+      },
+      {
+        "title": "Flight Canceled During the FAA Ground Stop? Here’s What to Do.",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-13T23:42:43.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/13/us/ground-stop-flight-delays-cancellations-tips.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-travelers-rights2-qwgh/13faa-groundstop-travelers-rights2-qwgh-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Some international flights allowed to depart U.S. amid FAA ground stop",
+        "source": "CBS News",
+        "publishedAt": "2026-11-13T23:14:47.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/some-international-flights-allowed-to-depart-us-amid-faa-ground-stop/?utm_source=lootura.com&ref=lootura.com",
+        "image": ""
+      },
+      {
+        "title": "Commercial pilot explains what crews are going through amid nationwide ground stop",
+        "source": "CBS News",
+        "publishedAt": "2026-11-13T23:01:31.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/commercial-airline-pilot-explains-what-crews-are-going-through-amid-faa-ground-stop/?utm_source=lootura.com&ref=lootura.com",
+        "image": ""
+      }
+    ],
+    "path": "/us/entity/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground/"
+  },
   "signals": [
     {
       "id": "now-cluster-united states-ground + stop",
-      "title": "No indication of nefarious attack before FAA ground stop, Mullin says",
-      "brief": "No indication of nefarious attack before FAA ground stop, Mullin says.",
+      "title": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
+      "brief": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 29,
-      "sourceCount": 4,
-      "itemCount": 9,
+      "strength": 38,
+      "sourceCount": 6,
+      "itemCount": 16,
       "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
       "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
@@ -42,64 +115,66 @@
       "isHotNews": false,
       "sources": [
         "CBS News",
+        "The Verge",
         "NBC News",
-        "NPR",
-        "The Verge"
+        "NPR Politics",
+        "NPR"
       ],
       "images": [
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/13/e47481e5-df2d-4e0c-9416-9cfea679f7ca/thumbnail/1200x630/ccbab5f9f7429e5b220c3e1fdc91fcfd/cbsn-fusion-no-indication-of-a-nefarious-attack-amid-faa-ground-stop-mullin-says-thumbnail.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794608304299_nbc_spec_mullin_outage_261113_S3_1920x1080-78t6ql.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261113-ohare-airport-sjr-1605-99076a.jpg"
+        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/13/b4852419-0cb0-4e81-83b2-fc4fda702815/thumbnail/1200x630/2b2dabdd19202399998f0e5b5f0bbcec/cbsn-fusion-update-to-network-connecting-air-traffic-control-system-led-to-outage-before-ground-stop-sources-ay-thumbnail.jpg",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2284677563.jpg?quality=90&strip=all&crop=0,0,100,100",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794610293869_now_hallie_gosk_plane_space_261113_S3_1920x1080-a3oh0i.jpg",
+        "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-travelers-rights2-qwgh/13faa-groundstop-travelers-rights2-qwgh-mediumSquareAt3X.jpg"
       ],
       "evidence": [
         {
-          "title": "No indication of nefarious attack before FAA ground stop, Mullin says",
+          "title": "Update to network connecting air traffic control system led to outage before ground stop, sources ay",
           "source": "CBS News",
-          "publishedAt": "2026-11-13T22:46:33.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/no-indication-of-a-nefarious-attack-amid-faa-ground-stop-mullin-says/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/13/e47481e5-df2d-4e0c-9416-9cfea679f7ca/thumbnail/1200x630/ccbab5f9f7429e5b220c3e1fdc91fcfd/cbsn-fusion-no-indication-of-a-nefarious-attack-amid-faa-ground-stop-mullin-says-thumbnail.jpg"
+          "publishedAt": "2026-11-13T23:51:25.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/update-to-network-connecting-air-traffic-control-system-led-to-outage-before-ground-stop-sources-ay/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/13/b4852419-0cb0-4e81-83b2-fc4fda702815/thumbnail/1200x630/2b2dabdd19202399998f0e5b5f0bbcec/cbsn-fusion-update-to-network-connecting-air-traffic-control-system-led-to-outage-before-ground-stop-sources-ay-thumbnail.jpg"
         },
         {
-          "title": "Mullin says FAA ground stop caused by telecommunications outage",
+          "title": "FAA ground stop shuts down flights nationwide",
+          "source": "The Verge",
+          "publishedAt": "2026-11-13T23:47:27.000Z",
+          "sourceUrl": "https://www.theverge.com/news/1033489/faa-ground-stop?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2284677563.jpg?quality=90&strip=all&crop=0,0,100,100"
+        },
+        {
+          "title": "Flight Canceled During the FAA Ground Stop? Here’s What to Do.",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-13T23:42:43.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/13/us/ground-stop-flight-delays-cancellations-tips.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-travelers-rights2-qwgh/13faa-groundstop-travelers-rights2-qwgh-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Some international flights allowed to depart U.S. amid FAA ground stop",
           "source": "CBS News",
-          "publishedAt": "2026-11-13T22:29:13.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/homeland-security-secretary-markwayne-mullin-says-faa-ground-stop-caused-by-telecommunications-outage/?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-13T23:14:47.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/some-international-flights-allowed-to-depart-us-amid-faa-ground-stop/?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
         {
-          "title": "Secy. Mullin says FAA ground stop was caused by 'telecommunication outage'",
-          "source": "NBC News",
-          "publishedAt": "2026-11-13T22:18:29.000Z",
-          "sourceUrl": "https://www.nbcnews.com/video/secy-mullin-says-faa-ground-stop-was-caused-by-telecommunication-outage-273475141556?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794608304299_nbc_spec_mullin_outage_261113_S3_1920x1080-78t6ql.jpg"
-        },
-        {
-          "title": "Early details on FAA's nationwide ground stop",
+          "title": "Commercial pilot explains what crews are going through amid nationwide ground stop",
           "source": "CBS News",
-          "publishedAt": "2026-11-13T22:07:58.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/early-details-on-faas-nationwide-ground-stop/?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-13T23:01:31.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/commercial-airline-pilot-explains-what-crews-are-going-through-amid-faa-ground-stop/?utm_source=lootura.com&ref=lootura.com",
           "image": ""
-        },
-        {
-          "title": "Ground stop ordered for all airports nationwide for ‘reasons of safety’",
-          "source": "NBC News",
-          "publishedAt": "2026-11-13T21:59:06.493Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261113-ohare-airport-sjr-1605-99076a.jpg"
         }
       ],
-      "path": "/us/entity/no-indication-of-nefarious-attack-before-faa-ground-stop-mullin-says/"
+      "path": "/us/entity/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground/"
     },
     {
-      "id": "now-cluster-united states-lauren + boebert",
-      "title": "GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher",
-      "brief": "GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher.",
+      "id": "now-cluster-united states-tanker + orleans",
+      "title": "River cruise ship, tanker crash in New Orleans on Mississippi River; rescues are underway",
+      "brief": "River cruise ship, tanker crash in New Orleans on Mississippi River; rescues are underway.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 26,
+      "strength": 27,
       "sourceCount": 4,
       "itemCount": 5,
       "freshness": "fresh now",
@@ -113,16 +188,153 @@
       ],
       "isHotNews": false,
       "sources": [
+        "CBS News",
         "The New York Times",
         "PBS NewsHour",
-        "NBC News Politics",
+        "NBC News"
+      ],
+      "images": [
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/13/3530c6d1-a94f-42a7-af33-377ea5ca3e84/thumbnail/1200x630/9c0df4cc26fb0f3567c7ed097a6e3033/cbsn-fusion-all-accounted-for-after-tanker-hits-river-cruise-ship-in-new-orleans-32-hospitalized-thumbnail.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26317740730960-1024x467.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261113-new-orleans-boat-crash-ww-1208-3f45bb.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/13/a01ac2d0-b301-4cbb-902e-9eb3e253f271/thumbnail/1200x630g4/90ea1b10230f5a3c415432de2734c715/nola-screenshot-2026-11-13-152536.png"
+      ],
+      "evidence": [
+        {
+          "title": "All accounted for after tanker hits river cruise ship in New Orleans, 32 hospitalized",
+          "source": "CBS News",
+          "publishedAt": "2026-11-13T23:53:42.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/all-accounted-for-after-tanker-hits-river-cruise-ship-in-new-orleans-32-hospitalized/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/13/3530c6d1-a94f-42a7-af33-377ea5ca3e84/thumbnail/1200x630/9c0df4cc26fb0f3567c7ed097a6e3033/cbsn-fusion-all-accounted-for-after-tanker-hits-river-cruise-ship-in-new-orleans-32-hospitalized-thumbnail.jpg"
+        },
+        {
+          "title": "All Accounted for After Tanker Crashes Into Docked New Orleans Riverboat",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-13T23:14:42.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/13/us/new-orleans-cruise-ship-crash.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Rescues operations underway in New Orleans after tanker hits river cruise boat",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-13T21:00:35.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/nation/rescues-operations-underway-in-new-orleans-after-tanker-hits-river-cruise-boat?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26317740730960-1024x467.jpg"
+        },
+        {
+          "title": "Rescue underway after a tanker collides with a New Orleans river boat",
+          "source": "NBC News",
+          "publishedAt": "2026-11-13T20:59:48.856Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/rescue-underway-oil-tanker-collides-new-orleans-river-boat-rcna609235?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261113-new-orleans-boat-crash-ww-1208-3f45bb.jpg"
+        },
+        {
+          "title": "River cruise ship, tanker crash in New Orleans on Mississippi River; rescues are underway",
+          "source": "CBS News",
+          "publishedAt": "2026-11-13T20:33:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/tanker-cruise-collision-mississippi-river-new-orleans/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/13/a01ac2d0-b301-4cbb-902e-9eb3e253f271/thumbnail/1200x630g4/90ea1b10230f5a3c415432de2734c715/nola-screenshot-2026-11-13-152536.png"
+        }
+      ],
+      "path": "/us/entity/river-cruise-ship-tanker-crash-in-new-orleans-on-mississippi-river-rescues-are-u/"
+    },
+    {
+      "id": "now-cluster-united states-democrats + senate",
+      "title": "Newly elected Senate Democrats in the spotlight: From the Politics Desk",
+      "brief": "Newly elected Senate Democrats in the spotlight: From the Politics Desk.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 26,
+      "sourceCount": 4,
+      "itemCount": 4,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "PBS NewsHour",
+        "NPR Politics",
+        "The New York Times Politics",
+        "NBC News Politics"
+      ],
+      "images": [
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/partyvote-1024x576.jpg",
+        "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6040044",
+        "https://static01.nyt.com/images/2026/11/12/espanol/12dc-vanhollen-kvwt-ES-copy1/12dc-vanhollen-kvwt-mediumSquareAt3X.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261113-Abdul-El-Sayed-Adam-Hamilton-ww-1237-3cf79c.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Does Van Hollen have enough support to beat Schumer in Senate leadership race?",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-13T23:40:11.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/does-van-hollen-have-enough-support-to-beat-schumer-in-senate-leadership-race?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/partyvote-1024x576.jpg"
+        },
+        {
+          "title": "Democrats Vie for Support in Race for Top Senate Job",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-13T22:53:50.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/13/us/politics/democrats-senate-leader.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/12/espanol/12dc-vanhollen-kvwt-ES-copy1/12dc-vanhollen-kvwt-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Newly elected Senate Democrats in the spotlight: From the Politics Desk",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-13T22:00:00.000Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/politics-news/newly-elected-senate-democrats-spotlight-politics-desk-rcna609239?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261113-Abdul-El-Sayed-Adam-Hamilton-ww-1237-3cf79c.jpg"
+        },
+        {
+          "title": "With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
+          "source": "NPR Politics",
+          "publishedAt": "2026-11-13T21:06:09.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/13/nx-s1-6040044/dem-senate-leader-fight?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6040044"
+        }
+      ],
+      "path": "/us/entity/newly-elected-senate-democrats-in-the-spotlight-from-the-politics-desk/"
+    },
+    {
+      "id": "moving-cluster-united states-lauren + boebert",
+      "title": "GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher",
+      "brief": "GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "1h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 96,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times",
+        "PBS NewsHour",
         "CBS News"
       ],
       "images": [
         "https://static01.nyt.com/images/2026/11/03/multimedia/03hfo-pol-boebert-loses-tjkf/03hfo-pol-boebert-loses-tjkf-mediumSquareAt3X.jpg",
         "https://static01.nyt.com/images/2026/11/10/multimedia/10nat-laubacher-boebert-vhmj/10nat-laubacher-boebert-vhmj-mediumSquareAt3X.jpg",
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-11T000053Z_820618770_RC2BLOAN76D2_RTRMADP_3_USA-TRUMP-HEGSETH-IMPEACHMENT-e1794605445401-1024x651.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794601706094_now_daily_b_tsirkin_boebert_loses_261113_S3_1920x1080-dlc1rt.jpg",
         "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/09/3279e665-dd75-4140-a78b-1505947e86b9/thumbnail/1200x630/c0bb1baea05a5789a6ac09b3b2ac62a5/gettyimages-2303887029-copy.jpg"
       ],
       "evidence": [
@@ -148,13 +360,6 @@
           "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-11T000053Z_820618770_RC2BLOAN76D2_RTRMADP_3_USA-TRUMP-HEGSETH-IMPEACHMENT-e1794605445401-1024x651.jpg"
         },
         {
-          "title": "Republican Rep. Lauren Boebert will lose re-election, NBC News projects",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-13T20:28:31.000Z",
-          "sourceUrl": "https://www.nbcnews.com/now/video/republican-rep-lauren-boebert-will-lose-re-election-nbc-news-projects-273467461871?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794601706094_now_daily_b_tsirkin_boebert_loses_261113_S3_1920x1080-dlc1rt.jpg"
-        },
-        {
           "title": "Democrat Eileen Laubacher defeats incumbent Lauren Boebert in Colorado's 4th Congressional District",
           "source": "CBS News",
           "publishedAt": "2026-11-13T20:15:00.000Z",
@@ -165,70 +370,6 @@
       "path": "/us/entity/gop-rep-lauren-boebert-of-colorado-loses-u-s-house-seat-to-democrat-eileen-lauba/"
     },
     {
-      "id": "moving-cluster-united states-orleans + tanker",
-      "title": "River cruise ship, tanker crash in New Orleans on Mississippi River; rescues are underway",
-      "brief": "River cruise ship, tanker crash in New Orleans on Mississippi River; rescues are underway.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "2h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 96,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "PBS NewsHour",
-        "NBC News",
-        "CBS News"
-      ],
-      "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26317740730960-1024x467.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261113-new-orleans-boat-crash-ww-1208-3f45bb.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/13/a01ac2d0-b301-4cbb-902e-9eb3e253f271/thumbnail/1200x630g4/90ea1b10230f5a3c415432de2734c715/nola-screenshot-2026-11-13-152536.png"
-      ],
-      "evidence": [
-        {
-          "title": "Rescues operations underway in New Orleans after tanker hits river cruise boat",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-13T21:00:35.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/nation/rescues-operations-underway-in-new-orleans-after-tanker-hits-river-cruise-boat?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26317740730960-1024x467.jpg"
-        },
-        {
-          "title": "Rescue underway after a tanker collides with a New Orleans river boat",
-          "source": "NBC News",
-          "publishedAt": "2026-11-13T20:59:48.856Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/rescue-underway-oil-tanker-collides-new-orleans-river-boat-rcna609235?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261113-new-orleans-boat-crash-ww-1208-3f45bb.jpg"
-        },
-        {
-          "title": "Tanker hits river cruise ship in New Orleans | Special Report",
-          "source": "CBS News",
-          "publishedAt": "2026-11-13T20:46:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/tanker-hits-river-cruise-boat-in-new-orleans/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "River cruise ship, tanker crash in New Orleans on Mississippi River; rescues are underway",
-          "source": "CBS News",
-          "publishedAt": "2026-11-13T20:33:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/tanker-cruise-collision-mississippi-river-new-orleans/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/13/a01ac2d0-b301-4cbb-902e-9eb3e253f271/thumbnail/1200x630g4/90ea1b10230f5a3c415432de2734c715/nola-screenshot-2026-11-13-152536.png"
-        }
-      ],
-      "path": "/us/entity/river-cruise-ship-tanker-crash-in-new-orleans-on-mississippi-river-rescues-are-u/"
-    },
-    {
       "id": "moving-cluster-united states-jensen + huang",
       "title": "Jensen Huang’s Fall Is Bad for Nvidia but Good for America",
       "brief": "Jensen Huang’s Fall Is Bad for Nvidia but Good for America.",
@@ -237,10 +378,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 23,
+      "strength": 18,
       "sourceCount": 3,
       "itemCount": 5,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 94,
@@ -301,9 +442,9 @@
       "path": "/us/entity/jensen-huang-s-fall-is-bad-for-nvidia-but-good-for-america/"
     },
     {
-      "id": "now-cluster-united states-democrats + senate",
-      "title": "Democrats Vie for Support in Race for Top Senate Job",
-      "brief": "Democrats Vie for Support in Race for Top Senate Job.",
+      "id": "now-cluster-united states-trump + administration",
+      "title": "Trump administration delays Medicaid work requirements by six months",
+      "brief": "Trump administration delays Medicaid work requirements by six months.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -324,109 +465,52 @@
       "isHotNews": false,
       "sources": [
         "The New York Times Politics",
-        "NPR Politics",
-        "CBS News"
+        "NBC News Politics",
+        "NPR Politics"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/12/espanol/12dc-vanhollen-kvwt-ES-copy1/12dc-vanhollen-kvwt-mediumSquareAt3X.jpg",
-        "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6040044",
-        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/13/760c4d48-e4ea-4bdc-bc61-187fa30f4251/thumbnail/1200x630/d0dee2f27c88cc41253134513bb136ff/cbsn-fusion-van-hollen-challenges-schumer-for-senate-thumbnail.jpg"
+        "https://static01.nyt.com/images/2026/11/13/multimedia/13dc-medicaid-qmwz/13dc-medicaid-qmwz-mediumSquareAt3X.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261113-medicaid-work-requirements-sjr-1653-ab6529.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6903x4560+0+0/resize/6903x4560!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F20%2Fdd%2F1b4c60f94f53a919c64962a66656%2Fgettyimages-2303720039.jpg"
       ],
       "evidence": [
         {
-          "title": "Democrats Vie for Support in Race for Top Senate Job",
+          "title": "Trump Administration Delays Enforcement of Medicaid Work Requirement",
           "source": "The New York Times Politics",
-          "publishedAt": "2026-11-13T22:53:50.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/13/us/politics/democrats-senate-leader.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/12/espanol/12dc-vanhollen-kvwt-ES-copy1/12dc-vanhollen-kvwt-mediumSquareAt3X.jpg"
+          "publishedAt": "2026-11-13T23:10:21.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/13/us/politics/medicaid-work-requirement-delay.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13dc-medicaid-qmwz/13dc-medicaid-qmwz-mediumSquareAt3X.jpg"
         },
         {
-          "title": "With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
+          "title": "Trump administration delays Medicaid work requirements by six months",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-13T22:49:46.182Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/politics-news/trump-administration-delays-medicaid-work-requirements-six-months-rcna609256?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261113-medicaid-work-requirements-sjr-1653-ab6529.jpg"
+        },
+        {
+          "title": "The Trump administration's voter roll crusade could continue",
           "source": "NPR Politics",
-          "publishedAt": "2026-11-13T21:06:09.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/13/nx-s1-6040044/dem-senate-leader-fight?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6040044"
-        },
-        {
-          "title": "Van Hollen challenges Schumer for Senate majority leader",
-          "source": "CBS News",
-          "publishedAt": "2026-11-13T17:47:41.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/van-hollen-challenges-schumer-for-senate/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/13/760c4d48-e4ea-4bdc-bc61-187fa30f4251/thumbnail/1200x630/d0dee2f27c88cc41253134513bb136ff/cbsn-fusion-van-hollen-challenges-schumer-for-senate-thumbnail.jpg"
+          "publishedAt": "2026-11-13T17:00:00.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/13/nx-s1-6034016/voter-fraud-search-trump-california?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6903x4560+0+0/resize/6903x4560!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F20%2Fdd%2F1b4c60f94f53a919c64962a66656%2Fgettyimages-2303720039.jpg"
         }
       ],
-      "path": "/us/entity/democrats-vie-for-support-in-race-for-top-senate-job/"
+      "path": "/us/entity/trump-administration-delays-medicaid-work-requirements-by-six-months/"
     },
     {
-      "id": "moving-cluster-united states-supreme + court",
-      "title": "Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
-      "brief": "Supreme Court will consider Trump’s executive order suspending asylum access at the southern border.",
+      "id": "moving-cluster-united states-brooklyn + building",
+      "title": "Video From Inside Brooklyn Building That Collapsed Shows Walls Caving In",
+      "brief": "Video From Inside Brooklyn Building That Collapsed Shows Walls Caving In.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 22,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "2h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 92,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times Politics",
-        "PBS NewsHour",
-        "CBS News"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/13/multimedia/13dc-aslyum-pmkg/13dc-aslyum-pmkg-mediumSquareAt3X.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-04T152931Z_132207333_RC22HOAGNLS8_RTRMADP_3_USA-COURT-1024x683.jpg",
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/10/21/aad939c7-d4b0-4c6e-a37b-3b8772fd5d4e/thumbnail/1200x630/fdc1f7acb35cb9b0b3e5854af848e4cb/gettyimages-2299615599.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Supreme Court Set to Hear Trump’s Ban on Asylum Claims at Border",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-13T20:37:10.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/13/us/politics/supreme-court-trump-asylum-border.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13dc-aslyum-pmkg/13dc-aslyum-pmkg-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Supreme Court will consider Trump’s executive order suspending asylum access at the southern border",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-13T19:16:41.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/politics/supreme-court-will-consider-trumps-executive-order-suspending-asylum-access-at-the-southern-border?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-04T152931Z_132207333_RC22HOAGNLS8_RTRMADP_3_USA-COURT-1024x683.jpg"
-        },
-        {
-          "title": "Supreme Court takes up case over Trump effort to suspend asylum access at southern border",
-          "source": "CBS News",
-          "publishedAt": "2026-11-13T19:09:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/supreme-court-trump-asylum-u-s-mexico-border/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/10/21/aad939c7-d4b0-4c6e-a37b-3b8772fd5d4e/thumbnail/1200x630/fdc1f7acb35cb9b0b3e5854af848e4cb/gettyimages-2299615599.jpg"
-        }
-      ],
-      "path": "/us/entity/supreme-court-will-consider-trump-s-executive-order-suspending-asylum-access-at/"
-    },
-    {
-      "id": "now-cluster-united states-brooklyn + building",
-      "title": "Video From Inside Brooklyn Building That Collapsed Shows Walls Caving In",
-      "brief": "Video From Inside Brooklyn Building That Collapsed Shows Walls Caving In.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 18,
+      "strength": 17,
       "sourceCount": 2,
       "itemCount": 5,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 87,
