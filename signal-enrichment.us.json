@@ -2,35 +2,40 @@
 	"schemaVersion": 1,
 	"feature": "ai-signal-enrichment",
 	"profile": "us",
-	"updatedAt": "2026-11-14T00:00:48.227Z",
+	"updatedAt": "2026-11-14T01:00:48.035Z",
 	"entries": {
 		"cluster-usa-ground-stop-ground-stop": {
 			"candidateId": "cluster-usa-ground + stop",
 			"label": "ground + stop",
-			"latestAt": "2026-11-13T23:51:25.000Z",
+			"latestAt": "2026-11-14T00:14:31.000Z",
 			"startedAt": "2026-11-13T21:29:00.000Z",
-			"itemCount": 16,
-			"sourceCount": 6,
+			"itemCount": 20,
+			"sourceCount": 7,
 			"terms": [
 				"ground",
 				"stop"
 			],
 			"sources": [
 				"CBS News",
-				"The Verge",
 				"NBC News",
+				"PBS NewsHour",
+				"The Verge",
 				"NPR Politics",
 				"NPR",
 				"The New York Times"
 			],
 			"titles": [
-				"Update to network connecting air traffic control system led to outage before ground stop, sources ay",
+				"Stranded passenger in Las Vegas on nationwide ground stop: \"Nobody has answers\"",
+				"Nationwide ground stop brings America’s airports to a standstill",
+				"Travelers facing uncertainty amid nationwide ground stop",
+				"FAA issues rare nationwide ground stop due to 'extraordinary circumstances'",
 				"FAA ground stop shuts down flights nationwide",
 				"Some international flights allowed to depart U.S. amid FAA ground stop",
 				"Commercial pilot explains what crews are going through amid nationwide ground stop",
 				"Some airports beginning to run out of space for planes amid nationwide ground stop",
 				"No indication of nefarious attack before FAA ground stop, Mullin says",
 				"DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
+				"Stuck on the tarmac without information: Travelers share their ground stop experiences",
 				"Mullin says FAA ground stop caused by telecommunications outage",
 				"Secy. Mullin says FAA ground stop was caused by 'telecommunication outage'",
 				"Early details on FAA's nationwide ground stop",
@@ -38,12 +43,30 @@
 				"Nationwide ground stop ordered by FAA | Special Report",
 				"FAA issues nationwide ground stop for all U.S. airports",
 				"FAA issues nationwide ground stop due to \"extraordinary circumstances\"",
-				"Flight Canceled During the FAA Ground Stop? Here’s What to Do.",
-				"Stuck on the tarmac without information: Travelers share their ground stop experiences"
+				"Update to network connecting air traffic control system led to outage before ground stop, sources ay",
+				"Flight Canceled During the FAA Ground Stop? Here’s What to Do."
 			],
 			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
-			"entityLastCandidateAt": "2026-11-13T23:51:25.000Z",
+			"entityLastCandidateAt": "2026-11-14T00:14:31.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T01:00:48.035Z",
+					"label": "ground + stop",
+					"latestAt": "2026-11-14T00:14:31.000Z",
+					"itemCount": 20,
+					"sourceCount": 7,
+					"headlines": [
+						"Stranded passenger in Las Vegas on nationwide ground stop: \"Nobody has answers\"",
+						"Nationwide ground stop brings America’s airports to a standstill",
+						"Travelers facing uncertainty amid nationwide ground stop"
+					],
+					"sources": [
+						"CBS News",
+						"NBC News",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-ground + stop|2026-11-14T00:14:31.000Z|20|Stranded passenger in Las Vegas on nationwide ground stop: \"Nobody has answers\""
+				},
 				{
 					"observedAt": "2026-11-14T00:00:48.227Z",
 					"label": "ground + stop",
@@ -100,35 +123,54 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+			"entityLastUpdatedAt": "2026-11-14T01:00:48.035Z"
 		},
 		"cluster-usa-tanker-orleans-tanker-orleans": {
 			"candidateId": "cluster-usa-tanker + orleans",
 			"label": "tanker + orleans",
-			"latestAt": "2026-11-13T23:53:42.000Z",
-			"startedAt": "2026-11-13T20:33:00.000Z",
-			"itemCount": 5,
+			"latestAt": "2026-11-14T00:25:27.000Z",
+			"startedAt": "2026-11-13T20:59:48.856Z",
+			"itemCount": 6,
 			"sourceCount": 4,
 			"terms": [
 				"tanker",
 				"orleans"
 			],
 			"sources": [
-				"CBS News",
 				"The New York Times",
+				"NBC News",
 				"PBS NewsHour",
-				"NBC News"
+				"CBS News"
 			],
 			"titles": [
-				"All accounted for after tanker hits river cruise ship in New Orleans, 32 hospitalized",
 				"All Accounted for After Tanker Crashes Into Docked New Orleans Riverboat",
+				"All accounted for after tanker crashes into New Orleans riverboat",
+				"News Wrap: Tanker crashes into river cruise boat in New Orleans",
+				"All accounted for after tanker hits river cruise ship in New Orleans, 32 hospitalized",
 				"Rescues operations underway in New Orleans after tanker hits river cruise boat",
-				"Rescue underway after a tanker collides with a New Orleans river boat",
-				"River cruise ship, tanker crash in New Orleans on Mississippi River; rescues are underway"
+				"Rescue underway after a tanker collides with a New Orleans river boat"
 			],
 			"entityFirstSeenAt": "2026-11-14T00:00:48.227Z",
-			"entityLastCandidateAt": "2026-11-13T23:53:42.000Z",
+			"entityLastCandidateAt": "2026-11-14T00:25:27.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T01:00:48.035Z",
+					"label": "tanker + orleans",
+					"latestAt": "2026-11-14T00:25:27.000Z",
+					"itemCount": 6,
+					"sourceCount": 4,
+					"headlines": [
+						"All Accounted for After Tanker Crashes Into Docked New Orleans Riverboat",
+						"All accounted for after tanker crashes into New Orleans riverboat",
+						"News Wrap: Tanker crashes into river cruise boat in New Orleans"
+					],
+					"sources": [
+						"The New York Times",
+						"NBC News",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-tanker + orleans|2026-11-14T00:25:27.000Z|6|All Accounted for After Tanker Crashes Into Docked New Orleans Riverboat"
+				},
 				{
 					"observedAt": "2026-11-14T00:00:48.227Z",
 					"label": "tanker + orleans",
@@ -149,156 +191,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
-		},
-		"cluster-usa-democrats-senate-democrats-senate": {
-			"candidateId": "cluster-usa-democrats + senate",
-			"label": "democrats + senate",
-			"latestAt": "2026-11-13T23:40:11.000Z",
-			"startedAt": "2026-11-13T21:06:09.000Z",
-			"itemCount": 4,
-			"sourceCount": 4,
-			"terms": [
-				"democrats",
-				"senate"
-			],
-			"sources": [
-				"PBS NewsHour",
-				"NPR Politics",
-				"The New York Times Politics",
-				"NBC News Politics"
-			],
-			"titles": [
-				"Does Van Hollen have enough support to beat Schumer in Senate leadership race?",
-				"With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
-				"Democrats Vie for Support in Race for Top Senate Job",
-				"Newly elected Senate Democrats in the spotlight: From the Politics Desk"
-			],
-			"entityFirstSeenAt": "2026-11-13T23:00:48.051Z",
-			"entityLastCandidateAt": "2026-11-13T23:40:11.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-14T00:00:48.227Z",
-					"label": "democrats + senate",
-					"latestAt": "2026-11-13T23:40:11.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Does Van Hollen have enough support to beat Schumer in Senate leadership race?",
-						"With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
-						"Democrats Vie for Support in Race for Top Senate Job"
-					],
-					"sources": [
-						"PBS NewsHour",
-						"NPR Politics",
-						"The New York Times Politics"
-					],
-					"eventId": "cluster-usa-democrats + senate|2026-11-13T23:40:11.000Z|4|Does Van Hollen have enough support to beat Schumer in Senate leadership race?"
-				},
-				{
-					"observedAt": "2026-11-13T23:00:48.051Z",
-					"label": "democrats + senate",
-					"latestAt": "2026-11-13T22:53:50.000Z",
-					"itemCount": 3,
-					"sourceCount": 3,
-					"headlines": [
-						"Democrats Vie for Support in Race for Top Senate Job",
-						"With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
-						"Van Hollen challenges Schumer for Senate majority leader"
-					],
-					"sources": [
-						"The New York Times Politics",
-						"NPR Politics",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-democrats + senate|2026-11-13T22:53:50.000Z|3|Democrats Vie for Support in Race for Top Senate Job"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
-		},
-		"cluster-usa-house-lauren-house-lauren": {
-			"candidateId": "cluster-usa-house + lauren",
-			"label": "house + lauren",
-			"latestAt": "2026-11-13T22:32:22.000Z",
-			"startedAt": "2026-11-13T20:15:00.000Z",
-			"itemCount": 4,
-			"sourceCount": 3,
-			"terms": [
-				"house",
-				"lauren"
-			],
-			"sources": [
-				"The New York Times",
-				"PBS NewsHour",
-				"CBS News"
-			],
-			"titles": [
-				"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
-				"Meet Eileen Laubacher, the Navy Veteran Who Beat Lauren Boebert",
-				"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher",
-				"Democrat Eileen Laubacher defeats incumbent Lauren Boebert in Colorado's 4th Congressional District"
-			],
-			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
-			"entityLastCandidateAt": "2026-11-13T22:32:22.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-14T00:00:48.227Z",
-					"label": "house + lauren",
-					"latestAt": "2026-11-13T22:32:22.000Z",
-					"itemCount": 4,
-					"sourceCount": 3,
-					"headlines": [
-						"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
-						"Meet Eileen Laubacher, the Navy Veteran Who Beat Lauren Boebert",
-						"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"CBS News"
-					],
-					"eventId": "cluster-usa-house + lauren|2026-11-13T22:32:22.000Z|4|Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher"
-				},
-				{
-					"observedAt": "2026-11-13T23:00:48.051Z",
-					"label": "house + lauren",
-					"latestAt": "2026-11-13T22:32:22.000Z",
-					"itemCount": 5,
-					"sourceCount": 4,
-					"headlines": [
-						"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
-						"Meet Eileen Laubacher, the Navy Veteran Who Beat Lauren Boebert",
-						"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour",
-						"NBC News Politics"
-					],
-					"eventId": "cluster-usa-house + lauren|2026-11-13T22:32:22.000Z|5|Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher"
-				},
-				{
-					"observedAt": "2026-11-13T22:00:48.358Z",
-					"label": "house + lauren",
-					"latestAt": "2026-11-13T21:32:51.000Z",
-					"itemCount": 6,
-					"sourceCount": 4,
-					"headlines": [
-						"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher",
-						"Republican Rep. Lauren Boebert will lose re-election, NBC News projects",
-						"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher"
-					],
-					"sources": [
-						"PBS NewsHour",
-						"NBC News Politics",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-house + lauren|2026-11-13T21:32:51.000Z|6|GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+			"entityLastUpdatedAt": "2026-11-14T01:00:48.035Z"
 		},
 		"cluster-usa-trump-administration-trump-administration": {
 			"candidateId": "cluster-usa-trump + administration",
@@ -360,7 +253,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+			"entityLastUpdatedAt": "2026-11-14T01:00:48.035Z"
 		},
 		"cluster-usa-nvidia-huang-nvidia-huang": {
 			"candidateId": "cluster-usa-nvidia + huang",
@@ -623,76 +516,57 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+			"entityLastUpdatedAt": "2026-11-14T01:00:48.035Z"
 		},
-		"cluster-usa-brooklyn-building-brooklyn-building": {
-			"candidateId": "cluster-usa-brooklyn + building",
-			"label": "brooklyn + building",
-			"latestAt": "2026-11-13T22:08:24.000Z",
-			"startedAt": "2026-11-13T12:47:29.000Z",
-			"itemCount": 5,
+		"cluster-usa-senate-race-senate-race": {
+			"candidateId": "cluster-usa-senate + race",
+			"label": "senate + race",
+			"latestAt": "2026-11-13T23:40:11.000Z",
+			"startedAt": "2026-11-13T15:01:11.000Z",
+			"itemCount": 3,
 			"sourceCount": 2,
 			"terms": [
-				"brooklyn",
-				"building"
+				"senate",
+				"race"
 			],
 			"sources": [
-				"The New York Times",
-				"PBS NewsHour"
+				"PBS NewsHour",
+				"The New York Times Politics"
 			],
 			"titles": [
-				"Inquiry Into Brooklyn Building Collapse Expands as Families Demand Answers",
-				"WATCH: Brooklyn community leaders, residents hold meeting on building collapse",
-				"How the Deadly Brooklyn Building Collapse Unfolded",
-				"Brooklyn D.A. Opens Criminal Inquiry Into Flatbush Building Collapse",
-				"Video From Inside Brooklyn Building That Collapsed Shows Walls Caving In"
+				"Does Van Hollen have enough support to beat Schumer in Senate leadership race?",
+				"The Numbers Behind Scott Colom’s Stunning Upset in the Mississippi Senate Race",
+				"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi."
 			],
-			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
-			"entityLastCandidateAt": "2026-11-13T22:08:24.000Z",
+			"entityFirstSeenAt": "2026-11-14T01:00:48.035Z",
+			"entityLastCandidateAt": "2026-11-13T23:40:11.000Z",
 			"entityTimeline": [
 				{
-					"observedAt": "2026-11-13T23:00:48.051Z",
-					"label": "brooklyn + building",
-					"latestAt": "2026-11-13T22:08:24.000Z",
-					"itemCount": 5,
+					"observedAt": "2026-11-14T01:00:48.035Z",
+					"label": "senate + race",
+					"latestAt": "2026-11-13T23:40:11.000Z",
+					"itemCount": 3,
 					"sourceCount": 2,
 					"headlines": [
-						"Inquiry Into Brooklyn Building Collapse Expands as Families Demand Answers",
-						"WATCH: Brooklyn community leaders, residents hold meeting on building collapse",
-						"How the Deadly Brooklyn Building Collapse Unfolded"
-					],
-					"sources": [
-						"The New York Times",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-brooklyn + building|2026-11-13T22:08:24.000Z|5|Inquiry Into Brooklyn Building Collapse Expands as Families Demand Answers"
-				},
-				{
-					"observedAt": "2026-11-13T21:00:47.961Z",
-					"label": "brooklyn + building",
-					"latestAt": "2026-11-13T20:44:20.000Z",
-					"itemCount": 5,
-					"sourceCount": 2,
-					"headlines": [
-						"WATCH: Brooklyn community leaders, residents hold meeting on building collapse",
-						"Inquiry Into Brooklyn Building Collapse Expands as Families Demand Answers",
-						"How the Deadly Brooklyn Building Collapse Unfolded"
+						"Does Van Hollen have enough support to beat Schumer in Senate leadership race?",
+						"The Numbers Behind Scott Colom’s Stunning Upset in the Mississippi Senate Race",
+						"Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi."
 					],
 					"sources": [
 						"PBS NewsHour",
-						"The New York Times"
+						"The New York Times Politics"
 					],
-					"eventId": "cluster-usa-brooklyn + building|2026-11-13T20:44:20.000Z|5|WATCH: Brooklyn community leaders, residents hold meeting on building collapse"
+					"eventId": "cluster-usa-senate + race|2026-11-13T23:40:11.000Z|3|Does Van Hollen have enough support to beat Schumer in Senate leadership race?"
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+			"entityLastUpdatedAt": "2026-11-14T01:00:48.035Z"
 		},
 		"cluster-usa-trump-democrats-trump-democrats": {
 			"candidateId": "cluster-usa-trump + democrats",
 			"label": "trump + democrats",
-			"latestAt": "2026-11-13T10:03:55.000Z",
-			"startedAt": "2026-11-13T02:01:47.000Z",
+			"latestAt": "2026-11-14T00:43:00.000Z",
+			"startedAt": "2026-11-13T21:06:09.000Z",
 			"itemCount": 2,
 			"sourceCount": 2,
 			"terms": [
@@ -700,16 +574,32 @@
 				"democrats"
 			],
 			"sources": [
-				"The New York Times",
-				"CBS News"
+				"CBS News",
+				"NPR Politics"
 			],
 			"titles": [
-				"Democrats Eye Strict New Limits on White House Budget Powers",
-				"Legal expert on White House warning to Democrats over possible Trump investigations"
+				"Democrats see mandate from voters to lower costs, but still figuring out how to deal with Trump factor",
+				"With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate"
 			],
 			"entityFirstSeenAt": "2026-11-04T23:00:23.472Z",
-			"entityLastCandidateAt": "2026-11-13T10:03:55.000Z",
+			"entityLastCandidateAt": "2026-11-14T00:43:00.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T01:00:48.035Z",
+					"label": "trump + democrats",
+					"latestAt": "2026-11-14T00:43:00.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"Democrats see mandate from voters to lower costs, but still figuring out how to deal with Trump factor",
+						"With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate"
+					],
+					"sources": [
+						"CBS News",
+						"NPR Politics"
+					],
+					"eventId": "cluster-usa-trump + democrats|2026-11-14T00:43:00.000Z|2|Democrats see mandate from voters to lower costs, but still figuring out how to deal with Trump factor"
+				},
 				{
 					"observedAt": "2026-11-13T13:35:22.142Z",
 					"label": "trump + democrats",
@@ -942,7 +832,93 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T13:50:49.929Z"
+			"entityLastUpdatedAt": "2026-11-14T01:00:48.035Z"
+		},
+		"cluster-usa-flight-spacex-flight-spacex": {
+			"candidateId": "cluster-usa-flight + spacex",
+			"label": "flight + spacex",
+			"latestAt": "2026-11-14T00:17:35.000Z",
+			"startedAt": "2026-11-13T23:20:45.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"flight",
+				"spacex"
+			],
+			"sources": [
+				"NBC News",
+				"CBS News"
+			],
+			"titles": [
+				"SpaceX historic test flight takes off",
+				"SpaceX launches first-of-its-kind Starship test flight"
+			],
+			"entityFirstSeenAt": "2026-11-14T01:00:48.035Z",
+			"entityLastCandidateAt": "2026-11-14T00:17:35.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T01:00:48.035Z",
+					"label": "flight + spacex",
+					"latestAt": "2026-11-14T00:17:35.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"SpaceX historic test flight takes off",
+						"SpaceX launches first-of-its-kind Starship test flight"
+					],
+					"sources": [
+						"NBC News",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-flight + spacex|2026-11-14T00:17:35.000Z|2|SpaceX historic test flight takes off"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-14T01:00:48.035Z"
+		},
+		"cluster-usa-house-race-house-race": {
+			"candidateId": "cluster-usa-house + race",
+			"label": "house + race",
+			"latestAt": "2026-11-13T22:32:22.000Z",
+			"startedAt": "2026-11-13T21:32:51.000Z",
+			"itemCount": 3,
+			"sourceCount": 2,
+			"terms": [
+				"house",
+				"race"
+			],
+			"sources": [
+				"The New York Times",
+				"PBS NewsHour"
+			],
+			"titles": [
+				"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
+				"Meet Eileen Laubacher, the Navy Veteran Who Beat Lauren Boebert",
+				"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher"
+			],
+			"entityFirstSeenAt": "2026-11-14T01:00:48.035Z",
+			"entityLastCandidateAt": "2026-11-13T22:32:22.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T01:00:48.035Z",
+					"label": "house + race",
+					"latestAt": "2026-11-13T22:32:22.000Z",
+					"itemCount": 3,
+					"sourceCount": 2,
+					"headlines": [
+						"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
+						"Meet Eileen Laubacher, the Navy Veteran Who Beat Lauren Boebert",
+						"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-house + race|2026-11-13T22:32:22.000Z|3|Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-14T01:00:48.035Z"
 		},
 		"cluster-usa-trump-house-trump-house": {
 			"candidateId": "cluster-usa-trump + house",
@@ -1546,84 +1522,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-11T21:45:05.852Z"
 		},
-		"cluster-usa-russell-brand-russell-brand": {
-			"candidateId": "cluster-usa-russell + brand",
-			"label": "russell + brand",
-			"latestAt": "2026-11-10T00:38:32.000Z",
-			"startedAt": "2026-11-09T15:37:07.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"russell",
-				"brand"
-			],
-			"sources": [
-				"CBS News",
-				"The New York Times"
-			],
-			"titles": [
-				"Russell Brand sentenced to over 10 years for rape and sex assault",
-				"Russell Brand Sentenced to 10 and a Half Years in Prison for Rape"
-			],
-			"entityFirstSeenAt": "2026-11-09T18:21:05.029Z",
-			"entityLastCandidateAt": "2026-11-10T00:38:32.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-10T06:40:54.048Z",
-					"label": "russell + brand",
-					"latestAt": "2026-11-10T00:38:32.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Russell Brand sentenced to over 10 years for rape and sex assault",
-						"Russell Brand Sentenced to 10 and a Half Years in Prison for Rape"
-					],
-					"sources": [
-						"CBS News",
-						"The New York Times"
-					],
-					"eventId": "cluster-usa-russell + brand|2026-11-10T00:38:32.000Z|2|Russell Brand sentenced to over 10 years for rape and sex assault"
-				},
-				{
-					"observedAt": "2026-11-10T01:48:34.517Z",
-					"label": "russell + brand",
-					"latestAt": "2026-11-10T00:38:32.000Z",
-					"itemCount": 4,
-					"sourceCount": 4,
-					"headlines": [
-						"Russell Brand sentenced to over 10 years for rape and sex assault",
-						"Russell Brand is sentenced to more than 10 years in prison for rape and sexual assault",
-						"Russell Brand is sentenced to 10 years and six months for rape and sexual assault"
-					],
-					"sources": [
-						"CBS News",
-						"PBS NewsHour",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-russell + brand|2026-11-10T00:38:32.000Z|4|Russell Brand sentenced to over 10 years for rape and sex assault"
-				},
-				{
-					"observedAt": "2026-11-09T18:21:05.029Z",
-					"label": "russell + brand",
-					"latestAt": "2026-11-09T18:06:36.000Z",
-					"itemCount": 7,
-					"sourceCount": 5,
-					"headlines": [
-						"It’s 11 years since Russell Brand silenced a woman who was ‘harassing’ him. Isn’t it time we heard from her again? | Zoe Williams",
-						"Russell Brand sentenced to more than 10 years in prison for rape and sexual assault",
-						"Russell Brand sentenced to 10 years, 6 months in prison for rape, sexual assault"
-					],
-					"sources": [
-						"The Guardian US",
-						"ABC News",
-						"PBS NewsHour"
-					],
-					"eventId": "cluster-usa-russell + brand|2026-11-09T18:06:36.000Z|7|It’s 11 years since Russell Brand silenced a woman who was ‘harassing’ him. Isn’t it time we heard from her again? | Zoe Williams"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T07:04:00.708Z"
-		},
 		"cluster-spain-frente-voto-frente-voto": {
 			"candidateId": "cluster-spain-frente + voto",
 			"label": "frente + voto",
@@ -1750,48 +1648,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-10T13:31:59.956Z"
-		},
-		"cluster-spain-millones-pontificado-millones-pontificado": {
-			"candidateId": "cluster-spain-millones + pontificado",
-			"label": "millones + pontificado",
-			"latestAt": "2026-11-10T00:02:57.000Z",
-			"startedAt": "2026-11-09T15:44:53.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"millones",
-				"pontificado"
-			],
-			"sources": [
-				"El País",
-				"El Correo"
-			],
-			"titles": [
-				"León XIV celebra la misa más masiva de su pontificado con 2,5 millones de fieles en Buenos Aires",
-				"El Papa se da en Buenos Aires el mayor baño de masas de su pontificado"
-			],
-			"entityFirstSeenAt": "2026-11-10T01:47:55.211Z",
-			"entityLastCandidateAt": "2026-11-10T00:02:57.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-10T01:47:55.211Z",
-					"label": "millones + pontificado",
-					"latestAt": "2026-11-10T00:02:57.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"León XIV celebra la misa más masiva de su pontificado con 2,5 millones de fieles en Buenos Aires",
-						"El Papa se da en Buenos Aires el mayor baño de masas de su pontificado"
-					],
-					"sources": [
-						"El País",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-millones + pontificado|2026-11-10T00:02:57.000Z|2|León XIV celebra la misa más masiva de su pontificado con 2,5 millones de fieles en Buenos Aires"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T01:54:53.349Z"
 		},
 		"cluster-usa-trump-nvidia-trump-nvidia": {
 			"candidateId": "cluster-usa-trump + nvidia",
@@ -2094,92 +1950,6 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
 		},
-		"cluster-usa-warning-rare-warning-rare": {
-			"candidateId": "cluster-usa-warning + rare",
-			"label": "warning + rare",
-			"latestAt": "2026-11-10T00:44:40.000Z",
-			"startedAt": "2026-11-09T18:14:12.000Z",
-			"itemCount": 3,
-			"sourceCount": 2,
-			"terms": [
-				"warning",
-				"rare"
-			],
-			"sources": [
-				"CBS News",
-				"NBC News"
-			],
-			"titles": [
-				"GLP-1s must now include warning for potential increased risk of vision loss, FDA announces",
-				"GLP-1 drugs, popular for weight loss, get FDA warning of rare vision-loss side effect",
-				"FDA orders new warning on GLP-1s over rare eye condition linked to sudden blindness"
-			],
-			"entityFirstSeenAt": "2026-11-10T01:48:34.517Z",
-			"entityLastCandidateAt": "2026-11-10T00:44:40.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-10T01:48:34.517Z",
-					"label": "warning + rare",
-					"latestAt": "2026-11-10T00:44:40.000Z",
-					"itemCount": 3,
-					"sourceCount": 2,
-					"headlines": [
-						"GLP-1s must now include warning for potential increased risk of vision loss, FDA announces",
-						"GLP-1 drugs, popular for weight loss, get FDA warning of rare vision-loss side effect",
-						"FDA orders new warning on GLP-1s over rare eye condition linked to sudden blindness"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-warning + rare|2026-11-10T00:44:40.000Z|3|GLP-1s must now include warning for potential increased risk of vision loss, FDA announces"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T07:04:00.708Z"
-		},
-		"cluster-usa-amid-emissions-amid-emissions": {
-			"candidateId": "cluster-usa-amid + emissions",
-			"label": "amid + emissions",
-			"latestAt": "2026-11-10T01:00:05.000Z",
-			"startedAt": "2026-11-10T01:00:00.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"amid",
-				"emissions"
-			],
-			"sources": [
-				"Phys.org",
-				"Science News"
-			],
-			"titles": [
-				"Fossil CO₂ emissions projected to decrease in 2026 amid clean energy growth and Iran conflict",
-				"Fossil fuel emissions are down in 2026. Green energy isn’t the reason"
-			],
-			"entityFirstSeenAt": "2026-11-10T01:48:34.517Z",
-			"entityLastCandidateAt": "2026-11-10T01:00:05.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-10T01:48:34.517Z",
-					"label": "amid + emissions",
-					"latestAt": "2026-11-10T01:00:05.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Fossil CO₂ emissions projected to decrease in 2026 amid clean energy growth and Iran conflict",
-						"Fossil fuel emissions are down in 2026. Green energy isn’t the reason"
-					],
-					"sources": [
-						"Phys.org",
-						"Science News"
-					],
-					"eventId": "cluster-usa-amid + emissions|2026-11-10T01:00:05.000Z|2|Fossil CO₂ emissions projected to decrease in 2026 amid clean energy growth and Iran conflict"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T01:55:22.461Z"
-		},
 		"cluster-usa-hegseth-impeachment-hegseth-impeachment": {
 			"candidateId": "cluster-usa-hegseth + impeachment",
 			"label": "hegseth + impeachment",
@@ -2309,48 +2079,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-11T11:59:10.929Z"
-		},
-		"cluster-usa-fire-state-fire-state": {
-			"candidateId": "cluster-usa-fire + state",
-			"label": "fire + state",
-			"latestAt": "2026-11-10T00:41:52.000Z",
-			"startedAt": "2026-11-09T18:07:12.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"fire",
-				"state"
-			],
-			"sources": [
-				"CBS News",
-				"NBC News"
-			],
-			"titles": [
-				"Ohio State frat suspended after video shows 2 students with sweatpants on fire",
-				"Ohio State University investigating fraternity after video appears to show two people on fire"
-			],
-			"entityFirstSeenAt": "2026-11-10T01:55:22.461Z",
-			"entityLastCandidateAt": "2026-11-10T00:41:52.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-10T01:55:22.461Z",
-					"label": "fire + state",
-					"latestAt": "2026-11-10T00:41:52.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Ohio State frat suspended after video shows 2 students with sweatpants on fire",
-						"Ohio State University investigating fraternity after video appears to show two people on fire"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-fire + state|2026-11-10T00:41:52.000Z|2|Ohio State frat suspended after video shows 2 students with sweatpants on fire"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T01:55:22.461Z"
 		},
 		"cluster-spain-huelga-cercanias-huelga-cercanias": {
 			"candidateId": "cluster-spain-huelga + cercanias",
@@ -2610,48 +2338,6 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-12T13:49:52.824Z"
-		},
-		"cluster-spain-pontificado-buenos-pontificado-buenos": {
-			"candidateId": "cluster-spain-pontificado + buenos",
-			"label": "pontificado + buenos",
-			"latestAt": "2026-11-10T00:02:57.000Z",
-			"startedAt": "2026-11-09T15:44:53.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"pontificado",
-				"buenos"
-			],
-			"sources": [
-				"El País",
-				"El Correo"
-			],
-			"titles": [
-				"León XIV celebra la misa más masiva de su pontificado con 2,5 millones de fieles en Buenos Aires",
-				"El Papa se da en Buenos Aires el mayor baño de masas de su pontificado"
-			],
-			"entityFirstSeenAt": "2026-11-10T06:40:19.930Z",
-			"entityLastCandidateAt": "2026-11-10T00:02:57.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-10T06:40:19.930Z",
-					"label": "pontificado + buenos",
-					"latestAt": "2026-11-10T00:02:57.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"León XIV celebra la misa más masiva de su pontificado con 2,5 millones de fieles en Buenos Aires",
-						"El Papa se da en Buenos Aires el mayor baño de masas de su pontificado"
-					],
-					"sources": [
-						"El País",
-						"El Correo"
-					],
-					"eventId": "cluster-spain-pontificado + buenos|2026-11-10T00:02:57.000Z|2|León XIV celebra la misa más masiva de su pontificado con 2,5 millones de fieles en Buenos Aires"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T07:03:34.270Z"
 		},
 		"cluster-usa-trump-jensen-trump-jensen": {
 			"candidateId": "cluster-usa-trump + jensen",
@@ -2937,90 +2623,6 @@
 						"NPR Politics"
 					],
 					"eventId": "cluster-usa-trump + then|2026-11-10T02:01:00.000Z|2|Trump said deportation policies may have been too tough, then he promoted Stephen Miller"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T07:04:00.708Z"
-		},
-		"cluster-usa-2026-amid-2026-amid": {
-			"candidateId": "cluster-usa-2026 + amid",
-			"label": "2026 + amid",
-			"latestAt": "2026-11-10T01:00:05.000Z",
-			"startedAt": "2026-11-10T01:00:00.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"2026",
-				"amid"
-			],
-			"sources": [
-				"Phys.org",
-				"Science News"
-			],
-			"titles": [
-				"Fossil CO₂ emissions projected to decrease in 2026 amid clean energy growth and Iran conflict",
-				"Fossil fuel emissions are down in 2026. Green energy isn’t the reason"
-			],
-			"entityFirstSeenAt": "2026-11-10T06:40:54.048Z",
-			"entityLastCandidateAt": "2026-11-10T01:00:05.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-10T06:40:54.048Z",
-					"label": "2026 + amid",
-					"latestAt": "2026-11-10T01:00:05.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Fossil CO₂ emissions projected to decrease in 2026 amid clean energy growth and Iran conflict",
-						"Fossil fuel emissions are down in 2026. Green energy isn’t the reason"
-					],
-					"sources": [
-						"Phys.org",
-						"Science News"
-					],
-					"eventId": "cluster-usa-2026 + amid|2026-11-10T01:00:05.000Z|2|Fossil CO₂ emissions projected to decrease in 2026 amid clean energy growth and Iran conflict"
-				}
-			],
-			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-10T07:04:00.708Z"
-		},
-		"cluster-usa-state-fire-state-fire": {
-			"candidateId": "cluster-usa-state + fire",
-			"label": "state + fire",
-			"latestAt": "2026-11-10T00:41:52.000Z",
-			"startedAt": "2026-11-09T18:07:12.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
-			"terms": [
-				"state",
-				"fire"
-			],
-			"sources": [
-				"CBS News",
-				"NBC News"
-			],
-			"titles": [
-				"Ohio State frat suspended after video shows 2 students with sweatpants on fire",
-				"Ohio State University investigating fraternity after video appears to show two people on fire"
-			],
-			"entityFirstSeenAt": "2026-11-10T06:40:54.048Z",
-			"entityLastCandidateAt": "2026-11-10T00:41:52.000Z",
-			"entityTimeline": [
-				{
-					"observedAt": "2026-11-10T06:40:54.048Z",
-					"label": "state + fire",
-					"latestAt": "2026-11-10T00:41:52.000Z",
-					"itemCount": 2,
-					"sourceCount": 2,
-					"headlines": [
-						"Ohio State frat suspended after video shows 2 students with sweatpants on fire",
-						"Ohio State University investigating fraternity after video appears to show two people on fire"
-					],
-					"sources": [
-						"CBS News",
-						"NBC News"
-					],
-					"eventId": "cluster-usa-state + fire|2026-11-10T00:41:52.000Z|2|Ohio State frat suspended after video shows 2 students with sweatpants on fire"
 				}
 			],
 			"entityState": "active",
@@ -17819,7 +17421,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+			"entityLastUpdatedAt": "2026-11-14T01:00:48.035Z"
 		},
 		"cluster-spain-cuerpo-renfe-cuerpo-renfe": {
 			"candidateId": "cluster-spain-cuerpo + renfe",
@@ -18168,23 +17770,43 @@
 			"label": "contra + crucero",
 			"latestAt": "2026-11-13T20:52:18.000Z",
 			"startedAt": "2026-11-13T20:04:51.000Z",
-			"itemCount": 2,
-			"sourceCount": 2,
+			"itemCount": 3,
+			"sourceCount": 3,
 			"terms": [
 				"contra",
 				"crucero"
 			],
 			"sources": [
 				"El Mundo",
+				"El Correo",
 				"El País"
 			],
 			"titles": [
 				"Vuelca un crucero con 129 personas a bordo tras el choque con un buque en Nueva Orleans",
+				"Un buque cisterna embiste y hunde un crucero con más de 130 personas en Nueva Orleans",
 				"Un buque choca contra un crucero con 129 personas a bordo en el río Misisipi a la altura de Nueva Orleans"
 			],
 			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
 			"entityLastCandidateAt": "2026-11-13T20:52:18.000Z",
 			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T01:00:48.035Z",
+					"label": "contra + crucero",
+					"latestAt": "2026-11-13T20:52:18.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Vuelca un crucero con 129 personas a bordo tras el choque con un buque en Nueva Orleans",
+						"Un buque cisterna embiste y hunde un crucero con más de 130 personas en Nueva Orleans",
+						"Un buque choca contra un crucero con 129 personas a bordo en el río Misisipi a la altura de Nueva Orleans"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo",
+						"El País"
+					],
+					"eventId": "cluster-spain-contra + crucero|2026-11-13T20:52:18.000Z|3|Vuelca un crucero con 129 personas a bordo tras el choque con un buque en Nueva Orleans"
+				},
 				{
 					"observedAt": "2026-11-13T21:00:47.961Z",
 					"label": "contra + crucero",
@@ -18203,7 +17825,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
+			"entityLastUpdatedAt": "2026-11-14T01:00:48.035Z"
 		},
 		"cluster-spain-millones-feijoo-millones-feijoo": {
 			"candidateId": "cluster-spain-millones + feijoo",
@@ -18465,6 +18087,69 @@
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-13T21:00:47.961Z"
 		},
+		"cluster-usa-brooklyn-building-brooklyn-building": {
+			"candidateId": "cluster-usa-brooklyn + building",
+			"label": "brooklyn + building",
+			"latestAt": "2026-11-13T22:08:24.000Z",
+			"startedAt": "2026-11-13T12:47:29.000Z",
+			"itemCount": 5,
+			"sourceCount": 2,
+			"terms": [
+				"brooklyn",
+				"building"
+			],
+			"sources": [
+				"The New York Times",
+				"PBS NewsHour"
+			],
+			"titles": [
+				"Inquiry Into Brooklyn Building Collapse Expands as Families Demand Answers",
+				"WATCH: Brooklyn community leaders, residents hold meeting on building collapse",
+				"How the Deadly Brooklyn Building Collapse Unfolded",
+				"Brooklyn D.A. Opens Criminal Inquiry Into Flatbush Building Collapse",
+				"Video From Inside Brooklyn Building That Collapsed Shows Walls Caving In"
+			],
+			"entityFirstSeenAt": "2026-11-13T21:00:47.961Z",
+			"entityLastCandidateAt": "2026-11-13T22:08:24.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "brooklyn + building",
+					"latestAt": "2026-11-13T22:08:24.000Z",
+					"itemCount": 5,
+					"sourceCount": 2,
+					"headlines": [
+						"Inquiry Into Brooklyn Building Collapse Expands as Families Demand Answers",
+						"WATCH: Brooklyn community leaders, residents hold meeting on building collapse",
+						"How the Deadly Brooklyn Building Collapse Unfolded"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour"
+					],
+					"eventId": "cluster-usa-brooklyn + building|2026-11-13T22:08:24.000Z|5|Inquiry Into Brooklyn Building Collapse Expands as Families Demand Answers"
+				},
+				{
+					"observedAt": "2026-11-13T21:00:47.961Z",
+					"label": "brooklyn + building",
+					"latestAt": "2026-11-13T20:44:20.000Z",
+					"itemCount": 5,
+					"sourceCount": 2,
+					"headlines": [
+						"WATCH: Brooklyn community leaders, residents hold meeting on building collapse",
+						"Inquiry Into Brooklyn Building Collapse Expands as Families Demand Answers",
+						"How the Deadly Brooklyn Building Collapse Unfolded"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-brooklyn + building|2026-11-13T20:44:20.000Z|5|WATCH: Brooklyn community leaders, residents hold meeting on building collapse"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+		},
 		"cluster-usa-case-alex-case-alex": {
 			"candidateId": "cluster-usa-case + alex",
 			"label": "case + alex",
@@ -18553,7 +18238,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+			"entityLastUpdatedAt": "2026-11-14T01:00:48.035Z"
 		},
 		"cluster-spain-seguridad-pais-seguridad-pais": {
 			"candidateId": "cluster-spain-seguridad + pais",
@@ -18740,6 +18425,89 @@
 						"El Correo"
 					],
 					"eventId": "cluster-spain-entre + sanchez|2026-11-13T17:39:32.000Z|2|Sánchez y Feijóo ya tienen fecha para su cara a cara: las cinco batallas que librarán ante las cámaras"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+		},
+		"cluster-usa-house-lauren-house-lauren": {
+			"candidateId": "cluster-usa-house + lauren",
+			"label": "house + lauren",
+			"latestAt": "2026-11-13T22:32:22.000Z",
+			"startedAt": "2026-11-13T20:15:00.000Z",
+			"itemCount": 4,
+			"sourceCount": 3,
+			"terms": [
+				"house",
+				"lauren"
+			],
+			"sources": [
+				"The New York Times",
+				"PBS NewsHour",
+				"CBS News"
+			],
+			"titles": [
+				"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
+				"Meet Eileen Laubacher, the Navy Veteran Who Beat Lauren Boebert",
+				"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher",
+				"Democrat Eileen Laubacher defeats incumbent Lauren Boebert in Colorado's 4th Congressional District"
+			],
+			"entityFirstSeenAt": "2026-11-13T22:00:48.358Z",
+			"entityLastCandidateAt": "2026-11-13T22:32:22.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T00:00:48.227Z",
+					"label": "house + lauren",
+					"latestAt": "2026-11-13T22:32:22.000Z",
+					"itemCount": 4,
+					"sourceCount": 3,
+					"headlines": [
+						"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
+						"Meet Eileen Laubacher, the Navy Veteran Who Beat Lauren Boebert",
+						"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-house + lauren|2026-11-13T22:32:22.000Z|4|Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher"
+				},
+				{
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "house + lauren",
+					"latestAt": "2026-11-13T22:32:22.000Z",
+					"itemCount": 5,
+					"sourceCount": 4,
+					"headlines": [
+						"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
+						"Meet Eileen Laubacher, the Navy Veteran Who Beat Lauren Boebert",
+						"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher"
+					],
+					"sources": [
+						"The New York Times",
+						"PBS NewsHour",
+						"NBC News Politics"
+					],
+					"eventId": "cluster-usa-house + lauren|2026-11-13T22:32:22.000Z|5|Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher"
+				},
+				{
+					"observedAt": "2026-11-13T22:00:48.358Z",
+					"label": "house + lauren",
+					"latestAt": "2026-11-13T21:32:51.000Z",
+					"itemCount": 6,
+					"sourceCount": 4,
+					"headlines": [
+						"GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher",
+						"Republican Rep. Lauren Boebert will lose re-election, NBC News projects",
+						"Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"NBC News Politics",
+						"The New York Times"
+					],
+					"eventId": "cluster-usa-house + lauren|2026-11-13T21:32:51.000Z|6|GOP Rep. Lauren Boebert of Colorado loses U.S. House seat to Democrat Eileen Laubacher"
 				}
 			],
 			"entityState": "active",
@@ -18964,7 +18732,73 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-13T23:00:48.051Z"
+			"entityLastUpdatedAt": "2026-11-14T01:00:48.035Z"
+		},
+		"cluster-usa-democrats-senate-democrats-senate": {
+			"candidateId": "cluster-usa-democrats + senate",
+			"label": "democrats + senate",
+			"latestAt": "2026-11-13T23:40:11.000Z",
+			"startedAt": "2026-11-13T21:06:09.000Z",
+			"itemCount": 4,
+			"sourceCount": 4,
+			"terms": [
+				"democrats",
+				"senate"
+			],
+			"sources": [
+				"PBS NewsHour",
+				"NPR Politics",
+				"The New York Times Politics",
+				"NBC News Politics"
+			],
+			"titles": [
+				"Does Van Hollen have enough support to beat Schumer in Senate leadership race?",
+				"With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
+				"Democrats Vie for Support in Race for Top Senate Job",
+				"Newly elected Senate Democrats in the spotlight: From the Politics Desk"
+			],
+			"entityFirstSeenAt": "2026-11-13T23:00:48.051Z",
+			"entityLastCandidateAt": "2026-11-13T23:40:11.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T00:00:48.227Z",
+					"label": "democrats + senate",
+					"latestAt": "2026-11-13T23:40:11.000Z",
+					"itemCount": 4,
+					"sourceCount": 4,
+					"headlines": [
+						"Does Van Hollen have enough support to beat Schumer in Senate leadership race?",
+						"With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
+						"Democrats Vie for Support in Race for Top Senate Job"
+					],
+					"sources": [
+						"PBS NewsHour",
+						"NPR Politics",
+						"The New York Times Politics"
+					],
+					"eventId": "cluster-usa-democrats + senate|2026-11-13T23:40:11.000Z|4|Does Van Hollen have enough support to beat Schumer in Senate leadership race?"
+				},
+				{
+					"observedAt": "2026-11-13T23:00:48.051Z",
+					"label": "democrats + senate",
+					"latestAt": "2026-11-13T22:53:50.000Z",
+					"itemCount": 3,
+					"sourceCount": 3,
+					"headlines": [
+						"Democrats Vie for Support in Race for Top Senate Job",
+						"With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
+						"Van Hollen challenges Schumer for Senate majority leader"
+					],
+					"sources": [
+						"The New York Times Politics",
+						"NPR Politics",
+						"CBS News"
+					],
+					"eventId": "cluster-usa-democrats + senate|2026-11-13T22:53:50.000Z|3|Democrats Vie for Support in Race for Top Senate Job"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
 		},
 		"cluster-spain-campana-elecciones-campana-elecciones": {
 			"candidateId": "cluster-spain-campana + elecciones",
@@ -19006,7 +18840,7 @@
 				}
 			],
 			"entityState": "active",
-			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+			"entityLastUpdatedAt": "2026-11-14T01:00:48.035Z"
 		},
 		"cluster-spain-gobierno-pais-gobierno-pais": {
 			"candidateId": "cluster-spain-gobierno + pais",
@@ -19049,19 +18883,109 @@
 			],
 			"entityState": "active",
 			"entityLastUpdatedAt": "2026-11-14T00:00:48.227Z"
+		},
+		"cluster-spain-pais-vuelos-pais-vuelos": {
+			"candidateId": "cluster-spain-pais + vuelos",
+			"label": "pais + vuelos",
+			"latestAt": "2026-11-14T00:50:48.000Z",
+			"startedAt": "2026-11-13T21:37:53.000Z",
+			"itemCount": 5,
+			"sourceCount": 3,
+			"terms": [
+				"pais",
+				"vuelos"
+			],
+			"sources": [
+				"El País",
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"La suspensión de miles de vuelos colapsa los aeropuertos de Estados Unidos",
+				"Así se vació el cielo de Estados Unidos tras la suspensión de los vuelos",
+				"El caos aéreo en Estados Unidos, en imágenes: pasajeros varados y vuelos suspendidos en todo el país",
+				"Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
+				"EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»"
+			],
+			"entityFirstSeenAt": "2026-11-14T01:00:48.035Z",
+			"entityLastCandidateAt": "2026-11-14T00:50:48.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T01:00:48.035Z",
+					"label": "pais + vuelos",
+					"latestAt": "2026-11-14T00:50:48.000Z",
+					"itemCount": 5,
+					"sourceCount": 3,
+					"headlines": [
+						"La suspensión de miles de vuelos colapsa los aeropuertos de Estados Unidos",
+						"Así se vació el cielo de Estados Unidos tras la suspensión de los vuelos",
+						"El caos aéreo en Estados Unidos, en imágenes: pasajeros varados y vuelos suspendidos en todo el país"
+					],
+					"sources": [
+						"El País",
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-pais + vuelos|2026-11-14T00:50:48.000Z|5|La suspensión de miles de vuelos colapsa los aeropuertos de Estados Unidos"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-14T01:00:48.035Z"
+		},
+		"cluster-spain-trump-nvidia-trump-nvidia": {
+			"candidateId": "cluster-spain-trump + nvidia",
+			"label": "trump + nvidia",
+			"latestAt": "2026-11-14T00:04:48.000Z",
+			"startedAt": "2026-11-13T18:40:32.000Z",
+			"itemCount": 2,
+			"sourceCount": 2,
+			"terms": [
+				"trump",
+				"nvidia"
+			],
+			"sources": [
+				"El Mundo",
+				"El Correo"
+			],
+			"titles": [
+				"En busca del chivo: tensión en la administración Trump por la crisis de Nvidia y la exportación de chips",
+				"El escándalo de Nvidia abre una guerra interna en la Casa Blanca por la fuga de chips a China"
+			],
+			"entityFirstSeenAt": "2026-11-14T01:00:48.035Z",
+			"entityLastCandidateAt": "2026-11-14T00:04:48.000Z",
+			"entityTimeline": [
+				{
+					"observedAt": "2026-11-14T01:00:48.035Z",
+					"label": "trump + nvidia",
+					"latestAt": "2026-11-14T00:04:48.000Z",
+					"itemCount": 2,
+					"sourceCount": 2,
+					"headlines": [
+						"En busca del chivo: tensión en la administración Trump por la crisis de Nvidia y la exportación de chips",
+						"El escándalo de Nvidia abre una guerra interna en la Casa Blanca por la fuga de chips a China"
+					],
+					"sources": [
+						"El Mundo",
+						"El Correo"
+					],
+					"eventId": "cluster-spain-trump + nvidia|2026-11-14T00:04:48.000Z|2|En busca del chivo: tensión en la administración Trump por la crisis de Nvidia y la exportación de chips"
+				}
+			],
+			"entityState": "active",
+			"entityLastUpdatedAt": "2026-11-14T01:00:48.035Z"
 		}
 	},
 	"latestRun": {
-		"id": "local-us-2026-11-14T00:00:48.227Z",
+		"id": "local-us-2026-11-14T01:00:48.035Z",
 		"profile": "us",
 		"status": "disabled",
-		"startedAt": "2026-11-14T00:00:48.227Z",
-		"finishedAt": "2026-11-14T00:04:47.329Z",
-		"signalsCandidate": 7,
-		"signalsSelected": 7,
+		"startedAt": "2026-11-14T01:00:48.035Z",
+		"finishedAt": "2026-11-14T01:04:42.422Z",
+		"signalsCandidate": 8,
+		"signalsSelected": 8,
 		"signalsProcessed": 0,
-		"cacheHits": 6,
-		"skippedByConfig": 7,
+		"cacheHits": 5,
+		"skippedByConfig": 8,
 		"skippedByBudget": 0,
 		"failures": 0,
 		"errors": [],
@@ -19071,11 +18995,11 @@
 			"outputTokens": 0,
 			"tokenUnits": 0,
 			"costUsd": 0,
-			"cacheHits": 6,
+			"cacheHits": 5,
 			"skippedByBudget": 0,
 			"failures": 0,
-			"retained": 351,
-			"retainedByTtl": 344,
+			"retained": 348,
+			"retainedByTtl": 340,
 			"retiredByTtl": 0
 		},
 		"costUsd": 0
