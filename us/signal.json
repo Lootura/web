@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-14T14:00:50.399Z",
+  "updatedAt": "2026-11-14T15:00:47.985Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "232,175 links analyzed",
-  "dayScanLabel": "6,054 links scanned in 24h",
+  "ambientPulseLabel": "232,775 links analyzed",
+  "dayScanLabel": "6,049 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -25,10 +25,10 @@
     "mode": "moving",
     "state": "active",
     "stateLabel": "Active",
-    "strength": 21,
+    "strength": 20,
     "sourceCount": 5,
     "itemCount": 7,
-    "freshness": "7h fresh",
+    "freshness": "8h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -100,10 +100,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 21,
+      "strength": 20,
       "sourceCount": 5,
       "itemCount": 7,
-      "freshness": "7h fresh",
+      "freshness": "8h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -166,21 +166,78 @@
       "path": "/us/entity/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground/"
     },
     {
-      "id": "moving-cluster-united states-democrat + jonathan",
+      "id": "now-cluster-united states-found + illinois",
+      "title": "Bomb found at industrial plant in Peoria, Illinois; rendered safe by police",
+      "brief": "Bomb found at industrial plant in Peoria, Illinois; rendered safe by police.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The Guardian US",
+        "CBS News",
+        "NBC News"
+      ],
+      "images": [
+        "https://i.guim.co.uk/img/media/c959bae56a786ff95913cb67d9c97a8fced81672/437_0_4680_3744/master/4680.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e1c40f6f48243a838eed2adaf11bb471",
+        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/04/05/ce63ce86-629b-47d3-b7ab-c50fbc350695/thumbnail/1200x630/fa11a748cd7cd653a3b0f1fad0ac98f6/cbsatlanta-toddler-shot-killed-atlanta-1.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261114-police-nd-1debcf.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Bomb found at Illinois ethanol plant, prompting evacuations",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-14T14:13:49.000Z",
+          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/c959bae56a786ff95913cb67d9c97a8fced81672/437_0_4680_3744/master/4680.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e1c40f6f48243a838eed2adaf11bb471"
+        },
+        {
+          "title": "Bomb found at industrial plant in Peoria, Illinois; rendered safe by police",
+          "source": "CBS News",
+          "publishedAt": "2026-11-14T12:52:26.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/peoria-illinois-bomb-threat-evacuation/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/04/05/ce63ce86-629b-47d3-b7ab-c50fbc350695/thumbnail/1200x630/fa11a748cd7cd653a3b0f1fad0ac98f6/cbsatlanta-toddler-shot-killed-atlanta-1.jpg"
+        },
+        {
+          "title": "Device deemed ‘credible threat’ triggers evacuation around ethanol plant in Peoria, Illinois",
+          "source": "NBC News",
+          "publishedAt": "2026-11-14T10:25:02.197Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/evacuation-order-ethanol-plant-peoria-illinois-suspicious-device-rcna609287?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261114-police-nd-1debcf.jpg"
+        }
+      ],
+      "path": "/us/entity/bomb-found-at-industrial-plant-in-peoria-illinois-rendered-safe-by-police/"
+    },
+    {
+      "id": "now-cluster-united states-democrat + jonathan",
       "title": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
       "brief": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 17,
+      "strength": 16,
       "sourceCount": 4,
       "itemCount": 4,
-      "freshness": "7h fresh",
+      "freshness": "8h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 95,
+      "alertScore": 85,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -232,62 +289,6 @@
       "path": "/us/entity/democrat-jonathan-kreiss-tomkins-wins-race-for-alaska-governor-replaces-a-republ/"
     },
     {
-      "id": "now-cluster-united states-microsoft + outage",
-      "title": "Microsoft says services fully restored after global outage hits governments",
-      "brief": "Microsoft says services fully restored after global outage hits governments.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 22,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "2h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 92,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The Guardian US",
-        "CBS News",
-        "The New York Times"
-      ],
-      "images": [
-        "https://i.guim.co.uk/img/media/6e00c0e827484eda171fc2f542c59ea59f98fec9/397_0_4924_3939/master/4924.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=626aaab5d918cc8e4aa6f74a887744f0",
-        "https://static01.nyt.com/images/2026/11/12/multimedia/12xp-outlook-wtfb/12xp-outlook-wtfb-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Microsoft says services fully restored after global outage hits governments",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-14T11:54:31.000Z",
-          "sourceUrl": "https://www.theguardian.com/technology/2026/nov/14/microsoft-says-services-fully-restored-after-global-outage?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/6e00c0e827484eda171fc2f542c59ea59f98fec9/397_0_4924_3939/master/4924.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=626aaab5d918cc8e4aa6f74a887744f0"
-        },
-        {
-          "title": "Microsoft says it \"restored service\" after major worldwide outage",
-          "source": "CBS News",
-          "publishedAt": "2026-11-14T07:32:05.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/microsoft-battling-major-outage/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Microsoft Says Outage Disrupting Outlook Is Improving",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-13T15:30:08.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/12/business/microsoft-outlook-down-outage-email.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12xp-outlook-wtfb/12xp-outlook-wtfb-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/microsoft-says-services-fully-restored-after-global-outage-hits-governments/"
-    },
-    {
       "id": "now-cluster-united states-alaska + voting",
       "title": "Alaska voters aren't ditching ranked choice voting, top-four primaries",
       "brief": "Alaska voters aren't ditching ranked choice voting, top-four primaries.",
@@ -299,7 +300,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -335,115 +336,21 @@
       "path": "/us/entity/alaska-voters-aren-t-ditching-ranked-choice-voting-top-four-primaries/"
     },
     {
-      "id": "now-cluster-united states-trump + democrats",
-      "title": "Democrats see mandate from voters to lower costs, but still figuring out how to deal with Trump factor",
-      "brief": "Democrats see mandate from voters to lower costs, but still figuring out how to deal with Trump factor.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "1h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News Politics",
-        "CBS News"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261027-trump-ch-1449-bf0636.jpg",
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/14/2e0295ff-8257-4333-a7c8-5d1900a88c4c/thumbnail/1200x630/2323fc0b5574be85ce64311fd1a7c597/gettyimages-2304285469.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Democrats say Trump family businesses top upcoming investigations",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-14T13:00:00.000Z",
-          "sourceUrl": "https://www.nbcnews.com/politics/white-house/democrats-say-trump-family-businesses-top-upcoming-investigations-rcna605987?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261027-trump-ch-1449-bf0636.jpg"
-        },
-        {
-          "title": "Democrats see mandate from voters to lower costs, but still figuring out how to deal with Trump factor",
-          "source": "CBS News",
-          "publishedAt": "2026-11-14T00:43:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/democrats-post-election-voters-economy-trump-factor/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/14/2e0295ff-8257-4333-a7c8-5d1900a88c4c/thumbnail/1200x630/2323fc0b5574be85ce64311fd1a7c597/gettyimages-2304285469.jpg"
-        }
-      ],
-      "path": "/us/entity/democrats-see-mandate-from-voters-to-lower-costs-but-still-figuring-out-how-to-d/"
-    },
-    {
-      "id": "now-cluster-united states-found + plant",
-      "title": "Bomb found at industrial plant in Peoria, Illinois; rendered safe by police",
-      "brief": "Bomb found at industrial plant in Peoria, Illinois; rendered safe by police.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "1h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "NBC News"
-      ],
-      "images": [
-        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/04/05/ce63ce86-629b-47d3-b7ab-c50fbc350695/thumbnail/1200x630/fa11a748cd7cd653a3b0f1fad0ac98f6/cbsatlanta-toddler-shot-killed-atlanta-1.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261114-police-nd-1debcf.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Bomb found at industrial plant in Peoria, Illinois; rendered safe by police",
-          "source": "CBS News",
-          "publishedAt": "2026-11-14T12:52:26.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/peoria-illinois-bomb-threat-evacuation/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/04/05/ce63ce86-629b-47d3-b7ab-c50fbc350695/thumbnail/1200x630/fa11a748cd7cd653a3b0f1fad0ac98f6/cbsatlanta-toddler-shot-killed-atlanta-1.jpg"
-        },
-        {
-          "title": "Device deemed ‘credible threat’ triggers evacuation around ethanol plant in Peoria, Illinois",
-          "source": "NBC News",
-          "publishedAt": "2026-11-14T10:25:02.197Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/evacuation-order-ethanol-plant-peoria-illinois-suspicious-device-rcna609287?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261114-police-nd-1debcf.jpg"
-        }
-      ],
-      "path": "/us/entity/bomb-found-at-industrial-plant-in-peoria-illinois-rendered-safe-by-police/"
-    },
-    {
-      "id": "moving-cluster-united states-trump + meet",
+      "id": "now-cluster-united states-trump + meet",
       "title": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say",
       "brief": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Active",
       "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 70,
+      "alertScore": 60,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
