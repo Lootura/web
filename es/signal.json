@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-14T22:00:48.199Z",
+  "updatedAt": "2026-11-14T23:00:48.137Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "217.528 enlaces analizados",
-  "dayScanLabel": "4.171 enlaces escaneados en 24h",
+  "ambientPulseLabel": "217.948 enlaces analizados",
+  "dayScanLabel": "4.175 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,21 +19,21 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-euskal + selekzioa",
-      "title": "La fiesta de la Euskal Selekzioa termina con victoria ante Venezuela (1-0)",
-      "brief": "La fiesta de la Euskal Selekzioa termina con victoria ante Venezuela (1-0).",
+      "id": "now-cluster-españa-portugal + cristiano",
+      "title": "Dinamarca golea a Portugal en el arranque de la era post Cristiano Ronaldo",
+      "brief": "Dinamarca golea a Portugal en el arranque de la era post Cristiano Ronaldo.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 24,
+      "strength": 23,
       "sourceCount": 3,
-      "itemCount": 4,
+      "itemCount": 3,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 96,
+      "alertScore": 92,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -41,24 +41,71 @@
       ],
       "isHotNews": false,
       "sources": [
-        "Cadena SER",
+        "La Vanguardia",
+        "El Mundo",
+        "El Correo"
+      ],
+      "images": [
+        "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/14/6af8db5558722.r_d.1474-946-0.jpeg",
+        "https://e01-phantom-elmundo.uecdn.es/2caa9c023e3a52c0e358d0acc463972d/crop/0x0/3072x2048/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/14/17946911528627.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Dinamarca golea a Portugal en el arranque de la era post Cristiano Ronaldo",
+          "source": "La Vanguardia",
+          "publishedAt": "2026-11-14T22:13:50.000Z",
+          "sourceUrl": "https://www.lavanguardia.com/deportes/futbol/20261114/11684471/dinamarca-golea-portugal-arranque-post-cristiano-ronaldo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/14/6af8db5558722.r_d.1474-946-0.jpeg"
+        },
+        {
+          "title": "Dinamarca golea a Portugal en su primera noche de la era post Cristiano",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-14T21:41:25.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/14/6af8cd56fdddff8d3c8b4579.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/2caa9c023e3a52c0e358d0acc463972d/crop/0x0/3072x2048/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/14/17946911528627.jpg"
+        },
+        {
+          "title": "Portugal convierte el 7 de Cristiano en eterno",
+          "source": "El Correo",
+          "publishedAt": "2026-11-14T19:06:55.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/portugal-convierte-cristiano-eterno-20261114200640-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/dinamarca-golea-a-portugal-en-el-arranque-de-la-era-post-cristiano-ronaldo/"
+    },
+    {
+      "id": "now-cluster-españa-euskal + selekzioa",
+      "title": "Sigue en directo el minuto a minuto del Euskal Selekzioa",
+      "brief": "Sigue en directo el minuto a minuto del Euskal Selekzioa.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
         "El Correo",
         "El Diario Vasco"
       ],
       "images": [
-        "https://cadenaser.com/resizer/v2/T6T34WMZ35NBFPDIDR6SQILSMQ.jpg?auth=eb92890b697b5053def30faf26be467dd295fbf37e51ace17d11867555fc8e42&width=3700&height=2467&focal=2082%2C809",
         "https://s1.ppllstatics.com/elcorreo/www/multimedia/deportes/2026/11/14/euskadi-venezuela-057-Ryc8rrk4Vjbc0aiETBCR6CN-1200x840@El%20Correo.jpg",
         "https://s3.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/14/selekzioa-U2013996528878WC-U40341735106MUH-1200x840@Diario%20Vasco.jpg",
         "https://s1.ppllstatics.com/elcorreo/www/multimedia/deportes/2026/11/13/euskadi-venezuela-005-U301504699923lzD-U40335900694GAI-1200x840@El%20Correo.jpg"
       ],
       "evidence": [
-        {
-          "title": "La fiesta de la Euskal Selekzioa termina con victoria ante Venezuela (1-0)",
-          "source": "Cadena SER",
-          "publishedAt": "2026-11-14T21:54:34.000Z",
-          "sourceUrl": "https://cadenaser.com/euskadi/2026/11/14/la-fiesta-de-la-euskal-selekzioa-termina-con-victoria-ante-venezuela-1-0-radio-bilbao/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://cadenaser.com/resizer/v2/T6T34WMZ35NBFPDIDR6SQILSMQ.jpg?auth=eb92890b697b5053def30faf26be467dd295fbf37e51ace17d11867555fc8e42&width=3700&height=2467&focal=2082%2C809"
-        },
         {
           "title": "Euskal Selekzioa vive una nueva fiesta ante Venezuela",
           "source": "El Correo",
@@ -81,68 +128,12 @@
           "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/deportes/2026/11/13/euskadi-venezuela-005-U301504699923lzD-U40335900694GAI-1200x840@El%20Correo.jpg"
         }
       ],
-      "path": "/es/entity/la-fiesta-de-la-euskal-selekzioa-termina-con-victoria-ante-venezuela-1-0/"
+      "path": "/es/entity/sigue-en-directo-el-minuto-a-minuto-del-euskal-selekzioa/"
     },
     {
-      "id": "now-cluster-españa-contra + cristiano",
-      "title": "Cristiano, homenajeado en el minuto 7 del partido de Portugal contra Dinamarca",
-      "brief": "Cristiano, homenajeado en el minuto 7 del partido de Portugal contra Dinamarca.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 92,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Debate",
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://www.eldebate.com/files/article_social/uploads/2026/11/14/6af8d5deaf454.jpeg",
-        "https://e01-phantom-elmundo.uecdn.es/2caa9c023e3a52c0e358d0acc463972d/crop/0x0/3072x2048/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/14/17946911528627.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Cristiano, homenajeado en el minuto 7 del partido de Portugal contra Dinamarca",
-          "source": "El Debate",
-          "publishedAt": "2026-11-14T21:45:30.000Z",
-          "sourceUrl": "https://www.eldebate.com/deportes/futbol/20261114/cristiano-homenajeado-minuto-7-partido-portugal-contra-dinamarca_480990.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://www.eldebate.com/files/article_social/uploads/2026/11/14/6af8d5deaf454.jpeg"
-        },
-        {
-          "title": "Dinamarca golea a Portugal en su primera noche de la era post Cristiano",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-14T21:41:25.000Z",
-          "sourceUrl": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/14/6af8cd56fdddff8d3c8b4579.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/2caa9c023e3a52c0e358d0acc463972d/crop/0x0/3072x2048/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/14/17946911528627.jpg"
-        },
-        {
-          "title": "Portugal convierte el 7 de Cristiano en eterno",
-          "source": "El Correo",
-          "publishedAt": "2026-11-14T19:06:55.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/portugal-convierte-cristiano-eterno-20261114200640-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/cristiano-homenajeado-en-el-minuto-7-del-partido-de-portugal-contra-dinamarca/"
-    },
-    {
-      "id": "now-cluster-españa-detenido + herir",
-      "title": "Un detenido por herir de dos disparos a un policía local en Palma de Mallorca",
-      "brief": "Un detenido por herir de dos disparos a un policía local en Palma de Mallorca.",
+      "id": "now-cluster-españa-real + union",
+      "title": "Un solitario tanto de Aitor Galarza devuelve la sonrisa al Real Unión en el Stadium Gal",
+      "brief": "Un solitario tanto de Aitor Galarza devuelve la sonrisa al Real Unión en el Stadium Gal.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -161,66 +152,64 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The Objective",
-        "20minutos"
+        "Cadena SER",
+        "El Diario Vasco"
       ],
       "images": [
-        "https://theobjective.com/wp-content/uploads/2026/11/policia-local-palma-lee-gratis.jpg",
-        "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/06/21/6a37ca5893c2c2-68274627.jpeg"
+        "https://cadenaser.com/resizer/v2/FOCDS3UAUFEQRKTTMGNPVNMOWE.jpeg?auth=2758d3c70f3c5b3bf5739a09254a6b80b2a8f2f8a81b019b4c5cb94ed065a4eb&width=2048&height=1536&smart=true",
+        "https://s3.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/14/unioinculut-RvWEF036dTbT2b8jnVLkJJN-1200x840@Diario%20Vasco.jpg"
       ],
       "evidence": [
         {
-          "title": "Un detenido por herir de dos disparos a un policía local en Palma de Mallorca",
-          "source": "The Objective",
-          "publishedAt": "2026-11-14T21:26:17.000Z",
-          "sourceUrl": "https://theobjective.com/sociedad/suceso/2026-11-14/detenido-disparos-policia-local-palma/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://theobjective.com/wp-content/uploads/2026/11/policia-local-palma-lee-gratis.jpg"
+          "title": "La Cultural cae contra el Real Unión y se asoma al abismo (1-0)",
+          "source": "Cadena SER",
+          "publishedAt": "2026-11-14T22:25:13.000Z",
+          "sourceUrl": "https://cadenaser.com/castillayleon/2026/11/14/la-cultural-cae-contra-el-real-union-y-se-asoma-al-abismo-1-0-radio-leon/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://cadenaser.com/resizer/v2/FOCDS3UAUFEQRKTTMGNPVNMOWE.jpeg?auth=2758d3c70f3c5b3bf5739a09254a6b80b2a8f2f8a81b019b4c5cb94ed065a4eb&width=2048&height=1536&smart=true"
         },
         {
-          "title": "Un detenido tras herir de dos disparos a un policía local en Palma de Mallorca",
-          "source": "20minutos",
-          "publishedAt": "2026-11-14T21:21:08.000Z",
-          "sourceUrl": "https://www.20minutos.es/canarias/las-palmas/detenido-herir-disparos-policia-local-palma-mallorca_7061202_0.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/06/21/6a37ca5893c2c2-68274627.jpeg"
+          "title": "Un solitario tanto de Aitor Galarza devuelve la sonrisa al Real Unión en el Stadium Gal",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-14T18:45:55.000Z",
+          "sourceUrl": "https://www.diariovasco.com/deportes/futbol/primera-rfef/solitario-aitor-galarza-devuelve-sonrisa-real-union-20261114194530-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/14/unioinculut-RvWEF036dTbT2b8jnVLkJJN-1200x840@Diario%20Vasco.jpg"
         }
       ],
-      "path": "/es/entity/un-detenido-por-herir-de-dos-disparos-a-un-policia-local-en-palma-de-mallorca/"
+      "path": "/es/entity/un-solitario-tanto-de-aitor-galarza-devuelve-la-sonrisa-al-real-union-en-el-stad/"
     },
     {
-      "id": "now-cluster-españa-contra + sanchez",
-      "title": "Abascal carga contra Sánchez: «El líder de la mafia lo tiene cada vez más difícil, pero tiene otras herramientas»",
-      "brief": "Abascal carga contra Sánchez: «El líder de la mafia lo tiene cada vez más difícil, pero tiene otras herramientas».",
+      "id": "now-cluster-españa-sanchez + abascal",
+      "title": "Sánchez llama a una movilización masiva y pide a los «europeístas» frenar a PP y Vox",
+      "brief": "Sánchez llama a una movilización masiva y pide a los «europeístas» frenar a PP y Vox.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "El Debate",
+        "El Correo",
         "El País"
       ],
-      "images": [
-        "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/14/6af8d01c60a1b.r_d.1355-475-0.jpeg"
-      ],
+      "images": [],
       "evidence": [
         {
-          "title": "Abascal carga contra Sánchez: «El líder de la mafia lo tiene cada vez más difícil, pero tiene otras herramientas»",
-          "source": "El Debate",
-          "publishedAt": "2026-11-14T21:23:44.000Z",
-          "sourceUrl": "https://www.eldebate.com/espana/20261114/abascal-carga-contra-sanchez-lider-mafia-tiene-cada-vez-dificil-tiene-otras-herramientas_480988.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/14/6af8d01c60a1b.r_d.1355-475-0.jpeg"
+          "title": "Sánchez llama a una movilización masiva y pide a los «europeístas» frenar a PP y Vox",
+          "source": "El Correo",
+          "publishedAt": "2026-11-14T19:06:24.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/sanchez-llama-movilizacion-masiva-pide-europeistas-frenar-20261114172226-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
           "title": "Sánchez pide “el voto europeísta” para frenar a Abascal",
@@ -230,10 +219,10 @@
           "image": ""
         }
       ],
-      "path": "/es/entity/abascal-carga-contra-sanchez-el-lider-de-la-mafia-lo-tiene-cada-vez-mas-dificil/"
+      "path": "/es/entity/sanchez-llama-a-una-movilizacion-masiva-y-pide-a-los-europeistas-frenar-a-pp-y-v/"
     },
     {
-      "id": "moving-cluster-españa-sigue + gijon",
+      "id": "moving-cluster-españa-real + sigue",
       "title": "«No desmayes, sigue luchando», se repetía la joven asesinada en Gijón pese a su «vida complicada»",
       "brief": "«No desmayes, sigue luchando», se repetía la joven asesinada en Gijón pese a su «vida complicada».",
       "whyItMatters": "",
@@ -244,7 +233,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -279,53 +268,6 @@
       "path": "/es/entity/no-desmayes-sigue-luchando-se-repetia-la-joven-asesinada-en-gijon-pese-a-su-vida/"
     },
     {
-      "id": "moving-cluster-españa-cine + europeo",
-      "title": "‘La bola negra’, de los Javis, se coloca como una de las favoritas a los Premios del Cine Europeo con 10 nominaciones",
-      "brief": "‘La bola negra’, de los Javis, se coloca como una de las favoritas a los Premios del Cine Europeo con 10 nominaciones.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El País"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/14/17946765322798.jpg",
-        "https://imagenes.elpais.com/resizer/v2/RVBSLUBDNZBS5MDPJ5ZPTF6HQA.jpg?auth=d26a835d1711b8105e7d0d6a5e62fa32721adeded14c58f76dd8276f0971efef"
-      ],
-      "evidence": [
-        {
-          "title": "La cinta rumana de Florin Serban 'You Don't Belong Here', Giraldillo de Oro del Festival de Cine Europeo de Sevilla",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-14T17:18:12.000Z",
-          "sourceUrl": "https://www.elmundo.es/cultura/cine/2026/11/14/6af8970ce85ece4a088b45a6.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/14/17946765322798.jpg"
-        },
-        {
-          "title": "‘La bola negra’, de los Javis, se coloca como una de las favoritas a los Premios del Cine Europeo con 10 nominaciones",
-          "source": "El País",
-          "publishedAt": "2026-11-14T12:04:33.000Z",
-          "sourceUrl": "https://elpais.com/cultura/cine/2026-11-14/la-bola-negra-de-los-javis-se-coloca-como-una-de-las-favoritas-a-los-premios-del-cine-europeo-con-10-nominaciones.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/RVBSLUBDNZBS5MDPJ5ZPTF6HQA.jpg?auth=d26a835d1711b8105e7d0d6a5e62fa32721adeded14c58f76dd8276f0971efef"
-        }
-      ],
-      "path": "/es/entity/la-bola-negra-de-los-javis-se-coloca-como-una-de-las-favoritas-a-los-premios-del/"
-    },
-    {
       "id": "moving-cluster-españa-contra + petardos",
       "title": "Lanzan petardos, huevos y piedras contra Jon Echeverría, candidato del PP en Gipuzkoa, en un acto electoral en Hernani",
       "brief": "Lanzan petardos, huevos y piedras contra Jon Echeverría, candidato del PP en Gipuzkoa, en un acto electoral en Hernani.",
@@ -334,10 +276,10 @@
       "mode": "moving",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 7,
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "8h fresca",
+      "freshness": "9h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 67,
@@ -389,10 +331,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 7,
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresca",
+      "freshness": "8h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -428,23 +370,24 @@
       "path": "/es/entity/zelenski-asegura-que-ee-uu-sugiere-admitir-a-ucrania-en-la-otan-a-cambio-de-entr/"
     },
     {
-      "id": "fading-cluster-españa-cuatro + aereo",
+      "id": "moving-cluster-españa-aereo + cancelar",
       "title": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos",
       "brief": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos.",
       "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
       "state": "cooling",
       "stateLabel": "Bajando",
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "11h fresca",
+      "freshness": "12h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 46,
+      "alertScore": 64,
       "alertTriggers": [
-        "Cruza varias fuentes"
+        "Cruza varias fuentes",
+        "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
