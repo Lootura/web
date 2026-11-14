@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-14T01:00:48.035Z",
-  "pulseLabel": "Último análisis · hace 10 horas",
-  "ambientPulseLabel": "212.520 enlaces analizados",
-  "dayScanLabel": "4.204 enlaces escaneados en 24h",
+  "updatedAt": "2026-11-14T11:21:25.242Z",
+  "pulseLabel": "Último análisis · este minuto",
+  "ambientPulseLabel": "212.943 enlaces analizados",
+  "dayScanLabel": "4.205 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,54 +19,127 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "moving-cluster-españa-jesus + owono",
-      "title": "El donostiarra Jesús Owono es sancionado con doce partidos por la acción que causó la muerte de Jesús de Miguel",
-      "brief": "El donostiarra Jesús Owono es sancionado con doce partidos por la acción que causó la muerte de Jesús de Miguel.",
+      "id": "now-cluster-españa-pedro + sanchez",
+      "title": "Un vídeo con IA para ridiculizar el apoyo del PNV a Pedro Sánchez",
+      "brief": "Un vídeo con IA para ridiculizar el apoyo del PNV a Pedro Sánchez.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 19,
-      "sourceCount": 4,
-      "itemCount": 4,
-      "freshness": "4h fresca",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 99,
+      "alertScore": 76,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "El País",
-        "El Mundo",
+        "The Objective",
+        "El Correo"
+      ],
+      "images": [
+        "https://theobjective.com/wp-content/uploads/2026/11/pedro-sa-nchez-1411.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "EN DIRECTO | Pedro Sánchez realiza un acto de campaña en Palma",
+          "source": "The Objective",
+          "publishedAt": "2026-11-14T11:09:30.000Z",
+          "sourceUrl": "https://theobjective.com/videos/espana/2026-11-14/pedro-sanchez-realiza-tercer-acto-campana-palma/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://theobjective.com/wp-content/uploads/2026/11/pedro-sa-nchez-1411.jpg"
+        },
+        {
+          "title": "Un vídeo con IA para ridiculizar el apoyo del PNV a Pedro Sánchez",
+          "source": "El Correo",
+          "publishedAt": "2026-11-13T19:11:25.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/video-ia-ridiculizarel-apoyo-pnv-pedro-sanchez-20261113200759-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/un-video-con-ia-para-ridiculizar-el-apoyo-del-pnv-a-pedro-sanchez/"
+    },
+    {
+      "id": "now-cluster-españa-dani + alves",
+      "title": "Dani Alves y Joana Sanz se separan tras nueve años de matrimonio por la creciente fe del exfutbolista",
+      "brief": "Dani Alves y Joana Sanz se separan tras nueve años de matrimonio por la creciente fe del exfutbolista.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://s2.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/14/joana-sanz-kIT-U40349156497WAB-1200x840@El%20Correo.jpg",
+        "https://imagenes.elpais.com/resizer/v2/OC2M65NIQ5EWXD5JMQPIBGL34U.jpg?auth=2078a0b08dbbb7c66c437a7dd22ab4d691b9aa851f9715fa8a3f48433bf8ca7e"
+      ],
+      "evidence": [
+        {
+          "title": "Dani Alves y Joana Sanz se separan: el sorprendente motivo de su ruptura",
+          "source": "El Correo",
+          "publishedAt": "2026-11-14T10:18:38.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/dani-alves-joana-sanz-separan-sorprendente-motivo-20261114111838-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/14/joana-sanz-kIT-U40349156497WAB-1200x840@El%20Correo.jpg"
+        },
+        {
+          "title": "Dani Alves y Joana Sanz se separan tras nueve años de matrimonio por la creciente fe del exfutbolista",
+          "source": "El País",
+          "publishedAt": "2026-11-14T09:57:13.000Z",
+          "sourceUrl": "https://elpais.com/gente/2026-11-14/dani-alves-y-joana-sanz-se-separan-tras-nueve-anos-de-matrimonio-por-la-creciente-fe-del-exfutbolista.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/OC2M65NIQ5EWXD5JMQPIBGL34U.jpg?auth=2078a0b08dbbb7c66c437a7dd22ab4d691b9aa851f9715fa8a3f48433bf8ca7e"
+        }
+      ],
+      "path": "/es/entity/dani-alves-y-joana-sanz-se-separan-tras-nueve-anos-de-matrimonio-por-la-crecient/"
+    },
+    {
+      "id": "now-cluster-españa-jesus + owono",
+      "title": "El donostiarra Jesús Owono es sancionado con doce partidos por la acción que causó la muerte de Jesús de Miguel",
+      "brief": "El donostiarra Jesús Owono es sancionado con doce partidos por la acción que causó la muerte de Jesús de Miguel.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "14h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 41,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
         "El Diario Vasco",
         "El Correo"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/5GIAEZWSN5FPTP32VUQCZ44YFM.jpg?auth=156788696a355109f29c52936f888d3cb2d3e5d9a39db287e6c1ab6e6728e866",
-        "https://e01-phantom-elmundo.uecdn.es/249195d1a2f1490e87218a0c15c01356/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17946032271339.jpg",
         "https://s1.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/13/1519813996-kpfH-U40345393775N0G-1200x840@Diario%20Vasco.jpg",
         "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/13/owono-RkoLbfXbtk8dst7sv1lyGQJ-1200x840@RC.jpg"
       ],
       "evidence": [
-        {
-          "title": "Competición sanciona con 12 partidos a Jesús Owono tras su expulsión ante el Tenerife",
-          "source": "El País",
-          "publishedAt": "2026-11-13T20:57:09.000Z",
-          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-13/competicion-sanciona-con-12-partidos-a-jesus-owono-tras-su-expulsion-ante-el-tenerife.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/5GIAEZWSN5FPTP32VUQCZ44YFM.jpg?auth=156788696a355109f29c52936f888d3cb2d3e5d9a39db287e6c1ab6e6728e866"
-        },
-        {
-          "title": "La Federación sanciona con 12 partidos a Owono por la acción que acabó con la muerte de Jesús de Miguel",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-13T20:54:19.000Z",
-          "sourceUrl": "https://www.elmundo.es/deportes/futbol/segunda-division/2026/11/13/6af778ee21efa0c94b8b45a5.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/249195d1a2f1490e87218a0c15c01356/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17946032271339.jpg"
-        },
         {
           "title": "El donostiarra Jesús Owono es sancionado con doce partidos por la acción que causó la muerte de Jesús de Miguel",
           "source": "El Diario Vasco",
@@ -85,278 +158,23 @@
       "path": "/es/entity/el-donostiarra-jesus-owono-es-sancionado-con-doce-partidos-por-la-accion-que-cau/"
     },
     {
-      "id": "now-cluster-españa-pais + vuelos",
-      "title": "El caos aéreo en Estados Unidos, en imágenes: pasajeros varados y vuelos suspendidos en todo el país",
-      "brief": "El caos aéreo en Estados Unidos, en imágenes: pasajeros varados y vuelos suspendidos en todo el país.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 22,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 92,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/RXBKU3KY2JMYTOSM2TGSS22R6I.jpg?auth=75cc413c18722656c18253d172ca1a176c21545355d60aa10f61c7de2811567b&width=1200",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17946060238566.jpg",
-        "https://s1.ppllstatics.com/rc/www/multimedia/2026/11/13/avion-usa-k6YG-U301159259815dWE-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El caos aéreo en Estados Unidos, en imágenes: pasajeros varados y vuelos suspendidos en todo el país",
-          "source": "El País",
-          "publishedAt": "2026-11-13T22:58:16.000Z",
-          "sourceUrl": "https://elpais.com/america/2026-11-13/el-caos-aereo-en-estados-unidos-en-imagenes-pasajeros-varados-y-vuelos-suspendidos-en-todo-el-pais.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/RXBKU3KY2JMYTOSM2TGSS22R6I.jpg?auth=75cc413c18722656c18253d172ca1a176c21545355d60aa10f61c7de2811567b&width=1200"
-        },
-        {
-          "title": "Estados Unidos ordena suspender los vuelos en todo el país por razones de seguridad",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-13T21:40:54.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/13/6af7806bfc6c83c8238b456e.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17946060238566.jpg"
-        },
-        {
-          "title": "EE.UU. paraliza todos los vuelos del país por «circunstancias extraordinarias» y «razones de seguridad»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-13T21:37:53.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/eeuu-paraliza-vuelos-pais-circunstancias-extraordinarias-razones-20261113223753-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/2026/11/13/avion-usa-k6YG-U301159259815dWE-1200x840@RC.jpg"
-        }
-      ],
-      "path": "/es/entity/el-caos-aereo-en-estados-unidos-en-imagenes-pasajeros-varados-y-vuelos-suspendid/"
-    },
-    {
-      "id": "moving-cluster-españa-contra + crucero",
-      "title": "Un buque choca contra un crucero con 129 personas a bordo en el río Misisipi a la altura de Nueva Orleans",
-      "brief": "Un buque choca contra un crucero con 129 personas a bordo en el río Misisipi a la altura de Nueva Orleans.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 16,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 86,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://e01-phantom-elmundo.uecdn.es/59f7140709c1326402a48f2bf6f8c97b/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17946031161269.jpg",
-        "https://s1.ppllstatics.com/rc/www/multimedia/internacional/2026/11/13/154010435-RhHZk5aqTpfetMsWhbE7MQM-1200x840@RC.jpg",
-        "https://imagenes.elpais.com/resizer/v2/JVEBAE2LXNA35EGIAIZA3D2OZE.jpg?auth=9c1aee27f12f0d7f753a1af4f2bba05159c0520c2f37b17dd34b60361b3fa87d"
-      ],
-      "evidence": [
-        {
-          "title": "Vuelca un crucero con 129 personas a bordo tras el choque con un buque en Nueva Orleans",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-13T20:52:18.000Z",
-          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/13/6af77764e4d4d8f7558b458d.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/59f7140709c1326402a48f2bf6f8c97b/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17946031161269.jpg"
-        },
-        {
-          "title": "Un buque cisterna embiste y hunde un crucero con más de 130 personas en Nueva Orleans",
-          "source": "El Correo",
-          "publishedAt": "2026-11-13T20:40:07.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/petrolero-choca-ferry-129-pasajeros-bordo-rio-20261113213749-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/internacional/2026/11/13/154010435-RhHZk5aqTpfetMsWhbE7MQM-1200x840@RC.jpg"
-        },
-        {
-          "title": "Un buque choca contra un crucero con 129 personas a bordo en el río Misisipi a la altura de Nueva Orleans",
-          "source": "El País",
-          "publishedAt": "2026-11-13T20:04:51.000Z",
-          "sourceUrl": "https://elpais.com/us/2026-11-13/un-buque-choca-contra-un-crucero-con-129-personas-a-bordo-en-el-rio-misisipi.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/JVEBAE2LXNA35EGIAIZA3D2OZE.jpg?auth=9c1aee27f12f0d7f753a1af4f2bba05159c0520c2f37b17dd34b60361b3fa87d"
-        }
-      ],
-      "path": "/es/entity/un-buque-choca-contra-un-crucero-con-129-personas-a-bordo-en-el-rio-misisipi-a-l/"
-    },
-    {
-      "id": "now-cluster-españa-trump + nvidia",
-      "title": "En busca del chivo: tensión en la administración Trump por la crisis de Nvidia y la exportación de chips",
-      "brief": "En busca del chivo: tensión en la administración Trump por la crisis de Nvidia y la exportación de chips.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945980247715.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "En busca del chivo: tensión en la administración Trump por la crisis de Nvidia y la exportación de chips",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-14T00:04:48.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/14/6af76498fdddffc5458b4575.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/13/17945980247715.jpg"
-        },
-        {
-          "title": "El escándalo de Nvidia abre una guerra interna en la Casa Blanca por la fuga de chips a China",
-          "source": "El Correo",
-          "publishedAt": "2026-11-13T18:40:32.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/escandalo-nvidia-abre-guerra-interna-casa-blanca-20261113193003-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/en-busca-del-chivo-tension-en-la-administracion-trump-por-la-crisis-de-nvidia-y/"
-    },
-    {
-      "id": "now-cluster-españa-campana + elecciones",
-      "title": "Abascal se apoya en Meloni, Le Pen, Milei y Bolsonaro en el arranque a unas elecciones \"existenciales\": \"Estamos levantando una bandera unitaria\"",
-      "brief": "Abascal se apoya en Meloni, Le Pen, Milei y Bolsonaro en el arranque a unas elecciones \"existenciales\": \"Estamos levantando una bandera unitaria\".",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/M36K2PNRFZO65EHCBJVLOGEQKA.jpg?auth=10b59b281bf8aed2e5ebb47b03ed3771d83753515d1a81234268122837609c64",
-        "https://e01-phantom-elmundo.uecdn.es/4f2fda49f6b5fc641d2388971c9776d7/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17946033642705.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Abascal exhibe el respaldo de la ultraderecha internacional en su arranque de campaña",
-          "source": "El País",
-          "publishedAt": "2026-11-13T22:36:53.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-13/abascal-advierte-a-sus-votantes-de-que-su-mayor-enemigo-es-el-exceso-de-confianza.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/M36K2PNRFZO65EHCBJVLOGEQKA.jpg?auth=10b59b281bf8aed2e5ebb47b03ed3771d83753515d1a81234268122837609c64"
-        },
-        {
-          "title": "Abascal se apoya en Meloni, Le Pen, Milei y Bolsonaro en el arranque a unas elecciones \"existenciales\": \"Estamos levantando una bandera unitaria\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-13T20:42:20.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af6e4befc6c838d7f8b45b6.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/4f2fda49f6b5fc641d2388971c9776d7/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/13/17946033642705.jpg"
-        }
-      ],
-      "path": "/es/entity/abascal-se-apoya-en-meloni-le-pen-milei-y-bolsonaro-en-el-arranque-a-unas-elecci/"
-    },
-    {
-      "id": "now-cluster-españa-pais + gobierno",
-      "title": "El Gobierno crea 15 nuevas plazas de jueces y 7 de fiscales en el País Vasco",
-      "brief": "El Gobierno crea 15 nuevas plazas de jueces y 7 de fiscales en el País Vasco.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 14,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/13/santurtzi-general--R7pkoCYWRQtJP3FdIAVDZLL-1200x840@El%20Correo.jpg",
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/13/1505396644-kFGG-U40336666749kl-1200x840@Diario%20Vasco.JPG"
-      ],
-      "evidence": [
-        {
-          "title": "El Gobierno vasco activa el proceso para declarar a Santurtzi zona tensionada",
-          "source": "El Correo",
-          "publishedAt": "2026-11-13T22:06:28.000Z",
-          "sourceUrl": "https://www.elcorreo.com/bizkaia/margen-izquierda/gobierno-vasco-activa-proceso-declarar-santurtzi-zona-20261113230628-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/13/santurtzi-general--R7pkoCYWRQtJP3FdIAVDZLL-1200x840@El%20Correo.jpg"
-        },
-        {
-          "title": "El Gobierno crea 15 nuevas plazas de jueces y 7 de fiscales en el País Vasco",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-13T13:58:09.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/gobierno-nuevas-plazas-jueces-fiscales-pais-vasco-20261113145750-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/13/1505396644-kFGG-U40336666749kl-1200x840@Diario%20Vasco.JPG"
-        }
-      ],
-      "path": "/es/entity/el-gobierno-crea-15-nuevas-plazas-de-jueces-y-7-de-fiscales-en-el-pais-vasco/"
-    },
-    {
-      "id": "moving-cluster-españa-euskal + selekzioa",
+      "id": "now-cluster-españa-euskal + selekzioa",
       "title": "Euskal Selekzioa almuerza en Zubieta y Venezuela utiliza Areitio",
       "brief": "Euskal Selekzioa almuerza en Zubieta y Venezuela utiliza Areitio.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 7,
+      "mode": "now",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "16h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 41,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
