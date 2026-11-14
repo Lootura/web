@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-14T16:00:48.248Z",
+  "updatedAt": "2026-11-14T17:00:48.404Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "215.024 enlaces analizados",
-  "dayScanLabel": "4.186 enlaces escaneados en 24h",
+  "ambientPulseLabel": "215.444 enlaces analizados",
+  "dayScanLabel": "4.183 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,6 +19,165 @@
   "topAlert": null,
   "signals": [
     {
+      "id": "moving-cluster-españa-cuatro + horas",
+      "title": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos",
+      "brief": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 15,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "6h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 86,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco",
+        "El Mundo"
+      ],
+      "images": [
+        "https://s2.ppllstatics.com/diariovasco/www/multimedia/internacional/2026/11/14/1520250057-kqtC-U403477701620EC-1200x840@Diario%20Vasco.JPG",
+        "https://e01-phantom-elmundo.uecdn.es/b57fa36969a3e646982499690e3bc236/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/14/17946419226001.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "EE UU empieza a recuperar el tráfico aéreo tras suspenderlo cuatro horas por seguridad y cancelar 8.200 vuelos",
+          "source": "El Correo",
+          "publishedAt": "2026-11-14T10:39:45.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/eeuu-paraliza-vuelos-pais-circunstancias-extraordinarias-razones-20261113223753-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Cuatro accidentes de camiones con un muerto cortan la autopista AP-7 en Tarragona y Barcelona que permanecerá cerrada unas 10 horas",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-14T07:39:12.000Z",
+          "sourceUrl": "https://www.elmundo.es/cataluna/2026/11/14/6af80f2afc6c83bc0f8b45a5.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/b57fa36969a3e646982499690e3bc236/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/14/17946419226001.jpg"
+        },
+        {
+          "title": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-14T06:11:14.000Z",
+          "sourceUrl": "https://www.diariovasco.com/internacional/eeuu/estados-unidos-reabre-espacio-aereo-vuelos-cancelados-fallo-telecomunicaciones-20261114071047-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/internacional/2026/11/14/1520250057-kqtC-U403477701620EC-1200x840@Diario%20Vasco.JPG"
+        }
+      ],
+      "path": "/es/entity/estados-unidos-reabre-su-espacio-aereo-tras-suspenderlo-mas-de-cuatro-horas-por/"
+    },
+    {
+      "id": "now-cluster-españa-politica + voto",
+      "title": "Campaña elecciones 29N y actualidad política, en directo | Sánchez pide “el voto de todos los que quieren más Europa” para frenar a Abascal",
+      "brief": "Campaña elecciones 29N y actualidad política, en directo | Sánchez pide “el voto de todos los que quieren más Europa” para frenar a Abascal.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "1h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/ENBVXWKHLBJ3RGONYM7IF3QNJ4.jpg?auth=cfd3f77b76c934018e38f74b4862c1694a891a14c3fb9fc8630e4c06a72aec0f",
+        "https://imagenes.elpais.com/resizer/v2/CWCHZ4MI5ZEMNIRJSVZQMA53PY.jpg?auth=668fe6d9df3a2fd1b6afc0f2e44966b9a4519a282b9534bb8c577b4eda837bb0",
+        "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/14/Imagen%201520217341-U201907937396k3H-RfOK3yovMsWOCpPacpfXSFK-1200x840@Diario%20Vasco.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Abascal defiende la prioridad nacional: “Nos presentamos a las elecciones para hacer legal lo que hoy nos dicen que es ilegal”",
+          "source": "El País",
+          "publishedAt": "2026-11-14T15:38:54.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-14/abascal-defiende-la-prioridad-nacional-nos-presentamos-a-las-elecciones-para-hacer-legal-lo-que-hoy-nos-dicen-que-es-ilegal.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/ENBVXWKHLBJ3RGONYM7IF3QNJ4.jpg?auth=cfd3f77b76c934018e38f74b4862c1694a891a14c3fb9fc8630e4c06a72aec0f"
+        },
+        {
+          "title": "Campaña elecciones 29N y actualidad política, en directo | Sánchez pide “el voto de todos los que quieren más Europa” para frenar a Abascal",
+          "source": "El País",
+          "publishedAt": "2026-11-14T14:05:54.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-14/campana-elecciones-29n-y-actualidad-politica-en-directo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/CWCHZ4MI5ZEMNIRJSVZQMA53PY.jpg?auth=668fe6d9df3a2fd1b6afc0f2e44966b9a4519a282b9534bb8c577b4eda837bb0"
+        },
+        {
+          "title": "The Wild Project: El salto 'salvaje' de la política a las redes para conquistar el voto joven",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-13T23:07:13.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/the-wild-project-salto-salvaje-politica-redes-20261114000712-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/14/Imagen%201520217341-U201907937396k3H-RfOK3yovMsWOCpPacpfXSFK-1200x840@Diario%20Vasco.jpg"
+        }
+      ],
+      "path": "/es/entity/campana-elecciones-29n-y-actualidad-politica-en-directo-sanchez-pide-el-voto-de/"
+    },
+    {
+      "id": "now-cluster-españa-zelenski + otan",
+      "title": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia",
+      "brief": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El País"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/14/17946572056151.jpg",
+        "https://imagenes.elpais.com/resizer/v2/NCAEFTLE25PHBGDAG6EXFOJH2Q.jpg?auth=05ce68db5c48d423ebe6c9ce20fcafeb36d837e0c2d4a2ee6a8d3e3eaccbb261"
+      ],
+      "evidence": [
+        {
+          "title": "Zelenski revela que EEUU planteó la entrada de Ucrania en la OTAN a cambio del Donbás",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-14T15:28:00.000Z",
+          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/14/6af849f2e85ece3c7f8b4576.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/14/17946572056151.jpg"
+        },
+        {
+          "title": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia",
+          "source": "El País",
+          "publishedAt": "2026-11-14T15:09:29.000Z",
+          "sourceUrl": "https://elpais.com/internacional/2026-11-14/zelenski-asegura-que-ee-uu-sugiere-admitir-a-ucrania-en-la-otan-a-cambio-de-entregar-el-donbas-a-rusia.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/NCAEFTLE25PHBGDAG6EXFOJH2Q.jpg?auth=05ce68db5c48d423ebe6c9ce20fcafeb36d837e0c2d4a2ee6a8d3e3eaccbb261"
+        }
+      ],
+      "path": "/es/entity/zelenski-asegura-que-ee-uu-sugiere-admitir-a-ucrania-en-la-otan-a-cambio-de-entr/"
+    },
+    {
       "id": "now-cluster-españa-vasco + contra",
       "title": "El PP cancela su gira de campaña por Gipuzkoa tras el ataque con «petardos, huevos y piedras» en Hernani | El Diario Vasco",
       "brief": "El PP cancela su gira de campaña por Gipuzkoa tras el ataque con «petardos, huevos y piedras» en Hernani | El Diario Vasco.",
@@ -27,13 +186,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 10,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 73,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -74,147 +233,7 @@
       "path": "/es/entity/el-pp-cancela-su-gira-de-campana-por-gipuzkoa-tras-el-ataque-con-petardos-huevos/"
     },
     {
-      "id": "now-cluster-españa-jordi + wild",
-      "title": "Los fallos que reconoce Jordi Wild en sus entrevistas: «Con Feijóo intenté apretar al final, pero me di cuenta tarde»",
-      "brief": "Los fallos que reconoce Jordi Wild en sus entrevistas: «Con Feijóo intenté apretar al final, pero me di cuenta tarde».",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Debate",
-        "El Correo"
-      ],
-      "images": [
-        "https://www.eldebate.com/files/article_social/uploads/2026/11/14/6af88013d5514.jpeg"
-      ],
-      "evidence": [
-        {
-          "title": "Irene Montero carga contra Jordi Wild y le acusa de «banalizar la violencia» contra las mujeres",
-          "source": "El Debate",
-          "publishedAt": "2026-11-14T15:37:07.000Z",
-          "sourceUrl": "https://www.eldebate.com/espana/20261114/irene-montero-carga-contra-jordi-wild-le-acusa-banalizar-violencia-contra-mujeres_480930.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://www.eldebate.com/files/article_social/uploads/2026/11/14/6af88013d5514.jpeg"
-        },
-        {
-          "title": "Los fallos que reconoce Jordi Wild en sus entrevistas: «Con Feijóo intenté apretar al final, pero me di cuenta tarde»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-14T11:31:32.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/fallos-reconoce-jordi-wild-entrevistas-candidatos-feijoo-20261114122910-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/los-fallos-que-reconoce-jordi-wild-en-sus-entrevistas-con-feijoo-intente-apretar/"
-    },
-    {
-      "id": "now-cluster-españa-eeuu + zelenski",
-      "title": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia",
-      "brief": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/NCAEFTLE25PHBGDAG6EXFOJH2Q.jpg?auth=05ce68db5c48d423ebe6c9ce20fcafeb36d837e0c2d4a2ee6a8d3e3eaccbb261",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/14/17946572056151.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia",
-          "source": "El País",
-          "publishedAt": "2026-11-14T15:09:29.000Z",
-          "sourceUrl": "https://elpais.com/internacional/2026-11-14/zelenski-asegura-que-ee-uu-sugiere-admitir-a-ucrania-en-la-otan-a-cambio-de-entregar-el-donbas-a-rusia.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/NCAEFTLE25PHBGDAG6EXFOJH2Q.jpg?auth=05ce68db5c48d423ebe6c9ce20fcafeb36d837e0c2d4a2ee6a8d3e3eaccbb261"
-        },
-        {
-          "title": "Zelenski revela que EEUU planteó la entrada de Ucrania en la OTAN a cambio del Donbás",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-14T11:54:33.000Z",
-          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/14/6af849f2e85ece3c7f8b4576.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/14/17946572056151.jpg"
-        }
-      ],
-      "path": "/es/entity/zelenski-asegura-que-ee-uu-sugiere-admitir-a-ucrania-en-la-otan-a-cambio-de-entr/"
-    },
-    {
-      "id": "now-cluster-españa-negra + bola",
-      "title": "‘La bola negra’, de los Javis, se coloca como una de las favoritas a los premios del cine europeo con 10 nominaciones",
-      "brief": "‘La bola negra’, de los Javis, se coloca como una de las favoritas a los premios del cine europeo con 10 nominaciones.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/RVBSLUBDNZBS5MDPJ5ZPTF6HQA.jpg?auth=d26a835d1711b8105e7d0d6a5e62fa32721adeded14c58f76dd8276f0971efef",
-        "https://e01-phantom-elmundo.uecdn.es/a1dcb65cd1d68253d34389319e72c67f/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/14/17946537374274.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "‘La bola negra’, de los Javis, se coloca como una de las favoritas a los premios del cine europeo con 10 nominaciones",
-          "source": "El País",
-          "publishedAt": "2026-11-14T12:04:33.000Z",
-          "sourceUrl": "https://elpais.com/cultura/cine/2026-11-14/la-bola-negra-de-los-javis-se-coloca-como-una-de-las-favoritas-a-los-premios-del-cine-europeo-con-10-nominaciones.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/RVBSLUBDNZBS5MDPJ5ZPTF6HQA.jpg?auth=d26a835d1711b8105e7d0d6a5e62fa32721adeded14c58f76dd8276f0971efef"
-        },
-        {
-          "title": "'La bola negra', de Los Javis, obtiene 10 nominaciones en los Premios del Cine Europeo",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-14T10:56:36.000Z",
-          "sourceUrl": "https://www.elmundo.es/cultura/cine/2026/11/14/6af83a7121efa0b5278b45ae.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/a1dcb65cd1d68253d34389319e72c67f/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/14/17946537374274.jpg"
-        }
-      ],
-      "path": "/es/entity/la-bola-negra-de-los-javis-se-coloca-como-una-de-las-favoritas-a-los-premios-del/"
-    },
-    {
-      "id": "moving-cluster-españa-vuelve + casa",
+      "id": "moving-cluster-españa-vuelve + chiclayo",
       "title": "El Papa vuelve a casa: un millón y medio de personas celebran su regreso a Chiclayo",
       "brief": "El Papa vuelve a casa: un millón y medio de personas celebran su regreso a Chiclayo.",
       "whyItMatters": "",
@@ -225,7 +244,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -260,52 +279,6 @@
       "path": "/es/entity/el-papa-vuelve-a-casa-un-millon-y-medio-de-personas-celebran-su-regreso-a-chicla/"
     },
     {
-      "id": "moving-cluster-españa-cuatro + aereo",
-      "title": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos",
-      "brief": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/internacional/2026/11/14/1520250057-kqtC-U403477701620EC-1200x840@Diario%20Vasco.JPG"
-      ],
-      "evidence": [
-        {
-          "title": "EE UU empieza a recuperar el tráfico aéreo tras suspenderlo cuatro horas por seguridad y cancelar 8.200 vuelos",
-          "source": "El Correo",
-          "publishedAt": "2026-11-14T10:39:45.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/eeuu-paraliza-vuelos-pais-circunstancias-extraordinarias-razones-20261113223753-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-14T06:11:14.000Z",
-          "sourceUrl": "https://www.diariovasco.com/internacional/eeuu/estados-unidos-reabre-espacio-aereo-vuelos-cancelados-fallo-telecomunicaciones-20261114071047-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/internacional/2026/11/14/1520250057-kqtC-U403477701620EC-1200x840@Diario%20Vasco.JPG"
-        }
-      ],
-      "path": "/es/entity/estados-unidos-reabre-su-espacio-aereo-tras-suspenderlo-mas-de-cuatro-horas-por/"
-    },
-    {
       "id": "moving-cluster-españa-dani + alves",
       "title": "Dani Alves y Joana Sanz se separan tras nueve años de matrimonio por la creciente fe del exfutbolista",
       "brief": "Dani Alves y Joana Sanz se separan tras nueve años de matrimonio por la creciente fe del exfutbolista.",
@@ -314,13 +287,13 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 64,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -351,6 +324,53 @@
         }
       ],
       "path": "/es/entity/dani-alves-y-joana-sanz-se-separan-tras-nueve-anos-de-matrimonio-por-la-crecient/"
+    },
+    {
+      "id": "now-cluster-españa-cine + europeo",
+      "title": "‘La bola negra’, de los Javis, se coloca como una de las favoritas a los Premios del Cine Europeo con 10 nominaciones",
+      "brief": "‘La bola negra’, de los Javis, se coloca como una de las favoritas a los Premios del Cine Europeo con 10 nominaciones.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "5h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 60,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/RVBSLUBDNZBS5MDPJ5ZPTF6HQA.jpg?auth=d26a835d1711b8105e7d0d6a5e62fa32721adeded14c58f76dd8276f0971efef",
+        "https://e01-phantom-elmundo.uecdn.es/a1dcb65cd1d68253d34389319e72c67f/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/14/17946537374274.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "‘La bola negra’, de los Javis, se coloca como una de las favoritas a los Premios del Cine Europeo con 10 nominaciones",
+          "source": "El País",
+          "publishedAt": "2026-11-14T12:04:33.000Z",
+          "sourceUrl": "https://elpais.com/cultura/cine/2026-11-14/la-bola-negra-de-los-javis-se-coloca-como-una-de-las-favoritas-a-los-premios-del-cine-europeo-con-10-nominaciones.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/RVBSLUBDNZBS5MDPJ5ZPTF6HQA.jpg?auth=d26a835d1711b8105e7d0d6a5e62fa32721adeded14c58f76dd8276f0971efef"
+        },
+        {
+          "title": "'La bola negra', de Los Javis, obtiene 10 nominaciones en los Premios del Cine Europeo",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-14T10:56:36.000Z",
+          "sourceUrl": "https://www.elmundo.es/cultura/cine/2026/11/14/6af83a7121efa0b5278b45ae.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/a1dcb65cd1d68253d34389319e72c67f/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/14/17946537374274.jpg"
+        }
+      ],
+      "path": "/es/entity/la-bola-negra-de-los-javis-se-coloca-como-una-de-las-favoritas-a-los-premios-del/"
     }
   ]
 }
