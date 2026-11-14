@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-14T19:00:48.306Z",
+  "updatedAt": "2026-11-14T20:00:48.504Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "216.282 enlaces analizados",
-  "dayScanLabel": "4.182 enlaces escaneados en 24h",
+  "ambientPulseLabel": "216.701 enlaces analizados",
+  "dayScanLabel": "4.181 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -27,13 +27,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "2h fresca",
+      "strength": 24,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 96,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -41,15 +41,24 @@
       ],
       "isHotNews": false,
       "sources": [
+        "elDiario.es",
         "El Mundo",
         "El País"
       ],
       "images": [
+        "https://static.eldiario.es/clip/4f375e73-8f94-4106-96e8-150a4fcb0a75_facebook-aspect-ratio-1200-675_default_0.jpg",
         "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/14/17946765322798.jpg",
         "https://imagenes.elpais.com/resizer/v2/RVBSLUBDNZBS5MDPJ5ZPTF6HQA.jpg?auth=d26a835d1711b8105e7d0d6a5e62fa32721adeded14c58f76dd8276f0971efef",
         "https://e01-phantom-elmundo.uecdn.es/a1dcb65cd1d68253d34389319e72c67f/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/14/17946537374274.jpg"
       ],
       "evidence": [
+        {
+          "title": "Una película unipersonal, skaters con discapacidad y chinos en Linares: el cine andaluz más insólito visto en Sevilla",
+          "source": "elDiario.es",
+          "publishedAt": "2026-11-14T19:54:26.000Z",
+          "sourceUrl": "https://www.eldiario.es/sevilla/pelicula-unipersonal-skaters-discapacidad-chinos-linares-cine-andaluz-insolito-visto-sevilla_1_13664010.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static.eldiario.es/clip/4f375e73-8f94-4106-96e8-150a4fcb0a75_facebook-aspect-ratio-1200-675_default_0.jpg"
+        },
         {
           "title": "La cinta rumana de Florin Serban 'You Don't Belong Here', Giraldillo de Oro del Festival de Cine Europeo de Sevilla",
           "source": "El Mundo",
@@ -75,9 +84,9 @@
       "path": "/es/entity/la-bola-negra-de-los-javis-se-coloca-como-una-de-las-favoritas-a-los-premios-del/"
     },
     {
-      "id": "now-cluster-españa-euskal + sigue",
-      "title": "Sigue en directo el minuto a minuto del Euskal Selekzioa",
-      "brief": "Sigue en directo el minuto a minuto del Euskal Selekzioa.",
+      "id": "now-cluster-españa-portugal + cristiano",
+      "title": "El adiós a una leyenda: Portugal se despide de Cristiano Ronaldo con el ‘7’ como protagonista",
+      "brief": "El adiós a una leyenda: Portugal se despide de Cristiano Ronaldo con el ‘7’ como protagonista.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -96,11 +105,243 @@
       ],
       "isHotNews": false,
       "sources": [
+        "OK Diario",
+        "El Correo"
+      ],
+      "images": [
+        "https://okdiario.com/img/2026/11/14/homenaje-de-portugal-a-cristiano-ronaldo.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El adiós a una leyenda: Portugal se despide de Cristiano Ronaldo con el ‘7’ como protagonista",
+          "source": "OK Diario",
+          "publishedAt": "2026-11-14T19:50:08.000Z",
+          "sourceUrl": "https://okdiario.com/deportes/adios-leyenda-portugal-despide-cristiano-ronaldo-7-como-protagonista-20900465?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://okdiario.com/img/2026/11/14/homenaje-de-portugal-a-cristiano-ronaldo.jpg"
+        },
+        {
+          "title": "Portugal convierte el 7 de Cristiano en eterno",
+          "source": "El Correo",
+          "publishedAt": "2026-11-14T19:06:55.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/portugal-convierte-cristiano-eterno-20261114200640-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/el-adios-a-una-leyenda-portugal-se-despide-de-cristiano-ronaldo-con-el-7-como-pr/"
+    },
+    {
+      "id": "now-cluster-españa-amenaza + ante",
+      "title": "La Policía desaloja la Puerta del Sol de Madrid ante una posible amenaza de bomba",
+      "brief": "La Policía desaloja la Puerta del Sol de Madrid ante una posible amenaza de bomba.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "La Razón",
+        "ABC"
+      ],
+      "images": [
+        "https://fotografias-2.larazon.es/clipping/cmsimages01/2025/07/22/C6B4F3FD-B37B-4902-BE5E-47604DCF2EBD/fachada-edificio-real-casa-correos-madrilena-puerta-sol-sede-actual-gobierno-comunidad-madrid_96.jpg?crop=4500,2531,x0,y233&width=1200&height=675&optimize=low&format=webply",
+        "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/14/1520117297-k4EG-U40354538601abF-1200x840@diario_abc.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "La Policía desaloja la Puerta del Sol de Madrid ante una posible amenaza de bomba",
+          "source": "La Razón",
+          "publishedAt": "2026-11-14T19:45:56.000Z",
+          "sourceUrl": "https://www.larazon.es/madrid/policia-desaloja-puerta-sol-madrid-posible-amenaza-bomba_202611146af8ba744196933d7edd86ae.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2025/07/22/C6B4F3FD-B37B-4902-BE5E-47604DCF2EBD/fachada-edificio-real-casa-correos-madrilena-puerta-sol-sede-actual-gobierno-comunidad-madrid_96.jpg?crop=4500,2531,x0,y233&width=1200&height=675&optimize=low&format=webply"
+        },
+        {
+          "title": "La Policía acordona la madrileña Puerta del Sol por una posible amenaza de bomba",
+          "source": "ABC",
+          "publishedAt": "2026-11-14T19:35:29.000Z",
+          "sourceUrl": "https://www.abc.es/espana/madrid/policia-acordona-madrilena-puerta-sol-amenaza-bomba-20261114203148-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/14/1520117297-k4EG-U40354538601abF-1200x840@diario_abc.jpg"
+        }
+      ],
+      "path": "/es/entity/la-policia-desaloja-la-puerta-del-sol-de-madrid-ante-una-posible-amenaza-de-bomb/"
+    },
+    {
+      "id": "now-cluster-españa-entre + alcaraz",
+      "title": "Alcaraz y Ferrero, cara a cara casi un año después de que sus caminos se separasen",
+      "brief": "Alcaraz y Ferrero, cara a cara casi un año después de que sus caminos se separasen.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "Cadena SER",
+        "El Mundo"
+      ],
+      "images": [
+        "https://cadenaser.com/resizer/v2/TBJM5DXR3VDUXACUHPA3JCIWHM.jpg?auth=9ac0117c53816d7687d8f7bc64c8a11ab334835463caf364307ff0f7a8fef3e1&width=3585&height=2390&smart=true",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/14/17946769230040.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Alcaraz y Ferrero, cara a cara casi un año después de que sus caminos se separasen",
+          "source": "Cadena SER",
+          "publishedAt": "2026-11-14T19:41:38.000Z",
+          "sourceUrl": "https://cadenaser.com/nacional/2026/11/14/alcaraz-y-ferrero-cara-a-cara-casi-un-ano-despues-de-que-sus-caminos-se-separasen-cadena-ser/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://cadenaser.com/resizer/v2/TBJM5DXR3VDUXACUHPA3JCIWHM.jpg?auth=9ac0117c53816d7687d8f7bc64c8a11ab334835463caf364307ff0f7a8fef3e1&width=3585&height=2390&smart=true"
+        },
+        {
+          "title": "Un abrazo de reencuentro entre Alcaraz y Ferrero en Turín",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-14T17:24:54.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/tenis/2026/11/14/6af8970be9cf4a9d6c8b4575.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/14/17946769230040.jpg"
+        }
+      ],
+      "path": "/es/entity/alcaraz-y-ferrero-cara-a-cara-casi-un-ano-despues-de-que-sus-caminos-se-separase/"
+    },
+    {
+      "id": "moving-cluster-españa-contra + inglaterra",
+      "title": "Luis de la Fuente: \"Decidle a Tuchel que en España no hay racismo. Exactamente igual que en Inglaterra\"",
+      "brief": "Luis de la Fuente: \"Decidle a Tuchel que en España no hay racismo. Exactamente igual que en Inglaterra\".",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "OK Diario",
+        "El Mundo"
+      ],
+      "images": [
+        "https://okdiario.com/img/2026/11/14/entrenamiento-espana.jpg",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/14/17946779687266.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "De la Fuente sólo tiene la ausencia de Grimaldo antes de medirse contra Inglaterra",
+          "source": "OK Diario",
+          "publishedAt": "2026-11-14T19:38:21.000Z",
+          "sourceUrl": "https://okdiario.com/deportes/fuente-solo-tiene-ausencia-grimaldo-antes-medirse-contra-inglaterra-20899671?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://okdiario.com/img/2026/11/14/entrenamiento-espana.jpg"
+        },
+        {
+          "title": "Luis de la Fuente: \"Decidle a Tuchel que en España no hay racismo. Exactamente igual que en Inglaterra\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-14T18:00:33.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/14/6af88ffa21efa083788b45a0.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/14/17946779687266.jpg"
+        }
+      ],
+      "path": "/es/entity/luis-de-la-fuente-decidle-a-tuchel-que-en-espana-no-hay-racismo-exactamente-igua/"
+    },
+    {
+      "id": "moving-cluster-españa-sanchez + abascal",
+      "title": "Sánchez llama a una movilización masiva y pide a los «europeístas» frenar a PP y Vox",
+      "brief": "Sánchez llama a una movilización masiva y pide a los «europeístas» frenar a PP y Vox.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Sánchez llama a una movilización masiva y pide a los «europeístas» frenar a PP y Vox",
+          "source": "El Correo",
+          "publishedAt": "2026-11-14T19:06:24.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/sanchez-llama-movilizacion-masiva-pide-europeistas-frenar-20261114172226-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Sánchez pide “el voto europeísta” para frenar a Abascal",
+          "source": "El País",
+          "publishedAt": "2026-11-14T17:23:22.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-14/sanchez-pide-el-voto-europeista-para-frenar-a-abascal.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/sanchez-llama-a-una-movilizacion-masiva-y-pide-a-los-europeistas-frenar-a-pp-y-v/"
+    },
+    {
+      "id": "moving-cluster-españa-euskal + sigue",
+      "title": "Sigue en directo el minuto a minuto del Euskal Selekzioa",
+      "brief": "Sigue en directo el minuto a minuto del Euskal Selekzioa.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
         "El Diario Vasco",
         "El Correo"
       ],
       "images": [
-        "https://s3.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/14/selekzioa-U2013996528878WC-U40341735106MUH-1200x840@Diario%20Vasco.jpg"
+        "https://s3.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/14/selekzioa-U2013996528878WC-U40341735106MUH-1200x840@Diario%20Vasco.jpg",
+        "https://s1.ppllstatics.com/elcorreo/www/multimedia/deportes/2026/11/13/euskadi-venezuela-005-U301504699923lzD-U40335900694GAI-1200x840@El%20Correo.jpg"
       ],
       "evidence": [
         {
@@ -113,26 +354,26 @@
         {
           "title": "En directo, Euskal Selekzioa-Venezuela",
           "source": "El Correo",
-          "publishedAt": "2026-11-14T18:23:37.000Z",
+          "publishedAt": "2026-11-14T18:15:40.000Z",
           "sourceUrl": "https://www.elcorreo.com/deportes/futbol/directo-euskal-selekzioavenezuela-20261114191539-di.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/deportes/2026/11/13/euskadi-venezuela-005-U301504699923lzD-U40335900694GAI-1200x840@El%20Correo.jpg"
         }
       ],
       "path": "/es/entity/sigue-en-directo-el-minuto-a-minuto-del-euskal-selekzioa/"
     },
     {
-      "id": "now-cluster-españa-vida + pese",
+      "id": "moving-cluster-españa-sigue + gijon",
       "title": "«No desmayes, sigue luchando», se repetía la joven asesinada en Gijón pese a su «vida complicada»",
       "brief": "«No desmayes, sigue luchando», se repetía la joven asesinada en Gijón pese a su «vida complicada».",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -167,69 +408,24 @@
       "path": "/es/entity/no-desmayes-sigue-luchando-se-repetia-la-joven-asesinada-en-gijon-pese-a-su-vida/"
     },
     {
-      "id": "now-cluster-españa-sanchez + abascal",
-      "title": "Sánchez llama a una movilización masiva y pide a los «europeístas» frenar a PP y Vox",
-      "brief": "Sánchez llama a una movilización masiva y pide a los «europeístas» frenar a PP y Vox.",
+      "id": "fading-cluster-españa-contra + petardos",
+      "title": "Lanzan petardos, huevos y piedras contra Jon Echeverría, candidato del PP en Gipuzkoa, en un acto electoral en Hernani",
+      "brief": "Lanzan petardos, huevos y piedras contra Jon Echeverría, candidato del PP en Gipuzkoa, en un acto electoral en Hernani.",
       "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "Sánchez pide “el voto europeísta” para frenar a Abascal",
-          "source": "El País",
-          "publishedAt": "2026-11-14T17:23:22.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-14/sanchez-pide-el-voto-europeista-para-frenar-a-abascal.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Sánchez llama a una movilización masiva y pide a los «europeístas» frenar a PP y Vox",
-          "source": "El Correo",
-          "publishedAt": "2026-11-14T16:53:07.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/sanchez-llama-movilizacion-masiva-pide-europeistas-frenar-20261114172226-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/sanchez-llama-a-una-movilizacion-masiva-y-pide-a-los-europeistas-frenar-a-pp-y-v/"
-    },
-    {
-      "id": "moving-cluster-españa-petardos + huevos",
-      "title": "El PP cancela su gira de campaña por Gipuzkoa tras el ataque con «petardos, huevos y piedras» en Hernani | El Diario Vasco",
-      "brief": "El PP cancela su gira de campaña por Gipuzkoa tras el ataque con «petardos, huevos y piedras» en Hernani | El Diario Vasco.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 9,
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 73,
+      "alertScore": 55,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
+        "Gana volumen rápido"
       ],
       "isHotNews": false,
       "sources": [
@@ -263,27 +459,26 @@
           "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/14/incidentes-hernani-k4ID-RI7s2gAfFYzJST6jZP2vaLK-1200x840@Diario%20Vasco-DiarioVasco.jpg"
         }
       ],
-      "path": "/es/entity/el-pp-cancela-su-gira-de-campana-por-gipuzkoa-tras-el-ataque-con-petardos-huevos/"
+      "path": "/es/entity/lanzan-petardos-huevos-y-piedras-contra-jon-echeverria-candidato-del-pp-en-gipuz/"
     },
     {
-      "id": "moving-cluster-españa-zelenski + otan",
+      "id": "fading-cluster-españa-cambio + zelenski",
       "title": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia",
       "brief": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia.",
       "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 52,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
@@ -313,99 +508,7 @@
       "path": "/es/entity/zelenski-asegura-que-ee-uu-sugiere-admitir-a-ucrania-en-la-otan-a-cambio-de-entr/"
     },
     {
-      "id": "moving-cluster-españa-casa + chiclayo",
-      "title": "El Papa vuelve a casa: un millón y medio de personas celebran su regreso a Chiclayo",
-      "brief": "El Papa vuelve a casa: un millón y medio de personas celebran su regreso a Chiclayo.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "8h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/rc/www/multimedia/sociedad/2026/11/14/papa-chiclayo-khWC-U40349798099nqC-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El Papa vuelve a casa: un millón y medio de personas celebran su regreso a Chiclayo",
-          "source": "El Correo",
-          "publishedAt": "2026-11-14T11:23:24.000Z",
-          "sourceUrl": "https://www.elcorreo.com/sociedad/papa-vuelve-casa-millon-medio-personas-celebran-20261114122323-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/sociedad/2026/11/14/papa-chiclayo-khWC-U40349798099nqC-1200x840@RC.jpg"
-        },
-        {
-          "title": "Videoanálisis | León XIV vuelve a casa y se reencuentra con los fieles en Chiclayo",
-          "source": "El País",
-          "publishedAt": "2026-11-14T09:30:00.000Z",
-          "sourceUrl": "https://elpais.com/america/2026-11-14/videoanalisis-leon-xiv-vuelve-a-casa-y-se-reencuentra-con-los-fieles-en-chiclayo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/el-papa-vuelve-a-casa-un-millon-y-medio-de-personas-celebran-su-regreso-a-chicla/"
-    },
-    {
-      "id": "moving-cluster-españa-aereo + horas",
-      "title": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos",
-      "brief": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "8h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/internacional/2026/11/14/1520250057-kqtC-U403477701620EC-1200x840@Diario%20Vasco.JPG"
-      ],
-      "evidence": [
-        {
-          "title": "EE UU empieza a recuperar el tráfico aéreo tras suspenderlo cuatro horas por seguridad y cancelar 8.200 vuelos",
-          "source": "El Correo",
-          "publishedAt": "2026-11-14T10:39:45.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/eeuu-paraliza-vuelos-pais-circunstancias-extraordinarias-razones-20261113223753-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-14T06:11:14.000Z",
-          "sourceUrl": "https://www.diariovasco.com/internacional/eeuu/estados-unidos-reabre-espacio-aereo-vuelos-cancelados-fallo-telecomunicaciones-20261114071047-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/internacional/2026/11/14/1520250057-kqtC-U403477701620EC-1200x840@Diario%20Vasco.JPG"
-        }
-      ],
-      "path": "/es/entity/estados-unidos-reabre-su-espacio-aereo-tras-suspenderlo-mas-de-cuatro-horas-por/"
-    },
-    {
-      "id": "fading-cluster-españa-joana + sanz",
+      "id": "fading-cluster-españa-dani + alves",
       "title": "Dani Alves y Joana Sanz se separan tras nueve años de matrimonio por la creciente fe del exfutbolista",
       "brief": "Dani Alves y Joana Sanz se separan tras nueve años de matrimonio por la creciente fe del exfutbolista.",
       "whyItMatters": "",
@@ -413,10 +516,10 @@
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 6,
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "9h fresca",
+      "freshness": "10h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 46,
@@ -449,6 +552,51 @@
         }
       ],
       "path": "/es/entity/dani-alves-y-joana-sanz-se-separan-tras-nueve-anos-de-matrimonio-por-la-crecient/"
+    },
+    {
+      "id": "fading-cluster-españa-aereo + cancelar",
+      "title": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos",
+      "brief": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "9h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 46,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://s2.ppllstatics.com/diariovasco/www/multimedia/internacional/2026/11/14/1520250057-kqtC-U403477701620EC-1200x840@Diario%20Vasco.JPG"
+      ],
+      "evidence": [
+        {
+          "title": "EE UU empieza a recuperar el tráfico aéreo tras suspenderlo cuatro horas por seguridad y cancelar 8.200 vuelos",
+          "source": "El Correo",
+          "publishedAt": "2026-11-14T10:39:45.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/eeuu-paraliza-vuelos-pais-circunstancias-extraordinarias-razones-20261113223753-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-14T06:11:14.000Z",
+          "sourceUrl": "https://www.diariovasco.com/internacional/eeuu/estados-unidos-reabre-espacio-aereo-vuelos-cancelados-fallo-telecomunicaciones-20261114071047-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/internacional/2026/11/14/1520250057-kqtC-U403477701620EC-1200x840@Diario%20Vasco.JPG"
+        }
+      ],
+      "path": "/es/entity/estados-unidos-reabre-su-espacio-aereo-tras-suspenderlo-mas-de-cuatro-horas-por/"
     }
   ]
 }
