@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-15T22:00:48.217Z",
-  "pulseLabel": "Último análisis · hace 50 minutos",
-  "ambientPulseLabel": "227.205 enlaces analizados",
-  "dayScanLabel": "4.213 enlaces escaneados en 24h",
+  "updatedAt": "2026-11-15T23:00:49.432Z",
+  "pulseLabel": "Último análisis · este minuto",
+  "ambientPulseLabel": "227.630 enlaces analizados",
+  "dayScanLabel": "4.219 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -27,10 +27,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 27,
+      "strength": 21,
       "sourceCount": 4,
       "itemCount": 7,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 99,
@@ -92,18 +92,75 @@
       "path": "/es/entity/feijoo-se-dirige-a-sanchez-tras-la-agresion-al-candidato-del-pp-en-guipuzcoa-dig/"
     },
     {
-      "id": "moving-cluster-españa-estonia + frontera",
-      "title": "Estonia cerrará en diciembre su frontera con Rusia tras acusar al Kremlin de un intento de sabotaje",
-      "brief": "Estonia cerrará en diciembre su frontera con Rusia tras acusar al Kremlin de un intento de sabotaje.",
+      "id": "now-cluster-españa-jensen + huang",
+      "title": "Jensen Huang planea su regreso a Nvidia con el apoyo de Elon Musk y otros líderes de Silicon Valley",
+      "brief": "Jensen Huang planea su regreso a Nvidia con el apoyo de Elon Musk y otros líderes de Silicon Valley.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
       "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "1h fresca",
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El País",
+        "El Correo"
+      ],
+      "images": [
+        "https://e01-phantom-elmundo.uecdn.es/b6a55cd60a7088ae350247959b4f0b8a/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/15/17947799745681.jpg",
+        "https://imagenes.elpais.com/resizer/v2/5X3HWAYOUFLKBAGGJ4DT6IHJ6Q.jpg?auth=c2828ae7ae57613290e475a3fe8e86bcb303a516850522b94067651d14cfb4eb",
+        "https://s1.ppllstatics.com/elcorreo/www/multimedia/economia/2026/11/15/1520310842.JPG"
+      ],
+      "evidence": [
+        {
+          "title": "Jensen Huang planea su regreso a Nvidia con el apoyo de Elon Musk y otros líderes de Silicon Valley",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-15T22:12:02.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/15/6afa2b78fc6c83b0238b4591.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/b6a55cd60a7088ae350247959b4f0b8a/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/15/17947799745681.jpg"
+        },
+        {
+          "title": "Jensen Huang planea su regreso a Nvidia con el apoyo de Silicon Valley",
+          "source": "El País",
+          "publishedAt": "2026-11-15T21:21:49.000Z",
+          "sourceUrl": "https://elpais.com/us/2026-11-15/jensen-huang-planea-su-regreso-a-nvidia-con-el-apoyo-de-silicon-valley.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/5X3HWAYOUFLKBAGGJ4DT6IHJ6Q.jpg?auth=c2828ae7ae57613290e475a3fe8e86bcb303a516850522b94067651d14cfb4eb"
+        },
+        {
+          "title": "Jensen Huang se estaría replanteando volver al frente de Nvidia",
+          "source": "El Correo",
+          "publishedAt": "2026-11-15T21:16:11.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/jensen-huang-replanteando-volver-frente-nvidia-20261115221611-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/economia/2026/11/15/1520310842.JPG"
+        }
+      ],
+      "path": "/es/entity/jensen-huang-planea-su-regreso-a-nvidia-con-el-apoyo-de-elon-musk-y-otros-lidere/"
+    },
+    {
+      "id": "now-cluster-españa-estonia + frontera",
+      "title": "Estonia cerrará en diciembre su frontera con Rusia tras acusar al Kremlin de un intento de sabotaje",
+      "brief": "Estonia cerrará en diciembre su frontera con Rusia tras acusar al Kremlin de un intento de sabotaje.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 22,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 92,
@@ -148,100 +205,6 @@
       "path": "/es/entity/estonia-cerrara-en-diciembre-su-frontera-con-rusia-tras-acusar-al-kremlin-de-un/"
     },
     {
-      "id": "now-cluster-españa-uefa + nations",
-      "title": "España-Inglaterra, en directo, la UEFA Nations League en vivo | Inglaterra vence a España y se queda con el liderato del grupo",
-      "brief": "España-Inglaterra, en directo, la UEFA Nations League en vivo | Inglaterra vence a España y se queda con el liderato del grupo.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "La Razón",
-        "El País"
-      ],
-      "images": [
-        "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/15/3AE5F083-E846-4CEF-A24F-FC6BBB74DF3C/liga-naciones-espana-inglaterra_96.jpg?crop=5325,2995,x0,y227&width=1200&height=675&optimize=low&format=webply",
-        "https://imagenes.elpais.com/resizer/v2/6MOKCJWLXBKVHPM2CLYT5EUIQM.jpg?auth=60c53d57e2d40f515db5e1a8e527258c3c3c4f19e3ac1918e9557c250b305331"
-      ],
-      "evidence": [
-        {
-          "title": "España - Inglaterra, en directo hoy: sexta jornada de la UEFA Nations League",
-          "source": "La Razón",
-          "publishedAt": "2026-11-15T21:52:49.000Z",
-          "sourceUrl": "https://www.larazon.es/deportes/futbol/espana-inglaterra-directo-hoy-sexta-jornada-uefa-nations-league-b50m_202611156af6fbab03bbf30bb04aeb87.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/15/3AE5F083-E846-4CEF-A24F-FC6BBB74DF3C/liga-naciones-espana-inglaterra_96.jpg?crop=5325,2995,x0,y227&width=1200&height=675&optimize=low&format=webply"
-        },
-        {
-          "title": "España-Inglaterra, en directo, la UEFA Nations League en vivo | Inglaterra vence a España y se queda con el liderato del grupo",
-          "source": "El País",
-          "publishedAt": "2026-11-15T21:51:19.000Z",
-          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-15/espana-inglaterra-en-directo-la-uefa-nations-league-en-vivo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/6MOKCJWLXBKVHPM2CLYT5EUIQM.jpg?auth=60c53d57e2d40f515db5e1a8e527258c3c3c4f19e3ac1918e9557c250b305331"
-        }
-      ],
-      "path": "/es/entity/espana-inglaterra-en-directo-la-uefa-nations-league-en-vivo-inglaterra-vence-a-e/"
-    },
-    {
-      "id": "now-cluster-españa-jensen + huang",
-      "title": "Jensen Huang planea su regreso a Nvidia con el apoyo de Silicon Valley",
-      "brief": "Jensen Huang planea su regreso a Nvidia con el apoyo de Silicon Valley.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/5X3HWAYOUFLKBAGGJ4DT6IHJ6Q.jpg?auth=c2828ae7ae57613290e475a3fe8e86bcb303a516850522b94067651d14cfb4eb",
-        "https://s1.ppllstatics.com/elcorreo/www/multimedia/economia/2026/11/15/1520310842.JPG"
-      ],
-      "evidence": [
-        {
-          "title": "Jensen Huang planea su regreso a Nvidia con el apoyo de Silicon Valley",
-          "source": "El País",
-          "publishedAt": "2026-11-15T21:21:49.000Z",
-          "sourceUrl": "https://elpais.com/us/2026-11-15/jensen-huang-planea-su-regreso-a-nvidia-con-el-apoyo-de-silicon-valley.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/5X3HWAYOUFLKBAGGJ4DT6IHJ6Q.jpg?auth=c2828ae7ae57613290e475a3fe8e86bcb303a516850522b94067651d14cfb4eb"
-        },
-        {
-          "title": "Jensen Huang se estaría replanteando volver al frente de Nvidia",
-          "source": "El Correo",
-          "publishedAt": "2026-11-15T21:16:11.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/jensen-huang-replanteando-volver-frente-nvidia-20261115221611-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/economia/2026/11/15/1520310842.JPG"
-        }
-      ],
-      "path": "/es/entity/jensen-huang-planea-su-regreso-a-nvidia-con-el-apoyo-de-silicon-valley/"
-    },
-    {
       "id": "now-cluster-españa-gobierno + trump",
       "title": "Trump rompe 37 horas de inusual silencio para culpar del parón aeronáutico al Gobierno de Biden",
       "brief": "Trump rompe 37 horas de inusual silencio para culpar del parón aeronáutico al Gobierno de Biden.",
@@ -250,10 +213,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -289,7 +252,7 @@
       "path": "/es/entity/trump-rompe-37-horas-de-inusual-silencio-para-culpar-del-paron-aeronautico-al-go/"
     },
     {
-      "id": "now-cluster-españa-vuelve + tenerife",
+      "id": "now-cluster-españa-vuelve + miguel",
       "title": "El CD Tenerife vuelve a la competición tras el luto por la muerte de su delantero Jesús de Miguel",
       "brief": "El CD Tenerife vuelve a la competición tras el luto por la muerte de su delantero Jesús de Miguel.",
       "whyItMatters": "",
@@ -300,7 +263,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -336,117 +299,25 @@
       "path": "/es/entity/el-cd-tenerife-vuelve-a-la-competicion-tras-el-luto-por-la-muerte-de-su-delanter/"
     },
     {
-      "id": "moving-cluster-españa-mision + naval",
-      "title": "La misión naval de la UE aborda en el Mediterráneo un petrolero sospechoso de formar parte de la flota fantasma de Rusia",
-      "brief": "La misión naval de la UE aborda en el Mediterráneo un petrolero sospechoso de formar parte de la flota fantasma de Rusia.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/rc/www/multimedia/internacional/2026/11/15/fantasma-RgyIGgheN14hz0vWz5Kf3HI-1200x840@RC.jpg",
-        "https://imagenes.elpais.com/resizer/v2/A7LQYK2UCFIZHDKF3AX5CCKLEM.jpg?auth=3b58100ffa941ea0931df4e4665d3396f667ee7ea283cda5404eefe385a8432e"
-      ],
-      "evidence": [
-        {
-          "title": "La misión naval de la UE intercepta a un petrolero de la «flota fantasma» rusa en el Mediterráneo",
-          "source": "El Correo",
-          "publishedAt": "2026-11-15T20:00:05.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/europa/mision-naval-ue-intercepta-petrolero-flota-fantasma-20261115210005-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/internacional/2026/11/15/fantasma-RgyIGgheN14hz0vWz5Kf3HI-1200x840@RC.jpg"
-        },
-        {
-          "title": "La misión naval de la UE aborda en el Mediterráneo un petrolero sospechoso de formar parte de la flota fantasma de Rusia",
-          "source": "El País",
-          "publishedAt": "2026-11-15T13:23:44.000Z",
-          "sourceUrl": "https://elpais.com/internacional/2026-11-15/la-mision-naval-de-la-ue-aborda-en-el-mediterraneo-un-petrolero-sospechoso-de-formar-parte-de-la-flota-fantasma-de-rusia.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/A7LQYK2UCFIZHDKF3AX5CCKLEM.jpg?auth=3b58100ffa941ea0931df4e4665d3396f667ee7ea283cda5404eefe385a8432e"
-        }
-      ],
-      "path": "/es/entity/la-mision-naval-de-la-ue-aborda-en-el-mediterraneo-un-petrolero-sospechoso-de-fo/"
-    },
-    {
-      "id": "moving-cluster-españa-solo + historia",
-      "title": "Canarias rescata a 1.580 migrantes en un solo día, la cifra más alta de su historia",
-      "brief": "Canarias rescata a 1.580 migrantes en un solo día, la cifra más alta de su historia.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/K26KCW54FRMP5IX2DW5H7EM74M.jpg?auth=73a35e027fc136bf8cdac04ec20c8998e4a6a5dbb7804aa6909a7794975ad753"
-      ],
-      "evidence": [
-        {
-          "title": "La ruta migratoria a Canarias bate su récord de llegadas en un solo día con más de 1.500 personas",
-          "source": "El País",
-          "publishedAt": "2026-11-15T19:47:39.000Z",
-          "sourceUrl": "https://elpais.com/espana/2026-11-15/la-ruta-migratoria-a-canarias-bate-su-record-de-llegadas-en-un-solo-dia-con-1500-personas.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/K26KCW54FRMP5IX2DW5H7EM74M.jpg?auth=73a35e027fc136bf8cdac04ec20c8998e4a6a5dbb7804aa6909a7794975ad753"
-        },
-        {
-          "title": "Canarias rescata a 1.580 migrantes en un solo día, la cifra más alta de su historia",
-          "source": "El Correo",
-          "publishedAt": "2026-11-15T16:58:19.000Z",
-          "sourceUrl": "https://www.elcorreo.com/sociedad/canarias-rescata-1580-migrantes-solo-dia-cifra-20261115175819-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/canarias-rescata-a-1-580-migrantes-en-un-solo-dia-la-cifra-mas-alta-de-su-histor/"
-    },
-    {
-      "id": "fading-cluster-españa-ante + jodar",
+      "id": "moving-cluster-españa-ante + jodar",
       "title": "Así hemos narrado la derrota de Jódar ante Zverev",
       "brief": "Así hemos narrado la derrota de Jódar ante Zverev.",
       "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 55,
+      "alertScore": 73,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido"
+        "Gana volumen rápido",
+        "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
@@ -483,69 +354,72 @@
       "path": "/es/entity/asi-hemos-narrado-la-derrota-de-jodar-ante-zverev/"
     },
     {
-      "id": "fading-cluster-españa-programa + psoe",
-      "title": "Claves | De un nuevo impuesto a los grandes empresarios a la “unión de la amistad”: el programa del PSOE para el 29-N",
-      "brief": "Claves | De un nuevo impuesto a los grandes empresarios a la “unión de la amistad”: el programa del PSOE para el 29-N.",
+      "id": "moving-cluster-españa-mision + naval",
+      "title": "La misión naval de la UE aborda en el Mediterráneo un petrolero sospechoso de formar parte de la flota fantasma de Rusia",
+      "brief": "La misión naval de la UE aborda en el Mediterráneo un petrolero sospechoso de formar parte de la flota fantasma de Rusia.",
       "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 8,
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 52,
+      "alertScore": 70,
       "alertTriggers": [
-        "Cruza varias fuentes"
+        "Cruza varias fuentes",
+        "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "El País",
-        "El Correo"
+        "El Correo",
+        "El País"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/P5JEXFMDJNNKPBHYHT5JQEDK2U.jpg?auth=cab900d8581ac729dc8e74a4aba0eac0137ab0bbfb58c95e1a8ba3af44946dc8"
+        "https://s1.ppllstatics.com/rc/www/multimedia/internacional/2026/11/15/fantasma-RgyIGgheN14hz0vWz5Kf3HI-1200x840@RC.jpg",
+        "https://imagenes.elpais.com/resizer/v2/A7LQYK2UCFIZHDKF3AX5CCKLEM.jpg?auth=3b58100ffa941ea0931df4e4665d3396f667ee7ea283cda5404eefe385a8432e"
       ],
       "evidence": [
         {
-          "title": "Claves | De un nuevo impuesto a los grandes empresarios a la “unión de la amistad”: el programa del PSOE para el 29-N",
-          "source": "El País",
-          "publishedAt": "2026-11-15T16:48:47.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-15/claves-de-un-nuevo-impuesto-a-los-grandes-empresarios-a-la-union-de-la-amistad-el-programa-del-psoe-para-el-29-n.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/P5JEXFMDJNNKPBHYHT5JQEDK2U.jpg?auth=cab900d8581ac729dc8e74a4aba0eac0137ab0bbfb58c95e1a8ba3af44946dc8"
+          "title": "La misión naval de la UE intercepta a un petrolero de la «flota fantasma» rusa en el Mediterráneo",
+          "source": "El Correo",
+          "publishedAt": "2026-11-15T20:00:05.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/europa/mision-naval-ue-intercepta-petrolero-flota-fantasma-20261115210005-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/rc/www/multimedia/internacional/2026/11/15/fantasma-RgyIGgheN14hz0vWz5Kf3HI-1200x840@RC.jpg"
         },
         {
-          "title": "El programa del PSOE: varias medidas de Sumar y un pellizco de mano dura con la 'okupación'",
-          "source": "El Correo",
-          "publishedAt": "2026-11-15T16:26:32.000Z",
-          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/programa-psoe-varias-medidas-sumar-pellizco-mano-20261115172631-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "La misión naval de la UE aborda en el Mediterráneo un petrolero sospechoso de formar parte de la flota fantasma de Rusia",
+          "source": "El País",
+          "publishedAt": "2026-11-15T13:23:44.000Z",
+          "sourceUrl": "https://elpais.com/internacional/2026-11-15/la-mision-naval-de-la-ue-aborda-en-el-mediterraneo-un-petrolero-sospechoso-de-formar-parte-de-la-flota-fantasma-de-rusia.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/A7LQYK2UCFIZHDKF3AX5CCKLEM.jpg?auth=3b58100ffa941ea0931df4e4665d3396f667ee7ea283cda5404eefe385a8432e"
         }
       ],
-      "path": "/es/entity/claves-de-un-nuevo-impuesto-a-los-grandes-empresarios-a-la-union-de-la-amistad-e/"
+      "path": "/es/entity/la-mision-naval-de-la-ue-aborda-en-el-mediterraneo-un-petrolero-sospechoso-de-fo/"
     },
     {
-      "id": "fading-cluster-españa-rafa + jodar",
+      "id": "moving-cluster-españa-rafa + jodar",
       "title": "Alexander Zverev no da opción a Rafa Jódar en su estreno como maestro en las ATP Finals",
       "brief": "Alexander Zverev no da opción a Rafa Jódar en su estreno como maestro en las ATP Finals.",
       "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
       "strength": 7,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "7h fresca",
+      "freshness": "8h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 49,
+      "alertScore": 67,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido"
+        "Gana volumen rápido",
+        "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
@@ -583,21 +457,66 @@
       "path": "/es/entity/alexander-zverev-no-da-opcion-a-rafa-jodar-en-su-estreno-como-maestro-en-las-atp/"
     },
     {
-      "id": "fading-cluster-españa-juan + carlos",
-      "title": "La infanta Margarita, hermana del rey Juan Carlos, ingresada en la UCI por una infección",
-      "brief": "La infanta Margarita, hermana del rey Juan Carlos, ingresada en la UCI por una infección.",
+      "id": "fading-cluster-españa-sergio + ramirez",
+      "title": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”",
+      "brief": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”.",
       "whyItMatters": "",
       "verdict": "Si no vuelve a aparecer, sale de portada.",
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 6,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "8h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 46,
+      "alertScore": 52,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/ZFZSHVNXXNFUNBFYQRMOKU4OYA.jpg?auth=4adf0b8abde03a4c48cacdf9b650da7f4a90b05a07b60415d77f1d6830f97527"
+      ],
+      "evidence": [
+        {
+          "title": "Sergio Ramírez sucede en la RAE al «novelista ecuménico» Mario Vargas Llosa",
+          "source": "El Correo",
+          "publishedAt": "2026-11-15T19:20:34.000Z",
+          "sourceUrl": "https://www.elcorreo.com/culturas/sergio-ramirez-sucede-rae-novelista-ecumenico-mario-20261113202034-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”",
+          "source": "El País",
+          "publishedAt": "2026-11-15T19:11:01.000Z",
+          "sourceUrl": "https://elpais.com/cultura/2026-11-15/sergio-ramirez-ingresa-en-la-rae-perdi-un-pais-pero-nunca-he-sido-extranjero-en-espana.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/ZFZSHVNXXNFUNBFYQRMOKU4OYA.jpg?auth=4adf0b8abde03a4c48cacdf9b650da7f4a90b05a07b60415d77f1d6830f97527"
+        }
+      ],
+      "path": "/es/entity/sergio-ramirez-ingresa-en-la-rae-perdi-un-pais-pero-nunca-he-sido-extranjero-en/"
+    },
+    {
+      "id": "fading-cluster-españa-solo + historia",
+      "title": "Canarias rescata a 1.580 migrantes en un solo día, la cifra más alta de su historia",
+      "brief": "Canarias rescata a 1.580 migrantes en un solo día, la cifra más alta de su historia.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "3h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 52,
       "alertTriggers": [
         "Cruza varias fuentes"
       ],
@@ -607,26 +526,115 @@
         "El Correo"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/ZZIOCA4RWFAOVDJEJUMKDRYTLM.jpg?auth=0e6d2937601292493628191b8cbe1179aefc80f68642ef3420bfb91b2f01a972",
-        "https://s3.ppllstatics.com/rc/www/multimedia/gente-estilo/2026/11/15/154295360-RMcRZDP3HVTEfATMki6envO-1200x840@RC.jpg"
+        "https://imagenes.elpais.com/resizer/v2/K26KCW54FRMP5IX2DW5H7EM74M.jpg?auth=73a35e027fc136bf8cdac04ec20c8998e4a6a5dbb7804aa6909a7794975ad753"
       ],
       "evidence": [
         {
-          "title": "La infanta Margarita, hermana del rey Juan Carlos, ingresada en la UCI por una infección",
+          "title": "La ruta migratoria a Canarias bate su récord de llegadas en un solo día con más de 1.500 personas",
           "source": "El País",
-          "publishedAt": "2026-11-15T14:00:05.000Z",
-          "sourceUrl": "https://elpais.com/gente/2026-11-15/la-infanta-margarita-hermana-del-rey-juan-carlos-ingresada-en-la-uci-por-una-infeccion.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/ZZIOCA4RWFAOVDJEJUMKDRYTLM.jpg?auth=0e6d2937601292493628191b8cbe1179aefc80f68642ef3420bfb91b2f01a972"
+          "publishedAt": "2026-11-15T19:47:39.000Z",
+          "sourceUrl": "https://elpais.com/espana/2026-11-15/la-ruta-migratoria-a-canarias-bate-su-record-de-llegadas-en-un-solo-dia-con-1500-personas.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/K26KCW54FRMP5IX2DW5H7EM74M.jpg?auth=73a35e027fc136bf8cdac04ec20c8998e4a6a5dbb7804aa6909a7794975ad753"
         },
         {
-          "title": "La infanta Margarita, hermana de Juan Carlos, está hospitalizada por una infección",
+          "title": "Canarias rescata a 1.580 migrantes en un solo día, la cifra más alta de su historia",
           "source": "El Correo",
-          "publishedAt": "2026-11-15T12:25:17.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/infanta-margarita-hermana-juan-carlos-hospitalizada-infeccion-20261115132517-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/rc/www/multimedia/gente-estilo/2026/11/15/154295360-RMcRZDP3HVTEfATMki6envO-1200x840@RC.jpg"
+          "publishedAt": "2026-11-15T16:58:19.000Z",
+          "sourceUrl": "https://www.elcorreo.com/sociedad/canarias-rescata-1580-migrantes-solo-dia-cifra-20261115175819-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         }
       ],
-      "path": "/es/entity/la-infanta-margarita-hermana-del-rey-juan-carlos-ingresada-en-la-uci-por-una-inf/"
+      "path": "/es/entity/canarias-rescata-a-1-580-migrantes-en-un-solo-dia-la-cifra-mas-alta-de-su-histor/"
+    },
+    {
+      "id": "fading-cluster-españa-feijoo + pais",
+      "title": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país»",
+      "brief": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país».",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "6h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo-Ri8PJSFBojAbVloZc399kQJ-1200x840@Diario%20Vasco.png"
+      ],
+      "evidence": [
+        {
+          "title": "El error del PP con la ikurriña en un vídeo de Feijóo",
+          "source": "El Correo",
+          "publishedAt": "2026-11-15T17:18:02.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/error-pp-ikurrina-video-feijoo-20261115181719-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país»",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-15T16:34:39.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/pp-vasco-difunde-video-feijoo-ikurrina-mal-20261115173438-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo-Ri8PJSFBojAbVloZc399kQJ-1200x840@Diario%20Vasco.png"
+        }
+      ],
+      "path": "/es/entity/el-pp-vasco-difunde-un-video-de-feijoo-con-una-ikurrina-mal-dibujada-y-el-pnv-ce/"
+    },
+    {
+      "id": "fading-cluster-españa-programa + psoe",
+      "title": "Claves | De un nuevo impuesto a los grandes empresarios a la “unión de la amistad”: el programa del PSOE para el 29-N",
+      "brief": "Claves | De un nuevo impuesto a los grandes empresarios a la “unión de la amistad”: el programa del PSOE para el 29-N.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "6h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/P5JEXFMDJNNKPBHYHT5JQEDK2U.jpg?auth=cab900d8581ac729dc8e74a4aba0eac0137ab0bbfb58c95e1a8ba3af44946dc8"
+      ],
+      "evidence": [
+        {
+          "title": "Claves | De un nuevo impuesto a los grandes empresarios a la “unión de la amistad”: el programa del PSOE para el 29-N",
+          "source": "El País",
+          "publishedAt": "2026-11-15T16:48:47.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-15/claves-de-un-nuevo-impuesto-a-los-grandes-empresarios-a-la-union-de-la-amistad-el-programa-del-psoe-para-el-29-n.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/P5JEXFMDJNNKPBHYHT5JQEDK2U.jpg?auth=cab900d8581ac729dc8e74a4aba0eac0137ab0bbfb58c95e1a8ba3af44946dc8"
+        },
+        {
+          "title": "El programa del PSOE: varias medidas de Sumar y un pellizco de mano dura con la 'okupación'",
+          "source": "El Correo",
+          "publishedAt": "2026-11-15T16:26:32.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/programa-psoe-varias-medidas-sumar-pellizco-mano-20261115172631-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/claves-de-un-nuevo-impuesto-a-los-grandes-empresarios-a-la-union-de-la-amistad-e/"
     }
   ]
 }
