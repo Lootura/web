@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-15T01:00:48.308Z",
+  "updatedAt": "2026-11-15T02:00:48.470Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "238,764 links analyzed",
-  "dayScanLabel": "5,989 links scanned in 24h",
+  "ambientPulseLabel": "239,361 links analyzed",
+  "dayScanLabel": "5,987 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -25,9 +25,9 @@
     "mode": "now",
     "state": "rising",
     "stateLabel": "Hot",
-    "strength": 42,
-    "sourceCount": 8,
-    "itemCount": 17,
+    "strength": 44,
+    "sourceCount": 9,
+    "itemCount": 18,
     "freshness": "fresh now",
     "alertLevel": "hot",
     "alertLabel": "Hot alert",
@@ -39,20 +39,34 @@
     ],
     "isHotNews": true,
     "sources": [
-      "ABC News",
+      "The Guardian US",
+      "NPR",
       "CBS News",
       "The Verge",
-      "NPR",
       "NBC News"
     ],
     "images": [
-      "https://s.abcnews.com/images/Politics/airport-01-gty-jt-261114_1794673206544_hpMain_4x3t_384.jpg",
-      "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/14/4fc2fc1f-9518-4125-b6bb-75ad8b3e4e7d/thumbnail/1200x630/76d70ccf10ae30fc1b6818be02385af3/cbsn-fusion-everything-went-haywire-aviation-industry-expert-says-thumbnail.jpg",
+      "https://i.guim.co.uk/img/media/87e181df818101a240e84a98ad53877ebf43d8de/188_0_4560_3648/master/4560.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e679d6bf2273d3fcf17f3bd2be6712ab",
+      "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1024x683!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F81%2Fb5%2F30886ed245579f651c8eea629e9a%2Fgettyimages-2305144013.jpg",
       "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/14/2527384a-1d41-4fa4-acf7-042f246ef27f/thumbnail/1200x630/529a0790a49ccee2ec4eba2653312d54/cbsn-fusion-how-to-get-a-refund-amid-air-travel-chaos-thumbnail.jpg",
-      "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-fiberoptics-hzkb/13faa-groundstop-fiberoptics-hzkb-mediumSquareAt3X.jpg",
-      "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6040942"
+      "https://s.abcnews.com/images/Politics/airport-01-gty-jt-261114_1794673206544_hpMain_4x3t_384.jpg",
+      "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-fiberoptics-hzkb/13faa-groundstop-fiberoptics-hzkb-mediumSquareAt3X.jpg"
     ],
     "evidence": [
+      {
+        "title": "NFL referee faces 112-mile dash on double-duty Sunday after FAA ground stop",
+        "source": "The Guardian US",
+        "publishedAt": "2026-11-15T01:26:32.000Z",
+        "sourceUrl": "https://www.theguardian.com/sport/2026/nov/14/nfl-referee-two-games-faa-ground-stop-sports-travel-disruption?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://i.guim.co.uk/img/media/87e181df818101a240e84a98ad53877ebf43d8de/188_0_4560_3648/master/4560.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e679d6bf2273d3fcf17f3bd2be6712ab"
+      },
+      {
+        "title": "FAA ground stop disrupts college football",
+        "source": "NPR",
+        "publishedAt": "2026-11-15T01:13:59.000Z",
+        "sourceUrl": "https://www.npr.org/2026/11/14/nx-s1-6041115/faa-ground-stop-college-football-delays?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1024x683!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F81%2Fb5%2F30886ed245579f651c8eea629e9a%2Fgettyimages-2305144013.jpg"
+      },
       {
         "title": "How travelers can navigate trips as ground stop effects linger, expert says",
         "source": "ABC News",
@@ -73,20 +87,6 @@
         "publishedAt": "2026-11-14T22:48:38.000Z",
         "sourceUrl": "https://www.npr.org/2026/11/14/nx-s1-6040942/maintenance-gone-awry-caused-nation-wide-ground-stop-says-transportation-secretary?utm_source=lootura.com&ref=lootura.com",
         "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6040942"
-      },
-      {
-        "title": "Trump Kept Out of Sight as F.A.A. Issued Flight Ground Stop",
-        "source": "The New York Times Politics",
-        "publishedAt": "2026-11-14T22:10:42.000Z",
-        "sourceUrl": "https://www.nytimes.com/2026/11/14/us/politics/trump-flights-air-traffic-social-media.html?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14dc-trump-topart-02-wkqg/14dc-trump-topart-02-wkqg-mediumSquareAt3X.jpg"
-      },
-      {
-        "title": "How Some Flights Were Exempt From the Ground Stop",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-14T20:21:13.000Z",
-        "sourceUrl": "https://www.nytimes.com/2026/11/14/business/faa-ground-stop-exceptions-airlines.html?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14xp-airlines-explainer-topart-kmpz/14xp-airlines-explainer-topart-kmpz-mediumSquareAt3X.jpg"
       }
     ],
     "path": "/us/entity/aviation-industry-expert-on-next-steps-after-everything-went-haywire-with-huge-g/"
@@ -101,9 +101,9 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Hot",
-      "strength": 42,
-      "sourceCount": 8,
-      "itemCount": 17,
+      "strength": 44,
+      "sourceCount": 9,
+      "itemCount": 18,
       "freshness": "fresh now",
       "alertLevel": "hot",
       "alertLabel": "Hot alert",
@@ -115,20 +115,34 @@
       ],
       "isHotNews": true,
       "sources": [
-        "ABC News",
+        "The Guardian US",
+        "NPR",
         "CBS News",
         "The Verge",
-        "NPR",
         "NBC News"
       ],
       "images": [
-        "https://s.abcnews.com/images/Politics/airport-01-gty-jt-261114_1794673206544_hpMain_4x3t_384.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/14/4fc2fc1f-9518-4125-b6bb-75ad8b3e4e7d/thumbnail/1200x630/76d70ccf10ae30fc1b6818be02385af3/cbsn-fusion-everything-went-haywire-aviation-industry-expert-says-thumbnail.jpg",
+        "https://i.guim.co.uk/img/media/87e181df818101a240e84a98ad53877ebf43d8de/188_0_4560_3648/master/4560.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e679d6bf2273d3fcf17f3bd2be6712ab",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1024x683!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F81%2Fb5%2F30886ed245579f651c8eea629e9a%2Fgettyimages-2305144013.jpg",
         "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/14/2527384a-1d41-4fa4-acf7-042f246ef27f/thumbnail/1200x630/529a0790a49ccee2ec4eba2653312d54/cbsn-fusion-how-to-get-a-refund-amid-air-travel-chaos-thumbnail.jpg",
-        "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-fiberoptics-hzkb/13faa-groundstop-fiberoptics-hzkb-mediumSquareAt3X.jpg",
-        "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6040942"
+        "https://s.abcnews.com/images/Politics/airport-01-gty-jt-261114_1794673206544_hpMain_4x3t_384.jpg",
+        "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-fiberoptics-hzkb/13faa-groundstop-fiberoptics-hzkb-mediumSquareAt3X.jpg"
       ],
       "evidence": [
+        {
+          "title": "NFL referee faces 112-mile dash on double-duty Sunday after FAA ground stop",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-15T01:26:32.000Z",
+          "sourceUrl": "https://www.theguardian.com/sport/2026/nov/14/nfl-referee-two-games-faa-ground-stop-sports-travel-disruption?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/87e181df818101a240e84a98ad53877ebf43d8de/188_0_4560_3648/master/4560.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e679d6bf2273d3fcf17f3bd2be6712ab"
+        },
+        {
+          "title": "FAA ground stop disrupts college football",
+          "source": "NPR",
+          "publishedAt": "2026-11-15T01:13:59.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/14/nx-s1-6041115/faa-ground-stop-college-football-delays?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1024x683!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F81%2Fb5%2F30886ed245579f651c8eea629e9a%2Fgettyimages-2305144013.jpg"
+        },
         {
           "title": "How travelers can navigate trips as ground stop effects linger, expert says",
           "source": "ABC News",
@@ -149,20 +163,6 @@
           "publishedAt": "2026-11-14T22:48:38.000Z",
           "sourceUrl": "https://www.npr.org/2026/11/14/nx-s1-6040942/maintenance-gone-awry-caused-nation-wide-ground-stop-says-transportation-secretary?utm_source=lootura.com&ref=lootura.com",
           "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6040942"
-        },
-        {
-          "title": "Trump Kept Out of Sight as F.A.A. Issued Flight Ground Stop",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-14T22:10:42.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/14/us/politics/trump-flights-air-traffic-social-media.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14dc-trump-topart-02-wkqg/14dc-trump-topart-02-wkqg-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "How Some Flights Were Exempt From the Ground Stop",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-14T20:21:13.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/14/business/faa-ground-stop-exceptions-airlines.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14xp-airlines-explainer-topart-kmpz/14xp-airlines-explainer-topart-kmpz-mediumSquareAt3X.jpg"
         }
       ],
       "path": "/us/entity/aviation-industry-expert-on-next-steps-after-everything-went-haywire-with-huge-g/"
@@ -176,10 +176,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 27,
+      "strength": 28,
       "sourceCount": 5,
       "itemCount": 5,
-      "freshness": "2h fresh",
+      "freshness": "1h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -190,20 +190,27 @@
       ],
       "isHotNews": false,
       "sources": [
+        "The New York Times",
         "CBS News",
         "PBS NewsHour",
         "The Verge",
-        "NPR",
-        "ABC News"
+        "NPR"
       ],
       "images": [
+        "https://static01.nyt.com/images/2026/11/14/multimedia/14starship-header-01-vgzq/14starship-header-01-vgzq-mediumSquareAt3X.jpg",
         "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/14/61d3debe-ec5c-4680-8b32-df4e75a3453c/thumbnail/1200x630/1a78532b38191434e5358177e2d821d6/121426-entry1.jpg",
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-14T212916Z_181005512_RC2XNOANPI19_RTRMADP_3_SPACE-SPACEX-STARSHIP-1024x683.jpg",
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/52822624215_2e5d62e50a_o.jpg?quality=90&strip=all&crop=0,0,100,100",
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8068x5379+0+0/resize/8068x5379!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1a%2F90%2Fff5836a94be4aff14474cce4144c%2Fstarship.jpg",
-        "https://i.abcnewsfe.com/a/72248bdf-18c8-4c3f-9ce5-312c6c6564ce/wirestory_df394c1b5a0f85e11194f9ff7db9ee6b_16x9.jpg?w=1600"
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/52822624215_2e5d62e50a_o.jpg?quality=90&strip=all&crop=0,13.419374014038,100,73.161251971924",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8068x5379+0+0/resize/8068x5379!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1a%2F90%2Fff5836a94be4aff14474cce4144c%2Fstarship.jpg"
       ],
       "evidence": [
+        {
+          "title": "SpaceX Makes History With Successful Rocket Catch in Texas",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-15T00:36:32.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/14/science/spacex-starship-first-catch.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14starship-header-01-vgzq/14starship-header-01-vgzq-mediumSquareAt3X.jpg"
+        },
         {
           "title": "SpaceX pulls off dramatic midair catch of Starship rocket after fiery plunge from orbit",
           "source": "CBS News",
@@ -223,7 +230,7 @@
           "source": "The Verge",
           "publishedAt": "2026-11-14T21:44:44.000Z",
           "sourceUrl": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/52822624215_2e5d62e50a_o.jpg?quality=90&strip=all&crop=0,0,100,100"
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/52822624215_2e5d62e50a_o.jpg?quality=90&strip=all&crop=0,13.419374014038,100,73.161251971924"
         },
         {
           "title": "SpaceX successfully catches Starship and makes history",
@@ -231,30 +238,23 @@
           "publishedAt": "2026-11-14T21:42:41.000Z",
           "sourceUrl": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history?utm_source=lootura.com&ref=lootura.com",
           "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8068x5379+0+0/resize/8068x5379!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1a%2F90%2Fff5836a94be4aff14474cce4144c%2Fstarship.jpg"
-        },
-        {
-          "title": "SpaceX’s Starship returns from orbit, caught by launch pad arms in dramatic first",
-          "source": "ABC News",
-          "publishedAt": "2026-11-14T21:32:00.000Z",
-          "sourceUrl": "https://abcnews.com/Technology/wireStory/spacexs-starship-returns-orbit-captured-launch-pad-arms-138148467?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.abcnewsfe.com/a/72248bdf-18c8-4c3f-9ce5-312c6c6564ce/wirestory_df394c1b5a0f85e11194f9ff7db9ee6b_16x9.jpg?w=1600"
         }
       ],
       "path": "/us/entity/spacex-s-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dra/"
     },
     {
-      "id": "now-cluster-united states-democrat + jonathan",
-      "title": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
-      "brief": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican.",
+      "id": "now-cluster-united states-alaska + ranked",
+      "title": "Why Mary Peltola is on track to win in Alaska, even if ranked choice ballots come into play",
+      "brief": "Why Mary Peltola is on track to win in Alaska, even if ranked choice ballots come into play.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 25,
-      "sourceCount": 6,
-      "itemCount": 8,
-      "freshness": "4h fresh",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 22,
+      "sourceCount": 5,
+      "itemCount": 7,
+      "freshness": "5h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -315,7 +315,7 @@
           "image": "https://static01.nyt.com/images/2026/11/13/us/00pol-alaska-no-call-HFO/00pol-alaska-no-call-HFO-mediumSquareAt3X.jpg"
         }
       ],
-      "path": "/us/entity/democrat-jonathan-kreiss-tomkins-wins-race-for-alaska-governor-replaces-a-republ/"
+      "path": "/us/entity/why-mary-peltola-is-on-track-to-win-in-alaska-even-if-ranked-choice-ballots-come/"
     },
     {
       "id": "now-cluster-united states-here + lost",
@@ -326,10 +326,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 70,
@@ -365,53 +365,6 @@
       "path": "/us/entity/the-u-s-has-lost-measles-elimination-status-here-s-what-that-means-and-who-is-mo/"
     },
     {
-      "id": "moving-cluster-united states-authorities + bomb",
-      "title": "Authorities investigate 'credible' bomb threat at Illinois plant",
-      "brief": "Authorities investigate 'credible' bomb threat at Illinois plant.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "ABC News",
-        "NPR"
-      ],
-      "images": [
-        "https://s.abcnews.com/images/US/illinois-bomb-threat-ht-jt-261114_1794668219374_hpMain_4x3t_384.jpg",
-        "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=g-s1-153781"
-      ],
-      "evidence": [
-        {
-          "title": "Authorities investigate 'credible' bomb threat at Illinois plant",
-          "source": "ABC News",
-          "publishedAt": "2026-11-14T20:50:59.000Z",
-          "sourceUrl": "https://abcnews.com/US/peoria-police-urge-evacuations-after-reported-bomb-threat/story?id=138137440&utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s.abcnews.com/images/US/illinois-bomb-threat-ht-jt-261114_1794668219374_hpMain_4x3t_384.jpg"
-        },
-        {
-          "title": "Bomb found near ethanol plant in central Illinois forces evacuations",
-          "source": "NPR",
-          "publishedAt": "2026-11-14T20:12:34.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/14/g-s1-153781/bomb-ethanol-plant-peoria-illinois-evacuations?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=g-s1-153781"
-        }
-      ],
-      "path": "/us/entity/authorities-investigate-credible-bomb-threat-at-illinois-plant/"
-    },
-    {
       "id": "moving-cluster-united states-million + orleans",
       "title": "Port of New Orleans sues tanker that hit riverboat cruise for $1 million in repair costs",
       "brief": "Port of New Orleans sues tanker that hit riverboat cruise for $1 million in repair costs.",
@@ -420,10 +373,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 70,
