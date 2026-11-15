@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-15T08:00:47.955Z",
-  "pulseLabel": "Último análisis · hace 1 hora",
-  "ambientPulseLabel": "221.728 enlaces analizados",
-  "dayScanLabel": "4.200 enlaces escaneados en 24h",
+  "updatedAt": "2026-11-15T10:00:48.239Z",
+  "pulseLabel": "Último análisis · este minuto",
+  "ambientPulseLabel": "222.150 enlaces analizados",
+  "dayScanLabel": "4.202 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,21 +19,21 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-millones + euskadi",
-      "title": "Euskadi recauda 700 millones en los últimos años por no ajustar el IRPF a la subida del IPC",
-      "brief": "Euskadi recauda 700 millones en los últimos años por no ajustar el IRPF a la subida del IPC.",
+      "id": "now-cluster-españa-hace + millones",
+      "title": "La Hacienda vasca hace caja con la inflación en los últimos años: ha recaudado 700 millones por no ajustar el IRPF",
+      "brief": "La Hacienda vasca hace caja con la inflación en los últimos años: ha recaudado 700 millones por no ajustar el IRPF.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -60,7 +60,7 @@
           "image": ""
         }
       ],
-      "path": "/es/entity/euskadi-recauda-700-millones-en-los-ultimos-anos-por-no-ajustar-el-irpf-a-la-sub/"
+      "path": "/es/entity/la-hacienda-vasca-hace-caja-con-la-inflacion-en-los-ultimos-anos-ha-recaudado-70/"
     },
     {
       "id": "now-cluster-españa-gorka + urbizu",
@@ -69,18 +69,17 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 6,
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "8h fresca",
+      "freshness": "10h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 54,
+      "alertScore": 46,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
@@ -114,10 +113,10 @@
       "strength": 6,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "11h fresca",
+      "freshness": "13h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 49,
+      "alertScore": 44,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido"
