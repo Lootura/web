@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-15T19:00:48.069Z",
+  "updatedAt": "2026-11-15T20:00:48.138Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "225.935 enlaces analizados",
-  "dayScanLabel": "4.207 enlaces escaneados en 24h",
+  "ambientPulseLabel": "226.354 enlaces analizados",
+  "dayScanLabel": "4.204 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,21 +19,21 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-feijoo + sanchez",
+      "id": "moving-cluster-españa-feijoo + electoral",
       "title": "Feijóo se dirige a Sánchez tras la agresión al candidato del PP en Guipúzcoa: \"Dígale a sus socios que no violenten la campaña\"",
       "brief": "Feijóo se dirige a Sánchez tras la agresión al candidato del PP en Guipúzcoa: \"Dígale a sus socios que no violenten la campaña\".",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 27,
-      "sourceCount": 4,
-      "itemCount": 6,
-      "freshness": "fresca ahora",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 99,
+      "alertScore": 96,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -43,20 +43,18 @@
       "sources": [
         "El País",
         "El Mundo",
-        "El Diario Vasco",
         "El Correo"
       ],
       "images": [
         "https://imagenes.elpais.com/resizer/v2/PIEAM3URUZFJVP7IGB5WOVRTC4.jpg?auth=e3fdbc53e19fa6ba8e8ec0ee5f09c1ea17415bc91a74c214b161ebe5e0918989",
         "https://imagenes.elpais.com/resizer/v2/3KC3R2PXQVJORJWRQI64F27QCQ.jpg?auth=f8e0aab6d09659cae931b2105a57747d27aebd16c2db415fdfaee1a8f8cf7d9c",
-        "https://e01-phantom-elmundo.uecdn.es/24626a1a36d496c065b89d9278df5e9a/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/15/17947474749718.jpg",
-        "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo1212-kvKC-U40360595120dJI-1200x840@Diario%20Vasco.jpg"
+        "https://e01-phantom-elmundo.uecdn.es/24626a1a36d496c065b89d9278df5e9a/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/15/17947474749718.jpg"
       ],
       "evidence": [
         {
           "title": "Feijóo hará campaña en Guipuzkoa tras la agresión a jóvenes de Nuevas Generaciones en Hernani",
           "source": "El País",
-          "publishedAt": "2026-11-15T18:45:56.000Z",
+          "publishedAt": "2026-11-15T18:48:56.000Z",
           "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-15/feijoo-hara-campana-en-guipuzcoa-tras-la-agresion-a-jovenes-de-nuevas-generaciones-en-hernani.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://imagenes.elpais.com/resizer/v2/PIEAM3URUZFJVP7IGB5WOVRTC4.jpg?auth=e3fdbc53e19fa6ba8e8ec0ee5f09c1ea17415bc91a74c214b161ebe5e0918989"
         },
@@ -73,13 +71,6 @@
           "publishedAt": "2026-11-15T12:58:42.000Z",
           "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/15/6af98b45fdddff16668b457e.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://e01-phantom-elmundo.uecdn.es/24626a1a36d496c065b89d9278df5e9a/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/15/17947474749718.jpg"
-        },
-        {
-          "title": "Feijóo altera su agenda para ir este martes a Gipuzkoa tras el ataque en Hernani",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-15T12:56:09.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/feijoo-altera-agenda-martes-gipuzkoa-tras-ataque-20261115135609-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo1212-kvKC-U40360595120dJI-1200x840@Diario%20Vasco.jpg"
         },
         {
           "title": "Sánchez vuelve a agitar la bandera de España en campaña electoral: «¡Es la de la Constitución, la de los derechos!»",
@@ -103,7 +94,7 @@
       "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "1h fresca",
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 92,
@@ -126,7 +117,7 @@
         {
           "title": "Estonia cerrará en diciembre su frontera con Rusia tras acusar al Kremlin de un intento de sabotaje",
           "source": "El País",
-          "publishedAt": "2026-11-15T17:58:58.000Z",
+          "publishedAt": "2026-11-15T19:33:26.000Z",
           "sourceUrl": "https://elpais.com/internacional/2026-11-15/estonia-se-prepara-para-cerrar-en-diciembre-su-frontera-con-rusia-tras-un-presunto-intento-de-sabotaje.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://imagenes.elpais.com/resizer/v2/NDWJR4P6SBGHTBXYJZJZRA2NDE.jpg?auth=42f10fbacd169263a1b482d5ce463e13679a958003335dc00c757be0fb936e62"
         },
@@ -148,18 +139,18 @@
       "path": "/es/entity/estonia-cerrara-en-diciembre-su-frontera-con-rusia-tras-acusar-al-kremlin-de-un/"
     },
     {
-      "id": "moving-cluster-españa-jodar + zverev",
-      "title": "Zverev, demasiado Zverev para un aguerrido Jódar",
-      "brief": "Zverev, demasiado Zverev para un aguerrido Jódar.",
+      "id": "now-cluster-españa-feijoo + gipuzkoa",
+      "title": "Feijóo altera su agenda para ir este martes a Gipúzcoa tras el intento de agresión a Jon Echeverría en Hernani",
+      "brief": "Feijóo altera su agenda para ir este martes a Gipúzcoa tras el intento de agresión a Jon Echeverría en Hernani.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "2h fresca",
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 79,
@@ -171,39 +162,86 @@
       "isHotNews": false,
       "sources": [
         "El Correo",
-        "El País"
+        "El Diario Vasco"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/6PUAYZKJ5VFTVCPWWL4W77U5HM.jpg?auth=316d5fbe4962562f6d1459564e6484ba65e982e984d12fc552ceae6f12dc33a2",
-        "https://s1.ppllstatics.com/rc/www/multimedia/deportes/2026/11/15/image-RBohnqXbTuzajEZn8ahFujN-1200x840@RC.png"
+        "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo1212-kvKC-U40360595120dJI-1200x840@Diario%20Vasco.jpg",
+        "https://s3.ppllstatics.com/rc/www/multimedia/nacional/2026/11/15/DAMBin%20(25)-RKWye96IyTlsAFHbSxyUeHI-1200x840@RC.jpg"
       ],
       "evidence": [
         {
-          "title": "Zverev, sin piedad contra Jódar",
+          "title": "Feijóo cambia su agenda para viajar a Gipuzkoa tras el ataque a su candidato",
           "source": "El Correo",
-          "publishedAt": "2026-11-15T16:31:46.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/tenis/cronica-zverev-jodar-20261115155205-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-15T19:26:08.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/feijoo-cambia-agenda-viajar-gipuzkoa-tras-ataque-20261115202608-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
         {
-          "title": "Zverev, demasiado Zverev para un aguerrido Jódar",
-          "source": "El País",
-          "publishedAt": "2026-11-15T15:35:46.000Z",
-          "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-15/zverev-demasiado-zverev-para-jodar.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/6PUAYZKJ5VFTVCPWWL4W77U5HM.jpg?auth=316d5fbe4962562f6d1459564e6484ba65e982e984d12fc552ceae6f12dc33a2"
+          "title": "Feijóo altera su agenda para ir este martes a Gipuzkoa tras el ataque en Hernani",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-15T12:56:09.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/feijoo-altera-agenda-martes-gipuzkoa-tras-ataque-20261115135609-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo1212-kvKC-U40360595120dJI-1200x840@Diario%20Vasco.jpg"
         },
         {
-          "title": "Así hemos narrado la derrota de Jódar ante Zverev",
+          "title": "Feijóo altera su agenda para ir este martes a Gipúzcoa tras el intento de agresión a Jon Echeverría en Hernani",
           "source": "El Correo",
-          "publishedAt": "2026-11-15T13:19:21.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/tenis/directo-zverev-jodar-20261115141921-dirc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/deportes/2026/11/15/image-RBohnqXbTuzajEZn8ahFujN-1200x840@RC.png"
+          "publishedAt": "2026-11-15T12:30:52.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/feijoo-altera-agenda-martes-gipuzcoa-tras-intento-20261115133052-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/nacional/2026/11/15/DAMBin%20(25)-RKWye96IyTlsAFHbSxyUeHI-1200x840@RC.jpg"
         }
       ],
-      "path": "/es/entity/zverev-demasiado-zverev-para-un-aguerrido-jodar/"
+      "path": "/es/entity/feijoo-altera-su-agenda-para-ir-este-martes-a-gipuzcoa-tras-el-intento-de-agresi/"
     },
     {
-      "id": "now-cluster-españa-solo + historia",
+      "id": "now-cluster-españa-donde + inglaterra",
+      "title": "Dónde ver el España – Inglaterra: a qué hora es y en qué canal ver por TV en directo gratis y en vivo online el partido de la Liga de las Naciones hoy",
+      "brief": "Dónde ver el España – Inglaterra: a qué hora es y en qué canal ver por TV en directo gratis y en vivo online el partido de la Liga de las Naciones hoy.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "OK Diario",
+        "El País"
+      ],
+      "images": [
+        "https://okdiario.com/img/2026/11/14/horario-espana-inglaterra-.jpg",
+        "https://imagenes.elpais.com/resizer/v2/ET57RH2RXRPDDKF3QSJLFV7ZIQ.jpg?auth=7a5f54bdad59adb8527b18aee5f6ddea151867a9a1444fd19679728403678d92"
+      ],
+      "evidence": [
+        {
+          "title": "Dónde ver el España – Inglaterra: a qué hora es y en qué canal ver por TV en directo gratis y en vivo online el partido de la Liga de las Naciones hoy",
+          "source": "OK Diario",
+          "publishedAt": "2026-11-15T20:00:22.000Z",
+          "sourceUrl": "https://okdiario.com/deportes/que-hora-juega-espana-inglaterra-horario-donde-ver-tv-directo-gratis-vivo-online-partido-liga-naciones-hoy-20829225?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://okdiario.com/img/2026/11/14/horario-espana-inglaterra-.jpg"
+        },
+        {
+          "title": "España-Inglaterra, en directo, la UEFA Nations League en vivo|Comienza el partido",
+          "source": "El País",
+          "publishedAt": "2026-11-15T19:50:10.000Z",
+          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-15/espana-inglaterra-en-directo-la-uefa-nations-league-en-vivo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/ET57RH2RXRPDDKF3QSJLFV7ZIQ.jpg?auth=7a5f54bdad59adb8527b18aee5f6ddea151867a9a1444fd19679728403678d92"
+        }
+      ],
+      "path": "/es/entity/donde-ver-el-espana-inglaterra-a-que-hora-es-y-en-que-canal-ver-por-tv-en-direct/"
+    },
+    {
+      "id": "now-cluster-españa-rescata + historia",
       "title": "Canarias rescata a 1.580 migrantes en un solo día, la cifra más alta de su historia",
       "brief": "Canarias rescata a 1.580 migrantes en un solo día, la cifra más alta de su historia.",
       "whyItMatters": "",
@@ -234,7 +272,7 @@
         {
           "title": "La ruta migratoria a Canarias bate su récord de llegadas en un solo día con más de 1.500 personas",
           "source": "El País",
-          "publishedAt": "2026-11-15T18:28:12.000Z",
+          "publishedAt": "2026-11-15T19:47:39.000Z",
           "sourceUrl": "https://elpais.com/espana/2026-11-15/la-ruta-migratoria-a-canarias-bate-su-record-de-llegadas-en-un-solo-dia-con-1500-personas.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://imagenes.elpais.com/resizer/v2/K26KCW54FRMP5IX2DW5H7EM74M.jpg?auth=73a35e027fc136bf8cdac04ec20c8998e4a6a5dbb7804aa6909a7794975ad753"
         },
@@ -249,18 +287,64 @@
       "path": "/es/entity/canarias-rescata-a-1-580-migrantes-en-un-solo-dia-la-cifra-mas-alta-de-su-histor/"
     },
     {
-      "id": "now-cluster-españa-rory + mcilroy",
+      "id": "moving-cluster-españa-sergio + ramirez",
+      "title": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”",
+      "brief": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/ZFZSHVNXXNFUNBFYQRMOKU4OYA.jpg?auth=4adf0b8abde03a4c48cacdf9b650da7f4a90b05a07b60415d77f1d6830f97527"
+      ],
+      "evidence": [
+        {
+          "title": "Sergio Ramírez sucede en la RAE al «novelista ecuménico» Mario Vargas Llosa",
+          "source": "El Correo",
+          "publishedAt": "2026-11-15T19:20:34.000Z",
+          "sourceUrl": "https://www.elcorreo.com/culturas/sergio-ramirez-sucede-rae-novelista-ecumenico-mario-20261113202034-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”",
+          "source": "El País",
+          "publishedAt": "2026-11-15T19:11:01.000Z",
+          "sourceUrl": "https://elpais.com/cultura/2026-11-15/sergio-ramirez-ingresa-en-la-rae-perdi-un-pais-pero-nunca-he-sido-extranjero-en-espana.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/ZFZSHVNXXNFUNBFYQRMOKU4OYA.jpg?auth=4adf0b8abde03a4c48cacdf9b650da7f4a90b05a07b60415d77f1d6830f97527"
+        }
+      ],
+      "path": "/es/entity/sergio-ramirez-ingresa-en-la-rae-perdi-un-pais-pero-nunca-he-sido-extranjero-en/"
+    },
+    {
+      "id": "moving-cluster-españa-rory + mcilroy",
       "title": "Rory McIlroy conquista la Race to Dubai ante un gran Eugenio Chacarra",
       "brief": "Rory McIlroy conquista la Race to Dubai ante un gran Eugenio Chacarra.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -304,13 +388,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -342,71 +426,78 @@
       "path": "/es/entity/el-pp-vasco-difunde-un-video-de-feijoo-con-una-ikurrina-mal-dibujada-y-el-pnv-ce/"
     },
     {
-      "id": "moving-cluster-españa-programa + psoe",
-      "title": "Claves | De un nuevo impuesto a los grandes empresarios a la “unión de la amistad”: el programa del PSOE para el 29-N",
-      "brief": "Claves | De un nuevo impuesto a los grandes empresarios a la “unión de la amistad”: el programa del PSOE para el 29-N.",
+      "id": "fading-cluster-españa-ante + jodar",
+      "title": "Así hemos narrado la derrota de Jódar ante Zverev",
+      "brief": "Así hemos narrado la derrota de Jódar ante Zverev.",
       "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 10,
       "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
+      "itemCount": 3,
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 55,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Sigue activo"
+        "Gana volumen rápido"
       ],
       "isHotNews": false,
       "sources": [
-        "El País",
-        "El Correo"
+        "El Correo",
+        "El País"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/P5JEXFMDJNNKPBHYHT5JQEDK2U.jpg?auth=cab900d8581ac729dc8e74a4aba0eac0137ab0bbfb58c95e1a8ba3af44946dc8"
+        "https://imagenes.elpais.com/resizer/v2/6PUAYZKJ5VFTVCPWWL4W77U5HM.jpg?auth=316d5fbe4962562f6d1459564e6484ba65e982e984d12fc552ceae6f12dc33a2",
+        "https://s1.ppllstatics.com/rc/www/multimedia/deportes/2026/11/15/image-RBohnqXbTuzajEZn8ahFujN-1200x840@RC.png"
       ],
       "evidence": [
         {
-          "title": "Claves | De un nuevo impuesto a los grandes empresarios a la “unión de la amistad”: el programa del PSOE para el 29-N",
-          "source": "El País",
-          "publishedAt": "2026-11-15T16:48:47.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-15/claves-de-un-nuevo-impuesto-a-los-grandes-empresarios-a-la-union-de-la-amistad-el-programa-del-psoe-para-el-29-n.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/P5JEXFMDJNNKPBHYHT5JQEDK2U.jpg?auth=cab900d8581ac729dc8e74a4aba0eac0137ab0bbfb58c95e1a8ba3af44946dc8"
+          "title": "Zverev, sin piedad contra Jódar",
+          "source": "El Correo",
+          "publishedAt": "2026-11-15T16:31:46.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/tenis/cronica-zverev-jodar-20261115155205-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
-          "title": "El programa del PSOE: varias medidas de Sumar y un pellizco de mano dura con la 'okupación'",
+          "title": "Zverev, demasiado Zverev para un aguerrido Jódar",
+          "source": "El País",
+          "publishedAt": "2026-11-15T15:35:46.000Z",
+          "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-15/zverev-demasiado-zverev-para-jodar.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/6PUAYZKJ5VFTVCPWWL4W77U5HM.jpg?auth=316d5fbe4962562f6d1459564e6484ba65e982e984d12fc552ceae6f12dc33a2"
+        },
+        {
+          "title": "Así hemos narrado la derrota de Jódar ante Zverev",
           "source": "El Correo",
-          "publishedAt": "2026-11-15T16:26:32.000Z",
-          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/programa-psoe-varias-medidas-sumar-pellizco-mano-20261115172631-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "publishedAt": "2026-11-15T13:19:21.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/tenis/directo-zverev-jodar-20261115141921-dirc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/rc/www/multimedia/deportes/2026/11/15/image-RBohnqXbTuzajEZn8ahFujN-1200x840@RC.png"
         }
       ],
-      "path": "/es/entity/claves-de-un-nuevo-impuesto-a-los-grandes-empresarios-a-la-union-de-la-amistad-e/"
+      "path": "/es/entity/asi-hemos-narrado-la-derrota-de-jodar-ante-zverev/"
     },
     {
-      "id": "moving-cluster-españa-rafa + jodar",
+      "id": "fading-cluster-españa-rafa + jodar",
       "title": "Alexander Zverev no da opción a Rafa Jódar en su estreno como maestro en las ATP Finals",
       "brief": "Alexander Zverev no da opción a Rafa Jódar en su estreno como maestro en las ATP Finals.",
       "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
       "strength": 9,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 73,
+      "alertScore": 55,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
+        "Gana volumen rápido"
       ],
       "isHotNews": false,
       "sources": [
@@ -444,6 +535,51 @@
       "path": "/es/entity/alexander-zverev-no-da-opcion-a-rafa-jodar-en-su-estreno-como-maestro-en-las-atp/"
     },
     {
+      "id": "fading-cluster-españa-programa + psoe",
+      "title": "Claves | De un nuevo impuesto a los grandes empresarios a la “unión de la amistad”: el programa del PSOE para el 29-N",
+      "brief": "Claves | De un nuevo impuesto a los grandes empresarios a la “unión de la amistad”: el programa del PSOE para el 29-N.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "3h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/P5JEXFMDJNNKPBHYHT5JQEDK2U.jpg?auth=cab900d8581ac729dc8e74a4aba0eac0137ab0bbfb58c95e1a8ba3af44946dc8"
+      ],
+      "evidence": [
+        {
+          "title": "Claves | De un nuevo impuesto a los grandes empresarios a la “unión de la amistad”: el programa del PSOE para el 29-N",
+          "source": "El País",
+          "publishedAt": "2026-11-15T16:48:47.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-15/claves-de-un-nuevo-impuesto-a-los-grandes-empresarios-a-la-union-de-la-amistad-el-programa-del-psoe-para-el-29-n.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/P5JEXFMDJNNKPBHYHT5JQEDK2U.jpg?auth=cab900d8581ac729dc8e74a4aba0eac0137ab0bbfb58c95e1a8ba3af44946dc8"
+        },
+        {
+          "title": "El programa del PSOE: varias medidas de Sumar y un pellizco de mano dura con la 'okupación'",
+          "source": "El Correo",
+          "publishedAt": "2026-11-15T16:26:32.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/programa-psoe-varias-medidas-sumar-pellizco-mano-20261115172631-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/claves-de-un-nuevo-impuesto-a-los-grandes-empresarios-a-la-union-de-la-amistad-e/"
+    },
+    {
       "id": "fading-cluster-españa-juan + carlos",
       "title": "La infanta Margarita, hermana del rey Juan Carlos, ingresada en la UCI por una infección",
       "brief": "La infanta Margarita, hermana del rey Juan Carlos, ingresada en la UCI por una infección.",
@@ -452,10 +588,10 @@
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
