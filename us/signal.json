@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-15T07:00:48.037Z",
+  "updatedAt": "2026-11-15T08:00:47.955Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "242,341 links analyzed",
+  "ambientPulseLabel": "242,939 links analyzed",
   "dayScanLabel": "5,968 links scanned in 24h",
   "empty": {
     "title": "No new trends",
@@ -25,10 +25,10 @@
     "mode": "now",
     "state": "rising",
     "stateLabel": "Rising",
-    "strength": 30,
+    "strength": 25,
     "sourceCount": 6,
     "itemCount": 7,
-    "freshness": "2h fresh",
+    "freshness": "3h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -101,10 +101,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 30,
+      "strength": 25,
       "sourceCount": 6,
       "itemCount": 7,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -168,18 +168,18 @@
       "path": "/us/entity/judge-temporarily-blocks-trump-s-plan-to-redevelop-east-potomac-golf-course-in-d/"
     },
     {
-      "id": "now-cluster-united states-ground + trump",
+      "id": "now-cluster-united states-trump + ground",
       "title": "Trump Kept Out of Sight as F.A.A. Issued Flight Ground Stop",
       "brief": "Trump Kept Out of Sight as F.A.A. Issued Flight Ground Stop.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 23,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 22,
       "sourceCount": 5,
       "itemCount": 7,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -243,18 +243,18 @@
       "path": "/us/entity/trump-kept-out-of-sight-as-f-a-a-issued-flight-ground-stop/"
     },
     {
-      "id": "now-cluster-united states-spacex + starship",
+      "id": "moving-cluster-united states-spacex + starship",
       "title": "SpaceX’s Starship returns from orbit and is captured by launch pad arms in a dramatic first",
       "brief": "SpaceX’s Starship returns from orbit and is captured by launch pad arms in a dramatic first.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 20,
+      "strength": 19,
       "sourceCount": 5,
       "itemCount": 5,
-      "freshness": "6h fresh",
+      "freshness": "7h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -318,80 +318,6 @@
       "path": "/us/entity/spacex-s-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dra/"
     },
     {
-      "id": "moving-cluster-united states-ground + stop",
-      "title": "Aviation industry expert on next steps after \"everything went haywire\" with huge ground stop",
-      "brief": "Aviation industry expert on next steps after \"everything went haywire\" with huge ground stop.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 19,
-      "sourceCount": 4,
-      "itemCount": 8,
-      "freshness": "8h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 99,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times Politics",
-        "The New York Times",
-        "PBS NewsHour",
-        "CBS News"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-fiberoptics-hzkb/13faa-groundstop-fiberoptics-hzkb-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/11/14/multimedia/14xp-airlines-explainer-topart-kmpz/14xp-airlines-explainer-topart-kmpz-mediumSquareAt3X.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-14T154424Z_806448108_RC2ONOAFAWZ0_RTRMADP_3_USA-FAA-GROUND-STOP-1024x683.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/14/4fc2fc1f-9518-4125-b6bb-75ad8b3e4e7d/thumbnail/1200x630/76d70ccf10ae30fc1b6818be02385af3/cbsn-fusion-everything-went-haywire-aviation-industry-expert-says-thumbnail.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/14/48251516-015a-4448-90b5-6b554b2187ba/thumbnail/1200x630/afb1a3444e8eb840df3f65a0231cd27b/cbsn-fusion-pilot-former-air-traffic-controller-thumbnail.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Ground Stop Highlights Chronic Vulnerabilities in Air Traffic System",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-14T23:14:32.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/14/us/politics/ground-stop-air-traffic-faa.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-fiberoptics-hzkb/13faa-groundstop-fiberoptics-hzkb-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "How Some Flights Were Exempt From the Ground Stop",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-14T20:21:13.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/14/business/faa-ground-stop-exceptions-airlines.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14xp-airlines-explainer-topart-kmpz/14xp-airlines-explainer-topart-kmpz-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Aviation industry expert on next steps after \"everything went haywire\" with huge ground stop",
-          "source": "CBS News",
-          "publishedAt": "2026-11-14T19:52:49.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/everything-went-haywire-aviation-industry-expert-says/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/14/4fc2fc1f-9518-4125-b6bb-75ad8b3e4e7d/thumbnail/1200x630/76d70ccf10ae30fc1b6818be02385af3/cbsn-fusion-everything-went-haywire-aviation-industry-expert-says-thumbnail.jpg"
-        },
-        {
-          "title": "Pilot, former air traffic controller react to national ground stop",
-          "source": "CBS News",
-          "publishedAt": "2026-11-14T19:40:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/pilot-former-air-traffic-controller/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/14/48251516-015a-4448-90b5-6b554b2187ba/thumbnail/1200x630/afb1a3444e8eb840df3f65a0231cd27b/cbsn-fusion-pilot-former-air-traffic-controller-thumbnail.jpg"
-        },
-        {
-          "title": "Duffy blames national ground stop, travel chaos on aging infrastructure",
-          "source": "CBS News",
-          "publishedAt": "2026-11-14T18:52:41.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/travel-chaos-lingers-after-national-ground-stop/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/us/entity/aviation-industry-expert-on-next-steps-after-everything-went-haywire-with-huge-g/"
-    },
-    {
       "id": "moving-cluster-united states-alaska + mary",
       "title": "Why Mary Peltola is on track to win in Alaska, even if ranked choice ballots come into play",
       "brief": "Why Mary Peltola is on track to win in Alaska, even if ranked choice ballots come into play.",
@@ -403,7 +329,7 @@
       "strength": 18,
       "sourceCount": 5,
       "itemCount": 6,
-      "freshness": "10h fresh",
+      "freshness": "11h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -467,6 +393,80 @@
       "path": "/us/entity/why-mary-peltola-is-on-track-to-win-in-alaska-even-if-ranked-choice-ballots-come/"
     },
     {
+      "id": "moving-cluster-united states-ground + stop",
+      "title": "Aviation industry expert on next steps after \"everything went haywire\" with huge ground stop",
+      "brief": "Aviation industry expert on next steps after \"everything went haywire\" with huge ground stop.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 18,
+      "sourceCount": 4,
+      "itemCount": 7,
+      "freshness": "9h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times Politics",
+        "The New York Times",
+        "PBS NewsHour",
+        "CBS News"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-fiberoptics-hzkb/13faa-groundstop-fiberoptics-hzkb-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/14/multimedia/14xp-airlines-explainer-topart-kmpz/14xp-airlines-explainer-topart-kmpz-mediumSquareAt3X.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-14T154424Z_806448108_RC2ONOAFAWZ0_RTRMADP_3_USA-FAA-GROUND-STOP-1024x683.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/14/4fc2fc1f-9518-4125-b6bb-75ad8b3e4e7d/thumbnail/1200x630/76d70ccf10ae30fc1b6818be02385af3/cbsn-fusion-everything-went-haywire-aviation-industry-expert-says-thumbnail.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/14/48251516-015a-4448-90b5-6b554b2187ba/thumbnail/1200x630/afb1a3444e8eb840df3f65a0231cd27b/cbsn-fusion-pilot-former-air-traffic-controller-thumbnail.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Ground Stop Highlights Chronic Vulnerabilities in Air Traffic System",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-14T23:14:32.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/14/us/politics/ground-stop-air-traffic-faa.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13faa-groundstop-fiberoptics-hzkb/13faa-groundstop-fiberoptics-hzkb-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "How Some Flights Were Exempt From the Ground Stop",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-14T20:21:13.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/14/business/faa-ground-stop-exceptions-airlines.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14xp-airlines-explainer-topart-kmpz/14xp-airlines-explainer-topart-kmpz-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Aviation industry expert on next steps after \"everything went haywire\" with huge ground stop",
+          "source": "CBS News",
+          "publishedAt": "2026-11-14T19:52:49.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/everything-went-haywire-aviation-industry-expert-says/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/14/4fc2fc1f-9518-4125-b6bb-75ad8b3e4e7d/thumbnail/1200x630/76d70ccf10ae30fc1b6818be02385af3/cbsn-fusion-everything-went-haywire-aviation-industry-expert-says-thumbnail.jpg"
+        },
+        {
+          "title": "Pilot, former air traffic controller react to national ground stop",
+          "source": "CBS News",
+          "publishedAt": "2026-11-14T19:40:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/pilot-former-air-traffic-controller/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/14/48251516-015a-4448-90b5-6b554b2187ba/thumbnail/1200x630/afb1a3444e8eb840df3f65a0231cd27b/cbsn-fusion-pilot-former-air-traffic-controller-thumbnail.jpg"
+        },
+        {
+          "title": "Duffy blames national ground stop, travel chaos on aging infrastructure",
+          "source": "CBS News",
+          "publishedAt": "2026-11-14T18:52:41.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/travel-chaos-lingers-after-national-ground-stop/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/us/entity/aviation-industry-expert-on-next-steps-after-everything-went-haywire-with-huge-g/"
+    },
+    {
       "id": "moving-cluster-united states-tanker + orleans",
       "title": "New Orleans port sues to get control of tanker that crashed into cruise ship on Mississippi River",
       "brief": "New Orleans port sues to get control of tanker that crashed into cruise ship on Mississippi River.",
@@ -478,7 +478,7 @@
       "strength": 13,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "9h fresh",
+      "freshness": "10h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 80,
@@ -524,6 +524,53 @@
       "path": "/us/entity/new-orleans-port-sues-to-get-control-of-tanker-that-crashed-into-cruise-ship-on/"
     },
     {
+      "id": "now-cluster-united states-copa + airlines",
+      "title": "UPS cargo plane, Copa Airlines passenger jet collide at Miami airport, leaving 2 injured",
+      "brief": "UPS cargo plane, Copa Airlines passenger jet collide at Miami airport, leaving 2 injured.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "Fox News",
+        "ABC News"
+      ],
+      "images": [
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/ups-copa-airlines-miami-airport-collision.jpg",
+        "https://s.abcnews.com/images/US/miami-airport_1794717443700_hpMain_4x3t_384.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "UPS cargo plane, Copa Airlines passenger jet collide at Miami airport, leaving 2 injured",
+          "source": "Fox News",
+          "publishedAt": "2026-11-15T07:43:15.000Z",
+          "sourceUrl": "https://www.foxnews.com/us/ups-cargo-plane-copa-airlines-passenger-jet-collide-miami-airport-leaving-2-injured?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/ups-copa-airlines-miami-airport-collision.jpg"
+        },
+        {
+          "title": "UPS plane, Copa Airlines flight collide on taxiway at Miami International Airport",
+          "source": "ABC News",
+          "publishedAt": "2026-11-15T06:31:25.000Z",
+          "sourceUrl": "https://abcnews.com/US/ups-plane-copa-airlines-flight-collide-taxiway-miami/story?id=138152923&utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s.abcnews.com/images/US/miami-airport_1794717443700_hpMain_4x3t_384.jpg"
+        }
+      ],
+      "path": "/us/entity/ups-cargo-plane-copa-airlines-passenger-jet-collide-at-miami-airport-leaving-2-i/"
+    },
+    {
       "id": "now-cluster-united states-jensen + huang",
       "title": "‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick",
       "brief": "‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick.",
@@ -535,7 +582,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -549,7 +596,7 @@
         "The New York Times"
       ],
       "images": [
-        "https://i.guim.co.uk/img/media/c688291392ebfaa491e16553c6a42ec3ff3c5b77/0_541_2400_1919/master/2400.jpg?width=140&quality=85&auto=format&fit=max&s=d86f59594943d3e382cf380ea2fd4e71",
+        "https://i.guim.co.uk/img/media/c688291392ebfaa491e16553c6a42ec3ff3c5b77/0_541_2400_1919/master/2400.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ea93f60f04e098da99d11b60a2005e68",
         "https://static01.nyt.com/images/2026/11/14/multimedia/14biz-jensen-support-Huang-vpjh/14biz-jensen-support-Huang-vpjh-mediumSquareAt3X.jpg"
       ],
       "evidence": [
@@ -558,7 +605,7 @@
           "source": "The Guardian US",
           "publishedAt": "2026-11-15T06:00:06.000Z",
           "sourceUrl": "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/c688291392ebfaa491e16553c6a42ec3ff3c5b77/0_541_2400_1919/master/2400.jpg?width=140&quality=85&auto=format&fit=max&s=d86f59594943d3e382cf380ea2fd4e71"
+          "image": "https://i.guim.co.uk/img/media/c688291392ebfaa491e16553c6a42ec3ff3c5b77/0_541_2400_1919/master/2400.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ea93f60f04e098da99d11b60a2005e68"
         },
         {
           "title": "Tech Leaders Rally Behind Jensen Huang",
