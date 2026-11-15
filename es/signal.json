@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-14T23:00:48.137Z",
+  "updatedAt": "2026-11-15T00:00:48.233Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "217.948 enlaces analizados",
+  "ambientPulseLabel": "218.366 enlaces analizados",
   "dayScanLabel": "4.175 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
@@ -19,44 +19,81 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-portugal + cristiano",
-      "title": "Dinamarca golea a Portugal en el arranque de la era post Cristiano Ronaldo",
-      "brief": "Dinamarca golea a Portugal en el arranque de la era post Cristiano Ronaldo.",
+      "id": "now-cluster-españa-igual + luis",
+      "title": "Luis de la Fuente: \"Decidle a Tuchel que en España no hay racismo. Exactamente igual que en Inglaterra\"",
+      "brief": "Luis de la Fuente: \"Decidle a Tuchel que en España no hay racismo. Exactamente igual que en Inglaterra\".",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 3,
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 92,
+      "alertScore": 76,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "La Vanguardia",
+        "Cadena SER",
+        "El Mundo"
+      ],
+      "images": [
+        "https://cadenaser.com/resizer/v2/UPZQTZC4PJGXBB6CTJ75AJ6XUU.jpg?auth=5c0daa1668a4330bd308890212f95b7074a33742a2d633215aafd488cba98b7f&quality=70&width=1200&height=675&smart=true",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/14/17946779687266.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "\"Si no es por Luis de la Fuente, Lamine no estaría en el Metropolitano\"",
+          "source": "Cadena SER",
+          "publishedAt": "2026-11-14T23:42:58.294Z",
+          "sourceUrl": "https://cadenaser.com/nacional/2026/11/14/si-no-es-por-luis-de-la-fuente-lamine-no-estaria-en-el-metropolitano-cadena-ser/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://cadenaser.com/resizer/v2/UPZQTZC4PJGXBB6CTJ75AJ6XUU.jpg?auth=5c0daa1668a4330bd308890212f95b7074a33742a2d633215aafd488cba98b7f&quality=70&width=1200&height=675&smart=true"
+        },
+        {
+          "title": "Luis de la Fuente: \"Decidle a Tuchel que en España no hay racismo. Exactamente igual que en Inglaterra\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-14T18:00:33.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/14/6af88ffa21efa083788b45a0.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/14/17946779687266.jpg"
+        }
+      ],
+      "path": "/es/entity/luis-de-la-fuente-decidle-a-tuchel-que-en-espana-no-hay-racismo-exactamente-igua/"
+    },
+    {
+      "id": "now-cluster-españa-portugal + primera",
+      "title": "Dinamarca golea a Portugal en su primera noche de la era post Cristiano",
+      "brief": "Dinamarca golea a Portugal en su primera noche de la era post Cristiano.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
         "El Mundo",
         "El Correo"
       ],
       "images": [
-        "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/14/6af8db5558722.r_d.1474-946-0.jpeg",
         "https://e01-phantom-elmundo.uecdn.es/2caa9c023e3a52c0e358d0acc463972d/crop/0x0/3072x2048/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/14/17946911528627.jpg"
       ],
       "evidence": [
-        {
-          "title": "Dinamarca golea a Portugal en el arranque de la era post Cristiano Ronaldo",
-          "source": "La Vanguardia",
-          "publishedAt": "2026-11-14T22:13:50.000Z",
-          "sourceUrl": "https://www.lavanguardia.com/deportes/futbol/20261114/11684471/dinamarca-golea-portugal-arranque-post-cristiano-ronaldo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/14/6af8db5558722.r_d.1474-946-0.jpeg"
-        },
         {
           "title": "Dinamarca golea a Portugal en su primera noche de la era post Cristiano",
           "source": "El Mundo",
@@ -72,7 +109,7 @@
           "image": ""
         }
       ],
-      "path": "/es/entity/dinamarca-golea-a-portugal-en-el-arranque-de-la-era-post-cristiano-ronaldo/"
+      "path": "/es/entity/dinamarca-golea-a-portugal-en-su-primera-noche-de-la-era-post-cristiano/"
     },
     {
       "id": "now-cluster-españa-euskal + selekzioa",
@@ -83,13 +120,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 73,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -131,98 +168,7 @@
       "path": "/es/entity/sigue-en-directo-el-minuto-a-minuto-del-euskal-selekzioa/"
     },
     {
-      "id": "now-cluster-españa-real + union",
-      "title": "Un solitario tanto de Aitor Galarza devuelve la sonrisa al Real Unión en el Stadium Gal",
-      "brief": "Un solitario tanto de Aitor Galarza devuelve la sonrisa al Real Unión en el Stadium Gal.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "Cadena SER",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://cadenaser.com/resizer/v2/FOCDS3UAUFEQRKTTMGNPVNMOWE.jpeg?auth=2758d3c70f3c5b3bf5739a09254a6b80b2a8f2f8a81b019b4c5cb94ed065a4eb&width=2048&height=1536&smart=true",
-        "https://s3.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/14/unioinculut-RvWEF036dTbT2b8jnVLkJJN-1200x840@Diario%20Vasco.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "La Cultural cae contra el Real Unión y se asoma al abismo (1-0)",
-          "source": "Cadena SER",
-          "publishedAt": "2026-11-14T22:25:13.000Z",
-          "sourceUrl": "https://cadenaser.com/castillayleon/2026/11/14/la-cultural-cae-contra-el-real-union-y-se-asoma-al-abismo-1-0-radio-leon/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://cadenaser.com/resizer/v2/FOCDS3UAUFEQRKTTMGNPVNMOWE.jpeg?auth=2758d3c70f3c5b3bf5739a09254a6b80b2a8f2f8a81b019b4c5cb94ed065a4eb&width=2048&height=1536&smart=true"
-        },
-        {
-          "title": "Un solitario tanto de Aitor Galarza devuelve la sonrisa al Real Unión en el Stadium Gal",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-14T18:45:55.000Z",
-          "sourceUrl": "https://www.diariovasco.com/deportes/futbol/primera-rfef/solitario-aitor-galarza-devuelve-sonrisa-real-union-20261114194530-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/14/unioinculut-RvWEF036dTbT2b8jnVLkJJN-1200x840@Diario%20Vasco.jpg"
-        }
-      ],
-      "path": "/es/entity/un-solitario-tanto-de-aitor-galarza-devuelve-la-sonrisa-al-real-union-en-el-stad/"
-    },
-    {
-      "id": "now-cluster-españa-sanchez + abascal",
-      "title": "Sánchez llama a una movilización masiva y pide a los «europeístas» frenar a PP y Vox",
-      "brief": "Sánchez llama a una movilización masiva y pide a los «europeístas» frenar a PP y Vox.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "Sánchez llama a una movilización masiva y pide a los «europeístas» frenar a PP y Vox",
-          "source": "El Correo",
-          "publishedAt": "2026-11-14T19:06:24.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/sanchez-llama-movilizacion-masiva-pide-europeistas-frenar-20261114172226-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Sánchez pide “el voto europeísta” para frenar a Abascal",
-          "source": "El País",
-          "publishedAt": "2026-11-14T17:23:22.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-14/sanchez-pide-el-voto-europeista-para-frenar-a-abascal.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/sanchez-llama-a-una-movilizacion-masiva-y-pide-a-los-europeistas-frenar-a-pp-y-v/"
-    },
-    {
-      "id": "moving-cluster-españa-real + sigue",
+      "id": "moving-cluster-españa-sigue + gijon",
       "title": "«No desmayes, sigue luchando», se repetía la joven asesinada en Gijón pese a su «vida complicada»",
       "brief": "«No desmayes, sigue luchando», se repetía la joven asesinada en Gijón pese a su «vida complicada».",
       "whyItMatters": "",
@@ -230,10 +176,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -268,9 +214,9 @@
       "path": "/es/entity/no-desmayes-sigue-luchando-se-repetia-la-joven-asesinada-en-gijon-pese-a-su-vida/"
     },
     {
-      "id": "moving-cluster-españa-contra + petardos",
-      "title": "Lanzan petardos, huevos y piedras contra Jon Echeverría, candidato del PP en Gipuzkoa, en un acto electoral en Hernani",
-      "brief": "Lanzan petardos, huevos y piedras contra Jon Echeverría, candidato del PP en Gipuzkoa, en un acto electoral en Hernani.",
+      "id": "moving-cluster-españa-gipuzkoa + petardos",
+      "title": "El PP cancela su gira de campaña por Gipuzkoa tras el ataque con «petardos, huevos y piedras» en Hernani | El Diario Vasco",
+      "brief": "El PP cancela su gira de campaña por Gipuzkoa tras el ataque con «petardos, huevos y piedras» en Hernani | El Diario Vasco.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
@@ -279,7 +225,7 @@
       "strength": 6,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "9h fresca",
+      "freshness": "10h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 67,
@@ -320,21 +266,21 @@
           "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/14/incidentes-hernani-k4ID-RI7s2gAfFYzJST6jZP2vaLK-1200x840@Diario%20Vasco-DiarioVasco.jpg"
         }
       ],
-      "path": "/es/entity/lanzan-petardos-huevos-y-piedras-contra-jon-echeverria-candidato-del-pp-en-gipuz/"
+      "path": "/es/entity/el-pp-cancela-su-gira-de-campana-por-gipuzkoa-tras-el-ataque-con-petardos-huevos/"
     },
     {
-      "id": "moving-cluster-españa-cambio + eeuu",
+      "id": "moving-cluster-españa-cambio + zelenski",
       "title": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia",
       "brief": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
+      "state": "cooling",
+      "stateLabel": "Bajando",
       "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "8h fresca",
+      "freshness": "9h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -370,21 +316,21 @@
       "path": "/es/entity/zelenski-asegura-que-ee-uu-sugiere-admitir-a-ucrania-en-la-otan-a-cambio-de-entr/"
     },
     {
-      "id": "moving-cluster-españa-aereo + cancelar",
-      "title": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos",
-      "brief": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos.",
+      "id": "now-cluster-españa-sanchez + abascal",
+      "title": "Sánchez llama a una movilización masiva y pide a los «europeístas» frenar a PP y Vox",
+      "brief": "Sánchez llama a una movilización masiva y pide a los «europeístas» frenar a PP y Vox.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "12h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 64,
+      "alertScore": 60,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -392,28 +338,26 @@
       "isHotNews": false,
       "sources": [
         "El Correo",
-        "El Diario Vasco"
+        "El País"
       ],
-      "images": [
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/internacional/2026/11/14/1520250057-kqtC-U403477701620EC-1200x840@Diario%20Vasco.JPG"
-      ],
+      "images": [],
       "evidence": [
         {
-          "title": "EE UU empieza a recuperar el tráfico aéreo tras suspenderlo cuatro horas por seguridad y cancelar 8.200 vuelos",
+          "title": "Sánchez llama a una movilización masiva y pide a los «europeístas» frenar a PP y Vox",
           "source": "El Correo",
-          "publishedAt": "2026-11-14T10:39:45.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/eeuu-paraliza-vuelos-pais-circunstancias-extraordinarias-razones-20261113223753-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-14T19:06:24.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/sanchez-llama-movilizacion-masiva-pide-europeistas-frenar-20261114172226-ntrc.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
         {
-          "title": "Estados Unidos reabre su espacio aéreo tras suspenderlo más de cuatro horas por fallos en las telecomunicaciones y cancelar 6.000 vuelos",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-14T06:11:14.000Z",
-          "sourceUrl": "https://www.diariovasco.com/internacional/eeuu/estados-unidos-reabre-espacio-aereo-vuelos-cancelados-fallo-telecomunicaciones-20261114071047-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/internacional/2026/11/14/1520250057-kqtC-U403477701620EC-1200x840@Diario%20Vasco.JPG"
+          "title": "Sánchez pide “el voto europeísta” para frenar a Abascal",
+          "source": "El País",
+          "publishedAt": "2026-11-14T17:23:22.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-14/sanchez-pide-el-voto-europeista-para-frenar-a-abascal.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         }
       ],
-      "path": "/es/entity/estados-unidos-reabre-su-espacio-aereo-tras-suspenderlo-mas-de-cuatro-horas-por/"
+      "path": "/es/entity/sanchez-llama-a-una-movilizacion-masiva-y-pide-a-los-europeistas-frenar-a-pp-y-v/"
     }
   ]
 }
