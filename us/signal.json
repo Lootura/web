@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-15T02:00:48.470Z",
+  "updatedAt": "2026-11-15T03:00:48.715Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "239,361 links analyzed",
-  "dayScanLabel": "5,987 links scanned in 24h",
+  "ambientPulseLabel": "239,957 links analyzed",
+  "dayScanLabel": "5,982 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -28,7 +28,7 @@
     "strength": 44,
     "sourceCount": 9,
     "itemCount": 18,
-    "freshness": "fresh now",
+    "freshness": "2h fresh",
     "alertLevel": "hot",
     "alertLabel": "Hot alert",
     "alertScore": 99,
@@ -104,7 +104,7 @@
       "strength": 44,
       "sourceCount": 9,
       "itemCount": 18,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "hot",
       "alertLabel": "Hot alert",
       "alertScore": 99,
@@ -168,9 +168,9 @@
       "path": "/us/entity/aviation-industry-expert-on-next-steps-after-everything-went-haywire-with-huge-g/"
     },
     {
-      "id": "now-cluster-united states-spacex + starship",
-      "title": "SpaceX’s Starship returns from orbit and is captured by launch pad arms in a dramatic first",
-      "brief": "SpaceX’s Starship returns from orbit and is captured by launch pad arms in a dramatic first.",
+      "id": "now-cluster-united states-trump + judge",
+      "title": "Judge temporarily blocks Trump’s plan to redevelop East Potomac golf course in D.C.",
+      "brief": "Judge temporarily blocks Trump’s plan to redevelop East Potomac golf course in D.C.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -179,7 +179,82 @@
       "strength": 28,
       "sourceCount": 5,
       "itemCount": 5,
-      "freshness": "1h fresh",
+      "freshness": "fresh now",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NBC News Politics",
+        "The New York Times Politics",
+        "CBS News",
+        "PBS NewsHour",
+        "NPR Politics"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261019-potomac-golf-course-vl-1048a-48c250.jpg",
+        "https://static01.nyt.com/images/2026/11/14/us/14dc-golf-new/14dc-golf-new-mediumSquareAt3X-v3.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/30/38651af2-b1d5-4fd2-8af5-5b8c16c539ee/thumbnail/1200x630/6f8642d355ccd4297a3c0529a8e353e7/gettyimages-2301844335.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-12T182407Z_1857986260_RC2SLOAX1152_RTRMADP_3_USA-TRUMP-VANCE-1024x683.jpg",
+        "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6039155"
+      ],
+      "evidence": [
+        {
+          "title": "Judge temporarily blocks Trump’s plan to redevelop East Potomac golf course in D.C.",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-15T02:46:52.914Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/trump-administration/judge-temporarily-blocks-trumps-plan-redevelop-east-potomac-golf-cours-rcna609366?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261019-potomac-golf-course-vl-1048a-48c250.jpg"
+        },
+        {
+          "title": "Judge Blocks Immediate Closure of East Potomac Park for Trump Golf Project",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-15T02:42:57.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/14/us/politics/trump-east-potomac-golf-course.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/14/us/14dc-golf-new/14dc-golf-new-mediumSquareAt3X-v3.jpg"
+        },
+        {
+          "title": "Federal judge blocks Trump from closing historic D.C. golf course, for now",
+          "source": "CBS News",
+          "publishedAt": "2026-11-15T01:54:42.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/judge-blocks-east-potomac-park-dc-closing/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/30/38651af2-b1d5-4fd2-8af5-5b8c16c539ee/thumbnail/1200x630/6f8642d355ccd4297a3c0529a8e353e7/gettyimages-2301844335.jpg"
+        },
+        {
+          "title": "With shifting Iran rhetoric following U.S. elections, Trump leaves Middle East in limbo about path ahead",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-14T21:17:42.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/world/with-shifting-iran-rhetoric-following-u-s-elections-trump-leaves-middle-east-in-limbo-about-path-ahead?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-12T182407Z_1857986260_RC2SLOAX1152_RTRMADP_3_USA-TRUMP-VANCE-1024x683.jpg"
+        },
+        {
+          "title": "Trump faces bipartisan backlash over plan to sell public lands to states and tribes",
+          "source": "NPR Politics",
+          "publishedAt": "2026-11-14T12:40:22.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/14/nx-s1-6039155/trump-faces-bipartisan-backlash-over-plan-to-sell-public-lands-to-states-and-tribes?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6039155"
+        }
+      ],
+      "path": "/us/entity/judge-temporarily-blocks-trump-s-plan-to-redevelop-east-potomac-golf-course-in-d/"
+    },
+    {
+      "id": "now-cluster-united states-spacex + starship",
+      "title": "SpaceX’s Starship returns from orbit and is captured by launch pad arms in a dramatic first",
+      "brief": "SpaceX’s Starship returns from orbit and is captured by launch pad arms in a dramatic first.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 27,
+      "sourceCount": 5,
+      "itemCount": 5,
+      "freshness": "2h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -243,18 +318,18 @@
       "path": "/us/entity/spacex-s-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dra/"
     },
     {
-      "id": "now-cluster-united states-alaska + ranked",
+      "id": "moving-cluster-united states-alaska + ranked",
       "title": "Why Mary Peltola is on track to win in Alaska, even if ranked choice ballots come into play",
       "brief": "Why Mary Peltola is on track to win in Alaska, even if ranked choice ballots come into play.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 22,
+      "strength": 21,
       "sourceCount": 5,
-      "itemCount": 7,
-      "freshness": "5h fresh",
+      "itemCount": 6,
+      "freshness": "6h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -318,18 +393,65 @@
       "path": "/us/entity/why-mary-peltola-is-on-track-to-win-in-alaska-even-if-ranked-choice-ballots-come/"
     },
     {
-      "id": "now-cluster-united states-here + lost",
-      "title": "The U.S. has lost measles elimination status. Here's what that means and who is most at risk.",
-      "brief": "The U.S. has lost measles elimination status. Here's what that means and who is most at risk.",
+      "id": "now-cluster-united states-meta + million",
+      "title": "Italy fines Meta $880 million over accessing users' photos",
+      "brief": "Italy fines Meta $880 million over accessing users' photos.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 9,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresh",
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The Guardian US",
+        "CBS News"
+      ],
+      "images": [
+        "https://i.guim.co.uk/img/media/425a7ddc9027cb19ae403783368047bbd261c48a/314_0_2872_2299/master/2872.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c623c2545efe254499d5e53ccacfc80d",
+        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/08/27/14627318-b211-4ac4-b61d-2fbcf4111489/thumbnail/1200x630g2/076b6cbf4d555a9d063911cae4887ab3/gettyimages-2291623755.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Italy fines Meta $887m for accessing Android users’ photos and videos",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-15T02:02:01.000Z",
+          "sourceUrl": "https://www.theguardian.com/technology/2026/nov/15/italy-fines-meta-887m-for-accessing-android-users-photos-and-videos?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/425a7ddc9027cb19ae403783368047bbd261c48a/314_0_2872_2299/master/2872.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c623c2545efe254499d5e53ccacfc80d"
+        },
+        {
+          "title": "Italy fines Meta $880 million over accessing users' photos",
+          "source": "CBS News",
+          "publishedAt": "2026-11-14T18:33:08.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/italy-fines-meta-880-million-users-photos/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/08/27/14627318-b211-4ac4-b61d-2fbcf4111489/thumbnail/1200x630g2/076b6cbf4d555a9d063911cae4887ab3/gettyimages-2291623755.jpg"
+        }
+      ],
+      "path": "/us/entity/italy-fines-meta-880-million-over-accessing-users-photos/"
+    },
+    {
+      "id": "moving-cluster-united states-here + lost",
+      "title": "The U.S. has lost measles elimination status. Here's what that means and who is most at risk.",
+      "brief": "The U.S. has lost measles elimination status. Here's what that means and who is most at risk.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 70,
@@ -376,10 +498,10 @@
       "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresh",
+      "freshness": "7h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 70,
+      "alertScore": 64,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
