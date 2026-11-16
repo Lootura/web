@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-16T11:00:48.106Z",
+  "updatedAt": "2026-11-16T12:00:49.229Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "258,535 links analyzed",
-  "dayScanLabel": "6,001 links scanned in 24h",
+  "ambientPulseLabel": "259,135 links analyzed",
+  "dayScanLabel": "6,000 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -16,7 +16,81 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": null,
+  "topAlert": {
+    "id": "now-cluster-united states-trump + nvidia",
+    "title": "Trump heads to Asia for 2nd high-stakes meeting with Chinese President Xi amid Nvidia CEO scandal",
+    "brief": "Trump heads to Asia for 2nd high-stakes meeting with Chinese President Xi amid Nvidia CEO scandal.",
+    "whyItMatters": "",
+    "verdict": "If it repeats in the next run, it gains weight.",
+    "mode": "now",
+    "state": "rising",
+    "stateLabel": "Rising",
+    "strength": 31,
+    "sourceCount": 6,
+    "itemCount": 6,
+    "freshness": "fresh now",
+    "alertLevel": "watch",
+    "alertLabel": "Watch",
+    "alertScore": 99,
+    "alertTriggers": [
+      "Crosses several sources",
+      "Picks up volume fast",
+      "Still active"
+    ],
+    "isHotNews": false,
+    "sources": [
+      "The New York Times World",
+      "The Guardian US",
+      "ABC News",
+      "NPR World",
+      "The New York Times"
+    ],
+    "images": [
+      "https://static01.nyt.com/images/2026/11/16/multimedia/16int-trump-summit-wtk-qjkm/16int-trump-summit-wtk-qjkm-mediumSquareAt3X.jpg",
+      "https://i.guim.co.uk/img/media/a079ab0a449ab532375e30c24aa3a9afc3fa2d2d/131_0_1307_1045/master/1307.jpg?width=140&quality=85&auto=format&fit=max&s=8bded43e353fe0508c8852e7a6576d5e",
+      "https://i.abcnewsfe.com/a/b59afe0e-8e82-4f9f-ad77-6fe46da87306/xi-trump-putin-rt-gmh-261113_1794616739738_hpMain_16x9.jpg?w=1600",
+      "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x1903+0+0/resize/3000x1903!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F2a%2F43%2Fa1078a164917808b90cb7d9ece17%2Fgettyimages-2304645424.jpg",
+      "https://static01.nyt.com/images/2026/11/17/multimedia/13rapp-ratnerNew-tlpj/13rapp-ratnerNew-tlpj-mediumSquareAt3X.jpg"
+    ],
+    "evidence": [
+      {
+        "title": "What to Know About Trump’s Trip to Asia",
+        "source": "The New York Times World",
+        "publishedAt": "2026-11-16T11:26:58.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/16/world/asia/trump-asia-china-xi-putin.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16int-trump-summit-wtk-qjkm/16int-trump-summit-wtk-qjkm-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Trump to embark on Asia trip in apparent foreign policy push before end of term",
+        "source": "The Guardian US",
+        "publishedAt": "2026-11-16T11:00:58.000Z",
+        "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/16/trump-asia-foreign-domestic-policy?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://i.guim.co.uk/img/media/a079ab0a449ab532375e30c24aa3a9afc3fa2d2d/131_0_1307_1045/master/1307.jpg?width=140&quality=85&auto=format&fit=max&s=8bded43e353fe0508c8852e7a6576d5e"
+      },
+      {
+        "title": "Trump heads to Asia for 2nd high-stakes meeting with Chinese President Xi amid Nvidia CEO scandal",
+        "source": "ABC News",
+        "publishedAt": "2026-11-16T10:09:57.000Z",
+        "sourceUrl": "https://abcnews.com/Politics/trump-heads-asia-2nd-high-stakes-meeting-chinese/story?id=138059807&utm_source=lootura.com&ref=lootura.com",
+        "image": "https://i.abcnewsfe.com/a/b59afe0e-8e82-4f9f-ad77-6fe46da87306/xi-trump-putin-rt-gmh-261113_1794616739738_hpMain_16x9.jpg?w=1600"
+      },
+      {
+        "title": "Trump heads to Asia to meet with Xi and Putin amid Nvidia fallout",
+        "source": "NPR World",
+        "publishedAt": "2026-11-16T10:00:00.000Z",
+        "sourceUrl": "https://www.npr.org/2026/11/16/nx-s1-6041738/trump-xi-and-putin-china-nvidia?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x1903+0+0/resize/3000x1903!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F2a%2F43%2Fa1078a164917808b90cb7d9ece17%2Fgettyimages-2304645424.jpg"
+      },
+      {
+        "title": "The New Congress Must Rein in Trump’s Dangerous China Policy",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-16T06:55:05.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/16/opinion/china-us-trump-asia-military.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/17/multimedia/13rapp-ratnerNew-tlpj/13rapp-ratnerNew-tlpj-mediumSquareAt3X.jpg"
+      }
+    ],
+    "path": "/us/entity/trump-heads-to-asia-for-2nd-high-stakes-meeting-with-chinese-president-xi-amid-n/"
+  },
   "signals": [
     {
       "id": "now-cluster-united states-trump + nvidia",
@@ -27,12 +101,12 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 26,
-      "sourceCount": 4,
-      "itemCount": 4,
+      "strength": 31,
+      "sourceCount": 6,
+      "itemCount": 6,
       "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
       "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
@@ -42,23 +116,32 @@
       "isHotNews": false,
       "sources": [
         "The New York Times World",
+        "The Guardian US",
         "ABC News",
         "NPR World",
-        "The New York Times Politics"
+        "The New York Times"
       ],
       "images": [
         "https://static01.nyt.com/images/2026/11/16/multimedia/16int-trump-summit-wtk-qjkm/16int-trump-summit-wtk-qjkm-mediumSquareAt3X.jpg",
+        "https://i.guim.co.uk/img/media/a079ab0a449ab532375e30c24aa3a9afc3fa2d2d/131_0_1307_1045/master/1307.jpg?width=140&quality=85&auto=format&fit=max&s=8bded43e353fe0508c8852e7a6576d5e",
         "https://i.abcnewsfe.com/a/b59afe0e-8e82-4f9f-ad77-6fe46da87306/xi-trump-putin-rt-gmh-261113_1794616739738_hpMain_16x9.jpg?w=1600",
         "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x1903+0+0/resize/3000x1903!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F2a%2F43%2Fa1078a164917808b90cb7d9ece17%2Fgettyimages-2304645424.jpg",
-        "https://static01.nyt.com/images/2026/11/15/multimedia/15dc-trump-xi-01-bjgh/15dc-trump-xi-01-bjgh-mediumSquareAt3X.jpg"
+        "https://static01.nyt.com/images/2026/11/17/multimedia/13rapp-ratnerNew-tlpj/13rapp-ratnerNew-tlpj-mediumSquareAt3X.jpg"
       ],
       "evidence": [
         {
           "title": "What to Know About Trump’s Trip to Asia",
           "source": "The New York Times World",
-          "publishedAt": "2026-11-16T10:26:49.000Z",
+          "publishedAt": "2026-11-16T11:26:58.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/16/world/asia/trump-asia-china-xi-putin.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16int-trump-summit-wtk-qjkm/16int-trump-summit-wtk-qjkm-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Trump to embark on Asia trip in apparent foreign policy push before end of term",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-16T11:00:58.000Z",
+          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/16/trump-asia-foreign-domestic-policy?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/a079ab0a449ab532375e30c24aa3a9afc3fa2d2d/131_0_1307_1045/master/1307.jpg?width=140&quality=85&auto=format&fit=max&s=8bded43e353fe0508c8852e7a6576d5e"
         },
         {
           "title": "Trump heads to Asia for 2nd high-stakes meeting with Chinese President Xi amid Nvidia CEO scandal",
@@ -75,31 +158,31 @@
           "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x1903+0+0/resize/3000x1903!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F2a%2F43%2Fa1078a164917808b90cb7d9ece17%2Fgettyimages-2304645424.jpg"
         },
         {
-          "title": "Nvidia Fallout Looms Over Trump-Xi Meeting",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-15T22:54:41.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/15/us/politics/nvidia-trump-huang-china-xi.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/15/multimedia/15dc-trump-xi-01-bjgh/15dc-trump-xi-01-bjgh-mediumSquareAt3X.jpg"
+          "title": "The New Congress Must Rein in Trump’s Dangerous China Policy",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-16T06:55:05.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/16/opinion/china-us-trump-asia-military.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/13rapp-ratnerNew-tlpj/13rapp-ratnerNew-tlpj-mediumSquareAt3X.jpg"
         }
       ],
       "path": "/us/entity/trump-heads-to-asia-for-2nd-high-stakes-meeting-with-chinese-president-xi-amid-n/"
     },
     {
-      "id": "now-cluster-united states-ground + nationwide",
+      "id": "moving-cluster-united states-ground + nationwide",
       "title": "Sean Duffy Offers New Details on How One Fix Spiraled Into Nationwide Ground Stop",
       "brief": "Sean Duffy Offers New Details on How One Fix Spiraled Into Nationwide Ground Stop.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 19,
+      "strength": 18,
       "sourceCount": 4,
       "itemCount": 6,
-      "freshness": "6h fresh",
+      "freshness": "7h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 97,
+      "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -159,9 +242,9 @@
       "path": "/us/entity/sean-duffy-offers-new-details-on-how-one-fix-spiraled-into-nationwide-ground-sto/"
     },
     {
-      "id": "now-cluster-united states-democrats + democratic",
-      "title": "8 Takeaways From a Big Democratic Gathering in Denver: Democrats in Array",
-      "brief": "8 Takeaways From a Big Democratic Gathering in Denver: Democrats in Array.",
+      "id": "now-cluster-united states-zoox + robotaxis",
+      "title": "Zoox robotaxis are now on the Uber app in Las Vegas",
+      "brief": "Zoox robotaxis are now on the Uber app in Las Vegas.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -180,44 +263,138 @@
       ],
       "isHotNews": false,
       "sources": [
-        "Fox News",
-        "The New York Times Politics"
+        "The Verge",
+        "TechCrunch"
       ],
       "images": [
-        "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/whats-next-conference.png?ve=1&tl=1",
-        "https://static01.nyt.com/images/2026/11/15/multimedia/15pol-dems-denver-takeaways-topart-01-wpvh/15pol-dems-denver-takeaways-topart-01-wpvh-mediumSquareAt3X.jpg"
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/MGM-x-Uber-x-Zoox.jpg?quality=90&strip=all&crop=0,0,100,100",
+        "https://techcrunch.com/wp-content/uploads/2026/11/zoox-uber.jpg?resize=1200,801"
       ],
       "evidence": [
         {
-          "title": "Inside the Denver gathering where Democrats’ upbeat, Obama-era feel meets the 2028 race",
-          "source": "Fox News",
-          "publishedAt": "2026-11-16T11:00:01.000Z",
-          "sourceUrl": "https://www.foxnews.com/politics/inside-denver-gathering-democrats-upbeat-obama-era-feel-meets-2028-race?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/whats-next-conference.png?ve=1&tl=1"
+          "title": "Amazon’s Zoox robotaxis are now available via Uber",
+          "source": "The Verge",
+          "publishedAt": "2026-11-16T12:00:00.000Z",
+          "sourceUrl": "https://www.theverge.com/transportation/1032984/uber-zoox-robotaxi-las-vegas-launch-mgm-resorts-los-angeles?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/MGM-x-Uber-x-Zoox.jpg?quality=90&strip=all&crop=0,0,100,100"
         },
         {
-          "title": "8 Takeaways From a Big Democratic Gathering in Denver: Democrats in Array",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-15T22:10:03.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/15/us/politics/democrats-denver-gathering-takeaways.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/15/multimedia/15pol-dems-denver-takeaways-topart-01-wpvh/15pol-dems-denver-takeaways-topart-01-wpvh-mediumSquareAt3X.jpg"
+          "title": "Zoox robotaxis are now on the Uber app in Las Vegas",
+          "source": "TechCrunch",
+          "publishedAt": "2026-11-16T12:00:00.000Z",
+          "sourceUrl": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/zoox-uber.jpg?resize=1200,801"
         }
       ],
-      "path": "/us/entity/8-takeaways-from-a-big-democratic-gathering-in-denver-democrats-in-array/"
+      "path": "/us/entity/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas/"
     },
     {
-      "id": "now-cluster-united states-trump + ground",
-      "title": "4 NFL officials work 2 games each Sunday, a rarity stemming from Friday's FAA ground stop",
-      "brief": "4 NFL officials work 2 games each Sunday, a rarity stemming from Friday's FAA ground stop.",
+      "id": "now-cluster-united states-south + korea",
+      "title": "AI cheating fears spook South Korea ahead of high-stakes college entrance exam",
+      "brief": "AI cheating fears spook South Korea ahead of high-stakes college entrance exam.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times World",
+        "Phys.org"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/16/world/16int-skorea-kpop-contracts-apapap/16int-skorea-kpop-contracts-apapap-mediumSquareAt3X.jpg",
+        "https://scx2.b-cdn.net/gfx/news/hires/2026/south-korea-exam-cheat.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "South Korea to Examine How K-Pop Industry Treats Underage Performers",
+          "source": "The New York Times World",
+          "publishedAt": "2026-11-16T11:51:31.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/16/world/asia/kpop-underage-idols-survey.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/16/world/16int-skorea-kpop-contracts-apapap/16int-skorea-kpop-contracts-apapap-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "AI cheating fears spook South Korea ahead of high-stakes college entrance exam",
+          "source": "Phys.org",
+          "publishedAt": "2026-11-16T09:38:38.000Z",
+          "sourceUrl": "https://phys.org/news/2026-11-ai-spook-south-korea-high.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/south-korea-exam-cheat.jpg"
+        }
+      ],
+      "path": "/us/entity/ai-cheating-fears-spook-south-korea-ahead-of-high-stakes-college-entrance-exam/"
+    },
+    {
+      "id": "now-cluster-united states-miguel + angel",
+      "title": "Miguel Angel Felix Gallardo, cartel \"boss of bosses\" who orchestrated murder of U.S. agent, dies at 80",
+      "brief": "Miguel Angel Felix Gallardo, cartel \"boss of bosses\" who orchestrated murder of U.S. agent, dies at 80.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "The New York Times World"
+      ],
+      "images": [
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2025/02/28/be8a866d-cd6f-45eb-8996-96acddf3bea9/thumbnail/1200x630/95967c05f2c644251353ecd0fb8d2752/gettyimages-176579264.jpg",
+        "https://static01.nyt.com/images/2026/11/15/multimedia/15int-mexico-1-mqvc/15int-mexico-1-mqvc-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Miguel Angel Felix Gallardo, cartel \"boss of bosses\" who orchestrated murder of U.S. agent, dies at 80",
+          "source": "CBS News",
+          "publishedAt": "2026-11-16T11:32:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/miguel-angel-felix-gallardo-dies-drug-lord-behind-us-agent-murder-age-80/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/02/28/be8a866d-cd6f-45eb-8996-96acddf3bea9/thumbnail/1200x630/95967c05f2c644251353ecd0fb8d2752/gettyimages-176579264.jpg"
+        },
+        {
+          "title": "Miguel Ángel Félix Gallardo, Mexican Drug Lord, Dies in Prison",
+          "source": "The New York Times World",
+          "publishedAt": "2026-11-16T02:11:17.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/15/world/americas/felix-gallardo-mexico-dead.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/15/multimedia/15int-mexico-1-mqvc/15int-mexico-1-mqvc-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/miguel-angel-felix-gallardo-cartel-boss-of-bosses-who-orchestrated-murder-of-u-s/"
+    },
+    {
+      "id": "moving-cluster-united states-trump + ground",
+      "title": "4 NFL officials work 2 games each Sunday, a rarity stemming from Friday's FAA ground stop",
+      "brief": "4 NFL officials work 2 games each Sunday, a rarity stemming from Friday's FAA ground stop.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 73,
@@ -273,10 +450,10 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "12h fresh",
+      "freshness": "13h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 64,
+      "alertScore": 59,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
