@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-16T02:00:48.227Z",
+  "updatedAt": "2026-11-16T03:00:48.146Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "228.895 enlaces analizados",
-  "dayScanLabel": "4.223 enlaces escaneados en 24h",
+  "ambientPulseLabel": "229.314 enlaces analizados",
+  "dayScanLabel": "4.224 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,7 +19,7 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-gipuzkoa + feijoo",
+      "id": "now-cluster-españa-feijoo + gipuzkoa",
       "title": "Feijóo vendrá a Gipuzkoa tras el ataque en Hernani y renunciar al Senado por Vox",
       "brief": "Feijóo vendrá a Gipuzkoa tras el ataque en Hernani y renunciar al Senado por Vox.",
       "whyItMatters": "",
@@ -27,10 +27,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 22,
+      "strength": 17,
       "sourceCount": 3,
       "itemCount": 4,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 90,
@@ -83,18 +83,18 @@
       "path": "/es/entity/feijoo-vendra-a-gipuzkoa-tras-el-ataque-en-hernani-y-renunciar-al-senado-por-vox/"
     },
     {
-      "id": "now-cluster-españa-jensen + huang",
+      "id": "moving-cluster-españa-jensen + huang",
       "title": "Jensen Huang planea su regreso a Nvidia con el apoyo de Elon Musk y otros líderes de Silicon Valley",
       "brief": "Jensen Huang planea su regreso a Nvidia con el apoyo de Elon Musk y otros líderes de Silicon Valley.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
       "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 86,
@@ -140,7 +140,7 @@
       "path": "/es/entity/jensen-huang-planea-su-regreso-a-nvidia-con-el-apoyo-de-elon-musk-y-otros-lidere/"
     },
     {
-      "id": "moving-cluster-españa-sabotaje + estonia",
+      "id": "moving-cluster-españa-estonia + frontera",
       "title": "Estonia cerrará en diciembre su frontera con Rusia tras acusar al Kremlin de un intento de sabotaje",
       "brief": "Estonia cerrará en diciembre su frontera con Rusia tras acusar al Kremlin de un intento de sabotaje.",
       "whyItMatters": "",
@@ -151,7 +151,7 @@
       "strength": 15,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 86,
@@ -196,6 +196,53 @@
       "path": "/es/entity/estonia-cerrara-en-diciembre-su-frontera-con-rusia-tras-acusar-al-kremlin-de-un/"
     },
     {
+      "id": "now-cluster-españa-trump + ante",
+      "title": "Trump, Putin y Xi ante su \"cumbre de Yalta\": las claves de una cita histórica que ningunea a Europa",
+      "brief": "Trump, Putin y Xi ante su \"cumbre de Yalta\": las claves de una cita histórica que ningunea a Europa.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "La Razón",
+        "El Correo"
+      ],
+      "images": [
+        "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/12/67A9C148-2373-4D99-8586-CF5409A8639F/96.jpg?crop=4632,2606,x0,y396&width=1200&height=675&optimize=low&format=webply",
+        "https://s2.ppllstatics.com/rc/www/multimedia/internacional/2026/11/15/DAMBin%20(5)-RLTiydaAJDf2nOUr7IKkIeK-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Trump, Putin y Xi ante su \"cumbre de Yalta\": las claves de una cita histórica que ningunea a Europa",
+          "source": "La Razón",
+          "publishedAt": "2026-11-16T02:35:08.000Z",
+          "sourceUrl": "https://www.larazon.es/internacional/trump-putin-cumbre-yalta-claves-cita-historica-que-ningunea-europa_202611166afa6bdc9a31a65adcdd6b19.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/12/67A9C148-2373-4D99-8586-CF5409A8639F/96.jpg?crop=4632,2606,x0,y396&width=1200&height=675&optimize=low&format=webply"
+        },
+        {
+          "title": "La Casa Blanca rechaza una reunión particular entre Trump y Putin en China",
+          "source": "El Correo",
+          "publishedAt": "2026-11-15T22:02:35.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/asia/casa-blanca-rechaza-reunion-particular-trump-putin-20261115225850-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/rc/www/multimedia/internacional/2026/11/15/DAMBin%20(5)-RLTiydaAJDf2nOUr7IKkIeK-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/trump-putin-y-xi-ante-su-cumbre-de-yalta-las-claves-de-una-cita-historica-que-ni/"
+    },
+    {
       "id": "now-cluster-españa-guardia + urbana",
       "title": "Los Mossos y la Guardia Urbana empiezan un dispositivo para desalojar la acampada de la plaza Catalunya en Barcelona",
       "brief": "Los Mossos y la Guardia Urbana empiezan un dispositivo para desalojar la acampada de la plaza Catalunya en Barcelona.",
@@ -207,7 +254,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -251,26 +298,35 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 14,
+      "strength": 15,
       "sourceCount": 2,
-      "itemCount": 2,
+      "itemCount": 3,
       "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 73,
       "alertTriggers": [
         "Cruza varias fuentes",
+        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "El Mundo",
-        "El País"
+        "El País",
+        "El Mundo"
       ],
       "images": [
+        "https://imagenes.elpais.com/resizer/v2/PIR6D6W3TVPQXMT4ZJILOJFZQQ.jpg?auth=85ed436e2a2f03eb3d5f4b305a64feceb7812bd644e065f5da972ee33fcb279b",
         "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17947839069814.jpg"
       ],
       "evidence": [
+        {
+          "title": "Guatemala cierra cuatro días de homenajes a Miguel Ángel Asturias con la inhumación de sus cenizas",
+          "source": "El País",
+          "publishedAt": "2026-11-16T00:04:08.000Z",
+          "sourceUrl": "https://elpais.com/america/2026-11-16/guatemala-cierra-cuatro-dias-de-homenajes-con-la-inhumacion-de-las-cenizas-de-miguel-angel-asturias.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/PIR6D6W3TVPQXMT4ZJILOJFZQQ.jpg?auth=85ed436e2a2f03eb3d5f4b305a64feceb7812bd644e065f5da972ee33fcb279b"
+        },
         {
           "title": "Muere Miguel Ángel Gallardo, el 'Jefe de jefes', fundador del Cártel de Guadalajara, en un hospital privado mexicano",
           "source": "El Mundo",
@@ -289,7 +345,7 @@
       "path": "/es/entity/muere-miguel-angel-gallardo-el-jefe-de-jefes-fundador-del-cartel-de-guadalajara/"
     },
     {
-      "id": "moving-cluster-españa-gobierno + trump",
+      "id": "moving-cluster-españa-trump + gobierno",
       "title": "Trump rompe 37 horas de inusual silencio para culpar del parón aeronáutico al Gobierno de Biden",
       "brief": "Trump rompe 37 horas de inusual silencio para culpar del parón aeronáutico al Gobierno de Biden.",
       "whyItMatters": "",
@@ -300,7 +356,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -347,10 +403,10 @@
       "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 64,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -382,24 +438,23 @@
       "path": "/es/entity/canarias-rescata-a-1-580-migrantes-en-un-solo-dia-la-cifra-mas-alta-de-su-histor/"
     },
     {
-      "id": "moving-cluster-españa-sergio + ramirez",
+      "id": "fading-cluster-españa-sergio + ramirez",
       "title": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”",
       "brief": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”.",
       "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 7,
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresca",
+      "freshness": "8h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 64,
+      "alertScore": 46,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
@@ -429,51 +484,6 @@
       "path": "/es/entity/sergio-ramirez-ingresa-en-la-rae-perdi-un-pais-pero-nunca-he-sido-extranjero-en/"
     },
     {
-      "id": "fading-cluster-españa-feijoo + error",
-      "title": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país»",
-      "brief": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país».",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "9h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo-Ri8PJSFBojAbVloZc399kQJ-1200x840@Diario%20Vasco.png"
-      ],
-      "evidence": [
-        {
-          "title": "El error del PP con la ikurriña en un vídeo de Feijóo",
-          "source": "El Correo",
-          "publishedAt": "2026-11-15T17:18:02.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/error-pp-ikurrina-video-feijoo-20261115181719-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-15T16:34:39.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/pp-vasco-difunde-video-feijoo-ikurrina-mal-20261115173438-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo-Ri8PJSFBojAbVloZc399kQJ-1200x840@Diario%20Vasco.png"
-        }
-      ],
-      "path": "/es/entity/el-pp-vasco-difunde-un-video-de-feijoo-con-una-ikurrina-mal-dibujada-y-el-pnv-ce/"
-    },
-    {
       "id": "fading-cluster-españa-programa + psoe",
       "title": "Claves | De un nuevo impuesto a los grandes empresarios a la “unión de la amistad”: el programa del PSOE para el 29-N",
       "brief": "Claves | De un nuevo impuesto a los grandes empresarios a la “unión de la amistad”: el programa del PSOE para el 29-N.",
@@ -485,7 +495,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "9h fresca",
+      "freshness": "10h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 46,
@@ -517,6 +527,51 @@
         }
       ],
       "path": "/es/entity/claves-de-un-nuevo-impuesto-a-los-grandes-empresarios-a-la-union-de-la-amistad-e/"
+    },
+    {
+      "id": "fading-cluster-españa-feijoo + error",
+      "title": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país»",
+      "brief": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país».",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "10h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 46,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo-Ri8PJSFBojAbVloZc399kQJ-1200x840@Diario%20Vasco.png"
+      ],
+      "evidence": [
+        {
+          "title": "El error del PP con la ikurriña en un vídeo de Feijóo",
+          "source": "El Correo",
+          "publishedAt": "2026-11-15T17:18:02.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/error-pp-ikurrina-video-feijoo-20261115181719-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país»",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-15T16:34:39.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/pp-vasco-difunde-video-feijoo-ikurrina-mal-20261115173438-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo-Ri8PJSFBojAbVloZc399kQJ-1200x840@Diario%20Vasco.png"
+        }
+      ],
+      "path": "/es/entity/el-pp-vasco-difunde-un-video-de-feijoo-con-una-ikurrina-mal-dibujada-y-el-pnv-ce/"
     }
   ]
 }
