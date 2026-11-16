@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-16T12:00:49.229Z",
-  "pulseLabel": "Último análisis · hace 11 horas",
-  "ambientPulseLabel": "233.102 enlaces analizados",
-  "dayScanLabel": "4.207 enlaces escaneados en 24h",
+  "updatedAt": "2026-11-16T23:07:46.195Z",
+  "pulseLabel": "Último análisis · este minuto",
+  "ambientPulseLabel": "233.533 enlaces analizados",
+  "dayScanLabel": "4.219 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -16,181 +16,161 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": null,
+  "topAlert": {
+    "id": "now-cluster-españa-united + airlines",
+    "title": "United Airlines sufre una caída general de su sistema tres días después de un fallo de comunicaciones que afectó a 9.200 vuelos",
+    "brief": "United Airlines sufre una caída general de su sistema tres días después de un fallo de comunicaciones que afectó a 9.200 vuelos.",
+    "whyItMatters": "",
+    "verdict": "Si se repite en la próxima pasada, gana peso.",
+    "mode": "now",
+    "state": "rising",
+    "stateLabel": "Caliente",
+    "strength": 36,
+    "sourceCount": 8,
+    "itemCount": 8,
+    "freshness": "fresca ahora",
+    "alertLevel": "hot",
+    "alertLabel": "Alerta caliente",
+    "alertScore": 99,
+    "alertTriggers": [
+      "Cruza varias fuentes",
+      "Gana volumen rápido",
+      "Sigue activo"
+    ],
+    "isHotNews": true,
+    "sources": [
+      "La Razón",
+      "El Mundo",
+      "The Objective",
+      "OK Diario",
+      "20minutos"
+    ],
+    "images": [
+      "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/16/E825636F-B985-48B3-A4DB-FBE5F3F0F390/96.jpg?crop=1920,1080,x0,y100&width=1200&height=675&optimize=low&format=webply",
+      "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17948691716801.jpg",
+      "https://theobjective.com/wp-content/uploads/2026/11/united-airlanes-lee-gratis.jpg",
+      "https://okdiario.com/img/2026/11/16/imagen_recortada-2026-11-16t234553.423.jpg",
+      "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/16/6afb0fb591ecc6-23911213.jpeg"
+    ],
+    "evidence": [
+      {
+        "title": "United Airlines reporta una interrupción generalizada de sus sistemas en EE UU",
+        "source": "La Razón",
+        "publishedAt": "2026-11-16T23:02:49.000Z",
+        "sourceUrl": "https://www.larazon.es/economia/united-airlines-reporta-interrupcion-generalizada-sus-sistemas_202611176afb8b9903bbf30bb04e2f1a.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/16/E825636F-B985-48B3-A4DB-FBE5F3F0F390/96.jpg?crop=1920,1080,x0,y100&width=1200&height=675&optimize=low&format=webply"
+      },
+      {
+        "title": "United Airlines sufre una caída generalizada de sus sistemas días después del caos aéreo en Estados Unidos",
+        "source": "El Mundo",
+        "publishedAt": "2026-11-16T22:51:37.000Z",
+        "sourceUrl": "https://www.elmundo.es/economia/2026/11/16/6afb88f6fc6c8357268b458b.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17948691716801.jpg"
+      },
+      {
+        "title": "United Airlines cancela todos sus despegues por una «caída general del sistema»",
+        "source": "The Objective",
+        "publishedAt": "2026-11-16T22:51:08.000Z",
+        "sourceUrl": "https://theobjective.com/internacional/2026-11-16/united-airlines-cancela-vuelos-caida-general-sistema/?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://theobjective.com/wp-content/uploads/2026/11/united-airlanes-lee-gratis.jpg"
+      },
+      {
+        "title": "United Airlines sufre una caída general de su sistema tres días después de un fallo de comunicaciones que afectó a 9.200 vuelos",
+        "source": "OK Diario",
+        "publishedAt": "2026-11-16T22:48:29.000Z",
+        "sourceUrl": "https://okdiario.com/internacional/united-airlines-sufre-caida-general-sistema-tres-dias-despues-fallo-comunicaciones-que-afecto-9-200-vuelos-20973695?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://okdiario.com/img/2026/11/16/imagen_recortada-2026-11-16t234553.423.jpg"
+      },
+      {
+        "title": "United Airlines informa de una \"caída general del sistema\" en EEUU",
+        "source": "20minutos",
+        "publishedAt": "2026-11-16T22:45:08.000Z",
+        "sourceUrl": "https://www.20minutos.es/internacional/aerolinea-united-airlines-informa-una-caida-general-sistema_7061898_0.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/16/6afb0fb591ecc6-23911213.jpeg"
+      }
+    ],
+    "path": "/es/entity/united-airlines-sufre-una-caida-general-de-su-sistema-tres-dias-despues-de-un-fa/"
+  },
   "signals": [
     {
-      "id": "now-cluster-españa-apartahotel + mujer",
-      "title": "Muere un joven de 22 años apuñalado por su novia durante una discusión en un apartahotel en San Blas (Madrid)",
-      "brief": "Muere un joven de 22 años apuñalado por su novia durante una discusión en un apartahotel en San Blas (Madrid).",
+      "id": "now-cluster-españa-united + airlines",
+      "title": "United Airlines sufre una caída general de su sistema tres días después de un fallo de comunicaciones que afectó a 9.200 vuelos",
+      "brief": "United Airlines sufre una caída general de su sistema tres días después de un fallo de comunicaciones que afectó a 9.200 vuelos.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 3,
+      "stateLabel": "Caliente",
+      "strength": 36,
+      "sourceCount": 8,
+      "itemCount": 8,
       "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 92,
+      "alertLevel": "hot",
+      "alertLabel": "Alerta caliente",
+      "alertScore": 99,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
         "Sigue activo"
       ],
-      "isHotNews": false,
+      "isHotNews": true,
       "sources": [
-        "El Correo",
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/4ABNVPKE4ZC55DAF7ZGTEEZZJI.jpg?auth=9d8f0aaac33a8c44a58877821bcb58bca67195550085cc024d71573b4339d1ca",
-        "https://e01-phantom-elmundo.uecdn.es/f8089e1f8e442d28050ed315ed2d0292/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/16/17948142025594.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Detenida una joven de 22 años por matar presuntamente a puñaladas a su novio en un apartahotel de Madrid",
-          "source": "El Correo",
-          "publishedAt": "2026-11-16T11:52:43.000Z",
-          "sourceUrl": "https://www.elcorreo.com/sociedad/muere-joven-tras-sufrir-heridas-arma-blanca-20261116083158-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Una mujer de 22 años, detenida por matar a su pareja de la misma edad en un apartahotel en Madrid",
-          "source": "El País",
-          "publishedAt": "2026-11-16T07:33:51.000Z",
-          "sourceUrl": "https://elpais.com/espana/madrid/2026-11-16/una-mujer-de-22-anos-detenida-por-matar-a-su-pareja-de-la-misma-edad-en-un-apartahotel-en-madrid.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/4ABNVPKE4ZC55DAF7ZGTEEZZJI.jpg?auth=9d8f0aaac33a8c44a58877821bcb58bca67195550085cc024d71573b4339d1ca"
-        },
-        {
-          "title": "Muere un joven de 22 años apuñalado por su novia durante una discusión en un apartahotel en San Blas (Madrid)",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-16T07:31:11.000Z",
-          "sourceUrl": "https://www.elmundo.es/madrid/2026/11/16/6afab12ce9cf4a301c8b459d.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/f8089e1f8e442d28050ed315ed2d0292/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/16/17948142025594.jpg"
-        }
-      ],
-      "path": "/es/entity/muere-un-joven-de-22-anos-apunalado-por-su-novia-durante-una-discusion-en-un-apa/"
-    },
-    {
-      "id": "now-cluster-españa-frente + amplio",
-      "title": "Frente Amplio apuesta por una jornada laboral de 32 horas y jubilación a los 65 años",
-      "brief": "Frente Amplio apuesta por una jornada laboral de 32 horas y jubilación a los 65 años.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 92,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
+        "La Razón",
         "El Mundo",
-        "El País"
+        "The Objective",
+        "OK Diario",
+        "20minutos"
       ],
       "images": [
-        "https://e01-phantom-elmundo.uecdn.es/967a6e844da6cb0188b404f5c7320ffa/crop/0x4/1017x682/f/webp/assets/multimedia/imagenes/2026/11/16/17948181749274.jpg",
-        "https://imagenes.elpais.com/resizer/v2/QU42BT6PZFBE5BBFT4LLIFLKMY.jpg?auth=8dd6292c833e82ede57be0001c7a59af248e6833813097c80f91e7f25cfc3103"
+        "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/16/E825636F-B985-48B3-A4DB-FBE5F3F0F390/96.jpg?crop=1920,1080,x0,y100&width=1200&height=675&optimize=low&format=webply",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17948691716801.jpg",
+        "https://theobjective.com/wp-content/uploads/2026/11/united-airlanes-lee-gratis.jpg",
+        "https://okdiario.com/img/2026/11/16/imagen_recortada-2026-11-16t234553.423.jpg",
+        "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/16/6afb0fb591ecc6-23911213.jpeg"
       ],
       "evidence": [
         {
-          "title": "El Frente Amplio quiere limitar las herencias a un máximo de 10 millones por persona",
-          "source": "El Correo",
-          "publishedAt": "2026-11-16T11:37:11.000Z",
-          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/frente-amplio-quiere-limitar-herencias-maximo-millones-20261116100048-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "United Airlines reporta una interrupción generalizada de sus sistemas en EE UU",
+          "source": "La Razón",
+          "publishedAt": "2026-11-16T23:02:49.000Z",
+          "sourceUrl": "https://www.larazon.es/economia/united-airlines-reporta-interrupcion-generalizada-sus-sistemas_202611176afb8b9903bbf30bb04e2f1a.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/16/E825636F-B985-48B3-A4DB-FBE5F3F0F390/96.jpg?crop=1920,1080,x0,y100&width=1200&height=675&optimize=low&format=webply"
         },
         {
-          "title": "Frente Amplio apuesta por una jornada laboral de 32 horas y jubilación a los 65 años",
-          "source": "El País",
-          "publishedAt": "2026-11-16T11:31:52.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-16/frente-amplio-apuesta-por-una-jornada-laboral-de-32-horas-y-jubilacion-a-los-65-anos.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/QU42BT6PZFBE5BBFT4LLIFLKMY.jpg?auth=8dd6292c833e82ede57be0001c7a59af248e6833813097c80f91e7f25cfc3103"
-        },
-        {
-          "title": "El Frente Amplio propone limitar las herencias a un máximo de 10 millones por persona",
+          "title": "United Airlines sufre una caída generalizada de sus sistemas días después del caos aéreo en Estados Unidos",
           "source": "El Mundo",
-          "publishedAt": "2026-11-16T08:37:02.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/16/6afac0a8fc6c8389748b4597.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/967a6e844da6cb0188b404f5c7320ffa/crop/0x4/1017x682/f/webp/assets/multimedia/imagenes/2026/11/16/17948181749274.jpg"
+          "publishedAt": "2026-11-16T22:51:37.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/2026/11/16/6afb88f6fc6c8357268b458b.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17948691716801.jpg"
+        },
+        {
+          "title": "United Airlines cancela todos sus despegues por una «caída general del sistema»",
+          "source": "The Objective",
+          "publishedAt": "2026-11-16T22:51:08.000Z",
+          "sourceUrl": "https://theobjective.com/internacional/2026-11-16/united-airlines-cancela-vuelos-caida-general-sistema/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://theobjective.com/wp-content/uploads/2026/11/united-airlanes-lee-gratis.jpg"
+        },
+        {
+          "title": "United Airlines sufre una caída general de su sistema tres días después de un fallo de comunicaciones que afectó a 9.200 vuelos",
+          "source": "OK Diario",
+          "publishedAt": "2026-11-16T22:48:29.000Z",
+          "sourceUrl": "https://okdiario.com/internacional/united-airlines-sufre-caida-general-sistema-tres-dias-despues-fallo-comunicaciones-que-afecto-9-200-vuelos-20973695?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://okdiario.com/img/2026/11/16/imagen_recortada-2026-11-16t234553.423.jpg"
+        },
+        {
+          "title": "United Airlines informa de una \"caída general del sistema\" en EEUU",
+          "source": "20minutos",
+          "publishedAt": "2026-11-16T22:45:08.000Z",
+          "sourceUrl": "https://www.20minutos.es/internacional/aerolinea-united-airlines-informa-una-caida-general-sistema_7061898_0.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/16/6afb0fb591ecc6-23911213.jpeg"
         }
       ],
-      "path": "/es/entity/frente-amplio-apuesta-por-una-jornada-laboral-de-32-horas-y-jubilacion-a-los-65/"
+      "path": "/es/entity/united-airlines-sufre-una-caida-general-de-su-sistema-tres-dias-despues-de-un-fa/"
     },
     {
-      "id": "moving-cluster-españa-nietos + exiliados",
-      "title": "El PP promete una 'ley de nietos' para que los exiliados por el terrorismo de ETA puedan votar en el País Vasco y en Navarra",
-      "brief": "El PP promete una 'ley de nietos' para que los exiliados por el terrorismo de ETA puedan votar en el País Vasco y en Navarra.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 92,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/ZANT6XFO6RFYTHHHGZAS3NJZEU.JPG?auth=40959b42dd163f8dfe969af8df1463835229809b4281e59f589be23ab45084e5",
-        "https://e01-phantom-elmundo.uecdn.es/40dd0c0a7b6393c99425b7a726a9321c/crop/0x6/980x659/f/webp/assets/multimedia/imagenes/2026/11/16/17948204457836.jpg",
-        "https://s3.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/16/1520322568-kLyF-U40369361263jOG-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El PP propone una ‘ley de nietos’ para que los exiliados vascos por terrorismo de ETA puedan votar en las elecciones autonómicas",
-          "source": "El País",
-          "publishedAt": "2026-11-16T10:30:04.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-16/el-pp-propone-una-ley-de-nietos-para-que-los-exiliados-vascos-por-terrorismo-de-eta-puedan-votar-en-las-elecciones-autonomicas.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/ZANT6XFO6RFYTHHHGZAS3NJZEU.JPG?auth=40959b42dd163f8dfe969af8df1463835229809b4281e59f589be23ab45084e5"
-        },
-        {
-          "title": "El PP promete una 'ley de nietos' para que los exiliados por el terrorismo de ETA puedan votar en el País Vasco y en Navarra",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-16T09:15:00.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/16/6afac98afdddffc5528b457c.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/40dd0c0a7b6393c99425b7a726a9321c/crop/0x6/980x659/f/webp/assets/multimedia/imagenes/2026/11/16/17948204457836.jpg"
-        },
-        {
-          "title": "Feijóo desvelará esta tarde en Navarra su 'ley de nietos' para que los exiliados vascos por ETA puedan votar en Euskadi",
-          "source": "El Correo",
-          "publishedAt": "2026-11-16T08:44:04.000Z",
-          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/feijoo-desvelara-tarde-navarra-ley-nietos-exiliados-20261116094403-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/16/1520322568-kLyF-U40369361263jOG-1200x840@RC.jpg"
-        }
-      ],
-      "path": "/es/entity/el-pp-promete-una-ley-de-nietos-para-que-los-exiliados-por-el-terrorismo-de-eta/"
-    },
-    {
-      "id": "now-cluster-españa-millones + repsol",
-      "title": "Repsol reclama en los tribunales a Iberdrola, Naturgy y Endesa 120 millones por el apagón",
-      "brief": "Repsol reclama en los tribunales a Iberdrola, Naturgy y Endesa 120 millones por el apagón.",
+      "id": "now-cluster-españa-sanchez + funcionarios",
+      "title": "Sánchez anuncia que subirá este martes el salario de los funcionarios un 4,5% para 2027",
+      "brief": "Sánchez anuncia que subirá este martes el salario de los funcionarios un 4,5% para 2027.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -209,34 +189,35 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Correo",
-        "El Mundo"
+        "El Debate",
+        "The Objective"
       ],
       "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17948293693649.jpg"
+        "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/16/6afb269aa4dfb.r_d.983-379-0.jpeg",
+        "https://theobjective.com/theobjective.com/wp-content/uploads/2026/11/sanchez-entrevista-en-telecinco-469x317.jpg"
       ],
       "evidence": [
         {
-          "title": "Repsol reclama en los tribunales a Iberdrola, Naturgy y Endesa 120 millones por el apagón",
-          "source": "El Correo",
-          "publishedAt": "2026-11-16T11:48:10.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/repsol-reclama-iberdrola-naturgy-endesa-120-millones-20261116123200-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "Sánchez anuncia una subida del 4,5 % del sueldo de los funcionarios para 2027",
+          "source": "El Debate",
+          "publishedAt": "2026-11-16T22:28:44.000Z",
+          "sourceUrl": "https://www.eldebate.com/economia/20261116/sanchez-anuncia-subida-45-sueldo-funcionarios-2027_481730.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.eldebate.com/files/og_thumbnail/files/fp/uploads/2026/11/16/6afb269aa4dfb.r_d.983-379-0.jpeg"
         },
         {
-          "title": "Repsol demanda a Iberdrola, Endesa, Naturgy y Red Eléctrica por los daños del apagón",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-16T11:44:50.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/16/6afaeae4e85ece2a028b457f.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17948293693649.jpg"
+          "title": "Sánchez anuncia que subirá este martes el salario de los funcionarios un 4,5% para 2027",
+          "source": "The Objective",
+          "publishedAt": "2026-11-16T22:15:48.000Z",
+          "sourceUrl": "https://theobjective.com/espana/politica/2026-11-16/sanchez-subira-martes-salario-funcionarios-2027/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://theobjective.com/theobjective.com/wp-content/uploads/2026/11/sanchez-entrevista-en-telecinco-469x317.jpg"
         }
       ],
-      "path": "/es/entity/repsol-reclama-en-los-tribunales-a-iberdrola-naturgy-y-endesa-120-millones-por-e/"
+      "path": "/es/entity/sanchez-anuncia-que-subira-este-martes-el-salario-de-los-funcionarios-un-4-5-par/"
     },
     {
-      "id": "now-cluster-españa-contra + acampada",
-      "title": "Almeida presenta una denuncia contra el ex delegado del Gobierno en Madrid por prevaricación ante su \"inacción\" en la acampada de Sol",
-      "brief": "Almeida presenta una denuncia contra el ex delegado del Gobierno en Madrid por prevaricación ante su \"inacción\" en la acampada de Sol.",
+      "id": "now-cluster-españa-paises + bajos",
+      "title": "Alemania despierta ante Países Bajos para liderar su grupo y endosar la primera goleada a Xavi",
+      "brief": "Alemania despierta ante Países Bajos para liderar su grupo y endosar la primera goleada a Xavi.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -255,47 +236,187 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El País",
-        "El Mundo"
+        "La Vanguardia",
+        "El País"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/D4GERNQDGMENJUAJNSNZ6CZ2QA.jpg?auth=056225be5b4d1b6f508dab2b17c8fb2c36a3ac0cc757d7ef8450068e6174d53d",
-        "https://e01-phantom-elmundo.uecdn.es/4c598324a84d595fb2619dd1e7ee7d85/crop/0x0/988x659/f/webp/assets/multimedia/imagenes/2025/12/18/17660544894051.jpg"
+        "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/16/6afb7d5412475.r_d.2560-1437-0.jpeg",
+        "https://imagenes.elpais.com/resizer/v2/WNRZT4C7WVJZ7PRPNCW5MGKDPU.jpg?auth=d754f3584e90994d246d7dd7ca5bbbf4cfa0a1c2b04c080fdeee4c90354065af"
       ],
       "evidence": [
         {
-          "title": "El Ayuntamiento de Madrid denuncia al exdelegado del Gobierno por un delito de prevaricación por la acampada de Sol",
-          "source": "El País",
-          "publishedAt": "2026-11-16T11:09:16.000Z",
-          "sourceUrl": "https://elpais.com/espana/madrid/2026-11-16/el-ayuntamiento-de-madrid-denuncia-al-exdelegado-del-gobierno-por-un-delito-de-prevaricacion-por-la-acampada-de-sol.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/D4GERNQDGMENJUAJNSNZ6CZ2QA.jpg?auth=056225be5b4d1b6f508dab2b17c8fb2c36a3ac0cc757d7ef8450068e6174d53d"
+          "title": "Durísimo correctivo alemán para Xavi y sus Países Bajos",
+          "source": "La Vanguardia",
+          "publishedAt": "2026-11-16T22:12:18.000Z",
+          "sourceUrl": "https://www.lavanguardia.com/deportes/20261116/11685923/duro-correctivo-aleman-xavi-paises-bajos.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/16/6afb7d5412475.r_d.2560-1437-0.jpeg"
         },
         {
-          "title": "Almeida presenta una denuncia contra el ex delegado del Gobierno en Madrid por prevaricación ante su \"inacción\" en la acampada de Sol",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-16T09:36:52.000Z",
-          "sourceUrl": "https://www.elmundo.es/madrid/2026/11/16/6afacdc4e9cf4a301c8b45a6.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/4c598324a84d595fb2619dd1e7ee7d85/crop/0x0/988x659/f/webp/assets/multimedia/imagenes/2025/12/18/17660544894051.jpg"
+          "title": "Alemania despierta ante Países Bajos para liderar su grupo y endosar la primera goleada a Xavi",
+          "source": "El País",
+          "publishedAt": "2026-11-16T22:04:25.000Z",
+          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-16/alemania-despierta-ante-paises-bajos-para-liderar-su-grupo-y-endosar-la-primera-goleada-a-xavi.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/WNRZT4C7WVJZ7PRPNCW5MGKDPU.jpg?auth=d754f3584e90994d246d7dd7ca5bbbf4cfa0a1c2b04c080fdeee4c90354065af"
         }
       ],
-      "path": "/es/entity/almeida-presenta-una-denuncia-contra-el-ex-delegado-del-gobierno-en-madrid-por-p/"
+      "path": "/es/entity/alemania-despierta-ante-paises-bajos-para-liderar-su-grupo-y-endosar-la-primera/"
     },
     {
-      "id": "moving-cluster-españa-millones + euros",
-      "title": "CAF fabricará 24 nuevos trenes para Oslo por 125 millones de euros",
-      "brief": "CAF fabricará 24 nuevos trenes para Oslo por 125 millones de euros.",
+      "id": "now-cluster-españa-contra + abascal",
+      "title": "Abascal aterriza en Canarias en plena oleada migratoria y entona su discurso contra la \"invasión\": \"Aquí no caben, es nuestra tierra\"",
+      "brief": "Abascal aterriza en Canarias en plena oleada migratoria y entona su discurso contra la \"invasión\": \"Aquí no caben, es nuestra tierra\".",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El País"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17948608839106.jpg",
+        "https://imagenes.elpais.com/resizer/v2/DYTCJP6FQ5PYFKCFAVDJYI55NU.jpg?auth=dd54cf84d9c0cfe7504486ea06d4787866b4e8b7e42aa12f952a5a8b448db82c"
+      ],
+      "evidence": [
+        {
+          "title": "Abascal aterriza en Canarias en plena oleada migratoria y entona su discurso contra la \"invasión\": \"Aquí no caben, es nuestra tierra\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-16T21:07:57.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/16/6afb5a78e9cf4a3c4b8b4595.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17948608839106.jpg"
+        },
+        {
+          "title": "Abascal califica en Canarias de “invasión planificada” la llegada de cayucos",
+          "source": "El País",
+          "publishedAt": "2026-11-16T20:50:53.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-16/abascal-califica-en-canarias-de-invasion-planificada-la-llega-de-cayucos.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/DYTCJP6FQ5PYFKCFAVDJYI55NU.jpg?auth=dd54cf84d9c0cfe7504486ea06d4787866b4e8b7e42aa12f952a5a8b448db82c"
+        }
+      ],
+      "path": "/es/entity/abascal-aterriza-en-canarias-en-plena-oleada-migratoria-y-entona-su-discurso-con/"
+    },
+    {
+      "id": "moving-cluster-españa-mujer + mossos",
+      "title": "Los Mossos d'Esquadra investigan la muerte violenta de una mujer en Llívia (Girona)",
+      "brief": "Los Mossos d'Esquadra investigan la muerte violenta de una mujer en Llívia (Girona).",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "3h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El País"
+      ],
+      "images": [
+        "https://e01-phantom-elmundo.uecdn.es/e33c354112203dd7ea39135ae80503a7/resize/1200/f/webp/assets/multimedia/imagenes/2026/10/16/17921738953671.jpg",
+        "https://imagenes.elpais.com/resizer/v2/5P2RUEANWVB7LHMR5TWDYEDFNM.jpg?auth=25b62e89cd026f7b3239dfa286e5d3e43b5951912a8d675d7607275a94eb8383"
+      ],
+      "evidence": [
+        {
+          "title": "Los Mossos d'Esquadra investigan la muerte violenta de una mujer en Llívia (Girona)",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-16T19:44:30.000Z",
+          "sourceUrl": "https://www.elmundo.es/cataluna/2026/11/16/6afb5ccfe4d4d805178b4588.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/e33c354112203dd7ea39135ae80503a7/resize/1200/f/webp/assets/multimedia/imagenes/2026/10/16/17921738953671.jpg"
+        },
+        {
+          "title": "Los Mossos d’Esquadra investigan la muerte violenta de una mujer en Llívia (Girona)",
+          "source": "El País",
+          "publishedAt": "2026-11-16T19:31:42.000Z",
+          "sourceUrl": "https://elpais.com/espana/catalunya/2026-11-16/los-mossos-desquadra-investigan-la-muerte-violenta-de-una-mujer-en-llivia-girona.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/5P2RUEANWVB7LHMR5TWDYEDFNM.jpg?auth=25b62e89cd026f7b3239dfa286e5d3e43b5951912a8d675d7607275a94eb8383"
+        }
+      ],
+      "path": "/es/entity/los-mossos-d-esquadra-investigan-la-muerte-violenta-de-una-mujer-en-llivia-giron/"
+    },
+    {
+      "id": "moving-cluster-españa-gabriel + rufian",
+      "title": "Gabriel Rufián reta a Jordi Hereu a un cara a cara sobre vivienda e impuestos",
+      "brief": "Gabriel Rufián reta a Jordi Hereu a un cara a cara sobre vivienda e impuestos.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "4h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/TWK3VOBM4BFIBIMSE7IQTWHKIU.jpeg?auth=6d6065b552a55cbe0b09981fd7c0a0ca274fa7b838aab4dc68c716c9ccce83da"
+      ],
+      "evidence": [
+        {
+          "title": "Gabriel Rufián reta a Jordi Hereu a un cara a cara sobre vivienda e impuestos",
+          "source": "El País",
+          "publishedAt": "2026-11-16T19:25:40.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-16/rufian-asegura-que-le-gustaria-ser-presidente-de-la-generalitat-con-un-frente-de-izquierdas.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/TWK3VOBM4BFIBIMSE7IQTWHKIU.jpeg?auth=6d6065b552a55cbe0b09981fd7c0a0ca274fa7b838aab4dc68c716c9ccce83da"
+        },
+        {
+          "title": "Nueva bronca en redes entre Luis Figo y Gabriel Rufián: «No todos nos vendemos»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-16T08:37:12.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/bronca-redes-luis-figo-gabriel-rufian-vendemos-20261116093145-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/gabriel-rufian-reta-a-jordi-hereu-a-un-cara-a-cara-sobre-vivienda-e-impuestos/"
+    },
+    {
+      "id": "moving-cluster-españa-euros + millones",
+      "title": "CAF fabricará 24 nuevos trenes para Oslo por 125 millones de euros",
+      "brief": "CAF fabricará 24 nuevos trenes para Oslo por 125 millones de euros.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "13h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 59,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -325,21 +446,21 @@
       "path": "/es/entity/caf-fabricara-24-nuevos-trenes-para-oslo-por-125-millones-de-euros/"
     },
     {
-      "id": "moving-cluster-españa-laboral + supremo",
-      "title": "El Supremo confirma como accidente laboral la baja por ansiedad de un empleado que fue agredido por un compañero",
-      "brief": "El Supremo confirma como accidente laboral la baja por ansiedad de un empleado que fue agredido por un compañero.",
+      "id": "moving-cluster-españa-supremo + companero",
+      "title": "El Supremo da la razón a un trabajador guipuzcoano que tuvo que coincidir a diario con el compañero que le agredió",
+      "brief": "El Supremo da la razón a un trabajador guipuzcoano que tuvo que coincidir a diario con el compañero que le agredió.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "13h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 59,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -366,146 +487,10 @@
           "image": ""
         }
       ],
-      "path": "/es/entity/el-supremo-confirma-como-accidente-laboral-la-baja-por-ansiedad-de-un-empleado-q/"
+      "path": "/es/entity/el-supremo-da-la-razon-a-un-trabajador-guipuzcoano-que-tuvo-que-coincidir-a-diar/"
     },
     {
-      "id": "moving-cluster-españa-mujer + parada",
-      "title": "Un edificio de Bilbao tendrá que instalar una parada de ascensor que solo podrá usar una mujer de 83 años",
-      "brief": "Un edificio de Bilbao tendrá que instalar una parada de ascensor que solo podrá usar una mujer de 83 años.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "Un edificio de Bilbao tendrá que instalar una parada de ascensor que solo podrá usar una mujer de 83 años",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-16T09:56:44.000Z",
-          "sourceUrl": "https://www.diariovasco.com/sociedad/edificio-bilbao-instalar-parada-ascensor-solo-podra-usa-mujer-exclusiva-20261116063653-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Obligan a una comunidad de Bilbao a poner una parada de ascensor solo para una mujer de 83 años",
-          "source": "El Correo",
-          "publishedAt": "2026-11-16T09:29:49.000Z",
-          "sourceUrl": "https://www.elcorreo.com/bizkaia/obligan-comunidad-bilbao-poner-parada-ascensor-solo-20261116102948-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/un-edificio-de-bilbao-tendra-que-instalar-una-parada-de-ascensor-que-solo-podra/"
-    },
-    {
-      "id": "fading-cluster-españa-governors + awards",
-      "title": "Penélope Cruz, Charlize Theron, Florence Pugh: los 25 mejores looks de los Governors Awards",
-      "brief": "Penélope Cruz, Charlize Theron, Florence Pugh: los 25 mejores looks de los Governors Awards.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El País"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17948165553921.jpg",
-        "https://imagenes.elpais.com/resizer/v2/MPOYS6YTVNBV7KZPFLXO7NTXLA.jpg?auth=37d57ee8eb442c88144836e26627aeca63082d9aa1d7b862d6bafd75e70bcce1"
-      ],
-      "evidence": [
-        {
-          "title": "El talento español de La bola negra deslumbra en los Governors Awards de Hollywood",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-16T08:14:40.000Z",
-          "sourceUrl": "https://www.elmundo.es/cultura/cine/2026/11/16/6afab788fc6c8305658b457c.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17948165553921.jpg"
-        },
-        {
-          "title": "Penélope Cruz, Charlize Theron, Florence Pugh: los 25 mejores looks de los Governors Awards",
-          "source": "El País",
-          "publishedAt": "2026-11-16T06:10:28.000Z",
-          "sourceUrl": "https://elpais.com/smoda/moda/2026-11-16/penelope-cruz-charlize-theron-florence-pugh-los-25-mejores-looks-de-los-governor-awards.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/MPOYS6YTVNBV7KZPFLXO7NTXLA.jpg?auth=37d57ee8eb442c88144836e26627aeca63082d9aa1d7b862d6bafd75e70bcce1"
-        }
-      ],
-      "path": "/es/entity/penelope-cruz-charlize-theron-florence-pugh-los-25-mejores-looks-de-los-governor/"
-    },
-    {
-      "id": "fading-cluster-españa-pedro + sanchez",
-      "title": "El corte de una periodista francesa a Gonzo en 'Salvados' al escuchar una de las ideas de Pedro Sánchez",
-      "brief": "El corte de una periodista francesa a Gonzo en 'Salvados' al escuchar una de las ideas de Pedro Sánchez.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/LRVBUEQT6NHELJPYK6PKIJ535Y.png?auth=1b23cdd5b11ccf5e0db15d10068c20dc32cbc7b2cacfd74022cf0b660c3320ed",
-        "https://s2.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/16/salvados-kNbG-U403678067336FF-1200x840@El%20Correo.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "La derrota de España arrasa en audiencia y Pedro Sánchez llega al 8,1% en La Séptima",
-          "source": "El País",
-          "publishedAt": "2026-11-16T08:26:53.000Z",
-          "sourceUrl": "https://elpais.com/television/2026-11-16/la-derrota-de-espana-arrasa-en-audiencia-y-pedro-sanchez-llega-al-81-en-la-septima.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/LRVBUEQT6NHELJPYK6PKIJ535Y.png?auth=1b23cdd5b11ccf5e0db15d10068c20dc32cbc7b2cacfd74022cf0b660c3320ed"
-        },
-        {
-          "title": "El corte de una periodista francesa a Gonzo en 'Salvados' al escuchar una de las ideas de Pedro Sánchez",
-          "source": "El Correo",
-          "publishedAt": "2026-11-16T06:41:56.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/corte-periodista-francesa-gonzo-salvados-escuchar-ideas-20261116074155-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/16/salvados-kNbG-U403678067336FF-1200x840@El%20Correo.jpg"
-        }
-      ],
-      "path": "/es/entity/el-corte-de-una-periodista-francesa-a-gonzo-en-salvados-al-escuchar-una-de-las-i/"
-    },
-    {
-      "id": "fading-cluster-españa-persona + joven",
+      "id": "fading-cluster-españa-entre + choque",
       "title": "Muere un joven de 21 años y otros cuatro resultan heridos en un choque frontal entre dos vehículos en Elgoibar",
       "brief": "Muere un joven de 21 años y otros cuatro resultan heridos en un choque frontal entre dos vehículos en Elgoibar.",
       "whyItMatters": "",
@@ -513,13 +498,13 @@
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 8,
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "16h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 52,
+      "alertScore": 41,
       "alertTriggers": [
         "Cruza varias fuentes"
       ],
@@ -549,6 +534,95 @@
         }
       ],
       "path": "/es/entity/muere-un-joven-de-21-anos-y-otros-cuatro-resultan-heridos-en-un-choque-frontal-e/"
+    },
+    {
+      "id": "fading-cluster-españa-sebastian + juvenil",
+      "title": "La Guardia Civil desarbola en Vitoria y San Sebastián un «bloque» de la banda juvenil Blood",
+      "brief": "La Guardia Civil desarbola en Vitoria y San Sebastián un «bloque» de la banda juvenil Blood.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "13h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 41,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://s1.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/16/operacion-marte-alava-kNkC-U403699259694AC-1200x840@El%20Correo.jpeg",
+        "https://s2.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/05/Copy%20of%203-detenido..jpg"
+      ],
+      "evidence": [
+        {
+          "title": "La Guardia Civil desarbola en Vitoria y San Sebastián un «bloque» de la banda juvenil Blood",
+          "source": "El Correo",
+          "publishedAt": "2026-11-16T09:56:36.000Z",
+          "sourceUrl": "https://www.elcorreo.com/alava/araba/guardia-civil-culmina-vitoria-san-sebastian-desmantelamiento-bloque-banda-blood-20261116105555-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/16/operacion-marte-alava-kNkC-U403699259694AC-1200x840@El%20Correo.jpeg"
+        },
+        {
+          "title": "Los dos jóvenes detenidos en Bidebieta eran los cabecillas de un grupo violento juvenil de los Blood en Euskadi",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-16T09:14:54.000Z",
+          "sourceUrl": "https://www.diariovasco.com/gipuzkoa/dos-jovenes-detenidos-donostia-cabecillas-grupo-violento-blood-euskadi-20261116101250-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/05/Copy%20of%203-detenido..jpg"
+        }
+      ],
+      "path": "/es/entity/la-guardia-civil-desarbola-en-vitoria-y-san-sebastian-un-bloque-de-la-banda-juve/"
+    },
+    {
+      "id": "fading-cluster-españa-mujer + edificio",
+      "title": "Un edificio de Bilbao tendrá que instalar una parada de ascensor que solo podrá usar una mujer de 83 años",
+      "brief": "Un edificio de Bilbao tendrá que instalar una parada de ascensor que solo podrá usar una mujer de 83 años.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "13h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 41,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Diario Vasco",
+        "El Correo"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Un edificio de Bilbao tendrá que instalar una parada de ascensor que solo podrá usar una mujer de 83 años",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-16T09:56:44.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/edificio-bilbao-instalar-parada-ascensor-solo-podra-usa-mujer-exclusiva-20261116063653-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Obligan a una comunidad de Bilbao a poner una parada de ascensor solo para una mujer de 83 años",
+          "source": "El Correo",
+          "publishedAt": "2026-11-16T09:29:49.000Z",
+          "sourceUrl": "https://www.elcorreo.com/bizkaia/obligan-comunidad-bilbao-poner-parada-ascensor-solo-20261116102948-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/un-edificio-de-bilbao-tendra-que-instalar-una-parada-de-ascensor-que-solo-podra/"
     }
   ]
 }
