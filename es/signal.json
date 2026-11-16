@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-15T23:00:49.432Z",
-  "pulseLabel": "Último análisis · hace 25 minutos",
-  "ambientPulseLabel": "227.630 enlaces analizados",
-  "dayScanLabel": "4.219 enlaces escaneados en 24h",
+  "updatedAt": "2026-11-16T00:00:48.360Z",
+  "pulseLabel": "Último análisis · este minuto",
+  "ambientPulseLabel": "228.052 enlaces analizados",
+  "dayScanLabel": "4.221 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,18 +19,18 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "moving-cluster-españa-feijoo + gipuzkoa",
-      "title": "Feijóo se dirige a Sánchez tras la agresión al candidato del PP en Guipúzcoa: \"Dígale a sus socios que no violenten la campaña\"",
-      "brief": "Feijóo se dirige a Sánchez tras la agresión al candidato del PP en Guipúzcoa: \"Dígale a sus socios que no violenten la campaña\".",
+      "id": "now-cluster-españa-gipuzkoa + feijoo",
+      "title": "Campaña electoral 29N y actualidad política, en directo | Feijóo hará campaña en Gipuzkoa tras la agresión a su candidato en Hernani",
+      "brief": "Campaña electoral 29N y actualidad política, en directo | Feijóo hará campaña en Gipuzkoa tras la agresión a su candidato en Hernani.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 21,
-      "sourceCount": 4,
-      "itemCount": 7,
-      "freshness": "4h fresca",
+      "strength": 24,
+      "sourceCount": 3,
+      "itemCount": 5,
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 99,
@@ -41,18 +41,23 @@
       ],
       "isHotNews": false,
       "sources": [
+        "El Diario Vasco",
         "El Correo",
-        "El País",
-        "El Mundo",
-        "El Diario Vasco"
+        "El País"
       ],
       "images": [
         "https://imagenes.elpais.com/resizer/v2/PIEAM3URUZFJVP7IGB5WOVRTC4.jpg?auth=e3fdbc53e19fa6ba8e8ec0ee5f09c1ea17415bc91a74c214b161ebe5e0918989",
         "https://imagenes.elpais.com/resizer/v2/3KC3R2PXQVJORJWRQI64F27QCQ.jpg?auth=f8e0aab6d09659cae931b2105a57747d27aebd16c2db415fdfaee1a8f8cf7d9c",
-        "https://e01-phantom-elmundo.uecdn.es/24626a1a36d496c065b89d9278df5e9a/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/15/17947474749718.jpg",
         "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo1212-kvKC-U40360595120dJI-1200x840@Diario%20Vasco.jpg"
       ],
       "evidence": [
+        {
+          "title": "Feijóo vendrá a Gipuzkoa tras el ataque en Hernani y renunciar al Senado por Vox",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-15T23:01:56.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/feijoo-vendra-gipuzkoa-tras-ataque-hernani-renunciar-20261116000156-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
         {
           "title": "Feijóo cambia su agenda para viajar a Gipuzkoa tras el ataque a su candidato",
           "source": "El Correo",
@@ -75,13 +80,6 @@
           "image": "https://imagenes.elpais.com/resizer/v2/3KC3R2PXQVJORJWRQI64F27QCQ.jpg?auth=f8e0aab6d09659cae931b2105a57747d27aebd16c2db415fdfaee1a8f8cf7d9c"
         },
         {
-          "title": "Feijóo se dirige a Sánchez tras la agresión al candidato del PP en Guipúzcoa: \"Dígale a sus socios que no violenten la campaña\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-15T12:58:42.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/15/6af98b45fdddff16668b457e.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/24626a1a36d496c065b89d9278df5e9a/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/15/17947474749718.jpg"
-        },
-        {
           "title": "Feijóo altera su agenda para ir este martes a Gipuzkoa tras el ataque en Hernani",
           "source": "El Diario Vasco",
           "publishedAt": "2026-11-15T12:56:09.000Z",
@@ -89,7 +87,7 @@
           "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo1212-kvKC-U40360595120dJI-1200x840@Diario%20Vasco.jpg"
         }
       ],
-      "path": "/es/entity/feijoo-se-dirige-a-sanchez-tras-la-agresion-al-candidato-del-pp-en-guipuzcoa-dig/"
+      "path": "/es/entity/campana-electoral-29n-y-actualidad-politica-en-directo-feijoo-hara-campana-en-gi/"
     },
     {
       "id": "now-cluster-españa-jensen + huang",
@@ -100,10 +98,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
+      "strength": 22,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 92,
@@ -149,21 +147,21 @@
       "path": "/es/entity/jensen-huang-planea-su-regreso-a-nvidia-con-el-apoyo-de-elon-musk-y-otros-lidere/"
     },
     {
-      "id": "now-cluster-españa-estonia + frontera",
+      "id": "moving-cluster-españa-estonia + frontera",
       "title": "Estonia cerrará en diciembre su frontera con Rusia tras acusar al Kremlin de un intento de sabotaje",
       "brief": "Estonia cerrará en diciembre su frontera con Rusia tras acusar al Kremlin de un intento de sabotaje.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 22,
+      "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 92,
+      "alertScore": 86,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -205,9 +203,73 @@
       "path": "/es/entity/estonia-cerrara-en-diciembre-su-frontera-con-rusia-tras-acusar-al-kremlin-de-un/"
     },
     {
-      "id": "now-cluster-españa-gobierno + trump",
-      "title": "Trump rompe 37 horas de inusual silencio para culpar del parón aeronáutico al Gobierno de Biden",
-      "brief": "Trump rompe 37 horas de inusual silencio para culpar del parón aeronáutico al Gobierno de Biden.",
+      "id": "moving-cluster-españa-zverev + jodar",
+      "title": "Alexander Zverev no da opción a Rafa Jódar en su estreno como maestro en las ATP Finals",
+      "brief": "Alexander Zverev no da opción a Rafa Jódar en su estreno como maestro en las ATP Finals.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 15,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "7h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 84,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/6PUAYZKJ5VFTVCPWWL4W77U5HM.jpg?auth=316d5fbe4962562f6d1459564e6484ba65e982e984d12fc552ceae6f12dc33a2",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947544523189.jpg",
+        "https://imagenes.elpais.com/resizer/v2/T36T6F7LN5LFVLBGEJCG6BTDMA.jpg?auth=1e76ba4252640cc7ca263e5a0a41095a81f562b83b3ad60c9ce8d23591e9b262"
+      ],
+      "evidence": [
+        {
+          "title": "Zverev, sin piedad contra Jódar",
+          "source": "El Correo",
+          "publishedAt": "2026-11-15T16:31:46.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/tenis/cronica-zverev-jodar-20261115155205-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Zverev, demasiado Zverev para un aguerrido Jódar",
+          "source": "El País",
+          "publishedAt": "2026-11-15T15:35:46.000Z",
+          "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-15/zverev-demasiado-zverev-para-jodar.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/6PUAYZKJ5VFTVCPWWL4W77U5HM.jpg?auth=316d5fbe4962562f6d1459564e6484ba65e982e984d12fc552ceae6f12dc33a2"
+        },
+        {
+          "title": "Alexander Zverev no da opción a Rafa Jódar en su estreno como maestro en las ATP Finals",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-15T14:58:43.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/tenis/2026/11/15/6af9c7a3e9cf4a84238b457b.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947544523189.jpg"
+        },
+        {
+          "title": "Rafa Jódar-Alexander Zverev, el partido de las ATP Finals en vivo| Zverev se lleva el primer set",
+          "source": "El País",
+          "publishedAt": "2026-11-15T14:56:45.000Z",
+          "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-15/rafa-jodar-alexander-zverev-el-partido-de-las-atp-finals-en-vivo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/T36T6F7LN5LFVLBGEJCG6BTDMA.jpg?auth=1e76ba4252640cc7ca263e5a0a41095a81f562b83b3ad60c9ce8d23591e9b262"
+        }
+      ],
+      "path": "/es/entity/alexander-zverev-no-da-opcion-a-rafa-jodar-en-su-estreno-como-maestro-en-las-atp/"
+    },
+    {
+      "id": "now-cluster-españa-miguel + angel",
+      "title": "Muere Miguel Ángel Gallardo, el 'Jefe de jefes', fundador del Cártel de Guadalajara, en un hospital privado mexicano",
+      "brief": "Muere Miguel Ángel Gallardo, el 'Jefe de jefes', fundador del Cártel de Guadalajara, en un hospital privado mexicano.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -216,10 +278,56 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El País"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17947839069814.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Muere Miguel Ángel Gallardo, el 'Jefe de jefes', fundador del Cártel de Guadalajara, en un hospital privado mexicano",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-15T23:07:46.000Z",
+          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/16/6afa3b3f21efa0c9138b4592.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17947839069814.jpg"
+        },
+        {
+          "title": "Muere el narco Miguel Ángel Félix Gallardo, el Jefe de Jefes, a los 80 años",
+          "source": "El País",
+          "publishedAt": "2026-11-15T21:35:13.000Z",
+          "sourceUrl": "https://elpais.com/mexico/2026-11-15/muere-el-narco-miguel-angel-felix-gallardo-el-jefe-de-jefes-a-los-80-anos.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/muere-miguel-angel-gallardo-el-jefe-de-jefes-fundador-del-cartel-de-guadalajara/"
+    },
+    {
+      "id": "now-cluster-españa-trump + biden",
+      "title": "Trump rompe 37 horas de inusual silencio para culpar del parón aeronáutico al Gobierno de Biden",
+      "brief": "Trump rompe 37 horas de inusual silencio para culpar del parón aeronáutico al Gobierno de Biden.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 14,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "3h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -252,56 +360,9 @@
       "path": "/es/entity/trump-rompe-37-horas-de-inusual-silencio-para-culpar-del-paron-aeronautico-al-go/"
     },
     {
-      "id": "now-cluster-españa-vuelve + miguel",
-      "title": "El CD Tenerife vuelve a la competición tras el luto por la muerte de su delantero Jesús de Miguel",
-      "brief": "El CD Tenerife vuelve a la competición tras el luto por la muerte de su delantero Jesús de Miguel.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/SKTZTPKEFJKDXFBI3O3M2UW5BQ.jpg?auth=0b4ca3cd5cfa6c5a08b2f16e28af8578ba1d39bdb5e13cc3e9bac7a463a32b2a",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947490766630.png"
-      ],
-      "evidence": [
-        {
-          "title": "El CD Tenerife vuelve a la competición tras el luto por la muerte de su delantero Jesús de Miguel",
-          "source": "El País",
-          "publishedAt": "2026-11-15T21:06:29.000Z",
-          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-15/el-cd-tenerife-vuelve-a-la-competicion-tras-el-luto-por-la-muerte-de-su-delantero-jesus-de-miguel.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/SKTZTPKEFJKDXFBI3O3M2UW5BQ.jpg?auth=0b4ca3cd5cfa6c5a08b2f16e28af8578ba1d39bdb5e13cc3e9bac7a463a32b2a"
-        },
-        {
-          "title": "El Heliodoro se rinde a Jesús de Miguel en el regreso del Tenerife",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-15T13:30:26.000Z",
-          "sourceUrl": "https://www.elmundo.es/deportes/futbol/segunda-division/2026/11/15/6af9b180e4d4d8920d8b457c.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947490766630.png"
-        }
-      ],
-      "path": "/es/entity/el-cd-tenerife-vuelve-a-la-competicion-tras-el-luto-por-la-muerte-de-su-delanter/"
-    },
-    {
-      "id": "moving-cluster-españa-ante + jodar",
-      "title": "Así hemos narrado la derrota de Jódar ante Zverev",
-      "brief": "Así hemos narrado la derrota de Jódar ante Zverev.",
+      "id": "moving-cluster-españa-solo + historia",
+      "title": "Canarias rescata a 1.580 migrantes en un solo día, la cifra más alta de su historia",
+      "brief": "Canarias rescata a 1.580 migrantes en un solo día, la cifra más alta de su historia.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
@@ -309,216 +370,14 @@
       "stateLabel": "Activa",
       "strength": 8,
       "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "6h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 73,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/6PUAYZKJ5VFTVCPWWL4W77U5HM.jpg?auth=316d5fbe4962562f6d1459564e6484ba65e982e984d12fc552ceae6f12dc33a2",
-        "https://s1.ppllstatics.com/rc/www/multimedia/deportes/2026/11/15/image-RBohnqXbTuzajEZn8ahFujN-1200x840@RC.png"
-      ],
-      "evidence": [
-        {
-          "title": "Zverev, sin piedad contra Jódar",
-          "source": "El Correo",
-          "publishedAt": "2026-11-15T16:31:46.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/tenis/cronica-zverev-jodar-20261115155205-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Zverev, demasiado Zverev para un aguerrido Jódar",
-          "source": "El País",
-          "publishedAt": "2026-11-15T15:35:46.000Z",
-          "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-15/zverev-demasiado-zverev-para-jodar.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/6PUAYZKJ5VFTVCPWWL4W77U5HM.jpg?auth=316d5fbe4962562f6d1459564e6484ba65e982e984d12fc552ceae6f12dc33a2"
-        },
-        {
-          "title": "Así hemos narrado la derrota de Jódar ante Zverev",
-          "source": "El Correo",
-          "publishedAt": "2026-11-15T13:19:21.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/tenis/directo-zverev-jodar-20261115141921-dirc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/deportes/2026/11/15/image-RBohnqXbTuzajEZn8ahFujN-1200x840@RC.png"
-        }
-      ],
-      "path": "/es/entity/asi-hemos-narrado-la-derrota-de-jodar-ante-zverev/"
-    },
-    {
-      "id": "moving-cluster-españa-mision + naval",
-      "title": "La misión naval de la UE aborda en el Mediterráneo un petrolero sospechoso de formar parte de la flota fantasma de Rusia",
-      "brief": "La misión naval de la UE aborda en el Mediterráneo un petrolero sospechoso de formar parte de la flota fantasma de Rusia.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/rc/www/multimedia/internacional/2026/11/15/fantasma-RgyIGgheN14hz0vWz5Kf3HI-1200x840@RC.jpg",
-        "https://imagenes.elpais.com/resizer/v2/A7LQYK2UCFIZHDKF3AX5CCKLEM.jpg?auth=3b58100ffa941ea0931df4e4665d3396f667ee7ea283cda5404eefe385a8432e"
-      ],
-      "evidence": [
-        {
-          "title": "La misión naval de la UE intercepta a un petrolero de la «flota fantasma» rusa en el Mediterráneo",
-          "source": "El Correo",
-          "publishedAt": "2026-11-15T20:00:05.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/europa/mision-naval-ue-intercepta-petrolero-flota-fantasma-20261115210005-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/internacional/2026/11/15/fantasma-RgyIGgheN14hz0vWz5Kf3HI-1200x840@RC.jpg"
-        },
-        {
-          "title": "La misión naval de la UE aborda en el Mediterráneo un petrolero sospechoso de formar parte de la flota fantasma de Rusia",
-          "source": "El País",
-          "publishedAt": "2026-11-15T13:23:44.000Z",
-          "sourceUrl": "https://elpais.com/internacional/2026-11-15/la-mision-naval-de-la-ue-aborda-en-el-mediterraneo-un-petrolero-sospechoso-de-formar-parte-de-la-flota-fantasma-de-rusia.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/A7LQYK2UCFIZHDKF3AX5CCKLEM.jpg?auth=3b58100ffa941ea0931df4e4665d3396f667ee7ea283cda5404eefe385a8432e"
-        }
-      ],
-      "path": "/es/entity/la-mision-naval-de-la-ue-aborda-en-el-mediterraneo-un-petrolero-sospechoso-de-fo/"
-    },
-    {
-      "id": "moving-cluster-españa-rafa + jodar",
-      "title": "Alexander Zverev no da opción a Rafa Jódar en su estreno como maestro en las ATP Finals",
-      "brief": "Alexander Zverev no da opción a Rafa Jódar en su estreno como maestro en las ATP Finals.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "8h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 67,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El País"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947544523189.jpg",
-        "https://imagenes.elpais.com/resizer/v2/T36T6F7LN5LFVLBGEJCG6BTDMA.jpg?auth=1e76ba4252640cc7ca263e5a0a41095a81f562b83b3ad60c9ce8d23591e9b262",
-        "https://imagenes.elpais.com/resizer/v2/AM6FOYGYCVFSZBC3MXG7CCHB2Q.jpg?auth=beb4ee88d723e1e8b43ed66ad07b0749ff323ea6f2c4b05ef329d7e73ed150ad"
-      ],
-      "evidence": [
-        {
-          "title": "Alexander Zverev no da opción a Rafa Jódar en su estreno como maestro en las ATP Finals",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-15T14:58:43.000Z",
-          "sourceUrl": "https://www.elmundo.es/deportes/tenis/2026/11/15/6af9c7a3e9cf4a84238b457b.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/15/17947544523189.jpg"
-        },
-        {
-          "title": "Rafa Jódar-Alexander Zverev, el partido de las ATP Finals en vivo| Zverev se lleva el primer set",
-          "source": "El País",
-          "publishedAt": "2026-11-15T14:56:45.000Z",
-          "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-15/rafa-jodar-alexander-zverev-el-partido-de-las-atp-finals-en-vivo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/T36T6F7LN5LFVLBGEJCG6BTDMA.jpg?auth=1e76ba4252640cc7ca263e5a0a41095a81f562b83b3ad60c9ce8d23591e9b262"
-        },
-        {
-          "title": "El meteórico vuelo de Rafa Jódar, un debutante extraordinario: “Todavía no lo he asimilado”",
-          "source": "El País",
-          "publishedAt": "2026-11-15T13:19:25.000Z",
-          "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-15/el-meteorico-vuelo-de-rafa-jodar-un-debutante-extraordinario-todavia-no-lo-he-asimilado.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/AM6FOYGYCVFSZBC3MXG7CCHB2Q.jpg?auth=beb4ee88d723e1e8b43ed66ad07b0749ff323ea6f2c4b05ef329d7e73ed150ad"
-        }
-      ],
-      "path": "/es/entity/alexander-zverev-no-da-opcion-a-rafa-jodar-en-su-estreno-como-maestro-en-las-atp/"
-    },
-    {
-      "id": "fading-cluster-españa-sergio + ramirez",
-      "title": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”",
-      "brief": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/ZFZSHVNXXNFUNBFYQRMOKU4OYA.jpg?auth=4adf0b8abde03a4c48cacdf9b650da7f4a90b05a07b60415d77f1d6830f97527"
-      ],
-      "evidence": [
-        {
-          "title": "Sergio Ramírez sucede en la RAE al «novelista ecuménico» Mario Vargas Llosa",
-          "source": "El Correo",
-          "publishedAt": "2026-11-15T19:20:34.000Z",
-          "sourceUrl": "https://www.elcorreo.com/culturas/sergio-ramirez-sucede-rae-novelista-ecumenico-mario-20261113202034-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”",
-          "source": "El País",
-          "publishedAt": "2026-11-15T19:11:01.000Z",
-          "sourceUrl": "https://elpais.com/cultura/2026-11-15/sergio-ramirez-ingresa-en-la-rae-perdi-un-pais-pero-nunca-he-sido-extranjero-en-espana.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/ZFZSHVNXXNFUNBFYQRMOKU4OYA.jpg?auth=4adf0b8abde03a4c48cacdf9b650da7f4a90b05a07b60415d77f1d6830f97527"
-        }
-      ],
-      "path": "/es/entity/sergio-ramirez-ingresa-en-la-rae-perdi-un-pais-pero-nunca-he-sido-extranjero-en/"
-    },
-    {
-      "id": "fading-cluster-españa-solo + historia",
-      "title": "Canarias rescata a 1.580 migrantes en un solo día, la cifra más alta de su historia",
-      "brief": "Canarias rescata a 1.580 migrantes en un solo día, la cifra más alta de su historia.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
@@ -547,49 +406,51 @@
       "path": "/es/entity/canarias-rescata-a-1-580-migrantes-en-un-solo-dia-la-cifra-mas-alta-de-su-histor/"
     },
     {
-      "id": "fading-cluster-españa-feijoo + pais",
-      "title": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país»",
-      "brief": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país».",
+      "id": "moving-cluster-españa-sergio + ramirez",
+      "title": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”",
+      "brief": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”.",
       "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 52,
+      "alertScore": 70,
       "alertTriggers": [
-        "Cruza varias fuentes"
+        "Cruza varias fuentes",
+        "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
         "El Correo",
-        "El Diario Vasco"
+        "El País"
       ],
       "images": [
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo-Ri8PJSFBojAbVloZc399kQJ-1200x840@Diario%20Vasco.png"
+        "https://s1.ppllstatics.com/rc/www/multimedia/culturas/2026/11/13/Rami-Rae-RqguMDgJlj7PtS7s1tVcH6K-1200x840@RC.jpg",
+        "https://imagenes.elpais.com/resizer/v2/ZFZSHVNXXNFUNBFYQRMOKU4OYA.jpg?auth=4adf0b8abde03a4c48cacdf9b650da7f4a90b05a07b60415d77f1d6830f97527"
       ],
       "evidence": [
         {
-          "title": "El error del PP con la ikurriña en un vídeo de Feijóo",
+          "title": "Sergio Ramírez sucede en la RAE al «novelista ecuménico» Mario Vargas Llosa",
           "source": "El Correo",
-          "publishedAt": "2026-11-15T17:18:02.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/error-pp-ikurrina-video-feijoo-20261115181719-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "publishedAt": "2026-11-15T19:20:34.000Z",
+          "sourceUrl": "https://www.elcorreo.com/culturas/sergio-ramirez-sucede-rae-novelista-ecumenico-mario-20261113202034-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/rc/www/multimedia/culturas/2026/11/13/Rami-Rae-RqguMDgJlj7PtS7s1tVcH6K-1200x840@RC.jpg"
         },
         {
-          "title": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-15T16:34:39.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/pp-vasco-difunde-video-feijoo-ikurrina-mal-20261115173438-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo-Ri8PJSFBojAbVloZc399kQJ-1200x840@Diario%20Vasco.png"
+          "title": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”",
+          "source": "El País",
+          "publishedAt": "2026-11-15T19:11:01.000Z",
+          "sourceUrl": "https://elpais.com/cultura/2026-11-15/sergio-ramirez-ingresa-en-la-rae-perdi-un-pais-pero-nunca-he-sido-extranjero-en-espana.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/ZFZSHVNXXNFUNBFYQRMOKU4OYA.jpg?auth=4adf0b8abde03a4c48cacdf9b650da7f4a90b05a07b60415d77f1d6830f97527"
         }
       ],
-      "path": "/es/entity/el-pp-vasco-difunde-un-video-de-feijoo-con-una-ikurrina-mal-dibujada-y-el-pnv-ce/"
+      "path": "/es/entity/sergio-ramirez-ingresa-en-la-rae-perdi-un-pais-pero-nunca-he-sido-extranjero-en/"
     },
     {
       "id": "fading-cluster-españa-programa + psoe",
@@ -603,10 +464,10 @@
       "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 52,
+      "alertScore": 46,
       "alertTriggers": [
         "Cruza varias fuentes"
       ],
@@ -635,6 +496,51 @@
         }
       ],
       "path": "/es/entity/claves-de-un-nuevo-impuesto-a-los-grandes-empresarios-a-la-union-de-la-amistad-e/"
+    },
+    {
+      "id": "fading-cluster-españa-feijoo + error",
+      "title": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país»",
+      "brief": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país».",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "7h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 46,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo-Ri8PJSFBojAbVloZc399kQJ-1200x840@Diario%20Vasco.png"
+      ],
+      "evidence": [
+        {
+          "title": "El error del PP con la ikurriña en un vídeo de Feijóo",
+          "source": "El Correo",
+          "publishedAt": "2026-11-15T17:18:02.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/error-pp-ikurrina-video-feijoo-20261115181719-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país»",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-15T16:34:39.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/pp-vasco-difunde-video-feijoo-ikurrina-mal-20261115173438-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo-Ri8PJSFBojAbVloZc399kQJ-1200x840@Diario%20Vasco.png"
+        }
+      ],
+      "path": "/es/entity/el-pp-vasco-difunde-un-video-de-feijoo-con-una-ikurrina-mal-dibujada-y-el-pnv-ce/"
     }
   ]
 }
