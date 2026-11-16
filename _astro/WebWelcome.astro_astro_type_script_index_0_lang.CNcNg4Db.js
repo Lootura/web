@@ -1,0 +1,1 @@
+import{t as e}from"./web-welcome.CLNY72lo.js";e();
