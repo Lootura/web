@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-16T05:00:47.971Z",
+  "updatedAt": "2026-11-16T06:00:47.901Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "230.151 enlaces analizados",
-  "dayScanLabel": "4.216 enlaces escaneados en 24h",
+  "ambientPulseLabel": "230.567 enlaces analizados",
+  "dayScanLabel": "4.213 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,85 +19,21 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-gipuzkoa + feijoo",
-      "title": "Feijóo vendrá a Gipuzkoa tras el ataque en Hernani y renunciar al Senado por Vox",
-      "brief": "Feijóo vendrá a Gipuzkoa tras el ataque en Hernani y renunciar al Senado por Vox.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 16,
-      "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "6h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 80,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/226492195-kr6E--1200x840@Diario%20Vasco.jpg",
-        "https://imagenes.elpais.com/resizer/v2/PIEAM3URUZFJVP7IGB5WOVRTC4.jpg?auth=e3fdbc53e19fa6ba8e8ec0ee5f09c1ea17415bc91a74c214b161ebe5e0918989",
-        "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo1212-kvKC-U40360595120dJI-1200x840@Diario%20Vasco.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Feijóo vendrá a Gipuzkoa tras el ataque en Hernani y renunciar al Senado por Vox",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-15T23:01:56.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/feijoo-vendra-gipuzkoa-tras-ataque-hernani-renunciar-20261116000156-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/226492195-kr6E--1200x840@Diario%20Vasco.jpg"
-        },
-        {
-          "title": "Feijóo cambia su agenda para viajar a Gipuzkoa tras el ataque a su candidato",
-          "source": "El Correo",
-          "publishedAt": "2026-11-15T19:26:08.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/feijoo-cambia-agenda-viajar-gipuzkoa-tras-ataque-20261115202608-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Feijóo hará campaña en Gipuzkoa tras la agresión a jóvenes de Nuevas Generaciones en Hernani",
-          "source": "El País",
-          "publishedAt": "2026-11-15T18:48:56.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-15/feijoo-hara-campana-en-guipuzcoa-tras-la-agresion-a-jovenes-de-nuevas-generaciones-en-hernani.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/PIEAM3URUZFJVP7IGB5WOVRTC4.jpg?auth=e3fdbc53e19fa6ba8e8ec0ee5f09c1ea17415bc91a74c214b161ebe5e0918989"
-        },
-        {
-          "title": "Feijóo altera su agenda para ir este martes a Gipuzkoa tras el ataque en Hernani",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-15T12:56:09.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/feijoo-altera-agenda-martes-gipuzkoa-tras-ataque-20261115135609-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo1212-kvKC-U40360595120dJI-1200x840@Diario%20Vasco.jpg"
-        }
-      ],
-      "path": "/es/entity/feijoo-vendra-a-gipuzkoa-tras-el-ataque-en-hernani-y-renunciar-al-senado-por-vox/"
-    },
-    {
-      "id": "now-cluster-españa-jensen + huang",
+      "id": "moving-cluster-españa-jensen + huang",
       "title": "Jensen Huang planea su regreso a Nvidia con el apoyo de Elon Musk y otros líderes de Silicon Valley",
       "brief": "Jensen Huang planea su regreso a Nvidia con el apoyo de Elon Musk y otros líderes de Silicon Valley.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
       "strength": 14,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "7h fresca",
+      "freshness": "8h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 80,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -140,6 +76,53 @@
       "path": "/es/entity/jensen-huang-planea-su-regreso-a-nvidia-con-el-apoyo-de-elon-musk-y-otros-lidere/"
     },
     {
+      "id": "now-cluster-españa-black + friday",
+      "title": "Black Friday anticipado en Amazon: 20 ofertas de moda para renovar tu armario gastando menos",
+      "brief": "Black Friday anticipado en Amazon: 20 ofertas de moda para renovar tu armario gastando menos.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "OK Diario",
+        "El País"
+      ],
+      "images": [
+        "https://okdiario.com/img/2026/11/10/adobestock_1818413456.jpeg",
+        "https://imagenes.elpais.com/resizer/v2/TULJJPTOXZAA7GAQV3ZAAGH4CA.png?auth=44d67ca4e74bd992e0572f6684b549917094c507c70d140c8e1d8c61417c1ca3"
+      ],
+      "evidence": [
+        {
+          "title": "Que el Black Friday no te salga caro: cómo evitar las estafas ‘online’",
+          "source": "OK Diario",
+          "publishedAt": "2026-11-16T06:00:46.000Z",
+          "sourceUrl": "https://okdiario.com/economia/que-black-friday-no-te-salga-caro-como-evitar-estafas-online-20604494?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://okdiario.com/img/2026/11/10/adobestock_1818413456.jpeg"
+        },
+        {
+          "title": "Black Friday anticipado en Amazon: 20 ofertas de moda para renovar tu armario gastando menos",
+          "source": "El País",
+          "publishedAt": "2026-11-16T05:45:00.000Z",
+          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-anticipadas-de-moda-black-friday-amazon.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/TULJJPTOXZAA7GAQV3ZAAGH4CA.png?auth=44d67ca4e74bd992e0572f6684b549917094c507c70d140c8e1d8c61417c1ca3"
+        }
+      ],
+      "path": "/es/entity/black-friday-anticipado-en-amazon-20-ofertas-de-moda-para-renovar-tu-armario-gas/"
+    },
+    {
       "id": "moving-cluster-españa-estonia + frontera",
       "title": "Estonia cerrará en diciembre su frontera con Rusia tras acusar al Kremlin de un intento de sabotaje",
       "brief": "Estonia cerrará en diciembre su frontera con Rusia tras acusar al Kremlin de un intento de sabotaje.",
@@ -148,10 +131,10 @@
       "mode": "moving",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 6,
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "8h fresca",
+      "freshness": "9h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -186,143 +169,59 @@
       "path": "/es/entity/estonia-cerrara-en-diciembre-su-frontera-con-rusia-tras-acusar-al-kremlin-de-un/"
     },
     {
-      "id": "moving-cluster-españa-record + solo",
-      "title": "La ruta migratoria a Canarias bate su récord de llegadas en un solo día con más de 1.500 personas",
-      "brief": "La ruta migratoria a Canarias bate su récord de llegadas en un solo día con más de 1.500 personas.",
+      "id": "now-cluster-españa-miguel + angel",
+      "title": "Muere Miguel Ángel Gallardo, el 'Jefe de jefes', fundador del Cártel de Guadalajara, en un hospital privado mexicano",
+      "brief": "Muere Miguel Ángel Gallardo, el 'Jefe de jefes', fundador del Cártel de Guadalajara, en un hospital privado mexicano.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "9h fresca",
+      "itemCount": 3,
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 64,
+      "alertScore": 63,
       "alertTriggers": [
         "Cruza varias fuentes",
+        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
         "El País",
-        "El Correo"
+        "El Mundo"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/K26KCW54FRMP5IX2DW5H7EM74M.jpg?auth=73a35e027fc136bf8cdac04ec20c8998e4a6a5dbb7804aa6909a7794975ad753"
+        "https://imagenes.elpais.com/resizer/v2/PIR6D6W3TVPQXMT4ZJILOJFZQQ.jpg?auth=85ed436e2a2f03eb3d5f4b305a64feceb7812bd644e065f5da972ee33fcb279b",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17947839069814.jpg"
       ],
       "evidence": [
         {
-          "title": "La ruta migratoria a Canarias bate su récord de llegadas en un solo día con más de 1.500 personas",
+          "title": "Guatemala cierra cuatro días de homenajes a Miguel Ángel Asturias con la inhumación de sus cenizas",
           "source": "El País",
-          "publishedAt": "2026-11-15T19:47:39.000Z",
-          "sourceUrl": "https://elpais.com/espana/2026-11-15/la-ruta-migratoria-a-canarias-bate-su-record-de-llegadas-en-un-solo-dia-con-1500-personas.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/K26KCW54FRMP5IX2DW5H7EM74M.jpg?auth=73a35e027fc136bf8cdac04ec20c8998e4a6a5dbb7804aa6909a7794975ad753"
+          "publishedAt": "2026-11-16T00:04:08.000Z",
+          "sourceUrl": "https://elpais.com/america/2026-11-16/guatemala-cierra-cuatro-dias-de-homenajes-con-la-inhumacion-de-las-cenizas-de-miguel-angel-asturias.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/PIR6D6W3TVPQXMT4ZJILOJFZQQ.jpg?auth=85ed436e2a2f03eb3d5f4b305a64feceb7812bd644e065f5da972ee33fcb279b"
         },
         {
-          "title": "Canarias rescata a 1.580 migrantes en un solo día, la cifra más alta de su historia",
-          "source": "El Correo",
-          "publishedAt": "2026-11-15T16:58:19.000Z",
-          "sourceUrl": "https://www.elcorreo.com/sociedad/canarias-rescata-1580-migrantes-solo-dia-cifra-20261115175819-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "title": "Muere Miguel Ángel Gallardo, el 'Jefe de jefes', fundador del Cártel de Guadalajara, en un hospital privado mexicano",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-15T23:07:46.000Z",
+          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/16/6afa3b3f21efa0c9138b4592.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17947839069814.jpg"
+        },
+        {
+          "title": "Muere el narco Miguel Ángel Félix Gallardo, el Jefe de Jefes, a los 80 años",
+          "source": "El País",
+          "publishedAt": "2026-11-15T21:35:13.000Z",
+          "sourceUrl": "https://elpais.com/mexico/2026-11-15/muere-el-narco-miguel-angel-felix-gallardo-el-jefe-de-jefes-a-los-80-anos.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         }
       ],
-      "path": "/es/entity/la-ruta-migratoria-a-canarias-bate-su-record-de-llegadas-en-un-solo-dia-con-mas/"
-    },
-    {
-      "id": "moving-cluster-españa-sergio + ramirez",
-      "title": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”",
-      "brief": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "10h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/rc/www/multimedia/culturas/2026/11/13/Rami-Rae-RqguMDgJlj7PtS7s1tVcH6K-1200x840@RC.jpg",
-        "https://imagenes.elpais.com/resizer/v2/ZFZSHVNXXNFUNBFYQRMOKU4OYA.jpg?auth=4adf0b8abde03a4c48cacdf9b650da7f4a90b05a07b60415d77f1d6830f97527"
-      ],
-      "evidence": [
-        {
-          "title": "Sergio Ramírez sucede en la RAE al «novelista ecuménico» Mario Vargas Llosa",
-          "source": "El Correo",
-          "publishedAt": "2026-11-15T19:20:34.000Z",
-          "sourceUrl": "https://www.elcorreo.com/culturas/sergio-ramirez-sucede-rae-novelista-ecumenico-mario-20261113202034-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/culturas/2026/11/13/Rami-Rae-RqguMDgJlj7PtS7s1tVcH6K-1200x840@RC.jpg"
-        },
-        {
-          "title": "Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”",
-          "source": "El País",
-          "publishedAt": "2026-11-15T19:11:01.000Z",
-          "sourceUrl": "https://elpais.com/cultura/2026-11-15/sergio-ramirez-ingresa-en-la-rae-perdi-un-pais-pero-nunca-he-sido-extranjero-en-espana.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/ZFZSHVNXXNFUNBFYQRMOKU4OYA.jpg?auth=4adf0b8abde03a4c48cacdf9b650da7f4a90b05a07b60415d77f1d6830f97527"
-        }
-      ],
-      "path": "/es/entity/sergio-ramirez-ingresa-en-la-rae-perdi-un-pais-pero-nunca-he-sido-extranjero-en/"
-    },
-    {
-      "id": "moving-cluster-españa-feijoo + error",
-      "title": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país»",
-      "brief": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país».",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "12h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo-Ri8PJSFBojAbVloZc399kQJ-1200x840@Diario%20Vasco.png"
-      ],
-      "evidence": [
-        {
-          "title": "El error del PP con la ikurriña en un vídeo de Feijóo",
-          "source": "El Correo",
-          "publishedAt": "2026-11-15T17:18:02.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/error-pp-ikurrina-video-feijoo-20261115181719-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-15T16:34:39.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/pp-vasco-difunde-video-feijoo-ikurrina-mal-20261115173438-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo-Ri8PJSFBojAbVloZc399kQJ-1200x840@Diario%20Vasco.png"
-        }
-      ],
-      "path": "/es/entity/el-pp-vasco-difunde-un-video-de-feijoo-con-una-ikurrina-mal-dibujada-y-el-pnv-ce/"
+      "path": "/es/entity/muere-miguel-angel-gallardo-el-jefe-de-jefes-fundador-del-cartel-de-guadalajara/"
     },
     {
       "id": "now-cluster-españa-guardia + urbana",
@@ -336,7 +235,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 60,
@@ -372,50 +271,105 @@
       "path": "/es/entity/los-mossos-y-la-guardia-urbana-empiezan-un-dispositivo-para-desalojar-la-acampad/"
     },
     {
-      "id": "now-cluster-españa-miguel + angel",
-      "title": "Muere Miguel Ángel Gallardo, el 'Jefe de jefes', fundador del Cártel de Guadalajara, en un hospital privado mexicano",
-      "brief": "Muere Miguel Ángel Gallardo, el 'Jefe de jefes', fundador del Cártel de Guadalajara, en un hospital privado mexicano.",
+      "id": "moving-cluster-españa-feijoo + error",
+      "title": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país»",
+      "brief": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país».",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 7,
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "13h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 60,
+      "alertScore": 59,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "El Mundo",
-        "El País"
+        "El Correo",
+        "El Diario Vasco"
       ],
       "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17947839069814.jpg"
+        "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo-Ri8PJSFBojAbVloZc399kQJ-1200x840@Diario%20Vasco.png"
       ],
       "evidence": [
         {
-          "title": "Muere Miguel Ángel Gallardo, el 'Jefe de jefes', fundador del Cártel de Guadalajara, en un hospital privado mexicano",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-15T23:07:46.000Z",
-          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/16/6afa3b3f21efa0c9138b4592.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17947839069814.jpg"
+          "title": "El error del PP con la ikurriña en un vídeo de Feijóo",
+          "source": "El Correo",
+          "publishedAt": "2026-11-15T17:18:02.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/error-pp-ikurrina-video-feijoo-20261115181719-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
-          "title": "Muere el narco Miguel Ángel Félix Gallardo, el Jefe de Jefes, a los 80 años",
-          "source": "El País",
-          "publishedAt": "2026-11-15T21:35:13.000Z",
-          "sourceUrl": "https://elpais.com/mexico/2026-11-15/muere-el-narco-miguel-angel-felix-gallardo-el-jefe-de-jefes-a-los-80-anos.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "El PP vasco difunde un vídeo de Feijóo con una ikurriña mal dibujada y el PNV censura el error: «Imagínate lo que saben de nuestro país»",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-15T16:34:39.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/pp-vasco-difunde-video-feijoo-ikurrina-mal-20261115173438-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo-Ri8PJSFBojAbVloZc399kQJ-1200x840@Diario%20Vasco.png"
         }
       ],
-      "path": "/es/entity/muere-miguel-angel-gallardo-el-jefe-de-jefes-fundador-del-cartel-de-guadalajara/"
+      "path": "/es/entity/el-pp-vasco-difunde-un-video-de-feijoo-con-una-ikurrina-mal-dibujada-y-el-pnv-ce/"
+    },
+    {
+      "id": "now-cluster-españa-feijoo + gipuzkoa",
+      "title": "Feijóo vendrá a Gipuzkoa tras el ataque en Hernani y renunciar al Senado por Vox",
+      "brief": "Feijóo vendrá a Gipuzkoa tras el ataque en Hernani y renunciar al Senado por Vox.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "7h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 57,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Diario Vasco",
+        "El Correo"
+      ],
+      "images": [
+        "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/226492195-kr6E--1200x840@Diario%20Vasco.jpg",
+        "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo1212-kvKC-U40360595120dJI-1200x840@Diario%20Vasco.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Feijóo vendrá a Gipuzkoa tras el ataque en Hernani y renunciar al Senado por Vox",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-15T23:01:56.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/feijoo-vendra-gipuzkoa-tras-ataque-hernani-renunciar-20261116000156-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/226492195-kr6E--1200x840@Diario%20Vasco.jpg"
+        },
+        {
+          "title": "Feijóo cambia su agenda para viajar a Gipuzkoa tras el ataque a su candidato",
+          "source": "El Correo",
+          "publishedAt": "2026-11-15T19:26:08.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/feijoo-cambia-agenda-viajar-gipuzkoa-tras-ataque-20261115202608-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Feijóo altera su agenda para ir este martes a Gipuzkoa tras el ataque en Hernani",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-15T12:56:09.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/feijoo-altera-agenda-martes-gipuzkoa-tras-ataque-20261115135609-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/15/feijoo1212-kvKC-U40360595120dJI-1200x840@Diario%20Vasco.jpg"
+        }
+      ],
+      "path": "/es/entity/feijoo-vendra-a-gipuzkoa-tras-el-ataque-en-hernani-y-renunciar-al-senado-por-vox/"
     }
   ]
 }
