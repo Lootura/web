@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-16T00:00:48.360Z",
+  "updatedAt": "2026-11-16T01:00:48.068Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "251,934 links analyzed",
-  "dayScanLabel": "5,997 links scanned in 24h",
+  "ambientPulseLabel": "252,534 links analyzed",
+  "dayScanLabel": "5,998 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -19,7 +19,7 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-united states-trump + ground",
+      "id": "now-cluster-united states-trump + more",
       "title": "Trump breaks silence on nationwide ground stop and demands more money from Congress",
       "brief": "Trump breaks silence on nationwide ground stop and demands more money from Congress.",
       "whyItMatters": "",
@@ -30,7 +30,7 @@
       "strength": 26,
       "sourceCount": 4,
       "itemCount": 5,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -93,18 +93,82 @@
       "path": "/us/entity/trump-breaks-silence-on-nationwide-ground-stop-and-demands-more-money-from-congr/"
     },
     {
+      "id": "now-cluster-united states-alice + huang",
+      "title": "Megaspeed says Alice Huang left in 2025 as company conducts internal probe over Nvidia fallout",
+      "brief": "Megaspeed says Alice Huang left in 2025 as company conducts internal probe over Nvidia fallout.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 24,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 96,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times",
+        "PBS NewsHour",
+        "CBS News"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/15/multimedia/15xp-megaspeed1-zcvq/15xp-megaspeed1-zcvq-mediumSquareAt3X.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-15T100429Z_2002936799_RC2TKOADN7KK_RTRMADP_3_NVIDIA-CEO-ALICE-HUANG-MEGASPEED-1024x682.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/12/42ca78a4-2996-4bbb-8cf7-e378df3b48fe/thumbnail/1200x630/f26e298de4f33c72905766973f408671/2026-11-12t140122z-573929441-rc2bkoa12wop-rtrmadp-3-nvidia-probe-singapore.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Megaspeed Says Alice Huang Left Company in August 2025",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-16T00:01:34.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/15/business/megaspeed-alice-huang-nvidia-china.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/15/multimedia/15xp-megaspeed1-zcvq/15xp-megaspeed1-zcvq-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Megaspeed says Alice Huang left in 2025 as company conducts internal probe over Nvidia fallout",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-15T16:48:48.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/world/megaspeed-says-alice-huang-left-in-2025-as-company-conducts-internal-probe-over-nvidia-fallout?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-15T100429Z_2002936799_RC2TKOADN7KK_RTRMADP_3_NVIDIA-CEO-ALICE-HUANG-MEGASPEED-1024x682.jpg"
+        },
+        {
+          "title": "Company under scrutiny for ties to Nvidia and China",
+          "source": "CBS News",
+          "publishedAt": "2026-11-15T14:47:03.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/megaspeed-nvidia-china-ties/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Megaspeed says Alice Huang left company in 2025, denies wrongdoing amid Nvidia scandal",
+          "source": "CBS News",
+          "publishedAt": "2026-11-15T14:36:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/nvidia-alice-huang-jensen-ai-china-singapore-megaspeed/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/12/42ca78a4-2996-4bbb-8cf7-e378df3b48fe/thumbnail/1200x630/f26e298de4f33c72905766973f408671/2026-11-12t140122z-573929441-rc2bkoa12wop-rtrmadp-3-nvidia-probe-singapore.jpg"
+        }
+      ],
+      "path": "/us/entity/megaspeed-says-alice-huang-left-in-2025-as-company-conducts-internal-probe-over/"
+    },
+    {
       "id": "moving-cluster-united states-jensen + huang",
       "title": "Rep. Moolenaar says it's \"outrageous\" to not see Jensen Huang affair as national security risk",
       "brief": "Rep. Moolenaar says it's \"outrageous\" to not see Jensen Huang affair as national security risk.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 18,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 17,
       "sourceCount": 3,
       "itemCount": 5,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 94,
@@ -176,7 +240,7 @@
       "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 92,
@@ -222,82 +286,18 @@
       "path": "/us/entity/officials-say-a-tanker-s-steering-failed-before-it-crashed-into-a-cruise-ship-in/"
     },
     {
-      "id": "moving-cluster-united states-alice + huang",
-      "title": "Megaspeed says Alice Huang left in 2025 as company conducts internal probe over Nvidia fallout",
-      "brief": "Megaspeed says Alice Huang left in 2025 as company conducts internal probe over Nvidia fallout.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 17,
-      "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "4h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 90,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times",
-        "PBS NewsHour",
-        "CBS News"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/15/multimedia/15xp-megaspeed1-zcvq/15xp-megaspeed1-zcvq-mediumSquareAt3X.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-15T100429Z_2002936799_RC2TKOADN7KK_RTRMADP_3_NVIDIA-CEO-ALICE-HUANG-MEGASPEED-1024x682.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/12/42ca78a4-2996-4bbb-8cf7-e378df3b48fe/thumbnail/1200x630/f26e298de4f33c72905766973f408671/2026-11-12t140122z-573929441-rc2bkoa12wop-rtrmadp-3-nvidia-probe-singapore.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Megaspeed Says Alice Huang Left Company in August 2025",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-15T20:11:11.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/15/business/megaspeed-alice-huang-nvidia-china.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/15/multimedia/15xp-megaspeed1-zcvq/15xp-megaspeed1-zcvq-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Megaspeed says Alice Huang left in 2025 as company conducts internal probe over Nvidia fallout",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-15T16:48:48.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/world/megaspeed-says-alice-huang-left-in-2025-as-company-conducts-internal-probe-over-nvidia-fallout?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-15T100429Z_2002936799_RC2TKOADN7KK_RTRMADP_3_NVIDIA-CEO-ALICE-HUANG-MEGASPEED-1024x682.jpg"
-        },
-        {
-          "title": "Company under scrutiny for ties to Nvidia and China",
-          "source": "CBS News",
-          "publishedAt": "2026-11-15T14:47:03.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/megaspeed-nvidia-china-ties/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Megaspeed says Alice Huang left company in 2025, denies wrongdoing amid Nvidia scandal",
-          "source": "CBS News",
-          "publishedAt": "2026-11-15T14:36:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/nvidia-alice-huang-jensen-ai-china-singapore-megaspeed/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/12/42ca78a4-2996-4bbb-8cf7-e378df3b48fe/thumbnail/1200x630/f26e298de4f33c72905766973f408671/2026-11-12t140122z-573929441-rc2bkoa12wop-rtrmadp-3-nvidia-probe-singapore.jpg"
-        }
-      ],
-      "path": "/us/entity/megaspeed-says-alice-huang-left-in-2025-as-company-conducts-internal-probe-over/"
-    },
-    {
-      "id": "now-cluster-united states-return + hutchinson",
-      "title": "Aidan Hutchinson injures knee after sack celebration, set for tests on return to Detroit",
-      "brief": "Aidan Hutchinson injures knee after sack celebration, set for tests on return to Detroit.",
+      "id": "now-cluster-united states-miami + international",
+      "title": "WATCH: Passenger jet collides with UPS plane on taxiway at Miami International Airport",
+      "brief": "WATCH: Passenger jet collides with UPS plane on taxiway at Miami International Airport.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresh",
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -307,30 +307,77 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The Guardian US",
+        "ABC News",
         "NBC News"
       ],
       "images": [
-        "https://i.guim.co.uk/img/media/abd4f4bf5d3f135fb440e2d8341105951dbd8344/49_0_2855_2285/master/2855.jpg?width=140&quality=85&auto=format&fit=max&s=78b622aba47917a53ae99db06f4d13bb",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261115-detroit-lions-aidan-hutchinson-mn-1415-bf8291.jpg"
+        "https://s.abcnews.com/images/US/YYMMDD_gma_digital_slug.00_00_12_21.Still001_hpMain_4x3_384.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261115-miami-airport-tarmac-collision-mn-1130-293acd.jpg"
       ],
       "evidence": [
         {
-          "title": "NFL roundup: Vikings win on Cousins’ return; Hutchinson reportedly ends season celebrating sack",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-15T21:55:13.000Z",
-          "sourceUrl": "https://www.theguardian.com/sport/2026/nov/15/nfl-sunday-football-scores?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/abd4f4bf5d3f135fb440e2d8341105951dbd8344/49_0_2855_2285/master/2855.jpg?width=140&quality=85&auto=format&fit=max&s=78b622aba47917a53ae99db06f4d13bb"
+          "title": "WATCH: Passenger jet collides with UPS plane on taxiway at Miami International Airport",
+          "source": "ABC News",
+          "publishedAt": "2026-11-16T00:31:25.000Z",
+          "sourceUrl": "https://abcnews.com/video/138162241/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s.abcnews.com/images/US/YYMMDD_gma_digital_slug.00_00_12_21.Still001_hpMain_4x3_384.jpg"
         },
         {
-          "title": "Aidan Hutchinson injures knee after sack celebration, set for tests on return to Detroit",
+          "title": "Two people injured after taxiing planes collide at Miami International Airport",
           "source": "NBC News",
-          "publishedAt": "2026-11-15T19:15:17.989Z",
-          "sourceUrl": "https://www.nbcnews.com/sports/nfl/aidan-hutchinson-knee-sack-celebration-injury-rcna609449?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261115-detroit-lions-aidan-hutchinson-mn-1415-bf8291.jpg"
+          "publishedAt": "2026-11-15T16:04:02.326Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/two-injured-taxiing-planes-collide-miami-airport-rcna608962?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261115-miami-airport-tarmac-collision-mn-1130-293acd.jpg"
         }
       ],
-      "path": "/us/entity/aidan-hutchinson-injures-knee-after-sack-celebration-set-for-tests-on-return-to/"
+      "path": "/us/entity/watch-passenger-jet-collides-with-ups-plane-on-taxiway-at-miami-international-ai/"
+    },
+    {
+      "id": "moving-cluster-united states-rocket + amazon",
+      "title": "United Launch Alliance loses Vulcan rocket and 40 Amazon Leo internet satellites in launch mishap",
+      "brief": "United Launch Alliance loses Vulcan rocket and 40 Amazon Leo internet satellites in launch mishap.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "4h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The Verge",
+        "CBS News"
+      ],
+      "images": [
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304790934.jpg?quality=90&strip=all&crop=0,0,100,100",
+        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/15/9bcf7f78-63a2-41ce-892f-bff8290f2343/thumbnail/1200x630/cb74d5b84b03bc76d92e588205fde92d/111526-launch1.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+          "source": "The Verge",
+          "publishedAt": "2026-11-15T21:05:02.000Z",
+          "sourceUrl": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304790934.jpg?quality=90&strip=all&crop=0,0,100,100"
+        },
+        {
+          "title": "United Launch Alliance loses Vulcan rocket and 40 Amazon Leo internet satellites in launch mishap",
+          "source": "CBS News",
+          "publishedAt": "2026-11-15T19:47:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/vulcan-rocket-40-amazon-leo-internet-satellites-launch-mishap/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/15/9bcf7f78-63a2-41ce-892f-bff8290f2343/thumbnail/1200x630/cb74d5b84b03bc76d92e588205fde92d/111526-launch1.jpg"
+        }
+      ],
+      "path": "/us/entity/united-launch-alliance-loses-vulcan-rocket-and-40-amazon-leo-internet-satellites/"
     },
     {
       "id": "moving-cluster-united states-trump + ahead",
@@ -341,13 +388,13 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "6h fresh",
+      "freshness": "7h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 73,
+      "alertScore": 67,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -387,100 +434,6 @@
         }
       ],
       "path": "/us/entity/judge-temporarily-blocks-trump-from-moving-ahead-on-d-c-public-golf-course-redev/"
-    },
-    {
-      "id": "now-cluster-united states-rocket + amazon",
-      "title": "United Launch Alliance loses Vulcan rocket and 40 Amazon Leo internet satellites in launch mishap",
-      "brief": "United Launch Alliance loses Vulcan rocket and 40 Amazon Leo internet satellites in launch mishap.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 14,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The Verge",
-        "CBS News"
-      ],
-      "images": [
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304790934.jpg?quality=90&strip=all&crop=0,0,100,100",
-        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/15/9bcf7f78-63a2-41ce-892f-bff8290f2343/thumbnail/1200x630/cb74d5b84b03bc76d92e588205fde92d/111526-launch1.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
-          "source": "The Verge",
-          "publishedAt": "2026-11-15T21:05:02.000Z",
-          "sourceUrl": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304790934.jpg?quality=90&strip=all&crop=0,0,100,100"
-        },
-        {
-          "title": "United Launch Alliance loses Vulcan rocket and 40 Amazon Leo internet satellites in launch mishap",
-          "source": "CBS News",
-          "publishedAt": "2026-11-15T19:47:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/vulcan-rocket-40-amazon-leo-internet-satellites-launch-mishap/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/15/9bcf7f78-63a2-41ce-892f-bff8290f2343/thumbnail/1200x630/cb74d5b84b03bc76d92e588205fde92d/111526-launch1.jpg"
-        }
-      ],
-      "path": "/us/entity/united-launch-alliance-loses-vulcan-rocket-and-40-amazon-leo-internet-satellites/"
-    },
-    {
-      "id": "moving-cluster-united states-miami + international",
-      "title": "UPS plane, Copa Airlines flight collide on taxiway at Miami International Airport",
-      "brief": "UPS plane, Copa Airlines flight collide on taxiway at Miami International Airport.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "ABC News",
-        "NBC News"
-      ],
-      "images": [
-        "https://s.abcnews.com/images/US/miami-airport_1794717443700_hpMain_4x3t_384.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261115-miami-airport-tarmac-collision-mn-1130-293acd.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "UPS plane, Copa Airlines flight collide on taxiway at Miami International Airport",
-          "source": "ABC News",
-          "publishedAt": "2026-11-15T20:07:46.000Z",
-          "sourceUrl": "https://abcnews.com/US/ups-plane-copa-airlines-flight-collide-taxiway-miami/story?id=138152923&utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s.abcnews.com/images/US/miami-airport_1794717443700_hpMain_4x3t_384.jpg"
-        },
-        {
-          "title": "Two people injured after taxiing planes collide at Miami International Airport",
-          "source": "NBC News",
-          "publishedAt": "2026-11-15T16:04:02.326Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/two-injured-taxiing-planes-collide-miami-airport-rcna608962?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261115-miami-airport-tarmac-collision-mn-1130-293acd.jpg"
-        }
-      ],
-      "path": "/us/entity/ups-plane-copa-airlines-flight-collide-on-taxiway-at-miami-international-airport/"
     }
   ]
 }
