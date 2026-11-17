@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-17T18:00:48.070Z",
-  "pulseLabel": "Último análisis · hace 2 horas",
-  "ambientPulseLabel": "241.588 enlaces analizados",
-  "dayScanLabel": "4.245 enlaces escaneados en 24h",
+  "updatedAt": "2026-11-17T20:25:51.618Z",
+  "pulseLabel": "Último análisis · este minuto",
+  "ambientPulseLabel": "242.013 enlaces analizados",
+  "dayScanLabel": "4.243 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,21 +19,21 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-jodar + fils",
-      "title": "Arthur Fils - Rafa Jódar en directo, el partido de las ATP Finals en vivo | Fils gana el segundo set e iguala el encuentro",
-      "brief": "Arthur Fils - Rafa Jódar en directo, el partido de las ATP Finals en vivo | Fils gana el segundo set e iguala el encuentro.",
+      "id": "moving-cluster-españa-jodar + fils",
+      "title": "Un extraño desfallecimiento condena a Jódar ante Fils y le deja al borde de la eliminación en las ATP Finals",
+      "brief": "Un extraño desfallecimiento condena a Jódar ante Fils y le deja al borde de la eliminación en las ATP Finals.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 24,
+      "strength": 16,
       "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "1h fresca",
+      "itemCount": 3,
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 96,
+      "alertScore": 86,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -66,13 +66,6 @@
           "image": "https://imagenes.elpais.com/resizer/v2/SDMKVUKSRZHSBK2LTRQY3WPQAY.JPG?auth=b6b877a405f0bcea9e087a3483b4a626ed34865e2a14622001d347731723707f"
         },
         {
-          "title": "Arthur Fils - Rafa Jódar en directo, el partido de las ATP Finals en vivo | Fils gana el segundo set e iguala el encuentro",
-          "source": "El País",
-          "publishedAt": "2026-11-17T14:50:04.000Z",
-          "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-17/arthur-fils-rafa-jodar-en-directo-el-partido-de-las-atp-finals-en-vivo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/SDMKVUKSRZHSBK2LTRQY3WPQAY.JPG?auth=b6b877a405f0bcea9e087a3483b4a626ed34865e2a14622001d347731723707f"
-        },
-        {
           "title": "Directo | Fils",
           "source": "El Correo",
           "publishedAt": "2026-11-17T12:48:12.000Z",
@@ -80,7 +73,7 @@
           "image": "https://s2.ppllstatics.com/rc/www/multimedia/deportes/2026/11/17/fils-jodar-directo-R8tYct5asD6TmxvGFD8seLM-1200x840@RC.jpg"
         }
       ],
-      "path": "/es/entity/arthur-fils-rafa-jodar-en-directo-el-partido-de-las-atp-finals-en-vivo-fils-gana/"
+      "path": "/es/entity/un-extrano-desfallecimiento-condena-a-jodar-ante-fils-y-le-deja-al-borde-de-la-e/"
     },
     {
       "id": "now-cluster-españa-millones + gobierno",
@@ -94,7 +87,7 @@
       "strength": 17,
       "sourceCount": 2,
       "itemCount": 4,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 83,
@@ -105,27 +98,27 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Correo",
-        "El Mundo"
+        "El Mundo",
+        "El Correo"
       ],
       "images": [
-        "https://s1.ppllstatics.com/elcorreo/www/multimedia/economia/2026/11/17/funcionarios-RNDL30U4rzdmpzrCS5ZzVTJ-1200x840@El%20Correo-RO98MCjDXfbgkiySTF2c4VI-1200x840@El%20Correo.jpg",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/17/17949277968475.jpg"
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/17/17949277968475.jpg",
+        "https://s1.ppllstatics.com/elcorreo/www/multimedia/economia/2026/11/17/funcionarios-RNDL30U4rzdmpzrCS5ZzVTJ-1200x840@El%20Correo-RO98MCjDXfbgkiySTF2c4VI-1200x840@El%20Correo.jpg"
       ],
       "evidence": [
+        {
+          "title": "Bruselas estima que la subida encubierta de impuestos del Gobierno al no deflactar el IRPF costará a los ciudadanos más de 2.500 millones este año",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-17T18:55:48.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/2026/11/17/6afc3f49e9cf4aa8668b4572.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/17/17949277968475.jpg"
+        },
         {
           "title": "El Gobierno aprueba en plena campaña la mayor subida a los funcionarios en 34 años",
           "source": "El Correo",
           "publishedAt": "2026-11-17T16:48:42.000Z",
           "sourceUrl": "https://www.elcorreo.com/economia/trabajo/sueldo-funcionarios-subira-1400-4000-euros-adicionales-20261117131300-ntrc.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
-        },
-        {
-          "title": "Bruselas estima que la subida encubierta de impuestos del Gobierno al no deflactar el IRPF costará a los ciudadanos más de 2.500 millones este año",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-17T16:35:08.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/17/6afc3f49e9cf4aa8668b4572.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/17/17949277968475.jpg"
         },
         {
           "title": "El Gobierno aprueba 5 millones para El Hierro bajo el reproche por «falta de previsión» del presidente canario",
@@ -145,9 +138,9 @@
       "path": "/es/entity/bruselas-estima-que-la-subida-encubierta-de-impuestos-del-gobierno-al-no-deflact/"
     },
     {
-      "id": "now-cluster-españa-pedro + sanchez",
-      "title": "Ayuso critica el apoyo de Lula a Pedro Sánchez en la campaña: “Cada vez hay más fuerzas externas”",
-      "brief": "Ayuso critica el apoyo de Lula a Pedro Sánchez en la campaña: “Cada vez hay más fuerzas externas”.",
+      "id": "now-cluster-españa-millones + euros",
+      "title": "La subida de 65 euros del salario mínimo llegará íntegra a las nóminas de casi 2,7 millones de trabajadores desde enero",
+      "brief": "La subida de 65 euros del salario mínimo llegará íntegra a las nóminas de casi 2,7 millones de trabajadores desde enero.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -156,7 +149,7 @@
       "strength": 16,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 79,
@@ -167,42 +160,88 @@
       ],
       "isHotNews": false,
       "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/QE63EKWFQ5NV3B23J4B7XGOYCI.jpg?auth=9638707ec3e18c4ae5fd5ac208a42067db94acf5e57904fb6ede4fd8fad4f1fa",
+        "https://s3.ppllstatics.com/rc/www/multimedia/economia/2026/11/17/1520409313-R2vHvItG2ygmS1hg480uk0I-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Europa abraza la línea dura de la extrema derecha al impulsar un centro de deportación en Ruanda",
+          "source": "El Correo",
+          "publishedAt": "2026-11-17T18:41:00.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/europa/europa-abraza-linea-dura-extrema-derecha-impulsar-20261117194058-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Alemania presupuestará 20 millones de euros para enviar a 40 migrantes al centro de deportación europeo en Ruanda",
+          "source": "El País",
+          "publishedAt": "2026-11-17T16:30:51.000Z",
+          "sourceUrl": "https://elpais.com/internacional/2026-11-17/alemania-presupuestara-20-millones-de-euros-para-enviar-a-40-migrantes-al-centro-de-deportacion-europeo-en-ruanda.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/QE63EKWFQ5NV3B23J4B7XGOYCI.jpg?auth=9638707ec3e18c4ae5fd5ac208a42067db94acf5e57904fb6ede4fd8fad4f1fa"
+        },
+        {
+          "title": "La subida de 65 euros del salario mínimo llegará íntegra a las nóminas de casi 2,7 millones de trabajadores desde enero",
+          "source": "El Correo",
+          "publishedAt": "2026-11-17T13:04:48.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/trabajo/gobierno-eleva-salario-minimo-elimina-retenciones-mensuales-20261117140448-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/economia/2026/11/17/1520409313-R2vHvItG2ygmS1hg480uk0I-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/la-subida-de-65-euros-del-salario-minimo-llegara-integra-a-las-nominas-de-casi-2/"
+    },
+    {
+      "id": "now-cluster-españa-sanchez + ataque",
+      "title": "Sánchez se revuelve contra el ataque de Ayuso a los andaluces: “Andalucía se va a levantar, a movilizar y a darnos la victoria el 29-N”",
+      "brief": "Sánchez se revuelve contra el ataque de Ayuso a los andaluces: “Andalucía se va a levantar, a movilizar y a darnos la victoria el 29-N”.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
         "El País",
         "El Diario Vasco"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/EPF5C2OWWNGJ7MAKOFVFKVJD4Y.jpg?auth=c13de9d072171d31527400cb0b1736e8a4fa9800fd96b86738b2f16e29b9e00d",
-        "https://imagenes.elpais.com/resizer/v2/DJQ2LT7IBBI7DLI42LTY5VMXFY.jpg?auth=5232b90e51f2cae9dc99da44813e6d8ca141f74a80e56401a6856f62aa0174da"
+        "https://imagenes.elpais.com/resizer/v2/XNOQCTCW2FGR7IGWK6WWY25BUM.jpg?auth=defd81629fc524a5c571951c62ecbbb4d305e24af0f8b35fa23e9d320719685b"
       ],
       "evidence": [
         {
-          "title": "Pedro Sánchez concede su primera entrevista a una revista del corazón: “No imagino mi vida sin Begoña”",
+          "title": "Sánchez se revuelve contra el ataque de Ayuso a los andaluces: “Andalucía se va a levantar, a movilizar y a darnos la victoria el 29-N”",
           "source": "El País",
-          "publishedAt": "2026-11-17T17:05:02.000Z",
-          "sourceUrl": "https://elpais.com/gente/2026-11-17/pedro-sanchez-concede-su-primera-entrevista-a-una-revista-del-corazon-no-imagino-mi-vida-sin-begona.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/EPF5C2OWWNGJ7MAKOFVFKVJD4Y.jpg?auth=c13de9d072171d31527400cb0b1736e8a4fa9800fd96b86738b2f16e29b9e00d"
+          "publishedAt": "2026-11-17T20:05:43.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-17/sanchez-se-revuelve-contra-el-ataque-de-ayuso-los-andaluces-andalucia-se-va-a-levantar-a-movilizar-y-a-darnos-la-victoria-el-29-n.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/XNOQCTCW2FGR7IGWK6WWY25BUM.jpg?auth=defd81629fc524a5c571951c62ecbbb4d305e24af0f8b35fa23e9d320719685b"
         },
         {
-          "title": "Ayuso critica el apoyo de Lula a Pedro Sánchez en la campaña: “Cada vez hay más fuerzas externas”",
-          "source": "El País",
-          "publishedAt": "2026-11-17T15:08:47.000Z",
-          "sourceUrl": "https://elpais.com/espana/madrid/2026-11-17/ayuso-critica-el-apoyo-de-lula-a-pedro-sanchez-en-la-campana-cada-vez-hay-mas-fuerzas-externas.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/DJQ2LT7IBBI7DLI42LTY5VMXFY.jpg?auth=5232b90e51f2cae9dc99da44813e6d8ca141f74a80e56401a6856f62aa0174da"
-        },
-        {
-          "title": "Ana Rosa, pillada a micrófono abierto sobre Pedro Sánchez: «Me ha pasado como lo de la fruta»",
+          "title": "De ataque del PP a himno a favor de Sánchez, la canción tras el eslogan de Ester Muñoz",
           "source": "El Diario Vasco",
-          "publishedAt": "2026-11-17T12:53:46.000Z",
-          "sourceUrl": "https://www.diariovasco.com/culturas/tv/ana-rosa-quintana-pillada-microfono-abierto-sobre-pedro-sanchez-fruta-20261117135310-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-17T16:01:16.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/ataque-pp-himno-29n-frase-ester-munoz-20261117170043-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         }
       ],
-      "path": "/es/entity/ayuso-critica-el-apoyo-de-lula-a-pedro-sanchez-en-la-campana-cada-vez-hay-mas-fu/"
+      "path": "/es/entity/sanchez-se-revuelve-contra-el-ataque-de-ayuso-a-los-andaluces-andalucia-se-va-a/"
     },
     {
-      "id": "now-cluster-españa-jensen + huang",
-      "title": "Jensen Huang abre la puerta a volver a Nvidia: «Si la junta decide que es lo mejor, será un honor»",
-      "brief": "Jensen Huang abre la puerta a volver a Nvidia: «Si la junta decide que es lo mejor, será un honor».",
+      "id": "now-cluster-españa-james + bond",
+      "title": "El nombramiento de Robert Pattinson como James Bond desata una ola de memes: “Está robándose los empleos”",
+      "brief": "El nombramiento de Robert Pattinson como James Bond desata una ola de memes: “Está robándose los empleos”.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -211,10 +250,56 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/KDDOIQC5U5DOJMLTTUQYDHVVUU.jpg?auth=c0380c8d461c197416094fbe1eb7b0da131cb5f4273c326a11640287b1581129"
+      ],
+      "evidence": [
+        {
+          "title": "Brad Pitt al enterarse de la noticia sobre el nuevo James Bond: «¡Apuntadme para el papel!»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-17T18:28:38.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/brad-pitt-enterarse-noticia-sobre-nuevo-james-20261117192723-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "El nombramiento de Robert Pattinson como James Bond desata una ola de memes: “Está robándose los empleos”",
+          "source": "El País",
+          "publishedAt": "2026-11-17T17:07:58.000Z",
+          "sourceUrl": "https://elpais.com/us/2026-11-17/el-nombramiento-de-robert-pattinson-como-james-bond-desata-una-ola-de-memes-esta-robandose-los-empleos.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/KDDOIQC5U5DOJMLTTUQYDHVVUU.jpg?auth=c0380c8d461c197416094fbe1eb7b0da131cb5f4273c326a11640287b1581129"
+        }
+      ],
+      "path": "/es/entity/el-nombramiento-de-robert-pattinson-como-james-bond-desata-una-ola-de-memes-esta/"
+    },
+    {
+      "id": "moving-cluster-españa-jensen + huang",
+      "title": "Jensen Huang abre la puerta a volver a Nvidia: «Si la junta decide que es lo mejor, será un honor»",
+      "brief": "Jensen Huang abre la puerta a volver a Nvidia: «Si la junta decide que es lo mejor, será un honor».",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "3h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -246,21 +331,67 @@
       "path": "/es/entity/jensen-huang-abre-la-puerta-a-volver-a-nvidia-si-la-junta-decide-que-es-lo-mejor/"
     },
     {
+      "id": "moving-cluster-españa-pedro + sanchez",
+      "title": "Pedro Sánchez concede su primera entrevista a una revista del corazón: “No imagino mi vida sin Begoña”",
+      "brief": "Pedro Sánchez concede su primera entrevista a una revista del corazón: “No imagino mi vida sin Begoña”.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "3h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/EPF5C2OWWNGJ7MAKOFVFKVJD4Y.jpg?auth=c13de9d072171d31527400cb0b1736e8a4fa9800fd96b86738b2f16e29b9e00d"
+      ],
+      "evidence": [
+        {
+          "title": "Pedro Sánchez concede su primera entrevista a una revista del corazón: “No imagino mi vida sin Begoña”",
+          "source": "El País",
+          "publishedAt": "2026-11-17T17:05:02.000Z",
+          "sourceUrl": "https://elpais.com/gente/2026-11-17/pedro-sanchez-concede-su-primera-entrevista-a-una-revista-del-corazon-no-imagino-mi-vida-sin-begona.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/EPF5C2OWWNGJ7MAKOFVFKVJD4Y.jpg?auth=c13de9d072171d31527400cb0b1736e8a4fa9800fd96b86738b2f16e29b9e00d"
+        },
+        {
+          "title": "Ana Rosa, pillada a micrófono abierto sobre Pedro Sánchez: «Me ha pasado como lo de la fruta»",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-17T12:53:46.000Z",
+          "sourceUrl": "https://www.diariovasco.com/culturas/tv/ana-rosa-quintana-pillada-microfono-abierto-sobre-pedro-sanchez-fruta-20261117135310-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/pedro-sanchez-concede-su-primera-entrevista-a-una-revista-del-corazon-no-imagino/"
+    },
+    {
       "id": "moving-cluster-españa-durangoko + azokak",
       "title": "Durangoko Azokak 1.098 nobedade eta 311 ekitaldi prestatu ditu 61. ediziorako",
       "brief": "Durangoko Azokak 1.098 nobedade eta 311 ekitaldi prestatu ditu 61. ediziorako.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -292,70 +423,61 @@
       "path": "/es/entity/durangoko-azokak-1-098-nobedade-eta-311-ekitaldi-prestatu-ditu-61-ediziorako/"
     },
     {
-      "id": "moving-cluster-españa-prision + insultos",
-      "title": "Once meses de prisión por dirigir insultos racistas a Mbappé en el Carlos Tartiere",
-      "brief": "Once meses de prisión por dirigir insultos racistas a Mbappé en el Carlos Tartiere.",
+      "id": "fading-cluster-españa-vitoria + atencion",
+      "title": "Los sindicatos revientan la presentación en Vitoria de la red de atención de cuidados paliativos pediátricos de Osakidetza",
+      "brief": "Los sindicatos revientan la presentación en Vitoria de la red de atención de cuidados paliativos pediátricos de Osakidetza.",
       "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 46,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
-        "El Correo",
-        "El País"
+        "El Diario Vasco",
+        "El Correo"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/FYUJ6NHRDFKTLPZ5Z4VCO3QYDM.jpg?auth=ac1f4ceee0bf10026d34ad6d15155e5014f66299bdee21f0790da832ccbe34ab"
+        "https://s1.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/17/1520405381-RFFLyR9tMXa9PmG48xakM7L-1200x840@El%20Correo.jpg"
       ],
       "evidence": [
         {
-          "title": "Once meses de prisión por dirigir insultos racistas a Mbappé en el Carlos Tartiere",
-          "source": "El Correo",
-          "publishedAt": "2026-11-17T14:26:17.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/liga-primera/once-meses-prision-dirigir-insultos-racistas-mbappe-20261117120804-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "title": "Los sindicatos revientan la presentación en Vitoria de la red de atención de cuidados paliativos pediátricos de Osakidetza",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-17T13:12:13.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/salud/sindicatos-revientan-presentacion-vitoria-red-atencion-cuidados-20261117141213-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
-        },
-        {
-          "title": "Condenado el aficionado que profirió insultos racistas a Mbappé en Oviedo de 2025",
-          "source": "El País",
-          "publishedAt": "2026-11-17T14:11:03.000Z",
-          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-17/condenado-el-aficionado-que-profirio-insultos-racistas-a-mbappe-en-oviedo-de-2025.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/FYUJ6NHRDFKTLPZ5Z4VCO3QYDM.jpg?auth=ac1f4ceee0bf10026d34ad6d15155e5014f66299bdee21f0790da832ccbe34ab"
         }
       ],
-      "path": "/es/entity/once-meses-de-prision-por-dirigir-insultos-racistas-a-mbappe-en-el-carlos-tartie/"
+      "path": "/es/entity/los-sindicatos-revientan-la-presentacion-en-vitoria-de-la-red-de-atencion-de-cui/"
     },
     {
-      "id": "moving-cluster-españa-euros + euskadi",
+      "id": "fading-cluster-españa-euros + euskadi",
       "title": "Criar a un hijo en Euskadi cuesta ya más de 1.000 euros al mes, un 40% más que en 2018",
       "brief": "Criar a un hijo en Euskadi cuesta ya más de 1.000 euros al mes, un 40% más que en 2018.",
       "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 8,
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 46,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
@@ -383,91 +505,6 @@
         }
       ],
       "path": "/es/entity/criar-a-un-hijo-en-euskadi-cuesta-ya-mas-de-1-000-euros-al-mes-un-40-mas-que-en/"
-    },
-    {
-      "id": "moving-cluster-españa-vitoria + atencion",
-      "title": "Los sindicatos revientan la presentación en Vitoria de la red de atención de cuidados paliativos pediátricos de Osakidetza",
-      "brief": "Los sindicatos revientan la presentación en Vitoria de la red de atención de cuidados paliativos pediátricos de Osakidetza.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/17/1520405381-RFFLyR9tMXa9PmG48xakM7L-1200x840@El%20Correo.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Los sindicatos revientan la presentación en Vitoria de la red de atención de cuidados paliativos pediátricos de Osakidetza",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-17T13:12:13.000Z",
-          "sourceUrl": "https://www.diariovasco.com/sociedad/salud/sindicatos-revientan-presentacion-vitoria-red-atencion-cuidados-20261117141213-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/los-sindicatos-revientan-la-presentacion-en-vitoria-de-la-red-de-atencion-de-cui/"
-    },
-    {
-      "id": "fading-cluster-españa-entre + feijoo",
-      "title": "Feijóo, entre gritos e insultos en Eibar: «No voy a elegir entre bombas y pedradas. ¿Esto es normalidad?»",
-      "brief": "Feijóo, entre gritos e insultos en Eibar: «No voy a elegir entre bombas y pedradas. ¿Esto es normalidad?».",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "6h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/17/pp-eibar1-kxgF-R82bLIFY5Ge9ffMzzlHomcO-1200x840@El%20Correo.jpg",
-        "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/17/1520405276-RbsZ3MuIpc4iyeTlyBIefjN-1200x840@Diario%20Vasco.JPG"
-      ],
-      "evidence": [
-        {
-          "title": "Feijóo, entre gritos e insultos en Eibar: «No voy a elegir entre bombas y pedradas. ¿Esto es normalidad?»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-17T11:55:54.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/feijoo-gritos-insultos-eibar-elegir-bombas-pedradas-20261117125554-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/17/pp-eibar1-kxgF-R82bLIFY5Ge9ffMzzlHomcO-1200x840@El%20Correo.jpg"
-        },
-        {
-          "title": "Feijóo arropa en Eibar al candidato guipuzcoano Jon Echeverría en un acto con abucheos y gritos de «alde hemendik» y «fascistas»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-17T11:25:23.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/feijoo-arropa-eibar-candidato-gipuzkoa-jon-echeverria-eibar-gritos-fascistas-20261117122134-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/17/1520405276-RbsZ3MuIpc4iyeTlyBIefjN-1200x840@Diario%20Vasco.JPG"
-        }
-      ],
-      "path": "/es/entity/feijoo-entre-gritos-e-insultos-en-eibar-no-voy-a-elegir-entre-bombas-y-pedradas/"
     }
   ]
 }
