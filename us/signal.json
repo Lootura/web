@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-17T04:00:48.802Z",
+  "updatedAt": "2026-11-17T05:00:48.136Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "264,180 links analyzed",
-  "dayScanLabel": "7,442 links scanned in 24h",
+  "ambientPulseLabel": "265,018 links analyzed",
+  "dayScanLabel": "7,682 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -19,6 +19,80 @@
   "topAlert": null,
   "signals": [
     {
+      "id": "moving-cluster-united states-trump + trip",
+      "title": "Trump Administration Moves to Close A.I. Chip Loophole Ahead of China Trip",
+      "brief": "Trump Administration Moves to Close A.I. Chip Loophole Ahead of China Trip.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 19,
+      "sourceCount": 4,
+      "itemCount": 5,
+      "freshness": "5h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NBC News Politics",
+        "PBS NewsHour",
+        "CBS News",
+        "The New York Times Politics"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794873411586_nn_ggu_trump_asia_trip_261116_S3_1920x1080-97ig9p.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newsraptrump-1024x685.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/6pm-Broadcast-CR1-6_26_42-pm-2026-11-16-1024x576.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/16/c4fefa3c-f595-4bce-a11c-eca2cd4a09b8/thumbnail/1200x630/bfc7b57cb9b15d79c15e0491d0d6bac8/cbsn-fusion-trump-to-meet-with-putin-and-xi-during-asia-trip-thumbnail.jpg",
+        "https://static01.nyt.com/images/2026/11/16/multimedia/16dc-remote-access-01-bfgz/16dc-remote-access-01-bfgz-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Trump heads overseas for meeting with Putin, Xi",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-16T23:56:57.000Z",
+          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/trump-heads-overseas-for-meeting-with-putin-xi-273608773713?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794873411586_nn_ggu_trump_asia_trip_261116_S3_1920x1080-97ig9p.jpg"
+        },
+        {
+          "title": "News Wrap: Trump departs for trip to Asia, meetings with Xi and Putin",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-16T23:45:40.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/news-wrap-trump-departs-for-trip-to-asia-meetings-with-xi-and-putin?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newsraptrump-1024x685.jpg"
+        },
+        {
+          "title": "Tamara Keith and Amy Walter on Trump's summit with Xi and Putin",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-16T23:35:35.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/tamara-keith-and-amy-walter-on-trumps-summit-with-xi-and-putin?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/6pm-Broadcast-CR1-6_26_42-pm-2026-11-16-1024x576.jpg"
+        },
+        {
+          "title": "Trump to meet with Putin and Xi during Asia trip",
+          "source": "CBS News",
+          "publishedAt": "2026-11-16T22:58:53.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/trump-to-meet-with-putin-and-xi-during-asia-trip/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/16/c4fefa3c-f595-4bce-a11c-eca2cd4a09b8/thumbnail/1200x630/bfc7b57cb9b15d79c15e0491d0d6bac8/cbsn-fusion-trump-to-meet-with-putin-and-xi-during-asia-trip-thumbnail.jpg"
+        },
+        {
+          "title": "Trump Administration Moves to Close A.I. Chip Loophole Ahead of China Trip",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-16T21:07:23.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-loophole.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16dc-remote-access-01-bfgz/16dc-remote-access-01-bfgz-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/trump-administration-moves-to-close-a-i-chip-loophole-ahead-of-china-trip/"
+    },
+    {
       "id": "now-cluster-united states-white + house",
       "title": "Read the full White House memo requiring agencies to get approval before testifying in front of Congress",
       "brief": "Read the full White House memo requiring agencies to get approval before testifying in front of Congress.",
@@ -27,13 +101,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 24,
+      "strength": 23,
       "sourceCount": 3,
       "itemCount": 5,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 99,
+      "alertScore": 94,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -97,15 +171,15 @@
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 20,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 19,
       "sourceCount": 4,
       "itemCount": 5,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 99,
+      "alertScore": 94,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -163,92 +237,18 @@
       "path": "/us/entity/united-airlines-says-it-resolved-a-technology-issue-that-delayed-departing-fligh/"
     },
     {
-      "id": "moving-cluster-united states-trump + trip",
-      "title": "Trump Administration Moves to Close A.I. Chip Loophole Ahead of China Trip",
-      "brief": "Trump Administration Moves to Close A.I. Chip Loophole Ahead of China Trip.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 19,
-      "sourceCount": 4,
-      "itemCount": 5,
-      "freshness": "4h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 99,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News Politics",
-        "PBS NewsHour",
-        "CBS News",
-        "The New York Times Politics"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794873411586_nn_ggu_trump_asia_trip_261116_S3_1920x1080-97ig9p.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newsraptrump-1024x685.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/6pm-Broadcast-CR1-6_26_42-pm-2026-11-16-1024x576.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/16/c4fefa3c-f595-4bce-a11c-eca2cd4a09b8/thumbnail/1200x630/bfc7b57cb9b15d79c15e0491d0d6bac8/cbsn-fusion-trump-to-meet-with-putin-and-xi-during-asia-trip-thumbnail.jpg",
-        "https://static01.nyt.com/images/2026/11/16/multimedia/16dc-remote-access-01-bfgz/16dc-remote-access-01-bfgz-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Trump heads overseas for meeting with Putin, Xi",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-16T23:56:57.000Z",
-          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/trump-heads-overseas-for-meeting-with-putin-xi-273608773713?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794873411586_nn_ggu_trump_asia_trip_261116_S3_1920x1080-97ig9p.jpg"
-        },
-        {
-          "title": "News Wrap: Trump departs for trip to Asia, meetings with Xi and Putin",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-16T23:45:40.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/show/news-wrap-trump-departs-for-trip-to-asia-meetings-with-xi-and-putin?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newsraptrump-1024x685.jpg"
-        },
-        {
-          "title": "Tamara Keith and Amy Walter on Trump's summit with Xi and Putin",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-16T23:35:35.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/show/tamara-keith-and-amy-walter-on-trumps-summit-with-xi-and-putin?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/6pm-Broadcast-CR1-6_26_42-pm-2026-11-16-1024x576.jpg"
-        },
-        {
-          "title": "Trump to meet with Putin and Xi during Asia trip",
-          "source": "CBS News",
-          "publishedAt": "2026-11-16T22:58:53.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/trump-to-meet-with-putin-and-xi-during-asia-trip/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/16/c4fefa3c-f595-4bce-a11c-eca2cd4a09b8/thumbnail/1200x630/bfc7b57cb9b15d79c15e0491d0d6bac8/cbsn-fusion-trump-to-meet-with-putin-and-xi-during-asia-trip-thumbnail.jpg"
-        },
-        {
-          "title": "Trump Administration Moves to Close A.I. Chip Loophole Ahead of China Trip",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-16T21:07:23.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-loophole.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16dc-remote-access-01-bfgz/16dc-remote-access-01-bfgz-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/trump-administration-moves-to-close-a-i-chip-loophole-ahead-of-china-trip/"
-    },
-    {
       "id": "moving-cluster-united states-trump + nvidia",
       "title": "Trump backs campaign to reinstate Huang as CEO of Nvidia",
       "brief": "Trump backs campaign to reinstate Huang as CEO of Nvidia.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 17,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 86,
@@ -300,12 +300,12 @@
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
+      "state": "active",
+      "stateLabel": "Active",
       "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 86,
@@ -356,12 +356,12 @@
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
+      "state": "active",
+      "stateLabel": "Active",
       "strength": 11,
       "sourceCount": 2,
       "itemCount": 5,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 81,
@@ -427,10 +427,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresh now",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -474,13 +474,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
@@ -513,7 +513,7 @@
       "path": "/us/entity/madison-huang-jensen-huang-s-daughter-became-a-powerful-force-at-nvidia/"
     },
     {
-      "id": "fading-cluster-united states-nationwide + measles",
+      "id": "fading-cluster-united states-measles + nationwide",
       "title": "U.S. loses measles elimination status as cases surge nationwide",
       "brief": "U.S. loses measles elimination status as cases surge nationwide.",
       "whyItMatters": "",
@@ -521,10 +521,10 @@
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Cooling",
-      "strength": 11,
+      "strength": 10,
       "sourceCount": 2,
       "itemCount": 4,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 59,
@@ -585,10 +585,10 @@
       "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresh",
+      "freshness": "7h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 52,
+      "alertScore": 46,
       "alertTriggers": [
         "Crosses several sources"
       ],
@@ -618,52 +618,6 @@
         }
       ],
       "path": "/us/entity/california-sues-chatgpt-maker-openai-over-rogue-hacking-incidents/"
-    },
-    {
-      "id": "fading-cluster-united states-report + their",
-      "title": "Customers at major banks are experiencing issues accessing their accounts",
-      "brief": "Customers at major banks are experiencing issues accessing their accounts.",
-      "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "8h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Crosses several sources"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794858708887_now_daily_b_cheung_online_bank_difficulty_261116_S3_1920x1080-bqslch.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2025-07-16T173304Z_273142587_RC2SNFA3F73N_RTRMADP_3_USA-DAILYLIFE-1024x683.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Customers report difficulty accessing online Chase accounts",
-          "source": "NBC News",
-          "publishedAt": "2026-11-16T19:51:54.000Z",
-          "sourceUrl": "https://www.nbcnews.com/now/video/customers-report-difficulty-accessing-online-chase-accounts-273591877865?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794858708887_now_daily_b_cheung_online_bank_difficulty_261116_S3_1920x1080-bqslch.jpg"
-        },
-        {
-          "title": "Customers at major banks are experiencing issues accessing their accounts",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-16T19:32:41.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/nation/customers-at-major-banks-are-experiencing-issues-accessing-their-accounts?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2025-07-16T173304Z_273142587_RC2SNFA3F73N_RTRMADP_3_USA-DAILYLIFE-1024x683.jpg"
-        }
-      ],
-      "path": "/us/entity/customers-at-major-banks-are-experiencing-issues-accessing-their-accounts/"
     }
   ]
 }
