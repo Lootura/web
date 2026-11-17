@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-17T16:00:48.070Z",
-  "pulseLabel": "Last analysis · 50 minutes ago",
-  "ambientPulseLabel": "274,203 links analyzed",
-  "dayScanLabel": "8,345 links scanned in 24h",
+  "updatedAt": "2026-11-17T17:00:50.368Z",
+  "pulseLabel": "Last analysis · this minute",
+  "ambientPulseLabel": "275,036 links analyzed",
+  "dayScanLabel": "8,339 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -16,19 +16,168 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": null,
+  "topAlert": {
+    "id": "now-cluster-united states-jensen + huang",
+    "title": "Jensen Huang breaks silence after resigning from Nvidia, says he \"would be honored\" to return as CEO",
+    "brief": "Jensen Huang breaks silence after resigning from Nvidia, says he \"would be honored\" to return as CEO.",
+    "whyItMatters": "",
+    "verdict": "If it repeats in the next run, it gains weight.",
+    "mode": "now",
+    "state": "rising",
+    "stateLabel": "Rising",
+    "strength": 30,
+    "sourceCount": 5,
+    "itemCount": 7,
+    "freshness": "fresh now",
+    "alertLevel": "watch",
+    "alertLabel": "Watch",
+    "alertScore": 99,
+    "alertTriggers": [
+      "Crosses several sources",
+      "Picks up volume fast",
+      "Still active"
+    ],
+    "isHotNews": false,
+    "sources": [
+      "CBS News",
+      "The New York Times",
+      "The Verge",
+      "NBC News",
+      "NBC News Politics"
+    ],
+    "images": [
+      "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/51779405-afcc-4d02-9a40-4c95399dbc3e/thumbnail/1200x630/f6294eed103f0baf6b4185c0415b1e43/gettyimages-2301328017.jpg",
+      "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-jensen-statement-vhjm/17biz-jensen-statement-vhjm-mediumSquareAt3X.jpg",
+      "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_04.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794930485392_now_current_canal_huang_appear_261117_S3_1920x1080-gjr47r.jpg",
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261110-jensen-huang-mn-1525-87b5dd.jpg"
+    ],
+    "evidence": [
+      {
+        "title": "Jensen Huang breaks silence after resigning from Nvidia, says he \"would be honored\" to return as CEO",
+        "source": "CBS News",
+        "publishedAt": "2026-11-17T16:24:00.000Z",
+        "sourceUrl": "https://www.cbsnews.com/news/jensen-huang-nvidia-ceo-return-statement/?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/51779405-afcc-4d02-9a40-4c95399dbc3e/thumbnail/1200x630/f6294eed103f0baf6b4185c0415b1e43/gettyimages-2301328017.jpg"
+      },
+      {
+        "title": "Jensen Huang Says He Would Return to Nvidia if Asked",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-17T16:21:23.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/17/technology/jensen-huang-nvidia-statement.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-jensen-statement-vhjm/17biz-jensen-statement-vhjm-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
+        "source": "The Verge",
+        "publishedAt": "2026-11-17T16:09:57.000Z",
+        "sourceUrl": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_04.jpg?quality=90&strip=all&crop=0,0,100,100"
+      },
+      {
+        "title": "Jensen Huang agrees to appear for House interview on Nvidia in December",
+        "source": "NBC News",
+        "publishedAt": "2026-11-17T15:48:09.000Z",
+        "sourceUrl": "https://www.nbcnews.com/video/jensen-huang-agrees-to-appear-for-house-interview-on-nvidia-in-december-273650245602?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794930485392_now_current_canal_huang_appear_261117_S3_1920x1080-gjr47r.jpg"
+      },
+      {
+        "title": "Jensen Huang says he would be ‘honored’ if asked to return as Nvidia CEO",
+        "source": "NBC News Politics",
+        "publishedAt": "2026-11-17T15:29:55.000Z",
+        "sourceUrl": "https://www.nbcnews.com/business/corporations/jensen-huang-agrees-house-interview-nvidias-chip-smuggling-rcna609803?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261110-jensen-huang-mn-1525-87b5dd.jpg"
+      }
+    ],
+    "path": "/us/entity/jensen-huang-breaks-silence-after-resigning-from-nvidia-says-he-would-be-honored/"
+  },
   "signals": [
     {
       "id": "now-cluster-united states-jensen + huang",
-      "title": "Madison Huang, Jensen Huang’s Daughter, Became a Powerful Force at Nvidia",
-      "brief": "Madison Huang, Jensen Huang’s Daughter, Became a Powerful Force at Nvidia.",
+      "title": "Jensen Huang breaks silence after resigning from Nvidia, says he \"would be honored\" to return as CEO",
+      "brief": "Jensen Huang breaks silence after resigning from Nvidia, says he \"would be honored\" to return as CEO.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 27,
-      "sourceCount": 4,
+      "strength": 30,
+      "sourceCount": 5,
+      "itemCount": 7,
+      "freshness": "fresh now",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "The New York Times",
+        "The Verge",
+        "NBC News",
+        "NBC News Politics"
+      ],
+      "images": [
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/51779405-afcc-4d02-9a40-4c95399dbc3e/thumbnail/1200x630/f6294eed103f0baf6b4185c0415b1e43/gettyimages-2301328017.jpg",
+        "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-jensen-statement-vhjm/17biz-jensen-statement-vhjm-mediumSquareAt3X.jpg",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_04.jpg?quality=90&strip=all&crop=0,0,100,100",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794930485392_now_current_canal_huang_appear_261117_S3_1920x1080-gjr47r.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261110-jensen-huang-mn-1525-87b5dd.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Jensen Huang breaks silence after resigning from Nvidia, says he \"would be honored\" to return as CEO",
+          "source": "CBS News",
+          "publishedAt": "2026-11-17T16:24:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/jensen-huang-nvidia-ceo-return-statement/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/51779405-afcc-4d02-9a40-4c95399dbc3e/thumbnail/1200x630/f6294eed103f0baf6b4185c0415b1e43/gettyimages-2301328017.jpg"
+        },
+        {
+          "title": "Jensen Huang Says He Would Return to Nvidia if Asked",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-17T16:21:23.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/technology/jensen-huang-nvidia-statement.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-jensen-statement-vhjm/17biz-jensen-statement-vhjm-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
+          "source": "The Verge",
+          "publishedAt": "2026-11-17T16:09:57.000Z",
+          "sourceUrl": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_04.jpg?quality=90&strip=all&crop=0,0,100,100"
+        },
+        {
+          "title": "Jensen Huang agrees to appear for House interview on Nvidia in December",
+          "source": "NBC News",
+          "publishedAt": "2026-11-17T15:48:09.000Z",
+          "sourceUrl": "https://www.nbcnews.com/video/jensen-huang-agrees-to-appear-for-house-interview-on-nvidia-in-december-273650245602?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794930485392_now_current_canal_huang_appear_261117_S3_1920x1080-gjr47r.jpg"
+        },
+        {
+          "title": "Jensen Huang says he would be ‘honored’ if asked to return as Nvidia CEO",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-17T15:29:55.000Z",
+          "sourceUrl": "https://www.nbcnews.com/business/corporations/jensen-huang-agrees-house-interview-nvidias-chip-smuggling-rcna609803?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261110-jensen-huang-mn-1525-87b5dd.jpg"
+        }
+      ],
+      "path": "/us/entity/jensen-huang-breaks-silence-after-resigning-from-nvidia-says-he-would-be-honored/"
+    },
+    {
+      "id": "now-cluster-united states-measles + elimination",
+      "title": "U.S. Loses Its Measles Elimination Status, a Historic Setback for American Health",
+      "brief": "U.S. Loses Its Measles Elimination Status, a Historic Setback for American Health.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 25,
+      "sourceCount": 3,
       "itemCount": 5,
       "freshness": "fresh now",
       "alertLevel": "contained",
@@ -42,135 +191,68 @@
       "isHotNews": false,
       "sources": [
         "CBS News",
-        "NBC News Politics",
-        "TIME",
-        "The New York Times"
+        "The New York Times",
+        "Science News"
       ],
       "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261110-jensen-huang-mn-1525-87b5dd.jpg",
-        "https://static.time.com/v3/assets/bltea6093859af6183b/blt702a30ba315c4b05/6afc6ec26e3eb1bda2df9d5c/Jensen-Huang-Berlin.jpg?branch=production",
-        "https://static01.nyt.com/images/2026/11/16/multimedia/BIZ-MADISON-HUANG-1-01-cmjw/BIZ-MADISON-HUANG-1-01-cmjw-mediumSquareAt3X.jpg"
+        "https://static01.nyt.com/images/2026/11/17/multimedia/17WELL-ELIMINATION-STATUS-MEASLES3-kwgf/17WELL-ELIMINATION-STATUS-MEASLES3-kwgf-mediumSquareAt3X.jpg",
+        "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111326_EG_measles-elimination_main.jpg?w=800"
       ],
       "evidence": [
         {
-          "title": "Nvidia forms export control panel amid concerns over China sales",
+          "title": "U.S. officially loses measles elimination status: \"What a tragedy\"",
           "source": "CBS News",
-          "publishedAt": "2026-11-17T15:56:05.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/nvidia-export-control-committee-china-chips/?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-17T16:43:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/measles-elimination-status-united-states/?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
         {
-          "title": "Jensen Huang agrees to House interview on Nvidia’s sales to China",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-17T15:29:55.000Z",
-          "sourceUrl": "https://www.nbcnews.com/business/corporations/jensen-huang-agrees-house-interview-nvidias-chip-smuggling-rcna609803?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261110-jensen-huang-mn-1525-87b5dd.jpg"
-        },
-        {
-          "title": "Ex-Nvidia CEO Jensen Huang agrees to testify to Congress amid affair probe",
-          "source": "CBS News",
-          "publishedAt": "2026-11-17T15:29:41.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/house-republicans-nvidia-jensen-huang-testimony/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Why Jensen Huang Should Not Be Reinstated as Nvidia's CEO",
-          "source": "TIME",
-          "publishedAt": "2026-11-17T15:17:31.000Z",
-          "sourceUrl": "https://time.com/article/2026/11/17/why-jensen-huang-should-not-be-reinstated-as-nvidia-s-ceo/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static.time.com/v3/assets/bltea6093859af6183b/blt702a30ba315c4b05/6afc6ec26e3eb1bda2df9d5c/Jensen-Huang-Berlin.jpg?branch=production"
-        },
-        {
-          "title": "Madison Huang, Jensen Huang’s Daughter, Became a Powerful Force at Nvidia",
+          "title": "America Lost Its Measles Elimination Status. It’s a Tragedy.",
           "source": "The New York Times",
-          "publishedAt": "2026-11-17T02:15:57.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/16/technology/nvidia-jensen-madison-huang.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/16/multimedia/BIZ-MADISON-HUANG-1-01-cmjw/BIZ-MADISON-HUANG-1-01-cmjw-mediumSquareAt3X.jpg"
+          "publishedAt": "2026-11-17T16:41:34.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/opinion/measles-elimination-status-vaccines.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "U.S. backslides on measles elimination progress",
+          "source": "CBS News",
+          "publishedAt": "2026-11-17T16:35:55.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/us-backslides-on-measles-elimination-progress/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "U.S. Loses Its Measles Elimination Status, a Historic Setback for American Health",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-17T16:24:33.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/well/us-measles-elimination-status.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17WELL-ELIMINATION-STATUS-MEASLES3-kwgf/17WELL-ELIMINATION-STATUS-MEASLES3-kwgf-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "The U.S. just lost its measles elimination status. What now?",
+          "source": "Science News",
+          "publishedAt": "2026-11-17T16:09:29.000Z",
+          "sourceUrl": "https://www.sciencenews.org/article/measles-us-elimination-status-vaccine?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111326_EG_measles-elimination_main.jpg?w=800"
         }
       ],
-      "path": "/us/entity/madison-huang-jensen-huang-s-daughter-became-a-powerful-force-at-nvidia/"
+      "path": "/us/entity/u-s-loses-its-measles-elimination-status-a-historic-setback-for-american-health/"
     },
     {
-      "id": "now-cluster-united states-trump + president",
-      "title": "A Visual Tour of President Trump’s Visits to Asia",
-      "brief": "A Visual Tour of President Trump’s Visits to Asia.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 25,
-      "sourceCount": 4,
-      "itemCount": 4,
-      "freshness": "1h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 99,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "NBC News",
-        "The New York Times World",
-        "The New York Times"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/Trump_off_plane-v45g8j.jpg",
-        "https://static01.nyt.com/images/2026/11/17/multimedia/17int-trump-asia-visual-stack-01-lkgb/17int-trump-asia-visual-stack-01-lkgb-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/11/17/multimedia/17trump-summits-data-centers-kjtv/17trump-summits-data-centers-kjtv-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Trump addresses Asian, Pacific leaders at ASEAN dinner",
-          "source": "CBS News",
-          "publishedAt": "2026-11-17T14:34:45.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/trump-addresses-asian-leaders-at-asean-dinner/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "A Visual Tour of President Trump’s Visits to Asia",
-          "source": "The New York Times World",
-          "publishedAt": "2026-11-17T14:26:17.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/world/asia/president-trump-visits-asia.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17int-trump-asia-visual-stack-01-lkgb/17int-trump-asia-visual-stack-01-lkgb-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Trump’s New A.I. Chip Rules Rattle Southeast Asia",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-17T11:40:40.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/business/southeast-asia-china-ai-chips.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17trump-summits-data-centers-kjtv/17trump-summits-data-centers-kjtv-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "President Trump arrives in Manila for the ASEAN summit",
-          "source": "NBC News",
-          "publishedAt": "2026-11-17T10:28:13.000Z",
-          "sourceUrl": "https://www.nbcnews.com/video/president-trump-arrives-in-manila-for-the-asean-summit-273630789865?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/Trump_off_plane-v45g8j.jpg"
-        }
-      ],
-      "path": "/us/entity/a-visual-tour-of-president-trump-s-visits-to-asia/"
-    },
-    {
-      "id": "now-cluster-united states-trump + amid",
+      "id": "moving-cluster-united states-trump + amid",
       "title": "As Trump Goes to China, A.I. Tensions Surge Amid Spying and Safety Fears",
       "brief": "As Trump Goes to China, A.I. Tensions Surge Amid Spying and Safety Fears.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 16,
+      "strength": 11,
       "sourceCount": 2,
       "itemCount": 4,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 83,
+      "alertScore": 77,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -219,7 +301,53 @@
       "path": "/us/entity/as-trump-goes-to-china-a-i-tensions-surge-amid-spying-and-safety-fears/"
     },
     {
-      "id": "now-cluster-united states-test + phone",
+      "id": "now-cluster-united states-nvidia + amid",
+      "title": "Nvidia forms export control panel amid concerns over China sales",
+      "brief": "Nvidia forms export control panel amid concerns over China sales.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "ABC News",
+        "CBS News"
+      ],
+      "images": [
+        "https://s.abcnews.com/images/US/jensen-huang-3-rt-gmh-261112_1794495668417_hpMain_4x3t_384.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Nvidia forms national security committee as feds probe company at center of scandal",
+          "source": "ABC News",
+          "publishedAt": "2026-11-17T16:53:19.000Z",
+          "sourceUrl": "https://abcnews.com/Business/nvidia-forms-national-security-committee-feds-probe-company/story?id=138206932&utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s.abcnews.com/images/US/jensen-huang-3-rt-gmh-261112_1794495668417_hpMain_4x3t_384.jpg"
+        },
+        {
+          "title": "Nvidia forms export control panel amid concerns over China sales",
+          "source": "CBS News",
+          "publishedAt": "2026-11-17T15:56:05.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/nvidia-export-control-committee-china-chips/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/us/entity/nvidia-forms-export-control-panel-amid-concerns-over-china-sales/"
+    },
+    {
+      "id": "now-cluster-united states-phone + test",
       "title": "Does locking up a student's cell phone improve test scores? A new study suggests so",
       "brief": "Does locking up a student's cell phone improve test scores? A new study suggests so.",
       "whyItMatters": "",
@@ -230,7 +358,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -266,18 +394,64 @@
       "path": "/us/entity/does-locking-up-a-student-s-cell-phone-improve-test-scores-a-new-study-suggests/"
     },
     {
+      "id": "moving-cluster-united states-trump + asean",
+      "title": "President Trump arrives in Manila for the ASEAN summit",
+      "brief": "President Trump arrives in Manila for the ASEAN summit.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NBC News"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/Trump_off_plane-v45g8j.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Trump addresses Asian, Pacific leaders at ASEAN dinner",
+          "source": "CBS News",
+          "publishedAt": "2026-11-17T14:34:45.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/trump-addresses-asian-leaders-at-asean-dinner/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "President Trump arrives in Manila for the ASEAN summit",
+          "source": "NBC News",
+          "publishedAt": "2026-11-17T10:28:13.000Z",
+          "sourceUrl": "https://www.nbcnews.com/video/president-trump-arrives-in-manila-for-the-asean-summit-273630789865?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/Trump_off_plane-v45g8j.jpg"
+        }
+      ],
+      "path": "/us/entity/president-trump-arrives-in-manila-for-the-asean-summit/"
+    },
+    {
       "id": "moving-cluster-united states-bond + robert",
       "title": "Bond Fans Shaken and Stirred Over Robert Pattison 007 Casting",
       "brief": "Bond Fans Shaken and Stirred Over Robert Pattison 007 Casting.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 10,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 73,
