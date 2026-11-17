@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-17T00:00:48.255Z",
+  "updatedAt": "2026-11-17T01:00:47.957Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "233.954 enlaces analizados",
-  "dayScanLabel": "4.222 enlaces escaneados en 24h",
+  "ambientPulseLabel": "234.375 enlaces analizados",
+  "dayScanLabel": "4.224 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,6 +19,53 @@
   "topAlert": null,
   "signals": [
     {
+      "id": "now-cluster-españa-paises + bajos",
+      "title": "Alemania golea a Países Bajos en el primer tropiezo de Xavi y deja a Grecia sin cuartos de final",
+      "brief": "Alemania golea a Países Bajos en el primer tropiezo de Xavi y deja a Grecia sin cuartos de final.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "ABC",
+        "El País"
+      ],
+      "images": [
+        "https://s1.abcstatics.com/abc/www/multimedia/deportes/2026/11/16/IMG_3295-RXu41DmcQS8RSC3479fa6NN-1200x840@diario_abc.JPG",
+        "https://imagenes.elpais.com/resizer/v2/WNRZT4C7WVJZ7PRPNCW5MGKDPU.jpg?auth=d754f3584e90994d246d7dd7ca5bbbf4cfa0a1c2b04c080fdeee4c90354065af"
+      ],
+      "evidence": [
+        {
+          "title": "Alemania golea a Países Bajos en el primer tropiezo de Xavi y deja a Grecia sin cuartos de final",
+          "source": "ABC",
+          "publishedAt": "2026-11-17T00:40:59.000Z",
+          "sourceUrl": "https://www.abc.es/deportes/futbol/alemania-golea-paises-bajos-primer-tropiezo-xavi-20261116224029-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.abcstatics.com/abc/www/multimedia/deportes/2026/11/16/IMG_3295-RXu41DmcQS8RSC3479fa6NN-1200x840@diario_abc.JPG"
+        },
+        {
+          "title": "Alemania despierta ante Países Bajos para liderar su grupo y endosar la primera goleada a Xavi",
+          "source": "El País",
+          "publishedAt": "2026-11-16T22:04:25.000Z",
+          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-16/alemania-despierta-ante-paises-bajos-para-liderar-su-grupo-y-endosar-la-primera-goleada-a-xavi.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/WNRZT4C7WVJZ7PRPNCW5MGKDPU.jpg?auth=d754f3584e90994d246d7dd7ca5bbbf4cfa0a1c2b04c080fdeee4c90354065af"
+        }
+      ],
+      "path": "/es/entity/alemania-golea-a-paises-bajos-en-el-primer-tropiezo-de-xavi-y-deja-a-grecia-sin/"
+    },
+    {
       "id": "now-cluster-españa-united + airlines",
       "title": "United Airlines sufre una caída generalizada de sus sistemas días después del caos aéreo en Estados Unidos",
       "brief": "United Airlines sufre una caída generalizada de sus sistemas días después del caos aéreo en Estados Unidos.",
@@ -27,39 +74,29 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "fresca ahora",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 92,
+      "alertScore": 76,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "ABC",
         "El País",
         "El Mundo"
       ],
       "images": [
-        "https://s1.abcstatics.com/abc/www/multimedia/internacional/2026/11/16/1520381741-kxwF-U40384719324mgF-1200x840@diario_abc.jpg",
         "https://imagenes.elpais.com/resizer/v2/3YGECAIMPNKNFNCNI6EABGTSIU.jpg?auth=aded5c56abf3358e9d0968e0f54a986c6ab565b122dd39a3ba9bbb7402e330d3",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17948691716801.jpg"
+        "https://e01-phantom-elmundo.uecdn.es/4f1484f19c7dc95b5a00a7fde5f35d61/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/16/17948691716801.jpg"
       ],
       "evidence": [
         {
-          "title": "United Airlines sufre una caída del sistema informático que impide el despegue de sus aviones",
-          "source": "ABC",
-          "publishedAt": "2026-11-16T23:22:49.000Z",
-          "sourceUrl": "https://www.abc.es/internacional/united-airlines-sufre-caida-sistema-obliga-paralizar-20261116232934-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.abcstatics.com/abc/www/multimedia/internacional/2026/11/16/1520381741-kxwF-U40384719324mgF-1200x840@diario_abc.jpg"
-        },
-        {
-          "title": "United Airlines informa de una “interrupción generalizada” que afecta a los vuelos de salida",
+          "title": "United Airlines sufre una “interrupción generalizada” que afecta a los vuelos de salida",
           "source": "El País",
           "publishedAt": "2026-11-16T23:17:29.000Z",
           "sourceUrl": "https://elpais.com/us/2026-11-16/united-airlines-informa-de-una-interrupcion-generalizada-que-afecta-a-los-vuelos-de-salida.html?utm_source=lootura.com&ref=lootura.com",
@@ -68,15 +105,15 @@
         {
           "title": "United Airlines sufre una caída generalizada de sus sistemas días después del caos aéreo en Estados Unidos",
           "source": "El Mundo",
-          "publishedAt": "2026-11-16T22:51:37.000Z",
+          "publishedAt": "2026-11-16T22:51:36.000Z",
           "sourceUrl": "https://www.elmundo.es/economia/2026/11/16/6afb88f6fc6c8357268b458b.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/16/17948691716801.jpg"
+          "image": "https://e01-phantom-elmundo.uecdn.es/4f1484f19c7dc95b5a00a7fde5f35d61/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/16/17948691716801.jpg"
         }
       ],
       "path": "/es/entity/united-airlines-sufre-una-caida-generalizada-de-sus-sistemas-dias-despues-del-ca/"
     },
     {
-      "id": "now-cluster-españa-abascal + canarias",
+      "id": "now-cluster-españa-contra + abascal",
       "title": "Abascal aterriza en Canarias en plena oleada migratoria y entona su discurso contra la \"invasión\": \"Aquí no caben, es nuestra tierra\"",
       "brief": "Abascal aterriza en Canarias en plena oleada migratoria y entona su discurso contra la \"invasión\": \"Aquí no caben, es nuestra tierra\".",
       "whyItMatters": "",
@@ -84,10 +121,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -134,7 +171,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 60,
@@ -170,52 +207,6 @@
       "path": "/es/entity/los-mossos-d-esquadra-investigan-la-muerte-violenta-de-una-mujer-en-llivia-giron/"
     },
     {
-      "id": "now-cluster-españa-gabriel + rufian",
-      "title": "Gabriel Rufián reta a Jordi Hereu a un cara a cara sobre vivienda e impuestos",
-      "brief": "Gabriel Rufián reta a Jordi Hereu a un cara a cara sobre vivienda e impuestos.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 60,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/TWK3VOBM4BFIBIMSE7IQTWHKIU.jpeg?auth=6d6065b552a55cbe0b09981fd7c0a0ca274fa7b838aab4dc68c716c9ccce83da"
-      ],
-      "evidence": [
-        {
-          "title": "Gabriel Rufián reta a Jordi Hereu a un cara a cara sobre vivienda e impuestos",
-          "source": "El País",
-          "publishedAt": "2026-11-16T19:25:40.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-16/rufian-asegura-que-le-gustaria-ser-presidente-de-la-generalitat-con-un-frente-de-izquierdas.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/TWK3VOBM4BFIBIMSE7IQTWHKIU.jpeg?auth=6d6065b552a55cbe0b09981fd7c0a0ca274fa7b838aab4dc68c716c9ccce83da"
-        },
-        {
-          "title": "Nueva bronca en redes entre Luis Figo y Gabriel Rufián: «No todos nos vendemos»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-16T08:37:12.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/bronca-redes-luis-figo-gabriel-rufian-vendemos-20261116093145-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/gabriel-rufian-reta-a-jordi-hereu-a-un-cara-a-cara-sobre-vivienda-e-impuestos/"
-    },
-    {
       "id": "moving-cluster-españa-euros + millones",
       "title": "CAF fabricará 24 nuevos trenes para Oslo por 125 millones de euros",
       "brief": "CAF fabricará 24 nuevos trenes para Oslo por 125 millones de euros.",
@@ -227,7 +218,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "13h fresca",
+      "freshness": "14h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 59,
@@ -260,7 +251,7 @@
       "path": "/es/entity/caf-fabricara-24-nuevos-trenes-para-oslo-por-125-millones-de-euros/"
     },
     {
-      "id": "moving-cluster-españa-supremo + companero",
+      "id": "moving-cluster-españa-tuvo + supremo",
       "title": "El Supremo da la razón a un trabajador guipuzcoano que tuvo que coincidir a diario con el compañero que le agredió",
       "brief": "El Supremo da la razón a un trabajador guipuzcoano que tuvo que coincidir a diario con el compañero que le agredió.",
       "whyItMatters": "",
@@ -271,7 +262,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "14h fresca",
+      "freshness": "15h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 59,
@@ -304,7 +295,7 @@
       "path": "/es/entity/el-supremo-da-la-razon-a-un-trabajador-guipuzcoano-que-tuvo-que-coincidir-a-diar/"
     },
     {
-      "id": "moving-cluster-españa-mujer + solo",
+      "id": "moving-cluster-españa-mujer + parada",
       "title": "Un edificio de Bilbao tendrá que instalar una parada de ascensor que solo podrá usar una mujer de 83 años",
       "brief": "Un edificio de Bilbao tendrá que instalar una parada de ascensor que solo podrá usar una mujer de 83 años.",
       "whyItMatters": "",
@@ -315,7 +306,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "14h fresca",
+      "freshness": "15h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 59,
@@ -348,7 +339,7 @@
       "path": "/es/entity/un-edificio-de-bilbao-tendra-que-instalar-una-parada-de-ascensor-que-solo-podra/"
     },
     {
-      "id": "moving-cluster-españa-sebastian + euskadi",
+      "id": "moving-cluster-españa-jovenes + sebastian",
       "title": "Los dos jóvenes detenidos en Bidebieta eran los cabecillas de un grupo violento juvenil de los Blood en Euskadi",
       "brief": "Los dos jóvenes detenidos en Bidebieta eran los cabecillas de un grupo violento juvenil de los Blood en Euskadi.",
       "whyItMatters": "",
@@ -359,7 +350,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "14h fresca",
+      "freshness": "15h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 59,
