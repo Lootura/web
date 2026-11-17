@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-17T21:00:48.346Z",
+  "updatedAt": "2026-11-17T22:00:48.362Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "242.435 enlaces analizados",
-  "dayScanLabel": "4.245 enlaces escaneados en 24h",
+  "ambientPulseLabel": "242.855 enlaces analizados",
+  "dayScanLabel": "4.238 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,9 +19,9 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-millones + gobierno",
-      "title": "Bruselas estima que la subida encubierta de impuestos del Gobierno al no deflactar el IRPF costará a los ciudadanos más de 2.500 millones este año",
-      "brief": "Bruselas estima que la subida encubierta de impuestos del Gobierno al no deflactar el IRPF costará a los ciudadanos más de 2.500 millones este año.",
+      "id": "now-cluster-españa-javier + bardem",
+      "title": "Javier Bardem: “Espero que el 29-N gane un gobierno progresista. Depende de nosotros y de que ejerzamos un voto útil”",
+      "brief": "Javier Bardem: “Espero que el 29-N gane un gobierno progresista. Depende de nosotros y de que ejerzamos un voto útil”.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -29,48 +29,85 @@
       "stateLabel": "Subiendo",
       "strength": 15,
       "sourceCount": 2,
-      "itemCount": 3,
+      "itemCount": 2,
       "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 76,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "El Mundo",
-        "El Correo"
+        "El Correo",
+        "El País"
       ],
       "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/17/17949277968475.jpg"
+        "https://s2.ppllstatics.com/rc/www/multimedia/culturas/2026/11/17/IMG_1299-RlEmRPjjbZDhGl3N5V2raHO-1200x840@RC.jpg",
+        "https://imagenes.elpais.com/resizer/v2/LC4X4HRE55AOXA7M6S76E5IBS4.jpg?auth=ce0c1a9360025afcf4616a5045703ef7713d04ca93ec1e76320380f32eaec797"
       ],
       "evidence": [
         {
-          "title": "Bruselas estima que la subida encubierta de impuestos del Gobierno al no deflactar el IRPF costará a los ciudadanos más de 2.500 millones este año",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-17T18:55:48.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/17/6afc3f49e9cf4aa8668b4572.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/17/17949277968475.jpg"
+          "title": "Javier Bardem: «Me hubiera gustado que mi madre me hubiera visto haciendo teatro»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-17T20:05:50.000Z",
+          "sourceUrl": "https://www.elcorreo.com/culturas/javier-bardem-gustado-madre-visto-haciendo-teatro-20261117205047-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/rc/www/multimedia/culturas/2026/11/17/IMG_1299-RlEmRPjjbZDhGl3N5V2raHO-1200x840@RC.jpg"
         },
         {
-          "title": "El Gobierno aprueba en plena campaña la mayor subida a los funcionarios en 34 años",
-          "source": "El Correo",
-          "publishedAt": "2026-11-17T16:48:42.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/trabajo/sueldo-funcionarios-subira-1400-4000-euros-adicionales-20261117131300-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "title": "Javier Bardem: “Espero que el 29-N gane un gobierno progresista. Depende de nosotros y de que ejerzamos un voto útil”",
+          "source": "El País",
+          "publishedAt": "2026-11-17T17:18:34.000Z",
+          "sourceUrl": "https://elpais.com/cultura/2026-11-17/javier-bardem-espero-que-el-29-n-gane-un-gobierno-progresista-depende-de-nosotros-y-de-que-ejerzamos-un-voto-util.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/LC4X4HRE55AOXA7M6S76E5IBS4.jpg?auth=ce0c1a9360025afcf4616a5045703ef7713d04ca93ec1e76320380f32eaec797"
+        }
+      ],
+      "path": "/es/entity/javier-bardem-espero-que-el-29-n-gane-un-gobierno-progresista-depende-de-nosotro/"
+    },
+    {
+      "id": "now-cluster-españa-sanchez + contra",
+      "title": "Sánchez se revuelve contra el ataque de Ayuso a los andaluces: “Andalucía se va a levantar, a movilizar y a darnos la victoria el 29-N”",
+      "brief": "Sánchez se revuelve contra el ataque de Ayuso a los andaluces: “Andalucía se va a levantar, a movilizar y a darnos la victoria el 29-N”.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Diario Vasco"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Sánchez se revuelve contra el ataque de Ayuso a los andaluces: “Andalucía se va a levantar, a movilizar y a darnos la victoria el 29-N”",
+          "source": "El País",
+          "publishedAt": "2026-11-17T20:05:43.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-17/sanchez-se-revuelve-contra-el-ataque-de-ayuso-los-andaluces-andalucia-se-va-a-levantar-a-movilizar-y-a-darnos-la-victoria-el-29-n.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
         {
-          "title": "El Gobierno aprueba 5 millones para El Hierro bajo el reproche por «falta de previsión» del presidente canario",
-          "source": "El Correo",
-          "publishedAt": "2026-11-17T15:19:19.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/gobierno-aprueba-millones-ayuda-inmediata-hierro-pleno-20261117150518-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "title": "De ataque del PP a himno a favor de Sánchez, la canción tras el eslogan de Ester Muñoz",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-17T16:01:16.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/ataque-pp-himno-29n-frase-ester-munoz-20261117170043-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         }
       ],
-      "path": "/es/entity/bruselas-estima-que-la-subida-encubierta-de-impuestos-del-gobierno-al-no-deflact/"
+      "path": "/es/entity/sanchez-se-revuelve-contra-el-ataque-de-ayuso-a-los-andaluces-andalucia-se-va-a/"
     },
     {
       "id": "now-cluster-españa-millones + euros",
@@ -81,13 +118,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 10,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 73,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -128,111 +165,18 @@
       "path": "/es/entity/la-subida-de-65-euros-del-salario-minimo-llegara-integra-a-las-nominas-de-casi-2/"
     },
     {
-      "id": "now-cluster-españa-javier + bardem",
-      "title": "Javier Bardem: “Espero que el 29-N gane un gobierno progresista. Depende de nosotros y de que ejerzamos un voto útil”",
-      "brief": "Javier Bardem: “Espero que el 29-N gane un gobierno progresista. Depende de nosotros y de que ejerzamos un voto útil”.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/rc/www/multimedia/culturas/2026/11/17/IMG_1299-RlEmRPjjbZDhGl3N5V2raHO-1200x840@RC.jpg",
-        "https://imagenes.elpais.com/resizer/v2/LC4X4HRE55AOXA7M6S76E5IBS4.jpg?auth=ce0c1a9360025afcf4616a5045703ef7713d04ca93ec1e76320380f32eaec797"
-      ],
-      "evidence": [
-        {
-          "title": "Javier Bardem: «Me hubiera gustado que mi madre me hubiera visto haciendo teatro»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-17T20:05:50.000Z",
-          "sourceUrl": "https://www.elcorreo.com/culturas/javier-bardem-gustado-madre-visto-haciendo-teatro-20261117205047-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/culturas/2026/11/17/IMG_1299-RlEmRPjjbZDhGl3N5V2raHO-1200x840@RC.jpg"
-        },
-        {
-          "title": "Javier Bardem: “Espero que el 29-N gane un gobierno progresista. Depende de nosotros y de que ejerzamos un voto útil”",
-          "source": "El País",
-          "publishedAt": "2026-11-17T17:18:34.000Z",
-          "sourceUrl": "https://elpais.com/cultura/2026-11-17/javier-bardem-espero-que-el-29-n-gane-un-gobierno-progresista-depende-de-nosotros-y-de-que-ejerzamos-un-voto-util.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/LC4X4HRE55AOXA7M6S76E5IBS4.jpg?auth=ce0c1a9360025afcf4616a5045703ef7713d04ca93ec1e76320380f32eaec797"
-        }
-      ],
-      "path": "/es/entity/javier-bardem-espero-que-el-29-n-gane-un-gobierno-progresista-depende-de-nosotro/"
-    },
-    {
-      "id": "now-cluster-españa-sanchez + ataque",
-      "title": "Sánchez se revuelve contra el ataque de Ayuso a los andaluces: “Andalucía se va a levantar, a movilizar y a darnos la victoria el 29-N”",
-      "brief": "Sánchez se revuelve contra el ataque de Ayuso a los andaluces: “Andalucía se va a levantar, a movilizar y a darnos la victoria el 29-N”.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/XNOQCTCW2FGR7IGWK6WWY25BUM.jpg?auth=defd81629fc524a5c571951c62ecbbb4d305e24af0f8b35fa23e9d320719685b"
-      ],
-      "evidence": [
-        {
-          "title": "Sánchez se revuelve contra el ataque de Ayuso a los andaluces: “Andalucía se va a levantar, a movilizar y a darnos la victoria el 29-N”",
-          "source": "El País",
-          "publishedAt": "2026-11-17T20:05:43.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-17/sanchez-se-revuelve-contra-el-ataque-de-ayuso-los-andaluces-andalucia-se-va-a-levantar-a-movilizar-y-a-darnos-la-victoria-el-29-n.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/XNOQCTCW2FGR7IGWK6WWY25BUM.jpg?auth=defd81629fc524a5c571951c62ecbbb4d305e24af0f8b35fa23e9d320719685b"
-        },
-        {
-          "title": "De ataque del PP a himno a favor de Sánchez, la canción tras el eslogan de Ester Muñoz",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-17T16:01:16.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/ataque-pp-himno-29n-frase-ester-munoz-20261117170043-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/sanchez-se-revuelve-contra-el-ataque-de-ayuso-a-los-andaluces-andalucia-se-va-a/"
-    },
-    {
-      "id": "moving-cluster-españa-james + bond",
+      "id": "now-cluster-españa-james + bond",
       "title": "El nombramiento de Robert Pattinson como James Bond desata una ola de memes: “Está robándose los empleos”",
       "brief": "El nombramiento de Robert Pattinson como James Bond desata una ola de memes: “Está robándose los empleos”.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -273,12 +217,12 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -320,12 +264,12 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -360,7 +304,7 @@
       "path": "/es/entity/pedro-sanchez-concede-su-primera-entrevista-a-una-revista-del-corazon-no-imagino/"
     },
     {
-      "id": "moving-cluster-españa-jodar + condena",
+      "id": "moving-cluster-españa-ante + jodar",
       "title": "Un extraño desfallecimiento condena a Jódar ante Fils y le deja al borde de la eliminación en las ATP Finals",
       "brief": "Un extraño desfallecimiento condena a Jódar ante Fils y le deja al borde de la eliminación en las ATP Finals.",
       "whyItMatters": "",
@@ -368,10 +312,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 9,
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -407,23 +351,24 @@
       "path": "/es/entity/un-extrano-desfallecimiento-condena-a-jodar-ante-fils-y-le-deja-al-borde-de-la-e/"
     },
     {
-      "id": "fading-cluster-españa-euros + euskadi",
+      "id": "moving-cluster-españa-euros + euskadi",
       "title": "Criar a un hijo en Euskadi cuesta ya más de 1.000 euros al mes, un 40% más que en 2018",
       "brief": "Criar a un hijo en Euskadi cuesta ya más de 1.000 euros al mes, un 40% más que en 2018.",
       "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 7,
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresca",
+      "freshness": "8h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 46,
+      "alertScore": 64,
       "alertTriggers": [
-        "Cruza varias fuentes"
+        "Cruza varias fuentes",
+        "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
