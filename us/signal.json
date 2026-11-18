@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-18T02:00:48.059Z",
+  "updatedAt": "2026-11-18T03:00:48.573Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "281,711 links analyzed",
-  "dayScanLabel": "8,338 links scanned in 24h",
+  "ambientPulseLabel": "282,547 links analyzed",
+  "dayScanLabel": "8,344 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -25,10 +25,10 @@
     "mode": "now",
     "state": "rising",
     "stateLabel": "Rising",
-    "strength": 31,
-    "sourceCount": 5,
-    "itemCount": 9,
-    "freshness": "1h fresh",
+    "strength": 34,
+    "sourceCount": 6,
+    "itemCount": 11,
+    "freshness": "fresh now",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -39,19 +39,27 @@
     ],
     "isHotNews": false,
     "sources": [
+      "NBC News",
       "CBS News",
-      "PBS NewsHour",
       "The New York Times",
-      "Politico",
-      "NPR Politics"
+      "PBS NewsHour",
+      "Politico"
     ],
     "images": [
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261109-jensen-huang-nvidia-vl-309p-81078a.jpg",
       "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/18/784a7892-fd71-4f33-854a-ec59d5128199/thumbnail/1200x630/25122244a6e14a49062ad1030b267e93/cbsn-fusion-nvidia-shares-strong-results-in-first-earnings-report-after-huangs-resignation-thumbnail.jpg",
-      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26312766429671-1024x683.jpg",
-      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T191624Z_384802040_RC2ER4AT06N3_RTRMADP_3_NVIDIA-CEO-INSURANCE-LIABILITY-1024x690.jpg",
-      "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/17/ac8cf31f-ccee-4b7d-8263-e31613ed0cf6/thumbnail/1200x630/1e66702babb9fa6a8271717e71c47b11/gettyimages-2304264971.jpg"
+      "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-nvidia-04-vtqg/17biz-nvidia-04-vtqg-mediumSquareAt3X.jpg",
+      "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/b5e7d604-22bc-462f-8c19-345d366d6467/thumbnail/1200x630/f0cc1d7b9e607a58f64035c4c7067480/cbsn-fusion-nvidia-sees-strong-earnings-report-despite-jensen-huang-scandal-and-resignation-thumbnail.jpg",
+      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26312766429671-1024x683.jpg"
     ],
     "evidence": [
+      {
+        "title": "Nvidia enters the post-Jensen Huang era with a bang",
+        "source": "NBC News",
+        "publishedAt": "2026-11-18T02:42:12.554Z",
+        "sourceUrl": "https://www.nbcnews.com/business/corporations/nvidia-post-jensen-huang-kress-earnings-rcna609782?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261109-jensen-huang-nvidia-vl-309p-81078a.jpg"
+      },
       {
         "title": "Nvidia shares strong results in first earnings report after Huang's resignation",
         "source": "CBS News",
@@ -60,11 +68,18 @@
         "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/18/784a7892-fd71-4f33-854a-ec59d5128199/thumbnail/1200x630/25122244a6e14a49062ad1030b267e93/cbsn-fusion-nvidia-shares-strong-results-in-first-earnings-report-after-huangs-resignation-thumbnail.jpg"
       },
       {
+        "title": "Nvidia Has No Plans to Bring Back Jensen Huang",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-18T00:47:02.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/17/business/nvidia-earnings-jensen-huang.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-nvidia-04-vtqg/17biz-nvidia-04-vtqg-mediumSquareAt3X.jpg"
+      },
+      {
         "title": "Nvidia sees strong earnings report despite Jensen Huang scandal and resignation",
         "source": "CBS News",
         "publishedAt": "2026-11-17T23:43:51.000Z",
         "sourceUrl": "https://www.cbsnews.com/video/nvidia-sees-strong-earnings-report-despite-jensen-huang-scandal-and-resignation/?utm_source=lootura.com&ref=lootura.com",
-        "image": ""
+        "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/b5e7d604-22bc-462f-8c19-345d366d6467/thumbnail/1200x630/f0cc1d7b9e607a58f64035c4c7067480/cbsn-fusion-nvidia-sees-strong-earnings-report-despite-jensen-huang-scandal-and-resignation-thumbnail.jpg"
       },
       {
         "title": "Nvidia chair says board does not intend to reinstate Jensen Huang as CEO",
@@ -72,20 +87,6 @@
         "publishedAt": "2026-11-17T22:31:31.000Z",
         "sourceUrl": "https://www.pbs.org/newshour/nation/nvidia-chair-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo?utm_source=lootura.com&ref=lootura.com",
         "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26312766429671-1024x683.jpg"
-      },
-      {
-        "title": "Ex-CEO Jensen Huang signals interest in returning to Nvidia after resigning amid scandal",
-        "source": "PBS NewsHour",
-        "publishedAt": "2026-11-17T21:40:17.000Z",
-        "sourceUrl": "https://www.pbs.org/newshour/economy/ex-ceo-jensen-huang-signals-interest-in-returning-to-nvidia-after-resigning-amid-scandal?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T191624Z_384802040_RC2ER4AT06N3_RTRMADP_3_NVIDIA-CEO-INSURANCE-LIABILITY-1024x690.jpg"
-      },
-      {
-        "title": "Nvidia records strong growth in first earnings report without Jensen Huang",
-        "source": "CBS News",
-        "publishedAt": "2026-11-17T21:37:00.000Z",
-        "sourceUrl": "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/17/ac8cf31f-ccee-4b7d-8263-e31613ed0cf6/thumbnail/1200x630/1e66702babb9fa6a8271717e71c47b11/gettyimages-2304264971.jpg"
       }
     ],
     "path": "/us/entity/nvidia-chair-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo/"
@@ -100,10 +101,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 31,
-      "sourceCount": 5,
-      "itemCount": 9,
-      "freshness": "1h fresh",
+      "strength": 34,
+      "sourceCount": 6,
+      "itemCount": 11,
+      "freshness": "fresh now",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -114,19 +115,27 @@
       ],
       "isHotNews": false,
       "sources": [
+        "NBC News",
         "CBS News",
-        "PBS NewsHour",
         "The New York Times",
-        "Politico",
-        "NPR Politics"
+        "PBS NewsHour",
+        "Politico"
       ],
       "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261109-jensen-huang-nvidia-vl-309p-81078a.jpg",
         "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/18/784a7892-fd71-4f33-854a-ec59d5128199/thumbnail/1200x630/25122244a6e14a49062ad1030b267e93/cbsn-fusion-nvidia-shares-strong-results-in-first-earnings-report-after-huangs-resignation-thumbnail.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26312766429671-1024x683.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T191624Z_384802040_RC2ER4AT06N3_RTRMADP_3_NVIDIA-CEO-INSURANCE-LIABILITY-1024x690.jpg",
-        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/17/ac8cf31f-ccee-4b7d-8263-e31613ed0cf6/thumbnail/1200x630/1e66702babb9fa6a8271717e71c47b11/gettyimages-2304264971.jpg"
+        "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-nvidia-04-vtqg/17biz-nvidia-04-vtqg-mediumSquareAt3X.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/b5e7d604-22bc-462f-8c19-345d366d6467/thumbnail/1200x630/f0cc1d7b9e607a58f64035c4c7067480/cbsn-fusion-nvidia-sees-strong-earnings-report-despite-jensen-huang-scandal-and-resignation-thumbnail.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26312766429671-1024x683.jpg"
       ],
       "evidence": [
+        {
+          "title": "Nvidia enters the post-Jensen Huang era with a bang",
+          "source": "NBC News",
+          "publishedAt": "2026-11-18T02:42:12.554Z",
+          "sourceUrl": "https://www.nbcnews.com/business/corporations/nvidia-post-jensen-huang-kress-earnings-rcna609782?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261109-jensen-huang-nvidia-vl-309p-81078a.jpg"
+        },
         {
           "title": "Nvidia shares strong results in first earnings report after Huang's resignation",
           "source": "CBS News",
@@ -135,11 +144,18 @@
           "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/18/784a7892-fd71-4f33-854a-ec59d5128199/thumbnail/1200x630/25122244a6e14a49062ad1030b267e93/cbsn-fusion-nvidia-shares-strong-results-in-first-earnings-report-after-huangs-resignation-thumbnail.jpg"
         },
         {
+          "title": "Nvidia Has No Plans to Bring Back Jensen Huang",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-18T00:47:02.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/business/nvidia-earnings-jensen-huang.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-nvidia-04-vtqg/17biz-nvidia-04-vtqg-mediumSquareAt3X.jpg"
+        },
+        {
           "title": "Nvidia sees strong earnings report despite Jensen Huang scandal and resignation",
           "source": "CBS News",
           "publishedAt": "2026-11-17T23:43:51.000Z",
           "sourceUrl": "https://www.cbsnews.com/video/nvidia-sees-strong-earnings-report-despite-jensen-huang-scandal-and-resignation/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/b5e7d604-22bc-462f-8c19-345d366d6467/thumbnail/1200x630/f0cc1d7b9e607a58f64035c4c7067480/cbsn-fusion-nvidia-sees-strong-earnings-report-despite-jensen-huang-scandal-and-resignation-thumbnail.jpg"
         },
         {
           "title": "Nvidia chair says board does not intend to reinstate Jensen Huang as CEO",
@@ -147,89 +163,9 @@
           "publishedAt": "2026-11-17T22:31:31.000Z",
           "sourceUrl": "https://www.pbs.org/newshour/nation/nvidia-chair-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo?utm_source=lootura.com&ref=lootura.com",
           "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26312766429671-1024x683.jpg"
-        },
-        {
-          "title": "Ex-CEO Jensen Huang signals interest in returning to Nvidia after resigning amid scandal",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-17T21:40:17.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/economy/ex-ceo-jensen-huang-signals-interest-in-returning-to-nvidia-after-resigning-amid-scandal?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T191624Z_384802040_RC2ER4AT06N3_RTRMADP_3_NVIDIA-CEO-INSURANCE-LIABILITY-1024x690.jpg"
-        },
-        {
-          "title": "Nvidia records strong growth in first earnings report without Jensen Huang",
-          "source": "CBS News",
-          "publishedAt": "2026-11-17T21:37:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/17/ac8cf31f-ccee-4b7d-8263-e31613ed0cf6/thumbnail/1200x630/1e66702babb9fa6a8271717e71c47b11/gettyimages-2304264971.jpg"
         }
       ],
       "path": "/us/entity/nvidia-chair-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo/"
-    },
-    {
-      "id": "moving-cluster-united states-outages + apple",
-      "title": "Apple Addresses Outages Affecting Apple Pay, iCloud and Apps",
-      "brief": "Apple Addresses Outages Affecting Apple Pay, iCloud and Apps.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 25,
-      "sourceCount": 4,
-      "itemCount": 4,
-      "freshness": "2h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 99,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News",
-        "PBS NewsHour",
-        "CBS News",
-        "The New York Times"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/nn_cln_tco_outages_261117-9n7r21.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/07/2026-07-10T211010Z_2026948577_RC2P3EAEIF7R_RTRMADP_3_APPLE-OPENAI-LAWSUIT-1024x682.jpg",
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/17/ab8d7caf-bd13-4396-9753-1b37ea889cd6/thumbnail/1200x630/a3fd8a5d4757614dea14b2e58a33603a/gettyimages-2305585682.jpg",
-        "https://static01.nyt.com/images/2026/07/29/multimedia/17xp-apple/17xp-apple-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Apple hit by widespread outages as tech problems continue",
-          "source": "NBC News",
-          "publishedAt": "2026-11-18T00:18:02.000Z",
-          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/apple-hit-by-widespread-outages-as-tech-problems-continue-273687109562?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/nn_cln_tco_outages_261117-9n7r21.jpg"
-        },
-        {
-          "title": "Apple Addresses Outages Affecting Apple Pay, iCloud and Apps",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-17T23:17:38.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/07/29/multimedia/17xp-apple/17xp-apple-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Apple joins the list of recent tech breakdowns after an update goes awry",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-17T22:26:17.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/nation/apple-joins-the-list-of-recent-tech-breakdowns-after-an-update-goes-awry?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/07/2026-07-10T211010Z_2026948577_RC2P3EAEIF7R_RTRMADP_3_APPLE-OPENAI-LAWSUIT-1024x682.jpg"
-        },
-        {
-          "title": "Apple says some services remain disrupted after internal update caused outages",
-          "source": "CBS News",
-          "publishedAt": "2026-11-17T20:53:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/apple-outage-icloud-apple-pay-services/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/17/ab8d7caf-bd13-4396-9753-1b37ea889cd6/thumbnail/1200x630/a3fd8a5d4757614dea14b2e58a33603a/gettyimages-2305585682.jpg"
-        }
-      ],
-      "path": "/us/entity/apple-addresses-outages-affecting-apple-pay-icloud-and-apps/"
     },
     {
       "id": "moving-cluster-united states-measles + elimination",
@@ -240,10 +176,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 25,
+      "strength": 19,
       "sourceCount": 4,
       "itemCount": 4,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -297,9 +233,9 @@
       "path": "/us/entity/can-the-u-s-regain-its-measles-elimination-status-here-s-what-to-know/"
     },
     {
-      "id": "now-cluster-united states-heidi + overton",
-      "title": "White House Withdraws Nomination of Heidi Overton to Be F.D.A. Commissioner",
-      "brief": "White House Withdraws Nomination of Heidi Overton to Be F.D.A. Commissioner.",
+      "id": "now-cluster-united states-outages + tech",
+      "title": "Rubio says there's \"zero evidence\" recent tech outages are related",
+      "brief": "Rubio says there's \"zero evidence\" recent tech outages are related.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -320,26 +256,83 @@
       "isHotNews": false,
       "sources": [
         "CBS News",
+        "NBC News",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/nn_cln_tco_outages_261117-9n7r21.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/07/2026-07-10T211010Z_2026948577_RC2P3EAEIF7R_RTRMADP_3_APPLE-OPENAI-LAWSUIT-1024x682.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Rubio says there's \"zero evidence\" recent tech outages are related",
+          "source": "CBS News",
+          "publishedAt": "2026-11-18T02:43:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/marco-rubio-tech-outages-not-connected/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Here's what might be causing the string of tech-related outages",
+          "source": "CBS News",
+          "publishedAt": "2026-11-18T01:17:59.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/heres-what-might-be-causing-the-string-of-tech-related-outages/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Apple hit by widespread outages as tech problems continue",
+          "source": "NBC News",
+          "publishedAt": "2026-11-18T00:18:02.000Z",
+          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/apple-hit-by-widespread-outages-as-tech-problems-continue-273687109562?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/nn_cln_tco_outages_261117-9n7r21.jpg"
+        },
+        {
+          "title": "Apple joins the list of recent tech breakdowns after an update goes awry",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-17T22:26:17.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/nation/apple-joins-the-list-of-recent-tech-breakdowns-after-an-update-goes-awry?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/07/2026-07-10T211010Z_2026948577_RC2P3EAEIF7R_RTRMADP_3_APPLE-OPENAI-LAWSUIT-1024x682.jpg"
+        }
+      ],
+      "path": "/us/entity/rubio-says-there-s-zero-evidence-recent-tech-outages-are-related/"
+    },
+    {
+      "id": "now-cluster-united states-heidi + overton",
+      "title": "Trump FDA nominee Heidi Overton struggling to win enough GOP support to be confirmed",
+      "brief": "Trump FDA nominee Heidi Overton struggling to win enough GOP support to be confirmed.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 24,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 96,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
         "The New York Times Politics",
+        "CBS News",
         "NBC News Politics"
       ],
       "images": [
         "https://static01.nyt.com/images/2026/11/17/multimedia/17DC-FDA-OVERTON-hpzm/17DC-FDA-OVERTON-hpzm-mediumSquareAt3X.jpg",
         "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/3f16f324-7605-4589-85b2-7dba2f1303dc/thumbnail/1200x630g2/f0ddf93a112ed59df423faaad0c79929/gettyimages-2296270843.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261117-heidi-overton-sjr-1622-44d9ef.jpg"
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261117-heidi-overton-sjr-1622-44d9ef.jpg",
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/17/9a847c4d-95ae-4a17-bba4-6cffdf51d591/thumbnail/1200x630g2/2b050daa29a6b3854e53f57b6a99d0ad/gettyimages-2297036795.jpg"
       ],
       "evidence": [
         {
-          "title": "Trump FDA nominee Heidi Overton struggling to win GOP support",
-          "source": "CBS News",
-          "publishedAt": "2026-11-18T01:50:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/trump-fda-nominee-heidi-overton-confirmation-struggle/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
           "title": "White House Withdraws Nomination of Heidi Overton to Be F.D.A. Commissioner",
           "source": "The New York Times Politics",
-          "publishedAt": "2026-11-18T01:23:27.000Z",
+          "publishedAt": "2026-11-18T02:09:10.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/17/us/overton-fda-nomination-withdrawn.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17DC-FDA-OVERTON-hpzm/17DC-FDA-OVERTON-hpzm-mediumSquareAt3X.jpg"
         },
@@ -356,73 +349,16 @@
           "publishedAt": "2026-11-18T00:44:27.722Z",
           "sourceUrl": "https://www.nbcnews.com/health/health-care/white-house-drops-dr-heidi-overton-fda-nomination-commissioner-rcna609883?utm_source=lootura.com&ref=lootura.com",
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261117-heidi-overton-sjr-1622-44d9ef.jpg"
+        },
+        {
+          "title": "Trump FDA nominee Heidi Overton struggling to win enough GOP support to be confirmed",
+          "source": "CBS News",
+          "publishedAt": "2026-11-17T23:28:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/trump-fda-nominee-heidi-overton-confirmation-struggle/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/17/9a847c4d-95ae-4a17-bba4-6cffdf51d591/thumbnail/1200x630g2/2b050daa29a6b3854e53f57b6a99d0ad/gettyimages-2297036795.jpg"
         }
       ],
-      "path": "/us/entity/white-house-withdraws-nomination-of-heidi-overton-to-be-f-d-a-commissioner/"
-    },
-    {
-      "id": "now-cluster-united states-billion + duffy",
-      "title": "Sean Duffy’s $50 billion demand for air travel fixes is met with yelling and skepticism in Congress",
-      "brief": "Sean Duffy’s $50 billion demand for air travel fixes is met with yelling and skepticism in Congress.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "1h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 96,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "NBC News Politics",
-        "The New York Times Politics"
-      ],
-      "images": [
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/18/becde81e-7f72-480e-aafe-07e5960fe51d/thumbnail/1200x630/8af8d602c1cf36ff0036f70ae9ca3230/cbsn-fusion-transportation-secretary-sean-duffy-asks-for-50-billion-for-faa-after-ground-stop-thumbnail.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261117-sean-duffy-mn-1235-5667fd.jpg",
-        "https://static01.nyt.com/images/2026/11/17/multimedia/17dc-duffy-hill-pmck/17dc-duffy-hill-pmck-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Duffy asks for $50 billion for FAA after ground stop",
-          "source": "CBS News",
-          "publishedAt": "2026-11-18T00:46:59.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/transportation-secretary-sean-duffy-asks-for-50-billion-for-faa-after-ground-stop/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/18/becde81e-7f72-480e-aafe-07e5960fe51d/thumbnail/1200x630/8af8d602c1cf36ff0036f70ae9ca3230/cbsn-fusion-transportation-secretary-sean-duffy-asks-for-50-billion-for-faa-after-ground-stop-thumbnail.jpg"
-        },
-        {
-          "title": "Republicans Recoil as Duffy Outlines $50 Billion Request for Air Traffic Improvements",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-18T00:03:19.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/us/politics/duffy-hill-ground-stop-faa.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17dc-duffy-hill-pmck/17dc-duffy-hill-pmck-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Duff asks lawmakers for $50 billion in emergency funding for FAA upgrades",
-          "source": "CBS News",
-          "publishedAt": "2026-11-17T23:16:54.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/duff-asks-lawmakers-for-50-billion-in-emergency-funding-for-atc-upgrades/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Sean Duffy’s $50 billion demand for air travel fixes is met with yelling and skepticism in Congress",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-17T22:51:33.136Z",
-          "sourceUrl": "https://www.nbcnews.com/politics/congress/sean-duffys-50-billion-demand-groundstop-fixes-congress-skepitcal-rcna609844?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261117-sean-duffy-mn-1235-5667fd.jpg"
-        }
-      ],
-      "path": "/us/entity/sean-duffy-s-50-billion-demand-for-air-travel-fixes-is-met-with-yelling-and-skep/"
+      "path": "/us/entity/trump-fda-nominee-heidi-overton-struggling-to-win-enough-gop-support-to-be-confi/"
     },
     {
       "id": "now-cluster-united states-trump + trip",
@@ -433,10 +369,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 17,
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "fresh now",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 79,
@@ -487,12 +423,12 @@
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 70,
