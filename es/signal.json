@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-18T22:00:48.732Z",
+  "updatedAt": "2026-11-18T23:00:48.140Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "252.581 enlaces analizados",
-  "dayScanLabel": "4.237 enlaces escaneados en 24h",
+  "ambientPulseLabel": "253.001 enlaces analizados",
+  "dayScanLabel": "4.235 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -25,12 +25,12 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
+      "state": "active",
+      "stateLabel": "Activa",
       "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 86,
@@ -74,9 +74,9 @@
       "path": "/es/entity/xi-jinping-y-putin-exhiben-su-alianza-y-critican-las-sanciones-de-ee-uu-antes-de/"
     },
     {
-      "id": "now-cluster-españa-anthropic + salida",
-      "title": "Anthropic fija el precio de su salida a Bolsa en 83 dólares por acción",
-      "brief": "Anthropic fija el precio de su salida a Bolsa en 83 dólares por acción.",
+      "id": "now-cluster-españa-mayor + historia",
+      "title": "Anthropic protagoniza hoy la mayor salida a bolsa de la historia con el desafío de poner en valor el sueño de 'crear la inteligencia'",
+      "brief": "Anthropic protagoniza hoy la mayor salida a bolsa de la historia con el desafío de poner en valor el sueño de 'crear la inteligencia'.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -84,13 +84,14 @@
       "stateLabel": "Subiendo",
       "strength": 16,
       "sourceCount": 2,
-      "itemCount": 2,
+      "itemCount": 3,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 79,
       "alertTriggers": [
         "Cruza varias fuentes",
+        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
@@ -99,9 +100,17 @@
         "El País"
       ],
       "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950384052064.jpg",
         "https://e01-phantom-elmundo.uecdn.es/9a17b57e44dc978378e2e5cab9be36df/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/18/17950358679440.jpg"
       ],
       "evidence": [
+        {
+          "title": "Anthropic protagoniza hoy la mayor salida a bolsa de la historia con el desafío de poner en valor el sueño de 'crear la inteligencia'",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-18T22:02:07.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/dinero-inversion/2026/11/18/6afdb1f3e9cf4a680a8b4575.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950384052064.jpg"
+        },
         {
           "title": "Anthropic fija el precio de su salida a Bolsa en 83 dólares por acción",
           "source": "El Mundo",
@@ -117,7 +126,7 @@
           "image": ""
         }
       ],
-      "path": "/es/entity/anthropic-fija-el-precio-de-su-salida-a-bolsa-en-83-dolares-por-accion/"
+      "path": "/es/entity/anthropic-protagoniza-hoy-la-mayor-salida-a-bolsa-de-la-historia-con-el-desafio/"
     },
     {
       "id": "now-cluster-españa-contra + ante",
@@ -128,13 +137,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -175,10 +184,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -213,65 +222,18 @@
       "path": "/es/entity/los-democratas-proponen-a-hakeem-jeffries-como-primer-presidente-negro-de-la-cam/"
     },
     {
-      "id": "now-cluster-españa-isak + andic",
-      "title": "Isak Andic tramó un plan con la terapeuta para apartar a Jonathan de Mango y que no volviera nunca a la empresa",
-      "brief": "Isak Andic tramó un plan con la terapeuta para apartar a Jonathan de Mango y que no volviera nunca a la empresa.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e01-phantom-elmundo.uecdn.es/ebc5e32042747b09d9d6d7b77a5ddc72/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/18/17950279927702.jpg",
-        "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/1515130215-Ru9cPNftwd9OC5FNTSHcKyH-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Isak Andic tramó un plan con la terapeuta para apartar a Jonathan de Mango y que no volviera nunca a la empresa",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-18T18:56:07.000Z",
-          "sourceUrl": "https://www.elmundo.es/cataluna/2026/11/18/6afdf064fdddfffb2c8b456f.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/ebc5e32042747b09d9d6d7b77a5ddc72/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/18/17950279927702.jpg"
-        },
-        {
-          "title": "Isak Andic planeó con la terapeuta un plan para apartar a su hijo de Mango",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T18:39:35.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/isak-andic-planeo-terapeuta-plan-apartar-hijo-20261118193934-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/1515130215-Ru9cPNftwd9OC5FNTSHcKyH-1200x840@RC.jpg"
-        }
-      ],
-      "path": "/es/entity/isak-andic-tramo-un-plan-con-la-terapeuta-para-apartar-a-jonathan-de-mango-y-que/"
-    },
-    {
       "id": "moving-cluster-españa-presidente + hernandez",
       "title": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos",
       "brief": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -313,12 +275,12 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -364,7 +326,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -397,6 +359,53 @@
       "path": "/es/entity/mbappe-alarga-su-estancia-en-gipuzkoa-junto-a-ester-exposito-de-escapada-expres/"
     },
     {
+      "id": "now-cluster-españa-isak + andic",
+      "title": "Isak Andic tramó un plan con la terapeuta para apartar a Jonathan de Mango y que no volviera nunca a la empresa",
+      "brief": "Isak Andic tramó un plan con la terapeuta para apartar a Jonathan de Mango y que no volviera nunca a la empresa.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "4h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 60,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El Correo"
+      ],
+      "images": [
+        "https://e01-phantom-elmundo.uecdn.es/ebc5e32042747b09d9d6d7b77a5ddc72/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/18/17950279927702.jpg",
+        "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/1515130215-Ru9cPNftwd9OC5FNTSHcKyH-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Isak Andic tramó un plan con la terapeuta para apartar a Jonathan de Mango y que no volviera nunca a la empresa",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-18T18:56:07.000Z",
+          "sourceUrl": "https://www.elmundo.es/cataluna/2026/11/18/6afdf064fdddfffb2c8b456f.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/ebc5e32042747b09d9d6d7b77a5ddc72/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/18/17950279927702.jpg"
+        },
+        {
+          "title": "Isak Andic planeó con la terapeuta un plan para apartar a su hijo de Mango",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T18:39:35.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/isak-andic-planeo-terapeuta-plan-apartar-hijo-20261118193934-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/1515130215-Ru9cPNftwd9OC5FNTSHcKyH-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/isak-andic-tramo-un-plan-con-la-terapeuta-para-apartar-a-jonathan-de-mango-y-que/"
+    },
+    {
       "id": "fading-cluster-españa-otro + gobierno",
       "title": "La Fiscalía tumba otro tercer grado del Gobierno vasco a un preso de ETA",
       "brief": "La Fiscalía tumba otro tercer grado del Gobierno vasco a un preso de ETA.",
@@ -408,10 +417,10 @@
       "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 52,
+      "alertScore": 46,
       "alertTriggers": [
         "Cruza varias fuentes"
       ],
@@ -448,10 +457,10 @@
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 7,
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresca",
+      "freshness": "8h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 46,
