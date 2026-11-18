@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-18T11:00:48.211Z",
+  "updatedAt": "2026-11-18T12:00:47.979Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "289,210 links analyzed",
-  "dayScanLabel": "8,336 links scanned in 24h",
+  "ambientPulseLabel": "290,042 links analyzed",
+  "dayScanLabel": "8,331 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -16,7 +16,81 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": null,
+  "topAlert": {
+    "id": "moving-cluster-united states-mary + peltola",
+    "title": "Mary Peltola unseats Sen. Dan Sullivan, giving Dems a 56-seat Senate majority",
+    "brief": "Mary Peltola unseats Sen. Dan Sullivan, giving Dems a 56-seat Senate majority.",
+    "whyItMatters": "",
+    "verdict": "If it repeats in the next run, it gains weight.",
+    "mode": "moving",
+    "state": "active",
+    "stateLabel": "Active",
+    "strength": 21,
+    "sourceCount": 5,
+    "itemCount": 5,
+    "freshness": "4h fresh",
+    "alertLevel": "watch",
+    "alertLabel": "Watch",
+    "alertScore": 99,
+    "alertTriggers": [
+      "Crosses several sources",
+      "Picks up volume fast",
+      "Still active"
+    ],
+    "isHotNews": false,
+    "sources": [
+      "The New York Times Politics",
+      "NBC News",
+      "CBS News",
+      "NPR Politics",
+      "Politico"
+    ],
+    "images": [
+      "https://static01.nyt.com/images/2026/11/03/multimedia/03hfo-pol-ak-senate-01-gcpq/03hfo-pol-ak-senate-01-gcpq-mediumSquareAt3X.jpg",
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794973694094_nbc_full_alaska_senate_race_call_261117_S3_1920x1080-yufmzo.jpg",
+      "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/0f5f15ea-6383-4926-aabc-4beae843fb96/thumbnail/1200x630/9f0963593d4779fc894a2adb51245c1e/gettyimages-2302985547.jpg",
+      "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4285x2868+0+0/resize/4285x2868!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fde%2F7b%2Fc9c8a3fc4d01bd1e6bf99f1f6d88%2Fmdt-peltola.jpg",
+      "https://static.politico.com/94/51/00c2e53645f795d1a13f6306d751/election-2-26-alaska-senate-8-22.jpg"
+    ],
+    "evidence": [
+      {
+        "title": "Democrats Claim 56 Senate Seats After Mary Peltola Wins in Alaska",
+        "source": "The New York Times Politics",
+        "publishedAt": "2026-11-18T07:43:35.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/17/us/politics/alaska-senate-sullivan-peltola.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/03/multimedia/03hfo-pol-ak-senate-01-gcpq/03hfo-pol-ak-senate-01-gcpq-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Democrat Mary Peltola wins Alaska’s Senate race, NBC News projects",
+        "source": "NBC News",
+        "publishedAt": "2026-11-18T03:48:21.000Z",
+        "sourceUrl": "https://www.nbcnews.com/video/democrat-mary-peltola-wins-alaska-s-senate-race-nbc-news-projects-273698885569?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794973694094_nbc_full_alaska_senate_race_call_261117_S3_1920x1080-yufmzo.jpg"
+      },
+      {
+        "title": "Peltola wins Alaska 2026 Senate election, CBS News projects, flipping seat for Democrats",
+        "source": "CBS News",
+        "publishedAt": "2026-11-18T03:28:00.000Z",
+        "sourceUrl": "https://www.cbsnews.com/news/alaska-2026-senate-sullivan-peltola/?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/0f5f15ea-6383-4926-aabc-4beae843fb96/thumbnail/1200x630/9f0963593d4779fc894a2adb51245c1e/gettyimages-2302985547.jpg"
+      },
+      {
+        "title": "Mary Peltola flips Alaska's Senate seat into Democrats' column",
+        "source": "NPR Politics",
+        "publishedAt": "2026-11-18T03:27:23.000Z",
+        "sourceUrl": "https://www.npr.org/2026/11/17/g-s1-151567/alaska-senate-results-peltola-sullivan?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4285x2868+0+0/resize/4285x2868!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fde%2F7b%2Fc9c8a3fc4d01bd1e6bf99f1f6d88%2Fmdt-peltola.jpg"
+      },
+      {
+        "title": "Mary Peltola unseats Sen. Dan Sullivan, giving Dems a 56-seat Senate majority",
+        "source": "Politico",
+        "publishedAt": "2026-11-18T03:24:10.000Z",
+        "sourceUrl": "https://www.politico.com/news/2026/11/17/mary-peltola-wins-alaska-senate-01172129?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static.politico.com/94/51/00c2e53645f795d1a13f6306d751/election-2-26-alaska-senate-8-22.jpg"
+      }
+    ],
+    "path": "/us/entity/mary-peltola-unseats-sen-dan-sullivan-giving-dems-a-56-seat-senate-majority/"
+  },
   "signals": [
     {
       "id": "now-cluster-united states-trump + putin",
@@ -27,9 +101,9 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 27,
+      "strength": 29,
       "sourceCount": 4,
-      "itemCount": 6,
+      "itemCount": 9,
       "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
@@ -41,25 +115,39 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The New York Times World",
-        "NBC News Politics",
         "NPR World",
-        "The New York Times"
+        "The New York Times World",
+        "The New York Times",
+        "NBC News Politics"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/18/multimedia/18trump-summits-xi-greeting-gpvt/18trump-summits-xi-greeting-gpvt-mediumSquareAt3X.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261118-trump-china-2-rs-afe183.jpg",
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5124x3416+0+0/resize/5124x3416!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fff%2F5f%2F5300d36b41daab38cfccf78d8910%2Fap26322331417415.jpg",
+        "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6027645",
+        "https://static01.nyt.com/images/2026/11/18/multimedia/18int-canada-carney-wrap-mjhp/18int-canada-carney-wrap-mjhp-mediumSquareAt3X.jpg",
         "https://static01.nyt.com/images/2026/10/28/multimedia/18dc-trump-putin/28int-ukraine-pipes-grid-hp-02-mgvl-mediumSquareAt3X.jpg",
-        "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6044242"
+        "https://static01.nyt.com/images/2026/11/18/multimedia/18trump-summits-carousel-zzz-qglk/18trump-summits-carousel-zzz-qglk-mediumSquareAt3X.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261118-trump-china-2-rs-afe183.jpg"
       ],
       "evidence": [
         {
+          "title": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
+          "source": "NPR World",
+          "publishedAt": "2026-11-18T11:57:10.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6027645"
+        },
+        {
+          "title": "Carney and Trump to Hold Unscheduled Trade Meeting at Asia Summit",
+          "source": "The New York Times World",
+          "publishedAt": "2026-11-18T11:33:37.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/18/world/canada/trump-carney-meeting-asia-us-canada-trade.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/18int-canada-carney-wrap-mjhp/18int-canada-carney-wrap-mjhp-mediumSquareAt3X.jpg"
+        },
+        {
           "title": "In a Rare Move, Xi Greets Trump as He Lands in China",
           "source": "The New York Times World",
-          "publishedAt": "2026-11-18T10:55:13.000Z",
+          "publishedAt": "2026-11-18T11:13:59.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/18/world/asia/xi-trump-china-arrival.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/18trump-summits-xi-greeting-gpvt/18trump-summits-xi-greeting-gpvt-mediumSquareAt3X.jpg"
+          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/18trump-summits-carousel-zzz-qglk/18trump-summits-carousel-zzz-qglk-mediumSquareAt3X.jpg"
         },
         {
           "title": "Xi Jinping greets Trump as he arrives in China, a rare move ahead of Putin talks",
@@ -74,36 +162,22 @@
           "publishedAt": "2026-11-18T10:32:03.000Z",
           "sourceUrl": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin?utm_source=lootura.com&ref=lootura.com",
           "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5124x3416+0+0/resize/5124x3416!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fff%2F5f%2F5300d36b41daab38cfccf78d8910%2Fap26322331417415.jpg"
-        },
-        {
-          "title": "Putin Will Continue Ukraine War Despite Plans to Meet Trump, Intelligence Says",
-          "source": "The New York Times World",
-          "publishedAt": "2026-11-18T10:03:56.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/18/us/politics/trump-putin-ukraine-war.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/10/28/multimedia/18dc-trump-putin/28int-ukraine-pipes-grid-hp-02-mgvl-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Putin to meet with Trump and Xi after Ukrainian attack on Russian bridge",
-          "source": "NPR World",
-          "publishedAt": "2026-11-18T09:43:28.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/18/nx-s1-6044242/putin-to-meet-with-trump-and-xi-after-ukrainian-attack-on-russian-bridge?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6044242"
         }
       ],
       "path": "/us/entity/xi-jinping-greets-trump-as-he-arrives-in-china-a-rare-move-ahead-of-putin-talks/"
     },
     {
-      "id": "now-cluster-united states-jensen + huang",
-      "title": "House and Senate Republicans call on Howard Lutnick, Jensen Huang to testify about Nvidia",
-      "brief": "House and Senate Republicans call on Howard Lutnick, Jensen Huang to testify about Nvidia.",
+      "id": "now-cluster-united states-grand + theft",
+      "title": "Grand Theft Auto VI review – gaming’s most depraved world is now also its greatest love story",
+      "brief": "Grand Theft Auto VI review – gaming’s most depraved world is now also its greatest love story.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 26,
+      "strength": 25,
       "sourceCount": 4,
-      "itemCount": 5,
+      "itemCount": 4,
       "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
@@ -115,59 +189,125 @@
       ],
       "isHotNews": false,
       "sources": [
-        "ABC News",
+        "The Verge",
+        "The Guardian US",
         "The New York Times",
-        "NBC News",
-        "CBS News"
+        "NPR"
       ],
       "images": [
-        "https://i.abcnewsfe.com/a/4de93f85-95fc-44b3-b318-3d16ec35ec86/lutnick-3-ap-gmh-261113_1794580135333_hpMain_16x9.jpg?w=1600",
-        "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-nvidia-04-vtqg/17biz-nvidia-04-vtqg-mediumSquareAt3X.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261109-jensen-huang-nvidia-vl-309p-81078a.jpg",
-        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/18/784a7892-fd71-4f33-854a-ec59d5128199/thumbnail/1200x630/25122244a6e14a49062ad1030b267e93/cbsn-fusion-nvidia-shares-strong-results-in-first-earnings-report-after-huangs-resignation-thumbnail.jpg",
-        "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-jensen-statement-vhjm/17biz-jensen-statement-vhjm-mediumSquareAt3X.jpg"
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/STKS540_GTA_VI_2_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+        "https://i.guim.co.uk/img/media/53ac3eb2cb6dc9001ada3ba916d998589415975e/164_0_1827_1462/master/1827.jpg?width=140&quality=85&auto=format&fit=max&s=4ed0b6d61b03463e2536ef1c2e36a427",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3840x2160+0+0/resize/3840x2160!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F4e%2F0d%2F728b89154973a4e942ced4d58d36%2Fjason-and-lucia-03.jpg"
       ],
       "evidence": [
         {
-          "title": "House and Senate Republicans call on Howard Lutnick, Jensen Huang to testify about Nvidia",
-          "source": "ABC News",
-          "publishedAt": "2026-11-18T10:20:43.000Z",
-          "sourceUrl": "https://abcnews.com/Politics/house-senate-republicans-call-howard-lutnick-jensen-huang/story?id=138111390&utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.abcnewsfe.com/a/4de93f85-95fc-44b3-b318-3d16ec35ec86/lutnick-3-ap-gmh-261113_1794580135333_hpMain_16x9.jpg?w=1600"
+          "title": "Grand Theft Auto VI has arrived",
+          "source": "The Verge",
+          "publishedAt": "2026-11-18T11:06:16.000Z",
+          "sourceUrl": "https://www.theverge.com/entertainment/1035847/grand-theft-auto-6-launch-review-news?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/STKS540_GTA_VI_2_A.jpg?quality=90&strip=all&crop=0,0,100,100"
         },
         {
-          "title": "Nvidia Has No Plans to Bring Back Jensen Huang",
+          "title": "Grand Theft Auto VI review – gaming’s most depraved world is now also its greatest love story",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-18T11:00:55.000Z",
+          "sourceUrl": "https://www.theguardian.com/games/2026/nov/18/grand-theft-auto-vi-gta-6-review-playstation-rockstar?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/53ac3eb2cb6dc9001ada3ba916d998589415975e/164_0_1827_1462/master/1827.jpg?width=140&quality=85&auto=format&fit=max&s=4ed0b6d61b03463e2536ef1c2e36a427"
+        },
+        {
+          "title": "Grand Theft Auto VI Review: It Will Steal Your Heart",
           "source": "The New York Times",
-          "publishedAt": "2026-11-18T03:57:08.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/business/nvidia-earnings-jensen-huang.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-nvidia-04-vtqg/17biz-nvidia-04-vtqg-mediumSquareAt3X.jpg"
+          "publishedAt": "2026-11-18T11:00:50.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/18/arts/grand-theft-auto-vi-review.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
-          "title": "Nvidia enters the post-Jensen Huang era with a bang",
-          "source": "NBC News",
-          "publishedAt": "2026-11-18T02:42:12.554Z",
-          "sourceUrl": "https://www.nbcnews.com/business/corporations/nvidia-post-jensen-huang-kress-earnings-rcna609782?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261109-jensen-huang-nvidia-vl-309p-81078a.jpg"
-        },
-        {
-          "title": "Nvidia shares strong results in first earnings report after Huang's resignation",
-          "source": "CBS News",
-          "publishedAt": "2026-11-18T00:47:47.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/nvidia-shares-strong-results-in-first-earnings-report-after-huangs-resignation/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/18/784a7892-fd71-4f33-854a-ec59d5128199/thumbnail/1200x630/25122244a6e14a49062ad1030b267e93/cbsn-fusion-nvidia-shares-strong-results-in-first-earnings-report-after-huangs-resignation-thumbnail.jpg"
-        },
-        {
-          "title": "Jensen Huang Says He Would Return as Nvidia CEO if Asked",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-17T19:55:48.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/technology/jensen-huang-nvidia-statement.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-jensen-statement-vhjm/17biz-jensen-statement-vhjm-mediumSquareAt3X.jpg"
+          "title": "Grand Theft Auto VI is a grounded love story, a gonzo crime thriller and a gaming triumph",
+          "source": "NPR",
+          "publishedAt": "2026-11-18T11:00:00.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/18/nx-s1-6040326/grand-theft-auto-6-review-vice-city-masterpiece?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3840x2160+0+0/resize/3840x2160!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F4e%2F0d%2F728b89154973a4e942ced4d58d36%2Fjason-and-lucia-03.jpg"
         }
       ],
-      "path": "/us/entity/house-and-senate-republicans-call-on-howard-lutnick-jensen-huang-to-testify-abou/"
+      "path": "/us/entity/grand-theft-auto-vi-review-gaming-s-most-depraved-world-is-now-also-its-greatest/"
     },
     {
-      "id": "moving-cluster-united states-outages + tech",
+      "id": "moving-cluster-united states-mary + peltola",
+      "title": "Mary Peltola unseats Sen. Dan Sullivan, giving Dems a 56-seat Senate majority",
+      "brief": "Mary Peltola unseats Sen. Dan Sullivan, giving Dems a 56-seat Senate majority.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 21,
+      "sourceCount": 5,
+      "itemCount": 5,
+      "freshness": "4h fresh",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times Politics",
+        "NBC News",
+        "CBS News",
+        "NPR Politics",
+        "Politico"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/03/multimedia/03hfo-pol-ak-senate-01-gcpq/03hfo-pol-ak-senate-01-gcpq-mediumSquareAt3X.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794973694094_nbc_full_alaska_senate_race_call_261117_S3_1920x1080-yufmzo.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/0f5f15ea-6383-4926-aabc-4beae843fb96/thumbnail/1200x630/9f0963593d4779fc894a2adb51245c1e/gettyimages-2302985547.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4285x2868+0+0/resize/4285x2868!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fde%2F7b%2Fc9c8a3fc4d01bd1e6bf99f1f6d88%2Fmdt-peltola.jpg",
+        "https://static.politico.com/94/51/00c2e53645f795d1a13f6306d751/election-2-26-alaska-senate-8-22.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Democrats Claim 56 Senate Seats After Mary Peltola Wins in Alaska",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-18T07:43:35.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/us/politics/alaska-senate-sullivan-peltola.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/03/multimedia/03hfo-pol-ak-senate-01-gcpq/03hfo-pol-ak-senate-01-gcpq-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Democrat Mary Peltola wins Alaska’s Senate race, NBC News projects",
+          "source": "NBC News",
+          "publishedAt": "2026-11-18T03:48:21.000Z",
+          "sourceUrl": "https://www.nbcnews.com/video/democrat-mary-peltola-wins-alaska-s-senate-race-nbc-news-projects-273698885569?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794973694094_nbc_full_alaska_senate_race_call_261117_S3_1920x1080-yufmzo.jpg"
+        },
+        {
+          "title": "Peltola wins Alaska 2026 Senate election, CBS News projects, flipping seat for Democrats",
+          "source": "CBS News",
+          "publishedAt": "2026-11-18T03:28:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/alaska-2026-senate-sullivan-peltola/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/0f5f15ea-6383-4926-aabc-4beae843fb96/thumbnail/1200x630/9f0963593d4779fc894a2adb51245c1e/gettyimages-2302985547.jpg"
+        },
+        {
+          "title": "Mary Peltola flips Alaska's Senate seat into Democrats' column",
+          "source": "NPR Politics",
+          "publishedAt": "2026-11-18T03:27:23.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/17/g-s1-151567/alaska-senate-results-peltola-sullivan?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4285x2868+0+0/resize/4285x2868!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fde%2F7b%2Fc9c8a3fc4d01bd1e6bf99f1f6d88%2Fmdt-peltola.jpg"
+        },
+        {
+          "title": "Mary Peltola unseats Sen. Dan Sullivan, giving Dems a 56-seat Senate majority",
+          "source": "Politico",
+          "publishedAt": "2026-11-18T03:24:10.000Z",
+          "sourceUrl": "https://www.politico.com/news/2026/11/17/mary-peltola-wins-alaska-senate-01172129?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static.politico.com/94/51/00c2e53645f795d1a13f6306d751/election-2-26-alaska-senate-8-22.jpg"
+        }
+      ],
+      "path": "/us/entity/mary-peltola-unseats-sen-dan-sullivan-giving-dems-a-56-seat-senate-majority/"
+    },
+    {
+      "id": "moving-cluster-united states-outages + rubio",
       "title": "Rubio says there's 'zero' information that U.S. outages are caused by a malign actor",
       "brief": "Rubio says there's 'zero' information that U.S. outages are caused by a malign actor.",
       "whyItMatters": "",
@@ -175,13 +315,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 25,
-      "sourceCount": 4,
-      "itemCount": 5,
-      "freshness": "3h fresh",
+      "strength": 17,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 99,
+      "alertScore": 90,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -191,14 +331,12 @@
       "sources": [
         "NPR",
         "CBS News",
-        "The New York Times",
-        "NBC News"
+        "The New York Times"
       ],
       "images": [
         "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6882x4588+0+0/resize/6882x4588!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F28%2Fb8%2F576b0fb941f4be9a67becc8931f3%2Fap26322110671262.jpg",
         "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/18/dd4ffecc-82ca-4351-9b61-50732f9a9014/thumbnail/1200x630g2/c47eb385e012e589f1440ea2889be50c/gettyimages-2305621072.jpg",
-        "https://static01.nyt.com/images/2026/11/18/multimedia/18int-rubio-systems-qlkb/18int-rubio-systems-qlkb-mediumSquareAt3X.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/nn_cln_tco_outages_261117-9n7r21.jpg"
+        "https://static01.nyt.com/images/2026/11/18/multimedia/18int-rubio-systems-qlkb/18int-rubio-systems-qlkb-mediumSquareAt3X.jpg"
       ],
       "evidence": [
         {
@@ -228,33 +366,26 @@
           "publishedAt": "2026-11-18T01:17:59.000Z",
           "sourceUrl": "https://www.cbsnews.com/video/heres-what-might-be-causing-the-string-of-tech-related-outages/?utm_source=lootura.com&ref=lootura.com",
           "image": ""
-        },
-        {
-          "title": "Apple hit by widespread outages as tech problems continue",
-          "source": "NBC News",
-          "publishedAt": "2026-11-18T00:18:02.000Z",
-          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/apple-hit-by-widespread-outages-as-tech-problems-continue-273687109562?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/nn_cln_tco_outages_261117-9n7r21.jpg"
         }
       ],
       "path": "/us/entity/rubio-says-there-s-zero-information-that-u-s-outages-are-caused-by-a-malign-acto/"
     },
     {
-      "id": "moving-cluster-united states-mary + peltola",
-      "title": "Mary Peltola unseats Sen. Dan Sullivan, giving Dems a 56-seat Senate majority",
-      "brief": "Mary Peltola unseats Sen. Dan Sullivan, giving Dems a 56-seat Senate majority.",
+      "id": "moving-cluster-united states-nvidia + huang",
+      "title": "Nvidia shares strong results in first earnings report after Huang's resignation",
+      "brief": "Nvidia shares strong results in first earnings report after Huang's resignation.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 19,
-      "sourceCount": 4,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 14,
+      "sourceCount": 3,
       "itemCount": 4,
-      "freshness": "3h fresh",
+      "freshness": "8h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 99,
+      "alertScore": 84,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -262,142 +393,141 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The New York Times Politics",
-        "CBS News",
-        "NPR Politics",
-        "Politico"
+        "The New York Times",
+        "NBC News",
+        "CBS News"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/03/multimedia/03hfo-pol-ak-senate-01-gcpq/03hfo-pol-ak-senate-01-gcpq-mediumSquareAt3X.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/0f5f15ea-6383-4926-aabc-4beae843fb96/thumbnail/1200x630/9f0963593d4779fc894a2adb51245c1e/gettyimages-2302985547.jpg",
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4285x2868+0+0/resize/4285x2868!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fde%2F7b%2Fc9c8a3fc4d01bd1e6bf99f1f6d88%2Fmdt-peltola.jpg",
-        "https://static.politico.com/94/51/00c2e53645f795d1a13f6306d751/election-2-26-alaska-senate-8-22.jpg"
+        "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-nvidia-04-vtqg/17biz-nvidia-04-vtqg-mediumSquareAt3X.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261109-jensen-huang-nvidia-vl-309p-81078a.jpg",
+        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/18/784a7892-fd71-4f33-854a-ec59d5128199/thumbnail/1200x630/25122244a6e14a49062ad1030b267e93/cbsn-fusion-nvidia-shares-strong-results-in-first-earnings-report-after-huangs-resignation-thumbnail.jpg",
+        "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-jensen-statement-vhjm/17biz-jensen-statement-vhjm-mediumSquareAt3X.jpg"
       ],
       "evidence": [
         {
-          "title": "Democrats Claim 56 Senate Seats After Mary Peltola Wins in Alaska",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-18T07:43:35.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/us/politics/alaska-senate-sullivan-peltola.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/03/multimedia/03hfo-pol-ak-senate-01-gcpq/03hfo-pol-ak-senate-01-gcpq-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Peltola wins Alaska 2026 Senate election, CBS News projects, flipping seat for Democrats",
-          "source": "CBS News",
-          "publishedAt": "2026-11-18T03:28:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/alaska-2026-senate-sullivan-peltola/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/0f5f15ea-6383-4926-aabc-4beae843fb96/thumbnail/1200x630/9f0963593d4779fc894a2adb51245c1e/gettyimages-2302985547.jpg"
-        },
-        {
-          "title": "Mary Peltola flips Alaska's Senate seat into Democrats' column",
-          "source": "NPR Politics",
-          "publishedAt": "2026-11-18T03:27:23.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/17/g-s1-151567/alaska-senate-results-peltola-sullivan?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4285x2868+0+0/resize/4285x2868!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fde%2F7b%2Fc9c8a3fc4d01bd1e6bf99f1f6d88%2Fmdt-peltola.jpg"
-        },
-        {
-          "title": "Mary Peltola unseats Sen. Dan Sullivan, giving Dems a 56-seat Senate majority",
-          "source": "Politico",
-          "publishedAt": "2026-11-18T03:24:10.000Z",
-          "sourceUrl": "https://www.politico.com/news/2026/11/17/mary-peltola-wins-alaska-senate-01172129?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static.politico.com/94/51/00c2e53645f795d1a13f6306d751/election-2-26-alaska-senate-8-22.jpg"
-        }
-      ],
-      "path": "/us/entity/mary-peltola-unseats-sen-dan-sullivan-giving-dems-a-56-seat-senate-majority/"
-    },
-    {
-      "id": "now-cluster-united states-grand + theft",
-      "title": "Grand Theft Auto VI is a grounded love story, a gonzo crime thriller and a gaming triumph",
-      "brief": "Grand Theft Auto VI is a grounded love story, a gonzo crime thriller and a gaming triumph.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NPR",
-        "The Verge"
-      ],
-      "images": [
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3840x2160+0+0/resize/3840x2160!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F4e%2F0d%2F728b89154973a4e942ced4d58d36%2Fjason-and-lucia-03.jpg",
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/GTAVI-17-copy.jpg?quality=90&strip=all&crop=0,0,100,100"
-      ],
-      "evidence": [
-        {
-          "title": "Grand Theft Auto VI is a grounded love story, a gonzo crime thriller and a gaming triumph",
-          "source": "NPR",
-          "publishedAt": "2026-11-18T11:00:00.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/18/nx-s1-6040326/grand-theft-auto-6-review-vice-city-masterpiece?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3840x2160+0+0/resize/3840x2160!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F4e%2F0d%2F728b89154973a4e942ced4d58d36%2Fjason-and-lucia-03.jpg"
-        },
-        {
-          "title": "Grand Theft Auto VI does something impossible",
-          "source": "The Verge",
-          "publishedAt": "2026-11-18T11:00:00.000Z",
-          "sourceUrl": "https://www.theverge.com/games/1035801/grand-theft-auto-6-review?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/GTAVI-17-copy.jpg?quality=90&strip=all&crop=0,0,100,100"
-        }
-      ],
-      "path": "/us/entity/grand-theft-auto-vi-is-a-grounded-love-story-a-gonzo-crime-thriller-and-a-gaming/"
-    },
-    {
-      "id": "now-cluster-united states-trump + asia",
-      "title": "A Visual Tour of President Trump’s Visits to Asia",
-      "brief": "A Visual Tour of President Trump’s Visits to Asia.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times World",
-        "The New York Times"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/18/multimedia/18int-trump-asia-visual-stack-ckfp/18int-trump-asia-visual-stack-ckfp-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/11/17/multimedia/17trump-summits-data-centers-kjtv/17trump-summits-data-centers-kjtv-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "A Visual Tour of President Trump’s Visits to Asia",
-          "source": "The New York Times World",
-          "publishedAt": "2026-11-18T10:24:36.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/world/asia/president-trump-visits-asia.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/18int-trump-asia-visual-stack-ckfp/18int-trump-asia-visual-stack-ckfp-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Trump’s New A.I. Chip Rules Rattle Southeast Asia",
+          "title": "Nvidia Has No Plans to Bring Back Jensen Huang",
           "source": "The New York Times",
-          "publishedAt": "2026-11-17T21:04:16.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/business/southeast-asia-china-ai-chips.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17trump-summits-data-centers-kjtv/17trump-summits-data-centers-kjtv-mediumSquareAt3X.jpg"
+          "publishedAt": "2026-11-18T03:57:08.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/business/nvidia-earnings-jensen-huang.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-nvidia-04-vtqg/17biz-nvidia-04-vtqg-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Nvidia enters the post-Jensen Huang era with a bang",
+          "source": "NBC News",
+          "publishedAt": "2026-11-18T02:42:12.554Z",
+          "sourceUrl": "https://www.nbcnews.com/business/corporations/nvidia-post-jensen-huang-kress-earnings-rcna609782?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261109-jensen-huang-nvidia-vl-309p-81078a.jpg"
+        },
+        {
+          "title": "Nvidia shares strong results in first earnings report after Huang's resignation",
+          "source": "CBS News",
+          "publishedAt": "2026-11-18T00:47:47.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/nvidia-shares-strong-results-in-first-earnings-report-after-huangs-resignation/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/18/784a7892-fd71-4f33-854a-ec59d5128199/thumbnail/1200x630/25122244a6e14a49062ad1030b267e93/cbsn-fusion-nvidia-shares-strong-results-in-first-earnings-report-after-huangs-resignation-thumbnail.jpg"
+        },
+        {
+          "title": "Jensen Huang Says He Would Return as Nvidia CEO if Asked",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-17T19:55:48.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/technology/jensen-huang-nvidia-statement.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-jensen-statement-vhjm/17biz-jensen-statement-vhjm-mediumSquareAt3X.jpg"
         }
       ],
-      "path": "/us/entity/a-visual-tour-of-president-trump-s-visits-to-asia/"
+      "path": "/us/entity/nvidia-shares-strong-results-in-first-earnings-report-after-huang-s-resignation/"
+    },
+    {
+      "id": "now-cluster-united states-most + voyager",
+      "title": "After 49 years, Nasa’s Voyager 1 is one light-day away from us. Can we save this ‘pale blue dot’? |",
+      "brief": "After 49 years, Nasa’s Voyager 1 is one light-day away from us. Can we save this ‘pale blue dot’? |.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The Guardian US",
+        "CBS News"
+      ],
+      "images": [
+        "https://i.guim.co.uk/img/media/dc0fad56b1b1eaa91b8cd09ea4c2a7af3e4071b3/0_0_1500_1200/master/1500.jpg?width=140&quality=85&auto=format&fit=max&s=a63735a142422cc4d915598f5e169a7c",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/6bcdebd7-059f-4f17-afce-ce10719d607c/thumbnail/1200x630/9317139bc97194d9795b185740bebdcb/voyager-artist1.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "After 49 years, Nasa’s Voyager 1 is one light-day away from us. Can we save this ‘pale blue dot’? |",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-18T11:00:56.000Z",
+          "sourceUrl": "https://www.theguardian.com/commentisfree/2026/nov/18/nasa-voyager-1-pale-blue-dot?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/dc0fad56b1b1eaa91b8cd09ea4c2a7af3e4071b3/0_0_1500_1200/master/1500.jpg?width=140&quality=85&auto=format&fit=max&s=a63735a142422cc4d915598f5e169a7c"
+        },
+        {
+          "title": "Voyager 1 probe now a full \"light day\" from Earth, the most distant human artifact in space",
+          "source": "CBS News",
+          "publishedAt": "2026-11-18T07:06:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/voyager-1-probe-light-day-earth-father-than-anything/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/6bcdebd7-059f-4f17-afce-ce10719d607c/thumbnail/1200x630/9317139bc97194d9795b185740bebdcb/voyager-artist1.jpg"
+        }
+      ],
+      "path": "/us/entity/after-49-years-nasa-s-voyager-1-is-one-light-day-away-from-us-can-we-save-this-p/"
+    },
+    {
+      "id": "now-cluster-united states-jeffries + speaker",
+      "title": "Hakeem Jeffries on Track For Speaker Nomination in Wednesday Vote",
+      "brief": "Hakeem Jeffries on Track For Speaker Nomination in Wednesday Vote.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "TIME",
+        "The New York Times Politics"
+      ],
+      "images": [
+        "https://static.time.com/v3/assets/bltea6093859af6183b/bltebb2e15fa1bc40da/6afcc363aa77009e047cf352/GettyImages-2304799482.jpg?branch=production",
+        "https://static01.nyt.com/images/2026/11/17/multimedia/17dc-jeffries-medicare-fzkj/17dc-jeffries-medicare-fzkj-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Hakeem Jeffries on Track For Speaker Nomination in Wednesday Vote",
+          "source": "TIME",
+          "publishedAt": "2026-11-18T11:00:00.000Z",
+          "sourceUrl": "https://time.com/article/2026/11/18/hakeem-jeffries-picked-by-democrats-first-black-speaker-of-the-house/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static.time.com/v3/assets/bltea6093859af6183b/bltebb2e15fa1bc40da/6afcc363aa77009e047cf352/GettyImages-2304799482.jpg?branch=production"
+        },
+        {
+          "title": "Hakeem Jeffries Embraces Medicare Expansion on Eve of Speaker Vote",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-17T23:25:32.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/us/politics/jeffries-medicare-expansion.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17dc-jeffries-medicare-fzkj/17dc-jeffries-medicare-fzkj-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/hakeem-jeffries-on-track-for-speaker-nomination-in-wednesday-vote/"
     },
     {
       "id": "moving-cluster-united states-trump + administration",
@@ -408,10 +538,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 10,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 73,
@@ -456,54 +586,7 @@
       "path": "/us/entity/trump-administration-presses-ahead-in-legal-battle-over-u-s-attorneys/"
     },
     {
-      "id": "moving-cluster-united states-democrats + measles",
-      "title": "Democrats Assail RFK Jr. After U.S. Loses Measles Elimination Status",
-      "brief": "Democrats Assail RFK Jr. After U.S. Loses Measles Elimination Status.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "7h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times Politics",
-        "The New York Times"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/17/multimedia/17pol-measles-reax-tzcj/17pol-measles-reax-tzcj-mediumSquareAt3X-v2.jpg",
-        "https://static01.nyt.com/images/2026/11/17/arts/Measles_Vaccines_35784/Measles_Vaccines_35784-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Democrats Assail RFK Jr. After U.S. Loses Measles Elimination Status",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-18T03:33:29.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/us/politics/rfk-jr-measles-democrats.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17pol-measles-reax-tzcj/17pol-measles-reax-tzcj-mediumSquareAt3X-v2.jpg"
-        },
-        {
-          "title": "U.S. Loses Its Measles Elimination Status, a Historic Setback for American Health",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-17T20:52:05.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/well/us-measles-elimination-status.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/17/arts/Measles_Vaccines_35784/Measles_Vaccines_35784-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/democrats-assail-rfk-jr-after-u-s-loses-measles-elimination-status/"
-    },
-    {
-      "id": "fading-cluster-united states-house + white",
+      "id": "fading-cluster-united states-house + nomination",
       "title": "White House Withdraws Nomination of Heidi Overton to Be F.D.A. Commissioner",
       "brief": "White House Withdraws Nomination of Heidi Overton to Be F.D.A. Commissioner.",
       "whyItMatters": "",
@@ -514,7 +597,7 @@
       "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "8h fresh",
+      "freshness": "9h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 46,
@@ -547,6 +630,52 @@
         }
       ],
       "path": "/us/entity/white-house-withdraws-nomination-of-heidi-overton-to-be-f-d-a-commissioner/"
+    },
+    {
+      "id": "fading-cluster-united states-democrats + measles",
+      "title": "Democrats Assail RFK Jr. After U.S. Loses Measles Elimination Status",
+      "brief": "Democrats Assail RFK Jr. After U.S. Loses Measles Elimination Status.",
+      "whyItMatters": "",
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 6,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "8h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 46,
+      "alertTriggers": [
+        "Crosses several sources"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times Politics",
+        "The New York Times"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/17/multimedia/17pol-measles-reax-tzcj/17pol-measles-reax-tzcj-mediumSquareAt3X-v2.jpg",
+        "https://static01.nyt.com/images/2026/11/17/arts/Measles_Vaccines_35784/Measles_Vaccines_35784-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Democrats Assail RFK Jr. After U.S. Loses Measles Elimination Status",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-18T03:33:29.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/us/politics/rfk-jr-measles-democrats.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17pol-measles-reax-tzcj/17pol-measles-reax-tzcj-mediumSquareAt3X-v2.jpg"
+        },
+        {
+          "title": "U.S. Loses Its Measles Elimination Status, a Historic Setback for American Health",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-17T20:52:05.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/well/us-measles-elimination-status.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/17/arts/Measles_Vaccines_35784/Measles_Vaccines_35784-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/democrats-assail-rfk-jr-after-u-s-loses-measles-elimination-status/"
     }
   ]
 }
