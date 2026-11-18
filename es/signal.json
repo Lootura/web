@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-18T04:00:48.126Z",
+  "updatedAt": "2026-11-18T05:00:48.282Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "245.399 enlaces analizados",
-  "dayScanLabel": "4.229 enlaces escaneados en 24h",
+  "ambientPulseLabel": "245.821 enlaces analizados",
+  "dayScanLabel": "4.233 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -25,15 +25,15 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 17,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 86,
+      "alertScore": 76,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -72,6 +72,53 @@
         }
       ],
       "path": "/es/entity/sanchez-se-revuelve-contra-el-ataque-de-ayuso-a-los-andaluces-andalucia-se-va-a/"
+    },
+    {
+      "id": "now-cluster-españa-jensen + huang",
+      "title": "Jensen Huang abre la puerta a volver a Nvidia: «Si la junta decide que es lo mejor, será un honor»",
+      "brief": "Jensen Huang abre la puerta a volver a Nvidia: «Si la junta decide que es lo mejor, será un honor».",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "6h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 60,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/2AC4CQEX7ZFWTCAZ6USQX6P5QE.JPG?auth=b2c3496700911a861266a8403a6099e807330c55ced695e6705b39f79c500b17",
+        "https://s3.ppllstatics.com/rc/www/multimedia/internacional/2026/11/17/jensenhuang-k7K-U40398115028KQ-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El presidente del consejo de Nvidia asegura que la junta no tiene intención de restituir a Jensen Huang como CEO",
+          "source": "El País",
+          "publishedAt": "2026-11-17T22:58:52.000Z",
+          "sourceUrl": "https://elpais.com/us/economia/2026-11-17/jensen-huang-dice-que-esta-dispuesto-a-regresar-como-consejero-delegado-de-nvidia.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/2AC4CQEX7ZFWTCAZ6USQX6P5QE.JPG?auth=b2c3496700911a861266a8403a6099e807330c55ced695e6705b39f79c500b17"
+        },
+        {
+          "title": "Jensen Huang abre la puerta a volver a Nvidia: «Si la junta decide que es lo mejor, será un honor»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-17T16:47:00.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/jensen-huang-abre-puerta-volver-nvidia-junta-20261117174659-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/internacional/2026/11/17/jensenhuang-k7K-U40398115028KQ-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/jensen-huang-abre-la-puerta-a-volver-a-nvidia-si-la-junta-decide-que-es-lo-mejor/"
     }
   ]
 }
