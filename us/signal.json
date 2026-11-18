@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-18T01:00:48.143Z",
+  "updatedAt": "2026-11-18T02:00:48.059Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "280,874 links analyzed",
-  "dayScanLabel": "8,335 links scanned in 24h",
+  "ambientPulseLabel": "281,711 links analyzed",
+  "dayScanLabel": "8,338 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -18,17 +18,17 @@
   },
   "topAlert": {
     "id": "now-cluster-united states-jensen + huang",
-    "title": "Read everything that Nvidia’s board chair had to say about Jensen Huang",
-    "brief": "Read everything that Nvidia’s board chair had to say about Jensen Huang.",
+    "title": "Nvidia chair says board does not intend to reinstate Jensen Huang as CEO",
+    "brief": "Nvidia chair says board does not intend to reinstate Jensen Huang as CEO.",
     "whyItMatters": "",
     "verdict": "If it repeats in the next run, it gains weight.",
     "mode": "now",
     "state": "rising",
     "stateLabel": "Rising",
-    "strength": 36,
-    "sourceCount": 7,
-    "itemCount": 11,
-    "freshness": "fresh now",
+    "strength": 31,
+    "sourceCount": 5,
+    "itemCount": 9,
+    "freshness": "1h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -40,16 +40,16 @@
     "isHotNews": false,
     "sources": [
       "CBS News",
-      "The Verge",
       "PBS NewsHour",
-      "NBC News Politics",
-      "The New York Times"
+      "The New York Times",
+      "Politico",
+      "NPR Politics"
     ],
     "images": [
       "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/18/784a7892-fd71-4f33-854a-ec59d5128199/thumbnail/1200x630/25122244a6e14a49062ad1030b267e93/cbsn-fusion-nvidia-shares-strong-results-in-first-earnings-report-after-huangs-resignation-thumbnail.jpg",
-      "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613",
       "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26312766429671-1024x683.jpg",
-      "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794954451380_now_hallie_aca_ska_huang_nvidia_261117_S3_1920x1080-qy4z0d.jpg"
+      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T191624Z_384802040_RC2ER4AT06N3_RTRMADP_3_NVIDIA-CEO-INSURANCE-LIABILITY-1024x690.jpg",
+      "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/17/ac8cf31f-ccee-4b7d-8263-e31613ed0cf6/thumbnail/1200x630/1e66702babb9fa6a8271717e71c47b11/gettyimages-2304264971.jpg"
     ],
     "evidence": [
       {
@@ -67,13 +67,6 @@
         "image": ""
       },
       {
-        "title": "Read everything that Nvidia’s board chair had to say about Jensen Huang",
-        "source": "The Verge",
-        "publishedAt": "2026-11-17T22:32:50.000Z",
-        "sourceUrl": "https://www.theverge.com/tech/1036160/nvidia-earnings-harvey-c-jones-jensen-huang?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613"
-      },
-      {
         "title": "Nvidia chair says board does not intend to reinstate Jensen Huang as CEO",
         "source": "PBS NewsHour",
         "publishedAt": "2026-11-17T22:31:31.000Z",
@@ -81,29 +74,36 @@
         "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26312766429671-1024x683.jpg"
       },
       {
-        "title": "Nvidia board does not intend to reinstate Jensen Huang, chairman says",
-        "source": "NBC News Politics",
-        "publishedAt": "2026-11-17T22:27:39.000Z",
-        "sourceUrl": "https://www.nbcnews.com/video/nvidia-board-does-not-intend-to-reinstate-jensen-huang-chairman-says-273677381600?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794954451380_now_hallie_aca_ska_huang_nvidia_261117_S3_1920x1080-qy4z0d.jpg"
+        "title": "Ex-CEO Jensen Huang signals interest in returning to Nvidia after resigning amid scandal",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-11-17T21:40:17.000Z",
+        "sourceUrl": "https://www.pbs.org/newshour/economy/ex-ceo-jensen-huang-signals-interest-in-returning-to-nvidia-after-resigning-amid-scandal?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T191624Z_384802040_RC2ER4AT06N3_RTRMADP_3_NVIDIA-CEO-INSURANCE-LIABILITY-1024x690.jpg"
+      },
+      {
+        "title": "Nvidia records strong growth in first earnings report without Jensen Huang",
+        "source": "CBS News",
+        "publishedAt": "2026-11-17T21:37:00.000Z",
+        "sourceUrl": "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/17/ac8cf31f-ccee-4b7d-8263-e31613ed0cf6/thumbnail/1200x630/1e66702babb9fa6a8271717e71c47b11/gettyimages-2304264971.jpg"
       }
     ],
-    "path": "/us/entity/read-everything-that-nvidia-s-board-chair-had-to-say-about-jensen-huang/"
+    "path": "/us/entity/nvidia-chair-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo/"
   },
   "signals": [
     {
       "id": "now-cluster-united states-jensen + huang",
-      "title": "Read everything that Nvidia’s board chair had to say about Jensen Huang",
-      "brief": "Read everything that Nvidia’s board chair had to say about Jensen Huang.",
+      "title": "Nvidia chair says board does not intend to reinstate Jensen Huang as CEO",
+      "brief": "Nvidia chair says board does not intend to reinstate Jensen Huang as CEO.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 36,
-      "sourceCount": 7,
-      "itemCount": 11,
-      "freshness": "fresh now",
+      "strength": 31,
+      "sourceCount": 5,
+      "itemCount": 9,
+      "freshness": "1h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -115,16 +115,16 @@
       "isHotNews": false,
       "sources": [
         "CBS News",
-        "The Verge",
         "PBS NewsHour",
-        "NBC News Politics",
-        "The New York Times"
+        "The New York Times",
+        "Politico",
+        "NPR Politics"
       ],
       "images": [
         "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/18/784a7892-fd71-4f33-854a-ec59d5128199/thumbnail/1200x630/25122244a6e14a49062ad1030b267e93/cbsn-fusion-nvidia-shares-strong-results-in-first-earnings-report-after-huangs-resignation-thumbnail.jpg",
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613",
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26312766429671-1024x683.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794954451380_now_hallie_aca_ska_huang_nvidia_261117_S3_1920x1080-qy4z0d.jpg"
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T191624Z_384802040_RC2ER4AT06N3_RTRMADP_3_NVIDIA-CEO-INSURANCE-LIABILITY-1024x690.jpg",
+        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/17/ac8cf31f-ccee-4b7d-8263-e31613ed0cf6/thumbnail/1200x630/1e66702babb9fa6a8271717e71c47b11/gettyimages-2304264971.jpg"
       ],
       "evidence": [
         {
@@ -142,13 +142,6 @@
           "image": ""
         },
         {
-          "title": "Read everything that Nvidia’s board chair had to say about Jensen Huang",
-          "source": "The Verge",
-          "publishedAt": "2026-11-17T22:32:50.000Z",
-          "sourceUrl": "https://www.theverge.com/tech/1036160/nvidia-earnings-harvey-c-jones-jensen-huang?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613"
-        },
-        {
           "title": "Nvidia chair says board does not intend to reinstate Jensen Huang as CEO",
           "source": "PBS NewsHour",
           "publishedAt": "2026-11-17T22:31:31.000Z",
@@ -156,28 +149,35 @@
           "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26312766429671-1024x683.jpg"
         },
         {
-          "title": "Nvidia board does not intend to reinstate Jensen Huang, chairman says",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-17T22:27:39.000Z",
-          "sourceUrl": "https://www.nbcnews.com/video/nvidia-board-does-not-intend-to-reinstate-jensen-huang-chairman-says-273677381600?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794954451380_now_hallie_aca_ska_huang_nvidia_261117_S3_1920x1080-qy4z0d.jpg"
+          "title": "Ex-CEO Jensen Huang signals interest in returning to Nvidia after resigning amid scandal",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-17T21:40:17.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/economy/ex-ceo-jensen-huang-signals-interest-in-returning-to-nvidia-after-resigning-amid-scandal?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T191624Z_384802040_RC2ER4AT06N3_RTRMADP_3_NVIDIA-CEO-INSURANCE-LIABILITY-1024x690.jpg"
+        },
+        {
+          "title": "Nvidia records strong growth in first earnings report without Jensen Huang",
+          "source": "CBS News",
+          "publishedAt": "2026-11-17T21:37:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/17/ac8cf31f-ccee-4b7d-8263-e31613ed0cf6/thumbnail/1200x630/1e66702babb9fa6a8271717e71c47b11/gettyimages-2304264971.jpg"
         }
       ],
-      "path": "/us/entity/read-everything-that-nvidia-s-board-chair-had-to-say-about-jensen-huang/"
+      "path": "/us/entity/nvidia-chair-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo/"
     },
     {
-      "id": "now-cluster-united states-apple + outages",
+      "id": "moving-cluster-united states-outages + apple",
       "title": "Apple Addresses Outages Affecting Apple Pay, iCloud and Apps",
       "brief": "Apple Addresses Outages Affecting Apple Pay, iCloud and Apps.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 26,
+      "strength": 25,
       "sourceCount": 4,
       "itemCount": 4,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -232,77 +232,6 @@
       "path": "/us/entity/apple-addresses-outages-affecting-apple-pay-icloud-and-apps/"
     },
     {
-      "id": "now-cluster-united states-billion + duffy",
-      "title": "Sean Duffy’s $50 billion demand for air travel fixes is met with yelling and skepticism in Congress",
-      "brief": "Sean Duffy’s $50 billion demand for air travel fixes is met with yelling and skepticism in Congress.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 25,
-      "sourceCount": 3,
-      "itemCount": 5,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 99,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "NBC News Politics",
-        "The New York Times Politics"
-      ],
-      "images": [
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/18/becde81e-7f72-480e-aafe-07e5960fe51d/thumbnail/1200x630/8af8d602c1cf36ff0036f70ae9ca3230/cbsn-fusion-transportation-secretary-sean-duffy-asks-for-50-billion-for-faa-after-ground-stop-thumbnail.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261117-sean-duffy-mn-1235-5667fd.jpg",
-        "https://static01.nyt.com/images/2026/11/17/multimedia/17dc-duffy-hill-pmck/17dc-duffy-hill-pmck-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Duffy asks for $50 billion for FAA after ground stop",
-          "source": "CBS News",
-          "publishedAt": "2026-11-18T00:46:59.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/transportation-secretary-sean-duffy-asks-for-50-billion-for-faa-after-ground-stop/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/18/becde81e-7f72-480e-aafe-07e5960fe51d/thumbnail/1200x630/8af8d602c1cf36ff0036f70ae9ca3230/cbsn-fusion-transportation-secretary-sean-duffy-asks-for-50-billion-for-faa-after-ground-stop-thumbnail.jpg"
-        },
-        {
-          "title": "Republicans Recoil as Duffy Outlines $50 Billion Request for Air Traffic Improvements",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-18T00:03:19.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/us/politics/duffy-hill-ground-stop-faa.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17dc-duffy-hill-pmck/17dc-duffy-hill-pmck-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Duff asks lawmakers for $50 billion in emergency funding for FAA upgrades",
-          "source": "CBS News",
-          "publishedAt": "2026-11-17T23:16:54.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/duff-asks-lawmakers-for-50-billion-in-emergency-funding-for-atc-upgrades/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Sean Duffy’s $50 billion demand for air travel fixes is met with yelling and skepticism in Congress",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-17T22:51:33.136Z",
-          "sourceUrl": "https://www.nbcnews.com/politics/congress/sean-duffys-50-billion-demand-groundstop-fixes-congress-skepitcal-rcna609844?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261117-sean-duffy-mn-1235-5667fd.jpg"
-        },
-        {
-          "title": "Duffy says feds don't have clarity on root cause of Friday's nationwide ground stop",
-          "source": "CBS News",
-          "publishedAt": "2026-11-17T20:33:11.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/duffy-says-feds-dont-know-root-cause-of-fridays-nationwide-ground-stop/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/us/entity/sean-duffy-s-50-billion-demand-for-air-travel-fixes-is-met-with-yelling-and-skep/"
-    },
-    {
       "id": "moving-cluster-united states-measles + elimination",
       "title": "Can the U.S. regain its measles elimination status? Here’s what to know",
       "brief": "Can the U.S. regain its measles elimination status? Here’s what to know.",
@@ -314,7 +243,7 @@
       "strength": 25,
       "sourceCount": 4,
       "itemCount": 4,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -369,49 +298,187 @@
     },
     {
       "id": "now-cluster-united states-heidi + overton",
-      "title": "White House drops Heidi Overton’s FDA nomination after Republican concerns",
-      "brief": "White House drops Heidi Overton’s FDA nomination after Republican concerns.",
+      "title": "White House Withdraws Nomination of Heidi Overton to Be F.D.A. Commissioner",
+      "brief": "White House Withdraws Nomination of Heidi Overton to Be F.D.A. Commissioner.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
+      "strength": 24,
+      "sourceCount": 3,
+      "itemCount": 4,
       "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 76,
+      "alertScore": 96,
       "alertTriggers": [
         "Crosses several sources",
+        "Picks up volume fast",
         "Still active"
       ],
       "isHotNews": false,
       "sources": [
-        "NBC News Politics",
-        "CBS News"
+        "CBS News",
+        "The New York Times Politics",
+        "NBC News Politics"
       ],
       "images": [
+        "https://static01.nyt.com/images/2026/11/17/multimedia/17DC-FDA-OVERTON-hpzm/17DC-FDA-OVERTON-hpzm-mediumSquareAt3X.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/3f16f324-7605-4589-85b2-7dba2f1303dc/thumbnail/1200x630g2/f0ddf93a112ed59df423faaad0c79929/gettyimages-2296270843.jpg",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261117-heidi-overton-sjr-1622-44d9ef.jpg"
       ],
       "evidence": [
+        {
+          "title": "Trump FDA nominee Heidi Overton struggling to win GOP support",
+          "source": "CBS News",
+          "publishedAt": "2026-11-18T01:50:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/trump-fda-nominee-heidi-overton-confirmation-struggle/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "White House Withdraws Nomination of Heidi Overton to Be F.D.A. Commissioner",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-18T01:23:27.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/us/overton-fda-nomination-withdrawn.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17DC-FDA-OVERTON-hpzm/17DC-FDA-OVERTON-hpzm-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "White House drops Heidi Overton's nomination for FDA commissioner",
+          "source": "CBS News",
+          "publishedAt": "2026-11-18T01:07:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/white-house-drops-heidi-overton-fda-commissioner/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/3f16f324-7605-4589-85b2-7dba2f1303dc/thumbnail/1200x630g2/f0ddf93a112ed59df423faaad0c79929/gettyimages-2296270843.jpg"
+        },
         {
           "title": "White House drops Heidi Overton’s FDA nomination after Republican concerns",
           "source": "NBC News Politics",
           "publishedAt": "2026-11-18T00:44:27.722Z",
           "sourceUrl": "https://www.nbcnews.com/health/health-care/white-house-drops-dr-heidi-overton-fda-nomination-commissioner-rcna609883?utm_source=lootura.com&ref=lootura.com",
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261117-heidi-overton-sjr-1622-44d9ef.jpg"
-        },
-        {
-          "title": "Trump FDA nominee Heidi Overton struggling to win GOP support",
-          "source": "CBS News",
-          "publishedAt": "2026-11-17T23:28:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/trump-fda-nominee-heidi-overton-confirmation-struggle/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
         }
       ],
-      "path": "/us/entity/white-house-drops-heidi-overton-s-fda-nomination-after-republican-concerns/"
+      "path": "/us/entity/white-house-withdraws-nomination-of-heidi-overton-to-be-f-d-a-commissioner/"
+    },
+    {
+      "id": "now-cluster-united states-billion + duffy",
+      "title": "Sean Duffy’s $50 billion demand for air travel fixes is met with yelling and skepticism in Congress",
+      "brief": "Sean Duffy’s $50 billion demand for air travel fixes is met with yelling and skepticism in Congress.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "1h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 96,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NBC News Politics",
+        "The New York Times Politics"
+      ],
+      "images": [
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/18/becde81e-7f72-480e-aafe-07e5960fe51d/thumbnail/1200x630/8af8d602c1cf36ff0036f70ae9ca3230/cbsn-fusion-transportation-secretary-sean-duffy-asks-for-50-billion-for-faa-after-ground-stop-thumbnail.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261117-sean-duffy-mn-1235-5667fd.jpg",
+        "https://static01.nyt.com/images/2026/11/17/multimedia/17dc-duffy-hill-pmck/17dc-duffy-hill-pmck-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Duffy asks for $50 billion for FAA after ground stop",
+          "source": "CBS News",
+          "publishedAt": "2026-11-18T00:46:59.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/transportation-secretary-sean-duffy-asks-for-50-billion-for-faa-after-ground-stop/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/18/becde81e-7f72-480e-aafe-07e5960fe51d/thumbnail/1200x630/8af8d602c1cf36ff0036f70ae9ca3230/cbsn-fusion-transportation-secretary-sean-duffy-asks-for-50-billion-for-faa-after-ground-stop-thumbnail.jpg"
+        },
+        {
+          "title": "Republicans Recoil as Duffy Outlines $50 Billion Request for Air Traffic Improvements",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-18T00:03:19.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/us/politics/duffy-hill-ground-stop-faa.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17dc-duffy-hill-pmck/17dc-duffy-hill-pmck-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Duff asks lawmakers for $50 billion in emergency funding for FAA upgrades",
+          "source": "CBS News",
+          "publishedAt": "2026-11-17T23:16:54.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/duff-asks-lawmakers-for-50-billion-in-emergency-funding-for-atc-upgrades/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Sean Duffy’s $50 billion demand for air travel fixes is met with yelling and skepticism in Congress",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-17T22:51:33.136Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/congress/sean-duffys-50-billion-demand-groundstop-fixes-congress-skepitcal-rcna609844?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261117-sean-duffy-mn-1235-5667fd.jpg"
+        }
+      ],
+      "path": "/us/entity/sean-duffy-s-50-billion-demand-for-air-travel-fixes-is-met-with-yelling-and-skep/"
+    },
+    {
+      "id": "now-cluster-united states-trump + trip",
+      "title": "Trump arrives in Philippines to kick off Asia trip with economic deals and talks with allies",
+      "brief": "Trump arrives in Philippines to kick off Asia trip with economic deals and talks with allies.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 17,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/18/opinion/17campbell-image/17campbell-image-mediumSquareAt3X.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T132633Z_1981276014_RC2OPOAIXLOH_RTRMADP_3_ASEAN-SUMMIT-1024x683.jpg",
+        "https://static01.nyt.com/images/2026/11/17/multimedia/17trump-summits-data-centers-kjtv/17trump-summits-data-centers-kjtv-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Trump’s Ego Trip With Xi and Putin Will End Badly",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-18T01:53:29.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/opinion/trump-xi-putin-summit.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/18/opinion/17campbell-image/17campbell-image-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Trump arrives in Philippines to kick off Asia trip with economic deals and talks with allies",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-17T21:23:57.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/world/trump-arrives-in-philippines-to-kick-off-asia-trip-with-economic-deals-and-talks-with-allies?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T132633Z_1981276014_RC2OPOAIXLOH_RTRMADP_3_ASEAN-SUMMIT-1024x683.jpg"
+        },
+        {
+          "title": "Trump’s New A.I. Chip Rules Rattle Southeast Asia",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-17T21:04:16.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/business/southeast-asia-china-ai-chips.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17trump-summits-data-centers-kjtv/17trump-summits-data-centers-kjtv-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/trump-arrives-in-philippines-to-kick-off-asia-trip-with-economic-deals-and-talks/"
     },
     {
       "id": "moving-cluster-united states-trump + administration",
@@ -422,13 +489,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
@@ -459,100 +526,6 @@
         }
       ],
       "path": "/us/entity/trump-administration-says-it-will-not-use-ships-to-deport-migrants/"
-    },
-    {
-      "id": "moving-cluster-united states-trump + asia",
-      "title": "Trump arrives in Philippines to kick off Asia trip with economic deals and talks with allies",
-      "brief": "Trump arrives in Philippines to kick off Asia trip with economic deals and talks with allies.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "PBS NewsHour",
-        "The New York Times"
-      ],
-      "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T132633Z_1981276014_RC2OPOAIXLOH_RTRMADP_3_ASEAN-SUMMIT-1024x683.jpg",
-        "https://static01.nyt.com/images/2026/11/17/multimedia/17trump-summits-data-centers-kjtv/17trump-summits-data-centers-kjtv-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Trump arrives in Philippines to kick off Asia trip with economic deals and talks with allies",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-17T21:23:57.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/world/trump-arrives-in-philippines-to-kick-off-asia-trip-with-economic-deals-and-talks-with-allies?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T132633Z_1981276014_RC2OPOAIXLOH_RTRMADP_3_ASEAN-SUMMIT-1024x683.jpg"
-        },
-        {
-          "title": "Trump’s New A.I. Chip Rules Rattle Southeast Asia",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-17T21:04:16.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/business/southeast-asia-china-ai-chips.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17trump-summits-data-centers-kjtv/17trump-summits-data-centers-kjtv-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/trump-arrives-in-philippines-to-kick-off-asia-trip-with-economic-deals-and-talks/"
-    },
-    {
-      "id": "moving-cluster-united states-long + wait",
-      "title": "The long wait is almost over. Here's what to know about the upcoming release of 'Grand Theft Auto VI'",
-      "brief": "The long wait is almost over. Here's what to know about the upcoming release of 'Grand Theft Auto VI'.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "PBS NewsHour",
-        "The New York Times"
-      ],
-      "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T175037Z_232006942_RC2TPOAEKJD3_RTRMADP_3_GAMING-GTA-VI-USA-1024x683.jpg",
-        "https://static01.nyt.com/images/2026/11/17/multimedia/17cul-gta-blockbuster-jwvp/17cul-gta-blockbuster-jwvp-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "The long wait is almost over. Here's what to know about the upcoming release of 'Grand Theft Auto VI'",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-17T21:22:58.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/arts/the-long-wait-is-almost-over-heres-what-to-know-about-the-upcoming-release-of-grand-theft-auto-vi?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T175037Z_232006942_RC2TPOAEKJD3_RTRMADP_3_GAMING-GTA-VI-USA-1024x683.jpg"
-        },
-        {
-          "title": "Grand Theft Auto VI Revs Up for a Worldwide Takeover",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-17T10:02:03.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/arts/grand-theft-auto-vi-hype-success.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17cul-gta-blockbuster-jwvp/17cul-gta-blockbuster-jwvp-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/the-long-wait-is-almost-over-here-s-what-to-know-about-the-upcoming-release-of-g/"
     }
   ]
 }
