@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-18T05:00:48.282Z",
+  "updatedAt": "2026-11-18T06:00:48.219Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "245.821 enlaces analizados",
-  "dayScanLabel": "4.233 enlaces escaneados en 24h",
+  "ambientPulseLabel": "246.248 enlaces analizados",
+  "dayScanLabel": "4.235 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,7 +19,7 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-sanchez + antes",
+      "id": "now-cluster-españa-antes + sanchez",
       "title": "Sánchez se revuelve contra el ataque de Ayuso a los andaluces: “Andalucía se va a levantar, a movilizar y a darnos la victoria el 29-N”",
       "brief": "Sánchez se revuelve contra el ataque de Ayuso a los andaluces: “Andalucía se va a levantar, a movilizar y a darnos la victoria el 29-N”.",
       "whyItMatters": "",
@@ -27,10 +27,10 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -74,6 +74,52 @@
       "path": "/es/entity/sanchez-se-revuelve-contra-el-ataque-de-ayuso-a-los-andaluces-andalucia-se-va-a/"
     },
     {
+      "id": "now-cluster-españa-menos + pero",
+      "title": "Menos antibióticos, pero más superbacterias: la paradoja mortal que golpea especialmente a España",
+      "brief": "Menos antibióticos, pero más superbacterias: la paradoja mortal que golpea especialmente a España.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/AQVPB4UOFFHDFKNFKTSCS47TAA.jpg?auth=c71691e27f784c2c2614828425a3d5fad46a01fd796f626074aa9eaec0156d6a"
+      ],
+      "evidence": [
+        {
+          "title": "Menos antibióticos, pero más superbacterias: la paradoja mortal que golpea especialmente a España",
+          "source": "El País",
+          "publishedAt": "2026-11-18T05:00:00.000Z",
+          "sourceUrl": "https://elpais.com/salud-y-bienestar/2026-11-18/menos-antibioticos-pero-mas-superbacterias-la-paradoja-mortal-que-golpea-especialmente-a-espana.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/AQVPB4UOFFHDFKNFKTSCS47TAA.jpg?auth=c71691e27f784c2c2614828425a3d5fad46a01fd796f626074aa9eaec0156d6a"
+        },
+        {
+          "title": "Menos alubias pero la misma fiesta",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-17T15:40:20.000Z",
+          "sourceUrl": "https://www.diariovasco.com/tolosa-goierri/tolosa/alubias-fiesta-tolosa-20261117162522-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/menos-antibioticos-pero-mas-superbacterias-la-paradoja-mortal-que-golpea-especia/"
+    },
+    {
       "id": "now-cluster-españa-jensen + huang",
       "title": "Jensen Huang abre la puerta a volver a Nvidia: «Si la junta decide que es lo mejor, será un honor»",
       "brief": "Jensen Huang abre la puerta a volver a Nvidia: «Si la junta decide que es lo mejor, será un honor».",
@@ -85,10 +131,10 @@
       "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 60,
+      "alertScore": 54,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"

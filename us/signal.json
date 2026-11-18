@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-18T05:00:48.282Z",
+  "updatedAt": "2026-11-18T06:00:48.219Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "284,215 links analyzed",
-  "dayScanLabel": "8,347 links scanned in 24h",
+  "ambientPulseLabel": "285,047 links analyzed",
+  "dayScanLabel": "8,345 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -17,18 +17,18 @@
     ]
   },
   "topAlert": {
-    "id": "now-cluster-united states-jensen + huang",
+    "id": "moving-cluster-united states-jensen + huang",
     "title": "Nvidia chair says board does not intend to reinstate Jensen Huang as CEO",
     "brief": "Nvidia chair says board does not intend to reinstate Jensen Huang as CEO.",
     "whyItMatters": "",
     "verdict": "If it repeats in the next run, it gains weight.",
-    "mode": "now",
+    "mode": "moving",
     "state": "rising",
     "stateLabel": "Rising",
     "strength": 34,
     "sourceCount": 6,
-    "itemCount": 11,
-    "freshness": "1h fresh",
+    "itemCount": 12,
+    "freshness": "2h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -93,18 +93,18 @@
   },
   "signals": [
     {
-      "id": "now-cluster-united states-jensen + huang",
+      "id": "moving-cluster-united states-jensen + huang",
       "title": "Nvidia chair says board does not intend to reinstate Jensen Huang as CEO",
       "brief": "Nvidia chair says board does not intend to reinstate Jensen Huang as CEO.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 34,
       "sourceCount": 6,
-      "itemCount": 11,
-      "freshness": "1h fresh",
+      "itemCount": 12,
+      "freshness": "2h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -207,7 +207,7 @@
         {
           "title": "Democrats Claim 56 Senate Seats After Mary Peltola Wins in Alaska",
           "source": "The New York Times Politics",
-          "publishedAt": "2026-11-18T04:18:13.000Z",
+          "publishedAt": "2026-11-18T05:53:57.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/17/us/politics/alaska-senate-sullivan-peltola.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static01.nyt.com/images/2026/11/03/multimedia/03hfo-pol-ak-senate-01-gcpq/03hfo-pol-ak-senate-01-gcpq-mediumSquareAt3X.jpg"
         },
@@ -243,18 +243,91 @@
       "path": "/us/entity/democrat-mary-peltola-flips-alaska-senate-seat-defeating-gop-sen-dan-sullivan/"
     },
     {
-      "id": "now-cluster-united states-measles + elimination",
-      "title": "Can the U.S. regain its measles elimination status? Here’s what to know",
-      "brief": "Can the U.S. regain its measles elimination status? Here’s what to know.",
+      "id": "now-cluster-united states-outages + tech",
+      "title": "Rubio says tech outages are not connected or ‘cyber criminal’ linked",
+      "brief": "Rubio says tech outages are not connected or ‘cyber criminal’ linked.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
+      "strength": 26,
+      "sourceCount": 4,
+      "itemCount": 5,
+      "freshness": "2h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NBC News Politics",
+        "CBS News",
+        "NBC News",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/thumb_rubio-9fs1f4.jpg",
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/18/dd4ffecc-82ca-4351-9b61-50732f9a9014/thumbnail/1200x630g2/c47eb385e012e589f1440ea2889be50c/gettyimages-2305621072.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/nn_cln_tco_outages_261117-9n7r21.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/07/2026-07-10T211010Z_2026948577_RC2P3EAEIF7R_RTRMADP_3_APPLE-OPENAI-LAWSUIT-1024x682.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Rubio says tech outages are not connected or ‘cyber criminal’ linked",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-18T04:22:21.000Z",
+          "sourceUrl": "https://www.nbcnews.com/video/rubio-says-tech-outages-are-not-connected-or-cyber-criminal-linked-273700933587?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/thumb_rubio-9fs1f4.jpg"
+        },
+        {
+          "title": "Rubio says there's \"zero evidence\" recent tech outages are related",
+          "source": "CBS News",
+          "publishedAt": "2026-11-18T02:43:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/marco-rubio-tech-outages-not-connected/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/18/dd4ffecc-82ca-4351-9b61-50732f9a9014/thumbnail/1200x630g2/c47eb385e012e589f1440ea2889be50c/gettyimages-2305621072.jpg"
+        },
+        {
+          "title": "Here's what might be causing the string of tech-related outages",
+          "source": "CBS News",
+          "publishedAt": "2026-11-18T01:17:59.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/heres-what-might-be-causing-the-string-of-tech-related-outages/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Apple hit by widespread outages as tech problems continue",
+          "source": "NBC News",
+          "publishedAt": "2026-11-18T00:18:02.000Z",
+          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/apple-hit-by-widespread-outages-as-tech-problems-continue-273687109562?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/nn_cln_tco_outages_261117-9n7r21.jpg"
+        },
+        {
+          "title": "Apple joins the list of recent tech breakdowns after an update goes awry",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-17T22:26:17.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/nation/apple-joins-the-list-of-recent-tech-breakdowns-after-an-update-goes-awry?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/07/2026-07-10T211010Z_2026948577_RC2P3EAEIF7R_RTRMADP_3_APPLE-OPENAI-LAWSUIT-1024x682.jpg"
+        }
+      ],
+      "path": "/us/entity/rubio-says-tech-outages-are-not-connected-or-cyber-criminal-linked/"
+    },
+    {
+      "id": "moving-cluster-united states-measles + elimination",
+      "title": "Can the U.S. regain its measles elimination status? Here’s what to know",
+      "brief": "Can the U.S. regain its measles elimination status? Here’s what to know.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
       "strength": 25,
       "sourceCount": 4,
       "itemCount": 4,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -308,9 +381,9 @@
       "path": "/us/entity/can-the-u-s-regain-its-measles-elimination-status-here-s-what-to-know/"
     },
     {
-      "id": "now-cluster-united states-heidi + overton",
-      "title": "Trump FDA nominee Heidi Overton struggling to win enough GOP support to be confirmed",
-      "brief": "Trump FDA nominee Heidi Overton struggling to win enough GOP support to be confirmed.",
+      "id": "now-cluster-united states-trump + between",
+      "title": "Trump says trade deal reached between the U.S. and the Philippines",
+      "brief": "Trump says trade deal reached between the U.S. and the Philippines.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -318,11 +391,124 @@
       "stateLabel": "Rising",
       "strength": 23,
       "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "2h fresh",
+      "itemCount": 3,
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 96,
+      "alertScore": 92,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NBC News Politics",
+        "PBS NewsHour",
+        "The New York Times"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794979928380_f_mo_la_trump_trade_deal_261117_S3_1920x1080-ggpg1n.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T132633Z_1981276014_RC2OPOAIXLOH_RTRMADP_3_ASEAN-SUMMIT-1024x683.jpg",
+        "https://static01.nyt.com/images/2026/11/17/multimedia/17trump-summits-data-centers-kjtv/17trump-summits-data-centers-kjtv-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Trump says trade deal reached between the U.S. and the Philippines",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-18T05:32:13.000Z",
+          "sourceUrl": "https://www.nbcnews.com/video/trump-says-trade-deal-reached-between-the-u-s-and-the-philippines-273701957750?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1794979928380_f_mo_la_trump_trade_deal_261117_S3_1920x1080-ggpg1n.jpg"
+        },
+        {
+          "title": "Trump arrives in Philippines to kick off Asia trip with economic deals and talks with allies",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-17T21:23:57.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/world/trump-arrives-in-philippines-to-kick-off-asia-trip-with-economic-deals-and-talks-with-allies?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T132633Z_1981276014_RC2OPOAIXLOH_RTRMADP_3_ASEAN-SUMMIT-1024x683.jpg"
+        },
+        {
+          "title": "Trump’s New A.I. Chip Rules Rattle Southeast Asia",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-17T21:04:16.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/business/southeast-asia-china-ai-chips.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17trump-summits-data-centers-kjtv/17trump-summits-data-centers-kjtv-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/trump-says-trade-deal-reached-between-the-u-s-and-the-philippines/"
+    },
+    {
+      "id": "now-cluster-united states-trump + administration",
+      "title": "Trump Administration Presses Ahead in Legal Battle Over U.S. Attorneys",
+      "brief": "Trump Administration Presses Ahead in Legal Battle Over U.S. Attorneys.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times",
+        "The New York Times Politics"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/18/multimedia/18nat-prosecutor-fqlp/18nat-prosecutor-fqlp-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/17/multimedia/17dc-deport-tcjb/17dc-deport-tcjb-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/15/multimedia/16dc-megaspeed-1/15xp-megaspeed1-zcvq-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Trump Administration Presses Ahead in Legal Battle Over U.S. Attorneys",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-18T05:19:50.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/18/us/trump-administration-presses-ahead-in-legal-battle-over-us-attorneys.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/18nat-prosecutor-fqlp/18nat-prosecutor-fqlp-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Trump Administration Says It Will Not Use Ships to Deport Migrants",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-17T22:40:32.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/us/politics/boat-deport-golden-bear.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17dc-deport-tcjb/17dc-deport-tcjb-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Facing Criticism, Trump Administration Says It’s Investigating Megaspeed",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-17T15:34:24.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/17/business/economy/megaspeed-investigation-trump-doj.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/15/multimedia/16dc-megaspeed-1/15xp-megaspeed1-zcvq-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/trump-administration-presses-ahead-in-legal-battle-over-u-s-attorneys/"
+    },
+    {
+      "id": "moving-cluster-united states-heidi + overton",
+      "title": "Trump FDA nominee Heidi Overton struggling to win enough GOP support to be confirmed",
+      "brief": "Trump FDA nominee Heidi Overton struggling to win enough GOP support to be confirmed.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "3h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 73,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -331,13 +517,11 @@
       "isHotNews": false,
       "sources": [
         "The New York Times Politics",
-        "CBS News",
-        "NBC News Politics"
+        "CBS News"
       ],
       "images": [
         "https://static01.nyt.com/images/2026/11/17/multimedia/17DC-FDA-OVERTON-hpzm/17DC-FDA-OVERTON-hpzm-mediumSquareAt3X.jpg",
         "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/3f16f324-7605-4589-85b2-7dba2f1303dc/thumbnail/1200x630g2/f0ddf93a112ed59df423faaad0c79929/gettyimages-2296270843.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261117-heidi-overton-sjr-1622-44d9ef.jpg",
         "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/17/9a847c4d-95ae-4a17-bba4-6cffdf51d591/thumbnail/1200x630g2/2b050daa29a6b3854e53f57b6a99d0ad/gettyimages-2297036795.jpg"
       ],
       "evidence": [
@@ -356,13 +540,6 @@
           "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/3f16f324-7605-4589-85b2-7dba2f1303dc/thumbnail/1200x630g2/f0ddf93a112ed59df423faaad0c79929/gettyimages-2296270843.jpg"
         },
         {
-          "title": "White House drops Heidi Overton’s FDA nomination after Republican concerns",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-18T00:44:27.722Z",
-          "sourceUrl": "https://www.nbcnews.com/health/health-care/white-house-drops-dr-heidi-overton-fda-nomination-commissioner-rcna609883?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261117-heidi-overton-sjr-1622-44d9ef.jpg"
-        },
-        {
           "title": "Trump FDA nominee Heidi Overton struggling to win enough GOP support to be confirmed",
           "source": "CBS News",
           "publishedAt": "2026-11-17T23:28:00.000Z",
@@ -371,173 +548,6 @@
         }
       ],
       "path": "/us/entity/trump-fda-nominee-heidi-overton-struggling-to-win-enough-gop-support-to-be-confi/"
-    },
-    {
-      "id": "moving-cluster-united states-outages + tech",
-      "title": "Rubio says there's \"zero evidence\" recent tech outages are related",
-      "brief": "Rubio says there's \"zero evidence\" recent tech outages are related.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "2h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 96,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "NBC News",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/18/dd4ffecc-82ca-4351-9b61-50732f9a9014/thumbnail/1200x630g2/c47eb385e012e589f1440ea2889be50c/gettyimages-2305621072.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/nn_cln_tco_outages_261117-9n7r21.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/07/2026-07-10T211010Z_2026948577_RC2P3EAEIF7R_RTRMADP_3_APPLE-OPENAI-LAWSUIT-1024x682.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Rubio says there's \"zero evidence\" recent tech outages are related",
-          "source": "CBS News",
-          "publishedAt": "2026-11-18T02:43:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/marco-rubio-tech-outages-not-connected/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/18/dd4ffecc-82ca-4351-9b61-50732f9a9014/thumbnail/1200x630g2/c47eb385e012e589f1440ea2889be50c/gettyimages-2305621072.jpg"
-        },
-        {
-          "title": "Here's what might be causing the string of tech-related outages",
-          "source": "CBS News",
-          "publishedAt": "2026-11-18T01:17:59.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/heres-what-might-be-causing-the-string-of-tech-related-outages/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Apple hit by widespread outages as tech problems continue",
-          "source": "NBC News",
-          "publishedAt": "2026-11-18T00:18:02.000Z",
-          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/apple-hit-by-widespread-outages-as-tech-problems-continue-273687109562?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/nn_cln_tco_outages_261117-9n7r21.jpg"
-        },
-        {
-          "title": "Apple joins the list of recent tech breakdowns after an update goes awry",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-17T22:26:17.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/nation/apple-joins-the-list-of-recent-tech-breakdowns-after-an-update-goes-awry?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/07/2026-07-10T211010Z_2026948577_RC2P3EAEIF7R_RTRMADP_3_APPLE-OPENAI-LAWSUIT-1024x682.jpg"
-        }
-      ],
-      "path": "/us/entity/rubio-says-there-s-zero-evidence-recent-tech-outages-are-related/"
-    },
-    {
-      "id": "moving-cluster-united states-trump + trip",
-      "title": "Trump arrives in Philippines to kick off Asia trip with economic deals and talks with allies",
-      "brief": "Trump arrives in Philippines to kick off Asia trip with economic deals and talks with allies.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 10,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "3h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 73,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/18/opinion/17campbell-image/17campbell-image-mediumSquareAt3X.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T132633Z_1981276014_RC2OPOAIXLOH_RTRMADP_3_ASEAN-SUMMIT-1024x683.jpg",
-        "https://static01.nyt.com/images/2026/11/17/multimedia/17trump-summits-data-centers-kjtv/17trump-summits-data-centers-kjtv-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Trump’s Ego Trip With Xi and Putin Will End Badly",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-18T01:53:29.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/opinion/trump-xi-putin-summit.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/18/opinion/17campbell-image/17campbell-image-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Trump arrives in Philippines to kick off Asia trip with economic deals and talks with allies",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-17T21:23:57.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/world/trump-arrives-in-philippines-to-kick-off-asia-trip-with-economic-deals-and-talks-with-allies?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T132633Z_1981276014_RC2OPOAIXLOH_RTRMADP_3_ASEAN-SUMMIT-1024x683.jpg"
-        },
-        {
-          "title": "Trump’s New A.I. Chip Rules Rattle Southeast Asia",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-17T21:04:16.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/business/southeast-asia-china-ai-chips.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17trump-summits-data-centers-kjtv/17trump-summits-data-centers-kjtv-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/trump-arrives-in-philippines-to-kick-off-asia-trip-with-economic-deals-and-talks/"
-    },
-    {
-      "id": "moving-cluster-united states-trump + administration",
-      "title": "Trump Administration Says It Will Not Use Ships to Deport Migrants",
-      "brief": "Trump Administration Says It Will Not Use Ships to Deport Migrants.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "6h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times Politics",
-        "The New York Times"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/17/multimedia/17dc-deport-tcjb/17dc-deport-tcjb-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/11/15/multimedia/16dc-megaspeed-1/15xp-megaspeed1-zcvq-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Trump Administration Says It Will Not Use Ships to Deport Migrants",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-17T22:40:32.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/us/politics/boat-deport-golden-bear.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17dc-deport-tcjb/17dc-deport-tcjb-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Facing Criticism, Trump Administration Says It’s Investigating Megaspeed",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-17T15:34:24.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/17/business/economy/megaspeed-investigation-trump-doj.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/15/multimedia/16dc-megaspeed-1/15xp-megaspeed1-zcvq-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/trump-administration-says-it-will-not-use-ships-to-deport-migrants/"
     }
   ]
 }
