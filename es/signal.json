@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-18T17:00:48.644Z",
+  "updatedAt": "2026-11-18T18:00:48.192Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "250.883 enlaces analizados",
-  "dayScanLabel": "4.214 enlaces escaneados en 24h",
+  "ambientPulseLabel": "251.309 enlaces analizados",
+  "dayScanLabel": "4.221 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,9 +19,9 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-frente + amplio",
-      "title": "El Frente Amplio alerta del coste de la opa del PSOE a Ada Colau: 7 escaños que se irán a PP y Vox",
-      "brief": "El Frente Amplio alerta del coste de la opa del PSOE a Ada Colau: 7 escaños que se irán a PP y Vox.",
+      "id": "now-cluster-españa-trump + putin",
+      "title": "Xi Jinping y Putin exhiben su alianza y critican las sanciones de EE.UU. antes de reunirse con Trump",
+      "brief": "Xi Jinping y Putin exhiben su alianza y critican las sanciones de EE.UU. antes de reunirse con Trump.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -42,13 +42,75 @@
       "isHotNews": false,
       "sources": [
         "El Correo",
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/Y42LSY7275MSLF3AQJVBMF4GJM.jpg?auth=2e3760e583cf47596fa1c0f319d98e95b4d787efeda61851a4cc8a7c9795369a",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950038715947.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Xi Jinping y Putin exhiben su alianza y critican las sanciones de EE.UU. antes de reunirse con Trump",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T17:11:01.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/asia/jinping-putin-exhiben-alianza-critican-sanciones-eeuu-20261118181101-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Xi y Putin reafirman su alianza estratégica antes de su reunión a tres bandas con Trump",
+          "source": "El País",
+          "publishedAt": "2026-11-18T16:24:14.000Z",
+          "sourceUrl": "https://elpais.com/internacional/2026-11-18/xi-jinping-y-putin-reivindican-su-firme-relacion-poco-antes-de-la-llegada-de-trump-a-la-cumbre-de-la-apec-en-china.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Putin exhibe su maletín nuclear y sus bombarderos antes de su encuentro con Xi Jinping y Trump",
+          "source": "El País",
+          "publishedAt": "2026-11-18T15:22:22.000Z",
+          "sourceUrl": "https://elpais.com/internacional/2026-11-18/putin-exhibe-su-maletin-nuclear-y-sus-bombarderos-antes-de-su-encuentro-con-xi-jinping-y-trump.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/Y42LSY7275MSLF3AQJVBMF4GJM.jpg?auth=2e3760e583cf47596fa1c0f319d98e95b4d787efeda61851a4cc8a7c9795369a"
+        },
+        {
+          "title": "Xi Jinping, más fuerte que Trump y Putin en la gran mesa del poder mundial",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-18T15:02:20.000Z",
+          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/18/6afced65fdddffe2408b4586.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950038715947.jpg"
+        }
+      ],
+      "path": "/es/entity/xi-jinping-y-putin-exhiben-su-alianza-y-critican-las-sanciones-de-ee-uu-antes-de/"
+    },
+    {
+      "id": "now-cluster-españa-frente + amplio",
+      "title": "El Frente Amplio alerta del coste de la opa del PSOE a Ada Colau: 7 escaños que se irán a PP y Vox",
+      "brief": "El Frente Amplio alerta del coste de la opa del PSOE a Ada Colau: 7 escaños que se irán a PP y Vox.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
         "El Mundo",
         "El País"
       ],
       "images": [
         "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950109226418.jpg",
-        "https://imagenes.elpais.com/resizer/v2/23FC63OB4ZKDLMVESWZ3YPTF2Q.jpg?auth=f01a57bd66e96c15e98e59475379f7f472277dbb034bd704502dadf70c9fed3a",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950025652133.jpg"
+        "https://imagenes.elpais.com/resizer/v2/23FC63OB4ZKDLMVESWZ3YPTF2Q.jpg?auth=f01a57bd66e96c15e98e59475379f7f472277dbb034bd704502dadf70c9fed3a"
       ],
       "evidence": [
         {
@@ -71,13 +133,6 @@
           "publishedAt": "2026-11-18T13:54:59.000Z",
           "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-18/frente-amplio-centra-en-siete-provincias-la-pelea-por-el-escano-con-el-pp-y-vox.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://imagenes.elpais.com/resizer/v2/23FC63OB4ZKDLMVESWZ3YPTF2Q.jpg?auth=f01a57bd66e96c15e98e59475379f7f472277dbb034bd704502dadf70c9fed3a"
-        },
-        {
-          "title": "El empuje de Adelante puede barrer al Frente Amplio en Andalucía y el PP lo identifica con Bildu: \"Es la izquierda abertzale andaluza\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-18T12:41:16.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/18/6afd906d21efa0d4278b4578.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950025652133.jpg"
         }
       ],
       "path": "/es/entity/el-frente-amplio-alerta-del-coste-de-la-opa-del-psoe-a-ada-colau-7-escanos-que-s/"
@@ -91,10 +146,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
+      "strength": 22,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 92,
@@ -140,298 +195,25 @@
       "path": "/es/entity/alcaraz-mas-y-mejor-contra-medvedev-con-susto-incluido-en-la-pierna/"
     },
     {
-      "id": "now-cluster-españa-trump + putin",
-      "title": "Putin exhibe su maletín nuclear y sus bombarderos antes de su encuentro con Xi Jinping y Trump",
-      "brief": "Putin exhibe su maletín nuclear y sus bombarderos antes de su encuentro con Xi Jinping y Trump.",
+      "id": "moving-cluster-españa-contra + echeverria",
+      "title": "El rifirrafe de Sánchez y Griso por la agresión a Jon Echeverría: «Lo condenamos, pero si a usted le parece normal que me griten 'hijo de puta'...»",
+      "brief": "El rifirrafe de Sánchez y Griso por la agresión a Jon Echeverría: «Lo condenamos, pero si a usted le parece normal que me griten 'hijo de puta'...».",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 10,
       "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "fresca ahora",
+      "itemCount": 4,
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 77,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
         "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/Y42LSY7275MSLF3AQJVBMF4GJM.jpg?auth=2e3760e583cf47596fa1c0f319d98e95b4d787efeda61851a4cc8a7c9795369a",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950038715947.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Xi y Putin reafirman su alianza estratégica antes de su reunión a tres bandas con Trump",
-          "source": "El País",
-          "publishedAt": "2026-11-18T16:24:14.000Z",
-          "sourceUrl": "https://elpais.com/internacional/2026-11-18/xi-jinping-y-putin-reivindican-su-firme-relacion-poco-antes-de-la-llegada-de-trump-a-la-cumbre-de-la-apec-en-china.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Putin exhibe su maletín nuclear y sus bombarderos antes de su encuentro con Xi Jinping y Trump",
-          "source": "El País",
-          "publishedAt": "2026-11-18T15:22:22.000Z",
-          "sourceUrl": "https://elpais.com/internacional/2026-11-18/putin-exhibe-su-maletin-nuclear-y-sus-bombarderos-antes-de-su-encuentro-con-xi-jinping-y-trump.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/Y42LSY7275MSLF3AQJVBMF4GJM.jpg?auth=2e3760e583cf47596fa1c0f319d98e95b4d787efeda61851a4cc8a7c9795369a"
-        },
-        {
-          "title": "Xi Jinping, más fuerte que Trump y Putin en la gran mesa del poder mundial",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-18T15:02:20.000Z",
-          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/18/6afced65fdddffe2408b4586.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950038715947.jpg"
-        }
-      ],
-      "path": "/es/entity/putin-exhibe-su-maletin-nuclear-y-sus-bombarderos-antes-de-su-encuentro-con-xi-j/"
-    },
-    {
-      "id": "now-cluster-españa-gobierno + fiscalia",
-      "title": "La Fiscalía recurre el tercer grado concedido por el Gobierno Vasco al preso de ETA Asier Eceiza",
-      "brief": "La Fiscalía recurre el tercer grado concedido por el Gobierno Vasco al preso de ETA Asier Eceiza.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "1h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "La Fiscalía tumba otro tercer grado del Gobierno vasco a un preso de ETA",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T15:49:15.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/fiscalia-tumba-tercer-grado-gobierno-vasco-preso-20261118164859-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "La Fiscalía recurre el tercer grado concedido por el Gobierno Vasco al preso de ETA Asier Eceiza",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-18T15:08:54.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/fiscalia-recurre-tercer-grado-eta-asier-eceiza-20261118160601-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/la-fiscalia-recurre-el-tercer-grado-concedido-por-el-gobierno-vasco-al-preso-de/"
-    },
-    {
-      "id": "now-cluster-españa-contra + albiol",
-      "title": "\"Hola delincuentes\": Albiol coloca vallas contra las okupaciones y los multirreincidentes en el área metropolitana de Barcelona",
-      "brief": "\"Hola delincuentes\": Albiol coloca vallas contra las okupaciones y los multirreincidentes en el área metropolitana de Barcelona.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "1h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/PSEIEHRXVZAPLOGTXSQLGPEHEY.jpg?auth=12f1e99e8484a5822e96104c03a77ae80e51a60d7ffbf291e0f1f9bb838c7dfd",
-        "https://e01-phantom-elmundo.uecdn.es/29ad97cc1fd3971e931c1816eff0fa71/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/18/17950171227702.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Albiol difunde una valla publicitaria dirigida a “delincuentes” en español y árabe: “Se acabó entrar y salir”",
-          "source": "El País",
-          "publishedAt": "2026-11-18T15:36:05.000Z",
-          "sourceUrl": "https://elpais.com/espana/catalunya/2026-11-18/albiol-difunde-una-valla-publicitaria-dirigida-a-delincuentes-en-espanol-y-arabe-se-acabo-entrar-y-salir.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/PSEIEHRXVZAPLOGTXSQLGPEHEY.jpg?auth=12f1e99e8484a5822e96104c03a77ae80e51a60d7ffbf291e0f1f9bb838c7dfd"
-        },
-        {
-          "title": "\"Hola delincuentes\": Albiol coloca vallas contra las okupaciones y los multirreincidentes en el área metropolitana de Barcelona",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-18T15:00:28.000Z",
-          "sourceUrl": "https://www.elmundo.es/cataluna/2026/11/18/6afdb6f9fc6c83ed388b45a0.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/29ad97cc1fd3971e931c1816eff0fa71/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/18/17950171227702.jpg"
-        }
-      ],
-      "path": "/es/entity/hola-delincuentes-albiol-coloca-vallas-contra-las-okupaciones-y-los-multirreinci/"
-    },
-    {
-      "id": "moving-cluster-españa-debate + congreso",
-      "title": "Los candidatos al Congreso por Gipuzkoa protagonizan un intenso debate con choques en vivienda y seguridad",
-      "brief": "Los candidatos al Congreso por Gipuzkoa protagonizan un intenso debate con choques en vivienda y seguridad.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "Los candidatos al Congreso por Gipuzkoa protagonizan un intenso debate con choques en vivienda y seguridad",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-18T15:20:42.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/pnv-pse-confrontan-pp-bildu-debate-elecciones-29n-20261118140040-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "El debate entre los principales candidatos al Congreso por Bizkaia, mañana en EL CORREO",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T09:19:08.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/debate-principales-candidatos-congreso-bizkaia-manana-correo-20261118101835-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/los-candidatos-al-congreso-por-gipuzkoa-protagonizan-un-intenso-debate-con-choqu/"
-    },
-    {
-      "id": "moving-cluster-españa-evita + matute",
-      "title": "Matute afirma que ETA era un «estorbo» y evita catalogarla como «banda terrorista»",
-      "brief": "Matute afirma que ETA era un «estorbo» y evita catalogarla como «banda terrorista».",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "Matute afirma que ETA era un «estorbo» y evita catalogarla como «banda terrorista»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-18T15:03:09.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/matute-bildu-afirma-eta-era-estorbo-evita-catalogarla-banda-terrorista-20261118160205-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/matute-afirma-que-eta-era-un-estorbo-y-evita-catalogarla-como-banda-terrorista/"
-    },
-    {
-      "id": "moving-cluster-españa-audiencia + nacional",
-      "title": "La Audiencia Nacional admite la querella contra Julio Iglesias por delitos contra la libertad sexual, lesiones y trato degradante",
-      "brief": "La Audiencia Nacional admite la querella contra Julio Iglesias por delitos contra la libertad sexual, lesiones y trato degradante.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 14,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/2J27QVSCLRFUVKCV7DJYTKJUPY.jpg?auth=fc7f31c9bb5c5dd1216b43aa649ee9a899bd773523d3777f215d290082aaf5bd",
-        "https://s1.ppllstatics.com/rc/www/multimedia/gente-estilo/2026/11/18/GTRES1519068366-kWcE-U40410003075bmC-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "La Audiencia Nacional admite la querella contra Julio Iglesias por delitos contra la libertad sexual, lesiones y trato degradante",
-          "source": "El País",
-          "publishedAt": "2026-11-18T14:24:12.000Z",
-          "sourceUrl": "https://elpais.com/sociedad/2026-11-18/la-audiencia-nacional-admite-la-querella-contra-julio-iglesias-por-delitos-contra-la-libertad-sexual-lesiones-y-trato-degradante.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/2J27QVSCLRFUVKCV7DJYTKJUPY.jpg?auth=fc7f31c9bb5c5dd1216b43aa649ee9a899bd773523d3777f215d290082aaf5bd"
-        },
-        {
-          "title": "La Audiencia Nacional admite la querella contra Julio Iglesias por agresiones sexuales, lesiones y trato degradante",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T11:36:20.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/audiencia-nacional-admite-querella-julio-iglesias-delitos-20261118123556-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/gente-estilo/2026/11/18/GTRES1519068366-kWcE-U40410003075bmC-1200x840@RC.jpg"
-        }
-      ],
-      "path": "/es/entity/la-audiencia-nacional-admite-la-querella-contra-julio-iglesias-por-delitos-contr/"
-    },
-    {
-      "id": "fading-cluster-españa-contra + sanchez",
-      "title": "El rifirrafe de Sánchez y Griso por la agresión a Jon Echeverría: «Lo condenamos, pero si a usted le parece normal que me griten 'hijo de puta'...»",
-      "brief": "El rifirrafe de Sánchez y Griso por la agresión a Jon Echeverría: «Lo condenamos, pero si a usted le parece normal que me griten 'hijo de puta'...».",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 10,
-      "sourceCount": 2,
-      "itemCount": 4,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 59,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido"
       ],
       "isHotNews": false,
       "sources": [
@@ -472,9 +254,181 @@
       "path": "/es/entity/el-rifirrafe-de-sanchez-y-griso-por-la-agresion-a-jon-echeverria-lo-condenamos-p/"
     },
     {
-      "id": "fading-cluster-españa-amaia + montero",
-      "title": "Amaia Montero se defiende de las críticas: «No me merezco esto. Me dan ganas de coger un megáfono y montar la de Dios»",
-      "brief": "Amaia Montero se defiende de las críticas: «No me merezco esto. Me dan ganas de coger un megáfono y montar la de Dios».",
+      "id": "now-cluster-españa-ester + exposito",
+      "title": "Mbappé alarga su estancia en Gipuzkoa junto a Ester Expósito: de escapada exprés a viaje romántico de tres días",
+      "brief": "Mbappé alarga su estancia en Gipuzkoa junto a Ester Expósito: de escapada exprés a viaje romántico de tres días.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Mbappé alarga su estancia en Euskadi junto a Ester Expósito",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T17:26:18.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/mbappe-alarga-estancia-euskadi-junto-ester-exposito-20261118182618-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Mbappé alarga su estancia en Gipuzkoa junto a Ester Expósito: de escapada exprés a viaje romántico de tres días",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-18T15:03:25.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/kylian-mbappe-alarga-estancia-gipuzkoa-ester-exposito-escapada-convierte-viaje-romantico-tres-dias-20261118155223-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/mbappe-alarga-su-estancia-en-gipuzkoa-junto-a-ester-exposito-de-escapada-expres/"
+    },
+    {
+      "id": "now-cluster-españa-gobierno + fiscalia",
+      "title": "La Fiscalía recurre el tercer grado concedido por el Gobierno Vasco al preso de ETA Asier Eceiza",
+      "brief": "La Fiscalía recurre el tercer grado concedido por el Gobierno Vasco al preso de ETA Asier Eceiza.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "La Fiscalía tumba otro tercer grado del Gobierno vasco a un preso de ETA",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T15:49:15.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/fiscalia-tumba-tercer-grado-gobierno-vasco-preso-20261118164859-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "La Fiscalía recurre el tercer grado concedido por el Gobierno Vasco al preso de ETA Asier Eceiza",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-18T15:08:54.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/fiscalia-recurre-tercer-grado-eta-asier-eceiza-20261118160601-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/la-fiscalia-recurre-el-tercer-grado-concedido-por-el-gobierno-vasco-al-preso-de/"
+    },
+    {
+      "id": "moving-cluster-españa-contra + albiol",
+      "title": "\"Hola delincuentes\": Albiol coloca vallas contra las okupaciones y los multirreincidentes en el área metropolitana de Barcelona",
+      "brief": "\"Hola delincuentes\": Albiol coloca vallas contra las okupaciones y los multirreincidentes en el área metropolitana de Barcelona.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/PSEIEHRXVZAPLOGTXSQLGPEHEY.jpg?auth=12f1e99e8484a5822e96104c03a77ae80e51a60d7ffbf291e0f1f9bb838c7dfd",
+        "https://e01-phantom-elmundo.uecdn.es/29ad97cc1fd3971e931c1816eff0fa71/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/18/17950171227702.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Albiol difunde una valla publicitaria dirigida a “delincuentes” en español y árabe: “Se acabó entrar y salir”",
+          "source": "El País",
+          "publishedAt": "2026-11-18T15:36:05.000Z",
+          "sourceUrl": "https://elpais.com/espana/catalunya/2026-11-18/albiol-difunde-una-valla-publicitaria-dirigida-a-delincuentes-en-espanol-y-arabe-se-acabo-entrar-y-salir.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/PSEIEHRXVZAPLOGTXSQLGPEHEY.jpg?auth=12f1e99e8484a5822e96104c03a77ae80e51a60d7ffbf291e0f1f9bb838c7dfd"
+        },
+        {
+          "title": "\"Hola delincuentes\": Albiol coloca vallas contra las okupaciones y los multirreincidentes en el área metropolitana de Barcelona",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-18T15:00:28.000Z",
+          "sourceUrl": "https://www.elmundo.es/cataluna/2026/11/18/6afdb6f9fc6c83ed388b45a0.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/29ad97cc1fd3971e931c1816eff0fa71/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/18/17950171227702.jpg"
+        }
+      ],
+      "path": "/es/entity/hola-delincuentes-albiol-coloca-vallas-contra-las-okupaciones-y-los-multirreinci/"
+    },
+    {
+      "id": "moving-cluster-españa-matute + estorbo",
+      "title": "Matute afirma que ETA era un «estorbo» y evita catalogarla como «banda terrorista»",
+      "brief": "Matute afirma que ETA era un «estorbo» y evita catalogarla como «banda terrorista».",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 14,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "3h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Diario Vasco",
+        "El Correo"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Matute afirma que ETA era un «estorbo» y evita catalogarla como «banda terrorista»",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-18T15:03:09.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/matute-bildu-afirma-eta-era-estorbo-evita-catalogarla-banda-terrorista-20261118160205-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/matute-afirma-que-eta-era-un-estorbo-y-evita-catalogarla-como-banda-terrorista/"
+    },
+    {
+      "id": "fading-cluster-españa-audiencia + nacional",
+      "title": "La Audiencia Nacional admite la querella contra Julio Iglesias por delitos contra la libertad sexual, lesiones y trato degradante",
+      "brief": "La Audiencia Nacional admite la querella contra Julio Iglesias por delitos contra la libertad sexual, lesiones y trato degradante.",
       "whyItMatters": "",
       "verdict": "Si no vuelve a aparecer, sale de portada.",
       "mode": "fading",
@@ -484,6 +438,52 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "4h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/2J27QVSCLRFUVKCV7DJYTKJUPY.jpg?auth=fc7f31c9bb5c5dd1216b43aa649ee9a899bd773523d3777f215d290082aaf5bd",
+        "https://s1.ppllstatics.com/rc/www/multimedia/gente-estilo/2026/11/18/GTRES1519068366-kWcE-U40410003075bmC-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "La Audiencia Nacional admite la querella contra Julio Iglesias por delitos contra la libertad sexual, lesiones y trato degradante",
+          "source": "El País",
+          "publishedAt": "2026-11-18T14:24:12.000Z",
+          "sourceUrl": "https://elpais.com/sociedad/2026-11-18/la-audiencia-nacional-admite-la-querella-contra-julio-iglesias-por-delitos-contra-la-libertad-sexual-lesiones-y-trato-degradante.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/2J27QVSCLRFUVKCV7DJYTKJUPY.jpg?auth=fc7f31c9bb5c5dd1216b43aa649ee9a899bd773523d3777f215d290082aaf5bd"
+        },
+        {
+          "title": "La Audiencia Nacional admite la querella contra Julio Iglesias por agresiones sexuales, lesiones y trato degradante",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T11:36:20.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/audiencia-nacional-admite-querella-julio-iglesias-delitos-20261118123556-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/rc/www/multimedia/gente-estilo/2026/11/18/GTRES1519068366-kWcE-U40410003075bmC-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/la-audiencia-nacional-admite-la-querella-contra-julio-iglesias-por-delitos-contr/"
+    },
+    {
+      "id": "fading-cluster-españa-amaia + montero",
+      "title": "Amaia Montero se defiende de las críticas: «No me merezco esto. Me dan ganas de coger un megáfono y montar la de Dios»",
+      "brief": "Amaia Montero se defiende de las críticas: «No me merezco esto. Me dan ganas de coger un megáfono y montar la de Dios».",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
@@ -516,52 +516,6 @@
         }
       ],
       "path": "/es/entity/amaia-montero-se-defiende-de-las-criticas-no-me-merezco-esto-me-dan-ganas-de-cog/"
-    },
-    {
-      "id": "fading-cluster-españa-elgorriaga + talde",
-      "title": "Cambio de manos de la histórica chocolatera Elgorriaga: un consorcio liderado por Talde compra el 100% de la firma tras crecer un 13% anual",
-      "brief": "Cambio de manos de la histórica chocolatera Elgorriaga: un consorcio liderado por Talde compra el 100% de la firma tras crecer un 13% anual.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "7h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [
-        "https://s3.ppllstatics.com/diariovasco/www/multimedia/economia/2026/11/18/elgorriaga-kxmE-U40407959698LCB-1200x840@Diario%20Vasco.jpg",
-        "https://s3.ppllstatics.com/elcorreo/www/multimedia/economia/2026/11/18/Imagen%20Nueva%20Elgorriaga-RpEvaTEGtrmMYQr6QC8STON-1200x840@El%20Correo.png"
-      ],
-      "evidence": [
-        {
-          "title": "Cambio de manos de la histórica chocolatera Elgorriaga: un consorcio liderado por Talde compra el 100% de la firma tras crecer un 13% anual",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-18T10:16:40.000Z",
-          "sourceUrl": "https://www.diariovasco.com/economia/empresas/guipuzcoanas/talde-compra-historica-galletera-elgorriaga-20261118111023-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/economia/2026/11/18/elgorriaga-kxmE-U40407959698LCB-1200x840@Diario%20Vasco.jpg"
-        },
-        {
-          "title": "Talde compra el histórico fabricante de galletas Elgorriaga",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T09:33:35.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/talde-compra-historico-fabricante-galletas-elgorriaga-20261118103334-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/economia/2026/11/18/Imagen%20Nueva%20Elgorriaga-RpEvaTEGtrmMYQr6QC8STON-1200x840@El%20Correo.png"
-        }
-      ],
-      "path": "/es/entity/cambio-de-manos-de-la-historica-chocolatera-elgorriaga-un-consorcio-liderado-por/"
     }
   ]
 }
