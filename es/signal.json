@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-18T19:00:48.266Z",
-  "pulseLabel": "Último análisis · hace 45 minutos",
-  "ambientPulseLabel": "251.733 enlaces analizados",
-  "dayScanLabel": "4.224 enlaces escaneados en 24h",
+  "updatedAt": "2026-11-18T20:00:48.005Z",
+  "pulseLabel": "Último análisis · este minuto",
+  "ambientPulseLabel": "252.156 enlaces analizados",
+  "dayScanLabel": "4.229 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,18 +19,18 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-trump + putin",
+      "id": "moving-cluster-españa-trump + putin",
       "title": "Xi Jinping y Putin exhiben su alianza y critican las sanciones de EE.UU. antes de reunirse con Trump",
       "brief": "Xi Jinping y Putin exhiben su alianza y critican las sanciones de EE.UU. antes de reunirse con Trump.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 24,
+      "strength": 23,
       "sourceCount": 3,
       "itemCount": 4,
-      "freshness": "fresca ahora",
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 96,
@@ -82,25 +82,360 @@
       "path": "/es/entity/xi-jinping-y-putin-exhiben-su-alianza-y-critican-las-sanciones-de-ee-uu-antes-de/"
     },
     {
-      "id": "moving-cluster-españa-contra + alcaraz",
-      "title": "Alcaraz, más y mejor contra Medvedev... con susto incluido en la pierna",
-      "brief": "Alcaraz, más y mejor contra Medvedev... con susto incluido en la pierna.",
+      "id": "now-cluster-españa-contra + debate",
+      "title": "PNV y PSE confrontan con el PP en un intenso debate y EH Bildu evita el cuerpo a cuerpo",
+      "brief": "PNV y PSE confrontan con el PP en un intenso debate y EH Bildu evita el cuerpo a cuerpo.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 17,
+      "sourceCount": 2,
+      "itemCount": 4,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 83,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Diario Vasco",
+        "El Correo"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "PNV y PSE confrontan con el PP en un intenso debate y EH Bildu evita el cuerpo a cuerpo",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-18T19:08:26.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/pnv-pse-confrontan-pp-bildu-debate-elecciones-29n-20261118140040-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "EH Bildu «rechaza» los ataques contra Echeverría en Hernani, pero PNV y PP le afean «no condenarlos»",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-18T13:31:19.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/bildu-rechaza-ataques-pp-hernani-pnv-pp-afean-no-condena-20261118122737-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Echeverría se escuda «en un error de la IA» pero Vaquero le reitera que «ni siquiera sabéis pintar una ikurriña»",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-18T12:22:33.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/echeverria-escuda-error-ia-ikurrina-pp-pnv-vaquero-20261118131510-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "El choque de Pedro Sánchez y Susanna Griso por la agresión a Jon Echeverría en Hernani",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T12:14:00.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/choque-pedro-sanchez-susanna-griso-agresion-jon-20261118115931-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/pnv-y-pse-confrontan-con-el-pp-en-un-intenso-debate-y-eh-bildu-evita-el-cuerpo-a/"
+    },
+    {
+      "id": "now-cluster-españa-contra + ante",
+      "title": "Pesadilla en Estambul: el peor Real Madrid de la temporada cae ante el Besiktas",
+      "brief": "Pesadilla en Estambul: el peor Real Madrid de la temporada cae ante el Besiktas.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/KF2V57RCINCWRLRBB4FIRTGCIA.jpg?auth=8ac43eeec051649fa525ca8836787b0e852a70213156f922636ad3a4055fa5b5",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950289546338.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Un Madrid irreconocible se diluye en Estambul contra el Besiktas",
+          "source": "El País",
+          "publishedAt": "2026-11-18T19:48:20.000Z",
+          "sourceUrl": "https://elpais.com/deportes/baloncesto/2026-11-18/un-madrid-irreconocible-se-diluye-en-estambul-contra-el-besiktas.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/KF2V57RCINCWRLRBB4FIRTGCIA.jpg?auth=8ac43eeec051649fa525ca8836787b0e852a70213156f922636ad3a4055fa5b5"
+        },
+        {
+          "title": "Pesadilla en Estambul: el peor Real Madrid de la temporada cae ante el Besiktas",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-18T19:15:05.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/baloncesto/euroliga/2026/11/18/6afdca88e9cf4a275e8b4588.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950289546338.jpg"
+        }
+      ],
+      "path": "/es/entity/pesadilla-en-estambul-el-peor-real-madrid-de-la-temporada-cae-ante-el-besiktas/"
+    },
+    {
+      "id": "now-cluster-españa-hakeem + jeffries",
+      "title": "Los demócratas proponen a Hakeem Jeffries como primer presidente negro de la Cámara de Representantes en el nuevo Congreso",
+      "brief": "Los demócratas proponen a Hakeem Jeffries como primer presidente negro de la Cámara de Representantes en el nuevo Congreso.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/AAEWZDADHJMTJDIRBC7EHNJAEE.jpg?auth=04fd73e7b011e71a29ff58e235d1746391ebc6849533eb3f753fb345238b90f6"
+      ],
+      "evidence": [
+        {
+          "title": "Los demócratas proponen a Hakeem Jeffries como primer presidente negro de la Cámara de Representantes",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T19:04:35.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/democratas-proponen-hakeem-jeffries-primer-presidente-negro-20261118200435-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Los demócratas proponen a Hakeem Jeffries como primer presidente negro de la Cámara de Representantes en el nuevo Congreso",
+          "source": "El País",
+          "publishedAt": "2026-11-18T16:35:28.000Z",
+          "sourceUrl": "https://elpais.com/us/2026-11-18/los-democratas-proponen-a-hakeem-jefferies-como-primer-presidente-negro-de-la-camara-de-representantes-en-el-nuevo-congreso.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/AAEWZDADHJMTJDIRBC7EHNJAEE.jpg?auth=04fd73e7b011e71a29ff58e235d1746391ebc6849533eb3f753fb345238b90f6"
+        }
+      ],
+      "path": "/es/entity/los-democratas-proponen-a-hakeem-jeffries-como-primer-presidente-negro-de-la-cam/"
+    },
+    {
+      "id": "now-cluster-españa-isak + andic",
+      "title": "Isak Andic tramó un plan con la terapeuta para apartar a Jonathan de Mango y que no volviera nunca a la empresa",
+      "brief": "Isak Andic tramó un plan con la terapeuta para apartar a Jonathan de Mango y que no volviera nunca a la empresa.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El Correo"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950279927702.jpg",
+        "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/1515130215-Ru9cPNftwd9OC5FNTSHcKyH-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Isak Andic tramó un plan con la terapeuta para apartar a Jonathan de Mango y que no volviera nunca a la empresa",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-18T18:56:07.000Z",
+          "sourceUrl": "https://www.elmundo.es/cataluna/2026/11/18/6afdf064fdddfffb2c8b456f.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950279927702.jpg"
+        },
+        {
+          "title": "Isak Andic planeó con la terapeuta un plan para apartar a su hijo de Mango",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T18:39:35.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/isak-andic-planeo-terapeuta-plan-apartar-hijo-20261118193934-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/1515130215-Ru9cPNftwd9OC5FNTSHcKyH-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/isak-andic-tramo-un-plan-con-la-terapeuta-para-apartar-a-jonathan-de-mango-y-que/"
+    },
+    {
+      "id": "moving-cluster-españa-presidente + hernandez",
+      "title": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos",
+      "brief": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 3,
-      "itemCount": 3,
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo"
+      ],
+      "images": [
+        "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/de-cos-kWQH-U40421105199n9B-1200x840@RC.jpg",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950209323473.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Hernández de Cos asegura los apoyos para convertirse en presidente del BCE",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T18:32:42.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/hernandez-cos-asegura-apoyos-convertirse-presidente-bce-20261118193241-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/de-cos-kWQH-U40421105199n9B-1200x840@RC.jpg"
+        },
+        {
+          "title": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-18T17:31:41.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/2026/11/18/6afdd1d1fc6c83c1318b4590.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950209323473.jpg"
+        }
+      ],
+      "path": "/es/entity/hernandez-de-cos-asegura-todos-los-apoyos-para-ser-presidente-del-bce-a-pesar-de/"
+    },
+    {
+      "id": "moving-cluster-españa-frente + amplio",
+      "title": "El empuje de Adelante puede barrer al Frente Amplio en Andalucía y el PP lo identifica con Bildu: \"Es la izquierda abertzale andaluza\"",
+      "brief": "El empuje de Adelante puede barrer al Frente Amplio en Andalucía y el PP lo identifica con Bildu: \"Es la izquierda abertzale andaluza\".",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El Correo"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950025652133.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El empuje de Adelante puede barrer al Frente Amplio en Andalucía y el PP lo identifica con Bildu: \"Es la izquierda abertzale andaluza\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-18T18:29:20.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/18/6afd906d21efa0d4278b4578.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950025652133.jpg"
+        },
+        {
+          "title": "Las siete provincias en las que Frente Amplio pugna por el último escaño con PP y Vox",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T16:21:24.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/siete-provincias-frente-amplio-pugna-ultimo-escano-20261118172122-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/el-empuje-de-adelante-puede-barrer-al-frente-amplio-en-andalucia-y-el-pp-lo-iden/"
+    },
+    {
+      "id": "moving-cluster-españa-ester + exposito",
+      "title": "Mbappé alarga su estancia en Gipuzkoa junto a Ester Expósito: de escapada exprés a viaje romántico de tres días",
+      "brief": "Mbappé alarga su estancia en Gipuzkoa junto a Ester Expósito: de escapada exprés a viaje romántico de tres días.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 14,
+      "sourceCount": 2,
+      "itemCount": 2,
       "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 86,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido",
         "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Mbappé alarga su estancia en Euskadi junto a Ester Expósito",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T17:26:18.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/mbappe-alarga-estancia-euskadi-junto-ester-exposito-20261118182618-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Mbappé alarga su estancia en Gipuzkoa junto a Ester Expósito: de escapada exprés a viaje romántico de tres días",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-18T15:03:25.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/kylian-mbappe-alarga-estancia-gipuzkoa-ester-exposito-escapada-convierte-viaje-romantico-tres-dias-20261118155223-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/mbappe-alarga-su-estancia-en-gipuzkoa-junto-a-ester-exposito-de-escapada-expres/"
+    },
+    {
+      "id": "fading-cluster-españa-contra + alcaraz",
+      "title": "Alcaraz, más y mejor contra Medvedev... con susto incluido en la pierna",
+      "brief": "Alcaraz, más y mejor contra Medvedev... con susto incluido en la pierna.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 16,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "4h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 68,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido"
       ],
       "isHotNews": false,
       "sources": [
@@ -139,287 +474,7 @@
       "path": "/es/entity/alcaraz-mas-y-mejor-contra-medvedev-con-susto-incluido-en-la-pierna/"
     },
     {
-      "id": "now-cluster-españa-presidente + hernandez",
-      "title": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos",
-      "brief": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Mundo"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/de-cos-kWQH-U40421105199n9B-1200x840@RC.jpg",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950209323473.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Hernández de Cos asegura los apoyos para convertirse en presidente del BCE",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T18:32:42.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/hernandez-cos-asegura-apoyos-convertirse-presidente-bce-20261118193241-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/de-cos-kWQH-U40421105199n9B-1200x840@RC.jpg"
-        },
-        {
-          "title": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-18T17:31:41.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/18/6afdd1d1fc6c83c1318b4590.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950209323473.jpg"
-        }
-      ],
-      "path": "/es/entity/hernandez-de-cos-asegura-todos-los-apoyos-para-ser-presidente-del-bce-a-pesar-de/"
-    },
-    {
-      "id": "now-cluster-españa-frente + amplio",
-      "title": "El empuje de Adelante puede barrer al Frente Amplio en Andalucía y el PP lo identifica con Bildu: \"Es la izquierda abertzale andaluza\"",
-      "brief": "El empuje de Adelante puede barrer al Frente Amplio en Andalucía y el PP lo identifica con Bildu: \"Es la izquierda abertzale andaluza\".",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950025652133.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El empuje de Adelante puede barrer al Frente Amplio en Andalucía y el PP lo identifica con Bildu: \"Es la izquierda abertzale andaluza\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-18T18:29:20.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/18/6afd906d21efa0d4278b4578.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950025652133.jpg"
-        },
-        {
-          "title": "Las siete provincias en las que Frente Amplio pugna por el último escaño con PP y Vox",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T16:21:24.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/siete-provincias-frente-amplio-pugna-ultimo-escano-20261118172122-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/el-empuje-de-adelante-puede-barrer-al-frente-amplio-en-andalucia-y-el-pp-lo-iden/"
-    },
-    {
-      "id": "now-cluster-españa-ester + exposito",
-      "title": "Mbappé alarga su estancia en Gipuzkoa junto a Ester Expósito: de escapada exprés a viaje romántico de tres días",
-      "brief": "Mbappé alarga su estancia en Gipuzkoa junto a Ester Expósito: de escapada exprés a viaje romántico de tres días.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "Mbappé alarga su estancia en Euskadi junto a Ester Expósito",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T17:26:18.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/mbappe-alarga-estancia-euskadi-junto-ester-exposito-20261118182618-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Mbappé alarga su estancia en Gipuzkoa junto a Ester Expósito: de escapada exprés a viaje romántico de tres días",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-18T15:03:25.000Z",
-          "sourceUrl": "https://www.diariovasco.com/sociedad/kylian-mbappe-alarga-estancia-gipuzkoa-ester-exposito-escapada-convierte-viaje-romantico-tres-dias-20261118155223-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/mbappe-alarga-su-estancia-en-gipuzkoa-junto-a-ester-exposito-de-escapada-expres/"
-    },
-    {
-      "id": "moving-cluster-españa-contra + echeverria",
-      "title": "EH Bildu «rechaza» los ataques contra Echeverría en Hernani, pero PNV y PP le afean «no condenarlos»",
-      "brief": "EH Bildu «rechaza» los ataques contra Echeverría en Hernani, pero PNV y PP le afean «no condenarlos».",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 73,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "EH Bildu «rechaza» los ataques contra Echeverría en Hernani, pero PNV y PP le afean «no condenarlos»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-18T13:31:19.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/bildu-rechaza-ataques-pp-hernani-pnv-pp-afean-no-condena-20261118122737-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Echeverría se escuda «en un error de la IA» pero Vaquero le reitera que «ni siquiera sabéis pintar una ikurriña»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-18T12:22:33.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/echeverria-escuda-error-ia-ikurrina-pp-pnv-vaquero-20261118131510-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "El choque de Pedro Sánchez y Susanna Griso por la agresión a Jon Echeverría en Hernani",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T12:14:00.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/choque-pedro-sanchez-susanna-griso-agresion-jon-20261118115931-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/eh-bildu-rechaza-los-ataques-contra-echeverria-en-hernani-pero-pnv-y-pp-le-afean/"
-    },
-    {
-      "id": "moving-cluster-españa-gobierno + fiscalia",
-      "title": "La Fiscalía recurre el tercer grado concedido por el Gobierno Vasco al preso de ETA Asier Eceiza",
-      "brief": "La Fiscalía recurre el tercer grado concedido por el Gobierno Vasco al preso de ETA Asier Eceiza.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "La Fiscalía tumba otro tercer grado del Gobierno vasco a un preso de ETA",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T15:49:15.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/fiscalia-tumba-tercer-grado-gobierno-vasco-preso-20261118164859-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "La Fiscalía recurre el tercer grado concedido por el Gobierno Vasco al preso de ETA Asier Eceiza",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-18T15:08:54.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/fiscalia-recurre-tercer-grado-eta-asier-eceiza-20261118160601-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/la-fiscalia-recurre-el-tercer-grado-concedido-por-el-gobierno-vasco-al-preso-de/"
-    },
-    {
-      "id": "moving-cluster-españa-contra + albiol",
-      "title": "\"Hola delincuentes\": Albiol coloca vallas contra las okupaciones y los multirreincidentes en el área metropolitana de Barcelona",
-      "brief": "\"Hola delincuentes\": Albiol coloca vallas contra las okupaciones y los multirreincidentes en el área metropolitana de Barcelona.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/PSEIEHRXVZAPLOGTXSQLGPEHEY.jpg?auth=12f1e99e8484a5822e96104c03a77ae80e51a60d7ffbf291e0f1f9bb838c7dfd",
-        "https://e01-phantom-elmundo.uecdn.es/29ad97cc1fd3971e931c1816eff0fa71/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/18/17950171227702.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Albiol difunde una valla publicitaria dirigida a “delincuentes” en español y árabe: “Se acabó entrar y salir”",
-          "source": "El País",
-          "publishedAt": "2026-11-18T15:36:05.000Z",
-          "sourceUrl": "https://elpais.com/espana/catalunya/2026-11-18/albiol-difunde-una-valla-publicitaria-dirigida-a-delincuentes-en-espanol-y-arabe-se-acabo-entrar-y-salir.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/PSEIEHRXVZAPLOGTXSQLGPEHEY.jpg?auth=12f1e99e8484a5822e96104c03a77ae80e51a60d7ffbf291e0f1f9bb838c7dfd"
-        },
-        {
-          "title": "\"Hola delincuentes\": Albiol coloca vallas contra las okupaciones y los multirreincidentes en el área metropolitana de Barcelona",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-18T15:00:28.000Z",
-          "sourceUrl": "https://www.elmundo.es/cataluna/2026/11/18/6afdb6f9fc6c83ed388b45a0.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/29ad97cc1fd3971e931c1816eff0fa71/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/18/17950171227702.jpg"
-        }
-      ],
-      "path": "/es/entity/hola-delincuentes-albiol-coloca-vallas-contra-las-okupaciones-y-los-multirreinci/"
-    },
-    {
-      "id": "fading-cluster-españa-matute + estorbo",
+      "id": "fading-cluster-españa-evita + matute",
       "title": "Matute afirma que ETA era un «estorbo» y evita catalogarla como «banda terrorista»",
       "brief": "Matute afirma que ETA era un «estorbo» y evita catalogarla como «banda terrorista».",
       "whyItMatters": "",
@@ -427,10 +482,10 @@
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 9,
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
@@ -455,9 +510,9 @@
       "path": "/es/entity/matute-afirma-que-eta-era-un-estorbo-y-evita-catalogarla-como-banda-terrorista/"
     },
     {
-      "id": "fading-cluster-españa-amaia + montero",
-      "title": "Amaia Montero se defiende de las críticas: «No me merezco esto. Me dan ganas de coger un megáfono y montar la de Dios»",
-      "brief": "Amaia Montero se defiende de las críticas: «No me merezco esto. Me dan ganas de coger un megáfono y montar la de Dios».",
+      "id": "fading-cluster-españa-gobierno + fiscalia",
+      "title": "La Fiscalía recurre el tercer grado concedido por el Gobierno Vasco al preso de ETA Asier Eceiza",
+      "brief": "La Fiscalía recurre el tercer grado concedido por el Gobierno Vasco al preso de ETA Asier Eceiza.",
       "whyItMatters": "",
       "verdict": "Si no vuelve a aparecer, sale de portada.",
       "mode": "fading",
@@ -466,7 +521,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
@@ -475,76 +530,27 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Diario Vasco",
-        "El Correo"
+        "El Correo",
+        "El Diario Vasco"
       ],
-      "images": [
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/culturas/2026/11/18/amaia-montero-ok-U201305251745QwE-U404097630836JF-1200x840@Diario%20Vasco.jpg",
-        "https://s3.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/18/amaia-montero-k3XH-U404091475017cB-1200x840@El%20Correo.JPG"
-      ],
+      "images": [],
       "evidence": [
         {
-          "title": "Amaia Montero se defiende de las críticas: «No me merezco esto. Me dan ganas de coger un megáfono y montar la de Dios»",
+          "title": "La Fiscalía tumba otro tercer grado del Gobierno vasco a un preso de ETA",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T15:49:15.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/fiscalia-tumba-tercer-grado-gobierno-vasco-preso-20261118164859-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "La Fiscalía recurre el tercer grado concedido por el Gobierno Vasco al preso de ETA Asier Eceiza",
           "source": "El Diario Vasco",
-          "publishedAt": "2026-11-18T13:20:23.000Z",
-          "sourceUrl": "https://www.diariovasco.com/culturas/musica/amaia-montero-defiende-criticas-megafono-20261118141339-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/culturas/2026/11/18/amaia-montero-ok-U201305251745QwE-U404097630836JF-1200x840@Diario%20Vasco.jpg"
-        },
-        {
-          "title": "La contundente respuesta de Amaia Montero a la ola de críticas: «Me he entregado al chocolate, ya adelgazaré cuando me dé la gana»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T11:31:04.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/contundente-respuesta-amaia-montero-ola-criticas-entregado-20261118123104-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/18/amaia-montero-k3XH-U404091475017cB-1200x840@El%20Correo.JPG"
+          "publishedAt": "2026-11-18T15:08:54.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/fiscalia-recurre-tercer-grado-eta-asier-eceiza-20261118160601-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         }
       ],
-      "path": "/es/entity/amaia-montero-se-defiende-de-las-criticas-no-me-merezco-esto-me-dan-ganas-de-cog/"
-    },
-    {
-      "id": "fading-cluster-españa-audiencia + nacional",
-      "title": "La Audiencia Nacional admite la querella contra Julio Iglesias por delitos contra la libertad sexual, lesiones y trato degradante",
-      "brief": "La Audiencia Nacional admite la querella contra Julio Iglesias por delitos contra la libertad sexual, lesiones y trato degradante.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/2J27QVSCLRFUVKCV7DJYTKJUPY.jpg?auth=fc7f31c9bb5c5dd1216b43aa649ee9a899bd773523d3777f215d290082aaf5bd",
-        "https://s1.ppllstatics.com/rc/www/multimedia/gente-estilo/2026/11/18/GTRES1519068366-kWcE-U40410003075bmC-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "La Audiencia Nacional admite la querella contra Julio Iglesias por delitos contra la libertad sexual, lesiones y trato degradante",
-          "source": "El País",
-          "publishedAt": "2026-11-18T14:24:12.000Z",
-          "sourceUrl": "https://elpais.com/sociedad/2026-11-18/la-audiencia-nacional-admite-la-querella-contra-julio-iglesias-por-delitos-contra-la-libertad-sexual-lesiones-y-trato-degradante.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/2J27QVSCLRFUVKCV7DJYTKJUPY.jpg?auth=fc7f31c9bb5c5dd1216b43aa649ee9a899bd773523d3777f215d290082aaf5bd"
-        },
-        {
-          "title": "La Audiencia Nacional admite la querella contra Julio Iglesias por agresiones sexuales, lesiones y trato degradante",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T11:36:20.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/audiencia-nacional-admite-querella-julio-iglesias-delitos-20261118123556-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/gente-estilo/2026/11/18/GTRES1519068366-kWcE-U40410003075bmC-1200x840@RC.jpg"
-        }
-      ],
-      "path": "/es/entity/la-audiencia-nacional-admite-la-querella-contra-julio-iglesias-por-delitos-contr/"
+      "path": "/es/entity/la-fiscalia-recurre-el-tercer-grado-concedido-por-el-gobierno-vasco-al-preso-de/"
     }
   ]
 }
