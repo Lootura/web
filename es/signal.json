@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-18T06:00:48.219Z",
+  "updatedAt": "2026-11-18T07:00:48.161Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "246.248 enlaces analizados",
-  "dayScanLabel": "4.235 enlaces escaneados en 24h",
+  "ambientPulseLabel": "246.669 enlaces analizados",
+  "dayScanLabel": "4.234 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,62 +19,144 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-antes + sanchez",
-      "title": "Sánchez se revuelve contra el ataque de Ayuso a los andaluces: “Andalucía se va a levantar, a movilizar y a darnos la victoria el 29-N”",
-      "brief": "Sánchez se revuelve contra el ataque de Ayuso a los andaluces: “Andalucía se va a levantar, a movilizar y a darnos la victoria el 29-N”.",
+      "id": "now-cluster-españa-manolo + sarria",
+      "title": "Canal Sur retira de la parrilla el programa de Manolo Sarria al haber sido denunciado por acoso sexual",
+      "brief": "Canal Sur retira de la parrilla el programa de Manolo Sarria al haber sido denunciado por acoso sexual.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 15,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "5h fresca",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://s2.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/18/manolo-sarria-acoso-sexual-canal-sur-kPRF-U40405279788MgC-1200x840@El%20Correo.jpg",
+        "https://imagenes.elpais.com/resizer/v2/FNVWEIAX4JHLJAAMMLSK6PUH4U.jpg?auth=abd761be3c9b382865067654f41e22e02eae41e7ff28d41e78cb1cf8208f2ec2"
+      ],
+      "evidence": [
+        {
+          "title": "Retiran el programa de Manolo Sarria, excomponente del Dúo Sacampuntas, tras una denuncia por acoso sexual",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T06:34:13.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/retiran-programa-manolo-sarria-excomponente-duo-sacampuntas-20261118073412-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/18/manolo-sarria-acoso-sexual-canal-sur-kPRF-U40405279788MgC-1200x840@El%20Correo.jpg"
+        },
+        {
+          "title": "Canal Sur retira de la parrilla el programa de Manolo Sarria al haber sido denunciado por acoso sexual",
+          "source": "El País",
+          "publishedAt": "2026-11-17T21:18:32.000Z",
+          "sourceUrl": "https://elpais.com/sociedad/2026-11-17/canal-sur-retira-de-la-parrilla-el-programa-de-manolo-sarria-al-haber-sido-denunciado-por-presunto-acoso-sexual.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/FNVWEIAX4JHLJAAMMLSK6PUH4U.jpg?auth=abd761be3c9b382865067654f41e22e02eae41e7ff28d41e78cb1cf8208f2ec2"
+        }
+      ],
+      "path": "/es/entity/canal-sur-retira-de-la-parrilla-el-programa-de-manolo-sarria-al-haber-sido-denun/"
+    },
+    {
+      "id": "now-cluster-españa-antes + mundial",
+      "title": "Putin rompe su aislamiento en China: un discurso ante la élite económica mundial en vísperas de su cita con Trump y Xi",
+      "brief": "Putin rompe su aislamiento en China: un discurso ante la élite económica mundial en vísperas de su cita con Trump y Xi.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
         "El Mundo",
-        "El País",
-        "El Diario Vasco"
+        "El Correo"
       ],
       "images": [
-        "https://e01-phantom-elmundo.uecdn.es/b1735366d5510cbd9ef7a4cd845dfc2e/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/17/17949445716801.jpg"
+        "https://e01-phantom-elmundo.uecdn.es/1884c3265e00161675ba4f1be2f41400/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/18/17949752952048.jpg"
       ],
       "evidence": [
         {
-          "title": "Sánchez cierra el paso a medidas sociales que impulsen a Frente Amplio antes del 29-N",
+          "title": "Putin rompe su aislamiento en China: un discurso ante la élite económica mundial en vísperas de su cita con Trump y Xi",
           "source": "El Mundo",
-          "publishedAt": "2026-11-18T00:54:05.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/18/6afca37ee4d4d8d41e8b4588.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/b1735366d5510cbd9ef7a4cd845dfc2e/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/17/17949445716801.jpg"
+          "publishedAt": "2026-11-18T06:20:41.000Z",
+          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/18/6afd1bfc21efa0e3378b4570.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/1884c3265e00161675ba4f1be2f41400/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/18/17949752952048.jpg"
         },
         {
-          "title": "Sánchez se revuelve contra el ataque de Ayuso a los andaluces: “Andalucía se va a levantar, a movilizar y a darnos la victoria el 29-N”",
-          "source": "El País",
-          "publishedAt": "2026-11-17T20:05:43.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-17/sanchez-se-revuelve-contra-el-ataque-de-ayuso-los-andaluces-andalucia-se-va-a-levantar-a-movilizar-y-a-darnos-la-victoria-el-29-n.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "De ataque del PP a himno a favor de Sánchez, la canción tras el eslogan de Ester Muñoz",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-17T16:01:16.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/ataque-pp-himno-29n-frase-ester-munoz-20261117170043-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "title": "Trump posa junto a sus aliados en Asia antes de su cumbre con Xi y Putin",
+          "source": "El Correo",
+          "publishedAt": "2026-11-17T18:30:36.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/asia/trump-posa-junto-aliados-asia-cumbre-putin-20261117192916-ntrc.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         }
       ],
-      "path": "/es/entity/sanchez-se-revuelve-contra-el-ataque-de-ayuso-a-los-andaluces-andalucia-se-va-a/"
+      "path": "/es/entity/putin-rompe-su-aislamiento-en-china-un-discurso-ante-la-elite-economica-mundial/"
     },
     {
-      "id": "now-cluster-españa-menos + pero",
+      "id": "now-cluster-españa-euskadi + preve",
+      "title": "Euskadi prevé multas de hasta 500.000 euros ante infracciones muy graves de discriminación",
+      "brief": "Euskadi prevé multas de hasta 500.000 euros ante infracciones muy graves de discriminación.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Euskadi prevé multas de hasta 500.000 euros ante infracciones muy graves de discriminación",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T06:06:16.000Z",
+          "sourceUrl": "https://www.elcorreo.com/sociedad/euskadi-preve-multas-500000-euros-ante-infracciones-20261118070615-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Euskadi prevé multas de hasta 500.000 euros por infracciones muy graves de discriminación",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-18T05:27:26.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/euskadi-preve-multas-500000-euros-infracciones-graves-20261118000002-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/euskadi-preve-multas-de-hasta-500-000-euros-ante-infracciones-muy-graves-de-disc/"
+    },
+    {
+      "id": "now-cluster-españa-pero + menos",
       "title": "Menos antibióticos, pero más superbacterias: la paradoja mortal que golpea especialmente a España",
       "brief": "Menos antibióticos, pero más superbacterias: la paradoja mortal que golpea especialmente a España.",
       "whyItMatters": "",
@@ -85,7 +167,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -120,21 +202,21 @@
       "path": "/es/entity/menos-antibioticos-pero-mas-superbacterias-la-paradoja-mortal-que-golpea-especia/"
     },
     {
-      "id": "now-cluster-españa-jensen + huang",
+      "id": "moving-cluster-españa-jensen + huang",
       "title": "Jensen Huang abre la puerta a volver a Nvidia: «Si la junta decide que es lo mejor, será un honor»",
       "brief": "Jensen Huang abre la puerta a volver a Nvidia: «Si la junta decide que es lo mejor, será un honor».",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 7,
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresca",
+      "freshness": "8h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 54,
+      "alertScore": 64,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
