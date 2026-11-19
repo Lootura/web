@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-19T15:00:48.131Z",
+  "updatedAt": "2026-11-19T20:00:19.898Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "259.781 enlaces analizados",
-  "dayScanLabel": "4.241 enlaces escaneados en 24h",
+  "ambientPulseLabel": "260.208 enlaces analizados",
+  "dayScanLabel": "4.249 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,21 +19,95 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-genocidio + contra",
-      "title": "El máximo tribunal de la ONU concluye que Myanmar cometió genocidio contra los rohinyás",
-      "brief": "El máximo tribunal de la ONU concluye que Myanmar cometió genocidio contra los rohinyás.",
+      "id": "now-cluster-españa-sanchez + feijoo",
+      "title": "A qué hora y dónde ver el debate entre Sánchez y Feijóo: todas las cadenas que emiten el cara a cara",
+      "brief": "A qué hora y dónde ver el debate entre Sánchez y Feijóo: todas las cadenas que emiten el cara a cara.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "1h fresca",
+      "strength": 29,
+      "sourceCount": 4,
+      "itemCount": 8,
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 92,
+      "alertScore": 99,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo",
+        "El Mundo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/2TPEJ6GX5VGHZDH6S55YGVYO24.JPG?auth=d74a4d9a9c25149f4db1f171e274a80471bd806dcbf918e1b0d9e49fc6050c2e",
+        "https://imagenes.elpais.com/resizer/v2/5IWIVGADKBGD7KJBIJRIEW73P4.jpg?auth=9e92eb2599c66ce9c995cffda895c8bffcc9571a65519699975db01d9792dfb0",
+        "https://s3.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/19/newspaint-1795118018635-1200x840-U40437720608q1B-U40416561710eSG-1200x840@RC.jpg",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/19/17951107517243.jpg",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/19/17951067853587.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Debate electoral 29-N, en directo | Sánchez ya está en el estudio para su único cara a cara con Feijóo",
+          "source": "El País",
+          "publishedAt": "2026-11-19T19:51:59.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-19/debate-electoral-entre-pedro-sanchez-y-alberto-nunez-feijoo-en-directo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/2TPEJ6GX5VGHZDH6S55YGVYO24.JPG?auth=d74a4d9a9c25149f4db1f171e274a80471bd806dcbf918e1b0d9e49fc6050c2e"
+        },
+        {
+          "title": "La Junta Electoral rechaza el recurso del PSOE contra el vídeo del PP sobre Sánchez hecho con el “novedoso instrumento” de la IA",
+          "source": "El País",
+          "publishedAt": "2026-11-19T19:32:33.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-19/la-junta-electoral-rechaza-el-recurso-del-psoe-contra-el-video-del-pp-sobre-sanchez-hecho-con-el-novedoso-instrumento-de-la-ia.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/5IWIVGADKBGD7KJBIJRIEW73P4.jpg?auth=9e92eb2599c66ce9c995cffda895c8bffcc9571a65519699975db01d9792dfb0"
+        },
+        {
+          "title": "Directo | Sánchez y Feijóo ya están en la Academia de la Televisión para medir sus fuerzas en el cara a cara",
+          "source": "El Correo",
+          "publishedAt": "2026-11-19T19:20:48.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/directo-pedro-sanchez-alberto-nunez-feijoo-protagonizan-20261119202047-dirc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/19/newspaint-1795118018635-1200x840-U40437720608q1B-U40416561710eSG-1200x840@RC.jpg"
+        },
+        {
+          "title": "El PP coge fuerza a costa de Vox y Sánchez llega al cara a cara a cuatro puntos de Feijóo",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-19T19:00:09.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/19/6aff2a9afc6c83886c8b459b.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/19/17951107517243.jpg"
+        },
+        {
+          "title": "Carles Puigdemont: \"El PSOE me propuso una foto con Sánchez en los pasillos del Parlamento Europeo\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-19T18:01:30.000Z",
+          "sourceUrl": "https://www.elmundo.es/espana/2026/11/19/6aff26e3e85ece240e8b4592.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/19/17951067853587.jpg"
+        }
+      ],
+      "path": "/es/entity/a-que-hora-y-donde-ver-el-debate-entre-sanchez-y-feijoo-todas-las-cadenas-que-em/"
+    },
+    {
+      "id": "moving-cluster-españa-contra + genocidio",
+      "title": "El máximo tribunal de la ONU concluye que Myanmar cometió genocidio contra los rohinyás",
+      "brief": "El máximo tribunal de la ONU concluye que Myanmar cometió genocidio contra los rohinyás.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 15,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "6h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 86,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -75,9 +149,72 @@
       "path": "/es/entity/el-maximo-tribunal-de-la-onu-concluye-que-myanmar-cometio-genocidio-contra-los-r/"
     },
     {
-      "id": "now-cluster-españa-comision + europea",
-      "title": "Un ciberataque con una herramienta de IA accede a los servidores internos de la Comisión Europea",
-      "brief": "Un ciberataque con una herramienta de IA accede a los servidores internos de la Comisión Europea.",
+      "id": "now-cluster-españa-peio + etxeberria",
+      "title": "Preocupación por el ojo de Peio Etxeberria de cara a la final del Cuatro y Medio",
+      "brief": "Preocupación por el ojo de Peio Etxeberria de cara a la final del Cuatro y Medio.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 17,
+      "sourceCount": 2,
+      "itemCount": 4,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 83,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Diario Vasco",
+        "El Correo"
+      ],
+      "images": [
+        "https://s1.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/19/astelena-RiKHRN7mweoOyicOQ5wrefO-1200x840@Diario%20Vasco.jpg",
+        "https://s1.ppllstatics.com/elcorreo/www/multimedia/deportes/2026/11/19/pelota-U2013104585679lE-R1m81AprG88EfAborB7B6DP-1200x840@El%20Correo.jpeg",
+        "https://s3.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/19/eleccion-R3AVSPB8AGmu0sqjuzHpxlK-1200x840@Diario%20Vasco.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El Astelena acogerá un mínimo de siete partidos del Parejas, del Manomanista y del Cuatro y Medio",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-19T19:13:54.000Z",
+          "sourceUrl": "https://www.diariovasco.com/deportes/pelota/astelena-acogera-minimo-siete-partidos-parejas-manomanista-20261119201354-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/19/astelena-RiKHRN7mweoOyicOQ5wrefO-1200x840@Diario%20Vasco.jpg"
+        },
+        {
+          "title": "¿Por qué se juega el torneo del Cuatro y Medio?",
+          "source": "El Correo",
+          "publishedAt": "2026-11-19T12:47:53.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/pelota/juega-torneo-cuatro-medio-20261118000922-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Preocupación por el ojo de Peio Etxeberria de cara a la final del Cuatro y Medio",
+          "source": "El Correo",
+          "publishedAt": "2026-11-19T11:29:06.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/pelota/preocupacion-ojo-peio-etxeberria-cara-final-cuatro-20261119122905-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/deportes/2026/11/19/pelota-U2013104585679lE-R1m81AprG88EfAborB7B6DP-1200x840@El%20Correo.jpeg"
+        },
+        {
+          "title": "Peio Etxeberria hace saltar las alarmas a tres días de la final: «Veo borroso»",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-19T11:10:07.000Z",
+          "sourceUrl": "https://www.diariovasco.com/deportes/pelota/cuatro-y-medio/peio-exteberria-saltar-alarmas-bizkaia-20261119121006-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/19/eleccion-R3AVSPB8AGmu0sqjuzHpxlK-1200x840@Diario%20Vasco.jpg"
+        }
+      ],
+      "path": "/es/entity/preocupacion-por-el-ojo-de-peio-etxeberria-de-cara-a-la-final-del-cuatro-y-medio/"
+    },
+    {
+      "id": "now-cluster-españa-sanchez + puigdemont",
+      "title": "Junts justifica el ataque de Puigdemont a Sánchez por la amnistía: “Hay que hacerse un hueco en campaña”",
+      "brief": "Junts justifica el ataque de Puigdemont a Sánchez por la amnistía: “Hay que hacerse un hueco en campaña”.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -96,34 +233,35 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Correo",
-        "El País"
+        "El País",
+        "El Mundo"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/5JTBGFKH2RLIZIGNYJYRCN7W6U.jpg?auth=3c008201e9af6f6d8e9b823d4b0e96cb9be96e268c252bb9df0378a87ebee825"
+        "https://imagenes.elpais.com/resizer/v2/FVM372NGDVJETHTQVONVSFCUYQ.jpg?auth=45b4705da1e413a50da8e0079589a9d6357b200339a550f49fc50aeb3e67e283",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/19/17951067857222.jpg"
       ],
       "evidence": [
         {
-          "title": "Un ciberataque con Inteligencia Artificial pone en jaque a la Comisión Europea",
-          "source": "El Correo",
-          "publishedAt": "2026-11-19T14:39:55.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/europa/ciberataque-inteligencia-artificial-pone-jaque-comision-europea-20261119151256-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "Junts justifica el ataque de Puigdemont a Sánchez por la amnistía: “Hay que hacerse un hueco en campaña”",
+          "source": "El País",
+          "publishedAt": "2026-11-19T19:28:12.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-19/junts-justifica-el-ataque-de-puigdemont-a-sanchez-por-la-amnistia-hay-que-hacerse-un-hueco-en-campana.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/FVM372NGDVJETHTQVONVSFCUYQ.jpg?auth=45b4705da1e413a50da8e0079589a9d6357b200339a550f49fc50aeb3e67e283"
         },
         {
-          "title": "Un ciberataque con una herramienta de IA accede a los servidores internos de la Comisión Europea",
-          "source": "El País",
-          "publishedAt": "2026-11-19T13:26:59.000Z",
-          "sourceUrl": "https://elpais.com/internacional/2026-11-19/un-ciberataque-con-una-herramienta-de-ia-accede-a-los-servidores-internos-de-la-comision-europea.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/5JTBGFKH2RLIZIGNYJYRCN7W6U.jpg?auth=3c008201e9af6f6d8e9b823d4b0e96cb9be96e268c252bb9df0378a87ebee825"
+          "title": "Carles Puigdemont: \"Si Vox llama a la puerta de Junts el portazo lo recordarán toda su vida\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-19T18:01:34.000Z",
+          "sourceUrl": "https://www.elmundo.es/espana/2026/11/19/6aff350ae85ece75168b4594.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/19/17951067857222.jpg"
         }
       ],
-      "path": "/es/entity/un-ciberataque-con-una-herramienta-de-ia-accede-a-los-servidores-internos-de-la/"
+      "path": "/es/entity/junts-justifica-el-ataque-de-puigdemont-a-sanchez-por-la-amnistia-hay-que-hacers/"
     },
     {
-      "id": "now-cluster-españa-apuntan + cubrir",
-      "title": "Más de 14.000 personas se apuntan a la OPE para cubrir 52 plazas de funcionario en la EHU",
-      "brief": "Más de 14.000 personas se apuntan a la OPE para cubrir 52 plazas de funcionario en la EHU.",
+      "id": "now-cluster-españa-hasta + millones",
+      "title": "Varapalo judicial a Osakidetza: anulan el macrocontrato de 650 millones de las ambulancias en Euskadi por falta de justificación",
+      "brief": "Varapalo judicial a Osakidetza: anulan el macrocontrato de 650 millones de las ambulancias en Euskadi por falta de justificación.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -146,26 +284,33 @@
         "El Correo"
       ],
       "images": [
-        "https://s1.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/19/bec-ope-Rg9i7cvQPeGw7n6FndXwjAJ-1200x840@El%20Correo.JPG"
+        "https://s2.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/19/ambulancia-RDsTwsZA6zMUOagWyDyUkkN-1200x840@El%20Correo.jpg"
       ],
       "evidence": [
         {
-          "title": "Más de 14.000 personas se apuntan a la OPE para cubrir 52 plazas de funcionario en la EHU",
+          "title": "Varapalo judicial a Osakidetza: anulan el macrocontrato de 650 millones de las ambulancias en Euskadi por falta de justificación",
           "source": "El Diario Vasco",
-          "publishedAt": "2026-11-19T13:28:11.000Z",
-          "sourceUrl": "https://www.diariovasco.com/sociedad/educacion/14000-personas-apuntan-oposiciones-ope-funcionario-ehu-20261119140816-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-19T18:28:14.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/salud/tumban-licitacion-millonaria-ambulancias-osakidetza-valorada-650-millones-20261119164531-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
+        },
+        {
+          "title": "Anulan el nuevo contrato de ambulancias de Osakidetza, valorado en hasta 1.400 millones",
+          "source": "El Correo",
+          "publishedAt": "2026-11-19T16:03:13.000Z",
+          "sourceUrl": "https://www.elcorreo.com/sociedad/salud/anulan-nuevo-contrato-ambulancias-osakidetza-valorado-1400-20261119170313-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/19/ambulancia-RDsTwsZA6zMUOagWyDyUkkN-1200x840@El%20Correo.jpg"
         }
       ],
-      "path": "/es/entity/mas-de-14-000-personas-se-apuntan-a-la-ope-para-cubrir-52-plazas-de-funcionario/"
+      "path": "/es/entity/varapalo-judicial-a-osakidetza-anulan-el-macrocontrato-de-650-millones-de-las-am/"
     },
     {
-      "id": "now-cluster-españa-sanchez + entre",
-      "title": "A qué hora y dónde ver el debate entre Sánchez y Feijóo: todas las cadenas que emiten el cara a cara",
-      "brief": "A qué hora y dónde ver el debate entre Sánchez y Feijóo: todas las cadenas que emiten el cara a cara.",
+      "id": "moving-cluster-españa-comision + europea",
+      "title": "Un ciberataque con una herramienta de IA accede a los servidores internos de la Comisión Europea",
+      "brief": "Un ciberataque con una herramienta de IA accede a los servidores internos de la Comisión Europea.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
       "strength": 15,
@@ -181,35 +326,34 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El País",
-        "El Diario Vasco"
+        "El Correo",
+        "El País"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/ECH6QEX62FO4DL67U6SZV7XAVE.jpg?auth=98855ee454e82e0d2a90ca29777c12587e0e333ce7aa0c9708215f83368ea3b3",
-        "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/19/1520499907-RiLlLXOCJFImw3ahklhPhwK-1200x840@Diario%20Vasco.jpg"
+        "https://imagenes.elpais.com/resizer/v2/5JTBGFKH2RLIZIGNYJYRCN7W6U.jpg?auth=3c008201e9af6f6d8e9b823d4b0e96cb9be96e268c252bb9df0378a87ebee825"
       ],
       "evidence": [
         {
-          "title": "A qué hora y dónde ver el debate entre Sánchez y Feijóo: todas las cadenas que emiten el cara a cara",
-          "source": "El País",
-          "publishedAt": "2026-11-19T12:49:00.000Z",
-          "sourceUrl": "https://elpais.com/television/2026-11-19/a-que-hora-y-donde-ver-el-debate-entre-sanchez-y-feijoo-todas-las-cadenas-que-emiten-el-cara-a-cara.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/ECH6QEX62FO4DL67U6SZV7XAVE.jpg?auth=98855ee454e82e0d2a90ca29777c12587e0e333ce7aa0c9708215f83368ea3b3"
+          "title": "Un ciberataque con inteligencia artificial pone en jaque a la Comisión Europea",
+          "source": "El Correo",
+          "publishedAt": "2026-11-19T18:12:40.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/europa/ciberataque-inteligencia-artificial-pone-jaque-comision-europea-20261119151256-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
-          "title": "Esteban prevé un «debate bronco» esta noche entre Sánchez y Feijóo porque su «relación personal es pésima»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-19T11:03:51.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/esteban-preve-debate-bronco-noche-sanchez-feijoo-relacion-pesima-20261119114357-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/19/1520499907-RiLlLXOCJFImw3ahklhPhwK-1200x840@Diario%20Vasco.jpg"
+          "title": "Un ciberataque con una herramienta de IA accede a los servidores internos de la Comisión Europea",
+          "source": "El País",
+          "publishedAt": "2026-11-19T13:26:59.000Z",
+          "sourceUrl": "https://elpais.com/internacional/2026-11-19/un-ciberataque-con-una-herramienta-de-ia-accede-a-los-servidores-internos-de-la-comision-europea.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/5JTBGFKH2RLIZIGNYJYRCN7W6U.jpg?auth=3c008201e9af6f6d8e9b823d4b0e96cb9be96e268c252bb9df0378a87ebee825"
         }
       ],
-      "path": "/es/entity/a-que-hora-y-donde-ver-el-debate-entre-sanchez-y-feijoo-todas-las-cadenas-que-em/"
+      "path": "/es/entity/un-ciberataque-con-una-herramienta-de-ia-accede-a-los-servidores-internos-de-la/"
     },
     {
-      "id": "moving-cluster-españa-sanchez + puigdemont",
-      "title": "El PP acusa a Sánchez de plegarse a Puigdemont \"por un sillón\": \"Esta entrevista es el acta notarial de la legislatura\"",
-      "brief": "El PP acusa a Sánchez de plegarse a Puigdemont \"por un sillón\": \"Esta entrevista es el acta notarial de la legislatura\".",
+      "id": "moving-cluster-españa-anthropic + bolsa",
+      "title": "La IA no se frena en Bolsa: Anthropic se dispara un 12% en su debut en el Nasdaq",
+      "brief": "La IA no se frena en Bolsa: Anthropic se dispara un 12% en su debut en el Nasdaq.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
@@ -218,7 +362,7 @@
       "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -229,75 +373,68 @@
       "isHotNews": false,
       "sources": [
         "El Mundo",
-        "El Correo"
+        "El País"
       ],
       "images": [
-        "https://e01-phantom-elmundo.uecdn.es/c8fe51fcf297a19a4ce3caf83ef1d2c9/crop/0x3/987x661/f/webp/assets/multimedia/imagenes/2026/11/19/17950877099527.jpg"
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/19/17951069259789.jpg",
+        "https://imagenes.elpais.com/resizer/v2/7HZHNO3QCJENPCCYVFAHI2NTR4.jpg?auth=f3a52ad32ceefaf6e727524a8718462ca1791f04cea9849e79dd4cb03fa5f3cc"
       ],
       "evidence": [
         {
-          "title": "El PP acusa a Sánchez de plegarse a Puigdemont \"por un sillón\": \"Esta entrevista es el acta notarial de la legislatura\"",
+          "title": "La IA no se frena en Bolsa: Anthropic se dispara un 12% en su debut en el Nasdaq",
           "source": "El Mundo",
-          "publishedAt": "2026-11-19T11:30:42.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/19/6afedde0fc6c8362338b45b2.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/c8fe51fcf297a19a4ce3caf83ef1d2c9/crop/0x3/987x661/f/webp/assets/multimedia/imagenes/2026/11/19/17950877099527.jpg"
+          "publishedAt": "2026-11-19T16:58:01.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/19/6aff287cfc6c83e21b8b459e.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/19/17951069259789.jpg"
         },
         {
-          "title": "Puigdemont: «Aproveché la ambición desmedida de Sánchez para derrotar a España»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-19T10:05:17.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/puigdemont-aprovechado-ambicion-sanchez-derrotar-espana-20261119064856-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "title": "Ashton Kutcher, a un paso de convertirse en milmillonario con la salida a Bolsa de Anthropic",
+          "source": "El País",
+          "publishedAt": "2026-11-19T12:30:59.000Z",
+          "sourceUrl": "https://elpais.com/gente/2026-11-19/ashton-kutcher-a-un-paso-de-convertirse-en-milmillonario-con-la-salida-a-bolsa-de-anthropic.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/7HZHNO3QCJENPCCYVFAHI2NTR4.jpg?auth=f3a52ad32ceefaf6e727524a8718462ca1791f04cea9849e79dd4cb03fa5f3cc"
+        }
+      ],
+      "path": "/es/entity/la-ia-no-se-frena-en-bolsa-anthropic-se-dispara-un-12-en-su-debut-en-el-nasdaq/"
+    },
+    {
+      "id": "moving-cluster-españa-apuntan + cubrir",
+      "title": "Más de 14.000 personas se apuntan a la OPE para cubrir 52 plazas de funcionario en la EHU",
+      "brief": "Más de 14.000 personas se apuntan a la OPE para cubrir 52 plazas de funcionario en la EHU.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "7h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 64,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Diario Vasco",
+        "El Correo"
+      ],
+      "images": [
+        "https://s1.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/19/bec-ope-Rg9i7cvQPeGw7n6FndXwjAJ-1200x840@El%20Correo.JPG"
+      ],
+      "evidence": [
+        {
+          "title": "Más de 14.000 personas se apuntan a la OPE para cubrir 52 plazas de funcionario en la EHU",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-19T13:28:11.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/educacion/14000-personas-apuntan-oposiciones-ope-funcionario-ehu-20261119140816-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         }
       ],
-      "path": "/es/entity/el-pp-acusa-a-sanchez-de-plegarse-a-puigdemont-por-un-sillon-esta-entrevista-es/"
-    },
-    {
-      "id": "moving-cluster-españa-pone + autoriza",
-      "title": "La jueza autoriza reparar la vía de Urda pero pone a ADIF bajo estricta supervisión",
-      "brief": "La jueza autoriza reparar la vía de Urda pero pone a ADIF bajo estricta supervisión.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/19/17950871345619.jpg",
-        "https://s3.ppllstatics.com/rc/www/multimedia/nacional/2026/11/19/urdaefe-RFHZcoyFkNcxJZgaEPqkroI-1200x840@RC.jpeg"
-      ],
-      "evidence": [
-        {
-          "title": "La juez autoriza a Adif a reconstruir el tramo de vía afectado por el accidente de Urda",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-19T11:19:42.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/19/6afedb4be9cf4a17458b4574.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/19/17950871345619.jpg"
-        },
-        {
-          "title": "La jueza autoriza reparar la vía de Urda pero pone a ADIF bajo estricta supervisión",
-          "source": "El Correo",
-          "publishedAt": "2026-11-19T11:11:05.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/jueza-autoriza-reparar-via-urda-dias-despues-20261119121104-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/rc/www/multimedia/nacional/2026/11/19/urdaefe-RFHZcoyFkNcxJZgaEPqkroI-1200x840@RC.jpeg"
-        }
-      ],
-      "path": "/es/entity/la-jueza-autoriza-reparar-la-via-de-urda-pero-pone-a-adif-bajo-estricta-supervis/"
+      "path": "/es/entity/mas-de-14-000-personas-se-apuntan-a-la-ope-para-cubrir-52-plazas-de-funcionario/"
     }
   ]
 }
