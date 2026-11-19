@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-19T00:00:48.255Z",
+  "updatedAt": "2026-11-19T01:00:48.413Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "299,253 links analyzed",
-  "dayScanLabel": "8,378 links scanned in 24h",
+  "ambientPulseLabel": "300,093 links analyzed",
+  "dayScanLabel": "8,383 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -16,10 +16,84 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": null,
+  "topAlert": {
+    "id": "now-cluster-united states-trump + putin",
+    "title": "Trump, Xi and Putin Will Sit Down for the First Time. It Won’t Be Like Yalta.",
+    "brief": "Trump, Xi and Putin Will Sit Down for the First Time. It Won’t Be Like Yalta.",
+    "whyItMatters": "",
+    "verdict": "If it repeats in the next run, it gains weight.",
+    "mode": "now",
+    "state": "rising",
+    "stateLabel": "Rising",
+    "strength": 36,
+    "sourceCount": 7,
+    "itemCount": 10,
+    "freshness": "fresh now",
+    "alertLevel": "watch",
+    "alertLabel": "Watch",
+    "alertScore": 99,
+    "alertTriggers": [
+      "Crosses several sources",
+      "Picks up volume fast",
+      "Still active"
+    ],
+    "isHotNews": false,
+    "sources": [
+      "The New York Times World",
+      "PBS NewsHour",
+      "NBC News Politics",
+      "The New York Times Politics",
+      "CBS News"
+    ],
+    "images": [
+      "https://static01.nyt.com/images/2026/11/18/multimedia/18xp-yalta/18xp-yalta-mediumSquareAt3X.jpg",
+      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/china-1024x683.jpg",
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795045877739_nn_tll_trump_xi_putin_summit_261118_S3_1920x1080-er3938.jpg",
+      "https://static01.nyt.com/images/2026/11/18/multimedia/18dc-prexy-xiputin-01-jvfc/18dc-prexy-xiputin-01-jvfc-mediumSquareAt3X.jpg",
+      "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/f30377a6-9121-4e85-a277-a021d5bb4e6c/thumbnail/1200x630/ad8b0b67fe4709544187c7bb6f1fb8ad/cbsn-fusion-what-to-expect-as-trump-in-china-for-talks-with-xi-putin-thumbnail.jpg"
+    ],
+    "evidence": [
+      {
+        "title": "The Shadow of Yalta Hangs Over Trump’s Summit in China",
+        "source": "The New York Times World",
+        "publishedAt": "2026-11-19T00:52:52.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/18/world/asia/trump-xi-putin-summit-yalta.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/18/multimedia/18xp-yalta/18xp-yalta-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Trump lands in China for trade talks and high-stakes summit with Xi and Putin",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-11-18T23:55:44.000Z",
+        "sourceUrl": "https://www.pbs.org/newshour/show/trump-lands-in-china-for-trade-talks-and-high-stakes-summit-with-xi-and-putin?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/china-1024x683.jpg"
+      },
+      {
+        "title": "Trump set for historic summit with Putin, Xi",
+        "source": "NBC News Politics",
+        "publishedAt": "2026-11-18T23:51:23.000Z",
+        "sourceUrl": "https://www.nbcnews.com/nightly-news/video/trump-set-for-historic-summit-with-putin-xi-273772101943?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795045877739_nn_tll_trump_xi_putin_summit_261118_S3_1920x1080-er3938.jpg"
+      },
+      {
+        "title": "Trump, Xi and Putin Will Sit Down for the First Time. It Won’t Be Like Yalta.",
+        "source": "The New York Times Politics",
+        "publishedAt": "2026-11-18T23:35:48.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/18/us/politics/trump-xi-putin-summit-yalta.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/18/multimedia/18dc-prexy-xiputin-01-jvfc/18dc-prexy-xiputin-01-jvfc-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Trump in China for talks with Xi and Putin: What to expect",
+        "source": "CBS News",
+        "publishedAt": "2026-11-18T23:28:47.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/what-to-expect-as-trump-in-china-for-talks-with-xi-putin/?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/f30377a6-9121-4e85-a277-a021d5bb4e6c/thumbnail/1200x630/ad8b0b67fe4709544187c7bb6f1fb8ad/cbsn-fusion-what-to-expect-as-trump-in-china-for-talks-with-xi-putin-thumbnail.jpg"
+      }
+    ],
+    "path": "/us/entity/trump-xi-and-putin-will-sit-down-for-the-first-time-it-won-t-be-like-yalta/"
+  },
   "signals": [
     {
-      "id": "now-cluster-united states-trump + talks",
+      "id": "now-cluster-united states-trump + putin",
       "title": "Trump, Xi and Putin Will Sit Down for the First Time. It Won’t Be Like Yalta.",
       "brief": "Trump, Xi and Putin Will Sit Down for the First Time. It Won’t Be Like Yalta.",
       "whyItMatters": "",
@@ -27,12 +101,12 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 28,
-      "sourceCount": 4,
-      "itemCount": 7,
+      "strength": 36,
+      "sourceCount": 7,
+      "itemCount": 10,
       "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
       "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
@@ -41,17 +115,41 @@
       ],
       "isHotNews": false,
       "sources": [
+        "The New York Times World",
+        "PBS NewsHour",
+        "NBC News Politics",
         "The New York Times Politics",
-        "CBS News",
-        "Politico",
-        "NBC News"
+        "CBS News"
       ],
       "images": [
+        "https://static01.nyt.com/images/2026/11/18/multimedia/18xp-yalta/18xp-yalta-mediumSquareAt3X.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/china-1024x683.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795045877739_nn_tll_trump_xi_putin_summit_261118_S3_1920x1080-er3938.jpg",
         "https://static01.nyt.com/images/2026/11/18/multimedia/18dc-prexy-xiputin-01-jvfc/18dc-prexy-xiputin-01-jvfc-mediumSquareAt3X.jpg",
-        "https://static.politico.com/19/63/f28c1c7340f991c570feb58f77ba/fm2a9491.JPG",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795029398421_f_cln_zelenskyy_sanctions_261118_S3_1920x1080-usrbiw.jpg"
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/f30377a6-9121-4e85-a277-a021d5bb4e6c/thumbnail/1200x630/ad8b0b67fe4709544187c7bb6f1fb8ad/cbsn-fusion-what-to-expect-as-trump-in-china-for-talks-with-xi-putin-thumbnail.jpg"
       ],
       "evidence": [
+        {
+          "title": "The Shadow of Yalta Hangs Over Trump’s Summit in China",
+          "source": "The New York Times World",
+          "publishedAt": "2026-11-19T00:52:52.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/18/world/asia/trump-xi-putin-summit-yalta.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/18xp-yalta/18xp-yalta-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Trump lands in China for trade talks and high-stakes summit with Xi and Putin",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-18T23:55:44.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/trump-lands-in-china-for-trade-talks-and-high-stakes-summit-with-xi-and-putin?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/china-1024x683.jpg"
+        },
+        {
+          "title": "Trump set for historic summit with Putin, Xi",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-18T23:51:23.000Z",
+          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/trump-set-for-historic-summit-with-putin-xi-273772101943?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795045877739_nn_tll_trump_xi_putin_summit_261118_S3_1920x1080-er3938.jpg"
+        },
         {
           "title": "Trump, Xi and Putin Will Sit Down for the First Time. It Won’t Be Like Yalta.",
           "source": "The New York Times Politics",
@@ -64,45 +162,24 @@
           "source": "CBS News",
           "publishedAt": "2026-11-18T23:28:47.000Z",
           "sourceUrl": "https://www.cbsnews.com/video/what-to-expect-as-trump-in-china-for-talks-with-xi-putin/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Utah GOP governor on Trump and 2028: ‘It’s time for the next thing’",
-          "source": "Politico",
-          "publishedAt": "2026-11-18T19:25:25.000Z",
-          "sourceUrl": "https://www.politico.com/news/2026/11/18/spencer-cox-trump-time-for-the-next-thing-01173285?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static.politico.com/19/63/f28c1c7340f991c570feb58f77ba/fm2a9491.JPG"
-        },
-        {
-          "title": "Shut out of meeting, Zelenskyy says what he would say to Trump, Xi and Putin",
-          "source": "NBC News",
-          "publishedAt": "2026-11-18T19:16:42.000Z",
-          "sourceUrl": "https://www.nbcnews.com/now/video/zelenskyy-says-sanctions-from-u-s-and-china-would-force-russia-into-a-ceasefire-273752133886?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795029398421_f_cln_zelenskyy_sanctions_261118_S3_1920x1080-usrbiw.jpg"
-        },
-        {
-          "title": "Trump expected to press Xi on Americans detained in China",
-          "source": "CBS News",
-          "publishedAt": "2026-11-18T19:08:52.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/trump-xi-detained-americans/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/f30377a6-9121-4e85-a277-a021d5bb4e6c/thumbnail/1200x630/ad8b0b67fe4709544187c7bb6f1fb8ad/cbsn-fusion-what-to-expect-as-trump-in-china-for-talks-with-xi-putin-thumbnail.jpg"
         }
       ],
       "path": "/us/entity/trump-xi-and-putin-will-sit-down-for-the-first-time-it-won-t-be-like-yalta/"
     },
     {
-      "id": "now-cluster-united states-hakeem + jeffries",
+      "id": "moving-cluster-united states-hakeem + jeffries",
       "title": "What to know about Hakeem Jeffries as he easily wins Democratic nomination for House speaker",
       "brief": "What to know about Hakeem Jeffries as he easily wins Democratic nomination for House speaker.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 27,
       "sourceCount": 4,
       "itemCount": 6,
-      "freshness": "fresh now",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -120,6 +197,7 @@
       ],
       "images": [
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrap-1-1-1024x683.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/3e3bc7fa-526c-4407-a55c-384d48744fce/thumbnail/1200x630/9235c17bf920d44f2bb515b342222aa5/cbsn-fusion-hakeem-jeffries-easily-wins-democratic-nomination-for-house-speaker-thumbnail.jpg",
         "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6032798-e1",
         "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/3cffe60f-61e8-4487-82af-72dfcc769b51/thumbnail/1200x630/3a156b52f489a548a92d7947bc719e64/cbsn-fusion-hakeem-jeffries-pledges-that-democrats-will-fight-hard-after-winning-house-speaker-nomination-thumbnail.jpg",
         "https://static01.nyt.com/images/2026/11/18/multimedia/18dc-jeffries-tfpq/18dc-jeffries-tfpq-mediumSquareAt3X.jpg"
@@ -137,7 +215,7 @@
           "source": "CBS News",
           "publishedAt": "2026-11-18T22:55:31.000Z",
           "sourceUrl": "https://www.cbsnews.com/video/hakeem-jeffries-easily-wins-democratic-nomination-for-house-speaker/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/3e3bc7fa-526c-4407-a55c-384d48744fce/thumbnail/1200x630/9235c17bf920d44f2bb515b342222aa5/cbsn-fusion-hakeem-jeffries-easily-wins-democratic-nomination-for-house-speaker-thumbnail.jpg"
         },
         {
           "title": "Democratic strategists think Montana House race could hold the secret to future wins",
@@ -172,13 +250,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 25,
-      "sourceCount": 4,
+      "strength": 23,
+      "sourceCount": 3,
       "itemCount": 4,
       "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 99,
+      "alertScore": 96,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -187,29 +265,29 @@
       "isHotNews": false,
       "sources": [
         "PBS NewsHour",
-        "CBS News",
         "The New York Times",
         "NPR"
       ],
       "images": [
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/gta-1024x683.jpg",
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-18T202811Z_793939499_RC2KQOAXA877_RTRMADP_3_GAMING-GTA-VI-LEBANON-1024x683.jpg",
         "https://static01.nyt.com/images/2026/11/22/multimedia/22cul-gta-florida-print-jqmt/22cul-gta-florida-print-jqmt-mediumSquareAt3X.jpg",
         "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3840x2160+0+0/resize/3840x2160!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F4e%2F0d%2F728b89154973a4e942ced4d58d36%2Fjason-and-lucia-03.jpg"
       ],
       "evidence": [
         {
+          "title": "Why Grand Theft Auto VI's release is a major cultural moment",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-18T23:15:22.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/why-grand-theft-auto-vis-release-is-a-major-cultural-moment?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/gta-1024x683.jpg"
+        },
+        {
           "title": "Will people skip work and hurt the U.S. economy to play Grand Theft Auto 6?",
           "source": "PBS NewsHour",
           "publishedAt": "2026-11-18T21:44:20.000Z",
           "sourceUrl": "https://www.pbs.org/newshour/nation/will-people-skip-work-and-hurt-the-u-s-economy-to-play-grand-theft-auto-6?utm_source=lootura.com&ref=lootura.com",
           "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-18T202811Z_793939499_RC2KQOAXA877_RTRMADP_3_GAMING-GTA-VI-LEBANON-1024x683.jpg"
-        },
-        {
-          "title": "Why this reporter calls \"Grand Theft Auto VI\" an \"astonishing American epic\"",
-          "source": "CBS News",
-          "publishedAt": "2026-11-18T17:52:56.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/why-this-reporter-calls-grand-theft-auto-vi-astonishing-american-epic/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
         },
         {
           "title": "The Real-Life City That Inspires Grand Theft Auto VI",
@@ -229,21 +307,21 @@
       "path": "/us/entity/will-people-skip-work-and-hurt-the-u-s-economy-to-play-grand-theft-auto-6/"
     },
     {
-      "id": "moving-cluster-united states-ground + stop",
-      "title": "DOT Secretary Sean Duffy keeps blaming L3Harris after FAA ground stop, even as cause remains unknown",
-      "brief": "DOT Secretary Sean Duffy keeps blaming L3Harris after FAA ground stop, even as cause remains unknown.",
+      "id": "now-cluster-united states-voyager + reaches",
+      "title": "Voyager 1 is now a light-day from Earth. Here's what to know about NASA's longest-running mission",
+      "brief": "Voyager 1 is now a light-day from Earth. Here's what to know about NASA's longest-running mission.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 22,
-      "sourceCount": 3,
+      "strength": 17,
+      "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "3h fresh",
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 86,
+      "alertScore": 79,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -251,44 +329,43 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The New York Times",
-        "PBS NewsHour",
-        "CBS News"
+        "Science News",
+        "PBS NewsHour"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/18/multimedia/18dc-faa-overhaul-lcvf/18dc-faa-overhaul-lcvf-mediumSquareAt3X.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-18T044447Z_62003492_RC2YPOAL9ELZ_RTRMADP_3_USA-AVIATION-DUFFY-1024x678.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/e4ac7be5-14be-4e28-8944-2e44f1fae37c/thumbnail/1200x630/8445d655139b7c4f1d050f9883ffe1d9/gettyimages-2304625891.jpg"
+        "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/H-cover.png?w=800",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/nasa-1024x576.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/pia17462-1024x576.jpg"
       ],
       "evidence": [
         {
-          "title": "Ground Stop Came as Duffy Pushed to Rapidly Upgrade Aviation Systems",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-18T21:12:44.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/18/us/sean-duffy-ground-stop-faa-trump.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/18dc-faa-overhaul-lcvf/18dc-faa-overhaul-lcvf-mediumSquareAt3X.jpg"
+          "title": "Voyager 1 reaches a historic milestone: one light-day from Earth",
+          "source": "Science News",
+          "publishedAt": "2026-11-19T00:50:00.000Z",
+          "sourceUrl": "https://www.sciencenews.org/article/voyager-1-light-day-earth-distance?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/H-cover.png?w=800"
         },
         {
-          "title": "DOT Secretary Sean Duffy keeps blaming L3Harris after FAA ground stop, even as cause remains unknown",
+          "title": "What we've learned from Voyager 1 as it reaches extraordinary milestone",
           "source": "PBS NewsHour",
-          "publishedAt": "2026-11-18T20:50:38.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/politics/dot-secretary-sean-duffy-keeps-blaming-l3harris-after-faa-ground-stop-even-as-cause-remains-unknown?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-18T044447Z_62003492_RC2YPOAL9ELZ_RTRMADP_3_USA-AVIATION-DUFFY-1024x678.jpg"
+          "publishedAt": "2026-11-18T23:20:37.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/what-weve-learned-from-voyager-1-as-it-reaches-extraordinary-milestone?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/nasa-1024x576.jpg"
         },
         {
-          "title": "During nationwide ground stop, L3Harris struggled to find location of system outage",
-          "source": "CBS News",
-          "publishedAt": "2026-11-18T18:36:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/ground-stop-l3harris-system-outage/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/e4ac7be5-14be-4e28-8944-2e44f1fae37c/thumbnail/1200x630/8445d655139b7c4f1d050f9883ffe1d9/gettyimages-2304625891.jpg"
+          "title": "Voyager 1 is now a light-day from Earth. Here's what to know about NASA's longest-running mission",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-18T18:55:55.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/science/voyager-1-is-now-a-light-day-from-earth-heres-what-to-know-about-nasas-longest-running-mission?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/pia17462-1024x576.jpg"
         }
       ],
-      "path": "/us/entity/dot-secretary-sean-duffy-keeps-blaming-l3harris-after-faa-ground-stop-even-as-ca/"
+      "path": "/us/entity/voyager-1-is-now-a-light-day-from-earth-here-s-what-to-know-about-nasa-s-longest/"
     },
     {
-      "id": "now-cluster-united states-russian + national",
-      "title": "Russian national who targeted Palantir workers charged as a foreign agent, sources say",
-      "brief": "Russian national who targeted Palantir workers charged as a foreign agent, sources say.",
+      "id": "now-cluster-united states-anthropic + billion",
+      "title": "Anthropic Sells $81.3 Billion in Shares for a Record IPO",
+      "brief": "Anthropic Sells $81.3 Billion in Shares for a Record IPO.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -298,6 +375,100 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times",
+        "NPR"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/18/multimedia/18biz-anthropic-final-pricing-hfo-1-jbmp/18biz-anthropic-final-pricing-hfo-1-jbmp-mediumSquareAt3X.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6271x4181+0+0/resize/6271x4181!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F6b%2F90%2F5158932c4699aaae09ed54ef7814%2Fgettyimages-2304113199.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Anthropic Sells $81.3 Billion in Shares for a Record IPO",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-19T00:41:26.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/18/technology/anthropic-ipo-pricing.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/18biz-anthropic-final-pricing-hfo-1-jbmp/18biz-anthropic-final-pricing-hfo-1-jbmp-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Anthropic IPO raises record $81.3 billion on strong AI demand",
+          "source": "NPR",
+          "publishedAt": "2026-11-18T23:54:56.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/18/nx-s1-6046212/anthropic-record-ipo-price?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6271x4181+0+0/resize/6271x4181!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F6b%2F90%2F5158932c4699aaae09ed54ef7814%2Fgettyimages-2304113199.jpg"
+        }
+      ],
+      "path": "/us/entity/anthropic-sells-81-3-billion-in-shares-for-a-record-ipo/"
+    },
+    {
+      "id": "now-cluster-united states-school + just",
+      "title": "High school valedictorians to get custom kicks after Sen.-elect Colom asks Nike to 'Just Do It'",
+      "brief": "High school valedictorians to get custom kicks after Sen.-elect Colom asks Nike to 'Just Do It'.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NBC News Politics",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261112-scott-colom-mb-1044-9513b3.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T202119Z_1083223782_RC2TPOAVL2V6_RTRMADP_3_USA-CONGRESS-1024x683.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "High school valedictorians to get Nike shoes after request from Mississippi’s incoming senator",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-19T00:17:24.642Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/2026-election/high-school-valedictorians-get-nike-shoes-request-mississippis-incomin-rcna610116?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261112-scott-colom-mb-1044-9513b3.jpg"
+        },
+        {
+          "title": "High school valedictorians to get custom kicks after Sen.-elect Colom asks Nike to 'Just Do It'",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-18T23:07:29.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/politics/high-school-valedictorians-to-get-custom-kicks-after-sen-elect-colom-asks-nike-to-just-do-it?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T202119Z_1083223782_RC2TPOAVL2V6_RTRMADP_3_USA-CONGRESS-1024x683.jpg"
+        }
+      ],
+      "path": "/us/entity/high-school-valedictorians-to-get-custom-kicks-after-sen-elect-colom-asks-nike-t/"
+    },
+    {
+      "id": "moving-cluster-united states-russian + national",
+      "title": "Russian national who targeted Palantir workers charged as a foreign agent, sources say",
+      "brief": "Russian national who targeted Palantir workers charged as a foreign agent, sources say.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -332,54 +503,7 @@
       "path": "/us/entity/russian-national-who-targeted-palantir-workers-charged-as-a-foreign-agent-source/"
     },
     {
-      "id": "now-cluster-united states-school + largest",
-      "title": "The nation’s largest school districts consider ditching Google Search",
-      "brief": "The nation’s largest school districts consider ditching Google Search.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times",
-        "The Verge"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/18/multimedia/18biz-GoogleAI-schools-2-02-gmlp/18biz-GoogleAI-schools-2-02-gmlp-mediumSquareAt3X.jpg",
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/STK255_Google_Gemini_D.jpg?quality=90&strip=all&crop=0,0,100,100"
-      ],
-      "evidence": [
-        {
-          "title": "NYC, LA and Chicago School Districts Weigh Breaking Up With Google Search Over A.I.",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-18T23:23:06.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/18/technology/google-gemini-ai-search-schools-nyc-la-chicago.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/18biz-GoogleAI-schools-2-02-gmlp/18biz-GoogleAI-schools-2-02-gmlp-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "The nation’s largest school districts consider ditching Google Search",
-          "source": "The Verge",
-          "publishedAt": "2026-11-18T23:18:35.000Z",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/STK255_Google_Gemini_D.jpg?quality=90&strip=all&crop=0,0,100,100"
-        }
-      ],
-      "path": "/us/entity/the-nation-s-largest-school-districts-consider-ditching-google-search/"
-    },
-    {
-      "id": "moving-cluster-united states-anthropic + largest",
+      "id": "moving-cluster-united states-anthropic + public",
       "title": "Anthropic to go public Thursday in what could be one of the largest IPOs in history",
       "brief": "Anthropic to go public Thursday in what could be one of the largest IPOs in history.",
       "whyItMatters": "",
@@ -390,7 +514,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -426,24 +550,115 @@
       "path": "/us/entity/anthropic-to-go-public-thursday-in-what-could-be-one-of-the-largest-ipos-in-hist/"
     },
     {
-      "id": "moving-cluster-united states-trump + texas",
+      "id": "fading-cluster-united states-trump + house",
+      "title": "House Democrat warns 13 Trump allies to save their records for upcoming investigations",
+      "brief": "House Democrat warns 13 Trump allies to save their records for upcoming investigations.",
+      "whyItMatters": "",
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "4h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Crosses several sources"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times Politics",
+        "NPR Politics"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/18/multimedia/18dc-investigate-vtkq/18dc-investigate-vtkq-mediumSquareAt3X-v3.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7426x4951+0+0/resize/7426x4951!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F7e%2F14%2Fe286903e437c9611b628b1ea134c%2Fgettyimages-1845876653.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "House Democrats Cast Wide Net as They Prepare Trump Investigations",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-18T21:03:47.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/18/us/politics/house-democrats-trump-investigation.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/18dc-investigate-vtkq/18dc-investigate-vtkq-mediumSquareAt3X-v3.jpg"
+        },
+        {
+          "title": "House Democrat warns 13 Trump allies to save their records for upcoming investigations",
+          "source": "NPR Politics",
+          "publishedAt": "2026-11-18T15:01:32.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/18/g-s1-154147/robert-garcia-house-democrats-investigations-trump-administration?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7426x4951+0+0/resize/7426x4951!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F7e%2F14%2Fe286903e437c9611b628b1ea134c%2Fgettyimages-1845876653.jpg"
+        }
+      ],
+      "path": "/us/entity/house-democrat-warns-13-trump-allies-to-save-their-records-for-upcoming-investig/"
+    },
+    {
+      "id": "fading-cluster-united states-ground + stop",
+      "title": "DOT Secretary Sean Duffy keeps blaming L3Harris after FAA ground stop, even as cause remains unknown",
+      "brief": "DOT Secretary Sean Duffy keeps blaming L3Harris after FAA ground stop, even as cause remains unknown.",
+      "whyItMatters": "",
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "4h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Crosses several sources"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/18/multimedia/18dc-faa-overhaul-lcvf/18dc-faa-overhaul-lcvf-mediumSquareAt3X.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-18T044447Z_62003492_RC2YPOAL9ELZ_RTRMADP_3_USA-AVIATION-DUFFY-1024x678.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Ground Stop Came as Duffy Pushed to Rapidly Upgrade Aviation Systems",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-18T21:12:44.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/18/us/sean-duffy-ground-stop-faa-trump.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/18dc-faa-overhaul-lcvf/18dc-faa-overhaul-lcvf-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "DOT Secretary Sean Duffy keeps blaming L3Harris after FAA ground stop, even as cause remains unknown",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-18T20:50:38.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/politics/dot-secretary-sean-duffy-keeps-blaming-l3harris-after-faa-ground-stop-even-as-cause-remains-unknown?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-18T044447Z_62003492_RC2YPOAL9ELZ_RTRMADP_3_USA-AVIATION-DUFFY-1024x678.jpg"
+        }
+      ],
+      "path": "/us/entity/dot-secretary-sean-duffy-keeps-blaming-l3harris-after-faa-ground-stop-even-as-ca/"
+    },
+    {
+      "id": "fading-cluster-united states-trump + texas",
       "title": "Cornyn blocks Trump's nomination of top DOJ official to federal district court in Texas",
       "brief": "Cornyn blocks Trump's nomination of top DOJ official to federal district court in Texas.",
       "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 15,
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 76,
+      "alertScore": 52,
       "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
+        "Crosses several sources"
       ],
       "isHotNews": false,
       "sources": [

@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-19T00:00:48.255Z",
+  "updatedAt": "2026-11-19T01:00:48.413Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "253.421 enlaces analizados",
-  "dayScanLabel": "4.234 enlaces escaneados en 24h",
+  "ambientPulseLabel": "253.846 enlaces analizados",
+  "dayScanLabel": "4.237 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,6 +19,53 @@
   "topAlert": null,
   "signals": [
     {
+      "id": "now-cluster-españa-plan + sanchez",
+      "title": "El plan de Sánchez para no repetir \"los errores\" de 2023: \"tranquilidad\", porque \"va a haber barro\" y los debates \"los carga el diablo\"",
+      "brief": "El plan de Sánchez para no repetir \"los errores\" de 2023: \"tranquilidad\", porque \"va a haber barro\" y los debates \"los carga el diablo\".",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El País"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950236588806.jpg",
+        "https://imagenes.elpais.com/resizer/v2/GJCU6PV3F5E55EJE2EUBT6B5A4.jpg?auth=8affba0212570cabaa06b8e5cdb650fe36f141407f46cd1aa9e2a9f4987e3511"
+      ],
+      "evidence": [
+        {
+          "title": "El plan de Sánchez para no repetir \"los errores\" de 2023: \"tranquilidad\", porque \"va a haber barro\" y los debates \"los carga el diablo\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-19T00:11:17.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/19/6afde2e8e85ece51248b4570.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950236588806.jpg"
+        },
+        {
+          "title": "Sánchez, en Antena 3: “Absoluta tranquilidad, el PSOE no se ha financiado irregularmente”",
+          "source": "El País",
+          "publishedAt": "2026-11-18T18:34:18.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-18/sanchez-en-antena-3-absoluta-tranquilidad-el-psoe-no-se-ha-financiado-irregularmente.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/GJCU6PV3F5E55EJE2EUBT6B5A4.jpg?auth=8affba0212570cabaa06b8e5cdb650fe36f141407f46cd1aa9e2a9f4987e3511"
+        }
+      ],
+      "path": "/es/entity/el-plan-de-sanchez-para-no-repetir-los-errores-de-2023-tranquilidad-porque-va-a/"
+    },
+    {
       "id": "now-cluster-españa-historia + anthropic",
       "title": "Anthropic protagoniza hoy la mayor salida a bolsa de la historia con el desafío de poner en valor el sueño de 'crear la inteligencia'",
       "brief": "Anthropic protagoniza hoy la mayor salida a bolsa de la historia con el desafío de poner en valor el sueño de 'crear la inteligencia'.",
@@ -27,13 +74,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 73,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -52,7 +99,7 @@
         {
           "title": "Anthropic protagoniza hoy la mayor salida a bolsa de la historia con el desafío de poner en valor el sueño de 'crear la inteligencia'",
           "source": "El Mundo",
-          "publishedAt": "2026-11-18T22:02:07.000Z",
+          "publishedAt": "2026-11-18T22:02:06.000Z",
           "sourceUrl": "https://www.elmundo.es/economia/dinero-inversion/2026/11/18/6afdb1f3e9cf4a680a8b4575.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950384052064.jpg"
         },
@@ -82,10 +129,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -128,13 +175,13 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 64,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -174,10 +221,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 7,
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresca",
+      "freshness": "8h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -216,12 +263,12 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 6,
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "8h fresca",
+      "freshness": "9h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -265,7 +312,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 60,
@@ -309,10 +356,10 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 60,
@@ -346,53 +393,6 @@
         }
       ],
       "path": "/es/entity/isak-andic-tramo-un-plan-con-la-terapeuta-para-apartar-a-jonathan-de-mango-y-que/"
-    },
-    {
-      "id": "now-cluster-españa-candidatos + presidente",
-      "title": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos",
-      "brief": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 60,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Mundo"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/de-cos-kWQH-U40421105199n9B-1200x840@RC.jpg",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950209323473.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Hernández de Cos asegura los apoyos para convertirse en presidente del BCE",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T18:32:42.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/hernandez-cos-asegura-apoyos-convertirse-presidente-bce-20261118193241-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/de-cos-kWQH-U40421105199n9B-1200x840@RC.jpg"
-        },
-        {
-          "title": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-18T17:31:41.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/18/6afdd1d1fc6c83c1318b4590.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950209323473.jpg"
-        }
-      ],
-      "path": "/es/entity/hernandez-de-cos-asegura-todos-los-apoyos-para-ser-presidente-del-bce-a-pesar-de/"
     }
   ]
 }
