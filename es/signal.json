@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-18T23:00:48.140Z",
+  "updatedAt": "2026-11-19T00:00:48.255Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "253.001 enlaces analizados",
-  "dayScanLabel": "4.235 enlaces escaneados en 24h",
+  "ambientPulseLabel": "253.421 enlaces analizados",
+  "dayScanLabel": "4.234 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,62 +19,7 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "moving-cluster-españa-trump + putin",
-      "title": "Xi Jinping y Putin exhiben su alianza y critican las sanciones de EE.UU. antes de reunirse con Trump",
-      "brief": "Xi Jinping y Putin exhiben su alianza y critican las sanciones de EE.UU. antes de reunirse con Trump.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 16,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 86,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950038715947.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Xi Jinping, más fuerte que Trump y Putin en la gran mesa del poder mundial",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-18T18:31:17.000Z",
-          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/18/6afced65fdddffe2408b4586.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950038715947.jpg"
-        },
-        {
-          "title": "Xi Jinping y Putin exhiben su alianza y critican las sanciones de EE.UU. antes de reunirse con Trump",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T17:11:01.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/asia/jinping-putin-exhiben-alianza-critican-sanciones-eeuu-20261118181101-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Xi y Putin reafirman su alianza estratégica antes de su reunión a tres bandas con Trump",
-          "source": "El País",
-          "publishedAt": "2026-11-18T16:24:14.000Z",
-          "sourceUrl": "https://elpais.com/internacional/2026-11-18/xi-jinping-y-putin-reivindican-su-firme-relacion-poco-antes-de-la-llegada-de-trump-a-la-cumbre-de-la-apec-en-china.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/xi-jinping-y-putin-exhiben-su-alianza-y-critican-las-sanciones-de-ee-uu-antes-de/"
-    },
-    {
-      "id": "now-cluster-españa-mayor + historia",
+      "id": "now-cluster-españa-historia + anthropic",
       "title": "Anthropic protagoniza hoy la mayor salida a bolsa de la historia con el desafío de poner en valor el sueño de 'crear la inteligencia'",
       "brief": "Anthropic protagoniza hoy la mayor salida a bolsa de la historia con el desafío de poner en valor el sueño de 'crear la inteligencia'.",
       "whyItMatters": "",
@@ -85,7 +30,7 @@
       "strength": 16,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 79,
@@ -129,102 +74,9 @@
       "path": "/es/entity/anthropic-protagoniza-hoy-la-mayor-salida-a-bolsa-de-la-historia-con-el-desafio/"
     },
     {
-      "id": "now-cluster-españa-contra + ante",
-      "title": "Pesadilla en Estambul: el peor Real Madrid de la temporada cae ante el Besiktas",
-      "brief": "Pesadilla en Estambul: el peor Real Madrid de la temporada cae ante el Besiktas.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/KF2V57RCINCWRLRBB4FIRTGCIA.jpg?auth=8ac43eeec051649fa525ca8836787b0e852a70213156f922636ad3a4055fa5b5",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950289546338.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Un Madrid irreconocible se diluye en Estambul contra el Besiktas",
-          "source": "El País",
-          "publishedAt": "2026-11-18T19:48:20.000Z",
-          "sourceUrl": "https://elpais.com/deportes/baloncesto/2026-11-18/un-madrid-irreconocible-se-diluye-en-estambul-contra-el-besiktas.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/KF2V57RCINCWRLRBB4FIRTGCIA.jpg?auth=8ac43eeec051649fa525ca8836787b0e852a70213156f922636ad3a4055fa5b5"
-        },
-        {
-          "title": "Pesadilla en Estambul: el peor Real Madrid de la temporada cae ante el Besiktas",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-18T19:15:05.000Z",
-          "sourceUrl": "https://www.elmundo.es/deportes/baloncesto/euroliga/2026/11/18/6afdca88e9cf4a275e8b4588.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950289546338.jpg"
-        }
-      ],
-      "path": "/es/entity/pesadilla-en-estambul-el-peor-real-madrid-de-la-temporada-cae-ante-el-besiktas/"
-    },
-    {
-      "id": "now-cluster-españa-hakeem + jeffries",
-      "title": "Los demócratas proponen a Hakeem Jeffries como primer presidente negro de la Cámara de Representantes en el nuevo Congreso",
-      "brief": "Los demócratas proponen a Hakeem Jeffries como primer presidente negro de la Cámara de Representantes en el nuevo Congreso.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/AAEWZDADHJMTJDIRBC7EHNJAEE.jpg?auth=04fd73e7b011e71a29ff58e235d1746391ebc6849533eb3f753fb345238b90f6"
-      ],
-      "evidence": [
-        {
-          "title": "Los demócratas proponen a Hakeem Jeffries como primer presidente negro de la Cámara de Representantes",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T19:04:35.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/democratas-proponen-hakeem-jeffries-primer-presidente-negro-20261118200435-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Los demócratas proponen a Hakeem Jeffries como primer presidente negro de la Cámara de Representantes en el nuevo Congreso",
-          "source": "El País",
-          "publishedAt": "2026-11-18T16:35:28.000Z",
-          "sourceUrl": "https://elpais.com/us/2026-11-18/los-democratas-proponen-a-hakeem-jefferies-como-primer-presidente-negro-de-la-camara-de-representantes-en-el-nuevo-congreso.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/AAEWZDADHJMTJDIRBC7EHNJAEE.jpg?auth=04fd73e7b011e71a29ff58e235d1746391ebc6849533eb3f753fb345238b90f6"
-        }
-      ],
-      "path": "/es/entity/los-democratas-proponen-a-hakeem-jeffries-como-primer-presidente-negro-de-la-cam/"
-    },
-    {
-      "id": "moving-cluster-españa-presidente + hernandez",
-      "title": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos",
-      "brief": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos.",
+      "id": "moving-cluster-españa-jinping + fuerte",
+      "title": "Xi Jinping y Putin exhiben su alianza y critican las sanciones de EE.UU. antes de reunirse con Trump",
+      "brief": "Xi Jinping y Putin exhiben su alianza y critican las sanciones de EE.UU. antes de reunirse con Trump.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
@@ -233,7 +85,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -243,30 +95,29 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Correo",
-        "El Mundo"
+        "El Mundo",
+        "El Correo"
       ],
       "images": [
-        "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/de-cos-kWQH-U40421105199n9B-1200x840@RC.jpg",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950209323473.jpg"
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950038715947.jpg"
       ],
       "evidence": [
         {
-          "title": "Hernández de Cos asegura los apoyos para convertirse en presidente del BCE",
-          "source": "El Correo",
-          "publishedAt": "2026-11-18T18:32:42.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/hernandez-cos-asegura-apoyos-convertirse-presidente-bce-20261118193241-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/de-cos-kWQH-U40421105199n9B-1200x840@RC.jpg"
+          "title": "Xi Jinping, más fuerte que Trump y Putin en la gran mesa del poder mundial",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-18T18:31:17.000Z",
+          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/18/6afced65fdddffe2408b4586.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950038715947.jpg"
         },
         {
-          "title": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-18T17:31:41.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/18/6afdd1d1fc6c83c1318b4590.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950209323473.jpg"
+          "title": "Xi Jinping y Putin exhiben su alianza y critican las sanciones de EE.UU. antes de reunirse con Trump",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T17:11:01.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/asia/jinping-putin-exhiben-alianza-critican-sanciones-eeuu-20261118181101-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         }
       ],
-      "path": "/es/entity/hernandez-de-cos-asegura-todos-los-apoyos-para-ser-presidente-del-bce-a-pesar-de/"
+      "path": "/es/entity/xi-jinping-y-putin-exhiben-su-alianza-y-critican-las-sanciones-de-ee-uu-antes-de/"
     },
     {
       "id": "moving-cluster-españa-frente + amplio",
@@ -280,7 +131,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -323,13 +174,13 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 64,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -359,6 +210,97 @@
       "path": "/es/entity/mbappe-alarga-su-estancia-en-gipuzkoa-junto-a-ester-exposito-de-escapada-expres/"
     },
     {
+      "id": "moving-cluster-españa-otro + fiscalia",
+      "title": "La Fiscalía tumba otro tercer grado del Gobierno vasco a un preso de ETA",
+      "brief": "La Fiscalía tumba otro tercer grado del Gobierno vasco a un preso de ETA.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 6,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "8h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 64,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "La Fiscalía tumba otro tercer grado del Gobierno vasco a un preso de ETA",
+          "source": "El Correo",
+          "publishedAt": "2026-11-18T15:49:15.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/fiscalia-tumba-tercer-grado-gobierno-vasco-preso-20261118164859-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "La Fiscalía recurre el tercer grado concedido por el Gobierno Vasco al preso de ETA Asier Eceiza",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-18T15:08:54.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/fiscalia-recurre-tercer-grado-eta-asier-eceiza-20261118160601-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/la-fiscalia-tumba-otro-tercer-grado-del-gobierno-vasco-a-un-preso-de-eta/"
+    },
+    {
+      "id": "now-cluster-españa-contra + real",
+      "title": "Pesadilla en Estambul: el peor Real Madrid de la temporada cae ante el Besiktas",
+      "brief": "Pesadilla en Estambul: el peor Real Madrid de la temporada cae ante el Besiktas.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "4h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 60,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/KF2V57RCINCWRLRBB4FIRTGCIA.jpg?auth=8ac43eeec051649fa525ca8836787b0e852a70213156f922636ad3a4055fa5b5",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950289546338.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Un Madrid irreconocible se diluye en Estambul contra el Besiktas",
+          "source": "El País",
+          "publishedAt": "2026-11-18T19:48:20.000Z",
+          "sourceUrl": "https://elpais.com/deportes/baloncesto/2026-11-18/un-madrid-irreconocible-se-diluye-en-estambul-contra-el-besiktas.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/KF2V57RCINCWRLRBB4FIRTGCIA.jpg?auth=8ac43eeec051649fa525ca8836787b0e852a70213156f922636ad3a4055fa5b5"
+        },
+        {
+          "title": "Pesadilla en Estambul: el peor Real Madrid de la temporada cae ante el Besiktas",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-18T19:15:05.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/baloncesto/euroliga/2026/11/18/6afdca88e9cf4a275e8b4588.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950289546338.jpg"
+        }
+      ],
+      "path": "/es/entity/pesadilla-en-estambul-el-peor-real-madrid-de-la-temporada-cae-ante-el-besiktas/"
+    },
+    {
       "id": "now-cluster-españa-isak + andic",
       "title": "Isak Andic tramó un plan con la terapeuta para apartar a Jonathan de Mango y que no volviera nunca a la empresa",
       "brief": "Isak Andic tramó un plan con la terapeuta para apartar a Jonathan de Mango y que no volviera nunca a la empresa.",
@@ -367,10 +309,10 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 9,
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 60,
@@ -406,83 +348,51 @@
       "path": "/es/entity/isak-andic-tramo-un-plan-con-la-terapeuta-para-apartar-a-jonathan-de-mango-y-que/"
     },
     {
-      "id": "fading-cluster-españa-otro + gobierno",
-      "title": "La Fiscalía tumba otro tercer grado del Gobierno vasco a un preso de ETA",
-      "brief": "La Fiscalía tumba otro tercer grado del Gobierno vasco a un preso de ETA.",
+      "id": "now-cluster-españa-candidatos + presidente",
+      "title": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos",
+      "brief": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos.",
       "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 7,
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 46,
+      "alertScore": 60,
       "alertTriggers": [
-        "Cruza varias fuentes"
+        "Cruza varias fuentes",
+        "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
         "El Correo",
-        "El Diario Vasco"
+        "El Mundo"
       ],
-      "images": [],
+      "images": [
+        "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/de-cos-kWQH-U40421105199n9B-1200x840@RC.jpg",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950209323473.jpg"
+      ],
       "evidence": [
         {
-          "title": "La Fiscalía tumba otro tercer grado del Gobierno vasco a un preso de ETA",
+          "title": "Hernández de Cos asegura los apoyos para convertirse en presidente del BCE",
           "source": "El Correo",
-          "publishedAt": "2026-11-18T15:49:15.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/fiscalia-tumba-tercer-grado-gobierno-vasco-preso-20261118164859-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "publishedAt": "2026-11-18T18:32:42.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/hernandez-cos-asegura-apoyos-convertirse-presidente-bce-20261118193241-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/18/de-cos-kWQH-U40421105199n9B-1200x840@RC.jpg"
         },
         {
-          "title": "La Fiscalía recurre el tercer grado concedido por el Gobierno Vasco al preso de ETA Asier Eceiza",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-18T15:08:54.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/fiscalia-recurre-tercer-grado-eta-asier-eceiza-20261118160601-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "Hernández de Cos asegura todos los apoyos para ser presidente del BCE a pesar del retraso del Eurogrupo para nombrar candidatos",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-18T17:31:41.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/2026/11/18/6afdd1d1fc6c83c1318b4590.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/18/17950209323473.jpg"
         }
       ],
-      "path": "/es/entity/la-fiscalia-tumba-otro-tercer-grado-del-gobierno-vasco-a-un-preso-de-eta/"
-    },
-    {
-      "id": "fading-cluster-españa-evita + matute",
-      "title": "Matute afirma que ETA era un «estorbo» y evita catalogarla como «banda terrorista»",
-      "brief": "Matute afirma que ETA era un «estorbo» y evita catalogarla como «banda terrorista».",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "8h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "Matute afirma que ETA era un «estorbo» y evita catalogarla como «banda terrorista»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-18T15:03:09.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/matute-bildu-afirma-eta-era-estorbo-evita-catalogarla-banda-terrorista-20261118160205-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/matute-afirma-que-eta-era-un-estorbo-y-evita-catalogarla-como-banda-terrorista/"
+      "path": "/es/entity/hernandez-de-cos-asegura-todos-los-apoyos-para-ser-presidente-del-bce-a-pesar-de/"
     }
   ]
 }
