@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-19T06:00:47.873Z",
+  "updatedAt": "2026-11-19T07:00:47.875Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "304,270 links analyzed",
-  "dayScanLabel": "8,369 links scanned in 24h",
+  "ambientPulseLabel": "305,106 links analyzed",
+  "dayScanLabel": "8,371 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -24,35 +24,48 @@
     "verdict": "If it repeats in the next run, it gains weight.",
     "mode": "now",
     "state": "rising",
-    "stateLabel": "Rising",
-    "strength": 33,
-    "sourceCount": 6,
-    "itemCount": 9,
+    "stateLabel": "Hot",
+    "strength": 38,
+    "sourceCount": 8,
+    "itemCount": 11,
     "freshness": "fresh now",
-    "alertLevel": "watch",
-    "alertLabel": "Watch",
+    "alertLevel": "hot",
+    "alertLabel": "Hot alert",
     "alertScore": 99,
     "alertTriggers": [
       "Crosses several sources",
       "Picks up volume fast",
       "Still active"
     ],
-    "isHotNews": false,
+    "isHotNews": true,
     "sources": [
+      "The New York Times World",
+      "The New York Times",
       "NBC News Politics",
       "CBS News",
-      "NBC News",
-      "PBS NewsHour",
-      "The New York Times Politics"
+      "NBC News"
     ],
     "images": [
+      "https://static01.nyt.com/images/2026/11/19/multimedia/19trump-summits-villa/19trump-summits-villa-mediumSquareAt3X.jpg",
       "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/CHINA-APEC-DIPLOMACY-SUMMIT-2305266500-Getty-8f0ahm.jpg",
       "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/19/a4e22d66-b17d-4a15-a550-0a712c320dff/thumbnail/1200x630/2bb98cf833f426bebe9b1b4c8dc7ef0a/cbsn-fusion-trump-summit-with-xi-and-putin-comes-at-time-of-uncertainty-thumbnail.jpg",
-      "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/19/afd23427-f16c-4916-8541-f7f69453c1aa/thumbnail/1200x630/09199be8decc762b4f0fc100c257ce58/gettyimages-2305252000.jpg",
-      "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795052345616_now_topstory_trilateral_trump_putin_xijinping_261118_S3_1920x1080-e3375f.jpg",
-      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/china-1024x683.jpg"
+      "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/19/afd23427-f16c-4916-8541-f7f69453c1aa/thumbnail/1200x630/09199be8decc762b4f0fc100c257ce58/gettyimages-2305252000.jpg"
     ],
     "evidence": [
+      {
+        "title": "Villa Where Trump, Xi and Putin Will Meet Once Hosted Kim Jong-il",
+        "source": "The New York Times World",
+        "publishedAt": "2026-11-19T06:53:53.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/19/world/asia/trump-xi-putin-kylin-villa.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19trump-summits-villa/19trump-summits-villa-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Late Night Follows Trump’s Meeting with Xi and Putin in China",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-19T06:49:57.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/19/arts/television/late-night-trump-xi-putin.html?utm_source=lootura.com&ref=lootura.com",
+        "image": ""
+      },
       {
         "title": "Trump meets with Putin in China",
         "source": "NBC News Politics",
@@ -73,20 +86,6 @@
         "publishedAt": "2026-11-19T02:04:00.000Z",
         "sourceUrl": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/?utm_source=lootura.com&ref=lootura.com",
         "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/19/afd23427-f16c-4916-8541-f7f69453c1aa/thumbnail/1200x630/09199be8decc762b4f0fc100c257ce58/gettyimages-2305252000.jpg"
-      },
-      {
-        "title": "What to expect from Trump's meeting with Putin and Xi Jinping",
-        "source": "NBC News",
-        "publishedAt": "2026-11-19T01:39:13.000Z",
-        "sourceUrl": "https://www.nbcnews.com/video/what-to-expect-from-trump-s-meeting-with-putin-and-xi-jinping-273779781736?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795052345616_now_topstory_trilateral_trump_putin_xijinping_261118_S3_1920x1080-e3375f.jpg"
-      },
-      {
-        "title": "Trump lands in China for trade talks and high-stakes summit with Xi and Putin",
-        "source": "PBS NewsHour",
-        "publishedAt": "2026-11-18T23:55:44.000Z",
-        "sourceUrl": "https://www.pbs.org/newshour/show/trump-lands-in-china-for-trade-talks-and-high-stakes-summit-with-xi-and-putin?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/china-1024x683.jpg"
       }
     ],
     "path": "/us/entity/trump-xi-and-putin-will-sit-down-for-the-first-time-it-won-t-be-like-yalta/"
@@ -100,35 +99,48 @@
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 33,
-      "sourceCount": 6,
-      "itemCount": 9,
+      "stateLabel": "Hot",
+      "strength": 38,
+      "sourceCount": 8,
+      "itemCount": 11,
       "freshness": "fresh now",
-      "alertLevel": "watch",
-      "alertLabel": "Watch",
+      "alertLevel": "hot",
+      "alertLabel": "Hot alert",
       "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
         "Still active"
       ],
-      "isHotNews": false,
+      "isHotNews": true,
       "sources": [
+        "The New York Times World",
+        "The New York Times",
         "NBC News Politics",
         "CBS News",
-        "NBC News",
-        "PBS NewsHour",
-        "The New York Times Politics"
+        "NBC News"
       ],
       "images": [
+        "https://static01.nyt.com/images/2026/11/19/multimedia/19trump-summits-villa/19trump-summits-villa-mediumSquareAt3X.jpg",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/CHINA-APEC-DIPLOMACY-SUMMIT-2305266500-Getty-8f0ahm.jpg",
         "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/19/a4e22d66-b17d-4a15-a550-0a712c320dff/thumbnail/1200x630/2bb98cf833f426bebe9b1b4c8dc7ef0a/cbsn-fusion-trump-summit-with-xi-and-putin-comes-at-time-of-uncertainty-thumbnail.jpg",
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/19/afd23427-f16c-4916-8541-f7f69453c1aa/thumbnail/1200x630/09199be8decc762b4f0fc100c257ce58/gettyimages-2305252000.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795052345616_now_topstory_trilateral_trump_putin_xijinping_261118_S3_1920x1080-e3375f.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/china-1024x683.jpg"
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/19/afd23427-f16c-4916-8541-f7f69453c1aa/thumbnail/1200x630/09199be8decc762b4f0fc100c257ce58/gettyimages-2305252000.jpg"
       ],
       "evidence": [
+        {
+          "title": "Villa Where Trump, Xi and Putin Will Meet Once Hosted Kim Jong-il",
+          "source": "The New York Times World",
+          "publishedAt": "2026-11-19T06:53:53.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/19/world/asia/trump-xi-putin-kylin-villa.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19trump-summits-villa/19trump-summits-villa-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Late Night Follows Trump’s Meeting with Xi and Putin in China",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-19T06:49:57.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/19/arts/television/late-night-trump-xi-putin.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
         {
           "title": "Trump meets with Putin in China",
           "source": "NBC News Politics",
@@ -149,23 +161,74 @@
           "publishedAt": "2026-11-19T02:04:00.000Z",
           "sourceUrl": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/?utm_source=lootura.com&ref=lootura.com",
           "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/19/afd23427-f16c-4916-8541-f7f69453c1aa/thumbnail/1200x630/09199be8decc762b4f0fc100c257ce58/gettyimages-2305252000.jpg"
-        },
-        {
-          "title": "What to expect from Trump's meeting with Putin and Xi Jinping",
-          "source": "NBC News",
-          "publishedAt": "2026-11-19T01:39:13.000Z",
-          "sourceUrl": "https://www.nbcnews.com/video/what-to-expect-from-trump-s-meeting-with-putin-and-xi-jinping-273779781736?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795052345616_now_topstory_trilateral_trump_putin_xijinping_261118_S3_1920x1080-e3375f.jpg"
-        },
-        {
-          "title": "Trump lands in China for trade talks and high-stakes summit with Xi and Putin",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-18T23:55:44.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/show/trump-lands-in-china-for-trade-talks-and-high-stakes-summit-with-xi-and-putin?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/china-1024x683.jpg"
         }
       ],
       "path": "/us/entity/trump-xi-and-putin-will-sit-down-for-the-first-time-it-won-t-be-like-yalta/"
+    },
+    {
+      "id": "moving-cluster-united states-grand + theft",
+      "title": "Why Grand Theft Auto VI's release is a major cultural moment",
+      "brief": "Why Grand Theft Auto VI's release is a major cultural moment.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 18,
+      "sourceCount": 4,
+      "itemCount": 4,
+      "freshness": "5h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NBC News",
+        "CBS News",
+        "PBS NewsHour",
+        "The New York Times"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795054110112_now_topstory_gta_launches_release_261117_S3_1920x1080-fx1815.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/gta-1024x683.jpg",
+        "https://static01.nyt.com/images/2026/11/22/multimedia/22cul-gta-florida-print-jqmt/22cul-gta-florida-print-jqmt-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Grand Theft Auto VI launches after 13 years of development",
+          "source": "NBC News",
+          "publishedAt": "2026-11-19T02:08:35.000Z",
+          "sourceUrl": "https://www.nbcnews.com/video/grand-theft-auto-vi-launches-after-13-years-of-development-273781317952?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795054110112_now_topstory_gta_launches_release_261117_S3_1920x1080-fx1815.jpg"
+        },
+        {
+          "title": "Grand Theft Auto 6 sparking widespread PTO requests ahead of midnight release",
+          "source": "CBS News",
+          "publishedAt": "2026-11-19T01:27:23.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/grand-theft-auto-6-sparking-widespread-pto-requests-ahead-of-midnight-release/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Why Grand Theft Auto VI's release is a major cultural moment",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-18T23:15:22.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/why-grand-theft-auto-vis-release-is-a-major-cultural-moment?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/gta-1024x683.jpg"
+        },
+        {
+          "title": "The Real-Life City That Inspires Grand Theft Auto VI",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-18T15:31:43.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/18/arts/grand-theft-auto-vi-miami-florida.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22cul-gta-florida-print-jqmt/22cul-gta-florida-print-jqmt-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/why-grand-theft-auto-vi-s-release-is-a-major-cultural-moment/"
     },
     {
       "id": "now-cluster-united states-hakeem + jeffries",
@@ -174,15 +237,15 @@
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 21,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 20,
       "sourceCount": 4,
       "itemCount": 6,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 99,
+      "alertScore": 97,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -242,91 +305,18 @@
       "path": "/us/entity/what-to-know-about-hakeem-jeffries-as-he-easily-wins-democratic-nomination-for-h/"
     },
     {
-      "id": "moving-cluster-united states-grand + theft",
-      "title": "Will people skip work and hurt the U.S. economy to play Grand Theft Auto 6?",
-      "brief": "Will people skip work and hurt the U.S. economy to play Grand Theft Auto 6?",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 19,
-      "sourceCount": 4,
-      "itemCount": 5,
-      "freshness": "4h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 99,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News",
-        "CBS News",
-        "PBS NewsHour",
-        "The New York Times"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795054110112_now_topstory_gta_launches_release_261117_S3_1920x1080-fx1815.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/gta-1024x683.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-18T202811Z_793939499_RC2KQOAXA877_RTRMADP_3_GAMING-GTA-VI-LEBANON-1024x683.jpg",
-        "https://static01.nyt.com/images/2026/11/22/multimedia/22cul-gta-florida-print-jqmt/22cul-gta-florida-print-jqmt-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Grand Theft Auto VI launches after 13 years of development",
-          "source": "NBC News",
-          "publishedAt": "2026-11-19T02:08:35.000Z",
-          "sourceUrl": "https://www.nbcnews.com/video/grand-theft-auto-vi-launches-after-13-years-of-development-273781317952?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795054110112_now_topstory_gta_launches_release_261117_S3_1920x1080-fx1815.jpg"
-        },
-        {
-          "title": "Grand Theft Auto 6 sparking widespread PTO requests ahead of midnight release",
-          "source": "CBS News",
-          "publishedAt": "2026-11-19T01:27:23.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/grand-theft-auto-6-sparking-widespread-pto-requests-ahead-of-midnight-release/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Why Grand Theft Auto VI's release is a major cultural moment",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-18T23:15:22.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/show/why-grand-theft-auto-vis-release-is-a-major-cultural-moment?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/gta-1024x683.jpg"
-        },
-        {
-          "title": "Will people skip work and hurt the U.S. economy to play Grand Theft Auto 6?",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-18T21:44:20.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/nation/will-people-skip-work-and-hurt-the-u-s-economy-to-play-grand-theft-auto-6?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-18T202811Z_793939499_RC2KQOAXA877_RTRMADP_3_GAMING-GTA-VI-LEBANON-1024x683.jpg"
-        },
-        {
-          "title": "The Real-Life City That Inspires Grand Theft Auto VI",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-18T15:31:43.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/18/arts/grand-theft-auto-vi-miami-florida.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22cul-gta-florida-print-jqmt/22cul-gta-florida-print-jqmt-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/will-people-skip-work-and-hurt-the-u-s-economy-to-play-grand-theft-auto-6/"
-    },
-    {
-      "id": "now-cluster-united states-elon + musk",
+      "id": "moving-cluster-united states-elon + musk",
       "title": "Elon Musk says he's \"not MAGA,\" feels \"foolish\" about how much he spent in midterms",
       "brief": "Elon Musk says he's \"not MAGA,\" feels \"foolish\" about how much he spent in midterms.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
       "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 86,
@@ -372,51 +362,51 @@
       "path": "/us/entity/elon-musk-says-he-s-not-maga-feels-foolish-about-how-much-he-spent-in-midterms/"
     },
     {
-      "id": "now-cluster-united states-anthropic + public",
-      "title": "Anthropic to go public Thursday in what could be one of the largest IPOs in history",
-      "brief": "Anthropic to go public Thursday in what could be one of the largest IPOs in history.",
+      "id": "now-cluster-united states-trump + shares",
+      "title": "Trump says Xi shares U.S. interest in ensuring energy flows through Strait of Hormuz",
+      "brief": "Trump says Xi shares U.S. interest in ensuring energy flows through Strait of Hormuz.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 9,
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresh",
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 70,
+      "alertScore": 76,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
       ],
       "isHotNews": false,
       "sources": [
-        "The New York Times",
-        "CBS News"
+        "NBC News Politics",
+        "NBC News"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/18/multimedia/18biz-anthropic-governance-bvmc/18biz-anthropic-governance-bvmc-mediumSquareAt3X.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/edbbc408-2fd0-4e05-8ce7-2f7c4aa95894/thumbnail/1200x630/35bb0c709ebfa693c66f55753788e9f3/cbsn-fusion-anthropic-to-go-public-thursday-in-what-could-be-one-of-the-largest-ipos-in-history-thumbnail.jpg"
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795070115364_f_mo_la_trump_remarks_xi_meeting_261118_S3_1920x1080-2v2fj1.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261118-trump-putin0xi-mb-1145-4e0e2f.jpg"
       ],
       "evidence": [
         {
-          "title": "Anthropic’s Public Debut Sets Up ‘Experiment’ in Corporate Power",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-19T02:55:51.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/18/business/anthropic-ipo-corporate-governance.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/18biz-anthropic-governance-bvmc/18biz-anthropic-governance-bvmc-mediumSquareAt3X.jpg"
+          "title": "Trump says Xi shares U.S. interest in ensuring energy flows through Strait of Hormuz",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-19T06:35:20.000Z",
+          "sourceUrl": "https://www.nbcnews.com/video/trump-says-xi-shares-u-s-interest-in-ensuring-energy-flows-through-strait-of-hormuz-273791557698?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795070115364_f_mo_la_trump_remarks_xi_meeting_261118_S3_1920x1080-2v2fj1.jpg"
         },
         {
-          "title": "Anthropic to go public Thursday in what could be one of the largest IPOs in history",
-          "source": "CBS News",
-          "publishedAt": "2026-11-18T22:52:31.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/anthropic-to-go-public-thursday-in-what-could-be-one-of-the-largest-ipos-in-history/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/edbbc408-2fd0-4e05-8ce7-2f7c4aa95894/thumbnail/1200x630/35bb0c709ebfa693c66f55753788e9f3/cbsn-fusion-anthropic-to-go-public-thursday-in-what-could-be-one-of-the-largest-ipos-in-history-thumbnail.jpg"
+          "title": "Trump pushes for three-way nuclear deal as Russia and China show little interest",
+          "source": "NBC News",
+          "publishedAt": "2026-11-19T03:46:42.000Z",
+          "sourceUrl": "https://www.nbcnews.com/world/asia/trump-pushes-three-way-nuclear-deal-russia-china-show-little-interest-rcna610145?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261118-trump-putin0xi-mb-1145-4e0e2f.jpg"
         }
       ],
-      "path": "/us/entity/anthropic-to-go-public-thursday-in-what-could-be-one-of-the-largest-ipos-in-hist/"
+      "path": "/us/entity/trump-says-xi-shares-u-s-interest-in-ensuring-energy-flows-through-strait-of-hor/"
     },
     {
       "id": "moving-cluster-united states-americans + issues",
@@ -430,7 +420,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 70,
@@ -473,10 +463,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 70,
@@ -511,24 +501,70 @@
       "path": "/us/entity/rainfall-supercharged-by-el-nino-causes-road-flooding-synagogue-roof-collapse-in/"
     },
     {
-      "id": "moving-cluster-united states-anthropic + billion",
-      "title": "Anthropic Sells $81.3 Billion in Shares for a Record IPO",
-      "brief": "Anthropic Sells $81.3 Billion in Shares for a Record IPO.",
+      "id": "now-cluster-united states-anthropic + public",
+      "title": "Anthropic to go public Thursday in what could be one of the largest IPOs in history",
+      "brief": "Anthropic to go public Thursday in what could be one of the largest IPOs in history.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 8,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 70,
+      "alertScore": 60,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times",
+        "CBS News"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/18/multimedia/18biz-anthropic-governance-bvmc/18biz-anthropic-governance-bvmc-mediumSquareAt3X.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/edbbc408-2fd0-4e05-8ce7-2f7c4aa95894/thumbnail/1200x630/35bb0c709ebfa693c66f55753788e9f3/cbsn-fusion-anthropic-to-go-public-thursday-in-what-could-be-one-of-the-largest-ipos-in-history-thumbnail.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Anthropic’s Public Debut Sets Up ‘Experiment’ in Corporate Power",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-19T02:55:51.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/18/business/anthropic-ipo-corporate-governance.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/18biz-anthropic-governance-bvmc/18biz-anthropic-governance-bvmc-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Anthropic to go public Thursday in what could be one of the largest IPOs in history",
+          "source": "CBS News",
+          "publishedAt": "2026-11-18T22:52:31.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/anthropic-to-go-public-thursday-in-what-could-be-one-of-the-largest-ipos-in-history/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/edbbc408-2fd0-4e05-8ce7-2f7c4aa95894/thumbnail/1200x630/35bb0c709ebfa693c66f55753788e9f3/cbsn-fusion-anthropic-to-go-public-thursday-in-what-could-be-one-of-the-largest-ipos-in-history-thumbnail.jpg"
+        }
+      ],
+      "path": "/us/entity/anthropic-to-go-public-thursday-in-what-could-be-one-of-the-largest-ipos-in-hist/"
+    },
+    {
+      "id": "fading-cluster-united states-anthropic + billion",
+      "title": "Anthropic Sells $81.3 Billion in Shares for a Record IPO",
+      "brief": "Anthropic Sells $81.3 Billion in Shares for a Record IPO.",
+      "whyItMatters": "",
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "6h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Crosses several sources"
       ],
       "isHotNews": false,
       "sources": [
