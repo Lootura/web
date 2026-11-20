@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-20T15:00:48.429Z",
+  "updatedAt": "2026-11-20T16:00:48.579Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "268.611 enlaces analizados",
-  "dayScanLabel": "4.193 enlaces escaneados en 24h",
+  "ambientPulseLabel": "269.031 enlaces analizados",
+  "dayScanLabel": "4.189 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,18 +19,18 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-feijoo + sanchez",
+      "id": "moving-cluster-españa-feijoo + sanchez",
       "title": "Moncloa defiende la estrategia de Sánchez en el cara a cara con Feijóo: \"No es OT ni un combate de boxeo, es un debate de modelos\"",
       "brief": "Moncloa defiende la estrategia de Sánchez en el cara a cara con Feijóo: \"No es OT ni un combate de boxeo, es un debate de modelos\".",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 30,
+      "strength": 29,
       "sourceCount": 4,
-      "itemCount": 10,
-      "freshness": "fresca ahora",
+      "itemCount": 9,
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 99,
@@ -91,18 +91,18 @@
       "path": "/es/entity/moncloa-defiende-la-estrategia-de-sanchez-en-el-cara-a-cara-con-feijoo-no-es-ot/"
     },
     {
-      "id": "moving-cluster-españa-final + cuartos",
+      "id": "moving-cluster-españa-cuartos + ante",
       "title": "España se medirá a la Francia de Zidane y Mbappé en los cuartos de final de la Liga de Naciones",
       "brief": "España se medirá a la Francia de Zidane y Mbappé en los cuartos de final de la Liga de Naciones.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
+      "state": "active",
+      "stateLabel": "Activa",
       "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 86,
@@ -148,9 +148,63 @@
       "path": "/es/entity/espana-se-medira-a-la-francia-de-zidane-y-mbappe-en-los-cuartos-de-final-de-la-l/"
     },
     {
-      "id": "now-cluster-españa-voto + supremo",
-      "title": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España",
-      "brief": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España.",
+      "id": "now-cluster-españa-gobierno + vasco",
+      "title": "El Gobierno Vasco se reunirá la semana que viene con Redeia e Iberdrola para acelerar la ampliación eléctrica y blindar la industria",
+      "brief": "El Gobierno Vasco se reunirá la semana que viene con Redeia e Iberdrola para acelerar la ampliación eléctrica y blindar la industria.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://s3.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/20/Morlans1-RcUArrw12HRxTRE5Lva4jTJ-1200x840@Diario%20Vasco.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Covite y la AVT denuncian que el Gobierno vasco les ha reducido las ayudas a la mitad",
+          "source": "El Correo",
+          "publishedAt": "2026-11-20T15:05:11.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/covite-avt-denuncian-gobierno-vasco-reducido-ayudas-20261120160440-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "El Gobierno Vasco se reunirá la semana que viene con Redeia e Iberdrola para acelerar la ampliación eléctrica y blindar la industria",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-20T12:58:52.000Z",
+          "sourceUrl": "https://www.diariovasco.com/economia/gobierno-vasco-reunira-semana-viene-redeia-iberdrola-ampliacion-electrica-industria-20261120121730-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "El Gobierno Vasco inicia los trámites para construir 178 apartamentos para jóvenes y mayores en Morlans",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-20T10:17:40.000Z",
+          "sourceUrl": "https://www.diariovasco.com/san-sebastian/gobierno-vasco-apartamentos-morlans-20261120111251-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/20/Morlans1-RcUArrw12HRxTRE5Lva4jTJ-1200x840@Diario%20Vasco.jpg"
+        }
+      ],
+      "path": "/es/entity/el-gobierno-vasco-se-reunira-la-semana-que-viene-con-redeia-e-iberdrola-para-ace/"
+    },
+    {
+      "id": "now-cluster-españa-carlos + alcaraz",
+      "title": "Carlos Alcaraz - Flavio Cobolli en directo, el partido de las ATP Finals en vivo|Alcaraz se lleva el primer",
+      "brief": "Carlos Alcaraz - Flavio Cobolli en directo, el partido de las ATP Finals en vivo|Alcaraz se lleva el primer.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -160,6 +214,144 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://s1.ppllstatics.com/elcorreo/www/multimedia/deportes/2026/11/20/alcaraz-gesto-kwC-U40458150074cBI-1200x840@El%20Correo.JPG",
+        "https://imagenes.elpais.com/resizer/v2/FCMBOARWDRIBFO2WKEGGGENB7A.jpg?auth=e7c4552d40649e125c12de9a3a88b05f38067dccc67744acaa4a6e0240dd2c35"
+      ],
+      "evidence": [
+        {
+          "title": "El aplaudido gesto de Carlos Alcaraz con Flavio Cobolli: «Cabeza alta»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-20T15:40:22.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/tenis/aplaudido-gesto-carlos-alcaraz-flavio-cobolli-cabeza-20261120164022-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/deportes/2026/11/20/alcaraz-gesto-kwC-U40458150074cBI-1200x840@El%20Correo.JPG"
+        },
+        {
+          "title": "Carlos Alcaraz - Flavio Cobolli en directo, el partido de las ATP Finals en vivo|Alcaraz se lleva el primer",
+          "source": "El País",
+          "publishedAt": "2026-11-20T13:55:20.000Z",
+          "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-20/carlos-alcaraz-flavio-cobolli-en-directo-el-partido-de-las-atp-finals-en-vivo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/FCMBOARWDRIBFO2WKEGGGENB7A.jpg?auth=e7c4552d40649e125c12de9a3a88b05f38067dccc67744acaa4a6e0240dd2c35"
+        }
+      ],
+      "path": "/es/entity/carlos-alcaraz-flavio-cobolli-en-directo-el-partido-de-las-atp-finals-en-vivo-al/"
+    },
+    {
+      "id": "now-cluster-españa-contra + durante",
+      "title": "Dos misiles y un dron rusos caen en territorio polaco durante un ataque nocturno contra Ucrania",
+      "brief": "Dos misiles y un dron rusos caen en territorio polaco durante un ataque nocturno contra Ucrania.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Dos misiles y un dron rusos caen en el este de Polonia en plenas maniobras militares de una decena de países europeos",
+          "source": "El País",
+          "publishedAt": "2026-11-20T15:33:08.000Z",
+          "sourceUrl": "https://elpais.com/internacional/2026-11-20/dos-misiles-y-un-dron-rusos-caen-en-el-este-de-polonia-en-plenas-maniobras-militares-de-una-decena-de-paises-europeos.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Dos misiles y un dron rusos caen en territorio polaco durante un ataque nocturno contra Ucrania",
+          "source": "El Correo",
+          "publishedAt": "2026-11-20T11:07:11.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/europa/dos-misiles-dron-rusos-caen-territorio-polaco-20261120120710-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/dos-misiles-y-un-dron-rusos-caen-en-territorio-polaco-durante-un-ataque-nocturno/"
+    },
+    {
+      "id": "now-cluster-españa-alcaraz + cobolli",
+      "title": "Alcaraz gana a Cobolli sin moverse y demuestra su abismal superioridad antes de las semifinales de las ATP Finals",
+      "brief": "Alcaraz gana a Cobolli sin moverse y demuestra su abismal superioridad antes de las semifinales de las ATP Finals.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/L4X446KKFBNAHOYEOCGZ3EMYJA.jpg?auth=88ca7d6862182dd85f269a20356a407f4cf4abd99d7debbfde2bd629c780dd2c",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/20/17951843561064.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Un poquito de Alcaraz, excesivo para el abatido Cobolli: prueba superada",
+          "source": "El País",
+          "publishedAt": "2026-11-20T14:55:18.000Z",
+          "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-20/un-poquito-de-alcaraz-excesivo-para-el-abatido-cobolli-prueba-superada.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/L4X446KKFBNAHOYEOCGZ3EMYJA.jpg?auth=88ca7d6862182dd85f269a20356a407f4cf4abd99d7debbfde2bd629c780dd2c"
+        },
+        {
+          "title": "Alcaraz gana a Cobolli sin moverse y demuestra su abismal superioridad antes de las semifinales de las ATP Finals",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-20T14:30:21.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/tenis/2026/11/20/6b0055b0e9cf4a522f8b45a3.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/20/17951843561064.jpg"
+        }
+      ],
+      "path": "/es/entity/alcaraz-gana-a-cobolli-sin-moverse-y-demuestra-su-abismal-superioridad-antes-de/"
+    },
+    {
+      "id": "moving-cluster-españa-voto + ahora",
+      "title": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España",
+      "brief": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -194,65 +386,18 @@
       "path": "/es/entity/el-supremo-mantiene-suspendido-el-voto-a-163-000-nacionalizados-por-la-ley-de-ni/"
     },
     {
-      "id": "now-cluster-españa-alcaraz + cobolli",
-      "title": "Carlos Alcaraz - Flavio Cobolli en directo, el partido de las ATP Finals en vivo|Alcaraz se lleva el primer",
-      "brief": "Carlos Alcaraz - Flavio Cobolli en directo, el partido de las ATP Finals en vivo|Alcaraz se lleva el primer.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El País"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/20/17951843561064.jpg",
-        "https://imagenes.elpais.com/resizer/v2/FCMBOARWDRIBFO2WKEGGGENB7A.jpg?auth=e7c4552d40649e125c12de9a3a88b05f38067dccc67744acaa4a6e0240dd2c35"
-      ],
-      "evidence": [
-        {
-          "title": "Alcaraz gana a Cobolli sin moverse y demuestra su abismal superioridad antes de las semifinales de las ATP Finals",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-20T14:30:21.000Z",
-          "sourceUrl": "https://www.elmundo.es/deportes/tenis/2026/11/20/6b0055b0e9cf4a522f8b45a3.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/20/17951843561064.jpg"
-        },
-        {
-          "title": "Carlos Alcaraz - Flavio Cobolli en directo, el partido de las ATP Finals en vivo|Alcaraz se lleva el primer",
-          "source": "El País",
-          "publishedAt": "2026-11-20T13:55:20.000Z",
-          "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-20/carlos-alcaraz-flavio-cobolli-en-directo-el-partido-de-las-atp-finals-en-vivo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/FCMBOARWDRIBFO2WKEGGGENB7A.jpg?auth=e7c4552d40649e125c12de9a3a88b05f38067dccc67744acaa4a6e0240dd2c35"
-        }
-      ],
-      "path": "/es/entity/carlos-alcaraz-flavio-cobolli-en-directo-el-partido-de-las-atp-finals-en-vivo-al/"
-    },
-    {
-      "id": "now-cluster-españa-despues + acuerdo",
+      "id": "moving-cluster-españa-acuerdo + duro",
       "title": "Reino Unido reniega del \"Brexit duro\" y se acerca a la UE con acuerdos para la movilidad juvenil y el comercio: \"La gente quiere un acuerdo mejor\"",
       "brief": "Reino Unido reniega del \"Brexit duro\" y se acerca a la UE con acuerdos para la movilidad juvenil y el comercio: \"La gente quiere un acuerdo mejor\".",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -287,70 +432,23 @@
       "path": "/es/entity/reino-unido-reniega-del-brexit-duro-y-se-acerca-a-la-ue-con-acuerdos-para-la-mov/"
     },
     {
-      "id": "moving-cluster-españa-contra + durante",
-      "title": "Dos misiles y un dron rusos caen en territorio polaco durante un ataque nocturno contra Ucrania",
-      "brief": "Dos misiles y un dron rusos caen en territorio polaco durante un ataque nocturno contra Ucrania.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "1h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/AJR6JGD4AZODDKVYLIZ5YJJ2V4.jpg?auth=5234304f67af5da0c1aa4c05847cd70848f741b474b06de092c81bdcb3f8382f"
-      ],
-      "evidence": [
-        {
-          "title": "Dos misiles y un dron rusos caen en el este de Polonia en plenas maniobras militares de una decena de países europeos",
-          "source": "El País",
-          "publishedAt": "2026-11-20T13:45:09.000Z",
-          "sourceUrl": "https://elpais.com/internacional/2026-11-20/dos-misiles-y-un-dron-rusos-caen-en-el-este-de-polonia-en-plenas-maniobras-militares-de-una-decena-de-paises-europeos.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/AJR6JGD4AZODDKVYLIZ5YJJ2V4.jpg?auth=5234304f67af5da0c1aa4c05847cd70848f741b474b06de092c81bdcb3f8382f"
-        },
-        {
-          "title": "Dos misiles y un dron rusos caen en territorio polaco durante un ataque nocturno contra Ucrania",
-          "source": "El Correo",
-          "publishedAt": "2026-11-20T11:07:11.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/europa/dos-misiles-dron-rusos-caen-territorio-polaco-20261120120710-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/dos-misiles-y-un-dron-rusos-caen-en-territorio-polaco-durante-un-ataque-nocturno/"
-    },
-    {
-      "id": "moving-cluster-españa-osakidetza + primera",
+      "id": "fading-cluster-españa-primera + osakidetza",
       "title": "Osakidetza convoca por primera vez una OPE para personas con discapacidad intelectual",
       "brief": "Osakidetza convoca por primera vez una OPE para personas con discapacidad intelectual.",
       "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 52,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
