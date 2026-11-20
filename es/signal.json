@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-20T11:00:48.260Z",
+  "updatedAt": "2026-11-20T12:00:48.026Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "266.932 enlaces analizados",
-  "dayScanLabel": "4.192 enlaces escaneados en 24h",
+  "ambientPulseLabel": "267.350 enlaces analizados",
+  "dayScanLabel": "4.190 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,18 +19,18 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-feijoo + sanchez",
+      "id": "moving-cluster-españa-feijoo + cara",
       "title": "Los mejores memes del debate cara a cara entre Sánchez y Feijóo y las redes sentencian: Anotop At ha derrotado a Perro Sanxe",
       "brief": "Los mejores memes del debate cara a cara entre Sánchez y Feijóo y las redes sentencian: Anotop At ha derrotado a Perro Sanxe.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 28,
+      "strength": 26,
       "sourceCount": 4,
-      "itemCount": 9,
-      "freshness": "2h fresca",
+      "itemCount": 7,
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 99,
@@ -93,7 +93,63 @@
       "path": "/es/entity/los-mejores-memes-del-debate-cara-a-cara-entre-sanchez-y-feijoo-y-las-redes-sent/"
     },
     {
-      "id": "now-cluster-españa-feijoo + cara",
+      "id": "now-cluster-españa-final + cuartos",
+      "title": "España se medirá a la Francia de Zidane y Mbappé en los cuartos de final de la Liga de Naciones",
+      "brief": "España se medirá a la Francia de Zidane y Mbappé en los cuartos de final de la Liga de Naciones.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/20/17951743925819.jpg",
+        "https://imagenes.elpais.com/resizer/v2/ADBO2XH7OVPFRDAZMWS5APIFEQ.jpg?auth=84f34bfa0201e1c5865d64991d929f517794fa37a7a2c5568c9baa4f6a05f972"
+      ],
+      "evidence": [
+        {
+          "title": "España se medirá a la Francia de Zidane y Mbappé en los cuartos de final de la Liga de Naciones",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-20T11:33:41.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/20/6b00239de85ecec80b8b457b.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/20/17951743925819.jpg"
+        },
+        {
+          "title": "Francia, el escollo más duro para España en los cuartos de la Liga de Naciones",
+          "source": "El Correo",
+          "publishedAt": "2026-11-20T11:32:35.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/seleccion-espanola/francia-escollo-duro-espana-cuartos-liga-naciones-20261120123120-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "España se medirá ante Francia en los cuartos de final de la Nations League",
+          "source": "El País",
+          "publishedAt": "2026-11-20T11:30:46.000Z",
+          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-20/espana-se-medira-ante-francia-en-los-cuartos-de-final-de-la-nations-league.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/ADBO2XH7OVPFRDAZMWS5APIFEQ.jpg?auth=84f34bfa0201e1c5865d64991d929f517794fa37a7a2c5568c9baa4f6a05f972"
+        }
+      ],
+      "path": "/es/entity/espana-se-medira-a-la-francia-de-zidane-y-mbappe-en-los-cuartos-de-final-de-la-l/"
+    },
+    {
+      "id": "now-cluster-españa-cara + feijoo",
       "title": "El día después del cara a cara: el PP saca a Feijóo paseando al perro y el PSOE adapta un lema de Aznar",
       "brief": "El día después del cara a cara: el PP saca a Feijóo paseando al perro y el PSOE adapta un lema de Aznar.",
       "whyItMatters": "",
@@ -104,7 +160,7 @@
       "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 92,
@@ -148,76 +204,50 @@
       "path": "/es/entity/el-dia-despues-del-cara-a-cara-el-pp-saca-a-feijoo-paseando-al-perro-y-el-psoe-a/"
     },
     {
-      "id": "now-cluster-españa-black + friday",
-      "title": "10 superventas de Amazon con precios mínimos históricos en la Semana de Black Friday",
-      "brief": "10 superventas de Amazon con precios mínimos históricos en la Semana de Black Friday.",
+      "id": "now-cluster-españa-reino + unido",
+      "title": "El Reino Unido y la UE buscan fijar un acuerdo limitado de movilidad juvenil que supere el bloqueo del Brexit",
+      "brief": "El Reino Unido y la UE buscan fijar un acuerdo limitado de movilidad juvenil que supere el bloqueo del Brexit.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 19,
+      "strength": 16,
       "sourceCount": 2,
-      "itemCount": 6,
+      "itemCount": 2,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 91,
+      "alertScore": 76,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "La Razón",
-        "El País"
+        "El País",
+        "El Correo"
       ],
       "images": [
-        "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/17/3E63D62F-7240-4767-B313-2F17D4EDA631/black-friday-2026-directo-mejores-ofertas-tecnologia-disponibles_96.jpg?crop=1280,720,x0,y0&width=1200&height=675&optimize=low&format=webply",
-        "https://imagenes.elpais.com/resizer/v2/M5FWBK7CE5DVBBQE2ZYCVWVBUA.png?auth=378602580a19ffb446753d2b44f2a01b6b549a3362d44f8642e640e65739f25b",
-        "https://imagenes.elpais.com/resizer/v2/5P4CZTY2HJDUTADVLA25GSYGTM.png?auth=28a1467dc9e57ac6846201ea0754a7cfc652f40a0c39b5cec8f3c7b04836942d",
-        "https://imagenes.elpais.com/resizer/v2/C7FSVK6S2ZG4DG4V7PUCMEHVJA.png?auth=aaaecae03be6e147f91e3be8ecc7e7023a829c4f5bbe17932b6b1f90af4035bd",
-        "https://imagenes.elpais.com/resizer/v2/6KPYVD2X5FEMPF4XLN7EECM7NQ.png?auth=231e94cdf1600bd9f3f4fc434dd42cd21c6ba507200fad566acc25d4020ccc89"
+        "https://imagenes.elpais.com/resizer/v2/G3QYI3YH6BJPRDIMVUOQRIWRVY.jpg?auth=51842eb9fff0c262844bb36f1d1090950ca9e2dcbe7eb46f71285054bfa8d252"
       ],
       "evidence": [
         {
-          "title": "Black Friday 2026 en directo: las mejores ofertas de tecnología ya disponibles",
-          "source": "La Razón",
-          "publishedAt": "2026-11-20T11:00:13.000Z",
-          "sourceUrl": "https://www.larazon.es/compras/nuestra-eleccion/black-friday-2026-directo-mejores-ofertas-tecnologia-disponibles_202611206b00283d5cb1082f89b0a865.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/17/3E63D62F-7240-4767-B313-2F17D4EDA631/black-friday-2026-directo-mejores-ofertas-tecnologia-disponibles_96.jpg?crop=1280,720,x0,y0&width=1200&height=675&optimize=low&format=webply"
+          "title": "El Reino Unido y la UE buscan fijar un acuerdo limitado de movilidad juvenil que supere el bloqueo del Brexit",
+          "source": "El País",
+          "publishedAt": "2026-11-20T11:30:03.000Z",
+          "sourceUrl": "https://elpais.com/internacional/2026-11-20/el-reino-unido-y-la-ue-se-disponen-a-cerrar-un-acuerdo-limitado-de-movilidad-juvenil-que-supere-el-bloqueo-del-brexit.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/G3QYI3YH6BJPRDIMVUOQRIWRVY.jpg?auth=51842eb9fff0c262844bb36f1d1090950ca9e2dcbe7eb46f71285054bfa8d252"
         },
         {
-          "title": "Directo | Las mejores ofertas de Black Friday en Amazon, actualizadas en tiempo real",
-          "source": "El País",
-          "publishedAt": "2026-11-20T10:51:00.000Z",
-          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-semana-black-friday-2026-en-directo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/M5FWBK7CE5DVBBQE2ZYCVWVBUA.png?auth=378602580a19ffb446753d2b44f2a01b6b549a3362d44f8642e640e65739f25b"
-        },
-        {
-          "title": "10 superventas de Amazon con precios mínimos históricos en la Semana de Black Friday",
-          "source": "El País",
-          "publishedAt": "2026-11-20T08:50:26.000Z",
-          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-semana-black-friday-precios-minimos-historicos.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/5P4CZTY2HJDUTADVLA25GSYGTM.png?auth=28a1467dc9e57ac6846201ea0754a7cfc652f40a0c39b5cec8f3c7b04836942d"
-        },
-        {
-          "title": "10 Skechers con descuentazos de Black Friday: modelos cómodos para caminar durante horas",
-          "source": "El País",
-          "publishedAt": "2026-11-20T06:10:00.000Z",
-          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-semana-black-friday-2026-skechers.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/C7FSVK6S2ZG4DG4V7PUCMEHVJA.png?auth=aaaecae03be6e147f91e3be8ecc7e7023a829c4f5bbe17932b6b1f90af4035bd"
-        },
-        {
-          "title": "Los cosméticos coreanos de Medicube virales en TikTok tienen descuento por Black Friday",
-          "source": "El País",
-          "publishedAt": "2026-11-20T06:00:00.000Z",
-          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-semana-black-friday-2026-productos-medicube.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/6KPYVD2X5FEMPF4XLN7EECM7NQ.png?auth=231e94cdf1600bd9f3f4fc434dd42cd21c6ba507200fad566acc25d4020ccc89"
+          "title": "El Reino Unido se acerca a la UE diez años después del referéndum del Brexit",
+          "source": "El Correo",
+          "publishedAt": "2026-11-20T08:12:23.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/europa/reino-unido-acerca-ue-diez-anos-despues-20261119192955-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         }
       ],
-      "path": "/es/entity/10-superventas-de-amazon-con-precios-minimos-historicos-en-la-semana-de-black-fr/"
+      "path": "/es/entity/el-reino-unido-y-la-ue-buscan-fijar-un-acuerdo-limitado-de-movilidad-juvenil-que/"
     },
     {
       "id": "now-cluster-españa-osakidetza + convoca",
@@ -228,10 +258,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -266,52 +296,6 @@
       "path": "/es/entity/osakidetza-convoca-por-primera-vez-una-ope-para-personas-con-discapacidad-intele/"
     },
     {
-      "id": "moving-cluster-españa-reino + unido",
-      "title": "El Reino Unido y la UE se disponen a cerrar un acuerdo limitado de movilidad juvenil que supere el bloqueo del Brexit",
-      "brief": "El Reino Unido y la UE se disponen a cerrar un acuerdo limitado de movilidad juvenil que supere el bloqueo del Brexit.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/G3QYI3YH6BJPRDIMVUOQRIWRVY.jpg?auth=51842eb9fff0c262844bb36f1d1090950ca9e2dcbe7eb46f71285054bfa8d252"
-      ],
-      "evidence": [
-        {
-          "title": "El Reino Unido y la UE se disponen a cerrar un acuerdo limitado de movilidad juvenil que supere el bloqueo del Brexit",
-          "source": "El País",
-          "publishedAt": "2026-11-20T08:49:54.000Z",
-          "sourceUrl": "https://elpais.com/internacional/2026-11-20/el-reino-unido-y-la-ue-se-disponen-a-cerrar-un-acuerdo-limitado-de-movilidad-juvenil-que-supere-el-bloqueo-del-brexit.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/G3QYI3YH6BJPRDIMVUOQRIWRVY.jpg?auth=51842eb9fff0c262844bb36f1d1090950ca9e2dcbe7eb46f71285054bfa8d252"
-        },
-        {
-          "title": "El Reino Unido se acerca a la UE diez años después del referéndum del Brexit",
-          "source": "El Correo",
-          "publishedAt": "2026-11-20T08:12:23.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/europa/reino-unido-acerca-ue-diez-anos-despues-20261119192955-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/el-reino-unido-y-la-ue-se-disponen-a-cerrar-un-acuerdo-limitado-de-movilidad-juv/"
-    },
-    {
       "id": "moving-cluster-españa-acuerdo + seguridad",
       "title": "El sindicato de maquinistas Semaf desconvoca la huelga del 23 de noviembre tras un acuerdo con Transportes en materia de seguridad",
       "brief": "El sindicato de maquinistas Semaf desconvoca la huelga del 23 de noviembre tras un acuerdo con Transportes en materia de seguridad.",
@@ -320,10 +304,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,

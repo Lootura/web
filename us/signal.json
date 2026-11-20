@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-20T11:00:48.260Z",
+  "updatedAt": "2026-11-20T12:00:48.026Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "325,843 links analyzed",
-  "dayScanLabel": "8,314 links scanned in 24h",
+  "ambientPulseLabel": "326,674 links analyzed",
+  "dayScanLabel": "8,315 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -19,78 +19,6 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-united states-trump + summit",
-      "title": "At Summit With Xi and Putin, Trump Seeks to Project Power Abroad While Sharing It at Home",
-      "brief": "At Summit With Xi and Putin, Trump Seeks to Project Power Abroad While Sharing It at Home.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 29,
-      "sourceCount": 4,
-      "itemCount": 10,
-      "freshness": "3h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 99,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times",
-        "The New York Times Politics",
-        "CBS News",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/19/multimedia/19trump-summits-ledeall-01-cvbz/19trump-summits-ledeall-01-cvbz-mediumSquareAt3X.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/c019efe5-598d-41dd-8966-ea0d4b464a76/thumbnail/1200x630/49770e387a18531322c14cfe9f3f07a3/cbsn-fusion-no-major-agreements-from-trump-summit-with-putin-xi-thumbnail.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/summit-1024x683.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Jimmy Kimmel Recaps Trump’s ‘Big Dim Summit’",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-20T08:14:43.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/arts/television/jimmy-kimmel-trump-xi-putin-summit.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Trump Flaunts Camaraderie With Xi and Putin but Has Little to Show for It",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-20T02:10:57.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/19/world/asia/trump-xi-putin.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19trump-summits-ledeall-01-cvbz/19trump-summits-ledeall-01-cvbz-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "No major agreements from Trump summit with Putin, Xi",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T01:55:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/no-major-agreements-from-trump-summit-with-putin-xi/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/c019efe5-598d-41dd-8966-ea0d4b464a76/thumbnail/1200x630/49770e387a18531322c14cfe9f3f07a3/cbsn-fusion-no-major-agreements-from-trump-summit-with-putin-xi-thumbnail.jpg"
-        },
-        {
-          "title": "Trump to speak Friday about summit with Xi and Putin; Zelenskyy meets with U.S. envoys",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T01:26:21.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/trump-to-speak-friday-about-summit-with-xi-and-putin/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Husband of American detained in Russia says case was not mentioned during Trump meeting with Putin",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T01:26:16.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/husband-of-american-detained-in-russia-speaks-out/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/us/entity/at-summit-with-xi-and-putin-trump-seeks-to-project-power-abroad-while-sharing-it/"
-    },
-    {
       "id": "now-cluster-united states-trump + senate",
       "title": "Senate Republicans Block Bid to Rein in Trump on Iran War",
       "brief": "Senate Republicans Block Bid to Rein in Trump on Iran War.",
@@ -102,7 +30,7 @@
       "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "fresh now",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 92,
@@ -148,6 +76,124 @@
       "path": "/us/entity/senate-republicans-block-bid-to-rein-in-trump-on-iran-war/"
     },
     {
+      "id": "moving-cluster-united states-trump + putin",
+      "title": "Trump to speak Friday about summit with Xi and Putin; Zelenskyy meets with U.S. envoys",
+      "brief": "Trump to speak Friday about summit with Xi and Putin; Zelenskyy meets with U.S. envoys.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 15,
+      "sourceCount": 3,
+      "itemCount": 6,
+      "freshness": "10h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 91,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times Politics",
+        "CBS News",
+        "The New York Times"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/19/multimedia/19trump-summits-ledeall-01-cvbz/19trump-summits-ledeall-01-cvbz-mediumSquareAt3X.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/c019efe5-598d-41dd-8966-ea0d4b464a76/thumbnail/1200x630/49770e387a18531322c14cfe9f3f07a3/cbsn-fusion-no-major-agreements-from-trump-summit-with-putin-xi-thumbnail.jpg",
+        "https://static01.nyt.com/images/2026/11/19/multimedia/19clinton-zfkh/19clinton-zfkh-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Trump Flaunts Camaraderie With Xi and Putin but Has Little to Show for It",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-20T02:10:57.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/19/world/asia/trump-xi-putin.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19trump-summits-ledeall-01-cvbz/19trump-summits-ledeall-01-cvbz-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "No major agreements from Trump summit with Putin, Xi",
+          "source": "CBS News",
+          "publishedAt": "2026-11-20T01:55:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/no-major-agreements-from-trump-summit-with-putin-xi/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/c019efe5-598d-41dd-8966-ea0d4b464a76/thumbnail/1200x630/49770e387a18531322c14cfe9f3f07a3/cbsn-fusion-no-major-agreements-from-trump-summit-with-putin-xi-thumbnail.jpg"
+        },
+        {
+          "title": "Trump to speak Friday about summit with Xi and Putin; Zelenskyy meets with U.S. envoys",
+          "source": "CBS News",
+          "publishedAt": "2026-11-20T01:26:21.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/trump-to-speak-friday-about-summit-with-xi-and-putin/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Husband of American detained in Russia says case was not mentioned during Trump meeting with Putin",
+          "source": "CBS News",
+          "publishedAt": "2026-11-20T01:26:16.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/husband-of-american-detained-in-russia-speaks-out/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Trump calls Putin his friend at summit, prompting backlash from some world leaders",
+          "source": "CBS News",
+          "publishedAt": "2026-11-20T01:26:05.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/trump-calls-putin-his-friend-at-summit-prompting-backlash-from-some-world-leaders/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/us/entity/trump-to-speak-friday-about-summit-with-xi-and-putin-zelenskyy-meets-with-u-s-en/"
+    },
+    {
+      "id": "now-cluster-united states-rikers + island",
+      "title": "New York City unveils a bold plan to move its jails off Rikers Island",
+      "brief": "New York City unveils a bold plan to move its jails off Rikers Island.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NPR Politics"
+      ],
+      "images": [
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2022/04/05/5e6ba285-59b1-4480-a4a5-cce8b8cdba34/thumbnail/1200x630/4f0b5c0bc0acb6ab1f7010c98008cce9/ap-21237073008309.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3938x2667+0+0/resize/3938x2667!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F51%2Fa7%2F56ea040c4a49b5aa26d35ea3aff8%2Frikers-woo-day1-0366.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "NYC Mayor Mamdani announces plan to shut down Rikers Island",
+          "source": "CBS News",
+          "publishedAt": "2026-11-20T11:16:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/newyork/news/zohran-mamdani-rikers-island-closing-plan-nyc/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2022/04/05/5e6ba285-59b1-4480-a4a5-cce8b8cdba34/thumbnail/1200x630/4f0b5c0bc0acb6ab1f7010c98008cce9/ap-21237073008309.jpg"
+        },
+        {
+          "title": "New York City unveils a bold plan to move its jails off Rikers Island",
+          "source": "NPR Politics",
+          "publishedAt": "2026-11-20T10:00:00.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/20/nx-s1-5981356/new-york-city-rikers-jail-plans-germany-prison-model?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3938x2667+0+0/resize/3938x2667!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F51%2Fa7%2F56ea040c4a49b5aa26d35ea3aff8%2Frikers-woo-day1-0366.jpg"
+        }
+      ],
+      "path": "/us/entity/new-york-city-unveils-a-bold-plan-to-move-its-jails-off-rikers-island/"
+    },
+    {
       "id": "now-cluster-united states-fiona + hippo",
       "title": "Fiona the Hippo, Star of Cincinnati Zoo and Beyond, Dies After Eating Child’s Hat",
       "brief": "Fiona the Hippo, Star of Cincinnati Zoo and Beyond, Dies After Eating Child’s Hat.",
@@ -156,28 +202,25 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 22,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "2h fresh",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 92,
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
-        "Picks up volume fast",
         "Still active"
       ],
       "isHotNews": false,
       "sources": [
         "Phys.org",
-        "The New York Times",
-        "NBC News"
+        "The New York Times"
       ],
       "images": [
         "https://scx2.b-cdn.net/gfx/news/2026/images-of-fiona-the-hi.jpg",
-        "https://static01.nyt.com/images/2026/11/19/multimedia/19xp-fiona-1/19xp-fiona-1-mediumSquareAt3X-v2.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795134561996_nn_mve_fiona_hippo_dies_261119_S3_1920x1080-h1yn2g.jpg"
+        "https://static01.nyt.com/images/2026/11/19/multimedia/19xp-fiona-1/19xp-fiona-1-mediumSquareAt3X-v2.jpg"
       ],
       "evidence": [
         {
@@ -193,128 +236,9 @@
           "publishedAt": "2026-11-20T03:25:05.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/19/us/fiona-hippo-dead-cincinnati-zoo.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19xp-fiona-1/19xp-fiona-1-mediumSquareAt3X-v2.jpg"
-        },
-        {
-          "title": "Celebrity hippo Fiona dies",
-          "source": "NBC News",
-          "publishedAt": "2026-11-20T00:29:26.000Z",
-          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/celebrity-hippo-fiona-dies-273863237943?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795134561996_nn_mve_fiona_hippo_dies_261119_S3_1920x1080-h1yn2g.jpg"
         }
       ],
       "path": "/us/entity/fiona-the-hippo-star-of-cincinnati-zoo-and-beyond-dies-after-eating-child-s-hat/"
-    },
-    {
-      "id": "now-cluster-united states-senate + permitting",
-      "title": "Senate passes bipartisan permitting reform bill designed to boost energy projects",
-      "brief": "Senate passes bipartisan permitting reform bill designed to boost energy projects.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 15,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "7h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times",
-        "CBS News",
-        "NBC News Politics"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/20/multimedia/20cli-permitting-senate-HFO2-qlhz/20cli-permitting-senate-HFO2-qlhz-mediumSquareAt3X.jpg",
-        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/10/793426a8-c88b-4bcc-ba97-d360c0f41b5d/thumbnail/1200x630g2/9cd3ab0b86682dae2b5bd8502ccb9bbb/gettyimages-2297236201-1.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261119-act-rs-d23ebe.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Senate Passes Major Permitting Bill to Speed Up Energy Projects",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-20T04:25:50.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/19/climate/senate-passes-baaja-permitting-bill-energy.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20cli-permitting-senate-HFO2-qlhz/20cli-permitting-senate-HFO2-qlhz-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Senate passes bipartisan permitting reform bill designed to boost energy projects",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T03:14:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/senate-bipartisan-permitting-reform-bill-energy-baaja-trump/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/10/793426a8-c88b-4bcc-ba97-d360c0f41b5d/thumbnail/1200x630g2/9cd3ab0b86682dae2b5bd8502ccb9bbb/gettyimages-2297236201-1.jpg"
-        },
-        {
-          "title": "Senate passes sweeping bill simplifying permitting rules to build in America",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-20T03:09:51.871Z",
-          "sourceUrl": "https://www.nbcnews.com/politics/congress/senate-passes-sweeping-bill-simplifying-permitting-rules-build-america-rcna610196?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261119-act-rs-d23ebe.jpg"
-        }
-      ],
-      "path": "/us/entity/senate-passes-bipartisan-permitting-reform-bill-designed-to-boost-energy-project/"
-    },
-    {
-      "id": "moving-cluster-united states-anthropic + stock",
-      "title": "Why Is the Stock Market Down After Anthropic’s Successful IPO?",
-      "brief": "Why Is the Stock Market Down After Anthropic’s Successful IPO?",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "9h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 67,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "The New York Times"
-      ],
-      "images": [
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/73446d30-0b1f-4563-a9a4-8a88f75e57d2/thumbnail/1200x630/bfa7fc1386f48f8b2412d371604881e5/cbsn-fusion-anthropics-7-co-founders-now-worth-about-20-billion-each-after-record-ipo-thumbnail.jpg",
-        "https://static01.nyt.com/images/2026/11/19/multimedia/19anthropic-ipo-markets-reaction-pvht/19anthropic-ipo-markets-reaction-pvht-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Anthropic's 7 co-founders now worth about $20 billion each after record IPO",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T01:50:44.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/anthropics-7-co-founders-now-worth-about-20-billion-each-after-record-ipo/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/73446d30-0b1f-4563-a9a4-8a88f75e57d2/thumbnail/1200x630/bfa7fc1386f48f8b2412d371604881e5/cbsn-fusion-anthropics-7-co-founders-now-worth-about-20-billion-each-after-record-ipo-thumbnail.jpg"
-        },
-        {
-          "title": "Market hit by major stock selloff after Anthropic's record-breaking IPO",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T00:49:02.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/market-hit-by-major-stock-selloff-after-anthropics-record-breaking-ipo/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Why Is the Stock Market Down After Anthropic’s Successful IPO?",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-19T20:57:56.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/19/technology/anthropic-ipo-stock-market.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19anthropic-ipo-markets-reaction-pvht/19anthropic-ipo-markets-reaction-pvht-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/why-is-the-stock-market-down-after-anthropic-s-successful-ipo/"
     },
     {
       "id": "moving-cluster-united states-trump + plan",
@@ -325,10 +249,10 @@
       "mode": "moving",
       "state": "cooling",
       "stateLabel": "Cooling",
-      "strength": 6,
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "9h fresh",
+      "freshness": "10h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 64,
@@ -364,50 +288,51 @@
       "path": "/us/entity/judges-have-put-trump-s-arch-and-golf-course-on-hold-but-only-for-a-matter-of-da/"
     },
     {
-      "id": "moving-cluster-united states-more + florida",
-      "title": "Dangerous flooding continues in Florida, many areas hit with over a foot of rain",
-      "brief": "Dangerous flooding continues in Florida, many areas hit with over a foot of rain.",
+      "id": "now-cluster-united states-senate + bill",
+      "title": "Senate passes bipartisan permitting reform bill designed to boost energy projects",
+      "brief": "Senate passes bipartisan permitting reform bill designed to boost energy projects.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 5,
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "10h fresh",
+      "freshness": "8h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 64,
+      "alertScore": 54,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
       ],
       "isHotNews": false,
       "sources": [
-        "CBS News",
-        "The New York Times"
+        "The New York Times",
+        "CBS News"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/19/multimedia/19xp-flooding-fmkq/19xp-flooding-fmkq-mediumSquareAt3X.jpg"
+        "https://static01.nyt.com/images/2026/11/20/multimedia/20cli-permitting-senate-HFO2-qlhz/20cli-permitting-senate-HFO2-qlhz-mediumSquareAt3X.jpg",
+        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/10/793426a8-c88b-4bcc-ba97-d360c0f41b5d/thumbnail/1200x630g2/9cd3ab0b86682dae2b5bd8502ccb9bbb/gettyimages-2297236201-1.jpg"
       ],
       "evidence": [
         {
-          "title": "Dangerous flooding continues in Florida, many areas hit with over a foot of rain",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T00:47:19.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/dangerous-flooding-continues-in-florida-many-areas-hit-with-over-a-foot-of-rain/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "Senate Passes Major Permitting Bill to Speed Up Energy Projects",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-20T04:25:50.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/19/climate/senate-passes-baaja-permitting-bill-energy.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20cli-permitting-senate-HFO2-qlhz/20cli-permitting-senate-HFO2-qlhz-mediumSquareAt3X.jpg"
         },
         {
-          "title": "In Florida, More Rain Threatens Flooded Areas and Roads",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-19T22:37:05.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/19/weather/florida-floods-rain-closures-evacuations.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19xp-flooding-fmkq/19xp-flooding-fmkq-mediumSquareAt3X.jpg"
+          "title": "Senate passes bipartisan permitting reform bill designed to boost energy projects",
+          "source": "CBS News",
+          "publishedAt": "2026-11-20T03:14:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/senate-bipartisan-permitting-reform-bill-energy-baaja-trump/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/10/793426a8-c88b-4bcc-ba97-d360c0f41b5d/thumbnail/1200x630g2/9cd3ab0b86682dae2b5bd8502ccb9bbb/gettyimages-2297236201-1.jpg"
         }
       ],
-      "path": "/us/entity/dangerous-flooding-continues-in-florida-many-areas-hit-with-over-a-foot-of-rain/"
+      "path": "/us/entity/senate-passes-bipartisan-permitting-reform-bill-designed-to-boost-energy-project/"
     }
   ]
 }
