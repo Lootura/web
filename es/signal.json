@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-20T16:00:48.579Z",
+  "updatedAt": "2026-11-20T17:00:48.327Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "269.031 enlaces analizados",
+  "ambientPulseLabel": "269.449 enlaces analizados",
   "dayScanLabel": "4.189 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
@@ -27,10 +27,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 29,
+      "strength": 28,
       "sourceCount": 4,
       "itemCount": 9,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 99,
@@ -99,10 +99,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 86,
@@ -159,7 +159,7 @@
       "strength": 16,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 79,
@@ -202,6 +202,50 @@
       "path": "/es/entity/el-gobierno-vasco-se-reunira-la-semana-que-viene-con-redeia-e-iberdrola-para-ace/"
     },
     {
+      "id": "now-cluster-españa-contra + durante",
+      "title": "Dos misiles y un dron rusos caen en territorio polaco durante un ataque nocturno contra Ucrania",
+      "brief": "Dos misiles y un dron rusos caen en territorio polaco durante un ataque nocturno contra Ucrania.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Dos misiles y un dron rusos caen en el este de Polonia en plenas maniobras militares de una decena de países europeos",
+          "source": "El País",
+          "publishedAt": "2026-11-20T16:00:50.000Z",
+          "sourceUrl": "https://elpais.com/internacional/2026-11-20/dos-misiles-y-un-dron-rusos-caen-en-el-este-de-polonia-en-plenas-maniobras-militares-de-una-decena-de-paises-europeos.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Dos misiles y un dron rusos caen en territorio polaco durante un ataque nocturno contra Ucrania",
+          "source": "El Correo",
+          "publishedAt": "2026-11-20T11:07:11.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/europa/dos-misiles-dron-rusos-caen-territorio-polaco-20261120120710-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/dos-misiles-y-un-dron-rusos-caen-en-territorio-polaco-durante-un-ataque-nocturno/"
+    },
+    {
       "id": "now-cluster-españa-carlos + alcaraz",
       "title": "Carlos Alcaraz - Flavio Cobolli en directo, el partido de las ATP Finals en vivo|Alcaraz se lleva el primer",
       "brief": "Carlos Alcaraz - Flavio Cobolli en directo, el partido de las ATP Finals en vivo|Alcaraz se lleva el primer.",
@@ -210,10 +254,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -249,50 +293,6 @@
       "path": "/es/entity/carlos-alcaraz-flavio-cobolli-en-directo-el-partido-de-las-atp-finals-en-vivo-al/"
     },
     {
-      "id": "now-cluster-españa-contra + durante",
-      "title": "Dos misiles y un dron rusos caen en territorio polaco durante un ataque nocturno contra Ucrania",
-      "brief": "Dos misiles y un dron rusos caen en territorio polaco durante un ataque nocturno contra Ucrania.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "Dos misiles y un dron rusos caen en el este de Polonia en plenas maniobras militares de una decena de países europeos",
-          "source": "El País",
-          "publishedAt": "2026-11-20T15:33:08.000Z",
-          "sourceUrl": "https://elpais.com/internacional/2026-11-20/dos-misiles-y-un-dron-rusos-caen-en-el-este-de-polonia-en-plenas-maniobras-militares-de-una-decena-de-paises-europeos.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Dos misiles y un dron rusos caen en territorio polaco durante un ataque nocturno contra Ucrania",
-          "source": "El Correo",
-          "publishedAt": "2026-11-20T11:07:11.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/europa/dos-misiles-dron-rusos-caen-territorio-polaco-20261120120710-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/dos-misiles-y-un-dron-rusos-caen-en-territorio-polaco-durante-un-ataque-nocturno/"
-    },
-    {
       "id": "now-cluster-españa-alcaraz + cobolli",
       "title": "Alcaraz gana a Cobolli sin moverse y demuestra su abismal superioridad antes de las semifinales de las ATP Finals",
       "brief": "Alcaraz gana a Cobolli sin moverse y demuestra su abismal superioridad antes de las semifinales de las ATP Finals.",
@@ -304,7 +304,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -340,7 +340,7 @@
       "path": "/es/entity/alcaraz-gana-a-cobolli-sin-moverse-y-demuestra-su-abismal-superioridad-antes-de/"
     },
     {
-      "id": "moving-cluster-españa-voto + ahora",
+      "id": "moving-cluster-españa-ahora + supremo",
       "title": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España",
       "brief": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España.",
       "whyItMatters": "",
@@ -351,7 +351,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -386,69 +386,24 @@
       "path": "/es/entity/el-supremo-mantiene-suspendido-el-voto-a-163-000-nacionalizados-por-la-ley-de-ni/"
     },
     {
-      "id": "moving-cluster-españa-acuerdo + duro",
-      "title": "Reino Unido reniega del \"Brexit duro\" y se acerca a la UE con acuerdos para la movilidad juvenil y el comercio: \"La gente quiere un acuerdo mejor\"",
-      "brief": "Reino Unido reniega del \"Brexit duro\" y se acerca a la UE con acuerdos para la movilidad juvenil y el comercio: \"La gente quiere un acuerdo mejor\".",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/20/17951830487597.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Reino Unido reniega del \"Brexit duro\" y se acerca a la UE con acuerdos para la movilidad juvenil y el comercio: \"La gente quiere un acuerdo mejor\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-20T14:09:48.000Z",
-          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/20/6b004e58e4d4d87c3b8b45c1.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/20/17951830487597.jpg"
-        },
-        {
-          "title": "El Reino Unido se acerca a la UE diez años después del referéndum del Brexit",
-          "source": "El Correo",
-          "publishedAt": "2026-11-20T08:12:23.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/europa/reino-unido-acerca-ue-diez-anos-despues-20261119192955-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/reino-unido-reniega-del-brexit-duro-y-se-acerca-a-la-ue-con-acuerdos-para-la-mov/"
-    },
-    {
-      "id": "fading-cluster-españa-primera + osakidetza",
+      "id": "moving-cluster-españa-primera + osakidetza",
       "title": "Osakidetza convoca por primera vez una OPE para personas con discapacidad intelectual",
       "brief": "Osakidetza convoca por primera vez una OPE para personas con discapacidad intelectual.",
       "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 8,
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 52,
+      "alertScore": 64,
       "alertTriggers": [
-        "Cruza varias fuentes"
+        "Cruza varias fuentes",
+        "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
