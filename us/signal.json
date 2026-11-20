@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-20T22:50:26.312Z",
+  "updatedAt": "2026-11-20T23:05:49.344Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "334,972 links analyzed",
-  "dayScanLabel": "8,298 links scanned in 24h",
+  "ambientPulseLabel": "335,807 links analyzed",
+  "dayScanLabel": "8,307 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -16,7 +16,81 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": null,
+  "topAlert": {
+    "id": "now-cluster-united states-trump + tech",
+    "title": "Trump addresses tech outages, Iran, touts meeting with Xi and Putin in first remarks since summit",
+    "brief": "Trump addresses tech outages, Iran, touts meeting with Xi and Putin in first remarks since summit.",
+    "whyItMatters": "",
+    "verdict": "If it repeats in the next run, it gains weight.",
+    "mode": "now",
+    "state": "rising",
+    "stateLabel": "Rising",
+    "strength": 32,
+    "sourceCount": 5,
+    "itemCount": 11,
+    "freshness": "fresh now",
+    "alertLevel": "watch",
+    "alertLabel": "Watch",
+    "alertScore": 99,
+    "alertTriggers": [
+      "Crosses several sources",
+      "Picks up volume fast",
+      "Still active"
+    ],
+    "isHotNews": false,
+    "sources": [
+      "CBS News",
+      "The New York Times World",
+      "NPR Politics",
+      "PBS NewsHour",
+      "The New York Times Politics"
+    ],
+    "images": [
+      "https://static01.nyt.com/images/2026/11/19/multimedia/19trump-summits-ledeall-01-cvbz/19trump-summits-ledeall-01-cvbz-mediumSquareAt3X.jpg",
+      "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6047636",
+      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T173402Z_504625781_RC2TROAMNYL5_RTRMADP_3_USA-TRUMP-1024x683.jpg",
+      "https://static01.nyt.com/images/2026/11/20/multimedia/20dc-ICE-training-jtmb/20dc-ICE-training-jtmb-mediumSquareAt3X.jpg",
+      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T194745Z_969035202_RC2UROAFSN4D_RTRMADP_3_USA-TRUMP-1024x667.jpg"
+    ],
+    "evidence": [
+      {
+        "title": "What we learned from Trump's first press conference following summit with Xi, Putin",
+        "source": "CBS News",
+        "publishedAt": "2026-11-20T22:43:34.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/what-we-learned-from-trumps-first-press-conference-following-summit-with-xi-putin/?utm_source=lootura.com&ref=lootura.com",
+        "image": ""
+      },
+      {
+        "title": "Officials Find Cascade of Problems With ICE Training in Trump’s Immigration Crackdown",
+        "source": "The New York Times Politics",
+        "publishedAt": "2026-11-20T22:35:10.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/20/us/politics/training-ice-immigration-inspector-general.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20dc-ICE-training-jtmb/20dc-ICE-training-jtmb-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Trump Flaunts Camaraderie With Xi and Putin but Has Little to Show for It",
+        "source": "The New York Times World",
+        "publishedAt": "2026-11-20T22:34:05.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/19/world/asia/trump-xi-putin.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19trump-summits-ledeall-01-cvbz/19trump-summits-ledeall-01-cvbz-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "The latest from Trump's press conference",
+        "source": "NPR Politics",
+        "publishedAt": "2026-11-20T21:38:21.000Z",
+        "sourceUrl": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6047636"
+      },
+      {
+        "title": "WATCH: Cascade of tech outages 'separate events' and 'under control,' Trump says",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-11-20T21:13:21.000Z",
+        "sourceUrl": "https://www.pbs.org/newshour/politics/watch-cascade-of-tech-outages-separate-events-and-under-control-trump-says?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T194745Z_969035202_RC2UROAFSN4D_RTRMADP_3_USA-TRUMP-1024x667.jpg"
+      }
+    ],
+    "path": "/us/entity/trump-addresses-tech-outages-iran-touts-meeting-with-xi-and-putin-in-first-remar/"
+  },
   "signals": [
     {
       "id": "now-cluster-united states-trump + tech",
@@ -27,12 +101,12 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 29,
-      "sourceCount": 4,
-      "itemCount": 9,
+      "strength": 32,
+      "sourceCount": 5,
+      "itemCount": 11,
       "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
       "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
@@ -41,17 +115,27 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The New York Times Politics",
-        "PBS NewsHour",
         "CBS News",
-        "The New York Times World"
+        "The New York Times World",
+        "NPR Politics",
+        "PBS NewsHour",
+        "The New York Times Politics"
       ],
       "images": [
+        "https://static01.nyt.com/images/2026/11/19/multimedia/19trump-summits-ledeall-01-cvbz/19trump-summits-ledeall-01-cvbz-mediumSquareAt3X.jpg",
+        "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6047636",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T173402Z_504625781_RC2TROAMNYL5_RTRMADP_3_USA-TRUMP-1024x683.jpg",
         "https://static01.nyt.com/images/2026/11/20/multimedia/20dc-ICE-training-jtmb/20dc-ICE-training-jtmb-mediumSquareAt3X.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T194745Z_969035202_RC2UROAFSN4D_RTRMADP_3_USA-TRUMP-1024x667.jpg",
-        "https://static01.nyt.com/images/2026/11/19/multimedia/19trump-summits-ledeall-01-cvbz/19trump-summits-ledeall-01-cvbz-mediumSquareAt3X.jpg"
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T194745Z_969035202_RC2UROAFSN4D_RTRMADP_3_USA-TRUMP-1024x667.jpg"
       ],
       "evidence": [
+        {
+          "title": "What we learned from Trump's first press conference following summit with Xi, Putin",
+          "source": "CBS News",
+          "publishedAt": "2026-11-20T22:43:34.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/what-we-learned-from-trumps-first-press-conference-following-summit-with-xi-putin/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
         {
           "title": "Officials Find Cascade of Problems With ICE Training in Trump’s Immigration Crackdown",
           "source": "The New York Times Politics",
@@ -67,84 +151,21 @@
           "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19trump-summits-ledeall-01-cvbz/19trump-summits-ledeall-01-cvbz-mediumSquareAt3X.jpg"
         },
         {
+          "title": "The latest from Trump's press conference",
+          "source": "NPR Politics",
+          "publishedAt": "2026-11-20T21:38:21.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6047636"
+        },
+        {
           "title": "WATCH: Cascade of tech outages 'separate events' and 'under control,' Trump says",
           "source": "PBS NewsHour",
           "publishedAt": "2026-11-20T21:13:21.000Z",
           "sourceUrl": "https://www.pbs.org/newshour/politics/watch-cascade-of-tech-outages-separate-events-and-under-control-trump-says?utm_source=lootura.com&ref=lootura.com",
           "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T194745Z_969035202_RC2UROAFSN4D_RTRMADP_3_USA-TRUMP-1024x667.jpg"
-        },
-        {
-          "title": "Trump says he and Xi agreed to \"joint guardrails\" on AI, comments on tech outages",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T20:31:22.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/trump-says-he-and-xi-will-do-joint-guardrails-on-ai/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Inside the situations in Ukraine, Iran following Trump summit with Xi and Putin",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T20:26:57.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/inside-the-situations-in-ukraine-iran-following-trump-summit-with-xi-and-putin/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
         }
       ],
       "path": "/us/entity/trump-addresses-tech-outages-iran-touts-meeting-with-xi-and-putin-in-first-remar/"
-    },
-    {
-      "id": "now-cluster-united states-here + poland",
-      "title": "‘Russian Objects’ Crashed in Poland, Officials Say. Here’s What We Can See.",
-      "brief": "‘Russian Objects’ Crashed in Poland, Officials Say. Here’s What We Can See.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 92,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "PBS NewsHour",
-        "The New York Times World",
-        "CBS News"
-      ],
-      "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T093701Z_1074876966_RC2LROAYKKKS_RTRMADP_3_UKRAINE-CRISIS-POLAND-OBJECTS-1024x683.jpg",
-        "https://static01.nyt.com/images/2026/11/20/world/europe/20vid-poland-airspace-cover-image/20vid-poland-airspace-cover-image-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "NATO calls Russian missiles landing in Poland a 'grave violation' of airspace",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-20T22:42:43.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/world/nato-calls-russian-missiles-landing-in-poland-a-grave-violation-of-airspace?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T093701Z_1074876966_RC2LROAYKKKS_RTRMADP_3_UKRAINE-CRISIS-POLAND-OBJECTS-1024x683.jpg"
-        },
-        {
-          "title": "‘Russian Objects’ Crashed in Poland, Officials Say. Here’s What We Can See.",
-          "source": "The New York Times World",
-          "publishedAt": "2026-11-20T20:30:59.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/world/europe/poland-russia-airspace-missile.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/20/world/europe/20vid-poland-airspace-cover-image/20vid-poland-airspace-cover-image-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Russia missiles pummel Ukraine and hit NATO soil in Poland",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T20:28:38.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/us/entity/russian-objects-crashed-in-poland-officials-say-here-s-what-we-can-see/"
     },
     {
       "id": "now-cluster-united states-court + making",
@@ -155,7 +176,7 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 17,
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 3,
       "freshness": "fresh now",
@@ -203,9 +224,9 @@
       "path": "/us/entity/court-indefinitely-halts-army-s-planned-detonation-of-unstable-explosives-in-iow/"
     },
     {
-      "id": "now-cluster-united states-senate + deliver",
-      "title": "Former Energy Secretary Granholm: Schumer or Van Hollen, Senate Democrats must ‘deliver’",
-      "brief": "Former Energy Secretary Granholm: Schumer or Van Hollen, Senate Democrats must ‘deliver’.",
+      "id": "now-cluster-united states-nato + russian",
+      "title": "NATO calls Russian missiles landing in Poland a 'grave violation' of airspace",
+      "brief": "NATO calls Russian missiles landing in Poland a 'grave violation' of airspace.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -224,43 +245,43 @@
       ],
       "isHotNews": false,
       "sources": [
-        "NBC News Politics",
+        "PBS NewsHour",
         "CBS News"
       ],
       "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795212324256_now_mtp_full_granholm_261120_S3_1920x1080-tizqp0.jpg"
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T093701Z_1074876966_RC2LROAYKKKS_RTRMADP_3_UKRAINE-CRISIS-POLAND-OBJECTS-1024x683.jpg"
       ],
       "evidence": [
         {
-          "title": "Former Energy Secretary Granholm: Schumer or Van Hollen, Senate Democrats must ‘deliver’",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-20T22:05:31.000Z",
-          "sourceUrl": "https://www.nbcnews.com/meet-the-press/video/former-energy-secretary-granholm-schumer-or-van-hollen-senate-democrats-must-deliver-273925701619?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795212324256_now_mtp_full_granholm_261120_S3_1920x1080-tizqp0.jpg"
+          "title": "NATO calls Russian missiles landing in Poland a 'grave violation' of airspace",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-20T22:42:43.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/world/nato-calls-russian-missiles-landing-in-poland-a-grave-violation-of-airspace?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T093701Z_1074876966_RC2LROAYKKKS_RTRMADP_3_UKRAINE-CRISIS-POLAND-OBJECTS-1024x683.jpg"
         },
         {
-          "title": "Battle to replace Schumer as Democratic Senate leader heats up",
+          "title": "Russia missiles pummel Ukraine and hit NATO soil in Poland",
           "source": "CBS News",
-          "publishedAt": "2026-11-20T17:33:53.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/battle-to-replace-schumer-as-democratic-senate-leader-heats-up/?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-20T20:28:38.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         }
       ],
-      "path": "/us/entity/former-energy-secretary-granholm-schumer-or-van-hollen-senate-democrats-must-del/"
+      "path": "/us/entity/nato-calls-russian-missiles-landing-in-poland-a-grave-violation-of-airspace/"
     },
     {
-      "id": "moving-cluster-united states-trump + court",
+      "id": "now-cluster-united states-trump + court",
       "title": "A second judge blocks Trump's arch, saying it's unlikely to succeed in court",
       "brief": "A second judge blocks Trump's arch, saying it's unlikely to succeed in court.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -294,99 +315,6 @@
         }
       ],
       "path": "/us/entity/a-second-judge-blocks-trump-s-arch-saying-it-s-unlikely-to-succeed-in-court/"
-    },
-    {
-      "id": "moving-cluster-united states-trump + data",
-      "title": "Trump says he won't allow U.S. companies to build data centers outside the country",
-      "brief": "Trump says he won't allow U.S. companies to build data centers outside the country.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "1h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "PBS NewsHour",
-        "NBC News"
-      ],
-      "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T200146Z_1935632037_RC2UROAR42MK_RTRMADP_3_USA-TRUMP-1024x683.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795196942821_now_brk_trump_data_centers_261120_S3_1920x1080-uiu9ed.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "WATCH: Trump on data centers: 'Take advantage, don't shut them off'",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-20T21:25:01.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/politics/watch-trump-on-data-centers-take-advantage-dont-shut-them-off?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T200146Z_1935632037_RC2UROAR42MK_RTRMADP_3_USA-TRUMP-1024x683.jpg"
-        },
-        {
-          "title": "Trump says he won't allow U.S. companies to build data centers outside the country",
-          "source": "NBC News",
-          "publishedAt": "2026-11-20T17:49:12.000Z",
-          "sourceUrl": "https://www.nbcnews.com/now/video/trump-says-he-won-t-allow-u-s-companies-to-build-data-centers-outside-the-country-273905221775?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795196942821_now_brk_trump_data_centers_261120_S3_1920x1080-uiu9ed.jpg"
-        }
-      ],
-      "path": "/us/entity/trump-says-he-won-t-allow-u-s-companies-to-build-data-centers-outside-the-countr/"
-    },
-    {
-      "id": "moving-cluster-united states-theft + billion",
-      "title": "Sales of 'Grand Theft Auto VI' hit more than $2.3 billion after long-anticipated release",
-      "brief": "Sales of 'Grand Theft Auto VI' hit more than $2.3 billion after long-anticipated release.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "1h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T175037Z_232006942_RC2TPOAEKJD3_RTRMADP_3_GAMING-GTA-VI-USA-1024x683.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Grand Theft Auto VI Made $3.79 Billion in a Single Day",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-20T21:21:40.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/arts/grand-theft-auto-vi-sales-revenue.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Sales of 'Grand Theft Auto VI' hit more than $2.3 billion after long-anticipated release",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-20T17:06:28.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/arts/sales-of-grand-theft-auto-vi-hit-more-than-2-3-billion-after-long-anticipated-release?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T175037Z_232006942_RC2TPOAEKJD3_RTRMADP_3_GAMING-GTA-VI-USA-1024x683.jpg"
-        }
-      ],
-      "path": "/us/entity/sales-of-grand-theft-auto-vi-hit-more-than-2-3-billion-after-long-anticipated-re/"
     },
     {
       "id": "moving-cluster-united states-florida + heavy",
@@ -434,6 +362,53 @@
         }
       ],
       "path": "/us/entity/northeastern-florida-now-under-flood-threats-from-heavy-rain-that-has-devastated/"
+    },
+    {
+      "id": "moving-cluster-united states-trump + nvidia",
+      "title": "WATCH: Trump says he would love former Nvidia CEO Jensen Huang to ‘be given a second chance’",
+      "brief": "WATCH: Trump says he would love former Nvidia CEO Jensen Huang to ‘be given a second chance’.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 14,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "3h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "PBS NewsHour",
+        "The New York Times"
+      ],
+      "images": [
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T181205Z_993790922_RC2UROAMH6Q9_RTRMADP_3_USA-TRUMP-1024x683.jpg",
+        "https://static01.nyt.com/images/2026/11/18/multimedia/00BIZ-nvidia-culture-jensen-kbpz/00BIZ-nvidia-culture-jensen-kbpz-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "WATCH: Trump says he would love former Nvidia CEO Jensen Huang to ‘be given a second chance’",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-20T20:34:56.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/politics/watch-trump-says-he-would-love-former-nvidia-ceo-jensen-huang-to-be-given-a-second-chance?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T181205Z_993790922_RC2UROAMH6Q9_RTRMADP_3_USA-TRUMP-1024x683.jpg"
+        },
+        {
+          "title": "How Jensen Huang Made Humiliation Routine at Nvidia",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-20T14:43:10.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/20/technology/jensen-huang-nvidia-culture.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/00BIZ-nvidia-culture-jensen-kbpz/00BIZ-nvidia-culture-jensen-kbpz-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/watch-trump-says-he-would-love-former-nvidia-ceo-jensen-huang-to-be-given-a-seco/"
     }
   ]
 }
