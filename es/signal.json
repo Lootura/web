@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-20T12:00:48.026Z",
+  "updatedAt": "2026-11-20T13:00:48.713Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "267.350 enlaces analizados",
-  "dayScanLabel": "4.190 enlaces escaneados en 24h",
+  "ambientPulseLabel": "267.768 enlaces analizados",
+  "dayScanLabel": "4.187 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -27,10 +27,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 26,
+      "strength": 21,
       "sourceCount": 4,
       "itemCount": 7,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 99,
@@ -115,8 +115,8 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Mundo",
         "El Correo",
+        "El Mundo",
         "El País"
       ],
       "images": [
@@ -125,18 +125,18 @@
       ],
       "evidence": [
         {
+          "title": "Francia, el escollo más duro para España en los cuartos de la Liga de Naciones",
+          "source": "El Correo",
+          "publishedAt": "2026-11-20T12:12:41.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/seleccion-espanola/francia-escollo-duro-espana-cuartos-liga-naciones-20261120123120-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
           "title": "España se medirá a la Francia de Zidane y Mbappé en los cuartos de final de la Liga de Naciones",
           "source": "El Mundo",
           "publishedAt": "2026-11-20T11:33:41.000Z",
           "sourceUrl": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/2026/11/20/6b00239de85ecec80b8b457b.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/20/17951743925819.jpg"
-        },
-        {
-          "title": "Francia, el escollo más duro para España en los cuartos de la Liga de Naciones",
-          "source": "El Correo",
-          "publishedAt": "2026-11-20T11:32:35.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/seleccion-espanola/francia-escollo-duro-espana-cuartos-liga-naciones-20261120123120-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
         },
         {
           "title": "España se medirá ante Francia en los cuartos de final de la Nations League",
@@ -149,21 +149,21 @@
       "path": "/es/entity/espana-se-medira-a-la-francia-de-zidane-y-mbappe-en-los-cuartos-de-final-de-la-l/"
     },
     {
-      "id": "now-cluster-españa-cara + feijoo",
+      "id": "moving-cluster-españa-cara + feijoo",
       "title": "El día después del cara a cara: el PP saca a Feijóo paseando al perro y el PSOE adapta un lema de Aznar",
       "brief": "El día después del cara a cara: el PP saca a Feijóo paseando al perro y el PSOE adapta un lema de Aznar.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
+      "strength": 22,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 92,
+      "alertScore": 86,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -204,9 +204,9 @@
       "path": "/es/entity/el-dia-despues-del-cara-a-cara-el-pp-saca-a-feijoo-paseando-al-perro-y-el-psoe-a/"
     },
     {
-      "id": "now-cluster-españa-reino + unido",
-      "title": "El Reino Unido y la UE buscan fijar un acuerdo limitado de movilidad juvenil que supere el bloqueo del Brexit",
-      "brief": "El Reino Unido y la UE buscan fijar un acuerdo limitado de movilidad juvenil que supere el bloqueo del Brexit.",
+      "id": "now-cluster-españa-contra + misiles",
+      "title": "Dos misiles y un dron rusos caen en el este de Polonia en plenas maniobras militares de una decena de países europeos",
+      "brief": "Dos misiles y un dron rusos caen en el este de Polonia en plenas maniobras militares de una decena de países europeos.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -216,6 +216,52 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/AJR6JGD4AZODDKVYLIZ5YJJ2V4.jpg?auth=5234304f67af5da0c1aa4c05847cd70848f741b474b06de092c81bdcb3f8382f"
+      ],
+      "evidence": [
+        {
+          "title": "Dos misiles y un dron rusos caen en el este de Polonia en plenas maniobras militares de una decena de países europeos",
+          "source": "El País",
+          "publishedAt": "2026-11-20T12:35:38.000Z",
+          "sourceUrl": "https://elpais.com/internacional/2026-11-20/dos-misiles-y-un-dron-rusos-caen-en-el-este-de-polonia-en-plenas-maniobras-militares-de-una-decena-de-paises-europeos.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/AJR6JGD4AZODDKVYLIZ5YJJ2V4.jpg?auth=5234304f67af5da0c1aa4c05847cd70848f741b474b06de092c81bdcb3f8382f"
+        },
+        {
+          "title": "Dos misiles y un dron rusos caen en territorio polaco durante un ataque nocturno contra Ucrania",
+          "source": "El Correo",
+          "publishedAt": "2026-11-20T11:07:11.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/europa/dos-misiles-dron-rusos-caen-territorio-polaco-20261120120710-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/dos-misiles-y-un-dron-rusos-caen-en-el-este-de-polonia-en-plenas-maniobras-milit/"
+    },
+    {
+      "id": "now-cluster-españa-reino + unido",
+      "title": "El Reino Unido y la UE buscan fijar un acuerdo limitado de movilidad juvenil que supere el bloqueo del Brexit",
+      "brief": "El Reino Unido y la UE buscan fijar un acuerdo limitado de movilidad juvenil que supere el bloqueo del Brexit.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -250,7 +296,7 @@
       "path": "/es/entity/el-reino-unido-y-la-ue-buscan-fijar-un-acuerdo-limitado-de-movilidad-juvenil-que/"
     },
     {
-      "id": "now-cluster-españa-osakidetza + convoca",
+      "id": "now-cluster-españa-osakidetza + primera",
       "title": "Osakidetza convoca por primera vez una OPE para personas con discapacidad intelectual",
       "brief": "Osakidetza convoca por primera vez una OPE para personas con discapacidad intelectual.",
       "whyItMatters": "",
@@ -258,13 +304,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -294,52 +340,6 @@
         }
       ],
       "path": "/es/entity/osakidetza-convoca-por-primera-vez-una-ope-para-personas-con-discapacidad-intele/"
-    },
-    {
-      "id": "moving-cluster-españa-acuerdo + seguridad",
-      "title": "El sindicato de maquinistas Semaf desconvoca la huelga del 23 de noviembre tras un acuerdo con Transportes en materia de seguridad",
-      "brief": "El sindicato de maquinistas Semaf desconvoca la huelga del 23 de noviembre tras un acuerdo con Transportes en materia de seguridad.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Mundo"
-      ],
-      "images": [
-        "https://e01-phantom-elmundo.uecdn.es/6956af541f9308cb01cfe5a5b8d4e4cc/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/20/17951548431643.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El sindicato de maquinistas Semaf desconvoca la huelga del 23 de noviembre tras un acuerdo con Transportes en materia de seguridad",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-20T08:22:15.000Z",
-          "sourceUrl": "https://www.diariovasco.com/sociedad/sindicato-maquinistas-semaf-desconvoca-huelga-noviembre-tras-20261120091545-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Semaf desconvoca la huelga de maquinistas del 23 de noviembre tras alcanzar un acuerdo en seguridad ferroviaria",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-20T06:08:49.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/20/6affe386e85ece240e8b45a2.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/6956af541f9308cb01cfe5a5b8d4e4cc/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/20/17951548431643.jpg"
-        }
-      ],
-      "path": "/es/entity/el-sindicato-de-maquinistas-semaf-desconvoca-la-huelga-del-23-de-noviembre-tras/"
     }
   ]
 }
