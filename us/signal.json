@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-20T03:00:48.606Z",
+  "updatedAt": "2026-11-20T04:00:48.089Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "319,190 links analyzed",
+  "ambientPulseLabel": "320,021 links analyzed",
   "dayScanLabel": "8,297 links scanned in 24h",
   "empty": {
     "title": "No new trends",
@@ -17,18 +17,18 @@
     ]
   },
   "topAlert": {
-    "id": "now-cluster-united states-hillary + clinton",
+    "id": "moving-cluster-united states-hillary + clinton",
     "title": "At Gloria Steinem Memorial, Michelle Obama, Hillary Clinton and More Big Names Gather",
     "brief": "At Gloria Steinem Memorial, Michelle Obama, Hillary Clinton and More Big Names Gather.",
     "whyItMatters": "",
     "verdict": "If it repeats in the next run, it gains weight.",
-    "mode": "now",
+    "mode": "moving",
     "state": "rising",
     "stateLabel": "Rising",
-    "strength": 33,
+    "strength": 32,
     "sourceCount": 5,
     "itemCount": 12,
-    "freshness": "fresh now",
+    "freshness": "2h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -91,18 +91,18 @@
   },
   "signals": [
     {
-      "id": "now-cluster-united states-hillary + clinton",
+      "id": "moving-cluster-united states-hillary + clinton",
       "title": "At Gloria Steinem Memorial, Michelle Obama, Hillary Clinton and More Big Names Gather",
       "brief": "At Gloria Steinem Memorial, Michelle Obama, Hillary Clinton and More Big Names Gather.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 33,
+      "strength": 32,
       "sourceCount": 5,
       "itemCount": 12,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -164,21 +164,21 @@
       "path": "/us/entity/at-gloria-steinem-memorial-michelle-obama-hillary-clinton-and-more-big-names-gat/"
     },
     {
-      "id": "moving-cluster-united states-white + house",
+      "id": "now-cluster-united states-white + house",
       "title": "Former White House chief information officer on banking hack, tech outages",
       "brief": "Former White House chief information officer on banking hack, tech outages.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 24,
       "sourceCount": 3,
-      "itemCount": 6,
-      "freshness": "2h fresh",
+      "itemCount": 4,
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 99,
+      "alertScore": 96,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -193,14 +193,13 @@
       "images": [
         "https://static01.nyt.com/images/2026/11/19/multimedia/19dc-cyber-director-ckwm/19dc-cyber-director-ckwm-mediumSquareAt3X.jpg",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261119-Sean-Cairncross-ew-606p-354b45.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795133885742_nn_sgo_cyber_latest_261119_S3_1920x1080-ja8aic.jpg",
         "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/19/787a3b3e-f5a0-4042-a85c-6be1659ed842/thumbnail/1200x630g2/2b076860b3f77dd9d1af8a957147cc7e/ap26320828805068.jpg"
       ],
       "evidence": [
         {
-          "title": "Top White House Cybersecurity Official Steps Down",
+          "title": "Top White House Cybersecurity Official Is Replaced",
           "source": "The New York Times Politics",
-          "publishedAt": "2026-11-20T00:57:25.000Z",
+          "publishedAt": "2026-11-20T03:31:41.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/19/us/politics/white-house-cyber-director-departs.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19dc-cyber-director-ckwm/19dc-cyber-director-ckwm-mediumSquareAt3X.jpg"
         },
@@ -210,13 +209,6 @@
           "publishedAt": "2026-11-20T00:48:22.267Z",
           "sourceUrl": "https://www.nbcnews.com/politics/white-house/national-cyber-director-sean-cairncross-leaving-kirsten-davies-replaci-rcna610329?utm_source=lootura.com&ref=lootura.com",
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261119-Sean-Cairncross-ew-606p-354b45.jpg"
-        },
-        {
-          "title": "National cyber director to leave Trump administration",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-20T00:18:11.000Z",
-          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/national-cyber-director-to-leave-trump-administration-273861701758?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795133885742_nn_sgo_cyber_latest_261119_S3_1920x1080-ja8aic.jpg"
         },
         {
           "title": "White House national cyber director leaving his post",
@@ -236,18 +228,75 @@
       "path": "/us/entity/former-white-house-chief-information-officer-on-banking-hack-tech-outages/"
     },
     {
-      "id": "now-cluster-united states-trump + judge",
-      "title": "Judges have put Trump's arch and golf course on hold, but only for a matter of days",
-      "brief": "Judges have put Trump's arch and golf course on hold, but only for a matter of days.",
+      "id": "moving-cluster-united states-global + finds",
+      "title": "Extreme weather poses growing risks to global oil and natural gas shipping, new IEA report finds",
+      "brief": "Extreme weather poses growing risks to global oil and natural gas shipping, new IEA report finds.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
       "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "Phys.org",
+        "The New York Times World",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://scx2.b-cdn.net/gfx/news/hires/2026/oil-and-natural-gas-sh.jpg",
+        "https://static01.nyt.com/images/2026/11/19/multimedia/19int-ICJ-Myanmar-01-fkth/19int-ICJ-Myanmar-01-fkth-mediumSquareAt3X.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/rohingya-1024x683.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Extreme weather poses growing risks to global oil and natural gas shipping, new IEA report finds",
+          "source": "Phys.org",
+          "publishedAt": "2026-11-20T03:20:06.000Z",
+          "sourceUrl": "https://phys.org/news/2026-11-extreme-weather-poses-global-oil.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/oil-and-natural-gas-sh.jpg"
+        },
+        {
+          "title": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds",
+          "source": "The New York Times World",
+          "publishedAt": "2026-11-20T01:37:19.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/19/world/europe/myanmar-genocide-icj-decision-.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19int-ICJ-Myanmar-01-fkth/19int-ICJ-Myanmar-01-fkth-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "International Court of Justice finds Myanmar guilty of genocide against Rohingya",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-19T23:35:01.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/international-court-of-justice-finds-myanmar-guilty-of-genocide-against-rohingya?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/rohingya-1024x683.jpg"
+        }
+      ],
+      "path": "/us/entity/extreme-weather-poses-growing-risks-to-global-oil-and-natural-gas-shipping-new-i/"
+    },
+    {
+      "id": "moving-cluster-united states-trump + judge",
+      "title": "Judges have put Trump's arch and golf course on hold, but only for a matter of days",
+      "brief": "Judges have put Trump's arch and golf course on hold, but only for a matter of days.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 22,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 92,
@@ -292,74 +341,18 @@
       "path": "/us/entity/judges-have-put-trump-s-arch-and-golf-course-on-hold-but-only-for-a-matter-of-da/"
     },
     {
-      "id": "moving-cluster-united states-more + florida",
-      "title": "El Niño strikes again, breaking rain records in San Francisco and along Florida’s Atlantic coast",
-      "brief": "El Niño strikes again, breaking rain records in San Francisco and along Florida’s Atlantic coast.",
+      "id": "moving-cluster-united states-anthropic + takeaways",
+      "title": "Anthropic's 7 co-founders now worth about $20 billion each after record IPO",
+      "brief": "Anthropic's 7 co-founders now worth about $20 billion each after record IPO.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 22,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "2h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 92,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "NBC News",
-        "The New York Times"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261119-san-francisco-ew-615p-cc7271.jpg",
-        "https://static01.nyt.com/images/2026/11/19/multimedia/19xp-flooding-fmkq/19xp-flooding-fmkq-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Dangerous flooding continues in Florida, many areas hit with over a foot of rain",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T00:47:19.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/dangerous-flooding-continues-in-florida-many-areas-hit-with-over-a-foot-of-rain/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "El Niño strikes again, breaking rain records in San Francisco and along Florida’s Atlantic coast",
-          "source": "NBC News",
-          "publishedAt": "2026-11-19T23:49:36.332Z",
-          "sourceUrl": "https://www.nbcnews.com/weather/storms/rain-records-storms-san-francisco-florida-el-nino-rcna610332?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261119-san-francisco-ew-615p-cc7271.jpg"
-        },
-        {
-          "title": "In Florida, More Rain Threatens Flooded Areas and Roads",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-19T22:37:05.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/19/weather/florida-floods-rain-closures-evacuations.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19xp-flooding-fmkq/19xp-flooding-fmkq-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/el-nino-strikes-again-breaking-rain-records-in-san-francisco-and-along-florida-s/"
-    },
-    {
-      "id": "now-cluster-united states-anthropic + takeaways",
-      "title": "Anthropic's 7 co-founders now worth about $20 billion each after record IPO",
-      "brief": "Anthropic's 7 co-founders now worth about $20 billion each after record IPO.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 17,
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 4,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 83,
@@ -409,18 +402,74 @@
       "path": "/us/entity/anthropic-s-7-co-founders-now-worth-about-20-billion-each-after-record-ipo/"
     },
     {
-      "id": "now-cluster-united states-genocide + global",
-      "title": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds",
-      "brief": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds.",
+      "id": "now-cluster-united states-trump + senate",
+      "title": "Senate Republicans Block Bid to Rein in Trump on Iran War",
+      "brief": "Senate Republicans Block Bid to Rein in Trump on Iran War.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 17,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "The New York Times Politics"
+      ],
+      "images": [
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/04/67d7fb9f-e206-4208-a497-def228f6a273/thumbnail/1200x630g2/b91506905916df295ca8ff9c0f109469/sullivan-peltola.jpg",
+        "https://static01.nyt.com/images/2026/11/19/multimedia/19dc-warpowers-tkfq/19dc-warpowers-tkfq-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/19/multimedia/19dc-lawfirms-zvkt/19dc-lawfirms-zvkt-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Trump administration moves to dismiss lawsuit over Alaska Senate race",
+          "source": "CBS News",
+          "publishedAt": "2026-11-20T03:55:45.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/trump-administration-dismiss-alaska-senate-lawsuit/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/04/67d7fb9f-e206-4208-a497-def228f6a273/thumbnail/1200x630g2/b91506905916df295ca8ff9c0f109469/sullivan-peltola.jpg"
+        },
+        {
+          "title": "Senate Republicans Block Bid to Rein in Trump on Iran War",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-19T20:19:12.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/19/us/politics/senate-iran-war-powers-trump.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19dc-warpowers-tkfq/19dc-warpowers-tkfq-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "In Bending to Trump, Law Firm Did $11.8 Million of Free Work for Administration",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-19T14:38:55.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/19/us/politics/kirkland-ellis-law-firm-trump.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19dc-lawfirms-zvkt/19dc-lawfirms-zvkt-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/senate-republicans-block-bid-to-rein-in-trump-on-iran-war/"
+    },
+    {
+      "id": "now-cluster-united states-senate + justice",
+      "title": "Justice Department seeks dismissal of its lawsuit in the Alaska Senate race",
+      "brief": "Justice Department seeks dismissal of its lawsuit in the Alaska Senate race.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresh",
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -430,44 +479,44 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The New York Times World",
-        "PBS NewsHour"
+        "The New York Times Politics",
+        "NBC News Politics"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/19/multimedia/19int-ICJ-Myanmar-01-fkth/19int-ICJ-Myanmar-01-fkth-mediumSquareAt3X.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/rohingya-1024x683.jpg"
+        "https://static01.nyt.com/images/2026/11/19/multimedia/19pol-alaska-suit-tkqp/19pol-alaska-suit-tkqp-mediumSquareAt3X.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261119-mary-peltola-ww-1718-f423d7.jpg"
       ],
       "evidence": [
         {
-          "title": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds",
-          "source": "The New York Times World",
-          "publishedAt": "2026-11-20T01:37:19.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/19/world/europe/myanmar-genocide-icj-decision-.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19int-ICJ-Myanmar-01-fkth/19int-ICJ-Myanmar-01-fkth-mediumSquareAt3X.jpg"
+          "title": "Justice Department Gives Up on Alaska Senate Lawsuit",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-20T03:47:05.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/19/us/politics/justice-department-gives-up-on-alaska-senate-lawsuit.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19pol-alaska-suit-tkqp/19pol-alaska-suit-tkqp-mediumSquareAt3X.jpg"
         },
         {
-          "title": "International Court of Justice finds Myanmar guilty of genocide against Rohingya",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-19T23:35:01.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/show/international-court-of-justice-finds-myanmar-guilty-of-genocide-against-rohingya?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/rohingya-1024x683.jpg"
+          "title": "Justice Department seeks dismissal of its lawsuit in the Alaska Senate race",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-20T01:59:24.146Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/2026-election/doj-seeks-dismissal-lawsuit-alaska-senate-dan-sullivan-mary-peltola-rcna610343?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261119-mary-peltola-ww-1718-f423d7.jpg"
         }
       ],
-      "path": "/us/entity/myanmar-committed-genocide-against-the-rohingya-top-global-court-finds/"
+      "path": "/us/entity/justice-department-seeks-dismissal-of-its-lawsuit-in-the-alaska-senate-race/"
     },
     {
-      "id": "moving-cluster-united states-fiona + hippo",
+      "id": "now-cluster-united states-fiona + hippo",
       "title": "Fiona the Hippo, Star of Cincinnati Zoo and Beyond, Dies After Eating Child’s Hat",
       "brief": "Fiona the Hippo, Star of Cincinnati Zoo and Beyond, Dies After Eating Child’s Hat.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresh",
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -481,16 +530,16 @@
         "NBC News"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/19/multimedia/19xp-fiona-1/19xp-fiona-1-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/19/multimedia/19xp-fiona-1/19xp-fiona-1-mediumSquareAt3X-v2.jpg",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795134561996_nn_mve_fiona_hippo_dies_261119_S3_1920x1080-h1yn2g.jpg"
       ],
       "evidence": [
         {
           "title": "Fiona the Hippo, Star of Cincinnati Zoo and Beyond, Dies After Eating Child’s Hat",
           "source": "The New York Times",
-          "publishedAt": "2026-11-20T01:33:23.000Z",
+          "publishedAt": "2026-11-20T03:25:05.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/19/us/fiona-hippo-dead-cincinnati-zoo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19xp-fiona-1/19xp-fiona-1-mediumSquareAt3X.jpg"
+          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19xp-fiona-1/19xp-fiona-1-mediumSquareAt3X-v2.jpg"
         },
         {
           "title": "Celebrity hippo Fiona dies",
@@ -503,24 +552,78 @@
       "path": "/us/entity/fiona-the-hippo-star-of-cincinnati-zoo-and-beyond-dies-after-eating-child-s-hat/"
     },
     {
-      "id": "moving-cluster-united states-than + senate",
+      "id": "fading-cluster-united states-more + florida",
+      "title": "El Niño strikes again, breaking rain records in San Francisco and along Florida’s Atlantic coast",
+      "brief": "El Niño strikes again, breaking rain records in San Francisco and along Florida’s Atlantic coast.",
+      "whyItMatters": "",
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 17,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "3h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 68,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NBC News",
+        "The New York Times"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261119-san-francisco-ew-615p-cc7271.jpg",
+        "https://static01.nyt.com/images/2026/11/19/multimedia/19xp-flooding-fmkq/19xp-flooding-fmkq-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Dangerous flooding continues in Florida, many areas hit with over a foot of rain",
+          "source": "CBS News",
+          "publishedAt": "2026-11-20T00:47:19.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/dangerous-flooding-continues-in-florida-many-areas-hit-with-over-a-foot-of-rain/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "El Niño strikes again, breaking rain records in San Francisco and along Florida’s Atlantic coast",
+          "source": "NBC News",
+          "publishedAt": "2026-11-19T23:49:36.332Z",
+          "sourceUrl": "https://www.nbcnews.com/weather/storms/rain-records-storms-san-francisco-florida-el-nino-rcna610332?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261119-san-francisco-ew-615p-cc7271.jpg"
+        },
+        {
+          "title": "In Florida, More Rain Threatens Flooded Areas and Roads",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-19T22:37:05.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/19/weather/florida-floods-rain-closures-evacuations.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19xp-flooding-fmkq/19xp-flooding-fmkq-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/el-nino-strikes-again-breaking-rain-records-in-san-francisco-and-along-florida-s/"
+    },
+    {
+      "id": "fading-cluster-united states-senate + than",
       "title": "'Bigger than Barack Obama's election': Scholars reflect on Mississippi Senate race",
       "brief": "'Bigger than Barack Obama's election': Scholars reflect on Mississippi Senate race.",
       "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 7,
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresh",
+      "freshness": "8h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 64,
+      "alertScore": 46,
       "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
+        "Crosses several sources"
       ],
       "isHotNews": false,
       "sources": [
