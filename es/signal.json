@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-20T04:00:48.089Z",
+  "updatedAt": "2026-11-20T05:00:48.233Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "263.998 enlaces analizados",
-  "dayScanLabel": "4.217 enlaces escaneados en 24h",
+  "ambientPulseLabel": "264.418 enlaces analizados",
+  "dayScanLabel": "4.210 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -25,12 +25,12 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
+      "state": "active",
+      "stateLabel": "Activa",
       "strength": 28,
       "sourceCount": 3,
-      "itemCount": 21,
-      "freshness": "3h fresca",
+      "itemCount": 20,
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 99,
@@ -90,53 +90,6 @@
       "path": "/es/entity/a-que-hora-y-donde-ver-el-debate-entre-sanchez-y-feijoo-todas-las-cadenas-que-em/"
     },
     {
-      "id": "now-cluster-españa-alcaraz + shelton",
-      "title": "Ben Shelton, el nuevo pupilo de Ferrero: \"Su éxito con Alcaraz pesó muchísimo en mi decisión de contratarlo\"",
-      "brief": "Ben Shelton, el nuevo pupilo de Ferrero: \"Su éxito con Alcaraz pesó muchísimo en mi decisión de contratarlo\".",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/19/17951218233698.jpg",
-        "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/19/shelton-reuters-k5rD-U404430002177kD-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Ben Shelton, el nuevo pupilo de Ferrero: \"Su éxito con Alcaraz pesó muchísimo en mi decisión de contratarlo\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-20T00:19:58.000Z",
-          "sourceUrl": "https://www.elmundo.es/deportes/tenis/2026/11/19/6aff6261fdddff565e8b458a.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/19/17951218233698.jpg"
-        },
-        {
-          "title": "Shelton, rival de Alcaraz en las semifinales",
-          "source": "El Correo",
-          "publishedAt": "2026-11-19T21:21:16.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/tenis/shelton-rival-alcaraz-semifinales-20261119222115-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/19/shelton-reuters-k5rD-U404430002177kD-1200x840@RC.jpg"
-        }
-      ],
-      "path": "/es/entity/ben-shelton-el-nuevo-pupilo-de-ferrero-su-exito-con-alcaraz-peso-muchisimo-en-mi/"
-    },
-    {
       "id": "moving-cluster-españa-cuatro + medio",
       "title": "El Astelena acogerá un mínimo de siete partidos del Parejas, del Manomanista y del Cuatro y Medio",
       "brief": "El Astelena acogerá un mínimo de siete partidos del Parejas, del Manomanista y del Cuatro y Medio.",
@@ -145,10 +98,10 @@
       "mode": "moving",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 6,
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "9h fresca",
+      "freshness": "10h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -183,7 +136,7 @@
       "path": "/es/entity/el-astelena-acogera-un-minimo-de-siete-partidos-del-parejas-del-manomanista-y-de/"
     },
     {
-      "id": "moving-cluster-españa-millones + euskadi",
+      "id": "moving-cluster-españa-hasta + millones",
       "title": "Varapalo judicial a Osakidetza: anulan el macrocontrato de 650 millones de las ambulancias en Euskadi por falta de justificación",
       "brief": "Varapalo judicial a Osakidetza: anulan el macrocontrato de 650 millones de las ambulancias en Euskadi por falta de justificación.",
       "whyItMatters": "",
@@ -194,7 +147,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "10h fresca",
+      "freshness": "11h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -229,6 +182,53 @@
       "path": "/es/entity/varapalo-judicial-a-osakidetza-anulan-el-macrocontrato-de-650-millones-de-las-am/"
     },
     {
+      "id": "now-cluster-españa-alcaraz + shelton",
+      "title": "Ben Shelton, el nuevo pupilo de Ferrero: \"Su éxito con Alcaraz pesó muchísimo en mi decisión de contratarlo\"",
+      "brief": "Ben Shelton, el nuevo pupilo de Ferrero: \"Su éxito con Alcaraz pesó muchísimo en mi decisión de contratarlo\".",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "5h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 60,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El Correo"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/19/17951218233698.jpg",
+        "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/19/shelton-reuters-k5rD-U404430002177kD-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Ben Shelton, el nuevo pupilo de Ferrero: \"Su éxito con Alcaraz pesó muchísimo en mi decisión de contratarlo\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-20T00:19:58.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/tenis/2026/11/19/6aff6261fdddff565e8b458a.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/19/17951218233698.jpg"
+        },
+        {
+          "title": "Shelton, rival de Alcaraz en las semifinales",
+          "source": "El Correo",
+          "publishedAt": "2026-11-19T21:21:16.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/tenis/shelton-rival-alcaraz-semifinales-20261119222115-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/19/shelton-reuters-k5rD-U404430002177kD-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/ben-shelton-el-nuevo-pupilo-de-ferrero-su-exito-con-alcaraz-peso-muchisimo-en-mi/"
+    },
+    {
       "id": "now-cluster-españa-sanchez + pierde",
       "title": "Abascal advierte de que Sánchez “no se irá de rositas” si pierde las elecciones",
       "brief": "Abascal advierte de que Sánchez “no se irá de rositas” si pierde las elecciones.",
@@ -240,7 +240,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 60,
@@ -286,7 +286,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 60,
@@ -332,7 +332,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "15h fresca",
+      "freshness": "16h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 59,
