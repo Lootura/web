@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-21T11:00:48.036Z",
+  "updatedAt": "2026-11-21T12:00:47.864Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "277.005 enlaces analizados",
-  "dayScanLabel": "4.195 enlaces escaneados en 24h",
+  "ambientPulseLabel": "277.427 enlaces analizados",
+  "dayScanLabel": "4.199 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,21 +19,77 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-feijoo + debate",
-      "title": "Sánchez justifica no haber entrado al barro con Feijóo: «Sería jugar como Argentina en la final de la Copa del Mundo»",
-      "brief": "Sánchez justifica no haber entrado al barro con Feijóo: «Sería jugar como Argentina en la final de la Copa del Mundo».",
+      "id": "now-cluster-españa-chapo + isidro",
+      "title": "La captura del capo 'Chapo Isidro' reclamado por EE UU desata una oleada de violencia en México",
+      "brief": "La captura del capo 'Chapo Isidro' reclamado por EE UU desata una oleada de violencia en México.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 25,
+      "strength": 23,
       "sourceCount": 3,
-      "itemCount": 5,
+      "itemCount": 3,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 99,
+      "alertScore": 92,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952616445773.jpg",
+        "https://s3.ppllstatics.com/rc/www/multimedia/2026/11/21/chapo-isidro-fbi-kjX-U301159244699Eg-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "México confirma la captura del narcotraficante 'Chapo Isidro', uno de los 10 criminales más buscados por el FBI",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-21T11:50:58.000Z",
+          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/21/6b0183ccfc6c83c7038b456e.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952616445773.jpg"
+        },
+        {
+          "title": "La captura del capo 'Chapo Isidro' reclamado por EE UU desata una oleada de violencia en México",
+          "source": "El Correo",
+          "publishedAt": "2026-11-21T08:27:53.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/america-latina/captura-capo-chapo-isidro-reclamado-desata-oleada-20261121092752-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/2026/11/21/chapo-isidro-fbi-kjX-U301159244699Eg-1200x840@RC.jpg"
+        },
+        {
+          "title": "Detenido El Chapo Isidro en un operativo que desata el terror en Sinaloa",
+          "source": "El País",
+          "publishedAt": "2026-11-21T05:54:50.000Z",
+          "sourceUrl": "https://elpais.com/mexico/2026-11-21/detenido-el-chapo-isidro-en-un-operativo-que-desata-el-terror-en-sinaloa.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/la-captura-del-capo-chapo-isidro-reclamado-por-ee-uu-desata-una-oleada-de-violen/"
+    },
+    {
+      "id": "now-cluster-españa-pero + sanchez",
+      "title": "Moncloa asume la decepción de una militancia que quiere «rocanrol», pero defiende el papel de Sánchez en el debate",
+      "brief": "Moncloa asume la decepción de una militancia que quiere «rocanrol», pero defiende el papel de Sánchez en el debate.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 4,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 83,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -42,13 +98,11 @@
       "isHotNews": false,
       "sources": [
         "El Correo",
-        "El País",
-        "El Mundo"
+        "El País"
       ],
       "images": [
         "https://imagenes.elpais.com/resizer/v2/K6DXCOSONRL5NNL4AJRXQBEY3Y.jpg?auth=57fe073b0be715f6279abcdc9a040353e61d0ae9c4161bac7284a6cd7b7140bc",
-        "https://imagenes.elpais.com/resizer/v2/XD4B7GSI3BIABBRF2ACIUJE4EY.jpg?auth=ab42c40c197dbedd8dad5d96c18d99841db4af4a760a2c3c061ece883b1d2939",
-        "https://e01-phantom-elmundo.uecdn.es/b23b52cd866f19a8b80416496330fcbf/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/20/17952047456875.jpg"
+        "https://imagenes.elpais.com/resizer/v2/XD4B7GSI3BIABBRF2ACIUJE4EY.jpg?auth=ab42c40c197dbedd8dad5d96c18d99841db4af4a760a2c3c061ece883b1d2939"
       ],
       "evidence": [
         {
@@ -73,13 +127,6 @@
           "image": "https://imagenes.elpais.com/resizer/v2/XD4B7GSI3BIABBRF2ACIUJE4EY.jpg?auth=ab42c40c197dbedd8dad5d96c18d99841db4af4a760a2c3c061ece883b1d2939"
         },
         {
-          "title": "Colau ve una oportunidad para desmarcarse de Sánchez: \"Solo no puede ganar ni un debate ni las elecciones\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-21T01:15:32.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/21/6b00a6c9fc6c83250e8b45b5.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/b23b52cd866f19a8b80416496330fcbf/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/20/17952047456875.jpg"
-        },
-        {
           "title": "Moncloa asume la decepción de una militancia que quiere «rocanrol», pero defiende el papel de Sánchez en el debate",
           "source": "El Correo",
           "publishedAt": "2026-11-20T20:48:14.000Z",
@@ -87,84 +134,12 @@
           "image": ""
         }
       ],
-      "path": "/es/entity/sanchez-justifica-no-haber-entrado-al-barro-con-feijoo-seria-jugar-como-argentin/"
+      "path": "/es/entity/moncloa-asume-la-decepcion-de-una-militancia-que-quiere-rocanrol-pero-defiende-e/"
     },
     {
-      "id": "now-cluster-españa-black + friday",
-      "title": "La banca lleva la batalla del Black Friday al crédito al consumo para impulsar las compras y captar clientes",
-      "brief": "La banca lleva la batalla del Black Friday al crédito al consumo para impulsar las compras y captar clientes.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 18,
-      "sourceCount": 2,
-      "itemCount": 5,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 87,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "OK Diario",
-        "El País"
-      ],
-      "images": [
-        "https://okdiario.com/img/2026/11/14/la-inflacion-y-los-salarios-golpean-al-black-friday-interior.jpg",
-        "https://imagenes.elpais.com/resizer/v2/HL2XYYET6RDA3AAAU36VOOILFI.png?auth=ec8c0956ff1e1c0f964040660639d189fa0ce07b633a46eda74d014a68ea5e68",
-        "https://imagenes.elpais.com/resizer/v2/HB34GZ54GFEN3PDREESYDMYZVE.png?auth=cb9274eb89218d187f08de0cee6496d47812a5257df575506a88887f4b8ce0cd",
-        "https://imagenes.elpais.com/resizer/v2/RXGB5ALVN5AGPBZGB3WWOQ43NE.png?auth=f9443f046234689b07b429e2ae12306baef8133c6806f07288ad8fbd21cee770",
-        "https://imagenes.elpais.com/resizer/v2/JAUMMI7L2FAWPATWKDPCW2D6WE.png?auth=8c9ca77c5aebd938ccd91753670f1dc2abd0e0b449039048519cbba5b6d129eb"
-      ],
-      "evidence": [
-        {
-          "title": "La banca lleva la batalla del Black Friday al crédito al consumo para impulsar las compras y captar clientes",
-          "source": "OK Diario",
-          "publishedAt": "2026-11-21T11:00:37.000Z",
-          "sourceUrl": "https://okdiario.com/economia/banca-lleva-batalla-del-black-friday-credito-consumo-impulsar-compras-captar-clientes-21238658?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://okdiario.com/img/2026/11/14/la-inflacion-y-los-salarios-golpean-al-black-friday-interior.jpg"
-        },
-        {
-          "title": "Tres máscaras LED faciales rebajadas por Black Friday para mejorar la piel desde casa",
-          "source": "El País",
-          "publishedAt": "2026-11-21T06:10:00.000Z",
-          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-semana-black-friday-2026-mascaras-faciales-led.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/HL2XYYET6RDA3AAAU36VOOILFI.png?auth=ec8c0956ff1e1c0f964040660639d189fa0ce07b633a46eda74d014a68ea5e68"
-        },
-        {
-          "title": "10 abrigos de marca rebajados hasta 180 euros en la Semana Black Friday",
-          "source": "El País",
-          "publishedAt": "2026-11-21T05:45:00.000Z",
-          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-semana-black-friday-2026-abrigos.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/RXGB5ALVN5AGPBZGB3WWOQ43NE.png?auth=f9443f046234689b07b429e2ae12306baef8133c6806f07288ad8fbd21cee770"
-        },
-        {
-          "title": "Los productos más vendidos en Amazon en las dos primeras jornadas de Black Friday",
-          "source": "El País",
-          "publishedAt": "2026-11-21T05:30:00.000Z",
-          "sourceUrl": "https://elpais.com/escaparate/2026-11-21/lo-mas-vendido-dos-primeras-jornadas-black-friday.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/HB34GZ54GFEN3PDREESYDMYZVE.png?auth=cb9274eb89218d187f08de0cee6496d47812a5257df575506a88887f4b8ce0cd"
-        },
-        {
-          "title": "Ikea se suma a Black Friday con descuentos de hasta el 50% en muebles y decoración",
-          "source": "El País",
-          "publishedAt": "2026-11-21T05:15:00.000Z",
-          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/ofertas-muebles-ikea-black-friday-2026.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/JAUMMI7L2FAWPATWKDPCW2D6WE.png?auth=8c9ca77c5aebd938ccd91753670f1dc2abd0e0b449039048519cbba5b6d129eb"
-        }
-      ],
-      "path": "/es/entity/la-banca-lleva-la-batalla-del-black-friday-al-credito-al-consumo-para-impulsar-l/"
-    },
-    {
-      "id": "now-cluster-españa-feijoo + valencia",
-      "title": "Feijóo, Juanfran Pérez Llorca, María José Catalá y Vicente Mompó mitin en Valencia",
-      "brief": "Feijóo, Juanfran Pérez Llorca, María José Catalá y Vicente Mompó mitin en Valencia.",
+      "id": "now-cluster-españa-entre + costa",
+      "title": "Costa plantea un tijeretazo del 10% en su propuesta del presupuesto comunitario para intentar lograr un consenso entre los líderes",
+      "brief": "Costa plantea un tijeretazo del 10% en su propuesta del presupuesto comunitario para intentar lograr un consenso entre los líderes.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -183,49 +158,96 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The Objective",
-        "La Razón"
+        "El Correo",
+        "El Mundo"
       ],
       "images": [
-        "https://theobjective.com/wp-content/uploads/2026/11/feijoo-valencia.jpeg",
-        "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/20/E2CD4334-8626-40FD-BC11-348D0A7D373C/98.jpg?crop=4226,2378,x0,y90&width=1900&height=1069&optimize=low&format=webply"
+        "https://e01-phantom-elmundo.uecdn.es/61a5adf41c66660060014e0d8627b86f/crop/311x0/2711x1600/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/21/17952590648676.jpg"
       ],
       "evidence": [
         {
-          "title": "VÍDEO | Feijóo interviene en un mitin en Valencia",
-          "source": "The Objective",
-          "publishedAt": "2026-11-21T11:00:42.000Z",
-          "sourceUrl": "https://theobjective.com/videos/espana/politica/2026-11-21/video-feijoo-valencia/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://theobjective.com/wp-content/uploads/2026/11/feijoo-valencia.jpeg"
+          "title": "Costa plantea un tijeretazo del 10% en su propuesta del presupuesto comunitario para intentar lograr un consenso entre los líderes",
+          "source": "El Correo",
+          "publishedAt": "2026-11-21T11:16:53.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/europa/costa-propone-tijeretazo-propuesta-presupuesto-comunitario-intentar-20261121115918-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
-          "title": "Feijóo, Juanfran Pérez Llorca, María José Catalá y Vicente Mompó mitin en Valencia",
-          "source": "La Razón",
-          "publishedAt": "2026-11-21T10:51:50.000Z",
-          "sourceUrl": "https://www.larazon.es/espana/feijoo-juanfran-perez-llorca-maria-jose-catala-vicente-mompo-mitin-valencia_202611216b0177b750b7057c6d12d972.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/20/E2CD4334-8626-40FD-BC11-348D0A7D373C/98.jpg?crop=4226,2378,x0,y90&width=1900&height=1069&optimize=low&format=webply"
+          "title": "Costa propone un recorte adicional del 10% del presupuesto europeo de 2028 a 2034",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-21T11:08:02.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/macroeconomia/2026/11/21/6b017a9d21efa0cd1e8b45a6.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/61a5adf41c66660060014e0d8627b86f/crop/311x0/2711x1600/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/21/17952590648676.jpg"
         }
       ],
-      "path": "/es/entity/feijoo-juanfran-perez-llorca-maria-jose-catala-y-vicente-mompo-mitin-en-valencia/"
+      "path": "/es/entity/costa-plantea-un-tijeretazo-del-10-en-su-propuesta-del-presupuesto-comunitario-p/"
     },
     {
-      "id": "now-cluster-españa-peio + etxeberria",
+      "id": "now-cluster-españa-florentino + perez",
+      "title": "Florentino Pérez 'asciende' a Rafa Nadal a su derecha en la Asamblea del Madrid: \"Es un orgullo contar con él\"",
+      "brief": "Florentino Pérez 'asciende' a Rafa Nadal a su derecha en la Asamblea del Madrid: \"Es un orgullo contar con él\".",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/X4JVFCBU4VNLTHLJQB5THKPF34.jpg?auth=daf1d226c796e0c8aca05a792a7ffdd845ca6a015009743b8a2f14183374ee8e",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952545659575.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Florentino Pérez, con Nadal a su lado, no olvida el caso Negreira: “No voy a parar hasta que se depuren responsabilidades”",
+          "source": "El País",
+          "publishedAt": "2026-11-21T11:03:18.000Z",
+          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-21/florentino-perez-con-nadal-a-su-lado-no-olvida-el-caso-negreira-no-voy-a-parar-hasta-que-se-depuren-responsabilidades.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/X4JVFCBU4VNLTHLJQB5THKPF34.jpg?auth=daf1d226c796e0c8aca05a792a7ffdd845ca6a015009743b8a2f14183374ee8e"
+        },
+        {
+          "title": "Florentino Pérez 'asciende' a Rafa Nadal a su derecha en la Asamblea del Madrid: \"Es un orgullo contar con él\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-21T09:29:20.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/futbol/2026/11/21/6b01646de85ecec7518b4581.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952545659575.jpg"
+        }
+      ],
+      "path": "/es/entity/florentino-perez-asciende-a-rafa-nadal-a-su-derecha-en-la-asamblea-del-madrid-es/"
+    },
+    {
+      "id": "moving-cluster-españa-peio + etxeberria",
       "title": "Peio Etxeberria jugará la final del Cuatro y Medio tras remitir sus problemas en el ojo",
       "brief": "Peio Etxeberria jugará la final del Cuatro y Medio tras remitir sus problemas en el ojo.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "cooling",
       "stateLabel": "Bajando",
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "14h fresca",
+      "freshness": "15h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 41,
+      "alertScore": 59,
       "alertTriggers": [
-        "Cruza varias fuentes"
+        "Cruza varias fuentes",
+        "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
