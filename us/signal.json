@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-21T09:00:48.101Z",
+  "updatedAt": "2026-11-21T10:00:48.187Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "344,183 links analyzed",
-  "dayScanLabel": "8,376 links scanned in 24h",
+  "ambientPulseLabel": "345,019 links analyzed",
+  "dayScanLabel": "8,378 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -17,18 +17,18 @@
     ]
   },
   "topAlert": {
-    "id": "moving-cluster-united states-trump + putin",
+    "id": "moving-cluster-united states-trump + first",
     "title": "Trump defends calling Putin his friend, talks outages in first presser after China summit",
     "brief": "Trump defends calling Putin his friend, talks outages in first presser after China summit.",
     "whyItMatters": "",
     "verdict": "If it repeats in the next run, it gains weight.",
     "mode": "moving",
-    "state": "active",
-    "stateLabel": "Active",
-    "strength": 23,
-    "sourceCount": 6,
-    "itemCount": 9,
-    "freshness": "8h fresh",
+    "state": "cooling",
+    "stateLabel": "Cooling",
+    "strength": 20,
+    "sourceCount": 5,
+    "itemCount": 8,
+    "freshness": "9h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -42,8 +42,8 @@
       "CBS News",
       "NBC News Politics",
       "PBS NewsHour",
-      "The New York Times World",
-      "NPR Politics"
+      "NPR Politics",
+      "The New York Times Politics"
     ],
     "images": [
       "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795218333477_nn_mal_trump_touts_historic_summit_with_xi_putin_261120_S3_1920x1080-m618xk.jpg",
@@ -91,18 +91,18 @@
   },
   "signals": [
     {
-      "id": "moving-cluster-united states-trump + putin",
+      "id": "moving-cluster-united states-trump + first",
       "title": "Trump defends calling Putin his friend, talks outages in first presser after China summit",
       "brief": "Trump defends calling Putin his friend, talks outages in first presser after China summit.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 23,
-      "sourceCount": 6,
-      "itemCount": 9,
-      "freshness": "8h fresh",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 20,
+      "sourceCount": 5,
+      "itemCount": 8,
+      "freshness": "9h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -116,8 +116,8 @@
         "CBS News",
         "NBC News Politics",
         "PBS NewsHour",
-        "The New York Times World",
-        "NPR Politics"
+        "NPR Politics",
+        "The New York Times Politics"
       ],
       "images": [
         "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795218333477_nn_mal_trump_touts_historic_summit_with_xi_putin_261120_S3_1920x1080-m618xk.jpg",
@@ -172,10 +172,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 17,
+      "strength": 16,
       "sourceCount": 4,
       "itemCount": 4,
-      "freshness": "7h fresh",
+      "freshness": "8h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 95,
@@ -236,15 +236,15 @@
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
+      "state": "active",
+      "stateLabel": "Active",
       "strength": 17,
       "sourceCount": 3,
       "itemCount": 4,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 90,
+      "alertScore": 80,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -306,7 +306,7 @@
       "strength": 14,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "7h fresh",
+      "freshness": "8h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 80,
@@ -352,52 +352,6 @@
       "path": "/us/entity/fiona-s-caretakers-and-fans-mourn-the-beloved-hippo-after-her-death-at-cincinnat/"
     },
     {
-      "id": "now-cluster-united states-americans + amid",
-      "title": "Lawmakers warn Americans of vulnerable systems amid streak of outages: 'Something is going on'",
-      "brief": "Lawmakers warn Americans of vulnerable systems amid streak of outages: 'Something is going on'.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "Fox News",
-        "CBS News"
-      ],
-      "images": [
-        "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/6222e1ae-45f2-4a1e-b7f7-3abf99ed2ad2/24af2c2b-aa69-4c84-a77c-0d62e60b91ed/1280x720/match/1024/512/image.jpg?ve=1&tl=1"
-      ],
-      "evidence": [
-        {
-          "title": "Lawmakers warn Americans of vulnerable systems amid streak of outages: 'Something is going on'",
-          "source": "Fox News",
-          "publishedAt": "2026-11-21T09:00:38.000Z",
-          "sourceUrl": "https://www.foxnews.com/politics/lawmakers-warn-americans-vulnerable-systems-amid-streak-outages-something-going-on?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/6222e1ae-45f2-4a1e-b7f7-3abf99ed2ad2/24af2c2b-aa69-4c84-a77c-0d62e60b91ed/1280x720/match/1024/512/image.jpg?ve=1&tl=1"
-        },
-        {
-          "title": "Tech outages prompt some Americans to prepare for collapse, Washington Post report says",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T23:31:04.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/tech-outages-prompt-some-americans-to-prepare-for-collapse-wapo-report-says/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/us/entity/lawmakers-warn-americans-of-vulnerable-systems-amid-streak-of-outages-something/"
-    },
-    {
       "id": "now-cluster-united states-iraqi + forces",
       "title": "Iraqi Forces Enter Stronghold of Powerful Iran-Backed Militia",
       "brief": "Iraqi Forces Enter Stronghold of Powerful Iran-Backed Militia.",
@@ -406,13 +360,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
@@ -445,53 +399,6 @@
       "path": "/us/entity/iraqi-forces-enter-stronghold-of-powerful-iran-backed-militia/"
     },
     {
-      "id": "now-cluster-united states-nvidia + huang",
-      "title": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military",
-      "brief": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times Politics",
-        "The New York Times"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/19/multimedia/19dc-spy-chip-tbpw/19dc-spy-chip-tbpw-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/11/18/multimedia/00BIZ-nvidia-culture-jensen-kbpz/00BIZ-nvidia-culture-jensen-kbpz-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-21T05:13:03.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/politics/nvidia-alice-huang-chips-china.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19dc-spy-chip-tbpw/19dc-spy-chip-tbpw-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "How Jensen Huang Made Humiliation Routine at Nvidia",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-20T14:43:10.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/technology/jensen-huang-nvidia-culture.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/00BIZ-nvidia-culture-jensen-kbpz/00BIZ-nvidia-culture-jensen-kbpz-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/alice-huang-accused-of-spying-on-nvidia-s-ceo-is-linked-to-firms-with-ties-to-ch/"
-    },
-    {
       "id": "moving-cluster-united states-trump + conference",
       "title": "What Trump addressed during his lengthy White House news conference",
       "brief": "What Trump addressed during his lengthy White House news conference.",
@@ -500,10 +407,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "7h fresh",
+      "freshness": "8h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 67,
@@ -548,23 +455,71 @@
       "path": "/us/entity/what-trump-addressed-during-his-lengthy-white-house-news-conference/"
     },
     {
-      "id": "fading-cluster-united states-court + cancer",
-      "title": "Court approves $7.25 billion Bayer settlement over claims Roundup weed killer caused cancer",
-      "brief": "Court approves $7.25 billion Bayer settlement over claims Roundup weed killer caused cancer.",
+      "id": "now-cluster-united states-nvidia + huang",
+      "title": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military",
+      "brief": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military.",
       "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Cooling",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Active",
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 52,
+      "alertScore": 60,
       "alertTriggers": [
-        "Crosses several sources"
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times Politics",
+        "The New York Times"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/19/multimedia/19dc-spy-chip-tbpw/19dc-spy-chip-tbpw-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/18/multimedia/00BIZ-nvidia-culture-jensen-kbpz/00BIZ-nvidia-culture-jensen-kbpz-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-21T05:13:03.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/politics/nvidia-alice-huang-chips-china.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19dc-spy-chip-tbpw/19dc-spy-chip-tbpw-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "How Jensen Huang Made Humiliation Routine at Nvidia",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-20T14:43:10.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/20/technology/jensen-huang-nvidia-culture.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/00BIZ-nvidia-culture-jensen-kbpz/00BIZ-nvidia-culture-jensen-kbpz-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/alice-huang-accused-of-spying-on-nvidia-s-ceo-is-linked-to-firms-with-ties-to-ch/"
+    },
+    {
+      "id": "now-cluster-united states-court + cancer",
+      "title": "Court approves $7.25 billion Bayer settlement over claims Roundup weed killer caused cancer",
+      "brief": "Court approves $7.25 billion Bayer settlement over claims Roundup weed killer caused cancer.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "7h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 54,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
       ],
       "isHotNews": false,
       "sources": [
@@ -605,7 +560,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "10h fresh",
+      "freshness": "11h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 46,
