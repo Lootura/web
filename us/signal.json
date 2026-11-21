@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-21T18:00:48.403Z",
+  "updatedAt": "2026-11-21T19:00:48.205Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "351,712 links analyzed",
-  "dayScanLabel": "8,367 links scanned in 24h",
+  "ambientPulseLabel": "352,543 links analyzed",
+  "dayScanLabel": "8,360 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -19,21 +19,21 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "moving-cluster-united states-palisades + fire",
-      "title": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles",
-      "brief": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles.",
+      "id": "now-cluster-united states-chapo + isidro",
+      "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+      "brief": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 16,
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "4h fresh",
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 86,
+      "alertScore": 92,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -41,39 +41,133 @@
       ],
       "isHotNews": false,
       "sources": [
-        "NPR",
-        "NBC News",
-        "The New York Times"
+        "NPR World",
+        "The Guardian US",
+        "The New York Times World"
       ],
       "images": [
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5808x3872+0+0/resize/5808x3872!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fe0%2Ffd%2Ff9157ccb44d0a165869fae76e14b%2Fap26324834912819.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261119-pacific-palisades-vsb-1934-56c4e2.jpg",
-        "https://static01.nyt.com/images/2026/11/19/multimedia/00nat-hfo-arson-verdict-hlvb/00nat-hfo-arson-verdict-hlvb-mediumSquareAt3X.jpg"
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4153x2769+0+0/resize/4153x2769!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F4f%2F34%2F888e5ba6425cae1b50ebbe90e6a1%2Fap26325506754293.jpg",
+        "https://i.guim.co.uk/img/media/109833a4d1387ede241180856c6e37007aa8a6a3/264_354_897_717/master/897.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b228975517691e02d9f2c13e8010a7ae",
+        "https://static01.nyt.com/images/2026/11/21/multimedia/21int-cartel-arrest-wtk-cjwm/21int-cartel-arrest-wtk-cjwm-mediumSquareAt3X.jpg"
       ],
       "evidence": [
         {
-          "title": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles",
-          "source": "NPR",
-          "publishedAt": "2026-11-21T13:58:33.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/21/nx-s1-6049625/palisades-fire-conviction?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5808x3872+0+0/resize/5808x3872!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fe0%2Ffd%2Ff9157ccb44d0a165869fae76e14b%2Fap26324834912819.jpg"
+          "title": "Mexico detains top cartel boss 'El Chapo Isidro,' setting off violence",
+          "source": "NPR World",
+          "publishedAt": "2026-11-21T18:08:55.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4153x2769+0+0/resize/4153x2769!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F4f%2F34%2F888e5ba6425cae1b50ebbe90e6a1%2Fap26325506754293.jpg"
         },
         {
-          "title": "California man found guilty of starting deadly and devastating Pacific Palisades fire",
-          "source": "NBC News",
-          "publishedAt": "2026-11-21T06:07:53.773Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/pacific-palisades-fire-retrial-jonathan-rinderknecht-rcna610336?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261119-pacific-palisades-vsb-1934-56c4e2.jpg"
+          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-21T17:46:55.000Z",
+          "sourceUrl": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/109833a4d1387ede241180856c6e37007aa8a6a3/264_354_897_717/master/897.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b228975517691e02d9f2c13e8010a7ae"
         },
         {
-          "title": "Jury in Palisades Fire Trial Finds Man Guilty of Arson in Devastating Blaze",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-21T01:08:11.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/la-fire-trial-arson.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/00nat-hfo-arson-verdict-hlvb/00nat-hfo-arson-verdict-hlvb-mediumSquareAt3X.jpg"
+          "title": "Who Is the Mexican Drug Kingpin Known as El Chapo Isidro?",
+          "source": "The New York Times World",
+          "publishedAt": "2026-11-21T16:30:35.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-drug-kingpin.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/21/multimedia/21int-cartel-arrest-wtk-cjwm/21int-cartel-arrest-wtk-cjwm-mediumSquareAt3X.jpg"
         }
       ],
-      "path": "/us/entity/federal-jury-convicts-man-of-starting-the-deadly-2025-palisades-fire-in-los-ange/"
+      "path": "/us/entity/alleged-mexican-drug-cartel-boss-el-chapo-isidro-arrested-in-special-forces-raid/"
+    },
+    {
+      "id": "now-cluster-united states-mexican + drug",
+      "title": "Mexico arrests drug kingpin on FBI's 10 Most Wanted, sparking violence in Sinaloa",
+      "brief": "Mexico arrests drug kingpin on FBI's 10 Most Wanted, sparking violence in Sinaloa.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "ABC News",
+        "CBS News"
+      ],
+      "images": [
+        "https://s.abcnews.com/images/International/cartel-leader-ht-jt-261121_1795274682402_hpMain_4x3t_384.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/10dd40a3-459d-42a3-920f-e6be48f6daad/thumbnail/1200x630/c03d946daa157a09a648f9fed4bdeaf3/2026-11-21t133748z-174175452-rc2dsoamky38-rtrmadp-3-mexico-chapoisidro.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Mexican cartel leader on FBI's 10 most wanted fugitive list arrested",
+          "source": "ABC News",
+          "publishedAt": "2026-11-21T18:35:26.000Z",
+          "sourceUrl": "https://abcnews.com/International/mexican-cartel-leader-fbis-10-wanted-fugitive-list/story?id=138346100&utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s.abcnews.com/images/International/cartel-leader-ht-jt-261121_1795274682402_hpMain_4x3t_384.jpg"
+        },
+        {
+          "title": "Mexico arrests drug kingpin on FBI's 10 Most Wanted, sparking violence in Sinaloa",
+          "source": "CBS News",
+          "publishedAt": "2026-11-21T13:56:59.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/mexico-drug-kingpin-arrest-fausto-isidro-meza-flores-sinaloa/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/10dd40a3-459d-42a3-920f-e6be48f6daad/thumbnail/1200x630/c03d946daa157a09a648f9fed4bdeaf3/2026-11-21t133748z-174175452-rc2dsoamky38-rtrmadp-3-mexico-chapoisidro.jpg"
+        }
+      ],
+      "path": "/us/entity/mexico-arrests-drug-kingpin-on-fbi-s-10-most-wanted-sparking-violence-in-sinaloa/"
+    },
+    {
+      "id": "now-cluster-united states-white + house",
+      "title": "Trump's new executive order tells federal contractors to check with White House before responding to Congress",
+      "brief": "Trump's new executive order tells federal contractors to check with White House before responding to Congress.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/21/51a0968f-83e8-4f80-a20e-ab205a8cff26/thumbnail/1200x630/e389042c61d9f0e67a780c899b09dde8/ap26323678599076.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T175659Z_216000440_RC2TROA2LBVM_RTRMADP_3_USA-TRUMP-1-1200x800.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Trump's new executive order tells federal contractors to check with White House before responding to Congress",
+          "source": "CBS News",
+          "publishedAt": "2026-11-21T18:33:46.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/trump-executive-order-federal-contractors-white-house-congress/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/21/51a0968f-83e8-4f80-a20e-ab205a8cff26/thumbnail/1200x630/e389042c61d9f0e67a780c899b09dde8/ap26323678599076.jpg"
+        },
+        {
+          "title": "Trump auditions potential successors as Rubio and Vance join him for White House briefing",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-21T17:32:04.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/politics/trump-auditions-potential-successors-as-rubio-and-vance-join-him-for-white-house-briefing?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T175659Z_216000440_RC2TROA2LBVM_RTRMADP_3_USA-TRUMP-1-1200x800.jpg"
+        }
+      ],
+      "path": "/us/entity/trump-s-new-executive-order-tells-federal-contractors-to-check-with-white-house/"
     },
     {
       "id": "moving-cluster-united states-trump + army",
@@ -84,13 +178,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 10,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 79,
+      "alertScore": 73,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -131,100 +225,6 @@
       "path": "/us/entity/why-the-army-says-it-needs-to-detonate-unstable-lead-filled-explosives-in-iowa-a/"
     },
     {
-      "id": "now-cluster-united states-chapo + isidro",
-      "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
-      "brief": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The Guardian US",
-        "The New York Times World"
-      ],
-      "images": [
-        "https://i.guim.co.uk/img/media/109833a4d1387ede241180856c6e37007aa8a6a3/264_354_897_717/master/897.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b228975517691e02d9f2c13e8010a7ae",
-        "https://static01.nyt.com/images/2026/11/21/multimedia/21int-cartel-arrest-wtk-cjwm/21int-cartel-arrest-wtk-cjwm-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-21T17:46:55.000Z",
-          "sourceUrl": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/109833a4d1387ede241180856c6e37007aa8a6a3/264_354_897_717/master/897.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b228975517691e02d9f2c13e8010a7ae"
-        },
-        {
-          "title": "Who Is the Mexican Drug Kingpin Known as El Chapo Isidro?",
-          "source": "The New York Times World",
-          "publishedAt": "2026-11-21T16:30:35.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-drug-kingpin.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/21/multimedia/21int-cartel-arrest-wtk-cjwm/21int-cartel-arrest-wtk-cjwm-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/alleged-mexican-drug-cartel-boss-el-chapo-isidro-arrested-in-special-forces-raid/"
-    },
-    {
-      "id": "now-cluster-united states-anthropic + mathematician",
-      "title": "Anthropic mathematician claims he used Claude to prove 19th-century Riemann hypothesis",
-      "brief": "Anthropic mathematician claims he used Claude to prove 19th-century Riemann hypothesis.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "1h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The Guardian US",
-        "The New York Times"
-      ],
-      "images": [
-        "https://i.guim.co.uk/img/media/d3154f68df589c297fc3d173e2bb3d95faca05c9/530_0_4678_3742/master/4678.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1a7ad1c833428adafc056e7f188ca63a",
-        "https://static01.nyt.com/images/2026/11/20/multimedia/20SCI-AI-RIEMANN-01-jtkm/20SCI-AI-RIEMANN-01-jtkm-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Anthropic mathematician claims he used Claude to prove 19th-century Riemann hypothesis",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-21T16:39:49.000Z",
-          "sourceUrl": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/d3154f68df589c297fc3d173e2bb3d95faca05c9/530_0_4678_3742/master/4678.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1a7ad1c833428adafc056e7f188ca63a"
-        },
-        {
-          "title": "Anthropic Mathematician Claims to Solve Riemann Hypothesis With Help From Claude",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-21T00:33:39.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/science/anthropic-ai-math-riemann-hypothesis.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20SCI-AI-RIEMANN-01-jtkm/20SCI-AI-RIEMANN-01-jtkm-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/anthropic-mathematician-claims-he-used-claude-to-prove-19th-century-riemann-hypo/"
-    },
-    {
       "id": "now-cluster-united states-cancer + life",
       "title": "Catherine, Princess of Wales, speaks about healing from cancer in new documentary: \"Cancer does change you\"",
       "brief": "Catherine, Princess of Wales, speaks about healing from cancer in new documentary: \"Cancer does change you\".",
@@ -233,13 +233,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
@@ -272,21 +272,21 @@
       "path": "/us/entity/catherine-princess-of-wales-speaks-about-healing-from-cancer-in-new-documentary/"
     },
     {
-      "id": "now-cluster-united states-black + friday",
+      "id": "moving-cluster-united states-black + friday",
       "title": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
       "brief": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
@@ -319,6 +319,53 @@
       "path": "/us/entity/amazon-s-first-digital-photo-frame-is-up-to-50-percent-off-for-black-friday/"
     },
     {
+      "id": "moving-cluster-united states-federal + jury",
+      "title": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles",
+      "brief": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "5h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NPR",
+        "The New York Times"
+      ],
+      "images": [
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5808x3872+0+0/resize/5808x3872!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fe0%2Ffd%2Ff9157ccb44d0a165869fae76e14b%2Fap26324834912819.jpg",
+        "https://static01.nyt.com/images/2026/11/19/multimedia/00nat-hfo-arson-verdict-hlvb/00nat-hfo-arson-verdict-hlvb-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles",
+          "source": "NPR",
+          "publishedAt": "2026-11-21T13:58:33.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/21/nx-s1-6049625/palisades-fire-conviction?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5808x3872+0+0/resize/5808x3872!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fe0%2Ffd%2Ff9157ccb44d0a165869fae76e14b%2Fap26324834912819.jpg"
+        },
+        {
+          "title": "Jury in Palisades Fire Trial Finds Man Guilty of Arson in Devastating Blaze",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-21T01:08:11.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/la-fire-trial-arson.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/00nat-hfo-arson-verdict-hlvb/00nat-hfo-arson-verdict-hlvb-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/federal-jury-convicts-man-of-starting-the-deadly-2025-palisades-fire-in-los-ange/"
+    },
+    {
       "id": "moving-cluster-united states-denmark + accuses",
       "title": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil",
       "brief": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil.",
@@ -330,7 +377,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 70,
