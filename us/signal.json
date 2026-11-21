@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-21T13:00:48.174Z",
+  "updatedAt": "2026-11-21T14:00:47.899Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "347,535 links analyzed",
-  "dayScanLabel": "8,382 links scanned in 24h",
+  "ambientPulseLabel": "348,373 links analyzed",
+  "dayScanLabel": "8,383 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -19,18 +19,18 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-united states-trump + army",
+      "id": "moving-cluster-united states-trump + army",
       "title": "Why the Army says it needs to detonate unstable, lead-filled explosives in Iowa and what's at risk",
       "brief": "Why the Army says it needs to detonate unstable, lead-filled explosives in Iowa and what's at risk.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 24,
+      "strength": 23,
       "sourceCount": 3,
       "itemCount": 4,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 96,
@@ -92,10 +92,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 23,
+      "strength": 22,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 92,
@@ -152,7 +152,7 @@
       "strength": 17,
       "sourceCount": 2,
       "itemCount": 4,
-      "freshness": "fresh now",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 83,
@@ -205,9 +205,56 @@
       "path": "/us/entity/week-in-politics-trump-returns-from-asia-hails-trip-as-one-of-best-in-history/"
     },
     {
-      "id": "now-cluster-united states-silicon + valley",
-      "title": "I’m a priest. Silicon Valley’s search for the ‘soul’ of AI is deeply troubling | Rev Kevin Deal",
-      "brief": "I’m a priest. Silicon Valley’s search for the ‘soul’ of AI is deeply troubling | Rev Kevin Deal.",
+      "id": "now-cluster-united states-denmark + accuses",
+      "title": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil",
+      "brief": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NBC News"
+      ],
+      "images": [
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/03/19/577389c9-a673-46e9-b352-43f0d769b2ca/thumbnail/1200x630/c5531d6f436c9618e054cce79b052d26/gettyimages-2265438566.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261121-denmark-nd-a842f4.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil",
+          "source": "CBS News",
+          "publishedAt": "2026-11-21T13:21:35.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/denmark-accuses-russia-assassination-plot-against-us-ukrainian-citizen/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/03/19/577389c9-a673-46e9-b352-43f0d769b2ca/thumbnail/1200x630/c5531d6f436c9618e054cce79b052d26/gettyimages-2265438566.jpg"
+        },
+        {
+          "title": "Denmark accuses Russia of plotting to kill Ukrainian American rapper on its soil",
+          "source": "NBC News",
+          "publishedAt": "2026-11-21T10:15:12.144Z",
+          "sourceUrl": "https://www.nbcnews.com/world/europe/denmark-accuses-russia-plotting-kill-ukrainian-american-rapper-soil-rcna610542?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261121-denmark-nd-a842f4.jpg"
+        }
+      ],
+      "path": "/us/entity/denmark-accuses-russia-of-assassination-plot-against-u-s-ukrainian-citizen-on-it/"
+    },
+    {
+      "id": "now-cluster-united states-fiona + hippo",
+      "title": "Fiona the hippo’s death was tragic. But blaming a ‘bad mom’ is absurd | Arwa Mahdawi",
+      "brief": "Fiona the hippo’s death was tragic. But blaming a ‘bad mom’ is absurd | Arwa Mahdawi.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -217,6 +264,53 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "1h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The Guardian US",
+        "The New York Times"
+      ],
+      "images": [
+        "https://i.guim.co.uk/img/media/b3e881f531d06e41d0e2127cd69b6ca237b051c9/445_0_4446_3556/master/4446.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=b151f57212e5faccab670203ef58e29a",
+        "https://static01.nyt.com/images/2026/11/20/multimedia/20nat-fiona-fallout-1-02-zqjm/20nat-fiona-fallout-1-02-zqjm-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Fiona the hippo’s death was tragic. But blaming a ‘bad mom’ is absurd | Arwa Mahdawi",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-21T13:00:01.000Z",
+          "sourceUrl": "https://www.theguardian.com/commentisfree/2026/nov/21/fiona-the-hippo-death-bad-mom-scapegoat?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/b3e881f531d06e41d0e2127cd69b6ca237b051c9/445_0_4446_3556/master/4446.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=b151f57212e5faccab670203ef58e29a"
+        },
+        {
+          "title": "Fiona the Hippo Died After Eating a Hat. Some Want Justice.",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-21T02:06:07.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/fiona-hippo-internet-justice.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20nat-fiona-fallout-1-02-zqjm/20nat-fiona-fallout-1-02-zqjm-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/fiona-the-hippo-s-death-was-tragic-but-blaming-a-bad-mom-is-absurd-arwa-mahdawi/"
+    },
+    {
+      "id": "moving-cluster-united states-silicon + valley",
+      "title": "I’m a priest. Silicon Valley’s search for the ‘soul’ of AI is deeply troubling | Rev Kevin Deal",
+      "brief": "I’m a priest. Silicon Valley’s search for the ‘soul’ of AI is deeply troubling | Rev Kevin Deal.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -263,7 +357,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "11h fresh",
+      "freshness": "12h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 64,
