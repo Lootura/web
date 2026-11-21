@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-21T10:00:48.187Z",
+  "updatedAt": "2026-11-21T11:00:48.036Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "345,019 links analyzed",
+  "ambientPulseLabel": "345,855 links analyzed",
   "dayScanLabel": "8,378 links scanned in 24h",
   "empty": {
     "title": "No new trends",
@@ -16,95 +16,23 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": {
-    "id": "moving-cluster-united states-trump + first",
-    "title": "Trump defends calling Putin his friend, talks outages in first presser after China summit",
-    "brief": "Trump defends calling Putin his friend, talks outages in first presser after China summit.",
-    "whyItMatters": "",
-    "verdict": "If it repeats in the next run, it gains weight.",
-    "mode": "moving",
-    "state": "cooling",
-    "stateLabel": "Cooling",
-    "strength": 20,
-    "sourceCount": 5,
-    "itemCount": 8,
-    "freshness": "9h fresh",
-    "alertLevel": "watch",
-    "alertLabel": "Watch",
-    "alertScore": 99,
-    "alertTriggers": [
-      "Crosses several sources",
-      "Picks up volume fast",
-      "Still active"
-    ],
-    "isHotNews": false,
-    "sources": [
-      "CBS News",
-      "NBC News Politics",
-      "PBS NewsHour",
-      "NPR Politics",
-      "The New York Times Politics"
-    ],
-    "images": [
-      "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795218333477_nn_mal_trump_touts_historic_summit_with_xi_putin_261120_S3_1920x1080-m618xk.jpg",
-      "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/20/cd52a768-2347-4386-9e9f-b163ff6399cc/thumbnail/1200x630/102451d4f5d834f839445678a8eeb140/cbsn-fusion-tech-sell-off-sends-sp-500-and-dow-into-correction-territory-thumbnail.jpg",
-      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/brooks-1-1024x576.jpg"
-    ],
-    "evidence": [
-      {
-        "title": "Trump defends calling Putin his friend, talks outages in first presser after China summit",
-        "source": "CBS News",
-        "publishedAt": "2026-11-21T01:08:22.000Z",
-        "sourceUrl": "https://www.cbsnews.com/video/trump-defends-calling-putin-his-friend-talks-outages-in-first-presser-after-china-summit/?utm_source=lootura.com&ref=lootura.com",
-        "image": ""
-      },
-      {
-        "title": "Trump says recent tech outages are \"all separate events\"",
-        "source": "CBS News",
-        "publishedAt": "2026-11-21T00:09:40.000Z",
-        "sourceUrl": "https://www.cbsnews.com/video/trump-says-recent-tech-outages-are-all-separate-events/?utm_source=lootura.com&ref=lootura.com",
-        "image": ""
-      },
-      {
-        "title": "Trump touts historic summit with Xi, Putin",
-        "source": "NBC News Politics",
-        "publishedAt": "2026-11-20T23:45:38.000Z",
-        "sourceUrl": "https://www.nbcnews.com/nightly-news/video/trump-touts-historic-summit-with-xi-putin-273933381719?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795218333477_nn_mal_trump_touts_historic_summit_with_xi_putin_261120_S3_1920x1080-m618xk.jpg"
-      },
-      {
-        "title": "Markets plummet amid tech sell-off, Trump threatens tax on data centers built abroad",
-        "source": "CBS News",
-        "publishedAt": "2026-11-20T23:41:29.000Z",
-        "sourceUrl": "https://www.cbsnews.com/video/tech-sell-off-sends-sp-500-and-dow-into-correction-territory/?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/20/cd52a768-2347-4386-9e9f-b163ff6399cc/thumbnail/1200x630/102451d4f5d834f839445678a8eeb140/cbsn-fusion-tech-sell-off-sends-sp-500-and-dow-into-correction-territory-thumbnail.jpg"
-      },
-      {
-        "title": "Brooks and Capehart on Trump's summit with Putin and Xi",
-        "source": "PBS NewsHour",
-        "publishedAt": "2026-11-20T23:35:27.000Z",
-        "sourceUrl": "https://www.pbs.org/newshour/show/brooks-and-capehart-on-trumps-summit-with-putin-and-xi?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/brooks-1-1024x576.jpg"
-      }
-    ],
-    "path": "/us/entity/trump-defends-calling-putin-his-friend-talks-outages-in-first-presser-after-chin/"
-  },
+  "topAlert": null,
   "signals": [
     {
-      "id": "moving-cluster-united states-trump + first",
-      "title": "Trump defends calling Putin his friend, talks outages in first presser after China summit",
-      "brief": "Trump defends calling Putin his friend, talks outages in first presser after China summit.",
+      "id": "now-cluster-united states-trump + tech",
+      "title": "Trump calls Xi and Putin a notable word, and we finally get ‘GTA VI’ after all: The news quiz",
+      "brief": "Trump calls Xi and Putin a notable word, and we finally get ‘GTA VI’ after all: The news quiz.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 20,
-      "sourceCount": 5,
-      "itemCount": 8,
-      "freshness": "9h fresh",
-      "alertLevel": "watch",
-      "alertLabel": "Watch",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 27,
+      "sourceCount": 4,
+      "itemCount": 6,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
       "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
@@ -113,18 +41,24 @@
       ],
       "isHotNews": false,
       "sources": [
+        "NBC News",
         "CBS News",
-        "NBC News Politics",
         "PBS NewsHour",
-        "NPR Politics",
         "The New York Times Politics"
       ],
       "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795218333477_nn_mal_trump_touts_historic_summit_with_xi_putin_261120_S3_1920x1080-m618xk.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261120-news-quiz-grid-sjr-4f7efc.png",
         "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/20/cd52a768-2347-4386-9e9f-b163ff6399cc/thumbnail/1200x630/102451d4f5d834f839445678a8eeb140/cbsn-fusion-tech-sell-off-sends-sp-500-and-dow-into-correction-territory-thumbnail.jpg",
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/brooks-1-1024x576.jpg"
       ],
       "evidence": [
+        {
+          "title": "Trump calls Xi and Putin a notable word, and we finally get ‘GTA VI’ after all: The news quiz",
+          "source": "NBC News",
+          "publishedAt": "2026-11-21T10:15:00.000Z",
+          "sourceUrl": "https://www.nbcnews.com/news/news-quiz/trump-xi-putin-gta-news-quiz-rcna610276?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261120-news-quiz-grid-sjr-4f7efc.png"
+        },
         {
           "title": "Trump defends calling Putin his friend, talks outages in first presser after China summit",
           "source": "CBS News",
@@ -138,13 +72,6 @@
           "publishedAt": "2026-11-21T00:09:40.000Z",
           "sourceUrl": "https://www.cbsnews.com/video/trump-says-recent-tech-outages-are-all-separate-events/?utm_source=lootura.com&ref=lootura.com",
           "image": ""
-        },
-        {
-          "title": "Trump touts historic summit with Xi, Putin",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-20T23:45:38.000Z",
-          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/trump-touts-historic-summit-with-xi-putin-273933381719?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795218333477_nn_mal_trump_touts_historic_summit_with_xi_putin_261120_S3_1920x1080-m618xk.jpg"
         },
         {
           "title": "Markets plummet amid tech sell-off, Trump threatens tax on data centers built abroad",
@@ -161,24 +88,89 @@
           "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/brooks-1-1024x576.jpg"
         }
       ],
-      "path": "/us/entity/trump-defends-calling-putin-his-friend-talks-outages-in-first-presser-after-chin/"
+      "path": "/us/entity/trump-calls-xi-and-putin-a-notable-word-and-we-finally-get-gta-vi-after-all-the/"
     },
     {
-      "id": "moving-cluster-united states-palisades + fire",
+      "id": "moving-cluster-united states-trump + conference",
+      "title": "What Trump addressed during his lengthy White House news conference",
+      "brief": "What Trump addressed during his lengthy White House news conference.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 14,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "9h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 84,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times Politics",
+        "PBS NewsHour",
+        "NPR Politics"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/20/multimedia/20dc-trump-takeaways-zphf/20dc-trump-takeaways-zphf-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/20/multimedia/20DC-TRUMP-FACTCHECK-fbhc/20DC-TRUMP-FACTCHECK-fbhc-mediumSquareAt3X.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/trump-1024x712.jpg",
+        "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6047636"
+      ],
+      "evidence": [
+        {
+          "title": "Takeaways From Trump’s Post-Trip News Conference",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-21T02:15:29.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/politics/trump-news-conference-asia-trip.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20dc-trump-takeaways-zphf/20dc-trump-takeaways-zphf-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "What Trump addressed during his lengthy White House news conference",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-20T23:55:30.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/what-trump-addressed-during-his-lengthy-white-house-news-conference?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/trump-1024x712.jpg"
+        },
+        {
+          "title": "The latest from Trump's press conference",
+          "source": "NPR Politics",
+          "publishedAt": "2026-11-20T21:38:21.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6047636"
+        },
+        {
+          "title": "Fact-Checking Trump’s News Conference After His Asia Trip",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-20T20:38:24.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/politics/trumps-asia-fact-check.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20DC-TRUMP-FACTCHECK-fbhc/20DC-TRUMP-FACTCHECK-fbhc-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/what-trump-addressed-during-his-lengthy-white-house-news-conference/"
+    },
+    {
+      "id": "moving-cluster-united states-federal + guilty",
       "title": "Jury in Palisades Fire Trial Finds Man Guilty of Arson in Devastating Blaze",
       "brief": "Jury in Palisades Fire Trial Finds Man Guilty of Arson in Devastating Blaze.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 16,
-      "sourceCount": 4,
-      "itemCount": 4,
-      "freshness": "8h fresh",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 13,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "9h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 95,
+      "alertScore": 80,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -188,14 +180,12 @@
       "sources": [
         "NBC News",
         "The New York Times",
-        "PBS NewsHour",
-        "CBS News"
+        "PBS NewsHour"
       ],
       "images": [
         "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795225805580_now_topstory_man_guikty_palisades_fire_261120_S3_1920x1080-gv7a6d.jpg",
         "https://static01.nyt.com/images/2026/11/19/multimedia/00nat-hfo-arson-verdict-hlvb/00nat-hfo-arson-verdict-hlvb-mediumSquareAt3X.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-02T215109Z_1828321781_RC29FDAF1EVY_RTRMADP_3_CALIFORNIA-WILDFIRE-CRIME-1200x800.jpg",
-        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/06/25/bcceb9e4-fcb2-4ffb-a586-781e3cff6fb7/thumbnail/1200x630/b7a3fbd6ef66b025cdd05441563a093e/bill-robles-sketch-of-rinderk.jpg"
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-02T215109Z_1828321781_RC29FDAF1EVY_RTRMADP_3_CALIFORNIA-WILDFIRE-CRIME-1200x800.jpg"
       ],
       "evidence": [
         {
@@ -218,13 +208,6 @@
           "publishedAt": "2026-11-21T00:01:50.000Z",
           "sourceUrl": "https://www.pbs.org/newshour/nation/federal-jury-convicts-man-of-starting-deadly-2025-palisades-fire-in-los-angeles?utm_source=lootura.com&ref=lootura.com",
           "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-02T215109Z_1828321781_RC29FDAF1EVY_RTRMADP_3_CALIFORNIA-WILDFIRE-CRIME-1200x800.jpg"
-        },
-        {
-          "title": "Jonathan Rinderknecht found guilty in Palisades Fire case",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T23:12:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/losangeles/news/jonathan-rinderknecht-found-guilty-in-palisades-fire-case/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/06/25/bcceb9e4-fcb2-4ffb-a586-781e3cff6fb7/thumbnail/1200x630/b7a3fbd6ef66b025cdd05441563a093e/bill-robles-sketch-of-rinderk.jpg"
         }
       ],
       "path": "/us/entity/jury-in-palisades-fire-trial-finds-man-guilty-of-arson-in-devastating-blaze/"
@@ -238,13 +221,13 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 17,
+      "strength": 15,
       "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "4h fresh",
+      "itemCount": 3,
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 80,
+      "alertScore": 76,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -259,8 +242,7 @@
       "images": [
         "https://static01.nyt.com/images/2026/11/20/multimedia/20DC-PREGNANT-02-gvqf/20DC-PREGNANT-02-gvqf-mediumSquareAt3X.jpg",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795225820712_now_topstory_iowa_lead_detonation_261120_S3_1920x1080-zocz0u.jpg",
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/21/39f6e7a1-703d-491b-bf33-8c9fef89e02d/thumbnail/1200x630/4824a8d42339c297c779732fb59382b4/cbsn-fusion-federal-court-indefinitely-pauses-militarys-plans-for-detonation-of-unstable-explosives-in-iowa-thumbnail.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/ebaa585f-b460-4b71-804b-f1f94bf2ec84/thumbnail/1200x630/ad42053fdf1d03634f078ef40157fe84/cbsn-fusion-appeals-court-indefinitely-halts-armys-planned-detonation-of-unstable-explosives-in-iowa-thumbnail.jpg"
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/21/39f6e7a1-703d-491b-bf33-8c9fef89e02d/thumbnail/1200x630/4824a8d42339c297c779732fb59382b4/cbsn-fusion-federal-court-indefinitely-pauses-militarys-plans-for-detonation-of-unstable-explosives-in-iowa-thumbnail.jpg"
       ],
       "evidence": [
         {
@@ -283,176 +265,9 @@
           "publishedAt": "2026-11-21T01:14:30.000Z",
           "sourceUrl": "https://www.cbsnews.com/video/federal-court-indefinitely-pauses-militarys-plans-for-detonation-of-unstable-explosives-in-iowa/?utm_source=lootura.com&ref=lootura.com",
           "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/21/39f6e7a1-703d-491b-bf33-8c9fef89e02d/thumbnail/1200x630/4824a8d42339c297c779732fb59382b4/cbsn-fusion-federal-court-indefinitely-pauses-militarys-plans-for-detonation-of-unstable-explosives-in-iowa-thumbnail.jpg"
-        },
-        {
-          "title": "Court indefinitely halts Army's planned detonation of unstable explosives in Iowa",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T22:29:57.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/appeals-court-indefinitely-halts-armys-planned-detonation-of-unstable-explosives-in-iowa/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/ebaa585f-b460-4b71-804b-f1f94bf2ec84/thumbnail/1200x630/ad42053fdf1d03634f078ef40157fe84/cbsn-fusion-appeals-court-indefinitely-halts-armys-planned-detonation-of-unstable-explosives-in-iowa-thumbnail.jpg"
         }
       ],
       "path": "/us/entity/federal-court-indefinitely-pauses-military-s-plans-for-detonation-of-unstable-ex/"
-    },
-    {
-      "id": "moving-cluster-united states-fiona + hippo",
-      "title": "Fiona's caretakers and fans mourn the beloved hippo after her death at Cincinnati Zoo",
-      "brief": "Fiona's caretakers and fans mourn the beloved hippo after her death at Cincinnati Zoo.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 14,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "8h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 80,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times",
-        "CBS News",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/20/multimedia/20nat-fiona-fallout-1-02-zqjm/20nat-fiona-fallout-1-02-zqjm-mediumSquareAt3X.jpg",
-        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/20/5c1db236-fc34-41bf-a2bb-a66bd9e540d6/thumbnail/1200x630/10535c38f2d7aef3374fabc702d5cecb/cbsn-fusion-details-on-death-of-fiona-the-hippo-thumbnail.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-19T221650Z_879513361_RC2AROAQZILZ_RTRMADP_3_USA-FIONA-1024x669.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Fiona the Hippo Died After Eating a Hat. Some Want Justice.",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-21T02:06:07.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/fiona-hippo-internet-justice.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20nat-fiona-fallout-1-02-zqjm/20nat-fiona-fallout-1-02-zqjm-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Fiona's caretakers and fans mourn the beloved hippo after her death at Cincinnati Zoo",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-20T23:39:39.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/nation/fionas-caretakers-and-fans-mourn-the-beloved-hippo-after-her-death-at-cincinnati-zoo?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-19T221650Z_879513361_RC2AROAQZILZ_RTRMADP_3_USA-FIONA-1024x669.jpg"
-        },
-        {
-          "title": "Details on death of Fiona the hippo",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T22:25:46.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/details-on-death-of-fiona-the-hippo/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/20/5c1db236-fc34-41bf-a2bb-a66bd9e540d6/thumbnail/1200x630/10535c38f2d7aef3374fabc702d5cecb/cbsn-fusion-details-on-death-of-fiona-the-hippo-thumbnail.jpg"
-        }
-      ],
-      "path": "/us/entity/fiona-s-caretakers-and-fans-mourn-the-beloved-hippo-after-her-death-at-cincinnat/"
-    },
-    {
-      "id": "now-cluster-united states-iraqi + forces",
-      "title": "Iraqi Forces Enter Stronghold of Powerful Iran-Backed Militia",
-      "brief": "Iraqi Forces Enter Stronghold of Powerful Iran-Backed Militia.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 14,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times World",
-        "NBC News Politics"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/20/multimedia/20int-iraq-militia-01-kwgh/20int-iraq-militia-01-kwgh-mediumSquareAt3X.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261120-Iraq-Militia-vsb-1753-fac820.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Iraqi Forces Enter Stronghold of Powerful Iran-Backed Militia",
-          "source": "The New York Times World",
-          "publishedAt": "2026-11-21T07:11:24.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/world/middleeast/iraq-militia-iran-kataib-hezbollah.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20int-iraq-militia-01-kwgh/20int-iraq-militia-01-kwgh-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Iraqi security forces deploy in Iran-backed militia stronghold",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-20T23:08:04.225Z",
-          "sourceUrl": "https://www.nbcnews.com/world/middle-east/iraqi-security-forces-deploy-iran-backed-militia-stronghold-rcna610516?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261120-Iraq-Militia-vsb-1753-fac820.jpg"
-        }
-      ],
-      "path": "/us/entity/iraqi-forces-enter-stronghold-of-powerful-iran-backed-militia/"
-    },
-    {
-      "id": "moving-cluster-united states-trump + conference",
-      "title": "What Trump addressed during his lengthy White House news conference",
-      "brief": "What Trump addressed during his lengthy White House news conference.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "8h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 67,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times Politics",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/20/multimedia/20dc-trump-takeaways-zphf/20dc-trump-takeaways-zphf-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/11/20/multimedia/20DC-TRUMP-FACTCHECK-fbhc/20DC-TRUMP-FACTCHECK-fbhc-mediumSquareAt3X.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/trump-1024x712.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Takeaways From Trump’s Post-Trip News Conference",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-21T02:15:29.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/politics/trump-news-conference-asia-trip.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20dc-trump-takeaways-zphf/20dc-trump-takeaways-zphf-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "What Trump addressed during his lengthy White House news conference",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-20T23:55:30.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/show/what-trump-addressed-during-his-lengthy-white-house-news-conference?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/trump-1024x712.jpg"
-        },
-        {
-          "title": "Fact-Checking Trump’s News Conference After His Asia Trip",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-20T20:38:24.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/politics/trumps-asia-fact-check.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20DC-TRUMP-FACTCHECK-fbhc/20DC-TRUMP-FACTCHECK-fbhc-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/what-trump-addressed-during-his-lengthy-white-house-news-conference/"
     },
     {
       "id": "now-cluster-united states-nvidia + huang",
@@ -466,7 +281,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 60,
@@ -502,7 +317,7 @@
       "path": "/us/entity/alice-huang-accused-of-spying-on-nvidia-s-ceo-is-linked-to-firms-with-ties-to-ch/"
     },
     {
-      "id": "now-cluster-united states-court + cancer",
+      "id": "now-cluster-united states-court + judge",
       "title": "Court approves $7.25 billion Bayer settlement over claims Roundup weed killer caused cancer",
       "brief": "Court approves $7.25 billion Bayer settlement over claims Roundup weed killer caused cancer.",
       "whyItMatters": "",
@@ -510,10 +325,10 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 7,
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresh",
+      "freshness": "8h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 54,
@@ -547,51 +362,6 @@
         }
       ],
       "path": "/us/entity/court-approves-7-25-billion-bayer-settlement-over-claims-roundup-weed-killer-cau/"
-    },
-    {
-      "id": "fading-cluster-united states-poland + missiles",
-      "title": "Poland accuses Russia of \"intentional provocation\" after missiles land in its territory",
-      "brief": "Poland accuses Russia of \"intentional provocation\" after missiles land in its territory.",
-      "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "11h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Crosses several sources"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T093701Z_1074876966_RC2LROAYKKKS_RTRMADP_3_UKRAINE-CRISIS-POLAND-OBJECTS-1024x683.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Poland accuses Russia of \"intentional provocation\" after missiles land in its territory",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T23:29:20.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/poland-accuses-russia-of-intentional-provocation-after-missiles-land-on-its-territory/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "NATO calls Russian missiles landing in Poland a 'grave violation' of airspace",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-20T22:42:43.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/world/nato-calls-russian-missiles-landing-in-poland-a-grave-violation-of-airspace?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T093701Z_1074876966_RC2LROAYKKKS_RTRMADP_3_UKRAINE-CRISIS-POLAND-OBJECTS-1024x683.jpg"
-        }
-      ],
-      "path": "/us/entity/poland-accuses-russia-of-intentional-provocation-after-missiles-land-in-its-terr/"
     }
   ]
 }
