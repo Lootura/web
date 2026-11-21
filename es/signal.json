@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-21T15:00:48.305Z",
+  "updatedAt": "2026-11-21T16:00:48.361Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "278.685 enlaces analizados",
-  "dayScanLabel": "4.190 enlaces escaneados en 24h",
+  "ambientPulseLabel": "279.104 enlaces analizados",
+  "dayScanLabel": "4.184 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,6 +19,71 @@
   "topAlert": null,
   "signals": [
     {
+      "id": "now-cluster-españa-marc + marquez",
+      "title": "La lluvia traiciona a Marc Márquez, que se cae a una vuelta y media de rematar el título en la ‘sprint’ del GP de Portugal",
+      "brief": "La lluvia traiciona a Marc Márquez, que se cae a una vuelta y media de rematar el título en la ‘sprint’ del GP de Portugal.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 24,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 96,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/21/1520616211-RS89YOWUsCiYOQiBu7xPwqI-1200x840@RC.jpg",
+        "https://imagenes.elpais.com/resizer/v2/DPKGXAK66NMXVMA3WJCRIIBKHU.jpg?auth=b08eba65fc4019bc8f58f67ce28d5fdbbd5c7a22c8d407365a9869e415d67ec9",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952731585956.png",
+        "https://imagenes.elpais.com/resizer/v2/CWS7YMJ2VJHLHOQQGK6LWO5D54.jpg?auth=bebe3189e938f1c05071cadecaccddd2c266eb0b72837145ade3e265abc1fda7"
+      ],
+      "evidence": [
+        {
+          "title": "Una inesperada caída deja a Marc Márquez sin título en el sprint",
+          "source": "El Correo",
+          "publishedAt": "2026-11-21T15:46:51.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/motor/motociclismo/inesperada-caida-deja-marc-marquez-titulo-sprint-20261121164651-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/21/1520616211-RS89YOWUsCiYOQiBu7xPwqI-1200x840@RC.jpg"
+        },
+        {
+          "title": "La lluvia traiciona a Marc Márquez, que se cae a una vuelta y media de rematar el título en la ‘sprint’ del GP de Portugal",
+          "source": "El País",
+          "publishedAt": "2026-11-21T15:45:54.000Z",
+          "sourceUrl": "https://elpais.com/deportes/motociclismo/2026-11-21/marc-marquez-se-cae-a-vuelta-y-media-del-final-de-la-sprint-cuando-rozaba-el-titulo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/DPKGXAK66NMXVMA3WJCRIIBKHU.jpg?auth=b08eba65fc4019bc8f58f67ce28d5fdbbd5c7a22c8d407365a9869e415d67ec9"
+        },
+        {
+          "title": "Marc Márquez se va al suelo cuando estaba a dos vueltas de ganar el Mundial de MotoGP",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-21T15:42:01.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/motociclismo/2026/11/21/6b01b181fc6c838c2e8b4573.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952731585956.png"
+        },
+        {
+          "title": "Creer hasta el final y olvidarse de los rivales: así impulsaron Marc Márquez y Ducati su espectacular remontada en MotoGP",
+          "source": "El País",
+          "publishedAt": "2026-11-21T12:08:44.000Z",
+          "sourceUrl": "https://elpais.com/deportes/motociclismo/2026-11-21/creer-hasta-el-final-y-olvidarse-de-los-rivales-asi-impulsaron-marc-marquez-y-ducati-su-espectacular-remontada-en-motogp.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/CWS7YMJ2VJHLHOQQGK6LWO5D54.jpg?auth=bebe3189e938f1c05071cadecaccddd2c266eb0b72837145ade3e265abc1fda7"
+        }
+      ],
+      "path": "/es/entity/la-lluvia-traiciona-a-marc-marquez-que-se-cae-a-una-vuelta-y-media-de-rematar-el/"
+    },
+    {
       "id": "now-cluster-españa-sanchez + contra",
       "title": "La plana mayor del primer Gobierno de Felipe González pide el voto para Pedro Sánchez: “Hay riesgo de involución y recorte de derechos”",
       "brief": "La plana mayor del primer Gobierno de Felipe González pide el voto para Pedro Sánchez: “Hay riesgo de involución y recorte de derechos”.",
@@ -27,10 +92,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
+      "strength": 22,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 92,
@@ -46,7 +111,7 @@
         "El País"
       ],
       "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952683296414.jpg",
+        "https://e01-phantom-elmundo.uecdn.es/6150a3566f19ebeb21723fa0965f6412/crop/0x0/1024x682/f/webp/assets/multimedia/imagenes/2026/11/21/17952683296414.jpg",
         "https://imagenes.elpais.com/resizer/v2/DJHWNMNU5JC4JHVCSIFWGT7OOA.jpg?auth=569b53dee63cd77c6f7f911b3049d77d5fd55e0207a3ed4eb9f3a982aca587bc"
       ],
       "evidence": [
@@ -62,7 +127,7 @@
           "source": "El Mundo",
           "publishedAt": "2026-11-21T13:43:57.000Z",
           "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/21/6b0195c321efa02c538b4570.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952683296414.jpg"
+          "image": "https://e01-phantom-elmundo.uecdn.es/6150a3566f19ebeb21723fa0965f6412/crop/0x0/1024x682/f/webp/assets/multimedia/imagenes/2026/11/21/17952683296414.jpg"
         },
         {
           "title": "La plana mayor del primer Gobierno de Felipe González pide el voto para Pedro Sánchez: “Hay riesgo de involución y recorte de derechos”",
@@ -75,7 +140,147 @@
       "path": "/es/entity/la-plana-mayor-del-primer-gobierno-de-felipe-gonzalez-pide-el-voto-para-pedro-sa/"
     },
     {
-      "id": "moving-cluster-españa-sanchez + feijoo",
+      "id": "now-cluster-españa-carlos + alcaraz",
+      "title": "Carlos Alcaraz - Ben Shelton en directo | Alcaraz gana en tres sets a Shelton y vuelve a una nueva final de las ATP Finals",
+      "brief": "Carlos Alcaraz - Ben Shelton en directo | Alcaraz gana en tres sets a Shelton y vuelve a una nueva final de las ATP Finals.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/AGBUX3UDZZLNZBRYG4CPL4DG2Q.jpg?auth=0bec1fa9a4bdde75e1b09c54b92a3c953c4acd232d28452bd9b867893c162f12",
+        "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/21/alcaraz-shelton-finalesatp-RnMoSH54MWYbKhmS6ltqF6H-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Carlos Alcaraz - Ben Shelton en directo | Alcaraz gana en tres sets a Shelton y vuelve a una nueva final de las ATP Finals",
+          "source": "El País",
+          "publishedAt": "2026-11-21T15:48:20.000Z",
+          "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-21/carlos-alcaraz-ben-shelton-en-directo-las-semifinales-de-las-atp-finals-en-vivo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/AGBUX3UDZZLNZBRYG4CPL4DG2Q.jpg?auth=0bec1fa9a4bdde75e1b09c54b92a3c953c4acd232d28452bd9b867893c162f12"
+        },
+        {
+          "title": "Carlos Alcaraz remonta a Shelton y se clasifica para la final",
+          "source": "El Correo",
+          "publishedAt": "2026-11-21T13:31:13.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/tenis/directo-alcaraz-shelton-20261121143113-dirc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/21/alcaraz-shelton-finalesatp-RnMoSH54MWYbKhmS6ltqF6H-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/carlos-alcaraz-ben-shelton-en-directo-alcaraz-gana-en-tres-sets-a-shelton-y-vuel/"
+    },
+    {
+      "id": "now-cluster-españa-kate + middleton",
+      "title": "Kate Middleton protagoniza un documental “profundamente personal” sobre su diagnóstico: “El cáncer te cambia”",
+      "brief": "Kate Middleton protagoniza un documental “profundamente personal” sobre su diagnóstico: “El cáncer te cambia”.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/MSLP27RPRBPDDCCMNEGBMHO3AY.jpg?auth=e497f8611228dac224a411c923ee73531be644e6ad91b39e2218f0a8481057a5"
+      ],
+      "evidence": [
+        {
+          "title": "Kate Middleton anuncia el estreno de un documental sobre su lucha contra el cáncer",
+          "source": "El Correo",
+          "publishedAt": "2026-11-21T13:58:50.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/kate-middleton-anuncia-estreno-documental-sobre-lucha-20261121145850-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Kate Middleton protagoniza un documental “profundamente personal” sobre su diagnóstico: “El cáncer te cambia”",
+          "source": "El País",
+          "publishedAt": "2026-11-21T13:35:21.000Z",
+          "sourceUrl": "https://elpais.com/gente/2026-11-21/kate-middleton-protagoniza-un-documental-profundamente-personal-sobre-su-diagnostico-el-cancer-te-cambia.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/MSLP27RPRBPDDCCMNEGBMHO3AY.jpg?auth=e497f8611228dac224a411c923ee73531be644e6ad91b39e2218f0a8481057a5"
+        }
+      ],
+      "path": "/es/entity/kate-middleton-protagoniza-un-documental-profundamente-personal-sobre-su-diagnos/"
+    },
+    {
+      "id": "moving-cluster-españa-florentino + caso",
+      "title": "Florentino Pérez, con Nadal a su lado, no olvida el caso Negreira: “No voy a parar hasta que se depuren responsabilidades”",
+      "brief": "Florentino Pérez, con Nadal a su lado, no olvida el caso Negreira: “No voy a parar hasta que se depuren responsabilidades”.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/21/florentino-efe-kkhE-U404706736858fH-1200x840@RC.jpg",
+        "https://imagenes.elpais.com/resizer/v2/X4JVFCBU4VNLTHLJQB5THKPF34.jpg?auth=daf1d226c796e0c8aca05a792a7ffdd845ca6a015009743b8a2f14183374ee8e"
+      ],
+      "evidence": [
+        {
+          "title": "Florentino, sobre el 'caso Negreira': «No voy a parar hasta que se depuren todas las responsabilidades»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-21T13:45:01.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/liga-primera/florentino-sobre-negreira-parar-depuren-responsabilidades-20261121144500-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/21/florentino-efe-kkhE-U404706736858fH-1200x840@RC.jpg"
+        },
+        {
+          "title": "Florentino Pérez, con Nadal a su lado, no olvida el caso Negreira: “No voy a parar hasta que se depuren responsabilidades”",
+          "source": "El País",
+          "publishedAt": "2026-11-21T11:03:18.000Z",
+          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-21/florentino-perez-con-nadal-a-su-lado-no-olvida-el-caso-negreira-no-voy-a-parar-hasta-que-se-depuren-responsabilidades.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/X4JVFCBU4VNLTHLJQB5THKPF34.jpg?auth=daf1d226c796e0c8aca05a792a7ffdd845ca6a015009743b8a2f14183374ee8e"
+        }
+      ],
+      "path": "/es/entity/florentino-perez-con-nadal-a-su-lado-no-olvida-el-caso-negreira-no-voy-a-parar-h/"
+    },
+    {
+      "id": "moving-cluster-españa-feijoo + sanchez",
       "title": "Sánchez justifica no haber entrado al barro con Feijóo: «Sería jugar como Argentina en la final de la Copa del Mundo»",
       "brief": "Sánchez justifica no haber entrado al barro con Feijóo: «Sería jugar como Argentina en la final de la Copa del Mundo».",
       "whyItMatters": "",
@@ -83,13 +288,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 73,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -130,145 +335,6 @@
       "path": "/es/entity/sanchez-justifica-no-haber-entrado-al-barro-con-feijoo-seria-jugar-como-argentin/"
     },
     {
-      "id": "now-cluster-españa-carlos + alcaraz",
-      "title": "Carlos Alcaraz - Ben Shelton en directo | Alcaraz se lleva el segundo set y el partido se decide en el tercero",
-      "brief": "Carlos Alcaraz - Ben Shelton en directo | Alcaraz se lleva el segundo set y el partido se decide en el tercero.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/AGBUX3UDZZLNZBRYG4CPL4DG2Q.jpg?auth=0bec1fa9a4bdde75e1b09c54b92a3c953c4acd232d28452bd9b867893c162f12"
-      ],
-      "evidence": [
-        {
-          "title": "Carlos Alcaraz - Ben Shelton en directo | Alcaraz se lleva el segundo set y el partido se decide en el tercero",
-          "source": "El País",
-          "publishedAt": "2026-11-21T14:55:06.000Z",
-          "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-21/carlos-alcaraz-ben-shelton-en-directo-las-semifinales-de-las-atp-finals-en-vivo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/AGBUX3UDZZLNZBRYG4CPL4DG2Q.jpg?auth=0bec1fa9a4bdde75e1b09c54b92a3c953c4acd232d28452bd9b867893c162f12"
-        },
-        {
-          "title": "Alcaraz",
-          "source": "El Correo",
-          "publishedAt": "2026-11-21T13:31:13.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/tenis/directo-alcaraz-shelton-20261121143113-dirc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/carlos-alcaraz-ben-shelton-en-directo-alcaraz-se-lleva-el-segundo-set-y-el-parti/"
-    },
-    {
-      "id": "now-cluster-españa-kate + middleton",
-      "title": "Kate Middleton protagoniza un documental “profundamente personal” sobre su diagnóstico: “El cáncer te cambia”",
-      "brief": "Kate Middleton protagoniza un documental “profundamente personal” sobre su diagnóstico: “El cáncer te cambia”.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "1h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/MSLP27RPRBPDDCCMNEGBMHO3AY.jpg?auth=e497f8611228dac224a411c923ee73531be644e6ad91b39e2218f0a8481057a5"
-      ],
-      "evidence": [
-        {
-          "title": "Kate Middleton anuncia el estreno de un documental sobre su lucha contra el cáncer",
-          "source": "El Correo",
-          "publishedAt": "2026-11-21T13:58:50.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/kate-middleton-anuncia-estreno-documental-sobre-lucha-20261121145850-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Kate Middleton protagoniza un documental “profundamente personal” sobre su diagnóstico: “El cáncer te cambia”",
-          "source": "El País",
-          "publishedAt": "2026-11-21T13:35:21.000Z",
-          "sourceUrl": "https://elpais.com/gente/2026-11-21/kate-middleton-protagoniza-un-documental-profundamente-personal-sobre-su-diagnostico-el-cancer-te-cambia.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/MSLP27RPRBPDDCCMNEGBMHO3AY.jpg?auth=e497f8611228dac224a411c923ee73531be644e6ad91b39e2218f0a8481057a5"
-        }
-      ],
-      "path": "/es/entity/kate-middleton-protagoniza-un-documental-profundamente-personal-sobre-su-diagnos/"
-    },
-    {
-      "id": "now-cluster-españa-florentino + caso",
-      "title": "Florentino Pérez, con Nadal a su lado, no olvida el caso Negreira: “No voy a parar hasta que se depuren responsabilidades”",
-      "brief": "Florentino Pérez, con Nadal a su lado, no olvida el caso Negreira: “No voy a parar hasta que se depuren responsabilidades”.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "1h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/21/florentino-efe-kkhE-U404706736858fH-1200x840@RC.jpg",
-        "https://imagenes.elpais.com/resizer/v2/X4JVFCBU4VNLTHLJQB5THKPF34.jpg?auth=daf1d226c796e0c8aca05a792a7ffdd845ca6a015009743b8a2f14183374ee8e"
-      ],
-      "evidence": [
-        {
-          "title": "Florentino, sobre el 'caso Negreira': «No voy a parar hasta que se depuren todas las responsabilidades»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-21T13:45:01.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/liga-primera/florentino-sobre-negreira-parar-depuren-responsabilidades-20261121144500-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/21/florentino-efe-kkhE-U404706736858fH-1200x840@RC.jpg"
-        },
-        {
-          "title": "Florentino Pérez, con Nadal a su lado, no olvida el caso Negreira: “No voy a parar hasta que se depuren responsabilidades”",
-          "source": "El País",
-          "publishedAt": "2026-11-21T11:03:18.000Z",
-          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-21/florentino-perez-con-nadal-a-su-lado-no-olvida-el-caso-negreira-no-voy-a-parar-hasta-que-se-depuren-responsabilidades.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/X4JVFCBU4VNLTHLJQB5THKPF34.jpg?auth=daf1d226c796e0c8aca05a792a7ffdd845ca6a015009743b8a2f14183374ee8e"
-        }
-      ],
-      "path": "/es/entity/florentino-perez-con-nadal-a-su-lado-no-olvida-el-caso-negreira-no-voy-a-parar-h/"
-    },
-    {
       "id": "moving-cluster-españa-feijoo + todo",
       "title": "Feijóo abarrota la Plaza de Toros de Valencia y exige a los suyos la máxima movilización: \"No os fieis, son capaces de todo\"",
       "brief": "Feijóo abarrota la Plaza de Toros de Valencia y exige a los suyos la máxima movilización: \"No os fieis, son capaces de todo\".",
@@ -277,13 +343,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -323,13 +389,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -361,24 +427,115 @@
       "path": "/es/entity/lola-indigo-responde-a-isabel-diaz-ayuso-en-los40-music-awards-que-vivan-los-gar/"
     },
     {
-      "id": "moving-cluster-españa-patxi + ezkiaga",
+      "id": "fading-cluster-españa-chapo + isidro",
+      "title": "La captura del capo 'Chapo Isidro' reclamado por EE UU desata una oleada de violencia en México",
+      "brief": "La captura del capo 'Chapo Isidro' reclamado por EE UU desata una oleada de violencia en México.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "4h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El Correo"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952616445773.jpg",
+        "https://s3.ppllstatics.com/rc/www/multimedia/2026/11/21/chapo-isidro-fbi-kjX-U301159244699Eg-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "México confirma la captura del narcotraficante 'Chapo Isidro', uno de los 10 criminales más buscados por el FBI",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-21T11:50:58.000Z",
+          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/21/6b0183ccfc6c83c7038b456e.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952616445773.jpg"
+        },
+        {
+          "title": "La captura del capo 'Chapo Isidro' reclamado por EE UU desata una oleada de violencia en México",
+          "source": "El Correo",
+          "publishedAt": "2026-11-21T08:27:53.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/america-latina/captura-capo-chapo-isidro-reclamado-desata-oleada-20261121092752-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/2026/11/21/chapo-isidro-fbi-kjX-U301159244699Eg-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/la-captura-del-capo-chapo-isidro-reclamado-por-ee-uu-desata-una-oleada-de-violen/"
+    },
+    {
+      "id": "fading-cluster-españa-sanchez + millones",
+      "title": "Sánchez anuncia la prórroga del impuesto a la banca en 2027: ¿en qué consiste un tributo que recauda 1.400 millones al año?",
+      "brief": "Sánchez anuncia la prórroga del impuesto a la banca en 2027: ¿en qué consiste un tributo que recauda 1.400 millones al año?",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "4h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El Correo"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952564639846.jpg",
+        "https://s3.ppllstatics.com/rc/www/multimedia/nacional/2026/11/21/s%C3%A1nchez-RWjEl4UdGJxDEYKoA15hx8I-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Sánchez anuncia la prórroga del impuesto a la banca en 2027: ¿en qué consiste un tributo que recauda 1.400 millones al año?",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-21T12:04:42.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/macroeconomia/2026/11/21/6b017050e9cf4ad5138b45a2.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952564639846.jpg"
+        },
+        {
+          "title": "Sánchez anuncia que el próximo Consejo de Ministros aprobará la prórroga del impuesto de la banca hasta 2027",
+          "source": "El Correo",
+          "publishedAt": "2026-11-21T08:27:17.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/sanchez-anuncia-proximo-consejo-ministros-aprobara-prorroga-20261121092717-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/nacional/2026/11/21/s%C3%A1nchez-RWjEl4UdGJxDEYKoA15hx8I-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/sanchez-anuncia-la-prorroga-del-impuesto-a-la-banca-en-2027-en-que-consiste-un-t/"
+    },
+    {
+      "id": "fading-cluster-españa-patxi + ezkiaga",
       "title": "Las víctimas del religioso Patxi Ezkiaga: «El reconocimiento de los abusos sexuales no acaba con el dolor pero rompe el silencio que lo alimenta»",
       "brief": "Las víctimas del religioso Patxi Ezkiaga: «El reconocimiento de los abusos sexuales no acaba con el dolor pero rompe el silencio que lo alimenta».",
       "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 52,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
@@ -408,61 +565,6 @@
       "path": "/es/entity/las-victimas-del-religioso-patxi-ezkiaga-el-reconocimiento-de-los-abusos-sexuale/"
     },
     {
-      "id": "fading-cluster-españa-chapo + isidro",
-      "title": "La captura del capo 'Chapo Isidro' reclamado por EE UU desata una oleada de violencia en México",
-      "brief": "La captura del capo 'Chapo Isidro' reclamado por EE UU desata una oleada de violencia en México.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 17,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 68,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952616445773.jpg",
-        "https://s3.ppllstatics.com/rc/www/multimedia/2026/11/21/chapo-isidro-fbi-kjX-U301159244699Eg-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "México confirma la captura del narcotraficante 'Chapo Isidro', uno de los 10 criminales más buscados por el FBI",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-21T11:50:58.000Z",
-          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/21/6b0183ccfc6c83c7038b456e.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952616445773.jpg"
-        },
-        {
-          "title": "La captura del capo 'Chapo Isidro' reclamado por EE UU desata una oleada de violencia en México",
-          "source": "El Correo",
-          "publishedAt": "2026-11-21T08:27:53.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/america-latina/captura-capo-chapo-isidro-reclamado-desata-oleada-20261121092752-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/rc/www/multimedia/2026/11/21/chapo-isidro-fbi-kjX-U301159244699Eg-1200x840@RC.jpg"
-        },
-        {
-          "title": "Detenido El Chapo Isidro en un operativo que desata el terror en Sinaloa",
-          "source": "El País",
-          "publishedAt": "2026-11-21T05:54:50.000Z",
-          "sourceUrl": "https://elpais.com/mexico/2026-11-21/detenido-el-chapo-isidro-en-un-operativo-que-desata-el-terror-en-sinaloa.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/la-captura-del-capo-chapo-isidro-reclamado-por-ee-uu-desata-una-oleada-de-violen/"
-    },
-    {
       "id": "fading-cluster-españa-entre + costa",
       "title": "Costa plantea un tijeretazo del 10% en su propuesta del presupuesto comunitario para intentar lograr un consenso entre los líderes",
       "brief": "Costa plantea un tijeretazo del 10% en su propuesta del presupuesto comunitario para intentar lograr un consenso entre los líderes.",
@@ -471,10 +573,10 @@
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 9,
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
