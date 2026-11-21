@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-21T14:00:47.899Z",
+  "updatedAt": "2026-11-21T15:00:48.305Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "278.266 enlaces analizados",
-  "dayScanLabel": "4.195 enlaces escaneados en 24h",
+  "ambientPulseLabel": "278.685 enlaces analizados",
+  "dayScanLabel": "4.190 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,18 +19,18 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "moving-cluster-españa-chapo + isidro",
-      "title": "La captura del capo 'Chapo Isidro' reclamado por EE UU desata una oleada de violencia en México",
-      "brief": "La captura del capo 'Chapo Isidro' reclamado por EE UU desata una oleada de violencia en México.",
+      "id": "now-cluster-españa-sanchez + contra",
+      "title": "La plana mayor del primer Gobierno de Felipe González pide el voto para Pedro Sánchez: “Hay riesgo de involución y recorte de derechos”",
+      "brief": "La plana mayor del primer Gobierno de Felipe González pide el voto para Pedro Sánchez: “Hay riesgo de involución y recorte de derechos”.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 22,
+      "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "2h fresca",
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 92,
@@ -38,6 +38,394 @@
         "Cruza varias fuentes",
         "Gana volumen rápido",
         "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo",
+        "El País"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952683296414.jpg",
+        "https://imagenes.elpais.com/resizer/v2/DJHWNMNU5JC4JHVCSIFWGT7OOA.jpg?auth=569b53dee63cd77c6f7f911b3049d77d5fd55e0207a3ed4eb9f3a982aca587bc"
+      ],
+      "evidence": [
+        {
+          "title": "Sánchez reivindica su Gobierno y carga contra PP y Vox: «No tenemos dos derechas, tenemos una única involución»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-21T13:58:38.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/sanchez-reivindica-gobierno-carga-pp-vox-dos-20261121145837-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Abascal carga contra el PP: \"Menos repartirse ministerios y menos apelaciones al voto útil\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-21T13:43:57.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/21/6b0195c321efa02c538b4570.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952683296414.jpg"
+        },
+        {
+          "title": "La plana mayor del primer Gobierno de Felipe González pide el voto para Pedro Sánchez: “Hay riesgo de involución y recorte de derechos”",
+          "source": "El País",
+          "publishedAt": "2026-11-21T11:47:46.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-21/la-plana-mayor-del-primer-gobierno-de-felipe-gonzalez-pide-el-voto-para-pedro-sanchez.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/DJHWNMNU5JC4JHVCSIFWGT7OOA.jpg?auth=569b53dee63cd77c6f7f911b3049d77d5fd55e0207a3ed4eb9f3a982aca587bc"
+        }
+      ],
+      "path": "/es/entity/la-plana-mayor-del-primer-gobierno-de-felipe-gonzalez-pide-el-voto-para-pedro-sa/"
+    },
+    {
+      "id": "moving-cluster-españa-sanchez + feijoo",
+      "title": "Sánchez justifica no haber entrado al barro con Feijóo: «Sería jugar como Argentina en la final de la Copa del Mundo»",
+      "brief": "Sánchez justifica no haber entrado al barro con Feijóo: «Sería jugar como Argentina en la final de la Copa del Mundo».",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/GLCKZPLZPVCNNLLLYEDTCN5PHQ.JPG?auth=d632643c7459b85311c004fba14f8a08976b847419460bc59e81190e2506a841",
+        "https://imagenes.elpais.com/resizer/v2/OTCKCQHUI5CG3PLCAOHNI73NM4.jpg?auth=db07634f54c75522f4666dcda799cab54b87aabbadce58f1bdce7bd43222f74a"
+      ],
+      "evidence": [
+        {
+          "title": "Colau llama a dar la vuelta a las encuestas en el final de campaña: “Vamos a congelar la sonrisa a Feijóo”",
+          "source": "El País",
+          "publishedAt": "2026-11-21T13:14:01.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-21/colau-llama-a-dar-la-vuelta-a-las-encuestas-en-el-final-de-campana-vamos-a-congelar-la-sonrisa-a-feijoo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/GLCKZPLZPVCNNLLLYEDTCN5PHQ.JPG?auth=d632643c7459b85311c004fba14f8a08976b847419460bc59e81190e2506a841"
+        },
+        {
+          "title": "Campaña electoral 29-N y actualidad política, en directo | Feijóo y Colau participan esta mañana en sus actos centrales de campaña",
+          "source": "El País",
+          "publishedAt": "2026-11-21T11:53:08.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-21/campana-electoral-29-n-y-actualidad-politica-en-directo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/OTCKCQHUI5CG3PLCAOHNI73NM4.jpg?auth=db07634f54c75522f4666dcda799cab54b87aabbadce58f1bdce7bd43222f74a"
+        },
+        {
+          "title": "Sánchez justifica no haber entrado al barro con Feijóo: «Sería jugar como Argentina en la final de la Copa del Mundo»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-21T10:25:53.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/sanchez-justifica-entro-barro-feijoo-jugar-jugo-20261121105817-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/sanchez-justifica-no-haber-entrado-al-barro-con-feijoo-seria-jugar-como-argentin/"
+    },
+    {
+      "id": "now-cluster-españa-carlos + alcaraz",
+      "title": "Carlos Alcaraz - Ben Shelton en directo | Alcaraz se lleva el segundo set y el partido se decide en el tercero",
+      "brief": "Carlos Alcaraz - Ben Shelton en directo | Alcaraz se lleva el segundo set y el partido se decide en el tercero.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/AGBUX3UDZZLNZBRYG4CPL4DG2Q.jpg?auth=0bec1fa9a4bdde75e1b09c54b92a3c953c4acd232d28452bd9b867893c162f12"
+      ],
+      "evidence": [
+        {
+          "title": "Carlos Alcaraz - Ben Shelton en directo | Alcaraz se lleva el segundo set y el partido se decide en el tercero",
+          "source": "El País",
+          "publishedAt": "2026-11-21T14:55:06.000Z",
+          "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-21/carlos-alcaraz-ben-shelton-en-directo-las-semifinales-de-las-atp-finals-en-vivo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/AGBUX3UDZZLNZBRYG4CPL4DG2Q.jpg?auth=0bec1fa9a4bdde75e1b09c54b92a3c953c4acd232d28452bd9b867893c162f12"
+        },
+        {
+          "title": "Alcaraz",
+          "source": "El Correo",
+          "publishedAt": "2026-11-21T13:31:13.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/tenis/directo-alcaraz-shelton-20261121143113-dirc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/carlos-alcaraz-ben-shelton-en-directo-alcaraz-se-lleva-el-segundo-set-y-el-parti/"
+    },
+    {
+      "id": "now-cluster-españa-kate + middleton",
+      "title": "Kate Middleton protagoniza un documental “profundamente personal” sobre su diagnóstico: “El cáncer te cambia”",
+      "brief": "Kate Middleton protagoniza un documental “profundamente personal” sobre su diagnóstico: “El cáncer te cambia”.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/MSLP27RPRBPDDCCMNEGBMHO3AY.jpg?auth=e497f8611228dac224a411c923ee73531be644e6ad91b39e2218f0a8481057a5"
+      ],
+      "evidence": [
+        {
+          "title": "Kate Middleton anuncia el estreno de un documental sobre su lucha contra el cáncer",
+          "source": "El Correo",
+          "publishedAt": "2026-11-21T13:58:50.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/kate-middleton-anuncia-estreno-documental-sobre-lucha-20261121145850-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Kate Middleton protagoniza un documental “profundamente personal” sobre su diagnóstico: “El cáncer te cambia”",
+          "source": "El País",
+          "publishedAt": "2026-11-21T13:35:21.000Z",
+          "sourceUrl": "https://elpais.com/gente/2026-11-21/kate-middleton-protagoniza-un-documental-profundamente-personal-sobre-su-diagnostico-el-cancer-te-cambia.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/MSLP27RPRBPDDCCMNEGBMHO3AY.jpg?auth=e497f8611228dac224a411c923ee73531be644e6ad91b39e2218f0a8481057a5"
+        }
+      ],
+      "path": "/es/entity/kate-middleton-protagoniza-un-documental-profundamente-personal-sobre-su-diagnos/"
+    },
+    {
+      "id": "now-cluster-españa-florentino + caso",
+      "title": "Florentino Pérez, con Nadal a su lado, no olvida el caso Negreira: “No voy a parar hasta que se depuren responsabilidades”",
+      "brief": "Florentino Pérez, con Nadal a su lado, no olvida el caso Negreira: “No voy a parar hasta que se depuren responsabilidades”.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/21/florentino-efe-kkhE-U404706736858fH-1200x840@RC.jpg",
+        "https://imagenes.elpais.com/resizer/v2/X4JVFCBU4VNLTHLJQB5THKPF34.jpg?auth=daf1d226c796e0c8aca05a792a7ffdd845ca6a015009743b8a2f14183374ee8e"
+      ],
+      "evidence": [
+        {
+          "title": "Florentino, sobre el 'caso Negreira': «No voy a parar hasta que se depuren todas las responsabilidades»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-21T13:45:01.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/liga-primera/florentino-sobre-negreira-parar-depuren-responsabilidades-20261121144500-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/21/florentino-efe-kkhE-U404706736858fH-1200x840@RC.jpg"
+        },
+        {
+          "title": "Florentino Pérez, con Nadal a su lado, no olvida el caso Negreira: “No voy a parar hasta que se depuren responsabilidades”",
+          "source": "El País",
+          "publishedAt": "2026-11-21T11:03:18.000Z",
+          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-21/florentino-perez-con-nadal-a-su-lado-no-olvida-el-caso-negreira-no-voy-a-parar-hasta-que-se-depuren-responsabilidades.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/X4JVFCBU4VNLTHLJQB5THKPF34.jpg?auth=daf1d226c796e0c8aca05a792a7ffdd845ca6a015009743b8a2f14183374ee8e"
+        }
+      ],
+      "path": "/es/entity/florentino-perez-con-nadal-a-su-lado-no-olvida-el-caso-negreira-no-voy-a-parar-h/"
+    },
+    {
+      "id": "moving-cluster-españa-feijoo + todo",
+      "title": "Feijóo abarrota la Plaza de Toros de Valencia y exige a los suyos la máxima movilización: \"No os fieis, son capaces de todo\"",
+      "brief": "Feijóo abarrota la Plaza de Toros de Valencia y exige a los suyos la máxima movilización: \"No os fieis, son capaces de todo\".",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952649534097.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Feijóo: “No os fieis del ambiente, de nada. Son capaces de todo, y heridos son todavía más peligrosos”",
+          "source": "El País",
+          "publishedAt": "2026-11-21T13:22:16.000Z",
+          "sourceUrl": "https://elpais.com/espana/2026-11-21/feijoo-no-os-fieis-del-ambiente-no-os-fieis-de-nada-son-capaces-de-todo-y-heridos-son-todavia-mas-peligrosos.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Feijóo abarrota la Plaza de Toros de Valencia y exige a los suyos la máxima movilización: \"No os fieis, son capaces de todo\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-21T12:31:55.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/21/6b017ba7e85ece95298b456e.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952649534097.jpg"
+        }
+      ],
+      "path": "/es/entity/feijoo-abarrota-la-plaza-de-toros-de-valencia-y-exige-a-los-suyos-la-maxima-movi/"
+    },
+    {
+      "id": "moving-cluster-españa-los40 + music",
+      "title": "Lola Índigo responde a Isabel Díaz Ayuso en LOS40 Music Awards: \"Que vivan los garrapateros y el pueblo trabajador de Andalucía\"",
+      "brief": "Lola Índigo responde a Isabel Díaz Ayuso en LOS40 Music Awards: \"Que vivan los garrapateros y el pueblo trabajador de Andalucía\".",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://e01-phantom-elmundo.uecdn.es/b97e889f7f1bace2ff525996dc34cd6e/crop/0x797/3072x2845/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/21/17952595642348.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "De Aitana a Rosalía: los mensajes más reivindicativos de la gala de Los40 Music Awards",
+          "source": "El País",
+          "publishedAt": "2026-11-21T13:18:47.000Z",
+          "sourceUrl": "https://elpais.com/videos/2026-11-21/de-aitana-a-rosalia-los-mensajes-mas-reivindicativos-de-la-gala-de-los40-music-awards.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Lola Índigo responde a Isabel Díaz Ayuso en LOS40 Music Awards: \"Que vivan los garrapateros y el pueblo trabajador de Andalucía\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-21T11:38:58.000Z",
+          "sourceUrl": "https://www.elmundo.es/cultura/2026/11/21/6b017ba0e4d4d81f368b4576.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/b97e889f7f1bace2ff525996dc34cd6e/crop/0x797/3072x2845/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/21/17952595642348.jpg"
+        }
+      ],
+      "path": "/es/entity/lola-indigo-responde-a-isabel-diaz-ayuso-en-los40-music-awards-que-vivan-los-gar/"
+    },
+    {
+      "id": "moving-cluster-españa-patxi + ezkiaga",
+      "title": "Las víctimas del religioso Patxi Ezkiaga: «El reconocimiento de los abusos sexuales no acaba con el dolor pero rompe el silencio que lo alimenta»",
+      "brief": "Las víctimas del religioso Patxi Ezkiaga: «El reconocimiento de los abusos sexuales no acaba con el dolor pero rompe el silencio que lo alimenta».",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Diario Vasco",
+        "El País"
+      ],
+      "images": [
+        "https://s1.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/21/1520605407-kqv-ROSOKXXZ4SxMIAUp3j2nuzL-1200x840@Diario%20Vasco.jpg",
+        "https://imagenes.elpais.com/resizer/v2/M2ZOG3X72VLBBCUW2CTEVF4XTI.jpg?auth=584cabb19240ae2d1b080b48847b0267b9e5bd7386d62f3d7723c5263155f25e"
+      ],
+      "evidence": [
+        {
+          "title": "Las víctimas del religioso Patxi Ezkiaga: «El reconocimiento de los abusos sexuales no acaba con el dolor pero rompe el silencio que lo alimenta»",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-21T12:31:59.000Z",
+          "sourceUrl": "https://www.diariovasco.com/gipuzkoa/victimas-religioso-patxi-ezkiaga-reconocimiento-abusos-sexuales-20261121133158-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/21/1520605407-kqv-ROSOKXXZ4SxMIAUp3j2nuzL-1200x840@Diario%20Vasco.jpg"
+        },
+        {
+          "title": "El colegio La Salle, a las víctimas del pederasta Patxi Ezkiaga: “Pedimos públicamente perdón con humildad y sinceridad”",
+          "source": "El País",
+          "publishedAt": "2026-11-21T12:27:39.000Z",
+          "sourceUrl": "https://elpais.com/sociedad/2026-11-21/el-colegio-la-salle-a-las-victimas-del-pederasta-patxi-ezkiaga-pedimos-publicamente-perdon-con-humildad-y-sinceridad.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/M2ZOG3X72VLBBCUW2CTEVF4XTI.jpg?auth=584cabb19240ae2d1b080b48847b0267b9e5bd7386d62f3d7723c5263155f25e"
+        }
+      ],
+      "path": "/es/entity/las-victimas-del-religioso-patxi-ezkiaga-el-reconocimiento-de-los-abusos-sexuale/"
+    },
+    {
+      "id": "fading-cluster-españa-chapo + isidro",
+      "title": "La captura del capo 'Chapo Isidro' reclamado por EE UU desata una oleada de violencia en México",
+      "brief": "La captura del capo 'Chapo Isidro' reclamado por EE UU desata una oleada de violencia en México.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 17,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "3h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 68,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido"
       ],
       "isHotNews": false,
       "sources": [
@@ -75,283 +463,23 @@
       "path": "/es/entity/la-captura-del-capo-chapo-isidro-reclamado-por-ee-uu-desata-una-oleada-de-violen/"
     },
     {
-      "id": "now-cluster-españa-sanchez + feijoo",
-      "title": "Sánchez justifica no haber entrado al barro con Feijóo: «Sería jugar como Argentina en la final de la Copa del Mundo»",
-      "brief": "Sánchez justifica no haber entrado al barro con Feijóo: «Sería jugar como Argentina en la final de la Copa del Mundo».",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 18,
-      "sourceCount": 2,
-      "itemCount": 5,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 87,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/GLCKZPLZPVCNNLLLYEDTCN5PHQ.JPG?auth=d632643c7459b85311c004fba14f8a08976b847419460bc59e81190e2506a841",
-        "https://imagenes.elpais.com/resizer/v2/OTCKCQHUI5CG3PLCAOHNI73NM4.jpg?auth=db07634f54c75522f4666dcda799cab54b87aabbadce58f1bdce7bd43222f74a",
-        "https://imagenes.elpais.com/resizer/v2/K6DXCOSONRL5NNL4AJRXQBEY3Y.jpg?auth=57fe073b0be715f6279abcdc9a040353e61d0ae9c4161bac7284a6cd7b7140bc",
-        "https://imagenes.elpais.com/resizer/v2/XD4B7GSI3BIABBRF2ACIUJE4EY.jpg?auth=ab42c40c197dbedd8dad5d96c18d99841db4af4a760a2c3c061ece883b1d2939"
-      ],
-      "evidence": [
-        {
-          "title": "Colau llama a dar la vuelta a las encuestas en el final de campaña: “Vamos a congelar la sonrisa a Feijóo”",
-          "source": "El País",
-          "publishedAt": "2026-11-21T13:14:01.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-21/colau-llama-a-dar-la-vuelta-a-las-encuestas-en-el-final-de-campana-vamos-a-congelar-la-sonrisa-a-feijoo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/GLCKZPLZPVCNNLLLYEDTCN5PHQ.JPG?auth=d632643c7459b85311c004fba14f8a08976b847419460bc59e81190e2506a841"
-        },
-        {
-          "title": "Campaña electoral 29-N y actualidad política, en directo | Feijóo y Colau participan esta mañana en sus actos centrales de campaña",
-          "source": "El País",
-          "publishedAt": "2026-11-21T11:53:08.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-21/campana-electoral-29-n-y-actualidad-politica-en-directo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/OTCKCQHUI5CG3PLCAOHNI73NM4.jpg?auth=db07634f54c75522f4666dcda799cab54b87aabbadce58f1bdce7bd43222f74a"
-        },
-        {
-          "title": "Sánchez justifica no haber entrado al barro con Feijóo: «Sería jugar como Argentina en la final de la Copa del Mundo»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-21T10:25:53.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/sanchez-justifica-entro-barro-feijoo-jugar-jugo-20261121105817-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Sánchez vuelve al ataque para dejar atrás el debate mientras Feijóo intenta explotarlo al máximo",
-          "source": "El País",
-          "publishedAt": "2026-11-21T04:45:01.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-21/sanchez-vuelve-al-ataque-para-dejar-atras-el-debate-mientras-feijoo-intenta-explotarlo-al-maximo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/K6DXCOSONRL5NNL4AJRXQBEY3Y.jpg?auth=57fe073b0be715f6279abcdc9a040353e61d0ae9c4161bac7284a6cd7b7140bc"
-        },
-        {
-          "title": "400 folios y preguntas por sorpresa para entrenar los reflejos: así se preparó Feijóo para el cara a cara con Sánchez",
-          "source": "El País",
-          "publishedAt": "2026-11-21T04:45:01.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-21/400-folios-y-preguntas-por-sorpresa-para-entrenar-los-reflejos-asi-se-preparo-feijoo-para-el-cara-a-cara-con-sanchez.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/XD4B7GSI3BIABBRF2ACIUJE4EY.jpg?auth=ab42c40c197dbedd8dad5d96c18d99841db4af4a760a2c3c061ece883b1d2939"
-        }
-      ],
-      "path": "/es/entity/sanchez-justifica-no-haber-entrado-al-barro-con-feijoo-seria-jugar-como-argentin/"
-    },
-    {
-      "id": "now-cluster-españa-florentino + caso",
-      "title": "Florentino Pérez, con Nadal a su lado, no olvida el caso Negreira: “No voy a parar hasta que se depuren responsabilidades”",
-      "brief": "Florentino Pérez, con Nadal a su lado, no olvida el caso Negreira: “No voy a parar hasta que se depuren responsabilidades”.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/21/florentino-efe-kkhE-U404706736858fH-1200x840@RC.jpg",
-        "https://imagenes.elpais.com/resizer/v2/X4JVFCBU4VNLTHLJQB5THKPF34.jpg?auth=daf1d226c796e0c8aca05a792a7ffdd845ca6a015009743b8a2f14183374ee8e"
-      ],
-      "evidence": [
-        {
-          "title": "Florentino, sobre el 'caso Negreira': «No voy a parar hasta que se depuren todas las responsabilidades»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-21T13:45:01.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/liga-primera/florentino-sobre-negreira-parar-depuren-responsabilidades-20261121144500-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/21/florentino-efe-kkhE-U404706736858fH-1200x840@RC.jpg"
-        },
-        {
-          "title": "Florentino Pérez, con Nadal a su lado, no olvida el caso Negreira: “No voy a parar hasta que se depuren responsabilidades”",
-          "source": "El País",
-          "publishedAt": "2026-11-21T11:03:18.000Z",
-          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-21/florentino-perez-con-nadal-a-su-lado-no-olvida-el-caso-negreira-no-voy-a-parar-hasta-que-se-depuren-responsabilidades.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/X4JVFCBU4VNLTHLJQB5THKPF34.jpg?auth=daf1d226c796e0c8aca05a792a7ffdd845ca6a015009743b8a2f14183374ee8e"
-        }
-      ],
-      "path": "/es/entity/florentino-perez-con-nadal-a-su-lado-no-olvida-el-caso-negreira-no-voy-a-parar-h/"
-    },
-    {
-      "id": "now-cluster-españa-feijoo + todo",
-      "title": "Feijóo abarrota la Plaza de Toros de Valencia y exige a los suyos la máxima movilización: \"No os fieis, son capaces de todo\"",
-      "brief": "Feijóo abarrota la Plaza de Toros de Valencia y exige a los suyos la máxima movilización: \"No os fieis, son capaces de todo\".",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/QTPWQIQZONAZPIRGUNNIN6OQDA.jpg?auth=c9d047456f546b070e6ee4f293d6f584f686032655e1666a5b6baf796e633930",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952649534097.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Feijóo: “No os fieis del ambiente, de nada. Son capaces de todo, y heridos son todavía más peligrosos”",
-          "source": "El País",
-          "publishedAt": "2026-11-21T13:22:16.000Z",
-          "sourceUrl": "https://elpais.com/espana/2026-11-21/feijoo-no-os-fieis-del-ambiente-no-os-fieis-de-nada-son-capaces-de-todo-y-heridos-son-todavia-mas-peligrosos.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/QTPWQIQZONAZPIRGUNNIN6OQDA.jpg?auth=c9d047456f546b070e6ee4f293d6f584f686032655e1666a5b6baf796e633930"
-        },
-        {
-          "title": "Feijóo abarrota la Plaza de Toros de Valencia y exige a los suyos la máxima movilización: \"No os fieis, son capaces de todo\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-21T12:31:55.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/21/6b017ba7e85ece95298b456e.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952649534097.jpg"
-        }
-      ],
-      "path": "/es/entity/feijoo-abarrota-la-plaza-de-toros-de-valencia-y-exige-a-los-suyos-la-maxima-movi/"
-    },
-    {
-      "id": "now-cluster-españa-patxi + ezkiaga",
-      "title": "Las víctimas del religioso Patxi Ezkiaga: «El reconocimiento de los abusos sexuales no acaba con el dolor pero rompe el silencio que lo alimenta»",
-      "brief": "Las víctimas del religioso Patxi Ezkiaga: «El reconocimiento de los abusos sexuales no acaba con el dolor pero rompe el silencio que lo alimenta».",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "1h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El País"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/21/1520605407-kqv-ROSOKXXZ4SxMIAUp3j2nuzL-1200x840@Diario%20Vasco.jpg",
-        "https://imagenes.elpais.com/resizer/v2/M2ZOG3X72VLBBCUW2CTEVF4XTI.jpg?auth=584cabb19240ae2d1b080b48847b0267b9e5bd7386d62f3d7723c5263155f25e"
-      ],
-      "evidence": [
-        {
-          "title": "Las víctimas del religioso Patxi Ezkiaga: «El reconocimiento de los abusos sexuales no acaba con el dolor pero rompe el silencio que lo alimenta»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-21T12:31:59.000Z",
-          "sourceUrl": "https://www.diariovasco.com/gipuzkoa/victimas-religioso-patxi-ezkiaga-reconocimiento-abusos-sexuales-20261121133158-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/21/1520605407-kqv-ROSOKXXZ4SxMIAUp3j2nuzL-1200x840@Diario%20Vasco.jpg"
-        },
-        {
-          "title": "El colegio La Salle, a las víctimas del pederasta Patxi Ezkiaga: “Pedimos públicamente perdón con humildad y sinceridad”",
-          "source": "El País",
-          "publishedAt": "2026-11-21T12:27:39.000Z",
-          "sourceUrl": "https://elpais.com/sociedad/2026-11-21/el-colegio-la-salle-a-las-victimas-del-pederasta-patxi-ezkiaga-pedimos-publicamente-perdon-con-humildad-y-sinceridad.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/M2ZOG3X72VLBBCUW2CTEVF4XTI.jpg?auth=584cabb19240ae2d1b080b48847b0267b9e5bd7386d62f3d7723c5263155f25e"
-        }
-      ],
-      "path": "/es/entity/las-victimas-del-religioso-patxi-ezkiaga-el-reconocimiento-de-los-abusos-sexuale/"
-    },
-    {
-      "id": "moving-cluster-españa-sanchez + hasta",
-      "title": "Sánchez anuncia la prórroga del impuesto a la banca en 2027: ¿en qué consiste un tributo que recauda 1.400 millones al año?",
-      "brief": "Sánchez anuncia la prórroga del impuesto a la banca en 2027: ¿en qué consiste un tributo que recauda 1.400 millones al año?",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952564639846.jpg",
-        "https://s3.ppllstatics.com/rc/www/multimedia/nacional/2026/11/21/s%C3%A1nchez-RWjEl4UdGJxDEYKoA15hx8I-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Sánchez anuncia la prórroga del impuesto a la banca en 2027: ¿en qué consiste un tributo que recauda 1.400 millones al año?",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-21T12:04:42.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/macroeconomia/2026/11/21/6b017050e9cf4ad5138b45a2.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952564639846.jpg"
-        },
-        {
-          "title": "Sánchez anuncia que el próximo Consejo de Ministros aprobará la prórroga del impuesto de la banca hasta 2027",
-          "source": "El Correo",
-          "publishedAt": "2026-11-21T08:27:17.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/sanchez-anuncia-proximo-consejo-ministros-aprobara-prorroga-20261121092717-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/rc/www/multimedia/nacional/2026/11/21/s%C3%A1nchez-RWjEl4UdGJxDEYKoA15hx8I-1200x840@RC.jpg"
-        }
-      ],
-      "path": "/es/entity/sanchez-anuncia-la-prorroga-del-impuesto-a-la-banca-en-2027-en-que-consiste-un-t/"
-    },
-    {
-      "id": "moving-cluster-españa-entre + costa",
+      "id": "fading-cluster-españa-entre + costa",
       "title": "Costa plantea un tijeretazo del 10% en su propuesta del presupuesto comunitario para intentar lograr un consenso entre los líderes",
       "brief": "Costa plantea un tijeretazo del 10% en su propuesta del presupuesto comunitario para intentar lograr un consenso entre los líderes.",
       "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 14,
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 52,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [

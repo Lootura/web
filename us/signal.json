@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-21T14:00:47.899Z",
+  "updatedAt": "2026-11-21T15:00:48.305Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "348,373 links analyzed",
-  "dayScanLabel": "8,383 links scanned in 24h",
+  "ambientPulseLabel": "349,209 links analyzed",
+  "dayScanLabel": "8,382 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -19,6 +19,63 @@
   "topAlert": null,
   "signals": [
     {
+      "id": "now-cluster-united states-federal + deadly",
+      "title": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles",
+      "brief": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "1h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NPR",
+        "NBC News",
+        "The New York Times"
+      ],
+      "images": [
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5808x3872+0+0/resize/5808x3872!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fe0%2Ffd%2Ff9157ccb44d0a165869fae76e14b%2Fap26324834912819.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795225805580_now_topstory_man_guikty_palisades_fire_261120_S3_1920x1080-gv7a6d.jpg",
+        "https://static01.nyt.com/images/2026/11/19/multimedia/00nat-hfo-arson-verdict-hlvb/00nat-hfo-arson-verdict-hlvb-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles",
+          "source": "NPR",
+          "publishedAt": "2026-11-21T13:58:33.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/21/nx-s1-6049625/palisades-fire-conviction?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5808x3872+0+0/resize/5808x3872!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fe0%2Ffd%2Ff9157ccb44d0a165869fae76e14b%2Fap26324834912819.jpg"
+        },
+        {
+          "title": "California man found guilty of starting deadly Palisades Fire",
+          "source": "NBC News",
+          "publishedAt": "2026-11-21T01:50:11.000Z",
+          "sourceUrl": "https://www.nbcnews.com/video/california-man-found-guilty-of-starting-deadly-palisades-fire-273941061702?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795225805580_now_topstory_man_guikty_palisades_fire_261120_S3_1920x1080-gv7a6d.jpg"
+        },
+        {
+          "title": "Jury in Palisades Fire Trial Finds Man Guilty of Arson in Devastating Blaze",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-21T01:08:11.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/la-fire-trial-arson.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/00nat-hfo-arson-verdict-hlvb/00nat-hfo-arson-verdict-hlvb-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/federal-jury-convicts-man-of-starting-the-deadly-2025-palisades-fire-in-los-ange/"
+    },
+    {
       "id": "moving-cluster-united states-trump + army",
       "title": "Why the Army says it needs to detonate unstable, lead-filled explosives in Iowa and what's at risk",
       "brief": "Why the Army says it needs to detonate unstable, lead-filled explosives in Iowa and what's at risk.",
@@ -27,13 +84,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 23,
+      "strength": 17,
       "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "2h fresh",
+      "itemCount": 3,
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 96,
+      "alertScore": 86,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -48,8 +105,7 @@
       "images": [
         "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/a79a9150-aa6c-4e96-bd3b-b58abff5e64a/thumbnail/1200x630/5babee0aa9ef978b2cd957afe4739a3d/cbsn-fusion-the-us-wants-to-detonate-unstable-explosives-in-iowa-that-could-affect-thousands-of-americans-thumbnail.jpg",
         "https://static01.nyt.com/images/2026/11/20/multimedia/20CLI-LEAD-IOWA-01-jwfz/20CLI-LEAD-IOWA-01-jwfz-mediumSquareAt3X.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795225820712_now_topstory_iowa_lead_detonation_261120_S3_1920x1080-zocz0u.jpg",
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/21/39f6e7a1-703d-491b-bf33-8c9fef89e02d/thumbnail/1200x630/4824a8d42339c297c779732fb59382b4/cbsn-fusion-federal-court-indefinitely-pauses-militarys-plans-for-detonation-of-unstable-explosives-in-iowa-thumbnail.jpg"
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795225820712_now_topstory_iowa_lead_detonation_261120_S3_1920x1080-zocz0u.jpg"
       ],
       "evidence": [
         {
@@ -72,87 +128,23 @@
           "publishedAt": "2026-11-21T01:50:25.000Z",
           "sourceUrl": "https://www.nbcnews.com/video/army-detonation-of-bomb-making-chemicals-in-iowa-delayed-indefinitely-273940037981?utm_source=lootura.com&ref=lootura.com",
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795225820712_now_topstory_iowa_lead_detonation_261120_S3_1920x1080-zocz0u.jpg"
-        },
-        {
-          "title": "Federal court indefinitely pauses military's plans for detonation of unstable explosives in Iowa",
-          "source": "CBS News",
-          "publishedAt": "2026-11-21T01:14:30.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/federal-court-indefinitely-pauses-militarys-plans-for-detonation-of-unstable-explosives-in-iowa/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/21/39f6e7a1-703d-491b-bf33-8c9fef89e02d/thumbnail/1200x630/4824a8d42339c297c779732fb59382b4/cbsn-fusion-federal-court-indefinitely-pauses-militarys-plans-for-detonation-of-unstable-explosives-in-iowa-thumbnail.jpg"
         }
       ],
       "path": "/us/entity/why-the-army-says-it-needs-to-detonate-unstable-lead-filled-explosives-in-iowa-a/"
     },
     {
-      "id": "now-cluster-united states-trump + world",
-      "title": "Trump calls Xi and Putin a notable word, and we finally get ‘GTA VI’ after all: The news quiz",
-      "brief": "Trump calls Xi and Putin a notable word, and we finally get ‘GTA VI’ after all: The news quiz.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 22,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "2h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 92,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times",
-        "NBC News",
-        "The New York Times Politics"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/21/opinion/21opinions-roundtable-image/21opinions-roundtable-image-mediumSquareAt3X-v2.png",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261120-news-quiz-grid-sjr-4f7efc.png",
-        "https://static01.nyt.com/images/2026/11/20/multimedia/20pol-desantis-01-qtlc/20pol-desantis-01-qtlc-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Trump, Xi and Putin’s New World Order",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-21T12:09:21.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/21/opinion/trump-xi-putin-summit-china-ai-democrats.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/21/opinion/21opinions-roundtable-image/21opinions-roundtable-image-mediumSquareAt3X-v2.png"
-        },
-        {
-          "title": "Trump calls Xi and Putin a notable word, and we finally get ‘GTA VI’ after all: The news quiz",
-          "source": "NBC News",
-          "publishedAt": "2026-11-21T10:15:00.000Z",
-          "sourceUrl": "https://www.nbcnews.com/news/news-quiz/trump-xi-putin-gta-news-quiz-rcna610276?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261120-news-quiz-grid-sjr-4f7efc.png"
-        },
-        {
-          "title": "Ron DeSantis Ponders a Presidential Run in a Post-Trump World",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-20T20:02:43.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/politics/ron-desantis-florida-2028.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20pol-desantis-01-qtlc/20pol-desantis-01-qtlc-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/trump-calls-xi-and-putin-a-notable-word-and-we-finally-get-gta-vi-after-all-the/"
-    },
-    {
-      "id": "now-cluster-united states-trump + conference",
+      "id": "moving-cluster-united states-trump + conference",
       "title": "Week in Politics: Trump returns from Asia; hails trip as one of best in history",
       "brief": "Week in Politics: Trump returns from Asia; hails trip as one of best in history.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 17,
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 4,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 83,
@@ -205,9 +197,9 @@
       "path": "/us/entity/week-in-politics-trump-returns-from-asia-hails-trip-as-one-of-best-in-history/"
     },
     {
-      "id": "now-cluster-united states-denmark + accuses",
-      "title": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil",
-      "brief": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil.",
+      "id": "now-cluster-united states-cancer + princess",
+      "title": "Princess of Wales speaks about impact of cancer diagnosis in BBC film Heal",
+      "brief": "Princess of Wales speaks about impact of cancer diagnosis in BBC film Heal.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -217,6 +209,53 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The Guardian US",
+        "The New York Times World"
+      ],
+      "images": [
+        "https://i.guim.co.uk/img/media/fd810cd935a14aa8ada325f3b3bdf72e59b7c84f/726_0_3234_2588/master/3234.jpg?width=140&quality=85&auto=format&fit=max&s=ded2b02305fcd1f7c92e952042674919",
+        "https://static01.nyt.com/images/2026/11/21/multimedia/21int-uk-princess-cancer-kwfq/21int-uk-princess-cancer-kwfq-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Princess of Wales speaks about impact of cancer diagnosis in BBC film Heal",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-21T14:42:56.000Z",
+          "sourceUrl": "https://www.theguardian.com/uk-news/2026/nov/21/princess-of-wales-impact-cancer-diagnosis-bbc-film-heal?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/fd810cd935a14aa8ada325f3b3bdf72e59b7c84f/726_0_3234_2588/master/3234.jpg?width=140&quality=85&auto=format&fit=max&s=ded2b02305fcd1f7c92e952042674919"
+        },
+        {
+          "title": "Catherine, Princess of Wales, Documents Life With Cancer in BBC Film",
+          "source": "The New York Times World",
+          "publishedAt": "2026-11-21T14:09:39.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/21/world/europe/princess-kate-bbc-cancer-film.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/21/multimedia/21int-uk-princess-cancer-kwfq/21int-uk-princess-cancer-kwfq-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/princess-of-wales-speaks-about-impact-of-cancer-diagnosis-in-bbc-film-heal/"
+    },
+    {
+      "id": "now-cluster-united states-denmark + accuses",
+      "title": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil",
+      "brief": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -263,7 +302,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -297,100 +336,6 @@
         }
       ],
       "path": "/us/entity/fiona-the-hippo-s-death-was-tragic-but-blaming-a-bad-mom-is-absurd-arwa-mahdawi/"
-    },
-    {
-      "id": "moving-cluster-united states-silicon + valley",
-      "title": "I’m a priest. Silicon Valley’s search for the ‘soul’ of AI is deeply troubling | Rev Kevin Deal",
-      "brief": "I’m a priest. Silicon Valley’s search for the ‘soul’ of AI is deeply troubling | Rev Kevin Deal.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The Guardian US",
-        "The New York Times"
-      ],
-      "images": [
-        "https://i.guim.co.uk/img/media/3d6259c7c4a22f7ecae82e1aef45d9bc1fff8bd3/147_152_2937_2350/master/2937.jpg?width=140&quality=85&auto=format&fit=max&s=0c6653067417b404617765294f09e8bd",
-        "https://static01.nyt.com/images/2026/11/20/multimedia/20biz-anthropic-aftermath-cwvh/20biz-anthropic-aftermath-cwvh-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "I’m a priest. Silicon Valley’s search for the ‘soul’ of AI is deeply troubling | Rev Kevin Deal",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-21T12:00:58.000Z",
-          "sourceUrl": "https://www.theguardian.com/commentisfree/2026/nov/21/silicon-valleys-ai-soul-search?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/3d6259c7c4a22f7ecae82e1aef45d9bc1fff8bd3/147_152_2937_2350/master/2937.jpg?width=140&quality=85&auto=format&fit=max&s=0c6653067417b404617765294f09e8bd"
-        },
-        {
-          "title": "Anthropic’s Debut Shows the Disconnect Between Wall Street and Silicon Valley",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-21T10:03:44.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/21/business/anthropics-debut-shows-the-disconnect-between-wall-street-and-silicon-valley.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20biz-anthropic-aftermath-cwvh/20biz-anthropic-aftermath-cwvh-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/i-m-a-priest-silicon-valley-s-search-for-the-soul-of-ai-is-deeply-troubling-rev/"
-    },
-    {
-      "id": "moving-cluster-united states-california + guilty",
-      "title": "California man found guilty of starting deadly Palisades Fire",
-      "brief": "California man found guilty of starting deadly Palisades Fire.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "12h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News",
-        "The New York Times"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795225805580_now_topstory_man_guikty_palisades_fire_261120_S3_1920x1080-gv7a6d.jpg",
-        "https://static01.nyt.com/images/2026/11/19/multimedia/00nat-hfo-arson-verdict-hlvb/00nat-hfo-arson-verdict-hlvb-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "California man found guilty of starting deadly Palisades Fire",
-          "source": "NBC News",
-          "publishedAt": "2026-11-21T01:50:11.000Z",
-          "sourceUrl": "https://www.nbcnews.com/video/california-man-found-guilty-of-starting-deadly-palisades-fire-273941061702?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795225805580_now_topstory_man_guikty_palisades_fire_261120_S3_1920x1080-gv7a6d.jpg"
-        },
-        {
-          "title": "Jury in Palisades Fire Trial Finds Man Guilty of Arson in Devastating Blaze",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-21T01:08:11.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/la-fire-trial-arson.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/00nat-hfo-arson-verdict-hlvb/00nat-hfo-arson-verdict-hlvb-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/california-man-found-guilty-of-starting-deadly-palisades-fire/"
     }
   ]
 }
