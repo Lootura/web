@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-21T05:00:48.546Z",
+  "updatedAt": "2026-11-21T06:00:48.394Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "274.495 enlaces analizados",
-  "dayScanLabel": "4.204 enlaces escaneados en 24h",
+  "ambientPulseLabel": "274.920 enlaces analizados",
+  "dayScanLabel": "4.212 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,18 +19,89 @@
   "topAlert": null,
   "signals": [
     {
+      "id": "now-cluster-españa-sanchez + debate",
+      "title": "Sánchez receta \"buena educación\" a Feijóo desde Galicia tras su cara a cara: \"La ventaja de dejarle hablar es que acaba retratándose\"",
+      "brief": "Sánchez receta \"buena educación\" a Feijóo desde Galicia tras su cara a cara: \"La ventaja de dejarle hablar es que acaba retratándose\".",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 24,
+      "sourceCount": 3,
+      "itemCount": 5,
+      "freshness": "1h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo",
+        "El Mundo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/K6DXCOSONRL5NNL4AJRXQBEY3Y.jpg?auth=57fe073b0be715f6279abcdc9a040353e61d0ae9c4161bac7284a6cd7b7140bc",
+        "https://imagenes.elpais.com/resizer/v2/XD4B7GSI3BIABBRF2ACIUJE4EY.jpg?auth=ab42c40c197dbedd8dad5d96c18d99841db4af4a760a2c3c061ece883b1d2939",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/20/17952012129578.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Sánchez vuelve al ataque para dejar atrás el debate mientras Feijóo intenta explotarlo al máximo",
+          "source": "El País",
+          "publishedAt": "2026-11-21T04:45:01.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-21/sanchez-vuelve-al-ataque-para-dejar-atras-el-debate-mientras-feijoo-intenta-explotarlo-al-maximo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/K6DXCOSONRL5NNL4AJRXQBEY3Y.jpg?auth=57fe073b0be715f6279abcdc9a040353e61d0ae9c4161bac7284a6cd7b7140bc"
+        },
+        {
+          "title": "400 folios y preguntas por sorpresa para entrenar los reflejos: así se preparó Feijóo para el cara a cara con Sánchez",
+          "source": "El País",
+          "publishedAt": "2026-11-21T04:45:01.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-21/400-folios-y-preguntas-por-sorpresa-para-entrenar-los-reflejos-asi-se-preparo-feijoo-para-el-cara-a-cara-con-sanchez.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/XD4B7GSI3BIABBRF2ACIUJE4EY.jpg?auth=ab42c40c197dbedd8dad5d96c18d99841db4af4a760a2c3c061ece883b1d2939"
+        },
+        {
+          "title": "Moncloa asume la decepción de una militancia que quiere «rocanrol», pero defiende el papel de Sánchez en el debate",
+          "source": "El Correo",
+          "publishedAt": "2026-11-20T20:48:14.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/moncloa-asume-decepcion-militancia-quiere-rocanrol-defiende-20261120175200-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Sánchez receta \"buena educación\" a Feijóo desde Galicia tras su cara a cara: \"La ventaja de dejarle hablar es que acaba retratándose\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-20T20:10:08.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/20/6b007d60fdddffa1598b45a1.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/20/17952012129578.jpg"
+        },
+        {
+          "title": "Sánchez se cobra la revancha y gana a Feijóo en Galicia: “Votemos en homenaje a Ramón Sampedro”",
+          "source": "El País",
+          "publishedAt": "2026-11-20T20:09:42.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-20/sanchez-se-toma-la-revancha-en-galicia-y-esgrime-contra-feijoo-el-derecho-a-la-eutanasia-votemos-en-homenaje-a-ramon-sampedro.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/sanchez-receta-buena-educacion-a-feijoo-desde-galicia-tras-su-cara-a-cara-la-ven/"
+    },
+    {
       "id": "moving-cluster-españa-alerta + presencia",
       "title": "Consumo alerta de la posible presencia de salmonela en un lote de huevos de la marca Eroski",
       "brief": "Consumo alerta de la posible presencia de salmonela en un lote de huevos de la marca Eroski.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 14,
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 13,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "8h fresca",
+      "freshness": "9h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 80,
@@ -76,52 +147,6 @@
       "path": "/es/entity/consumo-alerta-de-la-posible-presencia-de-salmonela-en-un-lote-de-huevos-de-la-m/"
     },
     {
-      "id": "moving-cluster-españa-sanchez + feijoo",
-      "title": "Sánchez receta \"buena educación\" a Feijóo desde Galicia tras su cara a cara: \"La ventaja de dejarle hablar es que acaba retratándose\"",
-      "brief": "Sánchez receta \"buena educación\" a Feijóo desde Galicia tras su cara a cara: \"La ventaja de dejarle hablar es que acaba retratándose\".",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "9h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El País"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/20/17952012129578.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Sánchez receta \"buena educación\" a Feijóo desde Galicia tras su cara a cara: \"La ventaja de dejarle hablar es que acaba retratándose\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-20T20:10:08.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/20/6b007d60fdddffa1598b45a1.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/20/17952012129578.jpg"
-        },
-        {
-          "title": "Sánchez se cobra la revancha y gana a Feijóo en Galicia: “Votemos en homenaje a Ramón Sampedro”",
-          "source": "El País",
-          "publishedAt": "2026-11-20T20:09:42.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-20/sanchez-se-toma-la-revancha-en-galicia-y-esgrime-contra-feijoo-el-derecho-a-la-eutanasia-votemos-en-homenaje-a-ramon-sampedro.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/sanchez-receta-buena-educacion-a-feijoo-desde-galicia-tras-su-cara-a-cara-la-ven/"
-    },
-    {
       "id": "now-cluster-españa-eder + sarabia",
       "title": "La felicidad de Eder Sarabia: «Ganar en San Mamés es la leche»",
       "brief": "La felicidad de Eder Sarabia: «Ganar en San Mamés es la leche».",
@@ -133,10 +158,10 @@
       "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 60,
+      "alertScore": 54,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -175,18 +200,17 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
+      "state": "cooling",
+      "stateLabel": "Bajando",
       "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "8h fresca",
+      "freshness": "9h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 54,
+      "alertScore": 46,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
@@ -216,71 +240,23 @@
       "path": "/es/entity/olympiacos-saca-los-colores-al-real-madrid-en-una-semana-para-olvidar/"
     },
     {
-      "id": "now-cluster-españa-centros + trump",
-      "title": "Donald Trump: \"No vamos a permitir que nuestras empresas construyan centros de datos fuera de EEUU\"",
-      "brief": "Donald Trump: \"No vamos a permitir que nuestras empresas construyan centros de datos fuera de EEUU\".",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "8h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 54,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/5GR4JQSK5FOPDDHISMXKTP45PM.jpg?auth=b4e00c1b546267c4eaf7da0a10abfa19e86bfebafbab78867ae9890af55097bd",
-        "https://e01-phantom-elmundo.uecdn.es/2ac144e161b64736298caf27519de05a/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/20/17952022975592.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Trump amenaza con sancionar a las empresas estadounidenses que construyan centros de datos en otros países",
-          "source": "El País",
-          "publishedAt": "2026-11-20T21:19:03.000Z",
-          "sourceUrl": "https://elpais.com/us/2026-11-20/trump-amenaza-con-sancionar-a-las-empresas-estadounidenses-que-construyan-centros-de-datos-en-otros-paises.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/5GR4JQSK5FOPDDHISMXKTP45PM.jpg?auth=b4e00c1b546267c4eaf7da0a10abfa19e86bfebafbab78867ae9890af55097bd"
-        },
-        {
-          "title": "Donald Trump: \"No vamos a permitir que nuestras empresas construyan centros de datos fuera de EEUU\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-20T19:18:41.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/20/6b009d0cfc6c835a588b459e.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/2ac144e161b64736298caf27519de05a/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/20/17952022975592.jpg"
-        }
-      ],
-      "path": "/es/entity/donald-trump-no-vamos-a-permitir-que-nuestras-empresas-construyan-centros-de-dat/"
-    },
-    {
       "id": "now-cluster-españa-peio + etxeberria",
       "title": "Peio Etxeberria jugará la final del Cuatro y Medio tras remitir sus problemas en el ojo",
       "brief": "Peio Etxeberria jugará la final del Cuatro y Medio tras remitir sus problemas en el ojo.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
+      "state": "cooling",
+      "stateLabel": "Bajando",
       "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "8h fresca",
+      "freshness": "9h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 54,
+      "alertScore": 46,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [

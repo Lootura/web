@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-21T05:00:48.546Z",
+  "updatedAt": "2026-11-21T06:00:48.394Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "340,827 links analyzed",
-  "dayScanLabel": "8,363 links scanned in 24h",
+  "ambientPulseLabel": "341,668 links analyzed",
+  "dayScanLabel": "8,371 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -17,18 +17,18 @@
     ]
   },
   "topAlert": {
-    "id": "now-cluster-united states-trump + conference",
-    "title": "What we learned from Trump's first press conference following summit with Xi, Putin",
-    "brief": "What we learned from Trump's first press conference following summit with Xi, Putin.",
+    "id": "moving-cluster-united states-trump + putin",
+    "title": "Trump defends calling Putin his friend, talks outages in first presser after China summit",
+    "brief": "Trump defends calling Putin his friend, talks outages in first presser after China summit.",
     "whyItMatters": "",
     "verdict": "If it repeats in the next run, it gains weight.",
-    "mode": "now",
-    "state": "rising",
-    "stateLabel": "Rising",
-    "strength": 34,
+    "mode": "moving",
+    "state": "active",
+    "stateLabel": "Active",
+    "strength": 25,
     "sourceCount": 6,
-    "itemCount": 12,
-    "freshness": "3h fresh",
+    "itemCount": 9,
+    "freshness": "5h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -39,26 +39,18 @@
     ],
     "isHotNews": false,
     "sources": [
-      "The New York Times Politics",
       "CBS News",
       "NBC News Politics",
       "PBS NewsHour",
-      "The New York Times World"
+      "The New York Times World",
+      "NPR Politics"
     ],
     "images": [
-      "https://static01.nyt.com/images/2026/11/20/multimedia/20dc-trump-takeaways-zphf/20dc-trump-takeaways-zphf-mediumSquareAt3X.jpg",
-      "https://static01.nyt.com/images/2026/11/20/multimedia/20DC-TRUMP-FACTCHECK-fbhc/20DC-TRUMP-FACTCHECK-fbhc-mediumSquareAt3X.jpg",
       "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795218333477_nn_mal_trump_touts_historic_summit_with_xi_putin_261120_S3_1920x1080-m618xk.jpg",
-      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/trump-1024x712.jpg"
+      "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/20/cd52a768-2347-4386-9e9f-b163ff6399cc/thumbnail/1200x630/102451d4f5d834f839445678a8eeb140/cbsn-fusion-tech-sell-off-sends-sp-500-and-dow-into-correction-territory-thumbnail.jpg",
+      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/brooks-1-1024x576.jpg"
     ],
     "evidence": [
-      {
-        "title": "Takeaways From Trump’s Post-Trip News Conference",
-        "source": "The New York Times Politics",
-        "publishedAt": "2026-11-21T02:15:29.000Z",
-        "sourceUrl": "https://www.nytimes.com/2026/11/20/us/politics/trump-news-conference-asia-trip.html?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20dc-trump-takeaways-zphf/20dc-trump-takeaways-zphf-mediumSquareAt3X.jpg"
-      },
       {
         "title": "Trump defends calling Putin his friend, talks outages in first presser after China summit",
         "source": "CBS News",
@@ -74,36 +66,43 @@
         "image": ""
       },
       {
-        "title": "What Trump addressed during his lengthy White House news conference",
-        "source": "PBS NewsHour",
-        "publishedAt": "2026-11-20T23:55:30.000Z",
-        "sourceUrl": "https://www.pbs.org/newshour/show/what-trump-addressed-during-his-lengthy-white-house-news-conference?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/trump-1024x712.jpg"
-      },
-      {
         "title": "Trump touts historic summit with Xi, Putin",
         "source": "NBC News Politics",
         "publishedAt": "2026-11-20T23:45:38.000Z",
         "sourceUrl": "https://www.nbcnews.com/nightly-news/video/trump-touts-historic-summit-with-xi-putin-273933381719?utm_source=lootura.com&ref=lootura.com",
         "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795218333477_nn_mal_trump_touts_historic_summit_with_xi_putin_261120_S3_1920x1080-m618xk.jpg"
+      },
+      {
+        "title": "Markets plummet amid tech sell-off, Trump threatens tax on data centers built abroad",
+        "source": "CBS News",
+        "publishedAt": "2026-11-20T23:41:29.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/tech-sell-off-sends-sp-500-and-dow-into-correction-territory/?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/20/cd52a768-2347-4386-9e9f-b163ff6399cc/thumbnail/1200x630/102451d4f5d834f839445678a8eeb140/cbsn-fusion-tech-sell-off-sends-sp-500-and-dow-into-correction-territory-thumbnail.jpg"
+      },
+      {
+        "title": "Brooks and Capehart on Trump's summit with Putin and Xi",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-11-20T23:35:27.000Z",
+        "sourceUrl": "https://www.pbs.org/newshour/show/brooks-and-capehart-on-trumps-summit-with-putin-and-xi?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/brooks-1-1024x576.jpg"
       }
     ],
-    "path": "/us/entity/what-we-learned-from-trump-s-first-press-conference-following-summit-with-xi-put/"
+    "path": "/us/entity/trump-defends-calling-putin-his-friend-talks-outages-in-first-presser-after-chin/"
   },
   "signals": [
     {
-      "id": "now-cluster-united states-trump + conference",
-      "title": "What we learned from Trump's first press conference following summit with Xi, Putin",
-      "brief": "What we learned from Trump's first press conference following summit with Xi, Putin.",
+      "id": "moving-cluster-united states-trump + putin",
+      "title": "Trump defends calling Putin his friend, talks outages in first presser after China summit",
+      "brief": "Trump defends calling Putin his friend, talks outages in first presser after China summit.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 34,
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 25,
       "sourceCount": 6,
-      "itemCount": 12,
-      "freshness": "3h fresh",
+      "itemCount": 9,
+      "freshness": "5h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -114,26 +113,18 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The New York Times Politics",
         "CBS News",
         "NBC News Politics",
         "PBS NewsHour",
-        "The New York Times World"
+        "The New York Times World",
+        "NPR Politics"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/20/multimedia/20dc-trump-takeaways-zphf/20dc-trump-takeaways-zphf-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/11/20/multimedia/20DC-TRUMP-FACTCHECK-fbhc/20DC-TRUMP-FACTCHECK-fbhc-mediumSquareAt3X.jpg",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795218333477_nn_mal_trump_touts_historic_summit_with_xi_putin_261120_S3_1920x1080-m618xk.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/trump-1024x712.jpg"
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/20/cd52a768-2347-4386-9e9f-b163ff6399cc/thumbnail/1200x630/102451d4f5d834f839445678a8eeb140/cbsn-fusion-tech-sell-off-sends-sp-500-and-dow-into-correction-territory-thumbnail.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/brooks-1-1024x576.jpg"
       ],
       "evidence": [
-        {
-          "title": "Takeaways From Trump’s Post-Trip News Conference",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-21T02:15:29.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/politics/trump-news-conference-asia-trip.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20dc-trump-takeaways-zphf/20dc-trump-takeaways-zphf-mediumSquareAt3X.jpg"
-        },
         {
           "title": "Trump defends calling Putin his friend, talks outages in first presser after China summit",
           "source": "CBS News",
@@ -149,21 +140,28 @@
           "image": ""
         },
         {
-          "title": "What Trump addressed during his lengthy White House news conference",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-20T23:55:30.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/show/what-trump-addressed-during-his-lengthy-white-house-news-conference?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/trump-1024x712.jpg"
-        },
-        {
           "title": "Trump touts historic summit with Xi, Putin",
           "source": "NBC News Politics",
           "publishedAt": "2026-11-20T23:45:38.000Z",
           "sourceUrl": "https://www.nbcnews.com/nightly-news/video/trump-touts-historic-summit-with-xi-putin-273933381719?utm_source=lootura.com&ref=lootura.com",
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795218333477_nn_mal_trump_touts_historic_summit_with_xi_putin_261120_S3_1920x1080-m618xk.jpg"
+        },
+        {
+          "title": "Markets plummet amid tech sell-off, Trump threatens tax on data centers built abroad",
+          "source": "CBS News",
+          "publishedAt": "2026-11-20T23:41:29.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/tech-sell-off-sends-sp-500-and-dow-into-correction-territory/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/20/cd52a768-2347-4386-9e9f-b163ff6399cc/thumbnail/1200x630/102451d4f5d834f839445678a8eeb140/cbsn-fusion-tech-sell-off-sends-sp-500-and-dow-into-correction-territory-thumbnail.jpg"
+        },
+        {
+          "title": "Brooks and Capehart on Trump's summit with Putin and Xi",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-20T23:35:27.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/brooks-and-capehart-on-trumps-summit-with-putin-and-xi?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/brooks-1-1024x576.jpg"
         }
       ],
-      "path": "/us/entity/what-we-learned-from-trump-s-first-press-conference-following-summit-with-xi-put/"
+      "path": "/us/entity/trump-defends-calling-putin-his-friend-talks-outages-in-first-presser-after-chin/"
     },
     {
       "id": "moving-cluster-united states-palisades + fire",
@@ -172,12 +170,12 @@
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 19,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 18,
       "sourceCount": 4,
       "itemCount": 4,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -232,18 +230,83 @@
       "path": "/us/entity/jury-in-palisades-fire-trial-finds-man-guilty-of-arson-in-devastating-blaze/"
     },
     {
-      "id": "now-cluster-united states-fiona + hippo",
-      "title": "Fiona's caretakers and fans mourn the beloved hippo after her death at Cincinnati Zoo",
-      "brief": "Fiona's caretakers and fans mourn the beloved hippo after her death at Cincinnati Zoo.",
+      "id": "now-cluster-united states-court + federal",
+      "title": "Federal court indefinitely pauses military's plans for detonation of unstable explosives in Iowa",
+      "brief": "Federal court indefinitely pauses military's plans for detonation of unstable explosives in Iowa.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 22,
+      "strength": 24,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 96,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times Politics",
+        "NBC News",
+        "CBS News"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/20/multimedia/20DC-PREGNANT-02-gvqf/20DC-PREGNANT-02-gvqf-mediumSquareAt3X.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795225820712_now_topstory_iowa_lead_detonation_261120_S3_1920x1080-zocz0u.jpg",
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/21/39f6e7a1-703d-491b-bf33-8c9fef89e02d/thumbnail/1200x630/4824a8d42339c297c779732fb59382b4/cbsn-fusion-federal-court-indefinitely-pauses-militarys-plans-for-detonation-of-unstable-explosives-in-iowa-thumbnail.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/ebaa585f-b460-4b71-804b-f1f94bf2ec84/thumbnail/1200x630/ad42053fdf1d03634f078ef40157fe84/cbsn-fusion-appeals-court-indefinitely-halts-armys-planned-detonation-of-unstable-explosives-in-iowa-thumbnail.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Federal Court Halts Pregnant Workers’ Protection Law",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-21T05:53:08.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/21/us/politics/federal-court-halts-pregnant-workers-protection-law.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20DC-PREGNANT-02-gvqf/20DC-PREGNANT-02-gvqf-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Army detonation of bomb-making chemicals in Iowa delayed indefinitely",
+          "source": "NBC News",
+          "publishedAt": "2026-11-21T01:50:25.000Z",
+          "sourceUrl": "https://www.nbcnews.com/video/army-detonation-of-bomb-making-chemicals-in-iowa-delayed-indefinitely-273940037981?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795225820712_now_topstory_iowa_lead_detonation_261120_S3_1920x1080-zocz0u.jpg"
+        },
+        {
+          "title": "Federal court indefinitely pauses military's plans for detonation of unstable explosives in Iowa",
+          "source": "CBS News",
+          "publishedAt": "2026-11-21T01:14:30.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/federal-court-indefinitely-pauses-militarys-plans-for-detonation-of-unstable-explosives-in-iowa/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/21/39f6e7a1-703d-491b-bf33-8c9fef89e02d/thumbnail/1200x630/4824a8d42339c297c779732fb59382b4/cbsn-fusion-federal-court-indefinitely-pauses-militarys-plans-for-detonation-of-unstable-explosives-in-iowa-thumbnail.jpg"
+        },
+        {
+          "title": "Court indefinitely halts Army's planned detonation of unstable explosives in Iowa",
+          "source": "CBS News",
+          "publishedAt": "2026-11-20T22:29:57.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/appeals-court-indefinitely-halts-armys-planned-detonation-of-unstable-explosives-in-iowa/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/ebaa585f-b460-4b71-804b-f1f94bf2ec84/thumbnail/1200x630/ad42053fdf1d03634f078ef40157fe84/cbsn-fusion-appeals-court-indefinitely-halts-armys-planned-detonation-of-unstable-explosives-in-iowa-thumbnail.jpg"
+        }
+      ],
+      "path": "/us/entity/federal-court-indefinitely-pauses-military-s-plans-for-detonation-of-unstable-ex/"
+    },
+    {
+      "id": "moving-cluster-united states-fiona + hippo",
+      "title": "Fiona's caretakers and fans mourn the beloved hippo after her death at Cincinnati Zoo",
+      "brief": "Fiona's caretakers and fans mourn the beloved hippo after her death at Cincinnati Zoo.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 86,
@@ -289,6 +352,109 @@
       "path": "/us/entity/fiona-s-caretakers-and-fans-mourn-the-beloved-hippo-after-her-death-at-cincinnat/"
     },
     {
+      "id": "now-cluster-united states-nvidia + huang",
+      "title": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military",
+      "brief": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times Politics",
+        "The New York Times"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/19/multimedia/19dc-spy-chip-tbpw/19dc-spy-chip-tbpw-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/18/multimedia/00BIZ-nvidia-culture-jensen-kbpz/00BIZ-nvidia-culture-jensen-kbpz-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-21T05:13:03.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/politics/nvidia-alice-huang-chips-china.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19dc-spy-chip-tbpw/19dc-spy-chip-tbpw-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "How Jensen Huang Made Humiliation Routine at Nvidia",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-20T14:43:10.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/20/technology/jensen-huang-nvidia-culture.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/00BIZ-nvidia-culture-jensen-kbpz/00BIZ-nvidia-culture-jensen-kbpz-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/alice-huang-accused-of-spying-on-nvidia-s-ceo-is-linked-to-firms-with-ties-to-ch/"
+    },
+    {
+      "id": "now-cluster-united states-trump + conference",
+      "title": "What Trump addressed during his lengthy White House news conference",
+      "brief": "What Trump addressed during his lengthy White House news conference.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "4h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 73,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times Politics",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/20/multimedia/20dc-trump-takeaways-zphf/20dc-trump-takeaways-zphf-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/20/multimedia/20DC-TRUMP-FACTCHECK-fbhc/20DC-TRUMP-FACTCHECK-fbhc-mediumSquareAt3X.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/trump-1024x712.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Takeaways From Trump’s Post-Trip News Conference",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-21T02:15:29.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/politics/trump-news-conference-asia-trip.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20dc-trump-takeaways-zphf/20dc-trump-takeaways-zphf-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "What Trump addressed during his lengthy White House news conference",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-20T23:55:30.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/what-trump-addressed-during-his-lengthy-white-house-news-conference?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/trump-1024x712.jpg"
+        },
+        {
+          "title": "Fact-Checking Trump’s News Conference After His Asia Trip",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-20T20:38:24.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/politics/trumps-asia-fact-check.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20DC-TRUMP-FACTCHECK-fbhc/20DC-TRUMP-FACTCHECK-fbhc-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/what-trump-addressed-during-his-lengthy-white-house-news-conference/"
+    },
+    {
       "id": "now-cluster-united states-court + cancer",
       "title": "Court approves $7.25 billion Bayer settlement over claims Roundup weed killer caused cancer",
       "brief": "Court approves $7.25 billion Bayer settlement over claims Roundup weed killer caused cancer.",
@@ -297,13 +463,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
@@ -336,62 +502,6 @@
       "path": "/us/entity/court-approves-7-25-billion-bayer-settlement-over-claims-roundup-weed-killer-cau/"
     },
     {
-      "id": "now-cluster-united states-court + army",
-      "title": "Court indefinitely halts Army's planned detonation of unstable explosives in Iowa",
-      "brief": "Court indefinitely halts Army's planned detonation of unstable explosives in Iowa.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 10,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "3h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 73,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News",
-        "CBS News"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795225820712_now_topstory_iowa_lead_detonation_261120_S3_1920x1080-zocz0u.jpg",
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/21/39f6e7a1-703d-491b-bf33-8c9fef89e02d/thumbnail/1200x630/4824a8d42339c297c779732fb59382b4/cbsn-fusion-federal-court-indefinitely-pauses-militarys-plans-for-detonation-of-unstable-explosives-in-iowa-thumbnail.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/ebaa585f-b460-4b71-804b-f1f94bf2ec84/thumbnail/1200x630/ad42053fdf1d03634f078ef40157fe84/cbsn-fusion-appeals-court-indefinitely-halts-armys-planned-detonation-of-unstable-explosives-in-iowa-thumbnail.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Army detonation of bomb-making chemicals in Iowa delayed indefinitely",
-          "source": "NBC News",
-          "publishedAt": "2026-11-21T01:50:25.000Z",
-          "sourceUrl": "https://www.nbcnews.com/video/army-detonation-of-bomb-making-chemicals-in-iowa-delayed-indefinitely-273940037981?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795225820712_now_topstory_iowa_lead_detonation_261120_S3_1920x1080-zocz0u.jpg"
-        },
-        {
-          "title": "Federal court indefinitely pauses military's plans for detonation of unstable explosives in Iowa",
-          "source": "CBS News",
-          "publishedAt": "2026-11-21T01:14:30.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/federal-court-indefinitely-pauses-militarys-plans-for-detonation-of-unstable-explosives-in-iowa/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/21/39f6e7a1-703d-491b-bf33-8c9fef89e02d/thumbnail/1200x630/4824a8d42339c297c779732fb59382b4/cbsn-fusion-federal-court-indefinitely-pauses-militarys-plans-for-detonation-of-unstable-explosives-in-iowa-thumbnail.jpg"
-        },
-        {
-          "title": "Court indefinitely halts Army's planned detonation of unstable explosives in Iowa",
-          "source": "CBS News",
-          "publishedAt": "2026-11-20T22:29:57.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/appeals-court-indefinitely-halts-armys-planned-detonation-of-unstable-explosives-in-iowa/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/ebaa585f-b460-4b71-804b-f1f94bf2ec84/thumbnail/1200x630/ad42053fdf1d03634f078ef40157fe84/cbsn-fusion-appeals-court-indefinitely-halts-armys-planned-detonation-of-unstable-explosives-in-iowa-thumbnail.jpg"
-        }
-      ],
-      "path": "/us/entity/court-indefinitely-halts-army-s-planned-detonation-of-unstable-explosives-in-iow/"
-    },
-    {
       "id": "moving-cluster-united states-marine + corps",
       "title": "Trump, Dana White honor Marine Corps band with $500,000",
       "brief": "Trump, Dana White honor Marine Corps band with $500,000.",
@@ -400,10 +510,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 9,
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 70,
@@ -439,24 +549,23 @@
       "path": "/us/entity/trump-dana-white-honor-marine-corps-band-with-500-000/"
     },
     {
-      "id": "moving-cluster-united states-poland + missiles",
+      "id": "fading-cluster-united states-poland + missiles",
       "title": "Poland accuses Russia of \"intentional provocation\" after missiles land in its territory",
       "brief": "Poland accuses Russia of \"intentional provocation\" after missiles land in its territory.",
       "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 8,
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresh",
+      "freshness": "7h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 70,
+      "alertScore": 46,
       "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
+        "Crosses several sources"
       ],
       "isHotNews": false,
       "sources": [
@@ -483,53 +592,6 @@
         }
       ],
       "path": "/us/entity/poland-accuses-russia-of-intentional-provocation-after-missiles-land-in-its-terr/"
-    },
-    {
-      "id": "moving-cluster-united states-nvidia + huang",
-      "title": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military",
-      "brief": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "11h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times Politics",
-        "The New York Times"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/19/multimedia/19dc-spy-chip-tbpw/19dc-spy-chip-tbpw-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/11/18/multimedia/00BIZ-nvidia-culture-jensen-kbpz/00BIZ-nvidia-culture-jensen-kbpz-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-20T18:05:36.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/us/politics/nvidia-alice-huang-chips-china.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19dc-spy-chip-tbpw/19dc-spy-chip-tbpw-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "How Jensen Huang Made Humiliation Routine at Nvidia",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-20T14:43:10.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/technology/jensen-huang-nvidia-culture.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/18/multimedia/00BIZ-nvidia-culture-jensen-kbpz/00BIZ-nvidia-culture-jensen-kbpz-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/alice-huang-accused-of-spying-on-nvidia-s-ceo-is-linked-to-firms-with-ties-to-ch/"
     }
   ]
 }
