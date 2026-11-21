@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-21T01:00:48.127Z",
+  "updatedAt": "2026-11-21T02:00:48.144Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "272.810 enlaces analizados",
-  "dayScanLabel": "4.199 enlaces escaneados en 24h",
+  "ambientPulseLabel": "273.228 enlaces analizados",
+  "dayScanLabel": "4.197 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,7 +19,7 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "moving-cluster-españa-alerta + huevos",
+      "id": "moving-cluster-españa-alerta + presencia",
       "title": "Consumo alerta de la posible presencia de salmonela en un lote de huevos de la marca Eroski",
       "brief": "Consumo alerta de la posible presencia de salmonela en un lote de huevos de la marca Eroski.",
       "whyItMatters": "",
@@ -27,13 +27,13 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 18,
-      "sourceCount": 4,
-      "itemCount": 4,
-      "freshness": "4h fresca",
+      "strength": 15,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 99,
+      "alertScore": 86,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -43,13 +43,11 @@
       "sources": [
         "El País",
         "El Diario Vasco",
-        "El Mundo",
         "El Correo"
       ],
       "images": [
         "https://imagenes.elpais.com/resizer/v2/WMTHPLY2EREP7ED5KHKDGGDE3E.jpg?auth=bcdff4a1ae7a8970386f076f9c5432b88cd5d5ca60ea3fd232639ea124c8131d",
         "https://s1.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/20/19482116_x-kjrD-U40461844500azD-1200x840@Diario%20Vasco.jpg",
-        "https://e01-phantom-elmundo.uecdn.es/92bc26ba556c25253933fc929978f8bb/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/20/17951938928520.jpg",
         "https://s1.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/20/huevos-eroski-kdfD-U40459746428Aj-1200x840@El%20Correo.jpg"
       ],
       "evidence": [
@@ -68,13 +66,6 @@
           "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/20/19482116_x-kjrD-U40461844500azD-1200x840@Diario%20Vasco.jpg"
         },
         {
-          "title": "Consumo activa una alerta por huevos con posible salmonella distribuidos en ocho autonomías",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-20T16:59:04.000Z",
-          "sourceUrl": "https://www.elmundo.es/salud/2026/11/20/6b007c53fc6c83ae3e8b4572.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/92bc26ba556c25253933fc929978f8bb/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/20/17951938928520.jpg"
-        },
-        {
           "title": "Alerta alimentaria por la presencia de salmonella en huevos de Eroski",
           "source": "El Correo",
           "publishedAt": "2026-11-20T16:47:31.000Z",
@@ -85,7 +76,7 @@
       "path": "/es/entity/consumo-alerta-de-la-posible-presencia-de-salmonela-en-un-lote-de-huevos-de-la-m/"
     },
     {
-      "id": "moving-cluster-españa-mejor + feijoo",
+      "id": "moving-cluster-españa-mejor + sanchez",
       "title": "El cara a cara impulsa a Feijóo a su mejor dato desde que arrancó la campaña y lo consolida ante Vox",
       "brief": "El cara a cara impulsa a Feijóo a su mejor dato desde que arrancó la campaña y lo consolida ante Vox.",
       "whyItMatters": "",
@@ -96,7 +87,7 @@
       "strength": 10,
       "sourceCount": 2,
       "itemCount": 5,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 81,
@@ -162,13 +153,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -207,15 +198,15 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 60,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -254,15 +245,15 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 60,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -301,15 +292,15 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 60,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
