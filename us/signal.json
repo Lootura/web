@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-22T11:00:48.519Z",
+  "updatedAt": "2026-11-22T12:00:48.913Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "363,379 links analyzed",
-  "dayScanLabel": "8,334 links scanned in 24h",
+  "ambientPulseLabel": "364,211 links analyzed",
+  "dayScanLabel": "8,332 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -19,21 +19,21 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-united states-white + house",
+      "id": "moving-cluster-united states-white + house",
       "title": "Trump's new executive order tells federal contractors to check with White House before responding to Congress",
       "brief": "Trump's new executive order tells federal contractors to check with White House before responding to Congress.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 26,
-      "sourceCount": 4,
-      "itemCount": 5,
-      "freshness": "fresh now",
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 13,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "13h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 99,
+      "alertScore": 79,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -41,26 +41,17 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The New York Times Politics",
         "NPR Politics",
         "PBS NewsHour",
         "CBS News"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/20/multimedia/dc-factcheck-jzfv/dc-factcheck-jzfv-mediumSquareAt3X.jpg",
         "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3599x2399+0+0/resize/3599x2399!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F0e%2F00%2F8bdf254b4a1089592ab211f30cf5%2Fap26324673842521.jpg",
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-15T172830Z_829640780_RC2EOOAJEQPS_RTRMADP_3_USA-TRUMP-2-1200x800.jpg",
         "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/21/51a0968f-83e8-4f80-a20e-ab205a8cff26/thumbnail/1200x630/e389042c61d9f0e67a780c899b09dde8/ap26323678599076.jpg",
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T175659Z_216000440_RC2TROA2LBVM_RTRMADP_3_USA-TRUMP-1-1200x800.jpg"
       ],
       "evidence": [
-        {
-          "title": "Fact-Checking Stephen Miller, the New White House Chief of Staff",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-22T10:02:17.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/22/us/politics/stephen-miller-fact-check.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/dc-factcheck-jzfv/dc-factcheck-jzfv-mediumSquareAt3X.jpg"
-        },
         {
           "title": "Trump orders federal contractors to check with White House before responding to Congress",
           "source": "NPR Politics",
@@ -86,9 +77,9 @@
       "path": "/us/entity/trump-s-new-executive-order-tells-federal-contractors-to-check-with-white-house/"
     },
     {
-      "id": "now-cluster-united states-south + korea",
-      "title": "South Korea’s Education Minister Resigns Over Anti-A.I. Cheating Rules",
-      "brief": "South Korea’s Education Minister Resigns Over Anti-A.I. Cheating Rules.",
+      "id": "now-cluster-united states-best + ever",
+      "title": "The best thing I ever ate? Lunch on the strait of Hormuz",
+      "brief": "The best thing I ever ate? Lunch on the strait of Hormuz.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -97,10 +88,56 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresh",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The Guardian US",
+        "CBS News"
+      ],
+      "images": [
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/6f642d8d-a281-49af-8e39-8f6417483e55/thumbnail/1200x630/e4ef39168b9187cc5a8ff2ee8d77bd8a/ap26324612213940.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "The best thing I ever ate? Lunch on the strait of Hormuz",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-22T11:00:25.000Z",
+          "sourceUrl": "https://www.theguardian.com/food/2026/nov/22/best-thing-i-ever-ate-lunch-strait-of-hormuz-iran-yasmin-khan?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Athlete swims Strait of Hormuz to raise awareness of Iran war's toll on wildlife",
+          "source": "CBS News",
+          "publishedAt": "2026-11-22T01:30:53.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/athlete-swims-strait-of-hormuz-iran-war-wildlife/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/6f642d8d-a281-49af-8e39-8f6417483e55/thumbnail/1200x630/e4ef39168b9187cc5a8ff2ee8d77bd8a/ap26324612213940.jpg"
+        }
+      ],
+      "path": "/us/entity/the-best-thing-i-ever-ate-lunch-on-the-strait-of-hormuz/"
+    },
+    {
+      "id": "now-cluster-united states-south + korea",
+      "title": "South Korea’s Education Minister Resigns Over Anti-A.I. Cheating Rules",
+      "brief": "South Korea’s Education Minister Resigns Over Anti-A.I. Cheating Rules.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "3h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
@@ -144,7 +181,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "11h fresh",
+      "freshness": "12h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 64,
@@ -191,7 +228,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "11h fresh",
+      "freshness": "12h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 64,
@@ -227,53 +264,6 @@
       "path": "/us/entity/mexico-detains-top-cartel-boss-el-chapo-isidro-setting-off-a-burst-of-violence-i/"
     },
     {
-      "id": "moving-cluster-united states-airport + princeton",
-      "title": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference",
-      "brief": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "12h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "NBC News"
-      ],
-      "images": [
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/ea3a8214-910e-4204-9906-b274fd0bbfcf/thumbnail/1200x630/eae675016c1c820add4f84e3e650712f/gettyimages-2274498190.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-04/250401-princeton-university-cs-6a0257.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Princeton University student detained by ICE at Reagan Airport after conference",
-          "source": "CBS News",
-          "publishedAt": "2026-11-21T22:50:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/philadelphia/news/princeton-student-ice/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/ea3a8214-910e-4204-9906-b274fd0bbfcf/thumbnail/1200x630/eae675016c1c820add4f84e3e650712f/gettyimages-2274498190.jpg"
-        },
-        {
-          "title": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference",
-          "source": "NBC News",
-          "publishedAt": "2026-11-21T21:22:17.076Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/princeton-neuroscientist-eva-yi-xie-ice-detained-rcna610603?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-04/250401-princeton-university-cs-6a0257.jpg"
-        }
-      ],
-      "path": "/us/entity/princeton-neuroscientist-detained-by-ice-at-d-c-airport-after-leaving-conference/"
-    },
-    {
       "id": "now-cluster-united states-airport + least",
       "title": "Wash. officials condemn ICE after 2 arrested boarding flight at Seattle airport",
       "brief": "Wash. officials condemn ICE after 2 arrested boarding flight at Seattle airport.",
@@ -285,7 +275,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 60,
@@ -321,24 +311,70 @@
       "path": "/us/entity/wash-officials-condemn-ice-after-2-arrested-boarding-flight-at-seattle-airport/"
     },
     {
-      "id": "now-cluster-united states-kansas + city",
-      "title": "Kansas City Current capture first NWSL trophy in 2-1 win over Washington Spirit",
-      "brief": "Kansas City Current capture first NWSL trophy in 2-1 win over Washington Spirit.",
+      "id": "moving-cluster-united states-airport + princeton",
+      "title": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference",
+      "brief": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "13h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 59,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NBC News"
+      ],
+      "images": [
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/ea3a8214-910e-4204-9906-b274fd0bbfcf/thumbnail/1200x630/eae675016c1c820add4f84e3e650712f/gettyimages-2274498190.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-04/250401-princeton-university-cs-6a0257.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Princeton University student detained by ICE at Reagan Airport after conference",
+          "source": "CBS News",
+          "publishedAt": "2026-11-21T22:50:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/philadelphia/news/princeton-student-ice/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/ea3a8214-910e-4204-9906-b274fd0bbfcf/thumbnail/1200x630/eae675016c1c820add4f84e3e650712f/gettyimages-2274498190.jpg"
+        },
+        {
+          "title": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference",
+          "source": "NBC News",
+          "publishedAt": "2026-11-21T21:22:17.076Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/princeton-neuroscientist-eva-yi-xie-ice-detained-rcna610603?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-04/250401-princeton-university-cs-6a0257.jpg"
+        }
+      ],
+      "path": "/us/entity/princeton-neuroscientist-detained-by-ice-at-d-c-airport-after-leaving-conference/"
+    },
+    {
+      "id": "now-cluster-united states-spirit + current",
+      "title": "Champion’s corner: KC Current win first NWSL Championship with 2-1 stunner over Spirit",
+      "brief": "Champion’s corner: KC Current win first NWSL Championship with 2-1 stunner over Spirit.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 7,
+      "strength": 6,
       "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "7h fresh",
+      "itemCount": 2,
+      "freshness": "8h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 57,
+      "alertScore": 54,
       "alertTriggers": [
         "Crosses several sources",
-        "Picks up volume fast",
         "Still active"
       ],
       "isHotNews": false,
@@ -364,16 +400,9 @@
           "publishedAt": "2026-11-22T03:35:00.000Z",
           "sourceUrl": "https://www.cbsnews.com/news/nwsl-championship-kansas-city-current-washington-spirit/?utm_source=lootura.com&ref=lootura.com",
           "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f596e868-96e7-4aac-9b36-aa1044a595b3/thumbnail/1200x630/a577e6203681c45032baac9706f3a311/gettyimages-2306286625.jpg"
-        },
-        {
-          "title": "Kansas City Current, Washington Spirit players excited for NWSL final",
-          "source": "CBS News",
-          "publishedAt": "2026-11-21T16:20:47.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/kansas-city-current-washington-spirit-players-excited-for-nwsl-final/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
         }
       ],
-      "path": "/us/entity/kansas-city-current-capture-first-nwsl-trophy-in-2-1-win-over-washington-spirit/"
+      "path": "/us/entity/champion-s-corner-kc-current-win-first-nwsl-championship-with-2-1-stunner-over-s/"
     }
   ]
 }
