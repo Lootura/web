@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-22T02:00:48.420Z",
+  "updatedAt": "2026-11-22T03:00:48.046Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "355,879 links analyzed",
-  "dayScanLabel": "8,344 links scanned in 24h",
+  "ambientPulseLabel": "356,704 links analyzed",
+  "dayScanLabel": "8,331 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -25,10 +25,10 @@
     "mode": "now",
     "state": "rising",
     "stateLabel": "Rising",
-    "strength": 27,
+    "strength": 22,
     "sourceCount": 5,
     "itemCount": 5,
-    "freshness": "2h fresh",
+    "freshness": "3h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -101,10 +101,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 27,
+      "strength": 22,
       "sourceCount": 5,
       "itemCount": 5,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -174,12 +174,12 @@
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 20,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 19,
       "sourceCount": 4,
       "itemCount": 5,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -235,9 +235,9 @@
       "path": "/us/entity/trump-s-new-executive-order-tells-federal-contractors-to-check-with-white-house/"
     },
     {
-      "id": "now-cluster-united states-trump + crime",
-      "title": "FBI's national crime database targeted in hack, Trump says",
-      "brief": "FBI's national crime database targeted in hack, Trump says.",
+      "id": "now-cluster-united states-trump + national",
+      "title": "For families of the fallen, Trump's proposed arch casts a shadow over Arlington National Cemetery",
+      "brief": "For families of the fallen, Trump's proposed arch casts a shadow over Arlington National Cemetery.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -245,11 +245,11 @@
       "stateLabel": "Rising",
       "strength": 23,
       "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "2h fresh",
+      "itemCount": 4,
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 92,
+      "alertScore": 90,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -264,7 +264,8 @@
       "images": [
         "https://i.abcnewsfe.com/a/f00b342d-93ec-4ff7-939f-21f8331ca772/fbi-building-gty-lv-230124_1674604652411_hpMain_16x9.jpg?w=1600",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795305581966_wnn_jts_fbi_investigates_crime_database_breach_261121_S3_1920x1080-o9s5kc.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-09-15T155147Z_1354812507_RC2RJNAUJYY8_RTRMADP_3_USA-JUSTICE-PATEL-1200x800.jpg"
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-09-15T155147Z_1354812507_RC2RJNAUJYY8_RTRMADP_3_USA-JUSTICE-PATEL-1200x800.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26323695266441-1024x683.jpg"
       ],
       "evidence": [
         {
@@ -282,6 +283,13 @@
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795305581966_wnn_jts_fbi_investigates_crime_database_breach_261121_S3_1920x1080-o9s5kc.jpg"
         },
         {
+          "title": "For families of the fallen, Trump's proposed arch casts a shadow over Arlington National Cemetery",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-21T22:52:03.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/politics/for-families-of-the-fallen-trumps-proposed-arch-casts-a-shadow-over-arlington-national-cemetery?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26323695266441-1024x683.jpg"
+        },
+        {
           "title": "AP source: FBI investigating apparent hack of its key national criminal justice database",
           "source": "PBS NewsHour",
           "publishedAt": "2026-11-21T20:55:22.000Z",
@@ -289,24 +297,71 @@
           "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-09-15T155147Z_1354812507_RC2RJNAUJYY8_RTRMADP_3_USA-JUSTICE-PATEL-1200x800.jpg"
         }
       ],
-      "path": "/us/entity/fbi-s-national-crime-database-targeted-in-hack-trump-says/"
+      "path": "/us/entity/for-families-of-the-fallen-trump-s-proposed-arch-casts-a-shadow-over-arlington-n/"
     },
     {
-      "id": "now-cluster-united states-trump + army",
+      "id": "moving-cluster-united states-overtime + climate",
+      "title": "Climate talks in overtime as nations wrestle with response to worsening global warming",
+      "brief": "Climate talks in overtime as nations wrestle with response to worsening global warming.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "7h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 64,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The Guardian US",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://i.guim.co.uk/img/media/e77ce2c4221d9b8e5f5d098b1cd4a32802931e6a/0_0_5594_4477/master/5594.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2913dcf655704788eaff841f0c1067b5",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T185729Z_241194309_RC2UROAOPRGY_RTRMADP_3_CLIMATE-COP31-1024x683.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Climate talks stall as countries mull showdown with Saudi Arabia over fossil fuel phaseout",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-21T19:43:52.000Z",
+          "sourceUrl": "https://www.theguardian.com/environment/2026/nov/21/climate-talks-stall-countries-mull-showdown-saudi-arabia-over-fossil-fuels?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/e77ce2c4221d9b8e5f5d098b1cd4a32802931e6a/0_0_5594_4477/master/5594.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2913dcf655704788eaff841f0c1067b5"
+        },
+        {
+          "title": "Climate talks in overtime as nations wrestle with response to worsening global warming",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-21T17:03:39.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/world/climate-talks-in-overtime-as-nations-wrestle-with-response-to-worsening-global-warming?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T185729Z_241194309_RC2UROAOPRGY_RTRMADP_3_CLIMATE-COP31-1024x683.jpg"
+        }
+      ],
+      "path": "/us/entity/climate-talks-in-overtime-as-nations-wrestle-with-response-to-worsening-global-w/"
+    },
+    {
+      "id": "now-cluster-united states-army + lead",
       "title": "Why the Army says it needs to detonate unstable, lead-filled explosives in Iowa and what's at risk",
       "brief": "Why the Army says it needs to detonate unstable, lead-filled explosives in Iowa and what's at risk.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 10,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 73,
+      "alertScore": 63,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -319,8 +374,7 @@
       ],
       "images": [
         "https://static01.nyt.com/images/2026/11/21/multimedia/00CLI-IOWA-BLAST-ALTERNATIVE-wbmg/00CLI-IOWA-BLAST-ALTERNATIVE-wbmg-mediumSquareAt3X-v2.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/a79a9150-aa6c-4e96-bd3b-b58abff5e64a/thumbnail/1200x630/5babee0aa9ef978b2cd957afe4739a3d/cbsn-fusion-the-us-wants-to-detonate-unstable-explosives-in-iowa-that-could-affect-thousands-of-americans-thumbnail.jpg",
-        "https://static01.nyt.com/images/2026/11/20/multimedia/20CLI-LEAD-IOWA-01-jwfz/20CLI-LEAD-IOWA-01-jwfz-mediumSquareAt3X.jpg"
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/a79a9150-aa6c-4e96-bd3b-b58abff5e64a/thumbnail/1200x630/5babee0aa9ef978b2cd957afe4739a3d/cbsn-fusion-the-us-wants-to-detonate-unstable-explosives-in-iowa-that-could-affect-thousands-of-americans-thumbnail.jpg"
       ],
       "evidence": [
         {
@@ -331,18 +385,18 @@
           "image": "https://static01.nyt.com/images/2026/11/21/multimedia/00CLI-IOWA-BLAST-ALTERNATIVE-wbmg/00CLI-IOWA-BLAST-ALTERNATIVE-wbmg-mediumSquareAt3X-v2.jpg"
         },
         {
+          "title": "Iowans worry a temporarily halted Army explosion could spread lead, other toxic chemicals",
+          "source": "CBS News",
+          "publishedAt": "2026-11-21T15:40:59.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/iowans-worry-a-temporarily-halted-army-explosion-could-spread-lead-other-toxic-chemicals/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
           "title": "Why the Army says it needs to detonate unstable, lead-filled explosives in Iowa and what's at risk",
           "source": "CBS News",
           "publishedAt": "2026-11-21T12:00:15.000Z",
           "sourceUrl": "https://www.cbsnews.com/news/lead-azide-detonation-iowa-army-explosives/?utm_source=lootura.com&ref=lootura.com",
           "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/a79a9150-aa6c-4e96-bd3b-b58abff5e64a/thumbnail/1200x630/5babee0aa9ef978b2cd957afe4739a3d/cbsn-fusion-the-us-wants-to-detonate-unstable-explosives-in-iowa-that-could-affect-thousands-of-americans-thumbnail.jpg"
-        },
-        {
-          "title": "Trump Administration Says Army Can Blow Up Lead-Laced Explosives",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-21T02:52:50.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/20/climate/iowa-lead-plume-ammunition-explosion.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20CLI-LEAD-IOWA-01-jwfz/20CLI-LEAD-IOWA-01-jwfz-mediumSquareAt3X.jpg"
         }
       ],
       "path": "/us/entity/why-the-army-says-it-needs-to-detonate-unstable-lead-filled-explosives-in-iowa-a/"
@@ -354,15 +408,15 @@
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 70,
+      "alertScore": 60,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
@@ -395,100 +449,6 @@
       "path": "/us/entity/princeton-university-student-detained-by-ice-at-reagan-airport-after-conference/"
     },
     {
-      "id": "moving-cluster-united states-climate + talks",
-      "title": "Climate talks stall as countries mull showdown with Saudi Arabia over fossil fuel phaseout",
-      "brief": "Climate talks stall as countries mull showdown with Saudi Arabia over fossil fuel phaseout.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "6h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The Guardian US",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://i.guim.co.uk/img/media/e77ce2c4221d9b8e5f5d098b1cd4a32802931e6a/0_0_5594_4477/master/5594.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2913dcf655704788eaff841f0c1067b5",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T185729Z_241194309_RC2UROAOPRGY_RTRMADP_3_CLIMATE-COP31-1024x683.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Climate talks stall as countries mull showdown with Saudi Arabia over fossil fuel phaseout",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-21T19:43:52.000Z",
-          "sourceUrl": "https://www.theguardian.com/environment/2026/nov/21/climate-talks-stall-countries-mull-showdown-saudi-arabia-over-fossil-fuels?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/e77ce2c4221d9b8e5f5d098b1cd4a32802931e6a/0_0_5594_4477/master/5594.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2913dcf655704788eaff841f0c1067b5"
-        },
-        {
-          "title": "Climate talks in overtime as nations wrestle with response to worsening global warming",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-21T17:03:39.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/world/climate-talks-in-overtime-as-nations-wrestle-with-response-to-worsening-global-warming?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T185729Z_241194309_RC2UROAOPRGY_RTRMADP_3_CLIMATE-COP31-1024x683.jpg"
-        }
-      ],
-      "path": "/us/entity/climate-talks-stall-as-countries-mull-showdown-with-saudi-arabia-over-fossil-fue/"
-    },
-    {
-      "id": "moving-cluster-united states-black + friday",
-      "title": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
-      "brief": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "10h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The Verge",
-        "NBC News"
-      ],
-      "images": [
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268832_Amazon_Alexa_Frame_JTuohy_0011.jpg?quality=90&strip=all&crop=0,0,100,100",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261120-airpod-pro-3-lf-main-cdade2.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
-          "source": "The Verge",
-          "publishedAt": "2026-11-21T16:00:00.000Z",
-          "sourceUrl": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268832_Amazon_Alexa_Frame_JTuohy_0011.jpg?quality=90&strip=all&crop=0,0,100,100"
-        },
-        {
-          "title": "This AirPods Pro 3 deal is the one to grab before Black Friday",
-          "source": "NBC News",
-          "publishedAt": "2026-11-21T12:00:00.000Z",
-          "sourceUrl": "https://www.nbcnews.com/select/shopping/apple-airpods-pro-3-deal-of-the-day-rcna610526?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261120-airpod-pro-3-lf-main-cdade2.jpg"
-        }
-      ],
-      "path": "/us/entity/amazon-s-first-digital-photo-frame-is-up-to-50-percent-off-for-black-friday/"
-    },
-    {
       "id": "moving-cluster-united states-denmark + accuses",
       "title": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil",
       "brief": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil.",
@@ -500,7 +460,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "13h fresh",
+      "freshness": "14h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 59,

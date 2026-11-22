@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-22T02:00:48.420Z",
+  "updatedAt": "2026-11-22T03:00:48.046Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "282.029 enlaces analizados",
+  "ambientPulseLabel": "282.449 enlaces analizados",
   "dayScanLabel": "4.183 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
@@ -30,7 +30,7 @@
       "strength": 17,
       "sourceCount": 3,
       "itemCount": 5,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 84,
@@ -91,7 +91,7 @@
       "path": "/es/entity/a-alcaraz-le-basta-con-una-pierna-remonta-lesionado-ante-shelton-y-alcanza-la-fi/"
     },
     {
-      "id": "now-cluster-españa-ante + sanchez",
+      "id": "now-cluster-españa-sanchez + ante",
       "title": "El PSE-EE defiende el «respeto al autogobierno» de Sánchez ante los «recortes y retrocesos» de PP y Vox",
       "brief": "El PSE-EE defiende el «respeto al autogobierno» de Sánchez ante los «recortes y retrocesos» de PP y Vox.",
       "whyItMatters": "",
@@ -99,10 +99,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 11,
       "sourceCount": 2,
       "itemCount": 5,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 81,
@@ -118,6 +118,7 @@
       ],
       "images": [
         "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/21/137720806-RjYPAkMBwog4R41S5RFjFFO-1200x840@Diario%20Vasco.JPG",
+        "https://s3.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/21/dentro_1200x840OK.png",
         "https://s1.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/21/esteban-guernica-RZQIjMapmY9cW59X85TYI9N-1200x840@El%20Correo.jpg",
         "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/21/REPARTO%20ZUMARRAGA-RoGaJPTXnZi45XAKVTXkfXN-1200x840@Diario%20Vasco.jpg"
       ],
@@ -141,7 +142,7 @@
           "source": "El Diario Vasco",
           "publishedAt": "2026-11-21T23:03:06.000Z",
           "sourceUrl": "https://www.diariovasco.com/politica/sanchez-recorta-distancias-feijoo-gracias-apoyo-mantiene-20261122000306-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/21/dentro_1200x840OK.png"
         },
         {
           "title": "El PSE-EE defiende el «respeto al autogobierno» de Sánchez ante los «recortes y retrocesos» de PP y Vox",
@@ -161,21 +162,67 @@
       "path": "/es/entity/el-pse-ee-defiende-el-respeto-al-autogobierno-de-sanchez-ante-los-recortes-y-ret/"
     },
     {
+      "id": "moving-cluster-españa-sanchez + tenemos",
+      "title": "Sánchez reivindica su Gobierno y carga contra PP y Vox: «No tenemos dos derechas, tenemos una única involución»",
+      "brief": "Sánchez reivindica su Gobierno y carga contra PP y Vox: «No tenemos dos derechas, tenemos una única involución».",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "11h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 64,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El Correo"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952779798523.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El núcleo duro del primer Gobierno de Felipe González pide el voto para Pedro Sánchez frente a \"la involución\" de PP y Vox",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-21T16:20:25.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/21/6b01c46de9cf4ada758b4575.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952779798523.jpg"
+        },
+        {
+          "title": "Sánchez reivindica su Gobierno y carga contra PP y Vox: «No tenemos dos derechas, tenemos una única involución»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-21T13:58:38.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/sanchez-reivindica-gobierno-carga-pp-vox-dos-20261121145837-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/sanchez-reivindica-su-gobierno-y-carga-contra-pp-y-vox-no-tenemos-dos-derechas-t/"
+    },
+    {
       "id": "now-cluster-españa-ante + real",
       "title": "El espíritu de Espí, al estilo Nadal y al estilo Madrid, completa ante el Celta otra angustiosa remontada",
       "brief": "El espíritu de Espí, al estilo Nadal y al estilo Madrid, completa ante el Celta otra angustiosa remontada.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 10,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 73,
+      "alertScore": 63,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -217,52 +264,6 @@
       "path": "/es/entity/el-espiritu-de-espi-al-estilo-nadal-y-al-estilo-madrid-completa-ante-el-celta-ot/"
     },
     {
-      "id": "moving-cluster-españa-sanchez + voto",
-      "title": "El núcleo duro del primer Gobierno de Felipe González pide el voto para Pedro Sánchez frente a \"la involución\" de PP y Vox",
-      "brief": "El núcleo duro del primer Gobierno de Felipe González pide el voto para Pedro Sánchez frente a \"la involución\" de PP y Vox.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "10h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952779798523.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El núcleo duro del primer Gobierno de Felipe González pide el voto para Pedro Sánchez frente a \"la involución\" de PP y Vox",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-21T16:20:25.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/21/6b01c46de9cf4ada758b4575.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/21/17952779798523.jpg"
-        },
-        {
-          "title": "Sánchez reivindica su Gobierno y carga contra PP y Vox: «No tenemos dos derechas, tenemos una única involución»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-21T13:58:38.000Z",
-          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/sanchez-reivindica-gobierno-carga-pp-vox-dos-20261121145837-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/el-nucleo-duro-del-primer-gobierno-de-felipe-gonzalez-pide-el-voto-para-pedro-sa/"
-    },
-    {
       "id": "now-cluster-españa-paolo + bulgari",
       "title": "Muere Paolo Bulgari, el joyero que llevó el lujo italiano al mundo, a los 89 años",
       "brief": "Muere Paolo Bulgari, el joyero que llevó el lujo italiano al mundo, a los 89 años.",
@@ -274,7 +275,7 @@
       "strength": 13,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "9h fresca",
+      "freshness": "10h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 62,
