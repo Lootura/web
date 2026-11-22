@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-22T03:00:48.046Z",
+  "updatedAt": "2026-11-22T04:00:48.157Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "356,704 links analyzed",
-  "dayScanLabel": "8,331 links scanned in 24h",
+  "ambientPulseLabel": "357,538 links analyzed",
+  "dayScanLabel": "8,329 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -23,12 +23,12 @@
     "whyItMatters": "",
     "verdict": "If it repeats in the next run, it gains weight.",
     "mode": "now",
-    "state": "rising",
-    "stateLabel": "Rising",
-    "strength": 22,
+    "state": "active",
+    "stateLabel": "Active",
+    "strength": 21,
     "sourceCount": 5,
     "itemCount": 5,
-    "freshness": "3h fresh",
+    "freshness": "4h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -99,12 +99,12 @@
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 22,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 21,
       "sourceCount": 5,
       "itemCount": 5,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -179,7 +179,7 @@
       "strength": 19,
       "sourceCount": 4,
       "itemCount": 5,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -235,21 +235,21 @@
       "path": "/us/entity/trump-s-new-executive-order-tells-federal-contractors-to-check-with-white-house/"
     },
     {
-      "id": "now-cluster-united states-trump + national",
-      "title": "For families of the fallen, Trump's proposed arch casts a shadow over Arlington National Cemetery",
-      "brief": "For families of the fallen, Trump's proposed arch casts a shadow over Arlington National Cemetery.",
+      "id": "now-cluster-united states-trump + database",
+      "title": "FBI's national crime database targeted in hack, Trump says",
+      "brief": "FBI's national crime database targeted in hack, Trump says.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 23,
+      "strength": 16,
       "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "3h fresh",
+      "itemCount": 3,
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 90,
+      "alertScore": 86,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -264,8 +264,7 @@
       "images": [
         "https://i.abcnewsfe.com/a/f00b342d-93ec-4ff7-939f-21f8331ca772/fbi-building-gty-lv-230124_1674604652411_hpMain_16x9.jpg?w=1600",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795305581966_wnn_jts_fbi_investigates_crime_database_breach_261121_S3_1920x1080-o9s5kc.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-09-15T155147Z_1354812507_RC2RJNAUJYY8_RTRMADP_3_USA-JUSTICE-PATEL-1200x800.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26323695266441-1024x683.jpg"
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-09-15T155147Z_1354812507_RC2RJNAUJYY8_RTRMADP_3_USA-JUSTICE-PATEL-1200x800.jpg"
       ],
       "evidence": [
         {
@@ -283,13 +282,6 @@
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795305581966_wnn_jts_fbi_investigates_crime_database_breach_261121_S3_1920x1080-o9s5kc.jpg"
         },
         {
-          "title": "For families of the fallen, Trump's proposed arch casts a shadow over Arlington National Cemetery",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-21T22:52:03.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/politics/for-families-of-the-fallen-trumps-proposed-arch-casts-a-shadow-over-arlington-national-cemetery?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26323695266441-1024x683.jpg"
-        },
-        {
           "title": "AP source: FBI investigating apparent hack of its key national criminal justice database",
           "source": "PBS NewsHour",
           "publishedAt": "2026-11-21T20:55:22.000Z",
@@ -297,54 +289,101 @@
           "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-09-15T155147Z_1354812507_RC2RJNAUJYY8_RTRMADP_3_USA-JUSTICE-PATEL-1200x800.jpg"
         }
       ],
-      "path": "/us/entity/for-families-of-the-fallen-trump-s-proposed-arch-casts-a-shadow-over-arlington-n/"
+      "path": "/us/entity/fbi-s-national-crime-database-targeted-in-hack-trump-says/"
     },
     {
-      "id": "moving-cluster-united states-overtime + climate",
-      "title": "Climate talks in overtime as nations wrestle with response to worsening global warming",
-      "brief": "Climate talks in overtime as nations wrestle with response to worsening global warming.",
+      "id": "now-cluster-united states-airport + least",
+      "title": "Wash. officials condemn ICE after 2 arrested boarding flight at Seattle airport",
+      "brief": "Wash. officials condemn ICE after 2 arrested boarding flight at Seattle airport.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 7,
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresh",
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 64,
+      "alertScore": 76,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
       ],
       "isHotNews": false,
       "sources": [
-        "The Guardian US",
-        "PBS NewsHour"
+        "ABC News",
+        "CBS News"
       ],
       "images": [
-        "https://i.guim.co.uk/img/media/e77ce2c4221d9b8e5f5d098b1cd4a32802931e6a/0_0_5594_4477/master/5594.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2913dcf655704788eaff841f0c1067b5",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T185729Z_241194309_RC2UROAOPRGY_RTRMADP_3_CLIMATE-COP31-1024x683.jpg"
+        "https://s.abcnews.com/images/US/sea-tac-airport-2_1795310671098_hpMain_4x3t_384.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/3a21ffe4-5d69-4a6e-8269-e58dcf41fb97/thumbnail/1200x630/2f7e4b1b76e50db5af7676e06647cccc/ap26325789842711.jpg"
       ],
       "evidence": [
         {
-          "title": "Climate talks stall as countries mull showdown with Saudi Arabia over fossil fuel phaseout",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-21T19:43:52.000Z",
-          "sourceUrl": "https://www.theguardian.com/environment/2026/nov/21/climate-talks-stall-countries-mull-showdown-saudi-arabia-over-fossil-fuels?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/e77ce2c4221d9b8e5f5d098b1cd4a32802931e6a/0_0_5594_4477/master/5594.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2913dcf655704788eaff841f0c1067b5"
+          "title": "Wash. officials condemn ICE after 2 arrested boarding flight at Seattle airport",
+          "source": "ABC News",
+          "publishedAt": "2026-11-22T03:25:52.000Z",
+          "sourceUrl": "https://abcnews.com/US/washington-state-officials-condemn-ice-after-2-arrested/story?id=138349974&utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s.abcnews.com/images/US/sea-tac-airport-2_1795310671098_hpMain_4x3t_384.jpg"
         },
         {
-          "title": "Climate talks in overtime as nations wrestle with response to worsening global warming",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-21T17:03:39.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/world/climate-talks-in-overtime-as-nations-wrestle-with-response-to-worsening-global-warming?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T185729Z_241194309_RC2UROAOPRGY_RTRMADP_3_CLIMATE-COP31-1024x683.jpg"
+          "title": "ICE officers arrest at least 1 passenger boarding Alaska Airlines flight in Seattle",
+          "source": "CBS News",
+          "publishedAt": "2026-11-22T00:37:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/3a21ffe4-5d69-4a6e-8269-e58dcf41fb97/thumbnail/1200x630/2f7e4b1b76e50db5af7676e06647cccc/ap26325789842711.jpg"
         }
       ],
-      "path": "/us/entity/climate-talks-in-overtime-as-nations-wrestle-with-response-to-worsening-global-w/"
+      "path": "/us/entity/wash-officials-condemn-ice-after-2-arrested-boarding-flight-at-seattle-airport/"
+    },
+    {
+      "id": "moving-cluster-united states-airport + princeton",
+      "title": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference",
+      "brief": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "5h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NBC News"
+      ],
+      "images": [
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/ea3a8214-910e-4204-9906-b274fd0bbfcf/thumbnail/1200x630/eae675016c1c820add4f84e3e650712f/gettyimages-2274498190.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-04/250401-princeton-university-cs-6a0257.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Princeton University student detained by ICE at Reagan Airport after conference",
+          "source": "CBS News",
+          "publishedAt": "2026-11-21T22:50:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/philadelphia/news/princeton-student-ice/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/ea3a8214-910e-4204-9906-b274fd0bbfcf/thumbnail/1200x630/eae675016c1c820add4f84e3e650712f/gettyimages-2274498190.jpg"
+        },
+        {
+          "title": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference",
+          "source": "NBC News",
+          "publishedAt": "2026-11-21T21:22:17.076Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/princeton-neuroscientist-eva-yi-xie-ice-detained-rcna610603?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-04/250401-princeton-university-cs-6a0257.jpg"
+        }
+      ],
+      "path": "/us/entity/princeton-neuroscientist-detained-by-ice-at-d-c-airport-after-leaving-conference/"
     },
     {
       "id": "now-cluster-united states-army + lead",
@@ -358,7 +397,7 @@
       "strength": 9,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 63,
@@ -402,53 +441,6 @@
       "path": "/us/entity/why-the-army-says-it-needs-to-detonate-unstable-lead-filled-explosives-in-iowa-a/"
     },
     {
-      "id": "now-cluster-united states-princeton + student",
-      "title": "Princeton University student detained by ICE at Reagan Airport after conference",
-      "brief": "Princeton University student detained by ICE at Reagan Airport after conference.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 60,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "NBC News"
-      ],
-      "images": [
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/ea3a8214-910e-4204-9906-b274fd0bbfcf/thumbnail/1200x630/eae675016c1c820add4f84e3e650712f/gettyimages-2274498190.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-04/250401-princeton-university-cs-6a0257.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Princeton University student detained by ICE at Reagan Airport after conference",
-          "source": "CBS News",
-          "publishedAt": "2026-11-21T22:50:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/philadelphia/news/princeton-student-ice/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/ea3a8214-910e-4204-9906-b274fd0bbfcf/thumbnail/1200x630/eae675016c1c820add4f84e3e650712f/gettyimages-2274498190.jpg"
-        },
-        {
-          "title": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference",
-          "source": "NBC News",
-          "publishedAt": "2026-11-21T21:22:17.076Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/princeton-neuroscientist-eva-yi-xie-ice-detained-rcna610603?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-04/250401-princeton-university-cs-6a0257.jpg"
-        }
-      ],
-      "path": "/us/entity/princeton-university-student-detained-by-ice-at-reagan-airport-after-conference/"
-    },
-    {
       "id": "moving-cluster-united states-denmark + accuses",
       "title": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil",
       "brief": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil.",
@@ -460,7 +452,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "14h fresh",
+      "freshness": "15h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 59,
