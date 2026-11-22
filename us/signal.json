@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-22T04:00:48.157Z",
+  "updatedAt": "2026-11-22T05:00:48.225Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "357,538 links analyzed",
-  "dayScanLabel": "8,329 links scanned in 24h",
+  "ambientPulseLabel": "358,373 links analyzed",
+  "dayScanLabel": "8,328 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -25,10 +25,10 @@
     "mode": "now",
     "state": "active",
     "stateLabel": "Active",
-    "strength": 21,
+    "strength": 20,
     "sourceCount": 5,
     "itemCount": 5,
-    "freshness": "4h fresh",
+    "freshness": "5h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -101,10 +101,10 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 21,
+      "strength": 20,
       "sourceCount": 5,
       "itemCount": 5,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -176,13 +176,13 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 19,
-      "sourceCount": 4,
-      "itemCount": 5,
-      "freshness": "5h fresh",
+      "strength": 15,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 99,
+      "alertScore": 90,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -191,13 +191,11 @@
       "isHotNews": false,
       "sources": [
         "NPR Politics",
-        "ABC News",
         "PBS NewsHour",
         "CBS News"
       ],
       "images": [
         "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3599x2399+0+0/resize/3599x2399!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F0e%2F00%2F8bdf254b4a1089592ab211f30cf5%2Fap26324673842521.jpg",
-        "https://i.abcnewsfe.com/a/8697f964-7304-4346-b739-6b826efb69fb/trump-ballroom-ap-jt-261121_1795278166444_hpMain_16x9.jpg?w=1600",
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-15T172830Z_829640780_RC2EOOAJEQPS_RTRMADP_3_USA-TRUMP-2-1200x800.jpg",
         "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/21/51a0968f-83e8-4f80-a20e-ab205a8cff26/thumbnail/1200x630/e389042c61d9f0e67a780c899b09dde8/ap26323678599076.jpg",
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T175659Z_216000440_RC2TROA2LBVM_RTRMADP_3_USA-TRUMP-1-1200x800.jpg"
@@ -209,13 +207,6 @@
           "publishedAt": "2026-11-21T22:40:36.000Z",
           "sourceUrl": "https://www.npr.org/2026/11/21/g-s1-154966/trump-contractors-congress?utm_source=lootura.com&ref=lootura.com",
           "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3599x2399+0+0/resize/3599x2399!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F0e%2F00%2F8bdf254b4a1089592ab211f30cf5%2Fap26324673842521.jpg"
-        },
-        {
-          "title": "Trump orders federal contractors to coordinate with White House on congressional inquiries",
-          "source": "ABC News",
-          "publishedAt": "2026-11-21T20:18:57.000Z",
-          "sourceUrl": "https://abcnews.com/Politics/trump-orders-federal-contractors-coordinate-white-house-congressional/story?id=138344717&utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.abcnewsfe.com/a/8697f964-7304-4346-b739-6b826efb69fb/trump-ballroom-ap-jt-261121_1795278166444_hpMain_16x9.jpg?w=1600"
         },
         {
           "title": "Trump's new executive order tells federal contractors to check with White House before responding to Congress",
@@ -235,21 +226,76 @@
       "path": "/us/entity/trump-s-new-executive-order-tells-federal-contractors-to-check-with-white-house/"
     },
     {
-      "id": "now-cluster-united states-trump + database",
-      "title": "FBI's national crime database targeted in hack, Trump says",
-      "brief": "FBI's national crime database targeted in hack, Trump says.",
+      "id": "now-cluster-united states-kansas + city",
+      "title": "Kansas City Current capture first NWSL trophy in 2-1 win over Washington Spirit",
+      "brief": "Kansas City Current capture first NWSL trophy in 2-1 win over Washington Spirit.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 16,
-      "sourceCount": 3,
+      "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "4h fresh",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 86,
+      "alertScore": 79,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The Guardian US",
+        "CBS News"
+      ],
+      "images": [
+        "https://i.guim.co.uk/img/media/546fafdee8a7c55af0f3197c68e9e63455348a3f/311_0_4057_3247/master/4057.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0702a1bb3537b4ac49bf54ec05a49660",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f596e868-96e7-4aac-9b36-aa1044a595b3/thumbnail/1200x630/a577e6203681c45032baac9706f3a311/gettyimages-2306286625.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Champion’s corner: KC Current win first NWSL Championship with 2-1 stunner over Spirit",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-22T03:55:43.000Z",
+          "sourceUrl": "https://www.theguardian.com/football/2026/nov/21/nwsl-championship-washington-spirit-kansas-city-current?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/546fafdee8a7c55af0f3197c68e9e63455348a3f/311_0_4057_3247/master/4057.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0702a1bb3537b4ac49bf54ec05a49660"
+        },
+        {
+          "title": "Kansas City Current capture first NWSL trophy in 2-1 win over Washington Spirit",
+          "source": "CBS News",
+          "publishedAt": "2026-11-22T03:35:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/nwsl-championship-kansas-city-current-washington-spirit/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f596e868-96e7-4aac-9b36-aa1044a595b3/thumbnail/1200x630/a577e6203681c45032baac9706f3a311/gettyimages-2306286625.jpg"
+        },
+        {
+          "title": "Kansas City Current, Washington Spirit players excited for NWSL final",
+          "source": "CBS News",
+          "publishedAt": "2026-11-21T16:20:47.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/kansas-city-current-washington-spirit-players-excited-for-nwsl-final/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/us/entity/kansas-city-current-capture-first-nwsl-trophy-in-2-1-win-over-washington-spirit/"
+    },
+    {
+      "id": "now-cluster-united states-trump + database",
+      "title": "FBI's national crime database targeted in hack, Trump says",
+      "brief": "FBI's national crime database targeted in hack, Trump says.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 16,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "5h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -324,7 +370,7 @@
         {
           "title": "Wash. officials condemn ICE after 2 arrested boarding flight at Seattle airport",
           "source": "ABC News",
-          "publishedAt": "2026-11-22T03:25:52.000Z",
+          "publishedAt": "2026-11-22T04:36:59.000Z",
           "sourceUrl": "https://abcnews.com/US/washington-state-officials-condemn-ice-after-2-arrested/story?id=138349974&utm_source=lootura.com&ref=lootura.com",
           "image": "https://s.abcnews.com/images/US/sea-tac-airport-2_1795310671098_hpMain_4x3t_384.jpg"
         },
@@ -339,9 +385,9 @@
       "path": "/us/entity/wash-officials-condemn-ice-after-2-arrested-boarding-flight-at-seattle-airport/"
     },
     {
-      "id": "moving-cluster-united states-airport + princeton",
-      "title": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference",
-      "brief": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference.",
+      "id": "moving-cluster-united states-army + lead",
+      "title": "Why the Army says it needs to detonate unstable, lead-filled explosives in Iowa and what's at risk",
+      "brief": "Why the Army says it needs to detonate unstable, lead-filled explosives in Iowa and what's at risk.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
@@ -349,58 +395,11 @@
       "stateLabel": "Active",
       "strength": 8,
       "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "NBC News"
-      ],
-      "images": [
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/ea3a8214-910e-4204-9906-b274fd0bbfcf/thumbnail/1200x630/eae675016c1c820add4f84e3e650712f/gettyimages-2274498190.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-04/250401-princeton-university-cs-6a0257.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Princeton University student detained by ICE at Reagan Airport after conference",
-          "source": "CBS News",
-          "publishedAt": "2026-11-21T22:50:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/philadelphia/news/princeton-student-ice/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/ea3a8214-910e-4204-9906-b274fd0bbfcf/thumbnail/1200x630/eae675016c1c820add4f84e3e650712f/gettyimages-2274498190.jpg"
-        },
-        {
-          "title": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference",
-          "source": "NBC News",
-          "publishedAt": "2026-11-21T21:22:17.076Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/princeton-neuroscientist-eva-yi-xie-ice-detained-rcna610603?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-04/250401-princeton-university-cs-6a0257.jpg"
-        }
-      ],
-      "path": "/us/entity/princeton-neuroscientist-detained-by-ice-at-d-c-airport-after-leaving-conference/"
-    },
-    {
-      "id": "now-cluster-united states-army + lead",
-      "title": "Why the Army says it needs to detonate unstable, lead-filled explosives in Iowa and what's at risk",
-      "brief": "Why the Army says it needs to detonate unstable, lead-filled explosives in Iowa and what's at risk.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 9,
-      "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 63,
+      "alertScore": 73,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -441,21 +440,21 @@
       "path": "/us/entity/why-the-army-says-it-needs-to-detonate-unstable-lead-filled-explosives-in-iowa-a/"
     },
     {
-      "id": "moving-cluster-united states-denmark + accuses",
-      "title": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil",
-      "brief": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil.",
+      "id": "moving-cluster-united states-airport + princeton",
+      "title": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference",
+      "brief": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 5,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "15h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 59,
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
@@ -466,26 +465,26 @@
         "NBC News"
       ],
       "images": [
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/03/19/577389c9-a673-46e9-b352-43f0d769b2ca/thumbnail/1200x630/c5531d6f436c9618e054cce79b052d26/gettyimages-2265438566.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261121-denmark-nd-a842f4.jpg"
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/ea3a8214-910e-4204-9906-b274fd0bbfcf/thumbnail/1200x630/eae675016c1c820add4f84e3e650712f/gettyimages-2274498190.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-04/250401-princeton-university-cs-6a0257.jpg"
       ],
       "evidence": [
         {
-          "title": "Denmark accuses Russia of assassination plot against U.S.-Ukrainian citizen on its soil",
+          "title": "Princeton University student detained by ICE at Reagan Airport after conference",
           "source": "CBS News",
-          "publishedAt": "2026-11-21T13:21:35.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/denmark-accuses-russia-assassination-plot-against-us-ukrainian-citizen/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/03/19/577389c9-a673-46e9-b352-43f0d769b2ca/thumbnail/1200x630/c5531d6f436c9618e054cce79b052d26/gettyimages-2265438566.jpg"
+          "publishedAt": "2026-11-21T22:50:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/philadelphia/news/princeton-student-ice/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/ea3a8214-910e-4204-9906-b274fd0bbfcf/thumbnail/1200x630/eae675016c1c820add4f84e3e650712f/gettyimages-2274498190.jpg"
         },
         {
-          "title": "Denmark accuses Russia of plotting to kill Ukrainian American rapper on its soil",
+          "title": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference",
           "source": "NBC News",
-          "publishedAt": "2026-11-21T10:15:12.144Z",
-          "sourceUrl": "https://www.nbcnews.com/world/europe/denmark-accuses-russia-plotting-kill-ukrainian-american-rapper-soil-rcna610542?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261121-denmark-nd-a842f4.jpg"
+          "publishedAt": "2026-11-21T21:22:17.076Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/princeton-neuroscientist-eva-yi-xie-ice-detained-rcna610603?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-04/250401-princeton-university-cs-6a0257.jpg"
         }
       ],
-      "path": "/us/entity/denmark-accuses-russia-of-assassination-plot-against-u-s-ukrainian-citizen-on-it/"
+      "path": "/us/entity/princeton-neuroscientist-detained-by-ice-at-d-c-airport-after-leaving-conference/"
     }
   ]
 }
