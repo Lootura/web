@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-22T05:00:48.225Z",
+  "updatedAt": "2026-11-22T06:00:48.141Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "358,373 links analyzed",
+  "ambientPulseLabel": "359,207 links analyzed",
   "dayScanLabel": "8,328 links scanned in 24h",
   "empty": {
     "title": "No new trends",
@@ -28,7 +28,7 @@
     "strength": 20,
     "sourceCount": 5,
     "itemCount": 5,
-    "freshness": "5h fresh",
+    "freshness": "6h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -104,7 +104,7 @@
       "strength": 20,
       "sourceCount": 5,
       "itemCount": 5,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -179,10 +179,10 @@
       "strength": 15,
       "sourceCount": 3,
       "itemCount": 4,
-      "freshness": "6h fresh",
+      "freshness": "7h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 90,
+      "alertScore": 84,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -234,10 +234,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 79,
@@ -289,10 +289,10 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -346,10 +346,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresh now",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -385,61 +385,6 @@
       "path": "/us/entity/wash-officials-condemn-ice-after-2-arrested-boarding-flight-at-seattle-airport/"
     },
     {
-      "id": "moving-cluster-united states-army + lead",
-      "title": "Why the Army says it needs to detonate unstable, lead-filled explosives in Iowa and what's at risk",
-      "brief": "Why the Army says it needs to detonate unstable, lead-filled explosives in Iowa and what's at risk.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "6h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 73,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times",
-        "CBS News"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/21/multimedia/00CLI-IOWA-BLAST-ALTERNATIVE-wbmg/00CLI-IOWA-BLAST-ALTERNATIVE-wbmg-mediumSquareAt3X-v2.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/a79a9150-aa6c-4e96-bd3b-b58abff5e64a/thumbnail/1200x630/5babee0aa9ef978b2cd957afe4739a3d/cbsn-fusion-the-us-wants-to-detonate-unstable-explosives-in-iowa-that-could-affect-thousands-of-americans-thumbnail.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "The Army Rejected a Cleaner Option to Destroy Lead-Laced Explosives in Iowa",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-21T22:57:09.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/21/climate/army-lead-azide-blast.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/21/multimedia/00CLI-IOWA-BLAST-ALTERNATIVE-wbmg/00CLI-IOWA-BLAST-ALTERNATIVE-wbmg-mediumSquareAt3X-v2.jpg"
-        },
-        {
-          "title": "Iowans worry a temporarily halted Army explosion could spread lead, other toxic chemicals",
-          "source": "CBS News",
-          "publishedAt": "2026-11-21T15:40:59.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/iowans-worry-a-temporarily-halted-army-explosion-could-spread-lead-other-toxic-chemicals/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Why the Army says it needs to detonate unstable, lead-filled explosives in Iowa and what's at risk",
-          "source": "CBS News",
-          "publishedAt": "2026-11-21T12:00:15.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/lead-azide-detonation-iowa-army-explosives/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/20/a79a9150-aa6c-4e96-bd3b-b58abff5e64a/thumbnail/1200x630/5babee0aa9ef978b2cd957afe4739a3d/cbsn-fusion-the-us-wants-to-detonate-unstable-explosives-in-iowa-that-could-affect-thousands-of-americans-thumbnail.jpg"
-        }
-      ],
-      "path": "/us/entity/why-the-army-says-it-needs-to-detonate-unstable-lead-filled-explosives-in-iowa-a/"
-    },
-    {
       "id": "moving-cluster-united states-airport + princeton",
       "title": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference",
       "brief": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference.",
@@ -451,10 +396,10 @@
       "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresh",
+      "freshness": "7h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 70,
+      "alertScore": 64,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
