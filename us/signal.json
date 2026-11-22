@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-22T13:00:48.498Z",
-  "pulseLabel": "Last analysis · 8 hours ago",
-  "ambientPulseLabel": "365,044 links analyzed",
-  "dayScanLabel": "8,340 links scanned in 24h",
+  "updatedAt": "2026-11-22T20:49:23.186Z",
+  "pulseLabel": "Last analysis · 8 minutes ago",
+  "ambientPulseLabel": "365,870 links analyzed",
+  "dayScanLabel": "8,332 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -16,23 +16,97 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": null,
+  "topAlert": {
+    "id": "now-cluster-united states-virginia + foxx",
+    "title": "Democrats clinch historic House majority as Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx",
+    "brief": "Democrats clinch historic House majority as Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx.",
+    "whyItMatters": "",
+    "verdict": "If it repeats in the next run, it gains weight.",
+    "mode": "now",
+    "state": "rising",
+    "stateLabel": "Rising",
+    "strength": 32,
+    "sourceCount": 6,
+    "itemCount": 7,
+    "freshness": "fresh now",
+    "alertLevel": "watch",
+    "alertLabel": "Watch",
+    "alertScore": 99,
+    "alertTriggers": [
+      "Crosses several sources",
+      "Picks up volume fast",
+      "Still active"
+    ],
+    "isHotNews": false,
+    "sources": [
+      "Fox News",
+      "CBS News",
+      "NBC News Politics",
+      "The Guardian US",
+      "The New York Times Politics"
+    ],
+    "images": [
+      "https://static.foxnews.com/foxnews.com/content/uploads/2024/11/house.jpg",
+      "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f3e73972-0245-46a1-a682-bf61cdff2cc0/thumbnail/1200x630g2/0b08277177f4dc52403b61287d6bdf18/gettyimages-2303723745.jpg",
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261122-Chuck-Hubbard-vsb-140-afd7b2.jpg",
+      "https://i.guim.co.uk/img/media/5f402191919a3838c9536ca633ae08dfe18991da/530_0_4817_3854/master/4817.jpg?width=140&quality=85&auto=format&fit=max&s=0dd4f5e8250545a497550708fd2cadb3",
+      "https://static01.nyt.com/images/2026/11/12/multimedia/00pol-hfo-NC-5-01-tklh/00pol-hfo-NC-5-01-tklh-mediumSquareAt3X.jpg"
+    ],
+    "evidence": [
+      {
+        "title": "Democrats clinch historic House majority as Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx",
+        "source": "Fox News",
+        "publishedAt": "2026-11-22T20:34:07.000Z",
+        "sourceUrl": "https://www.foxnews.com/politics/democrats-clinch-historic-house-majority-chuck-hubbard-defeats-longtime-gop-rep-virginia-foxx?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static.foxnews.com/foxnews.com/content/uploads/2024/11/house.jpg"
+      },
+      {
+        "title": "Democrat Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx in North Carolina House race",
+        "source": "CBS News",
+        "publishedAt": "2026-11-22T19:48:00.000Z",
+        "sourceUrl": "https://www.cbsnews.com/news/democrat-chuck-hubbard-defeats-gop-rep-virginia-foxx-north-carolina/?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f3e73972-0245-46a1-a682-bf61cdff2cc0/thumbnail/1200x630g2/0b08277177f4dc52403b61287d6bdf18/gettyimages-2303723745.jpg"
+      },
+      {
+        "title": "Democrats win largest House majority since 1992",
+        "source": "NBC News Politics",
+        "publishedAt": "2026-11-22T19:23:17.569Z",
+        "sourceUrl": "https://www.nbcnews.com/politics/congress/house-democrats-win-largest-house-majority-hubbard-north-carolina-rcna610708?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261122-Chuck-Hubbard-vsb-140-afd7b2.jpg"
+      },
+      {
+        "title": "Democrats capture at least 258 House seats in largest sweep since 1992",
+        "source": "The Guardian US",
+        "publishedAt": "2026-11-22T19:17:56.000Z",
+        "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/22/house-democrats-historic-sweep?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://i.guim.co.uk/img/media/5f402191919a3838c9536ca633ae08dfe18991da/530_0_4817_3854/master/4817.jpg?width=140&quality=85&auto=format&fit=max&s=0dd4f5e8250545a497550708fd2cadb3"
+      },
+      {
+        "title": "Democrat Chuck Hubbard Defeats 11-Term Republican Virginia Foxx in North Carolina",
+        "source": "The New York Times Politics",
+        "publishedAt": "2026-11-22T18:37:10.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/22/us/virginia-foxx-chuck-hubbard-north-carolina-house.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/12/multimedia/00pol-hfo-NC-5-01-tklh/00pol-hfo-NC-5-01-tklh-mediumSquareAt3X.jpg"
+      }
+    ],
+    "path": "/us/entity/democrats-clinch-historic-house-majority-as-chuck-hubbard-defeats-longtime-gop-r/"
+  },
   "signals": [
     {
-      "id": "now-cluster-united states-white + house",
-      "title": "Trump's new executive order tells federal contractors to check with White House before responding to Congress",
-      "brief": "Trump's new executive order tells federal contractors to check with White House before responding to Congress.",
+      "id": "now-cluster-united states-virginia + foxx",
+      "title": "Democrats clinch historic House majority as Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx",
+      "brief": "Democrats clinch historic House majority as Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 25,
-      "sourceCount": 4,
-      "itemCount": 5,
-      "freshness": "3h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
+      "strength": 32,
+      "sourceCount": 6,
+      "itemCount": 7,
+      "freshness": "fresh now",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
       "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
@@ -41,57 +115,384 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The New York Times Politics",
-        "NPR Politics",
-        "PBS NewsHour",
-        "CBS News"
+        "Fox News",
+        "CBS News",
+        "NBC News Politics",
+        "The Guardian US",
+        "The New York Times Politics"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/20/multimedia/dc-factcheck-jzfv/dc-factcheck-jzfv-mediumSquareAt3X.jpg",
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3599x2399+0+0/resize/3599x2399!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F0e%2F00%2F8bdf254b4a1089592ab211f30cf5%2Fap26324673842521.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-15T172830Z_829640780_RC2EOOAJEQPS_RTRMADP_3_USA-TRUMP-2-1200x800.jpg",
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/21/51a0968f-83e8-4f80-a20e-ab205a8cff26/thumbnail/1200x630/e389042c61d9f0e67a780c899b09dde8/ap26323678599076.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T175659Z_216000440_RC2TROA2LBVM_RTRMADP_3_USA-TRUMP-1-1200x800.jpg"
+        "https://static.foxnews.com/foxnews.com/content/uploads/2024/11/house.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f3e73972-0245-46a1-a682-bf61cdff2cc0/thumbnail/1200x630g2/0b08277177f4dc52403b61287d6bdf18/gettyimages-2303723745.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261122-Chuck-Hubbard-vsb-140-afd7b2.jpg",
+        "https://i.guim.co.uk/img/media/5f402191919a3838c9536ca633ae08dfe18991da/530_0_4817_3854/master/4817.jpg?width=140&quality=85&auto=format&fit=max&s=0dd4f5e8250545a497550708fd2cadb3",
+        "https://static01.nyt.com/images/2026/11/12/multimedia/00pol-hfo-NC-5-01-tklh/00pol-hfo-NC-5-01-tklh-mediumSquareAt3X.jpg"
       ],
       "evidence": [
         {
-          "title": "Fact-Checking Stephen Miller, the New White House Chief of Staff",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-22T10:02:17.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/22/us/politics/stephen-miller-fact-check.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/20/multimedia/dc-factcheck-jzfv/dc-factcheck-jzfv-mediumSquareAt3X.jpg"
+          "title": "Democrats clinch historic House majority as Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx",
+          "source": "Fox News",
+          "publishedAt": "2026-11-22T20:34:07.000Z",
+          "sourceUrl": "https://www.foxnews.com/politics/democrats-clinch-historic-house-majority-chuck-hubbard-defeats-longtime-gop-rep-virginia-foxx?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static.foxnews.com/foxnews.com/content/uploads/2024/11/house.jpg"
         },
         {
-          "title": "Trump orders federal contractors to check with White House before responding to Congress",
-          "source": "NPR Politics",
-          "publishedAt": "2026-11-21T22:40:36.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/21/g-s1-154966/trump-contractors-congress?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3599x2399+0+0/resize/3599x2399!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F0e%2F00%2F8bdf254b4a1089592ab211f30cf5%2Fap26324673842521.jpg"
-        },
-        {
-          "title": "Trump's new executive order tells federal contractors to check with White House before responding to Congress",
+          "title": "Democrat Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx in North Carolina House race",
           "source": "CBS News",
-          "publishedAt": "2026-11-21T18:33:46.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/trump-executive-order-federal-contractors-white-house-congress/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/21/51a0968f-83e8-4f80-a20e-ab205a8cff26/thumbnail/1200x630/e389042c61d9f0e67a780c899b09dde8/ap26323678599076.jpg"
+          "publishedAt": "2026-11-22T19:48:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/democrat-chuck-hubbard-defeats-gop-rep-virginia-foxx-north-carolina/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f3e73972-0245-46a1-a682-bf61cdff2cc0/thumbnail/1200x630g2/0b08277177f4dc52403b61287d6bdf18/gettyimages-2303723745.jpg"
         },
         {
-          "title": "Trump auditions potential successors as Rubio and Vance join him for White House briefing",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-21T17:32:04.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/politics/trump-auditions-potential-successors-as-rubio-and-vance-join-him-for-white-house-briefing?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T175659Z_216000440_RC2TROA2LBVM_RTRMADP_3_USA-TRUMP-1-1200x800.jpg"
+          "title": "Democrats win largest House majority since 1992",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-22T19:23:17.569Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/congress/house-democrats-win-largest-house-majority-hubbard-north-carolina-rcna610708?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261122-Chuck-Hubbard-vsb-140-afd7b2.jpg"
+        },
+        {
+          "title": "Democrats capture at least 258 House seats in largest sweep since 1992",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-22T19:17:56.000Z",
+          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/22/house-democrats-historic-sweep?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/5f402191919a3838c9536ca633ae08dfe18991da/530_0_4817_3854/master/4817.jpg?width=140&quality=85&auto=format&fit=max&s=0dd4f5e8250545a497550708fd2cadb3"
+        },
+        {
+          "title": "Democrat Chuck Hubbard Defeats 11-Term Republican Virginia Foxx in North Carolina",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-22T18:37:10.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/22/us/virginia-foxx-chuck-hubbard-north-carolina-house.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/00pol-hfo-NC-5-01-tklh/00pol-hfo-NC-5-01-tklh-mediumSquareAt3X.jpg"
         }
       ],
-      "path": "/us/entity/trump-s-new-executive-order-tells-federal-contractors-to-check-with-white-house/"
+      "path": "/us/entity/democrats-clinch-historic-house-majority-as-chuck-hubbard-defeats-longtime-gop-r/"
     },
     {
-      "id": "now-cluster-united states-best + ever",
-      "title": "The best thing I ever ate? Lunch on the strait of Hormuz",
-      "brief": "The best thing I ever ate? Lunch on the strait of Hormuz.",
+      "id": "moving-cluster-united states-delta + flight",
+      "title": "Equipment outage in Atlanta causes over 1,300 Delta flight delays",
+      "brief": "Equipment outage in Atlanta causes over 1,300 Delta flight delays.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "2h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "ABC News",
+        "The Verge",
+        "NBC News"
+      ],
+      "images": [
+        "https://s.abcnews.com/images/US/Delta-flight-delays-gty-bh-112226_1795370408632_hpMain_4x3t_384.jpg",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/gettyimages-2223798482.jpg?quality=90&strip=all&crop=0,0,100,100",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261122-delta-airlines-vsb-1138-0880b4.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Equipment outage in Atlanta causes over 1,300 Delta flight delays",
+          "source": "ABC News",
+          "publishedAt": "2026-11-22T19:09:54.000Z",
+          "sourceUrl": "https://abcnews.com/US/equipment-outage-atlanta-causes-1300-delta-flight-delays/story?id=138360900&utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s.abcnews.com/images/US/Delta-flight-delays-gty-bh-112226_1795370408632_hpMain_4x3t_384.jpg"
+        },
+        {
+          "title": "Delta flights in and out of Atlanta delayed due to system outage",
+          "source": "The Verge",
+          "publishedAt": "2026-11-22T17:46:44.000Z",
+          "sourceUrl": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/gettyimages-2223798482.jpg?quality=90&strip=all&crop=0,0,100,100"
+        },
+        {
+          "title": "Delta tech issue delays hundreds of flights in and out of Atlanta ahead of Thanksgiving",
+          "source": "NBC News",
+          "publishedAt": "2026-11-22T16:38:25.000Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/delta-tech-issues-thanksgiving-travel-rcna610685?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261122-delta-airlines-vsb-1138-0880b4.jpg"
+        }
+      ],
+      "path": "/us/entity/equipment-outage-in-atlanta-causes-over-1-300-delta-flight-delays/"
+    },
+    {
+      "id": "moving-cluster-united states-nvidia + chips",
+      "title": "China’s Spies Set Sights on A.I. Chips Years Before Nvidia Scandal",
+      "brief": "China’s Spies Set Sights on A.I. Chips Years Before Nvidia Scandal.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 22,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "2h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "The New York Times",
+        "The New York Times World"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/22/multimedia/22dc-nvidia-bessent-cfzt/22dc-nvidia-bessent-cfzt-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/22/multimedia/22int-china-mss-01-bjfp/22int-china-mss-01-bjfp-mediumSquareAt3X-v2.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Bessent: We \"need answers\" on Nvidia role in sending China AI chips",
+          "source": "CBS News",
+          "publishedAt": "2026-11-22T18:48:39.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/bessent-nvidia-china-ai-chips-alice-huang-canard/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-22T17:55:31.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/22/business/scott-bessent-jensen-huang-nvidia.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22dc-nvidia-bessent-cfzt/22dc-nvidia-bessent-cfzt-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "China’s Spies Set Sights on A.I. Chips Years Before Nvidia Scandal",
+          "source": "The New York Times World",
+          "publishedAt": "2026-11-22T11:03:04.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/21/world/asia/china-nvidia-spy-chips-state-security.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22int-china-mss-01-bjfp/22int-china-mss-01-bjfp-mediumSquareAt3X-v2.jpg"
+        }
+      ],
+      "path": "/us/entity/china-s-spies-set-sights-on-a-i-chips-years-before-nvidia-scandal/"
+    },
+    {
+      "id": "moving-cluster-united states-talks + climate",
+      "title": "Climate change talks fall apart in final hours over fossil fuels",
+      "brief": "Climate change talks fall apart in final hours over fossil fuels.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 22,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "2h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times World",
+        "NPR World",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/22/multimedia/22cli-cop31-final3-fmcb/22cli-cop31-final3-fmcb-mediumSquareAt3X-v2.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4074x2716+0+0/resize/4074x2716!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fc0%2F99%2F06ba60a34fb4ba38b24264298650%2Fap26326503765925-1.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T154414Z_66204843_RC23TOAEZAFR_RTRMADP_3_CLIMATE-COP31-1024x683.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels",
+          "source": "The New York Times World",
+          "publishedAt": "2026-11-22T18:20:39.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22cli-cop31-final3-fmcb/22cli-cop31-final3-fmcb-mediumSquareAt3X-v2.jpg"
+        },
+        {
+          "title": "Climate change talks fall apart in final hours over fossil fuels",
+          "source": "NPR World",
+          "publishedAt": "2026-11-22T16:33:22.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4074x2716+0+0/resize/4074x2716!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fc0%2F99%2F06ba60a34fb4ba38b24264298650%2Fap26326503765925-1.jpg"
+        },
+        {
+          "title": "UN climate talks break down over bitter disagreements on fossil fuels",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-22T16:30:17.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/world/un-climate-talks-break-down-over-bitter-disagreements-on-fossil-fuels?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T154414Z_66204843_RC23TOAEZAFR_RTRMADP_3_CLIMATE-COP31-1024x683.jpg"
+        }
+      ],
+      "path": "/us/entity/climate-change-talks-fall-apart-in-final-hours-over-fossil-fuels/"
+    },
+    {
+      "id": "now-cluster-united states-manchester + united",
+      "title": "Bruno Fernandes reveals talks over new Manchester United contract are on hold",
+      "brief": "Bruno Fernandes reveals talks over new Manchester United contract are on hold.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "Fox News",
+        "The Guardian US"
+      ],
+      "images": [
+        "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/pochettino-man-united-featured.jpg?ve=1&tl=1",
+        "https://i.guim.co.uk/img/media/eabaf0f7802df08b573f0b7df40105a767d353ce/260_0_2689_2152/master/2689.jpg?width=140&quality=85&auto=format&fit=max&s=efb2d5bc1f2e6a5c4d66ad74919ce2d6",
+        "https://i.guim.co.uk/img/media/375f706ba2be2bc2857790c27dd96da939d2dde9/320_0_4160_3328/master/4160.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=48f39f40a2f519c9a4cb49bfb17c22df"
+      ],
+      "evidence": [
+        {
+          "title": "Mauricio Pochettino's debut as Man United manager turns into historical nightmare against Liverpool",
+          "source": "Fox News",
+          "publishedAt": "2026-11-22T19:53:13.000Z",
+          "sourceUrl": "https://www.foxnews.com/outkick-sports/mauricio-pochettino-debut-man-united-manager-turns-historical-nightmare-liverpool?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/pochettino-man-united-featured.jpg?ve=1&tl=1"
+        },
+        {
+          "title": "Liverpool hand Pochettino nightmare Manchester United start after Yoro sees red",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-22T18:35:14.000Z",
+          "sourceUrl": "https://www.theguardian.com/football/2026/nov/22/liverpool-manchester-united-premier-league-match-report?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/eabaf0f7802df08b573f0b7df40105a767d353ce/260_0_2689_2152/master/2689.jpg?width=140&quality=85&auto=format&fit=max&s=efb2d5bc1f2e6a5c4d66ad74919ce2d6"
+        },
+        {
+          "title": "Bruno Fernandes reveals talks over new Manchester United contract are on hold",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-22T11:33:54.000Z",
+          "sourceUrl": "https://www.theguardian.com/football/2026/nov/22/bruno-fernandes-reveals-talks-over-new-manchester-united-contract-are-on-hold?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/375f706ba2be2bc2857790c27dd96da939d2dde9/320_0_4160_3328/master/4160.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=48f39f40a2f519c9a4cb49bfb17c22df"
+        }
+      ],
+      "path": "/us/entity/bruno-fernandes-reveals-talks-over-new-manchester-united-contract-are-on-hold/"
+    },
+    {
+      "id": "now-cluster-united states-army + iowa",
+      "title": "U.S. Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
+      "brief": "U.S. Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "PBS NewsHour",
+        "The New York Times"
+      ],
+      "images": [
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T171208Z_227238376_RC23TOAA1BK4_RTRMADP_3_IOWA-ARMY-DETONATION-1024x683.jpg",
+        "https://static01.nyt.com/images/2026/11/21/multimedia/00CLI-IOWA-BLAST-ALTERNATIVE-wbmg/00CLI-IOWA-BLAST-ALTERNATIVE-wbmg-mediumSquareAt3X-v2.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "U.S. Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-22T20:18:46.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/nation/u-s-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T171208Z_227238376_RC23TOAA1BK4_RTRMADP_3_IOWA-ARMY-DETONATION-1024x683.jpg"
+        },
+        {
+          "title": "The Army Rejected a Cleaner Option to Destroy Lead-Laced Explosives in Iowa",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-21T22:57:09.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/21/climate/army-lead-azide-blast.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/21/multimedia/00CLI-IOWA-BLAST-ALTERNATIVE-wbmg/00CLI-IOWA-BLAST-ALTERNATIVE-wbmg-mediumSquareAt3X-v2.jpg"
+        }
+      ],
+      "path": "/us/entity/u-s-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals/"
+    },
+    {
+      "id": "now-cluster-united states-delta + delays",
+      "title": "Delta Delays Flights as Thanksgiving Travel Begins, After Automated System Falters",
+      "brief": "Delta Delays Flights as Thanksgiving Travel Begins, After Automated System Falters.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times",
+        "CBS News"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/22/multimedia/22nat-delta-outage2-bzlp/22nat-delta-outage2-bzlp-mediumSquareAt3X-v4.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Delta Delays Flights as Thanksgiving Travel Begins, After Automated System Falters",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-22T19:58:11.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/22/us/delta-flight-delays-system-outage.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22nat-delta-outage2-bzlp/22nat-delta-outage2-bzlp-mediumSquareAt3X-v4.jpg"
+        },
+        {
+          "title": "Delta Air Lines hit with delays amid baggage network system issue",
+          "source": "CBS News",
+          "publishedAt": "2026-11-22T19:50:49.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/delta-air-lines-nationwide-delays-amid-baggage-network-system-issue/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/us/entity/delta-delays-flights-as-thanksgiving-travel-begins-after-automated-system-falter/"
+    },
+    {
+      "id": "moving-cluster-united states-ukrainian + russian",
+      "title": "Russian warship struck by suspected Ukrainian sea drones at Benghazi naval base, Libyan officials say",
+      "brief": "Russian warship struck by suspected Ukrainian sea drones at Benghazi naval base, Libyan officials say.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 15,
@@ -104,6 +505,182 @@
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The Guardian US",
+        "CBS News"
+      ],
+      "images": [
+        "https://i.guim.co.uk/img/media/196206fc578eb19b5303b6bfe5930996ed24961b/0_0_900_720/master/900.jpg?width=140&quality=85&auto=format&fit=max&s=4a5a7fec09c73b0d217b6d1303a01b0c",
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/22/cddcf89c-30d3-466a-aa34-bf3d623dbc48/thumbnail/1200x630/188c817cd5519ea6327fd31141954c15/2026-11-22t195244z-1832180370-rc2ysoaiuqgm-rtrmadp-3-libya-port-explosion.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-22T18:50:56.000Z",
+          "sourceUrl": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/196206fc578eb19b5303b6bfe5930996ed24961b/0_0_900_720/master/900.jpg?width=140&quality=85&auto=format&fit=max&s=4a5a7fec09c73b0d217b6d1303a01b0c"
+        },
+        {
+          "title": "Russian warship struck by suspected Ukrainian sea drones at Benghazi naval base, Libyan officials say",
+          "source": "CBS News",
+          "publishedAt": "2026-11-22T18:20:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/russian-warship-struck-suspected-ukrainian-sea-drones-benghazi-naval-base-libya-officials/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/22/cddcf89c-30d3-466a-aa34-bf3d623dbc48/thumbnail/1200x630/188c817cd5519ea6327fd31141954c15/2026-11-22t195244z-1832180370-rc2ysoaiuqgm-rtrmadp-3-libya-port-explosion.jpg"
+        }
+      ],
+      "path": "/us/entity/russian-warship-struck-by-suspected-ukrainian-sea-drones-at-benghazi-naval-base/"
+    },
+    {
+      "id": "fading-cluster-united states-first + mercury",
+      "title": "Mercury gets its first visitor in years as a pair of spacecraft loop into orbit",
+      "brief": "Mercury gets its first visitor in years as a pair of spacecraft loop into orbit.",
+      "whyItMatters": "",
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "4h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Crosses several sources"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "PBS NewsHour",
+        "Phys.org"
+      ],
+      "images": [
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2013-10-28T120000Z_1920373466_GM1E9AT08WA01_RTRMADP_3_NASA-2-1024x683.jpg",
+        "https://scx1.b-cdn.net/csz/news/tmb/2026/mercury-mission.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Mercury gets its first visitor in years as a pair of spacecraft loop into orbit",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-22T16:41:28.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/science/mercury-gets-its-first-visitor-in-years-as-a-pair-of-spacecraft-loop-into-orbit?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2013-10-28T120000Z_1920373466_GM1E9AT08WA01_RTRMADP_3_NASA-2-1024x683.jpg"
+        }
+      ],
+      "path": "/us/entity/mercury-gets-its-first-visitor-in-years-as-a-pair-of-spacecraft-loop-into-orbit/"
+    },
+    {
+      "id": "fading-cluster-united states-abdul + sayed",
+      "title": "Abdul El-Sayed says passing Medicare for all with Trump support would be ‘the ultimate trump card’",
+      "brief": "Abdul El-Sayed says passing Medicare for all with Trump support would be ‘the ultimate trump card’.",
+      "whyItMatters": "",
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "6h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Crosses several sources"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NBC News Politics",
+        "NBC News"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261122-Abdul-El-Sayed-DC-vsb-2136-645326.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Sen.-elect Abdul El-Sayed says he’s open to working with the Trump administration",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-22T15:16:23.000Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/congress/abdul-el-sayed-open-working-trump-administration-healthcare-medicare-rcna610664?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261122-Abdul-El-Sayed-DC-vsb-2136-645326.jpg"
+        },
+        {
+          "title": "Abdul El-Sayed says passing Medicare for all with Trump support would be ‘the ultimate trump card’",
+          "source": "NBC News",
+          "publishedAt": "2026-11-22T14:15:50.000Z",
+          "sourceUrl": "https://www.nbcnews.com/meet-the-press/video/abdul-el-sayed-says-passing-medicare-for-all-with-trump-support-would-be-the-ultimate-trump-card-273978437750?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/us/entity/abdul-el-sayed-says-passing-medicare-for-all-with-trump-support-would-be-the-ult/"
+    },
+    {
+      "id": "fading-cluster-united states-flight + least",
+      "title": "ICE officers arrest at least 1 passenger boarding Alaska Airlines flight in Seattle",
+      "brief": "ICE officers arrest at least 1 passenger boarding Alaska Airlines flight in Seattle.",
+      "whyItMatters": "",
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "5h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Crosses several sources"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "PBS NewsHour",
+        "CBS News"
+      ],
+      "images": [
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T050002Z_897893897_RC2SSOAM5B92_RTRMADP_3_USA-IMMIGRATION-SEATTLE-1024x683.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/3a21ffe4-5d69-4a6e-8269-e58dcf41fb97/thumbnail/1200x630/2f7e4b1b76e50db5af7676e06647cccc/ap26325789842711.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Immigration officers make arrests at Seattle airport in 'distressing' scene, delaying flight",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-22T16:18:21.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/nation/immigration-officers-make-arrests-at-seattle-airport-in-distressing-scene-delaying-flight?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T050002Z_897893897_RC2SSOAM5B92_RTRMADP_3_USA-IMMIGRATION-SEATTLE-1024x683.jpg"
+        },
+        {
+          "title": "ICE officers arrest at least 1 passenger boarding Alaska Airlines flight in Seattle",
+          "source": "CBS News",
+          "publishedAt": "2026-11-22T00:37:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/3a21ffe4-5d69-4a6e-8269-e58dcf41fb97/thumbnail/1200x630/2f7e4b1b76e50db5af7676e06647cccc/ap26325789842711.jpg"
+        }
+      ],
+      "path": "/us/entity/ice-officers-arrest-at-least-1-passenger-boarding-alaska-airlines-flight-in-seat/"
+    },
+    {
+      "id": "fading-cluster-united states-strait + hormuz",
+      "title": "Athlete swims Strait of Hormuz to raise awareness of Iran war's toll on wildlife",
+      "brief": "Athlete swims Strait of Hormuz to raise awareness of Iran war's toll on wildlife.",
+      "whyItMatters": "",
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "10h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 46,
+      "alertTriggers": [
+        "Crosses several sources"
       ],
       "isHotNews": false,
       "sources": [
@@ -129,289 +706,7 @@
           "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/6f642d8d-a281-49af-8e39-8f6417483e55/thumbnail/1200x630/e4ef39168b9187cc5a8ff2ee8d77bd8a/ap26324612213940.jpg"
         }
       ],
-      "path": "/us/entity/the-best-thing-i-ever-ate-lunch-on-the-strait-of-hormuz/"
-    },
-    {
-      "id": "moving-cluster-united states-spirit + corner",
-      "title": "Champion’s corner: KC Current win first NWSL Championship with 2-1 stunner over Spirit",
-      "brief": "Champion’s corner: KC Current win first NWSL Championship with 2-1 stunner over Spirit.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "9h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The Guardian US",
-        "CBS News"
-      ],
-      "images": [
-        "https://i.guim.co.uk/img/media/546fafdee8a7c55af0f3197c68e9e63455348a3f/311_0_4057_3247/master/4057.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0702a1bb3537b4ac49bf54ec05a49660",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f596e868-96e7-4aac-9b36-aa1044a595b3/thumbnail/1200x630/a577e6203681c45032baac9706f3a311/gettyimages-2306286625.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Champion’s corner: KC Current win first NWSL Championship with 2-1 stunner over Spirit",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-22T03:55:43.000Z",
-          "sourceUrl": "https://www.theguardian.com/football/2026/nov/21/nwsl-championship-washington-spirit-kansas-city-current?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/546fafdee8a7c55af0f3197c68e9e63455348a3f/311_0_4057_3247/master/4057.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0702a1bb3537b4ac49bf54ec05a49660"
-        },
-        {
-          "title": "Kansas City Current capture first NWSL trophy in 2-1 win over Washington Spirit",
-          "source": "CBS News",
-          "publishedAt": "2026-11-22T03:35:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/nwsl-championship-kansas-city-current-washington-spirit/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f596e868-96e7-4aac-9b36-aa1044a595b3/thumbnail/1200x630/a577e6203681c45032baac9706f3a311/gettyimages-2306286625.jpg"
-        }
-      ],
-      "path": "/us/entity/champion-s-corner-kc-current-win-first-nwsl-championship-with-2-1-stunner-over-s/"
-    },
-    {
-      "id": "now-cluster-united states-south + korea",
-      "title": "South Korea’s Education Minister Resigns Over Anti-A.I. Cheating Rules",
-      "brief": "South Korea’s Education Minister Resigns Over Anti-A.I. Cheating Rules.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 60,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times World",
-        "The Guardian US"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/22/multimedia/22skorea-exam-wfpv/22skorea-exam-wfpv-mediumSquareAt3X.jpg",
-        "https://i.guim.co.uk/img/media/3d9052371f434580f71c25a962110e47f2e6a076/605_0_6228_4986/master/6228.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d3f07b25c72631f8072873e52093f91c"
-      ],
-      "evidence": [
-        {
-          "title": "South Korea’s Education Minister Resigns Over Anti-A.I. Cheating Rules",
-          "source": "The New York Times World",
-          "publishedAt": "2026-11-22T08:35:05.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/22/world/asia/korea-csat-exam-ai-cheating.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22skorea-exam-wfpv/22skorea-exam-wfpv-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-22T05:04:39.000Z",
-          "sourceUrl": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/3d9052371f434580f71c25a962110e47f2e6a076/605_0_6228_4986/master/6228.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d3f07b25c72631f8072873e52093f91c"
-        }
-      ],
-      "path": "/us/entity/south-korea-s-education-minister-resigns-over-anti-a-i-cheating-rules/"
-    },
-    {
-      "id": "moving-cluster-united states-national + apparent",
-      "title": "AP source: FBI investigating apparent hack of its key national criminal justice database",
-      "brief": "AP source: FBI investigating apparent hack of its key national criminal justice database.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "13h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 59,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795305581966_wnn_jts_fbi_investigates_crime_database_breach_261121_S3_1920x1080-o9s5kc.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-09-15T155147Z_1354812507_RC2RJNAUJYY8_RTRMADP_3_USA-JUSTICE-PATEL-1200x800.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "FBI investigates apparent hack of critical crime database",
-          "source": "NBC News",
-          "publishedAt": "2026-11-21T23:59:47.000Z",
-          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/fbi-investigates-apparent-hack-of-critical-crime-database-273966149722?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795305581966_wnn_jts_fbi_investigates_crime_database_breach_261121_S3_1920x1080-o9s5kc.jpg"
-        },
-        {
-          "title": "AP source: FBI investigating apparent hack of its key national criminal justice database",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-21T20:55:22.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/politics/ap-source-fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-09-15T155147Z_1354812507_RC2RJNAUJYY8_RTRMADP_3_USA-JUSTICE-PATEL-1200x800.jpg"
-        }
-      ],
-      "path": "/us/entity/ap-source-fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-d/"
-    },
-    {
-      "id": "moving-cluster-united states-deadly + cartel",
-      "title": "Mexico detains top cartel boss 'El Chapo Isidro,' setting off a burst of violence in Sinaloa",
-      "brief": "Mexico detains top cartel boss 'El Chapo Isidro,' setting off a burst of violence in Sinaloa.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "13h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 59,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795304942614_wnn_dgr_violent_raid_captures_top_cartel_leader_261121_S3_1920x1080-k2peja.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-21T180748Z_813296604_RC2ASOA5X2EM_RTRMADP_3_MEXICO-CHAPOISIDRO-1200x800.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Deadly raid captures top cartel boss in Mexico",
-          "source": "NBC News",
-          "publishedAt": "2026-11-21T23:49:07.000Z",
-          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/deadly-raid-captures-top-cartel-boss-in-mexico-273965637918?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795304942614_wnn_dgr_violent_raid_captures_top_cartel_leader_261121_S3_1920x1080-k2peja.jpg"
-        },
-        {
-          "title": "Mexico detains top cartel boss 'El Chapo Isidro,' setting off a burst of violence in Sinaloa",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-21T19:13:16.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/world/mexico-detains-top-cartel-boss-el-chapo-isidro-setting-off-a-burst-of-violence-in-sinaloa?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-21T180748Z_813296604_RC2ASOA5X2EM_RTRMADP_3_MEXICO-CHAPOISIDRO-1200x800.jpg"
-        }
-      ],
-      "path": "/us/entity/mexico-detains-top-cartel-boss-el-chapo-isidro-setting-off-a-burst-of-violence-i/"
-    },
-    {
-      "id": "moving-cluster-united states-student + airport",
-      "title": "Princeton University student detained by ICE at Reagan Airport after conference",
-      "brief": "Princeton University student detained by ICE at Reagan Airport after conference.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "14h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 59,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "NBC News"
-      ],
-      "images": [
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/ea3a8214-910e-4204-9906-b274fd0bbfcf/thumbnail/1200x630/eae675016c1c820add4f84e3e650712f/gettyimages-2274498190.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-04/250401-princeton-university-cs-6a0257.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Princeton University student detained by ICE at Reagan Airport after conference",
-          "source": "CBS News",
-          "publishedAt": "2026-11-21T22:50:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/philadelphia/news/princeton-student-ice/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/21/ea3a8214-910e-4204-9906-b274fd0bbfcf/thumbnail/1200x630/eae675016c1c820add4f84e3e650712f/gettyimages-2274498190.jpg"
-        },
-        {
-          "title": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference",
-          "source": "NBC News",
-          "publishedAt": "2026-11-21T21:22:17.076Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/princeton-neuroscientist-eva-yi-xie-ice-detained-rcna610603?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-04/250401-princeton-university-cs-6a0257.jpg"
-        }
-      ],
-      "path": "/us/entity/princeton-university-student-detained-by-ice-at-reagan-airport-after-conference/"
-    },
-    {
-      "id": "now-cluster-united states-airport + least",
-      "title": "Wash. officials condemn ICE after 2 arrested boarding flight at Seattle airport",
-      "brief": "Wash. officials condemn ICE after 2 arrested boarding flight at Seattle airport.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "7h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 54,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "ABC News",
-        "CBS News"
-      ],
-      "images": [
-        "https://s.abcnews.com/images/US/sea-tac-airport-2_1795310671098_hpMain_4x3t_384.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/3a21ffe4-5d69-4a6e-8269-e58dcf41fb97/thumbnail/1200x630/2f7e4b1b76e50db5af7676e06647cccc/ap26325789842711.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Wash. officials condemn ICE after 2 arrested boarding flight at Seattle airport",
-          "source": "ABC News",
-          "publishedAt": "2026-11-22T06:22:38.000Z",
-          "sourceUrl": "https://abcnews.com/US/washington-state-officials-condemn-ice-after-2-arrested/story?id=138349974&utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s.abcnews.com/images/US/sea-tac-airport-2_1795310671098_hpMain_4x3t_384.jpg"
-        },
-        {
-          "title": "ICE officers arrest at least 1 passenger boarding Alaska Airlines flight in Seattle",
-          "source": "CBS News",
-          "publishedAt": "2026-11-22T00:37:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/3a21ffe4-5d69-4a6e-8269-e58dcf41fb97/thumbnail/1200x630/2f7e4b1b76e50db5af7676e06647cccc/ap26325789842711.jpg"
-        }
-      ],
-      "path": "/us/entity/wash-officials-condemn-ice-after-2-arrested-boarding-flight-at-seattle-airport/"
+      "path": "/us/entity/athlete-swims-strait-of-hormuz-to-raise-awareness-of-iran-war-s-toll-on-wildlife/"
     }
   ]
 }
