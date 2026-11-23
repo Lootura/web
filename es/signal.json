@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-23T08:00:47.814Z",
+  "updatedAt": "2026-11-23T09:00:47.844Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "288.296 enlaces analizados",
-  "dayScanLabel": "4.172 enlaces escaneados en 24h",
+  "ambientPulseLabel": "288.706 enlaces analizados",
+  "dayScanLabel": "4.163 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,21 +19,21 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-pedro + sanchez",
-      "title": "Pedro Sánchez, sobre Zapatero: \"Me asesora y ayuda de manera personal, ha decidido no participar activamente en la campaña\"",
-      "brief": "Pedro Sánchez, sobre Zapatero: \"Me asesora y ayuda de manera personal, ha decidido no participar activamente en la campaña\".",
+      "id": "now-cluster-españa-comisaria + palencia",
+      "title": "Los Tedax inspeccionan la comisaría de Palencia tras ser atacada con cócteles molotov y hallar una mochila en su interior",
+      "brief": "Los Tedax inspeccionan la comisaría de Palencia tras ser atacada con cócteles molotov y hallar una mochila en su interior.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 24,
-      "sourceCount": 3,
+      "strength": 26,
+      "sourceCount": 4,
       "itemCount": 4,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 96,
+      "alertScore": 99,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -41,178 +41,123 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El País",
-        "El Confidencial",
-        "El Mundo"
+        "OK Diario",
+        "ABC",
+        "20minutos",
+        "The Objective"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/C4PVNFNCWRE73MTNNOY35452GU.png?auth=1582962555c7778038b5062577b6f357a129b06261f7aeebe81b96cb632dbdf4",
-        "https://images.ecestaticos.com/FmLKzMEuHRTXs-td1LnIAFPHr3o=/0x0:900x506/1200x675/filters:fill(white):format(jpeg)/f.elconfidencial.com%2Foriginal%2F9ca%2F72f%2Fa0f%2F9ca72fa0f36f460a8bf0e2302dd889c9.jpeg",
-        "https://e01-phantom-elmundo.uecdn.es/c2b310b7fe036645d937c2ed26489d6b/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/22/17953697740702.jpg",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/22/17953786895320.jpg"
+        "https://okdiario.com/img/2026/11/23/pol-1.jpg",
+        "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/23/1520521705-k5hC-U40489502449sM-1200x840@diario_abc.jpg",
+        "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2024/02/17/comisaria-palencia.jpeg"
       ],
       "evidence": [
+        {
+          "title": "Los Tedax inspeccionan la comisaría de Palencia tras ser atacada con cócteles molotov y hallar una mochila en su interior",
+          "source": "OK Diario",
+          "publishedAt": "2026-11-23T08:57:41.000Z",
+          "sourceUrl": "https://okdiario.com/sucesos/tedax-inspeccionan-comisaria-palencia-ser-atacada-cocteles-molotov-hallar-mochila-interior-21246835?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://okdiario.com/img/2026/11/23/pol-1.jpg"
+        },
+        {
+          "title": "Lanzan cócteles molotov contra la Comisaría de Palencia y se localiza una mochila en el exterior",
+          "source": "ABC",
+          "publishedAt": "2026-11-23T08:56:08.000Z",
+          "sourceUrl": "https://www.abc.es/espana/castilla-leon/lanzan-cocteles-molotov-comisaria-palencia-localiza-mochila-20261123094423-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/23/1520521705-k5hC-U40489502449sM-1200x840@diario_abc.jpg"
+        },
+        {
+          "title": "Lanzan cócteles molotov contra la Comisaría de Palencia y dejan una mochila sospechosa que es investigada por los TEDAX",
+          "source": "20minutos",
+          "publishedAt": "2026-11-23T08:50:42.000Z",
+          "sourceUrl": "https://www.20minutos.es/castilla-y-leon/palencia/lanzan-cocteles-molotov-contra-comisaria-palencia-hallan-una-mochila-sospechosa-que-es-investigada-por-los-tedax_7064424_0.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2024/02/17/comisaria-palencia.jpeg"
+        }
+      ],
+      "path": "/es/entity/los-tedax-inspeccionan-la-comisaria-de-palencia-tras-ser-atacada-con-cocteles-mo/"
+    },
+    {
+      "id": "now-cluster-españa-pedro + sanchez",
+      "title": "Pedro Sánchez anuncia un nuevo impuesto a ultrarricos para recaudar 2.000 millones para pensiones y vivienda",
+      "brief": "Pedro Sánchez anuncia un nuevo impuesto a ultrarricos para recaudar 2.000 millones para pensiones y vivienda.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 26,
+      "sourceCount": 4,
+      "itemCount": 4,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "Heraldo de Aragón",
+        "Expansión",
+        "El Mundo",
+        "El País"
+      ],
+      "images": [
+        "https://imagenes.heraldo.es/files/image_1920_1080/uploads/imagenes/2026/11/22/6b02fb31258933-83203915.jpeg",
+        "https://e00-xlk-ue-expansion.uecdn.es/files/article_main_microformat/uploads/2026/11/23/6b03fad11fb0e.jpeg",
+        "https://e01-phantom-elmundo.uecdn.es/52b18a4da9f2e2e9b2cfd61c67f4ba13/crop/0x7/1002x675/f/webp/assets/multimedia/imagenes/2026/11/23/17954218026595.jpg",
+        "https://imagenes.elpais.com/resizer/v2/C4PVNFNCWRE73MTNNOY35452GU.png?auth=1582962555c7778038b5062577b6f357a129b06261f7aeebe81b96cb632dbdf4"
+      ],
+      "evidence": [
+        {
+          "title": "Pedro Sánchez anuncia un nuevo impuesto a ultrarricos para recaudar 2.000 millones para pensiones y vivienda",
+          "source": "Heraldo de Aragón",
+          "publishedAt": "2026-11-23T08:46:34.000Z",
+          "sourceUrl": "https://www.heraldo.es/noticias/nacional/2026/11/23/pedro-sanchez-anuncia-nuevo-impuesto-ultrarricos-recaudara-2000-millones-vivienda-pensiones-crianza-2070973.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.heraldo.es/files/image_1920_1080/uploads/imagenes/2026/11/22/6b02fb31258933-83203915.jpeg"
+        },
+        {
+          "title": "Sánchez anuncia un nuevo impuesto a ultrarricos para financiar vivienda protegida, blindar las pensiones y crear una prestación por crianza",
+          "source": "Expansión",
+          "publishedAt": "2026-11-23T08:37:20.000Z",
+          "sourceUrl": "https://www.expansion.com/elecciones/elecciones-generales/2026/11/23/pedro-sanchez-anuncia-nuevo-impuesto-ultrarricos-financiar-vivienda-protegida-blindar-pensiones-crear-prestacion-crianza.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-xlk-ue-expansion.uecdn.es/files/article_main_microformat/uploads/2026/11/23/6b03fad11fb0e.jpeg"
+        },
+        {
+          "title": "Sánchez anuncia un nuevo impuesto a ultrarricos que recaudará 2.000 millones para vivienda, pensiones y crianza",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-23T08:17:25.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b03f692e85ece083e8b458b.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/52b18a4da9f2e2e9b2cfd61c67f4ba13/crop/0x7/1002x675/f/webp/assets/multimedia/imagenes/2026/11/23/17954218026595.jpg"
+        },
         {
           "title": "La película de la semana de TVE supera en audiencia a Pedro Sánchez en ‘Salvados’",
           "source": "El País",
           "publishedAt": "2026-11-23T07:40:02.000Z",
           "sourceUrl": "https://elpais.com/television/2026-11-23/la-pelicula-de-la-semana-de-tve-supera-en-audiencia-a-la-entrevista-de-pedro-sanchez-en-salvados.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://imagenes.elpais.com/resizer/v2/C4PVNFNCWRE73MTNNOY35452GU.png?auth=1582962555c7778038b5062577b6f357a129b06261f7aeebe81b96cb632dbdf4"
-        },
-        {
-          "title": "Pedro Sánchez, sobre Zapatero: \"Me asesora y ayuda de manera personal, ha decidido no participar activamente en la campaña\"",
-          "source": "El Confidencial",
-          "publishedAt": "2026-11-23T07:35:00.000Z",
-          "sourceUrl": "https://www.elconfidencial.com/espana/2026-11-23/pedro-sanchez-zapatero-campana-salvados_4470416/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://images.ecestaticos.com/FmLKzMEuHRTXs-td1LnIAFPHr3o=/0x0:900x506/1200x675/filters:fill(white):format(jpeg)/f.elconfidencial.com%2Foriginal%2F9ca%2F72f%2Fa0f%2F9ca72fa0f36f460a8bf0e2302dd889c9.jpeg"
-        },
-        {
-          "title": "Zapatero, en la sombra de la campaña de Sánchez y la inspiración de 2008: \"Es un activo\", \"aconseja\" y \"ayuda\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-23T00:08:24.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b032b07fc6c83e4458b456d.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/c2b310b7fe036645d937c2ed26489d6b/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/22/17953697740702.jpg"
-        },
-        {
-          "title": "El oscuro deseo de Pedro Sánchez",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-22T22:01:46.000Z",
-          "sourceUrl": "https://www.elmundo.es/espana/2026/11/22/6b034b5221efa0ef3a8b4591.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/22/17953786895320.jpg"
         }
       ],
-      "path": "/es/entity/pedro-sanchez-sobre-zapatero-me-asesora-y-ayuda-de-manera-personal-ha-decidido-n/"
-    },
-    {
-      "id": "now-cluster-españa-campana + generales",
-      "title": "Última hora en directo de la actualidad política en España: elecciones generales del 29-N y campaña electoral hoy en vivo",
-      "brief": "Última hora en directo de la actualidad política en España: elecciones generales del 29-N y campaña electoral hoy en vivo.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 24,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 92,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "La Razón",
-        "OK Diario",
-        "Diario de Sevilla"
-      ],
-      "images": [
-        "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/22/91DCD341-BEAF-456F-A3CB-8C4A5E486036/96.jpg?crop=5674,3192,x0,y295&width=1200&height=675&optimize=low&format=webply",
-        "https://okdiario.com/img/2026/09/09/propuesta-directo-espana-gif-interior-2.gif",
-        "https://static.grupojoly.com/clip/f61dabbd-9bae-4251-850f-9c68d7f7af5d_source-aspect-ratio_default_0.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Elecciones generales, en directo: encuestas y última hora de la campaña electoral del 29N",
-          "source": "La Razón",
-          "publishedAt": "2026-11-23T08:00:23.000Z",
-          "sourceUrl": "https://www.larazon.es/espana/elecciones-generales-directo-encuestas-ultima-hora-campana-electoral-29n_202611236b03e554f6da642efef87380.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/22/91DCD341-BEAF-456F-A3CB-8C4A5E486036/96.jpg?crop=5674,3192,x0,y295&width=1200&height=675&optimize=low&format=webply"
-        },
-        {
-          "title": "Última hora en directo de la actualidad política en España: elecciones generales del 29-N y campaña electoral hoy en vivo",
-          "source": "OK Diario",
-          "publishedAt": "2026-11-23T08:00:16.000Z",
-          "sourceUrl": "https://okdiario.com/espana/ultima-hora-directo-actualidad-politica-espana-elecciones-generales-del-29-n-campana-electoral-hoy-vivo-6-21246441?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://okdiario.com/img/2026/09/09/propuesta-directo-espana-gif-interior-2.gif"
-        },
-        {
-          "title": "Encuestas elecciones generales 2026: última encuesta y todos los sondeos del 29-N",
-          "source": "Diario de Sevilla",
-          "publishedAt": "2026-11-23T07:19:14.000Z",
-          "sourceUrl": "https://www.diariodesevilla.es/espana/elecciones/encuestas-elecciones-generales-2026-ultima_0_2008566137.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static.grupojoly.com/clip/f61dabbd-9bae-4251-850f-9c68d7f7af5d_source-aspect-ratio_default_0.jpg"
-        }
-      ],
-      "path": "/es/entity/ultima-hora-en-directo-de-la-actualidad-politica-en-espana-elecciones-generales/"
-    },
-    {
-      "id": "now-cluster-españa-incendio + formentor",
-      "title": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca",
-      "brief": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 92,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "Diario de Sevilla",
-        "El Correo",
-        "El Mundo"
-      ],
-      "images": [
-        "https://static.grupojoly.com/clip/469b1bfb-2438-4de6-951f-4e88374d4404_source-aspect-ratio_1600w_0.jpg",
-        "https://s3.ppllstatics.com/rc/www/multimedia/sociedad/2026/11/23/1484869047.jpg",
-        "https://e01-phantom-elmundo.uecdn.es/b614e28d47f9d869c68b0dbc2f035262/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/23/17954167792127.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Sigue sin controlar un gran incendio en Formentor (Mallorca)",
-          "source": "Diario de Sevilla",
-          "publishedAt": "2026-11-23T07:58:56.000Z",
-          "sourceUrl": "https://www.diariodesevilla.es/sociedad/sigue-controlar-gran-incendio-formentor_0_2008566311.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static.grupojoly.com/clip/469b1bfb-2438-4de6-951f-4e88374d4404_source-aspect-ratio_1600w_0.jpg"
-        },
-        {
-          "title": "Los Bomberos de Mallorca trabajan para controlar el incendio de Formentor",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T07:33:57.000Z",
-          "sourceUrl": "https://www.elcorreo.com/sociedad/bomberos-mallorca-trabajan-controlar-incendio-formentor-20261123083357-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/rc/www/multimedia/sociedad/2026/11/23/1484869047.jpg"
-        },
-        {
-          "title": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-23T06:53:36.000Z",
-          "sourceUrl": "https://www.elmundo.es/baleares/2026/11/23/6b03e2ebe85ecedc0b8b457a.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/b614e28d47f9d869c68b0dbc2f035262/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/23/17954167792127.jpg"
-        }
-      ],
-      "path": "/es/entity/declarado-un-incendio-forestal-en-la-peninsula-de-formentor-al-noreste-de-mallor/"
+      "path": "/es/entity/pedro-sanchez-anuncia-un-nuevo-impuesto-a-ultrarricos-para-recaudar-2-000-millon/"
     },
     {
       "id": "now-cluster-españa-black + friday",
-      "title": "El cepillo alisador que deja el pelo suave y sin ‘frizz’ cae a precio mínimo histórico por Black Friday",
-      "brief": "El cepillo alisador que deja el pelo suave y sin ‘frizz’ cae a precio mínimo histórico por Black Friday.",
+      "title": "Las 13 mejores ofertas de hoy (23 de noviembre) en Amazon por el Black Friday: hasta un 58% de descuento en Lee, adidas y más",
+      "brief": "Las 13 mejores ofertas de hoy (23 de noviembre) en Amazon por el Black Friday: hasta un 58% de descuento en Lee, adidas y más.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 17,
-      "sourceCount": 2,
-      "itemCount": 3,
+      "strength": 25,
+      "sourceCount": 3,
+      "itemCount": 5,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 99,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -221,20 +166,30 @@
       "isHotNews": false,
       "sources": [
         "La Razón",
-        "El País"
+        "El País",
+        "El Mundo"
       ],
       "images": [
-        "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/20/313C32B6-565B-4A0C-A03D-3179FD02CAC2/barro-invierno-pide-tacos-profundos-salomon-alphacross-5-llegan-black-friday-31-mas-baratas_96.jpg?crop=1240,698,x0,y0&width=1200&height=675&optimize=low&format=webply",
+        "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/12/97B8AF73-4049-4EA4-8165-60E36937832F/10-mejores-ofertas-hoy-12-octubre-amazon-62-polo-club-munich-blackdecker-mas_96.jpg?crop=889,500,x156,y0&width=1200&height=675&optimize=low&format=webply",
+        "https://imagenes.elpais.com/resizer/v2/Q62HU7P7ZBHG5PS5HUGMSMAOWY.png?auth=d40e5981aae409f0815ceed78b1347ddbc605dcdbd192334029371a9dc4843bd",
         "https://imagenes.elpais.com/resizer/v2/XURJJWCQSBE2DFMJBFI3DTX3TY.png?auth=ab859e7f628879c68658976f9db707b7c33fe2c3a80ba48c24e5082197ef2805",
-        "https://imagenes.elpais.com/resizer/v2/GUV5QUDVAFHYZFUAORADCYOYZI.png?auth=7ac5fe9de207eaa5ef9876f9a981ddabe7b7abed821b1eac93e4ec72312f5e1e"
+        "https://imagenes.elpais.com/resizer/v2/GUV5QUDVAFHYZFUAORADCYOYZI.png?auth=7ac5fe9de207eaa5ef9876f9a981ddabe7b7abed821b1eac93e4ec72312f5e1e",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/22/17953503719123.jpg"
       ],
       "evidence": [
         {
-          "title": "El barro del invierno pide tacos profundos, y las Salomon Alphacross 5 llegan al Black Friday un 31% más baratas",
+          "title": "Las 13 mejores ofertas de hoy (23 de noviembre) en Amazon por el Black Friday: hasta un 58% de descuento en Lee, adidas y más",
           "source": "La Razón",
-          "publishedAt": "2026-11-23T08:00:13.000Z",
-          "sourceUrl": "https://www.larazon.es/compras/barro-invierno-pide-tacos-profundos-salomon-alphacross-5-llegan-black-friday-31-mas-baratas-3v3r_202611236b03f28dff6fec2921989f10.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/20/313C32B6-565B-4A0C-A03D-3179FD02CAC2/barro-invierno-pide-tacos-profundos-salomon-alphacross-5-llegan-black-friday-31-mas-baratas_96.jpg?crop=1240,698,x0,y0&width=1200&height=675&optimize=low&format=webply"
+          "publishedAt": "2026-11-23T09:00:16.000Z",
+          "sourceUrl": "https://www.larazon.es/compras/13-mejores-ofertas-hoy-23-noviembre-amazon-black-friday-58-descuento-lee-adidas-mas-3v3r_202611236b0400a0c0d5c85b96c50811.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/10/12/97B8AF73-4049-4EA4-8165-60E36937832F/10-mejores-ofertas-hoy-12-octubre-amazon-62-polo-club-munich-blackdecker-mas_96.jpg?crop=889,500,x156,y0&width=1200&height=675&optimize=low&format=webply"
+        },
+        {
+          "title": "Black Friday en PcComponentes: seis ofertas a precio mínimo histórico en tecnología, hogar y ‘gaming’",
+          "source": "El País",
+          "publishedAt": "2026-11-23T08:26:00.000Z",
+          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/ofertas-pccomponentes-black-friday-2026.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/Q62HU7P7ZBHG5PS5HUGMSMAOWY.png?auth=d40e5981aae409f0815ceed78b1347ddbc605dcdbd192334029371a9dc4843bd"
         },
         {
           "title": "El cepillo alisador que deja el pelo suave y sin ‘frizz’ cae a precio mínimo histórico por Black Friday",
@@ -249,17 +204,24 @@
           "publishedAt": "2026-11-23T05:45:00.000Z",
           "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/sudaderas-oferta-black-friday.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://imagenes.elpais.com/resizer/v2/GUV5QUDVAFHYZFUAORADCYOYZI.png?auth=7ac5fe9de207eaa5ef9876f9a981ddabe7b7abed821b1eac93e4ec72312f5e1e"
+        },
+        {
+          "title": "La inflación y la 'tasa Shein' enfrían el 'Black Friday': tres de cada cuatro españoles comprarán, pero gastarán un 10% menos",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-22T23:54:11.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/2026/11/23/6b02df14e4d4d84d058b457e.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/22/17953503719123.jpg"
         }
       ],
-      "path": "/es/entity/el-cepillo-alisador-que-deja-el-pelo-suave-y-sin-frizz-cae-a-precio-minimo-histo/"
+      "path": "/es/entity/las-13-mejores-ofertas-de-hoy-23-de-noviembre-en-amazon-por-el-black-friday-hast/"
     },
     {
-      "id": "moving-cluster-españa-tecnicas + reunidas",
-      "title": "Técnicas Reunidas desarrollará tres centrales eléctricas para RWE en Alemania por más de 1.500 millones",
-      "brief": "Técnicas Reunidas desarrollará tres centrales eléctricas para RWE en Alemania por más de 1.500 millones.",
+      "id": "now-cluster-españa-xavier + garcia",
+      "title": "Xavier García Albiol: \"Lamine Yamal me cae un poco mal, no me pondría su camiseta de la selección\"",
+      "brief": "Xavier García Albiol: \"Lamine Yamal me cae un poco mal, no me pondría su camiseta de la selección\".",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
       "strength": 16,
@@ -275,77 +237,77 @@
       ],
       "isHotNews": false,
       "sources": [
-        "Expansión",
-        "Cinco Días"
+        "Diario de Sevilla",
+        "El País"
       ],
       "images": [
-        "https://e00-xlk-ue-expansion.uecdn.es/files/article_main_microformat/uploads/2026/10/07/16590805600632.jpeg",
-        "https://imagenes.elpais.com/resizer/v2/JNMOSKD5ERHQJGPXX6CT2PRPCY.jpg?auth=28037fde273dab5be3948069e62eb2ca01e9fd3661535abaf46aa1927f212014"
+        "https://static.grupojoly.com/clip/f40ed0d3-01ca-4113-92cf-8a517b1ae9cd_source-aspect-ratio_default_0.jpg",
+        "https://imagenes.elpais.com/resizer/v2/SBIRCW3FGJGTJCI2GGRC3XVYZ4.jpg?auth=68d2234333138712a71aa795447ace9a2d8f0c52bbf3bb54b3a1d450b8e0fccc"
       ],
       "evidence": [
         {
-          "title": "Técnicas Reunidas desarrollará tres centrales eléctricas en Alemania por 1.500 millones",
-          "source": "Expansión",
-          "publishedAt": "2026-11-23T07:37:54.000Z",
-          "sourceUrl": "https://www.expansion.com/empresas/industria/2026/11/23/tecnicas-reunidas-desarrollara-tres-centrales-electricas-alemania-1-500-millones.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-xlk-ue-expansion.uecdn.es/files/article_main_microformat/uploads/2026/10/07/16590805600632.jpeg"
+          "title": "Xavier García Albiol: \"Lamine Yamal me cae un poco mal, no me pondría su camiseta de la selección\"",
+          "source": "Diario de Sevilla",
+          "publishedAt": "2026-11-23T08:48:53.000Z",
+          "sourceUrl": "https://www.diariodesevilla.es/espana/elecciones/garcia-albiol-lamine-yamal_0_2008566588.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static.grupojoly.com/clip/f40ed0d3-01ca-4113-92cf-8a517b1ae9cd_source-aspect-ratio_default_0.jpg"
         },
         {
-          "title": "Técnicas Reunidas desarrollará tres centrales eléctricas para RWE en Alemania por más de 1.500 millones",
-          "source": "Cinco Días",
-          "publishedAt": "2026-11-23T07:34:31.000Z",
-          "sourceUrl": "https://cincodias.elpais.com/companias/2026-11-23/tecnicas-reunidas-desarrollara-tres-centrales-electricas-para-rwe-en-alemania-por-mas-de-1500-millones.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/JNMOSKD5ERHQJGPXX6CT2PRPCY.jpg?auth=28037fde273dab5be3948069e62eb2ca01e9fd3661535abaf46aa1927f212014"
+          "title": "Xavier Garcia Albiol: “Veo margen para llegar a acuerdos con Junts en propuestas sectoriales”",
+          "source": "El País",
+          "publishedAt": "2026-11-23T07:39:29.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-23/xavier-garcia-albiol-veo-margen-para-llegar-a-acuerdos-con-junts-en-propuestas-sectoriales.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/SBIRCW3FGJGTJCI2GGRC3XVYZ4.jpg?auth=68d2234333138712a71aa795447ace9a2d8f0c52bbf3bb54b3a1d450b8e0fccc"
         }
       ],
-      "path": "/es/entity/tecnicas-reunidas-desarrollara-tres-centrales-electricas-para-rwe-en-alemania-po/"
+      "path": "/es/entity/xavier-garcia-albiol-lamine-yamal-me-cae-un-poco-mal-no-me-pondria-su-camiseta-d/"
     },
     {
-      "id": "moving-cluster-españa-victoria + atletico",
-      "title": "El Atlético sigue la estela de la cabeza con una victoria fácil en Getafe",
-      "brief": "El Atlético sigue la estela de la cabeza con una victoria fácil en Getafe.",
+      "id": "moving-cluster-españa-mallorca + incendio",
+      "title": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca",
+      "brief": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "10h fresca",
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 64,
+      "alertScore": 76,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "El País",
+        "El Correo",
         "El Mundo"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/KD6NUPX43NKT3KH4UOBDRMZHC4.jpg?auth=ccb055003e4a095c733895e21a99787114d716a601116333ab7daabcb2096b06",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/22/17953839376759.jpg"
+        "https://s3.ppllstatics.com/rc/www/multimedia/sociedad/2026/11/23/1484869047.jpg",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954167792127.jpg"
       ],
       "evidence": [
         {
-          "title": "Baena sostiene la llama de un buen Atlético en su victoria en Getafe",
-          "source": "El País",
-          "publishedAt": "2026-11-22T22:16:35.000Z",
-          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-22/baena-sostiene-la-llama-de-un-buen-atletico-en-su-victoria-en-getafe.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/KD6NUPX43NKT3KH4UOBDRMZHC4.jpg?auth=ccb055003e4a095c733895e21a99787114d716a601116333ab7daabcb2096b06"
+          "title": "Los Bomberos de Mallorca trabajan para controlar el incendio de Formentor",
+          "source": "El Correo",
+          "publishedAt": "2026-11-23T07:33:57.000Z",
+          "sourceUrl": "https://www.elcorreo.com/sociedad/bomberos-mallorca-trabajan-controlar-incendio-formentor-20261123083357-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/sociedad/2026/11/23/1484869047.jpg"
         },
         {
-          "title": "El Atlético sigue la estela de la cabeza con una victoria fácil en Getafe",
+          "title": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca",
           "source": "El Mundo",
-          "publishedAt": "2026-11-22T21:56:36.000Z",
-          "sourceUrl": "https://www.elmundo.es/deportes/futbol/primera-division/2026/11/22/6b033d04e9cf4a9d1d8b45a2.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/22/17953839376759.jpg"
+          "publishedAt": "2026-11-23T06:53:36.000Z",
+          "sourceUrl": "https://www.elmundo.es/baleares/2026/11/23/6b03e2ebe85ecedc0b8b457a.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954167792127.jpg"
         }
       ],
-      "path": "/es/entity/el-atletico-sigue-la-estela-de-la-cabeza-con-una-victoria-facil-en-getafe/"
+      "path": "/es/entity/declarado-un-incendio-forestal-en-la-peninsula-de-formentor-al-noreste-de-mallor/"
     },
     {
       "id": "moving-cluster-españa-otegi + techo",
@@ -359,7 +321,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "13h fresca",
+      "freshness": "14h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 59,
@@ -403,7 +365,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "13h fresca",
+      "freshness": "14h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 59,
