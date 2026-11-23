@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-23T09:00:47.844Z",
+  "updatedAt": "2026-11-23T10:00:48.222Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "369,204 links analyzed",
-  "dayScanLabel": "8,327 links scanned in 24h",
+  "ambientPulseLabel": "370,034 links analyzed",
+  "dayScanLabel": "7,489 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -19,25 +19,24 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "moving-cluster-united states-delta + tech",
+      "id": "now-cluster-united states-delays + delta",
       "title": "Automation system problem at Delta causes flight delays as Americans travel for Thanksgiving",
       "brief": "Automation system problem at Delta causes flight delays as Americans travel for Thanksgiving.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "cooling",
       "stateLabel": "Cooling",
       "strength": 16,
       "sourceCount": 4,
       "itemCount": 5,
-      "freshness": "9h fresh",
+      "freshness": "10h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 98,
+      "alertScore": 80,
       "alertTriggers": [
         "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
+        "Picks up volume fast"
       ],
       "isHotNews": false,
       "sources": [
@@ -48,10 +47,10 @@
       ],
       "images": [
         "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795391048610_wnn_vca_deltaoutage_261122_S3_1920x1080-rc7rjs.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261122-atlanta-delta-airport-ww-1543-e2c97b.jpg",
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T194551Z_840242905_RC26TOAG5NAP_RTRMADP_3_DELTA-AIR-DELAYS-ATLANTA-1024x683.jpg",
         "https://static01.nyt.com/images/2026/11/22/multimedia/22nat-delta-outage2-bzlp/22nat-delta-outage2-bzlp-mediumSquareAt3X-v4.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/9a77fc21-028e-404f-937f-1c0ccf31d5f9/thumbnail/1200x630/303e45e52332ff21e17bb41f611e2e7f/gettyimages-2267588939.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261122-atlanta-delta-airport-ww-1543-e2c97b.jpg"
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/9a77fc21-028e-404f-937f-1c0ccf31d5f9/thumbnail/1200x630/303e45e52332ff21e17bb41f611e2e7f/gettyimages-2267588939.jpg"
       ],
       "evidence": [
         {
@@ -60,6 +59,13 @@
           "publishedAt": "2026-11-22T23:44:13.000Z",
           "sourceUrl": "https://www.nbcnews.com/nightly-news/video/delta-tech-issue-delays-hundreds-of-flights-273989701668?utm_source=lootura.com&ref=lootura.com",
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795391048610_wnn_vca_deltaoutage_261122_S3_1920x1080-rc7rjs.jpg"
+        },
+        {
+          "title": "Delta restores system after nationwide flight delays as Thanksgiving travel begins",
+          "source": "NBC News",
+          "publishedAt": "2026-11-22T23:41:12.438Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/delta-tech-issues-thanksgiving-travel-rcna610685?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261122-atlanta-delta-airport-ww-1543-e2c97b.jpg"
         },
         {
           "title": "Automation system problem at Delta causes flight delays as Americans travel for Thanksgiving",
@@ -81,146 +87,12 @@
           "publishedAt": "2026-11-22T17:54:00.000Z",
           "sourceUrl": "https://www.cbsnews.com/news/delta-air-lines-nationwide-delays-amid-baggage-network-system-issue/?utm_source=lootura.com&ref=lootura.com",
           "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/9a77fc21-028e-404f-937f-1c0ccf31d5f9/thumbnail/1200x630/303e45e52332ff21e17bb41f611e2e7f/gettyimages-2267588939.jpg"
-        },
-        {
-          "title": "Delta restores system after nationwide flight delays as Thanksgiving travel begins",
-          "source": "NBC News",
-          "publishedAt": "2026-11-22T16:38:25.000Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/delta-tech-issues-thanksgiving-travel-rcna610685?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261122-atlanta-delta-airport-ww-1543-e2c97b.jpg"
         }
       ],
       "path": "/us/entity/automation-system-problem-at-delta-causes-flight-delays-as-americans-travel-for/"
     },
     {
-      "id": "moving-cluster-united states-tech + outages",
-      "title": "As AI detects flaws in computer systems, is it causing more tech outages and disruptions?",
-      "brief": "As AI detects flaws in computer systems, is it causing more tech outages and disruptions?",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 13,
-      "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "10h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 84,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "The Verge",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318433/akrales_220309_4977_0182.jpg?quality=90&strip=all&crop=0,0,100,100",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26320714643957-1024x683.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Tech outages and hacks: the response and what experts are saying",
-          "source": "CBS News",
-          "publishedAt": "2026-11-22T22:50:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/tech-outages-hacks-response-what-experts-saying/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "We haven’t seen the last of the major tech outages",
-          "source": "The Verge",
-          "publishedAt": "2026-11-22T22:48:02.000Z",
-          "sourceUrl": "https://www.theverge.com/tech/1039851/major-tech-outages?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318433/akrales_220309_4977_0182.jpg?quality=90&strip=all&crop=0,0,100,100"
-        },
-        {
-          "title": "Cybersecurity experts break down recent tech outages, and share ways you can protect yourself",
-          "source": "CBS News",
-          "publishedAt": "2026-11-22T17:49:46.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/cybersecurity-experts-break-down-recent-tech-outages-and-share-ways-you-can-protect-yourself/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "As AI detects flaws in computer systems, is it causing more tech outages and disruptions?",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-22T17:13:38.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/nation/as-ai-detects-flaws-in-computer-systems-is-it-causing-more-tech-outages-and-disruptions?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26320714643957-1024x683.jpg"
-        }
-      ],
-      "path": "/us/entity/as-ai-detects-flaws-in-computer-systems-is-it-causing-more-tech-outages-and-disr/"
-    },
-    {
-      "id": "now-cluster-united states-flight + seattle",
-      "title": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle",
-      "brief": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 15,
-      "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "6h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 80,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The Guardian US",
-        "CBS News",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://i.guim.co.uk/img/media/97c8d10c9aa99e4620ecf17b447bec64df7ce184/58_0_909_727/master/909.jpg?width=140&quality=85&auto=format&fit=max&s=806434213ba2ab7613357a08b098174a",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-13T215519Z_1872685678_RC29NOAP6M16_RTRMADP_3_USA-FAA-GROUND-STOP-2-1024x683.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T050002Z_897893897_RC2SSOAM5B92_RTRMADP_3_USA-IMMIGRATION-SEATTLE-1024x683.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-23T02:38:16.000Z",
-          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/23/father-daughter-ice-arrests-video-sparks-protests-seattle-airport?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/97c8d10c9aa99e4620ecf17b447bec64df7ce184/58_0_909_727/master/909.jpg?width=140&quality=85&auto=format&fit=max&s=806434213ba2ab7613357a08b098174a"
-        },
-        {
-          "title": "ICE officers arrest 2 passengers boarding flight in Seattle",
-          "source": "CBS News",
-          "publishedAt": "2026-11-23T01:55:35.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Lawyer: Father and daughter detained by ICE at Seattle airport were traveling to family baptism",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-22T23:46:56.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/nation/lawyer-father-and-daughter-detained-by-ice-at-seattle-airport-were-traveling-to-family-baptism?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-13T215519Z_1872685678_RC29NOAP6M16_RTRMADP_3_USA-FAA-GROUND-STOP-2-1024x683.jpg"
-        },
-        {
-          "title": "Immigration officers make arrests at Seattle airport in 'distressing' scene, delaying flight",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-22T16:18:21.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/nation/immigration-officers-make-arrests-at-seattle-airport-in-distressing-scene-delaying-flight?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T050002Z_897893897_RC2SSOAM5B92_RTRMADP_3_USA-IMMIGRATION-SEATTLE-1024x683.jpg"
-        }
-      ],
-      "path": "/us/entity/video-of-ice-detaining-father-and-daughter-while-boarding-flight-sparks-protests/"
-    },
-    {
-      "id": "moving-cluster-united states-democrats + talks",
+      "id": "moving-cluster-united states-climate + democrats",
       "title": "Democrats secure a historic majority, and climate talks break down: Weekend Rundown",
       "brief": "Democrats secure a historic majority, and climate talks break down: Weekend Rundown.",
       "whyItMatters": "",
@@ -231,7 +103,7 @@
       "strength": 13,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "10h fresh",
+      "freshness": "11h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 80,
@@ -277,7 +149,7 @@
       "path": "/us/entity/democrats-secure-a-historic-majority-and-climate-talks-break-down-weekend-rundow/"
     },
     {
-      "id": "now-cluster-united states-talks + climate",
+      "id": "now-cluster-united states-climate + talks",
       "title": "In their own words: Leaders at UN climate talks discuss why negotiations ended without deal",
       "brief": "In their own words: Leaders at UN climate talks discuss why negotiations ended without deal.",
       "whyItMatters": "",
@@ -285,13 +157,13 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 16,
+      "strength": 14,
       "sourceCount": 3,
-      "itemCount": 5,
-      "freshness": "7h fresh",
+      "itemCount": 4,
+      "freshness": "8h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 78,
+      "alertScore": 74,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -305,7 +177,6 @@
       ],
       "images": [
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-21T161741Z_1921657800_RC2GSOAJIWLI_RTRMADP_3_CLIMATE-COP31-1024x683.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T154414Z_66204843_RC23TOAEZAFR_RTRMADP_3_CLIMATE-COP31-1024x683.jpg",
         "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6050248"
       ],
       "evidence": [
@@ -336,77 +207,133 @@
           "publishedAt": "2026-11-22T22:40:23.000Z",
           "sourceUrl": "https://www.npr.org/2026/11/22/nx-s1-6050248/what-its-like-at-a-climate-conference-as-talks-collapse?utm_source=lootura.com&ref=lootura.com",
           "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6050248"
-        },
-        {
-          "title": "UN climate talks break down over bitter disagreements on fossil fuels",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-22T16:30:17.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/world/un-climate-talks-break-down-over-bitter-disagreements-on-fossil-fuels?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T154414Z_66204843_RC23TOAEZAFR_RTRMADP_3_CLIMATE-COP31-1024x683.jpg"
         }
       ],
       "path": "/us/entity/in-their-own-words-leaders-at-un-climate-talks-discuss-why-negotiations-ended-wi/"
     },
     {
-      "id": "now-cluster-united states-trump + hosts",
-      "title": "Trump hosts third crypto gala for meme coin amid conflict of interest outcry",
-      "brief": "Trump hosts third crypto gala for meme coin amid conflict of interest outcry.",
+      "id": "now-cluster-united states-flight + seattle",
+      "title": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle",
+      "brief": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresh now",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 14,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "7h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
+        "Picks up volume fast",
         "Still active"
       ],
       "isHotNews": false,
       "sources": [
         "The Guardian US",
-        "NBC News Politics"
+        "CBS News",
+        "PBS NewsHour"
       ],
       "images": [
-        "https://i.guim.co.uk/img/media/79b37a2f8a198376688fa54f0cdba008ce48d808/801_0_3988_3192/master/3988.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=55f0507475d5ec10a54cb5ed06f02aa1",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261122-trump-manila-philippines-ww-1417-034fd4.jpg"
+        "https://i.guim.co.uk/img/media/97c8d10c9aa99e4620ecf17b447bec64df7ce184/58_0_909_727/master/909.jpg?width=140&quality=85&auto=format&fit=max&s=806434213ba2ab7613357a08b098174a",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-13T215519Z_1872685678_RC29NOAP6M16_RTRMADP_3_USA-FAA-GROUND-STOP-2-1024x683.jpg"
       ],
       "evidence": [
         {
-          "title": "Trump hosts third crypto gala for meme coin amid conflict of interest outcry",
+          "title": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle",
           "source": "The Guardian US",
-          "publishedAt": "2026-11-23T08:33:10.000Z",
-          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/22/trump-cryptocurrency-gala-meme-coin?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/79b37a2f8a198376688fa54f0cdba008ce48d808/801_0_3988_3192/master/3988.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=55f0507475d5ec10a54cb5ed06f02aa1"
+          "publishedAt": "2026-11-23T02:38:16.000Z",
+          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/23/father-daughter-ice-arrests-video-sparks-protests-seattle-airport?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/97c8d10c9aa99e4620ecf17b447bec64df7ce184/58_0_909_727/master/909.jpg?width=140&quality=85&auto=format&fit=max&s=806434213ba2ab7613357a08b098174a"
         },
         {
-          "title": "Trump hosts exclusive dinner for investors in his declining meme coin",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-22T23:11:54.137Z",
-          "sourceUrl": "https://www.nbcnews.com/politics/donald-trump/trump-hosts-exclusive-dinner-investors-declining-meme-coin-rcna610757?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261122-trump-manila-philippines-ww-1417-034fd4.jpg"
+          "title": "ICE officers arrest 2 passengers boarding flight in Seattle",
+          "source": "CBS News",
+          "publishedAt": "2026-11-23T01:55:35.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Lawyer: Father and daughter detained by ICE at Seattle airport were traveling to family baptism",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-22T23:46:56.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/nation/lawyer-father-and-daughter-detained-by-ice-at-seattle-airport-were-traveling-to-family-baptism?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-13T215519Z_1872685678_RC29NOAP6M16_RTRMADP_3_USA-FAA-GROUND-STOP-2-1024x683.jpg"
         }
       ],
-      "path": "/us/entity/trump-hosts-third-crypto-gala-for-meme-coin-amid-conflict-of-interest-outcry/"
+      "path": "/us/entity/video-of-ice-detaining-father-and-daughter-while-boarding-flight-sparks-protests/"
     },
     {
-      "id": "moving-cluster-united states-army + bomb",
-      "title": "U.S. Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
-      "brief": "U.S. Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa.",
+      "id": "moving-cluster-united states-tech + outages",
+      "title": "As AI detects flaws in computer systems, is it causing more tech outages and disruptions?",
+      "brief": "As AI detects flaws in computer systems, is it causing more tech outages and disruptions?",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
+      "state": "cooling",
+      "stateLabel": "Cooling",
       "strength": 6,
       "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "11h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 67,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26320714643957-1024x683.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Tech outages and hacks: the response and what experts are saying",
+          "source": "CBS News",
+          "publishedAt": "2026-11-22T22:50:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/tech-outages-hacks-response-what-experts-saying/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Cybersecurity experts break down recent tech outages, and share ways you can protect yourself",
+          "source": "CBS News",
+          "publishedAt": "2026-11-22T17:49:46.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/cybersecurity-experts-break-down-recent-tech-outages-and-share-ways-you-can-protect-yourself/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "As AI detects flaws in computer systems, is it causing more tech outages and disruptions?",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-22T17:13:38.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/nation/as-ai-detects-flaws-in-computer-systems-is-it-causing-more-tech-outages-and-disruptions?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26320714643957-1024x683.jpg"
+        }
+      ],
+      "path": "/us/entity/as-ai-detects-flaws-in-computer-systems-is-it-causing-more-tech-outages-and-disr/"
+    },
+    {
+      "id": "moving-cluster-united states-house + democrat",
+      "title": "Democrat Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx in North Carolina House race",
+      "brief": "Democrat Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx in North Carolina House race.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 5,
+      "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "8h fresh",
+      "freshness": "11h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 64,
@@ -416,30 +343,30 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The Guardian US",
-        "PBS NewsHour"
+        "The New York Times Politics",
+        "CBS News"
       ],
       "images": [
-        "https://i.guim.co.uk/img/media/bfed09b7de050098100a09bd0b59db30af9459f6/371_0_5417_4335/master/5417.jpg?width=140&quality=85&auto=format&fit=max&s=cc029734716f40dfb0db43ac7a89db01",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T171208Z_227238376_RC23TOAA1BK4_RTRMADP_3_IOWA-ARMY-DETONATION-1024x683.jpg"
+        "https://static01.nyt.com/images/2026/11/12/multimedia/00pol-hfo-NC-5-01-tklh/00pol-hfo-NC-5-01-tklh-mediumSquareAt3X.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f3e73972-0245-46a1-a682-bf61cdff2cc0/thumbnail/1200x630g2/0b08277177f4dc52403b61287d6bdf18/gettyimages-2303723745.jpg"
       ],
       "evidence": [
         {
-          "title": "US army to blow up bomb-making chemicals despite safety concerns",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-23T00:50:39.000Z",
-          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/22/army-blow-up-bomb-making-chemicals-iowa?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/bfed09b7de050098100a09bd0b59db30af9459f6/371_0_5417_4335/master/5417.jpg?width=140&quality=85&auto=format&fit=max&s=cc029734716f40dfb0db43ac7a89db01"
+          "title": "Democrat Chuck Hubbard Defeats 11-Term Republican Virginia Foxx in North Carolina",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-22T23:28:41.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/22/us/virginia-foxx-chuck-hubbard-north-carolina-house.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/00pol-hfo-NC-5-01-tklh/00pol-hfo-NC-5-01-tklh-mediumSquareAt3X.jpg"
         },
         {
-          "title": "U.S. Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-22T20:18:46.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/nation/u-s-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T171208Z_227238376_RC23TOAA1BK4_RTRMADP_3_IOWA-ARMY-DETONATION-1024x683.jpg"
+          "title": "Democrat Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx in North Carolina House race",
+          "source": "CBS News",
+          "publishedAt": "2026-11-22T19:48:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/democrat-chuck-hubbard-defeats-gop-rep-virginia-foxx-north-carolina/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f3e73972-0245-46a1-a682-bf61cdff2cc0/thumbnail/1200x630g2/0b08277177f4dc52403b61287d6bdf18/gettyimages-2303723745.jpg"
         }
       ],
-      "path": "/us/entity/u-s-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals/"
+      "path": "/us/entity/democrat-chuck-hubbard-defeats-longtime-gop-rep-virginia-foxx-in-north-carolina/"
     },
     {
       "id": "now-cluster-united states-world + deepest",
@@ -450,10 +377,10 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 9,
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 60,
@@ -489,69 +416,24 @@
       "path": "/us/entity/robot-submarine-exploring-world-s-deepest-ocean-trench-finds-unprecedented-volca/"
     },
     {
-      "id": "fading-cluster-united states-house + democrat",
-      "title": "Democrat Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx in North Carolina House race",
-      "brief": "Democrat Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx in North Carolina House race.",
-      "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "10h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Crosses several sources"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times Politics",
-        "CBS News"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/12/multimedia/00pol-hfo-NC-5-01-tklh/00pol-hfo-NC-5-01-tklh-mediumSquareAt3X.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f3e73972-0245-46a1-a682-bf61cdff2cc0/thumbnail/1200x630g2/0b08277177f4dc52403b61287d6bdf18/gettyimages-2303723745.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Democrat Chuck Hubbard Defeats 11-Term Republican Virginia Foxx in North Carolina",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-22T23:28:41.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/22/us/virginia-foxx-chuck-hubbard-north-carolina-house.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/00pol-hfo-NC-5-01-tklh/00pol-hfo-NC-5-01-tklh-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Democrat Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx in North Carolina House race",
-          "source": "CBS News",
-          "publishedAt": "2026-11-22T19:48:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/democrat-chuck-hubbard-defeats-gop-rep-virginia-foxx-north-carolina/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f3e73972-0245-46a1-a682-bf61cdff2cc0/thumbnail/1200x630g2/0b08277177f4dc52403b61287d6bdf18/gettyimages-2303723745.jpg"
-        }
-      ],
-      "path": "/us/entity/democrat-chuck-hubbard-defeats-longtime-gop-rep-virginia-foxx-in-north-carolina/"
-    },
-    {
-      "id": "fading-cluster-united states-nvidia + bessent",
+      "id": "moving-cluster-united states-nvidia + bessent",
       "title": "Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China",
       "brief": "Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China.",
       "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
       "state": "cooling",
       "stateLabel": "Cooling",
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "14h fresh",
+      "freshness": "15h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 41,
+      "alertScore": 59,
       "alertTriggers": [
-        "Crosses several sources"
+        "Crosses several sources",
+        "Still active"
       ],
       "isHotNews": false,
       "sources": [
