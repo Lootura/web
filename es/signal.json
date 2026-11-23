@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-23T07:10:49.736Z",
+  "updatedAt": "2026-11-23T08:00:47.814Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "287.887 enlaces analizados",
-  "dayScanLabel": "3.763 enlaces escaneados en 24h",
+  "ambientPulseLabel": "288.296 enlaces analizados",
+  "dayScanLabel": "4.172 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -20,40 +20,58 @@
   "signals": [
     {
       "id": "now-cluster-españa-pedro + sanchez",
-      "title": "Una experta en moda analiza el comentado traje color topo de Pedro Sánchez y explica qué debería ponerse de cara al debate a cuatro",
-      "brief": "Una experta en moda analiza el comentado traje color topo de Pedro Sánchez y explica qué debería ponerse de cara al debate a cuatro.",
+      "title": "Pedro Sánchez, sobre Zapatero: \"Me asesora y ayuda de manera personal, ha decidido no participar activamente en la campaña\"",
+      "brief": "Pedro Sánchez, sobre Zapatero: \"Me asesora y ayuda de manera personal, ha decidido no participar activamente en la campaña\".",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
+      "strength": 24,
+      "sourceCount": 3,
+      "itemCount": 4,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 96,
       "alertTriggers": [
         "Cruza varias fuentes",
+        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "Cadena SER",
+        "El País",
+        "El Confidencial",
         "El Mundo"
       ],
       "images": [
-        "https://cadenaser.com/resizer/v2/CQ62HTPR4FOKTEPT77AQTFWLHI.jpg?auth=c4be6b28a7169248128f255e93ad51323b9be092cfa25682525708dc739893e5&width=1920&height=1080&smart=true",
+        "https://imagenes.elpais.com/resizer/v2/C4PVNFNCWRE73MTNNOY35452GU.png?auth=1582962555c7778038b5062577b6f357a129b06261f7aeebe81b96cb632dbdf4",
+        "https://images.ecestaticos.com/FmLKzMEuHRTXs-td1LnIAFPHr3o=/0x0:900x506/1200x675/filters:fill(white):format(jpeg)/f.elconfidencial.com%2Foriginal%2F9ca%2F72f%2Fa0f%2F9ca72fa0f36f460a8bf0e2302dd889c9.jpeg",
+        "https://e01-phantom-elmundo.uecdn.es/c2b310b7fe036645d937c2ed26489d6b/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/22/17953697740702.jpg",
         "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/22/17953786895320.jpg"
       ],
       "evidence": [
         {
-          "title": "Una experta en moda analiza el comentado traje color topo de Pedro Sánchez y explica qué debería ponerse de cara al debate a cuatro",
-          "source": "Cadena SER",
-          "publishedAt": "2026-11-23T07:10:57.000Z",
-          "sourceUrl": "https://cadenaser.com/nacional/2026/11/23/una-experta-en-moda-analiza-el-comentado-traje-color-topo-de-pedro-sanchez-y-explica-que-deberia-ponerse-en-el-debate-a-cuatro-cadena-ser/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://cadenaser.com/resizer/v2/CQ62HTPR4FOKTEPT77AQTFWLHI.jpg?auth=c4be6b28a7169248128f255e93ad51323b9be092cfa25682525708dc739893e5&width=1920&height=1080&smart=true"
+          "title": "La película de la semana de TVE supera en audiencia a Pedro Sánchez en ‘Salvados’",
+          "source": "El País",
+          "publishedAt": "2026-11-23T07:40:02.000Z",
+          "sourceUrl": "https://elpais.com/television/2026-11-23/la-pelicula-de-la-semana-de-tve-supera-en-audiencia-a-la-entrevista-de-pedro-sanchez-en-salvados.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/C4PVNFNCWRE73MTNNOY35452GU.png?auth=1582962555c7778038b5062577b6f357a129b06261f7aeebe81b96cb632dbdf4"
+        },
+        {
+          "title": "Pedro Sánchez, sobre Zapatero: \"Me asesora y ayuda de manera personal, ha decidido no participar activamente en la campaña\"",
+          "source": "El Confidencial",
+          "publishedAt": "2026-11-23T07:35:00.000Z",
+          "sourceUrl": "https://www.elconfidencial.com/espana/2026-11-23/pedro-sanchez-zapatero-campana-salvados_4470416/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://images.ecestaticos.com/FmLKzMEuHRTXs-td1LnIAFPHr3o=/0x0:900x506/1200x675/filters:fill(white):format(jpeg)/f.elconfidencial.com%2Foriginal%2F9ca%2F72f%2Fa0f%2F9ca72fa0f36f460a8bf0e2302dd889c9.jpeg"
+        },
+        {
+          "title": "Zapatero, en la sombra de la campaña de Sánchez y la inspiración de 2008: \"Es un activo\", \"aconseja\" y \"ayuda\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-23T00:08:24.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b032b07fc6c83e4458b456d.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/c2b310b7fe036645d937c2ed26489d6b/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/22/17953697740702.jpg"
         },
         {
           "title": "El oscuro deseo de Pedro Sánchez",
@@ -63,44 +81,111 @@
           "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/22/17953786895320.jpg"
         }
       ],
-      "path": "/es/entity/una-experta-en-moda-analiza-el-comentado-traje-color-topo-de-pedro-sanchez-y-exp/"
+      "path": "/es/entity/pedro-sanchez-sobre-zapatero-me-asesora-y-ayuda-de-manera-personal-ha-decidido-n/"
     },
     {
-      "id": "now-cluster-españa-declarado + incendio",
-      "title": "Declarado un incendio en la península de Formentor, al noreste de Mallorca",
-      "brief": "Declarado un incendio en la península de Formentor, al noreste de Mallorca.",
+      "id": "now-cluster-españa-campana + generales",
+      "title": "Última hora en directo de la actualidad política en España: elecciones generales del 29-N y campaña electoral hoy en vivo",
+      "brief": "Última hora en directo de la actualidad política en España: elecciones generales del 29-N y campaña electoral hoy en vivo.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
+      "strength": 24,
+      "sourceCount": 3,
+      "itemCount": 3,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 92,
       "alertTriggers": [
         "Cruza varias fuentes",
+        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "Heraldo de Aragón",
+        "La Razón",
+        "OK Diario",
+        "Diario de Sevilla"
+      ],
+      "images": [
+        "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/22/91DCD341-BEAF-456F-A3CB-8C4A5E486036/96.jpg?crop=5674,3192,x0,y295&width=1200&height=675&optimize=low&format=webply",
+        "https://okdiario.com/img/2026/09/09/propuesta-directo-espana-gif-interior-2.gif",
+        "https://static.grupojoly.com/clip/f61dabbd-9bae-4251-850f-9c68d7f7af5d_source-aspect-ratio_default_0.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Elecciones generales, en directo: encuestas y última hora de la campaña electoral del 29N",
+          "source": "La Razón",
+          "publishedAt": "2026-11-23T08:00:23.000Z",
+          "sourceUrl": "https://www.larazon.es/espana/elecciones-generales-directo-encuestas-ultima-hora-campana-electoral-29n_202611236b03e554f6da642efef87380.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/22/91DCD341-BEAF-456F-A3CB-8C4A5E486036/96.jpg?crop=5674,3192,x0,y295&width=1200&height=675&optimize=low&format=webply"
+        },
+        {
+          "title": "Última hora en directo de la actualidad política en España: elecciones generales del 29-N y campaña electoral hoy en vivo",
+          "source": "OK Diario",
+          "publishedAt": "2026-11-23T08:00:16.000Z",
+          "sourceUrl": "https://okdiario.com/espana/ultima-hora-directo-actualidad-politica-espana-elecciones-generales-del-29-n-campana-electoral-hoy-vivo-6-21246441?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://okdiario.com/img/2026/09/09/propuesta-directo-espana-gif-interior-2.gif"
+        },
+        {
+          "title": "Encuestas elecciones generales 2026: última encuesta y todos los sondeos del 29-N",
+          "source": "Diario de Sevilla",
+          "publishedAt": "2026-11-23T07:19:14.000Z",
+          "sourceUrl": "https://www.diariodesevilla.es/espana/elecciones/encuestas-elecciones-generales-2026-ultima_0_2008566137.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static.grupojoly.com/clip/f61dabbd-9bae-4251-850f-9c68d7f7af5d_source-aspect-ratio_default_0.jpg"
+        }
+      ],
+      "path": "/es/entity/ultima-hora-en-directo-de-la-actualidad-politica-en-espana-elecciones-generales/"
+    },
+    {
+      "id": "now-cluster-españa-incendio + formentor",
+      "title": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca",
+      "brief": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "Diario de Sevilla",
+        "El Correo",
         "El Mundo"
       ],
       "images": [
-        "https://imagenes.heraldo.es/files/image_1920_1080/uploads/imagenes/2026/11/23/6b03e5ab380730-60403872.png",
+        "https://static.grupojoly.com/clip/469b1bfb-2438-4de6-951f-4e88374d4404_source-aspect-ratio_1600w_0.jpg",
+        "https://s3.ppllstatics.com/rc/www/multimedia/sociedad/2026/11/23/1484869047.jpg",
         "https://e01-phantom-elmundo.uecdn.es/b614e28d47f9d869c68b0dbc2f035262/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/23/17954167792127.jpg"
       ],
       "evidence": [
         {
-          "title": "Declarado un incendio en la península de Formentor, al noreste de Mallorca",
-          "source": "Heraldo de Aragón",
-          "publishedAt": "2026-11-23T07:08:52.000Z",
-          "sourceUrl": "https://www.heraldo.es/noticias/nacional/2026/11/23/declarado-incendio-peninsula-formentor-noreste-mallorca-forestales-2070961.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.heraldo.es/files/image_1920_1080/uploads/imagenes/2026/11/23/6b03e5ab380730-60403872.png"
+          "title": "Sigue sin controlar un gran incendio en Formentor (Mallorca)",
+          "source": "Diario de Sevilla",
+          "publishedAt": "2026-11-23T07:58:56.000Z",
+          "sourceUrl": "https://www.diariodesevilla.es/sociedad/sigue-controlar-gran-incendio-formentor_0_2008566311.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static.grupojoly.com/clip/469b1bfb-2438-4de6-951f-4e88374d4404_source-aspect-ratio_1600w_0.jpg"
+        },
+        {
+          "title": "Los Bomberos de Mallorca trabajan para controlar el incendio de Formentor",
+          "source": "El Correo",
+          "publishedAt": "2026-11-23T07:33:57.000Z",
+          "sourceUrl": "https://www.elcorreo.com/sociedad/bomberos-mallorca-trabajan-controlar-incendio-formentor-20261123083357-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/sociedad/2026/11/23/1484869047.jpg"
         },
         {
           "title": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca",
@@ -110,62 +195,71 @@
           "image": "https://e01-phantom-elmundo.uecdn.es/b614e28d47f9d869c68b0dbc2f035262/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/23/17954167792127.jpg"
         }
       ],
-      "path": "/es/entity/declarado-un-incendio-en-la-peninsula-de-formentor-al-noreste-de-mallorca/"
+      "path": "/es/entity/declarado-un-incendio-forestal-en-la-peninsula-de-formentor-al-noreste-de-mallor/"
     },
     {
-      "id": "now-cluster-españa-campana + elecciones",
-      "title": "Elecciones generales, en directo: encuestas y última hora de la campaña electoral del 29N",
-      "brief": "Elecciones generales, en directo: encuestas y última hora de la campaña electoral del 29N.",
+      "id": "now-cluster-españa-black + friday",
+      "title": "El cepillo alisador que deja el pelo suave y sin ‘frizz’ cae a precio mínimo histórico por Black Friday",
+      "brief": "El cepillo alisador que deja el pelo suave y sin ‘frizz’ cae a precio mínimo histórico por Black Friday.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 17,
       "sourceCount": 2,
-      "itemCount": 2,
+      "itemCount": 3,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 79,
       "alertTriggers": [
         "Cruza varias fuentes",
+        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
         "La Razón",
-        "ABC"
+        "El País"
       ],
       "images": [
-        "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/22/91DCD341-BEAF-456F-A3CB-8C4A5E486036/96.jpg?crop=5674,3192,x0,y295&width=1200&height=675&optimize=low&format=webply",
-        "https://s1.abcstatics.com/abc/www/multimedia/recreo/2026/11/16/newspaint-1794691304969-1200x840-k0OF-U40355553961ROC-1200x840@diario_abc.jpg"
+        "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/20/313C32B6-565B-4A0C-A03D-3179FD02CAC2/barro-invierno-pide-tacos-profundos-salomon-alphacross-5-llegan-black-friday-31-mas-baratas_96.jpg?crop=1240,698,x0,y0&width=1200&height=675&optimize=low&format=webply",
+        "https://imagenes.elpais.com/resizer/v2/XURJJWCQSBE2DFMJBFI3DTX3TY.png?auth=ab859e7f628879c68658976f9db707b7c33fe2c3a80ba48c24e5082197ef2805",
+        "https://imagenes.elpais.com/resizer/v2/GUV5QUDVAFHYZFUAORADCYOYZI.png?auth=7ac5fe9de207eaa5ef9876f9a981ddabe7b7abed821b1eac93e4ec72312f5e1e"
       ],
       "evidence": [
         {
-          "title": "Elecciones generales, en directo: encuestas y última hora de la campaña electoral del 29N",
+          "title": "El barro del invierno pide tacos profundos, y las Salomon Alphacross 5 llegan al Black Friday un 31% más baratas",
           "source": "La Razón",
-          "publishedAt": "2026-11-23T07:03:48.000Z",
-          "sourceUrl": "https://www.larazon.es/espana/elecciones-generales-directo-encuestas-ultima-hora-campana-electoral-29n_202611236b03e554f6da642efef87380.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/22/91DCD341-BEAF-456F-A3CB-8C4A5E486036/96.jpg?crop=5674,3192,x0,y295&width=1200&height=675&optimize=low&format=webply"
+          "publishedAt": "2026-11-23T08:00:13.000Z",
+          "sourceUrl": "https://www.larazon.es/compras/barro-invierno-pide-tacos-profundos-salomon-alphacross-5-llegan-black-friday-31-mas-baratas-3v3r_202611236b03f28dff6fec2921989f10.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/20/313C32B6-565B-4A0C-A03D-3179FD02CAC2/barro-invierno-pide-tacos-profundos-salomon-alphacross-5-llegan-black-friday-31-mas-baratas_96.jpg?crop=1240,698,x0,y0&width=1200&height=675&optimize=low&format=webply"
         },
         {
-          "title": "Pedro Ruiz, sobre a qué partido votará en las elecciones generales del 29N",
-          "source": "ABC",
-          "publishedAt": "2026-11-23T06:52:51.000Z",
-          "sourceUrl": "https://www.abc.es/recreo/pedro-ruiz-sobre-partido-votara-elecciones-generales-20261116053000-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.abcstatics.com/abc/www/multimedia/recreo/2026/11/16/newspaint-1794691304969-1200x840-k0OF-U40355553961ROC-1200x840@diario_abc.jpg"
+          "title": "El cepillo alisador que deja el pelo suave y sin ‘frizz’ cae a precio mínimo histórico por Black Friday",
+          "source": "El País",
+          "publishedAt": "2026-11-23T06:00:00.000Z",
+          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-semana-black-friday-2026-cepillo-alisador-remington.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/XURJJWCQSBE2DFMJBFI3DTX3TY.png?auth=ab859e7f628879c68658976f9db707b7c33fe2c3a80ba48c24e5082197ef2805"
+        },
+        {
+          "title": "Cinco sudaderas de Levi’s, Adidas y más marcas con descuentazos de Black Friday",
+          "source": "El País",
+          "publishedAt": "2026-11-23T05:45:00.000Z",
+          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/sudaderas-oferta-black-friday.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/GUV5QUDVAFHYZFUAORADCYOYZI.png?auth=7ac5fe9de207eaa5ef9876f9a981ddabe7b7abed821b1eac93e4ec72312f5e1e"
         }
       ],
-      "path": "/es/entity/elecciones-generales-en-directo-encuestas-y-ultima-hora-de-la-campana-electoral/"
+      "path": "/es/entity/el-cepillo-alisador-que-deja-el-pelo-suave-y-sin-frizz-cae-a-precio-minimo-histo/"
     },
     {
-      "id": "now-cluster-españa-menos + muertos",
-      "title": "Al menos 15 muertos tras bombardeos rusos sobre Ucrania en la región de Kiev",
-      "brief": "Al menos 15 muertos tras bombardeos rusos sobre Ucrania en la región de Kiev.",
+      "id": "moving-cluster-españa-tecnicas + reunidas",
+      "title": "Técnicas Reunidas desarrollará tres centrales eléctricas para RWE en Alemania por más de 1.500 millones",
+      "brief": "Técnicas Reunidas desarrollará tres centrales eléctricas para RWE en Alemania por más de 1.500 millones.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
       "strength": 16,
@@ -181,30 +275,30 @@
       ],
       "isHotNews": false,
       "sources": [
-        "Heraldo de Aragón",
-        "El Mundo"
+        "Expansión",
+        "Cinco Días"
       ],
       "images": [
-        "https://imagenes.heraldo.es/files/image_1920_1080/uploads/imagenes/2026/11/23/6b03e2d03a4338-60473699.jpeg",
-        "https://e01-phantom-elmundo.uecdn.es/f8e4564f41c4d34528cf7500c8e83b67/crop/22x0/1103x721/f/webp/assets/multimedia/imagenes/2026/11/23/17954155068584.jpg"
+        "https://e00-xlk-ue-expansion.uecdn.es/files/article_main_microformat/uploads/2026/10/07/16590805600632.jpeg",
+        "https://imagenes.elpais.com/resizer/v2/JNMOSKD5ERHQJGPXX6CT2PRPCY.jpg?auth=28037fde273dab5be3948069e62eb2ca01e9fd3661535abaf46aa1927f212014"
       ],
       "evidence": [
         {
-          "title": "Los muertos en el ataque ruso del domingo a la región de Kiev superan ya la decena",
-          "source": "Heraldo de Aragón",
-          "publishedAt": "2026-11-23T06:57:33.000Z",
-          "sourceUrl": "https://www.heraldo.es/noticias/internacional/2026/11/23/muertos-ataque-ruso-region-kiev-superan-decena-ucrania-guerra-2070959.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.heraldo.es/files/image_1920_1080/uploads/imagenes/2026/11/23/6b03e2d03a4338-60473699.jpeg"
+          "title": "Técnicas Reunidas desarrollará tres centrales eléctricas en Alemania por 1.500 millones",
+          "source": "Expansión",
+          "publishedAt": "2026-11-23T07:37:54.000Z",
+          "sourceUrl": "https://www.expansion.com/empresas/industria/2026/11/23/tecnicas-reunidas-desarrollara-tres-centrales-electricas-alemania-1-500-millones.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-xlk-ue-expansion.uecdn.es/files/article_main_microformat/uploads/2026/10/07/16590805600632.jpeg"
         },
         {
-          "title": "Al menos 15 muertos tras bombardeos rusos sobre Ucrania en la región de Kiev",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-23T06:32:40.000Z",
-          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/23/6b03ddfde9cf4a5f188b4574.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/f8e4564f41c4d34528cf7500c8e83b67/crop/22x0/1103x721/f/webp/assets/multimedia/imagenes/2026/11/23/17954155068584.jpg"
+          "title": "Técnicas Reunidas desarrollará tres centrales eléctricas para RWE en Alemania por más de 1.500 millones",
+          "source": "Cinco Días",
+          "publishedAt": "2026-11-23T07:34:31.000Z",
+          "sourceUrl": "https://cincodias.elpais.com/companias/2026-11-23/tecnicas-reunidas-desarrollara-tres-centrales-electricas-para-rwe-en-alemania-por-mas-de-1500-millones.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/JNMOSKD5ERHQJGPXX6CT2PRPCY.jpg?auth=28037fde273dab5be3948069e62eb2ca01e9fd3661535abaf46aa1927f212014"
         }
       ],
-      "path": "/es/entity/al-menos-15-muertos-tras-bombardeos-rusos-sobre-ucrania-en-la-region-de-kiev/"
+      "path": "/es/entity/tecnicas-reunidas-desarrollara-tres-centrales-electricas-para-rwe-en-alemania-po/"
     },
     {
       "id": "moving-cluster-españa-victoria + atletico",
@@ -215,10 +309,10 @@
       "mode": "moving",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 6,
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "9h fresca",
+      "freshness": "10h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -265,10 +359,10 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "12h fresca",
+      "freshness": "13h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 64,
+      "alertScore": 59,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -309,10 +403,10 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "12h fresca",
+      "freshness": "13h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 64,
+      "alertScore": 59,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
