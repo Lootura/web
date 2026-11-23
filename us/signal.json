@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-23T00:40:48.445Z",
+  "updatedAt": "2026-11-23T07:10:49.736Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "366,695 links analyzed",
-  "dayScanLabel": "8,322 links scanned in 24h",
+  "ambientPulseLabel": "367,529 links analyzed",
+  "dayScanLabel": "7,487 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -17,18 +17,18 @@
     ]
   },
   "topAlert": {
-    "id": "now-cluster-united states-delta + delays",
+    "id": "moving-cluster-united states-delta + delays",
     "title": "Automation system problem at Delta causes flight delays as Americans travel for Thanksgiving",
     "brief": "Automation system problem at Delta causes flight delays as Americans travel for Thanksgiving.",
     "whyItMatters": "",
     "verdict": "If it repeats in the next run, it gains weight.",
-    "mode": "now",
-    "state": "rising",
-    "stateLabel": "Rising",
-    "strength": 31,
-    "sourceCount": 6,
-    "itemCount": 7,
-    "freshness": "fresh now",
+    "mode": "moving",
+    "state": "active",
+    "stateLabel": "Active",
+    "strength": 20,
+    "sourceCount": 5,
+    "itemCount": 6,
+    "freshness": "7h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -93,18 +93,18 @@
   },
   "signals": [
     {
-      "id": "now-cluster-united states-delta + delays",
+      "id": "moving-cluster-united states-delta + delays",
       "title": "Automation system problem at Delta causes flight delays as Americans travel for Thanksgiving",
       "brief": "Automation system problem at Delta causes flight delays as Americans travel for Thanksgiving.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 31,
-      "sourceCount": 6,
-      "itemCount": 7,
-      "freshness": "fresh now",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 20,
+      "sourceCount": 5,
+      "itemCount": 6,
+      "freshness": "7h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -168,21 +168,21 @@
       "path": "/us/entity/automation-system-problem-at-delta-causes-flight-delays-as-americans-travel-for/"
     },
     {
-      "id": "now-cluster-united states-house + democrats",
+      "id": "moving-cluster-united states-house + democrats",
       "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
       "brief": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 28,
-      "sourceCount": 5,
-      "itemCount": 5,
-      "freshness": "1h fresh",
-      "alertLevel": "watch",
-      "alertLabel": "Watch",
-      "alertScore": 99,
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 16,
+      "sourceCount": 4,
+      "itemCount": 4,
+      "freshness": "8h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 95,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -193,19 +193,17 @@
         "The New York Times Politics",
         "CBS News",
         "NBC News Politics",
-        "The Guardian US",
         "PBS NewsHour"
       ],
       "images": [
         "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261122-Chuck-Hubbard-vsb-140-afd7b2.jpg",
-        "https://i.guim.co.uk/img/media/5f402191919a3838c9536ca633ae08dfe18991da/530_0_4817_3854/master/4817.jpg?width=140&quality=85&auto=format&fit=max&s=0dd4f5e8250545a497550708fd2cadb3",
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T122640Z_1733617564_RC2NPOA4FN91_RTRMADP_3_USA-CONGRESS-1024x683.jpg"
       ],
       "evidence": [
         {
           "title": "Democrats Clinch 258 House Seats, an Election-Year Record This Century",
           "source": "The New York Times Politics",
-          "publishedAt": "2026-11-22T23:30:07.000Z",
+          "publishedAt": "2026-11-22T23:30:08.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/22/us/politics/democrats-midterm-house-majority-record.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
@@ -224,13 +222,6 @@
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261122-Chuck-Hubbard-vsb-140-afd7b2.jpg"
         },
         {
-          "title": "Democrats capture at least 258 House seats in largest sweep since 1992",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-22T19:17:56.000Z",
-          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/22/house-democrats-historic-sweep?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/5f402191919a3838c9536ca633ae08dfe18991da/530_0_4817_3854/master/4817.jpg?width=140&quality=85&auto=format&fit=max&s=0dd4f5e8250545a497550708fd2cadb3"
-        },
-        {
           "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
           "source": "PBS NewsHour",
           "publishedAt": "2026-11-22T18:24:22.000Z",
@@ -241,21 +232,148 @@
       "path": "/us/entity/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-the-largest-sin/"
     },
     {
+      "id": "moving-cluster-united states-talks + climate",
+      "title": "In their own words: Leaders at UN climate talks discuss why negotiations ended without deal",
+      "brief": "In their own words: Leaders at UN climate talks discuss why negotiations ended without deal.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 17,
+      "sourceCount": 3,
+      "itemCount": 5,
+      "freshness": "5h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 94,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "PBS NewsHour",
+        "NPR"
+      ],
+      "images": [
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-21T161741Z_1921657800_RC2GSOAJIWLI_RTRMADP_3_CLIMATE-COP31-1024x683.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T154414Z_66204843_RC23TOAEZAFR_RTRMADP_3_CLIMATE-COP31-1024x683.jpg",
+        "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6050248"
+      ],
+      "evidence": [
+        {
+          "title": "U.N. climate summit ends without deal after contentious fossil fuel debate",
+          "source": "CBS News",
+          "publishedAt": "2026-11-23T01:57:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/un-cop31-climate-conference-ends-no-agreement-fossil-fuel-debate-standstill/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "International climate talks fall apart over fossil fuels",
+          "source": "CBS News",
+          "publishedAt": "2026-11-23T01:56:06.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/international-climate-talks-fall-apart-over-fossil-fuels/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "In their own words: Leaders at UN climate talks discuss why negotiations ended without deal",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-22T23:00:37.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/world/in-their-own-words-leaders-at-un-climate-talks-discuss-why-negotiations-ended-without-deal?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-21T161741Z_1921657800_RC2GSOAJIWLI_RTRMADP_3_CLIMATE-COP31-1024x683.jpg"
+        },
+        {
+          "title": "What it's like at a climate conference as talks collapse",
+          "source": "NPR",
+          "publishedAt": "2026-11-22T22:40:23.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/22/nx-s1-6050248/what-its-like-at-a-climate-conference-as-talks-collapse?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6050248"
+        },
+        {
+          "title": "UN climate talks break down over bitter disagreements on fossil fuels",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-22T16:30:17.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/world/un-climate-talks-break-down-over-bitter-disagreements-on-fossil-fuels?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T154414Z_66204843_RC23TOAEZAFR_RTRMADP_3_CLIMATE-COP31-1024x683.jpg"
+        }
+      ],
+      "path": "/us/entity/in-their-own-words-leaders-at-un-climate-talks-discuss-why-negotiations-ended-wi/"
+    },
+    {
+      "id": "now-cluster-united states-army + detonation",
+      "title": "Army moves detonation of 10,000 pounds of lead azide to Wednesday",
+      "brief": "Army moves detonation of 10,000 pounds of lead azide to Wednesday.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "ABC News",
+        "CBS News",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://s.abcnews.com/images/Politics/iowa-plant-sign-gty-jt-261120_1795197818263_hpMain_4x3t_384.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T171208Z_227238376_RC23TOAA1BK4_RTRMADP_3_IOWA-ARMY-DETONATION-1024x683.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Army moves detonation of 10,000 pounds of lead azide to Wednesday",
+          "source": "ABC News",
+          "publishedAt": "2026-11-23T06:21:58.000Z",
+          "sourceUrl": "https://abcnews.com/US/army-moves-detonation-10000-pounds-lead-azide-wedneday/story?id=138330909&utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s.abcnews.com/images/Politics/iowa-plant-sign-gty-jt-261120_1795197818263_hpMain_4x3t_384.jpg"
+        },
+        {
+          "title": "Army plans to carry out detonation at Iowa plant on Wednesday",
+          "source": "CBS News",
+          "publishedAt": "2026-11-23T03:02:31.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/us-army-iowa-plant-detonation-court-records/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "U.S. Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-22T20:18:46.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/nation/u-s-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T171208Z_227238376_RC23TOAA1BK4_RTRMADP_3_IOWA-ARMY-DETONATION-1024x683.jpg"
+        }
+      ],
+      "path": "/us/entity/army-moves-detonation-of-10-000-pounds-of-lead-azide-to-wednesday/"
+    },
+    {
       "id": "moving-cluster-united states-tech + outages",
       "title": "As AI detects flaws in computer systems, is it causing more tech outages and disruptions?",
       "brief": "As AI detects flaws in computer systems, is it causing more tech outages and disruptions?",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 23,
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 14,
       "sourceCount": 3,
       "itemCount": 4,
-      "freshness": "2h fresh",
+      "freshness": "8h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 96,
+      "alertScore": 84,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -304,78 +422,21 @@
       "path": "/us/entity/as-ai-detects-flaws-in-computer-systems-is-it-causing-more-tech-outages-and-disr/"
     },
     {
-      "id": "moving-cluster-united states-democrat + chuck",
-      "title": "Democrat Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx in North Carolina House race",
-      "brief": "Democrat Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx in North Carolina House race.",
+      "id": "now-cluster-united states-flight + seattle",
+      "title": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle",
+      "brief": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "1h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 92,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times Politics",
-        "ABC News",
-        "CBS News"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/12/multimedia/00pol-hfo-NC-5-01-tklh/00pol-hfo-NC-5-01-tklh-mediumSquareAt3X.jpg",
-        "https://s.abcnews.com/images/US/AP26312701855096_1795375994064_hpMain_4x3t_384.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f3e73972-0245-46a1-a682-bf61cdff2cc0/thumbnail/1200x630g2/0b08277177f4dc52403b61287d6bdf18/gettyimages-2303723745.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Democrat Chuck Hubbard Defeats 11-Term Republican Virginia Foxx in North Carolina",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-22T23:28:41.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/22/us/virginia-foxx-chuck-hubbard-north-carolina-house.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/00pol-hfo-NC-5-01-tklh/00pol-hfo-NC-5-01-tklh-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Democrat Chuck Hubbard wins recount, flips North Carolina US House seat",
-          "source": "ABC News",
-          "publishedAt": "2026-11-22T21:48:58.000Z",
-          "sourceUrl": "https://abcnews.com/Politics/democrat-chuck-hubbard-wins-recount-north-carolina-us/story?id=138362634&utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s.abcnews.com/images/US/AP26312701855096_1795375994064_hpMain_4x3t_384.jpg"
-        },
-        {
-          "title": "Democrat Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx in North Carolina House race",
-          "source": "CBS News",
-          "publishedAt": "2026-11-22T19:48:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/democrat-chuck-hubbard-defeats-gop-rep-virginia-foxx-north-carolina/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f3e73972-0245-46a1-a682-bf61cdff2cc0/thumbnail/1200x630g2/0b08277177f4dc52403b61287d6bdf18/gettyimages-2303723745.jpg"
-        }
-      ],
-      "path": "/us/entity/democrat-chuck-hubbard-defeats-longtime-gop-rep-virginia-foxx-in-north-carolina/"
-    },
-    {
-      "id": "moving-cluster-united states-talks + climate",
-      "title": "Climate change talks fall apart in final hours over fossil fuels",
-      "brief": "Climate change talks fall apart in final hours over fossil fuels.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 15,
+      "strength": 16,
       "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "6h fresh",
+      "itemCount": 4,
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 86,
+      "alertScore": 80,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -383,53 +444,60 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The New York Times World",
-        "NPR World",
+        "The Guardian US",
+        "CBS News",
         "PBS NewsHour"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/22/multimedia/22cli-cop31-final3-fmcb/22cli-cop31-final3-fmcb-mediumSquareAt3X-v2.jpg",
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4074x2716+0+0/resize/4074x2716!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fc0%2F99%2F06ba60a34fb4ba38b24264298650%2Fap26326503765925-1.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T154414Z_66204843_RC23TOAEZAFR_RTRMADP_3_CLIMATE-COP31-1024x683.jpg"
+        "https://i.guim.co.uk/img/media/97c8d10c9aa99e4620ecf17b447bec64df7ce184/58_0_909_727/master/909.jpg?width=140&quality=85&auto=format&fit=max&s=806434213ba2ab7613357a08b098174a",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-13T215519Z_1872685678_RC29NOAP6M16_RTRMADP_3_USA-FAA-GROUND-STOP-2-1024x683.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T050002Z_897893897_RC2SSOAM5B92_RTRMADP_3_USA-IMMIGRATION-SEATTLE-1024x683.jpg"
       ],
       "evidence": [
         {
-          "title": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels",
-          "source": "The New York Times World",
-          "publishedAt": "2026-11-22T18:20:39.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22cli-cop31-final3-fmcb/22cli-cop31-final3-fmcb-mediumSquareAt3X-v2.jpg"
+          "title": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-23T02:38:16.000Z",
+          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/23/father-daughter-ice-arrests-video-sparks-protests-seattle-airport?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/97c8d10c9aa99e4620ecf17b447bec64df7ce184/58_0_909_727/master/909.jpg?width=140&quality=85&auto=format&fit=max&s=806434213ba2ab7613357a08b098174a"
         },
         {
-          "title": "Climate change talks fall apart in final hours over fossil fuels",
-          "source": "NPR World",
-          "publishedAt": "2026-11-22T16:33:22.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4074x2716+0+0/resize/4074x2716!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fc0%2F99%2F06ba60a34fb4ba38b24264298650%2Fap26326503765925-1.jpg"
+          "title": "ICE officers arrest 2 passengers boarding flight in Seattle",
+          "source": "CBS News",
+          "publishedAt": "2026-11-23T01:55:35.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
-          "title": "UN climate talks break down over bitter disagreements on fossil fuels",
+          "title": "Lawyer: Father and daughter detained by ICE at Seattle airport were traveling to family baptism",
           "source": "PBS NewsHour",
-          "publishedAt": "2026-11-22T16:30:17.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/world/un-climate-talks-break-down-over-bitter-disagreements-on-fossil-fuels?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T154414Z_66204843_RC23TOAEZAFR_RTRMADP_3_CLIMATE-COP31-1024x683.jpg"
+          "publishedAt": "2026-11-22T23:46:56.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/nation/lawyer-father-and-daughter-detained-by-ice-at-seattle-airport-were-traveling-to-family-baptism?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-13T215519Z_1872685678_RC29NOAP6M16_RTRMADP_3_USA-FAA-GROUND-STOP-2-1024x683.jpg"
+        },
+        {
+          "title": "Immigration officers make arrests at Seattle airport in 'distressing' scene, delaying flight",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-22T16:18:21.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/nation/immigration-officers-make-arrests-at-seattle-airport-in-distressing-scene-delaying-flight?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T050002Z_897893897_RC2SSOAM5B92_RTRMADP_3_USA-IMMIGRATION-SEATTLE-1024x683.jpg"
         }
       ],
-      "path": "/us/entity/climate-change-talks-fall-apart-in-final-hours-over-fossil-fuels/"
+      "path": "/us/entity/video-of-ice-detaining-father-and-daughter-while-boarding-flight-sparks-protests/"
     },
     {
-      "id": "now-cluster-united states-abdul + sayed",
-      "title": "Abdul El-Sayed says passing Medicare for all with Trump support would be ‘the ultimate trump card’",
-      "brief": "Abdul El-Sayed says passing Medicare for all with Trump support would be ‘the ultimate trump card’.",
+      "id": "now-cluster-united states-house + state",
+      "title": "NJ State House News: New Jersey gangs go digital with social media and younger members | NJ Spotlight News",
+      "brief": "NJ State House News: New Jersey gangs go digital with social media and younger members | NJ Spotlight News.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 79,
@@ -440,12 +508,114 @@
       ],
       "isHotNews": false,
       "sources": [
+        "New Jersey Spotlight News",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://www.njspotlightnews.org/wp-content/uploads/sites/123/2026/11/wheels-of-soul-nj-mc-1024x576.png",
+        "https://www.njspotlightnews.org/wp-content/uploads/sites/123/2024/11/nj-schools-school-students-hallway-class.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2020-04-16T000000Z_2143405817_RC2Q5G9WY691_RTRMADP_3_HEALTH-CORONAVIRUS-USA-BIRTHS-1024x684.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "NJ State House News: New Jersey gangs go digital with social media and younger members | NJ Spotlight News",
+          "source": "New Jersey Spotlight News",
+          "publishedAt": "2026-11-23T05:10:06.000Z",
+          "sourceUrl": "https://www.njspotlightnews.org/2026/11/nj-state-house-news-new-jersey-gangs-go-digital-with-social-media-and-younger-members/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://www.njspotlightnews.org/wp-content/uploads/sites/123/2026/11/wheels-of-soul-nj-mc-1024x576.png"
+        },
+        {
+          "title": "Appeals court: New Jersey school segregation lawsuit unresolved | NJ Spotlight News",
+          "source": "New Jersey Spotlight News",
+          "publishedAt": "2026-11-23T05:08:52.000Z",
+          "sourceUrl": "https://www.njspotlightnews.org/2026/11/appeals-court-new-jersey-school-segregation-lawsuit-unresolved/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://www.njspotlightnews.org/wp-content/uploads/sites/123/2024/11/nj-schools-school-students-hallway-class.jpg"
+        },
+        {
+          "title": "Appeals court says federal law requiring accommodations for pregnant workers is unconstitutional",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-22T21:21:26.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/nation/appeals-court-says-federal-law-requiring-accommodations-for-pregnant-workers-is-unconstitutional?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2020-04-16T000000Z_2143405817_RC2Q5G9WY691_RTRMADP_3_HEALTH-CORONAVIRUS-USA-BIRTHS-1024x684.jpg"
+        }
+      ],
+      "path": "/us/entity/nj-state-house-news-new-jersey-gangs-go-digital-with-social-media-and-younger-me/"
+    },
+    {
+      "id": "now-cluster-united states-world + deepest",
+      "title": "Robot submarine exploring world's deepest ocean trench finds unprecedented volcanic activity",
+      "brief": "Robot submarine exploring world's deepest ocean trench finds unprecedented volcanic activity.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "Phys.org",
+        "Science News"
+      ],
+      "images": [
+        "https://scx2.b-cdn.net/gfx/news/hires/2026/robot-submarine-explor.jpg",
+        "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112026_CG_volcanism_main.jpg?w=800"
+      ],
+      "evidence": [
+        {
+          "title": "Robot submarine exploring world's deepest ocean trench finds unprecedented volcanic activity",
+          "source": "Phys.org",
+          "publishedAt": "2026-11-23T05:00:02.000Z",
+          "sourceUrl": "https://phys.org/news/2026-11-robot-submarine-exploring-world-deepest.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/robot-submarine-explor.jpg"
+        },
+        {
+          "title": "Motion under the ocean explains the depth of the world’s deepest spot",
+          "source": "Science News",
+          "publishedAt": "2026-11-23T05:00:00.000Z",
+          "sourceUrl": "https://www.sciencenews.org/article/ocean-deepest-spot-explained-challenger?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112026_CG_volcanism_main.jpg?w=800"
+        }
+      ],
+      "path": "/us/entity/robot-submarine-exploring-world-s-deepest-ocean-trench-finds-unprecedented-volca/"
+    },
+    {
+      "id": "fading-cluster-united states-abdul + sayed",
+      "title": "Abdul El-Sayed says passing Medicare for all with Trump support would be ‘the ultimate trump card’",
+      "brief": "Abdul El-Sayed says passing Medicare for all with Trump support would be ‘the ultimate trump card’.",
+      "whyItMatters": "",
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "7h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 49,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast"
+      ],
+      "isHotNews": false,
+      "sources": [
         "NBC News Politics",
         "NBC News"
       ],
       "images": [
         "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795391791325_wnn_jts_trump_indicates_hes_open_to_working_with_elsayed_on_healthcare_261122_S3_1920x1080-ft3xl7.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261122-Abdul-El-Sayed-DC-vsb-2136-645326.jpg"
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261122-Abdul-El-Sayed-DC-vsb-2136-645326.jpg"
       ],
       "evidence": [
         {
@@ -458,9 +628,9 @@
         {
           "title": "Sen.-elect Abdul El-Sayed says he’s open to working with the Trump administration",
           "source": "NBC News Politics",
-          "publishedAt": "2026-11-22T15:16:23.000Z",
+          "publishedAt": "2026-11-22T20:38:05.864Z",
           "sourceUrl": "https://www.nbcnews.com/politics/congress/abdul-el-sayed-open-working-trump-administration-healthcare-medicare-rcna610664?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261122-Abdul-El-Sayed-DC-vsb-2136-645326.jpg"
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261122-Abdul-El-Sayed-DC-vsb-2136-645326.jpg"
         },
         {
           "title": "Abdul El-Sayed says passing Medicare for all with Trump support would be ‘the ultimate trump card’",
@@ -473,148 +643,9 @@
       "path": "/us/entity/abdul-el-sayed-says-passing-medicare-for-all-with-trump-support-would-be-the-ult/"
     },
     {
-      "id": "now-cluster-united states-business + chiefs",
-      "title": "Chiefs and Bills take care of business ahead of the NFL’s biggest regular-season game",
-      "brief": "Chiefs and Bills take care of business ahead of the NFL’s biggest regular-season game.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "Fox News",
-        "The Guardian US"
-      ],
-      "images": [
-        "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/patrick-mahomes-josh-allen-chiefs-bills-playoff.jpg?ve=1&tl=1",
-        "https://i.guim.co.uk/img/media/e08614ee19cae07351a2c8a1502bc38cbf7b6157/223_0_1905_1524/master/1905.jpg?width=140&quality=85&auto=format&fit=max&s=0d9cedfdd4c8dbe8fe788409b3872ed5"
-      ],
-      "evidence": [
-        {
-          "title": "Chiefs and Bills take care of business ahead of the NFL’s biggest regular-season game",
-          "source": "Fox News",
-          "publishedAt": "2026-11-22T23:46:08.000Z",
-          "sourceUrl": "https://www.foxnews.com/outkick-sports/chiefs-bills-take-care-business-ahead-nfl-biggest-regular-season-game?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/patrick-mahomes-josh-allen-chiefs-bills-playoff.jpg?ve=1&tl=1"
-        },
-        {
-          "title": "NFL roundup: Chiefs, Lions and Bills march on; Metcalf ejected for eye poke in Steelers loss",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-22T21:57:54.000Z",
-          "sourceUrl": "https://www.theguardian.com/sport/2026/nov/22/nfl-roundup-sunday-football-scores?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/e08614ee19cae07351a2c8a1502bc38cbf7b6157/223_0_1905_1524/master/1905.jpg?width=140&quality=85&auto=format&fit=max&s=0d9cedfdd4c8dbe8fe788409b3872ed5"
-        }
-      ],
-      "path": "/us/entity/chiefs-and-bills-take-care-of-business-ahead-of-the-nfl-s-biggest-regular-season/"
-    },
-    {
-      "id": "moving-cluster-united states-ukrainian + russian",
-      "title": "Russian warship struck by suspected Ukrainian sea drones at Benghazi naval base, Libyan officials say",
-      "brief": "Russian warship struck by suspected Ukrainian sea drones at Benghazi naval base, Libyan officials say.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The Guardian US",
-        "CBS News"
-      ],
-      "images": [
-        "https://i.guim.co.uk/img/media/196206fc578eb19b5303b6bfe5930996ed24961b/0_0_900_720/master/900.jpg?width=140&quality=85&auto=format&fit=max&s=4a5a7fec09c73b0d217b6d1303a01b0c",
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/22/cddcf89c-30d3-466a-aa34-bf3d623dbc48/thumbnail/1200x630/188c817cd5519ea6327fd31141954c15/2026-11-22t195244z-1832180370-rc2ysoaiuqgm-rtrmadp-3-libya-port-explosion.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-22T21:33:44.000Z",
-          "sourceUrl": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/196206fc578eb19b5303b6bfe5930996ed24961b/0_0_900_720/master/900.jpg?width=140&quality=85&auto=format&fit=max&s=4a5a7fec09c73b0d217b6d1303a01b0c"
-        },
-        {
-          "title": "Russian warship struck by suspected Ukrainian sea drones at Benghazi naval base, Libyan officials say",
-          "source": "CBS News",
-          "publishedAt": "2026-11-22T18:20:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/russian-warship-struck-suspected-ukrainian-sea-drones-benghazi-naval-base-libya-officials/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/22/cddcf89c-30d3-466a-aa34-bf3d623dbc48/thumbnail/1200x630/188c817cd5519ea6327fd31141954c15/2026-11-22t195244z-1832180370-rc2ysoaiuqgm-rtrmadp-3-libya-port-explosion.jpg"
-        }
-      ],
-      "path": "/us/entity/russian-warship-struck-by-suspected-ukrainian-sea-drones-at-benghazi-naval-base/"
-    },
-    {
-      "id": "fading-cluster-united states-army + plans",
-      "title": "U.S. Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
-      "brief": "U.S. Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa.",
-      "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Crosses several sources"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T171208Z_227238376_RC23TOAA1BK4_RTRMADP_3_IOWA-ARMY-DETONATION-1024x683.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Army plans to carry out detonation at Iowa plant despite indefinite pause",
-          "source": "CBS News",
-          "publishedAt": "2026-11-22T21:03:02.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/us-army-iowa-plant-detonation-court-records/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "U.S. Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-22T20:18:46.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/nation/u-s-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T171208Z_227238376_RC23TOAA1BK4_RTRMADP_3_IOWA-ARMY-DETONATION-1024x683.jpg"
-        }
-      ],
-      "path": "/us/entity/u-s-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals/"
-    },
-    {
-      "id": "fading-cluster-united states-trump + chief",
-      "title": "U.S. intelligence chief says Trump's description of Putin as a 'friend' is 'entirely appropriate'",
-      "brief": "U.S. intelligence chief says Trump's description of Putin as a 'friend' is 'entirely appropriate'.",
+      "id": "fading-cluster-united states-trump + hosts",
+      "title": "Trump hosts third crypto gala for meme coin amid conflict of interest outcry",
+      "brief": "Trump hosts third crypto gala for meme coin amid conflict of interest outcry.",
       "whyItMatters": "",
       "verdict": "If it does not reappear, it leaves the cover.",
       "mode": "fading",
@@ -623,39 +654,85 @@
       "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresh",
+      "freshness": "7h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 52,
+      "alertScore": 46,
       "alertTriggers": [
         "Crosses several sources"
       ],
       "isHotNews": false,
       "sources": [
-        "PBS NewsHour",
-        "ABC News"
+        "The Guardian US",
+        "NBC News Politics"
       ],
       "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-18T152612Z_1192953778_RC2FQOADLE00_RTRMADP_3_USA-SECURITY-MULLIN-2-1024x683.jpg",
-        "https://i.abcnewsfe.com/a/03d3a966-01ad-4dc0-adb3-517ca164161e/DNIClayton_TW-abc_cw_20261122_1795364812910_hpMain_16x9.jpg?w=1600"
+        "https://i.guim.co.uk/img/media/79b37a2f8a198376688fa54f0cdba008ce48d808/801_0_3988_3192/master/3988.jpg?width=140&quality=85&auto=format&fit=max&s=8e8655ae5e48a38e70dd33fcd33d5626",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261122-trump-manila-philippines-ww-1417-034fd4.jpg"
       ],
       "evidence": [
         {
-          "title": "U.S. intelligence chief says Trump's description of Putin as a 'friend' is 'entirely appropriate'",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-22T18:37:06.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/world/u-s-intelligence-chief-says-trumps-description-of-putin-as-a-friend-is-entirely-appropriate?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-18T152612Z_1192953778_RC2FQOADLE00_RTRMADP_3_USA-SECURITY-MULLIN-2-1024x683.jpg"
+          "title": "Trump hosts third crypto gala for meme coin amid conflict of interest outcry",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-23T00:31:31.000Z",
+          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/22/trump-cryptocurrency-gala-meme-coin?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/79b37a2f8a198376688fa54f0cdba008ce48d808/801_0_3988_3192/master/3988.jpg?width=140&quality=85&auto=format&fit=max&s=8e8655ae5e48a38e70dd33fcd33d5626"
         },
         {
-          "title": "DNI Clayton: Putin is 'not America's friend in Ukraine'",
-          "source": "ABC News",
-          "publishedAt": "2026-11-22T16:34:23.000Z",
-          "sourceUrl": "https://abcnews.com/Politics/dni-clayton-putin-americas-friend-ukraine/story?id=138356905&utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.abcnewsfe.com/a/03d3a966-01ad-4dc0-adb3-517ca164161e/DNIClayton_TW-abc_cw_20261122_1795364812910_hpMain_16x9.jpg?w=1600"
+          "title": "Trump hosts exclusive dinner for investors in his declining meme coin",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-22T23:11:54.137Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/donald-trump/trump-hosts-exclusive-dinner-investors-declining-meme-coin-rcna610757?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261122-trump-manila-philippines-ww-1417-034fd4.jpg"
         }
       ],
-      "path": "/us/entity/u-s-intelligence-chief-says-trump-s-description-of-putin-as-a-friend-is-entirely/"
+      "path": "/us/entity/trump-hosts-third-crypto-gala-for-meme-coin-amid-conflict-of-interest-outcry/"
+    },
+    {
+      "id": "fading-cluster-united states-house + democrat",
+      "title": "Democrat Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx in North Carolina House race",
+      "brief": "Democrat Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx in North Carolina House race.",
+      "whyItMatters": "",
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 6,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "8h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 46,
+      "alertTriggers": [
+        "Crosses several sources"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times Politics",
+        "CBS News"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/12/multimedia/00pol-hfo-NC-5-01-tklh/00pol-hfo-NC-5-01-tklh-mediumSquareAt3X.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f3e73972-0245-46a1-a682-bf61cdff2cc0/thumbnail/1200x630g2/0b08277177f4dc52403b61287d6bdf18/gettyimages-2303723745.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Democrat Chuck Hubbard Defeats 11-Term Republican Virginia Foxx in North Carolina",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-22T23:28:41.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/22/us/virginia-foxx-chuck-hubbard-north-carolina-house.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/12/multimedia/00pol-hfo-NC-5-01-tklh/00pol-hfo-NC-5-01-tklh-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Democrat Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx in North Carolina House race",
+          "source": "CBS News",
+          "publishedAt": "2026-11-22T19:48:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/democrat-chuck-hubbard-defeats-gop-rep-virginia-foxx-north-carolina/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/22/f3e73972-0245-46a1-a682-bf61cdff2cc0/thumbnail/1200x630g2/0b08277177f4dc52403b61287d6bdf18/gettyimages-2303723745.jpg"
+        }
+      ],
+      "path": "/us/entity/democrat-chuck-hubbard-defeats-longtime-gop-rep-virginia-foxx-in-north-carolina/"
     },
     {
       "id": "fading-cluster-united states-nvidia + bessent",
@@ -666,13 +743,13 @@
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Cooling",
-      "strength": 7,
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresh",
+      "freshness": "12h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 52,
+      "alertScore": 46,
       "alertTriggers": [
         "Crosses several sources"
       ],
@@ -701,45 +778,6 @@
         }
       ],
       "path": "/us/entity/scott-bessent-calls-on-nvidia-to-provide-answers-on-chip-sales-to-china/"
-    },
-    {
-      "id": "fading-cluster-united states-first + mercury",
-      "title": "Mercury gets its first visitor in years as a pair of spacecraft loop into orbit",
-      "brief": "Mercury gets its first visitor in years as a pair of spacecraft loop into orbit.",
-      "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "8h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Crosses several sources"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "PBS NewsHour",
-        "Phys.org"
-      ],
-      "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2013-10-28T120000Z_1920373466_GM1E9AT08WA01_RTRMADP_3_NASA-2-1024x683.jpg",
-        "https://scx1.b-cdn.net/csz/news/tmb/2026/mercury-mission.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Mercury gets its first visitor in years as a pair of spacecraft loop into orbit",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-22T16:41:28.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/science/mercury-gets-its-first-visitor-in-years-as-a-pair-of-spacecraft-loop-into-orbit?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2013-10-28T120000Z_1920373466_GM1E9AT08WA01_RTRMADP_3_NASA-2-1024x683.jpg"
-        }
-      ],
-      "path": "/us/entity/mercury-gets-its-first-visitor-in-years-as-a-pair-of-spacecraft-loop-into-orbit/"
     }
   ]
 }
