@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-23T16:00:48.055Z",
+  "updatedAt": "2026-11-23T17:00:48.171Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "291.655 enlaces analizados",
-  "dayScanLabel": "4.184 enlaces escaneados en 24h",
+  "ambientPulseLabel": "292.077 enlaces analizados",
+  "dayScanLabel": "4.190 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,21 +19,86 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-copa + segunda",
-      "title": "El sorteo de la segunda ronda de la Copa, en directo: El Athletic se medirá al Numancia en Soria",
-      "brief": "El sorteo de la segunda ronda de la Copa, en directo: El Athletic se medirá al Numancia en Soria.",
+      "id": "now-cluster-españa-jensen + huang",
+      "title": "Trump asegura que habló con la junta directiva de Nvidia sobre la reincorporación de Jensen Huang: \"Me pareció que era muy razonable\"",
+      "brief": "Trump asegura que habló con la junta directiva de Nvidia sobre la reincorporación de Jensen Huang: \"Me pareció que era muy razonable\".",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
+      "strength": 24,
       "sourceCount": 3,
       "itemCount": 4,
-      "freshness": "2h fresca",
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 96,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El País",
+        "El Correo"
+      ],
+      "images": [
+        "https://e01-phantom-elmundo.uecdn.es/d41d72dc950ccb1088e4d6cd6b824614/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/23/17954510698878.jpg",
+        "https://imagenes.elpais.com/resizer/v2/KYZHF2P7VZLYPPXPZGLTBOLNTA.jpg?auth=963e80e2c0f000f74eb42e6eb1c036d0041f72c6b27aae7637583de97d8f379e",
+        "https://e01-phantom-elmundo.uecdn.es/cd369fb3ba9b9a29effb26c6cafa48f7/f/webp/assets/multimedia/imagenes/2026/11/23/17954439589049.jpg",
+        "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/23/1520707477-kTiG-U40496849495QHI-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Trump asegura que habló con la junta directiva de Nvidia sobre la reincorporación de Jensen Huang: \"Me pareció que era muy razonable\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-23T16:51:30.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/2026/11/23/6b04686d21efa04a028b45a3.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/d41d72dc950ccb1088e4d6cd6b824614/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/23/17954510698878.jpg"
+        },
+        {
+          "title": "Trump dice que “convenció” a la junta de Nvidia para que Jensen Huang regresara como consejero delegado: “Yo hice el trato”",
+          "source": "El País",
+          "publishedAt": "2026-11-23T15:36:43.000Z",
+          "sourceUrl": "https://elpais.com/us/economia/2026-11-23/trump-celebra-el-regreso-de-jensen-huang-a-nvidia-no-representa-algun-riesgo-a-la-seguridad-nacional.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/KYZHF2P7VZLYPPXPZGLTBOLNTA.jpg?auth=963e80e2c0f000f74eb42e6eb1c036d0041f72c6b27aae7637583de97d8f379e"
+        },
+        {
+          "title": "Nvidia restituye a Jensen Huang como presidente y consejero delegado: \"No representa ningún riesgo para la seguridad nacional\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-23T14:27:15.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/23/6b044cf5e4d4d8137c8b4591.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/cd369fb3ba9b9a29effb26c6cafa48f7/f/webp/assets/multimedia/imagenes/2026/11/23/17954439589049.jpg"
+        },
+        {
+          "title": "Nvidia readmite a Jensen Huang como consejero delegado y la compañía se dispara en Bolsa",
+          "source": "El Correo",
+          "publishedAt": "2026-11-23T14:14:01.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/nvidia-readmite-jensen-huang-consejero-delegado-tras-20261123151401-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/23/1520707477-kTiG-U40496849495QHI-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/trump-asegura-que-hablo-con-la-junta-directiva-de-nvidia-sobre-la-reincorporacio/"
+    },
+    {
+      "id": "moving-cluster-españa-copa + segunda",
+      "title": "El sorteo de la segunda ronda de la Copa, en directo: El Athletic se medirá al Numancia en Soria",
+      "brief": "El sorteo de la segunda ronda de la Copa, en directo: El Athletic se medirá al Numancia en Soria.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "3h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 90,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -82,66 +147,100 @@
       "path": "/es/entity/el-sorteo-de-la-segunda-ronda-de-la-copa-en-directo-el-athletic-se-medira-al-num/"
     },
     {
-      "id": "now-cluster-españa-jensen + huang",
-      "title": "Trump dice que “convenció” a la junta de Nvidia para que Jensen Huang regresara como consejero delegado",
-      "brief": "Trump dice que “convenció” a la junta de Nvidia para que Jensen Huang regresara como consejero delegado.",
+      "id": "now-cluster-españa-marc + marquez",
+      "title": "Marc Márquez: “Este año no me reconocía, pero me gustaba no sentir la ansiedad de ganar cada domingo”",
+      "brief": "Marc Márquez: “Este año no me reconocía, pero me gustaba no sentir la ansiedad de ganar cada domingo”.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 3,
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 92,
+      "alertScore": 76,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
         "El País",
-        "El Mundo",
-        "El Correo"
+        "El Mundo"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/KYZHF2P7VZLYPPXPZGLTBOLNTA.jpg?auth=963e80e2c0f000f74eb42e6eb1c036d0041f72c6b27aae7637583de97d8f379e",
-        "https://e01-phantom-elmundo.uecdn.es/cd369fb3ba9b9a29effb26c6cafa48f7/f/webp/assets/multimedia/imagenes/2026/11/23/17954439589049.jpg",
-        "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/23/1520707477-kTiG-U40496849495QHI-1200x840@RC.jpg"
+        "https://imagenes.elpais.com/resizer/v2/TFEDKHPRIZBXDESBMQAIYFBO4U.jpg?auth=fc7535b218f0d892e116047fd845ed3cfb6bd57ef39b1d9b1fb6d3ab261a54da",
+        "https://e01-phantom-elmundo.uecdn.es/54a2724dd81f40bca4e546041104227f/crop/0x0/3072x2048/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/23/17954407869743.jpg"
       ],
       "evidence": [
         {
-          "title": "Trump dice que “convenció” a la junta de Nvidia para que Jensen Huang regresara como consejero delegado",
+          "title": "Marc Márquez: “Este año no me reconocía, pero me gustaba no sentir la ansiedad de ganar cada domingo”",
           "source": "El País",
-          "publishedAt": "2026-11-23T15:36:43.000Z",
-          "sourceUrl": "https://elpais.com/us/economia/2026-11-23/trump-celebra-el-regreso-de-jensen-huang-a-nvidia-no-representa-algun-riesgo-a-la-seguridad-nacional.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/KYZHF2P7VZLYPPXPZGLTBOLNTA.jpg?auth=963e80e2c0f000f74eb42e6eb1c036d0041f72c6b27aae7637583de97d8f379e"
+          "publishedAt": "2026-11-23T16:46:02.000Z",
+          "sourceUrl": "https://elpais.com/deportes/motociclismo/2026-11-23/marc-marquez-este-ano-no-me-reconocia-pero-me-gustaba-no-sentir-la-ansiedad-de-ganar-cada-domingo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/TFEDKHPRIZBXDESBMQAIYFBO4U.jpg?auth=fc7535b218f0d892e116047fd845ed3cfb6bd57ef39b1d9b1fb6d3ab261a54da"
         },
         {
-          "title": "Nvidia restituye a Jensen Huang como presidente y consejero delegado: \"No representa ningún riesgo para la seguridad nacional\"",
+          "title": "Marc Márquez: \"Ha sido un año en el que no me he reconocido, pero eso me gustaba\"",
           "source": "El Mundo",
-          "publishedAt": "2026-11-23T14:27:15.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/23/6b044cf5e4d4d8137c8b4591.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/cd369fb3ba9b9a29effb26c6cafa48f7/f/webp/assets/multimedia/imagenes/2026/11/23/17954439589049.jpg"
-        },
-        {
-          "title": "Nvidia readmite a Jensen Huang como consejero delegado y la compañía se dispara en Bolsa",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T14:14:01.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/nvidia-readmite-jensen-huang-consejero-delegado-tras-20261123151401-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/23/1520707477-kTiG-U40496849495QHI-1200x840@RC.jpg"
+          "publishedAt": "2026-11-23T13:36:39.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/motociclismo/2026/11/23/6b04352d21efa09c698b45c5.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/54a2724dd81f40bca4e546041104227f/crop/0x0/3072x2048/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/23/17954407869743.jpg"
         }
       ],
-      "path": "/es/entity/trump-dice-que-convencio-a-la-junta-de-nvidia-para-que-jensen-huang-regresara-co/"
+      "path": "/es/entity/marc-marquez-este-ano-no-me-reconocia-pero-me-gustaba-no-sentir-la-ansiedad-de-g/"
+    },
+    {
+      "id": "now-cluster-españa-mondragon + ofertara",
+      "title": "Mondragon ofertará el próximo curso un nuevo grado de Ingeniería y refuerza su conexión con la FP",
+      "brief": "Mondragon ofertará el próximo curso un nuevo grado de Ingeniería y refuerza su conexión con la FP.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Mondragon ofertará el próximo curso un nuevo grado de Ingeniería y refuerza su conexión con la FP",
+          "source": "El Correo",
+          "publishedAt": "2026-11-23T16:24:11.000Z",
+          "sourceUrl": "https://www.elcorreo.com/sociedad/educacion/mondragon-ofertara-proximo-curso-nuevo-grado-ingenieria-20261123115554-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Mondragon Unibertsitatea ofertará el próximo curso un nuevo grado en Ingeniería y refuerza su conexión con la FP",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-23T11:14:27.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/educacion/mondragon-unibertsitatea-ofertara-proximo-curso-nuevo-grado-20261123121427-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/mondragon-ofertara-el-proximo-curso-un-nuevo-grado-de-ingenieria-y-refuerza-su-c/"
     },
     {
       "id": "now-cluster-españa-potencia + financiera",
-      "title": "El lehendakari insiste en el cincuenta aniversario de Talde en «aumentar la potencia financiera» de Euskadi para su industria",
-      "brief": "El lehendakari insiste en el cincuenta aniversario de Talde en «aumentar la potencia financiera» de Euskadi para su industria.",
+      "title": "Pradales pide multiplicar la «potencia financiera» de Euskadi para blindar el arraigo industrial",
+      "brief": "Pradales pide multiplicar la «potencia financiera» de Euskadi para blindar el arraigo industrial.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -150,7 +249,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -164,7 +263,8 @@
         "El Correo"
       ],
       "images": [
-        "https://s3.ppllstatics.com/diariovasco/www/multimedia/economia/2026/11/23/lhk-talde-kGvE-U40497206313hEF-1200x840@Diario%20Vasco.jpg"
+        "https://s3.ppllstatics.com/diariovasco/www/multimedia/economia/2026/11/23/lhk-talde-kGvE-U40497206313hEF-1200x840@Diario%20Vasco.jpg",
+        "https://s3.ppllstatics.com/elcorreo/www/multimedia/economia/2026/11/23/TALDE50_aniversario_Bilbo_23-11-2026-42-RD4CPGtsGieDANV9AFgp7mO-1200x840@El%20Correo.jpg"
       ],
       "evidence": [
         {
@@ -175,31 +275,31 @@
           "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/economia/2026/11/23/lhk-talde-kGvE-U40497206313hEF-1200x840@Diario%20Vasco.jpg"
         },
         {
-          "title": "El lehendakari insiste en el cincuenta aniversario de Talde en «aumentar la potencia financiera» de Euskadi para su industria",
+          "title": "El lehendakari insiste en «aumentar la potencia financiera» de Euskadi para su industria",
           "source": "El Correo",
-          "publishedAt": "2026-11-23T13:26:03.000Z",
+          "publishedAt": "2026-11-23T12:53:18.000Z",
           "sourceUrl": "https://www.elcorreo.com/economia/lehendakari-insiste-cincuenta-aniversario-talde-aumentar-potencia-20261123135318-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/economia/2026/11/23/TALDE50_aniversario_Bilbo_23-11-2026-42-RD4CPGtsGieDANV9AFgp7mO-1200x840@El%20Correo.jpg"
         }
       ],
-      "path": "/es/entity/el-lehendakari-insiste-en-el-cincuenta-aniversario-de-talde-en-aumentar-la-poten/"
+      "path": "/es/entity/pradales-pide-multiplicar-la-potencia-financiera-de-euskadi-para-blindar-el-arra/"
     },
     {
-      "id": "now-cluster-españa-psoe + ultimo",
+      "id": "moving-cluster-españa-psoe + casi",
       "title": "El PSOE aventaja en casi 10 puntos al PP, según el último CIS antes del 29-N",
       "brief": "El PSOE aventaja en casi 10 puntos al PP, según el último CIS antes del 29-N.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -232,52 +332,6 @@
       "path": "/es/entity/el-psoe-aventaja-en-casi-10-puntos-al-pp-segun-el-ultimo-cis-antes-del-29-n/"
     },
     {
-      "id": "moving-cluster-españa-sanchez + psoe",
-      "title": "El último CIS otorga a EH Bildu un resultado histórico, hunde al PNV y da a Sánchez como ganador claro",
-      "brief": "El último CIS otorga a EH Bildu un resultado histórico, hunde al PNV y da a Sánchez como ganador claro.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Mundo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954316459296.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El último CIS otorga a EH Bildu un resultado histórico, hunde al PNV y da a Sánchez como ganador claro",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-23T13:49:43.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/cis-lanza-bildu-resultado-historico-hunde-pnv-victoria-amplia-sanchez-20261123131814-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "El 'último' servicio de Tezanos: el CIS asegura que el PSOE arrasará y Sánchez gobernará seguro",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-23T11:28:03.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b041c85fc6c83271c8b4593.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954316459296.jpg"
-        }
-      ],
-      "path": "/es/entity/el-ultimo-cis-otorga-a-eh-bildu-un-resultado-historico-hunde-al-pnv-y-da-a-sanch/"
-    },
-    {
       "id": "moving-cluster-españa-guardia + civil",
       "title": "El comandante Villalba declara que Aldama pagó gastos de la Feria de Sevilla y cacerías a miembros de la Guardia Civil",
       "brief": "El comandante Villalba declara que Aldama pagó gastos de la Feria de Sevilla y cacerías a miembros de la Guardia Civil.",
@@ -286,10 +340,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -324,64 +378,18 @@
       "path": "/es/entity/el-comandante-villalba-declara-que-aldama-pago-gastos-de-la-feria-de-sevilla-y-c/"
     },
     {
-      "id": "moving-cluster-españa-coca + cola",
-      "title": "Bruselas investiga a la principal embotelladora de Coca-Cola en Europa por posibles conductas contra la competencia",
-      "brief": "Bruselas investiga a la principal embotelladora de Coca-Cola en Europa por posibles conductas contra la competencia.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 14,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Mundo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954358348933.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Bruselas investiga a la principal embotelladora de Coca-Cola en Europa por posibles conductas contra la competencia",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T13:02:53.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/empresas/bruselas-investiga-embotelladora-cocacola-reino-unido-posibles-20261123120650-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Bruselas investiga a Coca-Cola por restringir el comercio de sus refrescos en España",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-23T12:13:17.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/23/6b042bfffdddfffa3e8b459a.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954358348933.jpg"
-        }
-      ],
-      "path": "/es/entity/bruselas-investiga-a-la-principal-embotelladora-de-coca-cola-en-europa-por-posib/"
-    },
-    {
       "id": "moving-cluster-españa-puigdemont + supremo",
       "title": "El Supremo aplica la amnistía completa a Puigdemont y cierra para siempre la causa del procés",
       "brief": "El Supremo aplica la amnistía completa a Puigdemont y cierra para siempre la causa del procés.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -416,9 +424,9 @@
       "path": "/es/entity/el-supremo-aplica-la-amnistia-completa-a-puigdemont-y-cierra-para-siempre-la-cau/"
     },
     {
-      "id": "fading-cluster-españa-educacion + plazas",
-      "title": "Educación convoca una nueva OPE con 1.374 plazas de profesor: estos son los puestos a cubrir",
-      "brief": "Educación convoca una nueva OPE con 1.374 plazas de profesor: estos son los puestos a cubrir.",
+      "id": "fading-cluster-españa-datos + laliga",
+      "title": "LaLiga sufre un ciberataque que afecta a datos de los aficionados",
+      "brief": "LaLiga sufre un ciberataque que afecta a datos de los aficionados.",
       "whyItMatters": "",
       "verdict": "Si no vuelve a aparecer, sale de portada.",
       "mode": "fading",
@@ -428,6 +436,49 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "5h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Diario Vasco",
+        "El Correo"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "LaLiga sufre un ciberataque a datos personales de los aficionados",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-23T11:44:26.000Z",
+          "sourceUrl": "https://www.diariovasco.com/egia-guztia/ciberseguridad/ciberataque-laliga-patronal-denuncia-ante-policia-nacional-20261123124426-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "LaLiga sufre un ciberataque que afecta a datos de los aficionados",
+          "source": "El Correo",
+          "publishedAt": "2026-11-23T11:27:27.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/liga-primera/laliga-sufre-ciberataque-afecta-datos-aficionados-20261123121741-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/laliga-sufre-un-ciberataque-que-afecta-a-datos-de-los-aficionados/"
+    },
+    {
+      "id": "fading-cluster-españa-educacion + plazas",
+      "title": "Educación convoca una nueva OPE con 1.374 plazas de profesor: estos son los puestos a cubrir",
+      "brief": "Educación convoca una nueva OPE con 1.374 plazas de profesor: estos son los puestos a cubrir.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
@@ -460,49 +511,6 @@
         }
       ],
       "path": "/es/entity/educacion-convoca-una-nueva-ope-con-1-374-plazas-de-profesor-estos-son-los-puest/"
-    },
-    {
-      "id": "fading-cluster-españa-datos + laliga",
-      "title": "LaLiga sufre un ciberataque que afecta a datos de los aficionados",
-      "brief": "LaLiga sufre un ciberataque que afecta a datos de los aficionados.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "LaLiga sufre un ciberataque a datos personales de los aficionados",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-23T11:44:26.000Z",
-          "sourceUrl": "https://www.diariovasco.com/egia-guztia/ciberseguridad/ciberataque-laliga-patronal-denuncia-ante-policia-nacional-20261123124426-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "LaLiga sufre un ciberataque que afecta a datos de los aficionados",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T11:27:27.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/liga-primera/laliga-sufre-ciberataque-afecta-datos-aficionados-20261123121741-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/laliga-sufre-un-ciberataque-que-afecta-a-datos-de-los-aficionados/"
     }
   ]
 }
