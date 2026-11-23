@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-23T11:00:48.384Z",
+  "updatedAt": "2026-11-23T12:00:47.999Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "289.549 enlaces analizados",
-  "dayScanLabel": "4.171 enlaces escaneados en 24h",
+  "ambientPulseLabel": "289.970 enlaces analizados",
+  "dayScanLabel": "4.180 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,21 +19,21 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "moving-cluster-españa-henar + alvarez",
-      "title": "Henar Álvarez se despide de 'Al cielo con ella' con un surrealista rezo a Dios y un guiño a Telecinco",
-      "brief": "Henar Álvarez se despide de 'Al cielo con ella' con un surrealista rezo a Dios y un guiño a Telecinco.",
+      "id": "now-cluster-españa-psoe + sanchez",
+      "title": "El 'último' servicio de Tezanos: el CIS asegura que el PSOE arrasará y Sánchez gobernará seguro",
+      "brief": "El 'último' servicio de Tezanos: el CIS asegura que el PSOE arrasará y Sánchez gobernará seguro.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
+      "strength": 23,
+      "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "2h fresca",
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 92,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -42,41 +42,43 @@
       "isHotNews": false,
       "sources": [
         "El País",
+        "El Mundo",
         "El Correo"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/DRJYBDTXXRCRBGCF7264GMWJ7U.jpg?auth=8ba43f5a1800b3719c41b0a0c0113b5c9eeb5f391acf809d34157dac19653e00",
-        "https://s2.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/22/henar-alvarez-kIlC-U40484250370DwG-1200x840@El%20Correo.JPG"
+        "https://imagenes.elpais.com/resizer/v2/24ZEBZEWFVNAJD2SXH4VFMFDWU.jpg?auth=27e3023dfef3d43505e7a22106ed455395d70b2c9771343830fb03b82ed82ac0",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954316459296.jpg",
+        "https://s2.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/23/1520695025-RirQ6uHTbzpL5ubf9T2kCJP-1200x840@RC.jpg"
       ],
       "evidence": [
         {
-          "title": "Henar Álvarez despide ‘Al cielo con ella’ con un guiño a Telecinco: “Nos vamos con la cabeza muy alta”",
+          "title": "El PSOE aventaja en casi 10 puntos al PP, según el último CIS antes del 29-N",
           "source": "El País",
-          "publishedAt": "2026-11-23T08:58:35.000Z",
-          "sourceUrl": "https://elpais.com/television/2026-11-23/henar-alvarez-despide-al-cielo-con-ella-con-un-guino-a-telecinco-nos-vamos-con-la-cabeza-muy-alta.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/DRJYBDTXXRCRBGCF7264GMWJ7U.jpg?auth=8ba43f5a1800b3719c41b0a0c0113b5c9eeb5f391acf809d34157dac19653e00"
+          "publishedAt": "2026-11-23T11:41:44.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-23/el-psoe-aventaja-en-casi-10-puntos-al-pp-segun-el-ultimo-cis-antes-del-29-n.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/24ZEBZEWFVNAJD2SXH4VFMFDWU.jpg?auth=27e3023dfef3d43505e7a22106ed455395d70b2c9771343830fb03b82ed82ac0"
         },
         {
-          "title": "Henar Álvarez se despide de 'Al cielo con ella' con un surrealista rezo a Dios y un guiño a Telecinco",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T08:19:08.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/henar-alvarez-despide-tve-surrealista-rezo-dios-20261123073934-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "El 'último' servicio de Tezanos: el CIS asegura que el PSOE arrasará y Sánchez gobernará seguro",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-23T11:28:03.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b041c85fc6c83271c8b4593.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954316459296.jpg"
         },
         {
-          "title": "Las lágrimas de Henar Álvarez al despedir su programa cancelado en La 1",
+          "title": "El CIS de Tezanos amplía a 10 puntos la ventaja del PSOE sobre el PP",
           "source": "El Correo",
-          "publishedAt": "2026-11-22T18:31:39.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/lagrimas-henar-alvarez-despedir-programa-cancelado-20261122193139-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/22/henar-alvarez-kIlC-U40484250370DwG-1200x840@El%20Correo.JPG"
+          "publishedAt": "2026-11-23T11:15:48.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/cis-tezanos-amplia-puntos-ventaja-psoe-sobre-20261123121547-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/23/1520695025-RirQ6uHTbzpL5ubf9T2kCJP-1200x840@RC.jpg"
         }
       ],
-      "path": "/es/entity/henar-alvarez-se-despide-de-al-cielo-con-ella-con-un-surrealista-rezo-a-dios-y-u/"
+      "path": "/es/entity/el-ultimo-servicio-de-tezanos-el-cis-asegura-que-el-psoe-arrasara-y-sanchez-gobe/"
     },
     {
-      "id": "now-cluster-españa-campana + elecciones",
-      "title": "Campaña elecciones 29N y actualidad política en directo | El PSOE aventaja en casi 10 puntos al PP, según el CIS",
-      "brief": "Campaña elecciones 29N y actualidad política en directo | El PSOE aventaja en casi 10 puntos al PP, según el CIS.",
+      "id": "now-cluster-españa-miley + cyrus",
+      "title": "El vestido de novia de Miley Cyrus: un Saint Laurent clásico y sofisticado con un gran escote en la espalda",
+      "brief": "El vestido de novia de Miley Cyrus: un Saint Laurent clásico y sofisticado con un gran escote en la espalda.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -95,35 +97,35 @@
       ],
       "isHotNews": false,
       "sources": [
-        "La Razón",
-        "Cinco Días"
+        "OK Diario",
+        "El País"
       ],
       "images": [
-        "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/22/91DCD341-BEAF-456F-A3CB-8C4A5E486036/96.jpg?crop=5674,3192,x0,y295&width=1200&height=675&optimize=low&format=webply",
-        "https://imagenes.elpais.com/resizer/v2/LQBXQZQ52RGVXHEQNXBALBLLTI.jpg?auth=977702d3cf15570306a6808f7e994e3e7b92d88eece31893c672931b90d42153"
+        "https://okdiario.com/img/2026/11/23/horizontal-corazon-2026-11-23t112122.585-1.jpg",
+        "https://imagenes.elpais.com/resizer/v2/MCA5D43RBRDQFJ7Q7ALPYDP3YY.jpg?auth=dc83160d83e4ec9c1149b8fcb309b30a5ff05288d386548071b103fdf9e8d1ef"
       ],
       "evidence": [
         {
-          "title": "Elecciones generales, en directo: encuestas y última hora de la campaña electoral del 29N",
-          "source": "La Razón",
-          "publishedAt": "2026-11-23T11:00:26.000Z",
-          "sourceUrl": "https://www.larazon.es/espana/elecciones-generales-directo-encuestas-ultima-hora-campana-electoral-29n_202611236b03e554f6da642efef87380.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/22/91DCD341-BEAF-456F-A3CB-8C4A5E486036/96.jpg?crop=5674,3192,x0,y295&width=1200&height=675&optimize=low&format=webply"
+          "title": "Antes de Maxx Morando estuvo Liam Hemsworth: Miley Cyrus ha lucido dos vestidos de novia muy diferentes, ¿cuál prefieres?",
+          "source": "OK Diario",
+          "publishedAt": "2026-11-23T12:00:44.000Z",
+          "sourceUrl": "https://okdiario.com/cool/famosos/miley-cyrus-casado-dos-veces-estos-son-sus-dos-vestidos-novia-cual-te-quedas-21247439?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://okdiario.com/img/2026/11/23/horizontal-corazon-2026-11-23t112122.585-1.jpg"
         },
         {
-          "title": "Campaña elecciones 29N y actualidad política en directo | El PSOE aventaja en casi 10 puntos al PP, según el CIS",
-          "source": "Cinco Días",
-          "publishedAt": "2026-11-23T11:00:23.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-23/campana-elecciones-29n-y-actualidad-politica-en-directo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/LQBXQZQ52RGVXHEQNXBALBLLTI.jpg?auth=977702d3cf15570306a6808f7e994e3e7b92d88eece31893c672931b90d42153"
+          "title": "El vestido de novia de Miley Cyrus: un Saint Laurent clásico y sofisticado con un gran escote en la espalda",
+          "source": "El País",
+          "publishedAt": "2026-11-23T11:23:11.000Z",
+          "sourceUrl": "https://elpais.com/smoda/moda/2026-11-23/el-vestido-de-novia-de-miley-cyrus-un-saint-laurent-clasico-y-sofisticado-con-un-gran-escote-en-la-espalda.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/MCA5D43RBRDQFJ7Q7ALPYDP3YY.jpg?auth=dc83160d83e4ec9c1149b8fcb309b30a5ff05288d386548071b103fdf9e8d1ef"
         }
       ],
-      "path": "/es/entity/campana-elecciones-29n-y-actualidad-politica-en-directo-el-psoe-aventaja-en-casi/"
+      "path": "/es/entity/el-vestido-de-novia-de-miley-cyrus-un-saint-laurent-clasico-y-sofisticado-con-un/"
     },
     {
-      "id": "now-cluster-españa-tres + mujer",
-      "title": "Detenida una mujer por apuñalar a tres personas durante una pelea en Vizcaya",
-      "brief": "Detenida una mujer por apuñalar a tres personas durante una pelea en Vizcaya.",
+      "id": "now-cluster-españa-laliga + sufre",
+      "title": "LaLiga sufre un ciberataque que afecta a datos de los aficionados",
+      "brief": "LaLiga sufre un ciberataque que afecta a datos de los aficionados.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -142,43 +144,87 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The Objective",
+        "El Diario Vasco",
         "El Correo"
       ],
-      "images": [
-        "https://theobjective.com/theobjective.com/wp-content/uploads/2026/11/un-agente-de-la-polici-a-nacional-junto-a-varios-jo-venes-por-el-riesgo-de-acciones-vanda-licas-469x317.jpg"
-      ],
+      "images": [],
       "evidence": [
         {
-          "title": "Detenida una mujer por apuñalar a tres personas durante una pelea en Vizcaya",
-          "source": "The Objective",
-          "publishedAt": "2026-11-23T10:54:27.000Z",
-          "sourceUrl": "https://theobjective.com/sociedad/suceso/2026-11-23/detenida-mujer-apunalar-personas-pelea-sestao/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://theobjective.com/theobjective.com/wp-content/uploads/2026/11/un-agente-de-la-polici-a-nacional-junto-a-varios-jo-venes-por-el-riesgo-de-acciones-vanda-licas-469x317.jpg"
+          "title": "LaLiga sufre un ciberataque a datos personales de los aficionados",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-23T11:44:26.000Z",
+          "sourceUrl": "https://www.diariovasco.com/egia-guztia/ciberseguridad/ciberataque-laliga-patronal-denuncia-ante-policia-nacional-20261123124426-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
-          "title": "Una mujer acuchilla a tres personas durante una pelea en Sestao",
+          "title": "LaLiga sufre un ciberataque que afecta a datos de los aficionados",
           "source": "El Correo",
-          "publishedAt": "2026-11-23T10:31:07.000Z",
-          "sourceUrl": "https://www.elcorreo.com/bizkaia/margen-izquierda/detenida-mujer-anos-sestao-tras-agredir-tres-20261123101731-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-23T11:27:27.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/liga-primera/laliga-sufre-ciberataque-afecta-datos-aficionados-20261123121741-ntrc.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         }
       ],
-      "path": "/es/entity/detenida-una-mujer-por-apunalar-a-tres-personas-durante-una-pelea-en-vizcaya/"
+      "path": "/es/entity/laliga-sufre-un-ciberataque-que-afecta-a-datos-de-los-aficionados/"
     },
     {
-      "id": "now-cluster-españa-educacion + plazas",
+      "id": "now-cluster-españa-feijoo + hara",
+      "title": "Feijóo asegura que no derogará la eutanasia, sino que hará una \"nueva ley\" con \"un plus para garantizar la vida digna\"",
+      "brief": "Feijóo asegura que no derogará la eutanasia, sino que hará una \"nueva ley\" con \"un plus para garantizar la vida digna\".",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo"
+      ],
+      "images": [
+        "https://e01-phantom-elmundo.uecdn.es/75931f20d74a738b4d0e1110ec49a29e/crop/0x0/1023x682/f/webp/assets/multimedia/imagenes/2026/11/23/17954267650409.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Feijóo zanja que hará una nueva ley de eutanasia sin derogar la vigente",
+          "source": "El Correo",
+          "publishedAt": "2026-11-23T11:38:16.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/feijoo-zanja-hara-nueva-ley-eutanasia-derogar-20261123114235-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Feijóo asegura que no derogará la eutanasia, sino que hará una \"nueva ley\" con \"un plus para garantizar la vida digna\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-23T09:40:23.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b0409f7fc6c83954e8b4578.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/75931f20d74a738b4d0e1110ec49a29e/crop/0x0/1023x682/f/webp/assets/multimedia/imagenes/2026/11/23/17954267650409.jpg"
+        }
+      ],
+      "path": "/es/entity/feijoo-asegura-que-no-derogara-la-eutanasia-sino-que-hara-una-nueva-ley-con-un-p/"
+    },
+    {
+      "id": "moving-cluster-españa-educacion + plazas",
       "title": "Educación convoca una nueva OPE con 1.374 plazas de profesor: estos son los puestos a cubrir",
       "brief": "Educación convoca una nueva OPE con 1.374 plazas de profesor: estos son los puestos a cubrir.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -214,52 +260,6 @@
       "path": "/es/entity/educacion-convoca-una-nueva-ope-con-1-374-plazas-de-profesor-estos-son-los-puest/"
     },
     {
-      "id": "now-cluster-españa-feijoo + hara",
-      "title": "Feijóo asegura que no derogará la eutanasia, sino que hará una \"nueva ley\" con \"un plus para garantizar la vida digna\"",
-      "brief": "Feijóo asegura que no derogará la eutanasia, sino que hará una \"nueva ley\" con \"un plus para garantizar la vida digna\".",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Mundo"
-      ],
-      "images": [
-        "https://e01-phantom-elmundo.uecdn.es/75931f20d74a738b4d0e1110ec49a29e/crop/0x0/1023x682/f/webp/assets/multimedia/imagenes/2026/11/23/17954267650409.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Feijóo zanja que hará una nueva ley de eutanasia sin derogar la vigente",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T10:42:35.000Z",
-          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/feijoo-zanja-hara-nueva-ley-eutanasia-derogar-20261123114235-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Feijóo asegura que no derogará la eutanasia, sino que hará una \"nueva ley\" con \"un plus para garantizar la vida digna\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-23T09:40:23.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b0409f7fc6c83954e8b4578.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/75931f20d74a738b4d0e1110ec49a29e/crop/0x0/1023x682/f/webp/assets/multimedia/imagenes/2026/11/23/17954267650409.jpg"
-        }
-      ],
-      "path": "/es/entity/feijoo-asegura-que-no-derogara-la-eutanasia-sino-que-hara-una-nueva-ley-con-un-p/"
-    },
-    {
       "id": "moving-cluster-españa-sanchez + impuesto",
       "title": "Sánchez anuncia un nuevo impuesto a ultrarricos que recaudará 2.000 millones para vivienda, pensiones y crianza",
       "brief": "Sánchez anuncia un nuevo impuesto a ultrarricos que recaudará 2.000 millones para vivienda, pensiones y crianza.",
@@ -268,13 +268,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -306,9 +306,9 @@
       "path": "/es/entity/sanchez-anuncia-un-nuevo-impuesto-a-ultrarricos-que-recaudara-2-000-millones-par/"
     },
     {
-      "id": "moving-cluster-españa-mallorca + incendio",
-      "title": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca",
-      "brief": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca.",
+      "id": "moving-cluster-españa-henar + alvarez",
+      "title": "Henar Álvarez se despide de 'Al cielo con ella' con un surrealista rezo a Dios y un guiño a Telecinco",
+      "brief": "Henar Álvarez se despide de 'Al cielo con ella' con un surrealista rezo a Dios y un guiño a Telecinco.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
@@ -318,6 +318,52 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "3h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/DRJYBDTXXRCRBGCF7264GMWJ7U.jpg?auth=8ba43f5a1800b3719c41b0a0c0113b5c9eeb5f391acf809d34157dac19653e00"
+      ],
+      "evidence": [
+        {
+          "title": "Henar Álvarez despide ‘Al cielo con ella’ con un guiño a Telecinco: “Nos vamos con la cabeza muy alta”",
+          "source": "El País",
+          "publishedAt": "2026-11-23T08:58:35.000Z",
+          "sourceUrl": "https://elpais.com/television/2026-11-23/henar-alvarez-despide-al-cielo-con-ella-con-un-guino-a-telecinco-nos-vamos-con-la-cabeza-muy-alta.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/DRJYBDTXXRCRBGCF7264GMWJ7U.jpg?auth=8ba43f5a1800b3719c41b0a0c0113b5c9eeb5f391acf809d34157dac19653e00"
+        },
+        {
+          "title": "Henar Álvarez se despide de 'Al cielo con ella' con un surrealista rezo a Dios y un guiño a Telecinco",
+          "source": "El Correo",
+          "publishedAt": "2026-11-23T08:19:08.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/henar-alvarez-despide-tve-surrealista-rezo-dios-20261123073934-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/henar-alvarez-se-despide-de-al-cielo-con-ella-con-un-surrealista-rezo-a-dios-y-u/"
+    },
+    {
+      "id": "moving-cluster-españa-mallorca + incendio",
+      "title": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca",
+      "brief": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -351,96 +397,6 @@
         }
       ],
       "path": "/es/entity/declarado-un-incendio-forestal-en-la-peninsula-de-formentor-al-noreste-de-mallor/"
-    },
-    {
-      "id": "moving-cluster-españa-otegi + izquierda",
-      "title": "Otegi vaticina que «la izquierda soberanista romperá su techo» el 29-N",
-      "brief": "Otegi vaticina que «la izquierda soberanista romperá su techo» el 29-N.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "16h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 59,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "Otegi vaticina que «la izquierda soberanista romperá su techo» el 29-N",
-          "source": "El Correo",
-          "publishedAt": "2026-11-22T19:22:43.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/otegi-vaticina-izquierda-soberanista-rompera-techo-29n-20261122202242-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Otegi se vuelca con Gipuzkoa y augura que EH Bildu va a «romper el techo»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-22T17:24:57.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/otegi-vuelca-gipuzkoa-augura-bildu-romper-techo-20261122161151-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/otegi-vaticina-que-la-izquierda-soberanista-rompera-su-techo-el-29-n/"
-    },
-    {
-      "id": "fading-cluster-españa-peio + etxeberria",
-      "title": "Peio Etxeberria, exultante: «No sé cómo he desbloqueado la cadera, esta txapela es muy especial»",
-      "brief": "Peio Etxeberria, exultante: «No sé cómo he desbloqueado la cadera, esta txapela es muy especial».",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "16h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 41,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/22/1520674929-k0XE-U40484818243TtG-1200x840@Diario%20Vasco.jpg",
-        "https://s2.ppllstatics.com/elcorreo/www/multimedia/deportes/2026/11/22/pelotaganador-U30542487909QLG-RXOEC4fFAmVH0gfrFNKIvCI-1200x840@El%20Correo.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Peio Etxeberria, exultante: «No sé cómo he desbloqueado la cadera, esta txapela es muy especial»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-22T19:16:23.000Z",
-          "sourceUrl": "https://www.diariovasco.com/deportes/pelota/cuatro-y-medio/peio-etxeberria-exultante-desbloqueado-cadera-txapela-especial-20261122201623-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/22/1520674929-k0XE-U40484818243TtG-1200x840@Diario%20Vasco.jpg"
-        },
-        {
-          "title": "Peio Etxeberria renueva su título del Cuatro y Medio",
-          "source": "El Correo",
-          "publishedAt": "2026-11-22T18:53:44.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/pelota/peio-etxeberria-renueva-titulo-cuatro-medio-20261122195344-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/deportes/2026/11/22/pelotaganador-U30542487909QLG-RXOEC4fFAmVH0gfrFNKIvCI-1200x840@El%20Correo.jpg"
-        }
-      ],
-      "path": "/es/entity/peio-etxeberria-exultante-no-se-como-he-desbloqueado-la-cadera-esta-txapela-es-m/"
     }
   ]
 }
