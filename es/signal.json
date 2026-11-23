@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-23T17:00:48.171Z",
+  "updatedAt": "2026-11-23T18:00:48.277Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "292.077 enlaces analizados",
-  "dayScanLabel": "4.190 enlaces escaneados en 24h",
+  "ambientPulseLabel": "292.500 enlaces analizados",
+  "dayScanLabel": "4.204 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -30,7 +30,7 @@
       "strength": 24,
       "sourceCount": 3,
       "itemCount": 4,
-      "freshness": "fresca ahora",
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 96,
@@ -92,10 +92,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
+      "strength": 17,
       "sourceCount": 3,
       "itemCount": 4,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 90,
@@ -147,6 +147,113 @@
       "path": "/es/entity/el-sorteo-de-la-segunda-ronda-de-la-copa-en-directo-el-athletic-se-medira-al-num/"
     },
     {
+      "id": "now-cluster-españa-junta + electoral",
+      "title": "La Junta Electoral sanciona a Silvia Intxaurrondo por cuestionar que Vox pueda «tener cabida» en TVE",
+      "brief": "La Junta Electoral sanciona a Silvia Intxaurrondo por cuestionar que Vox pueda «tener cabida» en TVE.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 17,
+      "sourceCount": 2,
+      "itemCount": 4,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 83,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/23/silvia-archivo-kEd-U40500484778zAI-1200x840@RC.jpg",
+        "https://imagenes.elpais.com/resizer/v2/B6LMCWCNGVBSPBOAIVXB6JCFWE.jpg?auth=039283f4207760b203bab2d5921dc32d37c4fa497e34957ab916d926060ce88d",
+        "https://imagenes.elpais.com/resizer/v2/OW7GLCXK7BDDDOCP2UGA4BQN74.jpg?auth=dab911ed1ce541eb9b091e8a8ea31537fe1ca13b2006b7d7df639ac4504652c9"
+      ],
+      "evidence": [
+        {
+          "title": "La Junta Electoral sanciona a Silvia Intxaurrondo por cuestionar que Vox pueda «tener cabida» en TVE",
+          "source": "El Correo",
+          "publishedAt": "2026-11-23T17:20:19.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/junta-electoral-sanciona-silvia-intxaurrondo-cuestionar-vox-20261123182019-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/23/silvia-archivo-kEd-U40500484778zAI-1200x840@RC.jpg"
+        },
+        {
+          "title": "La Junta Electoral abre expediente a la periodista Silvia Intxaurrondo por posible vulneración de la neutralidad",
+          "source": "El País",
+          "publishedAt": "2026-11-23T17:16:49.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-23/la-junta-electoral-sanciona-a-la-periodista-silvia-intxaurrondo-por-posible-vulneracion-de-la-neutralidad.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/B6LMCWCNGVBSPBOAIVXB6JCFWE.jpg?auth=039283f4207760b203bab2d5921dc32d37c4fa497e34957ab916d926060ce88d"
+        },
+        {
+          "title": "La Junta Electoral ordena retirar las menciones a Vox de una exposición sobre “narrativas extremistas”",
+          "source": "El País",
+          "publishedAt": "2026-11-23T14:16:43.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-23/la-junta-electoral-ordena-retirar-las-menciones-a-vox-de-una-exposicion-sobre-narrativas-extremistas.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/OW7GLCXK7BDDDOCP2UGA4BQN74.jpg?auth=dab911ed1ce541eb9b091e8a8ea31537fe1ca13b2006b7d7df639ac4504652c9"
+        },
+        {
+          "title": "¿Habrá entrevista de Silvia Intxaurrondo a Feijóo? La sorprendente revelación de la presentadora",
+          "source": "El Correo",
+          "publishedAt": "2026-11-23T13:02:38.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/entrevista-silvia-intxaurrondo-feijoo-sorprendente-revelacion-presentadora-20261123133132-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/la-junta-electoral-sanciona-a-silvia-intxaurrondo-por-cuestionar-que-vox-pueda-t/"
+    },
+    {
+      "id": "now-cluster-españa-mondragon + ofertara",
+      "title": "Mondragon ofertará el próximo curso un nuevo grado de Ingeniería y refuerza su conexión con la FP",
+      "brief": "Mondragon ofertará el próximo curso un nuevo grado de Ingeniería y refuerza su conexión con la FP.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Mondragon ofertará el próximo curso un nuevo grado de Ingeniería y refuerza su conexión con la FP",
+          "source": "El Correo",
+          "publishedAt": "2026-11-23T17:04:30.000Z",
+          "sourceUrl": "https://www.elcorreo.com/sociedad/educacion/mondragon-ofertara-proximo-curso-nuevo-grado-ingenieria-20261123115554-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Mondragon Unibertsitatea ofertará el próximo curso un nuevo grado en Ingeniería y refuerza su conexión con la FP",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-23T11:14:27.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/educacion/mondragon-unibertsitatea-ofertara-proximo-curso-nuevo-grado-20261123121427-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/mondragon-ofertara-el-proximo-curso-un-nuevo-grado-de-ingenieria-y-refuerza-su-c/"
+    },
+    {
       "id": "now-cluster-españa-marc + marquez",
       "title": "Marc Márquez: “Este año no me reconocía, pero me gustaba no sentir la ansiedad de ganar cada domingo”",
       "brief": "Marc Márquez: “Este año no me reconocía, pero me gustaba no sentir la ansiedad de ganar cada domingo”.",
@@ -155,10 +262,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -194,65 +301,21 @@
       "path": "/es/entity/marc-marquez-este-ano-no-me-reconocia-pero-me-gustaba-no-sentir-la-ansiedad-de-g/"
     },
     {
-      "id": "now-cluster-españa-mondragon + ofertara",
-      "title": "Mondragon ofertará el próximo curso un nuevo grado de Ingeniería y refuerza su conexión con la FP",
-      "brief": "Mondragon ofertará el próximo curso un nuevo grado de Ingeniería y refuerza su conexión con la FP.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "Mondragon ofertará el próximo curso un nuevo grado de Ingeniería y refuerza su conexión con la FP",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T16:24:11.000Z",
-          "sourceUrl": "https://www.elcorreo.com/sociedad/educacion/mondragon-ofertara-proximo-curso-nuevo-grado-ingenieria-20261123115554-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Mondragon Unibertsitatea ofertará el próximo curso un nuevo grado en Ingeniería y refuerza su conexión con la FP",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-23T11:14:27.000Z",
-          "sourceUrl": "https://www.diariovasco.com/sociedad/educacion/mondragon-unibertsitatea-ofertara-proximo-curso-nuevo-grado-20261123121427-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/mondragon-ofertara-el-proximo-curso-un-nuevo-grado-de-ingenieria-y-refuerza-su-c/"
-    },
-    {
-      "id": "now-cluster-españa-potencia + financiera",
+      "id": "moving-cluster-españa-potencia + financiera",
       "title": "Pradales pide multiplicar la «potencia financiera» de Euskadi para blindar el arraigo industrial",
       "brief": "Pradales pide multiplicar la «potencia financiera» de Euskadi para blindar el arraigo industrial.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -285,7 +348,7 @@
       "path": "/es/entity/pradales-pide-multiplicar-la-potencia-financiera-de-euskadi-para-blindar-el-arra/"
     },
     {
-      "id": "moving-cluster-españa-psoe + casi",
+      "id": "moving-cluster-españa-antes + psoe",
       "title": "El PSOE aventaja en casi 10 puntos al PP, según el último CIS antes del 29-N",
       "brief": "El PSOE aventaja en casi 10 puntos al PP, según el último CIS antes del 29-N.",
       "whyItMatters": "",
@@ -293,10 +356,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -338,12 +401,12 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -378,53 +441,7 @@
       "path": "/es/entity/el-comandante-villalba-declara-que-aldama-pago-gastos-de-la-feria-de-sevilla-y-c/"
     },
     {
-      "id": "moving-cluster-españa-puigdemont + supremo",
-      "title": "El Supremo aplica la amnistía completa a Puigdemont y cierra para siempre la causa del procés",
-      "brief": "El Supremo aplica la amnistía completa a Puigdemont y cierra para siempre la causa del procés.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Mundo"
-      ],
-      "images": [
-        "https://e01-phantom-elmundo.uecdn.es/6703e863303196a2d1a35be47e9a79cc/crop/11x5/1024x680/f/webp/assets/multimedia/imagenes/2026/11/23/17954363123511.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El Supremo aplica la amnistía completa a Puigdemont y cierra para siempre la causa del procés",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T12:48:14.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/supremo-aplica-amnistia-completa-puigdemont-cierra-siempre-20261123131947-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "El Supremo aplica la amnistía a Puigdemont y archiva definitivamente la causa del procés",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-23T12:21:02.000Z",
-          "sourceUrl": "https://www.elmundo.es/espana/2026/11/23/6b042ed9e4d4d8872c8b4579.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/6703e863303196a2d1a35be47e9a79cc/crop/11x5/1024x680/f/webp/assets/multimedia/imagenes/2026/11/23/17954363123511.jpg"
-        }
-      ],
-      "path": "/es/entity/el-supremo-aplica-la-amnistia-completa-a-puigdemont-y-cierra-para-siempre-la-cau/"
-    },
-    {
-      "id": "fading-cluster-españa-datos + laliga",
+      "id": "fading-cluster-españa-datos + aficionados",
       "title": "LaLiga sufre un ciberataque que afecta a datos de los aficionados",
       "brief": "LaLiga sufre un ciberataque que afecta a datos de los aficionados.",
       "whyItMatters": "",
@@ -432,10 +449,10 @@
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
@@ -465,52 +482,6 @@
         }
       ],
       "path": "/es/entity/laliga-sufre-un-ciberataque-que-afecta-a-datos-de-los-aficionados/"
-    },
-    {
-      "id": "fading-cluster-españa-educacion + plazas",
-      "title": "Educación convoca una nueva OPE con 1.374 plazas de profesor: estos son los puestos a cubrir",
-      "brief": "Educación convoca una nueva OPE con 1.374 plazas de profesor: estos son los puestos a cubrir.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "6h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s3.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/23/ope-barakaldo-koVG-U40491421797qWB-1200x840@El%20Correo.JPG",
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/sociedad/2026/11/23/1502348389-kVjH-U40490049644A2B-1200x840@Diario%20Vasco.JPG"
-      ],
-      "evidence": [
-        {
-          "title": "Educación aprueba otra OPE de 1.364 plazas para profesores y anticipa nuevas convocatorias en los próximos años",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T10:45:01.000Z",
-          "sourceUrl": "https://www.elcorreo.com/sociedad/educacion/educacion-aprueba-ope-1364-plazas-profesores-anticipa-20261123114501-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/23/ope-barakaldo-koVG-U40491421797qWB-1200x840@El%20Correo.JPG"
-        },
-        {
-          "title": "Educación convoca una nueva OPE con 1.374 plazas de profesor: estos son los puestos a cubrir",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-23T09:20:22.000Z",
-          "sourceUrl": "https://www.diariovasco.com/sociedad/educacion/educacion-convoca-nueva-ope-1374-plazas-profesor-20261123102021-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/sociedad/2026/11/23/1502348389-kVjH-U40490049644A2B-1200x840@Diario%20Vasco.JPG"
-        }
-      ],
-      "path": "/es/entity/educacion-convoca-una-nueva-ope-con-1-374-plazas-de-profesor-estos-son-los-puest/"
     }
   ]
 }
