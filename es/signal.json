@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-23T13:00:48.022Z",
+  "updatedAt": "2026-11-23T14:00:48.178Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "290.393 enlaces analizados",
-  "dayScanLabel": "4.186 enlaces escaneados en 24h",
+  "ambientPulseLabel": "290.812 enlaces analizados",
+  "dayScanLabel": "4.193 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,21 +19,21 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-copa + segunda",
-      "title": "El Athletic se mide en Copa al Numancia, líder en su grupo de Segunda RFEF y con un pasado de matagigantes",
-      "brief": "El Athletic se mide en Copa al Numancia, líder en su grupo de Segunda RFEF y con un pasado de matagigantes.",
+      "id": "moving-cluster-españa-psoe + ultimo",
+      "title": "El último CIS otorga a EH Bildu un resultado histórico, hunde al PNV y da a Sánchez como ganador claro",
+      "brief": "El último CIS otorga a EH Bildu un resultado histórico, hunde al PNV y da a Sánchez como ganador claro.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 17,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "fresca ahora",
+      "strength": 25,
+      "sourceCount": 4,
+      "itemCount": 4,
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 99,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -41,17 +41,91 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Correo",
-        "El Diario Vasco"
+        "El Diario Vasco",
+        "El Mundo",
+        "El País",
+        "El Correo"
       ],
       "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954316459296.jpg",
+        "https://imagenes.elpais.com/resizer/v2/24ZEBZEWFVNAJD2SXH4VFMFDWU.jpg?auth=27e3023dfef3d43505e7a22106ed455395d70b2c9771343830fb03b82ed82ac0",
+        "https://s2.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/23/1520695025-RirQ6uHTbzpL5ubf9T2kCJP-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El último CIS otorga a EH Bildu un resultado histórico, hunde al PNV y da a Sánchez como ganador claro",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-23T12:26:53.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/cis-lanza-bildu-resultado-historico-hunde-pnv-victoria-amplia-sanchez-20261123131814-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "El PSOE aventaja en casi 10 puntos al PP, según el último CIS antes del 29-N",
+          "source": "El País",
+          "publishedAt": "2026-11-23T11:41:44.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-23/el-psoe-aventaja-en-casi-10-puntos-al-pp-segun-el-ultimo-cis-antes-del-29-n.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/24ZEBZEWFVNAJD2SXH4VFMFDWU.jpg?auth=27e3023dfef3d43505e7a22106ed455395d70b2c9771343830fb03b82ed82ac0"
+        },
+        {
+          "title": "El 'último' servicio de Tezanos: el CIS asegura que el PSOE arrasará y Sánchez gobernará seguro",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-23T11:28:03.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b041c85fc6c83271c8b4593.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954316459296.jpg"
+        },
+        {
+          "title": "El CIS de Tezanos amplía a 10 puntos la ventaja del PSOE sobre el PP",
+          "source": "El Correo",
+          "publishedAt": "2026-11-23T11:15:48.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/cis-tezanos-amplia-puntos-ventaja-psoe-sobre-20261123121547-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/23/1520695025-RirQ6uHTbzpL5ubf9T2kCJP-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/el-ultimo-cis-otorga-a-eh-bildu-un-resultado-historico-hunde-al-pnv-y-da-a-sanch/"
+    },
+    {
+      "id": "now-cluster-españa-copa + segunda",
+      "title": "El sorteo de la segunda ronda de la Copa, en directo: El Athletic se medirá al Numancia en Soria",
+      "brief": "El sorteo de la segunda ronda de la Copa, en directo: El Athletic se medirá al Numancia en Soria.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 24,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 96,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Diario Vasco",
+        "El Correo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/CLJ3ETMTKRDPRLNKJFGOQIF5TQ.jpg?auth=1685cf2abfb824da8b38cb056d75a08ba255b2a23524408cecf460b066564a5c",
         "https://s3.ppllstatics.com/elcorreo/www/multimedia/deportes/2026/11/23/sorteo-copa-k9fB-U40488310900PVF-1200x840@El%20Correo.JPG"
       ],
       "evidence": [
         {
-          "title": "El Athletic se mide en Copa al Numancia, líder en su grupo de Segunda RFEF y con un pasado de matagigantes",
+          "title": "Sorteo de la Copa del Rey: cruces y partidos de la segunda ronda",
+          "source": "El País",
+          "publishedAt": "2026-11-23T13:21:26.000Z",
+          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-23/sorteo-de-la-copa-del-rey-cruces-y-partidos-de-la-segunda-ronda.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/CLJ3ETMTKRDPRLNKJFGOQIF5TQ.jpg?auth=1685cf2abfb824da8b38cb056d75a08ba255b2a23524408cecf460b066564a5c"
+        },
+        {
+          "title": "El Athletic se medirá en Copa a un Numancia con pasado de matagigantes",
           "source": "El Correo",
-          "publishedAt": "2026-11-23T12:49:06.000Z",
+          "publishedAt": "2026-11-23T12:57:04.000Z",
           "sourceUrl": "https://www.elcorreo.com/athletic/athletic-mide-copa-numancia-lider-grupo-segunda-20261123134743-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
@@ -70,7 +144,99 @@
           "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/deportes/2026/11/23/sorteo-copa-k9fB-U40488310900PVF-1200x840@El%20Correo.JPG"
         }
       ],
-      "path": "/es/entity/el-athletic-se-mide-en-copa-al-numancia-lider-en-su-grupo-de-segunda-rfef-y-con/"
+      "path": "/es/entity/el-sorteo-de-la-segunda-ronda-de-la-copa-en-directo-el-athletic-se-medira-al-num/"
+    },
+    {
+      "id": "now-cluster-españa-guardia + civil",
+      "title": "El comandante Villalba declara que Aldama pagó gastos de la Feria de Sevilla y cacerías a miembros de la Guardia Civil",
+      "brief": "El comandante Villalba declara que Aldama pagó gastos de la Feria de Sevilla y cacerías a miembros de la Guardia Civil.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954392716247.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El comandante Villalba declara que Aldama pagó gastos de la Feria de Sevilla y cacerías a miembros de la Guardia Civil",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-23T13:17:07.000Z",
+          "sourceUrl": "https://www.elmundo.es/espana/2026/11/23/6b043adefdddffc64a8b458f.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954392716247.jpg"
+        },
+        {
+          "title": "Casi 700 pastillas y 3.000 cigarros: doble golpe de la Guardia Civil al contrabando en aeropuerto de Hondarribia",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-23T09:00:13.000Z",
+          "sourceUrl": "https://www.diariovasco.com/gipuzkoa/700-pastillas-3000-cigarros-doble-golpe-guardia-civil-aeropuerto-hondarribia-20261123095901-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/el-comandante-villalba-declara-que-aldama-pago-gastos-de-la-feria-de-sevilla-y-c/"
+    },
+    {
+      "id": "now-cluster-españa-coca + cola",
+      "title": "Bruselas investiga a la principal embotelladora de Coca-Cola en Europa por posibles conductas contra la competencia",
+      "brief": "Bruselas investiga a la principal embotelladora de Coca-Cola en Europa por posibles conductas contra la competencia.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954358348933.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Bruselas investiga a la principal embotelladora de Coca-Cola en Europa por posibles conductas contra la competencia",
+          "source": "El Correo",
+          "publishedAt": "2026-11-23T13:02:53.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/empresas/bruselas-investiga-embotelladora-cocacola-reino-unido-posibles-20261123120650-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Bruselas investiga a Coca-Cola por restringir el comercio de sus refrescos en España",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-23T12:13:17.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/23/6b042bfffdddfffa3e8b459a.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954358348933.jpg"
+        }
+      ],
+      "path": "/es/entity/bruselas-investiga-a-la-principal-embotelladora-de-coca-cola-en-europa-por-posib/"
     },
     {
       "id": "now-cluster-españa-supremo + aplica",
@@ -81,10 +247,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -119,98 +285,6 @@
       "path": "/es/entity/el-supremo-aplica-la-amnistia-completa-a-puigdemont-y-cierra-para-siempre-la-cau/"
     },
     {
-      "id": "now-cluster-españa-sanchez + psoe",
-      "title": "El último CIS otorga a EH Bildu un resultado histórico, hunde al PNV y da a Sánchez como ganador claro",
-      "brief": "El último CIS otorga a EH Bildu un resultado histórico, hunde al PNV y da a Sánchez como ganador claro.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Mundo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954316459296.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El último CIS otorga a EH Bildu un resultado histórico, hunde al PNV y da a Sánchez como ganador claro",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-23T12:26:53.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/cis-lanza-bildu-resultado-historico-hunde-pnv-victoria-amplia-sanchez-20261123131814-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "El 'último' servicio de Tezanos: el CIS asegura que el PSOE arrasará y Sánchez gobernará seguro",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-23T11:28:03.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b041c85fc6c83271c8b4593.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954316459296.jpg"
-        }
-      ],
-      "path": "/es/entity/el-ultimo-cis-otorga-a-eh-bildu-un-resultado-historico-hunde-al-pnv-y-da-a-sanch/"
-    },
-    {
-      "id": "now-cluster-españa-coca + cola",
-      "title": "Bruselas investiga a la principal embotelladora de Coca-Cola en Europa por posibles conductas contra la competencia",
-      "brief": "Bruselas investiga a la principal embotelladora de Coca-Cola en Europa por posibles conductas contra la competencia.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954358348933.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Bruselas investiga a Coca-Cola por restringir el comercio de sus refrescos en España",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-23T12:13:17.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/23/6b042bfffdddfffa3e8b459a.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954358348933.jpg"
-        },
-        {
-          "title": "Bruselas investiga a la principal embotelladora de Coca-Cola en Europa por posibles conductas contra la competencia",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T12:08:31.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/empresas/bruselas-investiga-embotelladora-cocacola-reino-unido-posibles-20261123120650-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/bruselas-investiga-a-la-principal-embotelladora-de-coca-cola-en-europa-por-posib/"
-    },
-    {
       "id": "moving-cluster-españa-alemania + reciben",
       "title": "Más de 450 colegios de Alemania reciben amenazas de bomba: «La muerte te espera»",
       "brief": "Más de 450 colegios de Alemania reciben amenazas de bomba: «La muerte te espera».",
@@ -222,7 +296,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -268,7 +342,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -301,53 +375,6 @@
       "path": "/es/entity/laliga-sufre-un-ciberataque-que-afecta-a-datos-de-los-aficionados/"
     },
     {
-      "id": "moving-cluster-españa-psoe + ultimo",
-      "title": "El PSOE aventaja en casi 10 puntos al PP, según el último CIS antes del 29-N",
-      "brief": "El PSOE aventaja en casi 10 puntos al PP, según el último CIS antes del 29-N.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "1h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/24ZEBZEWFVNAJD2SXH4VFMFDWU.jpg?auth=27e3023dfef3d43505e7a22106ed455395d70b2c9771343830fb03b82ed82ac0",
-        "https://s2.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/23/1520695025-RirQ6uHTbzpL5ubf9T2kCJP-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El PSOE aventaja en casi 10 puntos al PP, según el último CIS antes del 29-N",
-          "source": "El País",
-          "publishedAt": "2026-11-23T11:41:44.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-23/el-psoe-aventaja-en-casi-10-puntos-al-pp-segun-el-ultimo-cis-antes-del-29-n.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/24ZEBZEWFVNAJD2SXH4VFMFDWU.jpg?auth=27e3023dfef3d43505e7a22106ed455395d70b2c9771343830fb03b82ed82ac0"
-        },
-        {
-          "title": "El CIS de Tezanos amplía a 10 puntos la ventaja del PSOE sobre el PP",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T11:15:48.000Z",
-          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/cis-tezanos-amplia-puntos-ventaja-psoe-sobre-20261123121547-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/23/1520695025-RirQ6uHTbzpL5ubf9T2kCJP-1200x840@RC.jpg"
-        }
-      ],
-      "path": "/es/entity/el-psoe-aventaja-en-casi-10-puntos-al-pp-segun-el-ultimo-cis-antes-del-29-n/"
-    },
-    {
       "id": "moving-cluster-españa-educacion + plazas",
       "title": "Educación convoca una nueva OPE con 1.374 plazas de profesor: estos son los puestos a cubrir",
       "brief": "Educación convoca una nueva OPE con 1.374 plazas de profesor: estos son los puestos a cubrir.",
@@ -356,13 +383,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -395,9 +422,9 @@
       "path": "/es/entity/educacion-convoca-una-nueva-ope-con-1-374-plazas-de-profesor-estos-son-los-puest/"
     },
     {
-      "id": "fading-cluster-españa-henar + alvarez",
-      "title": "Henar Álvarez se despide de 'Al cielo con ella' con un surrealista rezo a Dios y un guiño a Telecinco",
-      "brief": "Henar Álvarez se despide de 'Al cielo con ella' con un surrealista rezo a Dios y un guiño a Telecinco.",
+      "id": "fading-cluster-españa-feijoo + hara",
+      "title": "Feijóo asegura que no derogará la eutanasia, sino que hará una \"nueva ley\" con \"un plus para garantizar la vida digna\"",
+      "brief": "Feijóo asegura que no derogará la eutanasia, sino que hará una \"nueva ley\" con \"un plus para garantizar la vida digna\".",
       "whyItMatters": "",
       "verdict": "Si no vuelve a aparecer, sale de portada.",
       "mode": "fading",
@@ -406,52 +433,7 @@
       "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/DRJYBDTXXRCRBGCF7264GMWJ7U.jpg?auth=8ba43f5a1800b3719c41b0a0c0113b5c9eeb5f391acf809d34157dac19653e00"
-      ],
-      "evidence": [
-        {
-          "title": "Henar Álvarez despide ‘Al cielo con ella’ con un guiño a Telecinco: “Nos vamos con la cabeza muy alta”",
-          "source": "El País",
-          "publishedAt": "2026-11-23T08:58:35.000Z",
-          "sourceUrl": "https://elpais.com/television/2026-11-23/henar-alvarez-despide-al-cielo-con-ella-con-un-guino-a-telecinco-nos-vamos-con-la-cabeza-muy-alta.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/DRJYBDTXXRCRBGCF7264GMWJ7U.jpg?auth=8ba43f5a1800b3719c41b0a0c0113b5c9eeb5f391acf809d34157dac19653e00"
-        },
-        {
-          "title": "Henar Álvarez se despide de 'Al cielo con ella' con un surrealista rezo a Dios y un guiño a Telecinco",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T08:19:08.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/henar-alvarez-despide-tve-surrealista-rezo-dios-20261123073934-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/henar-alvarez-se-despide-de-al-cielo-con-ella-con-un-surrealista-rezo-a-dios-y-u/"
-    },
-    {
-      "id": "fading-cluster-españa-sanchez + impuesto",
-      "title": "Sánchez anuncia un nuevo impuesto a ultrarricos que recaudará 2.000 millones para vivienda, pensiones y crianza",
-      "brief": "Sánchez anuncia un nuevo impuesto a ultrarricos que recaudará 2.000 millones para vivienda, pensiones y crianza.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
@@ -464,71 +446,26 @@
         "El Mundo"
       ],
       "images": [
-        "https://e01-phantom-elmundo.uecdn.es/52b18a4da9f2e2e9b2cfd61c67f4ba13/crop/0x7/1002x675/f/webp/assets/multimedia/imagenes/2026/11/23/17954218026595.jpg"
+        "https://s1.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/23/feijoo-valencia-REWCsJlauoMYA0G5Jn1oQFO-1200x840@RC.jpg",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954267650409.jpg"
       ],
       "evidence": [
         {
-          "title": "Sánchez promociona un impuesto para los ultrarricos",
+          "title": "Feijóo zanja que hará una nueva ley de eutanasia sin derogar la vigente",
           "source": "El Correo",
-          "publishedAt": "2026-11-23T09:16:20.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/sanchez-promociona-impuesto-ultrarricos-20261123093023-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "publishedAt": "2026-11-23T10:42:35.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/feijoo-zanja-hara-nueva-ley-eutanasia-derogar-20261123114235-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/23/feijoo-valencia-REWCsJlauoMYA0G5Jn1oQFO-1200x840@RC.jpg"
         },
         {
-          "title": "Sánchez anuncia un nuevo impuesto a ultrarricos que recaudará 2.000 millones para vivienda, pensiones y crianza",
+          "title": "Feijóo asegura que no derogará la eutanasia, sino que hará una \"nueva ley\" con \"un plus para garantizar la vida digna\"",
           "source": "El Mundo",
-          "publishedAt": "2026-11-23T08:17:25.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b03f692e85ece083e8b458b.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/52b18a4da9f2e2e9b2cfd61c67f4ba13/crop/0x7/1002x675/f/webp/assets/multimedia/imagenes/2026/11/23/17954218026595.jpg"
+          "publishedAt": "2026-11-23T09:40:23.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b0409f7fc6c83954e8b4578.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954267650409.jpg"
         }
       ],
-      "path": "/es/entity/sanchez-anuncia-un-nuevo-impuesto-a-ultrarricos-que-recaudara-2-000-millones-par/"
-    },
-    {
-      "id": "fading-cluster-españa-mallorca + incendio",
-      "title": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca",
-      "brief": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Mundo"
-      ],
-      "images": [
-        "https://s3.ppllstatics.com/rc/www/multimedia/sociedad/2026/11/23/1484869047.jpg",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954167792127.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Los Bomberos de Mallorca trabajan para controlar el incendio de Formentor",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T07:33:57.000Z",
-          "sourceUrl": "https://www.elcorreo.com/sociedad/bomberos-mallorca-trabajan-controlar-incendio-formentor-20261123083357-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/rc/www/multimedia/sociedad/2026/11/23/1484869047.jpg"
-        },
-        {
-          "title": "Declarado un incendio forestal en la península de Formentor, al noreste de Mallorca",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-23T06:53:36.000Z",
-          "sourceUrl": "https://www.elmundo.es/baleares/2026/11/23/6b03e2ebe85ecedc0b8b457a.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954167792127.jpg"
-        }
-      ],
-      "path": "/es/entity/declarado-un-incendio-forestal-en-la-peninsula-de-formentor-al-noreste-de-mallor/"
+      "path": "/es/entity/feijoo-asegura-que-no-derogara-la-eutanasia-sino-que-hara-una-nueva-ley-con-un-p/"
     }
   ]
 }
