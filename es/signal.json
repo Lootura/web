@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-24T00:10:49.263Z",
+  "updatedAt": "2026-11-24T01:00:48.673Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "293.759 enlaces analizados",
+  "ambientPulseLabel": "294.180 enlaces analizados",
   "dayScanLabel": "4.210 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
@@ -19,6 +19,62 @@
   "topAlert": null,
   "signals": [
     {
+      "id": "now-cluster-españa-jensen + huang",
+      "title": "Trump asegura que habló con la junta directiva de Nvidia sobre la reincorporación de Jensen Huang: \"Me pareció que era muy razonable\"",
+      "brief": "Trump asegura que habló con la junta directiva de Nvidia sobre la reincorporación de Jensen Huang: \"Me pareció que era muy razonable\".",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El País"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954544397706.jpg",
+        "https://imagenes.elpais.com/resizer/v2/HJPXLY2ZZFGZLKA4DFBM6TN6AM.jpg?auth=364fc6704ce63a0cee0f6236d6cb906085f700e66a0151f3f1d52c255feb6d57",
+        "https://e01-phantom-elmundo.uecdn.es/d41d72dc950ccb1088e4d6cd6b824614/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/23/17954510698878.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Así es la inmensa fortuna que han amasado Jensen y Lori Huang",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-24T00:37:58.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/2026/11/24/6b047583fc6c8339628b45b0.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954544397706.jpg"
+        },
+        {
+          "title": "Jensen Huang vuelve a las oficinas de Nvidia entre ovaciones de los empleados",
+          "source": "El País",
+          "publishedAt": "2026-11-23T19:26:16.000Z",
+          "sourceUrl": "https://elpais.com/us/2026-11-23/jensen-huang-vuelve-a-las-oficinas-de-nvidia-entre-ovaciones-de-los-empleados.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/HJPXLY2ZZFGZLKA4DFBM6TN6AM.jpg?auth=364fc6704ce63a0cee0f6236d6cb906085f700e66a0151f3f1d52c255feb6d57"
+        },
+        {
+          "title": "Trump asegura que habló con la junta directiva de Nvidia sobre la reincorporación de Jensen Huang: \"Me pareció que era muy razonable\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-23T16:51:30.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/2026/11/23/6b04686d21efa04a028b45a3.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/d41d72dc950ccb1088e4d6cd6b824614/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/23/17954510698878.jpg"
+        }
+      ],
+      "path": "/es/entity/trump-asegura-que-hablo-con-la-junta-directiva-de-nvidia-sobre-la-reincorporacio/"
+    },
+    {
       "id": "now-cluster-españa-electoral + ocho",
       "title": "Debate electoral 29-N a ocho, en directo | Los portavoces parlamentarios se enfrentan en un debate a ocho organizado por RTVE",
       "brief": "Debate electoral 29-N a ocho, en directo | Los portavoces parlamentarios se enfrentan en un debate a ocho organizado por RTVE.",
@@ -30,7 +86,7 @@
       "strength": 16,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "fresca ahora",
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 79,
@@ -75,63 +131,6 @@
       "path": "/es/entity/debate-electoral-29-n-a-ocho-en-directo-los-portavoces-parlamentarios-se-enfrent/"
     },
     {
-      "id": "now-cluster-españa-jensen + huang",
-      "title": "Trump asegura que habló con la junta directiva de Nvidia sobre la reincorporación de Jensen Huang: \"Me pareció que era muy razonable\"",
-      "brief": "Trump asegura que habló con la junta directiva de Nvidia sobre la reincorporación de Jensen Huang: \"Me pareció que era muy razonable\".",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 16,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/HJPXLY2ZZFGZLKA4DFBM6TN6AM.jpg?auth=364fc6704ce63a0cee0f6236d6cb906085f700e66a0151f3f1d52c255feb6d57",
-        "https://e01-phantom-elmundo.uecdn.es/d41d72dc950ccb1088e4d6cd6b824614/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/23/17954510698878.jpg",
-        "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/23/1520707477-kTiG-U40496849495QHI-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Jensen Huang vuelve a las oficinas de Nvidia entre ovaciones de los empleados",
-          "source": "El País",
-          "publishedAt": "2026-11-23T19:26:16.000Z",
-          "sourceUrl": "https://elpais.com/us/2026-11-23/jensen-huang-vuelve-a-las-oficinas-de-nvidia-entre-ovaciones-de-los-empleados.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/HJPXLY2ZZFGZLKA4DFBM6TN6AM.jpg?auth=364fc6704ce63a0cee0f6236d6cb906085f700e66a0151f3f1d52c255feb6d57"
-        },
-        {
-          "title": "Trump asegura que habló con la junta directiva de Nvidia sobre la reincorporación de Jensen Huang: \"Me pareció que era muy razonable\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-23T16:51:30.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/23/6b04686d21efa04a028b45a3.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/d41d72dc950ccb1088e4d6cd6b824614/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/23/17954510698878.jpg"
-        },
-        {
-          "title": "Nvidia readmite a Jensen Huang como consejero delegado y la compañía se dispara en Bolsa",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T14:14:01.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/nvidia-readmite-jensen-huang-consejero-delegado-tras-20261123151401-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/23/1520707477-kTiG-U40496849495QHI-1200x840@RC.jpg"
-        }
-      ],
-      "path": "/es/entity/trump-asegura-que-hablo-con-la-junta-directiva-de-nvidia-sobre-la-reincorporacio/"
-    },
-    {
       "id": "moving-cluster-españa-junta + electoral",
       "title": "La Junta Electoral sanciona a Silvia Intxaurrondo por cuestionar que Vox pueda «tener cabida» en TVE",
       "brief": "La Junta Electoral sanciona a Silvia Intxaurrondo por cuestionar que Vox pueda «tener cabida» en TVE.",
@@ -140,10 +139,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 7,
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresca",
+      "freshness": "8h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -190,7 +189,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 60,
@@ -233,10 +232,10 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 60,
