@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-23T20:00:48.146Z",
+  "updatedAt": "2026-11-24T00:10:49.263Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "378,345 links analyzed",
-  "dayScanLabel": "8,311 links scanned in 24h",
+  "ambientPulseLabel": "379,183 links analyzed",
+  "dayScanLabel": "8,320 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -25,9 +25,9 @@
     "mode": "now",
     "state": "rising",
     "stateLabel": "Rising",
-    "strength": 37,
-    "sourceCount": 7,
-    "itemCount": 12,
+    "strength": 38,
+    "sourceCount": 6,
+    "itemCount": 16,
     "freshness": "fresh now",
     "alertLevel": "watch",
     "alertLabel": "Watch",
@@ -39,54 +39,53 @@
     ],
     "isHotNews": false,
     "sources": [
-      "The Verge",
-      "NBC News Politics",
-      "NBC News",
+      "PBS NewsHour",
+      "The New York Times Politics",
       "CBS News",
-      "PBS NewsHour"
+      "The New York Times",
+      "NPR"
     ],
     "images": [
-      "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STKP210_JENSEN_HUANG_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261112-jensen-huang-mb-1340-ef3912.jpg",
-      "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/markethuangreturnthumb-u8cxns.jpg",
-      "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/23/7bd8240a-0c31-43d1-b4b0-4da40706bb35/thumbnail/1200x630/ba0818e0701d8435e232bd222dc288c6/cbsn-fusion-trump-says-he-called-into-nvidia-board-meeting-to-convince-them-to-reinstate-jensen-huang-thumbnail.jpg",
-      "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/6c61d25e-1f5f-4ac7-ab55-a7d8b70b4660/thumbnail/1200x630/b23c8d62ea76348f837af6af572cd965/cbsn-fusion-major-national-security-concerns-persist-after-nvidia-reinstates-jensen-huang-expert-says-thumbnail.jpg"
+      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/nov23fullepnologo-1024x683.jpg",
+      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/fulleppic-1024x680.jpg",
+      "https://static01.nyt.com/images/2026/11/23/multimedia/23nvidia-Trump-interview-gwmt/23nvidia-Trump-interview-gwmt-mediumSquareAt3X.jpg",
+      "https://static01.nyt.com/images/2026/11/23/multimedia/23goldberg-vlph/23goldberg-vlph-mediumSquareAt3X-v2.jpg"
     ],
     "evidence": [
       {
-        "title": "Jensen Huang says he’ll be a ‘better CEO’ as staff applauds his return",
-        "source": "The Verge",
-        "publishedAt": "2026-11-23T19:58:27.000Z",
-        "sourceUrl": "https://www.theverge.com/tech/1040487/nvidia-ceo-jensen-huang-staff-applauds-return?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STKP210_JENSEN_HUANG_D.jpg?quality=90&strip=all&crop=0,0,100,100"
+        "title": "Why Trump pushed for Jensen Huang's return to Nvidia",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-11-23T23:55:49.000Z",
+        "sourceUrl": "https://www.pbs.org/newshour/show/why-trump-pushed-for-jensen-huangs-return-to-nvidia?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/nov23fullepnologo-1024x683.jpg"
       },
       {
-        "title": "Trump, tech leaders and investors cheer Huang's return to Nvidia",
+        "title": "Experts weigh national security implications of Huang's return to Nvidia",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-11-23T23:50:21.000Z",
+        "sourceUrl": "https://www.pbs.org/newshour/show/experts-weigh-national-security-implications-of-huangs-return-to-nvidia?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/fulleppic-1024x680.jpg"
+      },
+      {
+        "title": "Trump Is Said to Have Pushed to Reinstate Nvidia CEO Jensen Huang",
+        "source": "The New York Times Politics",
+        "publishedAt": "2026-11-23T23:41:28.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/23/us/politics/trump-nvidia-huang.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23nvidia-Trump-interview-gwmt/23nvidia-Trump-interview-gwmt-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Huang's return at Nvidia puts spotlight on chipmaker's board",
         "source": "CBS News",
-        "publishedAt": "2026-11-23T19:14:19.000Z",
-        "sourceUrl": "https://www.cbsnews.com/news/trump-elon-musk-business-leaders-cheer-jensen-huang-ceo-nvidia/?utm_source=lootura.com&ref=lootura.com",
+        "publishedAt": "2026-11-23T23:33:02.000Z",
+        "sourceUrl": "https://www.cbsnews.com/news/nvidia-board-reinstates-ceo-jensen-huang/?utm_source=lootura.com&ref=lootura.com",
         "image": ""
       },
       {
-        "title": "Congress reacts with anger and skepticism about Jensen Huang reinstatement",
-        "source": "NBC News Politics",
-        "publishedAt": "2026-11-23T18:37:25.495Z",
-        "sourceUrl": "https://www.nbcnews.com/politics/congress/congress-criticism-jensen-huang-nvidia-reinstated-ceo-trump-rcna610926?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261112-jensen-huang-mb-1340-ef3912.jpg"
-      },
-      {
-        "title": "Trump says he called into Nvidia board meeting and convinced them to reinstate Jensen Huang",
-        "source": "CBS News",
-        "publishedAt": "2026-11-23T16:59:51.000Z",
-        "sourceUrl": "https://www.cbsnews.com/video/trump-says-he-called-into-nvidia-board-meeting-to-convince-them-to-reinstate-jensen-huang/?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/23/7bd8240a-0c31-43d1-b4b0-4da40706bb35/thumbnail/1200x630/ba0818e0701d8435e232bd222dc288c6/cbsn-fusion-trump-says-he-called-into-nvidia-board-meeting-to-convince-them-to-reinstate-jensen-huang-thumbnail.jpg"
-      },
-      {
-        "title": "Major national security concerns persist as Nvidia reinstates Jensen Huang, expert says",
-        "source": "CBS News",
-        "publishedAt": "2026-11-23T16:54:55.000Z",
-        "sourceUrl": "https://www.cbsnews.com/video/major-national-security-concerns-persist-after-nvidia-reinstates-jensen-huang-expert-says/?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/6c61d25e-1f5f-4ac7-ab55-a7d8b70b4660/thumbnail/1200x630/b23c8d62ea76348f837af6af572cd965/cbsn-fusion-major-national-security-concerns-persist-after-nvidia-reinstates-jensen-huang-expert-says-thumbnail.jpg"
+        "title": "With Jensen Huang, Trump Strikes Another Blow for Billionaire Impunity",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-23T23:07:26.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/23/opinion/jensen-huang-trump-reinstated.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23goldberg-vlph/23goldberg-vlph-mediumSquareAt3X-v2.jpg"
       }
     ],
     "path": "/us/entity/trump-says-he-called-into-nvidia-board-meeting-and-convinced-them-to-reinstate-j/"
@@ -101,9 +100,9 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 37,
-      "sourceCount": 7,
-      "itemCount": 12,
+      "strength": 38,
+      "sourceCount": 6,
+      "itemCount": 16,
       "freshness": "fresh now",
       "alertLevel": "watch",
       "alertLabel": "Watch",
@@ -115,73 +114,72 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The Verge",
-        "NBC News Politics",
-        "NBC News",
+        "PBS NewsHour",
+        "The New York Times Politics",
         "CBS News",
-        "PBS NewsHour"
+        "The New York Times",
+        "NPR"
       ],
       "images": [
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STKP210_JENSEN_HUANG_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261112-jensen-huang-mb-1340-ef3912.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/markethuangreturnthumb-u8cxns.jpg",
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/23/7bd8240a-0c31-43d1-b4b0-4da40706bb35/thumbnail/1200x630/ba0818e0701d8435e232bd222dc288c6/cbsn-fusion-trump-says-he-called-into-nvidia-board-meeting-to-convince-them-to-reinstate-jensen-huang-thumbnail.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/6c61d25e-1f5f-4ac7-ab55-a7d8b70b4660/thumbnail/1200x630/b23c8d62ea76348f837af6af572cd965/cbsn-fusion-major-national-security-concerns-persist-after-nvidia-reinstates-jensen-huang-expert-says-thumbnail.jpg"
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/nov23fullepnologo-1024x683.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/fulleppic-1024x680.jpg",
+        "https://static01.nyt.com/images/2026/11/23/multimedia/23nvidia-Trump-interview-gwmt/23nvidia-Trump-interview-gwmt-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/23/multimedia/23goldberg-vlph/23goldberg-vlph-mediumSquareAt3X-v2.jpg"
       ],
       "evidence": [
         {
-          "title": "Jensen Huang says he’ll be a ‘better CEO’ as staff applauds his return",
-          "source": "The Verge",
-          "publishedAt": "2026-11-23T19:58:27.000Z",
-          "sourceUrl": "https://www.theverge.com/tech/1040487/nvidia-ceo-jensen-huang-staff-applauds-return?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STKP210_JENSEN_HUANG_D.jpg?quality=90&strip=all&crop=0,0,100,100"
+          "title": "Why Trump pushed for Jensen Huang's return to Nvidia",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-23T23:55:49.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/why-trump-pushed-for-jensen-huangs-return-to-nvidia?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/nov23fullepnologo-1024x683.jpg"
         },
         {
-          "title": "Trump, tech leaders and investors cheer Huang's return to Nvidia",
+          "title": "Experts weigh national security implications of Huang's return to Nvidia",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-23T23:50:21.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/experts-weigh-national-security-implications-of-huangs-return-to-nvidia?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/fulleppic-1024x680.jpg"
+        },
+        {
+          "title": "Trump Is Said to Have Pushed to Reinstate Nvidia CEO Jensen Huang",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-23T23:41:28.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/23/us/politics/trump-nvidia-huang.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23nvidia-Trump-interview-gwmt/23nvidia-Trump-interview-gwmt-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Huang's return at Nvidia puts spotlight on chipmaker's board",
           "source": "CBS News",
-          "publishedAt": "2026-11-23T19:14:19.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/trump-elon-musk-business-leaders-cheer-jensen-huang-ceo-nvidia/?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-23T23:33:02.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/nvidia-board-reinstates-ceo-jensen-huang/?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
         {
-          "title": "Congress reacts with anger and skepticism about Jensen Huang reinstatement",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-23T18:37:25.495Z",
-          "sourceUrl": "https://www.nbcnews.com/politics/congress/congress-criticism-jensen-huang-nvidia-reinstated-ceo-trump-rcna610926?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261112-jensen-huang-mb-1340-ef3912.jpg"
-        },
-        {
-          "title": "Trump says he called into Nvidia board meeting and convinced them to reinstate Jensen Huang",
-          "source": "CBS News",
-          "publishedAt": "2026-11-23T16:59:51.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/trump-says-he-called-into-nvidia-board-meeting-to-convince-them-to-reinstate-jensen-huang/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/23/7bd8240a-0c31-43d1-b4b0-4da40706bb35/thumbnail/1200x630/ba0818e0701d8435e232bd222dc288c6/cbsn-fusion-trump-says-he-called-into-nvidia-board-meeting-to-convince-them-to-reinstate-jensen-huang-thumbnail.jpg"
-        },
-        {
-          "title": "Major national security concerns persist as Nvidia reinstates Jensen Huang, expert says",
-          "source": "CBS News",
-          "publishedAt": "2026-11-23T16:54:55.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/major-national-security-concerns-persist-after-nvidia-reinstates-jensen-huang-expert-says/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/6c61d25e-1f5f-4ac7-ab55-a7d8b70b4660/thumbnail/1200x630/b23c8d62ea76348f837af6af572cd965/cbsn-fusion-major-national-security-concerns-persist-after-nvidia-reinstates-jensen-huang-expert-says-thumbnail.jpg"
+          "title": "With Jensen Huang, Trump Strikes Another Blow for Billionaire Impunity",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-23T23:07:26.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/23/opinion/jensen-huang-trump-reinstated.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23goldberg-vlph/23goldberg-vlph-mediumSquareAt3X-v2.jpg"
         }
       ],
       "path": "/us/entity/trump-says-he-called-into-nvidia-board-meeting-and-convinced-them-to-reinstate-j/"
     },
     {
-      "id": "now-cluster-united states-trump + iowa",
-      "title": "Trump tells Army to halt detonation for now of unstable explosives in Iowa",
-      "brief": "Trump tells Army to halt detonation for now of unstable explosives in Iowa.",
+      "id": "now-cluster-united states-trump + court",
+      "title": "Appeals court gives Trump another chance to move his hush money conviction case to a federal venue",
+      "brief": "Appeals court gives Trump another chance to move his hush money conviction case to a federal venue.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 27,
-      "sourceCount": 4,
-      "itemCount": 6,
+      "strength": 30,
+      "sourceCount": 5,
+      "itemCount": 7,
       "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
       "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
@@ -190,32 +188,46 @@
       ],
       "isHotNews": false,
       "sources": [
+        "CBS News",
         "The New York Times",
         "NBC News",
-        "CBS News",
+        "NBC News Politics",
         "PBS NewsHour"
       ],
       "images": [
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/92eabf07-5631-4d13-bd7d-555571190eb6/thumbnail/1200x630/dc5fac32e6d2d81a3d442048e904db52/ap26322823699168.jpg",
         "https://static01.nyt.com/images/2026/11/23/multimedia/23CLI-IOWA-BLAST-PREP-top3-jzgm/23CLI-IOWA-BLAST-PREP-top3-jzgm-mediumSquareAt3X.jpg",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261123-iowa-army-ammunition-mn-1325-827fc9.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/92eabf07-5631-4d13-bd7d-555571190eb6/thumbnail/1200x630/dc5fac32e6d2d81a3d442048e904db52/ap26322823699168.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-23T190601Z_154940805_RC2TTOAH0U71_RTRMADP_3_IOWA-ARMY-DETONATION-1024x683.jpg",
-        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/23/f23a4fb1-acb1-4bac-bf29-6ba0af509a16/thumbnail/1200x630/fe33edfb0e87dde1edf75faabf804953/cbsn-fusion-trump-orders-army-not-to-detonate-unstable-explosives-in-iowa-without-court-approval-thumbnail.jpg"
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/291123-trump-sjr-1631-6ae2e3.jpg"
       ],
       "evidence": [
         {
-          "title": "In Iowa, Confusion Over Ammunition Explosion as Trump Calls for Delay",
+          "title": "Appeals court clears way for Army to detonate Iowa lead azide explosives",
+          "source": "CBS News",
+          "publishedAt": "2026-11-23T23:46:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/army-iowa-explosives-trump-appeals-court/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/92eabf07-5631-4d13-bd7d-555571190eb6/thumbnail/1200x630/dc5fac32e6d2d81a3d442048e904db52/ap26322823699168.jpg"
+        },
+        {
+          "title": "Federal Court Clears the Way for Planned Ammunition Explosion in Iowa",
           "source": "The New York Times",
-          "publishedAt": "2026-11-23T19:58:17.000Z",
+          "publishedAt": "2026-11-23T23:43:36.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/23/climate/iowa-army-ammunition-explosion.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23CLI-IOWA-BLAST-PREP-top3-jzgm/23CLI-IOWA-BLAST-PREP-top3-jzgm-mediumSquareAt3X.jpg"
         },
         {
-          "title": "Trump postpones planned detonation of toxic drums at Iowa army facility",
+          "title": "Court allows Army to go forward with planned detonation of toxic drums in Iowa",
           "source": "NBC News",
-          "publishedAt": "2026-11-23T19:36:46.113Z",
+          "publishedAt": "2026-11-23T23:22:10.713Z",
           "sourceUrl": "https://www.nbcnews.com/science/environment/trump-postpones-planned-detonation-toxic-drums-iowa-army-facility-rcna610945?utm_source=lootura.com&ref=lootura.com",
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261123-iowa-army-ammunition-mn-1325-827fc9.jpg"
+        },
+        {
+          "title": "Appeals court gives Trump another chance to move his hush money conviction case to a federal venue",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-23T23:09:32.000Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/donald-trump/appeals-court-gives-another-chance-move-hush-money-case-federal-court-rcna610988?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/291123-trump-sjr-1631-6ae2e3.jpg"
         },
         {
           "title": "Trump tells Army to halt detonation for now of unstable explosives in Iowa",
@@ -223,154 +235,26 @@
           "publishedAt": "2026-11-23T19:26:32.000Z",
           "sourceUrl": "https://www.cbsnews.com/news/trump-tells-army-to-halt-detonation-in-iowa-this-week/?utm_source=lootura.com&ref=lootura.com",
           "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/92eabf07-5631-4d13-bd7d-555571190eb6/thumbnail/1200x630/dc5fac32e6d2d81a3d442048e904db52/ap26322823699168.jpg"
-        },
-        {
-          "title": "Trump says Army will not detonate bomb-making chemicals in Iowa without court approval",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-23T19:25:48.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/nation/trump-says-army-will-not-detonate-bomb-making-chemicals-in-iowa-without-court-approval?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-23T190601Z_154940805_RC2TTOAH0U71_RTRMADP_3_IOWA-ARMY-DETONATION-1024x683.jpg"
-        },
-        {
-          "title": "Trump orders Army not to detonate unstable explosives in Iowa without court approval",
-          "source": "CBS News",
-          "publishedAt": "2026-11-23T19:00:20.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/trump-orders-army-not-to-detonate-unstable-explosives-in-iowa-without-court-approval/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/23/f23a4fb1-acb1-4bac-bf29-6ba0af509a16/thumbnail/1200x630/fe33edfb0e87dde1edf75faabf804953/cbsn-fusion-trump-orders-army-not-to-detonate-unstable-explosives-in-iowa-without-court-approval-thumbnail.jpg"
         }
       ],
-      "path": "/us/entity/trump-tells-army-to-halt-detonation-for-now-of-unstable-explosives-in-iowa/"
+      "path": "/us/entity/appeals-court-gives-trump-another-chance-to-move-his-hush-money-conviction-case/"
     },
     {
-      "id": "now-cluster-united states-more + than",
-      "title": "More than 12,000 fans were evacuated from Don Toliver concert after an unknown substance sickens fans",
-      "brief": "More than 12,000 fans were evacuated from Don Toliver concert after an unknown substance sickens fans.",
+      "id": "now-cluster-united states-jimmy + gomez",
+      "title": "Democratic Rep. Jimmy Gomez to resign after Ethics Committee finds he engaged in sexual misconduct",
+      "brief": "Democratic Rep. Jimmy Gomez to resign after Ethics Committee finds he engaged in sexual misconduct.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 3,
+      "strength": 28,
+      "sourceCount": 5,
+      "itemCount": 5,
       "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 92,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "Phys.org",
-        "PBS NewsHour",
-        "NBC News"
-      ],
-      "images": [
-        "https://scx1.b-cdn.net/csz/news/tmb/2026/the-ocean-exchanges-fa.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-06-29T003917Z_1612607887_RC2C3MA144KH_RTRMADP_3_AWARDS-BET-1024x683.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795439701143_tdy_news_8a_uk_concert_evacuated_261123_S3_1920x1080-nfrlpo.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Baltic Sea measurements reveal more complex ocean-atmosphere exchanges than previously assumed",
-          "source": "Phys.org",
-          "publishedAt": "2026-11-23T19:40:08.000Z",
-          "sourceUrl": "https://phys.org/news/2026-11-baltic-sea-reveal-complex-ocean.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-ocean-exchanges-fa.jpg"
-        },
-        {
-          "title": "More than 12,000 fans were evacuated from Don Toliver concert after an unknown substance sickens fans",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-23T15:15:36.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/world/more-than-12000-fans-were-evacuated-from-don-toliver-concert-after-an-unknown-substance-sickens-fans?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-06-29T003917Z_1612607887_RC2C3MA144KH_RTRMADP_3_AWARDS-BET-1024x683.jpg"
-        },
-        {
-          "title": "Concert Evacuated After Unknown Substance Released Into Crowd",
-          "source": "NBC News",
-          "publishedAt": "2026-11-23T13:15:05.000Z",
-          "sourceUrl": "https://www.today.com/video/concert-evacuated-after-unknown-substance-released-into-crowd-274008133595?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795439701143_tdy_news_8a_uk_concert_evacuated_261123_S3_1920x1080-nfrlpo.jpg"
-        }
-      ],
-      "path": "/us/entity/more-than-12-000-fans-were-evacuated-from-don-toliver-concert-after-an-unknown-s/"
-    },
-    {
-      "id": "moving-cluster-united states-spacex + oregon",
-      "title": "SpaceX Sued By Oregon and Virginia Over A.I.-Generated Sexualized Images",
-      "brief": "SpaceX Sued By Oregon and Virginia Over A.I.-Generated Sexualized Images.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "2h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 92,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The Verge",
-        "CBS News",
-        "The New York Times"
-      ],
-      "images": [
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK419_DEEPFAKE_CVIRGINIA_F.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400",
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/23/435014dd-9128-439e-bce2-e1f0d6af9856/thumbnail/1200x630/b5561bf9e43b8848a5275ea6dba5cf0d/cbsn-fusion-oregon-virginia-attorneys-general-on-lawsuit-against-spacex-over-grok-deepfakes-thumbnail.jpg",
-        "https://static01.nyt.com/images/2026/11/23/multimedia/23BIZ-GROK-LAWSUIT-qtmp/23BIZ-GROK-LAWSUIT-qtmp-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
-          "source": "The Verge",
-          "publishedAt": "2026-11-23T18:26:47.000Z",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK419_DEEPFAKE_CVIRGINIA_F.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400"
-        },
-        {
-          "title": "Oregon, Virginia attorneys general sue Musk's SpaceX over Grok deepfakes",
-          "source": "CBS News",
-          "publishedAt": "2026-11-23T16:33:05.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/oregon-virginia-attorneys-general-on-lawsuit-against-spacex-over-grok-deepfakes/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/23/435014dd-9128-439e-bce2-e1f0d6af9856/thumbnail/1200x630/b5561bf9e43b8848a5275ea6dba5cf0d/cbsn-fusion-oregon-virginia-attorneys-general-on-lawsuit-against-spacex-over-grok-deepfakes-thumbnail.jpg"
-        },
-        {
-          "title": "SpaceX Sued By Oregon and Virginia Over A.I.-Generated Sexualized Images",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-23T13:40:06.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23BIZ-GROK-LAWSUIT-qtmp/23BIZ-GROK-LAWSUIT-qtmp-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/spacex-sued-by-oregon-and-virginia-over-a-i-generated-sexualized-images/"
-    },
-    {
-      "id": "moving-cluster-united states-2028 + democrats",
-      "title": "Democrats plan 12 debates for their 2028 presidential primary, with what's likely to be a crowded field",
-      "brief": "Democrats plan 12 debates for their 2028 presidential primary, with what's likely to be a crowded field.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 22,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "2h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 92,
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
+      "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -379,45 +263,63 @@
       "isHotNews": false,
       "sources": [
         "CBS News",
-        "PBS NewsHour",
-        "The New York Times Politics"
+        "The New York Times Politics",
+        "NBC News Politics",
+        "NPR Politics",
+        "PBS NewsHour"
       ],
       "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2020/02/vote2020dis-1024x683.jpg",
-        "https://static01.nyt.com/images/2026/11/23/multimedia/23pol-dem-debates-gmcf/23pol-dem-debates-gmcf-mediumSquareAt3X-v2.jpg"
+        "https://static01.nyt.com/images/2026/11/23/multimedia/23dc-gomez-wpkc/23dc-gomez-wpkc-mediumSquareAt3X.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261123-jimmy-gomex-bf-1521-34f3ec.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3568x2379+0+0/resize/3568x2379!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F50%2Fe5%2Fe4bbb0194e2e83802bfc1e84447d%2Fgettyimages-2267401862.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2025-07-03T100722Z_1159111674_RC2YEFAVRADF_RTRMADP_3_USA-CONGRESS-TAX-1024x683.jpg"
       ],
       "evidence": [
         {
-          "title": "Democrats announce 12 debates starting in June for 2028 race",
+          "title": "Rep. Jimmy Gomez resigning after panel finds evidence of misconduct",
           "source": "CBS News",
-          "publishedAt": "2026-11-23T18:05:01.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/2028-presidential-race-democratic-debates/?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-23T23:23:01.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/house-ethics-investigation-jimmy-gomez-sexual-misconduct/?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
         {
-          "title": "Democrats plan 12 debates for their 2028 presidential primary, with what's likely to be a crowded field",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-23T15:54:04.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/politics/democrats-plan-12-debates-for-their-2028-presidential-primary-with-whats-likely-to-be-a-crowded-field?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2020/02/vote2020dis-1024x683.jpg"
+          "title": "Rep. Jimmy Gomez Resigns After Panel Alleges Unwanted Sexual Contact With Aide",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-23T22:54:50.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/23/us/politics/jimmy-gomez-democrat-resigns.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23dc-gomez-wpkc/23dc-gomez-wpkc-mediumSquareAt3X.jpg"
         },
         {
-          "title": "D.N.C. Plans 12 Debates for the 2028 Presidential Primary, Starting in June",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-23T15:32:54.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/23/us/politics/democrats-debates-2028-presidential-race.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23pol-dem-debates-gmcf/23pol-dem-debates-gmcf-mediumSquareAt3X-v2.jpg"
+          "title": "Democratic Rep. Jimmy Gomez to resign after Ethics Committee finds he engaged in sexual misconduct",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-23T22:35:41.000Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/congress/rep-jimmy-gomez-resign-ethics-report-sexual-misconduct-rcna610895?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261123-jimmy-gomex-bf-1521-34f3ec.jpg"
+        },
+        {
+          "title": "California Democrat Rep. Gomez resigns following ethics report on sexual misconduct allegations",
+          "source": "NPR Politics",
+          "publishedAt": "2026-11-23T22:29:53.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3568x2379+0+0/resize/3568x2379!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F50%2Fe5%2Fe4bbb0194e2e83802bfc1e84447d%2Fgettyimages-2267401862.jpg"
+        },
+        {
+          "title": "Ethics probe finds Democratic Rep. Jimmy Gomez made unwelcome sexual advances to a staffer",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-23T22:11:09.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/politics/ethics-probe-finds-democratic-rep-jimmy-gomez-made-unwelcome-sexual-advances-to-a-staffer?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2025-07-03T100722Z_1159111674_RC2YEFAVRADF_RTRMADP_3_USA-CONGRESS-TAX-1024x683.jpg"
         }
       ],
-      "path": "/us/entity/democrats-plan-12-debates-for-their-2028-presidential-primary-with-what-s-likely/"
+      "path": "/us/entity/democratic-rep-jimmy-gomez-to-resign-after-ethics-committee-finds-he-engaged-in/"
     },
     {
-      "id": "moving-cluster-united states-black + friday",
-      "title": "Black Friday deals are already here, and I’m tracking the best ones live: Walmart, Apple, PlayStation and more",
-      "brief": "Black Friday deals are already here, and I’m tracking the best ones live: Walmart, Apple, PlayStation and more.",
+      "id": "now-cluster-united states-thanksgiving + tech",
+      "title": "News Wrap: Storms threaten Thanksgiving travel as airlines rebound from tech failures",
+      "brief": "News Wrap: Storms threaten Thanksgiving travel as airlines rebound from tech failures.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 16,
@@ -434,90 +336,42 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The Verge",
-        "NBC News"
+        "PBS NewsHour",
+        "CBS News"
       ],
       "images": [
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK055_HBOMAX_2_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/acastro_STK105_peacock_02-1.webp?quality=90&strip=all&crop=0,0,100,100",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261120-bfcm-early-deals-kb-main-392e2c.jpg"
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrapnov23-1024x683.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T200711Z_1418576193_RC26TOAQB25U_RTRMADP_3_DELTA-AIR-DELAYS-ATLANTA-1024x683.jpg"
       ],
       "evidence": [
         {
-          "title": "HBO Max is offering one of the best Black Friday deals we’ve seen this year",
-          "source": "The Verge",
-          "publishedAt": "2026-11-23T19:40:00.000Z",
-          "sourceUrl": "https://www.theverge.com/gadgets/1039300/hbo-max-black-friday-2026-deal-sale?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK055_HBOMAX_2_D.jpg?quality=90&strip=all&crop=0,0,100,100"
+          "title": "News Wrap: Storms threaten Thanksgiving travel as airlines rebound from tech failures",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-23T23:45:23.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/news-wrap-storms-threaten-thanksgiving-travel-as-airlines-rebound-from-tech-failures?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrapnov23-1024x683.jpg"
         },
         {
-          "title": "Peacock subscriptions are up to 66 percent off for Black Friday",
-          "source": "The Verge",
-          "publishedAt": "2026-11-23T18:33:29.000Z",
-          "sourceUrl": "https://www.theverge.com/gadgets/1040122/peacock-subscription-black-friday-2026-deal-sale?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/acastro_STK105_peacock_02-1.webp?quality=90&strip=all&crop=0,0,100,100"
+          "title": "Delta says cause of weekend delays resolved as Thanksgiving travel rush gets underway",
+          "source": "CBS News",
+          "publishedAt": "2026-11-23T23:16:42.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/delta-says-cause-of-delays-resolved-as-thanksgiving-travel-rush-gets-underway/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
-          "title": "Black Friday deals are already here, and I’m tracking the best ones live: Walmart, Apple, PlayStation and more",
-          "source": "NBC News",
-          "publishedAt": "2026-11-23T13:19:54.000Z",
-          "sourceUrl": "https://www.nbcnews.com/select/shopping/best-black-friday-deals-2026-rcna610836?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261120-bfcm-early-deals-kb-main-392e2c.jpg"
+          "title": "Airline glitches and storms could make Thanksgiving travel messy",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-23T19:36:11.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/nation/airline-glitches-and-storms-could-make-thanksgiving-travel-messy?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T200711Z_1418576193_RC26TOAQB25U_RTRMADP_3_DELTA-AIR-DELAYS-ATLANTA-1024x683.jpg"
         }
       ],
-      "path": "/us/entity/black-friday-deals-are-already-here-and-i-m-tracking-the-best-ones-live-walmart/"
+      "path": "/us/entity/news-wrap-storms-threaten-thanksgiving-travel-as-airlines-rebound-from-tech-fail/"
     },
     {
-      "id": "now-cluster-united states-huang + jensen",
-      "title": "Trump Draws Bipartisan Criticism for Pushing to Reinstate Jensen Huang as Nvidia CEO",
-      "brief": "Trump Draws Bipartisan Criticism for Pushing to Reinstate Jensen Huang as Nvidia CEO.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The Verge",
-        "The New York Times Politics"
-      ],
-      "images": [
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_04.jpg?quality=90&strip=all&crop=0,0,100,100",
-        "https://static01.nyt.com/images/2026/11/23/multimedia/23pol-nvidia-political-reax-jmpb/23pol-nvidia-political-reax-jmpb-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "How Jensen Huang ended up as Nvidia CEO again",
-          "source": "The Verge",
-          "publishedAt": "2026-11-23T19:57:18.000Z",
-          "sourceUrl": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_04.jpg?quality=90&strip=all&crop=0,0,100,100"
-        },
-        {
-          "title": "Trump Draws Bipartisan Criticism for Pushing to Reinstate Jensen Huang as Nvidia CEO",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-23T18:08:18.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/23/us/politics/trump-nvidia-huang-congress-criticism.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23pol-nvidia-political-reax-jmpb/23pol-nvidia-political-reax-jmpb-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/trump-draws-bipartisan-criticism-for-pushing-to-reinstate-jensen-huang-as-nvidia/"
-    },
-    {
-      "id": "moving-cluster-united states-talks + collapse",
-      "title": "The collapse of UN climate talks over fossil fuels was years in the making",
-      "brief": "The collapse of UN climate talks over fossil fuels was years in the making.",
+      "id": "moving-cluster-united states-black + friday",
+      "title": "The 21+ products our editors never pay full price for on Black Friday",
+      "brief": "The 21+ products our editors never pay full price for on Black Friday.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
@@ -525,8 +379,64 @@
       "stateLabel": "Rising",
       "strength": 16,
       "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "1h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NBC News",
+        "The Verge"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261123-BF-ed-picks-dj-main-V2-195fc4.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-06/260617-prime-walmart-oo-social-V4-86a04a.jpg",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268738_Apple_Watch_Series_12_AKrales_0280.jpg?quality=90&strip=all&crop=0,0,100,100"
+      ],
+      "evidence": [
+        {
+          "title": "The 21+ products our editors never pay full price for on Black Friday",
+          "source": "NBC News",
+          "publishedAt": "2026-11-23T22:52:21.000Z",
+          "sourceUrl": "https://www.nbcnews.com/select/shopping/what-editors-buy-every-black-friday-rcna610942?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261123-BF-ed-picks-dj-main-V2-195fc4.jpg"
+        },
+        {
+          "title": "Attention Walmart shoppers: Black Friday deals just dropped",
+          "source": "NBC News",
+          "publishedAt": "2026-11-23T22:44:58.000Z",
+          "sourceUrl": "https://www.nbcnews.com/select/shopping/walmart-black-friday-deals-2026-rcna610982?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-06/260617-prime-walmart-oo-social-V4-86a04a.jpg"
+        },
+        {
+          "title": "The Apple Watch Series 12 is cheaper than ever ahead of Black Friday",
+          "source": "The Verge",
+          "publishedAt": "2026-11-23T21:36:48.000Z",
+          "sourceUrl": "https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268738_Apple_Watch_Series_12_AKrales_0280.jpg?quality=90&strip=all&crop=0,0,100,100"
+        }
+      ],
+      "path": "/us/entity/the-21-products-our-editors-never-pay-full-price-for-on-black-friday/"
+    },
+    {
+      "id": "moving-cluster-united states-trump + they",
+      "title": "They attended Trump's controversial meme coin dinner. It didn't go well",
+      "brief": "They attended Trump's controversial meme coin dinner. It didn't go well.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -536,83 +446,121 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The New York Times World",
-        "PBS NewsHour"
+        "NPR",
+        "CBS News"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/22/multimedia/22cli-cop31-final3-fmcb/22cli-cop31-final3-fmcb-mediumSquareAt3X-v2.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T181659Z_88608313_RC2UROA5PN5T_RTRMADP_3_CLIMATE-COP31-1024x683.jpg"
+        "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6045883"
       ],
       "evidence": [
         {
-          "title": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels",
-          "source": "The New York Times World",
-          "publishedAt": "2026-11-23T19:27:13.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22cli-cop31-final3-fmcb/22cli-cop31-final3-fmcb-mediumSquareAt3X-v2.jpg"
+          "title": "They attended Trump's controversial meme coin dinner. It didn't go well",
+          "source": "NPR",
+          "publishedAt": "2026-11-23T22:17:59.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/23/nx-s1-6045883/they-attended-trumps-controversial-meme-coin-dinner-it-didnt-go-well?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6045883"
         },
         {
-          "title": "The collapse of UN climate talks over fossil fuels was years in the making",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-23T17:31:11.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/world/the-collapse-of-un-climate-talks-over-fossil-fuels-was-years-in-the-making?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T181659Z_88608313_RC2UROA5PN5T_RTRMADP_3_CLIMATE-COP31-1024x683.jpg"
+          "title": "Inside Trump's gala for $TRUMP meme coin buyers",
+          "source": "CBS News",
+          "publishedAt": "2026-11-23T17:51:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/trump-gala-dinner-crypto-meme-coin/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         }
       ],
-      "path": "/us/entity/the-collapse-of-un-climate-talks-over-fossil-fuels-was-years-in-the-making/"
+      "path": "/us/entity/they-attended-trump-s-controversial-meme-coin-dinner-it-didn-t-go-well/"
     },
     {
-      "id": "fading-cluster-united states-russian + libya",
-      "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
-      "brief": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya.",
+      "id": "moving-cluster-united states-democrats + debates",
+      "title": "Democrats announce 12 debates starting in June for 2028 race",
+      "brief": "Democrats announce 12 debates starting in June for 2028 race.",
       "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 10,
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 7,
       "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "4h fresh",
+      "itemCount": 2,
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 55,
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
-        "Picks up volume fast"
+        "Still active"
       ],
       "isHotNews": false,
       "sources": [
         "CBS News",
-        "PBS NewsHour"
+        "The New York Times Politics"
       ],
       "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-23T115758Z_337817518_RC2MTOAAMCKX_RTRMADP_3_UKRAINE-CRISIS-SHIPS-LIBYAN-ARMY-1024x529.jpg"
+        "https://static01.nyt.com/images/2026/11/23/multimedia/23pol-dem-debates-gmcf/23pol-dem-debates-gmcf-mediumSquareAt3X-v2.jpg"
       ],
       "evidence": [
         {
-          "title": "Ukraine strikes Russian warship near Libya",
+          "title": "Democrats announce 12 debates starting in June for 2028 race",
           "source": "CBS News",
-          "publishedAt": "2026-11-23T16:24:48.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/ukraine-strikes-russian-warship-near-libya/?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-23T18:05:01.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/2028-presidential-race-democratic-debates/?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
         {
-          "title": "Ukraine attacks Russian ships in Libya",
-          "source": "CBS News",
-          "publishedAt": "2026-11-23T14:54:42.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/ukraine-attacks-russian-ships-in-libya/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-23T14:13:51.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/world/zelenskyy-hails-ukraines-attack-on-a-russian-warship-docked-at-a-naval-base-in-libya?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-23T115758Z_337817518_RC2MTOAAMCKX_RTRMADP_3_UKRAINE-CRISIS-SHIPS-LIBYAN-ARMY-1024x529.jpg"
+          "title": "D.N.C. Plans 12 Debates for the 2028 Presidential Primary, Starting in June",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-23T15:32:54.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/23/us/politics/democrats-debates-2028-presidential-race.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23pol-dem-debates-gmcf/23pol-dem-debates-gmcf-mediumSquareAt3X-v2.jpg"
         }
       ],
-      "path": "/us/entity/zelenskyy-hails-ukraine-s-attack-on-a-russian-warship-docked-at-a-naval-base-in/"
+      "path": "/us/entity/democrats-announce-12-debates-starting-in-june-for-2028-race/"
+    },
+    {
+      "id": "moving-cluster-united states-2031 + women",
+      "title": "U.S. to co-host 2031 Women's World Cup with Mexico, Costa Rica and Jamaica",
+      "brief": "U.S. to co-host 2031 Women's World Cup with Mexico, Costa Rica and Jamaica.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "6h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "PBS NewsHour",
+        "CBS News"
+      ],
+      "images": [
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-13T080716Z_1612287583_UP1EMBC1GHK00_RTRMADP_3_SOCCER-WORLDCUP-1024x672.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "U.S. to co-host 2031 Women's World Cup with Mexico, Costa Rica and Jamaica",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-23T17:53:49.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/world/u-s-to-co-host-2031-womens-world-cup-with-mexico-costa-rica-and-jamaica?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-13T080716Z_1612287583_UP1EMBC1GHK00_RTRMADP_3_SOCCER-WORLDCUP-1024x672.jpg"
+        },
+        {
+          "title": "U.S. will host the 2031 Women's World Cup, FIFA announces",
+          "source": "CBS News",
+          "publishedAt": "2026-11-23T16:59:31.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/us-host-2031-fifa-women-world-cup-announcement/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/us/entity/u-s-to-co-host-2031-women-s-world-cup-with-mexico-costa-rica-and-jamaica/"
     }
   ]
 }
