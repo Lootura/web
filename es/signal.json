@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-24T03:00:48.083Z",
+  "updatedAt": "2026-11-24T04:00:48.349Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "295.026 enlaces analizados",
+  "ambientPulseLabel": "295.447 enlaces analizados",
   "dayScanLabel": "4.214 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
@@ -25,15 +25,15 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 10,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 73,
+      "alertScore": 63,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -81,18 +81,17 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
+      "state": "cooling",
+      "stateLabel": "Bajando",
       "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "8h fresca",
+      "freshness": "9h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 54,
+      "alertScore": 46,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
@@ -119,52 +118,6 @@
         }
       ],
       "path": "/es/entity/javier-bardem-sorogoyen-y-200-figuras-mas-de-la-cultura-piden-el-voto-para-el-fr/"
-    },
-    {
-      "id": "now-cluster-españa-junta + electoral",
-      "title": "La Junta Electoral sanciona a Silvia Intxaurrondo por cuestionar que Vox pueda «tener cabida» en TVE",
-      "brief": "La Junta Electoral sanciona a Silvia Intxaurrondo por cuestionar que Vox pueda «tener cabida» en TVE.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "10h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/23/silvia-archivo-kEd-U40500484778zAI-1200x840@RC.jpg",
-        "https://imagenes.elpais.com/resizer/v2/B6LMCWCNGVBSPBOAIVXB6JCFWE.jpg?auth=039283f4207760b203bab2d5921dc32d37c4fa497e34957ab916d926060ce88d"
-      ],
-      "evidence": [
-        {
-          "title": "La Junta Electoral sanciona a Silvia Intxaurrondo por cuestionar que Vox pueda «tener cabida» en TVE",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T17:20:19.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/junta-electoral-sanciona-silvia-intxaurrondo-cuestionar-vox-20261123182019-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/23/silvia-archivo-kEd-U40500484778zAI-1200x840@RC.jpg"
-        },
-        {
-          "title": "La Junta Electoral abre expediente a Silvia Intxaurrondo por posible vulneración de la neutralidad",
-          "source": "El País",
-          "publishedAt": "2026-11-23T17:16:49.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-23/la-junta-electoral-sanciona-a-la-periodista-silvia-intxaurrondo-por-posible-vulneracion-de-la-neutralidad.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/B6LMCWCNGVBSPBOAIVXB6JCFWE.jpg?auth=039283f4207760b203bab2d5921dc32d37c4fa497e34957ab916d926060ce88d"
-        }
-      ],
-      "path": "/es/entity/la-junta-electoral-sanciona-a-silvia-intxaurrondo-por-cuestionar-que-vox-pueda-t/"
     }
   ]
 }
