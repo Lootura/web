@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-24T19:00:48.224Z",
+  "updatedAt": "2026-11-24T20:00:48.191Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "301.726 enlaces analizados",
-  "dayScanLabel": "4.179 enlaces escaneados en 24h",
+  "ambientPulseLabel": "302.143 enlaces analizados",
+  "dayScanLabel": "4.173 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,18 +19,67 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-copa + africa",
-      "title": "El Tribunal de Arbitraje Deportivo da la razón a Senegal y le devuelve su triunfo en la última Copa África",
-      "brief": "El Tribunal de Arbitraje Deportivo da la razón a Senegal y le devuelve su triunfo en la última Copa África.",
+      "id": "now-cluster-españa-francisco + tomas",
+      "title": "El hijo de Tomás y Valiente, el día de la libertad de su etarra asesino: \"Ni se ha arrepentido... Sánchez traiciona la memoria democrática\"",
+      "brief": "El hijo de Tomás y Valiente, el día de la libertad de su etarra asesino: \"Ni se ha arrepentido... Sánchez traiciona la memoria democrática\".",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "1h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955303524153.jpg",
+        "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/24/81441067-kCED-U40514965704UhH-1200x840@Diario%20Vasco.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "En libertad el etarra Jon Bienzobas, asesino del expresidente del TC Francisco Tomás y Valiente",
+          "source": "El Correo",
+          "publishedAt": "2026-11-24T18:57:59.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/libertad-etarra-jon-bienzobas-asesino-expresidente-tc-20261124195657-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "El hijo de Tomás y Valiente, el día de la libertad de su etarra asesino: \"Ni se ha arrepentido... Sánchez traiciona la memoria democrática\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-24T14:40:25.000Z",
+          "sourceUrl": "https://www.elmundo.es/espana/2026/11/24/6b058de621efa0c3348b45a0.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955303524153.jpg"
+        }
+      ],
+      "path": "/es/entity/el-hijo-de-tomas-y-valiente-el-dia-de-la-libertad-de-su-etarra-asesino-ni-se-ha/"
+    },
+    {
+      "id": "moving-cluster-españa-copa + africa",
+      "title": "El Tribunal de Arbitraje Deportivo da la razón a Senegal y le devuelve su triunfo en la última Copa África",
+      "brief": "El Tribunal de Arbitraje Deportivo da la razón a Senegal y le devuelve su triunfo en la última Copa África.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
       "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 86,
@@ -76,51 +125,9 @@
       "path": "/es/entity/el-tribunal-de-arbitraje-deportivo-da-la-razon-a-senegal-y-le-devuelve-su-triunf/"
     },
     {
-      "id": "moving-cluster-españa-miguel + angel",
-      "title": "Miguel Ángel Gil Marín dimite como vicepresidente de LaLiga",
-      "brief": "Miguel Ángel Gil Marín dimite como vicepresidente de LaLiga.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 16,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 86,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Mundo",
-        "El País"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955277828207.jpg",
-        "https://imagenes.elpais.com/resizer/v2/TRWBU4475RCBRG2HSIT6VWDQ34.jpg?auth=84a103c6e1d3ed51da6ca340d8cb17f332c57ba71a5fec43211034b3e0c6a5ea"
-      ],
-      "evidence": [
-        {
-          "title": "Miguel Ángel Gil Marín dimite como vicepresidente de LaLiga",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T14:33:25.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/miguel-angel-gil-marin-dimite-vicepresidente-laliga-20261124135131-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/miguel-angel-gil-marin-dimite-como-vicepresidente-de-laliga/"
-    },
-    {
-      "id": "now-cluster-españa-dario + queda",
-      "title": "El campeón del Manomanista, Darío Gómez, se queda fuera del Serie A, Ezkurdia repite como zaguero y Landa será la novedad del Parejas",
-      "brief": "El campeón del Manomanista, Darío Gómez, se queda fuera del Serie A, Ezkurdia repite como zaguero y Landa será la novedad del Parejas.",
+      "id": "now-cluster-españa-contra + quien",
+      "title": "Feijóo enarbola la bandera del feminismo para disputar al PSOE el voto de las mujeres: \"No habrá sitio para quien ejerza la violencia contra ellas\"",
+      "brief": "Feijóo enarbola la bandera del feminismo para disputar al PSOE el voto de las mujeres: \"No habrá sitio para quien ejerza la violencia contra ellas\".",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -130,6 +137,143 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El País"
+      ],
+      "images": [
+        "https://e01-phantom-elmundo.uecdn.es/4eab7e8dd9486d7faa910f8d8866df02/crop/1x0/1024x682/f/webp/assets/multimedia/imagenes/2026/11/24/17955486582159.jpg",
+        "https://imagenes.elpais.com/resizer/v2/UI6O5TZWVZA3ZONZYO5CF4NGDQ.JPG?auth=beeab3f51cf2dac45cc0dc4b2e15d6812875b60fba713648365172243842951b"
+      ],
+      "evidence": [
+        {
+          "title": "Feijóo enarbola la bandera del feminismo para disputar al PSOE el voto de las mujeres: \"No habrá sitio para quien ejerza la violencia contra ellas\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-24T19:35:16.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/24/6b05c9e621efa046268b4573.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/4eab7e8dd9486d7faa910f8d8866df02/crop/1x0/1024x682/f/webp/assets/multimedia/imagenes/2026/11/24/17955486582159.jpg"
+        },
+        {
+          "title": "El juez del ‘caso Leire Díez’ reclama más información al PSOE para saber quién autorizó los pagos a sus abogados",
+          "source": "El País",
+          "publishedAt": "2026-11-24T17:43:11.000Z",
+          "sourceUrl": "https://elpais.com/espana/2026-11-24/el-juez-del-caso-leire-diez-reclama-mas-informacion-al-psoe-para-saber-quien-autorizo-los-pagos-a-sus-abogados.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/UI6O5TZWVZA3ZONZYO5CF4NGDQ.JPG?auth=beeab3f51cf2dac45cc0dc4b2e15d6812875b60fba713648365172243842951b"
+        }
+      ],
+      "path": "/es/entity/feijoo-enarbola-la-bandera-del-feminismo-para-disputar-al-psoe-el-voto-de-las-mu/"
+    },
+    {
+      "id": "now-cluster-españa-regreso + trump",
+      "title": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él",
+      "brief": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/VDVHGZVYPNNP7CXUOFZGSNNBJY.jpg?auth=68bb3b7ad374d3d0217c50319bcb84a6d73994eb7c2ae4d409e3281b6abd1489"
+      ],
+      "evidence": [
+        {
+          "title": "Trump se enfrenta a republicanos y demócratas por el regreso de Huang",
+          "source": "El Correo",
+          "publishedAt": "2026-11-24T19:01:58.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/trump-enfrenta-republicanos-democratas-regreso-huang-20261124200156-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él",
+          "source": "El País",
+          "publishedAt": "2026-11-24T18:44:20.000Z",
+          "sourceUrl": "https://elpais.com/us/2026-11-24/furia-y-consternacion-en-el-congreso-de-ee-uu-por-el-regreso-de-huang-a-nvidia-y-el-papel-de-trump-en-el.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/VDVHGZVYPNNP7CXUOFZGSNNBJY.jpg?auth=68bb3b7ad374d3d0217c50319bcb84a6d73994eb7c2ae4d409e3281b6abd1489"
+        }
+      ],
+      "path": "/es/entity/furia-y-consternacion-en-el-congreso-de-ee-uu-por-el-regreso-de-huang-a-nvidia-y/"
+    },
+    {
+      "id": "now-cluster-españa-recibe + orden",
+      "title": "Nevenka Fernández recibe la encomienda de la Orden del Mérito Civil: “Aunque a veces perdamos, la dignidad siempre gana”",
+      "brief": "Nevenka Fernández recibe la encomienda de la Orden del Mérito Civil: “Aunque a veces perdamos, la dignidad siempre gana”.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Ignacio Galán recibe la Orden de Rio Branco, la máxima distinción de Brasil para personalidades extranjeras",
+          "source": "El Correo",
+          "publishedAt": "2026-11-24T18:56:51.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/ignacio-galan-recibe-orden-rio-branco-maxima-20261124195651-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Nevenka Fernández recibe la encomienda de la Orden del Mérito Civil: “Aunque a veces perdamos, la dignidad siempre gana”",
+          "source": "El País",
+          "publishedAt": "2026-11-24T15:13:40.000Z",
+          "sourceUrl": "https://elpais.com/sociedad/2026-11-24/nevenka-fernandez-recibe-la-encomienda-de-la-orden-del-merito-civil-aunque-a-veces-perdamos-la-dignidad-siempre-gana.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/nevenka-fernandez-recibe-la-encomienda-de-la-orden-del-merito-civil-aunque-a-vec/"
+    },
+    {
+      "id": "moving-cluster-españa-dario + gomez",
+      "title": "El campeón del Manomanista, Darío Gómez, se queda fuera del Serie A, Ezkurdia repite como zaguero y Landa será la novedad del Parejas",
+      "brief": "El campeón del Manomanista, Darío Gómez, se queda fuera del Serie A, Ezkurdia repite como zaguero y Landa será la novedad del Parejas.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -164,18 +308,18 @@
       "path": "/es/entity/el-campeon-del-manomanista-dario-gomez-se-queda-fuera-del-serie-a-ezkurdia-repit/"
     },
     {
-      "id": "now-cluster-españa-castilla + mancha",
+      "id": "moving-cluster-españa-castilla + mancha",
       "title": "El presidente de las Cortes de Castilla-La Mancha rapea por la infancia con gorra y gafas: \"Hagamos los discursos rapeando, bro\"",
       "brief": "El presidente de las Cortes de Castilla-La Mancha rapea por la infancia con gorra y gafas: \"Hagamos los discursos rapeando, bro\".",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -211,21 +355,21 @@
       "path": "/es/entity/el-presidente-de-las-cortes-de-castilla-la-mancha-rapea-por-la-infancia-con-gorr/"
     },
     {
-      "id": "now-cluster-españa-navidad + luces",
+      "id": "moving-cluster-españa-navidad + luces",
       "title": "Muere un trabajador y su hermano resulta herido grave tras ser arrollados por un coche cuando instalaban las luces de Navidad en Santander",
       "brief": "Muere un trabajador y su hermano resulta herido grave tras ser arrollados por un coche cuando instalaban las luces de Navidad en Santander.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -255,198 +399,7 @@
       "path": "/es/entity/muere-un-trabajador-y-su-hermano-resulta-herido-grave-tras-ser-arrollados-por-un/"
     },
     {
-      "id": "moving-cluster-españa-gobierno + cinco",
-      "title": "El Gobierno central aprueba, a cinco días de las elecciones, prorrogar los descuentos en el transporte público para 2027",
-      "brief": "El Gobierno central aprueba, a cinco días de las elecciones, prorrogar los descuentos en el transporte público para 2027.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 73,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/24/metro-5g-kVDC-U40513372951okE-1200x840@El%20Correo.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El Gobierno central concederá ayudas a los afectados por el incendio de Zaldibia",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-24T15:09:15.000Z",
-          "sourceUrl": "https://www.diariovasco.com/gipuzkoa/gobierno-central-concedera-ayudas-afectados-incendio-zaldibia-20261124160915-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "El Gobierno central aprueba, a cinco días de las elecciones, prorrogar los descuentos en el transporte público para 2027",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T12:42:44.000Z",
-          "sourceUrl": "https://www.elcorreo.com/bizkaia/gobierno-central-aprueba-cinco-dias-elecciones-prorrogar-20261124134244-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/24/metro-5g-kVDC-U40513372951okE-1200x840@El%20Correo.jpg"
-        },
-        {
-          "title": "El Gobierno prorroga las ayudas al transporte público tras la presión de sus socios",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T12:23:02.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/gobierno-prorroga-ayudas-transporte-publico-20261124125942-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/el-gobierno-central-aprueba-a-cinco-dias-de-las-elecciones-prorrogar-los-descuen/"
-    },
-    {
-      "id": "moving-cluster-españa-junta + electoral",
-      "title": "El debate dentro de la Junta Electoral para abrir expediente sancionador a Silvia Intxaurrondo: una votación que terminó siete a cinco",
-      "brief": "El debate dentro de la Junta Electoral para abrir expediente sancionador a Silvia Intxaurrondo: una votación que terminó siete a cinco.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Diario Vasco"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "El debate dentro de la Junta Electoral para abrir expediente sancionador a Silvia Intxaurrondo: una votación que terminó siete a cinco",
-          "source": "El País",
-          "publishedAt": "2026-11-24T15:25:19.000Z",
-          "sourceUrl": "https://elpais.com/espana/2026-11-24/la-junta-electoral-se-divide-siete-a-cinco-para-sancionar-a-intxaurrondo-por-sus-reflexiones-sobre-vox.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Silvia Intxaurrondo, al ataque tras la sanción de la Junta Electoral: «Me querían rebajar la multa por pronto pago»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-24T09:09:49.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/silvia-intxaurrondo-ataque-tras-sancion-junta-electoral-orgullo-honor-rebaja-pronto-pago-20261124100456-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/el-debate-dentro-de-la-junta-electoral-para-abrir-expediente-sancionador-a-silvi/"
-    },
-    {
-      "id": "moving-cluster-españa-sanchez + hijo",
-      "title": "El hijo de Tomás y Valiente, el día de la libertad de su etarra asesino: \"Ni se ha arrepentido... Sánchez traiciona la memoria democrática\"",
-      "brief": "El hijo de Tomás y Valiente, el día de la libertad de su etarra asesino: \"Ni se ha arrepentido... Sánchez traiciona la memoria democrática\".",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955303524153.jpg",
-        "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/24/81441067-kCED-U40514965704UhH-1200x840@Diario%20Vasco.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El hijo de Tomás y Valiente, el día de la libertad de su etarra asesino: \"Ni se ha arrepentido... Sánchez traiciona la memoria democrática\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-24T14:40:25.000Z",
-          "sourceUrl": "https://www.elmundo.es/espana/2026/11/24/6b058de621efa0c3348b45a0.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955303524153.jpg"
-        },
-        {
-          "title": "En libertad el etarra Jon Bienzobas, asesino del expresidente del TC Francisco Tomás y Valiente",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-24T13:41:05.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/libertad-etarra-jon-bienzobas-asesino-expresidente-constitucional-francisco-tomas-valiente-20261124144029-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/24/81441067-kCED-U40514965704UhH-1200x840@Diario%20Vasco.jpg"
-        }
-      ],
-      "path": "/es/entity/el-hijo-de-tomas-y-valiente-el-dia-de-la-libertad-de-su-etarra-asesino-ni-se-ha/"
-    },
-    {
-      "id": "fading-cluster-españa-esperan + mujeres",
-      "title": "2.580 mujeres víctimas de violencia de machista esperan una vivienda protegida en Euskadi",
-      "brief": "2.580 mujeres víctimas de violencia de machista esperan una vivienda protegida en Euskadi.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "6h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/24/Mujer%20vivienda-R2SmDOr1ZwGYkTzdwIIip0H-1200x840@Diario%20Vasco.jpg",
-        "https://s1.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/24/143595958-kul-U40510962206xOE-1200x840@El%20Correo.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "2.580 mujeres víctimas de violencia de machista esperan una vivienda protegida en Euskadi",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-24T13:17:14.000Z",
-          "sourceUrl": "https://www.diariovasco.com/sociedad/2580-mujeres-victimas-violencia-machista-esperan-vivienda-protegida-euskadi-20261124141626-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/24/Mujer%20vivienda-R2SmDOr1ZwGYkTzdwIIip0H-1200x840@Diario%20Vasco.jpg"
-        },
-        {
-          "title": "2.600 mujeres víctimas de violencia de género esperan una VPO en Euskadi",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T11:27:05.000Z",
-          "sourceUrl": "https://www.elcorreo.com/bizkaia/2600-mujeres-victimas-violencia-genero-esperan-vpo-20261124122705-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/24/143595958-kul-U40510962206xOE-1200x840@El%20Correo.jpg"
-        }
-      ],
-      "path": "/es/entity/2-580-mujeres-victimas-de-violencia-de-machista-esperan-una-vivienda-protegida-e/"
-    },
-    {
-      "id": "fading-cluster-españa-prision + menores",
+      "id": "fading-cluster-españa-tener + condenan",
       "title": "Condenan a un exojeador de Osasuna y exentrenador del Varea a casi 16 años de prisión por abusar de seis menores y tener pornografía infantil",
       "brief": "Condenan a un exojeador de Osasuna y exentrenador del Varea a casi 16 años de prisión por abusar de seis menores y tener pornografía infantil.",
       "whyItMatters": "",
@@ -457,7 +410,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
@@ -489,9 +442,9 @@
       "path": "/es/entity/condenan-a-un-exojeador-de-osasuna-y-exentrenador-del-varea-a-casi-16-anos-de-pr/"
     },
     {
-      "id": "fading-cluster-españa-amenaza + expediente",
-      "title": "Bruselas amenaza a España con abrir un expediente por exceso de gasto público mientras Sánchez acumula promesas electorales",
-      "brief": "Bruselas amenaza a España con abrir un expediente por exceso de gasto público mientras Sánchez acumula promesas electorales.",
+      "id": "fading-cluster-españa-cinco + gobierno",
+      "title": "El Gobierno central aprueba, a cinco días de las elecciones, prorrogar los descuentos en el transporte público para 2027",
+      "brief": "El Gobierno central aprueba, a cinco días de las elecciones, prorrogar los descuentos en el transporte público para 2027.",
       "whyItMatters": "",
       "verdict": "Si no vuelve a aparecer, sale de portada.",
       "mode": "fading",
@@ -500,7 +453,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
@@ -509,30 +462,29 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Mundo",
+        "El Diario Vasco",
         "El Correo"
       ],
       "images": [
-        "https://e01-phantom-elmundo.uecdn.es/e706ccce5c6acb06c55a22b95f75fde9/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/24/17955310493703.jpg",
-        "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/24/valdis-dombrovskis-reuters-kDHH-U40511697673SZ-1200x840@RC.jpg"
+        "https://s1.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/24/metro-5g-kVDC-U40513372951okE-1200x840@El%20Correo.jpg"
       ],
       "evidence": [
         {
-          "title": "Bruselas amenaza a España con abrir un expediente por exceso de gasto público mientras Sánchez acumula promesas electorales",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-24T14:37:51.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/24/6b059b66fc6c837c2b8b4585.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/e706ccce5c6acb06c55a22b95f75fde9/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/24/17955310493703.jpg"
+          "title": "El Gobierno central concederá ayudas a los afectados por el incendio de Zaldibia",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-24T15:09:15.000Z",
+          "sourceUrl": "https://www.diariovasco.com/gipuzkoa/gobierno-central-concedera-ayudas-afectados-incendio-zaldibia-20261124160915-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
-          "title": "Bruselas alerta a España de un desvío del gasto público, que la deja a las puertas de un expediente",
+          "title": "El Gobierno central aprueba, a cinco días de las elecciones, prorrogar los descuentos en el transporte público para 2027",
           "source": "El Correo",
-          "publishedAt": "2026-11-24T14:36:55.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/bruselas-alerta-espana-desvio-gasto-publico-deja-20261124153655-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/24/valdis-dombrovskis-reuters-kDHH-U40511697673SZ-1200x840@RC.jpg"
+          "publishedAt": "2026-11-24T12:42:44.000Z",
+          "sourceUrl": "https://www.elcorreo.com/bizkaia/gobierno-central-aprueba-cinco-dias-elecciones-prorrogar-20261124134244-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/24/metro-5g-kVDC-U40513372951okE-1200x840@El%20Correo.jpg"
         }
       ],
-      "path": "/es/entity/bruselas-amenaza-a-espana-con-abrir-un-expediente-por-exceso-de-gasto-publico-mi/"
+      "path": "/es/entity/el-gobierno-central-aprueba-a-cinco-dias-de-las-elecciones-prorrogar-los-descuen/"
     }
   ]
 }
