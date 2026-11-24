@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-24T18:00:48.081Z",
+  "updatedAt": "2026-11-24T19:00:48.224Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "301.309 enlaces analizados",
-  "dayScanLabel": "4.180 enlaces escaneados en 24h",
+  "ambientPulseLabel": "301.726 enlaces analizados",
+  "dayScanLabel": "4.179 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -27,13 +27,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 22,
+      "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 92,
+      "alertScore": 86,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -82,12 +82,12 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
+      "state": "active",
+      "stateLabel": "Activa",
       "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 86,
@@ -118,9 +118,9 @@
       "path": "/es/entity/miguel-angel-gil-marin-dimite-como-vicepresidente-de-laliga/"
     },
     {
-      "id": "now-cluster-españa-navidad + coche",
-      "title": "Muere un trabajador y su hermano resulta herido grave tras ser arrollados por un coche cuando instalaban las luces de Navidad en Santander",
-      "brief": "Muere un trabajador y su hermano resulta herido grave tras ser arrollados por un coche cuando instalaban las luces de Navidad en Santander.",
+      "id": "now-cluster-españa-dario + queda",
+      "title": "El campeón del Manomanista, Darío Gómez, se queda fuera del Serie A, Ezkurdia repite como zaguero y Landa será la novedad del Parejas",
+      "brief": "El campeón del Manomanista, Darío Gómez, se queda fuera del Serie A, Ezkurdia repite como zaguero y Landa será la novedad del Parejas.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -130,6 +130,99 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://s1.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/24/1512493204-kMvH-R91NY40ddlVrKBzS6QT5ZwI-1200x840@Diario%20Vasco.JPG"
+      ],
+      "evidence": [
+        {
+          "title": "El campeón del Manomanista, Darío Gómez, se queda fuera del Serie A, Ezkurdia repite como zaguero y Landa será la novedad del Parejas",
+          "source": "El Correo",
+          "publishedAt": "2026-11-24T18:18:46.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/pelota/campeon-manomanista-dario-gomez-queda-serie-ezkurdia-20261124130230-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Darío se queda fuera en el Parejas y Unax Landa debutará",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-24T11:39:24.000Z",
+          "sourceUrl": "https://www.diariovasco.com/deportes/pelota/campeonato-parejas/dario-parejas-unax-landa-debutara-20261124123107-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/24/1512493204-kMvH-R91NY40ddlVrKBzS6QT5ZwI-1200x840@Diario%20Vasco.JPG"
+        }
+      ],
+      "path": "/es/entity/el-campeon-del-manomanista-dario-gomez-se-queda-fuera-del-serie-a-ezkurdia-repit/"
+    },
+    {
+      "id": "now-cluster-españa-castilla + mancha",
+      "title": "El presidente de las Cortes de Castilla-La Mancha rapea por la infancia con gorra y gafas: \"Hagamos los discursos rapeando, bro\"",
+      "brief": "El presidente de las Cortes de Castilla-La Mancha rapea por la infancia con gorra y gafas: \"Hagamos los discursos rapeando, bro\".",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El País"
+      ],
+      "images": [
+        "https://e01-phantom-elmundo.uecdn.es/ae3cd051af73ba810c24449d0333af54/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/24/17955416490250.png",
+        "https://imagenes.elpais.com/resizer/v2/OMTZQYY2ZFEFXJD4SXIYRMCCIM.jpg?auth=00ec41f341de91268d08281dfa656ae9b2d5476f68d9010d3f39899efabfcf01&width=1960&height=1103&smart=true,https://imagenes.elpais.com/resizer/v2/OMTZQYY2ZFEFXJD4SXIYRMCCIM.jpg?auth=00ec41f341de91268d08281dfa656ae9b2d5476f68d9010d3f39899efabfcf01&width=1960&height=1470&smart=true,https://imagenes.elpais.com/resizer/v2/OMTZQYY2ZFEFXJD4SXIYRMCCIM.jpg?auth=00ec41f341de91268d08281dfa656ae9b2d5476f68d9010d3f39899efabfcf01&width=980&height=980&smart=true"
+      ],
+      "evidence": [
+        {
+          "title": "El presidente de las Cortes de Castilla-La Mancha rapea por la infancia con gorra y gafas: \"Hagamos los discursos rapeando, bro\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-24T18:03:33.000Z",
+          "sourceUrl": "https://www.elmundo.es/espana/2026/11/24/6b05cacde85ece1c448b456d.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/ae3cd051af73ba810c24449d0333af54/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/24/17955416490250.png"
+        },
+        {
+          "title": "El presidente de las Cortes de Castilla-La Mancha rapea por la infancia con gorra y gafas",
+          "source": "El País",
+          "publishedAt": "2026-11-24T15:20:24.000Z",
+          "sourceUrl": "https://elpais.com/videos/2026-11-24/el-presidente-de-las-cortes-de-castilla-la-mancha-rapea-por-la-infancia-con-gorra-y-gafas.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/OMTZQYY2ZFEFXJD4SXIYRMCCIM.jpg?auth=00ec41f341de91268d08281dfa656ae9b2d5476f68d9010d3f39899efabfcf01&width=1960&height=1103&smart=true,https://imagenes.elpais.com/resizer/v2/OMTZQYY2ZFEFXJD4SXIYRMCCIM.jpg?auth=00ec41f341de91268d08281dfa656ae9b2d5476f68d9010d3f39899efabfcf01&width=1960&height=1470&smart=true,https://imagenes.elpais.com/resizer/v2/OMTZQYY2ZFEFXJD4SXIYRMCCIM.jpg?auth=00ec41f341de91268d08281dfa656ae9b2d5476f68d9010d3f39899efabfcf01&width=980&height=980&smart=true"
+        }
+      ],
+      "path": "/es/entity/el-presidente-de-las-cortes-de-castilla-la-mancha-rapea-por-la-infancia-con-gorr/"
+    },
+    {
+      "id": "now-cluster-españa-navidad + luces",
+      "title": "Muere un trabajador y su hermano resulta herido grave tras ser arrollados por un coche cuando instalaban las luces de Navidad en Santander",
+      "brief": "Muere un trabajador y su hermano resulta herido grave tras ser arrollados por un coche cuando instalaban las luces de Navidad en Santander.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -162,7 +255,7 @@
       "path": "/es/entity/muere-un-trabajador-y-su-hermano-resulta-herido-grave-tras-ser-arrollados-por-un/"
     },
     {
-      "id": "moving-cluster-españa-gobierno + publico",
+      "id": "moving-cluster-españa-gobierno + cinco",
       "title": "El Gobierno central aprueba, a cinco días de las elecciones, prorrogar los descuentos en el transporte público para 2027",
       "brief": "El Gobierno central aprueba, a cinco días de las elecciones, prorrogar los descuentos en el transporte público para 2027.",
       "whyItMatters": "",
@@ -170,10 +263,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 73,
@@ -216,64 +309,18 @@
       "path": "/es/entity/el-gobierno-central-aprueba-a-cinco-dias-de-las-elecciones-prorrogar-los-descuen/"
     },
     {
-      "id": "now-cluster-españa-black + friday",
-      "title": "Seis móviles sobresalientes por menos de 700 euros para que no te dejes el sueldo en el Black Friday",
-      "brief": "Seis móviles sobresalientes por menos de 700 euros para que no te dejes el sueldo en el Black Friday.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 14,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/2NWNEX4WYFFDLDRO7DNQNEC5JY.png?auth=201a40394b2c5eaa272a6bac14849493b6ecb00490c65639056c0c6a1b0d1c12"
-      ],
-      "evidence": [
-        {
-          "title": "Seis móviles sobresalientes por menos de 700 euros para que no te dejes el sueldo en el Black Friday",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T15:28:28.000Z",
-          "sourceUrl": "https://www.elcorreo.com/tecnologia/moviles/seis-moviles-sobresalientes-700-euros-dejes-sueldo-20261124162712-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Los AirPods Pro 3 caen a precio mínimo histórico por Black Friday en Amazon",
-          "source": "El País",
-          "publishedAt": "2026-11-24T12:45:00.000Z",
-          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/apple-airpods-pro-3-ofertas-black-friday-2026.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/2NWNEX4WYFFDLDRO7DNQNEC5JY.png?auth=201a40394b2c5eaa272a6bac14849493b6ecb00490c65639056c0c6a1b0d1c12"
-        }
-      ],
-      "path": "/es/entity/seis-moviles-sobresalientes-por-menos-de-700-euros-para-que-no-te-dejes-el-sueld/"
-    },
-    {
-      "id": "now-cluster-españa-junta + electoral",
+      "id": "moving-cluster-españa-junta + electoral",
       "title": "El debate dentro de la Junta Electoral para abrir expediente sancionador a Silvia Intxaurrondo: una votación que terminó siete a cinco",
       "brief": "El debate dentro de la Junta Electoral para abrir expediente sancionador a Silvia Intxaurrondo: una votación que terminó siete a cinco.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -312,12 +359,12 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -353,97 +400,7 @@
       "path": "/es/entity/el-hijo-de-tomas-y-valiente-el-dia-de-la-libertad-de-su-etarra-asesino-ni-se-ha/"
     },
     {
-      "id": "moving-cluster-españa-sanchez + expediente",
-      "title": "Bruselas amenaza a España con abrir un expediente por exceso de gasto público mientras Sánchez acumula promesas electorales",
-      "brief": "Bruselas amenaza a España con abrir un expediente por exceso de gasto público mientras Sánchez acumula promesas electorales.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e01-phantom-elmundo.uecdn.es/e706ccce5c6acb06c55a22b95f75fde9/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/24/17955310493703.jpg",
-        "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/24/valdis-dombrovskis-reuters-kDHH-U40511697673SZ-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Bruselas amenaza a España con abrir un expediente por exceso de gasto público mientras Sánchez acumula promesas electorales",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-24T14:37:51.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/24/6b059b66fc6c837c2b8b4585.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/e706ccce5c6acb06c55a22b95f75fde9/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/24/17955310493703.jpg"
-        },
-        {
-          "title": "Bruselas alerta a España de un desvío del gasto público, que la deja a las puertas de un expediente",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T14:36:55.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/bruselas-alerta-espana-desvio-gasto-publico-deja-20261124153655-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/24/valdis-dombrovskis-reuters-kDHH-U40511697673SZ-1200x840@RC.jpg"
-        }
-      ],
-      "path": "/es/entity/bruselas-amenaza-a-espana-con-abrir-un-expediente-por-exceso-de-gasto-publico-mi/"
-    },
-    {
-      "id": "fading-cluster-españa-menores + seis",
-      "title": "Condenan a un exojeador de Osasuna y exentrenador del Varea a casi 16 años de prisión por abusar de seis menores y tener pornografía infantil",
-      "brief": "Condenan a un exojeador de Osasuna y exentrenador del Varea a casi 16 años de prisión por abusar de seis menores y tener pornografía infantil.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "Condenan a casi 16 años de cárcel a un exojeador de Osasuna por abusos sexuales a menores",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T14:20:43.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/condenan-anos-carcel-exojeador-osasuna-abusos-sexuales-20261124152043-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Condenan a un exojeador de Osasuna y exentrenador del Varea a casi 16 años de prisión por abusar de seis menores y tener pornografía infantil",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-24T14:13:36.000Z",
-          "sourceUrl": "https://www.diariovasco.com/deportes/futbol/condenan-exojeador-osasuna-exentrenador-varea-anos-prision-20261124141704-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/condenan-a-un-exojeador-de-osasuna-y-exentrenador-del-varea-a-casi-16-anos-de-pr/"
-    },
-    {
-      "id": "fading-cluster-españa-esperan + euskadi",
+      "id": "fading-cluster-españa-esperan + mujeres",
       "title": "2.580 mujeres víctimas de violencia de machista esperan una vivienda protegida en Euskadi",
       "brief": "2.580 mujeres víctimas de violencia de machista esperan una vivienda protegida en Euskadi.",
       "whyItMatters": "",
@@ -454,7 +411,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
@@ -487,6 +444,95 @@
         }
       ],
       "path": "/es/entity/2-580-mujeres-victimas-de-violencia-de-machista-esperan-una-vivienda-protegida-e/"
+    },
+    {
+      "id": "fading-cluster-españa-prision + menores",
+      "title": "Condenan a un exojeador de Osasuna y exentrenador del Varea a casi 16 años de prisión por abusar de seis menores y tener pornografía infantil",
+      "brief": "Condenan a un exojeador de Osasuna y exentrenador del Varea a casi 16 años de prisión por abusar de seis menores y tener pornografía infantil.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "5h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Condenan a casi 16 años de cárcel a un exojeador de Osasuna por abusos sexuales a menores",
+          "source": "El Correo",
+          "publishedAt": "2026-11-24T14:20:43.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/condenan-anos-carcel-exojeador-osasuna-abusos-sexuales-20261124152043-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Condenan a un exojeador de Osasuna y exentrenador del Varea a casi 16 años de prisión por abusar de seis menores y tener pornografía infantil",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-24T14:13:36.000Z",
+          "sourceUrl": "https://www.diariovasco.com/deportes/futbol/condenan-exojeador-osasuna-exentrenador-varea-anos-prision-20261124141704-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/condenan-a-un-exojeador-de-osasuna-y-exentrenador-del-varea-a-casi-16-anos-de-pr/"
+    },
+    {
+      "id": "fading-cluster-españa-amenaza + expediente",
+      "title": "Bruselas amenaza a España con abrir un expediente por exceso de gasto público mientras Sánchez acumula promesas electorales",
+      "brief": "Bruselas amenaza a España con abrir un expediente por exceso de gasto público mientras Sánchez acumula promesas electorales.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "4h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El Correo"
+      ],
+      "images": [
+        "https://e01-phantom-elmundo.uecdn.es/e706ccce5c6acb06c55a22b95f75fde9/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/24/17955310493703.jpg",
+        "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/24/valdis-dombrovskis-reuters-kDHH-U40511697673SZ-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Bruselas amenaza a España con abrir un expediente por exceso de gasto público mientras Sánchez acumula promesas electorales",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-24T14:37:51.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/2026/11/24/6b059b66fc6c837c2b8b4585.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/e706ccce5c6acb06c55a22b95f75fde9/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/24/17955310493703.jpg"
+        },
+        {
+          "title": "Bruselas alerta a España de un desvío del gasto público, que la deja a las puertas de un expediente",
+          "source": "El Correo",
+          "publishedAt": "2026-11-24T14:36:55.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/bruselas-alerta-espana-desvio-gasto-publico-deja-20261124153655-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/24/valdis-dombrovskis-reuters-kDHH-U40511697673SZ-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/bruselas-amenaza-a-espana-con-abrir-un-expediente-por-exceso-de-gasto-publico-mi/"
     }
   ]
 }
