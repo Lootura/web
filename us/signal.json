@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-24T04:00:48.349Z",
+  "updatedAt": "2026-11-24T05:00:48.415Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "382,522 links analyzed",
-  "dayScanLabel": "8,342 links scanned in 24h",
+  "ambientPulseLabel": "383,355 links analyzed",
+  "dayScanLabel": "8,349 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -17,18 +17,18 @@
     ]
   },
   "topAlert": {
-    "id": "moving-cluster-united states-jensen + huang",
-    "title": "Trump and tech leaders cheer Jensen Huang's Nvidia return, but lawmakers question board",
-    "brief": "Trump and tech leaders cheer Jensen Huang's Nvidia return, but lawmakers question board.",
+    "id": "now-cluster-united states-jensen + huang",
+    "title": "Experts, reporters and lawmakers dig into Nvidia reinstalling Jensen Huang as CEO",
+    "brief": "Experts, reporters and lawmakers dig into Nvidia reinstalling Jensen Huang as CEO.",
     "whyItMatters": "",
     "verdict": "If it repeats in the next run, it gains weight.",
-    "mode": "moving",
+    "mode": "now",
     "state": "rising",
     "stateLabel": "Rising",
-    "strength": 35,
+    "strength": 38,
     "sourceCount": 6,
-    "itemCount": 14,
-    "freshness": "3h fresh",
+    "itemCount": 17,
+    "freshness": "fresh now",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -39,20 +39,26 @@
     ],
     "isHotNews": false,
     "sources": [
+      "CBS News",
       "NBC News",
-      "The New York Times",
-      "PBS NewsHour",
       "The New York Times Politics",
-      "CBS News"
+      "The New York Times",
+      "PBS NewsHour"
     ],
     "images": [
+      "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/24/f6c48b7e-a00c-4393-aa20-a7973ac931e7/thumbnail/1200x630/6b1c6bd391dc84a32ce0c14451abc7b0/1920x1080-3.jpg",
       "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/TrumpJensen-go5ciw.jpg",
-      "https://static01.nyt.com/images/2026/11/23/multimedia/23biz-nvidia-huang-stocks-tqlk/23biz-nvidia-huang-stocks-tqlk-mediumSquareAt3X.jpg",
-      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/nov23fullepnologo-1024x683.jpg",
-      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/fulleppic-1024x680.jpg",
-      "https://static01.nyt.com/images/2026/11/23/multimedia/23nvidia-Trump-interview-gwmt/23nvidia-Trump-interview-gwmt-mediumSquareAt3X.jpg"
+      "https://static01.nyt.com/images/2026/11/23/multimedia/23dc-trump-nvidia-TOP-tbvl/23dc-trump-nvidia-TOP-tbvl-mediumSquareAt3X.jpg",
+      "https://static01.nyt.com/images/2026/11/23/multimedia/23biz-nvidia-huang-stocks-tqlk/23biz-nvidia-huang-stocks-tqlk-mediumSquareAt3X.jpg"
     ],
     "evidence": [
+      {
+        "title": "Experts, reporters and lawmakers dig into Nvidia reinstalling Jensen Huang as CEO",
+        "source": "CBS News",
+        "publishedAt": "2026-11-24T04:15:00.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/experts-reporters-lawmakers-dig-nvidia-reinstalling-jensen-huang-ceo/?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/24/f6c48b7e-a00c-4393-aa20-a7973ac931e7/thumbnail/1200x630/6b1c6bd391dc84a32ce0c14451abc7b0/1920x1080-3.jpg"
+      },
       {
         "title": "Trump’s role in bringing Huang back to Nvidia met with bipartisan criticism",
         "source": "NBC News",
@@ -61,124 +67,42 @@
         "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/TrumpJensen-go5ciw.jpg"
       },
       {
+        "title": "Jensen Huang reinstatement as Nvidia CEO raising fresh national security concerns",
+        "source": "CBS News",
+        "publishedAt": "2026-11-24T01:24:15.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/jensen-huang-reinstatement-as-nvidia-ceo-raising-fresh-national-security-concerns/?utm_source=lootura.com&ref=lootura.com",
+        "image": ""
+      },
+      {
+        "title": "Trump’s Extraordinary Nvidia Intervention Sidelines National Security Concerns",
+        "source": "The New York Times Politics",
+        "publishedAt": "2026-11-24T00:55:56.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/23/us/politics/trump-nvidia-national-security.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23dc-trump-nvidia-TOP-tbvl/23dc-trump-nvidia-TOP-tbvl-mediumSquareAt3X.jpg"
+      },
+      {
         "title": "Jensen Huang Returns to Nvidia After President Trump Intervenes",
         "source": "The New York Times",
         "publishedAt": "2026-11-24T00:13:24.000Z",
         "sourceUrl": "https://www.nytimes.com/2026/11/23/business/nvidia-jensen-huang.html?utm_source=lootura.com&ref=lootura.com",
         "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23biz-nvidia-huang-stocks-tqlk/23biz-nvidia-huang-stocks-tqlk-mediumSquareAt3X.jpg"
-      },
-      {
-        "title": "Why Trump pushed for Jensen Huang's return to Nvidia",
-        "source": "PBS NewsHour",
-        "publishedAt": "2026-11-23T23:55:49.000Z",
-        "sourceUrl": "https://www.pbs.org/newshour/show/why-trump-pushed-for-jensen-huangs-return-to-nvidia?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/nov23fullepnologo-1024x683.jpg"
-      },
-      {
-        "title": "Experts weigh national security implications of Huang's return to Nvidia",
-        "source": "PBS NewsHour",
-        "publishedAt": "2026-11-23T23:50:21.000Z",
-        "sourceUrl": "https://www.pbs.org/newshour/show/experts-weigh-national-security-implications-of-huangs-return-to-nvidia?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/fulleppic-1024x680.jpg"
-      },
-      {
-        "title": "Trump Is Said to Have Pushed to Reinstate Nvidia CEO Jensen Huang",
-        "source": "The New York Times Politics",
-        "publishedAt": "2026-11-23T23:41:29.000Z",
-        "sourceUrl": "https://www.nytimes.com/2026/11/23/us/politics/trump-nvidia-huang.html?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23nvidia-Trump-interview-gwmt/23nvidia-Trump-interview-gwmt-mediumSquareAt3X.jpg"
       }
     ],
-    "path": "/us/entity/trump-and-tech-leaders-cheer-jensen-huang-s-nvidia-return-but-lawmakers-question/"
+    "path": "/us/entity/experts-reporters-and-lawmakers-dig-into-nvidia-reinstalling-jensen-huang-as-ceo/"
   },
   "signals": [
     {
-      "id": "moving-cluster-united states-jensen + huang",
-      "title": "Trump and tech leaders cheer Jensen Huang's Nvidia return, but lawmakers question board",
-      "brief": "Trump and tech leaders cheer Jensen Huang's Nvidia return, but lawmakers question board.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 35,
-      "sourceCount": 6,
-      "itemCount": 14,
-      "freshness": "3h fresh",
-      "alertLevel": "watch",
-      "alertLabel": "Watch",
-      "alertScore": 99,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News",
-        "The New York Times",
-        "PBS NewsHour",
-        "The New York Times Politics",
-        "CBS News"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/TrumpJensen-go5ciw.jpg",
-        "https://static01.nyt.com/images/2026/11/23/multimedia/23biz-nvidia-huang-stocks-tqlk/23biz-nvidia-huang-stocks-tqlk-mediumSquareAt3X.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/nov23fullepnologo-1024x683.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/fulleppic-1024x680.jpg",
-        "https://static01.nyt.com/images/2026/11/23/multimedia/23nvidia-Trump-interview-gwmt/23nvidia-Trump-interview-gwmt-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Trump’s role in bringing Huang back to Nvidia met with bipartisan criticism",
-          "source": "NBC News",
-          "publishedAt": "2026-11-24T01:27:41.000Z",
-          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/trump-s-role-in-bringing-huang-back-to-nvidia-met-with-bipartisan-criticism-274057285739?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/TrumpJensen-go5ciw.jpg"
-        },
-        {
-          "title": "Jensen Huang Returns to Nvidia After President Trump Intervenes",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-24T00:13:24.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/23/business/nvidia-jensen-huang.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23biz-nvidia-huang-stocks-tqlk/23biz-nvidia-huang-stocks-tqlk-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Why Trump pushed for Jensen Huang's return to Nvidia",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-23T23:55:49.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/show/why-trump-pushed-for-jensen-huangs-return-to-nvidia?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/nov23fullepnologo-1024x683.jpg"
-        },
-        {
-          "title": "Experts weigh national security implications of Huang's return to Nvidia",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-23T23:50:21.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/show/experts-weigh-national-security-implications-of-huangs-return-to-nvidia?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/fulleppic-1024x680.jpg"
-        },
-        {
-          "title": "Trump Is Said to Have Pushed to Reinstate Nvidia CEO Jensen Huang",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-23T23:41:29.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/23/us/politics/trump-nvidia-huang.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23nvidia-Trump-interview-gwmt/23nvidia-Trump-interview-gwmt-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/trump-and-tech-leaders-cheer-jensen-huang-s-nvidia-return-but-lawmakers-question/"
-    },
-    {
-      "id": "now-cluster-united states-trump + court",
-      "title": "Appeals court gives Trump another chance to move his hush money conviction case to a federal venue",
-      "brief": "Appeals court gives Trump another chance to move his hush money conviction case to a federal venue.",
+      "id": "now-cluster-united states-jensen + huang",
+      "title": "Experts, reporters and lawmakers dig into Nvidia reinstalling Jensen Huang as CEO",
+      "brief": "Experts, reporters and lawmakers dig into Nvidia reinstalling Jensen Huang as CEO.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 29,
-      "sourceCount": 5,
-      "itemCount": 6,
+      "strength": 38,
+      "sourceCount": 6,
+      "itemCount": 17,
       "freshness": "fresh now",
       "alertLevel": "watch",
       "alertLabel": "Watch",
@@ -190,23 +114,95 @@
       ],
       "isHotNews": false,
       "sources": [
+        "CBS News",
+        "NBC News",
+        "The New York Times Politics",
+        "The New York Times",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/24/f6c48b7e-a00c-4393-aa20-a7973ac931e7/thumbnail/1200x630/6b1c6bd391dc84a32ce0c14451abc7b0/1920x1080-3.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/TrumpJensen-go5ciw.jpg",
+        "https://static01.nyt.com/images/2026/11/23/multimedia/23dc-trump-nvidia-TOP-tbvl/23dc-trump-nvidia-TOP-tbvl-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/23/multimedia/23biz-nvidia-huang-stocks-tqlk/23biz-nvidia-huang-stocks-tqlk-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Experts, reporters and lawmakers dig into Nvidia reinstalling Jensen Huang as CEO",
+          "source": "CBS News",
+          "publishedAt": "2026-11-24T04:15:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/experts-reporters-lawmakers-dig-nvidia-reinstalling-jensen-huang-ceo/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/24/f6c48b7e-a00c-4393-aa20-a7973ac931e7/thumbnail/1200x630/6b1c6bd391dc84a32ce0c14451abc7b0/1920x1080-3.jpg"
+        },
+        {
+          "title": "Trump’s role in bringing Huang back to Nvidia met with bipartisan criticism",
+          "source": "NBC News",
+          "publishedAt": "2026-11-24T01:27:41.000Z",
+          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/trump-s-role-in-bringing-huang-back-to-nvidia-met-with-bipartisan-criticism-274057285739?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/TrumpJensen-go5ciw.jpg"
+        },
+        {
+          "title": "Jensen Huang reinstatement as Nvidia CEO raising fresh national security concerns",
+          "source": "CBS News",
+          "publishedAt": "2026-11-24T01:24:15.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/jensen-huang-reinstatement-as-nvidia-ceo-raising-fresh-national-security-concerns/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Trump’s Extraordinary Nvidia Intervention Sidelines National Security Concerns",
+          "source": "The New York Times Politics",
+          "publishedAt": "2026-11-24T00:55:56.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/23/us/politics/trump-nvidia-national-security.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23dc-trump-nvidia-TOP-tbvl/23dc-trump-nvidia-TOP-tbvl-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Jensen Huang Returns to Nvidia After President Trump Intervenes",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-24T00:13:24.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/23/business/nvidia-jensen-huang.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23biz-nvidia-huang-stocks-tqlk/23biz-nvidia-huang-stocks-tqlk-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/experts-reporters-and-lawmakers-dig-into-nvidia-reinstalling-jensen-huang-as-ceo/"
+    },
+    {
+      "id": "now-cluster-united states-trump + court",
+      "title": "Appeals court gives Trump another chance to move his hush money conviction case to a federal venue",
+      "brief": "Appeals court gives Trump another chance to move his hush money conviction case to a federal venue.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 26,
+      "sourceCount": 4,
+      "itemCount": 5,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
         "The New York Times",
         "CBS News",
         "NBC News",
-        "NBC News Politics",
-        "PBS NewsHour"
+        "NBC News Politics"
       ],
       "images": [
         "https://static01.nyt.com/images/2026/11/23/multimedia/23CLI-IOWA-BLAST-PREP-top3-jzgm/23CLI-IOWA-BLAST-PREP-top3-jzgm-mediumSquareAt3X.jpg",
         "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/92eabf07-5631-4d13-bd7d-555571190eb6/thumbnail/1200x630/dc5fac32e6d2d81a3d442048e904db52/ap26322823699168.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261123-iowa-army-ammunition-mn-1325-827fc9.jpg",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/291123-trump-sjr-1631-6ae2e3.jpg"
       ],
       "evidence": [
         {
           "title": "Court Clears the Way for Iowa Ammunition Detonation; Trump Addresses the Crisis",
           "source": "The New York Times",
-          "publishedAt": "2026-11-24T03:02:02.000Z",
+          "publishedAt": "2026-11-24T04:25:21.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/23/climate/iowa-army-ammunition-explosion.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23CLI-IOWA-BLAST-PREP-top3-jzgm/23CLI-IOWA-BLAST-PREP-top3-jzgm-mediumSquareAt3X.jpg"
         },
@@ -218,11 +214,11 @@
           "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/92eabf07-5631-4d13-bd7d-555571190eb6/thumbnail/1200x630/dc5fac32e6d2d81a3d442048e904db52/ap26322823699168.jpg"
         },
         {
-          "title": "Court allows Army to go forward with planned detonation of toxic drums in Iowa",
+          "title": "Court allows Trump admin. and Army to move forward with planned Iowa detonation",
           "source": "NBC News",
-          "publishedAt": "2026-11-23T23:22:10.713Z",
-          "sourceUrl": "https://www.nbcnews.com/science/environment/trump-postpones-planned-detonation-toxic-drums-iowa-army-facility-rcna610945?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261123-iowa-army-ammunition-mn-1325-827fc9.jpg"
+          "publishedAt": "2026-11-23T23:28:50.000Z",
+          "sourceUrl": "https://www.nbcnews.com/video/court-allows-trump-admin-and-army-to-move-forward-with-planned-iowa-detonation-274047557779?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
           "title": "Appeals court gives Trump another chance to move his hush money conviction case to a federal venue",
@@ -242,70 +238,6 @@
       "path": "/us/entity/appeals-court-gives-trump-another-chance-to-move-his-hush-money-conviction-case/"
     },
     {
-      "id": "now-cluster-united states-trump + nvidia",
-      "title": "Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal",
-      "brief": "Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 24,
-      "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 96,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times Politics",
-        "CBS News",
-        "The New York Times"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/23/multimedia/23nvidia-megaspeed-wltb/23nvidia-megaspeed-wltb-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/11/23/multimedia/23dc-trump-nvidia-TOP-tbvl/23dc-trump-nvidia-TOP-tbvl-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/11/22/multimedia/22biz-markets-jvtl/22biz-markets-jvtl-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-24T03:12:26.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/23/business/trump-administration-megaspeed-trade-blacklist-nvidia.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23nvidia-megaspeed-wltb/23nvidia-megaspeed-wltb-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Jensen Huang reinstatement as Nvidia CEO raising fresh national security concerns",
-          "source": "CBS News",
-          "publishedAt": "2026-11-24T01:24:15.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/jensen-huang-reinstatement-as-nvidia-ceo-raising-fresh-national-security-concerns/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Trump’s Extraordinary Nvidia Intervention Sidelines National Security Concerns",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-24T00:55:56.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/23/us/politics/trump-nvidia-national-security.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23dc-trump-nvidia-TOP-tbvl/23dc-trump-nvidia-TOP-tbvl-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Stocks Surge After Jensen Huang Is Reinstated as Nvidia CEO",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-23T15:09:43.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/22/business/nvidia-stock-huang-ai-sp500-markets.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22biz-markets-jvtl/22biz-markets-jvtl-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/trump-administration-imposes-sanctions-on-megaspeed-singaporean-firm-at-center-o/"
-    },
-    {
       "id": "now-cluster-united states-seattle + airport",
       "title": "Husband of woman detained in viral ICE arrest at Seattle airport calls episode \"unjust\"",
       "brief": "Husband of woman detained in viral ICE arrest at Seattle airport calls episode \"unjust\".",
@@ -314,13 +246,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 23,
+      "strength": 17,
       "sourceCount": 3,
       "itemCount": 4,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 96,
+      "alertScore": 90,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -378,10 +310,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 86,
@@ -426,7 +358,7 @@
       "path": "/us/entity/ethics-probe-finds-democratic-rep-jimmy-gomez-made-unwelcome-sexual-advances-to/"
     },
     {
-      "id": "now-cluster-united states-court + documents",
+      "id": "now-cluster-united states-court + home",
       "title": "Federal court releases Rep. Ilhan Omar Washington, D.C. home raid documents",
       "brief": "Federal court releases Rep. Ilhan Omar Washington, D.C. home raid documents.",
       "whyItMatters": "",
@@ -437,7 +369,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -484,7 +416,7 @@
       "strength": 9,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 73,
@@ -534,12 +466,12 @@
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 70,
@@ -574,23 +506,24 @@
       "path": "/us/entity/d-n-c-plans-12-debates-for-the-2028-presidential-primary-starting-in-june/"
     },
     {
-      "id": "fading-cluster-united states-sexual + gomez",
+      "id": "moving-cluster-united states-sexual + gomez",
       "title": "California Democrat Rep. Gomez resigns following ethics report on sexual misconduct allegations",
       "brief": "California Democrat Rep. Gomez resigns following ethics report on sexual misconduct allegations.",
       "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 9,
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 52,
+      "alertScore": 70,
       "alertTriggers": [
-        "Crosses several sources"
+        "Crosses several sources",
+        "Still active"
       ],
       "isHotNews": false,
       "sources": [
