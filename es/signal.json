@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-24T12:00:48.079Z",
+  "updatedAt": "2026-11-24T13:00:48.393Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "298.803 enlaces analizados",
-  "dayScanLabel": "4.202 enlaces escaneados en 24h",
+  "ambientPulseLabel": "299.224 enlaces analizados",
+  "dayScanLabel": "4.198 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -30,7 +30,7 @@
       "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 92,
@@ -84,10 +84,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 22,
+      "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 86,
@@ -132,21 +132,21 @@
       "path": "/es/entity/silvia-intxaurrondo-responde-al-expediente-de-la-junta-electoral-y-deja-una-sill/"
     },
     {
-      "id": "moving-cluster-españa-psoe + sanchez",
-      "title": "Sánchez responde a González tras su decisión de no votar al PSOE: \"La ultraderecha se frena con el rojo no con el blanco\"",
-      "brief": "Sánchez responde a González tras su decisión de no votar al PSOE: \"La ultraderecha se frena con el rojo no con el blanco\".",
+      "id": "now-cluster-españa-gobierno + descuentos",
+      "title": "El Gobierno aprueba prorrogar los descuentos al transporte público a cinco días de las elecciones",
+      "brief": "El Gobierno aprueba prorrogar los descuentos al transporte público a cinco días de las elecciones.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
       "strength": 17,
-      "sourceCount": 3,
+      "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "3h fresca",
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 86,
+      "alertScore": 79,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -154,38 +154,83 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Mundo",
         "El Correo",
         "El País"
       ],
       "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955103582204.jpg",
-        "https://s2.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/24/pepa-millan-eta-kZcC-U40507917456pC-1200x840@El%20Correo.jpg"
+        "https://imagenes.elpais.com/resizer/v2/ALCUJ5XCPZCFZOEFF4BOAB6EJU.jpg?auth=638fb4ce4392146bd471169dd67b253ae132e2c35b558a483b59bb31a54ed5e9"
       ],
       "evidence": [
         {
-          "title": "Sánchez responde a González tras su decisión de no votar al PSOE: \"La ultraderecha se frena con el rojo no con el blanco\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-24T08:53:32.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/24/6b054e7fe9cf4a54648b458c.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955103582204.jpg"
-        },
-        {
-          "title": "Millán (Vox) acusa al PSOE de promover un «estallido social» y Rufián la frena con las víctimas de ETA",
+          "title": "El Gobierno aprueba prorrogar los descuentos al transporte público a cinco días de las elecciones",
           "source": "El Correo",
-          "publishedAt": "2026-11-24T07:11:40.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/millan-vox-acusa-psoe-promover-estallido-social-20261124081140-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/24/pepa-millan-eta-kZcC-U40507917456pC-1200x840@El%20Correo.jpg"
+          "publishedAt": "2026-11-24T12:47:36.000Z",
+          "sourceUrl": "https://www.elcorreo.com/bizkaia/gobierno-central-aprueba-cinco-dias-elecciones-prorrogar-20261124134244-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
-          "title": "Muñoz: “¿Qué quiere, ser el portavoz del PSOE?”. Rufián: “De lo que no tengo ni puñetera gana es de que usted sea ministra”",
-          "source": "El País",
-          "publishedAt": "2026-11-24T07:01:28.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-24/munoz-que-quiere-ser-el-portavoz-del-psoe-rufian-de-lo-que-no-tengo-ni-punetera-gana-es-de-que-usted-sea-ministra.html?utm_source=lootura.com&ref=lootura.com",
+          "title": "El Gobierno prorroga las ayudas al transporte público tras la presión de sus socios",
+          "source": "El Correo",
+          "publishedAt": "2026-11-24T12:23:02.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/gobierno-prorroga-ayudas-transporte-publico-20261124125942-ntrc.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
+        },
+        {
+          "title": "El Gobierno aprueba una bajada histórica de las ratios de alumnos en Educación Infantil, Bachillerato y FP",
+          "source": "El País",
+          "publishedAt": "2026-11-24T09:51:41.000Z",
+          "sourceUrl": "https://elpais.com/educacion/2026-11-24/el-gobierno-aprueba-una-bajada-historica-de-las-ratios-de-alumnos-en-educacion-infantil-bachillerato-y-fp.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/ALCUJ5XCPZCFZOEFF4BOAB6EJU.jpg?auth=638fb4ce4392146bd471169dd67b253ae132e2c35b558a483b59bb31a54ed5e9"
         }
       ],
-      "path": "/es/entity/sanchez-responde-a-gonzalez-tras-su-decision-de-no-votar-al-psoe-la-ultraderecha/"
+      "path": "/es/entity/el-gobierno-aprueba-prorrogar-los-descuentos-al-transporte-publico-a-cinco-dias/"
+    },
+    {
+      "id": "now-cluster-españa-ester + munoz",
+      "title": "Jóvenes abuchean e insultan a los candidatos del PP Jon Echeverría y Ester Muñoz en un mitin en Andoain",
+      "brief": "Jóvenes abuchean e insultan a los candidatos del PP Jon Echeverría y Ester Muñoz en un mitin en Andoain.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955247824649.jpg",
+        "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/24/_DSC1184-kzvE-R1TZ92CftZ1QASfX7L3wmkO-1200x840@Diario%20Vasco.JPG"
+      ],
+      "evidence": [
+        {
+          "title": "Radicales increpan a Ester Muñoz y a miembros del PP en un mitin en Guipúzcoa",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-24T12:13:25.000Z",
+          "sourceUrl": "https://www.elmundo.es/espana/2026/11/24/6b057cd9e9cf4a3f6b8b457e.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955247824649.jpg"
+        },
+        {
+          "title": "Jóvenes abuchean e insultan a los candidatos del PP Jon Echeverría y Ester Muñoz en un mitin en Andoain",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-24T11:49:51.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/jovenes-abuchean-insultan-candidatos-pp-jon-echeverria-ester-munoz-andoain-faxistak-ertzaintza-20261124124909-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/24/_DSC1184-kzvE-R1TZ92CftZ1QASfX7L3wmkO-1200x840@Diario%20Vasco.JPG"
+        }
+      ],
+      "path": "/es/entity/jovenes-abuchean-e-insultan-a-los-candidatos-del-pp-jon-echeverria-y-ester-munoz/"
     },
     {
       "id": "now-cluster-españa-coche + santander",
@@ -196,10 +241,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -234,21 +279,21 @@
       "path": "/es/entity/muere-un-trabajador-de-25-anos-y-otro-resulta-herido-grave-tras-ser-arrollados-p/"
     },
     {
-      "id": "now-cluster-españa-jeanine + grasmeijer",
+      "id": "moving-cluster-españa-jeanine + grasmeijer",
       "title": "Muere Jeanine Grasmeijer, plusmarquista mundial de inmersión libre, a los 33 años",
       "brief": "Muere Jeanine Grasmeijer, plusmarquista mundial de inmersión libre, a los 33 años.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -281,108 +326,6 @@
       "path": "/es/entity/muere-jeanine-grasmeijer-plusmarquista-mundial-de-inmersion-libre-a-los-33-anos/"
     },
     {
-      "id": "now-cluster-españa-sagrada + familia",
-      "title": "Desvelan la herencia de Gaudí 100 años después: todos sus bienes, su casa en el Park Güell y 3.000 pesetas para la Sagrada Familia",
-      "brief": "Desvelan la herencia de Gaudí 100 años después: todos sus bienes, su casa en el Park Güell y 3.000 pesetas para la Sagrada Familia.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Mundo"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/rc/www/multimedia/culturas/2026/11/24/1520740021-kKO-U40509462206NC-1200x840@RC.JPG",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955022959191.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El legado de Gaudí: 3.000 pesetas y la venta de su casa para financiar la Sagrada Familia",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T09:36:02.000Z",
-          "sourceUrl": "https://www.elcorreo.com/culturas/arte/legado-gaudi-3000-pesetas-venta-casa-financiar-20261124103602-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/culturas/2026/11/24/1520740021-kKO-U40509462206NC-1200x840@RC.JPG"
-        },
-        {
-          "title": "Desvelan la herencia de Gaudí 100 años después: todos sus bienes, su casa en el Park Güell y 3.000 pesetas para la Sagrada Familia",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-24T06:38:44.000Z",
-          "sourceUrl": "https://www.elmundo.es/cultura/2026/11/24/6b0530f2fdddff9b5e8b459b.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955022959191.jpg"
-        }
-      ],
-      "path": "/es/entity/desvelan-la-herencia-de-gaudi-100-anos-despues-todos-sus-bienes-su-casa-en-el-pa/"
-    },
-    {
-      "id": "moving-cluster-españa-jordi + wild",
-      "title": "De las ‘autoinvitarse’ al programa de Jordi Wild a ir siempre de amarillo: la lucha por atraer atención de SALF y Democracia 21",
-      "brief": "De las ‘autoinvitarse’ al programa de Jordi Wild a ir siempre de amarillo: la lucha por atraer atención de SALF y Democracia 21.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 73,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/SCFLZUC3OBCUHBJAXTFPNCTCCM.jpg?auth=ec5a27eaf7733de6fa520a653ed5f30116258c1ea5d494f4bca946e5b6ad37f8",
-        "https://imagenes.elpais.com/resizer/v2/JY7ARWWVONBOVOZDW5RDWTWKRM.jpg?auth=53ef9f57cb739ef343dcd7a760f0e18e72bf21c9ce4d8e541a69c07be207781b"
-      ],
-      "evidence": [
-        {
-          "title": "Jordi Wild: «Sánchez es un tío muy alto, impone, y a Feijóo le vi cara de 'me la suda'»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T07:53:17.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/jordi-wild-sincera-hormiguero-sobre-entrevistas-candidatos-20261123225025-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Jordi Wild le dice a Pablo Motos lo que nunca se ha escuchado en ‘El hormiguero’",
-          "source": "El País",
-          "publishedAt": "2026-11-24T06:26:45.000Z",
-          "sourceUrl": "https://elpais.com/television/2026-11-24/jordi-wild-le-dice-a-pablo-motos-lo-que-nunca-se-ha-escuchado-en-el-hormiguero.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/SCFLZUC3OBCUHBJAXTFPNCTCCM.jpg?auth=ec5a27eaf7733de6fa520a653ed5f30116258c1ea5d494f4bca946e5b6ad37f8"
-        },
-        {
-          "title": "De las ‘autoinvitarse’ al programa de Jordi Wild a ir siempre de amarillo: la lucha por atraer atención de SALF y Democracia 21",
-          "source": "El País",
-          "publishedAt": "2026-11-24T04:30:01.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-24/de-las-autoinvitarse-al-programa-de-jordi-wild-a-ir-siempre-de-amarillo-la-lucha-por-atraer-atencion-de-salf-y-democracia-21.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/JY7ARWWVONBOVOZDW5RDWTWKRM.jpg?auth=53ef9f57cb739ef343dcd7a760f0e18e72bf21c9ce4d8e541a69c07be207781b"
-        }
-      ],
-      "path": "/es/entity/de-las-autoinvitarse-al-programa-de-jordi-wild-a-ir-siempre-de-amarillo-la-lucha/"
-    },
-    {
       "id": "moving-cluster-españa-gobierno + hasta",
       "title": "El Gobierno aprovecha sus últimos días antes de las elecciones para elevar hoy a 20 semanas el permiso por nacimiento",
       "brief": "El Gobierno aprovecha sus últimos días antes de las elecciones para elevar hoy a 20 semanas el permiso por nacimiento.",
@@ -391,10 +334,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -413,7 +356,7 @@
       ],
       "evidence": [
         {
-          "title": "El Gobierno amplía el permiso por nacimiento hasta las 20 semanas",
+          "title": "El Gobierno amplía una semana, hasta las 20, el permiso por nacimiento",
           "source": "El Correo",
           "publishedAt": "2026-11-24T09:19:49.000Z",
           "sourceUrl": "https://www.elcorreo.com/economia/trabajo/gobierno-amplia-permiso-nacimiento-semanas-20261124101949-ntrc.html?utm_source=lootura.com&ref=lootura.com",
@@ -430,6 +373,53 @@
       "path": "/es/entity/el-gobierno-aprovecha-sus-ultimos-dias-antes-de-las-elecciones-para-elevar-hoy-a/"
     },
     {
+      "id": "moving-cluster-españa-sanchez + victimas",
+      "title": "Sánchez responde a González tras su decisión de no votar al PSOE: \"La ultraderecha se frena con el rojo no con el blanco\"",
+      "brief": "Sánchez responde a González tras su decisión de no votar al PSOE: \"La ultraderecha se frena con el rojo no con el blanco\".",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "4h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El Correo"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955103582204.jpg",
+        "https://s2.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/24/pepa-millan-eta-kZcC-U40507917456pC-1200x840@El%20Correo.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Sánchez responde a González tras su decisión de no votar al PSOE: \"La ultraderecha se frena con el rojo no con el blanco\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-24T08:53:32.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/24/6b054e7fe9cf4a54648b458c.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955103582204.jpg"
+        },
+        {
+          "title": "Millán (Vox) acusa al PSOE de promover un «estallido social» y Rufián la frena con las víctimas de ETA",
+          "source": "El Correo",
+          "publishedAt": "2026-11-24T07:11:40.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/millan-vox-acusa-psoe-promover-estallido-social-20261124081140-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/24/pepa-millan-eta-kZcC-U40507917456pC-1200x840@El%20Correo.jpg"
+        }
+      ],
+      "path": "/es/entity/sanchez-responde-a-gonzalez-tras-su-decision-de-no-votar-al-psoe-la-ultraderecha/"
+    },
+    {
       "id": "fading-cluster-españa-gobierno + sanchez",
       "title": "Pedro Sánchez anuncia un real decreto para blindar la información del aborto y el recurso ante el Constitucional la ley del \"concebido no nacido\"",
       "brief": "Pedro Sánchez anuncia un real decreto para blindar la información del aborto y el recurso ante el Constitucional la ley del \"concebido no nacido\".",
@@ -438,10 +428,10 @@
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 9,
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
