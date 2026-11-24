@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-24T06:00:47.980Z",
+  "updatedAt": "2026-11-24T07:00:47.921Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "384,185 links analyzed",
-  "dayScanLabel": "8,346 links scanned in 24h",
+  "ambientPulseLabel": "385,016 links analyzed",
+  "dayScanLabel": "8,340 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -25,10 +25,10 @@
     "mode": "now",
     "state": "rising",
     "stateLabel": "Rising",
-    "strength": 41,
+    "strength": 40,
     "sourceCount": 7,
     "itemCount": 18,
-    "freshness": "fresh now",
+    "freshness": "1h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -100,10 +100,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 41,
+      "strength": 40,
       "sourceCount": 7,
       "itemCount": 18,
-      "freshness": "fresh now",
+      "freshness": "1h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -166,6 +166,71 @@
       "path": "/us/entity/experts-reporters-and-lawmakers-dig-into-nvidia-reinstalling-jensen-huang-as-ceo/"
     },
     {
+      "id": "now-cluster-united states-thanksgiving + storms",
+      "title": "WATCH: Storms on both coasts threaten Thanksgiving week travel, Macy's parade",
+      "brief": "WATCH: Storms on both coasts threaten Thanksgiving week travel, Macy's parade.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 26,
+      "sourceCount": 4,
+      "itemCount": 4,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "ABC News",
+        "NBC News",
+        "PBS NewsHour",
+        "CBS News"
+      ],
+      "images": [
+        "https://s.abcnews.com/images/WNT/261123_wn_benitez_hpMain_4x3_384.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795478246774_nn_tco_thanksgiving_weather_261123_S3_1920x1080-dwyttv.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrapnov23-1024x683.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "WATCH: Storms on both coasts threaten Thanksgiving week travel, Macy's parade",
+          "source": "ABC News",
+          "publishedAt": "2026-11-24T06:52:55.000Z",
+          "sourceUrl": "https://abcnews.com/video/138392581/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s.abcnews.com/images/WNT/261123_wn_benitez_hpMain_4x3_384.jpg"
+        },
+        {
+          "title": "Wind and rain threaten Macy’s Thanksgiving Day Parade",
+          "source": "NBC News",
+          "publishedAt": "2026-11-23T23:57:31.000Z",
+          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/wind-and-rain-threaten-macy-s-thanksgiving-day-parade-274051141581?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795478246774_nn_tco_thanksgiving_weather_261123_S3_1920x1080-dwyttv.jpg"
+        },
+        {
+          "title": "News Wrap: Storms threaten Thanksgiving travel as airlines rebound from tech failures",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-23T23:45:23.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/news-wrap-storms-threaten-thanksgiving-travel-as-airlines-rebound-from-tech-failures?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrapnov23-1024x683.jpg"
+        },
+        {
+          "title": "Delta says cause of weekend delays resolved as Thanksgiving travel rush gets underway",
+          "source": "CBS News",
+          "publishedAt": "2026-11-23T23:16:42.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/delta-says-cause-of-delays-resolved-as-thanksgiving-travel-rush-gets-underway/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/us/entity/watch-storms-on-both-coasts-threaten-thanksgiving-week-travel-macy-s-parade/"
+    },
+    {
       "id": "now-cluster-united states-trump + court",
       "title": "Appeals court gives Trump another chance to move his hush money conviction case to a federal venue",
       "brief": "Appeals court gives Trump another chance to move his hush money conviction case to a federal venue.",
@@ -174,10 +239,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 26,
+      "strength": 24,
       "sourceCount": 4,
-      "itemCount": 5,
-      "freshness": "2h fresh",
+      "itemCount": 4,
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -227,33 +292,26 @@
           "publishedAt": "2026-11-23T23:09:32.771Z",
           "sourceUrl": "https://www.nbcnews.com/politics/donald-trump/appeals-court-gives-another-chance-move-hush-money-case-federal-court-rcna610988?utm_source=lootura.com&ref=lootura.com",
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/291123-trump-sjr-1631-6ae2e3.jpg"
-        },
-        {
-          "title": "Trump tells Army to halt detonation for now of unstable explosives in Iowa",
-          "source": "CBS News",
-          "publishedAt": "2026-11-23T19:26:32.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/trump-tells-army-to-halt-detonation-in-iowa-this-week/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/92eabf07-5631-4d13-bd7d-555571190eb6/thumbnail/1200x630/dc5fac32e6d2d81a3d442048e904db52/ap26322823699168.jpg"
         }
       ],
       "path": "/us/entity/appeals-court-gives-trump-another-chance-to-move-his-hush-money-conviction-case/"
     },
     {
-      "id": "now-cluster-united states-seattle + airport",
+      "id": "moving-cluster-united states-seattle + airport",
       "title": "Husband of woman detained in viral ICE arrest at Seattle airport calls episode \"unjust\"",
       "brief": "Husband of woman detained in viral ICE arrest at Seattle airport calls episode \"unjust\".",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 17,
+      "strength": 16,
       "sourceCount": 3,
       "itemCount": 4,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 80,
+      "alertScore": 90,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -311,10 +369,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "7h fresh",
+      "freshness": "8h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 80,
@@ -359,108 +417,6 @@
       "path": "/us/entity/ethics-probe-finds-democratic-rep-jimmy-gomez-made-unwelcome-sexual-advances-to/"
     },
     {
-      "id": "moving-cluster-united states-thanksgiving + tech",
-      "title": "News Wrap: Storms threaten Thanksgiving travel as airlines rebound from tech failures",
-      "brief": "News Wrap: Storms threaten Thanksgiving travel as airlines rebound from tech failures.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "6h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 73,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "PBS NewsHour",
-        "CBS News"
-      ],
-      "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrapnov23-1024x683.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T200711Z_1418576193_RC26TOAQB25U_RTRMADP_3_DELTA-AIR-DELAYS-ATLANTA-1024x683.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "News Wrap: Storms threaten Thanksgiving travel as airlines rebound from tech failures",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-23T23:45:23.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/show/news-wrap-storms-threaten-thanksgiving-travel-as-airlines-rebound-from-tech-failures?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrapnov23-1024x683.jpg"
-        },
-        {
-          "title": "Delta says cause of weekend delays resolved as Thanksgiving travel rush gets underway",
-          "source": "CBS News",
-          "publishedAt": "2026-11-23T23:16:42.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/delta-says-cause-of-delays-resolved-as-thanksgiving-travel-rush-gets-underway/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Airline glitches and storms could make Thanksgiving travel messy",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-23T19:36:11.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/nation/airline-glitches-and-storms-could-make-thanksgiving-travel-messy?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-22T200711Z_1418576193_RC26TOAQB25U_RTRMADP_3_DELTA-AIR-DELAYS-ATLANTA-1024x683.jpg"
-        }
-      ],
-      "path": "/us/entity/news-wrap-storms-threaten-thanksgiving-travel-as-airlines-rebound-from-tech-fail/"
-    },
-    {
-      "id": "now-cluster-united states-court + home",
-      "title": "Federal court releases Rep. Ilhan Omar Washington, D.C. home raid documents",
-      "brief": "Federal court releases Rep. Ilhan Omar Washington, D.C. home raid documents.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News Politics",
-        "CBS News"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261016-ilhan-omar-raid-mn-1005-4ce97a.jpg",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/a881e000-d5c2-435b-be5f-7f9213cba12d/thumbnail/1200x630/a1f1f525e37771d6654fc7d76d18579d/gettyimages-2299437924.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Judge unseals documents related to search of Rep. Ilhan Omar’s home",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-24T02:49:54.099Z",
-          "sourceUrl": "https://www.nbcnews.com/politics/congress/judge-unseals-court-documents-related-search-ilhan-omar-home-washingto-rcna611027?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261016-ilhan-omar-raid-mn-1005-4ce97a.jpg"
-        },
-        {
-          "title": "Federal court releases Rep. Ilhan Omar Washington, D.C. home raid documents",
-          "source": "CBS News",
-          "publishedAt": "2026-11-24T00:00:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/minnesota/news/congresswoman-ilhan-omar-house-raid-documents-release/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/a881e000-d5c2-435b-be5f-7f9213cba12d/thumbnail/1200x630/a1f1f525e37771d6654fc7d76d18579d/gettyimages-2299437924.jpg"
-        }
-      ],
-      "path": "/us/entity/federal-court-releases-rep-ilhan-omar-washington-d-c-home-raid-documents/"
-    },
-    {
       "id": "moving-cluster-united states-democrats + presidential",
       "title": "D.N.C. Plans 12 Debates for the 2028 Presidential Primary, Starting in June",
       "brief": "D.N.C. Plans 12 Debates for the 2028 Presidential Primary, Starting in June.",
@@ -469,10 +425,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 70,
@@ -518,10 +474,10 @@
       "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresh",
+      "freshness": "7h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 70,
+      "alertScore": 64,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
@@ -552,6 +508,53 @@
         }
       ],
       "path": "/us/entity/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-miscondu/"
+    },
+    {
+      "id": "now-cluster-united states-court + home",
+      "title": "Federal court releases Rep. Ilhan Omar Washington, D.C. home raid documents",
+      "brief": "Federal court releases Rep. Ilhan Omar Washington, D.C. home raid documents.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "4h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 60,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NBC News Politics",
+        "CBS News"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261016-ilhan-omar-raid-mn-1005-4ce97a.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/a881e000-d5c2-435b-be5f-7f9213cba12d/thumbnail/1200x630/a1f1f525e37771d6654fc7d76d18579d/gettyimages-2299437924.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Judge unseals documents related to search of Rep. Ilhan Omar’s home",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-24T02:49:54.099Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/congress/judge-unseals-court-documents-related-search-ilhan-omar-home-washingto-rcna611027?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261016-ilhan-omar-raid-mn-1005-4ce97a.jpg"
+        },
+        {
+          "title": "Federal court releases Rep. Ilhan Omar Washington, D.C. home raid documents",
+          "source": "CBS News",
+          "publishedAt": "2026-11-24T00:00:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/minnesota/news/congresswoman-ilhan-omar-house-raid-documents-release/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/a881e000-d5c2-435b-be5f-7f9213cba12d/thumbnail/1200x630/a1f1f525e37771d6654fc7d76d18579d/gettyimages-2299437924.jpg"
+        }
+      ],
+      "path": "/us/entity/federal-court-releases-rep-ilhan-omar-washington-d-c-home-raid-documents/"
     }
   ]
 }
