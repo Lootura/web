@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-24T10:00:48.170Z",
+  "updatedAt": "2026-11-24T11:00:48.228Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "297.970 enlaces analizados",
-  "dayScanLabel": "4.211 enlaces escaneados en 24h",
+  "ambientPulseLabel": "298.388 enlaces analizados",
+  "dayScanLabel": "4.208 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -27,13 +27,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 24,
+      "strength": 22,
       "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "fresca ahora",
+      "itemCount": 3,
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 96,
+      "alertScore": 92,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -47,8 +47,7 @@
       ],
       "images": [
         "https://imagenes.elpais.com/resizer/v2/WABGW4WFQBHMTLWYNDEHLI7KOU.png?auth=2496318783ced93d78563ae50eef22997f2430a5cf36883abbbeddac827a7c44",
-        "https://s2.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/24/intxaurrondo-khbC-U405083335212m-1200x840@El%20Correo.JPG",
-        "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/23/silvia-archivo-kEd-U40500484778zAI-1200x840@RC.jpg"
+        "https://s2.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/24/intxaurrondo-khbC-U405083335212m-1200x840@El%20Correo.JPG"
       ],
       "evidence": [
         {
@@ -71,16 +70,65 @@
           "publishedAt": "2026-11-24T08:05:13.000Z",
           "sourceUrl": "https://www.elcorreo.com/gente-estilo/silvia-intxaurrondo-vuele-ataque-sancion-junta-electoral-20261124090513-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/24/intxaurrondo-khbC-U405083335212m-1200x840@El%20Correo.JPG"
-        },
-        {
-          "title": "La Junta Electoral sanciona a Silvia Intxaurrondo por cuestionar que Vox pueda «tener cabida» en TVE",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T17:20:19.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/junta-electoral-sanciona-silvia-intxaurrondo-cuestionar-vox-20261123182019-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/23/silvia-archivo-kEd-U40500484778zAI-1200x840@RC.jpg"
         }
       ],
       "path": "/es/entity/silvia-intxaurrondo-responde-al-expediente-de-la-junta-electoral-y-deja-una-sill/"
+    },
+    {
+      "id": "moving-cluster-españa-sanchez + psoe",
+      "title": "Sánchez responde a González tras su decisión de no votar al PSOE: \"La ultraderecha se frena con el rojo no con el blanco\"",
+      "brief": "Sánchez responde a González tras su decisión de no votar al PSOE: \"La ultraderecha se frena con el rojo no con el blanco\".",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 22,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955103582204.jpg",
+        "https://s2.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/24/pepa-millan-eta-kZcC-U40507917456pC-1200x840@El%20Correo.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Sánchez responde a González tras su decisión de no votar al PSOE: \"La ultraderecha se frena con el rojo no con el blanco\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-24T08:53:32.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/24/6b054e7fe9cf4a54648b458c.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955103582204.jpg"
+        },
+        {
+          "title": "Millán (Vox) acusa al PSOE de promover un «estallido social» y Rufián la frena con las víctimas de ETA",
+          "source": "El Correo",
+          "publishedAt": "2026-11-24T07:11:40.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/millan-vox-acusa-psoe-promover-estallido-social-20261124081140-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/24/pepa-millan-eta-kZcC-U40507917456pC-1200x840@El%20Correo.jpg"
+        },
+        {
+          "title": "Muñoz: “¿Qué quiere, ser el portavoz del PSOE?”. Rufián: “De lo que no tengo ni puñetera gana es de que usted sea ministra”",
+          "source": "El País",
+          "publishedAt": "2026-11-24T07:01:28.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-24/munoz-que-quiere-ser-el-portavoz-del-psoe-rufian-de-lo-que-no-tengo-ni-punetera-gana-es-de-que-usted-sea-ministra.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/sanchez-responde-a-gonzalez-tras-su-decision-de-no-votar-al-psoe-la-ultraderecha/"
     },
     {
       "id": "moving-cluster-españa-jordi + wild",
@@ -91,13 +139,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
+      "strength": 17,
       "sourceCount": 3,
       "itemCount": 4,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 96,
+      "alertScore": 90,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -147,120 +195,54 @@
       "path": "/es/entity/de-las-autoinvitarse-al-programa-de-jordi-wild-a-ir-siempre-de-amarillo-la-lucha/"
     },
     {
-      "id": "now-cluster-españa-jensen + huang",
-      "title": "Así fue el regreso de Jensen Huang a Nvidia en siete actos: de la presión de Trump al apoyo familiar",
-      "brief": "Así fue el regreso de Jensen Huang a Nvidia en siete actos: de la presión de Trump al apoyo familiar.",
+      "id": "now-cluster-españa-jeanine + grasmeijer",
+      "title": "Muere Jeanine Grasmeijer, plusmarquista mundial de inmersión libre, a los 33 años",
+      "brief": "Muere Jeanine Grasmeijer, plusmarquista mundial de inmersión libre, a los 33 años.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 3,
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 92,
+      "alertScore": 76,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/77TY3YRDAZBAPIY6LVZUFNBDO4.JPG?auth=dc08642a9c2e4d800f37ae29f2976dd7cc5bdbf44ee66d717d869e7168d854f4",
-        "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/24/huang-trump_20261124091205-ki6E-RdNRbjkT6dO98nPg8OOCUWL-1200x840@RC.jpg",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954544397706.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Así fue el regreso de Jensen Huang a Nvidia en siete actos: de la presión de Trump al apoyo familiar",
-          "source": "El País",
-          "publishedAt": "2026-11-24T09:13:45.000Z",
-          "sourceUrl": "https://elpais.com/economia/2026-11-24/asi-fue-el-regreso-de-jensen-huang-a-nvidia-en-siete-actos-de-la-presion-de-trump-al-apoyo-familiar.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/77TY3YRDAZBAPIY6LVZUFNBDO4.JPG?auth=dc08642a9c2e4d800f37ae29f2976dd7cc5bdbf44ee66d717d869e7168d854f4"
-        },
-        {
-          "title": "Caída y auge de Jensen Huang: cómo y por qué Trump impuso el rescate del CEO de Nvidia",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T08:16:00.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/caida-auge-jensen-huang-trump-impuso-rescate-20261124091559-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/24/huang-trump_20261124091205-ki6E-RdNRbjkT6dO98nPg8OOCUWL-1200x840@RC.jpg"
-        },
-        {
-          "title": "Así es la inmensa fortuna que han amasado Jensen y Lori Huang",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-24T00:37:57.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/24/6b047583fc6c8339628b45b0.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954544397706.jpg"
-        }
-      ],
-      "path": "/es/entity/asi-fue-el-regreso-de-jensen-huang-a-nvidia-en-siete-actos-de-la-presion-de-trum/"
-    },
-    {
-      "id": "now-cluster-españa-sanchez + psoe",
-      "title": "Sánchez responde a González tras su decisión de no votar al PSOE: \"La ultraderecha se frena con el rojo no con el blanco\"",
-      "brief": "Sánchez responde a González tras su decisión de no votar al PSOE: \"La ultraderecha se frena con el rojo no con el blanco\".",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 23,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "1h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 92,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
         "El Mundo",
-        "El Correo",
-        "El País"
+        "El Correo"
       ],
       "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955103582204.jpg",
-        "https://s2.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/24/pepa-millan-eta-kZcC-U40507917456pC-1200x840@El%20Correo.jpg"
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955148078966.jpg",
+        "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/24/jeanine-grasmeijer-kXCF-U40509671763RRB-1200x840@RC.jpg"
       ],
       "evidence": [
         {
-          "title": "Sánchez responde a González tras su decisión de no votar al PSOE: \"La ultraderecha se frena con el rojo no con el blanco\"",
+          "title": "Muere Jeanine Grasmeijer, plusmarquista mundial de inmersión libre, a los 33 años",
           "source": "El Mundo",
-          "publishedAt": "2026-11-24T08:53:32.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/24/6b054e7fe9cf4a54648b458c.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955103582204.jpg"
+          "publishedAt": "2026-11-24T10:07:32.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/2026/11/24/6b0561e2e85ece7e538b4581.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955148078966.jpg"
         },
         {
-          "title": "Millán (Vox) acusa al PSOE de promover un «estallido social» y Rufián la frena con las víctimas de ETA",
+          "title": "Muere Jeanine Grasmeijer, doble plusmarquista mundial de apnea, a los 33 años",
           "source": "El Correo",
-          "publishedAt": "2026-11-24T07:11:40.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/millan-vox-acusa-psoe-promover-estallido-social-20261124081140-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/24/pepa-millan-eta-kZcC-U40507917456pC-1200x840@El%20Correo.jpg"
-        },
-        {
-          "title": "Muñoz: “¿Qué quiere, ser el portavoz del PSOE?”. Rufián: “De lo que no tengo ni puñetera gana es de que usted sea ministra”",
-          "source": "El País",
-          "publishedAt": "2026-11-24T07:01:28.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-24/munoz-que-quiere-ser-el-portavoz-del-psoe-rufian-de-lo-que-no-tengo-ni-punetera-gana-es-de-que-usted-sea-ministra.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "publishedAt": "2026-11-24T09:50:18.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/mas-deportes/muere-jeanine-grasmeijer-doble-plusmarquista-mundial-apnea-20261124104726-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/deportes/2026/11/24/jeanine-grasmeijer-kXCF-U40509671763RRB-1200x840@RC.jpg"
         }
       ],
-      "path": "/es/entity/sanchez-responde-a-gonzalez-tras-su-decision-de-no-votar-al-psoe-la-ultraderecha/"
+      "path": "/es/entity/muere-jeanine-grasmeijer-plusmarquista-mundial-de-inmersion-libre-a-los-33-anos/"
     },
     {
-      "id": "now-cluster-españa-gobierno + permiso",
+      "id": "now-cluster-españa-gobierno + hasta",
       "title": "El Gobierno aprovecha sus últimos días antes de las elecciones para elevar hoy a 20 semanas el permiso por nacimiento",
       "brief": "El Gobierno aprovecha sus últimos días antes de las elecciones para elevar hoy a 20 semanas el permiso por nacimiento.",
       "whyItMatters": "",
@@ -268,16 +250,15 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "fresca ahora",
+      "itemCount": 2,
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 76,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
@@ -287,8 +268,7 @@
       ],
       "images": [
         "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/24/1520411764-RpkofWn0yGxOLQTYBcALeCL-1200x840@RC.jpg",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955101171596.jpg",
-        "https://s3.ppllstatics.com/rc/www/multimedia/economia/2026/11/23/pedro-sanchez-RAmVYVDtVDg2xqhJQFio5vO-1200x840@RC.jpg"
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955101171596.jpg"
       ],
       "evidence": [
         {
@@ -304,16 +284,55 @@
           "publishedAt": "2026-11-24T08:58:17.000Z",
           "sourceUrl": "https://www.elmundo.es/economia/2026/11/24/6b054e52fc6c8377348b45a5.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955101171596.jpg"
-        },
-        {
-          "title": "El Gobierno aprobará también este martes ampliar a diez días el permiso por fallecimiento",
-          "source": "El Correo",
-          "publishedAt": "2026-11-23T18:11:18.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/trabajo/gobierno-aprobara-martes-ampliar-diez-dias-permiso-20261123191118-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/rc/www/multimedia/economia/2026/11/23/pedro-sanchez-RAmVYVDtVDg2xqhJQFio5vO-1200x840@RC.jpg"
         }
       ],
       "path": "/es/entity/el-gobierno-aprovecha-sus-ultimos-dias-antes-de-las-elecciones-para-elevar-hoy-a/"
+    },
+    {
+      "id": "now-cluster-españa-jensen + huang",
+      "title": "Así fue el regreso de Jensen Huang a Nvidia en siete actos: de la presión de Trump al apoyo familiar",
+      "brief": "Así fue el regreso de Jensen Huang a Nvidia en siete actos: de la presión de Trump al apoyo familiar.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo"
+      ],
+      "images": [
+        "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/24/huang-trump_20261124091205-ki6E-RdNRbjkT6dO98nPg8OOCUWL-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Así fue el regreso de Jensen Huang a Nvidia en siete actos: de la presión de Trump al apoyo familiar",
+          "source": "El País",
+          "publishedAt": "2026-11-24T09:13:45.000Z",
+          "sourceUrl": "https://elpais.com/economia/2026-11-24/asi-fue-el-regreso-de-jensen-huang-a-nvidia-en-siete-actos-de-la-presion-de-trump-al-apoyo-familiar.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Caída y auge de Jensen Huang: cómo y por qué Trump impuso el rescate del CEO de Nvidia",
+          "source": "El Correo",
+          "publishedAt": "2026-11-24T08:16:00.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/caida-auge-jensen-huang-trump-impuso-rescate-20261124091559-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/24/huang-trump_20261124091205-ki6E-RdNRbjkT6dO98nPg8OOCUWL-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/asi-fue-el-regreso-de-jensen-huang-a-nvidia-en-siete-actos-de-la-presion-de-trum/"
     },
     {
       "id": "moving-cluster-españa-gobierno + sanchez",
@@ -327,7 +346,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -374,10 +393,10 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
