@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-24T17:00:48.863Z",
+  "updatedAt": "2026-11-24T18:00:48.081Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "300.898 enlaces analizados",
-  "dayScanLabel": "4.192 enlaces escaneados en 24h",
+  "ambientPulseLabel": "301.309 enlaces analizados",
+  "dayScanLabel": "4.180 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -27,10 +27,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
+      "strength": 22,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 92,
@@ -84,13 +84,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 22,
+      "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 92,
+      "alertScore": 86,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -118,9 +118,9 @@
       "path": "/es/entity/miguel-angel-gil-marin-dimite-como-vicepresidente-de-laliga/"
     },
     {
-      "id": "now-cluster-españa-ester + munoz",
-      "title": "Jóvenes abuchean e insultan a los candidatos del PP Jon Echeverría y Ester Muñoz en un mitin en Andoain | El Diario Vasco",
-      "brief": "Jóvenes abuchean e insultan a los candidatos del PP Jon Echeverría y Ester Muñoz en un mitin en Andoain | El Diario Vasco.",
+      "id": "now-cluster-españa-navidad + coche",
+      "title": "Muere un trabajador y su hermano resulta herido grave tras ser arrollados por un coche cuando instalaban las luces de Navidad en Santander",
+      "brief": "Muere un trabajador y su hermano resulta herido grave tras ser arrollados por un coche cuando instalaban las luces de Navidad en Santander.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -128,48 +128,38 @@
       "stateLabel": "Subiendo",
       "strength": 16,
       "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "2h fresca",
+      "itemCount": 2,
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 76,
       "alertTriggers": [
         "Cruza varias fuentes",
-        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "El Correo",
-        "El Mundo"
+        "El Diario Vasco",
+        "El Correo"
       ],
-      "images": [
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/24/1520746080-U201482033938eGI-R1TZ92CftZ1QASfX7L3wmkO-1200x840@Diario%20Vasco.jpg"
-      ],
+      "images": [],
       "evidence": [
         {
-          "title": "Jóvenes abuchean e insultan a los candidatos del PP Jon Echeverría y Ester Muñoz en un mitin en Andoain",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T15:23:24.000Z",
-          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/jovenes-abuchean-insultan-candidatos-pp-jon-echeverria-20261124162251-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "title": "Eibar encenderá este jueves sus luces en Errebal dando inicio a la Navidad",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-24T17:27:29.000Z",
+          "sourceUrl": "https://www.diariovasco.com/bajo-deba/eibar/eibar-encendera-jueves-luces-errebal-dando-inicio-20261124182728-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
         {
-          "title": "Radicales increpan a Ester Muñoz y a miembros del PP en un mitin en Guipúzcoa",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-24T12:13:01.000Z",
-          "sourceUrl": "https://www.elmundo.es/espana/2026/11/24/6b057cd9e9cf4a3f6b8b457e.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Jóvenes abuchean e insultan a los candidatos del PP Jon Echeverría y Ester Muñoz en un mitin en Andoain | El Diario Vasco",
+          "title": "Muere un trabajador y su hermano resulta herido grave tras ser arrollados por un coche cuando instalaban las luces de Navidad en Santander",
           "source": "El Correo",
-          "publishedAt": "2026-11-24T11:49:51.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/jovenes-abuchean-insultan-candidatos-pp-jon-echeverria-ester-munoz-andoain-faxistak-ertzaintza-20261124124909-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/24/1520746080-U201482033938eGI-R1TZ92CftZ1QASfX7L3wmkO-1200x840@Diario%20Vasco.jpg"
+          "publishedAt": "2026-11-24T14:12:12.000Z",
+          "sourceUrl": "https://www.elcorreo.com/sociedad/muere-trabajador-hermano-resulta-herido-grave-tras-20261124145505-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         }
       ],
-      "path": "/es/entity/jovenes-abuchean-e-insultan-a-los-candidatos-del-pp-jon-echeverria-y-ester-munoz/"
+      "path": "/es/entity/muere-un-trabajador-y-su-hermano-resulta-herido-grave-tras-ser-arrollados-por-un/"
     },
     {
       "id": "moving-cluster-españa-gobierno + publico",
@@ -180,13 +170,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 73,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -234,13 +224,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -280,13 +270,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -324,13 +314,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -371,13 +361,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -410,9 +400,9 @@
       "path": "/es/entity/bruselas-amenaza-a-espana-con-abrir-un-expediente-por-exceso-de-gasto-publico-mi/"
     },
     {
-      "id": "fading-cluster-españa-victimas + euskadi",
-      "title": "2.580 mujeres víctimas de violencia de machista esperan una vivienda protegida en Euskadi",
-      "brief": "2.580 mujeres víctimas de violencia de machista esperan una vivienda protegida en Euskadi.",
+      "id": "fading-cluster-españa-menores + seis",
+      "title": "Condenan a un exojeador de Osasuna y exentrenador del Varea a casi 16 años de prisión por abusar de seis menores y tener pornografía infantil",
+      "brief": "Condenan a un exojeador de Osasuna y exentrenador del Varea a casi 16 años de prisión por abusar de seis menores y tener pornografía infantil.",
       "whyItMatters": "",
       "verdict": "Si no vuelve a aparecer, sale de portada.",
       "mode": "fading",
@@ -422,6 +412,49 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "4h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Condenan a casi 16 años de cárcel a un exojeador de Osasuna por abusos sexuales a menores",
+          "source": "El Correo",
+          "publishedAt": "2026-11-24T14:20:43.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/futbol/condenan-anos-carcel-exojeador-osasuna-abusos-sexuales-20261124152043-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Condenan a un exojeador de Osasuna y exentrenador del Varea a casi 16 años de prisión por abusar de seis menores y tener pornografía infantil",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-24T14:13:36.000Z",
+          "sourceUrl": "https://www.diariovasco.com/deportes/futbol/condenan-exojeador-osasuna-exentrenador-varea-anos-prision-20261124141704-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/condenan-a-un-exojeador-de-osasuna-y-exentrenador-del-varea-a-casi-16-anos-de-pr/"
+    },
+    {
+      "id": "fading-cluster-españa-esperan + euskadi",
+      "title": "2.580 mujeres víctimas de violencia de machista esperan una vivienda protegida en Euskadi",
+      "brief": "2.580 mujeres víctimas de violencia de machista esperan una vivienda protegida en Euskadi.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
