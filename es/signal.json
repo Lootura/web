@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-25T11:00:48.213Z",
+  "updatedAt": "2026-11-25T12:00:47.856Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "307.136 enlaces analizados",
+  "ambientPulseLabel": "307.556 enlaces analizados",
   "dayScanLabel": "4.158 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
@@ -19,9 +19,9 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-noche + hecho",
-      "title": "«He hecho muchos esfuerzos por olvidar la noche en que mi amigo me violó»",
-      "brief": "«He hecho muchos esfuerzos por olvidar la noche en que mi amigo me violó».",
+      "id": "now-cluster-españa-fallos + investigadores",
+      "title": "Los investigadores de la Aitat alertan del riesgo de que se repita la tragedia de Adamuz tras constatar fallos de seguridad que no se han corregido",
+      "brief": "Los investigadores de la Aitat alertan del riesgo de que se repita la tragedia de Adamuz tras constatar fallos de seguridad que no se han corregido.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -31,6 +31,52 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/04/17938118184990.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Los investigadores de Adamuz alertan al juzgado del riesgo de otra tragedia por fallos de seguridad sin corregir",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T11:37:20.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/investigadores-adamuz-alertan-juzgado-riesgo-tragedia-fallos-20261125115411-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Los investigadores de la Aitat alertan del riesgo de que se repita la tragedia de Adamuz tras constatar fallos de seguridad que no se han corregido",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-25T10:42:27.000Z",
+          "sourceUrl": "https://www.elmundo.es/andalucia/2026/11/25/6b06b5b721efa046268b458d.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/04/17938118184990.jpg"
+        }
+      ],
+      "path": "/es/entity/los-investigadores-de-la-aitat-alertan-del-riesgo-de-que-se-repita-la-tragedia-d/"
+    },
+    {
+      "id": "now-cluster-españa-hecho + muchos",
+      "title": "«He hecho muchos esfuerzos por olvidar la noche en que mi amigo me violó»",
+      "brief": "«He hecho muchos esfuerzos por olvidar la noche en que mi amigo me violó».",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -66,10 +112,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -79,26 +125,27 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Correo",
-        "El Mundo"
+        "El Mundo",
+        "El Correo"
       ],
       "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956018199689.jpg"
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956018199689.jpg",
+        "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/25/puigdemont-ep-kwOB-U40528757900CFH-1200x840@RC.jpg"
       ],
       "evidence": [
-        {
-          "title": "Puigdemont volverá a España el 12 de diciembre",
-          "source": "El Correo",
-          "publishedAt": "2026-11-25T10:18:16.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/puigdemont-volvera-espana-diciembre-20261125111335-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
         {
           "title": "Puigdemont volverá a España el 12 de diciembre tras la amnistía: \"El Estado ha fracasado, regresaré a mi país, a Cataluña, sin pedir perdón\"",
           "source": "El Mundo",
           "publishedAt": "2026-11-25T10:13:41.000Z",
           "sourceUrl": "https://www.elmundo.es/espana/2026/11/25/6b06b417fc6c83ba038b458e.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956018199689.jpg"
+        },
+        {
+          "title": "Puigdemont volverá a España el 12 de diciembre",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T10:13:36.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/puigdemont-volvera-espana-diciembre-20261125111335-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/25/puigdemont-ep-kwOB-U40528757900CFH-1200x840@RC.jpg"
         }
       ],
       "path": "/es/entity/puigdemont-volvera-a-espana-el-12-de-diciembre-tras-la-amnistia-el-estado-ha-fra/"
@@ -112,13 +159,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
