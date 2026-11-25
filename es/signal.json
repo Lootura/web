@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-25T10:00:48.000Z",
+  "updatedAt": "2026-11-25T11:00:48.213Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "306.715 enlaces analizados",
-  "dayScanLabel": "4.153 enlaces escaneados en 24h",
+  "ambientPulseLabel": "307.136 enlaces analizados",
+  "dayScanLabel": "4.158 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,9 +19,9 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-euskadi + gipuzkoa",
-      "title": "Gipuzkoa esquiva el desplome de las hipotecas en Euskadi y crece un 5,7%",
-      "brief": "Gipuzkoa esquiva el desplome de las hipotecas en Euskadi y crece un 5,7%.",
+      "id": "now-cluster-españa-noche + hecho",
+      "title": "«He hecho muchos esfuerzos por olvidar la noche en que mi amigo me violó»",
+      "brief": "«He hecho muchos esfuerzos por olvidar la noche en que mi amigo me violó».",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -31,6 +31,91 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://s1.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/24/audiencia-R6XpW25HrNbKrWH9exRLx0N-1200x840@Diario%20Vasco.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "«He hecho muchos esfuerzos por olvidar la noche en que mi amigo me violó»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T10:23:18.000Z",
+          "sourceUrl": "https://www.elcorreo.com/sociedad/esfuerzos-olvidar-noche-amigo-violo-20261125112318-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/he-hecho-muchos-esfuerzos-por-olvidar-la-noche-en-que-mi-amigo-me-violo/"
+    },
+    {
+      "id": "now-cluster-españa-puigdemont + volvera",
+      "title": "Puigdemont volverá a España el 12 de diciembre tras la amnistía: \"El Estado ha fracasado, regresaré a mi país, a Cataluña, sin pedir perdón\"",
+      "brief": "Puigdemont volverá a España el 12 de diciembre tras la amnistía: \"El Estado ha fracasado, regresaré a mi país, a Cataluña, sin pedir perdón\".",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956018199689.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Puigdemont volverá a España el 12 de diciembre",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T10:18:16.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/puigdemont-volvera-espana-diciembre-20261125111335-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Puigdemont volverá a España el 12 de diciembre tras la amnistía: \"El Estado ha fracasado, regresaré a mi país, a Cataluña, sin pedir perdón\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-25T10:13:41.000Z",
+          "sourceUrl": "https://www.elmundo.es/espana/2026/11/25/6b06b417fc6c83ba038b458e.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956018199689.jpg"
+        }
+      ],
+      "path": "/es/entity/puigdemont-volvera-a-espana-el-12-de-diciembre-tras-la-amnistia-el-estado-ha-fra/"
+    },
+    {
+      "id": "now-cluster-españa-euskadi + hipotecas",
+      "title": "La firma de hipotecas se desploma un 19% en Euskadi y confirma la desaceleración del mercado",
+      "brief": "La firma de hipotecas se desploma un 19% en Euskadi y confirma la desaceleración del mercado.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -62,7 +147,7 @@
           "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/economia/2026/11/25/1516446762-Rfrr4gNm3d2PEvlqA7IeG6K-1200x840@El%20Correo.jpg"
         }
       ],
-      "path": "/es/entity/gipuzkoa-esquiva-el-desplome-de-las-hipotecas-en-euskadi-y-crece-un-5-7/"
+      "path": "/es/entity/la-firma-de-hipotecas-se-desploma-un-19-en-euskadi-y-confirma-la-desaceleracion/"
     }
   ]
 }
