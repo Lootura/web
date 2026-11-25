@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-25T00:00:47.981Z",
+  "updatedAt": "2026-11-25T01:00:48.105Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "302.562 enlaces analizados",
-  "dayScanLabel": "4.174 enlaces escaneados en 24h",
+  "ambientPulseLabel": "302.978 enlaces analizados",
+  "dayScanLabel": "4.175 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -27,10 +27,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 79,
@@ -82,13 +82,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -121,6 +121,99 @@
       "path": "/es/entity/el-cucho-eleva-al-betis-en-bratislava-con-un-doblete-de-cabeza/"
     },
     {
+      "id": "now-cluster-españa-bellingham + lleva",
+      "title": "Bellingham hierve y el Madrid se lleva por delante al PSV",
+      "brief": "Bellingham hierve y el Madrid se lleva por delante al PSV.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 14,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "3h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/YJNSYHSVVVCFPCYT6DIBFOZSNE.jpg?auth=c64669837277455f3e65b9211ce4a5ca01a9a5f5efbf56a20057a6accdd1d26c",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955572415678.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El esplendor deslumbrante de Bellingham impulsa la goleada del Madrid al PSV",
+          "source": "El País",
+          "publishedAt": "2026-11-24T22:20:31.000Z",
+          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-24/el-esplendor-deslumbrante-de-bellingham-impulsa-la-goleada-del-madrid-al-psv.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/YJNSYHSVVVCFPCYT6DIBFOZSNE.jpg?auth=c64669837277455f3e65b9211ce4a5ca01a9a5f5efbf56a20057a6accdd1d26c"
+        },
+        {
+          "title": "Bellingham hierve y el Madrid se lleva por delante al PSV",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-24T22:12:36.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/futbol/champions-league/2026/11/24/6b06090921efa01a7d8b4582.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955572415678.jpg"
+        }
+      ],
+      "path": "/es/entity/bellingham-hierve-y-el-madrid-se-lleva-por-delante-al-psv/"
+    },
+    {
+      "id": "moving-cluster-españa-regreso + trump",
+      "title": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él",
+      "brief": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "6h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/VDVHGZVYPNNP7CXUOFZGSNNBJY.jpg?auth=68bb3b7ad374d3d0217c50319bcb84a6d73994eb7c2ae4d409e3281b6abd1489"
+      ],
+      "evidence": [
+        {
+          "title": "Trump se enfrenta a republicanos y demócratas por el regreso de Huang",
+          "source": "El Correo",
+          "publishedAt": "2026-11-24T19:01:58.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/trump-enfrenta-republicanos-democratas-regreso-huang-20261124200156-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él",
+          "source": "El País",
+          "publishedAt": "2026-11-24T18:44:20.000Z",
+          "sourceUrl": "https://elpais.com/us/2026-11-24/furia-y-consternacion-en-el-congreso-de-ee-uu-por-el-regreso-de-huang-a-nvidia-y-el-papel-de-trump-en-el.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/VDVHGZVYPNNP7CXUOFZGSNNBJY.jpg?auth=68bb3b7ad374d3d0217c50319bcb84a6d73994eb7c2ae4d409e3281b6abd1489"
+        }
+      ],
+      "path": "/es/entity/furia-y-consternacion-en-el-congreso-de-ee-uu-por-el-regreso-de-huang-a-nvidia-y/"
+    },
+    {
       "id": "moving-cluster-españa-francisco + tomas",
       "title": "En libertad el etarra Jon Bienzobas, asesino del expresidente del TC Francisco Tomás y Valiente",
       "brief": "En libertad el etarra Jon Bienzobas, asesino del expresidente del TC Francisco Tomás y Valiente.",
@@ -129,10 +222,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -171,7 +264,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 60,
@@ -205,52 +298,6 @@
         }
       ],
       "path": "/es/entity/feijoo-enarbola-la-bandera-del-feminismo-para-disputar-al-psoe-el-voto-de-las-mu/"
-    },
-    {
-      "id": "now-cluster-españa-regreso + trump",
-      "title": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él",
-      "brief": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 60,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/VDVHGZVYPNNP7CXUOFZGSNNBJY.jpg?auth=68bb3b7ad374d3d0217c50319bcb84a6d73994eb7c2ae4d409e3281b6abd1489"
-      ],
-      "evidence": [
-        {
-          "title": "Trump se enfrenta a republicanos y demócratas por el regreso de Huang",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T19:01:58.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/trump-enfrenta-republicanos-democratas-regreso-huang-20261124200156-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él",
-          "source": "El País",
-          "publishedAt": "2026-11-24T18:44:20.000Z",
-          "sourceUrl": "https://elpais.com/us/2026-11-24/furia-y-consternacion-en-el-congreso-de-ee-uu-por-el-regreso-de-huang-a-nvidia-y-el-papel-de-trump-en-el.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/VDVHGZVYPNNP7CXUOFZGSNNBJY.jpg?auth=68bb3b7ad374d3d0217c50319bcb84a6d73994eb7c2ae4d409e3281b6abd1489"
-        }
-      ],
-      "path": "/es/entity/furia-y-consternacion-en-el-congreso-de-ee-uu-por-el-regreso-de-huang-a-nvidia-y/"
     }
   ]
 }
