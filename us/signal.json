@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-25T04:00:48.403Z",
+  "updatedAt": "2026-11-25T05:00:48.314Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "399,961 links analyzed",
-  "dayScanLabel": "8,293 links scanned in 24h",
+  "ambientPulseLabel": "400,791 links analyzed",
+  "dayScanLabel": "8,292 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -16,7 +16,80 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": null,
+  "topAlert": {
+    "id": "now-cluster-united states-jensen + huang",
+    "title": "Trump says pardon is always an option for Jensen Huang, and that invoking the Fifth isn’t necessary",
+    "brief": "Trump says pardon is always an option for Jensen Huang, and that invoking the Fifth isn’t necessary.",
+    "whyItMatters": "",
+    "verdict": "If it repeats in the next run, it gains weight.",
+    "mode": "now",
+    "state": "rising",
+    "stateLabel": "Rising",
+    "strength": 32,
+    "sourceCount": 5,
+    "itemCount": 11,
+    "freshness": "fresh now",
+    "alertLevel": "watch",
+    "alertLabel": "Watch",
+    "alertScore": 99,
+    "alertTriggers": [
+      "Crosses several sources",
+      "Picks up volume fast",
+      "Still active"
+    ],
+    "isHotNews": false,
+    "sources": [
+      "NBC News",
+      "The New York Times",
+      "NBC News Politics",
+      "CBS News",
+      "PBS NewsHour"
+    ],
+    "images": [
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261124-jensen-huang-mn-1030-74e1f2.jpg",
+      "https://static01.nyt.com/images/2026/11/26/multimedia/24witt-vzbp/24witt-vzbp-mediumSquareAt3X.jpg",
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261116-trump-huang-sjr-1359-e33ddb.jpg",
+      "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/25/56684524-71d6-4187-92a9-8dc921925b8d/thumbnail/1200x630/1a4cd6e40a831ba3d79515a0e1a2cbbf/cbsn-fusion-legal-expert-breaks-down-trumps-involvement-in-nvidia-scandal-huang-reinstatement-thumbnail.jpg"
+    ],
+    "evidence": [
+      {
+        "title": "Jensen Huang says he’s thankful for second chance at Nvidia employee meeting",
+        "source": "NBC News",
+        "publishedAt": "2026-11-25T04:11:13.373Z",
+        "sourceUrl": "https://www.nbcnews.com/business/business-news/jensen-huang-says-s-thankful-second-chance-nvidia-employee-meeting-rcna611235?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261124-jensen-huang-mn-1030-74e1f2.jpg"
+      },
+      {
+        "title": "Why Jensen Huang Was Reinstated at Nvidia",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-25T03:56:57.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/24/opinion/jensen-huang-nvidia-ceo-reinstated.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/26/multimedia/24witt-vzbp/24witt-vzbp-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Trump says pardon is always an option for Jensen Huang, and that invoking the Fifth isn’t necessary",
+        "source": "NBC News Politics",
+        "publishedAt": "2026-11-25T02:19:55.808Z",
+        "sourceUrl": "https://www.nbcnews.com/politics/donald-trump/pardon-always-option-nvidia-jensen-huang-pleading-fifth-not-necessary-rcna611219?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261116-trump-huang-sjr-1359-e33ddb.jpg"
+      },
+      {
+        "title": "Legal expert breaks down Trump's involvement in Huang reinstatement at Nvidia",
+        "source": "CBS News",
+        "publishedAt": "2026-11-25T01:16:50.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/legal-expert-breaks-down-trumps-involvement-in-nvidia-scandal-huang-reinstatement/?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/25/56684524-71d6-4187-92a9-8dc921925b8d/thumbnail/1200x630/1a4cd6e40a831ba3d79515a0e1a2cbbf/cbsn-fusion-legal-expert-breaks-down-trumps-involvement-in-nvidia-scandal-huang-reinstatement-thumbnail.jpg"
+      },
+      {
+        "title": "Where China stands in the AI chip race amid Huang's return to Nvidia",
+        "source": "CBS News",
+        "publishedAt": "2026-11-25T01:12:07.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/heres-where-china-stands-in-the-ai-chip-race-amid-huangs-return-to-nvidia/?utm_source=lootura.com&ref=lootura.com",
+        "image": ""
+      }
+    ],
+    "path": "/us/entity/trump-says-pardon-is-always-an-option-for-jensen-huang-and-that-invoking-the-fif/"
+  },
   "signals": [
     {
       "id": "now-cluster-united states-jensen + huang",
@@ -27,12 +100,12 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 31,
-      "sourceCount": 4,
+      "strength": 32,
+      "sourceCount": 5,
       "itemCount": 11,
       "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
       "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
@@ -41,22 +114,30 @@
       ],
       "isHotNews": false,
       "sources": [
+        "NBC News",
         "The New York Times",
+        "NBC News Politics",
         "CBS News",
-        "PBS NewsHour",
-        "NBC News Politics"
+        "PBS NewsHour"
       ],
       "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261124-jensen-huang-mn-1030-74e1f2.jpg",
         "https://static01.nyt.com/images/2026/11/26/multimedia/24witt-vzbp/24witt-vzbp-mediumSquareAt3X.jpg",
-        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/24/97ef5871-9587-4d9d-b726-39b514fa71fe/thumbnail/1200x630/13a6928edb0ef74afff4b7a44f500f10/ap26328720401066.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/profitsandthepresidency-1024x683.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261116-trump-huang-sjr-1359-e33ddb.jpg"
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261116-trump-huang-sjr-1359-e33ddb.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/25/56684524-71d6-4187-92a9-8dc921925b8d/thumbnail/1200x630/1a4cd6e40a831ba3d79515a0e1a2cbbf/cbsn-fusion-legal-expert-breaks-down-trumps-involvement-in-nvidia-scandal-huang-reinstatement-thumbnail.jpg"
       ],
       "evidence": [
         {
+          "title": "Jensen Huang says he’s thankful for second chance at Nvidia employee meeting",
+          "source": "NBC News",
+          "publishedAt": "2026-11-25T04:11:13.373Z",
+          "sourceUrl": "https://www.nbcnews.com/business/business-news/jensen-huang-says-s-thankful-second-chance-nvidia-employee-meeting-rcna611235?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261124-jensen-huang-mn-1030-74e1f2.jpg"
+        },
+        {
           "title": "Why Jensen Huang Was Reinstated at Nvidia",
           "source": "The New York Times",
-          "publishedAt": "2026-11-25T03:56:56.000Z",
+          "publishedAt": "2026-11-25T03:56:57.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/24/opinion/jensen-huang-nvidia-ceo-reinstated.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static01.nyt.com/images/2026/11/26/multimedia/24witt-vzbp/24witt-vzbp-mediumSquareAt3X.jpg"
         },
@@ -72,7 +153,7 @@
           "source": "CBS News",
           "publishedAt": "2026-11-25T01:16:50.000Z",
           "sourceUrl": "https://www.cbsnews.com/video/legal-expert-breaks-down-trumps-involvement-in-nvidia-scandal-huang-reinstatement/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/25/56684524-71d6-4187-92a9-8dc921925b8d/thumbnail/1200x630/1a4cd6e40a831ba3d79515a0e1a2cbbf/cbsn-fusion-legal-expert-breaks-down-trumps-involvement-in-nvidia-scandal-huang-reinstatement-thumbnail.jpg"
         },
         {
           "title": "Where China stands in the AI chip race amid Huang's return to Nvidia",
@@ -80,19 +161,12 @@
           "publishedAt": "2026-11-25T01:12:07.000Z",
           "sourceUrl": "https://www.cbsnews.com/video/heres-where-china-stands-in-the-ai-chip-race-amid-huangs-return-to-nvidia/?utm_source=lootura.com&ref=lootura.com",
           "image": ""
-        },
-        {
-          "title": "Trump pushed for Huang's reinstatement as Nvidia CEO over economic concerns, officials say",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T00:48:03.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/trump-pushed-for-hunags-reinstatement-as-nvidia-ceo-over-economic-concerns-officials-say/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
         }
       ],
       "path": "/us/entity/trump-says-pardon-is-always-an-option-for-jensen-huang-and-that-invoking-the-fif/"
     },
     {
-      "id": "now-cluster-united states-charges + markle",
+      "id": "now-cluster-united states-charges + child",
       "title": "Thomas Markle Indicted in US on Charges of Possession of Child Sexual Abuse Materials",
       "brief": "Thomas Markle Indicted in US on Charges of Possession of Child Sexual Abuse Materials.",
       "whyItMatters": "",
@@ -103,7 +177,7 @@
       "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 92,
@@ -159,7 +233,7 @@
       "strength": 16,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "fresh now",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 79,
@@ -212,13 +286,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
@@ -259,10 +333,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 7,
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresh",
+      "freshness": "8h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 64,
@@ -309,7 +383,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "14h fresh",
+      "freshness": "15h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 59,

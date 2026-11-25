@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-25T04:00:48.403Z",
+  "updatedAt": "2026-11-25T05:00:48.314Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "304.237 enlaces analizados",
-  "dayScanLabel": "4.174 enlaces escaneados en 24h",
+  "ambientPulseLabel": "304.649 enlaces analizados",
+  "dayScanLabel": "4.169 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,50 +19,77 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "moving-cluster-españa-regreso + trump",
-      "title": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él",
-      "brief": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él.",
+      "id": "now-cluster-españa-black + friday",
+      "title": "Xiaomi mete el Dimensity 9400+ y una pantalla 3K de 165 Hz en 8,8 pulgadas y la deja por menos de 500 euros en Black Friday",
+      "brief": "Xiaomi mete el Dimensity 9400+ y una pantalla 3K de 165 Hz en 8,8 pulgadas y la deja por menos de 500 euros en Black Friday.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "9h fresca",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 26,
+      "sourceCount": 3,
+      "itemCount": 6,
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 64,
+      "alertScore": 99,
       "alertTriggers": [
         "Cruza varias fuentes",
+        "Gana volumen rápido",
         "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "El Correo",
-        "El País"
+        "La Razón",
+        "El País",
+        "El Correo"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/VDVHGZVYPNNP7CXUOFZGSNNBJY.jpg?auth=68bb3b7ad374d3d0217c50319bcb84a6d73994eb7c2ae4d409e3281b6abd1489"
+        "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/24/4F51EC26-3C2C-403E-AA34-51E208BAF4DB/xiaomi-mete-dimensity-9400-pantalla-165-88-pulgadas-deja-menos-500-euros-black-friday_96.jpg?crop=1240,698,x0,y0&width=1200&height=675&optimize=low&format=webply",
+        "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/24/E1E710A5-2A26-4D4C-9FDA-5D9E670FFE6B/tengo-fichado-levis-511-otono-porque-black-friday-baja-60-euros-pega-todo_96.jpg?crop=1240,698,x0,y0&width=1200&height=675&optimize=low&format=webply",
+        "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/24/959FEB2E-FDE3-4FE8-9ADE-1F1E4D28B85F/puente-diciembre-pilla-maleta-vieja-flashline-american-tourister-baja-40-black-friday_96.jpg?crop=1240,698,x0,y0&width=1200&height=675&optimize=low&format=webply",
+        "https://imagenes.elpais.com/resizer/v2/UWL7ZLTRX5FNRH3HEZYBU63WPU.png?auth=1ee869ee2f3ae685caadaf649409dd577126943e70bf9d5c3dfca362574e6f4c",
+        "https://s2.ppllstatics.com/elcorreo/www/multimedia/bizkaiadmoda/2026/11/24/adios-black-friday-hola-clientes-honor-genial-idea-cuatro-tiendas-casco-viejo-premia-fidelidad-clientela-klKI-U40516936559ZtE-1200x840@El%20Correo.jpeg"
       ],
       "evidence": [
         {
-          "title": "Trump se enfrenta a republicanos y demócratas por el regreso de Huang",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T19:01:58.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/trump-enfrenta-republicanos-democratas-regreso-huang-20261124200156-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "Xiaomi mete el Dimensity 9400+ y una pantalla 3K de 165 Hz en 8,8 pulgadas y la deja por menos de 500 euros en Black Friday",
+          "source": "La Razón",
+          "publishedAt": "2026-11-25T05:00:52.000Z",
+          "sourceUrl": "https://www.larazon.es/compras/xiaomi-mete-dimensity-9400-pantalla-165-88-pulgadas-deja-menos-500-euros-black-friday-3v3r_202611256b066b84c0d5c85b96c69bfd.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/24/4F51EC26-3C2C-403E-AA34-51E208BAF4DB/xiaomi-mete-dimensity-9400-pantalla-165-88-pulgadas-deja-menos-500-euros-black-friday_96.jpg?crop=1240,698,x0,y0&width=1200&height=675&optimize=low&format=webply"
         },
         {
-          "title": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él",
+          "title": "Tengo fichado el Levi's 511 para el otoño porque en Black Friday baja de 60 euros y pega con todo",
+          "source": "La Razón",
+          "publishedAt": "2026-11-25T05:00:49.000Z",
+          "sourceUrl": "https://www.larazon.es/compras/tengo-fichado-levis-511-otono-porque-black-friday-baja-60-euros-pega-todo-3v3r_202611256b066b81c0d5c85b96c69bf5.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/24/E1E710A5-2A26-4D4C-9FDA-5D9E670FFE6B/tengo-fichado-levis-511-otono-porque-black-friday-baja-60-euros-pega-todo_96.jpg?crop=1240,698,x0,y0&width=1200&height=675&optimize=low&format=webply"
+        },
+        {
+          "title": "Si el puente de diciembre te pilla con la maleta vieja, la Flashline de American Tourister baja un 40% en Black Friday",
+          "source": "La Razón",
+          "publishedAt": "2026-11-25T05:00:48.000Z",
+          "sourceUrl": "https://www.larazon.es/compras/puente-diciembre-pilla-maleta-vieja-flashline-american-tourister-baja-40-black-friday-3v3r_202611256b066b80f6da642efefa129f.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/24/959FEB2E-FDE3-4FE8-9ADE-1F1E4D28B85F/puente-diciembre-pilla-maleta-vieja-flashline-american-tourister-baja-40-black-friday_96.jpg?crop=1240,698,x0,y0&width=1200&height=675&optimize=low&format=webply"
+        },
+        {
+          "title": "25 ideas de regalo para Navidad con ofertas de Black Friday y devolución ampliada en Amazon",
           "source": "El País",
-          "publishedAt": "2026-11-24T18:44:20.000Z",
-          "sourceUrl": "https://elpais.com/us/2026-11-24/furia-y-consternacion-en-el-congreso-de-ee-uu-por-el-regreso-de-huang-a-nvidia-y-el-papel-de-trump-en-el.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/VDVHGZVYPNNP7CXUOFZGSNNBJY.jpg?auth=68bb3b7ad374d3d0217c50319bcb84a6d73994eb7c2ae4d409e3281b6abd1489"
+          "publishedAt": "2026-11-24T22:40:33.000Z",
+          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/ofertas-black-friday-2026-en-regalos-de-navidad.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/UWL7ZLTRX5FNRH3HEZYBU63WPU.png?auth=1ee869ee2f3ae685caadaf649409dd577126943e70bf9d5c3dfca362574e6f4c"
+        },
+        {
+          "title": "Adiós Black Friday, hola 'clientes de honor': la genial idea de cuatro tiendas del Casco Viejo que premia a su fiel clientela",
+          "source": "El Correo",
+          "publishedAt": "2026-11-24T19:28:51.000Z",
+          "sourceUrl": "https://www.elcorreo.com/bizkaiadmoda/moda/adios-black-friday-hola-clientes-honor-genial-idea-cuatro-tiendas-casco-viejo-premia-fidelidad-clientela-20261124202324-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/bizkaiadmoda/2026/11/24/adios-black-friday-hola-clientes-honor-genial-idea-cuatro-tiendas-casco-viejo-premia-fidelidad-clientela-klKI-U40516936559ZtE-1200x840@El%20Correo.jpeg"
         }
       ],
-      "path": "/es/entity/furia-y-consternacion-en-el-congreso-de-ee-uu-por-el-regreso-de-huang-a-nvidia-y/"
+      "path": "/es/entity/xiaomi-mete-el-dimensity-9400-y-una-pantalla-3k-de-165-hz-en-8-8-pulgadas-y-la-d/"
     },
     {
       "id": "moving-cluster-españa-francisco + tomas",
@@ -73,10 +100,10 @@
       "mode": "moving",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 6,
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "9h fresca",
+      "freshness": "10h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -104,61 +131,6 @@
       "path": "/es/entity/en-libertad-el-etarra-jon-bienzobas-asesino-del-expresidente-del-tc-francisco-to/"
     },
     {
-      "id": "now-cluster-españa-black + friday",
-      "title": "Adiós Black Friday, hola 'clientes de honor': la genial idea de cuatro tiendas del Casco Viejo que premia a su fiel clientela",
-      "brief": "Adiós Black Friday, hola 'clientes de honor': la genial idea de cuatro tiendas del Casco Viejo que premia a su fiel clientela.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 63,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/UWL7ZLTRX5FNRH3HEZYBU63WPU.png?auth=1ee869ee2f3ae685caadaf649409dd577126943e70bf9d5c3dfca362574e6f4c",
-        "https://s2.ppllstatics.com/elcorreo/www/multimedia/bizkaiadmoda/2026/11/24/adios-black-friday-hola-clientes-honor-genial-idea-cuatro-tiendas-casco-viejo-premia-fidelidad-clientela-klKI-U40516936559ZtE-1200x840@El%20Correo.jpeg"
-      ],
-      "evidence": [
-        {
-          "title": "25 ideas de regalo para Navidad con ofertas de Black Friday y devolución ampliada en Amazon",
-          "source": "El País",
-          "publishedAt": "2026-11-24T22:40:33.000Z",
-          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/ofertas-black-friday-2026-en-regalos-de-navidad.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/UWL7ZLTRX5FNRH3HEZYBU63WPU.png?auth=1ee869ee2f3ae685caadaf649409dd577126943e70bf9d5c3dfca362574e6f4c"
-        },
-        {
-          "title": "Adiós Black Friday, hola 'clientes de honor': la genial idea de cuatro tiendas del Casco Viejo que premia a su fiel clientela",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T19:28:51.000Z",
-          "sourceUrl": "https://www.elcorreo.com/bizkaiadmoda/moda/adios-black-friday-hola-clientes-honor-genial-idea-cuatro-tiendas-casco-viejo-premia-fidelidad-clientela-20261124202324-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/bizkaiadmoda/2026/11/24/adios-black-friday-hola-clientes-honor-genial-idea-cuatro-tiendas-casco-viejo-premia-fidelidad-clientela-klKI-U40516936559ZtE-1200x840@El%20Correo.jpeg"
-        },
-        {
-          "title": "Seis móviles sobresalientes por menos de 700 euros para que no te dejes el sueldo en el Black Friday",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T15:28:28.000Z",
-          "sourceUrl": "https://www.elcorreo.com/tecnologia/moviles/seis-moviles-sobresalientes-700-euros-dejes-sueldo-20261124162712-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/adios-black-friday-hola-clientes-de-honor-la-genial-idea-de-cuatro-tiendas-del-c/"
-    },
-    {
       "id": "now-cluster-españa-cucho + betis",
       "title": "El Cucho eleva al Betis en Bratislava con un doblete de cabeza",
       "brief": "El Cucho eleva al Betis en Bratislava con un doblete de cabeza.",
@@ -167,13 +139,13 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 60,
+      "alertScore": 54,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -214,13 +186,13 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 60,
+      "alertScore": 54,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -261,10 +233,10 @@
       "mode": "now",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 7,
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "8h fresca",
+      "freshness": "9h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 49,
