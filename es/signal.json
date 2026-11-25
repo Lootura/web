@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-25T14:00:48.256Z",
+  "updatedAt": "2026-11-25T15:00:47.642Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "308.399 enlaces analizados",
-  "dayScanLabel": "4.162 enlaces escaneados en 24h",
+  "ambientPulseLabel": "308.818 enlaces analizados",
+  "dayScanLabel": "4.169 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,18 +19,18 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-audiencia + nacional",
+      "id": "moving-cluster-españa-audiencia + nacional",
       "title": "La Audiencia Nacional revoca el tercer grado a Parot y pide que las víctimas puedan recurrir las semilibertades que concede el Gobierno Vasco",
       "brief": "La Audiencia Nacional revoca el tercer grado a Parot y pide que las víctimas puedan recurrir las semilibertades que concede el Gobierno Vasco.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 26,
+      "strength": 25,
       "sourceCount": 4,
       "itemCount": 4,
-      "freshness": "fresca ahora",
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 99,
@@ -42,13 +42,14 @@
       "isHotNews": false,
       "sources": [
         "El País",
-        "El Diario Vasco",
         "El Correo",
+        "El Diario Vasco",
         "El Mundo"
       ],
       "images": [
         "https://imagenes.elpais.com/resizer/v2/BYPG7EBNMFDJLB22DHLOJ3GSNM.jpg?auth=3f4e5c8eb6a6bfd90ae602716452b16cb618b1f4811b87411fe6892939d0718e",
         "https://s3.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/25/parot1518925964-RKRYDLH6LqpcDfslgmqLyEJ-1200x840@El%20Correo.jpg",
+        "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/25/1517072861p-RGdmAetfEP1o8pDaSwEPs2N-1200x840@Diario%20Vasco.jpg",
         "https://e01-phantom-elmundo.uecdn.es/caa9847d3f7fa2ebf6a1145df0ebae33/f/webp/assets/multimedia/imagenes/2025/06/23/17506740339329.jpg"
       ],
       "evidence": [
@@ -60,18 +61,18 @@
           "image": "https://imagenes.elpais.com/resizer/v2/BYPG7EBNMFDJLB22DHLOJ3GSNM.jpg?auth=3f4e5c8eb6a6bfd90ae602716452b16cb618b1f4811b87411fe6892939d0718e"
         },
         {
-          "title": "La Audiencia Nacional revoca el tercer grado a Parot y pide que las víctimas puedan recurrir las semilibertades que concede el Gobierno Vasco",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-25T12:25:57.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/audiencia-nacional-revoca-tercer-grado-parot-pide-familias-pidan-revocar-semilibertades-gobierno-vasco-20261125131938-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
           "title": "La Audiencia Nacional tumba el tercer grado a Henri Parot pero le mantiene el 100.2",
           "source": "El Correo",
           "publishedAt": "2026-11-25T12:24:09.000Z",
           "sourceUrl": "https://www.elcorreo.com/politica/audiencia-nacional-tumba-tercer-grado-henri-parot-20261125132409-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/25/parot1518925964-RKRYDLH6LqpcDfslgmqLyEJ-1200x840@El%20Correo.jpg"
+        },
+        {
+          "title": "La Audiencia Nacional revoca el tercer grado a Parot y pide que las víctimas puedan recurrir las semilibertades que concede el Gobierno Vasco",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-25T12:21:06.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/audiencia-nacional-revoca-tercer-grado-parot-pide-familias-pidan-revocar-semilibertades-gobierno-vasco-20261125131938-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/25/1517072861p-RGdmAetfEP1o8pDaSwEPs2N-1200x840@Diario%20Vasco.jpg"
         },
         {
           "title": "La Audiencia Nacional revoca el tercer grado al etarra Henri Parot y plantea una reforma legal para que las víctimas puedan recurrir",
@@ -84,9 +85,64 @@
       "path": "/es/entity/la-audiencia-nacional-revoca-el-tercer-grado-a-parot-y-pide-que-las-victimas-pue/"
     },
     {
-      "id": "now-cluster-españa-guardia + civil",
-      "title": "La Guardia Civil investiga el asesinato a navajazos de una mujer de 32 años en el municipio de Bullas (Murcia)",
-      "brief": "La Guardia Civil investiga el asesinato a navajazos de una mujer de 32 años en el municipio de Bullas (Murcia).",
+      "id": "now-cluster-españa-silvia + intxaurrondo",
+      "title": "Silvia Intxaurrondo avisa a Feijóo de lo que le supone no acudir a su entrevista: «Esto es lo que se pierde»",
+      "brief": "Silvia Intxaurrondo avisa a Feijóo de lo que le supone no acudir a su entrevista: «Esto es lo que se pierde».",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://e01-phantom-elmundo.uecdn.es/6554f8e98044af5ce043761a884abf41/crop/0x3/1018x682/f/webp/assets/multimedia/imagenes/2026/11/25/17956031928797.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El abrupto final de la entrevista de Silvia Intxaurrondo a Pedro Sánchez: «Disculpe, señor Sánchez...»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T14:43:09.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/abrupto-final-entrevista-silvia-intxaurrondo-pedro-sanchez-20261125153309-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Sánchez no irá a la cumbre de la UE por la recta final de la campaña del 29-N y delega la representación de España en Macron",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-25T10:41:20.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/25/6b06bb4cfdddff02468b45ac.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/6554f8e98044af5ce043761a884abf41/crop/0x3/1018x682/f/webp/assets/multimedia/imagenes/2026/11/25/17956031928797.jpg"
+        },
+        {
+          "title": "Silvia Intxaurrondo avisa a Feijóo de lo que le supone no acudir a su entrevista: «Esto es lo que se pierde»",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-25T09:14:18.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/silvia-intxaurrondo-avisa-feijoo-supone-acudir-entrevista-esto-se-pierde-20261125101323-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/silvia-intxaurrondo-avisa-a-feijoo-de-lo-que-le-supone-no-acudir-a-su-entrevista/"
+    },
+    {
+      "id": "now-cluster-españa-mujeres + psoe",
+      "title": "El PP apela a la «dignidad» de las mujeres para frenar al PSOE sen las urna desde el piso de Jésica y el Parador de Teruel",
+      "brief": "El PP apela a la «dignidad» de las mujeres para frenar al PSOE sen las urna desde el piso de Jésica y el Parador de Teruel.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -105,35 +161,78 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Mundo",
-        "El País"
+        "El Correo",
+        "El Mundo"
       ],
       "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956117733036.png",
-        "https://imagenes.elpais.com/resizer/v2/P3DXT2SG7BMIVII3NZNI2OZBV4.jpg?auth=a05b20d6f408ce42fe9f886c147be79b94e6c8539bef330b4db7aff579db81b2"
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956111680593.jpg"
       ],
       "evidence": [
         {
-          "title": "La Guardia Civil investiga el asesinato a navajazos de una mujer de 32 años en el municipio de Bullas (Murcia)",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-25T13:43:30.000Z",
-          "sourceUrl": "https://www.elmundo.es/murcia/2026/11/25/6b06dcb021efa05d2c8b4570.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956117733036.png"
+          "title": "El PP apela a la «dignidad» de las mujeres para frenar al PSOE sen las urna desde el piso de Jésica y el Parador de Teruel",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T14:44:07.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/pp-apela-dignidad-mujeres-frenar-psoe-urnas-20261125153402-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
-          "title": "La Guardia Civil investiga como violencia machista el asesinato de una mujer de 32 años en Murcia",
-          "source": "El País",
-          "publishedAt": "2026-11-25T13:09:40.000Z",
-          "sourceUrl": "https://elpais.com/sociedad/2026-11-25/la-guardia-civil-investiga-como-violencia-machista-el-asesinato-de-una-mujer-de-32-anos-en-murcia.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/P3DXT2SG7BMIVII3NZNI2OZBV4.jpg?auth=a05b20d6f408ce42fe9f886c147be79b94e6c8539bef330b4db7aff579db81b2"
+          "title": "El PP acude al Parador de Teruel en el 25-N para simbolizar \"la desvergüenza\" del PSOE: \"Es el símbolo de los pecados capitales del sanchismo\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-25T13:09:54.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/2026/11/25/6b06d40b21efa0396c8b4585.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956111680593.jpg"
         }
       ],
-      "path": "/es/entity/la-guardia-civil-investiga-el-asesinato-a-navajazos-de-una-mujer-de-32-anos-en-e/"
+      "path": "/es/entity/el-pp-apela-a-la-dignidad-de-las-mujeres-para-frenar-al-psoe-sen-las-urna-desde/"
     },
     {
-      "id": "now-cluster-españa-euskadi + millones",
-      "title": "Euskadi recibirá 1.270 millones para ampliar su red eléctrica y dar respuesta a 117 solicitudes de empresas",
-      "brief": "Euskadi recibirá 1.270 millones para ampliar su red eléctrica y dar respuesta a 117 solicitudes de empresas.",
+      "id": "now-cluster-españa-millones + euskadi",
+      "title": "El refuerzo de la red eléctrica requerirá 1.300 millones en inversión y movilizará 18.000 empleos en Euskadi",
+      "brief": "El refuerzo de la red eléctrica requerirá 1.300 millones en inversión y movilizará 18.000 empleos en Euskadi.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Diario Vasco",
+        "El Correo"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "El refuerzo de la red eléctrica requerirá 1.300 millones en inversión y movilizará 18.000 empleos en Euskadi",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-25T14:14:48.000Z",
+          "sourceUrl": "https://www.diariovasco.com/economia/refuerzo-red-electrica-movilizara-18000-empleos-euskadi-inversion-iberdrola-20261125131210-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Euskadi recibirá 1.270 millones para ampliar su red eléctrica y dar respuesta a 117 solicitudes de empresas",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T13:05:37.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/euskadi-recibira-1270-millones-ampliar-red-electrica-20261125133432-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/el-refuerzo-de-la-red-electrica-requerira-1-300-millones-en-inversion-y-moviliza/"
+    },
+    {
+      "id": "now-cluster-españa-trump + llega",
+      "title": "Kilmar Abrego García, víctima de las deportaciones masivas de Trump, abandona Estados Unidos y llega a España",
+      "brief": "Kilmar Abrego García, víctima de las deportaciones masivas de Trump, abandona Estados Unidos y llega a España.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -152,35 +251,35 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Correo",
-        "El Diario Vasco"
+        "El País",
+        "El Correo"
       ],
       "images": [],
       "evidence": [
         {
-          "title": "Euskadi recibirá 1.270 millones para ampliar su red eléctrica y dar respuesta a 117 solicitudes de empresas",
-          "source": "El Correo",
-          "publishedAt": "2026-11-25T13:05:37.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/euskadi-recibira-1270-millones-ampliar-red-electrica-20261125133432-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "title": "Kilmar Abrego García, víctima de las deportaciones masivas de Trump, abandona Estados Unidos y llega a España",
+          "source": "El País",
+          "publishedAt": "2026-11-25T14:06:58.000Z",
+          "sourceUrl": "https://elpais.com/internacional/2026-11-25/kilmar-abrego-garcia-victima-de-las-deportaciones-masivas-de-trump-aterriza-en-madrid.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
         {
-          "title": "El refuerzo de la red eléctrica movilizará 18.000 empleos en Euskadi",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-25T12:18:15.000Z",
-          "sourceUrl": "https://www.diariovasco.com/economia/refuerzo-red-electrica-movilizara-18000-empleos-euskadi-inversion-iberdrola-20261125131210-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "title": "Llega a España el inmigrante salvadoreño convertido en símbolo de la política migratoria de Trump",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T11:25:27.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/llega-espana-inmigrante-salvadoreno-convertido-simbolo-politica-20261125120651-ntrc.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         }
       ],
-      "path": "/es/entity/euskadi-recibira-1-270-millones-para-ampliar-su-red-electrica-y-dar-respuesta-a/"
+      "path": "/es/entity/kilmar-abrego-garcia-victima-de-las-deportaciones-masivas-de-trump-abandona-esta/"
     },
     {
-      "id": "now-cluster-españa-gobierno + prohibe",
-      "title": "El Gobierno prohíbe los sabores de los vapeadores y limita la cantidad de nicotina de las bolsitas",
-      "brief": "El Gobierno prohíbe los sabores de los vapeadores y limita la cantidad de nicotina de las bolsitas.",
+      "id": "moving-cluster-españa-guardia + civil",
+      "title": "La Guardia Civil investiga el asesinato a navajazos de una mujer de 32 años en el municipio de Bullas (Murcia)",
+      "brief": "La Guardia Civil investiga el asesinato a navajazos de una mujer de 32 años en el municipio de Bullas (Murcia).",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
       "strength": 15,
@@ -196,30 +295,30 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Correo",
-        "El País"
+        "El País",
+        "El Mundo"
       ],
       "images": [
-        "https://s3.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/25/vapeadores-krFD-U40532302567aMH-1200x840@El%20Correo.JPG",
-        "https://imagenes.elpais.com/resizer/v2/PUNXIVGURFC7THEBYPFJC7BAUA.jpg?auth=7827a4454c608d12962008ecda78fa4137c420625d4212642b87a8c932af281f"
+        "https://imagenes.elpais.com/resizer/v2/P3DXT2SG7BMIVII3NZNI2OZBV4.jpg?auth=a05b20d6f408ce42fe9f886c147be79b94e6c8539bef330b4db7aff579db81b2",
+        "https://e01-phantom-elmundo.uecdn.es/497bc791feaebe79346283bf702f40b7/crop/21x0/1127x737/f/webp/assets/multimedia/imagenes/2026/11/25/17956117733036.png"
       ],
       "evidence": [
         {
-          "title": "El Gobierno prohíbe los sabores de los vapeadores y limita la nicotina de las bolsitas",
-          "source": "El Correo",
-          "publishedAt": "2026-11-25T12:18:23.000Z",
-          "sourceUrl": "https://www.elcorreo.com/sociedad/gobierno-prohibe-sabores-vapeadores-limita-nicotina-bolsitas-20261125131823-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/25/vapeadores-krFD-U40532302567aMH-1200x840@El%20Correo.JPG"
+          "title": "La Guardia Civil investiga como violencia machista el asesinato de una mujer de 32 años en Murcia",
+          "source": "El País",
+          "publishedAt": "2026-11-25T13:09:40.000Z",
+          "sourceUrl": "https://elpais.com/sociedad/2026-11-25/la-guardia-civil-investiga-como-violencia-machista-el-asesinato-de-una-mujer-de-32-anos-en-murcia.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/P3DXT2SG7BMIVII3NZNI2OZBV4.jpg?auth=a05b20d6f408ce42fe9f886c147be79b94e6c8539bef330b4db7aff579db81b2"
         },
         {
-          "title": "El Gobierno prohíbe los sabores de los vapeadores y limita la cantidad de nicotina de las bolsitas",
-          "source": "El País",
-          "publishedAt": "2026-11-25T09:21:31.000Z",
-          "sourceUrl": "https://elpais.com/sociedad/2026-11-25/el-gobierno-prohibe-los-sabores-de-los-vapeadores-y-limita-la-cantidad-de-nicotina-de-las-bolsitas.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/PUNXIVGURFC7THEBYPFJC7BAUA.jpg?auth=7827a4454c608d12962008ecda78fa4137c420625d4212642b87a8c932af281f"
+          "title": "La Guardia Civil investiga el asesinato a navajazos de una mujer de 32 años en el municipio de Bullas (Murcia)",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-25T13:05:11.000Z",
+          "sourceUrl": "https://www.elmundo.es/murcia/2026/11/25/6b06dcb021efa05d2c8b4570.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/497bc791feaebe79346283bf702f40b7/crop/21x0/1127x737/f/webp/assets/multimedia/imagenes/2026/11/25/17956117733036.png"
         }
       ],
-      "path": "/es/entity/el-gobierno-prohibe-los-sabores-de-los-vapeadores-y-limita-la-cantidad-de-nicoti/"
+      "path": "/es/entity/la-guardia-civil-investiga-el-asesinato-a-navajazos-de-una-mujer-de-32-anos-en-e/"
     },
     {
       "id": "moving-cluster-españa-seguridad + fallos",
@@ -230,13 +329,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -268,53 +367,6 @@
       "path": "/es/entity/los-investigadores-de-la-aitat-alertan-del-riesgo-de-que-se-repita-la-tragedia-d/"
     },
     {
-      "id": "moving-cluster-españa-puigdemont + volvera",
-      "title": "Puigdemont volverá a España el 12 de diciembre tras la amnistía: \"El Estado ha fracasado, regresaré a mi país, a Cataluña, sin pedir perdón\"",
-      "brief": "Puigdemont volverá a España el 12 de diciembre tras la amnistía: \"El Estado ha fracasado, regresaré a mi país, a Cataluña, sin pedir perdón\".",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956018199689.jpg",
-        "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/25/puigdemont-ep-kwOB-U40528757900CFH-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Puigdemont volverá a España el 12 de diciembre tras la amnistía: \"El Estado ha fracasado, regresaré a mi país, a Cataluña, sin pedir perdón\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-25T10:13:41.000Z",
-          "sourceUrl": "https://www.elmundo.es/espana/2026/11/25/6b06b417fc6c83ba038b458e.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956018199689.jpg"
-        },
-        {
-          "title": "Puigdemont volverá a España el 12 de diciembre",
-          "source": "El Correo",
-          "publishedAt": "2026-11-25T10:13:36.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/puigdemont-volvera-espana-diciembre-20261125111335-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/25/puigdemont-ep-kwOB-U40528757900CFH-1200x840@RC.jpg"
-        }
-      ],
-      "path": "/es/entity/puigdemont-volvera-a-espana-el-12-de-diciembre-tras-la-amnistia-el-estado-ha-fra/"
-    },
-    {
       "id": "moving-cluster-españa-euskadi + hipotecas",
       "title": "La firma de hipotecas se desploma un 19% en Euskadi y confirma la desaceleración del mercado",
       "brief": "La firma de hipotecas se desploma un 19% en Euskadi y confirma la desaceleración del mercado.",
@@ -326,7 +378,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
