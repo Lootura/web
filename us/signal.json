@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-25T03:00:48.141Z",
+  "updatedAt": "2026-11-25T04:00:48.403Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "399,131 links analyzed",
-  "dayScanLabel": "8,289 links scanned in 24h",
+  "ambientPulseLabel": "399,961 links analyzed",
+  "dayScanLabel": "8,293 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -19,18 +19,18 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "moving-cluster-united states-trump + huang",
-      "title": "Trump pushed for Huang's reinstatement as Nvidia CEO over economic concerns, officials say",
-      "brief": "Trump pushed for Huang's reinstatement as Nvidia CEO over economic concerns, officials say.",
+      "id": "now-cluster-united states-jensen + huang",
+      "title": "Trump says pardon is always an option for Jensen Huang, and that invoking the Fifth isn’t necessary",
+      "brief": "Trump says pardon is always an option for Jensen Huang, and that invoking the Fifth isn’t necessary.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 26,
-      "sourceCount": 3,
-      "itemCount": 8,
-      "freshness": "2h fresh",
+      "strength": 31,
+      "sourceCount": 4,
+      "itemCount": 11,
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -43,20 +43,29 @@
       "sources": [
         "The New York Times",
         "CBS News",
-        "PBS NewsHour"
+        "PBS NewsHour",
+        "NBC News Politics"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/24/multimedia/24witt-vzbp/24witt-vzbp-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/26/multimedia/24witt-vzbp/24witt-vzbp-mediumSquareAt3X.jpg",
         "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/24/97ef5871-9587-4d9d-b726-39b514fa71fe/thumbnail/1200x630/13a6928edb0ef74afff4b7a44f500f10/ap26328720401066.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/profitsandthepresidency-1024x683.jpg"
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/profitsandthepresidency-1024x683.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261116-trump-huang-sjr-1359-e33ddb.jpg"
       ],
       "evidence": [
         {
           "title": "Why Jensen Huang Was Reinstated at Nvidia",
           "source": "The New York Times",
-          "publishedAt": "2026-11-25T01:21:34.000Z",
+          "publishedAt": "2026-11-25T03:56:56.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/24/opinion/jensen-huang-nvidia-ceo-reinstated.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/24/multimedia/24witt-vzbp/24witt-vzbp-mediumSquareAt3X.jpg"
+          "image": "https://static01.nyt.com/images/2026/11/26/multimedia/24witt-vzbp/24witt-vzbp-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Trump says pardon is always an option for Jensen Huang, and that invoking the Fifth isn’t necessary",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-25T02:19:55.808Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/donald-trump/pardon-always-option-nvidia-jensen-huang-pleading-fifth-not-necessary-rcna611219?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261116-trump-huang-sjr-1359-e33ddb.jpg"
         },
         {
           "title": "Legal expert breaks down Trump's involvement in Huang reinstatement at Nvidia",
@@ -78,16 +87,65 @@
           "publishedAt": "2026-11-25T00:48:03.000Z",
           "sourceUrl": "https://www.cbsnews.com/video/trump-pushed-for-hunags-reinstatement-as-nvidia-ceo-over-economic-concerns-officials-say/?utm_source=lootura.com&ref=lootura.com",
           "image": ""
-        },
-        {
-          "title": "Nvidia's Jensen Huang still has security clearance, sources say",
-          "source": "CBS News",
-          "publishedAt": "2026-11-24T23:57:05.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/nvidia-jensen-huang-security-clearance-todd-blanche/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/24/97ef5871-9587-4d9d-b726-39b514fa71fe/thumbnail/1200x630/13a6928edb0ef74afff4b7a44f500f10/ap26328720401066.jpg"
         }
       ],
-      "path": "/us/entity/trump-pushed-for-huang-s-reinstatement-as-nvidia-ceo-over-economic-concerns-offi/"
+      "path": "/us/entity/trump-says-pardon-is-always-an-option-for-jensen-huang-and-that-invoking-the-fif/"
+    },
+    {
+      "id": "now-cluster-united states-charges + markle",
+      "title": "Thomas Markle Indicted in US on Charges of Possession of Child Sexual Abuse Materials",
+      "brief": "Thomas Markle Indicted in US on Charges of Possession of Child Sexual Abuse Materials.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NBC News",
+        "The New York Times World",
+        "CBS News"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795577232481_now_hallie_dce_markle_charges_261124_S3_1920x1080-kbsgxm.jpg",
+        "https://static01.nyt.com/images/2026/12/10/multimedia/10xp-markle-bjgq/10xp-markle-bjgq-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Thomas Markle indicted on child sex abuse material charges",
+          "source": "NBC News",
+          "publishedAt": "2026-11-25T03:27:17.000Z",
+          "sourceUrl": "https://www.nbcnews.com/video/thomas-markle-indicted-on-child-sex-abuse-material-charges-274140741786?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795577232481_now_hallie_dce_markle_charges_261124_S3_1920x1080-kbsgxm.jpg"
+        },
+        {
+          "title": "Thomas Markle Indicted in US on Charges of Possession of Child Sexual Abuse Materials",
+          "source": "The New York Times World",
+          "publishedAt": "2026-11-25T02:55:17.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/24/world/europe/thomas-markle-indicted.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/12/10/multimedia/10xp-markle-bjgq/10xp-markle-bjgq-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Meghan Markle's father indicted on child pornography charges",
+          "source": "CBS News",
+          "publishedAt": "2026-11-25T00:49:41.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/thomas-markle-indicted-federal-grand-jury-child-pornography-charges/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/us/entity/thomas-markle-indicted-in-us-on-charges-of-possession-of-child-sexual-abuse-mate/"
     },
     {
       "id": "now-cluster-united states-iowa + army",
@@ -98,7 +156,7 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 17,
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 3,
       "freshness": "fresh now",
@@ -124,7 +182,7 @@
         {
           "title": "Army’s Iowa Ammunition Plant Explosion on Schedule for Wednesday Morning",
           "source": "The New York Times",
-          "publishedAt": "2026-11-25T03:01:45.000Z",
+          "publishedAt": "2026-11-25T03:36:32.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/24/climate/iowa-army-ammunition-plant-explostion.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static01.nyt.com/images/2026/11/24/multimedia/24CLI-IOWA-BLAST-PRESS1-hwmf/24CLI-IOWA-BLAST-PRESS1-hwmf-mediumSquareAt3X.jpg"
         },
@@ -146,106 +204,6 @@
       "path": "/us/entity/army-s-iowa-ammunition-plant-explosion-on-schedule-for-wednesday-morning/"
     },
     {
-      "id": "now-cluster-united states-jensen + huang",
-      "title": "Trump says pardon is always an option for Jensen Huang, and that invoking the Fifth isn’t necessary",
-      "brief": "Trump says pardon is always an option for Jensen Huang, and that invoking the Fifth isn’t necessary.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 79,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News Politics",
-        "CBS News"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261116-trump-huang-sjr-1359-e33ddb.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Trump says pardon is always an option for Jensen Huang, and that invoking the Fifth isn’t necessary",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-25T02:19:55.808Z",
-          "sourceUrl": "https://www.nbcnews.com/politics/donald-trump/pardon-always-option-nvidia-jensen-huang-pleading-fifth-not-necessary-rcna611219?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261116-trump-huang-sjr-1359-e33ddb.jpg"
-        },
-        {
-          "title": "Rep. Johnny Olszewski calls for public hearing with Jensen Huang",
-          "source": "CBS News",
-          "publishedAt": "2026-11-24T23:53:14.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/rep-johnny-olszewski-calls-for-public-hearing-around/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Blanche refuses to say if DOJ investigated Jensen Huang, Capitol Hill testimony still scheduled",
-          "source": "CBS News",
-          "publishedAt": "2026-11-24T23:33:08.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/blanche-refuses-to-say-if-doj-investigated-jensen-huang-capitol-hill-testimony-still-scheduled/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/us/entity/trump-says-pardon-is-always-an-option-for-jensen-huang-and-that-invoking-the-fif/"
-    },
-    {
-      "id": "now-cluster-united states-charges + markle",
-      "title": "Thomas Markle Indicted in US on Charges of Possession of Child Sexual Abuse Materials",
-      "brief": "Thomas Markle Indicted in US on Charges of Possession of Child Sexual Abuse Materials.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times World",
-        "CBS News"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/12/10/multimedia/10xp-markle-bjgq/10xp-markle-bjgq-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Thomas Markle Indicted in US on Charges of Possession of Child Sexual Abuse Materials",
-          "source": "The New York Times World",
-          "publishedAt": "2026-11-25T02:55:17.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/24/world/europe/thomas-markle-indicted.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/12/10/multimedia/10xp-markle-bjgq/10xp-markle-bjgq-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Meghan Markle's father indicted on child pornography charges",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T00:49:41.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/thomas-markle-indicted-federal-grand-jury-child-pornography-charges/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/us/entity/thomas-markle-indicted-in-us-on-charges-of-possession-of-child-sexual-abuse-mate/"
-    },
-    {
       "id": "now-cluster-united states-fort + hood",
       "title": "Fort Hood shooter Nidal Hasan will petition to delay his execution, court documents show",
       "brief": "Fort Hood shooter Nidal Hasan will petition to delay his execution, court documents show.",
@@ -257,7 +215,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -293,52 +251,6 @@
       "path": "/us/entity/fort-hood-shooter-nidal-hasan-will-petition-to-delay-his-execution-court-documen/"
     },
     {
-      "id": "moving-cluster-united states-kilmar + abrego",
-      "title": "Kilmar Abrego Garcia is leaving the U.S. a ‘free man,’ Van Hollen says",
-      "brief": "Kilmar Abrego Garcia is leaving the U.S. a ‘free man,’ Van Hollen says.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News Politics",
-        "CBS News"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261124-kilmar-Abrego-Garcia-mn-1750-6cfb83.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Kilmar Abrego Garcia is leaving the U.S. a ‘free man,’ Van Hollen says",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-24T23:55:49.255Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/kilmar-abrego-garcia-rcna611215?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261124-kilmar-Abrego-Garcia-mn-1750-6cfb83.jpg"
-        },
-        {
-          "title": "Kilmar Abrego Garcia leaving U.S. today for Spain, sources say",
-          "source": "CBS News",
-          "publishedAt": "2026-11-24T23:06:28.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/kilmar-abrego-garcia-leaving-us-europe/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/us/entity/kilmar-abrego-garcia-is-leaving-the-u-s-a-free-man-van-hollen-says/"
-    },
-    {
       "id": "moving-cluster-united states-charges + chinese",
       "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiracy to steal trade secrets, bank fraud",
       "brief": "U.S. jury finds Chinese tech giant Huawei guilty of conspiracy to steal trade secrets, bank fraud.",
@@ -347,13 +259,13 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresh",
+      "freshness": "7h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 70,
+      "alertScore": 64,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
@@ -397,7 +309,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "13h fresh",
+      "freshness": "14h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 59,
