@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-25T02:00:48.189Z",
+  "updatedAt": "2026-11-25T03:00:48.141Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "303.398 enlaces analizados",
-  "dayScanLabel": "4.174 enlaces escaneados en 24h",
+  "ambientPulseLabel": "303.816 enlaces analizados",
+  "dayScanLabel": "4.173 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,21 +19,106 @@
   "topAlert": null,
   "signals": [
     {
+      "id": "moving-cluster-españa-regreso + trump",
+      "title": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él",
+      "brief": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 6,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "8h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 64,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/VDVHGZVYPNNP7CXUOFZGSNNBJY.jpg?auth=68bb3b7ad374d3d0217c50319bcb84a6d73994eb7c2ae4d409e3281b6abd1489"
+      ],
+      "evidence": [
+        {
+          "title": "Trump se enfrenta a republicanos y demócratas por el regreso de Huang",
+          "source": "El Correo",
+          "publishedAt": "2026-11-24T19:01:58.000Z",
+          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/trump-enfrenta-republicanos-democratas-regreso-huang-20261124200156-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él",
+          "source": "El País",
+          "publishedAt": "2026-11-24T18:44:20.000Z",
+          "sourceUrl": "https://elpais.com/us/2026-11-24/furia-y-consternacion-en-el-congreso-de-ee-uu-por-el-regreso-de-huang-a-nvidia-y-el-papel-de-trump-en-el.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/VDVHGZVYPNNP7CXUOFZGSNNBJY.jpg?auth=68bb3b7ad374d3d0217c50319bcb84a6d73994eb7c2ae4d409e3281b6abd1489"
+        }
+      ],
+      "path": "/es/entity/furia-y-consternacion-en-el-congreso-de-ee-uu-por-el-regreso-de-huang-a-nvidia-y/"
+    },
+    {
+      "id": "moving-cluster-españa-francisco + tomas",
+      "title": "En libertad el etarra Jon Bienzobas, asesino del expresidente del TC Francisco Tomás y Valiente",
+      "brief": "En libertad el etarra Jon Bienzobas, asesino del expresidente del TC Francisco Tomás y Valiente.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 6,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "8h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 64,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/24/81441067-kCED-U40514965704UhH-1200x840@Diario%20Vasco.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "En libertad el etarra Jon Bienzobas, asesino del expresidente del TC Francisco Tomás y Valiente",
+          "source": "El Correo",
+          "publishedAt": "2026-11-24T18:57:59.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/libertad-etarra-jon-bienzobas-asesino-expresidente-tc-20261124195657-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/en-libertad-el-etarra-jon-bienzobas-asesino-del-expresidente-del-tc-francisco-to/"
+    },
+    {
       "id": "now-cluster-españa-black + friday",
       "title": "Adiós Black Friday, hola 'clientes de honor': la genial idea de cuatro tiendas del Casco Viejo que premia a su fiel clientela",
       "brief": "Adiós Black Friday, hola 'clientes de honor': la genial idea de cuatro tiendas del Casco Viejo que premia a su fiel clientela.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 10,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 73,
+      "alertScore": 63,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -80,15 +165,15 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 60,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -127,15 +212,15 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 60,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -168,91 +253,6 @@
       "path": "/es/entity/bellingham-hierve-y-el-madrid-se-lleva-por-delante-al-psv/"
     },
     {
-      "id": "moving-cluster-españa-regreso + trump",
-      "title": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él",
-      "brief": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "7h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/VDVHGZVYPNNP7CXUOFZGSNNBJY.jpg?auth=68bb3b7ad374d3d0217c50319bcb84a6d73994eb7c2ae4d409e3281b6abd1489"
-      ],
-      "evidence": [
-        {
-          "title": "Trump se enfrenta a republicanos y demócratas por el regreso de Huang",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T19:01:58.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/eeuu/trump-enfrenta-republicanos-democratas-regreso-huang-20261124200156-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él",
-          "source": "El País",
-          "publishedAt": "2026-11-24T18:44:20.000Z",
-          "sourceUrl": "https://elpais.com/us/2026-11-24/furia-y-consternacion-en-el-congreso-de-ee-uu-por-el-regreso-de-huang-a-nvidia-y-el-papel-de-trump-en-el.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/VDVHGZVYPNNP7CXUOFZGSNNBJY.jpg?auth=68bb3b7ad374d3d0217c50319bcb84a6d73994eb7c2ae4d409e3281b6abd1489"
-        }
-      ],
-      "path": "/es/entity/furia-y-consternacion-en-el-congreso-de-ee-uu-por-el-regreso-de-huang-a-nvidia-y/"
-    },
-    {
-      "id": "moving-cluster-españa-francisco + tomas",
-      "title": "En libertad el etarra Jon Bienzobas, asesino del expresidente del TC Francisco Tomás y Valiente",
-      "brief": "En libertad el etarra Jon Bienzobas, asesino del expresidente del TC Francisco Tomás y Valiente.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "7h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/24/81441067-kCED-U40514965704UhH-1200x840@Diario%20Vasco.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "En libertad el etarra Jon Bienzobas, asesino del expresidente del TC Francisco Tomás y Valiente",
-          "source": "El Correo",
-          "publishedAt": "2026-11-24T18:57:59.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/libertad-etarra-jon-bienzobas-asesino-expresidente-tc-20261124195657-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/en-libertad-el-etarra-jon-bienzobas-asesino-del-expresidente-del-tc-francisco-to/"
-    },
-    {
       "id": "now-cluster-españa-violencia + contra",
       "title": "La violencia contra las mujeres en Gipuzkoa, bajo el radar: de las palizas a sus cinco hijos al «iré a Martutene pero tú te vas de este mundo»",
       "brief": "La violencia contra las mujeres en Gipuzkoa, bajo el radar: de las palizas a sus cinco hijos al «iré a Martutene pero tú te vas de este mundo».",
@@ -261,13 +261,13 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 63,
+      "alertScore": 57,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",

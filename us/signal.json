@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-25T02:00:48.189Z",
+  "updatedAt": "2026-11-25T03:00:48.141Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "398,302 links analyzed",
+  "ambientPulseLabel": "399,131 links analyzed",
   "dayScanLabel": "8,289 links scanned in 24h",
   "empty": {
     "title": "No new trends",
@@ -19,90 +19,18 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-united states-iowa + army",
-      "title": "Why the US Army is about to blow up nearly 10,000 pounds of unstable explosives in Iowa",
-      "brief": "Why the US Army is about to blow up nearly 10,000 pounds of unstable explosives in Iowa.",
+      "id": "moving-cluster-united states-trump + huang",
+      "title": "Trump pushed for Huang's reinstatement as Nvidia CEO over economic concerns, officials say",
+      "brief": "Trump pushed for Huang's reinstatement as Nvidia CEO over economic concerns, officials say.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 29,
-      "sourceCount": 4,
-      "itemCount": 9,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 99,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "The Verge",
-        "PBS NewsHour",
-        "The New York Times"
-      ],
-      "images": [
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305973751.jpg?quality=90&strip=all&crop=0,0,100,100",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/iowadetonation-1024x683.jpg",
-        "https://static01.nyt.com/images/2026/11/24/multimedia/24nat-iowa-blast-medical-1-tjmz/24nat-iowa-blast-medical-1-tjmz-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Director of Iowa environmental group says plan to detonate explosives is safest path forward",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T01:26:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/army-to-blow-up-5-tons-of-toxic-materials-in-iowa-on-wednesday/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Maps show how far lead dust from Iowa detonation could travel",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T01:01:06.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/maps-show-how-far-lead-dust-from-about-5-tons-of-iowa-explosives-could-spread/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Army plans explosive detonation in Iowa despite residents' concerns",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-24T23:40:32.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/show/army-plans-explosive-detonation-in-iowa-despite-residents-concerns?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/iowadetonation-1024x683.jpg"
-        },
-        {
-          "title": "An Explosion Is Coming to Iowa. And Residents Can’t Do a Thing About It.",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-24T23:36:56.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/24/us/iowa-ammunition-plant-lead-explosion-middletown.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/24/multimedia/24nat-iowa-blast-medical-1-tjmz/24nat-iowa-blast-medical-1-tjmz-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Why the US Army is about to blow up nearly 10,000 pounds of unstable explosives in Iowa",
-          "source": "The Verge",
-          "publishedAt": "2026-11-24T23:25:46.000Z",
-          "sourceUrl": "https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305973751.jpg?quality=90&strip=all&crop=0,0,100,100"
-        }
-      ],
-      "path": "/us/entity/why-the-us-army-is-about-to-blow-up-nearly-10-000-pounds-of-unstable-explosives/"
-    },
-    {
-      "id": "now-cluster-united states-jensen + huang",
-      "title": "Blanche refuses to say if DOJ investigated Jensen Huang, Capitol Hill testimony still scheduled",
-      "brief": "Blanche refuses to say if DOJ investigated Jensen Huang, Capitol Hill testimony still scheduled.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 27,
+      "strength": 26,
       "sourceCount": 3,
-      "itemCount": 9,
-      "freshness": "fresh now",
+      "itemCount": 8,
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -159,12 +87,122 @@
           "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/24/97ef5871-9587-4d9d-b726-39b514fa71fe/thumbnail/1200x630/13a6928edb0ef74afff4b7a44f500f10/ap26328720401066.jpg"
         }
       ],
-      "path": "/us/entity/blanche-refuses-to-say-if-doj-investigated-jensen-huang-capitol-hill-testimony-s/"
+      "path": "/us/entity/trump-pushed-for-huang-s-reinstatement-as-nvidia-ceo-over-economic-concerns-offi/"
     },
     {
-      "id": "now-cluster-united states-fort + hood",
-      "title": "Fort Hood mass shooter makes legal move to stop Pentagon’s firing squad execution",
-      "brief": "Fort Hood mass shooter makes legal move to stop Pentagon’s firing squad execution.",
+      "id": "now-cluster-united states-iowa + army",
+      "title": "Army’s Iowa Ammunition Plant Explosion on Schedule for Wednesday Morning",
+      "brief": "Army’s Iowa Ammunition Plant Explosion on Schedule for Wednesday Morning.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 17,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/24/multimedia/24CLI-IOWA-BLAST-PRESS1-hwmf/24CLI-IOWA-BLAST-PRESS1-hwmf-mediumSquareAt3X.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/iowadetonation-1024x683.jpg",
+        "https://static01.nyt.com/images/2026/11/23/multimedia/23CLI-IOWA-BLAST-PREP-top3-jzgm/23CLI-IOWA-BLAST-PREP-top3-jzgm-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Army’s Iowa Ammunition Plant Explosion on Schedule for Wednesday Morning",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-25T03:01:45.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/24/climate/iowa-army-ammunition-plant-explostion.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/24/multimedia/24CLI-IOWA-BLAST-PRESS1-hwmf/24CLI-IOWA-BLAST-PRESS1-hwmf-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Army plans explosive detonation in Iowa despite residents' concerns",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-24T23:40:32.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/army-plans-explosive-detonation-in-iowa-despite-residents-concerns?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/iowadetonation-1024x683.jpg"
+        },
+        {
+          "title": "Army Will Detonate Ammunition Cache in Iowa on Wednesday",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-24T15:08:47.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/23/climate/iowa-army-ammunition-explosion.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/23/multimedia/23CLI-IOWA-BLAST-PREP-top3-jzgm/23CLI-IOWA-BLAST-PREP-top3-jzgm-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/army-s-iowa-ammunition-plant-explosion-on-schedule-for-wednesday-morning/"
+    },
+    {
+      "id": "now-cluster-united states-jensen + huang",
+      "title": "Trump says pardon is always an option for Jensen Huang, and that invoking the Fifth isn’t necessary",
+      "brief": "Trump says pardon is always an option for Jensen Huang, and that invoking the Fifth isn’t necessary.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NBC News Politics",
+        "CBS News"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261116-trump-huang-sjr-1359-e33ddb.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Trump says pardon is always an option for Jensen Huang, and that invoking the Fifth isn’t necessary",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-25T02:19:55.808Z",
+          "sourceUrl": "https://www.nbcnews.com/politics/donald-trump/pardon-always-option-nvidia-jensen-huang-pleading-fifth-not-necessary-rcna611219?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261116-trump-huang-sjr-1359-e33ddb.jpg"
+        },
+        {
+          "title": "Rep. Johnny Olszewski calls for public hearing with Jensen Huang",
+          "source": "CBS News",
+          "publishedAt": "2026-11-24T23:53:14.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/rep-johnny-olszewski-calls-for-public-hearing-around/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Blanche refuses to say if DOJ investigated Jensen Huang, Capitol Hill testimony still scheduled",
+          "source": "CBS News",
+          "publishedAt": "2026-11-24T23:33:08.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/blanche-refuses-to-say-if-doj-investigated-jensen-huang-capitol-hill-testimony-still-scheduled/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/us/entity/trump-says-pardon-is-always-an-option-for-jensen-huang-and-that-invoking-the-fif/"
+    },
+    {
+      "id": "now-cluster-united states-charges + markle",
+      "title": "Thomas Markle Indicted in US on Charges of Possession of Child Sexual Abuse Materials",
+      "brief": "Thomas Markle Indicted in US on Charges of Possession of Child Sexual Abuse Materials.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -183,34 +221,34 @@
       ],
       "isHotNews": false,
       "sources": [
-        "CBS News",
-        "NBC News Politics"
+        "The New York Times World",
+        "CBS News"
       ],
       "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2021-07/nebula-cms-fallback-logos-breaking-4ad6c4.png"
+        "https://static01.nyt.com/images/2026/12/10/multimedia/10xp-markle-bjgq/10xp-markle-bjgq-mediumSquareAt3X.jpg"
       ],
       "evidence": [
         {
-          "title": "Fort Hood shooter Nidal Hasan will petition to delay his execution",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T01:49:56.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/nidal-hasan-delay-execution-petition/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "Thomas Markle Indicted in US on Charges of Possession of Child Sexual Abuse Materials",
+          "source": "The New York Times World",
+          "publishedAt": "2026-11-25T02:55:17.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/24/world/europe/thomas-markle-indicted.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/12/10/multimedia/10xp-markle-bjgq/10xp-markle-bjgq-mediumSquareAt3X.jpg"
         },
         {
-          "title": "Fort Hood mass shooter makes legal move to stop Pentagon’s firing squad execution",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-25T00:28:52.560Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/fort-hood-nidal-hasan-firing-squad-execution-rcna611217?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2021-07/nebula-cms-fallback-logos-breaking-4ad6c4.png"
+          "title": "Meghan Markle's father indicted on child pornography charges",
+          "source": "CBS News",
+          "publishedAt": "2026-11-25T00:49:41.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/thomas-markle-indicted-federal-grand-jury-child-pornography-charges/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         }
       ],
-      "path": "/us/entity/fort-hood-mass-shooter-makes-legal-move-to-stop-pentagon-s-firing-squad-executio/"
+      "path": "/us/entity/thomas-markle-indicted-in-us-on-charges-of-possession-of-child-sexual-abuse-mate/"
     },
     {
-      "id": "now-cluster-united states-kilmar + abrego",
-      "title": "Kilmar Abrego Garcia is leaving the U.S. a ‘free man,’ Van Hollen says",
-      "brief": "Kilmar Abrego Garcia is leaving the U.S. a ‘free man,’ Van Hollen says.",
+      "id": "now-cluster-united states-fort + hood",
+      "title": "Fort Hood shooter Nidal Hasan will petition to delay his execution, court documents show",
+      "brief": "Fort Hood shooter Nidal Hasan will petition to delay his execution, court documents show.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -219,10 +257,57 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresh",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NBC News Politics"
+      ],
+      "images": [
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/10/09/5631ea91-b62a-434f-a1e6-e60f97c99392/thumbnail/1200x630/e7323eef50fb25df78fb36a9bda8ce15/gettyimages-98350519.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2021-07/nebula-cms-fallback-logos-breaking-4ad6c4.png"
+      ],
+      "evidence": [
+        {
+          "title": "Fort Hood shooter Nidal Hasan will petition to delay his execution, court documents show",
+          "source": "CBS News",
+          "publishedAt": "2026-11-25T01:38:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/nidal-hasan-delay-execution-petition/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/10/09/5631ea91-b62a-434f-a1e6-e60f97c99392/thumbnail/1200x630/e7323eef50fb25df78fb36a9bda8ce15/gettyimages-98350519.jpg"
+        },
+        {
+          "title": "Fort Hood mass shooter makes legal move to stop Pentagon’s firing squad execution",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-25T00:28:52.560Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/fort-hood-nidal-hasan-firing-squad-execution-rcna611217?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2021-07/nebula-cms-fallback-logos-breaking-4ad6c4.png"
+        }
+      ],
+      "path": "/us/entity/fort-hood-shooter-nidal-hasan-will-petition-to-delay-his-execution-court-documen/"
+    },
+    {
+      "id": "moving-cluster-united states-kilmar + abrego",
+      "title": "Kilmar Abrego Garcia is leaving the U.S. a ‘free man,’ Van Hollen says",
+      "brief": "Kilmar Abrego Garcia is leaving the U.S. a ‘free man,’ Van Hollen says.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "3h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 70,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
@@ -254,7 +339,7 @@
       "path": "/us/entity/kilmar-abrego-garcia-is-leaving-the-u-s-a-free-man-van-hollen-says/"
     },
     {
-      "id": "moving-cluster-united states-chinese + charges",
+      "id": "moving-cluster-united states-charges + chinese",
       "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiracy to steal trade secrets, bank fraud",
       "brief": "U.S. jury finds Chinese tech giant Huawei guilty of conspiracy to steal trade secrets, bank fraud.",
       "whyItMatters": "",
@@ -265,7 +350,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 70,
@@ -312,10 +397,10 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "12h fresh",
+      "freshness": "13h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 64,
+      "alertScore": 59,
       "alertTriggers": [
         "Crosses several sources",
         "Still active"
