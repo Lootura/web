@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-25T15:00:47.642Z",
+  "updatedAt": "2026-11-25T16:00:47.750Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "409,119 links analyzed",
-  "dayScanLabel": "8,328 links scanned in 24h",
+  "ambientPulseLabel": "409,948 links analyzed",
+  "dayScanLabel": "8,326 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -16,23 +16,95 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": null,
+  "topAlert": {
+    "id": "now-cluster-united states-iowa + army",
+    "title": "What is lead azide? What to know about the chemical detonated at an Iowa Army base",
+    "brief": "What is lead azide? What to know about the chemical detonated at an Iowa Army base.",
+    "whyItMatters": "",
+    "verdict": "If it repeats in the next run, it gains weight.",
+    "mode": "now",
+    "state": "rising",
+    "stateLabel": "Rising",
+    "strength": 31,
+    "sourceCount": 5,
+    "itemCount": 9,
+    "freshness": "fresh now",
+    "alertLevel": "watch",
+    "alertLabel": "Watch",
+    "alertScore": 99,
+    "alertTriggers": [
+      "Crosses several sources",
+      "Picks up volume fast",
+      "Still active"
+    ],
+    "isHotNews": false,
+    "sources": [
+      "NBC News",
+      "CBS News",
+      "PBS NewsHour",
+      "NPR",
+      "The New York Times"
+    ],
+    "images": [
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795620953242_now_current_sbr_iowa_toxic_cloud_261125_S3_1920x1080-kzki6u.jpg",
+      "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/25/32f55f79-5287-461e-8a4c-8b3131519fa0/thumbnail/1200x630/f9d07480244d795a745194450aff9eee/cbsn-fusion-breaking-down-the-health-impacts-of-lead-exposure-amid-iowa-detonation-thumbnail.jpg",
+      "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-25T132620Z_2018739424_RC2IUOAARY59_RTRMADP_3_USA-ENVIRONMENT-IOWA-1024x683.jpg"
+    ],
+    "evidence": [
+      {
+        "title": "Plume of smoke rises into the air at Iowa detonation site",
+        "source": "NBC News",
+        "publishedAt": "2026-11-25T15:35:59.000Z",
+        "sourceUrl": "https://www.nbcnews.com/video/plume-of-smoke-rises-into-the-air-at-iowa-detonation-site-274168901975?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795620953242_now_current_sbr_iowa_toxic_cloud_261125_S3_1920x1080-kzki6u.jpg"
+      },
+      {
+        "title": "Army detonates toxic, unstable lead explosives in Iowa despite outcry",
+        "source": "CBS News",
+        "publishedAt": "2026-11-25T15:34:51.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/army-detonates-toxic-unstable-lead-explosives-in-iowa-despite-outcry/?utm_source=lootura.com&ref=lootura.com",
+        "image": ""
+      },
+      {
+        "title": "What is lead azide? What to know about the chemical detonated at an Iowa Army base",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-11-25T15:29:51.000Z",
+        "sourceUrl": "https://www.pbs.org/newshour/science/what-is-lead-azide-what-to-know-about-the-chemical-detonated-at-an-iowa-army-base?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-25T132620Z_2018739424_RC2IUOAARY59_RTRMADP_3_USA-ENVIRONMENT-IOWA-1024x683.jpg"
+      },
+      {
+        "title": "Breaking down the health impacts of lead exposure amid Iowa detonation",
+        "source": "CBS News",
+        "publishedAt": "2026-11-25T14:53:29.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/breaking-down-the-health-impacts-of-lead-exposure-amid-iowa-detonation/?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/25/32f55f79-5287-461e-8a4c-8b3131519fa0/thumbnail/1200x630/f9d07480244d795a745194450aff9eee/cbsn-fusion-breaking-down-the-health-impacts-of-lead-exposure-amid-iowa-detonation-thumbnail.jpg"
+      },
+      {
+        "title": "Iowa farming family near blast site \"beyond upset\" with Army's toxic chemical detonation",
+        "source": "CBS News",
+        "publishedAt": "2026-11-25T14:46:35.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/iowa-farming-family-near-blast-site-beyond-upset-with-armys-toxic-chemical-detonation/?utm_source=lootura.com&ref=lootura.com",
+        "image": ""
+      }
+    ],
+    "path": "/us/entity/what-is-lead-azide-what-to-know-about-the-chemical-detonated-at-an-iowa-army-bas/"
+  },
   "signals": [
     {
-      "id": "now-cluster-united states-army + iowa",
-      "title": "Iowa farming family near blast site \"beyond upset\" with Army's toxic chemical detonation",
-      "brief": "Iowa farming family near blast site \"beyond upset\" with Army's toxic chemical detonation.",
+      "id": "now-cluster-united states-iowa + army",
+      "title": "What is lead azide? What to know about the chemical detonated at an Iowa Army base",
+      "brief": "What is lead azide? What to know about the chemical detonated at an Iowa Army base.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 27,
-      "sourceCount": 4,
-      "itemCount": 6,
+      "strength": 31,
+      "sourceCount": 5,
+      "itemCount": 9,
       "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
       "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
@@ -41,18 +113,39 @@
       ],
       "isHotNews": false,
       "sources": [
-        "CBS News",
         "NBC News",
+        "CBS News",
+        "PBS NewsHour",
         "NPR",
         "The New York Times"
       ],
       "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795620953242_now_current_sbr_iowa_toxic_cloud_261125_S3_1920x1080-kzki6u.jpg",
         "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/25/32f55f79-5287-461e-8a4c-8b3131519fa0/thumbnail/1200x630/f9d07480244d795a745194450aff9eee/cbsn-fusion-breaking-down-the-health-impacts-of-lead-exposure-amid-iowa-detonation-thumbnail.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261124-iowa-army-ammunition-plant-mn-1010-e3a283.jpg",
-        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/25/d46986d4-d617-4365-b3fb-686311648db5/thumbnail/1200x630/d7992c1b7b8afc5b1aaaea09010e01e7/img-0520.jpg",
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F1c%2Fbf%2F076b915c49f880e50bad78c09bb0%2Fap26329016271536.jpg"
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-25T132620Z_2018739424_RC2IUOAARY59_RTRMADP_3_USA-ENVIRONMENT-IOWA-1024x683.jpg"
       ],
       "evidence": [
+        {
+          "title": "Plume of smoke rises into the air at Iowa detonation site",
+          "source": "NBC News",
+          "publishedAt": "2026-11-25T15:35:59.000Z",
+          "sourceUrl": "https://www.nbcnews.com/video/plume-of-smoke-rises-into-the-air-at-iowa-detonation-site-274168901975?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795620953242_now_current_sbr_iowa_toxic_cloud_261125_S3_1920x1080-kzki6u.jpg"
+        },
+        {
+          "title": "Army detonates toxic, unstable lead explosives in Iowa despite outcry",
+          "source": "CBS News",
+          "publishedAt": "2026-11-25T15:34:51.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/army-detonates-toxic-unstable-lead-explosives-in-iowa-despite-outcry/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "What is lead azide? What to know about the chemical detonated at an Iowa Army base",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-25T15:29:51.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/science/what-is-lead-azide-what-to-know-about-the-chemical-detonated-at-an-iowa-army-base?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-25T132620Z_2018739424_RC2IUOAARY59_RTRMADP_3_USA-ENVIRONMENT-IOWA-1024x683.jpg"
+        },
         {
           "title": "Breaking down the health impacts of lead exposure amid Iowa detonation",
           "source": "CBS News",
@@ -66,42 +159,21 @@
           "publishedAt": "2026-11-25T14:46:35.000Z",
           "sourceUrl": "https://www.cbsnews.com/video/iowa-farming-family-near-blast-site-beyond-upset-with-armys-toxic-chemical-detonation/?utm_source=lootura.com&ref=lootura.com",
           "image": ""
-        },
-        {
-          "title": "Army to detonate cache of lead explosives Wednesday, sending toxic plume across Iowa",
-          "source": "NBC News",
-          "publishedAt": "2026-11-25T11:31:21.378Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/iowa-lead-azide-explosion-dust-army-rcna611182?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261124-iowa-army-ammunition-plant-mn-1010-e3a283.jpg"
-        },
-        {
-          "title": "Army to detonate unstable lead explosives at Iowa munitions plant despite community concerns",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T10:00:09.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/iowa-army-ammunition-plant-unstable-explosives-detonation/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/25/d46986d4-d617-4365-b3fb-686311648db5/thumbnail/1200x630/d7992c1b7b8afc5b1aaaea09010e01e7/img-0520.jpg"
-        },
-        {
-          "title": "Army plans to detonate nearly five tons of lead-based explosives in Iowa",
-          "source": "NPR",
-          "publishedAt": "2026-11-25T09:41:05.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/25/nx-s1-6052338/army-detonation-lead-explosives-iowa?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F1c%2Fbf%2F076b915c49f880e50bad78c09bb0%2Fap26329016271536.jpg"
         }
       ],
-      "path": "/us/entity/iowa-farming-family-near-blast-site-beyond-upset-with-army-s-toxic-chemical-deto/"
+      "path": "/us/entity/what-is-lead-azide-what-to-know-about-the-chemical-detonated-at-an-iowa-army-bas/"
     },
     {
-      "id": "moving-cluster-united states-jensen + huang",
-      "title": "Trump owned millions in Nvidia stock as he pressed chip giant to reinstate Jensen Huang",
-      "brief": "Trump owned millions in Nvidia stock as he pressed chip giant to reinstate Jensen Huang.",
+      "id": "now-cluster-united states-thanksgiving + holiday",
+      "title": "Here Are the Worst Times to Drive Over the Thanksgiving Holiday",
+      "brief": "Here Are the Worst Times to Drive Over the Thanksgiving Holiday.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 26,
-      "sourceCount": 4,
+      "strength": 25,
+      "sourceCount": 3,
       "itemCount": 5,
       "freshness": "fresh now",
       "alertLevel": "contained",
@@ -114,32 +186,100 @@
       ],
       "isHotNews": false,
       "sources": [
+        "ABC News",
         "CBS News",
-        "NBC News Politics",
+        "NBC News"
+      ],
+      "images": [
+        "https://s.abcnews.com/images/GMA/261125_gma_rivers1_hpMain_4x3_384.jpg",
+        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/25/9ec8d017-ea46-491a-9b85-d3aee2d193d4/thumbnail/1200x630/8ab176ff72c85c3b2c08fef82a5e56e2/cbsn-fusion-eye-opener-millions-take-to-road-skies-for-thanksgiving-travel-thumbnail.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "WATCH: Thanksgiving travel rush underway",
+          "source": "ABC News",
+          "publishedAt": "2026-11-25T16:02:23.000Z",
+          "sourceUrl": "https://abcnews.com/video/138435897/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s.abcnews.com/images/GMA/261125_gma_rivers1_hpMain_4x3_384.jpg"
+        },
+        {
+          "title": "Maps show where Thanksgiving storms could disrupt holiday",
+          "source": "CBS News",
+          "publishedAt": "2026-11-25T14:34:31.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/maps-thanksgiving-storms-disrupt-holiday-festivities-travel/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Eye Opener: Millions take to road, skies for Thanksgiving travel",
+          "source": "CBS News",
+          "publishedAt": "2026-11-25T14:00:04.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/eye-opener-millions-take-to-road-skies-for-thanksgiving-travel/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/25/9ec8d017-ea46-491a-9b85-d3aee2d193d4/thumbnail/1200x630/8ab176ff72c85c3b2c08fef82a5e56e2/cbsn-fusion-eye-opener-millions-take-to-road-skies-for-thanksgiving-travel-thumbnail.jpg"
+        },
+        {
+          "title": "Millions of Americans pack roads, airports for Thanksgiving holiday",
+          "source": "CBS News",
+          "publishedAt": "2026-11-25T13:50:41.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/millions-of-americans-pack-roads-airports-for-thanksgiving-holiday/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Here Are the Worst Times to Drive Over the Thanksgiving Holiday",
+          "source": "NBC News",
+          "publishedAt": "2026-11-25T12:17:52.000Z",
+          "sourceUrl": "https://www.today.com/video/hitting-the-road-for-thanksgiving-how-to-avoid-the-gridlock-274155077594?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/us/entity/here-are-the-worst-times-to-drive-over-the-thanksgiving-holiday/"
+    },
+    {
+      "id": "moving-cluster-united states-jensen + huang",
+      "title": "Market sell-off picks up steam, as Jensen Huang’s Nvidia return fails to calm AI fears",
+      "brief": "Market sell-off picks up steam, as Jensen Huang’s Nvidia return fails to calm AI fears.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 24,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 96,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
         "NBC News",
+        "CBS News",
         "The New York Times"
       ],
       "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261125-nasdaq-mn-0940-5e48f9.jpg",
         "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/23/933d95b8-59b0-4e93-9c58-08f9e8676916/thumbnail/1200x630/6c525df87313ec56d39923506f3537ca/cbsn-fusion-money-tips-for-managing-stock-market-woes-thumbnail.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795612693707_tdy_news_8a_gosk_trump_jensen_261125_S3_1920x1080-pbuyeo.jpg",
         "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/90cf2298-8e5b-49bf-ae6f-14030ba7f1f0/thumbnail/1200x630/f994bb83569ad98bd29ddfa543aafe4d/gettyimages-2297774940-1.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261124-jensen-huang-mn-1030-74e1f2.jpg",
         "https://static01.nyt.com/images/2026/11/26/multimedia/24witt-vzbp/24witt-vzbp-mediumSquareAt3X.jpg"
       ],
       "evidence": [
+        {
+          "title": "Market sell-off picks up steam, as Jensen Huang’s Nvidia return fails to calm AI fears",
+          "source": "NBC News",
+          "publishedAt": "2026-11-25T15:24:30.200Z",
+          "sourceUrl": "https://www.nbcnews.com/business/markets/market-sell-underway-gains-huangs-nvidia-move-stall-rcna611268?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261125-nasdaq-mn-0940-5e48f9.jpg"
+        },
         {
           "title": "Stock futures plummet as Jensen Huang rebound rally fades",
           "source": "CBS News",
           "publishedAt": "2026-11-25T14:02:34.000Z",
           "sourceUrl": "https://www.cbsnews.com/news/stocks-jensen-huang-bounce-ai-tariffs/?utm_source=lootura.com&ref=lootura.com",
           "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/23/933d95b8-59b0-4e93-9c58-08f9e8676916/thumbnail/1200x630/6c525df87313ec56d39923506f3537ca/cbsn-fusion-money-tips-for-managing-stock-market-woes-thumbnail.jpg"
-        },
-        {
-          "title": "Trump Signals Willingness to Pardon Nvidia’s Jensen Huang",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-25T13:18:18.000Z",
-          "sourceUrl": "https://www.today.com/video/huang-calls-trump-role-in-reinstatement-completely-untrue-274157637679?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795612693707_tdy_news_8a_gosk_trump_jensen_261125_S3_1920x1080-pbuyeo.jpg"
         },
         {
           "title": "Trump owned millions in Nvidia stock as he pressed chip giant to reinstate Jensen Huang",
@@ -149,13 +289,6 @@
           "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/90cf2298-8e5b-49bf-ae6f-14030ba7f1f0/thumbnail/1200x630/f994bb83569ad98bd29ddfa543aafe4d/gettyimages-2297774940-1.jpg"
         },
         {
-          "title": "Jensen Huang says he’s thankful for second chance at Nvidia employee meeting",
-          "source": "NBC News",
-          "publishedAt": "2026-11-25T04:11:13.373Z",
-          "sourceUrl": "https://www.nbcnews.com/business/business-news/jensen-huang-says-s-thankful-second-chance-nvidia-employee-meeting-rcna611235?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261124-jensen-huang-mn-1030-74e1f2.jpg"
-        },
-        {
           "title": "Why Jensen Huang Was Reinstated at Nvidia",
           "source": "The New York Times",
           "publishedAt": "2026-11-25T03:56:57.000Z",
@@ -163,15 +296,15 @@
           "image": "https://static01.nyt.com/images/2026/11/26/multimedia/24witt-vzbp/24witt-vzbp-mediumSquareAt3X.jpg"
         }
       ],
-      "path": "/us/entity/trump-owned-millions-in-nvidia-stock-as-he-pressed-chip-giant-to-reinstate-jense/"
+      "path": "/us/entity/market-sell-off-picks-up-steam-as-jensen-huang-s-nvidia-return-fails-to-calm-ai/"
     },
     {
-      "id": "moving-cluster-united states-trump + more",
+      "id": "now-cluster-united states-trump + more",
       "title": "Trump Administration Unveils New Tariffs for China, EU and More, Citing Unfair Practices",
       "brief": "Trump Administration Unveils New Tariffs for China, EU and More, Citing Unfair Practices.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 23,
@@ -189,28 +322,28 @@
       "isHotNews": false,
       "sources": [
         "The New York Times",
-        "NBC News",
+        "NBC News Politics",
         "CBS News"
       ],
       "images": [
         "https://static01.nyt.com/images/2026/11/24/multimedia/00dc-hfo-trump-tariffs-zptw/00dc-hfo-trump-tariffs-zptw-mediumSquareAt3X.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261105-trump-xi-rs-5b9856.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795620369255_now_current_cheung_tariffs_proposed_261125_S3_1920x1080-k5w2q3.jpg",
         "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/25/e48e4774-0ff1-4bda-bb51-9c1749ecd1fb/thumbnail/1200x630/efed0bf7a9a47eb0cb1cd55cbc4ebf17/gettyimages-1238576937.jpg"
       ],
       "evidence": [
         {
           "title": "Trump Administration Unveils New Tariffs for China, EU and More, Citing Unfair Practices",
           "source": "The New York Times",
-          "publishedAt": "2026-11-25T14:16:25.000Z",
+          "publishedAt": "2026-11-25T15:58:36.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/25/business/trump-tariffs-trade.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static01.nyt.com/images/2026/11/24/multimedia/00dc-hfo-trump-tariffs-zptw/00dc-hfo-trump-tariffs-zptw-mediumSquareAt3X.jpg"
         },
         {
-          "title": "Trump proposes a new wave of tariffs on China, E.U. and other trade partners",
-          "source": "NBC News",
-          "publishedAt": "2026-11-25T13:58:10.991Z",
-          "sourceUrl": "https://www.nbcnews.com/business/economy/trump-country-specific-tariffs-excess-capacity-rcna611087?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261105-trump-xi-rs-5b9856.jpg"
+          "title": "Trump proposes new tariffs on China, the European Union and other trade partners",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-25T15:26:14.000Z",
+          "sourceUrl": "https://www.nbcnews.com/video/trump-proposes-new-tariffs-on-china-the-european-union-and-other-trade-partners-274166853924?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795620369255_now_current_cheung_tariffs_proposed_261125_S3_1920x1080-k5w2q3.jpg"
         },
         {
           "title": "Trump administration to introduce new tariffs on China, EU and other major trading partners",
@@ -231,10 +364,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 23,
+      "strength": 22,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 92,
@@ -280,79 +413,18 @@
       "path": "/us/entity/xteink-s-pocketable-x4-classic-e-reader-is-down-to-just-55-for-black-friday/"
     },
     {
-      "id": "now-cluster-united states-thanksgiving + holiday",
-      "title": "Here Are the Worst Times to Drive Over the Thanksgiving Holiday",
-      "brief": "Here Are the Worst Times to Drive Over the Thanksgiving Holiday.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 17,
-      "sourceCount": 2,
-      "itemCount": 4,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 83,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "NBC News"
-      ],
-      "images": [
-        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/25/9ec8d017-ea46-491a-9b85-d3aee2d193d4/thumbnail/1200x630/8ab176ff72c85c3b2c08fef82a5e56e2/cbsn-fusion-eye-opener-millions-take-to-road-skies-for-thanksgiving-travel-thumbnail.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Maps show where Thanksgiving storms could disrupt holiday",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T14:34:31.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/maps-thanksgiving-storms-disrupt-holiday-festivities-travel/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Eye Opener: Millions take to road, skies for Thanksgiving travel",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T14:00:04.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/eye-opener-millions-take-to-road-skies-for-thanksgiving-travel/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/25/9ec8d017-ea46-491a-9b85-d3aee2d193d4/thumbnail/1200x630/8ab176ff72c85c3b2c08fef82a5e56e2/cbsn-fusion-eye-opener-millions-take-to-road-skies-for-thanksgiving-travel-thumbnail.jpg"
-        },
-        {
-          "title": "Millions of Americans pack roads, airports for Thanksgiving holiday",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T13:50:41.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/millions-of-americans-pack-roads-airports-for-thanksgiving-holiday/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Here Are the Worst Times to Drive Over the Thanksgiving Holiday",
-          "source": "NBC News",
-          "publishedAt": "2026-11-25T12:17:52.000Z",
-          "sourceUrl": "https://www.today.com/video/hitting-the-road-for-thanksgiving-how-to-avoid-the-gridlock-274155077594?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/us/entity/here-are-the-worst-times-to-drive-over-the-thanksgiving-holiday/"
-    },
-    {
-      "id": "now-cluster-united states-prince + william",
+      "id": "moving-cluster-united states-prince + william",
       "title": "2 men charged with burglary after break-in at Prince William and Princess Kate’s country home",
       "brief": "2 men charged with burglary after break-in at Prince William and Princess Kate’s country home.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 16,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "fresh now",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 79,
@@ -397,9 +469,9 @@
       "path": "/us/entity/2-men-charged-with-burglary-after-break-in-at-prince-william-and-princess-kate-s/"
     },
     {
-      "id": "now-cluster-united states-thanksgiving + prices",
-      "title": "High prices force many across the US to scale back for Thanksgiving: ‘We can’t afford the food’",
-      "brief": "High prices force many across the US to scale back for Thanksgiving: ‘We can’t afford the food’.",
+      "id": "now-cluster-united states-trump + tariffs",
+      "title": "Trump doubles down on tariffs amid rising inflation; Democrats lay out agenda as shutdown looms",
+      "brief": "Trump doubles down on tariffs amid rising inflation; Democrats lay out agenda as shutdown looms.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -418,34 +490,34 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The Guardian US",
-        "CBS News"
+        "CBS News",
+        "The New York Times"
       ],
       "images": [
-        "https://i.guim.co.uk/img/media/e9fba1ed9b515409d7d9cf9150fa7c17bd41c550/551_0_5506_4407/master/5506.jpg?width=140&quality=85&auto=format&fit=max&s=c13f7b81214e78b59d55a39facc9fb86"
+        "https://static01.nyt.com/images/2026/11/25/opinion/25investigation-editorial-image/25investigation-editorial-image-mediumSquareAt3X.jpg"
       ],
       "evidence": [
         {
-          "title": "High prices force many across the US to scale back for Thanksgiving: ‘We can’t afford the food’",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-25T14:43:16.000Z",
-          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/25/thanksgiving-food-costs-prices?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/e9fba1ed9b515409d7d9cf9150fa7c17bd41c550/551_0_5506_4407/master/5506.jpg?width=140&quality=85&auto=format&fit=max&s=c13f7b81214e78b59d55a39facc9fb86"
+          "title": "Trump doubles down on tariffs amid rising inflation; Democrats lay out agenda as shutdown looms",
+          "source": "CBS News",
+          "publishedAt": "2026-11-25T15:51:28.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/trump-doubles-down-on-tariffs-amid-rising-inflation-democrats-lay-out-agenda-as-shutdown-looms/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
-          "title": "Travelers battle high gas prices and bad weather ahead of Thanksgiving",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T14:31:26.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/travelers-battle-high-gas-prices-and-bad-weather-ahead-of-thanksgiving/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "Here’s How Democrats Should Investigate Trump’s Corruption",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-25T10:01:45.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/25/opinion/trump-corruption-investigate-democrats.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/25/opinion/25investigation-editorial-image/25investigation-editorial-image-mediumSquareAt3X.jpg"
         }
       ],
-      "path": "/us/entity/high-prices-force-many-across-the-us-to-scale-back-for-thanksgiving-we-can-t-aff/"
+      "path": "/us/entity/trump-doubles-down-on-tariffs-amid-rising-inflation-democrats-lay-out-agenda-as/"
     },
     {
-      "id": "moving-cluster-united states-thanksgiving + trump",
-      "title": "What Time Should You Eat Thanksgiving Dinner? Here’s What Etiquette Experts Say",
-      "brief": "What Time Should You Eat Thanksgiving Dinner? Here’s What Etiquette Experts Say.",
+      "id": "moving-cluster-united states-thanksgiving + more",
+      "title": "Macy’s Thanksgiving Day Parade 2026: How to watch, who’s performing, what’s new and more",
+      "brief": "Macy’s Thanksgiving Day Parade 2026: How to watch, who’s performing, what’s new and more.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
@@ -464,119 +536,27 @@
       ],
       "isHotNews": false,
       "sources": [
-        "TIME",
-        "The New York Times"
+        "The New York Times",
+        "NBC News"
       ],
       "images": [
-        "https://static.time.com/v3/assets/bltea6093859af6183b/blt65005cbf015bd967/6b05b7d4e196fd36ccdc2d90/thanksgiving-timing-dinner-nov24.jpg?branch=production",
-        "https://static01.nyt.com/images/2026/11/25/opinion/25investigation-editorial-image/25investigation-editorial-image-mediumSquareAt3X.jpg"
+        "https://static01.nyt.com/images/2026/11/25/multimedia/25ST-HOLIDAYWINDOWS-08-czfp/25ST-HOLIDAYWINDOWS-08-czfp-mediumSquareAt3X-v2.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261121-macys-thanksgiving-parade-ww-1653-5bbe8c.jpg"
       ],
       "evidence": [
         {
-          "title": "What Time Should You Eat Thanksgiving Dinner? Here’s What Etiquette Experts Say",
-          "source": "TIME",
-          "publishedAt": "2026-11-25T14:03:17.000Z",
-          "sourceUrl": "https://time.com/article/2026/11/25/what-time-should-you-eat-thanksgiving-dinner-according-to-etiquette-experts/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static.time.com/v3/assets/bltea6093859af6183b/blt65005cbf015bd967/6b05b7d4e196fd36ccdc2d90/thanksgiving-timing-dinner-nov24.jpg?branch=production"
-        },
-        {
-          "title": "Here’s How Democrats Should Investigate Trump’s Corruption",
+          "title": "Visual Tour of NYC’s Holiday Store Windows: Macy’s, Saks and More",
           "source": "The New York Times",
-          "publishedAt": "2026-11-25T10:01:45.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/opinion/trump-corruption-investigate-democrats.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/25/opinion/25investigation-editorial-image/25investigation-editorial-image-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/what-time-should-you-eat-thanksgiving-dinner-here-s-what-etiquette-experts-say/"
-    },
-    {
-      "id": "fading-cluster-united states-water + california",
-      "title": "California’s Tides Are in ‘Uncharted Territory’ as Water Surges Higher",
-      "brief": "California’s Tides Are in ‘Uncharted Territory’ as Water Surges Higher.",
-      "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Crosses several sources"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "Phys.org",
-        "The New York Times"
-      ],
-      "images": [
-        "https://scx2.b-cdn.net/gfx/news/2026/a-man-paddles-over-a-f.jpg",
-        "https://static01.nyt.com/images/2026/11/25/multimedia/25wea-CATIDES-pkwb/25wea-CATIDES-pkwb-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "California braces for flooding threat from huge tides, El Niño",
-          "source": "Phys.org",
-          "publishedAt": "2026-11-25T11:40:04.000Z",
-          "sourceUrl": "https://phys.org/news/2026-11-california-braces-threat-huge-tides.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://scx2.b-cdn.net/gfx/news/2026/a-man-paddles-over-a-f.jpg"
+          "publishedAt": "2026-11-25T15:07:59.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/25/style/nyc-holiday-store-windows.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25ST-HOLIDAYWINDOWS-08-czfp/25ST-HOLIDAYWINDOWS-08-czfp-mediumSquareAt3X-v2.jpg"
         },
-        {
-          "title": "California’s Tides Are in ‘Uncharted Territory’ as Water Surges Higher",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-25T10:30:05.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/weather/california-king-tides-sf-la.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25wea-CATIDES-pkwb/25wea-CATIDES-pkwb-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/california-s-tides-are-in-uncharted-territory-as-water-surges-higher/"
-    },
-    {
-      "id": "fading-cluster-united states-thanksgiving + more",
-      "title": "Macy’s Thanksgiving Day Parade 2026: How to watch, who’s performing, what’s new and more",
-      "brief": "Macy’s Thanksgiving Day Parade 2026: How to watch, who’s performing, what’s new and more.",
-      "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Crosses several sources"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News",
-        "The New York Times"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261121-macys-thanksgiving-parade-ww-1653-5bbe8c.jpg",
-        "https://static01.nyt.com/images/2026/11/25/arts/25holiday-windows-top/25holiday-windows-top-mediumSquareAt3X.png"
-      ],
-      "evidence": [
         {
           "title": "Macy’s Thanksgiving Day Parade 2026: How to watch, who’s performing, what’s new and more",
           "source": "NBC News",
           "publishedAt": "2026-11-25T10:02:00.000Z",
           "sourceUrl": "https://www.nbcnews.com/news/us-news/macys-parade-2026-where-watch-time-thanksgiving-day-streaming-channel-rcna609932?utm_source=lootura.com&ref=lootura.com",
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261121-macys-thanksgiving-parade-ww-1653-5bbe8c.jpg"
-        },
-        {
-          "title": "Visual Tour of NYC’s Holiday Store Windows: Macy’s, Saks and More",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-25T10:01:08.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/style/nyc-holiday-store-windows.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/25/arts/25holiday-windows-top/25holiday-windows-top-mediumSquareAt3X.png"
         }
       ],
       "path": "/us/entity/macy-s-thanksgiving-day-parade-2026-how-to-watch-who-s-performing-what-s-new-and/"
