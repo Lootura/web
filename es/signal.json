@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-25T08:00:48.361Z",
+  "updatedAt": "2026-11-25T09:00:48.198Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "305.882 enlaces analizados",
-  "dayScanLabel": "4.156 enlaces escaneados en 24h",
+  "ambientPulseLabel": "306.300 enlaces analizados",
+  "dayScanLabel": "4.157 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,50 +19,51 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-bellingham + lleva",
-      "title": "Bellingham hierve y el Madrid se lleva por delante al PSV",
-      "brief": "Bellingham hierve y el Madrid se lleva por delante al PSV.",
+      "id": "now-cluster-españa-cuatro + campana",
+      "title": "Campaña electoral 29-N y actualidad política, en directo | Colau augura que si Abascal es vicepresidente desplegará “un ICE” en las calles de España",
+      "brief": "Campaña electoral 29-N y actualidad política, en directo | Colau augura que si Abascal es vicepresidente desplegará “un ICE” en las calles de España.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "10h fresca",
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 46,
+      "alertScore": 76,
       "alertTriggers": [
-        "Cruza varias fuentes"
+        "Cruza varias fuentes",
+        "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
-        "El País",
-        "El Mundo"
+        "La Razón",
+        "El País"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/YJNSYHSVVVCFPCYT6DIBFOZSNE.jpg?auth=c64669837277455f3e65b9211ce4a5ca01a9a5f5efbf56a20057a6accdd1d26c",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955572415678.jpg"
+        "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/24/2240D9AA-A518-4117-8D8F-9EF179A11429/96.jpg?crop=1620,911,x0,y85&width=1200&height=675&optimize=low&format=webply",
+        "https://imagenes.elpais.com/resizer/v2/OBVY2PLPG5DFTB6WRLSDEI5N5Q.jpg?auth=1cbf04e1fbce79d26e7720b923e73057ae12727ec077d83ddd7bbdcb21f00934"
       ],
       "evidence": [
         {
-          "title": "El esplendor deslumbrante de Bellingham impulsa la goleada del Madrid al PSV",
-          "source": "El País",
-          "publishedAt": "2026-11-24T22:20:31.000Z",
-          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-24/el-esplendor-deslumbrante-de-bellingham-impulsa-la-goleada-del-madrid-al-psv.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/YJNSYHSVVVCFPCYT6DIBFOZSNE.jpg?auth=c64669837277455f3e65b9211ce4a5ca01a9a5f5efbf56a20057a6accdd1d26c"
+          "title": "Elecciones generales 29N, en directo: última hora de la campaña electoral a cuatro días de las urnas",
+          "source": "La Razón",
+          "publishedAt": "2026-11-25T09:00:31.000Z",
+          "sourceUrl": "https://www.larazon.es/espana/elecciones-generales-29n-directo-ultima-hora-campana-electoral-cuatro-dias-urnas_202611256b067265f6da642efefa15da.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2026/11/24/2240D9AA-A518-4117-8D8F-9EF179A11429/96.jpg?crop=1620,911,x0,y85&width=1200&height=675&optimize=low&format=webply"
         },
         {
-          "title": "Bellingham hierve y el Madrid se lleva por delante al PSV",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-24T22:12:36.000Z",
-          "sourceUrl": "https://www.elmundo.es/deportes/futbol/champions-league/2026/11/24/6b06090921efa01a7d8b4582.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955572415678.jpg"
+          "title": "Campaña electoral 29-N y actualidad política, en directo | Colau augura que si Abascal es vicepresidente desplegará “un ICE” en las calles de España",
+          "source": "El País",
+          "publishedAt": "2026-11-25T07:52:39.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-25/campana-electoral-29-n-y-actualidad-politica-en-directo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/OBVY2PLPG5DFTB6WRLSDEI5N5Q.jpg?auth=1cbf04e1fbce79d26e7720b923e73057ae12727ec077d83ddd7bbdcb21f00934"
         }
       ],
-      "path": "/es/entity/bellingham-hierve-y-el-madrid-se-lleva-por-delante-al-psv/"
+      "path": "/es/entity/campana-electoral-29-n-y-actualidad-politica-en-directo-colau-augura-que-si-abas/"
     }
   ]
 }
