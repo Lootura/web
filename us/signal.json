@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-25T12:00:47.856Z",
+  "updatedAt": "2026-11-25T13:00:48.016Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "406,618 links analyzed",
-  "dayScanLabel": "8,316 links scanned in 24h",
+  "ambientPulseLabel": "407,449 links analyzed",
+  "dayScanLabel": "8,318 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -19,17 +19,17 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-united states-iowa + army",
-      "title": "Army to detonate cache of lead explosives Wednesday, sending toxic plume across Iowa",
-      "brief": "Army to detonate cache of lead explosives Wednesday, sending toxic plume across Iowa.",
+      "id": "now-cluster-united states-lead + army",
+      "title": "Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.",
+      "brief": "Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 25,
-      "sourceCount": 3,
-      "itemCount": 6,
+      "strength": 28,
+      "sourceCount": 4,
+      "itemCount": 7,
       "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
@@ -41,6 +41,7 @@
       ],
       "isHotNews": false,
       "sources": [
+        "NPR World",
         "NBC News",
         "CBS News",
         "The New York Times"
@@ -48,10 +49,16 @@
       "images": [
         "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261124-iowa-army-ammunition-plant-mn-1010-e3a283.jpg",
         "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/25/d46986d4-d617-4365-b3fb-686311648db5/thumbnail/1200x630/d7992c1b7b8afc5b1aaaea09010e01e7/img-0520.jpg",
-        "https://static01.nyt.com/images/2026/11/24/multimedia/24CLI-IOWA-BLAST-PRESS1-hwmf/24CLI-IOWA-BLAST-PRESS1-hwmf-mediumSquareAt3X.jpg",
-        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/25/27d9cd3b-99f5-4b83-b7d0-06b5456c2cf3/thumbnail/1200x630/4695aa14fa1b94d4e2dae2cf6778a71d/cbsn-fusion-army-to-blow-up-5-tons-of-toxic-materials-in-iowa-on-wednesday-thumbnail.jpg"
+        "https://static01.nyt.com/images/2026/11/24/multimedia/24CLI-IOWA-BLAST-PRESS1-hwmf/24CLI-IOWA-BLAST-PRESS1-hwmf-mediumSquareAt3X.jpg"
       ],
       "evidence": [
+        {
+          "title": "Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.",
+          "source": "NPR World",
+          "publishedAt": "2026-11-25T12:18:09.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
         {
           "title": "Army to detonate cache of lead explosives Wednesday, sending toxic plume across Iowa",
           "source": "NBC News",
@@ -79,30 +86,23 @@
           "publishedAt": "2026-11-25T02:22:30.000Z",
           "sourceUrl": "https://www.cbsnews.com/news/maps-show-how-far-lead-dust-from-about-5-tons-of-iowa-explosives-could-spread/?utm_source=lootura.com&ref=lootura.com",
           "image": ""
-        },
-        {
-          "title": "Director of Iowa environmental group says plan to detonate explosives is safest path forward",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T01:26:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/army-to-blow-up-5-tons-of-toxic-materials-in-iowa-on-wednesday/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/25/27d9cd3b-99f5-4b83-b7d0-06b5456c2cf3/thumbnail/1200x630/4695aa14fa1b94d4e2dae2cf6778a71d/cbsn-fusion-army-to-blow-up-5-tons-of-toxic-materials-in-iowa-on-wednesday-thumbnail.jpg"
         }
       ],
-      "path": "/us/entity/army-to-detonate-cache-of-lead-explosives-wednesday-sending-toxic-plume-across-i/"
+      "path": "/us/entity/army-to-detonate-tons-of-lead-azide-after-delays-and-abrego-garcia-leaves-u-s/"
     },
     {
-      "id": "moving-cluster-united states-jensen + huang",
-      "title": "Trump owned millions in Nvidia stock as he pressed chip giant to reinstate Jensen Huang",
-      "brief": "Trump owned millions in Nvidia stock as he pressed chip giant to reinstate Jensen Huang.",
+      "id": "now-cluster-united states-jensen + huang",
+      "title": "Iowans prepare for toxic lead detonation and experts criticize Trump’s role in Huang’s return: Morning Rundown",
+      "brief": "Iowans prepare for toxic lead detonation and experts criticize Trump’s role in Huang’s return: Morning Rundown.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 25,
       "sourceCount": 3,
       "itemCount": 6,
-      "freshness": "1h fresh",
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -113,17 +113,25 @@
       ],
       "isHotNews": false,
       "sources": [
-        "CBS News",
         "NBC News",
+        "CBS News",
         "The New York Times"
       ],
       "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261124-Iowa-Army-Ammunition-Plant-ew-340p-973ee3.jpg",
         "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/23/90cf2298-8e5b-49bf-ae6f-14030ba7f1f0/thumbnail/1200x630/f994bb83569ad98bd29ddfa543aafe4d/gettyimages-2297774940-1.jpg",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261124-jensen-huang-mn-1030-74e1f2.jpg",
         "https://static01.nyt.com/images/2026/11/26/multimedia/24witt-vzbp/24witt-vzbp-mediumSquareAt3X.jpg",
         "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/25/56684524-71d6-4187-92a9-8dc921925b8d/thumbnail/1200x630/1a4cd6e40a831ba3d79515a0e1a2cbbf/cbsn-fusion-legal-expert-breaks-down-trumps-involvement-in-nvidia-scandal-huang-reinstatement-thumbnail.jpg"
       ],
       "evidence": [
+        {
+          "title": "Iowans prepare for toxic lead detonation and experts criticize Trump’s role in Huang’s return: Morning Rundown",
+          "source": "NBC News",
+          "publishedAt": "2026-11-25T12:03:54.856Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/iowa-army-lead-detonation-trump-huang-nvidia-morning-rundown-rcna611257?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261124-Iowa-Army-Ammunition-Plant-ew-340p-973ee3.jpg"
+        },
         {
           "title": "Trump owned millions in Nvidia stock as he pressed chip giant to reinstate Jensen Huang",
           "source": "CBS News",
@@ -151,33 +159,26 @@
           "publishedAt": "2026-11-25T01:16:50.000Z",
           "sourceUrl": "https://www.cbsnews.com/video/legal-expert-breaks-down-trumps-involvement-in-nvidia-scandal-huang-reinstatement/?utm_source=lootura.com&ref=lootura.com",
           "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/25/56684524-71d6-4187-92a9-8dc921925b8d/thumbnail/1200x630/1a4cd6e40a831ba3d79515a0e1a2cbbf/cbsn-fusion-legal-expert-breaks-down-trumps-involvement-in-nvidia-scandal-huang-reinstatement-thumbnail.jpg"
-        },
-        {
-          "title": "Where China stands in the AI chip race amid Huang's return to Nvidia",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T01:12:07.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/heres-where-china-stands-in-the-ai-chip-race-amid-huangs-return-to-nvidia/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
         }
       ],
-      "path": "/us/entity/trump-owned-millions-in-nvidia-stock-as-he-pressed-chip-giant-to-reinstate-jense/"
+      "path": "/us/entity/iowans-prepare-for-toxic-lead-detonation-and-experts-criticize-trump-s-role-in-h/"
     },
     {
-      "id": "moving-cluster-united states-thanksgiving + more",
-      "title": "Macy’s Thanksgiving Day Parade 2026: How to watch, who’s performing, what’s new and more",
-      "brief": "Macy’s Thanksgiving Day Parade 2026: How to watch, who’s performing, what’s new and more.",
+      "id": "now-cluster-united states-prince + william",
+      "title": "2 men charged with burglary after break-in at Prince William and Princess Kate’s country home",
+      "brief": "2 men charged with burglary after break-in at Prince William and Princess Kate’s country home.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 22,
-      "sourceCount": 3,
+      "strength": 17,
+      "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "2h fresh",
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 92,
+      "alertScore": 79,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -186,40 +187,39 @@
       "isHotNews": false,
       "sources": [
         "NBC News",
-        "The New York Times",
-        "CBS News"
+        "The New York Times World"
       ],
       "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261121-macys-thanksgiving-parade-ww-1653-5bbe8c.jpg",
-        "https://static01.nyt.com/images/2026/11/25/arts/25holiday-windows-top/25holiday-windows-top-mediumSquareAt3X.png"
+        "https://static01.nyt.com/images/2026/11/25/multimedia/25int-uk-royals-break-in-mfgl/25int-uk-royals-break-in-mfgl-mediumSquareAt3X.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-10/251030-will-and-kate-rs-019329.jpg"
       ],
       "evidence": [
         {
-          "title": "Macy’s Thanksgiving Day Parade 2026: How to watch, who’s performing, what’s new and more",
+          "title": "New Details Emerge on Break-In at William and Kate’s Home",
           "source": "NBC News",
-          "publishedAt": "2026-11-25T10:02:00.000Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/macys-parade-2026-where-watch-time-thanksgiving-day-streaming-channel-rcna609932?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261121-macys-thanksgiving-parade-ww-1653-5bbe8c.jpg"
-        },
-        {
-          "title": "Visual Tour of NYC’s Holiday Store Windows: Macy’s, Saks and More",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-25T10:01:08.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/style/nyc-holiday-store-windows.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/25/arts/25holiday-windows-top/25holiday-windows-top-mediumSquareAt3X.png"
-        },
-        {
-          "title": "Storms threaten Thanksgiving travel, Macy's Thanksgiving Day Parade",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T00:55:21.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/storms-threaten-thanksgiving-travel-and-macys-parade/?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-25T12:45:58.000Z",
+          "sourceUrl": "https://www.today.com/video/new-details-emerge-on-break-in-at-william-and-kate-s-home-274155589878?utm_source=lootura.com&ref=lootura.com",
           "image": ""
+        },
+        {
+          "title": "2 Men Charged After Break-In at Prince William and Kate’s Country Home",
+          "source": "The New York Times World",
+          "publishedAt": "2026-11-25T11:08:52.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/25/world/europe/prince-william-kate-home-break-in-charged.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25int-uk-royals-break-in-mfgl/25int-uk-royals-break-in-mfgl-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "2 men charged with burglary after break-in at Prince William and Princess Kate’s country home",
+          "source": "NBC News",
+          "publishedAt": "2026-11-25T10:37:25.516Z",
+          "sourceUrl": "https://www.nbcnews.com/world/united-kingdom/prince-william-princess-kate-break-in-sandringham-estate-charges-rcna611159?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-10/251030-will-and-kate-rs-019329.jpg"
         }
       ],
-      "path": "/us/entity/macy-s-thanksgiving-day-parade-2026-how-to-watch-who-s-performing-what-s-new-and/"
+      "path": "/us/entity/2-men-charged-with-burglary-after-break-in-at-prince-william-and-princess-kate-s/"
     },
     {
-      "id": "now-cluster-united states-california + huge",
+      "id": "now-cluster-united states-california + flooding",
       "title": "California braces for flooding threat from huge tides, El Niño",
       "brief": "California braces for flooding threat from huge tides, El Niño.",
       "whyItMatters": "",
@@ -227,10 +227,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresh now",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -266,18 +266,18 @@
       "path": "/us/entity/california-braces-for-flooding-threat-from-huge-tides-el-nino/"
     },
     {
-      "id": "now-cluster-united states-astronaut + space",
+      "id": "moving-cluster-united states-astronaut + shenzhou",
       "title": "China's Shenzhou 24 mission lifts off, carrying first foreign astronaut to its space station",
       "brief": "China's Shenzhou 24 mission lifts off, carrying first foreign astronaut to its space station.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -313,56 +313,9 @@
       "path": "/us/entity/china-s-shenzhou-24-mission-lifts-off-carrying-first-foreign-astronaut-to-its-sp/"
     },
     {
-      "id": "now-cluster-united states-prince + william",
-      "title": "2 men charged with burglary after break-in at Prince William and Princess Kate’s country home",
-      "brief": "2 men charged with burglary after break-in at Prince William and Princess Kate’s country home.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times World",
-        "NBC News"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/25/multimedia/25int-uk-royals-break-in-mfgl/25int-uk-royals-break-in-mfgl-mediumSquareAt3X.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-10/251030-will-and-kate-rs-019329.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "2 Men Charged After Break-In at Prince William and Kate’s Country Home",
-          "source": "The New York Times World",
-          "publishedAt": "2026-11-25T11:08:52.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/world/europe/prince-william-kate-home-break-in-charged.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25int-uk-royals-break-in-mfgl/25int-uk-royals-break-in-mfgl-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "2 men charged with burglary after break-in at Prince William and Princess Kate’s country home",
-          "source": "NBC News",
-          "publishedAt": "2026-11-25T10:37:25.516Z",
-          "sourceUrl": "https://www.nbcnews.com/world/united-kingdom/prince-william-princess-kate-break-in-sandringham-estate-charges-rcna611159?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2025-10/251030-will-and-kate-rs-019329.jpg"
-        }
-      ],
-      "path": "/us/entity/2-men-charged-with-burglary-after-break-in-at-prince-william-and-princess-kate-s/"
-    },
-    {
-      "id": "moving-cluster-united states-abrego + garcia",
-      "title": "Abrego Garcia Voluntarily Leaves U.S., Ending 20-Month Legal Fight",
-      "brief": "Abrego Garcia Voluntarily Leaves U.S., Ending 20-Month Legal Fight.",
+      "id": "moving-cluster-united states-more + thanksgiving",
+      "title": "Macy’s Thanksgiving Day Parade 2026: How to watch, who’s performing, what’s new and more",
+      "brief": "Macy’s Thanksgiving Day Parade 2026: How to watch, who’s performing, what’s new and more.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
@@ -381,122 +334,30 @@
       ],
       "isHotNews": false,
       "sources": [
-        "NPR",
-        "The New York Times Politics"
-      ],
-      "images": [
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4504x3003+0+0/resize/4504x3003!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fbc%2F1e%2F8e147ce34a51b529ad1587eb88e5%2Fgettyimages-2253180407.jpg",
-        "https://static01.nyt.com/images/2026/11/24/multimedia/24dc-abrego-zvwj/24dc-abrego-zvwj-mediumSquareAt3X-v3.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Kilmar Abrego Garcia leaves U.S. voluntarily for Spain",
-          "source": "NPR",
-          "publishedAt": "2026-11-25T09:19:50.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/25/nx-s1-6053203/abrego-garcia-leaves-us?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4504x3003+0+0/resize/4504x3003!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fbc%2F1e%2F8e147ce34a51b529ad1587eb88e5%2Fgettyimages-2253180407.jpg"
-        },
-        {
-          "title": "Abrego Garcia Voluntarily Leaves U.S., Ending 20-Month Legal Fight",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-25T06:43:00.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/24/us/politics/abrego-garcia-leave-deportation.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/24/multimedia/24dc-abrego-zvwj/24dc-abrego-zvwj-mediumSquareAt3X-v3.jpg"
-        }
-      ],
-      "path": "/us/entity/abrego-garcia-voluntarily-leaves-u-s-ending-20-month-legal-fight/"
-    },
-    {
-      "id": "moving-cluster-united states-mississippi + plane",
-      "title": "Small plane crash off Mississippi kills 6, including 2 children, Coast Guard says",
-      "brief": "Small plane crash off Mississippi kills 6, including 2 children, Coast Guard says.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "NBC News"
-      ],
-      "images": [
-        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/25/f7ce969d-8d9d-4d04-aa27-1668b0db116f/thumbnail/1200x630/17a5131cd2d844ba2162f4dd5d069e5c/ap26329251348473.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261124-coast-guard-mississippi-mn-1950-bfed00.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Small plane crash off Mississippi kills 6, including 2 children, Coast Guard says",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T06:38:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/small-plane-crash-off-mississippi-6-dead-2-children/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/25/f7ce969d-8d9d-4d04-aa27-1668b0db116f/thumbnail/1200x630/17a5131cd2d844ba2162f4dd5d069e5c/ap26329251348473.jpg"
-        },
-        {
-          "title": "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
-          "source": "NBC News",
-          "publishedAt": "2026-11-25T00:57:49.199Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/4-adults-2-kids-are-missing-plane-crashes-mississippi-coast-rcna611218?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261124-coast-guard-mississippi-mn-1950-bfed00.jpg"
-        }
-      ],
-      "path": "/us/entity/small-plane-crash-off-mississippi-kills-6-including-2-children-coast-guard-says/"
-    },
-    {
-      "id": "fading-cluster-united states-child + charges",
-      "title": "Thomas Markle indicted on child sex abuse material charges",
-      "brief": "Thomas Markle indicted on child sex abuse material charges.",
-      "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "9h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Crosses several sources"
-      ],
-      "isHotNews": false,
-      "sources": [
         "NBC News",
-        "CBS News"
+        "The New York Times"
       ],
       "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795577232481_now_hallie_dce_markle_charges_261124_S3_1920x1080-kbsgxm.jpg"
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261121-macys-thanksgiving-parade-ww-1653-5bbe8c.jpg",
+        "https://static01.nyt.com/images/2026/11/25/arts/25holiday-windows-top/25holiday-windows-top-mediumSquareAt3X.png"
       ],
       "evidence": [
         {
-          "title": "Thomas Markle indicted on child sex abuse material charges",
+          "title": "Macy’s Thanksgiving Day Parade 2026: How to watch, who’s performing, what’s new and more",
           "source": "NBC News",
-          "publishedAt": "2026-11-25T03:27:17.000Z",
-          "sourceUrl": "https://www.nbcnews.com/video/thomas-markle-indicted-on-child-sex-abuse-material-charges-274140741786?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795577232481_now_hallie_dce_markle_charges_261124_S3_1920x1080-kbsgxm.jpg"
+          "publishedAt": "2026-11-25T10:02:00.000Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/macys-parade-2026-where-watch-time-thanksgiving-day-streaming-channel-rcna609932?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261121-macys-thanksgiving-parade-ww-1653-5bbe8c.jpg"
         },
         {
-          "title": "Meghan Markle's father indicted on child pornography charges",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T00:49:41.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/thomas-markle-indicted-federal-grand-jury-child-pornography-charges/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "Visual Tour of NYC’s Holiday Store Windows: Macy’s, Saks and More",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-25T10:01:08.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/25/style/nyc-holiday-store-windows.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/25/arts/25holiday-windows-top/25holiday-windows-top-mediumSquareAt3X.png"
         }
       ],
-      "path": "/us/entity/thomas-markle-indicted-on-child-sex-abuse-material-charges/"
+      "path": "/us/entity/macy-s-thanksgiving-day-parade-2026-how-to-watch-who-s-performing-what-s-new-and/"
     }
   ]
 }

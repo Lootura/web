@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-25T12:00:47.856Z",
+  "updatedAt": "2026-11-25T13:00:48.016Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "307.556 enlaces analizados",
-  "dayScanLabel": "4.158 enlaces escaneados en 24h",
+  "ambientPulseLabel": "307.975 enlaces analizados",
+  "dayScanLabel": "4.159 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,9 +19,73 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-fallos + investigadores",
-      "title": "Los investigadores de la Aitat alertan del riesgo de que se repita la tragedia de Adamuz tras constatar fallos de seguridad que no se han corregido",
-      "brief": "Los investigadores de la Aitat alertan del riesgo de que se repita la tragedia de Adamuz tras constatar fallos de seguridad que no se han corregido.",
+      "id": "now-cluster-españa-audiencia + nacional",
+      "title": "La Audiencia Nacional revoca el tercer grado a Parot y pide que las víctimas puedan recurrir las semilibertades que concede el Gobierno Vasco",
+      "brief": "La Audiencia Nacional revoca el tercer grado a Parot y pide que las víctimas puedan recurrir las semilibertades que concede el Gobierno Vasco.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 26,
+      "sourceCount": 4,
+      "itemCount": 4,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo",
+        "El Diario Vasco",
+        "El Mundo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/PSOKZURZFNAZJA2FDSPL5MXUSE.jpg?auth=2d7b6a675e00090baa206e26b5ea081cfe5e8ae3e0a917adbdc028a050694faa",
+        "https://e01-phantom-elmundo.uecdn.es/caa9847d3f7fa2ebf6a1145df0ebae33/f/webp/assets/multimedia/imagenes/2025/06/23/17506740339329.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "La Audiencia Nacional revoca el tercer grado del etarra Henri Parot ante la “extrema gravedad” de sus delitos",
+          "source": "El País",
+          "publishedAt": "2026-11-25T12:38:55.000Z",
+          "sourceUrl": "https://elpais.com/espana/2026-11-25/la-audiencia-nacional-revoca-el-tercer-grado-de-henri-parot-ante-la-extrema-gravedad-de-sus-delitos.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/PSOKZURZFNAZJA2FDSPL5MXUSE.jpg?auth=2d7b6a675e00090baa206e26b5ea081cfe5e8ae3e0a917adbdc028a050694faa"
+        },
+        {
+          "title": "La Audiencia Nacional tumba el tercer grado a Henri Parot pero le mantiene el 100.2",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T12:26:30.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/audiencia-nacional-tumba-tercer-grado-henri-parot-20261125132409-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "La Audiencia Nacional revoca el tercer grado a Parot y pide que las víctimas puedan recurrir las semilibertades que concede el Gobierno Vasco",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-25T12:25:57.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/audiencia-nacional-revoca-tercer-grado-parot-pide-familias-pidan-revocar-semilibertades-gobierno-vasco-20261125131938-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "La Audiencia Nacional revoca el tercer grado al etarra Henri Parot y plantea una reforma legal para que las víctimas puedan recurrir",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-25T12:12:10.000Z",
+          "sourceUrl": "https://www.elmundo.es/espana/2026/11/25/6b06cf7a21efa0f96d8b457e.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/caa9847d3f7fa2ebf6a1145df0ebae33/f/webp/assets/multimedia/imagenes/2025/06/23/17506740339329.jpg"
+        }
+      ],
+      "path": "/es/entity/la-audiencia-nacional-revoca-el-tercer-grado-a-parot-y-pide-que-las-victimas-pue/"
+    },
+    {
+      "id": "now-cluster-españa-euskadi + millones",
+      "title": "Euskadi recibirá 1.270 millones para ampliar su red eléctrica y dar respuesta a 117 solicitudes de empresas con 70.000 trabajadores",
+      "brief": "Euskadi recibirá 1.270 millones para ampliar su red eléctrica y dar respuesta a 117 solicitudes de empresas con 70.000 trabajadores.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -31,6 +95,97 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [],
+      "evidence": [
+        {
+          "title": "Euskadi recibirá 1.270 millones para ampliar su red eléctrica y dar respuesta a 117 solicitudes de empresas con 70.000 trabajadores",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T12:39:32.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/euskadi-recibira-1270-millones-ampliar-red-electrica-20261125133432-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "El refuerzo de la red eléctrica movilizará 18.000 empleos en Euskadi",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-25T12:18:15.000Z",
+          "sourceUrl": "https://www.diariovasco.com/economia/refuerzo-red-electrica-movilizara-18000-empleos-euskadi-inversion-iberdrola-20261125131210-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/euskadi-recibira-1-270-millones-para-ampliar-su-red-electrica-y-dar-respuesta-a/"
+    },
+    {
+      "id": "now-cluster-españa-gobierno + prohibe",
+      "title": "El Gobierno prohíbe los sabores de los vapeadores y limita la cantidad de nicotina de las bolsitas",
+      "brief": "El Gobierno prohíbe los sabores de los vapeadores y limita la cantidad de nicotina de las bolsitas.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://s3.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/25/vapeadores-krFD-U40532302567aMH-1200x840@El%20Correo.JPG",
+        "https://imagenes.elpais.com/resizer/v2/PUNXIVGURFC7THEBYPFJC7BAUA.jpg?auth=7827a4454c608d12962008ecda78fa4137c420625d4212642b87a8c932af281f"
+      ],
+      "evidence": [
+        {
+          "title": "El Gobierno prohíbe los sabores de los vapeadores y limita la nicotina de las bolsitas",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T12:18:23.000Z",
+          "sourceUrl": "https://www.elcorreo.com/sociedad/gobierno-prohibe-sabores-vapeadores-limita-nicotina-bolsitas-20261125131823-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/25/vapeadores-krFD-U40532302567aMH-1200x840@El%20Correo.JPG"
+        },
+        {
+          "title": "El Gobierno prohíbe los sabores de los vapeadores y limita la cantidad de nicotina de las bolsitas",
+          "source": "El País",
+          "publishedAt": "2026-11-25T09:21:31.000Z",
+          "sourceUrl": "https://elpais.com/sociedad/2026-11-25/el-gobierno-prohibe-los-sabores-de-los-vapeadores-y-limita-la-cantidad-de-nicotina-de-las-bolsitas.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/PUNXIVGURFC7THEBYPFJC7BAUA.jpg?auth=7827a4454c608d12962008ecda78fa4137c420625d4212642b87a8c932af281f"
+        }
+      ],
+      "path": "/es/entity/el-gobierno-prohibe-los-sabores-de-los-vapeadores-y-limita-la-cantidad-de-nicoti/"
+    },
+    {
+      "id": "now-cluster-españa-fallos + investigadores",
+      "title": "Los investigadores de la Aitat alertan del riesgo de que se repita la tragedia de Adamuz tras constatar fallos de seguridad que no se han corregido",
+      "brief": "Los investigadores de la Aitat alertan del riesgo de que se repita la tragedia de Adamuz tras constatar fallos de seguridad que no se han corregido.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -65,60 +220,21 @@
       "path": "/es/entity/los-investigadores-de-la-aitat-alertan-del-riesgo-de-que-se-repita-la-tragedia-d/"
     },
     {
-      "id": "now-cluster-españa-hecho + muchos",
-      "title": "«He hecho muchos esfuerzos por olvidar la noche en que mi amigo me violó»",
-      "brief": "«He hecho muchos esfuerzos por olvidar la noche en que mi amigo me violó».",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/24/audiencia-R6XpW25HrNbKrWH9exRLx0N-1200x840@Diario%20Vasco.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "«He hecho muchos esfuerzos por olvidar la noche en que mi amigo me violó»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-25T10:23:18.000Z",
-          "sourceUrl": "https://www.elcorreo.com/sociedad/esfuerzos-olvidar-noche-amigo-violo-20261125112318-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/he-hecho-muchos-esfuerzos-por-olvidar-la-noche-en-que-mi-amigo-me-violo/"
-    },
-    {
-      "id": "now-cluster-españa-puigdemont + volvera",
+      "id": "moving-cluster-españa-puigdemont + volvera",
       "title": "Puigdemont volverá a España el 12 de diciembre tras la amnistía: \"El Estado ha fracasado, regresaré a mi país, a Cataluña, sin pedir perdón\"",
       "brief": "Puigdemont volverá a España el 12 de diciembre tras la amnistía: \"El Estado ha fracasado, regresaré a mi país, a Cataluña, sin pedir perdón\".",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -151,18 +267,18 @@
       "path": "/es/entity/puigdemont-volvera-a-espana-el-12-de-diciembre-tras-la-amnistia-el-estado-ha-fra/"
     },
     {
-      "id": "now-cluster-españa-euskadi + hipotecas",
+      "id": "moving-cluster-españa-euskadi + hipotecas",
       "title": "La firma de hipotecas se desploma un 19% en Euskadi y confirma la desaceleración del mercado",
       "brief": "La firma de hipotecas se desploma un 19% en Euskadi y confirma la desaceleración del mercado.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
