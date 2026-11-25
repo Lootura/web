@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-25T06:00:48.330Z",
+  "updatedAt": "2026-11-25T07:00:48.063Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "401,622 links analyzed",
-  "dayScanLabel": "8,297 links scanned in 24h",
+  "ambientPulseLabel": "402,454 links analyzed",
+  "dayScanLabel": "8,304 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -25,10 +25,10 @@
     "mode": "now",
     "state": "rising",
     "stateLabel": "Rising",
-    "strength": 32,
+    "strength": 31,
     "sourceCount": 5,
     "itemCount": 11,
-    "freshness": "2h fresh",
+    "freshness": "3h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -100,10 +100,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 32,
+      "strength": 31,
       "sourceCount": 5,
       "itemCount": 11,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -174,10 +174,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 22,
+      "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 86,
@@ -222,6 +222,53 @@
       "path": "/us/entity/thomas-markle-indicted-in-us-on-charges-of-possession-of-child-sexual-abuse-mate/"
     },
     {
+      "id": "now-cluster-united states-mississippi + kids",
+      "title": "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
+      "brief": "4 adults and 2 kids are missing after plane crashes off Mississippi coast.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NBC News"
+      ],
+      "images": [
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2025/08/27/27400870-d258-4de1-a176-24a5dfcf1773/thumbnail/1200x630/955e91a8c731bce77e1f20d1994d4773/gettyimages-1889004791.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261124-coast-guard-mississippi-mn-1950-bfed00.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Small plane crash off Mississippi kills 6, including 2 children, Coast Guard says",
+          "source": "CBS News",
+          "publishedAt": "2026-11-25T06:38:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/small-plane-crash-off-mississippi-6-dead-2-children/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/08/27/27400870-d258-4de1-a176-24a5dfcf1773/thumbnail/1200x630/955e91a8c731bce77e1f20d1994d4773/gettyimages-1889004791.jpg"
+        },
+        {
+          "title": "4 adults and 2 kids are missing after plane crashes off Mississippi coast",
+          "source": "NBC News",
+          "publishedAt": "2026-11-25T00:57:49.199Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/4-adults-2-kids-are-missing-plane-crashes-mississippi-coast-rcna611218?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261124-coast-guard-mississippi-mn-1950-bfed00.jpg"
+        }
+      ],
+      "path": "/us/entity/4-adults-and-2-kids-are-missing-after-plane-crashes-off-mississippi-coast/"
+    },
+    {
       "id": "now-cluster-united states-iowa + army",
       "title": "Army’s Iowa Ammunition Plant Explosion on Schedule for Wednesday Morning",
       "brief": "Army’s Iowa Ammunition Plant Explosion on Schedule for Wednesday Morning.",
@@ -230,13 +277,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 10,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 79,
+      "alertScore": 73,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -286,10 +333,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 9,
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 73,
@@ -332,6 +379,53 @@
       "path": "/us/entity/storms-threaten-thanksgiving-travel-macy-s-thanksgiving-day-parade/"
     },
     {
+      "id": "moving-cluster-united states-fort + hood",
+      "title": "Fort Hood shooter Nidal Hasan will petition to delay his execution, court documents show",
+      "brief": "Fort Hood shooter Nidal Hasan will petition to delay his execution, court documents show.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "5h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NBC News Politics"
+      ],
+      "images": [
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/10/09/5631ea91-b62a-434f-a1e6-e60f97c99392/thumbnail/1200x630/e7323eef50fb25df78fb36a9bda8ce15/gettyimages-98350519.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2021-07/nebula-cms-fallback-logos-breaking-4ad6c4.png"
+      ],
+      "evidence": [
+        {
+          "title": "Fort Hood shooter Nidal Hasan will petition to delay his execution, court documents show",
+          "source": "CBS News",
+          "publishedAt": "2026-11-25T01:38:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/nidal-hasan-delay-execution-petition/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/10/09/5631ea91-b62a-434f-a1e6-e60f97c99392/thumbnail/1200x630/e7323eef50fb25df78fb36a9bda8ce15/gettyimages-98350519.jpg"
+        },
+        {
+          "title": "Fort Hood mass shooter makes legal move to stop Pentagon’s firing squad execution",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-25T00:28:52.560Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/fort-hood-nidal-hasan-firing-squad-execution-rcna611217?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2021-07/nebula-cms-fallback-logos-breaking-4ad6c4.png"
+        }
+      ],
+      "path": "/us/entity/fort-hood-shooter-nidal-hasan-will-petition-to-delay-his-execution-court-documen/"
+    },
+    {
       "id": "moving-cluster-united states-charges + chinese",
       "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiracy to steal trade secrets, bank fraud",
       "brief": "U.S. jury finds Chinese tech giant Huawei guilty of conspiracy to steal trade secrets, bank fraud.",
@@ -340,10 +434,10 @@
       "mode": "moving",
       "state": "cooling",
       "stateLabel": "Cooling",
-      "strength": 6,
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "9h fresh",
+      "freshness": "10h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 64,
@@ -377,53 +471,6 @@
         }
       ],
       "path": "/us/entity/u-s-jury-finds-chinese-tech-giant-huawei-guilty-of-conspiracy-to-steal-trade-sec/"
-    },
-    {
-      "id": "now-cluster-united states-fort + hood",
-      "title": "Fort Hood shooter Nidal Hasan will petition to delay his execution, court documents show",
-      "brief": "Fort Hood shooter Nidal Hasan will petition to delay his execution, court documents show.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 60,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "NBC News Politics"
-      ],
-      "images": [
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/10/09/5631ea91-b62a-434f-a1e6-e60f97c99392/thumbnail/1200x630/e7323eef50fb25df78fb36a9bda8ce15/gettyimages-98350519.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2021-07/nebula-cms-fallback-logos-breaking-4ad6c4.png"
-      ],
-      "evidence": [
-        {
-          "title": "Fort Hood shooter Nidal Hasan will petition to delay his execution, court documents show",
-          "source": "CBS News",
-          "publishedAt": "2026-11-25T01:38:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/nidal-hasan-delay-execution-petition/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/10/09/5631ea91-b62a-434f-a1e6-e60f97c99392/thumbnail/1200x630/e7323eef50fb25df78fb36a9bda8ce15/gettyimages-98350519.jpg"
-        },
-        {
-          "title": "Fort Hood mass shooter makes legal move to stop Pentagon’s firing squad execution",
-          "source": "NBC News Politics",
-          "publishedAt": "2026-11-25T00:28:52.560Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/fort-hood-nidal-hasan-firing-squad-execution-rcna611217?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2021-07/nebula-cms-fallback-logos-breaking-4ad6c4.png"
-        }
-      ],
-      "path": "/us/entity/fort-hood-shooter-nidal-hasan-will-petition-to-delay-his-execution-court-documen/"
     }
   ]
 }
