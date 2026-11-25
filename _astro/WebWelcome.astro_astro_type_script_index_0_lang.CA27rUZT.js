@@ -1,0 +1,1 @@
+import{t as e}from"./web-welcome.BG2sp6t7.js";e();

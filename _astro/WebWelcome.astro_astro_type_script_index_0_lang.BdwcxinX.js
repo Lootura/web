@@ -1,1 +1,0 @@
-import{t as e}from"./web-welcome.C7atbtzn.js";e();

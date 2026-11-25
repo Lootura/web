@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-25T16:00:47.750Z",
+  "updatedAt": "2026-11-25T17:00:47.532Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "309.236 enlaces analizados",
-  "dayScanLabel": "4.181 enlaces escaneados en 24h",
+  "ambientPulseLabel": "309.660 enlaces analizados",
+  "dayScanLabel": "4.190 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -27,10 +27,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 25,
+      "strength": 19,
       "sourceCount": 4,
       "itemCount": 4,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 99,
@@ -85,9 +85,9 @@
       "path": "/es/entity/la-audiencia-nacional-revoca-el-tercer-grado-a-parot-y-pide-que-las-victimas-pue/"
     },
     {
-      "id": "now-cluster-españa-nuevos + trump",
-      "title": "EEUU anuncia nuevos aranceles a la UE, China o Japón tras una investigación formal sobre presuntos subsidios y exceso de capacidad industrial",
-      "brief": "EEUU anuncia nuevos aranceles a la UE, China o Japón tras una investigación formal sobre presuntos subsidios y exceso de capacidad industrial.",
+      "id": "now-cluster-españa-euros + millones",
+      "title": "El refuerzo de la red eléctrica vasca activará 18.000 empleos y 1.269 millones de euros hasta 2030",
+      "brief": "El refuerzo de la red eléctrica vasca activará 18.000 empleos y 1.269 millones de euros hasta 2030.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -107,28 +107,74 @@
       "isHotNews": false,
       "sources": [
         "El Correo",
-        "El Mundo"
+        "El Diario Vasco"
       ],
       "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956165979911.jpg"
+        "https://s2.ppllstatics.com/diariovasco/www/multimedia/economia/2026/11/25/1500723146-ke4G-U4053211889166H-1200x840@Diario%20Vasco.jpg"
       ],
       "evidence": [
         {
-          "title": "Trump reabre la guerra comercial: propone nuevos aranceles a 14 socios, incluidos China y la UE",
+          "title": "El Corte Inglés acelera sus inversiones a 5.000 millones de euros hasta 2032",
           "source": "El Correo",
-          "publishedAt": "2026-11-25T15:16:19.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/trump-reabre-guerra-comercial-propone-nuevos-aranceles-20261125161619-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-25T16:42:50.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/empresas/corte-ingles-acelera-inversiones-5000-millones-euros-20261125160057-ntrc.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
         {
-          "title": "EEUU anuncia nuevos aranceles a la UE, China o Japón tras una investigación formal sobre presuntos subsidios y exceso de capacidad industrial",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-25T15:13:25.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/25/6b06ef89e4d4d8ad388b45b2.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956165979911.jpg"
+          "title": "El refuerzo de la red eléctrica vasca activará 18.000 empleos y 1.269 millones de euros hasta 2030",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-25T12:18:15.000Z",
+          "sourceUrl": "https://www.diariovasco.com/economia/refuerzo-red-electrica-movilizara-18000-empleos-euskadi-inversion-iberdrola-20261125131210-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/economia/2026/11/25/1500723146-ke4G-U4053211889166H-1200x840@Diario%20Vasco.jpg"
         }
       ],
-      "path": "/es/entity/eeuu-anuncia-nuevos-aranceles-a-la-ue-china-o-japon-tras-una-investigacion-forma/"
+      "path": "/es/entity/el-refuerzo-de-la-red-electrica-vasca-activara-18-000-empleos-y-1-269-millones-d/"
+    },
+    {
+      "id": "now-cluster-españa-nacional + ejercito",
+      "title": "El Ejército de EEUU detona la reserva nacional de azida de plomo en Iowa pese al temor de una nube tóxica",
+      "brief": "El Ejército de EEUU detona la reserva nacional de azida de plomo en Iowa pese al temor de una nube tóxica.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://e01-phantom-elmundo.uecdn.es/5b87223f8e00c5f73812047d222794a7/crop/96x0/1632x1024/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/25/17956204395352.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El Ejército de Estados Unidos detona sus reservas de un compuesto explosivo en Iowa",
+          "source": "El País",
+          "publishedAt": "2026-11-25T16:20:44.000Z",
+          "sourceUrl": "https://elpais.com/us/2026-11-25/el-ejercito-de-estados-unidos-se-prepara-para-detonar-sus-reservas-de-un-compuesto-explosivo-en-iowa.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "El Ejército de EEUU detona la reserva nacional de azida de plomo en Iowa pese al temor de una nube tóxica",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-25T15:32:55.000Z",
+          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/25/6b06fe32e9cf4a2a398b458e.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/5b87223f8e00c5f73812047d222794a7/crop/96x0/1632x1024/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/25/17956204395352.jpg"
+        }
+      ],
+      "path": "/es/entity/el-ejercito-de-eeuu-detona-la-reserva-nacional-de-azida-de-plomo-en-iowa-pese-al/"
     },
     {
       "id": "now-cluster-españa-silvia + intxaurrondo",
@@ -160,7 +206,7 @@
         {
           "title": "El abrupto final de la entrevista de Silvia Intxaurrondo a Pedro Sánchez: «Disculpe, señor Sánchez...»",
           "source": "El Correo",
-          "publishedAt": "2026-11-25T14:43:09.000Z",
+          "publishedAt": "2026-11-25T16:00:49.000Z",
           "sourceUrl": "https://www.elcorreo.com/gente-estilo/abrupto-final-entrevista-silvia-intxaurrondo-pedro-sanchez-20261125153309-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
@@ -175,9 +221,9 @@
       "path": "/es/entity/silvia-intxaurrondo-avisa-a-feijoo-de-lo-que-le-supone-no-acudir-a-su-entrevista/"
     },
     {
-      "id": "now-cluster-españa-piso + mujeres",
-      "title": "El PP apela a la «dignidad» de las mujeres para frenar al PSOE en las urnas desde el piso de Jésica y el Parador de Teruel",
-      "brief": "El PP apela a la «dignidad» de las mujeres para frenar al PSOE en las urnas desde el piso de Jésica y el Parador de Teruel.",
+      "id": "now-cluster-españa-nuevos + trump",
+      "title": "Trump reabre la guerra comercial: propone nuevos aranceles a 14 socios, incluidos China y la Unión Europea",
+      "brief": "Trump reabre la guerra comercial: propone nuevos aranceles a 14 socios, incluidos China y la Unión Europea.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -186,7 +232,54 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo"
+      ],
+      "images": [
+        "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/25/1509465751-Ru83PXWMYiop8f5Ju608y6H-1200x840@RC.jpg",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956165979911.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Trump reabre la guerra comercial: propone nuevos aranceles a 14 socios, incluidos China y la Unión Europea",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T15:16:19.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/trump-reabre-guerra-comercial-propone-nuevos-aranceles-20261125161619-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/25/1509465751-Ru83PXWMYiop8f5Ju608y6H-1200x840@RC.jpg"
+        },
+        {
+          "title": "EEUU anuncia nuevos aranceles a la UE, China o Japón tras una investigación formal sobre presuntos subsidios y exceso de capacidad industrial",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-25T15:13:25.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/2026/11/25/6b06ef89e4d4d8ad388b45b2.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956165979911.jpg"
+        }
+      ],
+      "path": "/es/entity/trump-reabre-la-guerra-comercial-propone-nuevos-aranceles-a-14-socios-incluidos/"
+    },
+    {
+      "id": "moving-cluster-españa-piso + mujeres",
+      "title": "El PP apela a la «dignidad» de las mujeres para frenar al PSOE en las urnas desde el piso de Jésica y el Parador de Teruel",
+      "brief": "El PP apela a la «dignidad» de las mujeres para frenar al PSOE en las urnas desde el piso de Jésica y el Parador de Teruel.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -222,50 +315,6 @@
       "path": "/es/entity/el-pp-apela-a-la-dignidad-de-las-mujeres-para-frenar-al-psoe-en-las-urnas-desde/"
     },
     {
-      "id": "now-cluster-españa-millones + euskadi",
-      "title": "El refuerzo de la red eléctrica requerirá 1.300 millones en inversión y movilizará 18.000 empleos en Euskadi",
-      "brief": "El refuerzo de la red eléctrica requerirá 1.300 millones en inversión y movilizará 18.000 empleos en Euskadi.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "El refuerzo de la red eléctrica requerirá 1.300 millones en inversión y movilizará 18.000 empleos en Euskadi",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-25T14:14:48.000Z",
-          "sourceUrl": "https://www.diariovasco.com/economia/refuerzo-red-electrica-movilizara-18000-empleos-euskadi-inversion-iberdrola-20261125131210-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Euskadi recibirá 1.270 millones para ampliar su red eléctrica y dar respuesta a 117 solicitudes de empresas",
-          "source": "El Correo",
-          "publishedAt": "2026-11-25T13:05:37.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/euskadi-recibira-1270-millones-ampliar-red-electrica-20261125133432-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/el-refuerzo-de-la-red-electrica-requerira-1-300-millones-en-inversion-y-moviliza/"
-    },
-    {
       "id": "moving-cluster-españa-llega + trump",
       "title": "Kilmar Abrego García, víctima de las deportaciones masivas de Trump, abandona Estados Unidos y llega a España",
       "brief": "Kilmar Abrego García, víctima de las deportaciones masivas de Trump, abandona Estados Unidos y llega a España.",
@@ -274,13 +323,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -318,10 +367,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -355,52 +404,6 @@
         }
       ],
       "path": "/es/entity/la-guardia-civil-investiga-el-asesinato-a-navajazos-de-una-mujer-de-32-anos-en-e/"
-    },
-    {
-      "id": "moving-cluster-españa-euskadi + hipotecas",
-      "title": "La firma de hipotecas se desploma un 19% en Euskadi y confirma la desaceleración del mercado",
-      "brief": "La firma de hipotecas se desploma un 19% en Euskadi y confirma la desaceleración del mercado.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "7h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [
-        "https://s3.ppllstatics.com/elcorreo/www/multimedia/economia/2026/11/25/1516446762-Rfrr4gNm3d2PEvlqA7IeG6K-1200x840@El%20Correo.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Gipuzkoa esquiva el desplome de las hipotecas en Euskadi y crece un 5,7%",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-25T09:28:48.000Z",
-          "sourceUrl": "https://www.diariovasco.com/economia/vivienda/gipuzkoa-esquiva-desplome-hipotecas-euskadi-crece-20261125102847-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "La firma de hipotecas se desploma un 19% en Euskadi y confirma la desaceleración del mercado",
-          "source": "El Correo",
-          "publishedAt": "2026-11-25T08:43:52.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/firma-hipotecas-desploma-euskadi-confirma-desaceleracion-mercado-20261125094314-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/economia/2026/11/25/1516446762-Rfrr4gNm3d2PEvlqA7IeG6K-1200x840@El%20Correo.jpg"
-        }
-      ],
-      "path": "/es/entity/la-firma-de-hipotecas-se-desploma-un-19-en-euskadi-y-confirma-la-desaceleracion/"
     }
   ]
 }
