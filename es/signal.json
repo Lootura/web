@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-25T17:00:47.532Z",
-  "pulseLabel": "Último análisis · hace 1 hora",
-  "ambientPulseLabel": "309.660 enlaces analizados",
-  "dayScanLabel": "4.190 enlaces escaneados en 24h",
+  "updatedAt": "2026-11-25T18:05:48.280Z",
+  "pulseLabel": "Último análisis · este minuto",
+  "ambientPulseLabel": "310.082 enlaces analizados",
+  "dayScanLabel": "4.200 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,21 +19,77 @@
   "topAlert": null,
   "signals": [
     {
+      "id": "now-cluster-españa-guardia + civil",
+      "title": "La Guardia Civil levanta un parque infantil y descubre debajo un búnker con rampa para coches y 1.954 plantas de marihuana",
+      "brief": "La Guardia Civil levanta un parque infantil y descubre debajo un búnker con rampa para coches y 1.954 plantas de marihuana.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Diario Vasco",
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/P3DXT2SG7BMIVII3NZNI2OZBV4.jpg?auth=a05b20d6f408ce42fe9f886c147be79b94e6c8539bef330b4db7aff579db81b2",
+        "https://e01-phantom-elmundo.uecdn.es/497bc791feaebe79346283bf702f40b7/crop/21x0/1127x737/f/webp/assets/multimedia/imagenes/2026/11/25/17956117733036.png"
+      ],
+      "evidence": [
+        {
+          "title": "La Guardia Civil levanta un parque infantil y descubre debajo un búnker con rampa para coches y 1.954 plantas de marihuana",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-25T17:17:41.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/guardia-civil-levanta-parque-infantil-granada-descubre-bunker-coches-marihuana-20261125181652-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "La Guardia Civil investiga como violencia machista el asesinato de una mujer de 32 años en Murcia",
+          "source": "El País",
+          "publishedAt": "2026-11-25T13:09:40.000Z",
+          "sourceUrl": "https://elpais.com/sociedad/2026-11-25/la-guardia-civil-investiga-como-violencia-machista-el-asesinato-de-una-mujer-de-32-anos-en-murcia.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/P3DXT2SG7BMIVII3NZNI2OZBV4.jpg?auth=a05b20d6f408ce42fe9f886c147be79b94e6c8539bef330b4db7aff579db81b2"
+        },
+        {
+          "title": "La Guardia Civil investiga el asesinato a navajazos de una mujer de 32 años en el municipio de Bullas (Murcia)",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-25T13:05:11.000Z",
+          "sourceUrl": "https://www.elmundo.es/murcia/2026/11/25/6b06dcb021efa05d2c8b4570.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/497bc791feaebe79346283bf702f40b7/crop/21x0/1127x737/f/webp/assets/multimedia/imagenes/2026/11/25/17956117733036.png"
+        }
+      ],
+      "path": "/es/entity/la-guardia-civil-levanta-un-parque-infantil-y-descubre-debajo-un-bunker-con-ramp/"
+    },
+    {
       "id": "moving-cluster-españa-audiencia + nacional",
       "title": "La Audiencia Nacional revoca el tercer grado a Parot y pide que las víctimas puedan recurrir las semilibertades que concede el Gobierno Vasco",
       "brief": "La Audiencia Nacional revoca el tercer grado a Parot y pide que las víctimas puedan recurrir las semilibertades que concede el Gobierno Vasco.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 19,
-      "sourceCount": 4,
-      "itemCount": 4,
-      "freshness": "3h fresca",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 16,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 99,
+      "alertScore": 86,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -43,14 +99,12 @@
       "sources": [
         "El País",
         "El Correo",
-        "El Diario Vasco",
-        "El Mundo"
+        "El Diario Vasco"
       ],
       "images": [
         "https://imagenes.elpais.com/resizer/v2/BYPG7EBNMFDJLB22DHLOJ3GSNM.jpg?auth=3f4e5c8eb6a6bfd90ae602716452b16cb618b1f4811b87411fe6892939d0718e",
         "https://s3.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/25/parot1518925964-RKRYDLH6LqpcDfslgmqLyEJ-1200x840@El%20Correo.jpg",
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/25/1517072861p-RGdmAetfEP1o8pDaSwEPs2N-1200x840@Diario%20Vasco.jpg",
-        "https://e01-phantom-elmundo.uecdn.es/caa9847d3f7fa2ebf6a1145df0ebae33/f/webp/assets/multimedia/imagenes/2025/06/23/17506740339329.jpg"
+        "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/25/1517072861p-RGdmAetfEP1o8pDaSwEPs2N-1200x840@Diario%20Vasco.jpg"
       ],
       "evidence": [
         {
@@ -73,62 +127,9 @@
           "publishedAt": "2026-11-25T12:21:06.000Z",
           "sourceUrl": "https://www.diariovasco.com/politica/audiencia-nacional-revoca-tercer-grado-parot-pide-familias-pidan-revocar-semilibertades-gobierno-vasco-20261125131938-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/25/1517072861p-RGdmAetfEP1o8pDaSwEPs2N-1200x840@Diario%20Vasco.jpg"
-        },
-        {
-          "title": "La Audiencia Nacional revoca el tercer grado al etarra Henri Parot y plantea una reforma legal para que las víctimas puedan recurrir",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-25T12:12:10.000Z",
-          "sourceUrl": "https://www.elmundo.es/espana/2026/11/25/6b06cf7a21efa0f96d8b457e.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/caa9847d3f7fa2ebf6a1145df0ebae33/f/webp/assets/multimedia/imagenes/2025/06/23/17506740339329.jpg"
         }
       ],
       "path": "/es/entity/la-audiencia-nacional-revoca-el-tercer-grado-a-parot-y-pide-que-las-victimas-pue/"
-    },
-    {
-      "id": "now-cluster-españa-euros + millones",
-      "title": "El refuerzo de la red eléctrica vasca activará 18.000 empleos y 1.269 millones de euros hasta 2030",
-      "brief": "El refuerzo de la red eléctrica vasca activará 18.000 empleos y 1.269 millones de euros hasta 2030.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/economia/2026/11/25/1500723146-ke4G-U4053211889166H-1200x840@Diario%20Vasco.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El Corte Inglés acelera sus inversiones a 5.000 millones de euros hasta 2032",
-          "source": "El Correo",
-          "publishedAt": "2026-11-25T16:42:50.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/empresas/corte-ingles-acelera-inversiones-5000-millones-euros-20261125160057-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "El refuerzo de la red eléctrica vasca activará 18.000 empleos y 1.269 millones de euros hasta 2030",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-25T12:18:15.000Z",
-          "sourceUrl": "https://www.diariovasco.com/economia/refuerzo-red-electrica-movilizara-18000-empleos-euskadi-inversion-iberdrola-20261125131210-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/economia/2026/11/25/1500723146-ke4G-U4053211889166H-1200x840@Diario%20Vasco.jpg"
-        }
-      ],
-      "path": "/es/entity/el-refuerzo-de-la-red-electrica-vasca-activara-18-000-empleos-y-1-269-millones-d/"
     },
     {
       "id": "now-cluster-españa-nacional + ejercito",
@@ -162,7 +163,7 @@
         {
           "title": "El Ejército de Estados Unidos detona sus reservas de un compuesto explosivo en Iowa",
           "source": "El País",
-          "publishedAt": "2026-11-25T16:20:44.000Z",
+          "publishedAt": "2026-11-25T17:33:59.000Z",
           "sourceUrl": "https://elpais.com/us/2026-11-25/el-ejercito-de-estados-unidos-se-prepara-para-detonar-sus-reservas-de-un-compuesto-explosivo-en-iowa.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
@@ -177,6 +178,52 @@
       "path": "/es/entity/el-ejercito-de-eeuu-detona-la-reserva-nacional-de-azida-de-plomo-en-iowa-pese-al/"
     },
     {
+      "id": "now-cluster-españa-gobierno + ante",
+      "title": "El Gobierno canario declara la emergencia sanitaria en El Hierro ante la llegada «masiva» de migrantes a la isla",
+      "brief": "El Gobierno canario declara la emergencia sanitaria en El Hierro ante la llegada «masiva» de migrantes a la isla.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/YWJIK47M7RFV7OK3FMJ6O2G3JM.jpg?auth=cc1d6f3043cbf2af604a2311a66f29c18b9f06b0ad21352f45582e08fc774214"
+      ],
+      "evidence": [
+        {
+          "title": "El Gobierno canario declara la emergencia sanitaria en El Hierro ante la llegada «masiva» de migrantes a la isla",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T17:16:53.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/gobierno-canario-declara-emergencia-sanitaria-hierro-ante-20261125181048-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Canarias declara la emergencia en El Hierro y pide el despliegue de la UME",
+          "source": "El País",
+          "publishedAt": "2026-11-25T16:59:45.000Z",
+          "sourceUrl": "https://elpais.com/espana/2026-11-25/sin-pausa-en-la-ruta-canaria-190-personas-mas-llegan-en-dos-cayucos-a-el-hierro.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/YWJIK47M7RFV7OK3FMJ6O2G3JM.jpg?auth=cc1d6f3043cbf2af604a2311a66f29c18b9f06b0ad21352f45582e08fc774214"
+        }
+      ],
+      "path": "/es/entity/el-gobierno-canario-declara-la-emergencia-sanitaria-en-el-hierro-ante-la-llegada/"
+    },
+    {
       "id": "now-cluster-españa-silvia + intxaurrondo",
       "title": "Silvia Intxaurrondo avisa a Feijóo de lo que le supone no acudir a su entrevista: «Esto es lo que se pierde»",
       "brief": "Silvia Intxaurrondo avisa a Feijóo de lo que le supone no acudir a su entrevista: «Esto es lo que se pierde».",
@@ -188,7 +235,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -221,21 +268,21 @@
       "path": "/es/entity/silvia-intxaurrondo-avisa-a-feijoo-de-lo-que-le-supone-no-acudir-a-su-entrevista/"
     },
     {
-      "id": "now-cluster-españa-nuevos + trump",
+      "id": "moving-cluster-españa-nuevos + trump",
       "title": "Trump reabre la guerra comercial: propone nuevos aranceles a 14 socios, incluidos China y la Unión Europea",
       "brief": "Trump reabre la guerra comercial: propone nuevos aranceles a 14 socios, incluidos China y la Unión Europea.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -268,6 +315,53 @@
       "path": "/es/entity/trump-reabre-la-guerra-comercial-propone-nuevos-aranceles-a-14-socios-incluidos/"
     },
     {
+      "id": "moving-cluster-españa-euros + millones",
+      "title": "El refuerzo de la red eléctrica vasca activará 18.000 empleos y 1.269 millones de euros hasta 2030",
+      "brief": "El refuerzo de la red eléctrica vasca activará 18.000 empleos y 1.269 millones de euros hasta 2030.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "3h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/25/1513276170-RdfUqkDER8fMg5nsj9ysJjN-1200x840@RC.jpg",
+        "https://s2.ppllstatics.com/diariovasco/www/multimedia/economia/2026/11/25/1500723146-ke4G-U4053211889166H-1200x840@Diario%20Vasco.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El Corte Inglés acelera sus inversiones a 5.000 millones de euros hasta 2032",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T15:00:57.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/empresas/corte-ingles-acelera-inversiones-5000-millones-euros-20261125160057-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/25/1513276170-RdfUqkDER8fMg5nsj9ysJjN-1200x840@RC.jpg"
+        },
+        {
+          "title": "El refuerzo de la red eléctrica vasca activará 18.000 empleos y 1.269 millones de euros hasta 2030",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-25T12:18:15.000Z",
+          "sourceUrl": "https://www.diariovasco.com/economia/refuerzo-red-electrica-movilizara-18000-empleos-euskadi-inversion-iberdrola-20261125131210-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/economia/2026/11/25/1500723146-ke4G-U4053211889166H-1200x840@Diario%20Vasco.jpg"
+        }
+      ],
+      "path": "/es/entity/el-refuerzo-de-la-red-electrica-vasca-activara-18-000-empleos-y-1-269-millones-d/"
+    },
+    {
       "id": "moving-cluster-españa-piso + mujeres",
       "title": "El PP apela a la «dignidad» de las mujeres para frenar al PSOE en las urnas desde el piso de Jésica y el Parador de Teruel",
       "brief": "El PP apela a la «dignidad» de las mujeres para frenar al PSOE en las urnas desde el piso de Jésica y el Parador de Teruel.",
@@ -276,13 +370,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -315,24 +409,23 @@
       "path": "/es/entity/el-pp-apela-a-la-dignidad-de-las-mujeres-para-frenar-al-psoe-en-las-urnas-desde/"
     },
     {
-      "id": "moving-cluster-españa-llega + trump",
+      "id": "fading-cluster-españa-trump + llega",
       "title": "Kilmar Abrego García, víctima de las deportaciones masivas de Trump, abandona Estados Unidos y llega a España",
       "brief": "Kilmar Abrego García, víctima de las deportaciones masivas de Trump, abandona Estados Unidos y llega a España.",
       "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 14,
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 52,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
@@ -357,53 +450,6 @@
         }
       ],
       "path": "/es/entity/kilmar-abrego-garcia-victima-de-las-deportaciones-masivas-de-trump-abandona-esta/"
-    },
-    {
-      "id": "moving-cluster-españa-guardia + civil",
-      "title": "La Guardia Civil investiga el asesinato a navajazos de una mujer de 32 años en el municipio de Bullas (Murcia)",
-      "brief": "La Guardia Civil investiga el asesinato a navajazos de una mujer de 32 años en el municipio de Bullas (Murcia).",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/P3DXT2SG7BMIVII3NZNI2OZBV4.jpg?auth=a05b20d6f408ce42fe9f886c147be79b94e6c8539bef330b4db7aff579db81b2",
-        "https://e01-phantom-elmundo.uecdn.es/497bc791feaebe79346283bf702f40b7/crop/21x0/1127x737/f/webp/assets/multimedia/imagenes/2026/11/25/17956117733036.png"
-      ],
-      "evidence": [
-        {
-          "title": "La Guardia Civil investiga como violencia machista el asesinato de una mujer de 32 años en Murcia",
-          "source": "El País",
-          "publishedAt": "2026-11-25T13:09:40.000Z",
-          "sourceUrl": "https://elpais.com/sociedad/2026-11-25/la-guardia-civil-investiga-como-violencia-machista-el-asesinato-de-una-mujer-de-32-anos-en-murcia.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/P3DXT2SG7BMIVII3NZNI2OZBV4.jpg?auth=a05b20d6f408ce42fe9f886c147be79b94e6c8539bef330b4db7aff579db81b2"
-        },
-        {
-          "title": "La Guardia Civil investiga el asesinato a navajazos de una mujer de 32 años en el municipio de Bullas (Murcia)",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-25T13:05:11.000Z",
-          "sourceUrl": "https://www.elmundo.es/murcia/2026/11/25/6b06dcb021efa05d2c8b4570.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/497bc791feaebe79346283bf702f40b7/crop/21x0/1127x737/f/webp/assets/multimedia/imagenes/2026/11/25/17956117733036.png"
-        }
-      ],
-      "path": "/es/entity/la-guardia-civil-investiga-el-asesinato-a-navajazos-de-una-mujer-de-32-anos-en-e/"
     }
   ]
 }
