@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-26T06:00:47.433Z",
+  "updatedAt": "2026-11-26T07:00:47.461Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "313.449 enlaces analizados",
-  "dayScanLabel": "4.213 enlaces escaneados en 24h",
+  "ambientPulseLabel": "313.869 enlaces analizados",
+  "dayScanLabel": "4.209 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,21 +19,21 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "moving-cluster-españa-pedro + sanchez",
-      "title": "Dos horas con Plex: Sánchez sueña con ser juez en el ‘GTA VI’ y Feijóo tiembla en un coche a 247 kilómetros por hora",
-      "brief": "Dos horas con Plex: Sánchez sueña con ser juez en el ‘GTA VI’ y Feijóo tiembla en un coche a 247 kilómetros por hora.",
+      "id": "now-cluster-españa-cargado + ibiza",
+      "title": "Muere un marinero tras hundirse un barco cargado con alrededor de 1,2 millones de litros de combustible cerca de Ibiza",
+      "brief": "Muere un marinero tras hundirse un barco cargado con alrededor de 1,2 millones de litros de combustible cerca de Ibiza.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 7,
-      "sourceCount": 2,
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 23,
+      "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "8h fresca",
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 67,
+      "alertScore": 92,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -41,14 +41,78 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El País",
-        "El Correo"
+        "El Correo",
+        "El Mundo",
+        "El País"
       ],
       "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17956738447911.jpg",
+        "https://imagenes.elpais.com/resizer/v2/VR7NBIOE4NCCZE6QOKWCVHPNPY.jpg?auth=190bff7ca5a9c6324ef5590b7a18f29143d95b123999894b4a771eafe08ba359"
+      ],
+      "evidence": [
+        {
+          "title": "Un muerto en el hundimiento de un barco cargado de gasoil junto a la costa de Ibiza",
+          "source": "El Correo",
+          "publishedAt": "2026-11-26T06:38:42.000Z",
+          "sourceUrl": "https://www.elcorreo.com/sociedad/muerto-hundimiento-barco-cargado-gasoil-junto-costa-20261126073828-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Muere un marinero tras hundirse un barco cargado con alrededor de 1,2 millones de litros de combustible cerca de Ibiza",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-26T06:18:25.000Z",
+          "sourceUrl": "https://www.elmundo.es/baleares/ibiza/2026/11/26/6b07cf2ee4d4d8cb118b4592.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17956738447911.jpg"
+        },
+        {
+          "title": "Muere un marinero en el hundimiento de un buque cargado de combustible cerca de Ibiza",
+          "source": "El País",
+          "publishedAt": "2026-11-26T06:08:59.000Z",
+          "sourceUrl": "https://elpais.com/espana/2026-11-26/muere-un-marinero-en-el-hundimiento-de-un-buque-cargado-de-combustible-cerca-de-ibiza.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/VR7NBIOE4NCCZE6QOKWCVHPNPY.jpg?auth=190bff7ca5a9c6324ef5590b7a18f29143d95b123999894b4a771eafe08ba359"
+        }
+      ],
+      "path": "/es/entity/muere-un-marinero-tras-hundirse-un-barco-cargado-con-alrededor-de-1-2-millones-d/"
+    },
+    {
+      "id": "now-cluster-españa-pedro + sanchez",
+      "title": "Dos horas con Plex: Sánchez sueña con ser juez en el ‘GTA VI’ y Feijóo tiembla en un coche a 247 kilómetros por hora",
+      "brief": "Dos horas con Plex: Sánchez sueña con ser juez en el ‘GTA VI’ y Feijóo tiembla en un coche a 247 kilómetros por hora.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 17,
+      "sourceCount": 2,
+      "itemCount": 4,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 83,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://s3.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/26/trompos-plex-porsche-kq1-U40546731909YP-1200x840@El%20Correo.jpg",
         "https://imagenes.elpais.com/resizer/v2/QWXGB4G4RJBNDLWKG4JVRSKDFY.jpg?auth=70c9019732c14ec9fe21da9fbf2277b446ac31075d69c41628a9beb92bda2b57",
         "https://s3.ppllstatics.com/elcorreo/www/multimedia/gente-estilo/2026/11/25/sanchez-plex-kBkD-U40541414262S6B-1200x840@El%20Correo.jpg"
       ],
       "evidence": [
+        {
+          "title": "Trompos, a 247 km/h en el Jarama... La cara de susto de Feijóo a bordo del Porsche de Plex",
+          "source": "El Correo",
+          "publishedAt": "2026-11-26T06:50:47.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/trompos-247-kmh-jarama-anuel-fondo-cara-20261126075046-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/26/trompos-plex-porsche-kq1-U40546731909YP-1200x840@El%20Correo.jpg"
+        },
         {
           "title": "Dos horas con Plex: Sánchez sueña con ser juez en el ‘GTA VI’ y Feijóo tiembla en un coche a 247 kilómetros por hora",
           "source": "El País",
@@ -74,21 +138,21 @@
       "path": "/es/entity/dos-horas-con-plex-sanchez-suena-con-ser-juez-en-el-gta-vi-y-feijoo-tiembla-en-u/"
     },
     {
-      "id": "moving-cluster-españa-lleva + crisis",
-      "title": "Oficial: el Málaga destituye a Loren Juarros como primera medida para atajar su crisis deportiva | Diario Sur",
-      "brief": "Oficial: el Málaga destituye a Loren Juarros como primera medida para atajar su crisis deportiva | Diario Sur.",
+      "id": "now-cluster-españa-dario + debe",
+      "title": "Apoyo unánime de Barriola, Titín III y Errasti a Darío: «Debe estar en el Parejas»",
+      "brief": "Apoyo unánime de Barriola, Titín III y Errasti a Darío: «Debe estar en el Parejas».",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "11h fresca",
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 64,
+      "alertScore": 76,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -98,184 +162,41 @@
         "El Correo",
         "El Diario Vasco"
       ],
-      "images": [
-        "https://s1.ppllstatics.com/elcorreo/www/multimedia/athletic/2026/11/25/malaga-loren-juarros-RiaHf90Wk7FRGdLUQk3U5uK-1200x840@El%20Correo.jpg",
-        "https://s3.ppllstatics.com/diariosur/www/multimedia/malagacf/2026/11/25/pricipal-RiyfF3Vd6biLQhtRCk66j2N-1200x840@Diario%20Sur.jpg"
-      ],
+      "images": [],
       "evidence": [
         {
-          "title": "La crisis deportiva del Málaga se lleva por delante a Loren",
+          "title": "Polémica en la pelota profesional: «Darío debe estar en el Parejas»",
           "source": "El Correo",
-          "publishedAt": "2026-11-25T18:44:13.000Z",
-          "sourceUrl": "https://www.elcorreo.com/athletic/crisis-deportiva-malaga-lleva-delante-loren-20261125194413-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/athletic/2026/11/25/malaga-loren-juarros-RiaHf90Wk7FRGdLUQk3U5uK-1200x840@El%20Correo.jpg"
-        },
-        {
-          "title": "Oficial: el Málaga destituye a Loren Juarros como primera medida para atajar su crisis deportiva | Diario Sur",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-25T12:49:58.000Z",
-          "sourceUrl": "https://www.diariosur.es/malagacf/malaga-destituye-lorenjuarros-futbol-directordeportivo-20261125134900-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/diariosur/www/multimedia/malagacf/2026/11/25/pricipal-RiyfF3Vd6biLQhtRCk66j2N-1200x840@Diario%20Sur.jpg"
-        }
-      ],
-      "path": "/es/entity/oficial-el-malaga-destituye-a-loren-juarros-como-primera-medida-para-atajar-su-c/"
-    },
-    {
-      "id": "moving-cluster-españa-temporal + lluvia",
-      "title": "El temporal de lluvia y viento deja árboles caídos en varios puntos de Bizkaia",
-      "brief": "El temporal de lluvia y viento deja árboles caídos en varios puntos de Bizkaia.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "12h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/25/arbol-caido-U201991185151oQG-U405378386596TB-1200x840@Diario%20Vasco.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El temporal de lluvia y viento deja árboles caídos en varios puntos de Bizkaia",
-          "source": "El Correo",
-          "publishedAt": "2026-11-25T18:27:00.000Z",
-          "sourceUrl": "https://www.elcorreo.com/bizkaia/aviso-naranja-lluvias-bizkaia-deja-arboles-caidos-20261125185206-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-26T06:25:06.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/pelota/dario-debe-estar-parejas-20261125200528-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
         {
-          "title": "El temporal de lluvia y viento complica la circulación en las carreteras de Gipuzkoa",
+          "title": "Apoyo unánime de Barriola, Titín III y Errasti a Darío: «Debe estar en el Parejas»",
           "source": "El Diario Vasco",
-          "publishedAt": "2026-11-25T16:29:52.000Z",
-          "sourceUrl": "https://www.diariovasco.com/gipuzkoa/cortada-n634-getaria-zumaia-alto-riesgo-maritimocostero-20261125172952-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/25/arbol-caido-U201991185151oQG-U405378386596TB-1200x840@Diario%20Vasco.jpg"
+          "publishedAt": "2026-11-25T17:07:50.000Z",
+          "sourceUrl": "https://www.diariovasco.com/deportes/pelota/campeonato-parejas/apoyo-unanime-barriola-titin-iii-errasti-dario-20261125180625-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         }
       ],
-      "path": "/es/entity/el-temporal-de-lluvia-y-viento-deja-arboles-caidos-en-varios-puntos-de-bizkaia/"
+      "path": "/es/entity/apoyo-unanime-de-barriola-titin-iii-y-errasti-a-dario-debe-estar-en-el-parejas/"
     },
     {
-      "id": "now-cluster-españa-corte + ingles",
-      "title": "El Corte Inglés aprueba su plan estratégico con 5.000 millones de inversión y sin horizonte de salida a Bolsa",
-      "brief": "El Corte Inglés aprueba su plan estratégico con 5.000 millones de inversión y sin horizonte de salida a Bolsa.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "6h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 60,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956300497640.jpg",
-        "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/25/1513276170-RdfUqkDER8fMg5nsj9ysJjN-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El Corte Inglés aprueba su plan estratégico con 5.000 millones de inversión y sin horizonte de salida a Bolsa",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-25T23:53:08.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/26/6b0723f0e9cf4a2a398b4598.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956300497640.jpg"
-        },
-        {
-          "title": "El Corte Inglés acelera sus inversiones a 5.000 millones de euros hasta 2032",
-          "source": "El Correo",
-          "publishedAt": "2026-11-25T15:00:57.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/empresas/corte-ingles-acelera-inversiones-5000-millones-euros-20261125160057-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/economia/2026/11/25/1513276170-RdfUqkDER8fMg5nsj9ysJjN-1200x840@RC.jpg"
-        }
-      ],
-      "path": "/es/entity/el-corte-ingles-aprueba-su-plan-estrategico-con-5-000-millones-de-inversion-y-si/"
-    },
-    {
-      "id": "now-cluster-españa-andy + taylor",
-      "title": "Muere a los 65 años Andy Taylor, ex guitarrista de la banda británica Duran Duran",
-      "brief": "Muere a los 65 años Andy Taylor, ex guitarrista de la banda británica Duran Duran.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "6h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 60,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Mundo"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/elcorreo/www/multimedia/culturas/2026/11/26/Andy-Taylor-Duran-Duran@2000x1500-RJ39hlNxChoVMCf4qFd6BBL-1200x840@El%20Correo.jpg",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956448376933.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Fallece a los 65 años Andy Taylor, el guitarrista original del grupo Duran Duran",
-          "source": "El Correo",
-          "publishedAt": "2026-11-25T23:42:14.000Z",
-          "sourceUrl": "https://www.elcorreo.com/culturas/musica/fallece-anos-andy-taylor-guitarrista-original-grupo-20261126004213-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/culturas/2026/11/26/Andy-Taylor-Duran-Duran@2000x1500-RJ39hlNxChoVMCf4qFd6BBL-1200x840@El%20Correo.jpg"
-        },
-        {
-          "title": "Muere a los 65 años Andy Taylor, ex guitarrista de la banda británica Duran Duran",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-25T22:20:32.000Z",
-          "sourceUrl": "https://www.elmundo.es/cultura/musica/2026/11/25/6b075dd721efa0c6238b459d.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956448376933.jpg"
-        }
-      ],
-      "path": "/es/entity/muere-a-los-65-anos-andy-taylor-ex-guitarrista-de-la-banda-britanica-duran-duran/"
-    },
-    {
-      "id": "now-cluster-españa-jesus + vazquez",
+      "id": "moving-cluster-españa-jesus + vazquez",
       "title": "Jesús Vázquez, Silvia Abril y Manuel Carrasco, presentadores de las Campanadas de RTVE",
       "brief": "Jesús Vázquez, Silvia Abril y Manuel Carrasco, presentadores de las Campanadas de RTVE.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 7,
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresca",
+      "freshness": "8h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 54,
+      "alertScore": 64,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -308,21 +229,21 @@
       "path": "/es/entity/jesus-vazquez-silvia-abril-y-manuel-carrasco-presentadores-de-las-campanadas-de/"
     },
     {
-      "id": "now-cluster-españa-ante + alvarez",
+      "id": "moving-cluster-españa-atletico + viking",
       "title": "Sorloth y Julián Alvarez sacan la bandera del gol en el Atlético para derrotar al Viking",
       "brief": "Sorloth y Julián Alvarez sacan la bandera del gol en el Atlético para derrotar al Viking.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "Bajando",
       "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "8h fresca",
+      "freshness": "9h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 54,
+      "alertScore": 64,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -353,6 +274,99 @@
         }
       ],
       "path": "/es/entity/sorloth-y-julian-alvarez-sacan-la-bandera-del-gol-en-el-atletico-para-derrotar-a/"
+    },
+    {
+      "id": "moving-cluster-españa-viento + temporal",
+      "title": "El temporal de lluvia y viento deja árboles caídos en varios puntos de Bizkaia",
+      "brief": "El temporal de lluvia y viento deja árboles caídos en varios puntos de Bizkaia.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "13h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 59,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://s2.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/25/arbol-caido-U201991185151oQG-U405378386596TB-1200x840@Diario%20Vasco.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El temporal de lluvia y viento deja árboles caídos en varios puntos de Bizkaia",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T18:27:00.000Z",
+          "sourceUrl": "https://www.elcorreo.com/bizkaia/aviso-naranja-lluvias-bizkaia-deja-arboles-caidos-20261125185206-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "El temporal de lluvia y viento complica la circulación en las carreteras de Gipuzkoa",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-25T16:29:52.000Z",
+          "sourceUrl": "https://www.diariovasco.com/gipuzkoa/cortada-n634-getaria-zumaia-alto-riesgo-maritimocostero-20261125172952-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/25/arbol-caido-U201991185151oQG-U405378386596TB-1200x840@Diario%20Vasco.jpg"
+        }
+      ],
+      "path": "/es/entity/el-temporal-de-lluvia-y-viento-deja-arboles-caidos-en-varios-puntos-de-bizkaia/"
+    },
+    {
+      "id": "now-cluster-españa-andy + taylor",
+      "title": "Muere a los 65 años Andy Taylor, ex guitarrista de la banda británica Duran Duran",
+      "brief": "Muere a los 65 años Andy Taylor, ex guitarrista de la banda británica Duran Duran.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "7h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 54,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo"
+      ],
+      "images": [
+        "https://s2.ppllstatics.com/elcorreo/www/multimedia/culturas/2026/11/26/Andy-Taylor-Duran-Duran@2000x1500-RJ39hlNxChoVMCf4qFd6BBL-1200x840@El%20Correo.jpg",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956448376933.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Fallece a los 65 años Andy Taylor, el guitarrista original del grupo Duran Duran",
+          "source": "El Correo",
+          "publishedAt": "2026-11-25T23:42:14.000Z",
+          "sourceUrl": "https://www.elcorreo.com/culturas/musica/fallece-anos-andy-taylor-guitarrista-original-grupo-20261126004213-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/culturas/2026/11/26/Andy-Taylor-Duran-Duran@2000x1500-RJ39hlNxChoVMCf4qFd6BBL-1200x840@El%20Correo.jpg"
+        },
+        {
+          "title": "Muere a los 65 años Andy Taylor, ex guitarrista de la banda británica Duran Duran",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-25T22:20:32.000Z",
+          "sourceUrl": "https://www.elmundo.es/cultura/musica/2026/11/25/6b075dd721efa0c6238b459d.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956448376933.jpg"
+        }
+      ],
+      "path": "/es/entity/muere-a-los-65-anos-andy-taylor-ex-guitarrista-de-la-banda-britanica-duran-duran/"
     }
   ]
 }
