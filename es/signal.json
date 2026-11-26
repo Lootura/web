@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-26T07:00:47.461Z",
+  "updatedAt": "2026-11-26T08:00:47.493Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "313.869 enlaces analizados",
-  "dayScanLabel": "4.209 enlaces escaneados en 24h",
+  "ambientPulseLabel": "314.292 enlaces analizados",
+  "dayScanLabel": "4.210 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,7 +19,7 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-cargado + ibiza",
+      "id": "now-cluster-españa-cerca + cargado",
       "title": "Muere un marinero tras hundirse un barco cargado con alrededor de 1,2 millones de litros de combustible cerca de Ibiza",
       "brief": "Muere un marinero tras hundirse un barco cargado con alrededor de 1,2 millones de litros de combustible cerca de Ibiza.",
       "whyItMatters": "",
@@ -41,35 +41,36 @@
       ],
       "isHotNews": false,
       "sources": [
+        "El País",
         "El Correo",
-        "El Mundo",
-        "El País"
+        "El Mundo"
       ],
       "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17956738447911.jpg",
-        "https://imagenes.elpais.com/resizer/v2/VR7NBIOE4NCCZE6QOKWCVHPNPY.jpg?auth=190bff7ca5a9c6324ef5590b7a18f29143d95b123999894b4a771eafe08ba359"
+        "https://imagenes.elpais.com/resizer/v2/TL3FGJD2TJCILOPMDCSVRYENLI.jpg?auth=7695cf7b528759005873d6e8e156e816ad0e8ab14948fb4b29f9b32b5b0a9aab",
+        "https://s1.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/26/buque-hundido-ibiza-muerto.jpg",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17956765378536.jpg"
       ],
       "evidence": [
+        {
+          "title": "Muere un marinero tras el hundimiento de un buque cargado de combustible cerca de Ibiza",
+          "source": "El País",
+          "publishedAt": "2026-11-26T07:16:23.000Z",
+          "sourceUrl": "https://elpais.com/espana/2026-11-26/muere-un-marinero-en-el-hundimiento-de-un-buque-cargado-de-combustible-cerca-de-ibiza.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/TL3FGJD2TJCILOPMDCSVRYENLI.jpg?auth=7695cf7b528759005873d6e8e156e816ad0e8ab14948fb4b29f9b32b5b0a9aab"
+        },
         {
           "title": "Un muerto en el hundimiento de un barco cargado de gasoil junto a la costa de Ibiza",
           "source": "El Correo",
           "publishedAt": "2026-11-26T06:38:42.000Z",
           "sourceUrl": "https://www.elcorreo.com/sociedad/muerto-hundimiento-barco-cargado-gasoil-junto-costa-20261126073828-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/26/buque-hundido-ibiza-muerto.jpg"
         },
         {
           "title": "Muere un marinero tras hundirse un barco cargado con alrededor de 1,2 millones de litros de combustible cerca de Ibiza",
           "source": "El Mundo",
           "publishedAt": "2026-11-26T06:18:25.000Z",
           "sourceUrl": "https://www.elmundo.es/baleares/ibiza/2026/11/26/6b07cf2ee4d4d8cb118b4592.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17956738447911.jpg"
-        },
-        {
-          "title": "Muere un marinero en el hundimiento de un buque cargado de combustible cerca de Ibiza",
-          "source": "El País",
-          "publishedAt": "2026-11-26T06:08:59.000Z",
-          "sourceUrl": "https://elpais.com/espana/2026-11-26/muere-un-marinero-en-el-hundimiento-de-un-buque-cargado-de-combustible-cerca-de-ibiza.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/VR7NBIOE4NCCZE6QOKWCVHPNPY.jpg?auth=190bff7ca5a9c6324ef5590b7a18f29143d95b123999894b4a771eafe08ba359"
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17956765378536.jpg"
         }
       ],
       "path": "/es/entity/muere-un-marinero-tras-hundirse-un-barco-cargado-con-alrededor-de-1-2-millones-d/"
@@ -86,7 +87,7 @@
       "strength": 17,
       "sourceCount": 2,
       "itemCount": 4,
-      "freshness": "fresca ahora",
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 83,
@@ -146,10 +147,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -188,12 +189,12 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
+      "state": "cooling",
+      "stateLabel": "Bajando",
       "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "8h fresca",
+      "freshness": "9h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -229,53 +230,6 @@
       "path": "/es/entity/jesus-vazquez-silvia-abril-y-manuel-carrasco-presentadores-de-las-campanadas-de/"
     },
     {
-      "id": "moving-cluster-españa-atletico + viking",
-      "title": "Sorloth y Julián Alvarez sacan la bandera del gol en el Atlético para derrotar al Viking",
-      "brief": "Sorloth y Julián Alvarez sacan la bandera del gol en el Atlético para derrotar al Viking.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "9h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/ENZIRSWGIZASTA3ZQAMH4ITJTI.jpg?auth=3e5027cd273c81c2f64719c7569f9926b3e6c39ec876ec6d3a3e25a6fdcf0e54",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956431552234.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Sorloth y Julián Alvarez sacan la bandera del gol en el Atlético para derrotar al Viking",
-          "source": "El País",
-          "publishedAt": "2026-11-25T22:28:46.000Z",
-          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-25/sorloth-y-julian-alvarez-sacan-la-bandera-del-gol-en-el-atletico-para-derrotar-al-viking.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/ENZIRSWGIZASTA3ZQAMH4ITJTI.jpg?auth=3e5027cd273c81c2f64719c7569f9926b3e6c39ec876ec6d3a3e25a6fdcf0e54"
-        },
-        {
-          "title": "Un pulcro Atlético cumple el necesario trámite ante el Viking",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-25T21:52:04.000Z",
-          "sourceUrl": "https://www.elmundo.es/deportes/futbol/champions-league/2026/11/25/6b073781e9cf4a07788b456e.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956431552234.jpg"
-        }
-      ],
-      "path": "/es/entity/sorloth-y-julian-alvarez-sacan-la-bandera-del-gol-en-el-atletico-para-derrotar-a/"
-    },
-    {
       "id": "moving-cluster-españa-viento + temporal",
       "title": "El temporal de lluvia y viento deja árboles caídos en varios puntos de Bizkaia",
       "brief": "El temporal de lluvia y viento deja árboles caídos en varios puntos de Bizkaia.",
@@ -287,7 +241,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "13h fresca",
+      "freshness": "14h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 59,
@@ -328,18 +282,17 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 7,
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresca",
+      "freshness": "8h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 54,
+      "alertScore": 46,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
