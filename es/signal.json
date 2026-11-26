@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-26T19:00:47.942Z",
+  "updatedAt": "2026-11-26T20:00:47.543Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "318.923 enlaces analizados",
-  "dayScanLabel": "4.207 enlaces escaneados en 24h",
+  "ambientPulseLabel": "319.337 enlaces analizados",
+  "dayScanLabel": "4.198 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,9 +19,65 @@
   "topAlert": null,
   "signals": [
     {
+      "id": "now-cluster-españa-socialista + estanis",
+      "title": "Muere Estanis Amutxastegi, el alcalde socialista de Andoain, amigo de De Lacalle y de Joseba 'Pagaza' que se enfrentó a ETA",
+      "brief": "Muere Estanis Amutxastegi, el alcalde socialista de Andoain, amigo de De Lacalle y de Joseba 'Pagaza' que se enfrentó a ETA.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "1h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957128177082.jpg",
+        "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/26/136284577-RWyeDyAul2KpKiWAcqJaUWN-1200x840@Diario%20Vasco.JPG"
+      ],
+      "evidence": [
+        {
+          "title": "Fallece el socialista Estanis Amuchástegui, símbolo de la resistencia cívica frente a ETA",
+          "source": "El Correo",
+          "publishedAt": "2026-11-26T18:51:24.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/fallece-socialista-estanis-amuchastegui-simbolo-resistencia-civica-20261126192126-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Muere Estanis Amutxastegi, el alcalde socialista de Andoain, amigo de De Lacalle y de Joseba 'Pagaza' que se enfrentó a ETA",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-26T17:45:50.000Z",
+          "sourceUrl": "https://www.elmundo.es/pais-vasco/2026/11/26/6b086e2ae4d4d8261e8b4594.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957128177082.jpg"
+        },
+        {
+          "title": "Fallece el socialista Estanis Amutxastegi, símbolo de la resistencia cívica frente a ETA",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-26T16:51:42.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/fallece-socialista-estanis-amutxastegi-simbolo-resistencia-civica-20261126175142-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/26/136284577-RWyeDyAul2KpKiWAcqJaUWN-1200x840@Diario%20Vasco.JPG"
+        }
+      ],
+      "path": "/es/entity/muere-estanis-amutxastegi-el-alcalde-socialista-de-andoain-amigo-de-de-lacalle-y/"
+    },
+    {
       "id": "now-cluster-españa-copa + davis",
-      "title": "España - Austria, en directo, los cuartos de final de la Copa Davis en vivo | Jódar busca finiquitar la eliminatoria para España",
-      "brief": "España - Austria, en directo, los cuartos de final de la Copa Davis en vivo | Jódar busca finiquitar la eliminatoria para España.",
+      "title": "España - Austria, en directo, los cuartos de final de la Copa Davis en vivo | Jódar se lleva el segundo set y empata el choque",
+      "brief": "España - Austria, en directo, los cuartos de final de la Copa Davis en vivo | Jódar se lleva el segundo set y empata el choque.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -49,9 +105,9 @@
       ],
       "evidence": [
         {
-          "title": "España - Austria, en directo, los cuartos de final de la Copa Davis en vivo | Jódar busca finiquitar la eliminatoria para España",
+          "title": "España - Austria, en directo, los cuartos de final de la Copa Davis en vivo | Jódar se lleva el segundo set y empata el choque",
           "source": "El País",
-          "publishedAt": "2026-11-26T18:35:39.000Z",
+          "publishedAt": "2026-11-26T19:15:54.000Z",
           "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-26/espana-austria-en-directo-los-cuartos-de-final-de-la-copa-davis-en-vivo.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://imagenes.elpais.com/resizer/v2/RS7KZFTO4JJNJPQLWZ5QGLH3L4.jpg?auth=d7f80755a9766e27bbbf8d61a558bb0e62c0cb2e4e6f254ed3f5122eebb1e73f"
         },
@@ -63,7 +119,7 @@
           "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957149881921.jpg"
         }
       ],
-      "path": "/es/entity/espana-austria-en-directo-los-cuartos-de-final-de-la-copa-davis-en-vivo-jodar-bu/"
+      "path": "/es/entity/espana-austria-en-directo-los-cuartos-de-final-de-la-copa-davis-en-vivo-jodar-se/"
     },
     {
       "id": "now-cluster-españa-contra + socialista",
@@ -74,10 +130,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -120,10 +176,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -156,53 +212,6 @@
       "path": "/es/entity/vuelos-directos-de-bilbao-a-belgrado-desde-39-99-euros-wizz-air-estrenara-una-ru/"
     },
     {
-      "id": "now-cluster-españa-socialista + estanis",
-      "title": "Muere Estanis Amutxastegi, el alcalde socialista de Andoain, amigo de De Lacalle y de Joseba 'Pagaza' que se enfrentó a ETA",
-      "brief": "Muere Estanis Amutxastegi, el alcalde socialista de Andoain, amigo de De Lacalle y de Joseba 'Pagaza' que se enfrentó a ETA.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "1h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957128177082.jpg",
-        "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/26/136284577-RWyeDyAul2KpKiWAcqJaUWN-1200x840@Diario%20Vasco.JPG"
-      ],
-      "evidence": [
-        {
-          "title": "Muere Estanis Amutxastegi, el alcalde socialista de Andoain, amigo de De Lacalle y de Joseba 'Pagaza' que se enfrentó a ETA",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-26T17:45:50.000Z",
-          "sourceUrl": "https://www.elmundo.es/pais-vasco/2026/11/26/6b086e2ae4d4d8261e8b4594.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957128177082.jpg"
-        },
-        {
-          "title": "Fallece el socialista Estanis Amutxastegi, símbolo de la resistencia cívica frente a ETA",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-26T16:51:42.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/fallece-socialista-estanis-amutxastegi-simbolo-resistencia-civica-20261126175142-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/26/136284577-RWyeDyAul2KpKiWAcqJaUWN-1200x840@Diario%20Vasco.JPG"
-        }
-      ],
-      "path": "/es/entity/muere-estanis-amutxastegi-el-alcalde-socialista-de-andoain-amigo-de-de-lacalle-y/"
-    },
-    {
       "id": "moving-cluster-españa-alerta + presencia",
       "title": "Fragmentos de vidrio en frutos secos españoles: así es la alerta alimentaria que afecta a marcas de referencia y de varios supermercados",
       "brief": "Fragmentos de vidrio en frutos secos españoles: así es la alerta alimentaria que afecta a marcas de referencia y de varios supermercados.",
@@ -214,7 +223,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresca",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -250,6 +259,62 @@
       "path": "/es/entity/fragmentos-de-vidrio-en-frutos-secos-espanoles-asi-es-la-alerta-alimentaria-que/"
     },
     {
+      "id": "moving-cluster-españa-silvia + intxaurrondo",
+      "title": "Un juez en activo entra en “campaña” con un vídeo en redes contra el Gobierno, el PSOE y la periodista Silvia Intxaurrondo",
+      "brief": "Un juez en activo entra en “campaña” con un vídeo en redes contra el Gobierno, el PSOE y la periodista Silvia Intxaurrondo.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 9,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "4h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 73,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/5K6JC2F75ZDQDPDXBI62B66NDE.jpg?auth=f28182c8ecd0b2e485837bace20a1b1a8de6784871c335c6db76822596e2baa2",
+        "https://s3.ppllstatics.com/rc/www/multimedia/nacional/2026/11/26/papeletas-Roul33V3vWHpxewJclbQdTM-1200x840@RC.jpeg",
+        "https://s2.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/26/silvia-intxaurrondo-kNE-U40552784465ugH-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Un juez en activo entra en “campaña” con un vídeo en redes contra el Gobierno, el PSOE y la periodista Silvia Intxaurrondo",
+          "source": "El País",
+          "publishedAt": "2026-11-26T15:58:24.000Z",
+          "sourceUrl": "https://elpais.com/espana/2026-11-26/un-juez-en-activo-entra-en-campana-con-un-video-en-redes-contra-el-gobierno-el-psoe-y-la-periodista-silvia-intxaurrondo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/5K6JC2F75ZDQDPDXBI62B66NDE.jpg?auth=f28182c8ecd0b2e485837bace20a1b1a8de6784871c335c6db76822596e2baa2"
+        },
+        {
+          "title": "El Supremo tumba el recurso 'in extremis' del Gobierno contra la prohibición de votar a 113.000 nacionalizados por la ley de nietos",
+          "source": "El Correo",
+          "publishedAt": "2026-11-26T14:25:56.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/supremo-tumba-recurso-extremis-gobierno-permitir-votar-20261126153337-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/nacional/2026/11/26/papeletas-Roul33V3vWHpxewJclbQdTM-1200x840@RC.jpeg"
+        },
+        {
+          "title": "El Consejo de RTVE respalda a Silvia Intxaurrondo ante la Junta Electoral Central",
+          "source": "El Correo",
+          "publishedAt": "2026-11-26T12:16:23.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/consejo-rtve-respalda-silvia-intxaurrondo-ante-junta-20261126131622-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/26/silvia-intxaurrondo-kNE-U40552784465ugH-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/un-juez-en-activo-entra-en-campana-con-un-video-en-redes-contra-el-gobierno-el-p/"
+    },
+    {
       "id": "moving-cluster-españa-naufragio + cerca",
       "title": "Un armador turco, una ruta \"habitual\" y una diferencia crucial con el Prestige: todas las claves del Med Emre, el barco volcado cerca de Ibiza",
       "brief": "Un armador turco, una ruta \"habitual\" y una diferencia crucial con el Prestige: todas las claves del Med Emre, el barco volcado cerca de Ibiza.",
@@ -258,13 +323,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -302,10 +367,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -340,99 +405,7 @@
       "path": "/es/entity/la-justicia-francesa-confirma-que-gerard-depardieu-se-sentara-de-nuevo-en-el-ban/"
     },
     {
-      "id": "moving-cluster-españa-edmundo + gonzalez",
-      "title": "Edmundo González anuncia que vuelve a Venezuela para sumarse a una peregrinación el 5 de diciembre",
-      "brief": "Edmundo González anuncia que vuelve a Venezuela para sumarse a una peregrinación el 5 de diciembre.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 14,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/E2WUAXZJMBF5TOMXKJ2CLATKBA.jpg?auth=d8e03816ea5160e25c67be134227fa73a5234b9034971510bdc7ce55819d83cc"
-      ],
-      "evidence": [
-        {
-          "title": "Edmundo González anuncia su regreso a Venezuela",
-          "source": "El Correo",
-          "publishedAt": "2026-11-26T16:01:48.000Z",
-          "sourceUrl": "https://www.elcorreo.com/internacional/america-latina/edmundo-gonzalez-anuncia-regreso-venezuela-20261126170147-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Edmundo González anuncia que vuelve a Venezuela para sumarse a una peregrinación el 5 de diciembre",
-          "source": "El País",
-          "publishedAt": "2026-11-26T15:05:16.000Z",
-          "sourceUrl": "https://elpais.com/america/2026-11-26/edmundo-gonzalez-anuncia-que-vuelve-a-venezuela-para-sumarse-a-una-peregrinacion-el-5-de-diciembre.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/E2WUAXZJMBF5TOMXKJ2CLATKBA.jpg?auth=d8e03816ea5160e25c67be134227fa73a5234b9034971510bdc7ce55819d83cc"
-        }
-      ],
-      "path": "/es/entity/edmundo-gonzalez-anuncia-que-vuelve-a-venezuela-para-sumarse-a-una-peregrinacion/"
-    },
-    {
-      "id": "fading-cluster-españa-hernandez + sera",
-      "title": "Hernández de Cos será el próximo presidente del BCE y consigue el cargo europeo de mayor poder en la historia de España",
-      "brief": "Hernández de Cos será el próximo presidente del BCE y consigue el cargo europeo de mayor poder en la historia de España.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "6h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17956996930019.jpg",
-        "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/26/pablo-hernandez-de-cos-kT1C-U40549660846XgC-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Hernández de Cos será el próximo presidente del BCE y consigue el cargo europeo de mayor poder en la historia de España",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-26T13:29:00.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/26/6b083332fdddff741f8b4595.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17956996930019.jpg"
-        },
-        {
-          "title": "Pablo Hernández de Cos será el próximo presidente del BCE",
-          "source": "El Correo",
-          "publishedAt": "2026-11-26T13:24:31.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/pablo-hernandez-cos-proximo-presidente-bce-20261126142431-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/economia/2026/11/26/pablo-hernandez-de-cos-kT1C-U40549660846XgC-1200x840@RC.jpg"
-        }
-      ],
-      "path": "/es/entity/hernandez-de-cos-sera-el-proximo-presidente-del-bce-y-consigue-el-cargo-europeo/"
-    },
-    {
-      "id": "fading-cluster-españa-jorge + javier",
+      "id": "fading-cluster-españa-pedro + sanchez",
       "title": "El examen sorpresa de Jorge Javier a Pedro Sánchez: no sabe cómo se llama la hija de Jesulín y se descarta para ‘Supervivientes’",
       "brief": "El examen sorpresa de Jorge Javier a Pedro Sánchez: no sabe cómo se llama la hija de Jesulín y se descarta para ‘Supervivientes’.",
       "whyItMatters": "",
@@ -443,7 +416,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
@@ -478,6 +451,97 @@
       "path": "/es/entity/el-examen-sorpresa-de-jorge-javier-a-pedro-sanchez-no-sabe-como-se-llama-la-hija/"
     },
     {
+      "id": "fading-cluster-españa-audiencia + nacional",
+      "title": "La Audiencia Nacional avala revocar el régimen de semilibertad a la ex dirigente de ETA Anboto",
+      "brief": "La Audiencia Nacional avala revocar el régimen de semilibertad a la ex dirigente de ETA Anboto.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "5h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Diario Vasco",
+        "El Mundo"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957000964210.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "La Audiencia Nacional avala no aplicar la semilibertad a la presa de ETA 'Anboto'",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-26T15:20:07.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/audiencia-nacional-avala-aplicar-semilibertad-presa-eta-20261126162006-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "La Audiencia Nacional avala revocar el régimen de semilibertad a la ex dirigente de ETA Anboto",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-26T13:36:25.000Z",
+          "sourceUrl": "https://www.elmundo.es/espana/2026/11/26/6b083291fc6c837c068b4585.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957000964210.jpg"
+        }
+      ],
+      "path": "/es/entity/la-audiencia-nacional-avala-revocar-el-regimen-de-semilibertad-a-la-ex-dirigente/"
+    },
+    {
+      "id": "fading-cluster-españa-supremo + final",
+      "title": "El Supremo fija el final de la pena de Ábalos en mayo de 2042 y en noviembre de 2040 la de Koldo",
+      "brief": "El Supremo fija el final de la pena de Ábalos en mayo de 2042 y en noviembre de 2040 la de Koldo.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 8,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "5h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/2SGBBF25GVFO5OWSWJMRGG4XFA.jpg?auth=c64a040f76af31e828ec6883d10350175cfbac55da3c5f4a53ecb7f7add22c41",
+        "https://e01-phantom-elmundo.uecdn.es/1d13a68a70bab0350180648693428c46/crop/567x5/1583x682/f/webp/assets/multimedia/imagenes/2026/05/06/17781018771589.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El Supremo fija el fin de la condena de prisión de Ábalos en mayo de 2042",
+          "source": "El País",
+          "publishedAt": "2026-11-26T15:27:04.000Z",
+          "sourceUrl": "https://elpais.com/espana/2026-11-26/el-supremo-fija-el-fin-de-la-condena-de-prision-de-abalos-en-mayo-de-2042.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/2SGBBF25GVFO5OWSWJMRGG4XFA.jpg?auth=c64a040f76af31e828ec6883d10350175cfbac55da3c5f4a53ecb7f7add22c41"
+        },
+        {
+          "title": "El Supremo fija el final de la pena de Ábalos en mayo de 2042 y en noviembre de 2040 la de Koldo",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-26T13:57:31.000Z",
+          "sourceUrl": "https://www.elmundo.es/espana/2026/11/26/6b08386ee85eced9618b456e.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/1d13a68a70bab0350180648693428c46/crop/567x5/1583x682/f/webp/assets/multimedia/imagenes/2026/05/06/17781018771589.jpg"
+        }
+      ],
+      "path": "/es/entity/el-supremo-fija-el-final-de-la-pena-de-abalos-en-mayo-de-2042-y-en-noviembre-de/"
+    },
+    {
       "id": "fading-cluster-españa-kutxabank + activa",
       "title": "Kutxabank activa el pago con Bizum en tiendas y comercios físicos a sus clientes",
       "brief": "Kutxabank activa el pago con Bizum en tiendas y comercios físicos a sus clientes.",
@@ -489,10 +553,10 @@
       "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 52,
+      "alertScore": 46,
       "alertTriggers": [
         "Cruza varias fuentes"
       ],
@@ -519,51 +583,6 @@
         }
       ],
       "path": "/es/entity/kutxabank-activa-el-pago-con-bizum-en-tiendas-y-comercios-fisicos-a-sus-clientes/"
-    },
-    {
-      "id": "fading-cluster-españa-apedrean + decenas",
-      "title": "Decenas de jóvenes se enfrentan al candidato del PP en el campus de la EHU en San Sebastián: «Si no está la Policía, nos apedrean»",
-      "brief": "Decenas de jóvenes se enfrentan al candidato del PP en el campus de la EHU en San Sebastián: «Si no está la Policía, nos apedrean».",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "8h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/noticias/2026/11/26/1520837041-U201481546715JFI-U40549931823eAE-1200x840@Diario%20Vasco.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Decenas de jóvenes se enfrentan al candidato del PP en el campus de la EHU en San Sebastián: «Si no está la Policía, nos apedrean»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-26T11:14:11.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/decenas-jovenes-enfrentan-candidato-pp-campus-ehu-20261126114656-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Decenas de jóvenes acosan al candidato del PP en el campus de la EHU en Donostia: «Si no está la Ertzaintza, nos apedrean»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-26T10:36:26.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/decenas-jovenes-enfrentan-candidato-pp-campus-ehu-si-no-policia-nos-apedrean-20261126113541-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/noticias/2026/11/26/1520837041-U201481546715JFI-U40549931823eAE-1200x840@Diario%20Vasco.jpg"
-        }
-      ],
-      "path": "/es/entity/decenas-de-jovenes-se-enfrentan-al-candidato-del-pp-en-el-campus-de-la-ehu-en-sa/"
     }
   ]
 }

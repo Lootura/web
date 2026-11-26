@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-26T19:00:47.942Z",
+  "updatedAt": "2026-11-26T20:00:47.543Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "429,072 links analyzed",
+  "ambientPulseLabel": "429,902 links analyzed",
   "dayScanLabel": "8,289 links scanned in 24h",
   "empty": {
     "title": "No new trends",
@@ -16,23 +16,96 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": null,
+  "topAlert": {
+    "id": "now-cluster-united states-macy + thanksgiving",
+    "title": "Texas band raises $350,000 to stay for delayed Macy's Thanksgiving parade: \"Outpouring of kindness\"",
+    "brief": "Texas band raises $350,000 to stay for delayed Macy's Thanksgiving parade: \"Outpouring of kindness\".",
+    "whyItMatters": "",
+    "verdict": "If it repeats in the next run, it gains weight.",
+    "mode": "now",
+    "state": "rising",
+    "stateLabel": "Rising",
+    "strength": 32,
+    "sourceCount": 5,
+    "itemCount": 10,
+    "freshness": "fresh now",
+    "alertLevel": "watch",
+    "alertLabel": "Watch",
+    "alertScore": 99,
+    "alertTriggers": [
+      "Crosses several sources",
+      "Picks up volume fast",
+      "Still active"
+    ],
+    "isHotNews": false,
+    "sources": [
+      "The New York Times",
+      "ABC News",
+      "CBS News",
+      "NBC News",
+      "NPR"
+    ],
+    "images": [
+      "https://static01.nyt.com/images/2026/11/25/multimedia/25parade-live-marching-band-gfqm/25parade-live-marching-band-gfqm-mediumSquareAt3X.jpg",
+      "https://s.abcnews.com/images/GMA/alabama-gty-er-261126_1795716389442_hpMain_4x3t_384.jpg",
+      "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/26/7de482fa-f8b6-4a1d-bbb3-8d30f15aa167/thumbnail/1200x630/814e45e1b718f2712f5cef9f02f77725/gettyimages-2306681635.jpg",
+      "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/26/0f1d4218-ae72-47a2-9ff8-bfc18a8ffd78/thumbnail/1200x630/66f062e8752a6e11d01d3a328aaaca40/cbsn-fusion-macys-parade-postponed-as-inclement-weather-slams-us-thumbnail.jpg"
+    ],
+    "evidence": [
+      {
+        "title": "Macy’s Thanksgiving Day Parade Upends Plans and Adds Costs for Marching Bands",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-26T20:00:35.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/25/nyregion/macys-thanksgiving-day-parade-marching-bands.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25parade-live-marching-band-gfqm/25parade-live-marching-band-gfqm-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Bands drum up support so the show goes on for postponed Macy's Thanksgiving parade",
+        "source": "ABC News",
+        "publishedAt": "2026-11-26T19:08:16.000Z",
+        "sourceUrl": "https://abcnews.com/US/bands-drum-community-support-ensure-postponed-macys-thanksgiving/story?id=138469612&utm_source=lootura.com&ref=lootura.com",
+        "image": "https://s.abcnews.com/images/GMA/alabama-gty-er-261126_1795716389442_hpMain_4x3t_384.jpg"
+      },
+      {
+        "title": "Texas band raises $350,000 to stay for delayed Macy's Thanksgiving parade: \"Outpouring of kindness\"",
+        "source": "CBS News",
+        "publishedAt": "2026-11-26T16:44:00.000Z",
+        "sourceUrl": "https://www.cbsnews.com/news/macys-thanksgiving-parade-marching-bands-delay-cost/?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/26/7de482fa-f8b6-4a1d-bbb3-8d30f15aa167/thumbnail/1200x630/814e45e1b718f2712f5cef9f02f77725/gettyimages-2306681635.jpg"
+      },
+      {
+        "title": "Macy's parade postponed as inclement weather slams U.S.",
+        "source": "CBS News",
+        "publishedAt": "2026-11-26T13:51:47.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/macys-parade-postponed-as-inclement-weather-slams-us/?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/26/0f1d4218-ae72-47a2-9ff8-bfc18a8ffd78/thumbnail/1200x630/66f062e8752a6e11d01d3a328aaaca40/cbsn-fusion-macys-parade-postponed-as-inclement-weather-slams-us-thumbnail.jpg"
+      },
+      {
+        "title": "Eye Opener: Macy's parade postponed for severe weather",
+        "source": "CBS News",
+        "publishedAt": "2026-11-26T13:20:11.000Z",
+        "sourceUrl": "https://www.cbsnews.com/video/eye-opener-macys-parade-postponed-for-severe-weather/?utm_source=lootura.com&ref=lootura.com",
+        "image": ""
+      }
+    ],
+    "path": "/us/entity/texas-band-raises-350-000-to-stay-for-delayed-macy-s-thanksgiving-parade-outpour/"
+  },
   "signals": [
     {
-      "id": "moving-cluster-united states-thanksgiving + parade",
+      "id": "now-cluster-united states-macy + thanksgiving",
       "title": "Texas band raises $350,000 to stay for delayed Macy's Thanksgiving parade: \"Outpouring of kindness\"",
       "brief": "Texas band raises $350,000 to stay for delayed Macy's Thanksgiving parade: \"Outpouring of kindness\".",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 28,
-      "sourceCount": 4,
-      "itemCount": 9,
-      "freshness": "2h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
+      "strength": 32,
+      "sourceCount": 5,
+      "itemCount": 10,
+      "freshness": "fresh now",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
       "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
@@ -41,19 +114,33 @@
       ],
       "isHotNews": false,
       "sources": [
+        "The New York Times",
+        "ABC News",
         "CBS News",
         "NBC News",
-        "NPR",
-        "The New York Times"
+        "NPR"
       ],
       "images": [
+        "https://static01.nyt.com/images/2026/11/25/multimedia/25parade-live-marching-band-gfqm/25parade-live-marching-band-gfqm-mediumSquareAt3X.jpg",
+        "https://s.abcnews.com/images/GMA/alabama-gty-er-261126_1795716389442_hpMain_4x3t_384.jpg",
         "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/26/7de482fa-f8b6-4a1d-bbb3-8d30f15aa167/thumbnail/1200x630/814e45e1b718f2712f5cef9f02f77725/gettyimages-2306681635.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795696070571_tdy_news_7a_mclaughlin_thanksgiving_parade_postponed_261126_S3_1920x1080-iahvlt.jpg",
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8466x5644+0+0/resize/8466x5644!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fa4%2F4e%2Fd1653db84a76bcc9f17e6dbf78cb%2Fgettyimages-2306291610.jpg",
-        "https://static01.nyt.com/images/2026/12/10/multimedia/karsten-header-01-pjvz/karsten-header-01-pjvz-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/11/26/multimedia/26xp-Thanksgiving-Parade-Balloons-02-kvzp/26xp-Thanksgiving-Parade-Balloons-02-kvzp-mediumSquareAt3X.jpg"
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/26/0f1d4218-ae72-47a2-9ff8-bfc18a8ffd78/thumbnail/1200x630/66f062e8752a6e11d01d3a328aaaca40/cbsn-fusion-macys-parade-postponed-as-inclement-weather-slams-us-thumbnail.jpg"
       ],
       "evidence": [
+        {
+          "title": "Macy’s Thanksgiving Day Parade Upends Plans and Adds Costs for Marching Bands",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-26T20:00:35.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/25/nyregion/macys-thanksgiving-day-parade-marching-bands.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25parade-live-marching-band-gfqm/25parade-live-marching-band-gfqm-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Bands drum up support so the show goes on for postponed Macy's Thanksgiving parade",
+          "source": "ABC News",
+          "publishedAt": "2026-11-26T19:08:16.000Z",
+          "sourceUrl": "https://abcnews.com/US/bands-drum-community-support-ensure-postponed-macys-thanksgiving/story?id=138469612&utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s.abcnews.com/images/GMA/alabama-gty-er-261126_1795716389442_hpMain_4x3t_384.jpg"
+        },
         {
           "title": "Texas band raises $350,000 to stay for delayed Macy's Thanksgiving parade: \"Outpouring of kindness\"",
           "source": "CBS News",
@@ -62,52 +149,38 @@
           "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/26/7de482fa-f8b6-4a1d-bbb3-8d30f15aa167/thumbnail/1200x630/814e45e1b718f2712f5cef9f02f77725/gettyimages-2306681635.jpg"
         },
         {
-          "title": "The Thanksgiving Parade Is on a Saturday. Can They Do That?",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-26T14:07:50.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/nyregion/thanksgiving-parade-new-york-postponed.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/12/10/multimedia/karsten-header-01-pjvz/karsten-header-01-pjvz-mediumSquareAt3X.jpg"
+          "title": "Macy's parade postponed as inclement weather slams U.S.",
+          "source": "CBS News",
+          "publishedAt": "2026-11-26T13:51:47.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/macys-parade-postponed-as-inclement-weather-slams-us/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/26/0f1d4218-ae72-47a2-9ff8-bfc18a8ffd78/thumbnail/1200x630/66f062e8752a6e11d01d3a328aaaca40/cbsn-fusion-macys-parade-postponed-as-inclement-weather-slams-us-thumbnail.jpg"
         },
         {
-          "title": "Thanksgiving Parade Balloons Are Deflated in New York",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-26T14:06:46.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/26/nyregion/macys-parade-balloons-thanksgiving.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/26/multimedia/26xp-Thanksgiving-Parade-Balloons-02-kvzp/26xp-Thanksgiving-Parade-Balloons-02-kvzp-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Children’s Hospital Throws Thanksgiving Parade for Patients",
-          "source": "NBC News",
-          "publishedAt": "2026-11-26T12:57:26.000Z",
-          "sourceUrl": "https://www.today.com/video/children-s-hospital-throws-thanksgiving-parade-for-patients-274221126000?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795697841248_tdy_pop_7a_boost_childrens_hospital_parade_261126_S3_1920x1080-u4pq4z.jpg"
-        },
-        {
-          "title": "Hawai’i All-State Marching Band on Macy’s Parade Postponement",
-          "source": "NBC News",
-          "publishedAt": "2026-11-26T12:39:39.000Z",
-          "sourceUrl": "https://www.today.com/video/hawai-i-all-state-marching-band-on-macy-s-parade-postponement-274222149630?utm_source=lootura.com&ref=lootura.com",
+          "title": "Eye Opener: Macy's parade postponed for severe weather",
+          "source": "CBS News",
+          "publishedAt": "2026-11-26T13:20:11.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/eye-opener-macys-parade-postponed-for-severe-weather/?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         }
       ],
       "path": "/us/entity/texas-band-raises-350-000-to-stay-for-delayed-macy-s-thanksgiving-parade-outpour/"
     },
     {
-      "id": "now-cluster-united states-black + friday",
+      "id": "moving-cluster-united states-black + friday",
       "title": "Disney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday",
       "brief": "Disney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 24,
       "sourceCount": 3,
       "itemCount": 6,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 99,
+      "alertScore": 97,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -166,9 +239,9 @@
       "path": "/us/entity/disney-plus-hulu-and-hbo-max-are-all-over-50-percent-off-for-black-friday/"
     },
     {
-      "id": "now-cluster-united states-thanksgiving + high",
-      "title": "Thanksgiving food bank demand surges across U.S. as grocery costs remain high",
-      "brief": "Thanksgiving food bank demand surges across U.S. as grocery costs remain high.",
+      "id": "now-cluster-united states-commerce + department",
+      "title": "Trump spends Thanksgiving at golf club, accuses Commerce Department of releasing \"fake economic numbers\"",
+      "brief": "Trump spends Thanksgiving at golf club, accuses Commerce Department of releasing \"fake economic numbers\".",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -176,11 +249,11 @@
       "stateLabel": "Rising",
       "strength": 23,
       "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "2h fresh",
+      "itemCount": 3,
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 96,
+      "alertScore": 92,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -189,50 +262,43 @@
       "isHotNews": false,
       "sources": [
         "CBS News",
-        "PBS NewsHour",
-        "The New York Times"
+        "The Guardian US",
+        "PBS NewsHour"
       ],
       "images": [
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/26/fce003e2-8524-4632-84e2-9c5e1ae4288a/thumbnail/1200x630/a58c92c6082b8a65ec027d46b989b999/1795703844935.png",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-26T144359Z_1943412194_RC2PVOALWVBA_RTRMADP_3_USA-THANKSGIVING-PARADE-1024x683.jpg",
-        "https://static01.nyt.com/images/2026/11/25/weather/2026-11-25-outlooks-index-promo/2026-11-25-outlooks-index-promo-mediumSquareAt3X-v25.jpg"
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/26/40eac3b0-392e-4427-abf6-5a0622e23fc3/thumbnail/1200x630/87172368f17721919c8e89edede92565/gettyimages-2306401014.jpg",
+        "https://i.guim.co.uk/img/media/986e893adee7d4a82d2b268d1a05cd0fa6d2fe28/87_218_2920_2337/master/2920.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=33b587cca6c8195d8be34ebe0bf521ed",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-24T220218Z_1455087937_RC2KUOAYZ91P_RTRMADP_3_USA-TRUMP-1024x684.jpg"
       ],
       "evidence": [
         {
-          "title": "Thanksgiving food bank demand surges across U.S. as grocery costs remain high",
+          "title": "Trump spends Thanksgiving at golf club, accuses Commerce Department of releasing \"fake economic numbers\"",
           "source": "CBS News",
-          "publishedAt": "2026-11-26T16:53:12.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/thanksgiving-food-bank-demand-meal-costs/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/26/fce003e2-8524-4632-84e2-9c5e1ae4288a/thumbnail/1200x630/a58c92c6082b8a65ec027d46b989b999/1795703844935.png"
+          "publishedAt": "2026-11-26T19:49:36.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/trump-thanksgiving-commerce-department-gdp-investigation/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/26/40eac3b0-392e-4427-abf6-5a0622e23fc3/thumbnail/1200x630/87172368f17721919c8e89edede92565/gettyimages-2306401014.jpg"
         },
         {
-          "title": "Thanksgiving holiday plagued by heavy rain, wind and flooding across much of the U.S.",
+          "title": "Trump alleges ‘fake’ economic figures released before US midterms but doesn’t provide evidence",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-26T19:41:37.000Z",
+          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/26/trump-fake-economic-figures-midterms?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/986e893adee7d4a82d2b268d1a05cd0fa6d2fe28/87_218_2920_2337/master/2920.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=33b587cca6c8195d8be34ebe0bf521ed"
+        },
+        {
+          "title": "Trump calls GDP figures 'fake' and demands an investigation of Commerce Department",
           "source": "PBS NewsHour",
-          "publishedAt": "2026-11-26T15:18:40.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/nation/thanksgiving-holiday-plagued-by-heavy-rain-wind-and-flooding-across-much-of-the-u-s?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-26T144359Z_1943412194_RC2PVOALWVBA_RTRMADP_3_USA-THANKSGIVING-PARADE-1024x683.jpg"
-        },
-        {
-          "title": "Food banks overwhelmed as people struggle to afford Thanksgiving meals",
-          "source": "CBS News",
-          "publishedAt": "2026-11-26T14:39:36.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/food-banks-overwhelmed-as-people-struggle-to-afford-thanksgiving-meals/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Thanksgiving Storm Is Expected to Hit East Coast With Heavy Rain and Flooding",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-25T21:53:45.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/weather/thanksgiving-weather-storm-rain-flooding.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/25/weather/2026-11-25-outlooks-index-promo/2026-11-25-outlooks-index-promo-mediumSquareAt3X-v25.jpg"
+          "publishedAt": "2026-11-26T16:36:06.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/politics/trump-calls-gdp-figures-fake-and-demands-an-investigation-of-commerce-department?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-24T220218Z_1455087937_RC2KUOAYZ91P_RTRMADP_3_USA-TRUMP-1024x684.jpg"
         }
       ],
-      "path": "/us/entity/thanksgiving-food-bank-demand-surges-across-u-s-as-grocery-costs-remain-high/"
+      "path": "/us/entity/trump-spends-thanksgiving-at-golf-club-accuses-commerce-department-of-releasing/"
     },
     {
-      "id": "now-cluster-united states-gerard + depardieu",
-      "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
-      "brief": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault.",
+      "id": "now-cluster-united states-andy + taylor",
+      "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+      "brief": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -253,11 +319,61 @@
       "isHotNews": false,
       "sources": [
         "PBS NewsHour",
+        "The New York Times",
+        "NPR"
+      ],
+      "images": [
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-25T231016Z_699008843_RC2BVOALVVF9_RTRMADP_3_PEOPLE-ANDYTAYLOR-1024x693.jpg",
+        "https://static01.nyt.com/images/2026/11/25/multimedia/25xp-andy-taylor/25xp-andy-taylor-mediumSquareAt3X.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1851x1234+0+0/resize/1851x1234!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F40%2F0b%2Fd938374d4546b030f31d11e27027%2Fap26329783844907.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-26T19:01:29.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/arts/andy-taylor-guitarist-of-new-wave-icons-duran-duran-dies-at-65?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-25T231016Z_699008843_RC2BVOALVVF9_RTRMADP_3_PEOPLE-ANDYTAYLOR-1024x693.jpg"
+        },
+        {
+          "title": "Andy Taylor, Duran Duran’s ‘Live-Wire’ Guitarist, Dies at 65",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-26T08:53:13.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/25/arts/music/andy-taylor-duran-duran-dead.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25xp-andy-taylor/25xp-andy-taylor-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/andy-taylor-guitarist-of-new-wave-icons-duran-duran-dies-at-65/"
+    },
+    {
+      "id": "now-cluster-united states-gerard + depardieu",
+      "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
+      "brief": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 22,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "2h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 92,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "PBS NewsHour",
         "CBS News",
         "The New York Times World"
       ],
       "images": [
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-26T140743Z_715081286_RC2XKDA942RC_RTRMADP_3_PEOPLE-DEPARDIEU-1024x683.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-26T140743Z_715081286_RC2XKDA942RC_RTRMADP_3_PEOPLE-DEPARDIEU-1200x800.jpg",
         "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/26/68d3ce1b-e91a-4cd6-b509-df60184fd885/thumbnail/1200x630/a63d05048f9b6fcce091d439407ad450/gettyimages-2206531791.jpg",
         "https://static01.nyt.com/images/2026/11/26/multimedia/26france-depardieu-02-blqg/26france-depardieu-02-blqg-mediumSquareAt3X.jpg"
       ],
@@ -267,7 +383,7 @@
           "source": "PBS NewsHour",
           "publishedAt": "2026-11-26T18:16:37.000Z",
           "sourceUrl": "https://www.pbs.org/newshour/world/french-cinema-star-gerard-depardieu-ordered-to-stand-trial-for-rape-and-sexual-assault?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-26T140743Z_715081286_RC2XKDA942RC_RTRMADP_3_PEOPLE-DEPARDIEU-1024x683.jpg"
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-26T140743Z_715081286_RC2XKDA942RC_RTRMADP_3_PEOPLE-DEPARDIEU-1200x800.jpg"
         },
         {
           "title": "French actor Gérard Depardieu to stand trial on alleged rape in Paris, lawyer says",
@@ -295,13 +411,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 22,
+      "strength": 17,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 92,
+      "alertScore": 86,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -352,13 +468,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 22,
+      "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 92,
+      "alertScore": 86,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -401,21 +517,21 @@
       "path": "/us/entity/judge-blocks-fcc-from-early-license-review-for-abc-which-network-says-has-had-a/"
     },
     {
-      "id": "now-cluster-united states-trump + tariffs",
+      "id": "moving-cluster-united states-trump + tariffs",
       "title": "Trump administration proposes new tariffs on goods from major U.S. trading partners",
       "brief": "Trump administration proposes new tariffs on goods from major U.S. trading partners.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 79,
+      "alertScore": 73,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -457,24 +573,77 @@
       "path": "/us/entity/trump-administration-proposes-new-tariffs-on-goods-from-major-u-s-trading-partne/"
     },
     {
-      "id": "moving-cluster-united states-scientists + million",
+      "id": "fading-cluster-united states-thanksgiving + high",
+      "title": "Thanksgiving food bank demand surges across U.S. as grocery costs remain high",
+      "brief": "Thanksgiving food bank demand surges across U.S. as grocery costs remain high.",
+      "whyItMatters": "",
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 10,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "3h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 55,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "PBS NewsHour"
+      ],
+      "images": [
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/26/fce003e2-8524-4632-84e2-9c5e1ae4288a/thumbnail/1200x630/a58c92c6082b8a65ec027d46b989b999/1795703844935.png",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-26T144359Z_1943412194_RC2PVOALWVBA_RTRMADP_3_USA-THANKSGIVING-PARADE-1024x683.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Thanksgiving food bank demand surges across U.S. as grocery costs remain high",
+          "source": "CBS News",
+          "publishedAt": "2026-11-26T16:53:12.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/thanksgiving-food-bank-demand-meal-costs/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/26/fce003e2-8524-4632-84e2-9c5e1ae4288a/thumbnail/1200x630/a58c92c6082b8a65ec027d46b989b999/1795703844935.png"
+        },
+        {
+          "title": "Thanksgiving holiday plagued by heavy rain, wind and flooding across much of the U.S.",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-26T15:18:40.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/nation/thanksgiving-holiday-plagued-by-heavy-rain-wind-and-flooding-across-much-of-the-u-s?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-26T144359Z_1943412194_RC2PVOALWVBA_RTRMADP_3_USA-THANKSGIVING-PARADE-1024x683.jpg"
+        },
+        {
+          "title": "Food banks overwhelmed as people struggle to afford Thanksgiving meals",
+          "source": "CBS News",
+          "publishedAt": "2026-11-26T14:39:36.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/food-banks-overwhelmed-as-people-struggle-to-afford-thanksgiving-meals/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/us/entity/thanksgiving-food-bank-demand-surges-across-u-s-as-grocery-costs-remain-high/"
+    },
+    {
+      "id": "fading-cluster-united states-scientists + million",
       "title": "Scientists discover quasar formed within a mere 630 million years of the Big Bang, setting a record",
       "brief": "Scientists discover quasar formed within a mere 630 million years of the Big Bang, setting a record.",
       "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Active",
-      "strength": 8,
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 70,
+      "alertScore": 52,
       "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
+        "Crosses several sources"
       ],
       "isHotNews": false,
       "sources": [
@@ -515,10 +684,10 @@
       "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "6h fresh",
+      "freshness": "7h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 52,
+      "alertScore": 46,
       "alertTriggers": [
         "Crosses several sources"
       ],
@@ -548,52 +717,6 @@
         }
       ],
       "path": "/us/entity/steelers-cut-aaron-rodgers-after-the-qb-rips-coach-mike-mccarthy-on-tv/"
-    },
-    {
-      "id": "fading-cluster-united states-andy + taylor",
-      "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
-      "brief": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65.",
-      "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "10h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Crosses several sources"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times",
-        "NPR"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/25/multimedia/25xp-andy-taylor/25xp-andy-taylor-mediumSquareAt3X.jpg",
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1851x1234+0+0/resize/1851x1234!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F40%2F0b%2Fd938374d4546b030f31d11e27027%2Fap26329783844907.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Andy Taylor, Duran Duran’s ‘Live-Wire’ Guitarist, Dies at 65",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-26T08:53:13.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/arts/music/andy-taylor-duran-duran-dead.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25xp-andy-taylor/25xp-andy-taylor-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
-          "source": "NPR",
-          "publishedAt": "2026-11-26T06:34:20.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/26/g-s1-155934/andy-taylor-duran-duran-obit?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1851x1234+0+0/resize/1851x1234!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F40%2F0b%2Fd938374d4546b030f31d11e27027%2Fap26329783844907.jpg"
-        }
-      ],
-      "path": "/us/entity/andy-taylor-guitarist-of-new-wave-icons-duran-duran-dies-at-65/"
     }
   ]
 }
