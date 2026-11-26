@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-26T13:00:47.485Z",
+  "updatedAt": "2026-11-26T14:00:47.537Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "424,096 links analyzed",
-  "dayScanLabel": "8,313 links scanned in 24h",
+  "ambientPulseLabel": "424,924 links analyzed",
+  "dayScanLabel": "8,305 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -17,18 +17,18 @@
     ]
   },
   "topAlert": {
-    "id": "now-cluster-united states-thanksgiving + trump",
+    "id": "moving-cluster-united states-thanksgiving + trump",
     "title": "Judge temporarily blocks FCC from reviewing ABC's licenses after network alleged retaliation by Trump",
     "brief": "Judge temporarily blocks FCC from reviewing ABC's licenses after network alleged retaliation by Trump.",
     "whyItMatters": "",
     "verdict": "If it repeats in the next run, it gains weight.",
-    "mode": "now",
+    "mode": "moving",
     "state": "rising",
     "stateLabel": "Rising",
-    "strength": 30,
+    "strength": 28,
     "sourceCount": 5,
-    "itemCount": 7,
-    "freshness": "fresh now",
+    "itemCount": 6,
+    "freshness": "2h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -92,18 +92,92 @@
   },
   "signals": [
     {
-      "id": "now-cluster-united states-thanksgiving + trump",
-      "title": "Judge temporarily blocks FCC from reviewing ABC's licenses after network alleged retaliation by Trump",
-      "brief": "Judge temporarily blocks FCC from reviewing ABC's licenses after network alleged retaliation by Trump.",
+      "id": "now-cluster-united states-thanksgiving + parade",
+      "title": "Setting Up the Macy’s Thanksgiving Day Parade is Quite a Process. So Is Undoing it.",
+      "brief": "Setting Up the Macy’s Thanksgiving Day Parade is Quite a Process. So Is Undoing it.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 30,
-      "sourceCount": 5,
-      "itemCount": 7,
+      "strength": 28,
+      "sourceCount": 4,
+      "itemCount": 8,
       "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times",
+        "The Guardian US",
+        "NBC News",
+        "NPR"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/12/10/multimedia/karsten-header-01-pjvz/karsten-header-01-pjvz-mediumSquareAt3X.jpg",
+        "https://i.guim.co.uk/img/media/77095755e12dfabdd5ae18335a08ccef8584f093/0_18_818_654/master/818.jpg?width=140&quality=85&auto=format&fit=max&s=4ab8a6e48876f032e99b336b37065ac8",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795696070571_tdy_news_7a_mclaughlin_thanksgiving_parade_postponed_261126_S3_1920x1080-iahvlt.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8466x5644+0+0/resize/8466x5644!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fa4%2F4e%2Fd1653db84a76bcc9f17e6dbf78cb%2Fgettyimages-2306291610.jpg",
+        "https://static01.nyt.com/images/2026/11/25/multimedia/25parade-live-voices-vqwp/25parade-live-voices-vqwp-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "The Thanksgiving Parade on a Saturday. Can They Do That?",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-26T13:26:21.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/25/nyregion/thanksgiving-parade-new-york-postponed.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/12/10/multimedia/karsten-header-01-pjvz/karsten-header-01-pjvz-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "‘A window into imagination’: the magic of Macy’s Thanksgiving Day Parade",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-26T13:14:53.000Z",
+          "sourceUrl": "https://www.theguardian.com/artanddesign/gallery/2026/nov/26/thanksgiving-day-parade-pictures-between-the-balloons?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/77095755e12dfabdd5ae18335a08ccef8584f093/0_18_818_654/master/818.jpg?width=140&quality=85&auto=format&fit=max&s=4ab8a6e48876f032e99b336b37065ac8"
+        },
+        {
+          "title": "Macy’s Thanksgiving Day Parade Postponed for First Time Ever",
+          "source": "NBC News",
+          "publishedAt": "2026-11-26T12:27:56.000Z",
+          "sourceUrl": "https://www.today.com/video/macy-s-thanksgiving-day-parade-postponed-for-first-time-ever-274220101982?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795696070571_tdy_news_7a_mclaughlin_thanksgiving_parade_postponed_261126_S3_1920x1080-iahvlt.jpg"
+        },
+        {
+          "title": "Powerful storms disrupt holiday travel, as Macy's Thanksgiving Day Parade is postponed",
+          "source": "NPR",
+          "publishedAt": "2026-11-26T09:43:27.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8466x5644+0+0/resize/8466x5644!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fa4%2F4e%2Fd1653db84a76bcc9f17e6dbf78cb%2Fgettyimages-2306291610.jpg"
+        },
+        {
+          "title": "Macy’s Thanksgiving Day Parade Sours Holiday Plans for Tourists",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-26T02:24:38.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/25/nyregion/macys-thanksgiving-day-parade-tourists.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25parade-live-voices-vqwp/25parade-live-voices-vqwp-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/setting-up-the-macy-s-thanksgiving-day-parade-is-quite-a-process-so-is-undoing-i/"
+    },
+    {
+      "id": "moving-cluster-united states-thanksgiving + trump",
+      "title": "Judge temporarily blocks FCC from reviewing ABC's licenses after network alleged retaliation by Trump",
+      "brief": "Judge temporarily blocks FCC from reviewing ABC's licenses after network alleged retaliation by Trump.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 28,
+      "sourceCount": 5,
+      "itemCount": 6,
+      "freshness": "2h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -166,82 +240,9 @@
       "path": "/us/entity/judge-temporarily-blocks-fcc-from-reviewing-abc-s-licenses-after-network-alleged/"
     },
     {
-      "id": "now-cluster-united states-thanksgiving + parade",
-      "title": "Setting Up the Macy’s Thanksgiving Day Parade is Quite a Process. So Is Undoing it.",
-      "brief": "Setting Up the Macy’s Thanksgiving Day Parade is Quite a Process. So Is Undoing it.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 27,
-      "sourceCount": 3,
-      "itemCount": 8,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 99,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News",
-        "NPR",
-        "The New York Times"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795696070571_tdy_news_7a_mclaughlin_thanksgiving_parade_postponed_261126_S3_1920x1080-iahvlt.jpg",
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8466x5644+0+0/resize/8466x5644!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fa4%2F4e%2Fd1653db84a76bcc9f17e6dbf78cb%2Fgettyimages-2306291610.jpg",
-        "https://static01.nyt.com/images/2026/11/25/multimedia/25parade-live-voices-vqwp/25parade-live-voices-vqwp-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/12/10/multimedia/karsten-header-01-pjvz/karsten-header-01-pjvz-mediumSquareAt3X.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261125-thanksgiving-parade-snoopy-mn-1255-a4d9d2.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Macy’s Thanksgiving Day Parade Postponed for First Time Ever",
-          "source": "NBC News",
-          "publishedAt": "2026-11-26T12:27:56.000Z",
-          "sourceUrl": "https://www.today.com/video/macy-s-thanksgiving-day-parade-postponed-for-first-time-ever-274220101982?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795696070571_tdy_news_7a_mclaughlin_thanksgiving_parade_postponed_261126_S3_1920x1080-iahvlt.jpg"
-        },
-        {
-          "title": "Powerful storms disrupt holiday travel, as Macy's Thanksgiving Day Parade is postponed",
-          "source": "NPR",
-          "publishedAt": "2026-11-26T09:43:27.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8466x5644+0+0/resize/8466x5644!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fa4%2F4e%2Fd1653db84a76bcc9f17e6dbf78cb%2Fgettyimages-2306291610.jpg"
-        },
-        {
-          "title": "The Thanksgiving Parade on Saturday. Can They Do That?",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-26T02:45:29.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/nyregion/thanksgiving-parade-new-york-postponed.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/12/10/multimedia/karsten-header-01-pjvz/karsten-header-01-pjvz-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Macy’s Thanksgiving Day Parade Sours Holiday Plans for Tourists",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-26T02:24:38.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/nyregion/macys-thanksgiving-day-parade-tourists.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25parade-live-voices-vqwp/25parade-live-voices-vqwp-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Macy’s Thanksgiving Day Parade is pushed back to Saturday due to weather",
-          "source": "NBC News",
-          "publishedAt": "2026-11-26T02:09:27.833Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/macys-thanksgiving-day-parade-weather-delay-rcna611355?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261125-thanksgiving-parade-snoopy-mn-1255-a4d9d2.jpg"
-        }
-      ],
-      "path": "/us/entity/setting-up-the-macy-s-thanksgiving-day-parade-is-quite-a-process-so-is-undoing-i/"
-    },
-    {
       "id": "now-cluster-united states-trump + more",
-      "title": "Trump Administration Unveils New Tariffs for China, EU and More, Citing Unfair Practices",
-      "brief": "Trump Administration Unveils New Tariffs for China, EU and More, Citing Unfair Practices.",
+      "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+      "brief": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
@@ -261,18 +262,25 @@
       ],
       "isHotNews": false,
       "sources": [
+        "NPR World",
         "NBC News Politics",
         "NPR Politics",
-        "The Guardian US",
         "The New York Times"
       ],
       "images": [
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2965x1965+0+0/resize/2965x1965!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F54%2Fca%2Fa076c10a456fae30c7079d94f200%2Fap26330009741123.jpg",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795696416747_tdy_news_7a_iowa_detonation_reaction_261126_S3_1920x1080-9im50b.jpg",
         "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6054103",
-        "https://i.guim.co.uk/img/media/cb7d6b44b13b8d28de77046d60b65aa47e12ac29/683_0_6827_5464/master/6827.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ace8db60b777693a85336c7091a00ca3",
         "https://static01.nyt.com/images/2026/11/24/multimedia/00dc-hfo-trump-tariffs-zptw/00dc-hfo-trump-tariffs-zptw-mediumSquareAt3X.jpg"
       ],
       "evidence": [
+        {
+          "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+          "source": "NPR World",
+          "publishedAt": "2026-11-26T13:31:28.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2965x1965+0+0/resize/2965x1965!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F54%2Fca%2Fa076c10a456fae30c7079d94f200%2Fap26330009741123.jpg"
+        },
         {
           "title": "Trump Administration Defends Iowa Detonation, Unveils New Tariffs",
           "source": "NBC News Politics",
@@ -288,13 +296,6 @@
           "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6054103"
         },
         {
-          "title": "Kilmar Ábrego García leaves for Spain. But the Trump administration got what it wanted",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-26T11:00:33.000Z",
-          "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/26/kilmar-abrego-garcia-spain-departure-trump?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/cb7d6b44b13b8d28de77046d60b65aa47e12ac29/683_0_6827_5464/master/6827.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ace8db60b777693a85336c7091a00ca3"
-        },
-        {
           "title": "Trump Administration Unveils New Tariffs for China, EU and More, Citing Unfair Practices",
           "source": "The New York Times",
           "publishedAt": "2026-11-25T15:58:36.000Z",
@@ -302,21 +303,21 @@
           "image": "https://static01.nyt.com/images/2026/11/24/multimedia/00dc-hfo-trump-tariffs-zptw/00dc-hfo-trump-tariffs-zptw-mediumSquareAt3X.jpg"
         }
       ],
-      "path": "/us/entity/trump-administration-unveils-new-tariffs-for-china-eu-and-more-citing-unfair-pra/"
+      "path": "/us/entity/north-korea-s-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trump-s-over/"
     },
     {
-      "id": "moving-cluster-united states-california + coast",
-      "title": "'King tide' waves batter California coast, soaking San Francisco",
-      "brief": "'King tide' waves batter California coast, soaking San Francisco.",
+      "id": "now-cluster-united states-black + friday",
+      "title": "Hulu for $5 a month, HBO Max for $5.49 and all the other Black Friday streaming deals",
+      "brief": "Hulu for $5 a month, HBO Max for $5.49 and all the other Black Friday streaming deals.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 22,
+      "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "2h fresh",
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 92,
@@ -324,6 +325,259 @@
         "Crosses several sources",
         "Picks up volume fast",
         "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NBC News",
+        "The Guardian US"
+      ],
+      "images": [
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/26/1c93164c-4380-4f45-89f7-425b9cce3e70/thumbnail/1200x630/9e732a0e211c584845bb8ec6c471c312/cbsn-fusion-shopping-strategies-to-make-the-most-of-black-friday-deals-thumbnail.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261123-BF-live-blog-5-lf-social-V2-f9b750.jpg",
+        "https://i.guim.co.uk/img/media/c4f5de8ae476eec4f875c88cb8b714b4cc1be166/435_0_1351_1081/master/1351.jpg?width=140&quality=85&auto=format&fit=max&s=0f9f14a4d0063ebc757ffdc0da41df50"
+      ],
+      "evidence": [
+        {
+          "title": "Shopping strategies to make the most of Black Friday deals",
+          "source": "CBS News",
+          "publishedAt": "2026-11-26T13:55:22.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/shopping-strategies-to-make-the-most-of-black-friday-deals/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/26/1c93164c-4380-4f45-89f7-425b9cce3e70/thumbnail/1200x630/9e732a0e211c584845bb8ec6c471c312/cbsn-fusion-shopping-strategies-to-make-the-most-of-black-friday-deals-thumbnail.jpg"
+        },
+        {
+          "title": "Black Friday deals are here, and they’re actually really good",
+          "source": "NBC News",
+          "publishedAt": "2026-11-26T13:06:52.000Z",
+          "sourceUrl": "https://www.nbcnews.com/select/shopping/best-black-friday-deals-11-26-2026-rcna611358?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261123-BF-live-blog-5-lf-social-V2-f9b750.jpg"
+        },
+        {
+          "title": "Hulu for $5 a month, HBO Max for $5.49 and all the other Black Friday streaming deals",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-26T13:00:34.000Z",
+          "sourceUrl": "https://www.theguardian.com/thefilter-us/2026/nov/26/best-streaming-black-friday-deals?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/c4f5de8ae476eec4f875c88cb8b714b4cc1be166/435_0_1351_1081/master/1351.jpg?width=140&quality=85&auto=format&fit=max&s=0f9f14a4d0063ebc757ffdc0da41df50"
+        }
+      ],
+      "path": "/us/entity/hulu-for-5-a-month-hbo-max-for-5-49-and-all-the-other-black-friday-streaming-dea/"
+    },
+    {
+      "id": "now-cluster-united states-scientists + million",
+      "title": "Scientists discover quasar formed within a mere 630 million years of the Big Bang, setting a record",
+      "brief": "Scientists discover quasar formed within a mere 630 million years of the Big Bang, setting a record.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 17,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "Phys.org",
+        "NPR"
+      ],
+      "images": [
+        "https://scx2.b-cdn.net/gfx/news/2026/farthest-quasar.jpg",
+        "https://scx2.b-cdn.net/gfx/news/hires/2026/election-2026-musk.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F70%2F4b%2F4cb0ffd9483ab271a8801a581496%2Fap26308785365415.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Scientists discover quasar formed within a mere 630 million years of the Big Bang, setting a record",
+          "source": "Phys.org",
+          "publishedAt": "2026-11-26T14:00:02.000Z",
+          "sourceUrl": "https://phys.org/news/2026-11-scientists-quasar-mere-million-years.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://scx2.b-cdn.net/gfx/news/2026/farthest-quasar.jpg"
+        },
+        {
+          "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
+          "source": "Phys.org",
+          "publishedAt": "2026-11-26T09:33:26.000Z",
+          "sourceUrl": "https://phys.org/news/2026-11-fcc-spacex-deploy-million-satellites.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/election-2026-musk.jpg"
+        }
+      ],
+      "path": "/us/entity/scientists-discover-quasar-formed-within-a-mere-630-million-years-of-the-big-ban/"
+    },
+    {
+      "id": "moving-cluster-united states-thanksgiving + iowa",
+      "title": "Hundreds of flights canceled on Thanksgiving Day as storms hit and question swirl over Iowa detonation: Morning Rundown",
+      "brief": "Hundreds of flights canceled on Thanksgiving Day as storms hit and question swirl over Iowa detonation: Morning Rundown.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "CBS News",
+        "NBC News"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261125-thanksgiving-parade-snoopy-mn-1255-a4d9d2.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261125-middletown-iowa-detonation-army-ww-1603-55afd2.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "No lead detected in Iowa air after Army's detonation, EPA says",
+          "source": "CBS News",
+          "publishedAt": "2026-11-26T13:24:06.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/no-lead-detected-in-iowa-air-after-armys-detonation-epa-says/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Hundreds of flights canceled on Thanksgiving Day as storms hit and question swirl over Iowa detonation: Morning Rundown",
+          "source": "NBC News",
+          "publishedAt": "2026-11-26T12:07:29.000Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/storms-weather-thanksgiving-iowa-detonation-aftermath-morning-rundown-rcna611416?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261125-thanksgiving-parade-snoopy-mn-1255-a4d9d2.jpg"
+        },
+        {
+          "title": "Questions linger about lead pollution from Iowa blast, despite officials’ assurances",
+          "source": "NBC News",
+          "publishedAt": "2026-11-26T01:32:59.520Z",
+          "sourceUrl": "https://www.nbcnews.com/science/environment/questions-lead-dust-pollution-safe-iowa-detonation-tests-rcna611366?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261125-middletown-iowa-detonation-army-ww-1603-55afd2.jpg"
+        }
+      ],
+      "path": "/us/entity/hundreds-of-flights-canceled-on-thanksgiving-day-as-storms-hit-and-question-swir/"
+    },
+    {
+      "id": "moving-cluster-united states-aaron + rodgers",
+      "title": "Steelers cut Aaron Rodgers after the QB rips coach Mike McCarthy on TV",
+      "brief": "Steelers cut Aaron Rodgers after the QB rips coach Mike McCarthy on TV.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NBC News",
+        "NPR"
+      ],
+      "images": [
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2403x1602+0+0/resize/2403x1602!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F78%2Fc8%2Fcc30cfbe464fafaf69b87563b3af%2Fap26329727253447.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Aaron Rodgers Released by Pittsburgh Steelers Amid Public Feud",
+          "source": "NBC News",
+          "publishedAt": "2026-11-26T12:44:19.000Z",
+          "sourceUrl": "https://www.today.com/video/steelers-release-aaron-rodgers-after-public-criticism-of-coach-274222149664?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Steelers cut Aaron Rodgers after the QB rips coach Mike McCarthy on TV",
+          "source": "NPR",
+          "publishedAt": "2026-11-26T06:26:03.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/26/nx-s1-6054760/steelers-cut-aaron-rodgers?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2403x1602+0+0/resize/2403x1602!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F78%2Fc8%2Fcc30cfbe464fafaf69b87563b3af%2Fap26329727253447.jpg"
+        }
+      ],
+      "path": "/us/entity/steelers-cut-aaron-rodgers-after-the-qb-rips-coach-mike-mccarthy-on-tv/"
+    },
+    {
+      "id": "moving-cluster-united states-egypt + driver",
+      "title": "Egypt tanker explosion kills 31 people as driver crashes into fuel truck in fiery highway crash",
+      "brief": "Egypt tanker explosion kills 31 people as driver crashes into fuel truck in fiery highway crash.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "ABC News",
+        "CBS News"
+      ],
+      "images": [
+        "https://i.abcnewsfe.com/a/4fd8f9fd-90d8-44b4-bc32-2039fd89ec49/wirestory_db772346ece6e997a17c9aa3559bcee6_16x9.jpg?w=1600",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/26/9e7a084a-1686-4415-8d3c-90ee7d6b4c1e/thumbnail/1200x630g8/df8f770c2a7b232813231cf4255b256f/egypt-tanker-fire-giza.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Egypt detains a driver suspected of causing Cairo tanker crash that killed 31",
+          "source": "ABC News",
+          "publishedAt": "2026-11-26T11:49:17.000Z",
+          "sourceUrl": "https://abcnews.com/International/wireStory/egypt-detains-driver-suspected-causing-cairo-tanker-crash-138465415?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.abcnewsfe.com/a/4fd8f9fd-90d8-44b4-bc32-2039fd89ec49/wirestory_db772346ece6e997a17c9aa3559bcee6_16x9.jpg?w=1600"
+        },
+        {
+          "title": "Egypt tanker explosion kills 31 people as driver crashes into fuel truck in fiery highway crash",
+          "source": "CBS News",
+          "publishedAt": "2026-11-26T11:27:25.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/egypt-fuel-tanker-explosion-deaths-giza-cairo/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/26/9e7a084a-1686-4415-8d3c-90ee7d6b4c1e/thumbnail/1200x630g8/df8f770c2a7b232813231cf4255b256f/egypt-tanker-fire-giza.jpg"
+        }
+      ],
+      "path": "/us/entity/egypt-tanker-explosion-kills-31-people-as-driver-crashes-into-fuel-truck-in-fier/"
+    },
+    {
+      "id": "fading-cluster-united states-california + king",
+      "title": "'King tide' waves batter California coast, soaking San Francisco",
+      "brief": "'King tide' waves batter California coast, soaking San Francisco.",
+      "whyItMatters": "",
+      "verdict": "If it does not reappear, it leaves the cover.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 16,
+      "sourceCount": 3,
+      "itemCount": 3,
+      "freshness": "3h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 68,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast"
       ],
       "isHotNews": false,
       "sources": [
@@ -362,194 +616,6 @@
       "path": "/us/entity/king-tide-waves-batter-california-coast-soaking-san-francisco/"
     },
     {
-      "id": "moving-cluster-united states-fire + tanker",
-      "title": "At least 31 killed after fuel tanker crashes and catches fire near Cairo",
-      "brief": "At least 31 killed after fuel tanker crashes and catches fire near Cairo.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "1h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 79,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "ABC News",
-        "CBS News"
-      ],
-      "images": [
-        "https://i.abcnewsfe.com/a/4fd8f9fd-90d8-44b4-bc32-2039fd89ec49/wirestory_db772346ece6e997a17c9aa3559bcee6_16x9.jpg?w=1600",
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/26/9e7a084a-1686-4415-8d3c-90ee7d6b4c1e/thumbnail/1200x630g8/df8f770c2a7b232813231cf4255b256f/egypt-tanker-fire-giza.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Egypt detains a driver suspected of causing Cairo tanker crash that killed 31",
-          "source": "ABC News",
-          "publishedAt": "2026-11-26T11:49:17.000Z",
-          "sourceUrl": "https://abcnews.com/International/wireStory/egypt-detains-driver-suspected-causing-cairo-tanker-crash-138465415?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.abcnewsfe.com/a/4fd8f9fd-90d8-44b4-bc32-2039fd89ec49/wirestory_db772346ece6e997a17c9aa3559bcee6_16x9.jpg?w=1600"
-        },
-        {
-          "title": "Egypt tanker explosion kills 31 people as driver crashes into fuel truck in fiery highway crash",
-          "source": "CBS News",
-          "publishedAt": "2026-11-26T11:27:25.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/egypt-fuel-tanker-explosion-deaths-giza-cairo/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/26/9e7a084a-1686-4415-8d3c-90ee7d6b4c1e/thumbnail/1200x630g8/df8f770c2a7b232813231cf4255b256f/egypt-tanker-fire-giza.jpg"
-        },
-        {
-          "title": "At least 31 killed after fuel tanker crashes and catches fire near Cairo",
-          "source": "CBS News",
-          "publishedAt": "2026-11-26T00:54:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/egypt-fuel-tanker-crash-cairo-highway-fire/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/us/entity/at-least-31-killed-after-fuel-tanker-crashes-and-catches-fire-near-cairo/"
-    },
-    {
-      "id": "now-cluster-united states-thanksgiving + iowa",
-      "title": "Hundreds of flights canceled on Thanksgiving Day as storms hit and question swirl over Iowa detonation: Morning Rundown",
-      "brief": "Hundreds of flights canceled on Thanksgiving Day as storms hit and question swirl over Iowa detonation: Morning Rundown.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News",
-        "CBS News"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261125-thanksgiving-parade-snoopy-mn-1255-a4d9d2.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Hundreds of flights canceled on Thanksgiving Day as storms hit and question swirl over Iowa detonation: Morning Rundown",
-          "source": "NBC News",
-          "publishedAt": "2026-11-26T12:07:29.000Z",
-          "sourceUrl": "https://www.nbcnews.com/news/us-news/storms-weather-thanksgiving-iowa-detonation-aftermath-morning-rundown-rcna611416?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261125-thanksgiving-parade-snoopy-mn-1255-a4d9d2.jpg"
-        },
-        {
-          "title": "EPA detects no lead in air shortly after toxic Iowa chemical detonation",
-          "source": "CBS News",
-          "publishedAt": "2026-11-26T01:03:14.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/epa-detects-no-lead-air-shortly-toxic-iowa-chemical-detonation/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/us/entity/hundreds-of-flights-canceled-on-thanksgiving-day-as-storms-hit-and-question-swir/"
-    },
-    {
-      "id": "moving-cluster-united states-thanksgiving + coast",
-      "title": "Thanksgiving Storm Is Expected to Hit East Coast With Heavy Rain and Flooding",
-      "brief": "Thanksgiving Storm Is Expected to Hit East Coast With Heavy Rain and Flooding.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "ABC News",
-        "The New York Times"
-      ],
-      "images": [
-        "https://i.abcnewsfe.com/a/ad24b88c-d6f4-486d-93e9-62301051b719/ny-travel_1795688990469_hpMain_16x9.jpg?w=1600",
-        "https://static01.nyt.com/images/2026/11/25/weather/2026-11-25-outlooks-index-promo/2026-11-25-outlooks-index-promo-mediumSquareAt3X-v25.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "New York declares emergency as Thanksgiving storm threatens East Coast",
-          "source": "ABC News",
-          "publishedAt": "2026-11-26T10:38:54.000Z",
-          "sourceUrl": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273&utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.abcnewsfe.com/a/ad24b88c-d6f4-486d-93e9-62301051b719/ny-travel_1795688990469_hpMain_16x9.jpg?w=1600"
-        },
-        {
-          "title": "Thanksgiving Storm Is Expected to Hit East Coast With Heavy Rain and Flooding",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-25T21:53:45.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/weather/thanksgiving-weather-storm-rain-flooding.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/25/weather/2026-11-25-outlooks-index-promo/2026-11-25-outlooks-index-promo-mediumSquareAt3X-v25.jpg"
-        }
-      ],
-      "path": "/us/entity/thanksgiving-storm-is-expected-to-hit-east-coast-with-heavy-rain-and-flooding/"
-    },
-    {
-      "id": "moving-cluster-united states-spacex + million",
-      "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
-      "brief": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "Phys.org",
-        "NPR"
-      ],
-      "images": [
-        "https://scx2.b-cdn.net/gfx/news/hires/2026/election-2026-musk.jpg",
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F70%2F4b%2F4cb0ffd9483ab271a8801a581496%2Fap26308785365415.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
-          "source": "Phys.org",
-          "publishedAt": "2026-11-26T09:33:26.000Z",
-          "sourceUrl": "https://phys.org/news/2026-11-fcc-spacex-deploy-million-satellites.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/election-2026-musk.jpg"
-        }
-      ],
-      "path": "/us/entity/fcc-says-spacex-can-deploy-1-million-satellites-for-data-centers-in-space-scient/"
-    },
-    {
       "id": "fading-cluster-united states-andy + taylor",
       "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
       "brief": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65.",
@@ -558,10 +624,10 @@
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Cooling",
-      "strength": 9,
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 52,
@@ -594,51 +660,6 @@
         }
       ],
       "path": "/us/entity/andy-taylor-guitarist-of-new-wave-icons-duran-duran-dies-at-65/"
-    },
-    {
-      "id": "fading-cluster-united states-aaron + rodgers",
-      "title": "Steelers cut Aaron Rodgers after the QB rips coach Mike McCarthy on TV",
-      "brief": "Steelers cut Aaron Rodgers after the QB rips coach Mike McCarthy on TV.",
-      "whyItMatters": "",
-      "verdict": "If it does not reappear, it leaves the cover.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "7h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Crosses several sources"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NPR",
-        "CBS News"
-      ],
-      "images": [
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2403x1602+0+0/resize/2403x1602!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F78%2Fc8%2Fcc30cfbe464fafaf69b87563b3af%2Fap26329727253447.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Steelers cut Aaron Rodgers after the QB rips coach Mike McCarthy on TV",
-          "source": "NPR",
-          "publishedAt": "2026-11-26T06:26:03.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/26/nx-s1-6054760/steelers-cut-aaron-rodgers?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2403x1602+0+0/resize/2403x1602!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F78%2Fc8%2Fcc30cfbe464fafaf69b87563b3af%2Fap26329727253447.jpg"
-        },
-        {
-          "title": "Steelers release Aaron Rodgers after tirade following benching",
-          "source": "CBS News",
-          "publishedAt": "2026-11-26T01:01:09.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/steelers-release-aaron-rodgers-tirade-following-benching/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/us/entity/steelers-cut-aaron-rodgers-after-the-qb-rips-coach-mike-mccarthy-on-tv/"
     }
   ]
 }
