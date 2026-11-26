@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-26T14:00:47.537Z",
+  "updatedAt": "2026-11-26T15:00:47.524Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "316.830 enlaces analizados",
-  "dayScanLabel": "4.215 enlaces escaneados en 24h",
+  "ambientPulseLabel": "317.245 enlaces analizados",
+  "dayScanLabel": "4.205 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,18 +19,18 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-ibiza + barco",
+      "id": "moving-cluster-españa-ibiza + ruta",
       "title": "Un armador turco, una ruta \"habitual\" y una diferencia crucial con el Prestige: todas las claves del Med Emre, el barco volcado cerca de Ibiza",
       "brief": "Un armador turco, una ruta \"habitual\" y una diferencia crucial con el Prestige: todas las claves del Med Emre, el barco volcado cerca de Ibiza.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
       "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "fresca ahora",
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 92,
@@ -75,9 +75,120 @@
       "path": "/es/entity/un-armador-turco-una-ruta-habitual-y-una-diferencia-crucial-con-el-prestige-toda/"
     },
     {
-      "id": "now-cluster-españa-hernandez + sera",
-      "title": "Hernández de Cos será el próximo presidente del BCE y consigue el puesto europeo de mayor poder en la historia de España",
-      "brief": "Hernández de Cos será el próximo presidente del BCE y consigue el puesto europeo de mayor poder en la historia de España.",
+      "id": "now-cluster-españa-silvia + intxaurrondo",
+      "title": "Un juez en activo entra en “campaña” con un vídeo en redes contra el Gobierno, el PSOE y la periodista Silvia Intxaurrondo",
+      "brief": "Un juez en activo entra en “campaña” con un vídeo en redes contra el Gobierno, el PSOE y la periodista Silvia Intxaurrondo.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El País"
+      ],
+      "images": [
+        "https://s3.ppllstatics.com/rc/www/multimedia/nacional/2026/11/26/papeletas-Roul33V3vWHpxewJclbQdTM-1200x840@RC.jpeg",
+        "https://imagenes.elpais.com/resizer/v2/5K6JC2F75ZDQDPDXBI62B66NDE.jpg?auth=f28182c8ecd0b2e485837bace20a1b1a8de6784871c335c6db76822596e2baa2",
+        "https://s2.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/26/silvia-intxaurrondo-kNE-U40552784465ugH-1200x840@RC.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El Supremo tumba el recurso 'in extremis' del Gobierno contra la prohibición de votar a 113.000 nacionalizados por la ley de nietos",
+          "source": "El Correo",
+          "publishedAt": "2026-11-26T14:25:56.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/supremo-tumba-recurso-extremis-gobierno-permitir-votar-20261126153337-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/rc/www/multimedia/nacional/2026/11/26/papeletas-Roul33V3vWHpxewJclbQdTM-1200x840@RC.jpeg"
+        },
+        {
+          "title": "Un juez en activo entra en “campaña” con un vídeo en redes contra el Gobierno, el PSOE y la periodista Silvia Intxaurrondo",
+          "source": "El País",
+          "publishedAt": "2026-11-26T14:20:18.000Z",
+          "sourceUrl": "https://elpais.com/espana/2026-11-26/un-juez-en-activo-entra-en-campana-con-un-video-en-redes-contra-el-gobierno-el-psoe-y-la-periodista-silvia-intxaurrondo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/5K6JC2F75ZDQDPDXBI62B66NDE.jpg?auth=f28182c8ecd0b2e485837bace20a1b1a8de6784871c335c6db76822596e2baa2"
+        },
+        {
+          "title": "El Consejo de RTVE respalda a Silvia Intxaurrondo ante la Junta Electoral Central",
+          "source": "El Correo",
+          "publishedAt": "2026-11-26T12:16:23.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/consejo-rtve-respalda-silvia-intxaurrondo-ante-junta-20261126131622-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/26/silvia-intxaurrondo-kNE-U40552784465ugH-1200x840@RC.jpg"
+        }
+      ],
+      "path": "/es/entity/un-juez-en-activo-entra-en-campana-con-un-video-en-redes-contra-el-gobierno-el-p/"
+    },
+    {
+      "id": "now-cluster-españa-jorge + javier",
+      "title": "El examen sorpresa de Jorge Javier a Pedro Sánchez: no sabe cómo se llama la hija de Jesulín y se descarta para ‘Supervivientes’",
+      "brief": "El examen sorpresa de Jorge Javier a Pedro Sánchez: no sabe cómo se llama la hija de Jesulín y se descarta para ‘Supervivientes’.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 3,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 79,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Correo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/WKU7BQC7MVE3BCM5X5I4MEAVF4.jpg?auth=fdf6a2ebe0b52f990ab38aa076d3c05279c56c6ccfb66d7da9e673907c159326",
+        "https://s3.ppllstatics.com/elcorreo/www/multimedia/noticias/2026/11/26/jorge-javier-kOgH-U40553542171lhF-1200x840@El%20Correo.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El examen sorpresa de Jorge Javier a Pedro Sánchez: no sabe cómo se llama la hija de Jesulín y se descarta para ‘Supervivientes’",
+          "source": "El País",
+          "publishedAt": "2026-11-26T14:10:34.000Z",
+          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-26/el-examen-sorpresa-de-jorge-javier-a-pedro-sanchez-no-sabe-como-se-llama-la-hija-de-jesulin-y-se-descarta-para-supervivientes.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/WKU7BQC7MVE3BCM5X5I4MEAVF4.jpg?auth=fdf6a2ebe0b52f990ab38aa076d3c05279c56c6ccfb66d7da9e673907c159326"
+        },
+        {
+          "title": "Jorge Javier llama a Pedro Sánchez y le ofrece trabajar en Mediaset tras las elecciones",
+          "source": "El Correo",
+          "publishedAt": "2026-11-26T13:29:56.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/jorge-javier-entrevista-pedro-sanchez-ofrece-trabajar-20261126142932-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/noticias/2026/11/26/jorge-javier-kOgH-U40553542171lhF-1200x840@El%20Correo.jpg"
+        },
+        {
+          "title": "'GH Vip': El gesto de Karmele que asusta a Jorge Javier y el adiós de Belén Esteban por culpa de Pipi",
+          "source": "El Correo",
+          "publishedAt": "2026-11-26T08:06:00.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/gh-vip-gesto-karmele-asusta-jorge-javier-adios-belen-esteban-20261126085934-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/el-examen-sorpresa-de-jorge-javier-a-pedro-sanchez-no-sabe-como-se-llama-la-hija/"
+    },
+    {
+      "id": "now-cluster-españa-euros + belgrado",
+      "title": "Vuelos directos de Bilbao a Belgrado desde 39,99 euros: Wizz Air estrenará una ruta inédita en Loiu para viajar a los Balcanes",
+      "brief": "Vuelos directos de Bilbao a Belgrado desde 39,99 euros: Wizz Air estrenará una ruta inédita en Loiu para viajar a los Balcanes.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -96,34 +207,32 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Mundo",
+        "El Diario Vasco",
         "El Correo"
       ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17956996930019.jpg"
-      ],
+      "images": [],
       "evidence": [
         {
-          "title": "Hernández de Cos será el próximo presidente del BCE y consigue el puesto europeo de mayor poder en la historia de España",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-26T13:29:00.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/26/6b083332fdddff741f8b4595.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17956996930019.jpg"
+          "title": "Vuelos directos de Bilbao a Belgrado desde 39,99 euros: Wizz Air estrenará una ruta inédita en Loiu para viajar a los Balcanes",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-26T14:32:31.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/vuelos-directos-bilbao-belgrado-3999-euros-wizz-20261126153231-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
-          "title": "Pablo Hernández de Cos será el próximo presidente del BCE",
+          "title": "El aeropuerto de Bilbao estrenará conexión con Belgrado en junio",
           "source": "El Correo",
-          "publishedAt": "2026-11-26T13:24:31.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/pablo-hernandez-cos-proximo-presidente-bce-20261126142431-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-26T11:01:12.000Z",
+          "sourceUrl": "https://www.elcorreo.com/bizkaia/aeropuerto-bilbao-estrenara-conexion-belgrado-junio-20261126120112-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         }
       ],
-      "path": "/es/entity/hernandez-de-cos-sera-el-proximo-presidente-del-bce-y-consigue-el-puesto-europeo/"
+      "path": "/es/entity/vuelos-directos-de-bilbao-a-belgrado-desde-39-99-euros-wizz-air-estrenara-una-ru/"
     },
     {
-      "id": "now-cluster-españa-kutxabank + activa",
-      "title": "Kutxabank activa el pago con Bizum en tiendas y comercios físicos a sus clientes",
-      "brief": "Kutxabank activa el pago con Bizum en tiendas y comercios físicos a sus clientes.",
+      "id": "now-cluster-españa-poder + hernandez",
+      "title": "Hernández de Cos será el próximo presidente del BCE y consigue el cargo europeo de mayor poder en la historia de España",
+      "brief": "Hernández de Cos será el próximo presidente del BCE y consigue el cargo europeo de mayor poder en la historia de España.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -133,6 +242,52 @@
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "1h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17956996930019.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Pablo Hernández de Cos será el próximo presidente del BCE",
+          "source": "El Correo",
+          "publishedAt": "2026-11-26T13:50:03.000Z",
+          "sourceUrl": "https://www.elcorreo.com/economia/pablo-hernandez-cos-proximo-presidente-bce-20261126142431-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Hernández de Cos será el próximo presidente del BCE y consigue el cargo europeo de mayor poder en la historia de España",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-26T13:29:00.000Z",
+          "sourceUrl": "https://www.elmundo.es/economia/2026/11/26/6b083332fdddff741f8b4595.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17956996930019.jpg"
+        }
+      ],
+      "path": "/es/entity/hernandez-de-cos-sera-el-proximo-presidente-del-bce-y-consigue-el-cargo-europeo/"
+    },
+    {
+      "id": "moving-cluster-españa-kutxabank + activa",
+      "title": "Kutxabank activa el pago con Bizum en tiendas y comercios físicos a sus clientes",
+      "brief": "Kutxabank activa el pago con Bizum en tiendas y comercios físicos a sus clientes.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -165,53 +320,6 @@
       "path": "/es/entity/kutxabank-activa-el-pago-con-bizum-en-tiendas-y-comercios-fisicos-a-sus-clientes/"
     },
     {
-      "id": "now-cluster-españa-silvia + intxaurrondo",
-      "title": "Un juez en activo entra en “campaña” con un vídeo en redes contra el Gobierno, el PSOE y la periodista Silvia Intxaurrondo",
-      "brief": "Un juez en activo entra en “campaña” con un vídeo en redes contra el Gobierno, el PSOE y la periodista Silvia Intxaurrondo.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "1h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/5K6JC2F75ZDQDPDXBI62B66NDE.jpg?auth=f28182c8ecd0b2e485837bace20a1b1a8de6784871c335c6db76822596e2baa2",
-        "https://s2.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/26/silvia-intxaurrondo-kNE-U40552784465ugH-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Un juez en activo entra en “campaña” con un vídeo en redes contra el Gobierno, el PSOE y la periodista Silvia Intxaurrondo",
-          "source": "El País",
-          "publishedAt": "2026-11-26T12:34:59.000Z",
-          "sourceUrl": "https://elpais.com/espana/2026-11-26/un-juez-en-activo-entra-en-campana-con-un-video-en-redes-contra-el-gobierno-el-psoe-y-la-periodista-silvia-intxaurrondo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/5K6JC2F75ZDQDPDXBI62B66NDE.jpg?auth=f28182c8ecd0b2e485837bace20a1b1a8de6784871c335c6db76822596e2baa2"
-        },
-        {
-          "title": "El Consejo de RTVE respalda a Silvia Intxaurrondo ante la Junta Electoral Central",
-          "source": "El Correo",
-          "publishedAt": "2026-11-26T12:16:23.000Z",
-          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/consejo-rtve-respalda-silvia-intxaurrondo-ante-junta-20261126131622-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/26/silvia-intxaurrondo-kNE-U40552784465ugH-1200x840@RC.jpg"
-        }
-      ],
-      "path": "/es/entity/un-juez-en-activo-entra-en-campana-con-un-video-en-redes-contra-el-gobierno-el-p/"
-    },
-    {
       "id": "moving-cluster-españa-gobierno + contra",
       "title": "La OPA vasca sobre Azkoyen, que llevaría la sede a Bizkaia, enfada al Gobierno de Navarra",
       "brief": "La OPA vasca sobre Azkoyen, que llevaría la sede a Bizkaia, enfada al Gobierno de Navarra.",
@@ -220,13 +328,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -266,10 +374,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -304,24 +412,23 @@
       "path": "/es/entity/la-policia-nacional-identifico-a-120-ultras-de-la-real-en-santander-antes-del-pa/"
     },
     {
-      "id": "moving-cluster-españa-policia + apedrean",
+      "id": "fading-cluster-españa-policia + apedrean",
       "title": "Decenas de jóvenes se enfrentan al candidato del PP en el campus de la EHU en San Sebastián: «Si no está la Policía, nos apedrean»",
       "brief": "Decenas de jóvenes se enfrentan al candidato del PP en el campus de la EHU en San Sebastián: «Si no está la Policía, nos apedrean».",
       "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 14,
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 70,
+      "alertScore": 52,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
@@ -350,53 +457,6 @@
       "path": "/es/entity/decenas-de-jovenes-se-enfrentan-al-candidato-del-pp-en-el-campus-de-la-ehu-en-sa/"
     },
     {
-      "id": "moving-cluster-españa-gobierno + navarra",
-      "title": "La UCO ve irregularidades penales en las obras de los túneles del Gobierno de Chivite en los que participó la empresa de Cerdán",
-      "brief": "La UCO ve irregularidades penales en las obras de los túneles del Gobierno de Chivite en los que participó la empresa de Cerdán.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El Correo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/03/18/17738580368926.jpg",
-        "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/26/chivietemas-RWa13jc81YPRUXIvoqquajO-1200x840@RC.jpeg"
-      ],
-      "evidence": [
-        {
-          "title": "La UCO detecta \"posibles delitos\" en la mayor obra de Navarra en décadas, que Chivite encargó al socio de Cerdán por 70 millones",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-26T10:34:50.000Z",
-          "sourceUrl": "https://www.elmundo.es/espana/2026/11/26/6b080638fdddff29568b4579.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/03/18/17738580368926.jpg"
-        },
-        {
-          "title": "La UCO ve irregularidades penales en las obras de los túneles del Gobierno de Chivite en los que participó la empresa de Cerdán",
-          "source": "El Correo",
-          "publishedAt": "2026-11-26T10:06:13.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/uco-irregularidades-penales-obras-tuneles-navarros-participo-20261126110613-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/26/chivietemas-RWa13jc81YPRUXIvoqquajO-1200x840@RC.jpeg"
-        }
-      ],
-      "path": "/es/entity/la-uco-ve-irregularidades-penales-en-las-obras-de-los-tuneles-del-gobierno-de-ch/"
-    },
-    {
       "id": "fading-cluster-españa-dario + debe",
       "title": "Apoyo unánime de Barriola, Titín III y Errasti a Darío: «Debe estar en el Parejas»",
       "brief": "Apoyo unánime de Barriola, Titín III y Errasti a Darío: «Debe estar en el Parejas».",
@@ -405,10 +465,10 @@
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Bajando",
-      "strength": 9,
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
@@ -440,9 +500,9 @@
       "path": "/es/entity/apoyo-unanime-de-barriola-titin-iii-y-errasti-a-dario-debe-estar-en-el-parejas/"
     },
     {
-      "id": "fading-cluster-españa-accidente + joven",
-      "title": "Un accidente con un coche policial delata en Bilbao a un joven buscado por homicidio en Francia",
-      "brief": "Un accidente con un coche policial delata en Bilbao a un joven buscado por homicidio en Francia.",
+      "id": "fading-cluster-españa-gobierno + obra",
+      "title": "La UCO ve irregularidades penales en las obras de los túneles del Gobierno de Chivite en los que participó la empresa de Cerdán",
+      "brief": "La UCO ve irregularidades penales en las obras de los túneles del Gobierno de Chivite en los que participó la empresa de Cerdán.",
       "whyItMatters": "",
       "verdict": "Si no vuelve a aparecer, sale de portada.",
       "mode": "fading",
@@ -451,7 +511,53 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "4h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 52,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El Correo"
+      ],
+      "images": [
+        "https://e01-phantom-elmundo.uecdn.es/445bd02888507b23533415369ab74f43/resize/1200/f/webp/assets/multimedia/imagenes/2026/03/18/17738580368926.jpg",
+        "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/26/chivietemas-RWa13jc81YPRUXIvoqquajO-1200x840@RC.jpeg"
+      ],
+      "evidence": [
+        {
+          "title": "La UCO detecta \"posibles delitos\" en la mayor obra de Navarra en décadas, que Chivite encargó al socio de Cerdán por 70 millones",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-26T10:34:50.000Z",
+          "sourceUrl": "https://www.elmundo.es/espana/2026/11/26/6b080638fdddff29568b4579.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/445bd02888507b23533415369ab74f43/resize/1200/f/webp/assets/multimedia/imagenes/2026/03/18/17738580368926.jpg"
+        },
+        {
+          "title": "La UCO ve irregularidades penales en las obras de los túneles del Gobierno de Chivite en los que participó la empresa de Cerdán",
+          "source": "El Correo",
+          "publishedAt": "2026-11-26T10:06:13.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/uco-irregularidades-penales-obras-tuneles-navarros-participo-20261126110613-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/rc/www/multimedia/nacional/2026/11/26/chivietemas-RWa13jc81YPRUXIvoqquajO-1200x840@RC.jpeg"
+        }
+      ],
+      "path": "/es/entity/la-uco-ve-irregularidades-penales-en-las-obras-de-los-tuneles-del-gobierno-de-ch/"
+    },
+    {
+      "id": "fading-cluster-españa-accidente + joven",
+      "title": "Un accidente con un coche policial delata en Bilbao a un joven buscado por homicidio en Francia",
+      "brief": "Un accidente con un coche policial delata en Bilbao a un joven buscado por homicidio en Francia.",
+      "whyItMatters": "",
+      "verdict": "Si no vuelve a aparecer, sale de portada.",
+      "mode": "fading",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 52,
@@ -484,52 +590,6 @@
         }
       ],
       "path": "/es/entity/un-accidente-con-un-coche-policial-delata-en-bilbao-a-un-joven-buscado-por-homic/"
-    },
-    {
-      "id": "fading-cluster-españa-duran + andy",
-      "title": "Muere Andy Taylor a los 65 años, el guitarrista que puso esencia rock a los destellos pop de Duran Duran",
-      "brief": "Muere Andy Taylor a los 65 años, el guitarrista que puso esencia rock a los destellos pop de Duran Duran.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/MZ7ZKS7LSNFW7GMOBADVPIOQKA.jpg?auth=ace978d09941b77f4065522c3655d404016cf8a3ecc98511f88f1feda1e6fb1c",
-        "https://s2.ppllstatics.com/elcorreo/www/multimedia/culturas/2026/11/26/Andy-Taylor-Duran-Duran@2000x1500-RJ39hlNxChoVMCf4qFd6BBL-1200x840@El%20Correo.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Muere Andy Taylor a los 65 años, el guitarrista que puso esencia rock a los destellos pop de Duran Duran",
-          "source": "El País",
-          "publishedAt": "2026-11-26T09:34:59.000Z",
-          "sourceUrl": "https://elpais.com/cultura/2026-11-26/muere-andy-taylor-a-los-65-anos-el-guitarrista-que-puso-esencia-rock-a-los-destellos-pop-de-duran-duran.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/MZ7ZKS7LSNFW7GMOBADVPIOQKA.jpg?auth=ace978d09941b77f4065522c3655d404016cf8a3ecc98511f88f1feda1e6fb1c"
-        },
-        {
-          "title": "Fallece a los 65 años Andy Taylor, el guitarrista original del grupo Duran Duran",
-          "source": "El Correo",
-          "publishedAt": "2026-11-25T23:42:14.000Z",
-          "sourceUrl": "https://www.elcorreo.com/culturas/musica/fallece-anos-andy-taylor-guitarrista-original-grupo-20261126004213-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/culturas/2026/11/26/Andy-Taylor-Duran-Duran@2000x1500-RJ39hlNxChoVMCf4qFd6BBL-1200x840@El%20Correo.jpg"
-        }
-      ],
-      "path": "/es/entity/muere-andy-taylor-a-los-65-anos-el-guitarrista-que-puso-esencia-rock-a-los-deste/"
     }
   ]
 }
