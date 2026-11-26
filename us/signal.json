@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-26T11:00:47.498Z",
+  "updatedAt": "2026-11-26T12:00:47.504Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "422,440 links analyzed",
-  "dayScanLabel": "8,328 links scanned in 24h",
+  "ambientPulseLabel": "423,266 links analyzed",
+  "dayScanLabel": "8,318 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -25,10 +25,10 @@
     "mode": "moving",
     "state": "rising",
     "stateLabel": "Rising",
-    "strength": 29,
+    "strength": 28,
     "sourceCount": 5,
     "itemCount": 6,
-    "freshness": "fresh now",
+    "freshness": "2h fresh",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -101,10 +101,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 29,
+      "strength": 28,
       "sourceCount": 5,
       "itemCount": 6,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -176,10 +176,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 29,
+      "strength": 28,
       "sourceCount": 4,
       "itemCount": 9,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -250,13 +250,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 24,
-      "sourceCount": 3,
-      "itemCount": 3,
+      "strength": 26,
+      "sourceCount": 4,
+      "itemCount": 4,
       "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 92,
+      "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -264,15 +264,24 @@
       ],
       "isHotNews": false,
       "sources": [
+        "NPR Politics",
         "The Guardian US",
         "CBS News",
         "The New York Times Politics"
       ],
       "images": [
+        "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6054103",
         "https://i.guim.co.uk/img/media/cb7d6b44b13b8d28de77046d60b65aa47e12ac29/683_0_6827_5464/master/6827.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ace8db60b777693a85336c7091a00ca3",
         "https://static01.nyt.com/images/2026/11/24/multimedia/24dc-abrego-zvwj/24dc-abrego-zvwj-mediumSquareAt3X-v3.jpg"
       ],
       "evidence": [
+        {
+          "title": "Trump administration proposes new tariffs on goods from major U.S. trading partners",
+          "source": "NPR Politics",
+          "publishedAt": "2026-11-26T11:43:47.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/26/nx-s1-6054103/trump-administration-proposes-new-tariffs-on-goods-from-major-u-s-trading-partners?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6054103"
+        },
         {
           "title": "Kilmar Ábrego García leaves for Spain. But the Trump administration got what it wanted",
           "source": "The Guardian US",
@@ -298,7 +307,7 @@
       "path": "/us/entity/kilmar-abrego-garcia-leaves-for-spain-but-the-trump-administration-got-what-it-w/"
     },
     {
-      "id": "now-cluster-united states-coast + king",
+      "id": "now-cluster-united states-california + coast",
       "title": "'King tide' waves batter California coast, soaking San Francisco",
       "brief": "'King tide' waves batter California coast, soaking San Francisco.",
       "whyItMatters": "",
@@ -309,7 +318,7 @@
       "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "fresh now",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 92,
@@ -355,21 +364,21 @@
       "path": "/us/entity/king-tide-waves-batter-california-coast-soaking-san-francisco/"
     },
     {
-      "id": "moving-cluster-united states-andy + taylor",
-      "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
-      "brief": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65.",
+      "id": "moving-cluster-united states-iowa + officials",
+      "title": "Questions linger about lead pollution from Iowa blast, despite officials’ assurances",
+      "brief": "Questions linger about lead pollution from Iowa blast, despite officials’ assurances.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 22,
+      "state": "cooling",
+      "stateLabel": "Cooling",
+      "strength": 14,
       "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "2h fresh",
+      "itemCount": 5,
+      "freshness": "10h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 92,
+      "alertScore": 88,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -377,38 +386,52 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The New York Times",
-        "NPR",
-        "CBS News"
+        "NBC News",
+        "CBS News",
+        "The New York Times"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/25/multimedia/25xp-andy-taylor/25xp-andy-taylor-mediumSquareAt3X.jpg",
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1851x1234+0+0/resize/1851x1234!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F40%2F0b%2Fd938374d4546b030f31d11e27027%2Fap26329783844907.jpg"
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261125-middletown-iowa-detonation-army-ww-1603-55afd2.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795652034219_nn_sbr_tons_toxic_chemicals_detonate_iowa_261125_S3_1920x1080-qnmjmk.jpg"
       ],
       "evidence": [
         {
-          "title": "Andy Taylor, Duran Duran’s ‘Live-Wire’ Guitarist, Dies at 65",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-26T08:53:13.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/arts/music/andy-taylor-duran-duran-dead.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25xp-andy-taylor/25xp-andy-taylor-mediumSquareAt3X.jpg"
+          "title": "Questions linger about lead pollution from Iowa blast, despite officials’ assurances",
+          "source": "NBC News",
+          "publishedAt": "2026-11-26T01:32:59.520Z",
+          "sourceUrl": "https://www.nbcnews.com/science/environment/questions-lead-dust-pollution-safe-iowa-detonation-tests-rcna611366?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261125-middletown-iowa-detonation-army-ww-1603-55afd2.jpg"
         },
         {
-          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
-          "source": "NPR",
-          "publishedAt": "2026-11-26T06:34:20.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/26/g-s1-155934/andy-taylor-duran-duran-obit?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1851x1234+0+0/resize/1851x1234!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F40%2F0b%2Fd938374d4546b030f31d11e27027%2Fap26329783844907.jpg"
-        },
-        {
-          "title": "Andy Taylor, longtime Duran Duran guitarist, dies at 65",
+          "title": "EPA detects no lead in air shortly after toxic Iowa chemical detonation",
           "source": "CBS News",
-          "publishedAt": "2026-11-26T00:32:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/andy-taylor-guitarist-duran-duran-dies-age-65/?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-26T01:03:14.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/epa-detects-no-lead-air-shortly-toxic-iowa-chemical-detonation/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Videos capture Army's detonation of explosives in Iowa",
+          "source": "CBS News",
+          "publishedAt": "2026-11-26T00:35:48.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/videos-capture-loud-boom-smoke-rising-as-army-detonates-explosives-in-iowa/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Tons of toxic chemicals detonate in Iowa",
+          "source": "NBC News",
+          "publishedAt": "2026-11-26T00:13:59.000Z",
+          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/tons-of-toxic-chemicals-detonate-in-iowa-274197061831?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795652034219_nn_sbr_tons_toxic_chemicals_detonate_iowa_261125_S3_1920x1080-qnmjmk.jpg"
+        },
+        {
+          "title": "After Extraordinary Iowa Explosion, Officials and Scientists Assess Fallout Risks",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-25T23:09:50.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/25/us/iowa-army-ammunition-blast.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         }
       ],
-      "path": "/us/entity/andy-taylor-guitarist-of-new-wave-icons-duran-duran-dies-at-65/"
+      "path": "/us/entity/questions-linger-about-lead-pollution-from-iowa-blast-despite-officials-assuranc/"
     },
     {
       "id": "now-cluster-united states-thanksgiving + more",
@@ -419,10 +442,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresh now",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -458,7 +481,7 @@
       "path": "/us/entity/what-s-open-and-closed-today-on-thanksgiving-day-2026-hours-for-stores-restauran/"
     },
     {
-      "id": "now-cluster-united states-thanksgiving + coast",
+      "id": "now-cluster-united states-thanksgiving + storm",
       "title": "Thanksgiving Storm Is Expected to Hit East Coast With Heavy Rain and Flooding",
       "brief": "Thanksgiving Storm Is Expected to Hit East Coast With Heavy Rain and Flooding.",
       "whyItMatters": "",
@@ -466,10 +489,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresh now",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -516,7 +539,7 @@
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -545,74 +568,59 @@
       "path": "/us/entity/fcc-says-spacex-can-deploy-1-million-satellites-for-data-centers-in-space-scient/"
     },
     {
-      "id": "fading-cluster-united states-iowa + lead",
-      "title": "WATCH: Vance defends Iowa lead azide detonation as he visits Air Force troops in Ohio",
-      "brief": "WATCH: Vance defends Iowa lead azide detonation as he visits Air Force troops in Ohio.",
+      "id": "fading-cluster-united states-andy + taylor",
+      "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+      "brief": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65.",
       "whyItMatters": "",
       "verdict": "If it does not reappear, it leaves the cover.",
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Cooling",
-      "strength": 14,
+      "strength": 17,
       "sourceCount": 3,
-      "itemCount": 5,
-      "freshness": "9h fresh",
+      "itemCount": 3,
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 70,
+      "alertScore": 68,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast"
       ],
       "isHotNews": false,
       "sources": [
-        "NBC News",
-        "CBS News",
-        "PBS NewsHour"
+        "The New York Times",
+        "NPR",
+        "CBS News"
       ],
       "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261125-middletown-iowa-detonation-army-ww-1603-55afd2.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795652034219_nn_sbr_tons_toxic_chemicals_detonate_iowa_261125_S3_1920x1080-qnmjmk.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-25T195915Z_389914077_RC27VOAWAMY8_RTRMADP_3_USA-VANCE-THANKSGIVING-1024x683.jpg"
+        "https://static01.nyt.com/images/2026/11/25/multimedia/25xp-andy-taylor/25xp-andy-taylor-mediumSquareAt3X.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1851x1234+0+0/resize/1851x1234!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F40%2F0b%2Fd938374d4546b030f31d11e27027%2Fap26329783844907.jpg"
       ],
       "evidence": [
         {
-          "title": "Questions linger about lead pollution from Iowa blast, despite officials’ assurances",
-          "source": "NBC News",
-          "publishedAt": "2026-11-26T01:32:59.520Z",
-          "sourceUrl": "https://www.nbcnews.com/science/environment/questions-lead-dust-pollution-safe-iowa-detonation-tests-rcna611366?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261125-middletown-iowa-detonation-army-ww-1603-55afd2.jpg"
+          "title": "Andy Taylor, Duran Duran’s ‘Live-Wire’ Guitarist, Dies at 65",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-26T08:53:13.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/25/arts/music/andy-taylor-duran-duran-dead.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25xp-andy-taylor/25xp-andy-taylor-mediumSquareAt3X.jpg"
         },
         {
-          "title": "EPA detects no lead in air shortly after toxic Iowa chemical detonation",
+          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+          "source": "NPR",
+          "publishedAt": "2026-11-26T06:34:20.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/26/g-s1-155934/andy-taylor-duran-duran-obit?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1851x1234+0+0/resize/1851x1234!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F40%2F0b%2Fd938374d4546b030f31d11e27027%2Fap26329783844907.jpg"
+        },
+        {
+          "title": "Andy Taylor, longtime Duran Duran guitarist, dies at 65",
           "source": "CBS News",
-          "publishedAt": "2026-11-26T01:03:14.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/epa-detects-no-lead-air-shortly-toxic-iowa-chemical-detonation/?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-26T00:32:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/andy-taylor-guitarist-duran-duran-dies-age-65/?utm_source=lootura.com&ref=lootura.com",
           "image": ""
-        },
-        {
-          "title": "Videos capture Army's detonation of explosives in Iowa",
-          "source": "CBS News",
-          "publishedAt": "2026-11-26T00:35:48.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/videos-capture-loud-boom-smoke-rising-as-army-detonates-explosives-in-iowa/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Tons of toxic chemicals detonate in Iowa",
-          "source": "NBC News",
-          "publishedAt": "2026-11-26T00:13:59.000Z",
-          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/tons-of-toxic-chemicals-detonate-in-iowa-274197061831?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795652034219_nn_sbr_tons_toxic_chemicals_detonate_iowa_261125_S3_1920x1080-qnmjmk.jpg"
-        },
-        {
-          "title": "WATCH: Vance defends Iowa lead azide detonation as he visits Air Force troops in Ohio",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-25T23:51:49.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/politics/watch-vance-defends-iowa-lead-azide-detonation-as-he-visits-air-force-troops-in-ohio?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-25T195915Z_389914077_RC27VOAWAMY8_RTRMADP_3_USA-VANCE-THANKSGIVING-1024x683.jpg"
         }
       ],
-      "path": "/us/entity/watch-vance-defends-iowa-lead-azide-detonation-as-he-visits-air-force-troops-in/"
+      "path": "/us/entity/andy-taylor-guitarist-of-new-wave-icons-duran-duran-dies-at-65/"
     },
     {
       "id": "fading-cluster-united states-aaron + rodgers",
@@ -626,7 +634,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 52,
