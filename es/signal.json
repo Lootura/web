@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-26T04:00:47.434Z",
+  "updatedAt": "2026-11-26T05:00:47.664Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "312.615 enlaces analizados",
-  "dayScanLabel": "4.216 enlaces escaneados en 24h",
+  "ambientPulseLabel": "313.040 enlaces analizados",
+  "dayScanLabel": "4.222 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,6 +19,53 @@
   "topAlert": null,
   "signals": [
     {
+      "id": "now-cluster-españa-psoe + pradas",
+      "title": "El PSOE pide imputar a Pradas tras acusarle un alto cargo de la filtración del audio manipulado de Aemet en la DANA",
+      "brief": "El PSOE pide imputar a Pradas tras acusarle un alto cargo de la filtración del audio manipulado de Aemet en la DANA.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "elDiario.es",
+        "Cadena SER"
+      ],
+      "images": [
+        "https://static.eldiario.es/clip/65c9b98f-e8ee-4616-94ac-5714876651f0_facebook-aspect-ratio-1200-675_default_0.jpg",
+        "https://cadenaser.com/resizer/v2/2BCY6O6GYZJ3RMDGXCFGWLHPG4.jpg?auth=d6ce17d2b43bb3a05c9cdbc68ccccf0d4cd069534321e0477de97bb4703a281f&quality=70&width=1200&height=675&smart=true"
+      ],
+      "evidence": [
+        {
+          "title": "El PSPV-PSOE demana a la jutgessa que impute Pradas en la causa per la filtració d'un àudio reservat d'Aemet en la dana",
+          "source": "elDiario.es",
+          "publishedAt": "2026-11-26T05:00:33.000Z",
+          "sourceUrl": "https://www.eldiario.es/comunitat-valenciana/val/pspv-psoe-demana-jutgessa-impute-pradas-causa-per-filtracio-d-audio-reservat-d-aemet-dana_1_13693739.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static.eldiario.es/clip/65c9b98f-e8ee-4616-94ac-5714876651f0_facebook-aspect-ratio-1200-675_default_0.jpg"
+        },
+        {
+          "title": "El PSOE pide imputar a Pradas tras acusarle un alto cargo de la filtración del audio manipulado de Aemet en la DANA",
+          "source": "Cadena SER",
+          "publishedAt": "2026-11-26T05:00:00.000Z",
+          "sourceUrl": "https://cadenaser.com/comunitat-valenciana/2026/11/26/el-psoe-pide-imputar-a-pradas-tras-acusarle-un-alto-cargo-de-la-filtracion-del-audio-manipulado-de-aemet-en-la-dana-radio-valencia/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://cadenaser.com/resizer/v2/2BCY6O6GYZJ3RMDGXCFGWLHPG4.jpg?auth=d6ce17d2b43bb3a05c9cdbc68ccccf0d4cd069534321e0477de97bb4703a281f&quality=70&width=1200&height=675&smart=true"
+        }
+      ],
+      "path": "/es/entity/el-psoe-pide-imputar-a-pradas-tras-acusarle-un-alto-cargo-de-la-filtracion-del-a/"
+    },
+    {
       "id": "now-cluster-españa-corte + ingles",
       "title": "El Corte Inglés aprueba su plan estratégico con 5.000 millones de inversión y sin horizonte de salida a Bolsa",
       "brief": "El Corte Inglés aprueba su plan estratégico con 5.000 millones de inversión y sin horizonte de salida a Bolsa.",
@@ -27,10 +74,10 @@
       "mode": "now",
       "state": "active",
       "stateLabel": "Activa",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -87,10 +134,10 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "6h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 73,
+      "alertScore": 67,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -131,18 +178,18 @@
       "path": "/es/entity/dos-horas-con-plex-sanchez-suena-con-ser-juez-en-el-gta-vi-y-feijoo-tiembla-en-u/"
     },
     {
-      "id": "moving-cluster-españa-gobierno + ante",
-      "title": "El Gobierno canario declara la emergencia sanitaria en El Hierro ante la llegada «masiva» de migrantes a la isla",
-      "brief": "El Gobierno canario declara la emergencia sanitaria en El Hierro ante la llegada «masiva» de migrantes a la isla.",
+      "id": "moving-cluster-españa-ante + atletico",
+      "title": "Sorloth y Julián Alvarez sacan la bandera del gol en el Atlético para derrotar al Viking",
+      "brief": "Sorloth y Julián Alvarez sacan la bandera del gol en el Atlético para derrotar al Viking.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "9h fresca",
+      "freshness": "7h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -153,32 +200,32 @@
       "isHotNews": false,
       "sources": [
         "El País",
-        "El Correo"
+        "El Mundo"
       ],
       "images": [
-        "https://imagenes.elpais.com/resizer/v2/YWJIK47M7RFV7OK3FMJ6O2G3JM.jpg?auth=cc1d6f3043cbf2af604a2311a66f29c18b9f06b0ad21352f45582e08fc774214",
-        "https://s1.ppllstatics.com/rc/www/multimedia/nacional/2026/11/25/canarias-efe-kf4-U40539320532YwC-1200x840@RC.jpg"
+        "https://imagenes.elpais.com/resizer/v2/ENZIRSWGIZASTA3ZQAMH4ITJTI.jpg?auth=3e5027cd273c81c2f64719c7569f9926b3e6c39ec876ec6d3a3e25a6fdcf0e54",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956431552234.jpg"
       ],
       "evidence": [
         {
-          "title": "La UME se desplegará en El Hierro tras declarar Canarias la emergencia por la crisis migratoria",
+          "title": "Sorloth y Julián Alvarez sacan la bandera del gol en el Atlético para derrotar al Viking",
           "source": "El País",
-          "publishedAt": "2026-11-25T18:47:06.000Z",
-          "sourceUrl": "https://elpais.com/espana/2026-11-25/sin-pausa-en-la-ruta-canaria-190-personas-mas-llegan-en-dos-cayucos-a-el-hierro.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/YWJIK47M7RFV7OK3FMJ6O2G3JM.jpg?auth=cc1d6f3043cbf2af604a2311a66f29c18b9f06b0ad21352f45582e08fc774214"
+          "publishedAt": "2026-11-25T22:28:46.000Z",
+          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-25/sorloth-y-julian-alvarez-sacan-la-bandera-del-gol-en-el-atletico-para-derrotar-al-viking.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/ENZIRSWGIZASTA3ZQAMH4ITJTI.jpg?auth=3e5027cd273c81c2f64719c7569f9926b3e6c39ec876ec6d3a3e25a6fdcf0e54"
         },
         {
-          "title": "El Gobierno canario declara la emergencia sanitaria en El Hierro ante la llegada «masiva» de migrantes a la isla",
-          "source": "El Correo",
-          "publishedAt": "2026-11-25T17:10:49.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/gobierno-canario-declara-emergencia-sanitaria-hierro-ante-20261125181048-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/nacional/2026/11/25/canarias-efe-kf4-U40539320532YwC-1200x840@RC.jpg"
+          "title": "Un pulcro Atlético cumple el necesario trámite ante el Viking",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-25T21:52:04.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/futbol/champions-league/2026/11/25/6b073781e9cf4a07788b456e.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956431552234.jpg"
         }
       ],
-      "path": "/es/entity/el-gobierno-canario-declara-la-emergencia-sanitaria-en-el-hierro-ante-la-llegada/"
+      "path": "/es/entity/sorloth-y-julian-alvarez-sacan-la-bandera-del-gol-en-el-atletico-para-derrotar-a/"
     },
     {
-      "id": "moving-cluster-españa-crisis + lleva",
+      "id": "moving-cluster-españa-lleva + crisis",
       "title": "Oficial: el Málaga destituye a Loren Juarros como primera medida para atajar su crisis deportiva | Diario Sur",
       "brief": "Oficial: el Málaga destituye a Loren Juarros como primera medida para atajar su crisis deportiva | Diario Sur.",
       "whyItMatters": "",
@@ -189,7 +236,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "9h fresca",
+      "freshness": "10h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -236,7 +283,7 @@
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "10h fresca",
+      "freshness": "11h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 64,
@@ -282,7 +329,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 60,
@@ -329,7 +376,7 @@
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresca",
+      "freshness": "6h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 60,
@@ -363,96 +410,6 @@
         }
       ],
       "path": "/es/entity/jesus-vazquez-silvia-abril-y-manuel-carrasco-presentadores-de-las-campanadas-de/"
-    },
-    {
-      "id": "now-cluster-españa-ante + atletico",
-      "title": "Sorloth y Julián Alvarez sacan la bandera del gol en el Atlético para derrotar al Viking",
-      "brief": "Sorloth y Julián Alvarez sacan la bandera del gol en el Atlético para derrotar al Viking.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "6h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 60,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/ENZIRSWGIZASTA3ZQAMH4ITJTI.jpg?auth=3e5027cd273c81c2f64719c7569f9926b3e6c39ec876ec6d3a3e25a6fdcf0e54",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956431552234.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Sorloth y Julián Alvarez sacan la bandera del gol en el Atlético para derrotar al Viking",
-          "source": "El País",
-          "publishedAt": "2026-11-25T22:28:46.000Z",
-          "sourceUrl": "https://elpais.com/deportes/futbol/2026-11-25/sorloth-y-julian-alvarez-sacan-la-bandera-del-gol-en-el-atletico-para-derrotar-al-viking.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/ENZIRSWGIZASTA3ZQAMH4ITJTI.jpg?auth=3e5027cd273c81c2f64719c7569f9926b3e6c39ec876ec6d3a3e25a6fdcf0e54"
-        },
-        {
-          "title": "Un pulcro Atlético cumple el necesario trámite ante el Viking",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-25T21:52:04.000Z",
-          "sourceUrl": "https://www.elmundo.es/deportes/futbol/champions-league/2026/11/25/6b073781e9cf4a07788b456e.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956431552234.jpg"
-        }
-      ],
-      "path": "/es/entity/sorloth-y-julian-alvarez-sacan-la-bandera-del-gol-en-el-atletico-para-derrotar-a/"
-    },
-    {
-      "id": "fading-cluster-españa-contra + primera",
-      "title": "Un cráter del tamaño de un estadio: el resultado de la misión para evitar que un asteroide choque contra la Tierra",
-      "brief": "Un cráter del tamaño de un estadio: el resultado de la misión para evitar que un asteroide choque contra la Tierra.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "10h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "Un cráter del tamaño de un estadio: el resultado de la misión para evitar que un asteroide choque contra la Tierra",
-          "source": "El Correo",
-          "publishedAt": "2026-11-25T17:49:43.000Z",
-          "sourceUrl": "https://www.elcorreo.com/ciencia/espacio/crater-tamano-estadio-resultado-mision-evitar-asteroide-20261125184943-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Así es el cráter del tamaño de un estadio que formó la primera misión que desvió un asteroide",
-          "source": "El País",
-          "publishedAt": "2026-11-25T17:30:08.000Z",
-          "sourceUrl": "https://elpais.com/ciencia/2026-11-25/asi-es-el-crater-del-tamano-de-un-estadio-que-formo-la-primera-mision-que-desvio-un-asteroide.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/un-crater-del-tamano-de-un-estadio-el-resultado-de-la-mision-para-evitar-que-un/"
     }
   ]
 }

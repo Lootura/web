@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-26T04:00:47.434Z",
+  "updatedAt": "2026-11-26T05:00:47.664Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "416,619 links analyzed",
-  "dayScanLabel": "8,332 links scanned in 24h",
+  "ambientPulseLabel": "417,454 links analyzed",
+  "dayScanLabel": "8,335 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -30,7 +30,7 @@
       "strength": 29,
       "sourceCount": 4,
       "itemCount": 10,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -101,10 +101,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 28,
+      "strength": 22,
       "sourceCount": 4,
       "itemCount": 9,
-      "freshness": "2h fresh",
+      "freshness": "3h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -173,10 +173,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 24,
+      "strength": 23,
       "sourceCount": 3,
       "itemCount": 4,
-      "freshness": "1h fresh",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 96,
@@ -235,12 +235,12 @@
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
+      "state": "active",
+      "stateLabel": "Active",
       "strength": 16,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 86,
@@ -285,18 +285,64 @@
       "path": "/us/entity/abrego-garcia-a-salvadoran-mistakenly-deported-by-u-s-goes-to-spain-but-hopes-to/"
     },
     {
-      "id": "now-cluster-united states-thanksgiving + surge",
-      "title": "Food banks see surge in visits amid rising Thanksgiving costs",
-      "brief": "Food banks see surge in visits amid rising Thanksgiving costs.",
+      "id": "now-cluster-united states-andy + taylor",
+      "title": "Andy Taylor, Duran Duran’s ‘Live-Wire’ Guitarist, Dies at 65",
+      "brief": "Andy Taylor, Duran Duran’s ‘Live-Wire’ Guitarist, Dies at 65.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times",
+        "CBS News"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/25/multimedia/25xp-andy-taylor/25xp-andy-taylor-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Andy Taylor, Duran Duran’s ‘Live-Wire’ Guitarist, Dies at 65",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-26T04:30:36.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/25/arts/music/andy-taylor-duran-duran-dead.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25xp-andy-taylor/25xp-andy-taylor-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Andy Taylor, longtime Duran Duran guitarist, dies at 65",
+          "source": "CBS News",
+          "publishedAt": "2026-11-26T00:32:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/andy-taylor-guitarist-duran-duran-dies-age-65/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/us/entity/andy-taylor-duran-duran-s-live-wire-guitarist-dies-at-65/"
+    },
+    {
+      "id": "moving-cluster-united states-thanksgiving + surge",
+      "title": "Food banks see surge in visits amid rising Thanksgiving costs",
+      "brief": "Food banks see surge in visits amid rising Thanksgiving costs.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 73,
@@ -339,69 +385,24 @@
       "path": "/us/entity/food-banks-see-surge-in-visits-amid-rising-thanksgiving-costs/"
     },
     {
-      "id": "moving-cluster-united states-andy + taylor",
-      "title": "Andy Taylor, Duran Duran’s ‘Live-Wire’ Guitarist, Dies at 65",
-      "brief": "Andy Taylor, Duran Duran’s ‘Live-Wire’ Guitarist, Dies at 65.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 14,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The New York Times",
-        "CBS News"
-      ],
-      "images": [
-        "https://static01.nyt.com/images/2026/11/25/multimedia/25xp-andy-taylor/25xp-andy-taylor-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Andy Taylor, Duran Duran’s ‘Live-Wire’ Guitarist, Dies at 65",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-26T01:09:57.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/arts/music/andy-taylor-duran-duran-dead.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25xp-andy-taylor/25xp-andy-taylor-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Andy Taylor, longtime Duran Duran guitarist, dies at 65",
-          "source": "CBS News",
-          "publishedAt": "2026-11-26T00:32:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/andy-taylor-guitarist-duran-duran-dies-age-65/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/us/entity/andy-taylor-duran-duran-s-live-wire-guitarist-dies-at-65/"
-    },
-    {
       "id": "moving-cluster-united states-aaron + rodgers",
-      "title": "Steelers release Aaron Rodgers after he blasts head coach over benching",
-      "brief": "Steelers release Aaron Rodgers after he blasts head coach over benching.",
+      "title": "Steelers cut Aaron Rodgers after he blasts coach Mike McCarthy in fiery exit interview",
+      "brief": "Steelers cut Aaron Rodgers after he blasts coach Mike McCarthy in fiery exit interview.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresh",
+      "itemCount": 3,
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 70,
+      "alertScore": 73,
       "alertTriggers": [
         "Crosses several sources",
+        "Picks up volume fast",
         "Still active"
       ],
       "isHotNews": false,
@@ -410,7 +411,8 @@
         "NBC News"
       ],
       "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795647924017_now_hallie_steelers_rodgers_261125_S3_1920x1080-tbovu0.jpg"
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795647924017_now_hallie_steelers_rodgers_261125_S3_1920x1080-tbovu0.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261125-rodgers-mccarthy-nfl-bf-1408-00023e.jpg"
       ],
       "evidence": [
         {
@@ -426,9 +428,16 @@
           "publishedAt": "2026-11-25T23:05:31.000Z",
           "sourceUrl": "https://www.nbcnews.com/video/steelers-release-aaron-rodgers-after-he-blasts-head-coach-over-benching-274192965784?utm_source=lootura.com&ref=lootura.com",
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795647924017_now_hallie_steelers_rodgers_261125_S3_1920x1080-tbovu0.jpg"
+        },
+        {
+          "title": "Steelers cut Aaron Rodgers after he blasts coach Mike McCarthy in fiery exit interview",
+          "source": "NBC News",
+          "publishedAt": "2026-11-25T22:14:15.068Z",
+          "sourceUrl": "https://www.nbcnews.com/sports/nfl/aaron-rodgers-blasts-steelers-coach-mike-mccarthy-benching-re-unhealth-rcna611340?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261125-rodgers-mccarthy-nfl-bf-1408-00023e.jpg"
         }
       ],
-      "path": "/us/entity/steelers-release-aaron-rodgers-after-he-blasts-head-coach-over-benching/"
+      "path": "/us/entity/steelers-cut-aaron-rodgers-after-he-blasts-coach-mike-mccarthy-in-fiery-exit-int/"
     },
     {
       "id": "moving-cluster-united states-crashes + fire",
@@ -437,12 +446,12 @@
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
+      "state": "active",
+      "stateLabel": "Active",
       "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresh",
+      "freshness": "4h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 70,
@@ -477,7 +486,7 @@
       "path": "/us/entity/at-least-31-killed-after-fuel-tanker-crashes-and-catches-fire-near-cairo/"
     },
     {
-      "id": "fading-cluster-united states-holiday + using",
+      "id": "fading-cluster-united states-holiday + change",
       "title": "How a new generation of AI agents could change holiday shopping",
       "brief": "How a new generation of AI agents could change holiday shopping.",
       "whyItMatters": "",
@@ -485,10 +494,10 @@
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Cooling",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 52,
@@ -530,10 +539,10 @@
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Cooling",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 52,
@@ -576,10 +585,10 @@
       "mode": "fading",
       "state": "cooling",
       "stateLabel": "Cooling",
-      "strength": 8,
+      "strength": 7,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 52,
