@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-26T20:00:47.543Z",
-  "pulseLabel": "Último análisis · hace 6 horas",
-  "ambientPulseLabel": "319.337 enlaces analizados",
-  "dayScanLabel": "4.198 enlaces escaneados en 24h",
+  "updatedAt": "2026-11-27T06:44:17.673Z",
+  "pulseLabel": "Último análisis · este minuto",
+  "ambientPulseLabel": "319.754 enlaces analizados",
+  "dayScanLabel": "4.190 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,9 +19,9 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-socialista + estanis",
-      "title": "Muere Estanis Amutxastegi, el alcalde socialista de Andoain, amigo de De Lacalle y de Joseba 'Pagaza' que se enfrentó a ETA",
-      "brief": "Muere Estanis Amutxastegi, el alcalde socialista de Andoain, amigo de De Lacalle y de Joseba 'Pagaza' que se enfrentó a ETA.",
+      "id": "now-cluster-españa-mujer + expareja",
+      "title": "Asesinada una mujer de 34 años en Bilbao a manos de su expareja, un hombre de 47 años",
+      "brief": "Asesinada una mujer de 34 años en Bilbao a manos de su expareja, un hombre de 47 años.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
@@ -30,7 +30,7 @@
       "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "1h fresca",
+      "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 92,
@@ -41,12 +41,102 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Correo",
-        "El Mundo",
+        "elDiario.es",
+        "El Diario Vasco",
+        "El Correo"
+      ],
+      "images": [
+        "https://static.eldiario.es/clip/6d00831b-3196-4400-8236-5e6413f4b0c4_16-9-discover-aspect-ratio_default_0.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Asesinada una mujer de 34 años en Bilbao a manos de su expareja, un hombre de 47 años",
+          "source": "elDiario.es",
+          "publishedAt": "2026-11-27T06:23:11.000Z",
+          "sourceUrl": "https://www.eldiario.es/euskadi/asesinada-mujer-34-anos-bilbao-manos-expareja-hombre-47-anos_1_13697819.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static.eldiario.es/clip/6d00831b-3196-4400-8236-5e6413f4b0c4_16-9-discover-aspect-ratio_default_0.jpg"
+        },
+        {
+          "title": "Fallece la mujer apuñalada en Bilbao por su expareja delante de sus hijos",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-27T06:18:43.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/sucesos/herida-gravedad-mujer-bilbao-apunalada-expareja-20261126223232-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/asesinada-una-mujer-de-34-anos-en-bilbao-a-manos-de-su-expareja-un-hombre-de-47/"
+    },
+    {
+      "id": "now-cluster-españa-costa + nunca",
+      "title": "Costa Rica niega el ingreso a Francesca Albanese, relatora de la ONU: “Nunca me había sentido tan humillada”",
+      "brief": "Costa Rica niega el ingreso a Francesca Albanese, relatora de la ONU: “Nunca me había sentido tan humillada”.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
         "El Diario Vasco"
       ],
       "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957128177082.jpg",
+        "https://imagenes.elpais.com/resizer/v2/SC4QVC5SP5A2BL3BDETIXZ5Z4M.jpg?auth=e31909804073f9b878a74de16db19cf3890a1be1ec2a84402ef22438526c70b3"
+      ],
+      "evidence": [
+        {
+          "title": "Costa Rica niega el ingreso a Francesca Albanese, relatora de la ONU: “Nunca me había sentido tan humillada”",
+          "source": "El País",
+          "publishedAt": "2026-11-27T05:06:39.000Z",
+          "sourceUrl": "https://elpais.com/america/2026-11-27/costa-rica-niega-el-ingreso-a-francesca-albanese-relatora-de-la-onu-para-territorios-palestinos.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/SC4QVC5SP5A2BL3BDETIXZ5Z4M.jpg?auth=e31909804073f9b878a74de16db19cf3890a1be1ec2a84402ef22438526c70b3"
+        },
+        {
+          "title": "Finaliza el plazo para votar por correo: «Nunca había vivido tanto ajetreo»",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-26T14:54:25.000Z",
+          "sourceUrl": "https://www.diariovasco.com/politica/finaliza-plazo-votar-correo-nunca-vivido-ajetreo-20261126150403-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/costa-rica-niega-el-ingreso-a-francesca-albanese-relatora-de-la-onu-nunca-me-hab/"
+    },
+    {
+      "id": "now-cluster-españa-frente + socialista",
+      "title": "Fallece el socialista Estanis Amuchástegui, símbolo de la resistencia cívica frente a ETA",
+      "brief": "Fallece el socialista Estanis Amuchástegui, símbolo de la resistencia cívica frente a ETA.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 5,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "12h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 46,
+      "alertTriggers": [
+        "Cruza varias fuentes"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [
         "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/26/136284577-RWyeDyAul2KpKiWAcqJaUWN-1200x840@Diario%20Vasco.JPG"
       ],
       "evidence": [
@@ -58,13 +148,6 @@
           "image": ""
         },
         {
-          "title": "Muere Estanis Amutxastegi, el alcalde socialista de Andoain, amigo de De Lacalle y de Joseba 'Pagaza' que se enfrentó a ETA",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-26T17:45:50.000Z",
-          "sourceUrl": "https://www.elmundo.es/pais-vasco/2026/11/26/6b086e2ae4d4d8261e8b4594.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957128177082.jpg"
-        },
-        {
           "title": "Fallece el socialista Estanis Amutxastegi, símbolo de la resistencia cívica frente a ETA",
           "source": "El Diario Vasco",
           "publishedAt": "2026-11-26T16:51:42.000Z",
@@ -72,100 +155,7 @@
           "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/26/136284577-RWyeDyAul2KpKiWAcqJaUWN-1200x840@Diario%20Vasco.JPG"
         }
       ],
-      "path": "/es/entity/muere-estanis-amutxastegi-el-alcalde-socialista-de-andoain-amigo-de-de-lacalle-y/"
-    },
-    {
-      "id": "now-cluster-españa-copa + davis",
-      "title": "España - Austria, en directo, los cuartos de final de la Copa Davis en vivo | Jódar se lleva el segundo set y empata el choque",
-      "brief": "España - Austria, en directo, los cuartos de final de la Copa Davis en vivo | Jódar se lleva el segundo set y empata el choque.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/RS7KZFTO4JJNJPQLWZ5QGLH3L4.jpg?auth=d7f80755a9766e27bbbf8d61a558bb0e62c0cb2e4e6f254ed3f5122eebb1e73f",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957149881921.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "España - Austria, en directo, los cuartos de final de la Copa Davis en vivo | Jódar se lleva el segundo set y empata el choque",
-          "source": "El País",
-          "publishedAt": "2026-11-26T19:15:54.000Z",
-          "sourceUrl": "https://elpais.com/deportes/tenis/2026-11-26/espana-austria-en-directo-los-cuartos-de-final-de-la-copa-davis-en-vivo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/RS7KZFTO4JJNJPQLWZ5QGLH3L4.jpg?auth=d7f80755a9766e27bbbf8d61a558bb0e62c0cb2e4e6f254ed3f5122eebb1e73f"
-        },
-        {
-          "title": "Mérida supera los nervios de su estreno y adelanta a España ante Austria en la Copa Davis",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-26T17:50:46.000Z",
-          "sourceUrl": "https://www.elmundo.es/deportes/tenis/2026/11/26/6b086d64fdddff7c108b45c8.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957149881921.jpg"
-        }
-      ],
-      "path": "/es/entity/espana-austria-en-directo-los-cuartos-de-final-de-la-copa-davis-en-vivo-jodar-se/"
-    },
-    {
-      "id": "now-cluster-españa-contra + socialista",
-      "title": "Una concejala socialista de Murcia relata su calvario cuando tenía 13 años y carga contra el negacionismo : \"Sufrí una agresión sexual continuada\"",
-      "brief": "Una concejala socialista de Murcia relata su calvario cuando tenía 13 años y carga contra el negacionismo : \"Sufrí una agresión sexual continuada\".",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El País"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957166925415.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Una concejala socialista de Murcia relata su calvario cuando tenía 13 años y carga contra el negacionismo : \"Sufrí una agresión sexual continuada\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-26T18:24:27.000Z",
-          "sourceUrl": "https://www.elmundo.es/murcia/2026/11/26/6b08714de85ece36378b458b.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957166925415.jpg"
-        },
-        {
-          "title": "Una concejala socialista de Murcia carga contra el negacionismo de la violencia machista: “Sufrí una agresión sexual cuando tenía 13 años”",
-          "source": "El País",
-          "publishedAt": "2026-11-26T15:59:51.000Z",
-          "sourceUrl": "https://elpais.com/sociedad/2026-11-26/una-concejala-socialista-de-murcia-carga-contra-el-negacionismo-de-la-violencia-machista-sufri-una-agresion-sexual-cuando-tenia-13-anos.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/una-concejala-socialista-de-murcia-relata-su-calvario-cuando-tenia-13-anos-y-car/"
+      "path": "/es/entity/fallece-el-socialista-estanis-amuchastegui-simbolo-de-la-resistencia-civica-fren/"
     },
     {
       "id": "now-cluster-españa-euros + estrenara",
@@ -174,18 +164,17 @@
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
+      "state": "cooling",
+      "stateLabel": "Bajando",
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "12h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 46,
       "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
+        "Cruza varias fuentes"
       ],
       "isHotNews": false,
       "sources": [
@@ -210,379 +199,6 @@
         }
       ],
       "path": "/es/entity/vuelos-directos-de-bilbao-a-belgrado-desde-39-99-euros-wizz-air-estrenara-una-ru/"
-    },
-    {
-      "id": "moving-cluster-españa-alerta + presencia",
-      "title": "Fragmentos de vidrio en frutos secos españoles: así es la alerta alimentaria que afecta a marcas de referencia y de varios supermercados",
-      "brief": "Fragmentos de vidrio en frutos secos españoles: así es la alerta alimentaria que afecta a marcas de referencia y de varios supermercados.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 15,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "2h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/26/frutos-secos1-kWvG-U40560086084cuC-1200x840@El%20Correo.jpg",
-        "https://s1.ppllstatics.com/diariovasco/www/multimedia/sociedad/2026/11/26/frutos-secos-km0G-U40550628427BCB-1200x840@Diario%20Vasco.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Alerta sanitaria por las presencia de fragmentos de vidrios en lotes de frutos secos de diferentes marcas",
-          "source": "El Correo",
-          "publishedAt": "2026-11-26T17:37:03.000Z",
-          "sourceUrl": "https://www.elcorreo.com/sociedad/alerta-sanitaria-presencia-fragmentos-vidrios-lotes-frutos-20261126183703-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/sociedad/2026/11/26/frutos-secos1-kWvG-U40560086084cuC-1200x840@El%20Correo.jpg"
-        },
-        {
-          "title": "Fragmentos de vidrio en frutos secos españoles: así es la alerta alimentaria que afecta a marcas de referencia y de varios supermercados",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-26T11:15:13.000Z",
-          "sourceUrl": "https://www.diariovasco.com/sociedad/fragmentos-vidrio-frutos-secos-espanoles-alerta-alimentaria-borges-medina-alipende-supermercados-20261126121407-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/sociedad/2026/11/26/frutos-secos-km0G-U40550628427BCB-1200x840@Diario%20Vasco.jpg"
-        }
-      ],
-      "path": "/es/entity/fragmentos-de-vidrio-en-frutos-secos-espanoles-asi-es-la-alerta-alimentaria-que/"
-    },
-    {
-      "id": "moving-cluster-españa-silvia + intxaurrondo",
-      "title": "Un juez en activo entra en “campaña” con un vídeo en redes contra el Gobierno, el PSOE y la periodista Silvia Intxaurrondo",
-      "brief": "Un juez en activo entra en “campaña” con un vídeo en redes contra el Gobierno, el PSOE y la periodista Silvia Intxaurrondo.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 73,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/5K6JC2F75ZDQDPDXBI62B66NDE.jpg?auth=f28182c8ecd0b2e485837bace20a1b1a8de6784871c335c6db76822596e2baa2",
-        "https://s3.ppllstatics.com/rc/www/multimedia/nacional/2026/11/26/papeletas-Roul33V3vWHpxewJclbQdTM-1200x840@RC.jpeg",
-        "https://s2.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/26/silvia-intxaurrondo-kNE-U40552784465ugH-1200x840@RC.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Un juez en activo entra en “campaña” con un vídeo en redes contra el Gobierno, el PSOE y la periodista Silvia Intxaurrondo",
-          "source": "El País",
-          "publishedAt": "2026-11-26T15:58:24.000Z",
-          "sourceUrl": "https://elpais.com/espana/2026-11-26/un-juez-en-activo-entra-en-campana-con-un-video-en-redes-contra-el-gobierno-el-psoe-y-la-periodista-silvia-intxaurrondo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/5K6JC2F75ZDQDPDXBI62B66NDE.jpg?auth=f28182c8ecd0b2e485837bace20a1b1a8de6784871c335c6db76822596e2baa2"
-        },
-        {
-          "title": "El Supremo tumba el recurso 'in extremis' del Gobierno contra la prohibición de votar a 113.000 nacionalizados por la ley de nietos",
-          "source": "El Correo",
-          "publishedAt": "2026-11-26T14:25:56.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/supremo-tumba-recurso-extremis-gobierno-permitir-votar-20261126153337-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/rc/www/multimedia/nacional/2026/11/26/papeletas-Roul33V3vWHpxewJclbQdTM-1200x840@RC.jpeg"
-        },
-        {
-          "title": "El Consejo de RTVE respalda a Silvia Intxaurrondo ante la Junta Electoral Central",
-          "source": "El Correo",
-          "publishedAt": "2026-11-26T12:16:23.000Z",
-          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/consejo-rtve-respalda-silvia-intxaurrondo-ante-junta-20261126131622-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/elecciones/2026/11/26/silvia-intxaurrondo-kNE-U40552784465ugH-1200x840@RC.jpg"
-        }
-      ],
-      "path": "/es/entity/un-juez-en-activo-entra-en-campana-con-un-video-en-redes-contra-el-gobierno-el-p/"
-    },
-    {
-      "id": "moving-cluster-españa-naufragio + cerca",
-      "title": "Un armador turco, una ruta \"habitual\" y una diferencia crucial con el Prestige: todas las claves del Med Emre, el barco volcado cerca de Ibiza",
-      "brief": "Un armador turco, una ruta \"habitual\" y una diferencia crucial con el Prestige: todas las claves del Med Emre, el barco volcado cerca de Ibiza.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "Muere un marinero tras el naufragio de un buque cargado de combustible cerca de Ibiza",
-          "source": "El País",
-          "publishedAt": "2026-11-26T16:37:52.000Z",
-          "sourceUrl": "https://elpais.com/espana/2026-11-26/muere-un-marinero-en-el-hundimiento-de-un-buque-cargado-de-combustible-cerca-de-ibiza.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Un armador turco, una ruta \"habitual\" y una diferencia crucial con el Prestige: todas las claves del Med Emre, el barco volcado cerca de Ibiza",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-26T13:33:23.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/empresas/2026/11/26/6b082435e85ecede028b4582.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/un-armador-turco-una-ruta-habitual-y-una-diferencia-crucial-con-el-prestige-toda/"
-    },
-    {
-      "id": "moving-cluster-españa-gerard + depardieu",
-      "title": "La Justicia francesa confirma que Gérard Depardieu se sentará de nuevo en el banquillo por violación",
-      "brief": "La Justicia francesa confirma que Gérard Depardieu se sentará de nuevo en el banquillo por violación.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/SAB35IF3UNF5PIE4REDWNKFJSM.jpg?auth=4831fd56aaa4b451d4942d93dbf485d77dd52ea5ab43732d2c144b960bc2a493"
-      ],
-      "evidence": [
-        {
-          "title": "El actor francés Gérard Depardieu irá de nuevo a juicio por violación",
-          "source": "El Correo",
-          "publishedAt": "2026-11-26T16:04:27.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/actor-frances-gerard-depardieu-ira-juicio-violacion-20261126150847-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "La Justicia francesa confirma que Gérard Depardieu se sentará de nuevo en el banquillo por violación",
-          "source": "El País",
-          "publishedAt": "2026-11-26T13:57:00.000Z",
-          "sourceUrl": "https://elpais.com/sociedad/2026-11-26/la-justicia-francesa-confirma-que-gerard-depardieu-se-sentara-de-nuevo-en-el-banquillo-por-violacion.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/SAB35IF3UNF5PIE4REDWNKFJSM.jpg?auth=4831fd56aaa4b451d4942d93dbf485d77dd52ea5ab43732d2c144b960bc2a493"
-        }
-      ],
-      "path": "/es/entity/la-justicia-francesa-confirma-que-gerard-depardieu-se-sentara-de-nuevo-en-el-ban/"
-    },
-    {
-      "id": "fading-cluster-españa-pedro + sanchez",
-      "title": "El examen sorpresa de Jorge Javier a Pedro Sánchez: no sabe cómo se llama la hija de Jesulín y se descarta para ‘Supervivientes’",
-      "brief": "El examen sorpresa de Jorge Javier a Pedro Sánchez: no sabe cómo se llama la hija de Jesulín y se descarta para ‘Supervivientes’.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "6h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/WKU7BQC7MVE3BCM5X5I4MEAVF4.jpg?auth=fdf6a2ebe0b52f990ab38aa076d3c05279c56c6ccfb66d7da9e673907c159326",
-        "https://s3.ppllstatics.com/elcorreo/www/multimedia/noticias/2026/11/26/jorge-javier-kOgH-U40553542171lhF-1200x840@El%20Correo.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El examen sorpresa de Jorge Javier a Pedro Sánchez: no sabe cómo se llama la hija de Jesulín y se descarta para ‘Supervivientes’",
-          "source": "El País",
-          "publishedAt": "2026-11-26T14:10:34.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-26/el-examen-sorpresa-de-jorge-javier-a-pedro-sanchez-no-sabe-como-se-llama-la-hija-de-jesulin-y-se-descarta-para-supervivientes.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/WKU7BQC7MVE3BCM5X5I4MEAVF4.jpg?auth=fdf6a2ebe0b52f990ab38aa076d3c05279c56c6ccfb66d7da9e673907c159326"
-        },
-        {
-          "title": "Jorge Javier llama a Pedro Sánchez y le ofrece trabajar en Mediaset tras las elecciones",
-          "source": "El Correo",
-          "publishedAt": "2026-11-26T13:29:56.000Z",
-          "sourceUrl": "https://www.elcorreo.com/gente-estilo/jorge-javier-entrevista-pedro-sanchez-ofrece-trabajar-20261126142932-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/noticias/2026/11/26/jorge-javier-kOgH-U40553542171lhF-1200x840@El%20Correo.jpg"
-        }
-      ],
-      "path": "/es/entity/el-examen-sorpresa-de-jorge-javier-a-pedro-sanchez-no-sabe-como-se-llama-la-hija/"
-    },
-    {
-      "id": "fading-cluster-españa-audiencia + nacional",
-      "title": "La Audiencia Nacional avala revocar el régimen de semilibertad a la ex dirigente de ETA Anboto",
-      "brief": "La Audiencia Nacional avala revocar el régimen de semilibertad a la ex dirigente de ETA Anboto.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Mundo"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957000964210.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "La Audiencia Nacional avala no aplicar la semilibertad a la presa de ETA 'Anboto'",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-26T15:20:07.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/audiencia-nacional-avala-aplicar-semilibertad-presa-eta-20261126162006-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "La Audiencia Nacional avala revocar el régimen de semilibertad a la ex dirigente de ETA Anboto",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-26T13:36:25.000Z",
-          "sourceUrl": "https://www.elmundo.es/espana/2026/11/26/6b083291fc6c837c068b4585.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957000964210.jpg"
-        }
-      ],
-      "path": "/es/entity/la-audiencia-nacional-avala-revocar-el-regimen-de-semilibertad-a-la-ex-dirigente/"
-    },
-    {
-      "id": "fading-cluster-españa-supremo + final",
-      "title": "El Supremo fija el final de la pena de Ábalos en mayo de 2042 y en noviembre de 2040 la de Koldo",
-      "brief": "El Supremo fija el final de la pena de Ábalos en mayo de 2042 y en noviembre de 2040 la de Koldo.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 52,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Mundo"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/2SGBBF25GVFO5OWSWJMRGG4XFA.jpg?auth=c64a040f76af31e828ec6883d10350175cfbac55da3c5f4a53ecb7f7add22c41",
-        "https://e01-phantom-elmundo.uecdn.es/1d13a68a70bab0350180648693428c46/crop/567x5/1583x682/f/webp/assets/multimedia/imagenes/2026/05/06/17781018771589.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El Supremo fija el fin de la condena de prisión de Ábalos en mayo de 2042",
-          "source": "El País",
-          "publishedAt": "2026-11-26T15:27:04.000Z",
-          "sourceUrl": "https://elpais.com/espana/2026-11-26/el-supremo-fija-el-fin-de-la-condena-de-prision-de-abalos-en-mayo-de-2042.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/2SGBBF25GVFO5OWSWJMRGG4XFA.jpg?auth=c64a040f76af31e828ec6883d10350175cfbac55da3c5f4a53ecb7f7add22c41"
-        },
-        {
-          "title": "El Supremo fija el final de la pena de Ábalos en mayo de 2042 y en noviembre de 2040 la de Koldo",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-26T13:57:31.000Z",
-          "sourceUrl": "https://www.elmundo.es/espana/2026/11/26/6b08386ee85eced9618b456e.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/1d13a68a70bab0350180648693428c46/crop/567x5/1583x682/f/webp/assets/multimedia/imagenes/2026/05/06/17781018771589.jpg"
-        }
-      ],
-      "path": "/es/entity/el-supremo-fija-el-final-de-la-pena-de-abalos-en-mayo-de-2042-y-en-noviembre-de/"
-    },
-    {
-      "id": "fading-cluster-españa-kutxabank + activa",
-      "title": "Kutxabank activa el pago con Bizum en tiendas y comercios físicos a sus clientes",
-      "brief": "Kutxabank activa el pago con Bizum en tiendas y comercios físicos a sus clientes.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "7h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "Kutxabank activa el pago con Bizum en los comercios físicos",
-          "source": "El Correo",
-          "publishedAt": "2026-11-26T12:37:20.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/kutxabank-activa-pago-bizum-comercios-fisicos-20261126133719-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Kutxabank activa el pago con Bizum en tiendas y comercios físicos a sus clientes",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-26T12:08:54.000Z",
-          "sourceUrl": "https://www.diariovasco.com/economia/banca/kutxabank-activa-pago-bizum-tiendas-comercios-fisicos-20261126130854-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/kutxabank-activa-el-pago-con-bizum-en-tiendas-y-comercios-fisicos-a-sus-clientes/"
     }
   ]
 }
