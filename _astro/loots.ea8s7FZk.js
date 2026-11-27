@@ -1,0 +1,1 @@
+var e=Object.freeze({version:`links-v3`,activeHours:36,archiveHours:72,halfLifeHours:8,coverPublishers:3,headlinePublishers:2,linkBase:16,entityBonus:8,maxEvents:8,headlineWeights:Object.freeze({first:1.25,distinct:1.15,repeated:1})});export{e as t};
