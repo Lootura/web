@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-27T10:00:47.463Z",
+  "updatedAt": "2026-11-27T11:00:47.496Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "434,069 links analyzed",
-  "dayScanLabel": "8,315 links scanned in 24h",
+  "ambientPulseLabel": "434,902 links analyzed",
+  "dayScanLabel": "8,318 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -16,7 +16,81 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": null,
+  "topAlert": {
+    "id": "now-cluster-united states-black + friday",
+    "title": "‘If the bot gets it wrong, who’s liable?’ Retailers enter the unknown with AI shopping assistants on Black Friday",
+    "brief": "‘If the bot gets it wrong, who’s liable?’ Retailers enter the unknown with AI shopping assistants on Black Friday.",
+    "whyItMatters": "",
+    "verdict": "If it repeats in the next run, it gains weight.",
+    "mode": "now",
+    "state": "rising",
+    "stateLabel": "Rising",
+    "strength": 31,
+    "sourceCount": 5,
+    "itemCount": 9,
+    "freshness": "fresh now",
+    "alertLevel": "watch",
+    "alertLabel": "Watch",
+    "alertScore": 99,
+    "alertTriggers": [
+      "Crosses several sources",
+      "Picks up volume fast",
+      "Still active"
+    ],
+    "isHotNews": false,
+    "sources": [
+      "CNBC",
+      "The Verge",
+      "Wired",
+      "NBC News",
+      "The Guardian US"
+    ],
+    "images": [
+      "https://image.cnbcfm.com/api/v1/image/108548604-1794349959300-gettyimages-2304504774-anotherday36809902_nb5fdvlx.jpeg?v=1795623957&w=1920&h=1080",
+      "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268739_Apple_Watch_Ultra_4_AKrales_0087.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "https://media.wired.com/photos/6af7d0c3d135dcb52741f5c1/master/pass/The-Best-Early-Black-Friday-Headphone-Deals.jpg",
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261127-BF-target-kb-social-V1-69c5c8.png",
+      "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268838_BF_CM_BLACK_FRIDAY_Headers_CVirginia.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400"
+    ],
+    "evidence": [
+      {
+        "title": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
+        "source": "CNBC",
+        "publishedAt": "2026-11-27T11:00:01.000Z",
+        "sourceUrl": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://image.cnbcfm.com/api/v1/image/108548604-1794349959300-gettyimages-2304504774-anotherday36809902_nb5fdvlx.jpeg?v=1795623957&w=1920&h=1080"
+      },
+      {
+        "title": "16 Best Black Friday Headphone Deals (2026): Up to 57% Off",
+        "source": "Wired",
+        "publishedAt": "2026-11-27T10:46:49.000Z",
+        "sourceUrl": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26/?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://media.wired.com/photos/6af7d0c3d135dcb52741f5c1/master/pass/The-Best-Early-Black-Friday-Headphone-Deals.jpg"
+      },
+      {
+        "title": "Our favorite headphones and earbuds are cheaper than ever for Black Friday",
+        "source": "The Verge",
+        "publishedAt": "2026-11-27T10:30:00.000Z",
+        "sourceUrl": "https://www.theverge.com/gadgets/1040292/best-black-friday-headphone-earbud-deals-2026?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268739_Apple_Watch_Ultra_4_AKrales_0087.jpg?quality=90&strip=all&crop=0,0,100,100"
+      },
+      {
+        "title": "19+ Target Black Friday deals that are actually worth shopping",
+        "source": "NBC News",
+        "publishedAt": "2026-11-27T10:22:20.064Z",
+        "sourceUrl": "https://www.nbcnews.com/select/shopping/target-black-friday-deals-2026-rcna611469?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261127-BF-target-kb-social-V1-69c5c8.png"
+      },
+      {
+        "title": "The absolute best Black Friday deals we’ve found (so far)",
+        "source": "The Verge",
+        "publishedAt": "2026-11-27T09:35:30.000Z",
+        "sourceUrl": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268838_BF_CM_BLACK_FRIDAY_Headers_CVirginia.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400"
+      }
+    ],
+    "path": "/us/entity/if-the-bot-gets-it-wrong-who-s-liable-retailers-enter-the-unknown-with-ai-shoppi/"
+  },
   "signals": [
     {
       "id": "now-cluster-united states-black + friday",
@@ -27,12 +101,12 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 28,
-      "sourceCount": 4,
-      "itemCount": 7,
+      "strength": 31,
+      "sourceCount": 5,
+      "itemCount": 9,
       "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
       "alertScore": 99,
       "alertTriggers": [
         "Crosses several sources",
@@ -41,56 +115,132 @@
       ],
       "isHotNews": false,
       "sources": [
-        "Wired",
+        "CNBC",
         "The Verge",
+        "Wired",
         "NBC News",
         "The Guardian US"
       ],
       "images": [
-        "https://media.wired.com/photos/6af63561cf6e4fa5fe151274/master/pass/The-Best-Early-Black-Friday-TV-Deals.jpg",
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268838_BF_CM_BLACK_FRIDAY_Headers_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261127-BF-hero-kb-social-V1-9e541b.png",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261127-BF-under-50-kb-main-V1-d2c195.png",
-        "https://i.guim.co.uk/img/media/bf333e3f6dd6c522cb53dcbc952b64553693c73d/0_0_3385_2708/master/3385.jpg?width=140&quality=85&auto=format&fit=max&s=038470cc091c20f4dc117fdc4590c2fc"
+        "https://image.cnbcfm.com/api/v1/image/108548604-1794349959300-gettyimages-2304504774-anotherday36809902_nb5fdvlx.jpeg?v=1795623957&w=1920&h=1080",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268739_Apple_Watch_Ultra_4_AKrales_0087.jpg?quality=90&strip=all&crop=0,0,100,100",
+        "https://media.wired.com/photos/6af7d0c3d135dcb52741f5c1/master/pass/The-Best-Early-Black-Friday-Headphone-Deals.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261127-BF-target-kb-social-V1-69c5c8.png",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268838_BF_CM_BLACK_FRIDAY_Headers_CVirginia.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400"
       ],
       "evidence": [
         {
-          "title": "The 10 Best Black Friday TV Deals (2026): Save Up to 53% Off",
+          "title": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
+          "source": "CNBC",
+          "publishedAt": "2026-11-27T11:00:01.000Z",
+          "sourceUrl": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://image.cnbcfm.com/api/v1/image/108548604-1794349959300-gettyimages-2304504774-anotherday36809902_nb5fdvlx.jpeg?v=1795623957&w=1920&h=1080"
+        },
+        {
+          "title": "16 Best Black Friday Headphone Deals (2026): Up to 57% Off",
           "source": "Wired",
-          "publishedAt": "2026-11-27T09:55:09.000Z",
-          "sourceUrl": "https://www.wired.com/story/early-black-friday-tv-deals-11-27-2026/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media.wired.com/photos/6af63561cf6e4fa5fe151274/master/pass/The-Best-Early-Black-Friday-TV-Deals.jpg"
+          "publishedAt": "2026-11-27T10:46:49.000Z",
+          "sourceUrl": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media.wired.com/photos/6af7d0c3d135dcb52741f5c1/master/pass/The-Best-Early-Black-Friday-Headphone-Deals.jpg"
+        },
+        {
+          "title": "Our favorite headphones and earbuds are cheaper than ever for Black Friday",
+          "source": "The Verge",
+          "publishedAt": "2026-11-27T10:30:00.000Z",
+          "sourceUrl": "https://www.theverge.com/gadgets/1040292/best-black-friday-headphone-earbud-deals-2026?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268739_Apple_Watch_Ultra_4_AKrales_0087.jpg?quality=90&strip=all&crop=0,0,100,100"
+        },
+        {
+          "title": "19+ Target Black Friday deals that are actually worth shopping",
+          "source": "NBC News",
+          "publishedAt": "2026-11-27T10:22:20.064Z",
+          "sourceUrl": "https://www.nbcnews.com/select/shopping/target-black-friday-deals-2026-rcna611469?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261127-BF-target-kb-social-V1-69c5c8.png"
         },
         {
           "title": "The absolute best Black Friday deals we’ve found (so far)",
           "source": "The Verge",
           "publishedAt": "2026-11-27T09:35:30.000Z",
           "sourceUrl": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268838_BF_CM_BLACK_FRIDAY_Headers_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100"
-        },
-        {
-          "title": "I’m tracking the best Black Friday deals live",
-          "source": "NBC News",
-          "publishedAt": "2026-11-27T09:00:12.501Z",
-          "sourceUrl": "https://www.nbcnews.com/select/shopping/best-black-friday-deals-11-27-2026-rcna611358?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261127-BF-hero-kb-social-V1-9e541b.png"
-        },
-        {
-          "title": "31+ Black Friday deals under $50 that won’t blow your budget",
-          "source": "NBC News",
-          "publishedAt": "2026-11-27T08:59:38.000Z",
-          "sourceUrl": "https://www.nbcnews.com/select/shopping/black-friday-2026-deals-under-50-rcna611475?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261127-BF-under-50-kb-main-V1-d2c195.png"
-        },
-        {
-          "title": "‘If the bot gets it wrong, who’s liable?’ Retailers enter the unknown with AI shopping assistants on Black Friday",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-27T07:00:56.000Z",
-          "sourceUrl": "https://www.theguardian.com/business/2026/nov/27/retailers-ai-shopping-assistants-black-friday-brands-meta-muse?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/bf333e3f6dd6c522cb53dcbc952b64553693c73d/0_0_3385_2708/master/3385.jpg?width=140&quality=85&auto=format&fit=max&s=038470cc091c20f4dc117fdc4590c2fc"
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268838_BF_CM_BLACK_FRIDAY_Headers_CVirginia.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400"
         }
       ],
       "path": "/us/entity/if-the-bot-gets-it-wrong-who-s-liable-retailers-enter-the-unknown-with-ai-shoppi/"
+    },
+    {
+      "id": "moving-cluster-united states-thanksgiving + iowa",
+      "title": "After the Iowa Detonation, a Family Gathered for an Unusual Thanksgiving",
+      "brief": "After the Iowa Detonation, a Family Gathered for an Unusual Thanksgiving.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 29,
+      "sourceCount": 6,
+      "itemCount": 6,
+      "freshness": "3h fresh",
+      "alertLevel": "watch",
+      "alertLabel": "Watch",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NBC News Politics",
+        "CBS News",
+        "PBS NewsHour",
+        "NBC News",
+        "The New York Times Politics"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261125-iowa-ammunition-plant-mn-1030-0d6e15.jpg",
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/27/9c33dfc2-8f5a-4d22-93d7-8f4709477239/thumbnail/1200x630/e6fb08d5035b6126780688da658a21f2/ap26329781838480.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrap-9-1024x683.jpg",
+        "https://static01.nyt.com/images/2026/11/26/us/26nat-iowa-blast-dinner--02/26nat-iowa-blast-dinner--02-mediumSquareAt3X.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795736717786_nn_sbr_thanksgiving_iniowa_afterdetonation_261126_S3_1920x1080-ubscw3.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Iowa residents mark Thanksgiving with lingering fears after chemical detonation",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-27T08:15:39.177Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/army-says-detonation-bomb-chemicals-iowa-success-rcna611434?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261125-iowa-ammunition-plant-mn-1030-0d6e15.jpg"
+        },
+        {
+          "title": "Iowa lead detonation testing results expected soon, EPA says",
+          "source": "CBS News",
+          "publishedAt": "2026-11-27T01:13:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/iowa-lead-detonation-epa-testing-results-soon/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/27/9c33dfc2-8f5a-4d22-93d7-8f4709477239/thumbnail/1200x630/e6fb08d5035b6126780688da658a21f2/ap26329781838480.jpg"
+        },
+        {
+          "title": "After the Iowa Detonation, a Family Gathered for an Unusual Thanksgiving",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-27T00:33:25.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/26/us/iowa-detonation-family-thanksgiving.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/26/us/26nat-iowa-blast-dinner--02/26nat-iowa-blast-dinner--02-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "News Wrap: EPA reports ‘zero’ airborne lead in Iowa",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-26T23:50:47.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/show/news-wrap-epa-reports-zero-airborne-lead-in-iowa?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrap-9-1024x683.jpg"
+        },
+        {
+          "title": "Families navigate Thanksgiving after toxic chemical detonation",
+          "source": "NBC News",
+          "publishedAt": "2026-11-26T23:45:22.000Z",
+          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/families-navigate-thanksgiving-after-toxic-chemical-detonation-274245189654?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795736717786_nn_sbr_thanksgiving_iniowa_afterdetonation_261126_S3_1920x1080-ubscw3.jpg"
+        }
+      ],
+      "path": "/us/entity/after-the-iowa-detonation-a-family-gathered-for-an-unusual-thanksgiving/"
     },
     {
       "id": "now-cluster-united states-thanksgiving + parade",
@@ -101,9 +251,9 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 26,
+      "strength": 25,
       "sourceCount": 3,
-      "itemCount": 6,
+      "itemCount": 5,
       "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
@@ -116,14 +266,15 @@
       "isHotNews": false,
       "sources": [
         "NBC News",
-        "CBS News",
-        "The New York Times"
+        "The New York Times",
+        "CBS News"
       ],
       "images": [
         "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795737528144_nn_emc_thanksgiving_parade_scramble_261126_S3_1920x1080-9ulwdd.jpg",
+        "https://static01.nyt.com/images/2026/11/25/multimedia/xp-parade-moments-photos-01-zqpc/xp-parade-moments-photos-01-zqpc-mediumSquareAt3X.jpg",
         "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/27/06e2486b-ad74-4913-99c9-4d310da1d789/thumbnail/1200x630/e20398b4ce7bec22916e6cef769a7f33/cbsn-fusion-texas-town-helps-high-school-marching-band-stay-postponed-thanksgiving-day-parade-thumbnail.jpg",
         "https://static01.nyt.com/images/2026/11/25/multimedia/25parade-live-marching-band-gfqm/25parade-live-marching-band-gfqm-mediumSquareAt3X.jpg",
-        "https://static01.nyt.com/images/2026/12/10/multimedia/karsten-header-01-pjvz/karsten-header-01-pjvz-mediumSquareAt3X.jpg"
+        "https://static01.nyt.com/images/2026/11/26/multimedia/26xp-Thanksgiving-Parade-Balloons-02-kvzp/26xp-Thanksgiving-Parade-Balloons-02-kvzp-mediumSquareAt3X.jpg"
       ],
       "evidence": [
         {
@@ -134,11 +285,11 @@
           "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795737528144_nn_emc_thanksgiving_parade_scramble_261126_S3_1920x1080-9ulwdd.jpg"
         },
         {
-          "title": "Macy's Thanksgiving Day Parade postponed for 1st time in history",
-          "source": "CBS News",
-          "publishedAt": "2026-11-27T03:40:10.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/macys-thanksgiving-day-parade-postponed/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "Photos: Macy’s Thanksgiving Day Parade History and Wacky Moments",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-27T03:39:46.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/26/nyregion/macys-thanksgiving-parade-history-timeline.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/xp-parade-moments-photos-01-zqpc/xp-parade-moments-photos-01-zqpc-mediumSquareAt3X.jpg"
         },
         {
           "title": "Texas town helps high school marching band stay in postponed Thanksgiving Day Parade",
@@ -155,14 +306,79 @@
           "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25parade-live-marching-band-gfqm/25parade-live-marching-band-gfqm-mediumSquareAt3X.jpg"
         },
         {
-          "title": "The Thanksgiving Parade Is on a Saturday. Can They Do That?",
+          "title": "Thanksgiving Parade Balloons Are Deflated in New York",
           "source": "The New York Times",
-          "publishedAt": "2026-11-26T14:07:50.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/nyregion/thanksgiving-parade-new-york-postponed.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/12/10/multimedia/karsten-header-01-pjvz/karsten-header-01-pjvz-mediumSquareAt3X.jpg"
+          "publishedAt": "2026-11-26T14:06:46.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/26/nyregion/macys-parade-balloons-thanksgiving.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/26/multimedia/26xp-Thanksgiving-Parade-Balloons-02-kvzp/26xp-Thanksgiving-Parade-Balloons-02-kvzp-mediumSquareAt3X.jpg"
         }
       ],
       "path": "/us/entity/performers-and-marching-bands-scramble-after-macy-s-thanksgiving-day-parade-dela/"
+    },
+    {
+      "id": "now-cluster-united states-thanksgiving + power",
+      "title": "Thanksgiving Storm Leaves Half a Million Without Power on the East Coast",
+      "brief": "Thanksgiving Storm Leaves Half a Million Without Power on the East Coast.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 24,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 96,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times",
+        "NBC News",
+        "CBS News"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/27/multimedia/27xp-storm-toll-01-htqv/27xp-storm-toll-01-htqv-mediumSquareAt3X.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261127-wx-2-rs-f25603.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795738010774_nn_sro_thanksgiving_weather_261126_S3_1920x1080-xwkhca.jpg",
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/26/f85f3d06-275b-4c46-b8cd-a114f49aee37/thumbnail/1200x630/97c5d4c6ecfecc86540bd2159f622b69/ap26330556979279.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Thanksgiving Storm Leaves Half a Million Without Power on the East Coast",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-27T10:31:04.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/27/us/thanksgiving-weather-east-coast-storm.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/27/multimedia/27xp-storm-toll-01-htqv/27xp-storm-toll-01-htqv-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Severe storms upend Thanksgiving travel and leave hundreds of thousands without power",
+          "source": "NBC News",
+          "publishedAt": "2026-11-27T05:30:15.000Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/much-country-thanksgiving-featured-nasty-weather-rcna611521?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261127-wx-2-rs-f25603.jpg"
+        },
+        {
+          "title": "Monster East Coast storm leaves hundreds of thousands without power",
+          "source": "NBC News",
+          "publishedAt": "2026-11-27T00:06:55.000Z",
+          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/monster-east-coast-storm-leaves-hundreds-of-thousands-without-power-274244677776?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795738010774_nn_sro_thanksgiving_weather_261126_S3_1920x1080-xwkhca.jpg"
+        },
+        {
+          "title": "Powerful Thanksgiving Day storm brings flooding, power outages to Northeast, Midwest",
+          "source": "CBS News",
+          "publishedAt": "2026-11-26T23:50:00.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/26/f85f3d06-275b-4c46-b8cd-a114f49aee37/thumbnail/1200x630/97c5d4c6ecfecc86540bd2159f622b69/ap26330556979279.jpg"
+        }
+      ],
+      "path": "/us/entity/thanksgiving-storm-leaves-half-a-million-without-power-on-the-east-coast/"
     },
     {
       "id": "now-cluster-united states-thanksgiving + trump",
@@ -173,10 +389,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 15,
+      "strength": 16,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresh",
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -186,20 +402,20 @@
       ],
       "isHotNews": false,
       "sources": [
-        "TIME",
+        "Fox News",
         "CBS News"
       ],
       "images": [
-        "https://static.time.com/v3/assets/bltea6093859af6183b/bltfbe5e98369a8f1cb/6b0933260378a6aa3b272fe9/Trump_Thanksgiving.jpg?branch=production&width=3840&quality=75&auto=webp&crop=3:2",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/detective-alan-smith-palm-beach-county.jpg",
         "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/26/40eac3b0-392e-4427-abf6-5a0622e23fc3/thumbnail/1200x630/87172368f17721919c8e89edede92565/gettyimages-2306401014.jpg"
       ],
       "evidence": [
         {
-          "title": "Trump Demands Probe Into ‘Fake’ Economic Figures",
-          "source": "TIME",
-          "publishedAt": "2026-11-27T08:00:00.000Z",
-          "sourceUrl": "https://time.com/article/2026/11/27/trump-thanksgiving-truth-social-economic-data-growth-estimate-revision-election/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static.time.com/v3/assets/bltea6093859af6183b/bltfbe5e98369a8f1cb/6b0933260378a6aa3b272fe9/Trump_Thanksgiving.jpg?branch=production&width=3840&quality=75&auto=webp&crop=3:2"
+          "title": "Trump mourns Florida detective killed by suspected drunk driver on Thanksgiving",
+          "source": "Fox News",
+          "publishedAt": "2026-11-27T10:49:27.000Z",
+          "sourceUrl": "https://www.foxnews.com/us/trump-mourns-florida-detective-killed-suspected-drunk-driver-thanksgiving?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/detective-alan-smith-palm-beach-county.jpg"
         },
         {
           "title": "Trump spends Thanksgiving at golf club, accuses Commerce Department of releasing \"fake economic numbers\"",
@@ -212,18 +428,18 @@
       "path": "/us/entity/trump-spends-thanksgiving-at-golf-club-accuses-commerce-department-of-releasing/"
     },
     {
-      "id": "now-cluster-united states-strobe + talbott",
+      "id": "moving-cluster-united states-strobe + talbott",
       "title": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
       "brief": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 9,
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 70,
@@ -257,147 +473,6 @@
         }
       ],
       "path": "/us/entity/strobe-talbott-former-time-magazine-reporter-and-deputy-secretary-of-state-has-d/"
-    },
-    {
-      "id": "moving-cluster-united states-iowa + detonation",
-      "title": "Iowa lead detonation testing results expected soon, EPA says",
-      "brief": "Iowa lead detonation testing results expected soon, EPA says.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "9h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/27/9c33dfc2-8f5a-4d22-93d7-8f4709477239/thumbnail/1200x630/e6fb08d5035b6126780688da658a21f2/ap26329781838480.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrap-9-1024x683.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Iowa lead detonation testing results expected soon, EPA says",
-          "source": "CBS News",
-          "publishedAt": "2026-11-27T01:13:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/iowa-lead-detonation-epa-testing-results-soon/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/27/9c33dfc2-8f5a-4d22-93d7-8f4709477239/thumbnail/1200x630/e6fb08d5035b6126780688da658a21f2/ap26329781838480.jpg"
-        },
-        {
-          "title": "News Wrap: EPA reports ‘zero’ airborne lead in Iowa",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-26T23:50:47.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/show/news-wrap-epa-reports-zero-airborne-lead-in-iowa?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrap-9-1024x683.jpg"
-        }
-      ],
-      "path": "/us/entity/iowa-lead-detonation-testing-results-expected-soon-epa-says/"
-    },
-    {
-      "id": "moving-cluster-united states-thanksgiving + detonation",
-      "title": "Families navigate Thanksgiving after toxic chemical detonation",
-      "brief": "Families navigate Thanksgiving after toxic chemical detonation.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "10h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News",
-        "The New York Times Politics"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795736717786_nn_sbr_thanksgiving_iniowa_afterdetonation_261126_S3_1920x1080-ubscw3.jpg",
-        "https://static01.nyt.com/images/2026/11/26/pageoneplus/25insider-thanksgiving/25insider-thanksgiving-mediumSquareAt3X.png"
-      ],
-      "evidence": [
-        {
-          "title": "Families navigate Thanksgiving after toxic chemical detonation",
-          "source": "NBC News",
-          "publishedAt": "2026-11-26T23:45:22.000Z",
-          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/families-navigate-thanksgiving-after-toxic-chemical-detonation-274245189654?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795736717786_nn_sbr_thanksgiving_iniowa_afterdetonation_261126_S3_1920x1080-ubscw3.jpg"
-        },
-        {
-          "title": "How Our Reporters Navigate Politics at Thanksgiving",
-          "source": "The New York Times Politics",
-          "publishedAt": "2026-11-26T20:32:44.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/insider/thanksgiving-dinner-politics-conversation.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/26/pageoneplus/25insider-thanksgiving/25insider-thanksgiving-mediumSquareAt3X.png"
-        }
-      ],
-      "path": "/us/entity/families-navigate-thanksgiving-after-toxic-chemical-detonation/"
-    },
-    {
-      "id": "moving-cluster-united states-trump + week",
-      "title": "Trump heads to Arizona next week for a high-stakes expansion of TSMC's computer chip factories",
-      "brief": "Trump heads to Arizona next week for a high-stakes expansion of TSMC's computer chip factories.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
-      "state": "cooling",
-      "stateLabel": "Cooling",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "12h fresh",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 64,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "CBS News",
-        "PBS NewsHour"
-      ],
-      "images": [
-        "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/26/09f94c89-c243-4569-8f2d-14939887307f/thumbnail/1200x630/eefbaf4287709d9c9e2ee738e9f8ff63/ap26197250012177.jpg",
-        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-25T104210Z_1395619294_RC2AQOALL05M_RTRMADP_3_USA-TRUMP-TARIFFS-1024x683.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Trump to visit Arizona manufacturer of semiconductor chips, including Nvidia's",
-          "source": "CBS News",
-          "publishedAt": "2026-11-26T21:46:00.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/trump-visit-tsmc-semiconductor-facility-phoenix-nvidia/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/26/09f94c89-c243-4569-8f2d-14939887307f/thumbnail/1200x630/eefbaf4287709d9c9e2ee738e9f8ff63/ap26197250012177.jpg"
-        },
-        {
-          "title": "Trump heads to Arizona next week for a high-stakes expansion of TSMC's computer chip factories",
-          "source": "PBS NewsHour",
-          "publishedAt": "2026-11-26T17:52:23.000Z",
-          "sourceUrl": "https://www.pbs.org/newshour/politics/trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-25T104210Z_1395619294_RC2AQOALL05M_RTRMADP_3_USA-TRUMP-TARIFFS-1024x683.jpg"
-        }
-      ],
-      "path": "/us/entity/trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmc-s-computer/"
     }
   ]
 }
