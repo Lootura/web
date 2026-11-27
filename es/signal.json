@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-27T12:00:47.456Z",
+  "updatedAt": "2026-11-27T13:00:47.750Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "322.248 enlaces analizados",
-  "dayScanLabel": "4.159 enlaces escaneados en 24h",
+  "ambientPulseLabel": "322.680 enlaces analizados",
+  "dayScanLabel": "4.175 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,18 +19,18 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-colau + ante",
-      "title": "La campaña del 'todo por la patria' de Sánchez con banderas y la mili para sumar votos: \"Los símbolos no son sólo de PP y Vox\"",
-      "brief": "La campaña del 'todo por la patria' de Sánchez con banderas y la mili para sumar votos: \"Los símbolos no son sólo de PP y Vox\".",
+      "id": "now-cluster-españa-marc + marquez",
+      "title": "Marc Márquez anuncia por sorpresa su retirada de MotoGP: “Siento el miedo, no a las motos, sino a las lesiones”",
+      "brief": "Marc Márquez anuncia por sorpresa su retirada de MotoGP: “Siento el miedo, no a las motos, sino a las lesiones”.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 29,
+      "strength": 26,
       "sourceCount": 4,
-      "itemCount": 8,
-      "freshness": "fresca ahora",
+      "itemCount": 5,
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 99,
@@ -41,30 +41,86 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The Objective",
-        "El Mundo",
+        "El País",
+        "El Correo",
         "El Diario Vasco",
-        "El Correo"
+        "El Mundo"
       ],
       "images": [
-        "https://theobjective.com/wp-content/uploads/2026/11/el-ministro-del-interior-fernando-grande-marlaska-lee-gratis-1.jpg",
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/27/17957783415100.jpg",
-        "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/27/calladitaa-kLED-U40572332534ZKE-1200x840@Diario%20Vasco.png"
+        "https://s1.ppllstatics.com/rc/www/multimedia/deportes/2026/11/27/marquez-declas-RaxGc13TYrgLXie1QYijF3I-1200x840@RC.jpg",
+        "https://s2.ppllstatics.com/rc/www/multimedia/deportes/2026/11/27/marc-marquez.jpg",
+        "https://s3.ppllstatics.com/elcorreo/www/multimedia/motor/2026/11/27/marquez-U30908349414PGC-U40574392797ijH-1200x840@El%20Correo.jpg"
       ],
       "evidence": [
         {
-          "title": "Marlaska descarta que Colau reste votos al PSOE y censura la «cobardía» del PP ante Vox",
-          "source": "The Objective",
-          "publishedAt": "2026-11-27T12:01:14.000Z",
-          "sourceUrl": "https://theobjective.com/espana/politica/2026-11-27/marlaska-colau-psoe-pp-vox/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://theobjective.com/wp-content/uploads/2026/11/el-ministro-del-interior-fernando-grande-marlaska-lee-gratis-1.jpg"
+          "title": "Marc Márquez anuncia por sorpresa su retirada de MotoGP: “Siento el miedo, no a las motos, sino a las lesiones”",
+          "source": "El País",
+          "publishedAt": "2026-11-27T11:33:27.000Z",
+          "sourceUrl": "https://elpais.com/deportes/2026-11-27/marc-marquez-anuncia-su-retirada-de-la-competicion.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
-          "title": "La campaña del 'todo por la patria' de Sánchez con banderas y la mili para sumar votos: \"Los símbolos no son sólo de PP y Vox\"",
+          "title": "Marc Márquez: «El único que lo sabía era Álex»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-27T11:31:06.000Z",
+          "sourceUrl": "https://www.elcorreo.com/deportes/motor/motociclismo/marc-marquez-unico-sabia-era-alex-20261127123015-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/rc/www/multimedia/deportes/2026/11/27/marquez-declas-RaxGc13TYrgLXie1QYijF3I-1200x840@RC.jpg"
+        },
+        {
+          "title": "Marc Márquez se retira del motociclismo",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-27T09:53:46.000Z",
+          "sourceUrl": "https://www.diariovasco.com/deportes/motor/motociclismo/marc-marquez-retira-motogp-20261127105346-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/rc/www/multimedia/deportes/2026/11/27/marc-marquez.jpg"
+        },
+        {
+          "title": "Marc Márquez anuncia por sorpresa su retirada de la competición",
           "source": "El Mundo",
-          "publishedAt": "2026-11-27T11:31:03.000Z",
-          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/27/6b096724fc6c83cf3e8b4570.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/27/17957783415100.jpg"
+          "publishedAt": "2026-11-27T09:50:21.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/motociclismo/2026/11/27/6b0951c5e9cf4add388b459a.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/marc-marquez-anuncia-por-sorpresa-su-retirada-de-motogp-siento-el-miedo-no-a-las/"
+    },
+    {
+      "id": "now-cluster-españa-sanchez + colau",
+      "title": "El «usted, calladita» de Feijóo a Colau revoluciona el fin de campaña: Sánchez lo define como «machismo» y el PP denuncia una manipulación",
+      "brief": "El «usted, calladita» de Feijóo a Colau revoluciona el fin de campaña: Sánchez lo define como «machismo» y el PP denuncia una manipulación.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 19,
+      "sourceCount": 2,
+      "itemCount": 7,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 95,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/27/calladitaa-kLED-U40572332534ZKE-1200x840@Diario%20Vasco.png",
+        "https://s2.ppllstatics.com/elcorreo/www/multimedia/elecciones/2026/11/27/sanchez-debate-uno-kILB-U40570485047iAI-1200x840@El%20Correo.jpg",
+        "https://s2.ppllstatics.com/elcorreo/www/multimedia/elecciones/2026/11/27/feijoo-calladita.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Ester Expósito estalla contra el «y usted calladita» de Feijóo",
+          "source": "El Correo",
+          "publishedAt": "2026-11-27T12:37:41.000Z",
+          "sourceUrl": "https://www.elcorreo.com/gente-estilo/ester-exposito-estalla-calladita-feijoo-20261127133526-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
         },
         {
           "title": "El «usted, calladita» de Feijóo a Colau revoluciona el fin de campaña: Sánchez lo define como «machismo» y el PP denuncia una manipulación",
@@ -81,133 +137,21 @@
           "image": ""
         },
         {
-          "title": "Del «gran buitre» al nivel de inglés de Feijóo y la mili de Sánchez: los ocho momentos más tensos del debate",
+          "title": "Feijóo y Abascal asedian a un Sánchez obligado a fajarse también ante Colau",
           "source": "El Correo",
-          "publishedAt": "2026-11-27T07:52:36.000Z",
-          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/gran-buitre-abascal-sanchez-nivel-ingles-feijoo-20261127083736-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/la-campana-del-todo-por-la-patria-de-sanchez-con-banderas-y-la-mili-para-sumar-v/"
-    },
-    {
-      "id": "now-cluster-españa-marc + marquez",
-      "title": "Marc Márquez anuncia por sorpresa su retirada de MotoGP: “Hemos hecho historia”",
-      "brief": "Marc Márquez anuncia por sorpresa su retirada de MotoGP: “Hemos hecho historia”.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 26,
-      "sourceCount": 4,
-      "itemCount": 5,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 99,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El País",
-        "El Diario Vasco",
-        "El Mundo"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/rc/www/multimedia/deportes/2026/11/27/marquez-declas-RaxGc13TYrgLXie1QYijF3I-1200x840@RC.jpg",
-        "https://imagenes.elpais.com/resizer/v2/O47CRYXZRZBUPEQGA2B5EIO6MA.JPG?auth=d9f0facf5839eaad6c750d439ee996e4463cb61f6b94771ef5220c1b5fb96123",
-        "https://s2.ppllstatics.com/rc/www/multimedia/deportes/2026/11/27/marc-marquez.jpg",
-        "https://s3.ppllstatics.com/elcorreo/www/multimedia/motor/2026/11/27/marquez-U30908349414PGC-U40574392797ijH-1200x840@El%20Correo.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Marc Márquez: «El único que lo sabía era Álex»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-27T11:31:06.000Z",
-          "sourceUrl": "https://www.elcorreo.com/deportes/motor/motociclismo/marc-marquez-unico-sabia-era-alex-20261127123015-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/rc/www/multimedia/deportes/2026/11/27/marquez-declas-RaxGc13TYrgLXie1QYijF3I-1200x840@RC.jpg"
-        },
-        {
-          "title": "Marc Márquez anuncia por sorpresa su retirada de MotoGP: “Hemos hecho historia”",
-          "source": "El País",
-          "publishedAt": "2026-11-27T10:00:49.000Z",
-          "sourceUrl": "https://elpais.com/deportes/2026-11-27/marc-marquez-anuncia-su-retirada-de-la-competicion.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/O47CRYXZRZBUPEQGA2B5EIO6MA.JPG?auth=d9f0facf5839eaad6c750d439ee996e4463cb61f6b94771ef5220c1b5fb96123"
-        },
-        {
-          "title": "Marc Márquez se retira de MotoGP",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-27T09:53:46.000Z",
-          "sourceUrl": "https://www.diariovasco.com/deportes/motor/motociclismo/marc-marquez-retira-motogp-20261127105346-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/deportes/2026/11/27/marc-marquez.jpg"
-        },
-        {
-          "title": "Marc Márquez anuncia por sorpresa su retirada de la competición",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-27T09:50:21.000Z",
-          "sourceUrl": "https://www.elmundo.es/deportes/motociclismo/2026/11/27/6b0951c5e9cf4add388b459a.html?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-27T07:50:59.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/feijoo-abascal-asedian-sanchez-obligado-fajarse-ante-20261127005149-ntrc.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         },
         {
-          "title": "Marc Márquez se retira del motociclismo",
+          "title": "Este es el significado de los pins que lucían Sánchez y Colau en el debate a cuatro",
           "source": "El Correo",
-          "publishedAt": "2026-11-27T09:48:45.000Z",
-          "sourceUrl": "https://www.elcorreo.com/motor/marc-marquez-anuncia-retirada-20261127104845-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/elcorreo/www/multimedia/motor/2026/11/27/marquez-U30908349414PGC-U40574392797ijH-1200x840@El%20Correo.jpg"
-        }
-      ],
-      "path": "/es/entity/marc-marquez-anuncia-por-sorpresa-su-retirada-de-motogp-hemos-hecho-historia/"
-    },
-    {
-      "id": "now-cluster-españa-pensiones + 2027",
-      "title": "Es oficial: esto es lo que se van a revalorizar las pensiones a partir de enero de 2027 y ya está confirmado",
-      "brief": "Es oficial: esto es lo que se van a revalorizar las pensiones a partir de enero de 2027 y ya está confirmado.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 16,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 76,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "OK Diario",
-        "El Correo"
-      ],
-      "images": [
-        "https://okdiario.com/img/2026/11/27/es-oficial_-esto-es-lo-que-se-van-a-revalorizar-las-pensiones-a-partir-de-enero-de-2027-y-ya-esta-confirmado.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Es oficial: esto es lo que se van a revalorizar las pensiones a partir de enero de 2027 y ya está confirmado",
-          "source": "OK Diario",
-          "publishedAt": "2026-11-27T12:00:47.000Z",
-          "sourceUrl": "https://okdiario.com/economia/oficial-esto-lo-que-van-revalorizar-pensiones-partir-enero-2027-ya-esta-confirmado-21284875?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://okdiario.com/img/2026/11/27/es-oficial_-esto-es-lo-que-se-van-a-revalorizar-las-pensiones-a-partir-de-enero-de-2027-y-ya-esta-confirmado.jpg"
-        },
-        {
-          "title": "Las pensiones subirán un 3,5% en 2027 y las mínimas y no contributivas entre un 8,8% y un 14,2%",
-          "source": "El Correo",
-          "publishedAt": "2026-11-27T08:24:23.000Z",
-          "sourceUrl": "https://www.elcorreo.com/economia/pensiones/pensiones-subiran-2027-euros-mes-media-20261127090115-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "publishedAt": "2026-11-27T07:47:51.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/significado-pins-llevan-sanchez-colau-debate-cuatro-20261126224650-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
         }
       ],
-      "path": "/es/entity/es-oficial-esto-es-lo-que-se-van-a-revalorizar-las-pensiones-a-partir-de-enero-d/"
+      "path": "/es/entity/el-usted-calladita-de-feijoo-a-colau-revoluciona-el-fin-de-campana-sanchez-lo-de/"
     },
     {
       "id": "now-cluster-españa-junta + electoral",
@@ -218,10 +162,10 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -256,18 +200,18 @@
       "path": "/es/entity/el-pp-denuncia-a-rtve-ante-la-junta-electoral-por-omitir-el-acoso-a-sus-candidat/"
     },
     {
-      "id": "moving-cluster-españa-durante + alcalde",
+      "id": "now-cluster-españa-alcalde + tombrio",
       "title": "Muere el alcalde de la localidad leonesa de Tombrío de Abajo por un disparo durante una cacería de jabalíes",
       "brief": "Muere el alcalde de la localidad leonesa de Tombrío de Abajo por un disparo durante una cacería de jabalíes.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresca ahora",
+      "freshness": "2h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 76,
@@ -311,13 +255,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -350,73 +294,18 @@
       "path": "/es/entity/el-tsj-rebaja-al-futbolista-rafa-mir-la-pena-de-prision-por-agresion-sexual-a-si/"
     },
     {
-      "id": "moving-cluster-españa-correo + expareja",
-      "title": "Fallece la mujer apuñalada en Bilbao por su expareja delante de sus hijos | El Correo",
-      "brief": "Fallece la mujer apuñalada en Bilbao por su expareja delante de sus hijos | El Correo.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 73,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/3L3CHWFXX5DGDHO2OEXRHLWPRI.jpg?auth=aa50f17a67e52d5c9b50806aa9f7407a19ec6b55becd26db4110fe006c9d29a5",
-        "https://s2.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/27/1.JPG"
-      ],
-      "evidence": [
-        {
-          "title": "Un hombre asesina en Bilbao a su expareja, de 34 años, delante de sus dos hijos",
-          "source": "El País",
-          "publishedAt": "2026-11-27T08:10:24.000Z",
-          "sourceUrl": "https://elpais.com/sociedad/2026-11-27/muere-la-mujer-apunalada-por-su-expareja-en-bilbao.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/3L3CHWFXX5DGDHO2OEXRHLWPRI.jpg?auth=aa50f17a67e52d5c9b50806aa9f7407a19ec6b55becd26db4110fe006c9d29a5"
-        },
-        {
-          "title": "Fallece la mujer apuñalada en Bilbao por su expareja delante de sus hijos",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-27T06:18:43.000Z",
-          "sourceUrl": "https://www.diariovasco.com/sociedad/sucesos/herida-gravedad-mujer-bilbao-apunalada-expareja-20261126223232-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Fallece la mujer apuñalada en Bilbao por su expareja delante de sus hijos | El Correo",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-26T21:19:01.000Z",
-          "sourceUrl": "https://www.elcorreo.com/bizkaia/herida-gravedad-mujer-bilbao-apunalada-pareja-20261126221825-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/27/1.JPG"
-        }
-      ],
-      "path": "/es/entity/fallece-la-mujer-apunalada-en-bilbao-por-su-expareja-delante-de-sus-hijos-el-cor/"
-    },
-    {
-      "id": "moving-cluster-españa-pensiones + gobierno",
+      "id": "moving-cluster-españa-gobierno + euros",
       "title": "El Gobierno confirma que subirá las pensiones un 3,5% a dos días de las elecciones: 775 euros más al año de media para los jubilados",
       "brief": "El Gobierno confirma que subirá las pensiones un 3,5% a dos días de las elecciones: 775 euros más al año de media para los jubilados.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresca",
+      "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -452,23 +341,70 @@
       "path": "/es/entity/el-gobierno-confirma-que-subira-las-pensiones-un-3-5-a-dos-dias-de-las-eleccione/"
     },
     {
-      "id": "fading-cluster-españa-costa + rica",
-      "title": "El Gobierno de Costa Rica niega la entrada al país a la relatora de la ONU que acusa a Israel de genocidio",
-      "brief": "El Gobierno de Costa Rica niega la entrada al país a la relatora de la ONU que acusa a Israel de genocidio.",
+      "id": "moving-cluster-españa-expareja + delante",
+      "title": "Fallece la mujer apuñalada en Bilbao por su expareja delante de sus hijos",
+      "brief": "Fallece la mujer apuñalada en Bilbao por su expareja delante de sus hijos.",
       "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 52,
+      "alertScore": 70,
       "alertTriggers": [
-        "Cruza varias fuentes"
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/3L3CHWFXX5DGDHO2OEXRHLWPRI.jpg?auth=aa50f17a67e52d5c9b50806aa9f7407a19ec6b55becd26db4110fe006c9d29a5"
+      ],
+      "evidence": [
+        {
+          "title": "Un hombre asesina en Bilbao a su expareja, de 34 años, delante de sus dos hijos",
+          "source": "El País",
+          "publishedAt": "2026-11-27T08:10:24.000Z",
+          "sourceUrl": "https://elpais.com/sociedad/2026-11-27/muere-la-mujer-apunalada-por-su-expareja-en-bilbao.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/3L3CHWFXX5DGDHO2OEXRHLWPRI.jpg?auth=aa50f17a67e52d5c9b50806aa9f7407a19ec6b55becd26db4110fe006c9d29a5"
+        },
+        {
+          "title": "Fallece la mujer apuñalada en Bilbao por su expareja delante de sus hijos",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-27T06:18:43.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/sucesos/herida-gravedad-mujer-bilbao-apunalada-expareja-20261126223232-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        }
+      ],
+      "path": "/es/entity/fallece-la-mujer-apunalada-en-bilbao-por-su-expareja-delante-de-sus-hijos/"
+    },
+    {
+      "id": "moving-cluster-españa-costa + rica",
+      "title": "El Gobierno de Costa Rica niega la entrada al país a la relatora de la ONU que acusa a Israel de genocidio",
+      "brief": "El Gobierno de Costa Rica niega la entrada al país a la relatora de la ONU que acusa a Israel de genocidio.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "6h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
