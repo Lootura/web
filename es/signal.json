@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-27T07:00:47.503Z",
-  "pulseLabel": "Último análisis · hace 24 minutos",
-  "ambientPulseLabel": "320.166 enlaces analizados",
-  "dayScanLabel": "4.179 enlaces escaneados en 24h",
+  "updatedAt": "2026-11-27T08:00:47.498Z",
+  "pulseLabel": "Último análisis · este minuto",
+  "ambientPulseLabel": "320.580 enlaces analizados",
+  "dayScanLabel": "4.169 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,21 +19,21 @@
   "topAlert": null,
   "signals": [
     {
-      "id": "now-cluster-españa-mujer + apunalada",
-      "title": "Fallece una mujer tras ser apuñalada por su expareja con un cuchillo en Bilbao",
-      "brief": "Fallece una mujer tras ser apuñalada por su expareja con un cuchillo en Bilbao.",
+      "id": "now-cluster-españa-mujer + expareja",
+      "title": "Fallece la mujer apuñalada en Bilbao por su expareja delante de sus hijos | El Correo",
+      "brief": "Fallece la mujer apuñalada en Bilbao por su expareja delante de sus hijos | El Correo.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
+      "strength": 24,
       "sourceCount": 3,
-      "itemCount": 3,
+      "itemCount": 4,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 92,
+      "alertScore": 96,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -41,47 +41,63 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Debate",
-        "El Correo",
+        "El Mundo",
+        "El País",
         "El Diario Vasco"
       ],
       "images": [
-        "https://www.eldebate.com/files/article_social/files/fp/uploads/2026/07/07/6a4d33dab5bde.r_d.890-896-0.jpeg"
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2024/02/14/17079364225267.jpg",
+        "https://imagenes.elpais.com/resizer/v2/3L3CHWFXX5DGDHO2OEXRHLWPRI.jpg?auth=aa50f17a67e52d5c9b50806aa9f7407a19ec6b55becd26db4110fe006c9d29a5",
+        "https://s2.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/27/1.JPG"
       ],
       "evidence": [
         {
-          "title": "Fallece una mujer tras ser apuñalada por su expareja con un cuchillo en Bilbao",
-          "source": "El Debate",
-          "publishedAt": "2026-11-27T06:57:15.000Z",
-          "sourceUrl": "https://www.eldebate.com/espana/20261127/fallece-mujer-apunalada-expareja-cuchillo-bilbao_485746.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://www.eldebate.com/files/article_social/files/fp/uploads/2026/07/07/6a4d33dab5bde.r_d.890-896-0.jpeg"
+          "title": "Muere en el hospital la mujer de 34 años a la que su pareja acuchilló ayer en Bilbao",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-27T07:34:41.000Z",
+          "sourceUrl": "https://www.elmundo.es/pais-vasco/2026/11/27/6b09266c21efa06d268b4592.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2024/02/14/17079364225267.jpg"
+        },
+        {
+          "title": "Asesinada una mujer de 34 años en Bilbao a manos de su expareja",
+          "source": "El País",
+          "publishedAt": "2026-11-27T07:22:48.000Z",
+          "sourceUrl": "https://elpais.com/sociedad/2026-11-27/muere-la-mujer-apunalada-por-su-expareja-en-bilbao.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/3L3CHWFXX5DGDHO2OEXRHLWPRI.jpg?auth=aa50f17a67e52d5c9b50806aa9f7407a19ec6b55becd26db4110fe006c9d29a5"
         },
         {
           "title": "Fallece la mujer apuñalada en Bilbao por su expareja delante de sus hijos",
-          "source": "El Correo",
-          "publishedAt": "2026-11-27T06:33:37.000Z",
-          "sourceUrl": "https://www.elcorreo.com/bizkaia/herida-gravedad-mujer-bilbao-apunalada-pareja-20261126221825-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-27T06:18:43.000Z",
+          "sourceUrl": "https://www.diariovasco.com/sociedad/sucesos/herida-gravedad-mujer-bilbao-apunalada-expareja-20261126223232-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
+        },
+        {
+          "title": "Fallece la mujer apuñalada en Bilbao por su expareja delante de sus hijos | El Correo",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-26T21:19:01.000Z",
+          "sourceUrl": "https://www.elcorreo.com/bizkaia/herida-gravedad-mujer-bilbao-apunalada-pareja-20261126221825-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/local/2026/11/27/1.JPG"
         }
       ],
-      "path": "/es/entity/fallece-una-mujer-tras-ser-apunalada-por-su-expareja-con-un-cuchillo-en-bilbao/"
+      "path": "/es/entity/fallece-la-mujer-apunalada-en-bilbao-por-su-expareja-delante-de-sus-hijos-el-cor/"
     },
     {
-      "id": "now-cluster-españa-nunca + habia",
-      "title": "Costa Rica niega el ingreso a Francesca Albanese, relatora de la ONU: “Nunca me había sentido tan humillada”",
-      "brief": "Costa Rica niega el ingreso a Francesca Albanese, relatora de la ONU: “Nunca me había sentido tan humillada”.",
+      "id": "now-cluster-españa-black + friday",
+      "title": "Un chubasquero que se lleva igual al puerto que a la oficina: la Dubliner de Helly Hansen cae un 45% por Black Friday",
+      "brief": "Un chubasquero que se lleva igual al puerto que a la oficina: la Dubliner de Helly Hansen cae un 45% por Black Friday.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 17,
+      "strength": 18,
       "sourceCount": 2,
-      "itemCount": 3,
+      "itemCount": 5,
       "freshness": "fresca ahora",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 79,
+      "alertScore": 87,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -89,56 +105,189 @@
       ],
       "isHotNews": false,
       "sources": [
-        "El Diario Vasco",
-        "El País"
+        "La Razón",
+        "El Mundo"
       ],
       "images": [
-        "https://s1.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/26/227109446-k8sD--1200x840@Diario%20Vasco.jpg",
-        "https://imagenes.elpais.com/resizer/v2/SC4QVC5SP5A2BL3BDETIXZ5Z4M.jpg?auth=e31909804073f9b878a74de16db19cf3890a1be1ec2a84402ef22438526c70b3"
+        "https://fotografias-2.larazon.es/clipping/cmsimages01/2022/10/26/39726571-3E64-4293-92E0-07B6E54F683D/96.jpg?crop=1200,675,x0,y0&width=1200&height=675&optimize=low&format=webply",
+        "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/25/EBCB6165-2C67-4EE9-A256-B4A098CAB031/camiseta-lisa-cada-dia-laborable-cinco-jack-jones-quedan-menos-30-euros-black-friday_96.jpg?crop=1240,698,x0,y0&width=1200&height=675&optimize=low&format=webply",
+        "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/26/E593E81F-C93C-4001-B51E-5EA3FF09197B/chubasquero-que-lleva-igual-puerto-que-oficina-dubliner-helly-hansen-cae-45-black-friday_96.jpg?crop=1240,698,x0,y0&width=1200&height=675&optimize=low&format=webply",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/27/17957370676881.jpg",
+        "https://e01-phantom-elmundo.uecdn.es/472c2e96d5d61a61af2a2fafc9568e2d/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/26/17957081797779.jpg"
       ],
       "evidence": [
         {
-          "title": "Correr en cinta nunca había sido tan emocionante",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-27T06:48:00.000Z",
-          "sourceUrl": "https://www.diariovasco.com/deportes/atletismo/correr-cinta-nunca-emocionante-20261127074800-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/deportes/2026/11/26/227109446-k8sD--1200x840@Diario%20Vasco.jpg"
+          "title": "Los fraudes online crecen un 19% y ponen en alerta a los compradores ante el Black Friday",
+          "source": "La Razón",
+          "publishedAt": "2026-11-27T08:00:27.000Z",
+          "sourceUrl": "https://www.larazon.es/economia/fraudes-online-crecen-19-ponen-alerta-compradores-black-friday_202611276b09389bf6da642efefc304a.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://fotografias-2.larazon.es/clipping/cmsimages01/2022/10/26/39726571-3E64-4293-92E0-07B6E54F683D/96.jpg?crop=1200,675,x0,y0&width=1200&height=675&optimize=low&format=webply"
         },
         {
-          "title": "Costa Rica niega el ingreso a Francesca Albanese, relatora de la ONU: “Nunca me había sentido tan humillada”",
-          "source": "El País",
-          "publishedAt": "2026-11-27T05:06:39.000Z",
-          "sourceUrl": "https://elpais.com/america/2026-11-27/costa-rica-niega-el-ingreso-a-francesca-albanese-relatora-de-la-onu-para-territorios-palestinos.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/SC4QVC5SP5A2BL3BDETIXZ5Z4M.jpg?auth=e31909804073f9b878a74de16db19cf3890a1be1ec2a84402ef22438526c70b3"
+          "title": "Una camiseta lisa para cada día laborable y las cinco de Jack & Jones se quedan en menos de 30 euros por Black Friday",
+          "source": "La Razón",
+          "publishedAt": "2026-11-27T08:00:15.000Z",
+          "sourceUrl": "https://www.larazon.es/compras/camiseta-lisa-cada-dia-laborable-cinco-jack-jones-quedan-menos-30-euros-black-friday-3v3r_202611276b09388f5cb1082f89b64c13.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/25/EBCB6165-2C67-4EE9-A256-B4A098CAB031/camiseta-lisa-cada-dia-laborable-cinco-jack-jones-quedan-menos-30-euros-black-friday_96.jpg?crop=1240,698,x0,y0&width=1200&height=675&optimize=low&format=webply"
         },
         {
-          "title": "Finaliza el plazo para votar por correo: «Nunca había vivido tanto ajetreo»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-26T14:54:25.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/finaliza-plazo-votar-correo-nunca-vivido-ajetreo-20261126150403-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "Un chubasquero que se lleva igual al puerto que a la oficina: la Dubliner de Helly Hansen cae un 45% por Black Friday",
+          "source": "La Razón",
+          "publishedAt": "2026-11-27T08:00:14.000Z",
+          "sourceUrl": "https://www.larazon.es/compras/chubasquero-que-lleva-igual-puerto-que-oficina-dubliner-helly-hansen-cae-45-black-friday-3v3r_202611276b09388ec0d5c85b96c8bab2.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://fotografias-2.larazon.es/clipping/cmsimages02/2026/11/26/E593E81F-C93C-4001-B51E-5EA3FF09197B/chubasquero-que-lleva-igual-puerto-que-oficina-dubliner-helly-hansen-cae-45-black-friday_96.jpg?crop=1240,698,x0,y0&width=1200&height=675&optimize=low&format=webply"
+        },
+        {
+          "title": "'Black Friday' ultra",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-27T00:13:16.000Z",
+          "sourceUrl": "https://www.elmundo.es/espana/2026/11/27/6b08c307e4d4d844058b4588.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/27/17957370676881.jpg"
+        },
+        {
+          "title": "Black Friday en Amazon, el día de los grandes chollos, en directo: estas son las ofertas que están arrasando en ventas",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-26T23:03:59.000Z",
+          "sourceUrl": "https://www.elmundo.es/ofertas-regalos/2026/11/27/6b084310fdddffb9248b4573.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e01-phantom-elmundo.uecdn.es/472c2e96d5d61a61af2a2fafc9568e2d/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/26/17957081797779.jpg"
         }
       ],
-      "path": "/es/entity/costa-rica-niega-el-ingreso-a-francesca-albanese-relatora-de-la-onu-nunca-me-hab/"
+      "path": "/es/entity/un-chubasquero-que-se-lleva-igual-al-puerto-que-a-la-oficina-la-dubliner-de-hell/"
     },
     {
-      "id": "now-cluster-españa-frente + socialista",
+      "id": "now-cluster-españa-colau + ante",
+      "title": "Del «gran buitre» al nivel de inglés de Feijóo y la mili de Sánchez: los ocho momentos más tensos del debate",
+      "brief": "Del «gran buitre» al nivel de inglés de Feijóo y la mili de Sánchez: los ocho momentos más tensos del debate.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 18,
+      "sourceCount": 2,
+      "itemCount": 5,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 87,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957260889104.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Del «gran buitre» al nivel de inglés de Feijóo y la mili de Sánchez: los ocho momentos más tensos del debate",
+          "source": "El Correo",
+          "publishedAt": "2026-11-27T07:52:36.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/gran-buitre-abascal-sanchez-nivel-ingles-feijoo-20261127083736-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Feijóo y Abascal asedian a un Sánchez obligado a fajarse también ante Colau",
+          "source": "El Correo",
+          "publishedAt": "2026-11-27T07:50:59.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/feijoo-abascal-asedian-sanchez-obligado-fajarse-ante-20261127005149-ntrc.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "«Y usted calladita», la frase de Feijóo a Colau que deja acusaciones de machismo al líder del PP",
+          "source": "El Correo",
+          "publishedAt": "2026-11-27T07:49:17.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/calladita-frase-feijoo-ada-colau-deja-acusaciones-20261126235225-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Este es el significado de los pins que lucían Sánchez y Colau en el debate a cuatro",
+          "source": "El Correo",
+          "publishedAt": "2026-11-27T07:47:51.000Z",
+          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/significado-pins-llevan-sanchez-colau-debate-cuatro-20261126224650-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "El \"gran buitre\", \"a otro perro con ese hueso\" y \"usted, calladita\": los 10 momentos más intensos del debate de cuatro candidatos",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-26T23:38:28.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/27/6b086e1d21efa0eb568b456d.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17957260889104.jpg"
+        }
+      ],
+      "path": "/es/entity/del-gran-buitre-al-nivel-de-ingles-de-feijoo-y-la-mili-de-sanchez-los-ocho-momen/"
+    },
+    {
+      "id": "now-cluster-españa-colau + contra",
+      "title": "Ada Colau brilla en el debate y se abre un hueco en la campaña por no quedarse \"calladita\" contra la violencia de género",
+      "brief": "Ada Colau brilla en el debate y se abre un hueco en la campaña por no quedarse \"calladita\" contra la violencia de género.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Mundo"
+      ],
+      "images": [
+        "https://s1.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/27/colau-debate-k04-U40571477040dqB-1200x840@El%20Correo.jpg",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/27/17957357219926.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El momento en el que Ada Colau sacó al debate el crimen machista de Bilbao",
+          "source": "El Correo",
+          "publishedAt": "2026-11-27T07:48:55.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/momento-ada-colau-saca-debate-crimen-machista-20261127084855-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s1.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/27/colau-debate-k04-U40571477040dqB-1200x840@El%20Correo.jpg"
+        },
+        {
+          "title": "Ada Colau brilla en el debate y se abre un hueco en la campaña por no quedarse \"calladita\" contra la violencia de género",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-27T00:12:33.000Z",
+          "sourceUrl": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/27/6b08c04621efa0bc688b45a7.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/27/17957357219926.jpg"
+        }
+      ],
+      "path": "/es/entity/ada-colau-brilla-en-el-debate-y-se-abre-un-hueco-en-la-campana-por-no-quedarse-c/"
+    },
+    {
+      "id": "moving-cluster-españa-frente + socialista",
       "title": "Fallece el socialista Estanis Amuchástegui, símbolo de la resistencia cívica frente a ETA",
       "brief": "Fallece el socialista Estanis Amuchástegui, símbolo de la resistencia cívica frente a ETA.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "cooling",
       "stateLabel": "Bajando",
       "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "12h fresca",
+      "freshness": "13h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 46,
+      "alertScore": 59,
       "alertTriggers": [
-        "Cruza varias fuentes"
+        "Cruza varias fuentes",
+        "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
@@ -165,49 +314,6 @@
         }
       ],
       "path": "/es/entity/fallece-el-socialista-estanis-amuchastegui-simbolo-de-la-resistencia-civica-fren/"
-    },
-    {
-      "id": "now-cluster-españa-euros + estrenara",
-      "title": "Vuelos directos de Bilbao a Belgrado desde 39,99 euros: Wizz Air estrenará una ruta inédita en Loiu para viajar a los Balcanes",
-      "brief": "Vuelos directos de Bilbao a Belgrado desde 39,99 euros: Wizz Air estrenará una ruta inédita en Loiu para viajar a los Balcanes.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 5,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "13h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 41,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [],
-      "evidence": [
-        {
-          "title": "El aeropuerto de Bilbao estrenará conexión con Belgrado en junio",
-          "source": "El Correo",
-          "publishedAt": "2026-11-26T18:20:32.000Z",
-          "sourceUrl": "https://www.elcorreo.com/bizkaia/aeropuerto-bilbao-estrenara-conexion-belgrado-junio-20261126120112-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Vuelos directos de Bilbao a Belgrado desde 39,99 euros: Wizz Air estrenará una ruta inédita en Loiu para viajar a los Balcanes",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-26T14:32:31.000Z",
-          "sourceUrl": "https://www.diariovasco.com/sociedad/vuelos-directos-bilbao-belgrado-3999-euros-wizz-20261126153231-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/vuelos-directos-de-bilbao-a-belgrado-desde-39-99-euros-wizz-air-estrenara-una-ru/"
     }
   ]
 }
