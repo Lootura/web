@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-27T13:00:47.750Z",
+  "updatedAt": "2026-11-27T14:00:47.666Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "436,557 links analyzed",
-  "dayScanLabel": "8,314 links scanned in 24h",
+  "ambientPulseLabel": "437,383 links analyzed",
+  "dayScanLabel": "8,311 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -16,81 +16,154 @@
       "/empty-signal-quiet.svg"
     ]
   },
-  "topAlert": {
-    "id": "now-cluster-united states-east + coast",
-    "title": "Thanksgiving Storm Leaves Half a Million Without Power on the East Coast",
-    "brief": "Thanksgiving Storm Leaves Half a Million Without Power on the East Coast.",
-    "whyItMatters": "",
-    "verdict": "If it repeats in the next run, it gains weight.",
-    "mode": "now",
-    "state": "rising",
-    "stateLabel": "Rising",
-    "strength": 29,
-    "sourceCount": 5,
-    "itemCount": 6,
-    "freshness": "fresh now",
-    "alertLevel": "watch",
-    "alertLabel": "Watch",
-    "alertScore": 99,
-    "alertTriggers": [
-      "Crosses several sources",
-      "Picks up volume fast",
-      "Still active"
-    ],
-    "isHotNews": false,
-    "sources": [
-      "The New York Times",
-      "ABC News",
-      "NPR",
-      "NBC News",
-      "PBS NewsHour"
-    ],
-    "images": [
-      "https://static01.nyt.com/images/2026/11/27/multimedia/27xp-storm-toll-01-htqv/27xp-storm-toll-01-htqv-mediumSquareAt3X.jpg",
-      "https://s.abcnews.com/images/US/heavy-wind-blows-roof-off-hd-bh-112626_1795708107270_hpMain_4x3t_384.jpg",
-      "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4496x3000+0+0/resize/4496x3000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff2%2Fe6%2F842c0c584574bebf383c85a84897%2Fap26330589214672.jpg",
-      "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795738010774_nn_sro_thanksgiving_weather_261126_S3_1920x1080-xwkhca.jpg"
-    ],
-    "evidence": [
-      {
-        "title": "Thanksgiving Storm Leaves Half a Million Without Power on the East Coast",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-27T12:48:46.000Z",
-        "sourceUrl": "https://www.nytimes.com/2026/11/27/us/thanksgiving-weather-east-coast-storm.html?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://static01.nyt.com/images/2026/11/27/multimedia/27xp-storm-toll-01-htqv/27xp-storm-toll-01-htqv-mediumSquareAt3X.jpg"
-      },
-      {
-        "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
-        "source": "ABC News",
-        "publishedAt": "2026-11-27T12:31:49.000Z",
-        "sourceUrl": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273&utm_source=lootura.com&ref=lootura.com",
-        "image": "https://s.abcnews.com/images/US/heavy-wind-blows-roof-off-hd-bh-112626_1795708107270_hpMain_4x3t_384.jpg"
-      },
-      {
-        "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
-        "source": "NPR",
-        "publishedAt": "2026-11-27T11:59:02.000Z",
-        "sourceUrl": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court?utm_source=lootura.com&ref=lootura.com",
-        "image": ""
-      },
-      {
-        "title": "From Thanksgiving blackouts to Black Friday, a holiday hit by wild weather and economic woes",
-        "source": "NPR",
-        "publishedAt": "2026-11-27T10:59:36.000Z",
-        "sourceUrl": "https://www.npr.org/2026/11/27/nx-s1-6054884/thanksgiving-weather-black-friday?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4496x3000+0+0/resize/4496x3000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff2%2Fe6%2F842c0c584574bebf383c85a84897%2Fap26330589214672.jpg"
-      },
-      {
-        "title": "Monster East Coast storm leaves hundreds of thousands without power",
-        "source": "NBC News",
-        "publishedAt": "2026-11-27T00:06:55.000Z",
-        "sourceUrl": "https://www.nbcnews.com/nightly-news/video/monster-east-coast-storm-leaves-hundreds-of-thousands-without-power-274244677776?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795738010774_nn_sro_thanksgiving_weather_261126_S3_1920x1080-xwkhca.jpg"
-      }
-    ],
-    "path": "/us/entity/thanksgiving-storm-leaves-half-a-million-without-power-on-the-east-coast/"
-  },
+  "topAlert": null,
   "signals": [
+    {
+      "id": "now-cluster-united states-black + friday",
+      "title": "Some of our favorite Sony, LG, and TCL TVs are over 50 percent off for Black Friday",
+      "brief": "Some of our favorite Sony, LG, and TCL TVs are over 50 percent off for Black Friday.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 29,
+      "sourceCount": 3,
+      "itemCount": 12,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The Verge",
+        "The Guardian US",
+        "NBC News"
+      ],
+      "images": [
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268600_oura_ring_5_AKrales_0125.jpg?quality=90&strip=all&crop=0,0,100,100",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/268335_TCL_X11L_TV_JHiggins_0011.jpg?quality=90&strip=all&crop=0,0,100,100",
+        "https://i.guim.co.uk/img/media/7e258a5dd25684166d4013d80c7a52e2b6b4a475/1_0_2499_2000/master/2499.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvZmlsdGVyLXVzLnBuZw&enable=upscale&s=1c63adb2618e58ce0d80f411a31db8a4",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/257945_Applewatch_Series_11_AKrales_0052.jpg?quality=90&strip=all&crop=0,0,100,100",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261127-BF-oura-ring-lf-main-V1-8deacd.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "The Oura Ring 5 just got its biggest discount ever for Black Friday",
+          "source": "The Verge",
+          "publishedAt": "2026-11-27T13:30:00.000Z",
+          "sourceUrl": "https://www.theverge.com/gadgets/1041299/oura-ring-5-black-friday-2026-deal-sale?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268600_oura_ring_5_AKrales_0125.jpg?quality=90&strip=all&crop=0,0,100,100"
+        },
+        {
+          "title": "Some of our favorite Sony, LG, and TCL TVs are over 50 percent off for Black Friday",
+          "source": "The Verge",
+          "publishedAt": "2026-11-27T12:30:00.000Z",
+          "sourceUrl": "https://www.theverge.com/gadgets/1042744/best-black-friday-tv-deals-2026?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/268335_TCL_X11L_TV_JHiggins_0011.jpg?quality=90&strip=all&crop=0,0,100,100"
+        },
+        {
+          "title": "Small price tag, big upgrade: the best Black Friday deals under $50",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-27T12:15:11.000Z",
+          "sourceUrl": "https://www.theguardian.com/thefilter-us/2026/nov/27/best-black-friday-sales-deals-50?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/7e258a5dd25684166d4013d80c7a52e2b6b4a475/1_0_2499_2000/master/2499.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvZmlsdGVyLXVzLnBuZw&enable=upscale&s=1c63adb2618e58ce0d80f411a31db8a4"
+        },
+        {
+          "title": "The SE 3 is the Apple Watch most people should buy on Black Friday",
+          "source": "The Verge",
+          "publishedAt": "2026-11-27T11:30:00.000Z",
+          "sourceUrl": "https://www.theverge.com/gadgets/1040313/apple-watch-se-3-black-friday-2026-deal-sale?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/257945_Applewatch_Series_11_AKrales_0052.jpg?quality=90&strip=all&crop=0,0,100,100"
+        },
+        {
+          "title": "The Oura Ring 5 is $100 off for Black Friday",
+          "source": "NBC News",
+          "publishedAt": "2026-11-27T11:02:03.000Z",
+          "sourceUrl": "https://www.nbcnews.com/select/shopping/oura-ring-5-black-friday-deal-2026-rcna611130?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261127-BF-oura-ring-lf-main-V1-8deacd.jpg"
+        }
+      ],
+      "path": "/us/entity/some-of-our-favorite-sony-lg-and-tcl-tvs-are-over-50-percent-off-for-black-frida/"
+    },
+    {
+      "id": "now-cluster-united states-thanksgiving + parade",
+      "title": "Performers and marching bands scramble after Macy’s Thanksgiving Day Parade delay",
+      "brief": "Performers and marching bands scramble after Macy’s Thanksgiving Day Parade delay.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 27,
+      "sourceCount": 4,
+      "itemCount": 5,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NBC News",
+        "The New York Times",
+        "CBS News",
+        "ABC News"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795737528144_nn_emc_thanksgiving_parade_scramble_261126_S3_1920x1080-9ulwdd.jpg",
+        "https://static01.nyt.com/images/2026/11/25/multimedia/xp-parade-moments-photos-01-zqpc/xp-parade-moments-photos-01-zqpc-mediumSquareAt3X.jpg",
+        "https://static01.nyt.com/images/2026/11/25/multimedia/25parade-live-marching-band-gfqm/25parade-live-marching-band-gfqm-mediumSquareAt3X.jpg",
+        "https://s.abcnews.com/images/GMA/261127_gma_play1_hpMain_4x3_384.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Performers and marching bands scramble after Macy’s Thanksgiving Day Parade delay",
+          "source": "NBC News",
+          "publishedAt": "2026-12-03T23:58:53.000Z",
+          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/performers-and-marching-bands-scramble-after-macy-s-thanksgiving-day-parade-delay-274245189694?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795737528144_nn_emc_thanksgiving_parade_scramble_261126_S3_1920x1080-9ulwdd.jpg"
+        },
+        {
+          "title": "Photos: Macy’s Thanksgiving Day Parade History and Wacky Moments",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-27T13:40:20.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/26/nyregion/macys-thanksgiving-parade-history-timeline.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/xp-parade-moments-photos-01-zqpc/xp-parade-moments-photos-01-zqpc-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "WATCH: The Children's Hospital Thanksgiving Day Parade",
+          "source": "ABC News",
+          "publishedAt": "2026-11-27T13:17:21.000Z",
+          "sourceUrl": "https://abcnews.com/video/138479018/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s.abcnews.com/images/GMA/261127_gma_play1_hpMain_4x3_384.jpg"
+        },
+        {
+          "title": "Macy's Thanksgiving Day Parade postponed for 1st time in history",
+          "source": "CBS News",
+          "publishedAt": "2026-11-27T03:40:10.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/macys-thanksgiving-day-parade-postponed/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Macy’s Thanksgiving Day Parade Upends Plans and Adds Costs for Marching Bands",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-26T20:21:00.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/25/nyregion/macys-thanksgiving-day-parade-marching-bands.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25parade-live-marching-band-gfqm/25parade-live-marching-band-gfqm-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/performers-and-marching-bands-scramble-after-macy-s-thanksgiving-day-parade-dela/"
+    },
     {
       "id": "now-cluster-united states-east + coast",
       "title": "Thanksgiving Storm Leaves Half a Million Without Power on the East Coast",
@@ -100,13 +173,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 29,
-      "sourceCount": 5,
-      "itemCount": 6,
-      "freshness": "fresh now",
-      "alertLevel": "watch",
-      "alertLabel": "Watch",
-      "alertScore": 99,
+      "strength": 23,
+      "sourceCount": 3,
+      "itemCount": 4,
+      "freshness": "1h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 96,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -116,15 +189,12 @@
       "sources": [
         "The New York Times",
         "ABC News",
-        "NPR",
-        "NBC News",
-        "PBS NewsHour"
+        "NPR"
       ],
       "images": [
         "https://static01.nyt.com/images/2026/11/27/multimedia/27xp-storm-toll-01-htqv/27xp-storm-toll-01-htqv-mediumSquareAt3X.jpg",
         "https://s.abcnews.com/images/US/heavy-wind-blows-roof-off-hd-bh-112626_1795708107270_hpMain_4x3t_384.jpg",
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4496x3000+0+0/resize/4496x3000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff2%2Fe6%2F842c0c584574bebf383c85a84897%2Fap26330589214672.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795738010774_nn_sro_thanksgiving_weather_261126_S3_1920x1080-xwkhca.jpg"
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4496x3000+0+0/resize/4496x3000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff2%2Fe6%2F842c0c584574bebf383c85a84897%2Fap26330589214672.jpg"
       ],
       "evidence": [
         {
@@ -154,161 +224,9 @@
           "publishedAt": "2026-11-27T10:59:36.000Z",
           "sourceUrl": "https://www.npr.org/2026/11/27/nx-s1-6054884/thanksgiving-weather-black-friday?utm_source=lootura.com&ref=lootura.com",
           "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4496x3000+0+0/resize/4496x3000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff2%2Fe6%2F842c0c584574bebf383c85a84897%2Fap26330589214672.jpg"
-        },
-        {
-          "title": "Monster East Coast storm leaves hundreds of thousands without power",
-          "source": "NBC News",
-          "publishedAt": "2026-11-27T00:06:55.000Z",
-          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/monster-east-coast-storm-leaves-hundreds-of-thousands-without-power-274244677776?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795738010774_nn_sro_thanksgiving_weather_261126_S3_1920x1080-xwkhca.jpg"
         }
       ],
       "path": "/us/entity/thanksgiving-storm-leaves-half-a-million-without-power-on-the-east-coast/"
-    },
-    {
-      "id": "now-cluster-united states-black + friday",
-      "title": "Some of our favorite Sony, LG, and TCL TVs are over 50 percent off for Black Friday",
-      "brief": "Some of our favorite Sony, LG, and TCL TVs are over 50 percent off for Black Friday.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 29,
-      "sourceCount": 3,
-      "itemCount": 11,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 99,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "The Verge",
-        "The Guardian US",
-        "NBC News"
-      ],
-      "images": [
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/268335_TCL_X11L_TV_JHiggins_0011.jpg?quality=90&strip=all&crop=0,0,100,100",
-        "https://i.guim.co.uk/img/media/7e258a5dd25684166d4013d80c7a52e2b6b4a475/1_0_2499_2000/master/2499.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvZmlsdGVyLXVzLnBuZw&enable=upscale&s=1c63adb2618e58ce0d80f411a31db8a4",
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/257945_Applewatch_Series_11_AKrales_0052.jpg?quality=90&strip=all&crop=0,0,100,100",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261127-BF-oura-ring-lf-main-V1-8deacd.jpg",
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268739_Apple_Watch_Ultra_4_AKrales_0087.jpg?quality=90&strip=all&crop=0,0,100,100"
-      ],
-      "evidence": [
-        {
-          "title": "Some of our favorite Sony, LG, and TCL TVs are over 50 percent off for Black Friday",
-          "source": "The Verge",
-          "publishedAt": "2026-11-27T12:30:00.000Z",
-          "sourceUrl": "https://www.theverge.com/gadgets/1042744/best-black-friday-tv-deals-2026?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/268335_TCL_X11L_TV_JHiggins_0011.jpg?quality=90&strip=all&crop=0,0,100,100"
-        },
-        {
-          "title": "Small price tag, big upgrade: the best Black Friday deals under $50",
-          "source": "The Guardian US",
-          "publishedAt": "2026-11-27T12:15:11.000Z",
-          "sourceUrl": "https://www.theguardian.com/thefilter-us/2026/nov/27/best-black-friday-sales-deals-50?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://i.guim.co.uk/img/media/7e258a5dd25684166d4013d80c7a52e2b6b4a475/1_0_2499_2000/master/2499.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvZmlsdGVyLXVzLnBuZw&enable=upscale&s=1c63adb2618e58ce0d80f411a31db8a4"
-        },
-        {
-          "title": "The SE 3 is the Apple Watch most people should buy on Black Friday",
-          "source": "The Verge",
-          "publishedAt": "2026-11-27T11:30:00.000Z",
-          "sourceUrl": "https://www.theverge.com/gadgets/1040313/apple-watch-se-3-black-friday-2026-deal-sale?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/257945_Applewatch_Series_11_AKrales_0052.jpg?quality=90&strip=all&crop=0,0,100,100"
-        },
-        {
-          "title": "The Oura Ring 5 is $100 off for Black Friday",
-          "source": "NBC News",
-          "publishedAt": "2026-11-27T11:02:03.000Z",
-          "sourceUrl": "https://www.nbcnews.com/select/shopping/oura-ring-5-black-friday-deal-2026-rcna611130?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261127-BF-oura-ring-lf-main-V1-8deacd.jpg"
-        },
-        {
-          "title": "Our favorite headphones and earbuds are cheaper than ever for Black Friday",
-          "source": "The Verge",
-          "publishedAt": "2026-11-27T10:30:00.000Z",
-          "sourceUrl": "https://www.theverge.com/gadgets/1040292/best-black-friday-headphone-earbud-deals-2026?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268739_Apple_Watch_Ultra_4_AKrales_0087.jpg?quality=90&strip=all&crop=0,0,100,100"
-        }
-      ],
-      "path": "/us/entity/some-of-our-favorite-sony-lg-and-tcl-tvs-are-over-50-percent-off-for-black-frida/"
-    },
-    {
-      "id": "now-cluster-united states-thanksgiving + parade",
-      "title": "Performers and marching bands scramble after Macy’s Thanksgiving Day Parade delay",
-      "brief": "Performers and marching bands scramble after Macy’s Thanksgiving Day Parade delay.",
-      "whyItMatters": "",
-      "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 26,
-      "sourceCount": 3,
-      "itemCount": 7,
-      "freshness": "fresh now",
-      "alertLevel": "contained",
-      "alertLabel": "Contained",
-      "alertScore": 99,
-      "alertTriggers": [
-        "Crosses several sources",
-        "Picks up volume fast",
-        "Still active"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "NBC News",
-        "The New York Times",
-        "CBS News"
-      ],
-      "images": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795737528144_nn_emc_thanksgiving_parade_scramble_261126_S3_1920x1080-9ulwdd.jpg",
-        "https://static01.nyt.com/images/2026/11/25/multimedia/xp-parade-moments-photos-01-zqpc/xp-parade-moments-photos-01-zqpc-mediumSquareAt3X.jpg",
-        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/27/06e2486b-ad74-4913-99c9-4d310da1d789/thumbnail/1200x630/e20398b4ce7bec22916e6cef769a7f33/cbsn-fusion-texas-town-helps-high-school-marching-band-stay-postponed-thanksgiving-day-parade-thumbnail.jpg",
-        "https://static01.nyt.com/images/2026/11/25/multimedia/25parade-live-marching-band-gfqm/25parade-live-marching-band-gfqm-mediumSquareAt3X.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Performers and marching bands scramble after Macy’s Thanksgiving Day Parade delay",
-          "source": "NBC News",
-          "publishedAt": "2026-12-03T23:58:53.000Z",
-          "sourceUrl": "https://www.nbcnews.com/nightly-news/video/performers-and-marching-bands-scramble-after-macy-s-thanksgiving-day-parade-delay-274245189694?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795737528144_nn_emc_thanksgiving_parade_scramble_261126_S3_1920x1080-9ulwdd.jpg"
-        },
-        {
-          "title": "Photos: Macy’s Thanksgiving Day Parade History and Wacky Moments",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-27T13:02:26.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/26/nyregion/macys-thanksgiving-parade-history-timeline.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/xp-parade-moments-photos-01-zqpc/xp-parade-moments-photos-01-zqpc-mediumSquareAt3X.jpg"
-        },
-        {
-          "title": "Macy's Thanksgiving Day Parade postponed for 1st time in history",
-          "source": "CBS News",
-          "publishedAt": "2026-11-27T03:40:10.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/macys-thanksgiving-day-parade-postponed/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Texas town helps high school marching band stay in postponed Thanksgiving Day Parade",
-          "source": "CBS News",
-          "publishedAt": "2026-11-27T00:44:32.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/texas-town-helps-high-school-marching-band-stay-postponed-thanksgiving-day-parade/?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/27/06e2486b-ad74-4913-99c9-4d310da1d789/thumbnail/1200x630/e20398b4ce7bec22916e6cef769a7f33/cbsn-fusion-texas-town-helps-high-school-marching-band-stay-postponed-thanksgiving-day-parade-thumbnail.jpg"
-        },
-        {
-          "title": "Macy’s Thanksgiving Day Parade Upends Plans and Adds Costs for Marching Bands",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-26T20:21:00.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/25/nyregion/macys-thanksgiving-day-parade-marching-bands.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25parade-live-marching-band-gfqm/25parade-live-marching-band-gfqm-mediumSquareAt3X.jpg"
-        }
-      ],
-      "path": "/us/entity/performers-and-marching-bands-scramble-after-macy-s-thanksgiving-day-parade-dela/"
     },
     {
       "id": "moving-cluster-united states-thanksgiving + iowa",
@@ -319,10 +237,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "5h fresh",
+      "freshness": "6h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 86,
@@ -368,18 +286,65 @@
       "path": "/us/entity/after-the-iowa-detonation-a-family-gathered-for-an-unusual-thanksgiving/"
     },
     {
-      "id": "now-cluster-united states-trump + power",
-      "title": "Trump Weighs-in on Veto Power, Nvidia, Iran War and Putin",
-      "brief": "Trump Weighs-in on Veto Power, Nvidia, Iran War and Putin.",
+      "id": "now-cluster-united states-trump + democrats",
+      "title": "Republicans rethink tariffs, giving Democrats an opening to challenge Trump",
+      "brief": "Republicans rethink tariffs, giving Democrats an opening to challenge Trump.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 16,
+      "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "ABC News",
+        "The New York Times"
+      ],
+      "images": [
+        "https://i.abcnewsfe.com/a/bd6cf7bc-9255-4454-aee4-020d164a93ab/wirestory_a438d0649e3b905804eafb63e9803bb3_16x9.jpg?w=1600",
+        "https://static01.nyt.com/images/2026/11/26/multimedia/26Biz-Asia-Tariffs-01-fzkq/26Biz-Asia-Tariffs-01-fzkq-mediumSquareAt3X.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Republicans rethink tariffs, giving Democrats an opening to challenge Trump",
+          "source": "ABC News",
+          "publishedAt": "2026-11-27T12:30:49.000Z",
+          "sourceUrl": "https://abcnews.com/Business/wireStory/republicans-rethink-tariffs-giving-democrats-opening-challenge-trump-138479009?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.abcnewsfe.com/a/bd6cf7bc-9255-4454-aee4-020d164a93ab/wirestory_a438d0649e3b905804eafb63e9803bb3_16x9.jpg?w=1600"
+        },
+        {
+          "title": "Trump’s Latest Tariffs Revive Focus on Pressuring China",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-26T17:03:31.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/26/business/trump-tariffs-asia.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/26/multimedia/26Biz-Asia-Tariffs-01-fzkq/26Biz-Asia-Tariffs-01-fzkq-mediumSquareAt3X.jpg"
+        }
+      ],
+      "path": "/us/entity/republicans-rethink-tariffs-giving-democrats-an-opening-to-challenge-trump/"
+    },
+    {
+      "id": "moving-cluster-united states-trump + power",
+      "title": "Trump Weighs-in on Veto Power, Nvidia, Iran War and Putin",
+      "brief": "Trump Weighs-in on Veto Power, Nvidia, Iran War and Putin.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "moving",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -423,10 +388,10 @@
       "mode": "moving",
       "state": "active",
       "stateLabel": "Active",
-      "strength": 7,
+      "strength": 6,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "7h fresh",
+      "freshness": "8h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 64,
@@ -454,7 +419,7 @@
         {
           "title": "Strobe Talbott, Journalist Who Joined Clinton’s State Department, Has Died",
           "source": "The New York Times Politics",
-          "publishedAt": "2026-11-26T19:53:46.000Z",
+          "publishedAt": "2026-11-26T19:53:47.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/26/us/politics/strobe-talbott-dead.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static01.nyt.com/images/2026/11/24/multimedia/00obit-talbott-ckvf/00obit-talbott-ckvf-mediumSquareAt3X.jpg"
         }

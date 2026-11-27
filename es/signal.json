@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-27T13:00:47.750Z",
+  "updatedAt": "2026-11-27T14:00:47.666Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "322.680 enlaces analizados",
-  "dayScanLabel": "4.175 enlaces escaneados en 24h",
+  "ambientPulseLabel": "323.108 enlaces analizados",
+  "dayScanLabel": "4.185 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -27,9 +27,9 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 26,
+      "strength": 27,
       "sourceCount": 4,
-      "itemCount": 5,
+      "itemCount": 6,
       "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
@@ -41,17 +41,24 @@
       ],
       "isHotNews": false,
       "sources": [
+        "El Mundo",
         "El País",
         "El Correo",
-        "El Diario Vasco",
-        "El Mundo"
+        "El Diario Vasco"
       ],
       "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/27/17957836627133.jpg",
         "https://s1.ppllstatics.com/rc/www/multimedia/deportes/2026/11/27/marquez-declas-RaxGc13TYrgLXie1QYijF3I-1200x840@RC.jpg",
-        "https://s2.ppllstatics.com/rc/www/multimedia/deportes/2026/11/27/marc-marquez.jpg",
-        "https://s3.ppllstatics.com/elcorreo/www/multimedia/motor/2026/11/27/marquez-U30908349414PGC-U40574392797ijH-1200x840@El%20Correo.jpg"
+        "https://s2.ppllstatics.com/rc/www/multimedia/deportes/2026/11/27/marc-marquez.jpg"
       ],
       "evidence": [
+        {
+          "title": "Marc Márquez, en su adiós: \"Empecé a sentir miedo\"",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-27T12:58:23.000Z",
+          "sourceUrl": "https://www.elmundo.es/deportes/motociclismo/2026/11/27/6b097e1ffdddff48178b45b1.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/27/17957836627133.jpg"
+        },
         {
           "title": "Marc Márquez anuncia por sorpresa su retirada de MotoGP: “Siento el miedo, no a las motos, sino a las lesiones”",
           "source": "El País",
@@ -84,21 +91,21 @@
       "path": "/es/entity/marc-marquez-anuncia-por-sorpresa-su-retirada-de-motogp-siento-el-miedo-no-a-las/"
     },
     {
-      "id": "now-cluster-españa-sanchez + colau",
-      "title": "El «usted, calladita» de Feijóo a Colau revoluciona el fin de campaña: Sánchez lo define como «machismo» y el PP denuncia una manipulación",
-      "brief": "El «usted, calladita» de Feijóo a Colau revoluciona el fin de campaña: Sánchez lo define como «machismo» y el PP denuncia una manipulación.",
+      "id": "now-cluster-españa-feijoo + sanchez",
+      "title": "Del «gran buitre» al nivel de inglés de Feijóo y la mili de Sánchez: los ocho momentos más tensos del debate",
+      "brief": "Del «gran buitre» al nivel de inglés de Feijóo y la mili de Sánchez: los ocho momentos más tensos del debate.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 19,
+      "strength": 18,
       "sourceCount": 2,
-      "itemCount": 7,
-      "freshness": "fresca ahora",
+      "itemCount": 6,
+      "freshness": "1h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 95,
+      "alertScore": 91,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -111,8 +118,7 @@
       ],
       "images": [
         "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/27/calladitaa-kLED-U40572332534ZKE-1200x840@Diario%20Vasco.png",
-        "https://s2.ppllstatics.com/elcorreo/www/multimedia/elecciones/2026/11/27/sanchez-debate-uno-kILB-U40570485047iAI-1200x840@El%20Correo.jpg",
-        "https://s2.ppllstatics.com/elcorreo/www/multimedia/elecciones/2026/11/27/feijoo-calladita.jpg"
+        "https://s2.ppllstatics.com/elcorreo/www/multimedia/elecciones/2026/11/27/sanchez-debate-uno-kILB-U40570485047iAI-1200x840@El%20Correo.jpg"
       ],
       "evidence": [
         {
@@ -151,7 +157,54 @@
           "image": ""
         }
       ],
-      "path": "/es/entity/el-usted-calladita-de-feijoo-a-colau-revoluciona-el-fin-de-campana-sanchez-lo-de/"
+      "path": "/es/entity/del-gran-buitre-al-nivel-de-ingles-de-feijoo-y-la-mili-de-sanchez-los-ocho-momen/"
+    },
+    {
+      "id": "now-cluster-españa-menor + autobus",
+      "title": "Una menor de 16 años, herida grave al ser atropellada por un autobús en un paso de peatones de Villaverde",
+      "brief": "Una menor de 16 años, herida grave al ser atropellada por un autobús en un paso de peatones de Villaverde.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 15,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "1h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El País",
+        "El Mundo"
+      ],
+      "images": [
+        "https://imagenes.elpais.com/resizer/v2/VESNSRIID5E7FLEUTRK6P6MN6A.jpg?auth=5bedb47f7eb2d804b6d3869b21f3d926165c81c927b9158c689ffebd027fea3d",
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/27/17957816849861.png"
+      ],
+      "evidence": [
+        {
+          "title": "Una menor de 16 años, herida grave al ser atropellada por un autobús en un paso de peatones de Villaverde",
+          "source": "El País",
+          "publishedAt": "2026-11-27T12:35:24.000Z",
+          "sourceUrl": "https://elpais.com/espana/madrid/2026-11-27/una-menor-de-16-anos-herida-grave-al-ser-atropellada-por-un-autobus-en-un-paso-de-peatones-de-villaverde.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/VESNSRIID5E7FLEUTRK6P6MN6A.jpg?auth=5bedb47f7eb2d804b6d3869b21f3d926165c81c927b9158c689ffebd027fea3d"
+        },
+        {
+          "title": "Un autobús interurbano atropella a una menor de 16 años en un paso de peatones con semáforo en Madrid",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-27T12:20:27.000Z",
+          "sourceUrl": "https://www.elmundo.es/madrid/2026/11/27/6b09746afc6c839b658b457f.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/27/17957816849861.png"
+        }
+      ],
+      "path": "/es/entity/una-menor-de-16-anos-herida-grave-al-ser-atropellada-por-un-autobus-en-un-paso-d/"
     },
     {
       "id": "now-cluster-españa-junta + electoral",
@@ -162,13 +215,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -200,21 +253,21 @@
       "path": "/es/entity/el-pp-denuncia-a-rtve-ante-la-junta-electoral-por-omitir-el-acoso-a-sus-candidat/"
     },
     {
-      "id": "now-cluster-españa-alcalde + tombrio",
+      "id": "moving-cluster-españa-alcalde + durante",
       "title": "Muere el alcalde de la localidad leonesa de Tombrío de Abajo por un disparo durante una cacería de jabalíes",
       "brief": "Muere el alcalde de la localidad leonesa de Tombrío de Abajo por un disparo durante una cacería de jabalíes.",
       "whyItMatters": "",
       "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 14,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -255,10 +308,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -292,146 +345,6 @@
         }
       ],
       "path": "/es/entity/el-tsj-rebaja-al-futbolista-rafa-mir-la-pena-de-prision-por-agresion-sexual-a-si/"
-    },
-    {
-      "id": "moving-cluster-españa-gobierno + euros",
-      "title": "El Gobierno confirma que subirá las pensiones un 3,5% a dos días de las elecciones: 775 euros más al año de media para los jubilados",
-      "brief": "El Gobierno confirma que subirá las pensiones un 3,5% a dos días de las elecciones: 775 euros más al año de media para los jubilados.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Mundo"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/diariovasco/www/multimedia/economia/2026/11/27/1500149260-kb2D-U40571910026vEB-1200x840@Diario%20Vasco.jpg",
-        "https://e01-phantom-elmundo.uecdn.es/7628c256399b2214d94ae68d2f216421/crop/41x0/1649x1072/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/27/17957653560593.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Los jubilados guipuzcoanos ganarán 913 euros más al año con la revalorización del 3,5% de las pensiones",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-27T08:22:42.000Z",
-          "sourceUrl": "https://www.diariovasco.com/economia/pensiones/jubilados-guipuzcoanos-ganaran-913-euros-ano-revalorizacion-20261127092241-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/diariovasco/www/multimedia/economia/2026/11/27/1500149260-kb2D-U40571910026vEB-1200x840@Diario%20Vasco.jpg"
-        },
-        {
-          "title": "El Gobierno confirma que subirá las pensiones un 3,5% a dos días de las elecciones: 775 euros más al año de media para los jubilados",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-27T08:00:04.000Z",
-          "sourceUrl": "https://www.elmundo.es/economia/2026/11/27/6b0935cb21efa0364f8b45a2.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/7628c256399b2214d94ae68d2f216421/crop/41x0/1649x1072/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/27/17957653560593.jpg"
-        }
-      ],
-      "path": "/es/entity/el-gobierno-confirma-que-subira-las-pensiones-un-3-5-a-dos-dias-de-las-eleccione/"
-    },
-    {
-      "id": "moving-cluster-españa-expareja + delante",
-      "title": "Fallece la mujer apuñalada en Bilbao por su expareja delante de sus hijos",
-      "brief": "Fallece la mujer apuñalada en Bilbao por su expareja delante de sus hijos.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 8,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "5h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/3L3CHWFXX5DGDHO2OEXRHLWPRI.jpg?auth=aa50f17a67e52d5c9b50806aa9f7407a19ec6b55becd26db4110fe006c9d29a5"
-      ],
-      "evidence": [
-        {
-          "title": "Un hombre asesina en Bilbao a su expareja, de 34 años, delante de sus dos hijos",
-          "source": "El País",
-          "publishedAt": "2026-11-27T08:10:24.000Z",
-          "sourceUrl": "https://elpais.com/sociedad/2026-11-27/muere-la-mujer-apunalada-por-su-expareja-en-bilbao.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/3L3CHWFXX5DGDHO2OEXRHLWPRI.jpg?auth=aa50f17a67e52d5c9b50806aa9f7407a19ec6b55becd26db4110fe006c9d29a5"
-        },
-        {
-          "title": "Fallece la mujer apuñalada en Bilbao por su expareja delante de sus hijos",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-27T06:18:43.000Z",
-          "sourceUrl": "https://www.diariovasco.com/sociedad/sucesos/herida-gravedad-mujer-bilbao-apunalada-expareja-20261126223232-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/fallece-la-mujer-apunalada-en-bilbao-por-su-expareja-delante-de-sus-hijos/"
-    },
-    {
-      "id": "moving-cluster-españa-costa + rica",
-      "title": "El Gobierno de Costa Rica niega la entrada al país a la relatora de la ONU que acusa a Israel de genocidio",
-      "brief": "El Gobierno de Costa Rica niega la entrada al país a la relatora de la ONU que acusa a Israel de genocidio.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "active",
-      "stateLabel": "Activa",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "6h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 70,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El País"
-      ],
-      "images": [
-        "https://e01-phantom-elmundo.uecdn.es/e7e8adba4512b8f8adbc0ac0338c6f00/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/27/17957628283191.jpg",
-        "https://imagenes.elpais.com/resizer/v2/SC4QVC5SP5A2BL3BDETIXZ5Z4M.jpg?auth=e31909804073f9b878a74de16db19cf3890a1be1ec2a84402ef22438526c70b3"
-      ],
-      "evidence": [
-        {
-          "title": "El Gobierno de Costa Rica niega la entrada al país a la relatora de la ONU que acusa a Israel de genocidio",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-27T07:03:30.000Z",
-          "sourceUrl": "https://www.elmundo.es/internacional/2026/11/27/6b09258bfdddff6c288b45b5.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e01-phantom-elmundo.uecdn.es/e7e8adba4512b8f8adbc0ac0338c6f00/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/27/17957628283191.jpg"
-        },
-        {
-          "title": "Costa Rica niega el ingreso a Francesca Albanese, relatora de la ONU: “Nunca me había sentido tan humillada”",
-          "source": "El País",
-          "publishedAt": "2026-11-27T05:06:39.000Z",
-          "sourceUrl": "https://elpais.com/america/2026-11-27/costa-rica-niega-el-ingreso-a-francesca-albanese-relatora-de-la-onu-para-territorios-palestinos.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/SC4QVC5SP5A2BL3BDETIXZ5Z4M.jpg?auth=e31909804073f9b878a74de16db19cf3890a1be1ec2a84402ef22438526c70b3"
-        }
-      ],
-      "path": "/es/entity/el-gobierno-de-costa-rica-niega-la-entrada-al-pais-a-la-relatora-de-la-onu-que-a/"
     }
   ]
 }
