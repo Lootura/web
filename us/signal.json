@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-27T15:00:47.803Z",
+  "updatedAt": "2026-11-27T16:00:47.574Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "438,212 links analyzed",
-  "dayScanLabel": "8,310 links scanned in 24h",
+  "ambientPulseLabel": "439,042 links analyzed",
+  "dayScanLabel": "8,306 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -17,17 +17,17 @@
     ]
   },
   "topAlert": {
-    "id": "now-cluster-united states-black + friday",
+    "id": "moving-cluster-united states-black + friday",
     "title": "Some of our favorite Sony, LG, and TCL TVs are over 50 percent off for Black Friday",
     "brief": "Some of our favorite Sony, LG, and TCL TVs are over 50 percent off for Black Friday.",
     "whyItMatters": "",
     "verdict": "If it repeats in the next run, it gains weight.",
-    "mode": "now",
+    "mode": "moving",
     "state": "rising",
     "stateLabel": "Rising",
-    "strength": 38,
-    "sourceCount": 5,
-    "itemCount": 18,
+    "strength": 40,
+    "sourceCount": 6,
+    "itemCount": 19,
     "freshness": "fresh now",
     "alertLevel": "watch",
     "alertLabel": "Watch",
@@ -39,19 +39,41 @@
     ],
     "isHotNews": false,
     "sources": [
+      "The New York Times",
+      "The Guardian US",
       "PBS NewsHour",
       "CBS News",
-      "The Verge",
-      "NBC News",
-      "The New York Times"
+      "The Verge"
     ],
     "images": [
+      "https://static01.nyt.com/images/2026/11/26/business/00holiday-shopping-advice/00holiday-shopping-advice-mediumSquareAt3X.jpg",
+      "https://i.guim.co.uk/img/media/a2c0282bd6eb2f377e2672798a04c86f398d4393/0_0_4266_3415/master/4266.jpg?width=140&quality=85&auto=format&fit=max&s=79d2249176f0077db0f0e79d56d07654",
       "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-27T133701Z_868131490_RC27WOA9BNAF_RTRMADP_3_HOLIDAYSHOPPING-RETAIL-BLACK-FRIDAY-NEW-YORK-1024x683.jpg",
-      "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268442_Apple_MacBook_Neo_competition_Lenovo_Acer_Asus_ADiBenedetto_0020.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261127-BF-LPE-oo-social-V1-989360.jpg",
-      "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261127-BF-under-50-kb-social-V1-6c8d39.png"
+      "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/257943_Airpods_Pro3_AKrales_0108.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261127-BF-gifts-under-100-dj-main-V1-6329f6.jpg"
     ],
     "evidence": [
+      {
+        "title": "Holiday Deals Are Tempting. Here’s How to Avoid Buyer’s Remorse.",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-27T15:29:56.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/27/business/holiday-shopping-deals-spending.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/26/business/00holiday-shopping-advice/00holiday-shopping-advice-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Apple’s AirPods Pro 3 are a whopping $100 off for Black Friday",
+        "source": "The Verge",
+        "publishedAt": "2026-11-27T15:15:28.000Z",
+        "sourceUrl": "https://www.theverge.com/gadgets/1039978/airpods-pro-3-apple-earbuds-black-friday-2026-deal-sale?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/257943_Airpods_Pro3_AKrales_0108.jpg?quality=90&strip=all&crop=0,0,100,100"
+      },
+      {
+        "title": "Black Friday is full of fake deals. Here’s how to avoid getting duped",
+        "source": "The Guardian US",
+        "publishedAt": "2026-11-27T15:00:13.000Z",
+        "sourceUrl": "https://www.theguardian.com/thefilter-us/2026/nov/27/what-makes-a-good-black-friday-deal?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://i.guim.co.uk/img/media/a2c0282bd6eb2f377e2672798a04c86f398d4393/0_0_4266_3415/master/4266.jpg?width=140&quality=85&auto=format&fit=max&s=79d2249176f0077db0f0e79d56d07654"
+      },
       {
         "title": "Before sunrise at Macy’s, a familiar Black Friday ritual returns despite weeks of online deals",
         "source": "PBS NewsHour",
@@ -60,49 +82,28 @@
         "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-27T133701Z_868131490_RC27WOA9BNAF_RTRMADP_3_HOLIDAYSHOPPING-RETAIL-BLACK-FRIDAY-NEW-YORK-1024x683.jpg"
       },
       {
-        "title": "AI shopping agents face huge threats on Black Friday. Here's what to know.",
-        "source": "CBS News",
-        "publishedAt": "2026-11-27T14:33:47.000Z",
-        "sourceUrl": "https://www.cbsnews.com/video/ai-shopping-agents-face-huge-threats-on-black-friday-heres-what-to-know/?utm_source=lootura.com&ref=lootura.com",
-        "image": ""
-      },
-      {
-        "title": "Buying a laptop right now is rough, but these Black Friday deals help",
-        "source": "The Verge",
-        "publishedAt": "2026-11-27T14:30:00.000Z",
-        "sourceUrl": "https://www.theverge.com/gadgets/1042512/best-black-friday-laptop-notebook-deals-2026?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268442_Apple_MacBook_Neo_competition_Lenovo_Acer_Asus_ADiBenedetto_0020.jpg?quality=90&strip=all&crop=0,0,100,100"
-      },
-      {
-        "title": "These Black Friday deals have never been lower",
+        "title": "The best Black Friday deals on gifts under $100",
         "source": "NBC News",
-        "publishedAt": "2026-11-27T14:24:06.070Z",
-        "sourceUrl": "https://www.nbcnews.com/select/shopping/black-friday-2026-lowest-prices-ever-rcna610918?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261127-BF-LPE-oo-social-V1-989360.jpg"
-      },
-      {
-        "title": "Black Friday shopping on a budget? These deals are all under $50",
-        "source": "NBC News",
-        "publishedAt": "2026-11-27T14:16:34.586Z",
-        "sourceUrl": "https://www.nbcnews.com/select/shopping/black-friday-2026-deals-under-50-rcna611475?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261127-BF-under-50-kb-social-V1-6c8d39.png"
+        "publishedAt": "2026-11-27T14:48:08.000Z",
+        "sourceUrl": "https://www.nbcnews.com/select/shopping/holiday-shopping-under-100-black-friday-2026-rcna611444?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261127-BF-gifts-under-100-dj-main-V1-6329f6.jpg"
       }
     ],
     "path": "/us/entity/some-of-our-favorite-sony-lg-and-tcl-tvs-are-over-50-percent-off-for-black-frida/"
   },
   "signals": [
     {
-      "id": "now-cluster-united states-black + friday",
+      "id": "moving-cluster-united states-black + friday",
       "title": "Some of our favorite Sony, LG, and TCL TVs are over 50 percent off for Black Friday",
       "brief": "Some of our favorite Sony, LG, and TCL TVs are over 50 percent off for Black Friday.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 38,
-      "sourceCount": 5,
-      "itemCount": 18,
+      "strength": 40,
+      "sourceCount": 6,
+      "itemCount": 19,
       "freshness": "fresh now",
       "alertLevel": "watch",
       "alertLabel": "Watch",
@@ -114,19 +115,41 @@
       ],
       "isHotNews": false,
       "sources": [
+        "The New York Times",
+        "The Guardian US",
         "PBS NewsHour",
         "CBS News",
-        "The Verge",
-        "NBC News",
-        "The New York Times"
+        "The Verge"
       ],
       "images": [
+        "https://static01.nyt.com/images/2026/11/26/business/00holiday-shopping-advice/00holiday-shopping-advice-mediumSquareAt3X.jpg",
+        "https://i.guim.co.uk/img/media/a2c0282bd6eb2f377e2672798a04c86f398d4393/0_0_4266_3415/master/4266.jpg?width=140&quality=85&auto=format&fit=max&s=79d2249176f0077db0f0e79d56d07654",
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-27T133701Z_868131490_RC27WOA9BNAF_RTRMADP_3_HOLIDAYSHOPPING-RETAIL-BLACK-FRIDAY-NEW-YORK-1024x683.jpg",
-        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268442_Apple_MacBook_Neo_competition_Lenovo_Acer_Asus_ADiBenedetto_0020.jpg?quality=90&strip=all&crop=0,0,100,100",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261127-BF-LPE-oo-social-V1-989360.jpg",
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261127-BF-under-50-kb-social-V1-6c8d39.png"
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/257943_Airpods_Pro3_AKrales_0108.jpg?quality=90&strip=all&crop=0,0,100,100",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261127-BF-gifts-under-100-dj-main-V1-6329f6.jpg"
       ],
       "evidence": [
+        {
+          "title": "Holiday Deals Are Tempting. Here’s How to Avoid Buyer’s Remorse.",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-27T15:29:56.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/27/business/holiday-shopping-deals-spending.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/26/business/00holiday-shopping-advice/00holiday-shopping-advice-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Apple’s AirPods Pro 3 are a whopping $100 off for Black Friday",
+          "source": "The Verge",
+          "publishedAt": "2026-11-27T15:15:28.000Z",
+          "sourceUrl": "https://www.theverge.com/gadgets/1039978/airpods-pro-3-apple-earbuds-black-friday-2026-deal-sale?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/257943_Airpods_Pro3_AKrales_0108.jpg?quality=90&strip=all&crop=0,0,100,100"
+        },
+        {
+          "title": "Black Friday is full of fake deals. Here’s how to avoid getting duped",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-27T15:00:13.000Z",
+          "sourceUrl": "https://www.theguardian.com/thefilter-us/2026/nov/27/what-makes-a-good-black-friday-deal?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/a2c0282bd6eb2f377e2672798a04c86f398d4393/0_0_4266_3415/master/4266.jpg?width=140&quality=85&auto=format&fit=max&s=79d2249176f0077db0f0e79d56d07654"
+        },
         {
           "title": "Before sunrise at Macy’s, a familiar Black Friday ritual returns despite weeks of online deals",
           "source": "PBS NewsHour",
@@ -135,35 +158,86 @@
           "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-27T133701Z_868131490_RC27WOA9BNAF_RTRMADP_3_HOLIDAYSHOPPING-RETAIL-BLACK-FRIDAY-NEW-YORK-1024x683.jpg"
         },
         {
-          "title": "AI shopping agents face huge threats on Black Friday. Here's what to know.",
-          "source": "CBS News",
-          "publishedAt": "2026-11-27T14:33:47.000Z",
-          "sourceUrl": "https://www.cbsnews.com/video/ai-shopping-agents-face-huge-threats-on-black-friday-heres-what-to-know/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Buying a laptop right now is rough, but these Black Friday deals help",
-          "source": "The Verge",
-          "publishedAt": "2026-11-27T14:30:00.000Z",
-          "sourceUrl": "https://www.theverge.com/gadgets/1042512/best-black-friday-laptop-notebook-deals-2026?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268442_Apple_MacBook_Neo_competition_Lenovo_Acer_Asus_ADiBenedetto_0020.jpg?quality=90&strip=all&crop=0,0,100,100"
-        },
-        {
-          "title": "These Black Friday deals have never been lower",
+          "title": "The best Black Friday deals on gifts under $100",
           "source": "NBC News",
-          "publishedAt": "2026-11-27T14:24:06.070Z",
-          "sourceUrl": "https://www.nbcnews.com/select/shopping/black-friday-2026-lowest-prices-ever-rcna610918?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261127-BF-LPE-oo-social-V1-989360.jpg"
-        },
-        {
-          "title": "Black Friday shopping on a budget? These deals are all under $50",
-          "source": "NBC News",
-          "publishedAt": "2026-11-27T14:16:34.586Z",
-          "sourceUrl": "https://www.nbcnews.com/select/shopping/black-friday-2026-deals-under-50-rcna611475?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261127-BF-under-50-kb-social-V1-6c8d39.png"
+          "publishedAt": "2026-11-27T14:48:08.000Z",
+          "sourceUrl": "https://www.nbcnews.com/select/shopping/holiday-shopping-under-100-black-friday-2026-rcna611444?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261127-BF-gifts-under-100-dj-main-V1-6329f6.jpg"
         }
       ],
       "path": "/us/entity/some-of-our-favorite-sony-lg-and-tcl-tvs-are-over-50-percent-off-for-black-frida/"
+    },
+    {
+      "id": "now-cluster-united states-east + coast",
+      "title": "Heavy rain winds down as power remains out for hundreds of thousands on the East Coast",
+      "brief": "Heavy rain winds down as power remains out for hundreds of thousands on the East Coast.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 26,
+      "sourceCount": 4,
+      "itemCount": 5,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Picks up volume fast",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "The New York Times",
+        "PBS NewsHour",
+        "CBS News",
+        "NPR"
+      ],
+      "images": [
+        "https://static01.nyt.com/images/2026/11/27/multimedia/27xp-storm-toll-01-htqv/27xp-storm-toll-01-htqv-mediumSquareAt3X.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-27T135817Z_337389670_RC2DWOAM6K0A_RTRMADP_3_USA-WEATHER-1024x546.jpg",
+        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4496x3000+0+0/resize/4496x3000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff2%2Fe6%2F842c0c584574bebf383c85a84897%2Fap26330589214672.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "Thanksgiving Storm Leaves Half a Million Without Power on the East Coast",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-27T15:37:13.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/27/us/thanksgiving-weather-east-coast-storm.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/27/multimedia/27xp-storm-toll-01-htqv/27xp-storm-toll-01-htqv-mediumSquareAt3X.jpg"
+        },
+        {
+          "title": "Heavy rain winds down as power remains out for hundreds of thousands on the East Coast",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-27T15:15:26.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/nation/heavy-rain-winds-down-as-power-remains-out-for-hundreds-of-thousands-on-the-east-coast?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-27T135817Z_337389670_RC2DWOAM6K0A_RTRMADP_3_USA-WEATHER-1024x546.jpg"
+        },
+        {
+          "title": "Heavy rain and huge wind gusts slam Americans during Thanksgiving",
+          "source": "CBS News",
+          "publishedAt": "2026-11-27T14:39:27.000Z",
+          "sourceUrl": "https://www.cbsnews.com/video/heavy-rain-and-huge-wind-gusts-slam-americans-during-thanksgiving/?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+          "source": "NPR",
+          "publishedAt": "2026-11-27T11:59:02.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "From Thanksgiving blackouts to Black Friday, a holiday hit by wild weather and economic woes",
+          "source": "NPR",
+          "publishedAt": "2026-11-27T10:59:36.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/27/nx-s1-6054884/thanksgiving-weather-black-friday?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4496x3000+0+0/resize/4496x3000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff2%2Fe6%2F842c0c584574bebf383c85a84897%2Fap26330589214672.jpg"
+        }
+      ],
+      "path": "/us/entity/heavy-rain-winds-down-as-power-remains-out-for-hundreds-of-thousands-on-the-east/"
     },
     {
       "id": "now-cluster-united states-thanksgiving + macy",
@@ -190,11 +264,12 @@
       "sources": [
         "NBC News",
         "The New York Times",
-        "CBS News"
+        "NPR"
       ],
       "images": [
         "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795737528144_nn_emc_thanksgiving_parade_scramble_261126_S3_1920x1080-9ulwdd.jpg",
         "https://static01.nyt.com/images/2026/11/25/multimedia/xp-parade-moments-photos-01-zqpc/xp-parade-moments-photos-01-zqpc-mediumSquareAt3X.jpg",
+        "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6043796",
         "https://static01.nyt.com/images/2026/11/25/multimedia/25parade-live-marching-band-gfqm/25parade-live-marching-band-gfqm-mediumSquareAt3X.jpg"
       ],
       "evidence": [
@@ -213,11 +288,11 @@
           "image": "https://static01.nyt.com/images/2026/11/25/multimedia/xp-parade-moments-photos-01-zqpc/xp-parade-moments-photos-01-zqpc-mediumSquareAt3X.jpg"
         },
         {
-          "title": "Macy's Thanksgiving Day Parade postponed for 1st time in history",
-          "source": "CBS News",
-          "publishedAt": "2026-11-27T03:40:10.000Z",
-          "sourceUrl": "https://www.cbsnews.com/news/macys-thanksgiving-day-parade-postponed/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "title": "New balloons will fly in the postponed 100th Macy's Thanksgiving Day Parade",
+          "source": "NPR",
+          "publishedAt": "2026-11-27T09:45:12.000Z",
+          "sourceUrl": "https://www.npr.org/2026/11/27/nx-s1-6043796/new-balloons-will-fly-in-the-postponed-100th-macys-thanksgiving-day-parade?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6043796"
         },
         {
           "title": "Macy’s Thanksgiving Day Parade Upends Plans and Adds Costs for Marching Bands",
@@ -230,21 +305,21 @@
       "path": "/us/entity/performers-and-marching-bands-scramble-after-macy-s-thanksgiving-day-parade-dela/"
     },
     {
-      "id": "now-cluster-united states-east + coast",
-      "title": "Thanksgiving Storm Leaves Half a Million Without Power on the East Coast",
-      "brief": "Thanksgiving Storm Leaves Half a Million Without Power on the East Coast.",
+      "id": "now-cluster-united states-trump + power",
+      "title": "Zelenskyy likens Trump calling Putin \"my friend\" to Hitler being viewed as friend during World War II",
+      "brief": "Zelenskyy likens Trump calling Putin \"my friend\" to Hitler being viewed as friend during World War II.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 24,
+      "strength": 23,
       "sourceCount": 3,
-      "itemCount": 4,
+      "itemCount": 3,
       "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
-      "alertScore": 96,
+      "alertScore": 92,
       "alertTriggers": [
         "Crosses several sources",
         "Picks up volume fast",
@@ -252,46 +327,86 @@
       ],
       "isHotNews": false,
       "sources": [
-        "The New York Times",
-        "ABC News",
-        "NPR"
+        "CBS News",
+        "PBS NewsHour",
+        "NBC News Politics"
       ],
       "images": [
-        "https://static01.nyt.com/images/2026/11/27/multimedia/27xp-storm-toll-01-htqv/27xp-storm-toll-01-htqv-mediumSquareAt3X.jpg",
-        "https://s.abcnews.com/images/US/heavy-wind-blows-roof-off-hd-bh-112626_1795708107270_hpMain_4x3t_384.jpg",
-        "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4496x3000+0+0/resize/4496x3000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff2%2Fe6%2F842c0c584574bebf383c85a84897%2Fap26330589214672.jpg"
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/19/dca4ce94-dadc-451c-80d0-d9e7d8a7fbda/thumbnail/1200x630g2/fd2886a0855db66f72b25bd2ead39f3f/ap26323154078465-1.jpg",
+        "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-26T095524Z_1409572489_RC2KVOA35PZ6_RTRMADP_3_UKRAINE-CRISIS-ATTACK-KYIV-1024x683.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795781702591_tdy_news_7a_kellyo_trump_261127_S3_1920x1080-6g88qq.jpg"
       ],
       "evidence": [
         {
-          "title": "Thanksgiving Storm Leaves Half a Million Without Power on the East Coast",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-27T14:38:44.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/27/us/thanksgiving-weather-east-coast-storm.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/27/multimedia/27xp-storm-toll-01-htqv/27xp-storm-toll-01-htqv-mediumSquareAt3X.jpg"
+          "title": "Zelenskyy likens Trump calling Putin \"my friend\" to Hitler being viewed as friend during World War II",
+          "source": "CBS News",
+          "publishedAt": "2026-11-27T15:32:29.000Z",
+          "sourceUrl": "https://www.cbsnews.com/news/zelenskyy-trump-calling-putin-friend-like-hitler-viewed-friend-wwii/?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/19/dca4ce94-dadc-451c-80d0-d9e7d8a7fbda/thumbnail/1200x630g2/fd2886a0855db66f72b25bd2ead39f3f/ap26323154078465-1.jpg"
         },
         {
-          "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
-          "source": "ABC News",
-          "publishedAt": "2026-11-27T12:31:49.000Z",
-          "sourceUrl": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273&utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s.abcnews.com/images/US/heavy-wind-blows-roof-off-hd-bh-112626_1795708107270_hpMain_4x3t_384.jpg"
+          "title": "Zelenskyy urges the U.S. to pressure Putin, calling Trump’s 'my friend' remark strange",
+          "source": "PBS NewsHour",
+          "publishedAt": "2026-11-27T15:31:42.000Z",
+          "sourceUrl": "https://www.pbs.org/newshour/world/zelenskyy-urges-the-u-s-to-pressure-putin-calling-trumps-my-friend-remark-strange?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-26T095524Z_1409572489_RC2KVOA35PZ6_RTRMADP_3_UKRAINE-CRISIS-ATTACK-KYIV-1024x683.jpg"
         },
         {
-          "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
-          "source": "NPR",
-          "publishedAt": "2026-11-27T11:59:02.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "From Thanksgiving blackouts to Black Friday, a holiday hit by wild weather and economic woes",
-          "source": "NPR",
-          "publishedAt": "2026-11-27T10:59:36.000Z",
-          "sourceUrl": "https://www.npr.org/2026/11/27/nx-s1-6054884/thanksgiving-weather-black-friday?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4496x3000+0+0/resize/4496x3000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff2%2Fe6%2F842c0c584574bebf383c85a84897%2Fap26330589214672.jpg"
+          "title": "Trump Weighs-in on Veto Power, Nvidia, Iran War and Putin",
+          "source": "NBC News Politics",
+          "publishedAt": "2026-11-27T12:15:08.000Z",
+          "sourceUrl": "https://www.today.com/video/trump-weighs-in-on-veto-power-nvidia-iran-war-and-putin-274257989639?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795781702591_tdy_news_7a_kellyo_trump_261127_S3_1920x1080-6g88qq.jpg"
         }
       ],
-      "path": "/us/entity/thanksgiving-storm-leaves-half-a-million-without-power-on-the-east-coast/"
+      "path": "/us/entity/zelenskyy-likens-trump-calling-putin-my-friend-to-hitler-being-viewed-as-friend/"
+    },
+    {
+      "id": "now-cluster-united states-hackers + force",
+      "title": "Hackers reportedly breach US Air Force’s flagship cloud computing platform",
+      "brief": "Hackers reportedly breach US Air Force’s flagship cloud computing platform.",
+      "whyItMatters": "",
+      "verdict": "If it repeats in the next run, it gains weight.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Rising",
+      "strength": 16,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "fresh now",
+      "alertLevel": "contained",
+      "alertLabel": "Contained",
+      "alertScore": 76,
+      "alertTriggers": [
+        "Crosses several sources",
+        "Still active"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "NBC News",
+        "The Guardian US"
+      ],
+      "images": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261127-us-air-force-mb-1526-138dff.jpg",
+        "https://i.guim.co.uk/img/media/b78bd09c92d89960e79cab8a33338868663794eb/171_0_1706_1365/master/1706.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0540f9b74f59c65d1f65a63e5e9ef2f6"
+      ],
+      "evidence": [
+        {
+          "title": "Hackers attack and penetrate Air Force’s computing platform",
+          "source": "NBC News",
+          "publishedAt": "2026-11-27T15:46:48.520Z",
+          "sourceUrl": "https://www.nbcnews.com/news/us-news/hackers-attack-penetrate-air-forces-computing-platform-rcna611559?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261127-us-air-force-mb-1526-138dff.jpg"
+        },
+        {
+          "title": "Hackers reportedly breach US Air Force’s flagship cloud computing platform",
+          "source": "The Guardian US",
+          "publishedAt": "2026-11-27T14:50:15.000Z",
+          "sourceUrl": "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://i.guim.co.uk/img/media/b78bd09c92d89960e79cab8a33338868663794eb/171_0_1706_1365/master/1706.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0540f9b74f59c65d1f65a63e5e9ef2f6"
+        }
+      ],
+      "path": "/us/entity/hackers-reportedly-breach-us-air-force-s-flagship-cloud-computing-platform/"
     }
   ]
 }
