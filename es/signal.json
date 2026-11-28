@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "es",
   "language": "es",
-  "updatedAt": "2026-11-27T23:00:47.570Z",
+  "updatedAt": "2026-11-28T00:00:47.435Z",
   "pulseLabel": "Último análisis · este minuto",
-  "ambientPulseLabel": "326.896 enlaces analizados",
-  "dayScanLabel": "4.216 enlaces escaneados en 24h",
+  "ambientPulseLabel": "327.315 enlaces analizados",
+  "dayScanLabel": "4.207 enlaces escaneados en 24h",
   "empty": {
     "title": "Sin nuevas tendencias",
     "body": "Último análisis completo. Nada merece portada ahora.",
@@ -19,6 +19,79 @@
   "topAlert": null,
   "signals": [
     {
+      "id": "now-cluster-españa-black + friday",
+      "title": "He fichado las mejores rebajas de Levi’s, Tommy Hilfiger y Helly Hansen y estas son las compras que haría este Black Friday",
+      "brief": "He fichado las mejores rebajas de Levi’s, Tommy Hilfiger y Helly Hansen y estas son las compras que haría este Black Friday.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "now",
+      "state": "rising",
+      "stateLabel": "Subiendo",
+      "strength": 26,
+      "sourceCount": 3,
+      "itemCount": 7,
+      "freshness": "fresca ahora",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 99,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Gana volumen rápido",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Mundo",
+        "El País",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/27/17957996339058.jpg",
+        "https://imagenes.elpais.com/resizer/v2/TAE357IO7NEI3BKJIZJM3DKLBI.png?auth=50b494417d25e7fc268a3f2dc601031782b3e0173e5229d2052586a04455c219",
+        "https://imagenes.elpais.com/resizer/v2/3J3BDUQZGVDT3DMRNP5USZYXMU.png?auth=6526ca1f65208ed56f3325b128f94a960866a4cb60902ce4f771933f4de91150",
+        "https://imagenes.elpais.com/resizer/v2/PUE7KCVTWNGKFONADMMZKAVAWQ.png?auth=4642483562efdec57761c32ce9e6c8e5d9c178368cad86c0246b9bfe081f649d",
+        "https://imagenes.elpais.com/resizer/v2/CMQYFRJMAFAGLHQGY7ZINUBTQQ.png?auth=291c2c5f98029fd3e24be4d9644b85f945e0e7284984ea65f317a127404f503c"
+      ],
+      "evidence": [
+        {
+          "title": "Revisamos a fondo las ofertas de Black Friday en Amazon: estas son las 100 mejores",
+          "source": "El Mundo",
+          "publishedAt": "2026-11-27T23:25:05.000Z",
+          "sourceUrl": "https://www.elmundo.es/ofertas-regalos/black-friday/2026/11/28/6b097e3ee9cf4a55348b45a2.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/27/17957996339058.jpg"
+        },
+        {
+          "title": "Black Friday 2026, en directo: las mejores ofertas de Amazon y otras tiendas, minuto a minuto",
+          "source": "El País",
+          "publishedAt": "2026-11-27T22:50:01.000Z",
+          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-black-friday-2026-en-directo.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/TAE357IO7NEI3BKJIZJM3DKLBI.png?auth=50b494417d25e7fc268a3f2dc601031782b3e0173e5229d2052586a04455c219"
+        },
+        {
+          "title": "He fichado las mejores rebajas de Levi’s, Tommy Hilfiger y Helly Hansen y estas son las compras que haría este Black Friday",
+          "source": "El País",
+          "publishedAt": "2026-11-27T18:21:08.000Z",
+          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-black-friday-2026-moda-grandes-marcas.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/3J3BDUQZGVDT3DMRNP5USZYXMU.png?auth=6526ca1f65208ed56f3325b128f94a960866a4cb60902ce4f771933f4de91150"
+        },
+        {
+          "title": "Las zapatillas Skechers más cómodas para caminar y otros 19 modelos de grandes marcas rebajados por Black Friday",
+          "source": "El País",
+          "publishedAt": "2026-11-27T18:14:11.000Z",
+          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-black-friday-2026-zapatillas.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/PUE7KCVTWNGKFONADMMZKAVAWQ.png?auth=4642483562efdec57761c32ce9e6c8e5d9c178368cad86c0246b9bfe081f649d"
+        },
+        {
+          "title": "Las mejores ofertas de tecnología de Amazon por Black Friday: Apple, Garmin y otras marcas con hasta un 60% de descuento",
+          "source": "El País",
+          "publishedAt": "2026-11-27T18:10:41.000Z",
+          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-black-friday-2026-tecnologia.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://imagenes.elpais.com/resizer/v2/CMQYFRJMAFAGLHQGY7ZINUBTQQ.png?auth=291c2c5f98029fd3e24be4d9644b85f945e0e7284984ea65f317a127404f503c"
+        }
+      ],
+      "path": "/es/entity/he-fichado-las-mejores-rebajas-de-levi-s-tommy-hilfiger-y-helly-hansen-y-estas-s/"
+    },
+    {
       "id": "now-cluster-españa-frente + amplio",
       "title": "Colau devuelve la fe al Frente Amplio y llama a los que \"no se rinden\" ni \"callan\" para la \"remontada\"",
       "brief": "Colau devuelve la fe al Frente Amplio y llama a los que \"no se rinden\" ni \"callan\" para la \"remontada\".",
@@ -27,13 +100,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
+      "strength": 22,
       "sourceCount": 3,
-      "itemCount": 4,
-      "freshness": "2h fresca",
+      "itemCount": 3,
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 96,
+      "alertScore": 86,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -46,8 +119,7 @@
         "El Correo"
       ],
       "images": [
-        "https://e01-phantom-elmundo.uecdn.es/6a8ea9f22ca6fafc1d5206dca9af7a17/crop/17x0/2998x1988/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/27/17958135681824.jpg",
-        "https://imagenes.elpais.com/resizer/v2/2HKGONNYFFFULIZI2BDVOVHAII.jpg?auth=47ad24d5c4d448ebd824c50ae27d35d07ad76a5ee6464a0e4d7a1e7c5b0a1a9d"
+        "https://e01-phantom-elmundo.uecdn.es/6a8ea9f22ca6fafc1d5206dca9af7a17/crop/17x0/2998x1988/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/27/17958135681824.jpg"
       ],
       "evidence": [
         {
@@ -70,13 +142,6 @@
           "publishedAt": "2026-11-27T19:24:24.000Z",
           "sourceUrl": "https://www.elcorreo.com/politica/frente-amplio-cierra-campana-esperanza-mantener-diputado-20261127202423-nt.html?utm_source=lootura.com&ref=lootura.com",
           "image": ""
-        },
-        {
-          "title": "Discursos de odio: PSOE y Frente Amplio plantean proteger a colectivos, el PP endurecer las penas y Vox alimenta la hostilidad",
-          "source": "El País",
-          "publishedAt": "2026-11-27T14:44:37.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-27/discursos-de-odio-psoe-y-frente-amplio-plantean-proteger-a-colectivos-el-pp-endurecer-las-penas-y-vox-alimenta-la-hostilidad.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/2HKGONNYFFFULIZI2BDVOVHAII.jpg?auth=47ad24d5c4d448ebd824c50ae27d35d07ad76a5ee6464a0e4d7a1e7c5b0a1a9d"
         }
       ],
       "path": "/es/entity/colau-devuelve-la-fe-al-frente-amplio-y-llama-a-los-que-no-se-rinden-ni-callan-p/"
@@ -90,13 +155,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 23,
+      "strength": 22,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 92,
+      "alertScore": 86,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Gana volumen rápido",
@@ -138,133 +203,6 @@
       "path": "/es/entity/abascal-cierra-su-campana-con-una-traca-de-insultos-y-descalificaciones-contra-p/"
     },
     {
-      "id": "now-cluster-españa-black + friday",
-      "title": "He fichado las mejores rebajas de Levi’s, Tommy Hilfiger y Helly Hansen y estas son las compras que haría este Black Friday",
-      "brief": "He fichado las mejores rebajas de Levi’s, Tommy Hilfiger y Helly Hansen y estas son las compras que haría este Black Friday.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "now",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 19,
-      "sourceCount": 2,
-      "itemCount": 6,
-      "freshness": "fresca ahora",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 91,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://imagenes.elpais.com/resizer/v2/TAE357IO7NEI3BKJIZJM3DKLBI.png?auth=50b494417d25e7fc268a3f2dc601031782b3e0173e5229d2052586a04455c219",
-        "https://imagenes.elpais.com/resizer/v2/3J3BDUQZGVDT3DMRNP5USZYXMU.png?auth=6526ca1f65208ed56f3325b128f94a960866a4cb60902ce4f771933f4de91150",
-        "https://imagenes.elpais.com/resizer/v2/PUE7KCVTWNGKFONADMMZKAVAWQ.png?auth=4642483562efdec57761c32ce9e6c8e5d9c178368cad86c0246b9bfe081f649d",
-        "https://imagenes.elpais.com/resizer/v2/CMQYFRJMAFAGLHQGY7ZINUBTQQ.png?auth=291c2c5f98029fd3e24be4d9644b85f945e0e7284984ea65f317a127404f503c",
-        "https://imagenes.elpais.com/resizer/v2/Y6QRHKTE5JFPFO56CNHV4VYKM4.png?auth=edfb3faff023f3dc7af0b5784fb480b53c1458a22782bc51c38e880fc2f744ae"
-      ],
-      "evidence": [
-        {
-          "title": "Black Friday 2026, en directo: las mejores ofertas de Amazon y otras tiendas, minuto a minuto",
-          "source": "El País",
-          "publishedAt": "2026-11-27T22:50:01.000Z",
-          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-black-friday-2026-en-directo.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/TAE357IO7NEI3BKJIZJM3DKLBI.png?auth=50b494417d25e7fc268a3f2dc601031782b3e0173e5229d2052586a04455c219"
-        },
-        {
-          "title": "He fichado las mejores rebajas de Levi’s, Tommy Hilfiger y Helly Hansen y estas son las compras que haría este Black Friday",
-          "source": "El País",
-          "publishedAt": "2026-11-27T18:21:08.000Z",
-          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-black-friday-2026-moda-grandes-marcas.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/3J3BDUQZGVDT3DMRNP5USZYXMU.png?auth=6526ca1f65208ed56f3325b128f94a960866a4cb60902ce4f771933f4de91150"
-        },
-        {
-          "title": "Las zapatillas Skechers más cómodas para caminar y otros 19 modelos de grandes marcas rebajados por Black Friday",
-          "source": "El País",
-          "publishedAt": "2026-11-27T18:14:11.000Z",
-          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-black-friday-2026-zapatillas.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/PUE7KCVTWNGKFONADMMZKAVAWQ.png?auth=4642483562efdec57761c32ce9e6c8e5d9c178368cad86c0246b9bfe081f649d"
-        },
-        {
-          "title": "Las mejores ofertas de tecnología de Amazon por Black Friday: Apple, Garmin y otras marcas con hasta un 60% de descuento",
-          "source": "El País",
-          "publishedAt": "2026-11-27T18:10:41.000Z",
-          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-black-friday-2026-tecnologia.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/CMQYFRJMAFAGLHQGY7ZINUBTQQ.png?auth=291c2c5f98029fd3e24be4d9644b85f945e0e7284984ea65f317a127404f503c"
-        },
-        {
-          "title": "El sérum coreano de Medicube con PDRN de salmón por menos de 13 euros en Amazon por Black Friday",
-          "source": "El País",
-          "publishedAt": "2026-11-27T16:38:12.000Z",
-          "sourceUrl": "https://elpais.com/escaparate/ofertas-y-descuentos/mejores-ofertas-black-friday-2026-serum-coreano-medicube-pdrn.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/Y6QRHKTE5JFPFO56CNHV4VYKM4.png?auth=edfb3faff023f3dc7af0b5784fb480b53c1458a22782bc51c38e880fc2f744ae"
-        }
-      ],
-      "path": "/es/entity/he-fichado-las-mejores-rebajas-de-levi-s-tommy-hilfiger-y-helly-hansen-y-estas-s/"
-    },
-    {
-      "id": "moving-cluster-españa-campana + sanchez",
-      "title": "Sánchez culmina su sexta campaña con el mitin más multitudinario de su trayectoria: “Tenemos la mayoría progresista a la vista, ¡sí se puede!”",
-      "brief": "Sánchez culmina su sexta campaña con el mitin más multitudinario de su trayectoria: “Tenemos la mayoría progresista a la vista, ¡sí se puede!”.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 22,
-      "sourceCount": 3,
-      "itemCount": 3,
-      "freshness": "3h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 86,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/27/calladitaa-kLED-U40572332534ZKE-1200x840@Diario%20Vasco.png"
-      ],
-      "evidence": [
-        {
-          "title": "Sánchez culmina su sexta campaña con el mitin más multitudinario de su trayectoria: “Tenemos la mayoría progresista a la vista, ¡sí se puede!”",
-          "source": "El País",
-          "publishedAt": "2026-11-27T20:05:55.000Z",
-          "sourceUrl": "https://elpais.com/espana/elecciones-generales/2026-11-27/sanchez-culmina-su-sexta-campana-con-el-mitin-mas-multitudinario-de-su-trayectoria-tenemos-la-mayoria-progresista-a-la-vista-si-se-puede.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "El error de Feijóo y la pregunta clave que Sánchez no contestó",
-          "source": "El Correo",
-          "publishedAt": "2026-11-27T14:12:52.000Z",
-          "sourceUrl": "https://www.elcorreo.com/elecciones/generales/adolfo-lorente-error-feijoo-pregunta-clave-sanchez-contesto-20261127095247-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "El «usted, calladita» de Feijóo a Colau revoluciona el fin de campaña: Sánchez lo define como «machismo» y el PP denuncia una manipulación",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-27T09:22:21.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/calladita-feijoo-colau-revoluciona-fin-campana-sanchez-20261127102221-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s1.ppllstatics.com/diariovasco/www/multimedia/politica/2026/11/27/calladitaa-kLED-U40572332534ZKE-1200x840@Diario%20Vasco.png"
-        }
-      ],
-      "path": "/es/entity/sanchez-culmina-su-sexta-campana-con-el-mitin-mas-multitudinario-de-su-trayector/"
-    },
-    {
       "id": "now-cluster-españa-menos + muertos",
       "title": "Al menos 14 muertos y seis heridos graves en el rescate de un cayuco en aguas de El Hierro",
       "brief": "Al menos 14 muertos y seis heridos graves en el rescate de un cayuco en aguas de El Hierro.",
@@ -273,13 +211,13 @@
       "mode": "now",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -312,7 +250,7 @@
       "path": "/es/entity/al-menos-14-muertos-y-seis-heridos-graves-en-el-rescate-de-un-cayuco-en-aguas-de/"
     },
     {
-      "id": "moving-cluster-españa-campana + feijoo",
+      "id": "moving-cluster-españa-campana + voto",
       "title": "Feijóo cierra la campaña pidiendo el voto a \"quienes dudan\" y que nunca antes votaron al PP: \"La decencia no es de izquierdas ni de derechas\"",
       "brief": "Feijóo cierra la campaña pidiendo el voto a \"quienes dudan\" y que nunca antes votaron al PP: \"La decencia no es de izquierdas ni de derechas\".",
       "whyItMatters": "",
@@ -320,13 +258,13 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 15,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "2h fresca",
+      "freshness": "3h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 76,
+      "alertScore": 70,
       "alertTriggers": [
         "Cruza varias fuentes",
         "Sigue activo"
@@ -358,60 +296,6 @@
       "path": "/es/entity/feijoo-cierra-la-campana-pidiendo-el-voto-a-quienes-dudan-y-que-nunca-antes-vota/"
     },
     {
-      "id": "moving-cluster-españa-frente + voto",
-      "title": "Más de 1.300 personas en Gipuzkoa se quedan sin votar el 29-N: la razón, el voto por correo",
-      "brief": "Más de 1.300 personas en Gipuzkoa se quedan sin votar el 29-N: la razón, el voto por correo.",
-      "whyItMatters": "",
-      "verdict": "Si se repite en la próxima pasada, gana peso.",
-      "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Subiendo",
-      "strength": 9,
-      "sourceCount": 2,
-      "itemCount": 3,
-      "freshness": "4h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 73,
-      "alertTriggers": [
-        "Cruza varias fuentes",
-        "Gana volumen rápido",
-        "Sigue activo"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Correo",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s3.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/27/1520842645-kBRG-U40578100210PmH-1200x840@Diario%20Vasco.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "El PP encara el 29-N seguro de lograr un escaño en Gipuzkoa frente «a los de las piedras»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-27T19:16:28.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/pp-encara-29n-seguro-lograr-escano-gipuzkoa-20261127201628-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Más de 1.300 personas en Gipuzkoa se quedan sin votar el 29-N: la razón, el voto por correo",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-27T12:22:16.000Z",
-          "sourceUrl": "https://www.diariovasco.com/gipuzkoa/1300-personas-gipuzkoa-se-quedan-votar-29n-razon-voto-correo-20261127132057-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/27/1520842645-kBRG-U40578100210PmH-1200x840@Diario%20Vasco.jpg"
-        },
-        {
-          "title": "Paraguas para ir a votar en Gipuzkoa: la lluvia regresará el domingo tras un sábado soleado",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-27T10:38:28.000Z",
-          "sourceUrl": "https://www.diariovasco.com/gipuzkoa/tiempo-fin-de-semana-elecciones-20261127110134-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        }
-      ],
-      "path": "/es/entity/mas-de-1-300-personas-en-gipuzkoa-se-quedan-sin-votar-el-29-n-la-razon-el-voto-p/"
-    },
-    {
       "id": "moving-cluster-españa-pablo + iglesias",
       "title": "Pablo Iglesias irrumpe en el cierre de campaña para rescatar a Podemos: \"Somos una minoría que no se vende y nunca vota con la nariz tapada\"",
       "brief": "Pablo Iglesias irrumpe en el cierre de campaña para rescatar a Podemos: \"Somos una minoría que no se vende y nunca vota con la nariz tapada\".",
@@ -420,10 +304,10 @@
       "mode": "moving",
       "state": "rising",
       "stateLabel": "Subiendo",
-      "strength": 14,
+      "strength": 9,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "3h fresca",
+      "freshness": "4h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
       "alertScore": 70,
@@ -459,23 +343,70 @@
       "path": "/es/entity/pablo-iglesias-irrumpe-en-el-cierre-de-campana-para-rescatar-a-podemos-somos-una/"
     },
     {
-      "id": "fading-cluster-españa-alerta + huevos",
-      "title": "Amplían la alerta por salmonela a nuevos lotes de huevos de Eroski, además de los de la marca Larrabe: estos son los afectados",
-      "brief": "Amplían la alerta por salmonela a nuevos lotes de huevos de Eroski, además de los de la marca Larrabe: estos son los afectados.",
+      "id": "moving-cluster-españa-frente + gipuzkoa",
+      "title": "El PP encara el 29-N seguro de lograr un escaño en Gipuzkoa frente «a los de las piedras»",
+      "brief": "El PP encara el 29-N seguro de lograr un escaño en Gipuzkoa frente «a los de las piedras».",
       "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
       "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
       "freshness": "5h fresca",
       "alertLevel": "contained",
       "alertLabel": "Contenido",
-      "alertScore": 52,
+      "alertScore": 70,
       "alertTriggers": [
-        "Cruza varias fuentes"
+        "Cruza varias fuentes",
+        "Sigue activo"
+      ],
+      "isHotNews": false,
+      "sources": [
+        "El Correo",
+        "El Diario Vasco"
+      ],
+      "images": [
+        "https://s3.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/27/1520842645-kBRG-U40578100210PmH-1200x840@Diario%20Vasco.jpg"
+      ],
+      "evidence": [
+        {
+          "title": "El PP encara el 29-N seguro de lograr un escaño en Gipuzkoa frente «a los de las piedras»",
+          "source": "El Correo",
+          "publishedAt": "2026-11-27T19:16:28.000Z",
+          "sourceUrl": "https://www.elcorreo.com/politica/pp-encara-29n-seguro-lograr-escano-gipuzkoa-20261127201628-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": ""
+        },
+        {
+          "title": "Más de 1.300 personas en Gipuzkoa se quedan sin votar el 29-N: la razón, el voto por correo",
+          "source": "El Diario Vasco",
+          "publishedAt": "2026-11-27T12:22:16.000Z",
+          "sourceUrl": "https://www.diariovasco.com/gipuzkoa/1300-personas-gipuzkoa-se-quedan-votar-29n-razon-voto-correo-20261127132057-nt.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/local/2026/11/27/1520842645-kBRG-U40578100210PmH-1200x840@Diario%20Vasco.jpg"
+        }
+      ],
+      "path": "/es/entity/el-pp-encara-el-29-n-seguro-de-lograr-un-escano-en-gipuzkoa-frente-a-los-de-las/"
+    },
+    {
+      "id": "moving-cluster-españa-alerta + huevos",
+      "title": "Amplían la alerta por salmonela a nuevos lotes de huevos de Eroski, además de los de la marca Larrabe: estos son los afectados",
+      "brief": "Amplían la alerta por salmonela a nuevos lotes de huevos de Eroski, además de los de la marca Larrabe: estos son los afectados.",
+      "whyItMatters": "",
+      "verdict": "Si se repite en la próxima pasada, gana peso.",
+      "mode": "moving",
+      "state": "active",
+      "stateLabel": "Activa",
+      "strength": 7,
+      "sourceCount": 2,
+      "itemCount": 2,
+      "freshness": "6h fresca",
+      "alertLevel": "contained",
+      "alertLabel": "Contenido",
+      "alertScore": 70,
+      "alertTriggers": [
+        "Cruza varias fuentes",
+        "Sigue activo"
       ],
       "isHotNews": false,
       "sources": [
@@ -502,142 +433,6 @@
         }
       ],
       "path": "/es/entity/amplian-la-alerta-por-salmonela-a-nuevos-lotes-de-huevos-de-eroski-ademas-de-los/"
-    },
-    {
-      "id": "fading-cluster-españa-ante + colegio",
-      "title": "Las familias del Decroly salen a la calle para salvar el único colegio concertado laico de Chamberí: “Los recuerdos no se venden”",
-      "brief": "Las familias del Decroly salen a la calle para salvar el único colegio concertado laico de Chamberí: “Los recuerdos no se venden”.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 7,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "7h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Mundo",
-        "El País"
-      ],
-      "images": [
-        "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/27/17957939819632.jpg",
-        "https://imagenes.elpais.com/resizer/v2/VENDDEXF6RGHZO22U35CZINE5U.jpg?auth=608ba4743c66621894809c7c604c2e0f9c770d507a42b6567c7c0f7509ae7004"
-      ],
-      "evidence": [
-        {
-          "title": "Decenas de familias se concentran ante el colegio concertado Decroly para impedir su cierre: \"Están vendiendo nuestra infancia\"",
-          "source": "El Mundo",
-          "publishedAt": "2026-11-27T15:49:08.000Z",
-          "sourceUrl": "https://www.elmundo.es/madrid/2026/11/27/6b09a42bfdddff9d768b4571.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/27/17957939819632.jpg"
-        },
-        {
-          "title": "Las familias del Decroly salen a la calle para salvar el único colegio concertado laico de Chamberí: “Los recuerdos no se venden”",
-          "source": "El País",
-          "publishedAt": "2026-11-27T14:24:05.000Z",
-          "sourceUrl": "https://elpais.com/espana/madrid/2026-11-27/las-familias-del-decroly-salen-a-la-calle-para-salvar-el-unico-colegio-concertado-laico-de-chamberi-los-recuerdos-no-se-venden.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://imagenes.elpais.com/resizer/v2/VENDDEXF6RGHZO22U35CZINE5U.jpg?auth=608ba4743c66621894809c7c604c2e0f9c770d507a42b6567c7c0f7509ae7004"
-        }
-      ],
-      "path": "/es/entity/las-familias-del-decroly-salen-a-la-calle-para-salvar-el-unico-colegio-concertad/"
-    },
-    {
-      "id": "fading-cluster-españa-campana + votar",
-      "title": "Pradales eleva el tono al final de la campaña: «¿Qué es eso de que detengamos 12 veces al mismo 'mangui' y no entre en la cárcel?»",
-      "brief": "Pradales eleva el tono al final de la campaña: «¿Qué es eso de que detengamos 12 veces al mismo 'mangui' y no entre en la cárcel?».",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "8h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El Diario Vasco",
-        "El Correo"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/27/pradalesikurrina-RVjsEsFOtGGU60tws6d0I1L-1200x840@El%20Correo.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "Pradales eleva el tono al final de la campaña: «¿Qué es eso de que detengamos 12 veces al mismo 'mangui' y no entre en la cárcel?»",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-27T15:04:30.000Z",
-          "sourceUrl": "https://www.diariovasco.com/politica/pradales-eleva-tono-final-campana-detengamos-doce-veces-mangui-no-entrar-carcel-20261127160110-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Pradales endurece el mensaje del PNV a 48 horas de votar: «¿Qué es eso de que detengamos 10-12 veces al mismo 'mangui'? ¡Ya basta!»",
-          "source": "El Correo",
-          "publishedAt": "2026-11-27T12:59:12.000Z",
-          "sourceUrl": "https://www.elcorreo.com/politica/pradales-endurece-mensaje-pnv-horas-votar-detengamos-20261127135912-nt.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/elcorreo/www/multimedia/politica/2026/11/27/pradalesikurrina-RVjsEsFOtGGU60tws6d0I1L-1200x840@El%20Correo.jpg"
-        }
-      ],
-      "path": "/es/entity/pradales-eleva-el-tono-al-final-de-la-campana-que-es-eso-de-que-detengamos-12-ve/"
-    },
-    {
-      "id": "fading-cluster-españa-marc + marquez",
-      "title": "La trayectoria de Marc Márquez, en datos: 10 Mundiales y 106 victorias",
-      "brief": "La trayectoria de Marc Márquez, en datos: 10 Mundiales y 106 victorias.",
-      "whyItMatters": "",
-      "verdict": "Si no vuelve a aparecer, sale de portada.",
-      "mode": "fading",
-      "state": "cooling",
-      "stateLabel": "Bajando",
-      "strength": 6,
-      "sourceCount": 2,
-      "itemCount": 2,
-      "freshness": "8h fresca",
-      "alertLevel": "contained",
-      "alertLabel": "Contenido",
-      "alertScore": 46,
-      "alertTriggers": [
-        "Cruza varias fuentes"
-      ],
-      "isHotNews": false,
-      "sources": [
-        "El País",
-        "El Diario Vasco"
-      ],
-      "images": [
-        "https://s2.ppllstatics.com/rc/www/multimedia/deportes/2026/11/27/marc-marquez.jpg"
-      ],
-      "evidence": [
-        {
-          "title": "La trayectoria de Marc Márquez, en datos: 10 Mundiales y 106 victorias",
-          "source": "El País",
-          "publishedAt": "2026-11-27T15:19:25.000Z",
-          "sourceUrl": "https://elpais.com/deportes/motociclismo/2026-11-27/la-trayectoria-de-marc-marquez-en-datos-10-mundiales-y-106-victorias.html?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
-        },
-        {
-          "title": "Marc Márquez se retira del motociclismo",
-          "source": "El Diario Vasco",
-          "publishedAt": "2026-11-27T09:53:46.000Z",
-          "sourceUrl": "https://www.diariovasco.com/deportes/motor/motociclismo/marc-marquez-retira-motogp-20261127105346-ntrc.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://s2.ppllstatics.com/rc/www/multimedia/deportes/2026/11/27/marc-marquez.jpg"
-        }
-      ],
-      "path": "/es/entity/la-trayectoria-de-marc-marquez-en-datos-10-mundiales-y-106-victorias/"
     }
   ]
 }
