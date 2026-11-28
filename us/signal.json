@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "edition": "us",
   "language": "en",
-  "updatedAt": "2026-11-28T02:00:47.581Z",
+  "updatedAt": "2026-11-28T03:00:47.892Z",
   "pulseLabel": "Last analysis · this minute",
-  "ambientPulseLabel": "447,372 links analyzed",
-  "dayScanLabel": "8,330 links scanned in 24h",
+  "ambientPulseLabel": "448,206 links analyzed",
+  "dayScanLabel": "8,332 links scanned in 24h",
   "empty": {
     "title": "No new trends",
     "body": "Last analysis complete. Nothing deserves the cover right now.",
@@ -17,18 +17,18 @@
     ]
   },
   "topAlert": {
-    "id": "moving-cluster-united states-thanksgiving + power",
-    "title": "How severe weather rocked this Thanksgiving, from power outages to flight delays",
-    "brief": "How severe weather rocked this Thanksgiving, from power outages to flight delays.",
+    "id": "now-cluster-united states-thanksgiving + power",
+    "title": "Some Americans canceled or postponed Thanksgiving dinners amid power outages and storms.",
+    "brief": "Some Americans canceled or postponed Thanksgiving dinners amid power outages and storms.",
     "whyItMatters": "",
     "verdict": "If it repeats in the next run, it gains weight.",
-    "mode": "moving",
+    "mode": "now",
     "state": "rising",
     "stateLabel": "Rising",
     "strength": 29,
     "sourceCount": 5,
     "itemCount": 7,
-    "freshness": "1h fresh",
+    "freshness": "fresh now",
     "alertLevel": "watch",
     "alertLabel": "Watch",
     "alertScore": 99,
@@ -39,19 +39,26 @@
     ],
     "isHotNews": false,
     "sources": [
+      "The New York Times",
       "CBS News",
       "NBC News",
       "PBS NewsHour",
-      "The New York Times",
       "NPR"
     ],
     "images": [
+      "https://static01.nyt.com/images/2026/11/27/multimedia/27nat-thanksgiving-do-over-1-ktwf/27nat-thanksgiving-do-over-1-ktwf-mediumSquareAt3X.jpg",
       "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795823989541_nn_sro_weather_friday_261127_S3_1920x1080-bmp3b4.jpg",
       "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrapusaweatherJPG-1024x576.jpg",
-      "https://static01.nyt.com/images/2026/11/27/multimedia/27nat-thanksgiving-do-over-1-ktwf/27nat-thanksgiving-do-over-1-ktwf-mediumSquareAt3X.jpg",
       "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/27/96670235-1b0e-4a8e-8d88-df1fbb2ee4cd/thumbnail/1200x630/d45054afa10c9592993df215dfc5746c/ap26331673311397.jpg"
     ],
     "evidence": [
+      {
+        "title": "Some Americans canceled or postponed Thanksgiving dinners amid power outages and storms.",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-28T02:07:54.000Z",
+        "sourceUrl": "https://www.nytimes.com/2026/11/27/us/thanksgiving-delayed-storm.html?utm_source=lootura.com&ref=lootura.com",
+        "image": "https://static01.nyt.com/images/2026/11/27/multimedia/27nat-thanksgiving-do-over-1-ktwf/27nat-thanksgiving-do-over-1-ktwf-mediumSquareAt3X.jpg"
+      },
       {
         "title": "How severe weather rocked this Thanksgiving, from power outages to flight delays",
         "source": "CBS News",
@@ -74,13 +81,6 @@
         "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrapusaweatherJPG-1024x576.jpg"
       },
       {
-        "title": "Some Americans canceled or postponed Thanksgiving dinners amid power outages and storms.",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-27T23:22:29.000Z",
-        "sourceUrl": "https://www.nytimes.com/2026/11/27/us/thanksgiving-delayed-storm.html?utm_source=lootura.com&ref=lootura.com",
-        "image": "https://static01.nyt.com/images/2026/11/27/multimedia/27nat-thanksgiving-do-over-1-ktwf/27nat-thanksgiving-do-over-1-ktwf-mediumSquareAt3X.jpg"
-      },
-      {
         "title": "Power being slowly restored as heavy Thanksgiving storm eases, but flood risk remains",
         "source": "CBS News",
         "publishedAt": "2026-11-27T23:04:07.000Z",
@@ -88,22 +88,22 @@
         "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/27/96670235-1b0e-4a8e-8d88-df1fbb2ee4cd/thumbnail/1200x630/d45054afa10c9592993df215dfc5746c/ap26331673311397.jpg"
       }
     ],
-    "path": "/us/entity/how-severe-weather-rocked-this-thanksgiving-from-power-outages-to-flight-delays/"
+    "path": "/us/entity/some-americans-canceled-or-postponed-thanksgiving-dinners-amid-power-outages-and/"
   },
   "signals": [
     {
-      "id": "now-cluster-united states-black + friday",
+      "id": "moving-cluster-united states-black + friday",
       "title": "The best robot vacuums we’ve tested are up to 60 percent off for Black Friday",
       "brief": "The best robot vacuums we’ve tested are up to 60 percent off for Black Friday.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
-      "strength": 35,
+      "strength": 34,
       "sourceCount": 4,
       "itemCount": 17,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 99,
@@ -120,7 +120,7 @@
         "The New York Times"
       ],
       "images": [
-        "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24662269/DSCF0790_Enhanced_NR_2.jpg?quality=90&strip=all&crop=0,0,100,100",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24662269/DSCF0790_Enhanced_NR_2.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400",
         "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/8A0A6240.jpeg?quality=90&strip=all&crop=0,0,100,100",
         "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268823_Sony_XM4C_JHiggins_0006.jpg?quality=90&strip=all&crop=0,0,100,100",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261127-BF-Nintendo-switch-dj-social-V1-ddbd84.jpg",
@@ -132,7 +132,7 @@
           "source": "The Verge",
           "publishedAt": "2026-11-28T01:30:00.000Z",
           "sourceUrl": "https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24662269/DSCF0790_Enhanced_NR_2.jpg?quality=90&strip=all&crop=0,0,100,100"
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24662269/DSCF0790_Enhanced_NR_2.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400"
         },
         {
           "title": "Shoppers expected to spend nearly $13 billion this Black Friday, Adobe says",
@@ -166,18 +166,18 @@
       "path": "/us/entity/the-best-robot-vacuums-we-ve-tested-are-up-to-60-percent-off-for-black-friday/"
     },
     {
-      "id": "moving-cluster-united states-thanksgiving + power",
-      "title": "How severe weather rocked this Thanksgiving, from power outages to flight delays",
-      "brief": "How severe weather rocked this Thanksgiving, from power outages to flight delays.",
+      "id": "now-cluster-united states-thanksgiving + power",
+      "title": "Some Americans canceled or postponed Thanksgiving dinners amid power outages and storms.",
+      "brief": "Some Americans canceled or postponed Thanksgiving dinners amid power outages and storms.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 29,
       "sourceCount": 5,
       "itemCount": 7,
-      "freshness": "1h fresh",
+      "freshness": "fresh now",
       "alertLevel": "watch",
       "alertLabel": "Watch",
       "alertScore": 99,
@@ -188,19 +188,26 @@
       ],
       "isHotNews": false,
       "sources": [
+        "The New York Times",
         "CBS News",
         "NBC News",
         "PBS NewsHour",
-        "The New York Times",
         "NPR"
       ],
       "images": [
+        "https://static01.nyt.com/images/2026/11/27/multimedia/27nat-thanksgiving-do-over-1-ktwf/27nat-thanksgiving-do-over-1-ktwf-mediumSquareAt3X.jpg",
         "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/mpx/2704722219/2026_11/1795823989541_nn_sro_weather_friday_261127_S3_1920x1080-bmp3b4.jpg",
         "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrapusaweatherJPG-1024x576.jpg",
-        "https://static01.nyt.com/images/2026/11/27/multimedia/27nat-thanksgiving-do-over-1-ktwf/27nat-thanksgiving-do-over-1-ktwf-mediumSquareAt3X.jpg",
         "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/27/96670235-1b0e-4a8e-8d88-df1fbb2ee4cd/thumbnail/1200x630/d45054afa10c9592993df215dfc5746c/ap26331673311397.jpg"
       ],
       "evidence": [
+        {
+          "title": "Some Americans canceled or postponed Thanksgiving dinners amid power outages and storms.",
+          "source": "The New York Times",
+          "publishedAt": "2026-11-28T02:07:54.000Z",
+          "sourceUrl": "https://www.nytimes.com/2026/11/27/us/thanksgiving-delayed-storm.html?utm_source=lootura.com&ref=lootura.com",
+          "image": "https://static01.nyt.com/images/2026/11/27/multimedia/27nat-thanksgiving-do-over-1-ktwf/27nat-thanksgiving-do-over-1-ktwf-mediumSquareAt3X.jpg"
+        },
         {
           "title": "How severe weather rocked this Thanksgiving, from power outages to flight delays",
           "source": "CBS News",
@@ -223,13 +230,6 @@
           "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrapusaweatherJPG-1024x576.jpg"
         },
         {
-          "title": "Some Americans canceled or postponed Thanksgiving dinners amid power outages and storms.",
-          "source": "The New York Times",
-          "publishedAt": "2026-11-27T23:22:29.000Z",
-          "sourceUrl": "https://www.nytimes.com/2026/11/27/us/thanksgiving-delayed-storm.html?utm_source=lootura.com&ref=lootura.com",
-          "image": "https://static01.nyt.com/images/2026/11/27/multimedia/27nat-thanksgiving-do-over-1-ktwf/27nat-thanksgiving-do-over-1-ktwf-mediumSquareAt3X.jpg"
-        },
-        {
           "title": "Power being slowly restored as heavy Thanksgiving storm eases, but flood risk remains",
           "source": "CBS News",
           "publishedAt": "2026-11-27T23:04:07.000Z",
@@ -237,7 +237,7 @@
           "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/27/96670235-1b0e-4a8e-8d88-df1fbb2ee4cd/thumbnail/1200x630/d45054afa10c9592993df215dfc5746c/ap26331673311397.jpg"
         }
       ],
-      "path": "/us/entity/how-severe-weather-rocked-this-thanksgiving-from-power-outages-to-flight-delays/"
+      "path": "/us/entity/some-americans-canceled-or-postponed-thanksgiving-dinners-amid-power-outages-and/"
     },
     {
       "id": "now-cluster-united states-princess + kate",
@@ -251,7 +251,7 @@
       "strength": 23,
       "sourceCount": 3,
       "itemCount": 3,
-      "freshness": "fresh now",
+      "freshness": "1h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 92,
@@ -353,18 +353,18 @@
       "path": "/us/entity/performers-and-marching-bands-scramble-after-macy-s-thanksgiving-day-parade-dela/"
     },
     {
-      "id": "moving-cluster-united states-east + coast",
+      "id": "now-cluster-united states-east + coast",
       "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
       "brief": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "moving",
+      "mode": "now",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 16,
       "sourceCount": 2,
       "itemCount": 3,
-      "freshness": "1h fresh",
+      "freshness": "fresh now",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 79,
@@ -386,7 +386,7 @@
         {
           "title": "Thanksgiving Storm Leaves More Than 400,000 Without Power on the East Coast",
           "source": "The New York Times",
-          "publishedAt": "2026-11-28T00:35:52.000Z",
+          "publishedAt": "2026-11-28T02:11:55.000Z",
           "sourceUrl": "https://www.nytimes.com/2026/11/27/us/thanksgiving-weather-east-coast-storm.html?utm_source=lootura.com&ref=lootura.com",
           "image": "https://static01.nyt.com/images/2026/11/27/multimedia/27xp-storm-toll-01-htqv/27xp-storm-toll-01-htqv-mediumSquareAt3X.jpg"
         },
@@ -408,18 +408,18 @@
       "path": "/us/entity/thanksgiving-storm-batters-east-coast-and-black-friday-sales-to-hit-record-level/"
     },
     {
-      "id": "now-cluster-united states-force + cloud",
+      "id": "moving-cluster-united states-force + cloud",
       "title": "U.S. Air Force cloud platform breached by hackers, report says",
       "brief": "U.S. Air Force cloud platform breached by hackers, report says.",
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
-      "mode": "now",
+      "mode": "moving",
       "state": "rising",
       "stateLabel": "Rising",
       "strength": 15,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "fresh now",
+      "freshness": "2h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 76,
@@ -432,21 +432,24 @@
         "CBS News",
         "NBC News"
       ],
-      "images": [],
+      "images": [
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/28/ccabe472-1dcb-4264-a830-03c0e1090750/thumbnail/1200x630/9d54b47fe925e6a9308ba2e3abe9542e/cbsn-fusion-us-air-force-cloud-platform-breached-by-hackers-report-says-thumbnail.jpg",
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795822790172_nn_kod_air_force_cyber_attack_261127_S3_1920x1080-pob9dy.jpg"
+      ],
       "evidence": [
         {
           "title": "U.S. Air Force cloud platform breached by hackers, report says",
           "source": "CBS News",
           "publishedAt": "2026-11-28T01:01:14.000Z",
           "sourceUrl": "https://www.cbsnews.com/video/us-air-force-cloud-platform-breached-by-hackers-report-says/?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/28/ccabe472-1dcb-4264-a830-03c0e1090750/thumbnail/1200x630/9d54b47fe925e6a9308ba2e3abe9542e/cbsn-fusion-us-air-force-cloud-platform-breached-by-hackers-report-says-thumbnail.jpg"
         },
         {
           "title": "Cyber attack on U.S. Air Force cloud-based platform",
           "source": "NBC News",
           "publishedAt": "2026-11-27T23:39:55.000Z",
           "sourceUrl": "https://www.nbcnews.com/nightly-news/video/cyber-attack-on-u-s-air-force-cloud-based-platform-274285637711?utm_source=lootura.com&ref=lootura.com",
-          "image": ""
+          "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_11/1795822790172_nn_kod_air_force_cyber_attack_261127_S3_1920x1080-pob9dy.jpg"
         }
       ],
       "path": "/us/entity/u-s-air-force-cloud-platform-breached-by-hackers-report-says/"
@@ -458,12 +461,12 @@
       "whyItMatters": "",
       "verdict": "If it repeats in the next run, it gains weight.",
       "mode": "moving",
-      "state": "rising",
-      "stateLabel": "Rising",
-      "strength": 9,
+      "state": "active",
+      "stateLabel": "Active",
+      "strength": 8,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "4h fresh",
+      "freshness": "5h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 70,
@@ -500,10 +503,10 @@
       "mode": "moving",
       "state": "cooling",
       "stateLabel": "Cooling",
-      "strength": 6,
+      "strength": 5,
       "sourceCount": 2,
       "itemCount": 2,
-      "freshness": "9h fresh",
+      "freshness": "10h fresh",
       "alertLevel": "contained",
       "alertLabel": "Contained",
       "alertScore": 64,
